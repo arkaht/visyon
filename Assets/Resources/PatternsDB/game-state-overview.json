@@ -1,0 +1,61 @@
+{
+    "name": "Game State Overview",
+    "description": "Players are provided with information that extends beyond the observational abilities provided by game elements",
+    "relations": {
+        "instantiates": [
+            "strategic-knowledge",
+            "cognitive-immersion",
+            "stimulated-planning",
+            "analysis-paralysis",
+            "disruption-of-focused-attention"
+        ],
+        "modulates": [
+            "attention-swapping",
+            "game-world-navigation",
+            "perceivable-margins",
+            "near-miss-indicators",
+            "exploration",
+            "units",
+            "game-world",
+            "reconnaissance",
+            "puzzle-solving",
+            "balancing-effects",
+            "goal-indicators",
+            "negotiation",
+            "player-defined-goals",
+            "preventing-goals",
+            "progress-indicators",
+            "outcome-indicators",
+            "public-information",
+            "identification",
+            "narrative-structures"
+        ],
+        "instantiated_by": [
+            "god-views",
+            "book-keeping-tokens",
+            "turn-taking",
+            "disruption-of-focused-attention",
+            "score",
+            "cut-scenes"
+        ],
+        "modulated_by": [
+            "spectators",
+            "status-indicators",
+            "fog-of-war",
+            "first-person-views",
+            "third-person-views",
+            "perfect-information",
+            "area-control",
+            "extra-game-actions",
+            "alarms"
+        ],
+        "conflicts": [
+            "attention-swapping",
+            "surprises",
+            "limited-foresight",
+            "leaps-of-faith",
+            "first-person-views",
+            "reconnaissance"
+        ]
+    }
+}

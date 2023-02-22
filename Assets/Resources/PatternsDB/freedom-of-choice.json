@@ -1,0 +1,76 @@
+{
+    "name": "Freedom of Choice",
+    "description": "Players have the ability to make choices in the game.",
+    "relations": {
+        "instantiates": [
+            "game-world-navigation",
+            "cognitive-immersion",
+            "stimulated-planning",
+            "emotional-immersion",
+            "empowerment",
+            "social-dilemmas",
+            "immersion",
+            "replayability",
+            "tradeoffs",
+            "varied-gameplay",
+            "analysis-paralysis",
+            "reversability",
+            "risk-reward",
+            "perceived-chance-to-succeed"
+        ],
+        "modulates": [
+            "character-development",
+            "multiplayer-games",
+            "conceal",
+            "rewards",
+            "improved-abilities",
+            "new-abilities",
+            "characters"
+        ],
+        "instantiated_by": [
+            "extended-actions",
+            "trading",
+            "no-ops",
+            "asymmetric-abilities",
+            "resource-management",
+            "converters",
+            "planned-character-development",
+            "construction",
+            "budgeted-action-points",
+            "optional-goals",
+            "creative-control",
+            "save-load-cycles",
+            "player-defined-goals",
+            "selectable-sets-of-goals",
+            "new-abilities",
+            "player-decided-distribution-of-rewards-penalties",
+            "storytelling",
+            "social-interaction",
+            "extra-game-actions",
+            "container",
+            "arithmetic-rewards-for-investments"
+        ],
+        "modulated_by": [
+            "limited-resources",
+            "asynchronous-games",
+            "spawning",
+            "illusion-of-influence",
+            "asymmetric-goals"
+        ],
+        "conflicts": [
+            "collaborative-actions",
+            "penalties",
+            "movement-limitations",
+            "limited-set-of-actions",
+            "downtime",
+            "ultra-powerful-events",
+            "extended-actions",
+            "shrinking-game-world",
+            "decreased-abilities",
+            "ability-losses",
+            "inaccessible-areas",
+            "limited-planning-ability",
+            "narrative-structures"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Cut Scenes",
+    "description": "Sequences of storytelling where players cannot act within the game.",
+    "relations": {
+        "instantiates": [
+            "surprises",
+            "strategic-knowledge",
+            "stimulated-planning",
+            "downtime",
+            "ultra-powerful-events",
+            "narrative-structures",
+            "disruption-of-focused-attention",
+            "game-pauses",
+            "game-state-overview",
+            "storytelling"
+        ],
+        "modulates": [
+            "real-time-games",
+            "goal-indicators",
+            "levels",
+            "alternative-reality",
+            "perceived-chance-to-succeed",
+            "single-player-games"
+        ],
+        "instantiated_by": [
+            "dedicated-game-facilitators"
+        ],
+        "modulated_by": [
+            "game-masters"
+        ],
+        "conflicts": [
+            "illusion-of-influence"
+        ]
+    }
+}

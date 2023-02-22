@@ -1,0 +1,60 @@
+{
+    "name": "Downtime",
+    "description": "The player cannot directly affect the outcome of the game for a period of time.",
+    "relations": {
+        "instantiates": [
+            "individual-penalties",
+            "anticipation",
+            "penalties",
+            "tension"
+        ],
+        "modulates": [
+            "damage",
+            "unknown-goals",
+            "multiplayer-games",
+            "closure-points",
+            "consistent-reality-logic",
+            "single-player-games"
+        ],
+        "instantiated_by": [
+            "early-elimination",
+            "spectators",
+            "extended-actions",
+            "cognitive-immersion",
+            "movement-limitations",
+            "multiplayer-games",
+            "turn-based-games",
+            "synchronous-games",
+            "asynchronous-games",
+            "analysis-paralysis",
+            "ultra-powerful-events",
+            "save-load-cycles",
+            "cut-scenes",
+            "ability-losses",
+            "spawning",
+            "turn-taking",
+            "player-killing",
+            "player-elimination",
+            "game-pauses"
+        ],
+        "modulated_by": [
+            "tick-based-games",
+            "dedicated-game-facilitators",
+            "right-level-of-complexity",
+            "limited-resources",
+            "game-masters"
+        ],
+        "conflicts": [
+            "time-limits",
+            "ephemeral-goals",
+            "real-time-games",
+            "negotiation",
+            "tension",
+            "freedom-of-choice",
+            "game-masters",
+            "dedicated-game-facilitators",
+            "limited-planning-ability",
+            "immersion"
+        ]
+    }
+}

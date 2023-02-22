@@ -1,0 +1,36 @@
+{
+    "name": "Eliminate",
+    "description": "Eliminate is the goal to remove a game element from its location in the game space.",
+    "relations": {
+        "instantiates": [
+            "aim-shoot",
+            "conflict",
+            "combat",
+            "penalties",
+            "last-man-standing",
+            "enemies",
+            "preventing-goals",
+            "higher-level-closures-as-gameplay-progresses",
+            "boss-monsters",
+            "player-elimination"
+        ],
+        "modulates": [
+            "resource-generators",
+            "units",
+            "capture"
+        ],
+        "instantiated_by": [
+            "consumers"
+        ],
+        "modulated_by": [
+            "damage",
+            "deadly-traps",
+            "bidding",
+            "consumers",
+            "contact",
+            "survive",
+            "evade"
+        ],
+        "conflicts": []
+    }
+}

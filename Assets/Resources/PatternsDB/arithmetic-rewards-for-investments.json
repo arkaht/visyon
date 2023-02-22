@@ -1,0 +1,24 @@
+{
+    "name": "Arithmetic Rewards for Investments",
+    "description": "The possible rewards have a linear relationship to the investments, that is, if the investment is double, the comparable reward is doubled.",
+    "relations": {
+        "instantiates": [
+            "predictable-consequences",
+            "freedom-of-choice"
+        ],
+        "modulates": [
+            "investments",
+            "rewards",
+            "risk-reward"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "time-limits",
+            "diminishing-returns"
+        ],
+        "conflicts": [
+            "geometric-rewards-for-investments",
+            "diminishing-returns"
+        ]
+    }
+}

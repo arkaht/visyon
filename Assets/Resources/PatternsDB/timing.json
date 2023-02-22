@@ -1,0 +1,35 @@
+{
+    "name": "Timing",
+    "description": "The effect on gameplay that actions have to be performed at certain points in game time to be performed at all or that the direct effect of actions varies greatly depending on when they are performed.",
+    "relations": {
+        "instantiates": [
+            "rhythm-based-actions",
+            "game-mastery"
+        ],
+        "modulates": [
+            "turn-based-games",
+            "overcome",
+            "real-time-games",
+            "configuration"
+        ],
+        "instantiated_by": [
+            "aim-shoot",
+            "combat",
+            "collaborative-actions",
+            "stimulated-planning",
+            "capture",
+            "moveable-tiles",
+            "geometric-rewards-for-investments",
+            "deadly-traps",
+            "obstacles",
+            "delayed-effects",
+            "combos"
+        ],
+        "modulated_by": [
+            "no-ops",
+            "privileged-abilities",
+            "stimulated-planning"
+        ],
+        "conflicts": []
+    }
+}

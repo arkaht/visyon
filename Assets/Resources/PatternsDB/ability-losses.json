@@ -1,0 +1,50 @@
+{
+    "name": "Ability Losses",
+    "description": "The loss of ability to perform an action in the game.",
+    "relations": {
+        "instantiates": [
+            "gain-competence",
+            "continuous-goals",
+            "character-development",
+            "penalties",
+            "downtime",
+            "player-elimination",
+            "limited-set-of-actions",
+            "varied-gameplay",
+            "gain-ownership"
+        ],
+        "modulates": [
+            "damage",
+            "player-balance",
+            "new-abilities",
+            "narrative-structures",
+            "right-level-of-difficulty",
+            "right-level-of-complexity",
+            "spawning",
+            "player-killing"
+        ],
+        "instantiated_by": [
+            "movement-limitations",
+            "ultra-powerful-events",
+            "role-reversal"
+        ],
+        "modulated_by": [
+            "time-limits",
+            "units",
+            "balancing-effects",
+            "indirect-control",
+            "game-masters",
+            "negotiation",
+            "new-abilities"
+        ],
+        "conflicts": [
+            "competence-areas",
+            "illusion-of-influence",
+            "save-load-cycles",
+            "freedom-of-choice",
+            "consistent-reality-logic",
+            "perceived-chance-to-succeed",
+            "narrative-structures"
+        ]
+    }
+}

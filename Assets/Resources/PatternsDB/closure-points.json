@@ -1,0 +1,28 @@
+{
+    "name": "Closure Points",
+    "description": "Closure Points are events in gameplay where the game state is, or can be, reduced in size.",
+    "relations": {
+        "instantiates": [
+            "limited-foresight",
+            "higher-level-closures-as-gameplay-progresses"
+        ],
+        "modulates": [
+            "predictable-consequences",
+            "narrative-structures"
+        ],
+        "instantiated_by": [
+            "save-points",
+            "tournaments",
+            "transfer-of-control",
+            "levels",
+            "excluding-goals"
+        ],
+        "modulated_by": [
+            "downtime",
+            "committed-goals"
+        ],
+        "conflicts": [
+            "never-ending-stories"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Moveable Tiles",
+    "description": "These are Tiles that can move during gameplay either as the effect of player actions or game events.",
+    "relations": {
+        "instantiates": [
+            "strategic-knowledge",
+            "rhythm-based-actions",
+            "the-show-must-go-on",
+            "timing"
+        ],
+        "modulates": [
+            "tiles",
+            "aim-shoot",
+            "reconfigurable-game-world"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "controllers"
+        ],
+        "conflicts": []
+    }
+}

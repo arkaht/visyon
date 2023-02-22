@@ -1,0 +1,39 @@
+{
+    "name": "Race",
+    "description": "The competition between players to be the first to reach a certain goal, often being the first to a certain location following an approved route.",
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "competition",
+            "excluding-goals",
+            "supporting-goals",
+            "movement",
+            "area-control",
+            "symmetric-goals"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "shared-resources",
+            "exploration",
+            "score",
+            "gain-competence",
+            "individual-rewards"
+        ],
+        "modulated_by": [
+            "continuous-goals",
+            "time-limits",
+            "status-indicators",
+            "movement-limitations",
+            "handicaps",
+            "interferable-goals",
+            "progress-indicators",
+            "ghosts",
+            "maneuvering",
+            "tiebreakers",
+            "tied-results",
+            "strategic-knowledge",
+            "shared-rewards"
+        ],
+        "conflicts": []
+    }
+}

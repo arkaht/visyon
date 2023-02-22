@@ -1,0 +1,42 @@
+{
+    "name": "Tournaments",
+    "description": "Tournaments consist of the playing of a series of game instances where the outcome of each instances affects the outcome of the whole tournament.",
+    "relations": {
+        "instantiates": [
+            "hierarchy-of-goals",
+            "meta-games",
+            "conflict",
+            "perceivable-margins",
+            "strategic-knowledge",
+            "trans-game-information",
+            "closure-points",
+            "overcome",
+            "tension",
+            "tiebreakers",
+            "replayability",
+            "illusionary-rewards",
+            "multiplayer-games",
+            "tied-results"
+        ],
+        "modulates": [
+            "combat",
+            "asymmetric-abilities",
+            "betting",
+            "player-balance",
+            "social-organizations",
+            "game-mastery"
+        ],
+        "instantiated_by": [
+            "last-man-standing",
+            "overcome"
+        ],
+        "modulated_by": [
+            "spectators",
+            "self-facilitated-games",
+            "tiebreakers",
+            "quick-games",
+            "score"
+        ],
+        "conflicts": []
+    }
+}

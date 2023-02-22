@@ -1,0 +1,55 @@
+{
+    "name": "Characters",
+    "description": "Abstract representations of persons in a game.",
+    "relations": {
+        "instantiates": [
+            "competence-areas",
+            "emotional-immersion",
+            "investments",
+            "focus-loci",
+            "illusion-of-influence",
+            "identification",
+            "creative-control",
+            "immersion",
+            "enemies",
+            "orthogonal-unit-differentiation",
+            "player-defined-goals",
+            "narrative-structures"
+        ],
+        "modulates": [
+            "avatars",
+            "multiplayer-games",
+            "player-balance",
+            "alternative-reality",
+            "varied-gameplay",
+            "roleplaying"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "damage",
+            "penalties",
+            "planned-character-development",
+            "producers",
+            "resources",
+            "budgeted-action-points",
+            "decreased-abilities",
+            "improved-abilities",
+            "dedicated-game-facilitators",
+            "renewable-resources",
+            "persistent-game-worlds",
+            "rewards",
+            "lives",
+            "tools",
+            "skills",
+            "privileged-abilities",
+            "storytelling",
+            "new-abilities",
+            "character-development",
+            "randomness",
+            "handles",
+            "freedom-of-choice",
+            "game-masters"
+        ],
+        "conflicts": []
+    }
+}

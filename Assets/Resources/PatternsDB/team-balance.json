@@ -1,0 +1,35 @@
+{
+    "name": "Team Balance",
+    "description": "Teams have equal chances of succeeding with actions in a game or winning a game.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "perceived-chance-to-succeed"
+        ],
+        "modulates": [
+            "competence-areas",
+            "collaborative-actions",
+            "privileged-abilities",
+            "team-play"
+        ],
+        "instantiated_by": [
+            "symmetry",
+            "player-balance",
+            "balancing-effects",
+            "handicaps"
+        ],
+        "modulated_by": [
+            "team-development",
+            "player-killing",
+            "spawning",
+            "orthogonal-unit-differentiation"
+        ],
+        "conflicts": [
+            "competence-areas",
+            "player-decided-results",
+            "empowerment",
+            "team-development",
+            "privileged-abilities"
+        ]
+    }
+}

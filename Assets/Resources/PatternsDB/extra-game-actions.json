@@ -1,0 +1,43 @@
+{
+    "name": "Extra-Game Actions",
+    "description": "Actions that are motivated by the game state or game design but do not affect the game state as such.",
+    "relations": {
+        "instantiates": [
+            "meta-games",
+            "stimulated-planning",
+            "emotional-immersion",
+            "investments",
+            "creative-control",
+            "freedom-of-choice",
+            "extra-game-consequences"
+        ],
+        "modulates": [
+            "cognitive-immersion",
+            "multiplayer-games",
+            "planned-character-development",
+            "team-development",
+            "game-state-overview"
+        ],
+        "instantiated_by": [
+            "strategic-knowledge",
+            "collaborative-actions",
+            "self-facilitated-games",
+            "cameras",
+            "book-keeping-tokens",
+            "persistent-game-worlds",
+            "save-load-cycles",
+            "negotiation",
+            "game-pauses",
+            "combos",
+            "storytelling"
+        ],
+        "modulated_by": [
+            "spectators",
+            "reversability",
+            "public-information"
+        ],
+        "conflicts": [
+            "immersion"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Resource Locations",
+    "description": "Resource Locations are the locations where resources are found in the game world.",
+    "relations": {
+        "instantiates": [
+            "strategic-locations"
+        ],
+        "modulates": [
+            "inaccessible-areas",
+            "gain-ownership"
+        ],
+        "instantiated_by": [
+            "pick-ups",
+            "chargers",
+            "controllers"
+        ],
+        "modulated_by": [
+            "outstanding-features",
+            "traces"
+        ],
+        "conflicts": []
+    }
+}

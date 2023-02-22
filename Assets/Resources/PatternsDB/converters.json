@@ -1,0 +1,29 @@
+{
+    "name": "Converters",
+    "description": "Converter produces different types of game elements from other game elements, typically from other resources. In essence, a Converter transforms game elements into other game elements.",
+    "relations": {
+        "instantiates": [
+            "producer-consumer",
+            "stimulated-planning",
+            "varied-gameplay",
+            "empowerment",
+            "freedom-of-choice",
+            "tradeoffs"
+        ],
+        "modulates": [
+            "cards",
+            "resource-management",
+            "game-world",
+            "renewable-resources",
+            "tools",
+            "right-level-of-complexity"
+        ],
+        "instantiated_by": [
+            "bidding"
+        ],
+        "modulated_by": [
+            "container"
+        ],
+        "conflicts": []
+    }
+}

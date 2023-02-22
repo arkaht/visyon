@@ -1,0 +1,49 @@
+{
+    "name": "Collaborative Actions",
+    "description": "Compound actions that require several players to simultaneously perform actions.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "perceivable-margins",
+            "timing",
+            "stimulated-planning",
+            "trading",
+            "dynamic-alliances",
+            "combos",
+            "player-decided-distribution-of-rewards-penalties",
+            "delayed-reciprocity",
+            "cooperation",
+            "betrayal",
+            "player-decided-results",
+            "constructive-play",
+            "committed-goals",
+            "extra-game-actions",
+            "game-mastery"
+        ],
+        "modulates": [
+            "team-play",
+            "competition"
+        ],
+        "instantiated_by": [
+            "goal-points",
+            "combat",
+            "bidding",
+            "incompatible-goals",
+            "asymmetric-abilities",
+            "transfer-of-control",
+            "social-interaction"
+        ],
+        "modulated_by": [
+            "extended-actions",
+            "shared-rewards",
+            "individual-rewards",
+            "negotiation",
+            "team-balance",
+            "shared-penalties"
+        ],
+        "conflicts": [
+            "conflict",
+            "freedom-of-choice"
+        ]
+    }
+}

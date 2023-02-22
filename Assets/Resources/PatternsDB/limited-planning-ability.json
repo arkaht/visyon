@@ -1,0 +1,41 @@
+{
+    "name": "Limited Planning Ability",
+    "description": "Players cannot make plans about what future actions to perform due to characteristics inherent in the game design.",
+    "relations": {
+        "instantiates": [
+            "spatial-immersion"
+        ],
+        "modulates": [
+            "multiplayer-games",
+            "single-player-games",
+            "surprises",
+            "right-level-of-difficulty"
+        ],
+        "instantiated_by": [
+            "limited-foresight",
+            "time-limits",
+            "player-decided-results",
+            "preventing-goals",
+            "secret-resources",
+            "uncertainty-of-information",
+            "randomness",
+            "the-show-must-go-on",
+            "right-level-of-difficulty",
+            "right-level-of-complexity"
+        ],
+        "modulated_by": [
+            "limited-set-of-actions",
+            "real-time-games",
+            "imperfect-information"
+        ],
+        "conflicts": [
+            "predictable-consequences",
+            "downtime",
+            "illusion-of-influence",
+            "freedom-of-choice",
+            "analysis-paralysis",
+            "puzzle-solving",
+            "cognitive-immersion"
+        ]
+    }
+}

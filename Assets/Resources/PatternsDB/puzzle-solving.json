@@ -1,0 +1,43 @@
+{
+    "name": "Puzzle Solving",
+    "description": "Actions that can be solved through deductive or inductive reasoning.",
+    "relations": {
+        "instantiates": [
+            "cognitive-immersion",
+            "stimulated-planning",
+            "experimenting",
+            "gain-information",
+            "memorizing",
+            "game-mastery"
+        ],
+        "modulates": [
+            "turn-based-games",
+            "capture",
+            "overcome",
+            "evade"
+        ],
+        "instantiated_by": [
+            "direct-information",
+            "indirect-information",
+            "achilles-heels",
+            "configuration",
+            "gain-information",
+            "traces",
+            "movement"
+        ],
+        "modulated_by": [
+            "limited-foresight",
+            "time-limits",
+            "irreversible-actions",
+            "game-state-overview",
+            "reversability",
+            "non-renewable-resources",
+            "right-level-of-complexity"
+        ],
+        "conflicts": [
+            "save-load-cycles",
+            "replayability",
+            "limited-planning-ability"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Social Interaction",
+    "description": "Social Interaction is when two or more players have two-way communication between each other, i.e., the other players can respond to the individual player's communication.",
+    "relations": {
+        "instantiates": [
+            "collaborative-actions",
+            "alliances",
+            "emotional-immersion",
+            "illusion-of-influence",
+            "freedom-of-choice",
+            "social-organizations",
+            "bluffing"
+        ],
+        "modulates": [
+            "player-constructed-worlds"
+        ],
+        "instantiated_by": [
+            "shared-resources",
+            "social-dilemmas",
+            "dynamic-alliances",
+            "persistent-game-worlds",
+            "team-play",
+            "game-masters",
+            "turn-taking",
+            "storytelling",
+            "roleplaying",
+            "cooperation",
+            "trading"
+        ],
+        "modulated_by": [
+            "social-statuses",
+            "shared-resources",
+            "indirect-information",
+            "competition",
+            "agents",
+            "identification",
+            "betrayal",
+            "secret-alliances",
+            "shared-rewards",
+            "social-organizations",
+            "uncommitted-alliances",
+            "game-pauses",
+            "asymmetric-resource-distribution",
+            "privileged-abilities",
+            "delayed-reciprocity",
+            "player-decided-results",
+            "bluffing",
+            "real-time-games",
+            "synchronous-games",
+            "multiplayer-games"
+        ],
+        "conflicts": [
+            "single-player-games"
+        ]
+    }
+}

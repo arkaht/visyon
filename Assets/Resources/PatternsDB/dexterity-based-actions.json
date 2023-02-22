@@ -1,0 +1,34 @@
+{
+    "name": "Dexterity-Based Actions",
+    "description": "Actions whose success or failure depends on some form of dexterity, in most cases, eye-hand coordination.",
+    "relations": {
+        "instantiates": [
+            "spatial-immersion",
+            "game-mastery",
+            "sensory-motoric-immersion"
+        ],
+        "modulates": [
+            "overcome",
+            "real-time-games",
+            "polyathlons"
+        ],
+        "instantiated_by": [
+            "aim-shoot",
+            "combat",
+            "extended-actions",
+            "maneuvering",
+            "obstacles",
+            "movement"
+        ],
+        "modulated_by": [
+            "surprises",
+            "first-person-views",
+            "third-person-views",
+            "progress-indicators",
+            "indirect-control"
+        ],
+        "conflicts": [
+            "disruption-of-focused-attention"
+        ]
+    }
+}

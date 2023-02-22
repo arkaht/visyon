@@ -1,0 +1,24 @@
+{
+    "name": "Survive",
+    "description": "The goal of trying to avoid being killed by actions of other players and events in the game.",
+    "relations": {
+        "instantiates": [
+            "continuous-goals",
+            "preventing-goals"
+        ],
+        "modulates": [
+            "eliminate"
+        ],
+        "instantiated_by": [
+            "last-man-standing"
+        ],
+        "modulated_by": [
+            "units",
+            "conceal",
+            "avatars",
+            "player-elimination",
+            "lives"
+        ],
+        "conflicts": []
+    }
+}

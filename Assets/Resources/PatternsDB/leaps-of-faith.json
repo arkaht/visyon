@@ -1,0 +1,35 @@
+{
+    "name": "Leaps of Faith",
+    "description": "Making an action without any guaranteed, or visible, chance of success.",
+    "relations": {
+        "instantiates": [
+            "surprises",
+            "irreversible-actions",
+            "tension",
+            "risk-reward",
+            "narrative-structures"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "deadly-traps",
+            "experimenting",
+            "imperfect-information",
+            "delayed-reciprocity",
+            "betrayal",
+            "negotiation",
+            "uncommitted-alliances"
+        ],
+        "modulated_by": [
+            "movement-limitations",
+            "obstacles",
+            "inaccessible-areas"
+        ],
+        "conflicts": [
+            "game-world-navigation",
+            "predictable-consequences",
+            "perceived-chance-to-succeed",
+            "save-load-cycles",
+            "game-state-overview"
+        ]
+    }
+}

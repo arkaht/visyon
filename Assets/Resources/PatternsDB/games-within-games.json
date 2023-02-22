@@ -1,0 +1,22 @@
+{
+    "name": "Games within Games",
+    "description": "A game which is played completely within another game.",
+    "relations": {
+        "instantiates": [
+            "meta-games",
+            "trans-game-information",
+            "optional-goals",
+            "easter-eggs",
+            "varied-gameplay"
+        ],
+        "modulates": [
+            "ephemeral-goals",
+            "consistent-reality-logic"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": [
+            "immersion"
+        ]
+    }
+}

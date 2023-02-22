@@ -1,0 +1,35 @@
+{
+    "name": "Combos",
+    "description": "Sets of actions that trigger additional effects than those that occur due to the individual actions.",
+    "relations": {
+        "instantiates": [
+            "extended-actions",
+            "strategic-knowledge",
+            "rhythm-based-actions",
+            "smooth-learning-curves",
+            "experimenting",
+            "configuration",
+            "privileged-abilities",
+            "extra-game-information",
+            "timing",
+            "extra-game-actions",
+            "orthogonal-unit-differentiation"
+        ],
+        "modulates": [
+            "combat",
+            "right-level-of-complexity"
+        ],
+        "instantiated_by": [
+            "collaborative-actions"
+        ],
+        "modulated_by": [
+            "penalties",
+            "interruptible-actions",
+            "illusionary-rewards",
+            "rewards",
+            "progress-indicators",
+            "geometric-rewards-for-investments"
+        ],
+        "conflicts": []
+    }
+}

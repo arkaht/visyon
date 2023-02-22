@@ -1,0 +1,28 @@
+{
+    "name": "Interruptible Actions",
+    "description": "Actions that can be interrupted before they affect the game state.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "interferable-goals",
+            "risk-reward",
+            "balancing-effects"
+        ],
+        "modulates": [
+            "extended-actions",
+            "trading",
+            "storytelling",
+            "combos",
+            "negotiation",
+            "irreversible-actions"
+        ],
+        "instantiated_by": [
+            "turn-taking",
+            "privileged-abilities"
+        ],
+        "modulated_by": [
+            "delayed-effects"
+        ],
+        "conflicts": []
+    }
+}

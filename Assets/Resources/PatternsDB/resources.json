@@ -1,0 +1,69 @@
+{
+    "name": "Resources",
+    "description": "Game elements that are used by players to enable actions in a game.",
+    "relations": {
+        "instantiates": [
+            "strategic-knowledge",
+            "stimulated-planning",
+            "penalties",
+            "red-queen-dilemmas",
+            "score",
+            "varied-gameplay",
+            "tradeoffs",
+            "easter-eggs",
+            "rewards",
+            "collecting"
+        ],
+        "modulates": [
+            "exploration",
+            "emotional-immersion",
+            "player-balance",
+            "construction",
+            "tiebreakers",
+            "area-control",
+            "turn-taking",
+            "characters",
+            "game-world",
+            "supporting-goals",
+            "player-decided-distribution-of-rewards-penalties"
+        ],
+        "instantiated_by": [
+            "time-limits",
+            "units",
+            "clues",
+            "the-show-must-go-on",
+            "lives",
+            "budgeted-action-points",
+            "indirect-control",
+            "score"
+        ],
+        "modulated_by": [
+            "damage",
+            "aim-shoot",
+            "shared-resources",
+            "bidding",
+            "time-limits",
+            "resource-generators",
+            "trading",
+            "closed-economies",
+            "consumers",
+            "chargers",
+            "producers",
+            "asymmetric-resource-distribution",
+            "container",
+            "secret-resources",
+            "non-renewable-resources",
+            "renewable-resources",
+            "limited-resources",
+            "ownership",
+            "transfer-of-control",
+            "handicaps",
+            "diminishing-returns",
+            "betting",
+            "producer-consumer",
+            "investments",
+            "symmetric-resource-distribution"
+        ],
+        "conflicts": []
+    }
+}

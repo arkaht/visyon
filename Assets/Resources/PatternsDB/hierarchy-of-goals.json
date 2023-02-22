@@ -1,0 +1,33 @@
+{
+    "name": "Hierarchy of Goals",
+    "description": "The goals and subgoals of the game form a hierarchy.",
+    "relations": {
+        "instantiates": [
+            "narrative-structures",
+            "higher-level-closures-as-gameplay-progresses",
+            "strategic-knowledge"
+        ],
+        "modulates": [
+            "save-points"
+        ],
+        "instantiated_by": [
+            "continuous-goals",
+            "predefined-goals",
+            "optional-goals",
+            "tournaments",
+            "collecting",
+            "renewable-resources"
+        ],
+        "modulated_by": [
+            "dynamic-goal-characteristics",
+            "unknown-goals",
+            "supporting-goals",
+            "selectable-sets-of-goals",
+            "excluding-goals",
+            "ephemeral-goals"
+        ],
+        "conflicts": [
+            "quick-games"
+        ]
+    }
+}

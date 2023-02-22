@@ -1,0 +1,59 @@
+{
+    "name": "Right Level of Difficulty",
+    "description": "That the level of difficulty experienced by the player is the one intended by the game design.",
+    "relations": {
+        "instantiates": [
+            "smooth-learning-curves",
+            "empowerment",
+            "illusion-of-influence",
+            "game-mastery",
+            "perceived-chance-to-succeed",
+            "sensory-motoric-immersion",
+            "limited-planning-ability",
+            "tension"
+        ],
+        "modulates": [
+            "multiplayer-games",
+            "red-queen-dilemmas",
+            "player-balance",
+            "single-player-games",
+            "maneuvering",
+            "higher-level-closures-as-gameplay-progresses",
+            "rhythm-based-actions"
+        ],
+        "instantiated_by": [
+            "time-limits",
+            "achilles-heels",
+            "selectable-sets-of-goals",
+            "balancing-effects",
+            "game-masters",
+            "right-level-of-complexity",
+            "handicaps",
+            "varied-gameplay"
+        ],
+        "modulated_by": [
+            "attention-swapping",
+            "reconfigurable-game-world",
+            "decreased-abilities",
+            "supporting-goals",
+            "enemies",
+            "tradeoffs",
+            "levels",
+            "ability-losses",
+            "easter-eggs",
+            "narrative-structures",
+            "disruption-of-focused-attention",
+            "clues",
+            "extra-game-information",
+            "obstacles",
+            "skills",
+            "limited-planning-ability",
+            "traces",
+            "experimenting"
+        ],
+        "conflicts": [
+            "reconfigurable-game-world",
+            "ephemeral-goals"
+        ]
+    }
+}

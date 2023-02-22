@@ -1,0 +1,30 @@
+{
+    "name": "Paper-Rock-Scissors",
+    "description": "Sets of three or more actions form cycles where every action has an advantage over another action.",
+    "relations": {
+        "instantiates": [
+            "meta-games",
+            "symmetry",
+            "player-balance",
+            "game-mastery",
+            "tension",
+            "randomness"
+        ],
+        "modulates": [
+            "investments",
+            "asymmetric-goals",
+            "asymmetric-abilities"
+        ],
+        "instantiated_by": [
+            "character-development",
+            "asymmetric-abilities",
+            "units"
+        ],
+        "modulated_by": [
+            "public-information"
+        ],
+        "conflicts": [
+            "predictable-consequences"
+        ]
+    }
+}

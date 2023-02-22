@@ -1,0 +1,20 @@
+{
+    "name": "Polyathlons",
+    "description": "Polyathlons are tournaments that consist of several different types of games.",
+    "relations": {
+        "instantiates": [
+            "competence-areas",
+            "varied-gameplay"
+        ],
+        "modulates": [],
+        "instantiated_by": [],
+        "modulated_by": [
+            "quick-games",
+            "memorizing",
+            "dexterity-based-actions",
+            "luck",
+            "negotiation"
+        ],
+        "conflicts": []
+    }
+}

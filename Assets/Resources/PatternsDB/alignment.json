@@ -1,0 +1,21 @@
+{
+    "name": "Alignment",
+    "description": "This goal consists of forming a linear alignment of game elements.",
+    "relations": {
+        "instantiates": [
+            "configuration",
+            "aim-shoot",
+            "hovering-closures",
+            "progress-indicators"
+        ],
+        "modulates": [
+            "capture",
+            "king-of-the-hill"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "connection"
+        ],
+        "conflicts": []
+    }
+}

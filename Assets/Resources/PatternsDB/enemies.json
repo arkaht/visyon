@@ -1,0 +1,50 @@
+{
+    "name": "Enemies",
+    "description": "Enemies are avatars and units that hinder the players trying to complete the goals.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "aim-shoot",
+            "conflict",
+            "combat",
+            "competition",
+            "alliances",
+            "overcome",
+            "social-dilemmas",
+            "reconnaissance",
+            "preventing-goals",
+            "tension",
+            "disruption-of-focused-attention"
+        ],
+        "modulates": [
+            "exploration",
+            "game-world",
+            "traverse",
+            "evade",
+            "levels",
+            "narrative-structures",
+            "right-level-of-difficulty",
+            "perceived-chance-to-succeed",
+            "maneuvering"
+        ],
+        "instantiated_by": [
+            "avatars",
+            "units",
+            "agents",
+            "dedicated-game-facilitators",
+            "game-masters",
+            "characters",
+            "eliminate"
+        ],
+        "modulated_by": [
+            "consumers",
+            "privileged-movement",
+            "identification",
+            "orthogonal-unit-differentiation",
+            "gain-ownership",
+            "skills",
+            "alarms"
+        ],
+        "conflicts": []
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "name": "Social Statuses",
+    "description": "Social Status is defined by the extent to which the player is admired, esteemed or approved by the other players of the game as well as by persons outside the game.",
+    "relations": {
+        "instantiates": [
+            "empowerment",
+            "extra-game-consequences"
+        ],
+        "modulates": [
+            "player-decided-results",
+            "alliances",
+            "social-interaction",
+            "cooperation",
+            "player-killing",
+            "red-queen-dilemmas",
+            "social-organizations"
+        ],
+        "instantiated_by": [
+            "rewards",
+            "penalties",
+            "illusionary-rewards",
+            "handles",
+            "privileged-abilities",
+            "status-indicators",
+            "self-facilitated-games",
+            "creative-control",
+            "investments",
+            "team-balance",
+            "spectators",
+            "trans-game-information",
+            "game-mastery",
+            "competence-areas",
+            "competition",
+            "high-score-lists"
+        ],
+        "modulated_by": [
+            "persistent-game-worlds",
+            "public-information",
+            "competition",
+            "individual-rewards"
+        ],
+        "conflicts": []
+    }
+}

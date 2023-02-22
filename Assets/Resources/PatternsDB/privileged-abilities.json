@@ -1,0 +1,63 @@
+{
+    "name": "Privileged Abilities",
+    "description": "Privileged Abilities are those that let players perform actions that are not readily available to all other players.",
+    "relations": {
+        "instantiates": [
+            "gain-competence",
+            "social-statuses",
+            "competence-areas",
+            "stimulated-planning",
+            "penalties",
+            "red-queen-dilemmas",
+            "empowerment",
+            "investments",
+            "asymmetric-abilities",
+            "orthogonal-unit-differentiation",
+            "interruptible-actions"
+        ],
+        "modulates": [
+            "combat",
+            "avatars",
+            "fog-of-war",
+            "character-development",
+            "self-facilitated-games",
+            "penalties",
+            "units",
+            "team-development",
+            "team-play",
+            "characters",
+            "player-decided-distribution-of-rewards-penalties",
+            "spawning",
+            "timing",
+            "social-interaction",
+            "planned-character-development",
+            "tools",
+            "construction",
+            "obstacles"
+        ],
+        "instantiated_by": [
+            "no-ops",
+            "chargers",
+            "producers",
+            "transfer-of-control",
+            "renewable-resources",
+            "privileged-movement",
+            "game-masters",
+            "new-abilities",
+            "power-ups",
+            "combos",
+            "area-control",
+            "skills",
+            "ownership"
+        ],
+        "modulated_by": [
+            "budgeted-action-points",
+            "team-balance",
+            "planned-character-development"
+        ],
+        "conflicts": [
+            "player-balance",
+            "team-balance"
+        ]
+    }
+}

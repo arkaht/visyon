@@ -1,0 +1,42 @@
+{
+    "name": "Storytelling",
+    "description": "The act of telling storieswithin the game.",
+    "relations": {
+        "instantiates": [
+            "player-decided-results",
+            "emotional-immersion",
+            "never-ending-stories",
+            "creative-control",
+            "freedom-of-choice",
+            "game-mastery",
+            "narrative-structures",
+            "roleplaying",
+            "player-constructed-worlds",
+            "social-interaction",
+            "extra-game-actions"
+        ],
+        "modulates": [
+            "strategic-knowledge",
+            "self-facilitated-games",
+            "trans-game-information",
+            "game-world",
+            "persistent-game-worlds",
+            "characters",
+            "alternative-reality",
+            "consistent-reality-logic",
+            "extra-game-information"
+        ],
+        "instantiated_by": [
+            "dedicated-game-facilitators",
+            "game-masters",
+            "roleplaying",
+            "cut-scenes"
+        ],
+        "modulated_by": [
+            "interruptible-actions",
+            "ultra-powerful-events",
+            "turn-taking"
+        ],
+        "conflicts": []
+    }
+}

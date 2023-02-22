@@ -1,0 +1,51 @@
+{
+    "name": "Consistent Reality Logic",
+    "description": "Consistent Reality Logic governs that the game elements, the player actions and their consequences, and the game events are consistent.",
+    "relations": {
+        "instantiates": [
+            "cognitive-immersion",
+            "emotional-immersion",
+            "immersion",
+            "predictable-consequences"
+        ],
+        "modulates": [
+            "game-world-navigation",
+            "indirect-information",
+            "penalties",
+            "game-pauses"
+        ],
+        "instantiated_by": [
+            "levels",
+            "inaccessible-areas",
+            "symmetry",
+            "alternative-reality",
+            "construction"
+        ],
+        "modulated_by": [
+            "avatars",
+            "character-development",
+            "units",
+            "downtime",
+            "improved-abilities",
+            "ultra-powerful-events",
+            "identification",
+            "narrative-structures",
+            "games-within-games",
+            "tools",
+            "storytelling"
+        ],
+        "conflicts": [
+            "cameras",
+            "god-s-finger",
+            "invisible-walls",
+            "ability-losses",
+            "new-abilities",
+            "spawning",
+            "extra-game-information",
+            "clues",
+            "rewards",
+            "easter-eggs",
+            "lives"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Asymmetric Goals",
+    "description": "Players have structurally different goals requiring different tactics and actions.",
+    "relations": {
+        "instantiates": [
+            "replayability",
+            "varied-gameplay"
+        ],
+        "modulates": [
+            "competition",
+            "freedom-of-choice"
+        ],
+        "instantiated_by": [
+            "role-reversal",
+            "preventing-goals"
+        ],
+        "modulated_by": [
+            "asymmetric-abilities",
+            "paper-rock-scissors"
+        ],
+        "conflicts": [
+            "player-balance",
+            "symmetric-goals"
+        ]
+    }
+}

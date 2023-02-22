@@ -1,0 +1,27 @@
+{
+    "name": "Never Ending Stories",
+    "description": "Stories in games which have no predefined ends.",
+    "relations": {
+        "instantiates": [
+            "surprises"
+        ],
+        "modulates": [
+            "narrative-structures",
+            "game-world",
+            "persistent-game-worlds"
+        ],
+        "instantiated_by": [
+            "player-constructed-worlds",
+            "storytelling"
+        ],
+        "modulated_by": [
+            "trans-game-information",
+            "dedicated-game-facilitators",
+            "creative-control",
+            "randomness"
+        ],
+        "conflicts": [
+            "closure-points"
+        ]
+    }
+}

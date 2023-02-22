@@ -1,0 +1,69 @@
+{
+    "name": "Penalties",
+    "description": "Players are inflicted with something perceived as negative or stripped of an advantage, due to failure to meet a requirement in the game.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "predictable-consequences",
+            "strategic-knowledge",
+            "tension",
+            "dynamic-alliances",
+            "spawning",
+            "emotional-immersion"
+        ],
+        "modulates": [
+            "attention-swapping",
+            "damage",
+            "deadly-traps",
+            "game-mastery",
+            "rewards",
+            "lives",
+            "parallel-lives",
+            "units",
+            "ephemeral-goals",
+            "team-play",
+            "area-control",
+            "skills",
+            "risk-reward",
+            "combos",
+            "characters",
+            "betrayal",
+            "player-killing",
+            "uncommitted-alliances",
+            "player-defined-goals"
+        ],
+        "instantiated_by": [
+            "spectators",
+            "individual-penalties",
+            "limited-set-of-actions",
+            "ability-losses",
+            "decreased-abilities",
+            "no-ops",
+            "privileged-abilities",
+            "committed-goals",
+            "eliminate",
+            "role-reversal",
+            "movement-limitations",
+            "shared-penalties",
+            "resources",
+            "downtime"
+        ],
+        "modulated_by": [
+            "continuous-goals",
+            "shared-resources",
+            "consistent-reality-logic",
+            "rewards",
+            "privileged-abilities",
+            "player-decided-distribution-of-rewards-penalties",
+            "identification",
+            "balancing-effects",
+            "mutual-goals",
+            "extra-game-consequences"
+        ],
+        "conflicts": [
+            "narrative-structures",
+            "freedom-of-choice",
+            "save-load-cycles"
+        ]
+    }
+}

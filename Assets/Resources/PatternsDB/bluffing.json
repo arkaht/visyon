@@ -1,0 +1,33 @@
+{
+    "name": "Bluffing",
+    "description": "Players have a possibility to convey false information to other players in order to benefit from the situation.",
+    "relations": {
+        "instantiates": [
+            "risk-reward",
+            "betrayal",
+            "tension"
+        ],
+        "modulates": [
+            "bidding",
+            "trading",
+            "emotional-immersion",
+            "alarms",
+            "social-interaction"
+        ],
+        "instantiated_by": [
+            "indirect-information",
+            "social-interaction",
+            "negotiation",
+            "betting",
+            "asymmetric-information"
+        ],
+        "modulated_by": [
+            "direct-information",
+            "symmetric-information"
+        ],
+        "conflicts": [
+            "symmetric-information",
+            "luck"
+        ]
+    }
+}

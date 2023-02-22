@@ -1,0 +1,34 @@
+{
+    "name": "Stealth",
+    "description": "Stealth is the goal to move through a certain area and perform an action without being detected.",
+    "relations": {
+        "instantiates": [
+            "evade",
+            "stimulated-planning",
+            "tension",
+            "movement",
+            "area-control"
+        ],
+        "modulates": [
+            "delivery",
+            "rescue"
+        ],
+        "instantiated_by": [
+            "reconnaissance"
+        ],
+        "modulated_by": [
+            "safe-havens",
+            "no-ops",
+            "guard",
+            "alarms",
+            "risk-reward",
+            "tradeoffs",
+            "traverse",
+            "gain-ownership",
+            "camping"
+        ],
+        "conflicts": [
+            "herd"
+        ]
+    }
+}

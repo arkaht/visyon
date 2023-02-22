@@ -1,0 +1,37 @@
+{
+    "name": "Limited Resources",
+    "description": "The resources available to the players are limited to such extent that they are forced to plan ahead the use of the resources, that is, there is a perceivable possibility of running out of the resources during the game play.",
+    "relations": {
+        "instantiates": [
+            "resource-management",
+            "game-mastery",
+            "risk-reward",
+            "decreased-abilities"
+        ],
+        "modulates": [
+            "pick-ups",
+            "stimulated-planning",
+            "resource-generators",
+            "last-man-standing",
+            "resources",
+            "downtime",
+            "tradeoffs",
+            "turn-taking",
+            "freedom-of-choice"
+        ],
+        "instantiated_by": [
+            "time-limits",
+            "budgeted-action-points",
+            "non-renewable-resources",
+            "container"
+        ],
+        "modulated_by": [
+            "decreased-abilities",
+            "improved-abilities",
+            "renewable-resources"
+        ],
+        "conflicts": [
+            "analysis-paralysis"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Tiles",
+    "description": "Tiles are areas within the game world that partition it into separate parts, usually filling the whole game world.",
+    "relations": {
+        "instantiates": [
+            "strategic-locations",
+            "game-world",
+            "reconfigurable-game-world"
+        ],
+        "modulates": [
+            "shrinking-game-world"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "moveable-tiles",
+            "drawing-stacks",
+            "tile-laying",
+            "discard-piles",
+            "card-hands"
+        ],
+        "conflicts": []
+    }
+}

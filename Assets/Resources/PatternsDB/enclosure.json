@@ -1,0 +1,17 @@
+{
+    "name": "Enclosure",
+    "description": "Enclosure is the surrounding of game elements by a continuous line or wall.",
+    "relations": {
+        "instantiates": [
+            "connection",
+            "configuration"
+        ],
+        "modulates": [
+            "gain-ownership",
+            "capture"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

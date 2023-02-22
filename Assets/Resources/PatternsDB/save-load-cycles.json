@@ -1,0 +1,43 @@
+{
+    "name": "Save-Load Cycles",
+    "description": "The actions of saving and loading game states.",
+    "relations": {
+        "instantiates": [
+            "stimulated-planning",
+            "trans-game-information",
+            "smooth-learning-curves",
+            "experimenting",
+            "downtime",
+            "replayability",
+            "freedom-of-choice",
+            "spawning",
+            "extra-game-actions",
+            "game-pauses",
+            "reversability"
+        ],
+        "modulates": [
+            "direct-information",
+            "near-miss-indicators",
+            "real-time-games",
+            "single-player-games",
+            "tension"
+        ],
+        "instantiated_by": [
+            "dedicated-game-facilitators"
+        ],
+        "modulated_by": [
+            "save-points"
+        ],
+        "conflicts": [
+            "surprises",
+            "leaps-of-faith",
+            "penalties",
+            "multiplayer-games",
+            "irreversible-actions",
+            "puzzle-solving",
+            "immersion",
+            "ability-losses",
+            "score"
+        ]
+    }
+}

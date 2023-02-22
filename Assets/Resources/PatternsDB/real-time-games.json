@@ -1,0 +1,45 @@
+{
+    "name": "Real-Time Games",
+    "description": "The progression of game time during play is tied to the real time.",
+    "relations": {
+        "instantiates": [
+            "aim-shoot",
+            "spatial-immersion",
+            "no-ops",
+            "maneuvering",
+            "sensory-motoric-immersion",
+            "the-show-must-go-on"
+        ],
+        "modulates": [
+            "tick-based-games",
+            "turn-based-games",
+            "capture",
+            "limited-planning-ability",
+            "disruption-of-focused-attention",
+            "combat",
+            "synchronous-games",
+            "asynchronous-games",
+            "social-interaction"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "attention-swapping",
+            "self-facilitated-games",
+            "rhythm-based-actions",
+            "dedicated-game-facilitators",
+            "timing",
+            "dexterity-based-actions",
+            "save-load-cycles",
+            "cut-scenes",
+            "game-pauses",
+            "communication-channels",
+            "the-show-must-go-on",
+            "budgeted-action-points"
+        ],
+        "conflicts": [
+            "turn-taking",
+            "turn-based-games",
+            "downtime"
+        ]
+    }
+}

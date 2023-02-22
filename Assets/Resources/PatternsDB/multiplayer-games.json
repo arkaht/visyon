@@ -1,0 +1,52 @@
+{
+    "name": "Multiplayer Games",
+    "description": "Games that have more than one player.",
+    "relations": {
+        "instantiates": [
+            "downtime",
+            "synchronous-games",
+            "identification"
+        ],
+        "modulates": [
+            "social-organizations",
+            "game-mastery",
+            "meta-games",
+            "social-interaction"
+        ],
+        "instantiated_by": [
+            "tournaments",
+            "persistent-game-worlds"
+        ],
+        "modulated_by": [
+            "early-elimination",
+            "meta-games",
+            "competence-areas",
+            "self-facilitated-games",
+            "ghosts",
+            "downtime",
+            "dedicated-game-facilitators",
+            "illusion-of-influence",
+            "skills",
+            "game-masters",
+            "creative-control",
+            "freedom-of-choice",
+            "tiebreakers",
+            "tied-results",
+            "balancing-effects",
+            "limited-planning-ability",
+            "right-level-of-difficulty",
+            "smooth-learning-curves",
+            "team-play",
+            "player-elimination",
+            "asymmetric-resource-distribution",
+            "player-balance",
+            "handicaps",
+            "agents",
+            "characters",
+            "extra-game-actions"
+        ],
+        "conflicts": [
+            "save-load-cycles"
+        ]
+    }
+}

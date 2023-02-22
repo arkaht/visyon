@@ -1,0 +1,32 @@
+{
+    "name": "Status Indicators",
+    "description": "Players are given information about a certain part of the game state or other players through other means than observing a game element",
+    "relations": {
+        "instantiates": [
+            "social-statuses"
+        ],
+        "modulates": [
+            "damage",
+            "time-limits",
+            "game-state-overview",
+            "first-person-views",
+            "focus-loci",
+            "budgeted-action-points",
+            "social-organizations",
+            "tension",
+            "race"
+        ],
+        "instantiated_by": [
+            "score",
+            "outstanding-features"
+        ],
+        "modulated_by": [
+            "direct-information",
+            "public-information"
+        ],
+        "conflicts": [
+            "uncertainty-of-information",
+            "immersion"
+        ]
+    }
+}

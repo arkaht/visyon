@@ -1,0 +1,42 @@
+{
+    "name": "Self-Facilitated Games",
+    "description": "Games that require that the players ensure that the rules are being followed and require the players to perform any necessary book-keeping actions.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "player-decided-results",
+            "negotiation",
+            "memorizing",
+            "empowerment",
+            "investments",
+            "extra-game-actions",
+            "reversability",
+            "synchronous-games"
+        ],
+        "modulates": [
+            "tournaments",
+            "real-time-games",
+            "multiplayer-games",
+            "turn-based-games",
+            "player-constructed-worlds",
+            "betting"
+        ],
+        "instantiated_by": [
+            "turn-taking",
+            "game-masters"
+        ],
+        "modulated_by": [
+            "strategic-knowledge",
+            "privileged-abilities",
+            "storytelling",
+            "handicaps"
+        ],
+        "conflicts": [
+            "surprises",
+            "time-limits",
+            "ultra-powerful-events",
+            "dedicated-game-facilitators",
+            "narrative-structures"
+        ]
+    }
+}

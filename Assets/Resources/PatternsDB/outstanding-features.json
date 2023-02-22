@@ -1,0 +1,32 @@
+{
+    "name": "Outstanding Features",
+    "description": "Outstanding Features are parts of the Game World that cannot be manipulated but by their shape, color, or texture convey information to players.",
+    "relations": {
+        "instantiates": [
+            "status-indicators",
+            "illusionary-rewards"
+        ],
+        "modulates": [
+            "deadly-traps",
+            "game-world-navigation",
+            "exploration",
+            "resource-generators",
+            "chargers",
+            "game-world",
+            "resource-locations",
+            "strategic-locations",
+            "alarms"
+        ],
+        "instantiated_by": [
+            "symmetry",
+            "movement-limitations",
+            "clues",
+            "traces",
+            "obstacles"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "surprises"
+        ]
+    }
+}

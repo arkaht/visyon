@@ -1,0 +1,27 @@
+{
+    "name": "Incompatible Goals",
+    "description": "Two or more goals that cannot be fulfilled simultaneously due to having end conditions that are mutually exclusive",
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "collaborative-actions",
+            "competition",
+            "varied-gameplay"
+        ],
+        "modulates": [
+            "attention-swapping",
+            "planned-character-development",
+            "selectable-sets-of-goals",
+            "narrative-structures"
+        ],
+        "instantiated_by": [
+            "contact",
+            "preventing-goals",
+            "excluding-goals"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "mutual-goals"
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "name": "Risk/Reward",
+    "description": "That the chance for receiving a Reward in the game is linked to some risk of receiving a Penalty if the player fails to acquire the Reward.",
+    "relations": {
+        "instantiates": [
+            "stimulated-planning",
+            "tradeoffs",
+            "game-mastery",
+            "tension"
+        ],
+        "modulates": [
+            "cognitive-immersion",
+            "committed-goals",
+            "investments",
+            "stealth",
+            "mule",
+            "perceived-chance-to-succeed",
+            "chargers",
+            "player-killing",
+            "geometric-rewards-for-investments"
+        ],
+        "instantiated_by": [
+            "combat",
+            "extended-actions",
+            "leaps-of-faith",
+            "movement-limitations",
+            "resource-management",
+            "interruptible-actions",
+            "experimenting",
+            "limited-resources",
+            "selectable-sets-of-goals",
+            "role-reversal",
+            "betrayal",
+            "freedom-of-choice",
+            "player-decided-distribution-of-rewards-penalties",
+            "area-control",
+            "betting",
+            "randomness",
+            "luck",
+            "bluffing",
+            "uncommitted-alliances",
+            "guard",
+            "imperfect-information"
+        ],
+        "modulated_by": [
+            "damage",
+            "meta-games",
+            "individual-penalties",
+            "penalties",
+            "committed-goals",
+            "emotional-immersion",
+            "social-dilemmas",
+            "decreased-abilities",
+            "supporting-goals",
+            "rewards",
+            "new-abilities",
+            "skills",
+            "spawning",
+            "geometric-rewards-for-investments",
+            "arithmetic-rewards-for-investments",
+            "reversability"
+        ],
+        "conflicts": [
+            "predictable-consequences"
+        ]
+    }
+}

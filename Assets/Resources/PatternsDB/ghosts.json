@@ -1,0 +1,19 @@
+{
+    "name": "Ghosts",
+    "description": "Ghosts are the overlay of elements and actions from previous game sessions in a current game session so that players can compare their current progress with that of the previous attempts.",
+    "relations": {
+        "instantiates": [
+            "competition",
+            "trans-game-information",
+            "asynchronous-games"
+        ],
+        "modulates": [
+            "multiplayer-games",
+            "race",
+            "single-player-games"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

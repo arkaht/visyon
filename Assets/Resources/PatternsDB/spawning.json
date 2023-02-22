@@ -1,0 +1,42 @@
+{
+    "name": "Spawning",
+    "description": "The action of an Avatar appearing in the game world.",
+    "relations": {
+        "instantiates": [
+            "producers",
+            "downtime",
+            "game-pauses"
+        ],
+        "modulates": [
+            "early-elimination",
+            "player-balance",
+            "freedom-of-choice",
+            "risk-reward",
+            "narrative-structures",
+            "team-balance",
+            "player-killing",
+            "team-elimination"
+        ],
+        "instantiated_by": [
+            "penalties",
+            "lives",
+            "save-load-cycles"
+        ],
+        "modulated_by": [
+            "safe-havens",
+            "irreversible-actions",
+            "inaccessible-areas",
+            "strategic-locations",
+            "balancing-effects",
+            "spawn-points",
+            "ability-losses",
+            "camping",
+            "tools",
+            "privileged-abilities"
+        ],
+        "conflicts": [
+            "early-elimination",
+            "consistent-reality-logic"
+        ]
+    }
+}

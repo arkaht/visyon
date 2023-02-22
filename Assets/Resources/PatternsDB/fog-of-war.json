@@ -1,0 +1,33 @@
+{
+    "name": "Fog of War",
+    "description": "The player has no information about game world areas that are not being observed or have not yet been explored",
+    "relations": {
+        "instantiates": [
+            "gain-information",
+            "reconnaissance",
+            "red-herrings",
+            "memorizing"
+        ],
+        "modulates": [
+            "god-views",
+            "exploration",
+            "imperfect-information",
+            "guard",
+            "game-state-overview",
+            "third-person-views",
+            "game-world",
+            "cameras"
+        ],
+        "instantiated_by": [
+            "first-person-views"
+        ],
+        "modulated_by": [
+            "asymmetric-abilities",
+            "privileged-abilities",
+            "orthogonal-unit-differentiation",
+            "third-person-views",
+            "tile-laying"
+        ],
+        "conflicts": []
+    }
+}

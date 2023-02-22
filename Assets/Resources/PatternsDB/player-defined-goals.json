@@ -1,0 +1,44 @@
+{
+    "name": "Player Defined Goals",
+    "description": "Goals and subgoals that players can create or customize within the game itself.",
+    "relations": {
+        "instantiates": [
+            "emotional-immersion",
+            "anticipation",
+            "optional-goals",
+            "creative-control",
+            "freedom-of-choice",
+            "preventing-goals",
+            "extra-game-consequences",
+            "tension"
+        ],
+        "modulates": [
+            "rewards",
+            "mutual-goals"
+        ],
+        "instantiated_by": [
+            "high-score-lists",
+            "bidding",
+            "character-development",
+            "ephemeral-goals",
+            "construction",
+            "illusionary-rewards",
+            "characters",
+            "betting",
+            "easter-eggs",
+            "collecting",
+            "planned-character-development"
+        ],
+        "modulated_by": [
+            "player-balance",
+            "rewards",
+            "penalties",
+            "game-state-overview",
+            "negotiation"
+        ],
+        "conflicts": [
+            "goal-indicators",
+            "narrative-structures"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Third-Person Views",
+    "description": "Players are shown the game world with a focus on a game element under the players' control",
+    "relations": {
+        "instantiates": [
+            "spatial-immersion",
+            "focus-loci"
+        ],
+        "modulates": [
+            "aim-shoot",
+            "fog-of-war",
+            "game-world",
+            "maneuvering",
+            "game-state-overview",
+            "dexterity-based-actions",
+            "public-information"
+        ],
+        "instantiated_by": [
+            "avatars",
+            "units"
+        ],
+        "modulated_by": [
+            "fog-of-war"
+        ],
+        "conflicts": [
+            "god-views"
+        ]
+    }
+}

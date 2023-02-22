@@ -1,0 +1,29 @@
+{
+    "name": "Goal Points",
+    "description": "Goal Points are locations in the game world which the players can enter in order to complete a goal.",
+    "relations": {
+        "instantiates": [
+            "game-world-navigation",
+            "strategic-locations",
+            "collaborative-actions",
+            "area-control",
+            "goal-indicators"
+        ],
+        "modulates": [
+            "continuous-goals",
+            "gain-ownership",
+            "rescue",
+            "exploration",
+            "game-world"
+        ],
+        "instantiated_by": [
+            "traverse",
+            "delivery",
+            "herd"
+        ],
+        "modulated_by": [
+            "safe-havens"
+        ],
+        "conflicts": []
+    }
+}

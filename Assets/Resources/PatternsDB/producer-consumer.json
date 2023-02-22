@@ -1,0 +1,27 @@
+{
+    "name": "Producer-Consumer",
+    "description": "Producer-Consumer determines the lifetime of game elements, usually resources, and thus governs the flow of gameplay.",
+    "relations": {
+        "instantiates": [
+            "resource-management",
+            "varied-gameplay"
+        ],
+        "modulates": [
+            "right-level-of-complexity",
+            "investments",
+            "units",
+            "resources"
+        ],
+        "instantiated_by": [
+            "consumers",
+            "converters",
+            "producers"
+        ],
+        "modulated_by": [
+            "container"
+        ],
+        "conflicts": [
+            "predictable-consequences"
+        ]
+    }
+}

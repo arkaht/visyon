@@ -1,0 +1,28 @@
+{
+    "name": "First-Person Views",
+    "description": "Players are shown the game world as if they were inside it",
+    "relations": {
+        "instantiates": [
+            "spatial-immersion",
+            "fog-of-war"
+        ],
+        "modulates": [
+            "aim-shoot",
+            "maneuvering",
+            "game-state-overview",
+            "dexterity-based-actions",
+            "public-information",
+            "game-world"
+        ],
+        "instantiated_by": [
+            "avatars"
+        ],
+        "modulated_by": [
+            "status-indicators"
+        ],
+        "conflicts": [
+            "god-views",
+            "game-state-overview"
+        ]
+    }
+}

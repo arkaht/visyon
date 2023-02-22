@@ -1,0 +1,42 @@
+{
+    "name": "Character Development",
+    "description": "The improvement of characters' skills or knowledge.",
+    "relations": {
+        "instantiates": [
+            "player-defined-goals",
+            "paper-rock-scissors",
+            "varied-gameplay",
+            "extra-game-consequences",
+            "perceived-chance-to-succeed",
+            "improved-abilities"
+        ],
+        "modulates": [
+            "avatars",
+            "consistent-reality-logic",
+            "narrative-structures",
+            "persistent-game-worlds",
+            "roleplaying",
+            "characters"
+        ],
+        "instantiated_by": [
+            "gain-competence",
+            "new-abilities",
+            "skills",
+            "ability-losses"
+        ],
+        "modulated_by": [
+            "rewards",
+            "collecting",
+            "planned-character-development",
+            "diminishing-returns",
+            "balancing-effects",
+            "freedom-of-choice",
+            "investments",
+            "privileged-abilities",
+            "trans-game-information"
+        ],
+        "conflicts": [
+            "player-balance"
+        ]
+    }
+}

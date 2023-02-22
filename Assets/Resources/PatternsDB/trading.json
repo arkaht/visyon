@@ -1,0 +1,45 @@
+{
+    "name": "Trading",
+    "description": "Players exchange some kind of Resource, be it information, actions, or game elements, between each other or the game system.",
+    "relations": {
+        "instantiates": [
+            "competition",
+            "freedom-of-choice",
+            "area-control",
+            "transfer-of-control",
+            "social-interaction"
+        ],
+        "modulates": [
+            "optional-goals",
+            "delayed-reciprocity",
+            "gain-ownership",
+            "cooperation",
+            "resources",
+            "ownership",
+            "power-ups"
+        ],
+        "instantiated_by": [
+            "collaborative-actions",
+            "resource-generators",
+            "construction"
+        ],
+        "modulated_by": [
+            "direct-information",
+            "delivery",
+            "indirect-information",
+            "time-limits",
+            "negotiation",
+            "asymmetric-resource-distribution",
+            "symmetric-resource-distribution",
+            "betrayal",
+            "interruptible-actions",
+            "bluffing",
+            "symmetric-information",
+            "geometric-rewards-for-investments",
+            "rewards"
+        ],
+        "conflicts": [
+            "symmetric-resource-distribution"
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Team Play",
+    "description": "Players in a group or a team coordinate their actions, abilities, and roles in order to reach a common goal.",
+    "relations": {
+        "instantiates": [
+            "competence-areas",
+            "constructive-play",
+            "cooperation",
+            "social-interaction",
+            "player-decided-distribution-of-rewards-penalties"
+        ],
+        "modulates": [
+            "shared-resources",
+            "multiplayer-games",
+            "king-of-the-hill"
+        ],
+        "instantiated_by": [
+            "asymmetric-abilities",
+            "units",
+            "social-organizations",
+            "mutual-goals",
+            "area-control"
+        ],
+        "modulated_by": [
+            "individual-penalties",
+            "collaborative-actions",
+            "penalties",
+            "shared-penalties",
+            "planned-character-development",
+            "team-balance",
+            "empowerment",
+            "team-development",
+            "dynamic-alliances",
+            "illusion-of-influence",
+            "new-abilities",
+            "privileged-abilities",
+            "shared-rewards",
+            "roleplaying",
+            "player-killing",
+            "orthogonal-unit-differentiation",
+            "individual-rewards",
+            "handles",
+            "team-elimination",
+            "cooperation"
+        ],
+        "conflicts": []
+    }
+}

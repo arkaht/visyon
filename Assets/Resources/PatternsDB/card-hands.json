@@ -1,0 +1,22 @@
+{
+    "name": "Card Hands",
+    "description": "A Card Hand consists of the cards, which are owned by the player, but which have not yet been put into play.",
+    "relations": {
+        "instantiates": [
+            "gain-information",
+            "asymmetric-information",
+            "secret-resources",
+            "container",
+            "ownership"
+        ],
+        "modulates": [
+            "tiles",
+            "cards"
+        ],
+        "instantiated_by": [
+            "tile-laying"
+        ],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

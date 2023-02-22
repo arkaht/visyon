@@ -1,0 +1,34 @@
+{
+    "name": "Movement Limitations",
+    "description": "The movement of game elements is limited in some way.",
+    "relations": {
+        "instantiates": [
+            "penalties",
+            "inaccessible-areas",
+            "risk-reward",
+            "downtime",
+            "balancing-effects",
+            "outstanding-features",
+            "tension",
+            "ability-losses"
+        ],
+        "modulates": [
+            "game-world-navigation",
+            "leaps-of-faith",
+            "movement",
+            "evade",
+            "race"
+        ],
+        "instantiated_by": [
+            "deadly-traps",
+            "obstacles",
+            "budgeted-action-points",
+            "shrinking-game-world",
+            "area-control"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "freedom-of-choice"
+        ]
+    }
+}

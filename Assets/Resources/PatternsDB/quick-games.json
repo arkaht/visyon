@@ -1,0 +1,29 @@
+{
+    "name": "Quick Games",
+    "description": "Quick Games have a single concrete goal and few basic actions.",
+    "relations": {
+        "instantiates": [],
+        "modulates": [
+            "meta-games",
+            "tournaments",
+            "experimenting",
+            "betting",
+            "polyathlons",
+            "turn-taking",
+            "extra-game-consequences",
+            "tension"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "time-limits",
+            "randomness",
+            "hovering-closures",
+            "delayed-effects",
+            "progress-indicators"
+        ],
+        "conflicts": [
+            "hierarchy-of-goals",
+            "varied-gameplay"
+        ]
+    }
+}

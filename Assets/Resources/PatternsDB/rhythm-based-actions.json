@@ -1,0 +1,32 @@
+{
+    "name": "Rhythm-Based Actions",
+    "description": "Actions that require players to time their actions several times in a row.",
+    "relations": {
+        "instantiates": [
+            "game-mastery",
+            "sensory-motoric-immersion"
+        ],
+        "modulates": [
+            "real-time-games",
+            "configuration",
+            "overcome"
+        ],
+        "instantiated_by": [
+            "deadly-traps",
+            "extended-actions",
+            "timing",
+            "ultra-powerful-events",
+            "combos",
+            "moveable-tiles",
+            "the-show-must-go-on"
+        ],
+        "modulated_by": [
+            "right-level-of-complexity",
+            "illusionary-rewards",
+            "reconnaissance",
+            "progress-indicators",
+            "right-level-of-difficulty"
+        ],
+        "conflicts": []
+    }
+}

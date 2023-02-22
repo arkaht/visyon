@@ -1,0 +1,24 @@
+{
+    "name": "Sensory-Motoric Immersion",
+    "description": "The flow experience of performing repetitious actions, which provide sensory feedback.",
+    "relations": {
+        "instantiates": [
+            "immersion"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "real-time-games",
+            "focus-loci",
+            "dexterity-based-actions",
+            "rhythm-based-actions",
+            "right-level-of-difficulty"
+        ],
+        "modulated_by": [
+            "constructive-play"
+        ],
+        "conflicts": [
+            "disruption-of-focused-attention",
+            "varied-gameplay"
+        ]
+    }
+}

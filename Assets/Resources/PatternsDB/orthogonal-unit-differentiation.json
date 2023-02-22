@@ -1,0 +1,41 @@
+{
+    "name": "Orthogonal Unit Differentiation",
+    "description": "When Units in a game can be described by actions, abilities, and characteristics that are orthogonal to each other regarding functionality.",
+    "relations": {
+        "instantiates": [
+            "competence-areas",
+            "surprises",
+            "stimulated-planning",
+            "varied-gameplay"
+        ],
+        "modulates": [
+            "fog-of-war",
+            "overcome",
+            "enemies",
+            "team-play",
+            "social-organizations",
+            "team-balance",
+            "symmetry",
+            "inaccessible-areas"
+        ],
+        "instantiated_by": [
+            "damage",
+            "asymmetric-abilities",
+            "units",
+            "privileged-movement",
+            "movement",
+            "characters",
+            "new-abilities",
+            "privileged-abilities",
+            "combos"
+        ],
+        "modulated_by": [
+            "decreased-abilities",
+            "improved-abilities",
+            "skills"
+        ],
+        "conflicts": [
+            "symmetry"
+        ]
+    }
+}

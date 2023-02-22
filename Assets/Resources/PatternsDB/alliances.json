@@ -1,0 +1,33 @@
+{
+    "name": "Alliances",
+    "description": "A group of players who have agreed to obey particular and specific rules of conduct towards each other and who, usually, also have a shared agenda.",
+    "relations": {
+        "instantiates": [],
+        "modulates": [
+            "competition"
+        ],
+        "instantiated_by": [
+            "cooperation",
+            "social-interaction",
+            "enemies",
+            "social-organizations",
+            "mutual-goals"
+        ],
+        "modulated_by": [
+            "social-statuses",
+            "shared-resources",
+            "individual-penalties",
+            "player-decided-results",
+            "competition",
+            "interferable-goals",
+            "uncommitted-alliances",
+            "secret-alliances",
+            "dynamic-alliances",
+            "shared-penalties",
+            "shared-rewards",
+            "social-dilemmas",
+            "betrayal"
+        ],
+        "conflicts": []
+    }
+}

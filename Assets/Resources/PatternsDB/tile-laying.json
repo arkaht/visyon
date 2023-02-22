@@ -1,0 +1,26 @@
+{
+    "name": "Tile-Laying",
+    "description": "The placing of tiles as actions in the game.",
+    "relations": {
+        "instantiates": [
+            "reconfigurable-game-world",
+            "exploration",
+            "card-hands",
+            "player-constructed-worlds",
+            "randomness",
+            "varied-gameplay",
+            "construction"
+        ],
+        "modulates": [
+            "tiles",
+            "fog-of-war",
+            "game-world",
+            "imperfect-information"
+        ],
+        "instantiated_by": [
+            "drawing-stacks"
+        ],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

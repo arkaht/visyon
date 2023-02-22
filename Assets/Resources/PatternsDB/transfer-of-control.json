@@ -1,0 +1,45 @@
+{
+    "name": "Transfer of Control",
+    "description": "When the influence over a game element is passed from one player to another.",
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "strategic-knowledge",
+            "collaborative-actions",
+            "emotional-immersion",
+            "closed-economies",
+            "varied-gameplay",
+            "closure-points",
+            "collecting",
+            "privileged-abilities",
+            "new-abilities",
+            "area-control",
+            "ownership"
+        ],
+        "modulates": [
+            "units",
+            "resources",
+            "non-renewable-resources",
+            "tools"
+        ],
+        "instantiated_by": [
+            "bidding",
+            "trading",
+            "capture",
+            "overcome",
+            "betting",
+            "negotiation",
+            "gain-ownership",
+            "collection"
+        ],
+        "modulated_by": [
+            "irreversible-actions",
+            "non-renewable-resources",
+            "diminishing-returns",
+            "geometric-rewards-for-investments",
+            "balancing-effects",
+            "renewable-resources"
+        ],
+        "conflicts": []
+    }
+}

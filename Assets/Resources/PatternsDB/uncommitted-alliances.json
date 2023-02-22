@@ -1,0 +1,34 @@
+{
+    "name": "Uncommitted Alliances",
+    "description": "The players have a possibility to start and end alliances without direct in-game investments or risking penalties.",
+    "relations": {
+        "instantiates": [
+            "leaps-of-faith",
+            "risk-reward",
+            "tension"
+        ],
+        "modulates": [
+            "alliances",
+            "balancing-effects",
+            "social-interaction"
+        ],
+        "instantiated_by": [
+            "predictable-consequences",
+            "tied-results",
+            "betrayal",
+            "shared-rewards",
+            "delayed-reciprocity",
+            "hovering-closures",
+            "player-decided-distribution-of-rewards-penalties"
+        ],
+        "modulated_by": [
+            "penalties",
+            "dynamic-alliances",
+            "negotiation"
+        ],
+        "conflicts": [
+            "social-organizations",
+            "tiebreakers"
+        ]
+    }
+}

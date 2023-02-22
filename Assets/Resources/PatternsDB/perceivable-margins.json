@@ -1,0 +1,31 @@
+{
+    "name": "Perceivable Margins",
+    "description": "That players can notice a perceivable difference between how well actions are performed in the game, or a noticeable difference between the game state before and after the actions are performed.",
+    "relations": {
+        "instantiates": [
+            "predictable-consequences",
+            "game-mastery",
+            "tiebreakers"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "meta-games",
+            "direct-information",
+            "combat",
+            "extended-actions",
+            "dynamic-goal-characteristics",
+            "collaborative-actions",
+            "tournaments",
+            "illusionary-rewards"
+        ],
+        "modulated_by": [
+            "game-state-overview"
+        ],
+        "conflicts": [
+            "balancing-effects",
+            "tension",
+            "randomness",
+            "tied-results"
+        ]
+    }
+}

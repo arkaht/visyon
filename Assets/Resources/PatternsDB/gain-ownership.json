@@ -1,0 +1,54 @@
+{
+    "name": "Gain Ownership",
+    "description": "This is simply the goal to gain the ownership of a game element.",
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "emotional-immersion",
+            "transfer-of-control",
+            "gain-information",
+            "gain-competence",
+            "collection",
+            "betting",
+            "area-control"
+        ],
+        "modulates": [
+            "delivery",
+            "resource-management",
+            "configuration",
+            "stealth",
+            "enemies",
+            "king-of-the-hill",
+            "ownership"
+        ],
+        "instantiated_by": [
+            "capture",
+            "overcome",
+            "construction",
+            "strategic-locations",
+            "ability-losses",
+            "contact",
+            "indirect-control"
+        ],
+        "modulated_by": [
+            "goal-points",
+            "bidding",
+            "resource-generators",
+            "trading",
+            "enclosure",
+            "strategic-locations",
+            "renewable-resources",
+            "betting",
+            "clues",
+            "tools",
+            "pick-ups",
+            "resource-locations",
+            "score",
+            "new-abilities",
+            "improved-abilities",
+            "controllers",
+            "chargers"
+        ],
+        "conflicts": []
+    }
+}

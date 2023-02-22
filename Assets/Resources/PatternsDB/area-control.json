@@ -1,0 +1,51 @@
+{
+    "name": "Area Control",
+    "description": "Being in control over who can move within an area in the game world, or having access to actions linked to locations in the game world.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "continuous-goals",
+            "combat",
+            "strategic-knowledge",
+            "movement-limitations",
+            "emotional-immersion",
+            "overcome",
+            "reconnaissance",
+            "selectable-sets-of-goals",
+            "supporting-goals",
+            "team-play",
+            "tradeoffs",
+            "risk-reward",
+            "privileged-abilities",
+            "ownership"
+        ],
+        "modulates": [
+            "game-world",
+            "game-state-overview"
+        ],
+        "instantiated_by": [
+            "goal-points",
+            "extended-actions",
+            "bidding",
+            "trading",
+            "transfer-of-control",
+            "race",
+            "traverse",
+            "strategic-locations",
+            "stealth",
+            "contact",
+            "gain-ownership"
+        ],
+        "modulated_by": [
+            "penalties",
+            "committed-goals",
+            "producers",
+            "resources",
+            "interferable-goals",
+            "focus-loci",
+            "rewards",
+            "controllers"
+        ],
+        "conflicts": []
+    }
+}

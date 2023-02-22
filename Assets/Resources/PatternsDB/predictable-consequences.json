@@ -1,0 +1,59 @@
+{
+    "name": "Predictable Consequences",
+    "description": "Players can predict how the game state will change if they perform actions, or possibly sequences of actions.",
+    "relations": {
+        "instantiates": [
+            "perceived-chance-to-succeed",
+            "anticipation",
+            "hovering-closures",
+            "stimulated-planning",
+            "uncommitted-alliances",
+            "investments",
+            "experimenting",
+            "cognitive-immersion"
+        ],
+        "modulates": [
+            "surprises",
+            "analysis-paralysis",
+            "individual-penalties",
+            "betting",
+            "strategic-knowledge"
+        ],
+        "instantiated_by": [
+            "damage",
+            "alternative-reality",
+            "illusionary-rewards",
+            "ultra-powerful-events",
+            "penalties",
+            "arithmetic-rewards-for-investments",
+            "outcome-indicators",
+            "perfect-information",
+            "investments",
+            "perceivable-margins",
+            "consistent-reality-logic"
+        ],
+        "modulated_by": [
+            "skills",
+            "limited-foresight",
+            "right-level-of-complexity",
+            "closure-points",
+            "uncertainty-of-information",
+            "imperfect-information",
+            "randomness"
+        ],
+        "conflicts": [
+            "producer-consumer",
+            "irreversible-actions",
+            "indirect-control",
+            "player-decided-distribution-of-rewards-penalties",
+            "player-decided-results",
+            "surprises",
+            "luck",
+            "risk-reward",
+            "paper-rock-scissors",
+            "limited-planning-ability",
+            "selectable-sets-of-goals",
+            "leaps-of-faith"
+        ]
+    }
+}

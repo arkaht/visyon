@@ -1,0 +1,17 @@
+{
+    "name": "Invisible Walls",
+    "description": "Invisible Walls are impassible obstacles that limit the players' movement, but not vision, to areas that appear to be part of the game world.",
+    "relations": {
+        "instantiates": [
+            "memorizing",
+            "inaccessible-areas"
+        ],
+        "modulates": [],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": [
+            "immersion",
+            "consistent-reality-logic"
+        ]
+    }
+}

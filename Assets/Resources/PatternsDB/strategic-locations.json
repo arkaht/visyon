@@ -1,0 +1,42 @@
+{
+    "name": "Strategic Locations",
+    "description": "Strategic Locations are areas in the Game World that give an advantage to the players controlling them.",
+    "relations": {
+        "instantiates": [
+            "strategic-knowledge",
+            "gain-information",
+            "memorizing",
+            "gain-ownership",
+            "area-control"
+        ],
+        "modulates": [
+            "combat",
+            "player-balance",
+            "game-world",
+            "reconnaissance",
+            "traverse",
+            "guard",
+            "gain-ownership",
+            "exploration",
+            "spawning",
+            "player-constructed-worlds"
+        ],
+        "instantiated_by": [
+            "pick-ups",
+            "goal-points",
+            "tiles",
+            "safe-havens",
+            "resource-generators",
+            "controllers",
+            "spawn-points",
+            "resource-locations",
+            "power-ups"
+        ],
+        "modulated_by": [
+            "safe-havens",
+            "outstanding-features",
+            "ownership"
+        ],
+        "conflicts": []
+    }
+}

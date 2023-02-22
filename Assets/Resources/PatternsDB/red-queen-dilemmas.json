@@ -1,0 +1,29 @@
+{
+    "name": "Red Queen Dilemmas",
+    "description": "Players have to constantly progress in the game in order to maintain a relative level of power or success compared to other players.",
+    "relations": {
+        "instantiates": [
+            "competition",
+            "smooth-learning-curves"
+        ],
+        "modulates": [
+            "player-balance",
+            "game-mastery"
+        ],
+        "instantiated_by": [
+            "improved-abilities",
+            "new-abilities",
+            "privileged-abilities",
+            "resources"
+        ],
+        "modulated_by": [
+            "social-statuses",
+            "rewards",
+            "empowerment",
+            "right-level-of-difficulty"
+        ],
+        "conflicts": [
+            "player-balance"
+        ]
+    }
+}

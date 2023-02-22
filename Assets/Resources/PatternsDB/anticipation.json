@@ -1,0 +1,40 @@
+{
+    "name": "Anticipation",
+    "description": "The feeling of being able to predict future game events in the games to which one has emotional attachments.",
+    "relations": {
+        "instantiates": [
+            "emotional-immersion"
+        ],
+        "modulates": [
+            "tension"
+        ],
+        "instantiated_by": [
+            "predictable-consequences",
+            "spatial-immersion",
+            "cognitive-immersion",
+            "emotional-immersion",
+            "downtime",
+            "rewards",
+            "turn-taking",
+            "betting",
+            "delayed-effects",
+            "player-defined-goals",
+            "planned-character-development",
+            "delayed-reciprocity",
+            "hovering-closures",
+            "ultra-powerful-events",
+            "narrative-structures"
+        ],
+        "modulated_by": [
+            "time-limits",
+            "near-miss-indicators",
+            "betrayal",
+            "imperfect-information",
+            "red-herrings"
+        ],
+        "conflicts": [
+            "surprises",
+            "analysis-paralysis"
+        ]
+    }
+}

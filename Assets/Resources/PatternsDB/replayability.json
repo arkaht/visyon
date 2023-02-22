@@ -1,0 +1,47 @@
+{
+    "name": "Replayability",
+    "description": "The level to which a game provides new challenges or experiences when played again.",
+    "relations": {
+        "instantiates": [
+            "trans-game-information"
+        ],
+        "modulates": [
+            "inaccessible-areas"
+        ],
+        "instantiated_by": [
+            "high-score-lists",
+            "reconfigurable-game-world",
+            "strategic-knowledge",
+            "asymmetric-abilities",
+            "tournaments",
+            "conceal",
+            "selectable-sets-of-goals",
+            "optional-goals",
+            "asymmetric-goals",
+            "easter-eggs",
+            "freedom-of-choice",
+            "game-mastery",
+            "varied-gameplay",
+            "save-load-cycles",
+            "reversability",
+            "score"
+        ],
+        "modulated_by": [
+            "strategic-knowledge",
+            "near-miss-indicators",
+            "cognitive-immersion",
+            "dedicated-game-facilitators",
+            "imperfect-information"
+        ],
+        "conflicts": [
+            "surprises",
+            "trans-game-information",
+            "unknown-goals",
+            "memorizing",
+            "narrative-structures",
+            "tension",
+            "puzzle-solving",
+            "exploration"
+        ]
+    }
+}

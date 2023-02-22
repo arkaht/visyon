@@ -1,0 +1,41 @@
+{
+    "name": "Memorizing",
+    "description": "Games where players gain benefit by remembering facts about the game or game state.",
+    "relations": {
+        "instantiates": [
+            "cognitive-immersion",
+            "empowerment",
+            "game-mastery"
+        ],
+        "modulates": [
+            "overcome",
+            "polyathlons"
+        ],
+        "instantiated_by": [
+            "deadly-traps",
+            "reconfigurable-game-world",
+            "discard-piles",
+            "strategic-knowledge",
+            "fog-of-war",
+            "self-facilitated-games",
+            "gain-information",
+            "invisible-walls",
+            "delayed-effects",
+            "randomness",
+            "extra-game-information",
+            "puzzle-solving",
+            "strategic-locations"
+        ],
+        "modulated_by": [
+            "exploration",
+            "perfect-information",
+            "imperfect-information"
+        ],
+        "conflicts": [
+            "limited-set-of-actions",
+            "book-keeping-tokens",
+            "replayability",
+            "progress-indicators"
+        ]
+    }
+}

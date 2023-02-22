@@ -1,0 +1,22 @@
+{
+    "name": "Handles",
+    "description": "The players are identified in the game instance, and sometimes between game instances, by short names or other at least somewhat unique identifiers.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "trans-game-information",
+            "identification",
+            "social-organizations"
+        ],
+        "modulates": [
+            "emotional-immersion",
+            "persistent-game-worlds",
+            "team-play",
+            "characters",
+            "game-mastery"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

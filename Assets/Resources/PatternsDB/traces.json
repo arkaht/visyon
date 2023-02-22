@@ -1,0 +1,31 @@
+{
+    "name": "Traces",
+    "description": "Traces are game elements, or distinct parts of the game world, that are created when game elements are moved through the environment. Traces can also show what has happened before the gameplay began.",
+    "relations": {
+        "instantiates": [
+            "illusionary-rewards",
+            "outstanding-features",
+            "puzzle-solving",
+            "clues"
+        ],
+        "modulates": [
+            "game-world-navigation",
+            "pick-ups",
+            "exploration",
+            "achilles-heels",
+            "red-herrings",
+            "reconnaissance",
+            "traverse",
+            "privileged-movement",
+            "tension",
+            "resource-locations",
+            "right-level-of-difficulty"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": [
+            "surprises",
+            "red-herrings"
+        ]
+    }
+}

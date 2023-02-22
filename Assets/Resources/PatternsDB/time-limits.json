@@ -1,0 +1,59 @@
+{
+    "name": "Time Limits",
+    "description": "The Time Limit for completing an action, reaching a goal, staying in a certain mode of play, or finishing a game session has a limit based on either game time or real time.",
+    "relations": {
+        "instantiates": [
+            "resources",
+            "tradeoffs",
+            "limited-planning-ability",
+            "right-level-of-difficulty",
+            "limited-resources",
+            "tick-based-games"
+        ],
+        "modulates": [
+            "early-elimination",
+            "continuous-goals",
+            "evade",
+            "race",
+            "king-of-the-hill",
+            "ephemeral-goals",
+            "preventing-goals",
+            "new-abilities",
+            "improved-abilities",
+            "decreased-abilities",
+            "ability-losses",
+            "game-pauses",
+            "turn-taking",
+            "puzzle-solving",
+            "empowerment",
+            "tension",
+            "anticipation",
+            "hovering-closures",
+            "resources",
+            "arithmetic-rewards-for-investments",
+            "quick-games",
+            "analysis-paralysis",
+            "trading",
+            "renewable-resources"
+        ],
+        "instantiated_by": [
+            "deadly-traps",
+            "shared-resources",
+            "power-ups",
+            "delayed-effects",
+            "the-show-must-go-on"
+        ],
+        "modulated_by": [
+            "goal-indicators",
+            "progress-indicators",
+            "status-indicators",
+            "tied-results"
+        ],
+        "conflicts": [
+            "safe-havens",
+            "downtime",
+            "self-facilitated-games",
+            "game-pauses"
+        ]
+    }
+}

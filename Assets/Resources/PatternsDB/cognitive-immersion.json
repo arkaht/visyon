@@ -1,0 +1,45 @@
+{
+    "name": "Cognitive Immersion",
+    "description": "Having ones attention focused upon problem-solving aspects of a game.",
+    "relations": {
+        "instantiates": [
+            "immersion",
+            "anticipation",
+            "analysis-paralysis",
+            "downtime"
+        ],
+        "modulates": [
+            "replayability"
+        ],
+        "instantiated_by": [
+            "attention-swapping",
+            "game-world-navigation",
+            "focus-loci",
+            "budgeted-action-points",
+            "predictable-consequences",
+            "resource-management",
+            "puzzle-solving",
+            "experimenting",
+            "stimulated-planning",
+            "right-level-of-complexity",
+            "book-keeping-tokens",
+            "game-state-overview",
+            "constructive-play",
+            "memorizing",
+            "consistent-reality-logic",
+            "freedom-of-choice"
+        ],
+        "modulated_by": [
+            "attention-swapping",
+            "tradeoffs",
+            "risk-reward",
+            "extra-game-actions"
+        ],
+        "conflicts": [
+            "surprises",
+            "emotional-immersion",
+            "disruption-of-focused-attention",
+            "limited-planning-ability"
+        ]
+    }
+}

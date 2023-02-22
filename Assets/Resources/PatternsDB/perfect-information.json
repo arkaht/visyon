@@ -1,0 +1,38 @@
+{
+    "name": "Perfect Information",
+    "description": "The player has full and reliable access to current or past information about a game component, or that total current or past game state is known to the player",
+    "relations": {
+        "instantiates": [
+            "direct-information",
+            "predictable-consequences",
+            "stimulated-planning",
+            "symmetric-information",
+            "preventing-goals"
+        ],
+        "modulates": [
+            "strategic-knowledge",
+            "gain-information",
+            "memorizing",
+            "symmetric-information",
+            "asymmetric-information",
+            "analysis-paralysis",
+            "public-information",
+            "game-state-overview",
+            "right-level-of-complexity",
+            "outcome-indicators",
+            "predefined-goals"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": [
+            "indirect-information",
+            "red-herrings",
+            "uncertainty-of-information",
+            "asymmetric-information",
+            "gain-information",
+            "randomness",
+            "tension",
+            "perceived-chance-to-succeed"
+        ]
+    }
+}

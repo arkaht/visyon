@@ -1,0 +1,40 @@
+{
+    "name": "Shared Rewards",
+    "description": "The players who were involved in some way in reaching a goal in the game share the reward.",
+    "relations": {
+        "instantiates": [
+            "cooperation",
+            "balancing-effects",
+            "rewards",
+            "mutual-goals",
+            "delayed-reciprocity",
+            "uncommitted-alliances"
+        ],
+        "modulates": [
+            "collaborative-actions",
+            "competition",
+            "alliances",
+            "team-play",
+            "social-interaction",
+            "individual-rewards",
+            "race",
+            "social-organizations",
+            "ownership"
+        ],
+        "instantiated_by": [
+            "tied-results",
+            "mutual-goals"
+        ],
+        "modulated_by": [
+            "shared-resources",
+            "negotiation",
+            "player-decided-distribution-of-rewards-penalties"
+        ],
+        "conflicts": [
+            "conflict",
+            "excluding-goals",
+            "individual-rewards",
+            "tiebreakers"
+        ]
+    }
+}

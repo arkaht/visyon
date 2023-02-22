@@ -1,0 +1,25 @@
+{
+    "name": "Communication Channels",
+    "description": "Communication Channels are the medium and the methods players can use to send messages to other players.",
+    "relations": {
+        "instantiates": [
+            "direct-information",
+            "indirect-information",
+            "uncertainty-of-information"
+        ],
+        "modulates": [
+            "real-time-games",
+            "social-organizations",
+            "asynchronous-games",
+            "synchronous-games",
+            "public-information"
+        ],
+        "instantiated_by": [
+            "dedicated-game-facilitators"
+        ],
+        "modulated_by": [
+            "asymmetric-abilities"
+        ],
+        "conflicts": []
+    }
+}

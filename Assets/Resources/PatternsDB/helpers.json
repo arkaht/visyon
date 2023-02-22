@@ -1,0 +1,26 @@
+{
+    "name": "Helpers",
+    "description": "Helpers are game elements that support the players in completing goals by giving advice or by performing actions which the players are not able to perform. They are not under any players' control, and typically do not move around in the game world.",
+    "relations": {
+        "instantiates": [
+            "indirect-information",
+            "smooth-learning-curves",
+            "illusionary-rewards",
+            "clues"
+        ],
+        "modulates": [
+            "red-herrings",
+            "game-world",
+            "levels",
+            "tools",
+            "controllers"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "direct-information"
+        ],
+        "conflicts": [
+            "red-herrings"
+        ]
+    }
+}

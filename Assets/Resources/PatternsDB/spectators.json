@@ -1,0 +1,30 @@
+{
+    "name": "Spectators",
+    "description": "People, possibly former, current, or future players, who observe the actions that players do in a game without being able to affect the game themselves.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "downtime",
+            "strategic-knowledge",
+            "penalties"
+        ],
+        "modulates": [
+            "early-elimination",
+            "tournaments",
+            "game-mastery",
+            "game-state-overview",
+            "player-elimination",
+            "extra-game-actions",
+            "single-player-games"
+        ],
+        "instantiated_by": [
+            "ultra-powerful-events",
+            "turn-taking",
+            "public-information"
+        ],
+        "modulated_by": [
+            "meta-games"
+        ],
+        "conflicts": []
+    }
+}

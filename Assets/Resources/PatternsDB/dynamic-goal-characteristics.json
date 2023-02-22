@@ -1,0 +1,24 @@
+{
+    "name": "Dynamic Goal Characteristics",
+    "description": "Certain characteristics of the goals, usually the information available to the players, change during gameplay.",
+    "relations": {
+        "instantiates": [
+            "perceivable-margins",
+            "resource-generators",
+            "unknown-goals",
+            "imperfect-information"
+        ],
+        "modulates": [
+            "hierarchy-of-goals",
+            "planned-character-development",
+            "collection",
+            "narrative-structures",
+            "excluding-goals"
+        ],
+        "instantiated_by": [
+            "role-reversal"
+        ],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

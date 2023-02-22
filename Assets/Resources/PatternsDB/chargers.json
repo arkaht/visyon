@@ -1,0 +1,29 @@
+{
+    "name": "Chargers",
+    "description": "Chargers are locations in the Game World that affect the players' resources when they are in the location.",
+    "relations": {
+        "instantiates": [
+            "gain-competence",
+            "resource-generators",
+            "privileged-abilities",
+            "renewable-resources",
+            "new-abilities",
+            "improved-abilities",
+            "resource-locations"
+        ],
+        "modulates": [
+            "traverse",
+            "renewable-resources",
+            "maneuvering",
+            "skills",
+            "resources",
+            "gain-ownership"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "outstanding-features",
+            "risk-reward"
+        ],
+        "conflicts": []
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Luck",
+    "description": "The feeling that random effects are not random but favorable to the player.",
+    "relations": {
+        "instantiates": [
+            "smooth-learning-curves",
+            "illusion-of-influence",
+            "risk-reward",
+            "tension"
+        ],
+        "modulates": [
+            "near-miss-indicators",
+            "overcome",
+            "polyathlons",
+            "game-mastery"
+        ],
+        "instantiated_by": [
+            "dice",
+            "randomness",
+            "skills",
+            "betting"
+        ],
+        "modulated_by": [
+            "game-masters",
+            "delayed-effects"
+        ],
+        "conflicts": [
+            "predictable-consequences",
+            "game-mastery",
+            "bluffing",
+            "strategic-knowledge",
+            "meta-games"
+        ]
+    }
+}

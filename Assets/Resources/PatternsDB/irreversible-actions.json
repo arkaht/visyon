@@ -1,0 +1,35 @@
+{
+    "name": "Irreversible Actions",
+    "description": "Actions whose effect on the game state cannot be undone.",
+    "relations": {
+        "instantiates": [
+            "stimulated-planning",
+            "analysis-paralysis",
+            "narrative-structures"
+        ],
+        "modulates": [
+            "buttons",
+            "ultra-powerful-events",
+            "shrinking-game-world",
+            "spawning",
+            "levels",
+            "transfer-of-control",
+            "puzzle-solving"
+        ],
+        "instantiated_by": [
+            "extended-actions",
+            "surprises",
+            "leaps-of-faith",
+            "trans-game-information",
+            "non-renewable-resources"
+        ],
+        "modulated_by": [
+            "interruptible-actions"
+        ],
+        "conflicts": [
+            "predictable-consequences",
+            "save-load-cycles",
+            "experimenting"
+        ]
+    }
+}

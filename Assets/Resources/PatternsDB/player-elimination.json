@@ -1,0 +1,36 @@
+{
+    "name": "Player Elimination",
+    "description": "In games with Player Elimination, the players' game sessions can be finished without the players consent, often as a penalty for failing to achieve something.",
+    "relations": {
+        "instantiates": [
+            "early-elimination",
+            "conflict",
+            "individual-penalties",
+            "downtime",
+            "team-elimination",
+            "tension"
+        ],
+        "modulates": [
+            "last-man-standing",
+            "shared-penalties",
+            "multiplayer-games",
+            "survive"
+        ],
+        "instantiated_by": [
+            "combat",
+            "bidding",
+            "closed-economies",
+            "ability-losses",
+            "eliminate"
+        ],
+        "modulated_by": [
+            "spectators",
+            "overcome",
+            "lives",
+            "parallel-lives",
+            "score",
+            "player-killing"
+        ],
+        "conflicts": []
+    }
+}

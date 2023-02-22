@@ -1,0 +1,37 @@
+{
+    "name": "Preventing Goals",
+    "description": "Goals where the objective is to prevent a completion of another goal.",
+    "relations": {
+        "instantiates": [
+            "continuous-goals",
+            "conflict",
+            "interferable-goals",
+            "incompatible-goals",
+            "asymmetric-goals",
+            "excluding-goals",
+            "limited-planning-ability"
+        ],
+        "modulates": [
+            "negotiation"
+        ],
+        "instantiated_by": [
+            "herd",
+            "rescue",
+            "construction",
+            "perfect-information",
+            "enemies",
+            "player-defined-goals",
+            "capture",
+            "evade",
+            "conceal",
+            "guard",
+            "survive",
+            "eliminate"
+        ],
+        "modulated_by": [
+            "time-limits",
+            "game-state-overview"
+        ],
+        "conflicts": []
+    }
+}

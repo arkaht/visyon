@@ -1,0 +1,39 @@
+{
+    "name": "Handicaps",
+    "description": "Making gameplay easier for certain players in order to make all players have the same chance to succeed.",
+    "relations": {
+        "instantiates": [
+            "meta-games",
+            "player-balance",
+            "smooth-learning-curves",
+            "team-balance",
+            "balancing-effects",
+            "perceived-chance-to-succeed",
+            "right-level-of-difficulty"
+        ],
+        "modulates": [
+            "self-facilitated-games",
+            "multiplayer-games",
+            "resources",
+            "race",
+            "game-mastery",
+            "score",
+            "skills"
+        ],
+        "instantiated_by": [
+            "reconfigurable-game-world",
+            "asymmetric-resource-distribution",
+            "reversability"
+        ],
+        "modulated_by": [
+            "trans-game-information",
+            "agents",
+            "non-renewable-resources",
+            "negotiation",
+            "skills"
+        ],
+        "conflicts": [
+            "symmetry"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Dynamic Alliances",
+    "description": "The alliances are dynamic in nature, that is, new alliances can be created, old alliances can die out and the characteristics, especially the player composition, of an alliance can change during the game play.",
+    "relations": {
+        "instantiates": [
+            "role-reversal",
+            "varied-gameplay",
+            "social-interaction"
+        ],
+        "modulates": [
+            "alliances",
+            "team-development",
+            "uncommitted-alliances",
+            "team-play"
+        ],
+        "instantiated_by": [
+            "collaborative-actions",
+            "penalties",
+            "last-man-standing",
+            "player-decided-distribution-of-rewards-penalties",
+            "king-of-the-hill",
+            "score"
+        ],
+        "modulated_by": [
+            "competence-areas",
+            "competition",
+            "safe-havens",
+            "cooperation",
+            "social-dilemmas",
+            "negotiation"
+        ],
+        "conflicts": []
+    }
+}

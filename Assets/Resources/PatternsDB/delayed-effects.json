@@ -1,0 +1,37 @@
+{
+    "name": "Delayed Effects",
+    "description": "The effects of actions and events in games do not occur directly after the actions or events have started.",
+    "relations": {
+        "instantiates": [
+            "time-limits",
+            "strategic-knowledge",
+            "stimulated-planning",
+            "anticipation",
+            "memorizing",
+            "balancing-effects",
+            "tradeoffs",
+            "timing",
+            "hovering-closures",
+            "tension"
+        ],
+        "modulates": [
+            "quick-games",
+            "betrayal",
+            "interruptible-actions",
+            "luck"
+        ],
+        "instantiated_by": [
+            "extended-actions",
+            "investments",
+            "ultra-powerful-events",
+            "delayed-reciprocity",
+            "betting"
+        ],
+        "modulated_by": [
+            "progress-indicators",
+            "uncertainty-of-information",
+            "randomness"
+        ],
+        "conflicts": []
+    }
+}

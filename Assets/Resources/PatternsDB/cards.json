@@ -1,0 +1,23 @@
+{
+    "name": "Cards",
+    "description": "Cards are physical game elements used to distribute tokens, often with different characteristics, to players without necessarily revealing the distribution.",
+    "relations": {
+        "instantiates": [
+            "randomness",
+            "imperfect-information",
+            "non-renewable-resources",
+            "book-keeping-tokens",
+            "focus-loci"
+        ],
+        "modulates": [],
+        "instantiated_by": [],
+        "modulated_by": [
+            "discard-piles",
+            "drawing-stacks",
+            "card-hands",
+            "consumers",
+            "converters"
+        ],
+        "conflicts": []
+    }
+}

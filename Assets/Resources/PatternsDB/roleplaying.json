@@ -1,0 +1,32 @@
+{
+    "name": "Roleplaying",
+    "description": "Players have characters with at least somewhat fleshed out personalities. The play is centered on making decisions on how these characters would take actions in staged imaginary situations.",
+    "relations": {
+        "instantiates": [
+            "emotional-immersion",
+            "creative-control",
+            "storytelling",
+            "alternative-reality",
+            "social-interaction"
+        ],
+        "modulates": [
+            "persistent-game-worlds",
+            "team-play",
+            "narrative-structures"
+        ],
+        "instantiated_by": [
+            "game-masters",
+            "storytelling"
+        ],
+        "modulated_by": [
+            "avatars",
+            "character-development",
+            "team-development",
+            "identification",
+            "characters",
+            "game-world",
+            "player-constructed-worlds"
+        ],
+        "conflicts": []
+    }
+}

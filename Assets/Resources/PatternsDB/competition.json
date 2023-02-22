@@ -1,0 +1,51 @@
+{
+    "name": "Competition",
+    "description": "Competition is the struggle between players or against the game system to achieve a certain goal where the performance of the players can be measured at least relatively.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "conflict",
+            "tension"
+        ],
+        "modulates": [
+            "social-statuses",
+            "social-interaction",
+            "alliances",
+            "dynamic-alliances"
+        ],
+        "instantiated_by": [
+            "shared-resources",
+            "bidding",
+            "incompatible-goals",
+            "excluding-goals",
+            "trading",
+            "last-man-standing",
+            "overcome",
+            "race",
+            "ghosts",
+            "enemies",
+            "king-of-the-hill",
+            "red-queen-dilemmas",
+            "rewards"
+        ],
+        "modulated_by": [
+            "collaborative-actions",
+            "mutual-goals",
+            "shared-rewards",
+            "symmetric-goals",
+            "individual-rewards",
+            "tiebreakers",
+            "asymmetric-goals",
+            "unknown-goals",
+            "alliances",
+            "social-dilemmas",
+            "social-organizations",
+            "agents",
+            "cooperation",
+            "player-balance"
+        ],
+        "conflicts": [
+            "experimenting"
+        ]
+    }
+}

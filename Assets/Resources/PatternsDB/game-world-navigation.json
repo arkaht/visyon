@@ -1,0 +1,33 @@
+{
+    "name": "Game World Navigation",
+    "description": "The action of trying to move from one place in the game to another when the correct way is not obviously apparent.",
+    "relations": {
+        "instantiates": [
+            "cognitive-immersion",
+            "strategic-knowledge"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "movement",
+            "spatial-immersion",
+            "exploration",
+            "goal-points",
+            "freedom-of-choice"
+        ],
+        "modulated_by": [
+            "traces",
+            "obstacles",
+            "inaccessible-areas",
+            "outstanding-features",
+            "clues",
+            "consistent-reality-logic",
+            "game-state-overview",
+            "privileged-movement",
+            "movement-limitations"
+        ],
+        "conflicts": [
+            "spatial-immersion",
+            "leaps-of-faith"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Symmetric Information",
+    "description": "All players have the same information about the game state, or part of the game state, available to them",
+    "relations": {
+        "instantiates": [
+            "stimulated-planning"
+        ],
+        "modulates": [
+            "conflict",
+            "bidding",
+            "trading",
+            "analysis-paralysis",
+            "public-information",
+            "negotiation",
+            "bluffing",
+            "predefined-goals"
+        ],
+        "instantiated_by": [
+            "perfect-information"
+        ],
+        "modulated_by": [
+            "interferable-goals",
+            "perfect-information"
+        ],
+        "conflicts": [
+            "bluffing"
+        ]
+    }
+}

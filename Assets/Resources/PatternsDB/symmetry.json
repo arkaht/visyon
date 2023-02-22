@@ -1,0 +1,30 @@
+{
+    "name": "Symmetry",
+    "description": "Symmetrical relations exist between players regarding the goals, resources, and actions they can perform.",
+    "relations": {
+        "instantiates": [
+            "team-balance",
+            "outstanding-features",
+            "hovering-closures",
+            "player-balance",
+            "consistent-reality-logic"
+        ],
+        "modulates": [
+            "game-mastery"
+        ],
+        "instantiated_by": [
+            "symmetric-resource-distribution",
+            "paper-rock-scissors"
+        ],
+        "modulated_by": [
+            "configuration",
+            "orthogonal-unit-differentiation"
+        ],
+        "conflicts": [
+            "asymmetric-abilities",
+            "handicaps",
+            "asymmetric-resource-distribution",
+            "orthogonal-unit-differentiation"
+        ]
+    }
+}

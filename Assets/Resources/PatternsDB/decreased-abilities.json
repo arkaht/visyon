@@ -1,0 +1,37 @@
+{
+    "name": "Decreased Abilities",
+    "description": "Players' chance of succeeding with an action as a function within the game is decreased, or the calculated effect the action has in the game decreased.",
+    "relations": {
+        "instantiates": [
+            "penalties"
+        ],
+        "modulates": [
+            "units",
+            "player-balance",
+            "risk-reward",
+            "right-level-of-difficulty",
+            "perceived-chance-to-succeed",
+            "characters",
+            "skills",
+            "orthogonal-unit-differentiation",
+            "player-killing",
+            "limited-resources",
+            "right-level-of-complexity",
+            "improved-abilities"
+        ],
+        "instantiated_by": [
+            "non-renewable-resources",
+            "limited-resources"
+        ],
+        "modulated_by": [
+            "time-limits",
+            "improved-abilities",
+            "balancing-effects"
+        ],
+        "conflicts": [
+            "illusion-of-influence",
+            "perceived-chance-to-succeed",
+            "freedom-of-choice"
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "Combat",
+    "description": "Actions where the intent is to kill or otherwise overcome opponents",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "aim-shoot",
+            "conflict",
+            "randomness",
+            "imperfect-information",
+            "timing",
+            "player-elimination",
+            "perceivable-margins",
+            "higher-level-closures-as-gameplay-progresses",
+            "collaborative-actions",
+            "resource-management",
+            "dexterity-based-actions",
+            "budgeted-action-points",
+            "risk-reward",
+            "tradeoffs",
+            "tension"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "eliminate",
+            "capture",
+            "area-control",
+            "enemies"
+        ],
+        "modulated_by": [
+            "damage",
+            "turn-based-games",
+            "dice",
+            "avatars",
+            "units",
+            "lives",
+            "tournaments",
+            "privileged-abilities",
+            "combos",
+            "strategic-locations",
+            "achilles-heels",
+            "dedicated-game-facilitators",
+            "real-time-games"
+        ],
+        "conflicts": []
+    }
+}

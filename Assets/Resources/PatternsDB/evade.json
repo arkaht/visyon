@@ -1,0 +1,34 @@
+{
+    "name": "Evade",
+    "description": "This is the goal to avoid being captured or hit.",
+    "relations": {
+        "instantiates": [
+            "continuous-goals",
+            "movement",
+            "tension",
+            "preventing-goals"
+        ],
+        "modulates": [
+            "delivery",
+            "capture",
+            "traverse",
+            "aim-shoot",
+            "eliminate"
+        ],
+        "instantiated_by": [
+            "stealth",
+            "aim-shoot"
+        ],
+        "modulated_by": [
+            "damage",
+            "deadly-traps",
+            "time-limits",
+            "movement-limitations",
+            "puzzle-solving",
+            "enemies",
+            "lives",
+            "units"
+        ],
+        "conflicts": []
+    }
+}

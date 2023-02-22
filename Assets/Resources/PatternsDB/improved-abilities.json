@@ -1,0 +1,42 @@
+{
+    "name": "Improved Abilities",
+    "description": "Players' chance of succeeding with an action as a function within the game is increased, or the calculated effect the action has increased in the game.",
+    "relations": {
+        "instantiates": [
+            "gain-competence",
+            "red-queen-dilemmas",
+            "planned-character-development",
+            "empowerment",
+            "team-development",
+            "rewards",
+            "supporting-goals",
+            "illusion-of-influence",
+            "perceived-chance-to-succeed"
+        ],
+        "modulates": [
+            "competence-areas",
+            "avatars",
+            "decreased-abilities",
+            "limited-resources",
+            "consistent-reality-logic",
+            "orthogonal-unit-differentiation",
+            "characters",
+            "skills",
+            "gain-ownership"
+        ],
+        "instantiated_by": [
+            "chargers",
+            "power-ups",
+            "character-development",
+            "tools"
+        ],
+        "modulated_by": [
+            "time-limits",
+            "diminishing-returns",
+            "balancing-effects",
+            "decreased-abilities",
+            "freedom-of-choice"
+        ],
+        "conflicts": []
+    }
+}

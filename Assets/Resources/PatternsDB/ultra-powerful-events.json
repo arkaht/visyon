@@ -1,0 +1,46 @@
+{
+    "name": "Ultra-Powerful Events",
+    "description": "Events that cannot be affected by player actions.",
+    "relations": {
+        "instantiates": [
+            "spectators",
+            "predictable-consequences",
+            "strategic-knowledge",
+            "stimulated-planning",
+            "anticipation",
+            "rhythm-based-actions",
+            "downtime",
+            "narrative-structures",
+            "the-show-must-go-on",
+            "ability-losses",
+            "delayed-effects",
+            "hovering-closures"
+        ],
+        "modulates": [
+            "consistent-reality-logic",
+            "illusion-of-influence",
+            "turn-taking",
+            "storytelling",
+            "maneuvering"
+        ],
+        "instantiated_by": [
+            "deadly-traps",
+            "extended-actions",
+            "controllers",
+            "cut-scenes",
+            "shrinking-game-world",
+            "movement",
+            "game-masters",
+            "dedicated-game-facilitators"
+        ],
+        "modulated_by": [
+            "irreversible-actions",
+            "reversability"
+        ],
+        "conflicts": [
+            "self-facilitated-games",
+            "freedom-of-choice",
+            "perceived-chance-to-succeed"
+        ]
+    }
+}

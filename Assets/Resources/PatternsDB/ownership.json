@@ -1,0 +1,50 @@
+{
+    "name": "Ownership",
+    "description": "Ownership dictates which of the players have access to the Resources and other game components and how.",
+    "relations": {
+        "instantiates": [
+            "emotional-immersion",
+            "identification",
+            "rewards",
+            "privileged-abilities",
+            "tension",
+            "mutual-goals",
+            "betting"
+        ],
+        "modulates": [
+            "meta-games",
+            "conflict",
+            "capture",
+            "resource-management",
+            "units",
+            "rescue",
+            "resources",
+            "strategic-locations",
+            "renewable-resources",
+            "persistent-game-worlds",
+            "collection",
+            "investments",
+            "guard",
+            "non-renewable-resources"
+        ],
+        "instantiated_by": [
+            "avatars",
+            "transfer-of-control",
+            "card-hands",
+            "creative-control",
+            "area-control"
+        ],
+        "modulated_by": [
+            "shared-resources",
+            "trading",
+            "producers",
+            "shared-rewards",
+            "gain-ownership",
+            "asymmetric-resource-distribution",
+            "symmetric-resource-distribution",
+            "tools",
+            "player-killing"
+        ],
+        "conflicts": []
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Player Killing",
+    "description": "Allows players to intentionally or unintentionally remove players from the game for at least some time.",
+    "relations": {
+        "instantiates": [
+            "downtime",
+            "team-elimination"
+        ],
+        "modulates": [
+            "team-play",
+            "player-elimination",
+            "tension",
+            "team-balance",
+            "ownership"
+        ],
+        "instantiated_by": [
+            "lives"
+        ],
+        "modulated_by": [
+            "social-statuses",
+            "avatars",
+            "penalties",
+            "decreased-abilities",
+            "identification",
+            "rewards",
+            "ability-losses",
+            "risk-reward",
+            "spawning"
+        ],
+        "conflicts": []
+    }
+}

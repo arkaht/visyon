@@ -1,0 +1,38 @@
+{
+    "name": "Meta Games",
+    "description": "A game based on the effects and outcomes of other games.",
+    "relations": {
+        "instantiates": [
+            "strategic-knowledge",
+            "perceivable-margins",
+            "trans-game-information"
+        ],
+        "modulates": [
+            "multiplayer-games",
+            "risk-reward",
+            "single-player-games",
+            "spectators"
+        ],
+        "instantiated_by": [
+            "high-score-lists",
+            "optional-goals",
+            "tournaments",
+            "score",
+            "betting",
+            "paper-rock-scissors",
+            "handicaps",
+            "extra-game-actions",
+            "extra-game-consequences",
+            "games-within-games",
+            "team-development"
+        ],
+        "modulated_by": [
+            "quick-games",
+            "ownership",
+            "multiplayer-games"
+        ],
+        "conflicts": [
+            "luck"
+        ]
+    }
+}

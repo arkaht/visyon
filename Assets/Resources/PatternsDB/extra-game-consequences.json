@@ -1,0 +1,34 @@
+{
+    "name": "Extra-Game Consequences",
+    "description": "Consequences that is due to actions within games or based on game states of games but that do not affect the game state or how the game state is perceived.",
+    "relations": {
+        "instantiates": [
+            "meta-games",
+            "committed-goals"
+        ],
+        "modulates": [
+            "investments",
+            "penalties",
+            "rewards"
+        ],
+        "instantiated_by": [
+            "social-statuses",
+            "character-development",
+            "trans-game-information",
+            "illusionary-rewards",
+            "persistent-game-worlds",
+            "creative-control",
+            "player-defined-goals",
+            "score",
+            "betting",
+            "extra-game-actions",
+            "tools",
+            "narrative-structures"
+        ],
+        "modulated_by": [
+            "quick-games",
+            "investments"
+        ],
+        "conflicts": []
+    }
+}

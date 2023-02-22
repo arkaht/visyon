@@ -1,0 +1,49 @@
+{
+    "name": "Exploration",
+    "description": "The goal of learning the layout of the Game World, or locating specific parts or objects in it.",
+    "relations": {
+        "instantiates": [
+            "game-world-navigation",
+            "uncertainty-of-information",
+            "surprises",
+            "traverse",
+            "emotional-immersion",
+            "movement",
+            "race",
+            "gain-information"
+        ],
+        "modulates": [
+            "memorizing",
+            "single-player-games"
+        ],
+        "instantiated_by": [
+            "shared-resources",
+            "limited-foresight",
+            "resource-generators",
+            "secret-resources",
+            "illusionary-rewards",
+            "tile-laying",
+            "construction",
+            "imperfect-information",
+            "game-world"
+        ],
+        "modulated_by": [
+            "deadly-traps",
+            "goal-points",
+            "outstanding-features",
+            "obstacles",
+            "traces",
+            "clues",
+            "enemies",
+            "easter-eggs",
+            "surprises",
+            "resources",
+            "fog-of-war",
+            "game-state-overview",
+            "strategic-locations"
+        ],
+        "conflicts": [
+            "replayability"
+        ]
+    }
+}

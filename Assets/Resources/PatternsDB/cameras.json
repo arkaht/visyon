@@ -1,0 +1,23 @@
+{
+    "name": "Cameras",
+    "description": "Camera is an abstract game element that decides what is the player's current view to the game world.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "extra-game-actions"
+        ],
+        "modulates": [
+            "god-views",
+            "spatial-immersion",
+            "units",
+            "tradeoffs"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "fog-of-war"
+        ],
+        "conflicts": [
+            "consistent-reality-logic"
+        ]
+    }
+}

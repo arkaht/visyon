@@ -1,0 +1,23 @@
+{
+    "name": "Save Points",
+    "description": "Save Points are the points in gameplay where the players can choose to save the game state so that they can return to it later.",
+    "relations": {
+        "instantiates": [
+            "traverse",
+            "closure-points"
+        ],
+        "modulates": [
+            "collection",
+            "levels",
+            "save-load-cycles"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "hierarchy-of-goals",
+            "safe-havens"
+        ],
+        "conflicts": [
+            "score"
+        ]
+    }
+}

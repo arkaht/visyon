@@ -1,0 +1,21 @@
+{
+    "name": "Parallel Lives",
+    "description": "Parallel Lives are used in games where the player controls or protects several game elements which each can be considered to have a life of its own.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "lives"
+        ],
+        "modulates": [
+            "units",
+            "player-elimination"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "penalties"
+        ],
+        "conflicts": [
+            "avatars"
+        ]
+    }
+}

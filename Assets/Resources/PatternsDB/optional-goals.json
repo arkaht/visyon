@@ -1,0 +1,26 @@
+{
+    "name": "Optional Goals",
+    "description": "There are goals the player does not necessarily have to reach during the game",
+    "relations": {
+        "instantiates": [
+            "hierarchy-of-goals",
+            "meta-games",
+            "selectable-sets-of-goals",
+            "supporting-goals",
+            "freedom-of-choice",
+            "replayability"
+        ],
+        "modulates": [
+            "ephemeral-goals"
+        ],
+        "instantiated_by": [
+            "player-defined-goals",
+            "easter-eggs",
+            "games-within-games"
+        ],
+        "modulated_by": [
+            "trading"
+        ],
+        "conflicts": []
+    }
+}

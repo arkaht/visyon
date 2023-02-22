@@ -1,0 +1,47 @@
+{
+    "name": "Illusion of Influence",
+    "description": "Players believe that they can influence the outcome of the game, regardless of whether this is correct.",
+    "relations": {
+        "instantiates": [
+            "stimulated-planning",
+            "emotional-immersion"
+        ],
+        "modulates": [
+            "multiplayer-games",
+            "team-play",
+            "freedom-of-choice"
+        ],
+        "instantiated_by": [
+            "player-balance",
+            "planned-character-development",
+            "improved-abilities",
+            "game-masters",
+            "perceived-chance-to-succeed",
+            "creative-control",
+            "characters",
+            "luck",
+            "social-interaction",
+            "tools",
+            "right-level-of-difficulty",
+            "new-abilities"
+        ],
+        "modulated_by": [
+            "limited-foresight",
+            "strategic-knowledge",
+            "ultra-powerful-events",
+            "extra-game-information",
+            "smooth-learning-curves",
+            "right-level-of-complexity",
+            "randomness"
+        ],
+        "conflicts": [
+            "surprises",
+            "shared-penalties",
+            "decreased-abilities",
+            "narrative-structures",
+            "ability-losses",
+            "cut-scenes",
+            "limited-planning-ability"
+        ]
+    }
+}

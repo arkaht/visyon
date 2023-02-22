@@ -1,0 +1,27 @@
+{
+    "name": "Predefined Goals",
+    "description": "Predefined Goals are preset by the game designer, usually arranged in a rigid hierarchy, which can only be adaptable by players' choices or interpretations if the design allows it.",
+    "relations": {
+        "instantiates": [
+            "hierarchy-of-goals",
+            "strategic-knowledge",
+            "selectable-sets-of-goals",
+            "game-mastery",
+            "analysis-paralysis"
+        ],
+        "modulates": [
+            "planned-character-development"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "perfect-information",
+            "imperfect-information",
+            "asymmetric-information",
+            "symmetric-information"
+        ],
+        "conflicts": [
+            "ephemeral-goals",
+            "unknown-goals"
+        ]
+    }
+}

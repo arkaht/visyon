@@ -1,0 +1,18 @@
+{
+    "name": "Drawing Stacks",
+    "description": "A Drawing Stack is the collection of cards or tiles that are drawn in sequence by the players.",
+    "relations": {
+        "instantiates": [
+            "tile-laying",
+            "container",
+            "randomness"
+        ],
+        "modulates": [
+            "tiles",
+            "cards"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

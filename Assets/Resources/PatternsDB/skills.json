@@ -1,0 +1,45 @@
+{
+    "name": "Skills",
+    "description": "The numerical representation of how likely a Unit or Character is to succeed with an action, and what possible consequences the action has.",
+    "relations": {
+        "instantiates": [
+            "gain-competence",
+            "competence-areas",
+            "character-development",
+            "planned-character-development",
+            "privileged-abilities",
+            "varied-gameplay",
+            "luck"
+        ],
+        "modulates": [
+            "predictable-consequences",
+            "multiplayer-games",
+            "team-development",
+            "enemies",
+            "characters",
+            "perceived-chance-to-succeed",
+            "risk-reward",
+            "orthogonal-unit-differentiation",
+            "right-level-of-difficulty",
+            "handicaps"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "damage",
+            "penalties",
+            "chargers",
+            "budgeted-action-points",
+            "decreased-abilities",
+            "diminishing-returns",
+            "improved-abilities",
+            "dice",
+            "rewards",
+            "randomness",
+            "tools",
+            "power-ups",
+            "investments",
+            "handicaps"
+        ],
+        "conflicts": []
+    }
+}

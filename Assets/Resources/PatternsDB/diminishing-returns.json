@@ -1,0 +1,30 @@
+{
+    "name": "Diminishing Returns",
+    "description": "The returns for similar investments decrease as the player progresses in the game.",
+    "relations": {
+        "instantiates": [
+            "player-balance",
+            "balancing-effects"
+        ],
+        "modulates": [
+            "character-development",
+            "resources",
+            "transfer-of-control",
+            "investments",
+            "rewards",
+            "varied-gameplay",
+            "skills",
+            "improved-abilities",
+            "renewable-resources",
+            "geometric-rewards-for-investments",
+            "mule",
+            "arithmetic-rewards-for-investments"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": [
+            "geometric-rewards-for-investments",
+            "arithmetic-rewards-for-investments"
+        ]
+    }
+}

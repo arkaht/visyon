@@ -1,0 +1,19 @@
+{
+    "name": "Connection",
+    "description": "Linking or spatially positioning game elements to each other so that they have a physical relation.",
+    "relations": {
+        "instantiates": [
+            "configuration",
+            "progress-indicators"
+        ],
+        "modulates": [
+            "capture",
+            "alignment"
+        ],
+        "instantiated_by": [
+            "enclosure"
+        ],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

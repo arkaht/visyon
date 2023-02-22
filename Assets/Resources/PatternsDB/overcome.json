@@ -1,0 +1,45 @@
+{
+    "name": "Overcome",
+    "description": "This is the goal of the player to defeat an opposing force in a test, or a series of tests, involving attributes or performance of low-level actions.",
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "competition",
+            "gain-ownership",
+            "capture",
+            "tension",
+            "game-mastery",
+            "excluding-goals",
+            "symmetric-goals",
+            "tournaments",
+            "transfer-of-control"
+        ],
+        "modulates": [
+            "delivery",
+            "rescue",
+            "higher-level-closures-as-gameplay-progresses",
+            "player-elimination"
+        ],
+        "instantiated_by": [
+            "last-man-standing",
+            "tournaments",
+            "enemies",
+            "boss-monsters",
+            "area-control"
+        ],
+        "modulated_by": [
+            "achilles-heels",
+            "timing",
+            "rhythm-based-actions",
+            "dexterity-based-actions",
+            "negotiation",
+            "puzzle-solving",
+            "luck",
+            "orthogonal-unit-differentiation",
+            "tiebreakers",
+            "memorizing",
+            "immersion"
+        ],
+        "conflicts": []
+    }
+}

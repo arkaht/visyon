@@ -1,0 +1,33 @@
+{
+    "name": "Team Development",
+    "description": "The efficiency of the team is improved either intentionally or unintentionally.",
+    "relations": {
+        "instantiates": [
+            "meta-games"
+        ],
+        "modulates": [
+            "team-play",
+            "roleplaying",
+            "team-balance"
+        ],
+        "instantiated_by": [
+            "planned-character-development",
+            "investments",
+            "improved-abilities",
+            "new-abilities"
+        ],
+        "modulated_by": [
+            "competence-areas",
+            "resource-management",
+            "privileged-abilities",
+            "extra-game-actions",
+            "social-organizations",
+            "skills",
+            "asymmetric-abilities",
+            "dynamic-alliances"
+        ],
+        "conflicts": [
+            "team-balance"
+        ]
+    }
+}

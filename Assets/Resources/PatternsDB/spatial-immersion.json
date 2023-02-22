@@ -1,0 +1,35 @@
+{
+    "name": "Spatial Immersion",
+    "description": "Perceiving movement in the game from the perspective of oneself moving.",
+    "relations": {
+        "instantiates": [
+            "game-world-navigation",
+            "immersion",
+            "anticipation"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "aim-shoot",
+            "surprises",
+            "avatars",
+            "focus-loci",
+            "disruption-of-focused-attention",
+            "movement",
+            "maneuvering",
+            "first-person-views",
+            "third-person-views",
+            "real-time-games",
+            "game-world",
+            "dexterity-based-actions",
+            "limited-planning-ability"
+        ],
+        "modulated_by": [
+            "attention-swapping",
+            "cameras"
+        ],
+        "conflicts": [
+            "god-views",
+            "game-world-navigation"
+        ]
+    }
+}

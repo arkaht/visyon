@@ -1,0 +1,39 @@
+{
+    "name": "Traverse",
+    "description": "The goal to try and move a game element from one position in the game to another.",
+    "relations": {
+        "instantiates": [
+            "goal-points",
+            "progress-indicators",
+            "movement",
+            "contact",
+            "area-control"
+        ],
+        "modulates": [
+            "aim-shoot",
+            "selectable-sets-of-goals",
+            "narrative-structures",
+            "stealth"
+        ],
+        "instantiated_by": [
+            "save-points",
+            "delivery",
+            "exploration",
+            "reconnaissance",
+            "inaccessible-areas"
+        ],
+        "modulated_by": [
+            "herd",
+            "safe-havens",
+            "chargers",
+            "evade",
+            "privileged-movement",
+            "strategic-locations",
+            "obstacles",
+            "traces",
+            "enemies",
+            "indirect-control"
+        ],
+        "conflicts": []
+    }
+}

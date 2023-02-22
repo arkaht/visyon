@@ -1,0 +1,30 @@
+{
+    "name": "Collecting",
+    "description": "The action of collecting game elements from the game world.",
+    "relations": {
+        "instantiates": [
+            "hierarchy-of-goals",
+            "movement",
+            "collection",
+            "player-defined-goals",
+            "maneuvering"
+        ],
+        "modulates": [
+            "character-development"
+        ],
+        "instantiated_by": [
+            "pick-ups",
+            "transfer-of-control",
+            "rewards",
+            "power-ups",
+            "score",
+            "tools",
+            "resources"
+        ],
+        "modulated_by": [
+            "herd",
+            "geometric-rewards-for-investments"
+        ],
+        "conflicts": []
+    }
+}

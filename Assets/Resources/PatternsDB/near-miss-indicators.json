@@ -1,0 +1,25 @@
+{
+    "name": "Near Miss Indicators",
+    "description": "Players have explicit information about how close they were to achieving a goal when they have failed to achieve it",
+    "relations": {
+        "instantiates": [],
+        "modulates": [
+            "stimulated-planning",
+            "replayability",
+            "perceived-chance-to-succeed",
+            "outcome-indicators",
+            "tension",
+            "anticipation"
+        ],
+        "instantiated_by": [
+            "progress-indicators"
+        ],
+        "modulated_by": [
+            "luck",
+            "save-load-cycles",
+            "game-state-overview",
+            "imperfect-information"
+        ],
+        "conflicts": []
+    }
+}

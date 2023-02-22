@@ -1,0 +1,71 @@
+{
+    "name": "Rewards",
+    "description": "The player receives something perceived as positive, or is relieved of a negative effect, for completing goals in the game.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "surprises",
+            "strategic-knowledge",
+            "stimulated-planning",
+            "emotional-immersion",
+            "anticipation",
+            "balancing-effects",
+            "tension",
+            "planned-character-development",
+            "collecting",
+            "competition"
+        ],
+        "modulates": [
+            "attention-swapping",
+            "character-development",
+            "penalties",
+            "ephemeral-goals",
+            "red-queen-dilemmas",
+            "social-dilemmas",
+            "player-defined-goals",
+            "narrative-structures",
+            "game-mastery",
+            "alternative-reality",
+            "area-control",
+            "skills",
+            "risk-reward",
+            "combos",
+            "characters",
+            "bidding",
+            "trading",
+            "betrayal",
+            "player-killing"
+        ],
+        "instantiated_by": [
+            "resources",
+            "investments",
+            "improved-abilities",
+            "new-abilities",
+            "betting",
+            "individual-rewards",
+            "shared-rewards",
+            "ownership",
+            "tools"
+        ],
+        "modulated_by": [
+            "continuous-goals",
+            "penalties",
+            "committed-goals",
+            "unknown-goals",
+            "diminishing-returns",
+            "balancing-effects",
+            "identification",
+            "player-defined-goals",
+            "mutual-goals",
+            "freedom-of-choice",
+            "player-decided-distribution-of-rewards-penalties",
+            "outcome-indicators",
+            "geometric-rewards-for-investments",
+            "arithmetic-rewards-for-investments",
+            "extra-game-consequences"
+        ],
+        "conflicts": [
+            "consistent-reality-logic"
+        ]
+    }
+}

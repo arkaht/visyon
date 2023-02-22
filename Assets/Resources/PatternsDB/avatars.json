@@ -1,0 +1,39 @@
+{
+    "name": "Avatars",
+    "description": "Avatar is a game element, which is tightly connected to the player's success and failure in the game. In many cases, the Avatar is the only means through which a player can affect the game world.",
+    "relations": {
+        "instantiates": [
+            "spatial-immersion",
+            "immersion",
+            "ownership",
+            "enemies",
+            "third-person-views",
+            "first-person-views"
+        ],
+        "modulates": [
+            "combat",
+            "persistent-game-worlds",
+            "player-killing",
+            "roleplaying",
+            "consistent-reality-logic",
+            "survive"
+        ],
+        "instantiated_by": [
+            "mule"
+        ],
+        "modulated_by": [
+            "privileged-abilities",
+            "tools",
+            "character-development",
+            "characters",
+            "improved-abilities",
+            "producers"
+        ],
+        "conflicts": [
+            "god-views",
+            "units",
+            "parallel-lives",
+            "emotional-immersion"
+        ]
+    }
+}

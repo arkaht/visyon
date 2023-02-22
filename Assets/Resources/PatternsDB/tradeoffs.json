@@ -1,0 +1,47 @@
+{
+    "name": "Tradeoffs",
+    "description": "That players must choose between several different options and compare values against each other.",
+    "relations": {
+        "instantiates": [
+            "strategic-knowledge",
+            "stimulated-planning",
+            "balancing-effects",
+            "game-mastery",
+            "analysis-paralysis",
+            "tension"
+        ],
+        "modulates": [
+            "cognitive-immersion",
+            "stealth",
+            "committed-goals",
+            "perceived-chance-to-succeed",
+            "right-level-of-difficulty"
+        ],
+        "instantiated_by": [
+            "combat",
+            "bidding",
+            "time-limits",
+            "consumers",
+            "converters",
+            "producers",
+            "resources",
+            "budgeted-action-points",
+            "selectable-sets-of-goals",
+            "renewable-resources",
+            "freedom-of-choice",
+            "resource-management",
+            "risk-reward",
+            "player-decided-distribution-of-rewards-penalties",
+            "area-control",
+            "delayed-effects"
+        ],
+        "modulated_by": [
+            "attention-swapping",
+            "cameras",
+            "producers",
+            "limited-resources",
+            "supporting-goals"
+        ],
+        "conflicts": []
+    }
+}

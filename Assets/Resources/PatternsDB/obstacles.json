@@ -1,0 +1,33 @@
+{
+    "name": "Obstacles",
+    "description": "Obstacles are game elements that hinder the players from taking the shortest route between two places.",
+    "relations": {
+        "instantiates": [
+            "movement-limitations",
+            "outstanding-features",
+            "timing",
+            "dexterity-based-actions",
+            "inaccessible-areas"
+        ],
+        "modulates": [
+            "game-world-navigation",
+            "leaps-of-faith",
+            "exploration",
+            "rescue",
+            "game-world",
+            "traverse",
+            "movement",
+            "levels",
+            "maneuvering",
+            "right-level-of-difficulty"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "privileged-movement",
+            "privileged-abilities"
+        ],
+        "conflicts": [
+            "aim-shoot"
+        ]
+    }
+}

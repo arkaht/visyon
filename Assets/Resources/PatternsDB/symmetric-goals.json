@@ -1,0 +1,25 @@
+{
+    "name": "Symmetric Goals",
+    "description": "The players have goals with the same definition, for example, to be the first one to reach a certain area or amount of points, solve a problem, find an item, or overcome the opponent.",
+    "relations": {
+        "instantiates": [],
+        "modulates": [
+            "conflict",
+            "competition"
+        ],
+        "instantiated_by": [
+            "last-man-standing",
+            "overcome",
+            "mutual-goals",
+            "king-of-the-hill",
+            "race"
+        ],
+        "modulated_by": [
+            "interferable-goals"
+        ],
+        "conflicts": [
+            "unknown-goals",
+            "asymmetric-goals"
+        ]
+    }
+}

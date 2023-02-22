@@ -1,0 +1,54 @@
+{
+    "name": "Game Masters",
+    "description": "People who act as game facilitators of game worlds for players.",
+    "relations": {
+        "instantiates": [
+            "surprises",
+            "indirect-information",
+            "limited-foresight",
+            "player-decided-results",
+            "self-facilitated-games",
+            "emotional-immersion",
+            "ephemeral-goals",
+            "ultra-powerful-events",
+            "dedicated-game-facilitators",
+            "illusion-of-influence",
+            "balancing-effects",
+            "persistent-game-worlds",
+            "creative-control",
+            "enemies",
+            "negotiation",
+            "tension",
+            "empowerment",
+            "player-constructed-worlds",
+            "narrative-structures",
+            "privileged-abilities",
+            "storytelling",
+            "social-interaction",
+            "roleplaying",
+            "right-level-of-difficulty",
+            "turn-taking",
+            "perceived-chance-to-succeed"
+        ],
+        "modulates": [
+            "multiplayer-games",
+            "planned-character-development",
+            "game-world",
+            "ability-losses",
+            "downtime",
+            "cut-scenes",
+            "luck",
+            "characters"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "randomness"
+        ],
+        "conflicts": [
+            "downtime",
+            "limited-set-of-actions",
+            "perceived-chance-to-succeed",
+            "randomness"
+        ]
+    }
+}

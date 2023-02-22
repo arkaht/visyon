@@ -1,0 +1,44 @@
+{
+    "name": "Empowerment",
+    "description": "Players feel that they can affect the events and the final outcome of a game.",
+    "relations": {
+        "instantiates": [
+            "competence-areas",
+            "emotional-immersion",
+            "higher-level-closures-as-gameplay-progresses"
+        ],
+        "modulates": [
+            "gain-competence",
+            "red-queen-dilemmas",
+            "team-play",
+            "narrative-structures"
+        ],
+        "instantiated_by": [
+            "social-statuses",
+            "strategic-knowledge",
+            "stimulated-planning",
+            "player-decided-results",
+            "self-facilitated-games",
+            "converters",
+            "producers",
+            "freedom-of-choice",
+            "player-constructed-worlds",
+            "game-mastery",
+            "memorizing",
+            "privileged-abilities",
+            "new-abilities",
+            "improved-abilities",
+            "creative-control",
+            "right-level-of-difficulty",
+            "game-masters"
+        ],
+        "modulated_by": [
+            "time-limits",
+            "role-reversal"
+        ],
+        "conflicts": [
+            "player-balance",
+            "team-balance"
+        ]
+    }
+}

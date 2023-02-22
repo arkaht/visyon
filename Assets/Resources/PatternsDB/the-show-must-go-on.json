@@ -1,0 +1,34 @@
+{
+    "name": "The Show Must Go On",
+    "description": "The game state can change without any player actions.",
+    "relations": {
+        "instantiates": [
+            "time-limits",
+            "rhythm-based-actions",
+            "resources",
+            "maneuvering",
+            "tension",
+            "hovering-closures",
+            "limited-planning-ability"
+        ],
+        "modulates": [
+            "attention-swapping",
+            "aim-shoot",
+            "real-time-games",
+            "no-ops",
+            "tension"
+        ],
+        "instantiated_by": [
+            "real-time-games",
+            "moveable-tiles",
+            "ultra-powerful-events",
+            "dedicated-game-facilitators",
+            "shrinking-game-world"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "turn-taking",
+            "game-pauses"
+        ]
+    }
+}

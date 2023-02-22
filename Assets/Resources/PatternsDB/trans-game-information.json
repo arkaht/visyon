@@ -1,0 +1,43 @@
+{
+    "name": "Trans-Game Information",
+    "description": "Information that is passed from one game session to another game session.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "strategic-knowledge",
+            "irreversible-actions",
+            "game-mastery",
+            "extra-game-consequences"
+        ],
+        "modulates": [
+            "handicaps",
+            "character-development",
+            "never-ending-stories",
+            "narrative-structures",
+            "public-information"
+        ],
+        "instantiated_by": [
+            "high-score-lists",
+            "strategic-knowledge",
+            "tournaments",
+            "score",
+            "ghosts",
+            "easter-eggs",
+            "replayability",
+            "handles",
+            "save-load-cycles",
+            "meta-games",
+            "games-within-games"
+        ],
+        "modulated_by": [
+            "storytelling",
+            "public-information",
+            "imperfect-information"
+        ],
+        "conflicts": [
+            "surprises",
+            "replayability",
+            "unknown-goals"
+        ]
+    }
+}

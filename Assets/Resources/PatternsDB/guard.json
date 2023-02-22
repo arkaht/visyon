@@ -1,0 +1,27 @@
+{
+    "name": "Guard",
+    "description": "Guard is the goal to hinder other players or game elements from accessing a particular area in the game or a particular game element.",
+    "relations": {
+        "instantiates": [
+            "continuous-goals",
+            "risk-reward",
+            "preventing-goals"
+        ],
+        "modulates": [
+            "stealth",
+            "king-of-the-hill"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "deadly-traps",
+            "strategic-knowledge",
+            "fog-of-war",
+            "rescue",
+            "reconnaissance",
+            "strategic-locations",
+            "camping",
+            "ownership"
+        ],
+        "conflicts": []
+    }
+}

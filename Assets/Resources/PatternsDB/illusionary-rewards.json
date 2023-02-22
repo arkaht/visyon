@@ -1,0 +1,35 @@
+{
+    "name": "Illusionary Rewards",
+    "description": "The player receives something that is perceived as a reward but does not quantifiably help in completing a formalized goal in the game as expressed by the game state.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "predictable-consequences",
+            "perceivable-margins",
+            "exploration",
+            "extra-game-consequences",
+            "experimenting",
+            "player-defined-goals",
+            "progress-indicators",
+            "narrative-structures",
+            "balancing-effects",
+            "perceived-chance-to-succeed"
+        ],
+        "modulates": [
+            "extended-actions",
+            "rhythm-based-actions",
+            "combos",
+            "game-mastery"
+        ],
+        "instantiated_by": [
+            "tournaments",
+            "helpers",
+            "traces",
+            "clues",
+            "outstanding-features",
+            "extra-game-information"
+        ],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

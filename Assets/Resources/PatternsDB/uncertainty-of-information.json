@@ -1,0 +1,38 @@
+{
+    "name": "Uncertainty of Information",
+    "description": "The information available to the player may have different levels of reliability",
+    "relations": {
+        "instantiates": [
+            "secret-alliances",
+            "secret-resources",
+            "tension",
+            "limited-planning-ability"
+        ],
+        "modulates": [
+            "predictable-consequences",
+            "unknown-goals",
+            "delayed-effects",
+            "outcome-indicators"
+        ],
+        "instantiated_by": [
+            "indirect-information",
+            "exploration",
+            "communication-channels",
+            "imperfect-information",
+            "gain-information"
+        ],
+        "modulated_by": [
+            "randomness"
+        ],
+        "conflicts": [
+            "conflict",
+            "direct-information",
+            "status-indicators",
+            "interferable-goals",
+            "perfect-information",
+            "goal-indicators",
+            "progress-indicators",
+            "outcome-indicators"
+        ]
+    }
+}

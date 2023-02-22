@@ -1,0 +1,45 @@
+{
+    "name": "Player-Decided Distribution of Rewards & Penalties",
+    "description": "That one or more player controls the process of distributing between several players the rewards for completing, or the penalties for failing, a goal.",
+    "relations": {
+        "instantiates": [
+            "player-decided-results",
+            "resource-management",
+            "dynamic-alliances",
+            "balancing-effects",
+            "betrayal",
+            "tradeoffs",
+            "freedom-of-choice",
+            "secret-alliances",
+            "risk-reward",
+            "uncommitted-alliances",
+            "tension",
+            "symmetric-resource-distribution",
+            "asymmetric-resource-distribution",
+            "negotiation"
+        ],
+        "modulates": [
+            "individual-penalties",
+            "penalties",
+            "shared-penalties",
+            "tied-results",
+            "rewards",
+            "shared-rewards"
+        ],
+        "instantiated_by": [
+            "collaborative-actions",
+            "tied-results",
+            "team-play"
+        ],
+        "modulated_by": [
+            "committed-goals",
+            "mutual-goals",
+            "imperfect-information",
+            "resources",
+            "privileged-abilities"
+        ],
+        "conflicts": [
+            "predictable-consequences"
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Imperfect Information",
+    "description": "One aspect of information about the total game situation is not fully known to a player, either the information known is totally wrong or the accuracy of the information is limited.",
+    "relations": {
+        "instantiates": [
+            "surprises",
+            "indirect-information",
+            "limited-foresight",
+            "leaps-of-faith",
+            "exploration",
+            "red-herrings",
+            "unknown-goals",
+            "experimenting",
+            "gain-information",
+            "conceal",
+            "risk-reward",
+            "uncertainty-of-information",
+            "secret-resources"
+        ],
+        "modulates": [
+            "predictable-consequences",
+            "near-miss-indicators",
+            "anticipation",
+            "trans-game-information",
+            "configuration",
+            "replayability",
+            "perceived-chance-to-succeed",
+            "narrative-structures",
+            "memorizing",
+            "player-decided-distribution-of-rewards-penalties",
+            "betting",
+            "single-player-games",
+            "predefined-goals",
+            "limited-planning-ability"
+        ],
+        "instantiated_by": [
+            "combat",
+            "cards",
+            "book-keeping-tokens",
+            "dedicated-game-facilitators",
+            "randomness",
+            "dynamic-goal-characteristics"
+        ],
+        "modulated_by": [
+            "fog-of-war",
+            "tile-laying",
+            "clues"
+        ],
+        "conflicts": [
+            "conflict",
+            "direct-information",
+            "interferable-goals"
+        ]
+    }
+}

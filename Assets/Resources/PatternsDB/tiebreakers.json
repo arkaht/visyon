@@ -1,0 +1,36 @@
+{
+    "name": "Tiebreakers",
+    "description": "A rule that distinguishes outcomes in a game from each other so that what would otherwise be a tie in the results can be treated as having quantitative differences.",
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "excluding-goals",
+            "tension"
+        ],
+        "modulates": [
+            "high-score-lists",
+            "conflict",
+            "competition",
+            "tournaments",
+            "overcome",
+            "multiplayer-games",
+            "race",
+            "score"
+        ],
+        "instantiated_by": [
+            "perceivable-margins",
+            "tournaments"
+        ],
+        "modulated_by": [
+            "resources",
+            "resource-management"
+        ],
+        "conflicts": [
+            "shared-penalties",
+            "negotiation",
+            "shared-rewards",
+            "uncommitted-alliances",
+            "tied-results"
+        ]
+    }
+}

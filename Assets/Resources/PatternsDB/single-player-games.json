@@ -1,0 +1,36 @@
+{
+    "name": "Single-Player Games",
+    "description": "Games where there is only one player in a game instance.",
+    "relations": {
+        "instantiates": [
+            "individual-penalties",
+            "individual-rewards"
+        ],
+        "modulates": [
+            "high-score-lists",
+            "reversability"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "meta-games",
+            "spectators",
+            "exploration",
+            "downtime",
+            "dedicated-game-facilitators",
+            "ghosts",
+            "save-load-cycles",
+            "easter-eggs",
+            "imperfect-information",
+            "score",
+            "narrative-structures",
+            "cut-scenes",
+            "game-pauses",
+            "right-level-of-difficulty",
+            "limited-planning-ability",
+            "asymmetric-resource-distribution"
+        ],
+        "conflicts": [
+            "social-interaction"
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "Betrayal",
+    "description": "One or several players that have an agreement with other players either intentionally fail to do as agreed or otherwise hinder the fulfillment of the agreement.",
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "surprises",
+            "leaps-of-faith",
+            "emotional-immersion",
+            "social-dilemmas",
+            "role-reversal",
+            "tension",
+            "uncommitted-alliances",
+            "risk-reward"
+        ],
+        "modulates": [
+            "trading",
+            "alliances",
+            "anticipation",
+            "tied-results",
+            "social-interaction",
+            "negotiation",
+            "narrative-structures"
+        ],
+        "instantiated_by": [
+            "collaborative-actions",
+            "player-decided-results",
+            "committed-goals",
+            "cooperation",
+            "player-decided-distribution-of-rewards-penalties",
+            "mutual-goals",
+            "individual-rewards",
+            "asymmetric-information",
+            "bluffing"
+        ],
+        "modulated_by": [
+            "indirect-information",
+            "penalties",
+            "rewards",
+            "delayed-reciprocity",
+            "delayed-effects"
+        ],
+        "conflicts": [
+            "cooperation"
+        ]
+    }
+}

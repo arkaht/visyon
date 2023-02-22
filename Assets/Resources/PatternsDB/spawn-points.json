@@ -1,0 +1,24 @@
+{
+    "name": "Spawn Points",
+    "description": "Positions in the game where Units, Avatars, or Enemies appear.",
+    "relations": {
+        "instantiates": [
+            "resource-generators",
+            "producers",
+            "strategic-locations"
+        ],
+        "modulates": [
+            "game-world",
+            "spawning",
+            "levels",
+            "lives"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "safe-havens",
+            "inaccessible-areas",
+            "camping"
+        ],
+        "conflicts": []
+    }
+}

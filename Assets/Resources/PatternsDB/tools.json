@@ -1,0 +1,37 @@
+{
+    "name": "Tools",
+    "description": "Tools are game elements that enable the players' Avatars and Units to perform actions otherwise unavailable to them.",
+    "relations": {
+        "instantiates": [
+            "gain-competence",
+            "illusion-of-influence",
+            "rewards",
+            "extra-game-consequences",
+            "perceived-chance-to-succeed",
+            "new-abilities",
+            "collecting",
+            "improved-abilities"
+        ],
+        "modulates": [
+            "avatars",
+            "achilles-heels",
+            "units",
+            "characters",
+            "gain-ownership",
+            "spawning",
+            "ownership",
+            "skills",
+            "consistent-reality-logic",
+            "controllers"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "aim-shoot",
+            "converters",
+            "helpers",
+            "privileged-abilities",
+            "transfer-of-control"
+        ],
+        "conflicts": []
+    }
+}

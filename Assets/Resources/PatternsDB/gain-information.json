@@ -1,0 +1,37 @@
+{
+    "name": "Gain Information",
+    "description": "The goal of performing actions in the game in order to be able to receive information or make deductions.",
+    "relations": {
+        "instantiates": [
+            "experimenting",
+            "puzzle-solving",
+            "supporting-goals",
+            "memorizing",
+            "uncertainty-of-information"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "limited-foresight",
+            "achilles-heels",
+            "fog-of-war",
+            "unknown-goals",
+            "strategic-locations",
+            "exploration",
+            "card-hands",
+            "reconnaissance",
+            "committed-goals",
+            "secret-resources",
+            "imperfect-information",
+            "asymmetric-information",
+            "puzzle-solving",
+            "gain-ownership"
+        ],
+        "modulated_by": [
+            "indirect-information",
+            "perfect-information"
+        ],
+        "conflicts": [
+            "perfect-information"
+        ]
+    }
+}

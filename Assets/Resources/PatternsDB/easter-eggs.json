@@ -1,0 +1,29 @@
+{
+    "name": "Easter Eggs",
+    "description": "Surprises in the game that are not related to the game.",
+    "relations": {
+        "instantiates": [
+            "surprises",
+            "trans-game-information",
+            "optional-goals",
+            "replayability",
+            "player-defined-goals"
+        ],
+        "modulates": [
+            "exploration",
+            "game-world",
+            "right-level-of-difficulty",
+            "single-player-games"
+        ],
+        "instantiated_by": [
+            "resources",
+            "games-within-games"
+        ],
+        "modulated_by": [
+            "clues"
+        ],
+        "conflicts": [
+            "consistent-reality-logic"
+        ]
+    }
+}

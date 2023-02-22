@@ -1,0 +1,40 @@
+{
+    "name": "Asymmetric Abilities",
+    "description": "Players, or game elements, do not all have the same actions available.",
+    "relations": {
+        "instantiates": [
+            "gain-competence",
+            "collaborative-actions",
+            "constructive-play",
+            "negotiation",
+            "team-play",
+            "freedom-of-choice",
+            "orthogonal-unit-differentiation",
+            "varied-gameplay",
+            "replayability",
+            "paper-rock-scissors",
+            "social-organizations"
+        ],
+        "modulates": [
+            "fog-of-war",
+            "game-mastery",
+            "communication-channels",
+            "asymmetric-goals",
+            "team-development"
+        ],
+        "instantiated_by": [
+            "privileged-abilities"
+        ],
+        "modulated_by": [
+            "turn-based-games",
+            "balancing-effects",
+            "tournaments",
+            "asymmetric-information",
+            "paper-rock-scissors"
+        ],
+        "conflicts": [
+            "symmetry",
+            "player-balance"
+        ]
+    }
+}

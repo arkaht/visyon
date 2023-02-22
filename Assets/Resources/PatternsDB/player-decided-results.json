@@ -1,0 +1,37 @@
+{
+    "name": "Player Decided Results",
+    "description": "Players, or at least some of the players, are responsible for deciding at least some of the results of the player actions. These decisions are not necessarily based on the rules of the game.",
+    "relations": {
+        "instantiates": [
+            "delayed-reciprocity",
+            "social-organizations",
+            "balancing-effects",
+            "limited-planning-ability",
+            "empowerment",
+            "player-balance",
+            "betrayal",
+            "secret-alliances",
+            "perceived-chance-to-succeed"
+        ],
+        "modulates": [
+            "alliances",
+            "social-interaction"
+        ],
+        "instantiated_by": [
+            "collaborative-actions",
+            "player-decided-distribution-of-rewards-penalties",
+            "game-masters",
+            "self-facilitated-games",
+            "storytelling",
+            "player-constructed-worlds"
+        ],
+        "modulated_by": [
+            "social-statuses",
+            "negotiation"
+        ],
+        "conflicts": [
+            "predictable-consequences",
+            "team-balance"
+        ]
+    }
+}

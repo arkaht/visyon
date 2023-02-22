@@ -1,0 +1,34 @@
+{
+    "name": "Supporting Goals",
+    "description": "Completion of a Supporting Goal helps the player achieve the other, sometimes specific, goals of the game.",
+    "relations": {
+        "instantiates": [
+            "progress-indicators"
+        ],
+        "modulates": [
+            "hierarchy-of-goals",
+            "player-balance",
+            "risk-reward",
+            "tradeoffs",
+            "right-level-of-difficulty",
+            "varied-gameplay"
+        ],
+        "instantiated_by": [
+            "pick-ups",
+            "achilles-heels",
+            "gain-information",
+            "race",
+            "improved-abilities",
+            "optional-goals",
+            "new-abilities",
+            "area-control"
+        ],
+        "modulated_by": [
+            "resources"
+        ],
+        "conflicts": [
+            "conflict",
+            "red-herrings"
+        ]
+    }
+}

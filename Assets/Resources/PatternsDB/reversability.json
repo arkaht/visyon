@@ -1,0 +1,33 @@
+{
+    "name": "Reversability",
+    "description": "The possibility of returning to a previous game state of the whole or just parts of the game.",
+    "relations": {
+        "instantiates": [
+            "experimenting",
+            "handicaps",
+            "replayability"
+        ],
+        "modulates": [
+            "buttons",
+            "puzzle-solving",
+            "ultra-powerful-events",
+            "risk-reward",
+            "narrative-structures",
+            "extra-game-actions"
+        ],
+        "instantiated_by": [
+            "self-facilitated-games",
+            "closed-economies",
+            "role-reversal",
+            "save-load-cycles",
+            "freedom-of-choice"
+        ],
+        "modulated_by": [
+            "single-player-games"
+        ],
+        "conflicts": [
+            "persistent-game-worlds",
+            "tension"
+        ]
+    }
+}

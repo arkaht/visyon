@@ -1,0 +1,44 @@
+{
+    "name": "Deadly Traps",
+    "description": "Deadly Traps are game events that kill Avatars and Units if they are within the area of effect of the trap.",
+    "relations": {
+        "instantiates": [
+            "damage",
+            "rhythm-based-actions",
+            "time-limits",
+            "surprises",
+            "movement-limitations",
+            "tension",
+            "leaps-of-faith",
+            "memorizing",
+            "ultra-powerful-events",
+            "timing"
+        ],
+        "modulates": [
+            "evade",
+            "exploration",
+            "reconnaissance",
+            "inaccessible-areas",
+            "lives",
+            "units",
+            "maneuvering",
+            "game-world",
+            "movement",
+            "eliminate",
+            "guard",
+            "rescue"
+        ],
+        "instantiated_by": [
+            "shrinking-game-world"
+        ],
+        "modulated_by": [
+            "damage",
+            "outstanding-features",
+            "penalties",
+            "consumers"
+        ],
+        "conflicts": [
+            "safe-havens"
+        ]
+    }
+}

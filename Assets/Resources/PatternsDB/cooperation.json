@@ -1,0 +1,39 @@
+{
+    "name": "Cooperation",
+    "description": "Players cooperate, i.e., coordinate their actions and share resources, in order to reach goals or subgoals of the game.",
+    "relations": {
+        "instantiates": [
+            "constructive-play",
+            "alliances",
+            "betrayal",
+            "social-interaction"
+        ],
+        "modulates": [
+            "competition",
+            "tension",
+            "dynamic-alliances",
+            "team-play"
+        ],
+        "instantiated_by": [
+            "collaborative-actions",
+            "shared-rewards",
+            "team-play",
+            "mutual-goals"
+        ],
+        "modulated_by": [
+            "social-statuses",
+            "competence-areas",
+            "shared-resources",
+            "bidding",
+            "trading",
+            "delayed-reciprocity",
+            "individual-rewards",
+            "social-dilemmas",
+            "social-organizations"
+        ],
+        "conflicts": [
+            "conflict",
+            "betrayal"
+        ]
+    }
+}

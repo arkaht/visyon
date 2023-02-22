@@ -1,0 +1,38 @@
+{
+    "name": "Smooth Learning Curves",
+    "description": "Games designed to provide players with the possibility of smoothly progressing from novice to master.",
+    "relations": {
+        "instantiates": [
+            "immersion",
+            "game-mastery"
+        ],
+        "modulates": [
+            "multiplayer-games",
+            "perceived-chance-to-succeed",
+            "illusion-of-influence"
+        ],
+        "instantiated_by": [
+            "limited-foresight",
+            "red-queen-dilemmas",
+            "experimenting",
+            "dedicated-game-facilitators",
+            "luck",
+            "right-level-of-difficulty",
+            "right-level-of-complexity",
+            "combos",
+            "clues",
+            "helpers",
+            "extra-game-information",
+            "balancing-effects",
+            "save-load-cycles",
+            "handicaps"
+        ],
+        "modulated_by": [
+            "strategic-knowledge",
+            "inaccessible-areas",
+            "new-abilities",
+            "levels"
+        ],
+        "conflicts": []
+    }
+}

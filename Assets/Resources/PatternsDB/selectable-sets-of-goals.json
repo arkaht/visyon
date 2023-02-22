@@ -1,0 +1,34 @@
+{
+    "name": "Selectable Sets of Goals",
+    "description": "The player can select the goals he tries to achieve in the game from a set of available goals.",
+    "relations": {
+        "instantiates": [
+            "replayability",
+            "strategic-knowledge",
+            "risk-reward",
+            "right-level-of-difficulty",
+            "varied-gameplay",
+            "tradeoffs",
+            "freedom-of-choice"
+        ],
+        "modulates": [
+            "hierarchy-of-goals",
+            "unknown-goals",
+            "excluding-goals"
+        ],
+        "instantiated_by": [
+            "configuration",
+            "predefined-goals",
+            "optional-goals",
+            "area-control"
+        ],
+        "modulated_by": [
+            "ephemeral-goals",
+            "incompatible-goals",
+            "traverse"
+        ],
+        "conflicts": [
+            "predictable-consequences"
+        ]
+    }
+}

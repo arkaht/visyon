@@ -1,0 +1,16 @@
+{
+    "name": "Buttons",
+    "description": "Buttons are game elements, which players can use to activate events or actions in the game world.",
+    "relations": {
+        "instantiates": [
+            "controllers"
+        ],
+        "modulates": [],
+        "instantiated_by": [],
+        "modulated_by": [
+            "reversability",
+            "irreversible-actions"
+        ],
+        "conflicts": []
+    }
+}

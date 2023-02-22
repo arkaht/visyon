@@ -1,0 +1,36 @@
+{
+    "name": "Ephemeral Goals",
+    "description": "Goals that have a dynamic existence, that is, they can appear and disappear during the gameplay; their appearance not necessarily known at the beginning of the game and their disappearance may not be due to their completion or them having become impossible.",
+    "relations": {
+        "instantiates": [
+            "player-defined-goals"
+        ],
+        "modulates": [
+            "hierarchy-of-goals",
+            "selectable-sets-of-goals",
+            "narrative-structures",
+            "alternative-reality"
+        ],
+        "instantiated_by": [
+            "resource-generators",
+            "power-ups",
+            "game-masters"
+        ],
+        "modulated_by": [
+            "time-limits",
+            "penalties",
+            "committed-goals",
+            "optional-goals",
+            "unknown-goals",
+            "games-within-games",
+            "rewards"
+        ],
+        "conflicts": [
+            "predefined-goals",
+            "player-balance",
+            "narrative-structures",
+            "right-level-of-difficulty",
+            "downtime"
+        ]
+    }
+}

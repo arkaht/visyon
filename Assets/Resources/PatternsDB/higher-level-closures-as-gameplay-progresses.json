@@ -1,0 +1,30 @@
+{
+    "name": "Higher-Level Closures as Gameplay Progresses",
+    "description": "Closures that occur progressively become more important as the game is played.",
+    "relations": {
+        "instantiates": [
+            "varied-gameplay"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "hierarchy-of-goals",
+            "combat",
+            "capture",
+            "last-man-standing",
+            "empowerment",
+            "balancing-effects",
+            "narrative-structures",
+            "closure-points",
+            "boss-monsters",
+            "eliminate",
+            "non-renewable-resources",
+            "shrinking-game-world"
+        ],
+        "modulated_by": [
+            "limited-set-of-actions",
+            "overcome",
+            "right-level-of-difficulty"
+        ],
+        "conflicts": []
+    }
+}

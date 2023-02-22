@@ -1,0 +1,39 @@
+{
+    "name": "Social Dilemmas",
+    "description": "The players tend to compete against each other even though cooperation would be beneficial for all players involved.",
+    "relations": {
+        "instantiates": [
+            "emotional-immersion",
+            "social-interaction",
+            "tension",
+            "social-organizations"
+        ],
+        "modulates": [
+            "competition",
+            "alliances",
+            "cooperation",
+            "dynamic-alliances",
+            "perceived-chance-to-succeed",
+            "risk-reward",
+            "tied-results"
+        ],
+        "instantiated_by": [
+            "shared-resources",
+            "shared-penalties",
+            "individual-rewards",
+            "delayed-reciprocity",
+            "betrayal",
+            "freedom-of-choice",
+            "enemies",
+            "social-organizations"
+        ],
+        "modulated_by": [
+            "conflict",
+            "renewable-resources",
+            "rewards"
+        ],
+        "conflicts": [
+            "individual-penalties"
+        ]
+    }
+}

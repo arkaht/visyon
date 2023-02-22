@@ -1,0 +1,35 @@
+{
+    "name": "Reconnaissance",
+    "description": "Patrolling a known area in the game world to detect changes.",
+    "relations": {
+        "instantiates": [
+            "continuous-goals",
+            "gain-information",
+            "traverse",
+            "stealth"
+        ],
+        "modulates": [
+            "rhythm-based-actions",
+            "secret-resources",
+            "guard"
+        ],
+        "instantiated_by": [
+            "attention-swapping",
+            "fog-of-war",
+            "renewable-resources",
+            "area-control",
+            "enemies"
+        ],
+        "modulated_by": [
+            "deadly-traps",
+            "strategic-locations",
+            "traces",
+            "alarms",
+            "game-state-overview",
+            "secret-resources"
+        ],
+        "conflicts": [
+            "game-state-overview"
+        ]
+    }
+}

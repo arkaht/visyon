@@ -1,0 +1,36 @@
+{
+    "name": "Indirect Information",
+    "description": "Players obtain information about the game situation in an indirect way, usually from other players.",
+    "relations": {
+        "instantiates": [
+            "uncertainty-of-information",
+            "puzzle-solving",
+            "bluffing"
+        ],
+        "modulates": [
+            "gain-information",
+            "social-interaction",
+            "emotional-immersion",
+            "narrative-structures",
+            "betrayal",
+            "trading",
+            "secret-alliances"
+        ],
+        "instantiated_by": [
+            "clues",
+            "helpers",
+            "red-herrings",
+            "communication-channels",
+            "game-masters",
+            "imperfect-information"
+        ],
+        "modulated_by": [
+            "consistent-reality-logic",
+            "alternative-reality"
+        ],
+        "conflicts": [
+            "direct-information",
+            "perfect-information"
+        ]
+    }
+}

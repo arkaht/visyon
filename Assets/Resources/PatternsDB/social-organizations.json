@@ -1,0 +1,47 @@
+{
+    "name": "Social Organizations",
+    "description": "Social Organizations are more or less stable group of players who have common long-term interests within the game.",
+    "relations": {
+        "instantiates": [
+            "alliances",
+            "team-play",
+            "varied-gameplay",
+            "social-dilemmas",
+            "delayed-reciprocity"
+        ],
+        "modulates": [
+            "competition",
+            "cooperation",
+            "team-development",
+            "social-interaction"
+        ],
+        "instantiated_by": [
+            "player-decided-results",
+            "asymmetric-abilities",
+            "investments",
+            "handles",
+            "social-interaction",
+            "social-dilemmas"
+        ],
+        "modulated_by": [
+            "social-statuses",
+            "conflict",
+            "competence-areas",
+            "shared-resources",
+            "status-indicators",
+            "shared-penalties",
+            "resource-management",
+            "tournaments",
+            "multiplayer-games",
+            "communication-channels",
+            "identification",
+            "persistent-game-worlds",
+            "negotiation",
+            "shared-rewards",
+            "orthogonal-unit-differentiation"
+        ],
+        "conflicts": [
+            "uncommitted-alliances"
+        ]
+    }
+}

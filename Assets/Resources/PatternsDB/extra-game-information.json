@@ -1,0 +1,28 @@
+{
+    "name": "Extra-Game Information",
+    "description": "Information provided within the game that concerns subjects outside the Game World.",
+    "relations": {
+        "instantiates": [
+            "strategic-knowledge",
+            "smooth-learning-curves",
+            "memorizing",
+            "illusionary-rewards"
+        ],
+        "modulates": [
+            "illusion-of-influence",
+            "alternative-reality",
+            "right-level-of-complexity",
+            "right-level-of-difficulty"
+        ],
+        "instantiated_by": [
+            "combos"
+        ],
+        "modulated_by": [
+            "storytelling"
+        ],
+        "conflicts": [
+            "immersion",
+            "consistent-reality-logic"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Analysis Paralysis",
+    "description": "The players can spend considerable amounts of time planning their actions, because the consequences of the actions are at least somewhat predictable, and the number of possible outcomes grows exponentially the further in game time the players plan ahead.",
+    "relations": {
+        "instantiates": [
+            "downtime"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "cognitive-immersion",
+            "stimulated-planning",
+            "limited-set-of-actions",
+            "irreversible-actions",
+            "budgeted-action-points",
+            "tradeoffs",
+            "freedom-of-choice",
+            "turn-taking",
+            "predefined-goals",
+            "right-level-of-complexity",
+            "game-state-overview"
+        ],
+        "modulated_by": [
+            "predictable-consequences",
+            "discard-piles",
+            "time-limits",
+            "perfect-information",
+            "symmetric-information"
+        ],
+        "conflicts": [
+            "limited-foresight",
+            "anticipation",
+            "limited-resources",
+            "randomness",
+            "limited-planning-ability"
+        ]
+    }
+}

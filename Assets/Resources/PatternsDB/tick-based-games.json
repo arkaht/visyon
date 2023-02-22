@@ -1,0 +1,26 @@
+{
+    "name": "Tick-Based Games",
+    "description": "The game time progresses according to real time, but in discrete steps.",
+    "relations": {
+        "instantiates": [
+            "no-ops"
+        ],
+        "modulates": [
+            "asynchronous-games",
+            "synchronous-games",
+            "downtime"
+        ],
+        "instantiated_by": [
+            "time-limits",
+            "turn-taking",
+            "dedicated-game-facilitators"
+        ],
+        "modulated_by": [
+            "real-time-games",
+            "turn-based-games",
+            "budgeted-action-points",
+            "game-pauses"
+        ],
+        "conflicts": []
+    }
+}

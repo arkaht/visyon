@@ -1,0 +1,42 @@
+{
+    "name": "Resource Management",
+    "description": "The players have to plan, manage, and control resource flows within the game in order to reach the goals of the game.",
+    "relations": {
+        "instantiates": [
+            "cognitive-immersion",
+            "stimulated-planning",
+            "risk-reward",
+            "freedom-of-choice",
+            "game-mastery",
+            "tradeoffs"
+        ],
+        "modulates": [
+            "right-level-of-complexity",
+            "social-organizations",
+            "team-development",
+            "tiebreakers"
+        ],
+        "instantiated_by": [
+            "attention-swapping",
+            "producer-consumer",
+            "combat",
+            "renewable-resources",
+            "player-decided-distribution-of-rewards-penalties",
+            "betting",
+            "investments",
+            "units",
+            "limited-resources"
+        ],
+        "modulated_by": [
+            "consumers",
+            "ownership",
+            "container",
+            "producers",
+            "gain-ownership",
+            "converters"
+        ],
+        "conflicts": [
+            "book-keeping-tokens"
+        ]
+    }
+}

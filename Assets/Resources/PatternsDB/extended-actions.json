@@ -1,0 +1,46 @@
+{
+    "name": "Extended Actions",
+    "description": "Actions that take so long to complete that they require players to miss opportunities to perform other actions in order to complete them.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "continuous-goals",
+            "investments",
+            "ultra-powerful-events",
+            "balancing-effects",
+            "stimulated-planning",
+            "hovering-closures",
+            "tension",
+            "risk-reward",
+            "downtime",
+            "irreversible-actions",
+            "delayed-effects",
+            "freedom-of-choice",
+            "perceivable-margins",
+            "area-control",
+            "rhythm-based-actions",
+            "dexterity-based-actions"
+        ],
+        "modulates": [
+            "game-mastery",
+            "producers",
+            "collaborative-actions"
+        ],
+        "instantiated_by": [
+            "aim-shoot",
+            "combos",
+            "no-ops"
+        ],
+        "modulated_by": [
+            "progress-indicators",
+            "focus-loci",
+            "interruptible-actions",
+            "geometric-rewards-for-investments",
+            "illusionary-rewards",
+            "units"
+        ],
+        "conflicts": [
+            "freedom-of-choice"
+        ]
+    }
+}

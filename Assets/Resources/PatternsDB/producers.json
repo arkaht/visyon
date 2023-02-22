@@ -1,0 +1,36 @@
+{
+    "name": "Producers",
+    "description": "A game element, usually some kind of a resource, is produced as a consequence of a player action, certain game element configuration, or other type of game event.",
+    "relations": {
+        "instantiates": [
+            "stimulated-planning",
+            "tradeoffs",
+            "construction",
+            "producer-consumer",
+            "privileged-abilities",
+            "empowerment",
+            "renewable-resources"
+        ],
+        "modulates": [
+            "avatars",
+            "resource-management",
+            "units",
+            "tradeoffs",
+            "construction",
+            "area-control",
+            "resources",
+            "game-world",
+            "power-ups",
+            "ownership",
+            "characters"
+        ],
+        "instantiated_by": [
+            "spawn-points",
+            "spawning"
+        ],
+        "modulated_by": [
+            "extended-actions"
+        ],
+        "conflicts": []
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Game Mastery",
+    "description": "That one can clearly distinguish between skillful and incompetent players when they are using all their skills and abilities in a game.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "emotional-immersion",
+            "empowerment",
+            "investments",
+            "replayability"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "competence-areas",
+            "perceivable-margins",
+            "collaborative-actions",
+            "trans-game-information",
+            "resource-management",
+            "rhythm-based-actions",
+            "overcome",
+            "experimenting",
+            "memorizing",
+            "limited-resources",
+            "puzzle-solving",
+            "tradeoffs",
+            "negotiation",
+            "predefined-goals",
+            "stimulated-planning",
+            "timing",
+            "dexterity-based-actions",
+            "risk-reward",
+            "strategic-knowledge",
+            "smooth-learning-curves",
+            "paper-rock-scissors",
+            "betting",
+            "right-level-of-difficulty",
+            "right-level-of-complexity",
+            "storytelling"
+        ],
+        "modulated_by": [
+            "spectators",
+            "extended-actions",
+            "penalties",
+            "asymmetric-abilities",
+            "tournaments",
+            "multiplayer-games",
+            "red-queen-dilemmas",
+            "player-balance",
+            "illusionary-rewards",
+            "handicaps",
+            "rewards",
+            "immersion",
+            "levels",
+            "turn-taking",
+            "varied-gameplay",
+            "high-score-lists",
+            "handles",
+            "luck",
+            "symmetry"
+        ],
+        "conflicts": [
+            "randomness",
+            "luck"
+        ]
+    }
+}

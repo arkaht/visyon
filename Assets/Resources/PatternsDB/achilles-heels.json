@@ -1,0 +1,30 @@
+{
+    "name": "Achilles' Heels",
+    "description": "A special weakness of an enemy that can be used to defeat that enemy much easier than by other means.",
+    "relations": {
+        "instantiates": [
+            "strategic-knowledge",
+            "gain-information",
+            "supporting-goals",
+            "varied-gameplay",
+            "right-level-of-difficulty",
+            "experimenting",
+            "puzzle-solving"
+        ],
+        "modulates": [
+            "damage",
+            "combat",
+            "overcome",
+            "boss-monsters"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "public-information",
+            "narrative-structures",
+            "tools",
+            "clues",
+            "traces"
+        ],
+        "conflicts": []
+    }
+}

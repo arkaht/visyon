@@ -1,0 +1,45 @@
+{
+    "name": "Renewable Resources",
+    "description": "A type of resource of which more instances can be generated during game play.",
+    "relations": {
+        "instantiates": [
+            "hierarchy-of-goals",
+            "resource-management",
+            "reconnaissance",
+            "privileged-abilities",
+            "tradeoffs"
+        ],
+        "modulates": [
+            "damage",
+            "pick-ups",
+            "units",
+            "resources",
+            "social-dilemmas",
+            "limited-resources",
+            "transfer-of-control",
+            "gain-ownership",
+            "lives",
+            "characters"
+        ],
+        "instantiated_by": [
+            "resource-generators",
+            "closed-economies",
+            "chargers",
+            "producers",
+            "budgeted-action-points"
+        ],
+        "modulated_by": [
+            "pick-ups",
+            "time-limits",
+            "chargers",
+            "converters",
+            "diminishing-returns",
+            "ownership",
+            "controllers",
+            "asymmetric-resource-distribution"
+        ],
+        "conflicts": [
+            "non-renewable-resources"
+        ]
+    }
+}

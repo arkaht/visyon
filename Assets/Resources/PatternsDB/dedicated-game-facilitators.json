@@ -1,0 +1,51 @@
+{
+    "name": "Dedicated Game Facilitators",
+    "description": "Games that have machines or people who perform actions and provide choices so that players can play a game.",
+    "relations": {
+        "instantiates": [
+            "surprises",
+            "tick-based-games",
+            "unknown-goals",
+            "smooth-learning-curves",
+            "ultra-powerful-events",
+            "narrative-structures",
+            "imperfect-information",
+            "asynchronous-games",
+            "persistent-game-worlds",
+            "communication-channels",
+            "balancing-effects",
+            "cut-scenes",
+            "turn-taking",
+            "the-show-must-go-on",
+            "save-load-cycles",
+            "enemies",
+            "storytelling",
+            "agents"
+        ],
+        "modulates": [
+            "conflict",
+            "combat",
+            "turn-based-games",
+            "never-ending-stories",
+            "multiplayer-games",
+            "real-time-games",
+            "experimenting",
+            "downtime",
+            "game-world",
+            "synchronous-games",
+            "betting",
+            "characters",
+            "single-player-games",
+            "replayability"
+        ],
+        "instantiated_by": [
+            "game-masters"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "downtime",
+            "self-facilitated-games",
+            "public-information"
+        ]
+    }
+}

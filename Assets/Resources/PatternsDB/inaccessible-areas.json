@@ -1,0 +1,38 @@
+{
+    "name": "Inaccessible Areas",
+    "description": "Inaccessible Areas are parts of the Game World the player can perceive but cannot currently enter, such as areas behind locked doors or sufficiently high ledges.",
+    "relations": {
+        "instantiates": [
+            "traverse",
+            "consistent-reality-logic"
+        ],
+        "modulates": [
+            "game-world-navigation",
+            "leaps-of-faith",
+            "smooth-learning-curves",
+            "game-world",
+            "levels",
+            "spawn-points",
+            "spawning",
+            "camping",
+            "movement"
+        ],
+        "instantiated_by": [
+            "movement-limitations",
+            "invisible-walls",
+            "obstacles"
+        ],
+        "modulated_by": [
+            "deadly-traps",
+            "safe-havens",
+            "privileged-movement",
+            "resource-locations",
+            "levels",
+            "replayability",
+            "orthogonal-unit-differentiation"
+        ],
+        "conflicts": [
+            "freedom-of-choice"
+        ]
+    }
+}

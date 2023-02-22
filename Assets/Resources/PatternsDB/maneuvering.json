@@ -1,0 +1,36 @@
+{
+    "name": "Maneuvering",
+    "description": "Controlling the movement of game elements in real-time games.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "spatial-immersion",
+            "movement",
+            "dexterity-based-actions"
+        ],
+        "modulates": [
+            "capture",
+            "race"
+        ],
+        "instantiated_by": [
+            "real-time-games",
+            "collecting",
+            "aim-shoot",
+            "the-show-must-go-on"
+        ],
+        "modulated_by": [
+            "deadly-traps",
+            "pick-ups",
+            "chargers",
+            "first-person-views",
+            "third-person-views",
+            "enemies",
+            "obstacles",
+            "right-level-of-difficulty",
+            "ultra-powerful-events"
+        ],
+        "conflicts": [
+            "turn-based-games"
+        ]
+    }
+}

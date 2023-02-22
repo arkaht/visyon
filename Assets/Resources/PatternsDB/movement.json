@@ -1,0 +1,41 @@
+{
+    "name": "Movement",
+    "description": "The action of moving game elements in the Game World.",
+    "relations": {
+        "instantiates": [
+            "game-world-navigation",
+            "spatial-immersion",
+            "budgeted-action-points",
+            "puzzle-solving",
+            "ultra-powerful-events",
+            "orthogonal-unit-differentiation",
+            "progress-indicators",
+            "dexterity-based-actions"
+        ],
+        "modulates": [
+            "aim-shoot",
+            "game-world"
+        ],
+        "instantiated_by": [
+            "aim-shoot",
+            "delivery",
+            "herd",
+            "exploration",
+            "capture",
+            "race",
+            "traverse",
+            "stealth",
+            "collecting",
+            "evade",
+            "maneuvering"
+        ],
+        "modulated_by": [
+            "deadly-traps",
+            "movement-limitations",
+            "inaccessible-areas",
+            "privileged-movement",
+            "obstacles"
+        ],
+        "conflicts": []
+    }
+}

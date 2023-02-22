@@ -1,0 +1,35 @@
+{
+    "name": "Shared Resources",
+    "description": "The players, or some of the players, have at least potential access to the same resources.",
+    "relations": {
+        "instantiates": [
+            "social-dilemmas",
+            "social-interaction",
+            "exploration",
+            "negotiation",
+            "tension",
+            "competition",
+            "race",
+            "time-limits",
+            "symmetric-resource-distribution"
+        ],
+        "modulates": [
+            "ownership",
+            "resources",
+            "penalties",
+            "cooperation",
+            "social-interaction",
+            "social-organizations",
+            "alliances",
+            "shared-penalties",
+            "shared-rewards"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "mutual-goals",
+            "team-play",
+            "strategic-knowledge"
+        ],
+        "conflicts": []
+    }
+}

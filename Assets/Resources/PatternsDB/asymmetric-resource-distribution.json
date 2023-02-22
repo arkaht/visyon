@@ -1,0 +1,32 @@
+{
+    "name": "Asymmetric Resource Distribution",
+    "description": "The resources are distributed asymmetrically among the players, that is, the players have different access and ownership rights to different kinds of resources during the game.",
+    "relations": {
+        "instantiates": [
+            "handicaps",
+            "varied-gameplay"
+        ],
+        "modulates": [
+            "trading",
+            "multiplayer-games",
+            "resources",
+            "mutual-goals",
+            "ownership",
+            "social-interaction",
+            "renewable-resources",
+            "perceived-chance-to-succeed",
+            "single-player-games"
+        ],
+        "instantiated_by": [
+            "player-decided-distribution-of-rewards-penalties"
+        ],
+        "modulated_by": [
+            "randomness"
+        ],
+        "conflicts": [
+            "symmetry",
+            "player-balance",
+            "symmetric-resource-distribution"
+        ]
+    }
+}

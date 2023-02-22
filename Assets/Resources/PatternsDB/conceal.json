@@ -1,0 +1,25 @@
+{
+    "name": "Conceal",
+    "description": "Conceal is the goal of trying to hinder other players ability to gain information.",
+    "relations": {
+        "instantiates": [
+            "continuous-goals",
+            "unknown-goals",
+            "replayability",
+            "preventing-goals"
+        ],
+        "modulates": [
+            "survive"
+        ],
+        "instantiated_by": [
+            "imperfect-information",
+            "asymmetric-information"
+        ],
+        "modulated_by": [
+            "red-herrings",
+            "freedom-of-choice",
+            "creative-control"
+        ],
+        "conflicts": []
+    }
+}

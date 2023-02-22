@@ -1,0 +1,36 @@
+{
+    "name": "Budgeted Action Points",
+    "description": "Points that are used by players to do actions during their turns.",
+    "relations": {
+        "instantiates": [
+            "cognitive-immersion",
+            "movement-limitations",
+            "resources",
+            "renewable-resources",
+            "tradeoffs",
+            "freedom-of-choice",
+            "varied-gameplay",
+            "analysis-paralysis",
+            "balancing-effects",
+            "limited-resources"
+        ],
+        "modulates": [
+            "tick-based-games",
+            "turn-based-games",
+            "real-time-games",
+            "new-abilities",
+            "privileged-abilities",
+            "characters",
+            "skills"
+        ],
+        "instantiated_by": [
+            "combat",
+            "movement",
+            "investments"
+        ],
+        "modulated_by": [
+            "status-indicators"
+        ],
+        "conflicts": []
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Alarms",
+    "description": "Alarms are abstract game elements that provide information about particular game state changes.",
+    "relations": {
+        "instantiates": [
+            "disruption-of-focused-attention"
+        ],
+        "modulates": [
+            "rescue",
+            "reconnaissance",
+            "stealth",
+            "enemies",
+            "game-state-overview"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "outstanding-features",
+            "bluffing"
+        ],
+        "conflicts": []
+    }
+}

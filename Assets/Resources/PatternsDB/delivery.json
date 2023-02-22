@@ -1,0 +1,27 @@
+{
+    "name": "Delivery",
+    "description": "Delivery consists of moving a certain game element to another specified game element or place within the game space.",
+    "relations": {
+        "instantiates": [
+            "pick-ups",
+            "goal-points",
+            "traverse",
+            "movement"
+        ],
+        "modulates": [
+            "narrative-structures",
+            "trading"
+        ],
+        "instantiated_by": [
+            "herd"
+        ],
+        "modulated_by": [
+            "stealth",
+            "overcome",
+            "evade",
+            "gain-ownership",
+            "aim-shoot"
+        ],
+        "conflicts": []
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Direct Information",
+    "description": "Players have access to information about the game state in the same format that the game state is stored",
+    "relations": {
+        "instantiates": [
+            "perceivable-margins",
+            "stimulated-planning",
+            "puzzle-solving"
+        ],
+        "modulates": [
+            "status-indicators",
+            "goal-indicators",
+            "progress-indicators",
+            "outcome-indicators",
+            "helpers",
+            "clues",
+            "trading",
+            "bidding",
+            "bluffing"
+        ],
+        "instantiated_by": [
+            "perfect-information",
+            "communication-channels"
+        ],
+        "modulated_by": [
+            "save-load-cycles"
+        ],
+        "conflicts": [
+            "indirect-information",
+            "imperfect-information",
+            "uncertainty-of-information",
+            "emotional-immersion",
+            "red-herrings"
+        ]
+    }
+}

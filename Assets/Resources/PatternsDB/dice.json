@@ -1,0 +1,21 @@
+{
+    "name": "Dice",
+    "description": "Dice are physical game elements that are used to randomize an outcome from a predefined set of outcomes, each outcome having the same likelihood.",
+    "relations": {
+        "instantiates": [
+            "strategic-knowledge",
+            "focus-loci",
+            "randomness",
+            "luck"
+        ],
+        "modulates": [
+            "combat",
+            "skills"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "balancing-effects"
+        ],
+        "conflicts": []
+    }
+}

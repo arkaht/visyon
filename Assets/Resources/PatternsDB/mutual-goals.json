@@ -1,0 +1,41 @@
+{
+    "name": "Mutual Goals",
+    "description": "The players, or some of the players, try to reach a goal within the game together.",
+    "relations": {
+        "instantiates": [
+            "betrayal",
+            "team-play",
+            "symmetric-goals",
+            "cooperation",
+            "alliances",
+            "delayed-reciprocity",
+            "shared-rewards"
+        ],
+        "modulates": [
+            "shared-resources",
+            "penalties",
+            "competition",
+            "rewards",
+            "player-decided-distribution-of-rewards-penalties",
+            "team-elimination"
+        ],
+        "instantiated_by": [
+            "shared-penalties",
+            "shared-rewards",
+            "ownership"
+        ],
+        "modulated_by": [
+            "individual-penalties",
+            "player-defined-goals",
+            "secret-alliances",
+            "individual-rewards",
+            "asymmetric-resource-distribution",
+            "negotiation",
+            "shared-penalties"
+        ],
+        "conflicts": [
+            "conflict",
+            "incompatible-goals"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Container",
+    "description": "Container is a game element that can store other game elements.",
+    "relations": {
+        "instantiates": [
+            "stimulated-planning",
+            "limited-resources",
+            "freedom-of-choice"
+        ],
+        "modulates": [
+            "resource-management",
+            "converters",
+            "resources",
+            "producer-consumer"
+        ],
+        "instantiated_by": [
+            "card-hands",
+            "drawing-stacks"
+        ],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

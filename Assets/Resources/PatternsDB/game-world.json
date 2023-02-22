@@ -1,0 +1,54 @@
+{
+    "name": "Game World",
+    "description": "The environment in which the gameplay or parts of the gameplay takes place is determined by the spatial relationships of the game elements.",
+    "relations": {
+        "instantiates": [
+            "spatial-immersion",
+            "exploration",
+            "immersion"
+        ],
+        "modulates": [
+            "player-balance",
+            "camping",
+            "roleplaying"
+        ],
+        "instantiated_by": [
+            "tiles",
+            "reconfigurable-game-world",
+            "levels"
+        ],
+        "modulated_by": [
+            "god-views",
+            "deadly-traps",
+            "goal-points",
+            "fog-of-war",
+            "resource-generators",
+            "never-ending-stories",
+            "converters",
+            "first-person-views",
+            "producers",
+            "construction",
+            "resources",
+            "game-state-overview",
+            "movement",
+            "inaccessible-areas",
+            "tile-laying",
+            "game-masters",
+            "storytelling",
+            "player-constructed-worlds",
+            "dedicated-game-facilitators",
+            "easter-eggs",
+            "secret-resources",
+            "obstacles",
+            "enemies",
+            "spawn-points",
+            "helpers",
+            "strategic-locations",
+            "outstanding-features",
+            "area-control",
+            "third-person-views",
+            "shrinking-game-world"
+        ],
+        "conflicts": []
+    }
+}

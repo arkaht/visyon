@@ -1,0 +1,21 @@
+{
+    "name": "Contact",
+    "description": "The goal of having two or more elements have physical contact with each other.",
+    "relations": {
+        "instantiates": [
+            "incompatible-goals",
+            "gain-ownership",
+            "area-control"
+        ],
+        "modulates": [
+            "herd",
+            "capture",
+            "eliminate"
+        ],
+        "instantiated_by": [
+            "traverse"
+        ],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

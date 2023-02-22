@@ -1,0 +1,27 @@
+{
+    "name": "Reconfigurable Game World",
+    "description": "The player can reconfigure the game world itself, including the basic relationships and attributes of the game elements and the rules governing the dynamics of these relationships.",
+    "relations": {
+        "instantiates": [
+            "varied-gameplay",
+            "replayability",
+            "handicaps",
+            "memorizing",
+            "game-world"
+        ],
+        "modulates": [
+            "right-level-of-difficulty",
+            "player-balance"
+        ],
+        "instantiated_by": [
+            "tiles",
+            "tile-laying"
+        ],
+        "modulated_by": [
+            "moveable-tiles"
+        ],
+        "conflicts": [
+            "right-level-of-difficulty"
+        ]
+    }
+}

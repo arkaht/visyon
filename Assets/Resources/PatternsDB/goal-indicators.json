@@ -1,0 +1,24 @@
+{
+    "name": "Goal Indicators",
+    "description": "Players are given information about his current goals in the game.",
+    "relations": {
+        "instantiates": [],
+        "modulates": [
+            "time-limits",
+            "public-information",
+            "narrative-structures"
+        ],
+        "instantiated_by": [
+            "goal-points"
+        ],
+        "modulated_by": [
+            "direct-information",
+            "game-state-overview",
+            "cut-scenes"
+        ],
+        "conflicts": [
+            "uncertainty-of-information",
+            "player-defined-goals"
+        ]
+    }
+}

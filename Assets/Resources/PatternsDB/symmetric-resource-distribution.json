@@ -1,0 +1,25 @@
+{
+    "name": "Symmetric Resource Distribution",
+    "description": "The resources are distributed symmetrically and evenly among the players, that is, the players have similar access and ownership rights to the resources.",
+    "relations": {
+        "instantiates": [
+            "symmetry"
+        ],
+        "modulates": [
+            "trading",
+            "player-balance",
+            "ownership",
+            "resources"
+        ],
+        "instantiated_by": [
+            "shared-resources",
+            "player-decided-distribution-of-rewards-penalties"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "asymmetric-resource-distribution",
+            "varied-gameplay",
+            "trading"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Shared Penalties",
+    "description": "The penalty for a failure to meet a requirement in the game is shared between some or all of the participating players.",
+    "relations": {
+        "instantiates": [
+            "penalties",
+            "social-dilemmas",
+            "mutual-goals"
+        ],
+        "modulates": [
+            "individual-penalties",
+            "collaborative-actions",
+            "alliances",
+            "team-play",
+            "social-organizations",
+            "mutual-goals"
+        ],
+        "instantiated_by": [
+            "tied-results",
+            "team-elimination"
+        ],
+        "modulated_by": [
+            "shared-resources",
+            "player-decided-distribution-of-rewards-penalties",
+            "player-elimination"
+        ],
+        "conflicts": [
+            "individual-penalties",
+            "tiebreakers",
+            "illusion-of-influence"
+        ]
+    }
+}

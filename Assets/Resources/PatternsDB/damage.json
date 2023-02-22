@@ -1,0 +1,40 @@
+{
+    "name": "Damage",
+    "description": "Effects from actions or events that can lead to negative consequences.",
+    "relations": {
+        "instantiates": [
+            "predictable-consequences",
+            "randomness",
+            "orthogonal-unit-differentiation",
+            "tension"
+        ],
+        "modulates": [
+            "strategic-knowledge",
+            "lives",
+            "deadly-traps",
+            "combat",
+            "units",
+            "evade",
+            "king-of-the-hill",
+            "consumers",
+            "resources",
+            "risk-reward",
+            "eliminate",
+            "skills",
+            "surprises",
+            "characters"
+        ],
+        "instantiated_by": [
+            "deadly-traps"
+        ],
+        "modulated_by": [
+            "penalties",
+            "achilles-heels",
+            "status-indicators",
+            "ability-losses",
+            "downtime",
+            "renewable-resources"
+        ],
+        "conflicts": []
+    }
+}

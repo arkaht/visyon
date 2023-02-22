@@ -1,0 +1,34 @@
+{
+    "name": "Tied Results",
+    "description": "Two results can be regarded as even in the game and the effects of the results can be divided.",
+    "relations": {
+        "instantiates": [
+            "shared-penalties",
+            "player-decided-distribution-of-rewards-penalties",
+            "uncommitted-alliances",
+            "shared-rewards"
+        ],
+        "modulates": [
+            "time-limits",
+            "multiplayer-games",
+            "race"
+        ],
+        "instantiated_by": [
+            "high-score-lists",
+            "tournaments",
+            "agents",
+            "score",
+            "non-renewable-resources"
+        ],
+        "modulated_by": [
+            "social-dilemmas",
+            "player-decided-distribution-of-rewards-penalties",
+            "betrayal"
+        ],
+        "conflicts": [
+            "perceivable-margins",
+            "excluding-goals",
+            "tiebreakers"
+        ]
+    }
+}

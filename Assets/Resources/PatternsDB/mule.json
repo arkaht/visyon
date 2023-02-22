@@ -1,0 +1,18 @@
+{
+    "name": "Mule",
+    "description": "A Mule is a player character that is set, typically by using scripts, to perform long, monotonous and specialized sets of actions.",
+    "relations": {
+        "instantiates": [
+            "avatars"
+        ],
+        "modulates": [
+            "resource-generators"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "diminishing-returns",
+            "risk-reward"
+        ],
+        "conflicts": []
+    }
+}

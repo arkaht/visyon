@@ -1,0 +1,66 @@
+{
+    "name": "Strategic Knowledge",
+    "description": "Knowledge based on processing information about the game elements, rules, possible actions, or evaluation functions of a game without regards to a specific game state.",
+    "relations": {
+        "instantiates": [
+            "memorizing",
+            "empowerment",
+            "replayability",
+            "trans-game-information",
+            "extra-game-actions",
+            "stimulated-planning",
+            "game-mastery"
+        ],
+        "modulates": [
+            "shared-resources",
+            "betting",
+            "illusion-of-influence",
+            "self-facilitated-games",
+            "smooth-learning-curves",
+            "replayability",
+            "guard",
+            "race"
+        ],
+        "instantiated_by": [
+            "game-world-navigation",
+            "meta-games",
+            "spectators",
+            "hierarchy-of-goals",
+            "tournaments",
+            "moveable-tiles",
+            "power-ups",
+            "dice",
+            "strategic-locations",
+            "ultra-powerful-events",
+            "shrinking-game-world",
+            "transfer-of-control",
+            "rewards",
+            "penalties",
+            "area-control",
+            "delayed-effects",
+            "randomness",
+            "tradeoffs",
+            "combos",
+            "achilles-heels",
+            "resources",
+            "experimenting",
+            "cut-scenes",
+            "trans-game-information",
+            "game-state-overview",
+            "predefined-goals",
+            "extra-game-information",
+            "selectable-sets-of-goals"
+        ],
+        "modulated_by": [
+            "damage",
+            "storytelling",
+            "predictable-consequences",
+            "public-information",
+            "perfect-information",
+            "unknown-goals"
+        ],
+        "conflicts": [
+            "luck"
+        ]
+    }
+}

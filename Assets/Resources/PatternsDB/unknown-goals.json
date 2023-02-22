@@ -1,0 +1,40 @@
+{
+    "name": "Unknown Goals",
+    "description": "Goals initially, or currently, unknown to players.",
+    "relations": {
+        "instantiates": [
+            "surprises",
+            "gain-information"
+        ],
+        "modulates": [
+            "hierarchy-of-goals",
+            "strategic-knowledge",
+            "committed-goals",
+            "competition",
+            "ephemeral-goals",
+            "rewards",
+            "planned-character-development"
+        ],
+        "instantiated_by": [
+            "conceal",
+            "dynamic-goal-characteristics",
+            "dedicated-game-facilitators",
+            "imperfect-information"
+        ],
+        "modulated_by": [
+            "selectable-sets-of-goals",
+            "clues",
+            "uncertainty-of-information",
+            "asymmetric-information",
+            "narrative-structures",
+            "downtime",
+            "turn-taking"
+        ],
+        "conflicts": [
+            "trans-game-information",
+            "predefined-goals",
+            "replayability",
+            "symmetric-goals"
+        ]
+    }
+}

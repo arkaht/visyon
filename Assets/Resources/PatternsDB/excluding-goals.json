@@ -1,0 +1,29 @@
+{
+    "name": "Excluding Goals",
+    "description": "Completing an Excluding Goal makes the completion of other goals in the game meaningless or impossible.",
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "competition",
+            "incompatible-goals",
+            "closure-points"
+        ],
+        "modulates": [
+            "hierarchy-of-goals"
+        ],
+        "instantiated_by": [
+            "overcome",
+            "race",
+            "preventing-goals",
+            "tiebreakers"
+        ],
+        "modulated_by": [
+            "selectable-sets-of-goals",
+            "dynamic-goal-characteristics"
+        ],
+        "conflicts": [
+            "tied-results",
+            "shared-rewards"
+        ]
+    }
+}

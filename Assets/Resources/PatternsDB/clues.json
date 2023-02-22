@@ -1,0 +1,40 @@
+{
+    "name": "Clues",
+    "description": "Clues are game elements that give the players information about how the goals of the game can be reached.",
+    "relations": {
+        "instantiates": [
+            "indirect-information",
+            "smooth-learning-curves",
+            "resources",
+            "illusionary-rewards",
+            "outstanding-features"
+        ],
+        "modulates": [
+            "game-world-navigation",
+            "exploration",
+            "achilles-heels",
+            "red-herrings",
+            "unknown-goals",
+            "levels",
+            "alternative-reality",
+            "gain-ownership",
+            "imperfect-information",
+            "narrative-structures",
+            "right-level-of-difficulty",
+            "easter-eggs",
+            "tension"
+        ],
+        "instantiated_by": [
+            "helpers",
+            "traces"
+        ],
+        "modulated_by": [
+            "direct-information"
+        ],
+        "conflicts": [
+            "red-herrings",
+            "emotional-immersion",
+            "consistent-reality-logic"
+        ]
+    }
+}

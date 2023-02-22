@@ -1,0 +1,52 @@
+{
+    "name": "Randomness",
+    "description": "Effects or events in the game cannot be exactly predicted.",
+    "relations": {
+        "instantiates": [
+            "limited-foresight",
+            "strategic-knowledge",
+            "player-balance",
+            "memorizing",
+            "balancing-effects",
+            "risk-reward",
+            "imperfect-information",
+            "tension",
+            "luck",
+            "limited-planning-ability"
+        ],
+        "modulates": [
+            "never-ending-stories",
+            "quick-games",
+            "characters",
+            "perceived-chance-to-succeed",
+            "narrative-structures",
+            "asymmetric-resource-distribution",
+            "betting",
+            "skills",
+            "illusion-of-influence",
+            "delayed-effects",
+            "predictable-consequences",
+            "uncertainty-of-information",
+            "game-masters"
+        ],
+        "instantiated_by": [
+            "damage",
+            "combat",
+            "cards",
+            "drawing-stacks",
+            "dice",
+            "paper-rock-scissors",
+            "tile-laying"
+        ],
+        "modulated_by": [
+            "non-renewable-resources"
+        ],
+        "conflicts": [
+            "perceivable-margins",
+            "perfect-information",
+            "game-masters",
+            "game-mastery",
+            "analysis-paralysis"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "Persistent Game Worlds",
+    "description": "The storage of the game state of a single game instance in Persistent Game Worlds is independent from the players' game and play sessions.",
+    "relations": {
+        "instantiates": [
+            "emotional-immersion",
+            "multiplayer-games",
+            "extra-game-consequences",
+            "extra-game-actions",
+            "social-interaction"
+        ],
+        "modulates": [
+            "social-statuses",
+            "identification",
+            "characters",
+            "player-constructed-worlds",
+            "social-organizations"
+        ],
+        "instantiated_by": [
+            "dedicated-game-facilitators",
+            "game-masters"
+        ],
+        "modulated_by": [
+            "avatars",
+            "character-development",
+            "construction",
+            "never-ending-stories",
+            "narrative-structures",
+            "creative-control",
+            "storytelling",
+            "asynchronous-games",
+            "handles",
+            "ownership",
+            "roleplaying"
+        ],
+        "conflicts": [
+            "reversability"
+        ]
+    }
+}

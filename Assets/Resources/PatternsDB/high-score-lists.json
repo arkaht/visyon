@@ -1,0 +1,23 @@
+{
+    "name": "High Score Lists",
+    "description": "High Score lists give players the chance to rank themselves against other players who have previously played the game.",
+    "relations": {
+        "instantiates": [
+            "player-defined-goals",
+            "meta-games",
+            "replayability",
+            "trans-game-information",
+            "social-statuses",
+            "tied-results"
+        ],
+        "modulates": [
+            "game-mastery"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "tiebreakers",
+            "single-player-games"
+        ],
+        "conflicts": []
+    }
+}

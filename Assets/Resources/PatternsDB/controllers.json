@@ -1,0 +1,26 @@
+{
+    "name": "Controllers",
+    "description": "Controllers are game elements fixed in particular locations in the Game World that allow players to perform actions that would not be possible otherwise.",
+    "relations": {
+        "instantiates": [
+            "ultra-powerful-events",
+            "strategic-locations",
+            "resource-locations"
+        ],
+        "modulates": [
+            "renewable-resources",
+            "gain-ownership",
+            "moveable-tiles",
+            "area-control"
+        ],
+        "instantiated_by": [
+            "buttons"
+        ],
+        "modulated_by": [
+            "resource-generators",
+            "tools",
+            "helpers"
+        ],
+        "conflicts": []
+    }
+}

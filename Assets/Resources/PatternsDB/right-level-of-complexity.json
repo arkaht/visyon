@@ -1,0 +1,44 @@
+{
+    "name": "Right Level of Complexity",
+    "description": "That the level of complexity by the player in the game is the one intended by the game design.",
+    "relations": {
+        "instantiates": [
+            "cognitive-immersion",
+            "constructive-play",
+            "smooth-learning-curves",
+            "experimenting",
+            "creative-control",
+            "game-mastery",
+            "analysis-paralysis",
+            "limited-planning-ability",
+            "right-level-of-difficulty"
+        ],
+        "modulates": [
+            "predictable-consequences",
+            "limited-foresight",
+            "stimulated-planning",
+            "rhythm-based-actions",
+            "downtime",
+            "puzzle-solving",
+            "illusion-of-influence"
+        ],
+        "instantiated_by": [
+            "narrative-structures"
+        ],
+        "modulated_by": [
+            "attention-swapping",
+            "producer-consumer",
+            "red-herrings",
+            "resource-management",
+            "converters",
+            "decreased-abilities",
+            "perfect-information",
+            "role-reversal",
+            "ability-losses",
+            "indirect-control",
+            "extra-game-information",
+            "combos"
+        ],
+        "conflicts": []
+    }
+}

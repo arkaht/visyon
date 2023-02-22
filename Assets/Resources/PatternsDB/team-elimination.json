@@ -1,0 +1,22 @@
+{
+    "name": "Team Elimination",
+    "description": "The elimination of the whole team in team-oriented games is an end condition and the evaluation function.",
+    "relations": {
+        "instantiates": [
+            "shared-penalties"
+        ],
+        "modulates": [
+            "team-play"
+        ],
+        "instantiated_by": [
+            "collection",
+            "player-elimination",
+            "player-killing"
+        ],
+        "modulated_by": [
+            "mutual-goals",
+            "spawning"
+        ],
+        "conflicts": []
+    }
+}

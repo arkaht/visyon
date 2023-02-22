@@ -1,0 +1,25 @@
+{
+    "name": "Herd",
+    "description": "Moving a game element to a location in the game without directly interacting with it.",
+    "relations": {
+        "instantiates": [
+            "goal-points",
+            "delivery",
+            "indirect-control",
+            "movement",
+            "preventing-goals"
+        ],
+        "modulates": [
+            "traverse",
+            "collecting"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "privileged-movement",
+            "contact"
+        ],
+        "conflicts": [
+            "stealth"
+        ]
+    }
+}

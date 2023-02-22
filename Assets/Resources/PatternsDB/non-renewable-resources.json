@@ -1,0 +1,35 @@
+{
+    "name": "Non-Renewable Resources",
+    "description": "The amount of resources available in the game is determined at the start of the game and these resources cannot be renewed once they are exhausted.",
+    "relations": {
+        "instantiates": [
+            "closed-economies",
+            "irreversible-actions",
+            "decreased-abilities",
+            "limited-resources",
+            "tied-results",
+            "higher-level-closures-as-gameplay-progresses"
+        ],
+        "modulates": [
+            "units",
+            "player-balance",
+            "resources",
+            "transfer-of-control",
+            "handicaps",
+            "puzzle-solving",
+            "varied-gameplay",
+            "randomness"
+        ],
+        "instantiated_by": [
+            "cards"
+        ],
+        "modulated_by": [
+            "transfer-of-control",
+            "ownership"
+        ],
+        "conflicts": [
+            "experimenting",
+            "renewable-resources"
+        ]
+    }
+}

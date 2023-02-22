@@ -1,0 +1,38 @@
+{
+    "name": "Lives",
+    "description": "Lives can be defined as the number of chances a player has within a game session before it is terminated.",
+    "relations": {
+        "instantiates": [
+            "continuous-goals",
+            "emotional-immersion",
+            "resources",
+            "tension",
+            "player-killing",
+            "spawning"
+        ],
+        "modulates": [
+            "conflict",
+            "combat",
+            "last-man-standing",
+            "evade",
+            "survive",
+            "king-of-the-hill",
+            "new-abilities",
+            "characters",
+            "player-elimination"
+        ],
+        "instantiated_by": [
+            "parallel-lives"
+        ],
+        "modulated_by": [
+            "damage",
+            "deadly-traps",
+            "penalties",
+            "renewable-resources",
+            "spawn-points"
+        ],
+        "conflicts": [
+            "consistent-reality-logic"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Pick-Ups",
+    "description": "Pick-Ups are game elements that exist in the game world and can be collected by players, usually by moving an avatar or Units in contact with the Pick-Up.",
+    "relations": {
+        "instantiates": [
+            "resource-locations",
+            "strategic-locations",
+            "collecting",
+            "supporting-goals"
+        ],
+        "modulates": [
+            "score",
+            "collection",
+            "renewable-resources",
+            "maneuvering",
+            "gain-ownership"
+        ],
+        "instantiated_by": [
+            "delivery"
+        ],
+        "modulated_by": [
+            "renewable-resources",
+            "limited-resources",
+            "traces",
+            "balancing-effects"
+        ],
+        "conflicts": []
+    }
+}

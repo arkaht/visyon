@@ -1,0 +1,39 @@
+{
+    "name": "Competence Areas",
+    "description": "Players have or can develop an area of specialty within a game.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "game-mastery"
+        ],
+        "modulates": [
+            "dynamic-alliances",
+            "cooperation",
+            "social-organizations",
+            "team-development",
+            "multiplayer-games"
+        ],
+        "instantiated_by": [
+            "team-play",
+            "orthogonal-unit-differentiation",
+            "privileged-abilities",
+            "new-abilities",
+            "construction",
+            "characters",
+            "skills",
+            "planned-character-development",
+            "empowerment",
+            "creative-control",
+            "polyathlons"
+        ],
+        "modulated_by": [
+            "varied-gameplay",
+            "improved-abilities",
+            "team-balance"
+        ],
+        "conflicts": [
+            "ability-losses",
+            "team-balance"
+        ]
+    }
+}

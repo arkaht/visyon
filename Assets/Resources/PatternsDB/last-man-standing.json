@@ -1,0 +1,28 @@
+{
+    "name": "Last Man Standing",
+    "description": "The goal of being the last survivor.",
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "competition",
+            "overcome",
+            "collection",
+            "survive",
+            "symmetric-goals",
+            "interferable-goals",
+            "higher-level-closures-as-gameplay-progresses",
+            "dynamic-alliances",
+            "tournaments"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "eliminate"
+        ],
+        "modulated_by": [
+            "lives",
+            "limited-resources",
+            "player-elimination"
+        ],
+        "conflicts": []
+    }
+}

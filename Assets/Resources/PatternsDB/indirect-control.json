@@ -1,0 +1,25 @@
+{
+    "name": "Indirect Control",
+    "description": "Game elements whose actions players can affect through other game elements.",
+    "relations": {
+        "instantiates": [
+            "continuous-goals",
+            "resources",
+            "gain-ownership"
+        ],
+        "modulates": [
+            "ability-losses",
+            "traverse",
+            "right-level-of-complexity",
+            "dexterity-based-actions"
+        ],
+        "instantiated_by": [
+            "herd",
+            "focus-loci"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "predictable-consequences"
+        ]
+    }
+}

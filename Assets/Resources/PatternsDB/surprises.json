@@ -1,0 +1,63 @@
+{
+    "name": "Surprises",
+    "description": "Events and consequences that are unexpected by players and disturb their attention.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "immersion",
+            "spatial-immersion",
+            "emotional-immersion",
+            "irreversible-actions",
+            "disruption-of-focused-attention"
+        ],
+        "modulates": [
+            "dexterity-based-actions",
+            "exploration"
+        ],
+        "instantiated_by": [
+            "deadly-traps",
+            "game-masters",
+            "construction",
+            "limited-foresight",
+            "role-reversal",
+            "betrayal",
+            "easter-eggs",
+            "leaps-of-faith",
+            "unknown-goals",
+            "imperfect-information",
+            "dedicated-game-facilitators",
+            "narrative-structures",
+            "rewards",
+            "never-ending-stories",
+            "cut-scenes",
+            "orthogonal-unit-differentiation",
+            "exploration"
+        ],
+        "modulated_by": [
+            "damage",
+            "predictable-consequences",
+            "levels",
+            "red-herrings",
+            "identification",
+            "limited-planning-ability"
+        ],
+        "conflicts": [
+            "predictable-consequences",
+            "illusion-of-influence",
+            "replayability",
+            "game-state-overview",
+            "self-facilitated-games",
+            "anticipation",
+            "hovering-closures",
+            "god-s-finger",
+            "traces",
+            "outstanding-features",
+            "save-load-cycles",
+            "cognitive-immersion",
+            "immersion",
+            "aim-shoot",
+            "trans-game-information",
+            "perceived-chance-to-succeed"
+        ]
+    }
+}

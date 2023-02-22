@@ -1,0 +1,58 @@
+{
+    "name": "Varied Gameplay",
+    "description": "The game provides variety in gameplay, either within a single play session or between different play sessions.",
+    "relations": {
+        "instantiates": [
+            "replayability",
+            "right-level-of-difficulty"
+        ],
+        "modulates": [
+            "competence-areas",
+            "game-mastery",
+            "narrative-structures"
+        ],
+        "instantiated_by": [
+            "reconfigurable-game-world",
+            "achilles-heels",
+            "character-development",
+            "asymmetric-abilities",
+            "units",
+            "converters",
+            "resources",
+            "budgeted-action-points",
+            "transfer-of-control",
+            "selectable-sets-of-goals",
+            "dynamic-alliances",
+            "incompatible-goals",
+            "polyathlons",
+            "levels",
+            "freedom-of-choice",
+            "ability-losses",
+            "social-organizations",
+            "games-within-games",
+            "new-abilities",
+            "asymmetric-resource-distribution",
+            "skills",
+            "orthogonal-unit-differentiation",
+            "tile-laying",
+            "asymmetric-goals",
+            "higher-level-closures-as-gameplay-progresses",
+            "producer-consumer"
+        ],
+        "modulated_by": [
+            "red-herrings",
+            "diminishing-returns",
+            "levels",
+            "characters",
+            "non-renewable-resources",
+            "supporting-goals"
+        ],
+        "conflicts": [
+            "quick-games",
+            "sensory-motoric-immersion",
+            "camping",
+            "symmetric-resource-distribution",
+            "no-ops"
+        ]
+    }
+}

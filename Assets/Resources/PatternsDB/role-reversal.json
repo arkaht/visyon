@@ -1,0 +1,33 @@
+{
+    "name": "Role Reversal",
+    "description": "The shift between two different roles which are each others opposite.",
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "surprises",
+            "penalties",
+            "dynamic-goal-characteristics",
+            "asymmetric-goals",
+            "reversability",
+            "risk-reward",
+            "new-abilities",
+            "ability-losses"
+        ],
+        "modulates": [
+            "player-balance",
+            "empowerment",
+            "narrative-structures",
+            "right-level-of-complexity"
+        ],
+        "instantiated_by": [
+            "turn-based-games",
+            "dynamic-alliances",
+            "king-of-the-hill",
+            "betrayal"
+        ],
+        "modulated_by": [
+            "score"
+        ],
+        "conflicts": []
+    }
+}

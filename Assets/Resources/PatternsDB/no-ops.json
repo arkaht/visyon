@@ -1,0 +1,29 @@
+{
+    "name": "No-Ops",
+    "description": "The action of doing nothing.",
+    "relations": {
+        "instantiates": [
+            "penalties",
+            "tension",
+            "freedom-of-choice",
+            "extended-actions",
+            "privileged-abilities"
+        ],
+        "modulates": [
+            "stealth",
+            "turn-based-games",
+            "camping",
+            "timing"
+        ],
+        "instantiated_by": [
+            "tick-based-games",
+            "real-time-games"
+        ],
+        "modulated_by": [
+            "the-show-must-go-on"
+        ],
+        "conflicts": [
+            "varied-gameplay"
+        ]
+    }
+}

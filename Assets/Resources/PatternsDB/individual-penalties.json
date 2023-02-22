@@ -1,0 +1,29 @@
+{
+    "name": "Individual Penalties",
+    "description": "The penalty for a failure to meet a requirement in the game is given only to one of the players.",
+    "relations": {
+        "instantiates": [
+            "penalties"
+        ],
+        "modulates": [
+            "team-play",
+            "risk-reward",
+            "mutual-goals",
+            "alliances"
+        ],
+        "instantiated_by": [
+            "single-player-games",
+            "player-elimination",
+            "downtime"
+        ],
+        "modulated_by": [
+            "predictable-consequences",
+            "shared-penalties",
+            "player-decided-distribution-of-rewards-penalties"
+        ],
+        "conflicts": [
+            "shared-penalties",
+            "social-dilemmas"
+        ]
+    }
+}

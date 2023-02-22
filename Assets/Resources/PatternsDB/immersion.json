@@ -1,0 +1,38 @@
+{
+    "name": "Immersion",
+    "description": "Immersion in the Game World or immersion in the activity of play.",
+    "relations": {
+        "instantiates": [],
+        "modulates": [
+            "overcome",
+            "game-mastery"
+        ],
+        "instantiated_by": [
+            "surprises",
+            "spatial-immersion",
+            "avatars",
+            "cognitive-immersion",
+            "emotional-immersion",
+            "smooth-learning-curves",
+            "game-world",
+            "characters",
+            "narrative-structures",
+            "freedom-of-choice",
+            "sensory-motoric-immersion",
+            "consistent-reality-logic"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "surprises",
+            "status-indicators",
+            "downtime",
+            "book-keeping-tokens",
+            "invisible-walls",
+            "extra-game-information",
+            "save-load-cycles",
+            "disruption-of-focused-attention",
+            "extra-game-actions",
+            "games-within-games"
+        ]
+    }
+}

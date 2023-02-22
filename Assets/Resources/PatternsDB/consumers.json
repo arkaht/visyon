@@ -1,0 +1,26 @@
+{
+    "name": "Consumers",
+    "description": "A game element, usually some kind of a resource, is consumed as a consequence of a player action, certain game element configuration, or other type of a game event.",
+    "relations": {
+        "instantiates": [
+            "producer-consumer",
+            "tension",
+            "eliminate",
+            "investments",
+            "tradeoffs"
+        ],
+        "modulates": [
+            "deadly-traps",
+            "cards",
+            "resource-management",
+            "resources",
+            "eliminate",
+            "enemies"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "damage"
+        ],
+        "conflicts": []
+    }
+}

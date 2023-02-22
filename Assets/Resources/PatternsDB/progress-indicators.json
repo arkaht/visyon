@@ -1,0 +1,39 @@
+{
+    "name": "Progress Indicators",
+    "description": "The player is given information about his current progress towards a closure in addition to the configuration of game elements involved",
+    "relations": {
+        "instantiates": [
+            "near-miss-indicators",
+            "perceived-chance-to-succeed",
+            "hovering-closures"
+        ],
+        "modulates": [
+            "extended-actions",
+            "time-limits",
+            "rhythm-based-actions",
+            "quick-games",
+            "race",
+            "tension",
+            "delayed-effects",
+            "dexterity-based-actions",
+            "combos"
+        ],
+        "instantiated_by": [
+            "connection",
+            "illusionary-rewards",
+            "traverse",
+            "alignment",
+            "movement",
+            "score",
+            "supporting-goals"
+        ],
+        "modulated_by": [
+            "direct-information",
+            "game-state-overview"
+        ],
+        "conflicts": [
+            "uncertainty-of-information",
+            "memorizing"
+        ]
+    }
+}

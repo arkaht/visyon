@@ -1,0 +1,31 @@
+{
+    "name": "Individual Rewards",
+    "description": "The reward, or parts of the reward, for reaching a goal or performing an action in the game is given to only one of the players.",
+    "relations": {
+        "instantiates": [
+            "social-dilemmas",
+            "race",
+            "rewards",
+            "betrayal",
+            "delayed-reciprocity"
+        ],
+        "modulates": [
+            "social-statuses",
+            "conflict",
+            "collaborative-actions",
+            "competition",
+            "cooperation",
+            "team-play",
+            "mutual-goals"
+        ],
+        "instantiated_by": [
+            "single-player-games"
+        ],
+        "modulated_by": [
+            "shared-rewards"
+        ],
+        "conflicts": [
+            "shared-rewards"
+        ]
+    }
+}

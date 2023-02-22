@@ -1,0 +1,30 @@
+{
+    "name": "Asymmetric Information",
+    "description": "Players have different information available to them, i.e., some players know more than other players",
+    "relations": {
+        "instantiates": [
+            "gain-information",
+            "conceal",
+            "betrayal",
+            "secret-alliances",
+            "secret-resources",
+            "bluffing"
+        ],
+        "modulates": [
+            "bidding",
+            "asymmetric-abilities",
+            "unknown-goals",
+            "negotiation",
+            "predefined-goals"
+        ],
+        "instantiated_by": [
+            "card-hands"
+        ],
+        "modulated_by": [
+            "perfect-information"
+        ],
+        "conflicts": [
+            "perfect-information"
+        ]
+    }
+}

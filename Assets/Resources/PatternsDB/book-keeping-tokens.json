@@ -1,0 +1,26 @@
+{
+    "name": "Book-Keeping Tokens",
+    "description": "Game elements that do not represent concrete objects in the game world but instead holds specific parts of the game state.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "cognitive-immersion",
+            "stimulated-planning",
+            "imperfect-information",
+            "public-information",
+            "game-state-overview",
+            "extra-game-actions",
+            "focus-loci"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "cards"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "resource-management",
+            "memorizing",
+            "immersion"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Focus Loci",
+    "description": "The game elements through which a player's actions are taken.",
+    "relations": {
+        "instantiates": [
+            "spatial-immersion",
+            "cognitive-immersion",
+            "sensory-motoric-immersion",
+            "indirect-control",
+            "identification"
+        ],
+        "modulates": [
+            "attention-swapping",
+            "extended-actions",
+            "alternative-reality",
+            "area-control"
+        ],
+        "instantiated_by": [
+            "cards",
+            "god-s-finger",
+            "book-keeping-tokens",
+            "third-person-views",
+            "units",
+            "characters",
+            "dice"
+        ],
+        "modulated_by": [
+            "status-indicators",
+            "new-abilities"
+        ],
+        "conflicts": []
+    }
+}

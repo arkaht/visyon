@@ -1,0 +1,29 @@
+{
+    "name": "Configuration",
+    "description": "Configuration is the goal of forming a spatial, temporal, or logical arrangement of game elements.",
+    "relations": {
+        "instantiates": [
+            "hovering-closures",
+            "selectable-sets-of-goals",
+            "collection",
+            "puzzle-solving"
+        ],
+        "modulates": [
+            "symmetry",
+            "capture"
+        ],
+        "instantiated_by": [
+            "connection",
+            "enclosure",
+            "alignment",
+            "combos"
+        ],
+        "modulated_by": [
+            "rhythm-based-actions",
+            "timing",
+            "gain-ownership",
+            "imperfect-information"
+        ],
+        "conflicts": []
+    }
+}

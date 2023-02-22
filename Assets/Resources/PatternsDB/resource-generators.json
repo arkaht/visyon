@@ -1,0 +1,32 @@
+{
+    "name": "Resource Generators",
+    "description": "Resource Generators are specific places or game elements producing resources, in effect tying the production of resources in the game to a particular place in the game world.",
+    "relations": {
+        "instantiates": [
+            "exploration",
+            "strategic-locations",
+            "ephemeral-goals",
+            "renewable-resources",
+            "trading"
+        ],
+        "modulates": [
+            "gain-ownership",
+            "levels",
+            "resources",
+            "game-world",
+            "controllers"
+        ],
+        "instantiated_by": [
+            "dynamic-goal-characteristics",
+            "spawn-points",
+            "chargers"
+        ],
+        "modulated_by": [
+            "mule",
+            "eliminate",
+            "limited-resources",
+            "outstanding-features"
+        ],
+        "conflicts": []
+    }
+}

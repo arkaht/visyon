@@ -1,0 +1,28 @@
+{
+    "name": "Limited Set of Actions",
+    "description": "Players can only have a few actions to choose from.",
+    "relations": {
+        "instantiates": [
+            "stimulated-planning",
+            "penalties",
+            "analysis-paralysis",
+            "tension"
+        ],
+        "modulates": [
+            "limited-planning-ability",
+            "gain-competence",
+            "units",
+            "higher-level-closures-as-gameplay-progresses"
+        ],
+        "instantiated_by": [
+            "narrative-structures",
+            "ability-losses"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "freedom-of-choice",
+            "memorizing",
+            "game-masters"
+        ]
+    }
+}

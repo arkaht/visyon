@@ -1,0 +1,26 @@
+{
+    "name": "Collection",
+    "description": "The completion of several goals that together form a coherent unit.",
+    "relations": {
+        "instantiates": [
+            "transfer-of-control",
+            "team-elimination"
+        ],
+        "modulates": [
+            "narrative-structures"
+        ],
+        "instantiated_by": [
+            "last-man-standing",
+            "configuration",
+            "collecting",
+            "gain-ownership"
+        ],
+        "modulated_by": [
+            "save-points",
+            "pick-ups",
+            "ownership",
+            "dynamic-goal-characteristics"
+        ],
+        "conflicts": []
+    }
+}

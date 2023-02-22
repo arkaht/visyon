@@ -1,0 +1,41 @@
+{
+    "name": "Creative Control",
+    "description": "Players have the ability to be creative within the Game World.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "competence-areas",
+            "stimulated-planning",
+            "constructive-play",
+            "emotional-immersion",
+            "empowerment",
+            "investments",
+            "illusion-of-influence",
+            "identification",
+            "freedom-of-choice",
+            "extra-game-consequences",
+            "ownership"
+        ],
+        "modulates": [
+            "never-ending-stories",
+            "multiplayer-games",
+            "conceal",
+            "persistent-game-worlds",
+            "narrative-structures",
+            "player-constructed-worlds"
+        ],
+        "instantiated_by": [
+            "planned-character-development",
+            "construction",
+            "player-defined-goals",
+            "characters",
+            "game-masters",
+            "roleplaying",
+            "storytelling",
+            "extra-game-actions",
+            "right-level-of-complexity"
+        ],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

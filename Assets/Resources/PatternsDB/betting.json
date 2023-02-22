@@ -1,0 +1,46 @@
+{
+    "name": "Betting",
+    "description": "Investing resources in the likelihood of an outcome.",
+    "relations": {
+        "instantiates": [
+            "meta-games",
+            "conflict",
+            "emotional-immersion",
+            "anticipation",
+            "closed-economies",
+            "resource-management",
+            "transfer-of-control",
+            "investments",
+            "rewards",
+            "game-mastery",
+            "player-defined-goals",
+            "extra-game-consequences",
+            "risk-reward",
+            "bluffing",
+            "luck",
+            "delayed-effects",
+            "hovering-closures",
+            "tension"
+        ],
+        "modulates": [
+            "bidding",
+            "resources",
+            "gain-ownership"
+        ],
+        "instantiated_by": [
+            "gain-ownership",
+            "ownership"
+        ],
+        "modulated_by": [
+            "predictable-consequences",
+            "strategic-knowledge",
+            "self-facilitated-games",
+            "tournaments",
+            "quick-games",
+            "dedicated-game-facilitators",
+            "imperfect-information",
+            "randomness"
+        ],
+        "conflicts": []
+    }
+}

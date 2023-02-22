@@ -1,0 +1,35 @@
+{
+    "name": "Bidding",
+    "description": "Players invest resources, usually some kind of a currency, for an uncertain outcome in order to get a reward of some kind.",
+    "relations": {
+        "instantiates": [
+            "converters",
+            "competition",
+            "transfer-of-control",
+            "area-control",
+            "player-elimination",
+            "tradeoffs",
+            "player-defined-goals",
+            "collaborative-actions"
+        ],
+        "modulates": [
+            "cooperation",
+            "resources",
+            "gain-ownership",
+            "eliminate",
+            "turn-taking"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "direct-information",
+            "turn-taking",
+            "symmetric-information",
+            "asymmetric-information",
+            "negotiation",
+            "betting",
+            "bluffing",
+            "rewards"
+        ],
+        "conflicts": []
+    }
+}

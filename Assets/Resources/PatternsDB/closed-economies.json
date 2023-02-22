@@ -1,0 +1,21 @@
+{
+    "name": "Closed Economies",
+    "description": "A game design which makes the number of a certain type of resources fixed during entire game sessions, although the resources may take different forms or have different status during that period.",
+    "relations": {
+        "instantiates": [
+            "reversability",
+            "player-elimination",
+            "renewable-resources"
+        ],
+        "modulates": [
+            "resources"
+        ],
+        "instantiated_by": [
+            "transfer-of-control",
+            "betting",
+            "non-renewable-resources"
+        ],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Emotional Immersion",
+    "description": "Being emotionally affected by the events that occur in a game.",
+    "relations": {
+        "instantiates": [
+            "immersion",
+            "anticipation"
+        ],
+        "modulates": [
+            "risk-reward"
+        ],
+        "instantiated_by": [
+            "surprises",
+            "exploration",
+            "penalties",
+            "player-defined-goals",
+            "consistent-reality-logic",
+            "transfer-of-control",
+            "tension",
+            "anticipation",
+            "betting",
+            "characters",
+            "narrative-structures",
+            "creative-control",
+            "gain-ownership",
+            "hovering-closures",
+            "ownership",
+            "roleplaying",
+            "storytelling",
+            "social-interaction",
+            "game-masters",
+            "conflict",
+            "social-dilemmas",
+            "alternative-reality",
+            "perceived-chance-to-succeed",
+            "illusion-of-influence",
+            "empowerment",
+            "game-mastery",
+            "player-constructed-worlds",
+            "persistent-game-worlds",
+            "identification",
+            "extra-game-actions",
+            "betrayal",
+            "rewards",
+            "area-control",
+            "lives",
+            "freedom-of-choice"
+        ],
+        "modulated_by": [
+            "indirect-information",
+            "resources",
+            "bluffing",
+            "handles"
+        ],
+        "conflicts": [
+            "attention-swapping",
+            "god-views",
+            "direct-information",
+            "cognitive-immersion",
+            "avatars",
+            "clues"
+        ]
+    }
+}

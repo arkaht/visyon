@@ -1,0 +1,35 @@
+{
+    "name": "Limited Foresight",
+    "description": "Players have little knowledge of the next events in a game, or that they do not know what consequences they will have.",
+    "relations": {
+        "instantiates": [
+            "surprises",
+            "limited-planning-ability",
+            "smooth-learning-curves",
+            "gain-information",
+            "exploration"
+        ],
+        "modulates": [
+            "predictable-consequences",
+            "stimulated-planning",
+            "puzzle-solving",
+            "narrative-structures",
+            "illusion-of-influence"
+        ],
+        "instantiated_by": [
+            "randomness",
+            "imperfect-information",
+            "closure-points",
+            "levels",
+            "game-masters"
+        ],
+        "modulated_by": [
+            "attention-swapping",
+            "right-level-of-complexity"
+        ],
+        "conflicts": [
+            "analysis-paralysis",
+            "game-state-overview"
+        ]
+    }
+}

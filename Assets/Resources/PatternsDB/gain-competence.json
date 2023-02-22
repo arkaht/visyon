@@ -1,0 +1,29 @@
+{
+    "name": "Gain Competence",
+    "description": "Gaining the ability to perform a certain action within the game.",
+    "relations": {
+        "instantiates": [
+            "character-development",
+            "race"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "tools",
+            "power-ups",
+            "chargers",
+            "new-abilities",
+            "improved-abilities",
+            "privileged-abilities",
+            "ability-losses",
+            "asymmetric-abilities",
+            "skills",
+            "planned-character-development",
+            "gain-ownership"
+        ],
+        "modulated_by": [
+            "empowerment",
+            "limited-set-of-actions"
+        ],
+        "conflicts": []
+    }
+}

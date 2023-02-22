@@ -1,0 +1,37 @@
+{
+    "name": "Identification",
+    "description": "The characters or parts of the game with which players identify.",
+    "relations": {
+        "instantiates": [
+            "emotional-immersion"
+        ],
+        "modulates": [
+            "surprises",
+            "penalties",
+            "tension",
+            "social-interaction",
+            "social-organizations",
+            "rewards",
+            "enemies",
+            "consistent-reality-logic",
+            "alternative-reality",
+            "player-killing",
+            "roleplaying"
+        ],
+        "instantiated_by": [
+            "planned-character-development",
+            "focus-loci",
+            "characters",
+            "multiplayer-games",
+            "narrative-structures",
+            "handles",
+            "ownership",
+            "creative-control"
+        ],
+        "modulated_by": [
+            "persistent-game-worlds",
+            "game-state-overview"
+        ],
+        "conflicts": []
+    }
+}

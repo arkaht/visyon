@@ -1,0 +1,36 @@
+{
+    "name": "Red Herrings",
+    "description": "Information or potential goals that are designed to either mislead or distract the player",
+    "relations": {
+        "instantiates": [
+            "indirect-information",
+            "disruption-of-focused-attention"
+        ],
+        "modulates": [
+            "surprises",
+            "anticipation",
+            "right-level-of-complexity",
+            "narrative-structures",
+            "varied-gameplay",
+            "tension",
+            "conceal"
+        ],
+        "instantiated_by": [
+            "fog-of-war",
+            "imperfect-information"
+        ],
+        "modulated_by": [
+            "traces",
+            "clues",
+            "helpers"
+        ],
+        "conflicts": [
+            "direct-information",
+            "perfect-information",
+            "clues",
+            "traces",
+            "helpers",
+            "supporting-goals"
+        ]
+    }
+}

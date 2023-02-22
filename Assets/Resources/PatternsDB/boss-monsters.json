@@ -1,0 +1,22 @@
+{
+    "name": "Boss Monsters",
+    "description": "A more powerful enemy the players have to overcome to reach certain goals in the game.",
+    "relations": {
+        "instantiates": [
+            "overcome",
+            "tension",
+            "higher-level-closures-as-gameplay-progresses"
+        ],
+        "modulates": [
+            "rescue",
+            "levels"
+        ],
+        "instantiated_by": [
+            "eliminate"
+        ],
+        "modulated_by": [
+            "achilles-heels"
+        ],
+        "conflicts": []
+    }
+}

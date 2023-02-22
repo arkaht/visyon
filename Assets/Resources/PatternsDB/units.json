@@ -1,0 +1,53 @@
+{
+    "name": "Units",
+    "description": "Units are groups of game elements under the player's control that let the player perform actions to influence the Game World.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "stimulated-planning",
+            "resource-management",
+            "varied-gameplay",
+            "orthogonal-unit-differentiation",
+            "enemies",
+            "paper-rock-scissors",
+            "third-person-views",
+            "team-play",
+            "investments",
+            "resources",
+            "focus-loci"
+        ],
+        "modulates": [
+            "combat",
+            "survive",
+            "consistent-reality-logic",
+            "extended-actions",
+            "ability-losses",
+            "evade"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "damage",
+            "deadly-traps",
+            "producer-consumer",
+            "penalties",
+            "limited-set-of-actions",
+            "cameras",
+            "god-s-finger",
+            "game-state-overview",
+            "non-renewable-resources",
+            "privileged-abilities",
+            "eliminate",
+            "tools",
+            "parallel-lives",
+            "producers",
+            "new-abilities",
+            "transfer-of-control",
+            "decreased-abilities",
+            "ownership",
+            "renewable-resources"
+        ],
+        "conflicts": [
+            "avatars"
+        ]
+    }
+}

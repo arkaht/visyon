@@ -1,0 +1,25 @@
+{
+    "name": "Synchronous Games",
+    "description": "Games in which the players' game and play sessions must overlap in time.",
+    "relations": {
+        "instantiates": [
+            "downtime"
+        ],
+        "modulates": [
+            "social-interaction"
+        ],
+        "instantiated_by": [
+            "self-facilitated-games",
+            "multiplayer-games"
+        ],
+        "modulated_by": [
+            "tick-based-games",
+            "turn-based-games",
+            "real-time-games",
+            "communication-channels",
+            "dedicated-game-facilitators",
+            "turn-taking"
+        ],
+        "conflicts": []
+    }
+}

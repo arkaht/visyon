@@ -1,0 +1,37 @@
+{
+    "name": "Hovering Closures",
+    "description": "Events that are about to occur and can clearly be observed by players.",
+    "relations": {
+        "instantiates": [
+            "emotional-immersion",
+            "anticipation",
+            "uncommitted-alliances"
+        ],
+        "modulates": [
+            "quick-games"
+        ],
+        "instantiated_by": [
+            "continuous-goals",
+            "extended-actions",
+            "predictable-consequences",
+            "symmetry",
+            "configuration",
+            "ultra-powerful-events",
+            "alignment",
+            "levels",
+            "turn-taking",
+            "narrative-structures",
+            "progress-indicators",
+            "delayed-reciprocity",
+            "the-show-must-go-on",
+            "delayed-effects",
+            "betting"
+        ],
+        "modulated_by": [
+            "time-limits"
+        ],
+        "conflicts": [
+            "surprises"
+        ]
+    }
+}

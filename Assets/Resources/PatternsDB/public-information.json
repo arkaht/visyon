@@ -1,0 +1,38 @@
+{
+    "name": "Public Information",
+    "description": "All or part of the information of the game state is available during the game to people other than the players",
+    "relations": {
+        "instantiates": [
+            "spectators"
+        ],
+        "modulates": [
+            "social-statuses",
+            "status-indicators",
+            "strategic-knowledge",
+            "achilles-heels",
+            "stimulated-planning",
+            "trans-game-information",
+            "paper-rock-scissors",
+            "extra-game-actions"
+        ],
+        "instantiated_by": [
+            "book-keeping-tokens"
+        ],
+        "modulated_by": [
+            "god-views",
+            "trans-game-information",
+            "first-person-views",
+            "third-person-views",
+            "perfect-information",
+            "goal-indicators",
+            "symmetric-information",
+            "outcome-indicators",
+            "communication-channels",
+            "game-state-overview"
+        ],
+        "conflicts": [
+            "dedicated-game-facilitators",
+            "asynchronous-games"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Turn-Based Games",
+    "description": "The players take turns to make their actions to change the game state, and the progress of game time is not tied to the real time.",
+    "relations": {
+        "instantiates": [
+            "role-reversal",
+            "downtime"
+        ],
+        "modulates": [
+            "combat",
+            "tick-based-games",
+            "synchronous-games",
+            "asynchronous-games",
+            "asymmetric-abilities",
+            "capture"
+        ],
+        "instantiated_by": [
+            "turn-taking"
+        ],
+        "modulated_by": [
+            "self-facilitated-games",
+            "no-ops",
+            "budgeted-action-points",
+            "timing",
+            "puzzle-solving",
+            "real-time-games",
+            "dedicated-game-facilitators",
+            "game-pauses"
+        ],
+        "conflicts": [
+            "maneuvering",
+            "real-time-games"
+        ]
+    }
+}

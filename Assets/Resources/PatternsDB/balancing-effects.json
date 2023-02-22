@@ -1,0 +1,57 @@
+{
+    "name": "Balancing Effects",
+    "description": "Rules and effects in games that lessen the differences of value used to measure competition between players.",
+    "relations": {
+        "instantiates": [
+            "player-balance",
+            "smooth-learning-curves",
+            "team-balance",
+            "tension",
+            "higher-level-closures-as-gameplay-progresses",
+            "right-level-of-difficulty",
+            "perceived-chance-to-succeed"
+        ],
+        "modulates": [
+            "character-development",
+            "penalties",
+            "asymmetric-abilities",
+            "multiplayer-games",
+            "transfer-of-control",
+            "improved-abilities",
+            "ability-losses",
+            "decreased-abilities",
+            "spawning",
+            "rewards",
+            "dice",
+            "pick-ups",
+            "turn-taking"
+        ],
+        "instantiated_by": [
+            "extended-actions",
+            "player-decided-results",
+            "movement-limitations",
+            "interruptible-actions",
+            "illusionary-rewards",
+            "budgeted-action-points",
+            "handicaps",
+            "diminishing-returns",
+            "dedicated-game-facilitators",
+            "game-masters",
+            "tradeoffs",
+            "player-decided-distribution-of-rewards-penalties",
+            "delayed-effects",
+            "randomness",
+            "score",
+            "shared-rewards",
+            "rewards",
+            "king-of-the-hill"
+        ],
+        "modulated_by": [
+            "game-state-overview",
+            "uncommitted-alliances"
+        ],
+        "conflicts": [
+            "perceivable-margins"
+        ]
+    }
+}

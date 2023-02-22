@@ -1,0 +1,31 @@
+{
+    "name": "Committed Goals",
+    "description": "Goals that players have entered a form of contract to try and fulfill.",
+    "relations": {
+        "instantiates": [
+            "penalties",
+            "betrayal",
+            "gain-information"
+        ],
+        "modulates": [
+            "ephemeral-goals",
+            "risk-reward",
+            "rewards",
+            "player-decided-distribution-of-rewards-penalties",
+            "area-control",
+            "closure-points"
+        ],
+        "instantiated_by": [
+            "collaborative-actions",
+            "extra-game-consequences",
+            "investments"
+        ],
+        "modulated_by": [
+            "risk-reward",
+            "unknown-goals",
+            "negotiation",
+            "tradeoffs"
+        ],
+        "conflicts": []
+    }
+}

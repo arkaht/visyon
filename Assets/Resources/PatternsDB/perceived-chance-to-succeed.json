@@ -1,0 +1,53 @@
+{
+    "name": "Perceived Chance to Succeed",
+    "description": "Players believe, whether correctly or not, that they have a chance to succeed with actions in a game.",
+    "relations": {
+        "instantiates": [
+            "emotional-immersion",
+            "illusion-of-influence",
+            "tension"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "predictable-consequences",
+            "character-development",
+            "player-balance",
+            "team-balance",
+            "handicaps",
+            "improved-abilities",
+            "freedom-of-choice",
+            "game-masters",
+            "new-abilities",
+            "player-decided-results",
+            "balancing-effects",
+            "right-level-of-difficulty",
+            "tools",
+            "progress-indicators",
+            "illusionary-rewards"
+        ],
+        "modulated_by": [
+            "near-miss-indicators",
+            "smooth-learning-curves",
+            "social-dilemmas",
+            "decreased-abilities",
+            "enemies",
+            "tradeoffs",
+            "risk-reward",
+            "skills",
+            "randomness",
+            "imperfect-information",
+            "cut-scenes",
+            "asymmetric-resource-distribution"
+        ],
+        "conflicts": [
+            "leaps-of-faith",
+            "decreased-abilities",
+            "ultra-powerful-events",
+            "perfect-information",
+            "ability-losses",
+            "game-masters",
+            "surprises",
+            "narrative-structures"
+        ]
+    }
+}

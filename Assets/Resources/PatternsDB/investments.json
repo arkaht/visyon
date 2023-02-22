@@ -1,0 +1,51 @@
+{
+    "name": "Investments",
+    "description": "Committing Resources for a certain amount of time to something in order to reap the rewards later.",
+    "relations": {
+        "instantiates": [
+            "social-statuses",
+            "predictable-consequences",
+            "stimulated-planning",
+            "resource-management",
+            "budgeted-action-points",
+            "rewards",
+            "delayed-effects",
+            "social-organizations",
+            "committed-goals",
+            "team-development"
+        ],
+        "modulates": [
+            "character-development",
+            "resources",
+            "extra-game-consequences",
+            "skills"
+        ],
+        "instantiated_by": [
+            "extended-actions",
+            "predictable-consequences",
+            "self-facilitated-games",
+            "consumers",
+            "units",
+            "construction",
+            "score",
+            "betting",
+            "new-abilities",
+            "privileged-abilities",
+            "characters",
+            "game-mastery",
+            "creative-control",
+            "extra-game-actions"
+        ],
+        "modulated_by": [
+            "producer-consumer",
+            "arithmetic-rewards-for-investments",
+            "geometric-rewards-for-investments",
+            "diminishing-returns",
+            "paper-rock-scissors",
+            "extra-game-consequences",
+            "risk-reward",
+            "ownership"
+        ],
+        "conflicts": []
+    }
+}

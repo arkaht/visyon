@@ -1,0 +1,30 @@
+{
+    "name": "Safe Havens",
+    "description": "Save Havens are locations in the game world where game elements under the players' control are safe from the actions of other players or the game events.",
+    "relations": {
+        "instantiates": [
+            "stimulated-planning",
+            "strategic-locations"
+        ],
+        "modulates": [
+            "save-points",
+            "goal-points",
+            "stealth",
+            "rescue",
+            "traverse",
+            "inaccessible-areas",
+            "spawn-points",
+            "negotiation",
+            "dynamic-alliances",
+            "experimenting",
+            "spawning",
+            "strategic-locations"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": [
+            "time-limits",
+            "deadly-traps"
+        ]
+    }
+}

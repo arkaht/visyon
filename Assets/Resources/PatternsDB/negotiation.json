@@ -1,0 +1,52 @@
+{
+    "name": "Negotiation",
+    "description": "A situation where the players confer with each other in order to reach an agreement or settlement.",
+    "relations": {
+        "instantiates": [
+            "leaps-of-faith",
+            "player-balance",
+            "transfer-of-control",
+            "game-mastery",
+            "extra-game-actions",
+            "bluffing"
+        ],
+        "modulates": [
+            "bidding",
+            "collaborative-actions",
+            "committed-goals",
+            "trading",
+            "overcome",
+            "handicaps",
+            "dynamic-alliances",
+            "polyathlons",
+            "ability-losses",
+            "mutual-goals",
+            "social-organizations",
+            "player-decided-results",
+            "uncommitted-alliances",
+            "shared-rewards",
+            "player-defined-goals"
+        ],
+        "instantiated_by": [
+            "shared-resources",
+            "self-facilitated-games",
+            "asymmetric-abilities",
+            "game-masters",
+            "player-decided-distribution-of-rewards-penalties"
+        ],
+        "modulated_by": [
+            "safe-havens",
+            "interruptible-actions",
+            "betrayal",
+            "asymmetric-information",
+            "turn-taking",
+            "game-state-overview",
+            "preventing-goals",
+            "symmetric-information"
+        ],
+        "conflicts": [
+            "downtime",
+            "tiebreakers"
+        ]
+    }
+}

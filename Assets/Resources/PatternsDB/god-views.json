@@ -1,0 +1,27 @@
+{
+    "name": "God Views",
+    "description": "Players are given a view of the game independent of game elements",
+    "relations": {
+        "instantiates": [
+            "game-state-overview"
+        ],
+        "modulates": [
+            "attention-swapping",
+            "public-information",
+            "game-world"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "fog-of-war",
+            "cameras"
+        ],
+        "conflicts": [
+            "first-person-views",
+            "third-person-views",
+            "avatars",
+            "spatial-immersion",
+            "emotional-immersion",
+            "aim-shoot"
+        ]
+    }
+}

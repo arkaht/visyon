@@ -1,0 +1,22 @@
+{
+    "name": "Agents",
+    "description": "Entities in games that take the roles of players but are controlled by the game system.",
+    "relations": {
+        "instantiates": [
+            "enemies",
+            "tied-results"
+        ],
+        "modulates": [
+            "conflict",
+            "competition",
+            "multiplayer-games",
+            "handicaps",
+            "social-interaction"
+        ],
+        "instantiated_by": [
+            "dedicated-game-facilitators"
+        ],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

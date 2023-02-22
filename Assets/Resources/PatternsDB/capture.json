@@ -1,0 +1,36 @@
+{
+    "name": "Capture",
+    "description": "Capture is the goal pattern where the end result is the elimination or change of ownership of an actively resisting goal object.",
+    "relations": {
+        "instantiates": [
+            "combat",
+            "higher-level-closures-as-gameplay-progresses",
+            "transfer-of-control",
+            "gain-ownership",
+            "timing",
+            "movement",
+            "preventing-goals"
+        ],
+        "modulates": [],
+        "instantiated_by": [
+            "overcome"
+        ],
+        "modulated_by": [
+            "aim-shoot",
+            "connection",
+            "enclosure",
+            "turn-based-games",
+            "contact",
+            "alignment",
+            "configuration",
+            "evade",
+            "puzzle-solving",
+            "real-time-games",
+            "maneuvering",
+            "turn-taking",
+            "ownership",
+            "eliminate"
+        ],
+        "conflicts": []
+    }
+}

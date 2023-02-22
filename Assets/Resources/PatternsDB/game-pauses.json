@@ -1,0 +1,31 @@
+{
+    "name": "Game Pauses",
+    "description": "The progress of game time is suspended during Game Pauses",
+    "relations": {
+        "instantiates": [
+            "downtime",
+            "extra-game-actions"
+        ],
+        "modulates": [
+            "tick-based-games",
+            "turn-based-games",
+            "real-time-games",
+            "single-player-games",
+            "social-interaction",
+            "tension"
+        ],
+        "instantiated_by": [
+            "save-load-cycles",
+            "spawning",
+            "cut-scenes"
+        ],
+        "modulated_by": [
+            "time-limits",
+            "consistent-reality-logic"
+        ],
+        "conflicts": [
+            "time-limits",
+            "the-show-must-go-on"
+        ]
+    }
+}

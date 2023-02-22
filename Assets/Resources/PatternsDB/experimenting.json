@@ -1,0 +1,43 @@
+{
+    "name": "Experimenting",
+    "description": "Performing actions to learn how the rules of cause and effect work in a game.",
+    "relations": {
+        "instantiates": [
+            "strategic-knowledge",
+            "leaps-of-faith",
+            "cognitive-immersion",
+            "stimulated-planning",
+            "smooth-learning-curves",
+            "game-mastery",
+            "risk-reward",
+            "tension"
+        ],
+        "modulates": [
+            "right-level-of-difficulty"
+        ],
+        "instantiated_by": [
+            "predictable-consequences",
+            "achilles-heels",
+            "save-load-cycles",
+            "reversability",
+            "imperfect-information",
+            "gain-information",
+            "construction",
+            "puzzle-solving",
+            "combos",
+            "right-level-of-complexity",
+            "illusionary-rewards"
+        ],
+        "modulated_by": [
+            "safe-havens",
+            "constructive-play",
+            "dedicated-game-facilitators",
+            "quick-games"
+        ],
+        "conflicts": [
+            "competition",
+            "irreversible-actions",
+            "non-renewable-resources"
+        ]
+    }
+}

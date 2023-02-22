@@ -1,0 +1,45 @@
+{
+    "name": "Planned Character Development",
+    "description": "When Character Development is under players' control and can be planned.",
+    "relations": {
+        "instantiates": [
+            "gain-competence",
+            "continuous-goals",
+            "competence-areas",
+            "stimulated-planning",
+            "anticipation",
+            "illusion-of-influence",
+            "team-development",
+            "player-constructed-worlds",
+            "identification",
+            "freedom-of-choice",
+            "creative-control",
+            "player-defined-goals"
+        ],
+        "modulates": [
+            "character-development",
+            "characters",
+            "narrative-structures",
+            "team-play",
+            "privileged-abilities"
+        ],
+        "instantiated_by": [
+            "new-abilities",
+            "improved-abilities",
+            "skills",
+            "rewards"
+        ],
+        "modulated_by": [
+            "unknown-goals",
+            "incompatible-goals",
+            "game-masters",
+            "predefined-goals",
+            "dynamic-goal-characteristics",
+            "extra-game-actions",
+            "privileged-abilities"
+        ],
+        "conflicts": [
+            "narrative-structures"
+        ]
+    }
+}

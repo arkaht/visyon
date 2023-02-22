@@ -1,0 +1,45 @@
+{
+    "name": "Aim & Shoot",
+    "description": "The act of taking aim at something and then shooting at it.",
+    "relations": {
+        "instantiates": [
+            "spatial-immersion",
+            "tension",
+            "movement",
+            "dexterity-based-actions",
+            "extended-actions",
+            "timing",
+            "evade",
+            "maneuvering"
+        ],
+        "modulates": [
+            "tools",
+            "resources",
+            "capture",
+            "delivery"
+        ],
+        "instantiated_by": [
+            "combat",
+            "real-time-games",
+            "eliminate",
+            "privileged-movement",
+            "enemies",
+            "alignment"
+        ],
+        "modulated_by": [
+            "first-person-views",
+            "third-person-views",
+            "traverse",
+            "movement",
+            "the-show-must-go-on",
+            "moveable-tiles",
+            "evade"
+        ],
+        "conflicts": [
+            "god-views",
+            "obstacles",
+            "disruption-of-focused-attention",
+            "surprises"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Disruption of Focused Attention",
+    "description": "That players' attention is forcefully moved from one aspect of the game to another.",
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "spatial-immersion",
+            "game-state-overview"
+        ],
+        "modulates": [
+            "right-level-of-difficulty"
+        ],
+        "instantiated_by": [
+            "red-herrings",
+            "enemies",
+            "game-state-overview",
+            "cut-scenes",
+            "surprises",
+            "alarms"
+        ],
+        "modulated_by": [
+            "real-time-games"
+        ],
+        "conflicts": [
+            "aim-shoot",
+            "immersion",
+            "sensory-motoric-immersion",
+            "cognitive-immersion",
+            "dexterity-based-actions"
+        ]
+    }
+}

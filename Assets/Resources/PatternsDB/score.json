@@ -1,0 +1,45 @@
+{
+    "name": "Score",
+    "description": "Score is the numerical representation of the player's success in the game, often not only representing the success but also defining it.",
+    "relations": {
+        "instantiates": [
+            "continuous-goals",
+            "meta-games",
+            "status-indicators",
+            "stimulated-planning",
+            "trans-game-information",
+            "race",
+            "investments",
+            "dynamic-alliances",
+            "balancing-effects",
+            "tied-results",
+            "replayability",
+            "extra-game-consequences",
+            "progress-indicators",
+            "resources",
+            "game-state-overview",
+            "collecting"
+        ],
+        "modulates": [
+            "role-reversal",
+            "player-elimination",
+            "turn-taking",
+            "gain-ownership",
+            "single-player-games",
+            "king-of-the-hill",
+            "tournaments"
+        ],
+        "instantiated_by": [
+            "resources"
+        ],
+        "modulated_by": [
+            "pick-ups",
+            "handicaps",
+            "tiebreakers"
+        ],
+        "conflicts": [
+            "save-points",
+            "save-load-cycles"
+        ]
+    }
+}

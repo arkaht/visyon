@@ -1,0 +1,23 @@
+{
+    "name": "Camping",
+    "description": "Staying in one location in the game for extended periods of time and perform the same action repeatedly.",
+    "relations": {
+        "instantiates": [],
+        "modulates": [
+            "stealth",
+            "spawn-points",
+            "guard",
+            "spawning"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "no-ops",
+            "game-world",
+            "inaccessible-areas"
+        ],
+        "conflicts": [
+            "player-balance",
+            "varied-gameplay"
+        ]
+    }
+}

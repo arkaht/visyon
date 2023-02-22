@@ -1,0 +1,37 @@
+{
+    "name": "Continuous Goals",
+    "description": "Goals that require the player to maintain a subset of a certain game state within certain limits.",
+    "relations": {
+        "instantiates": [
+            "hierarchy-of-goals",
+            "tension",
+            "hovering-closures"
+        ],
+        "modulates": [
+            "race",
+            "penalties",
+            "rewards"
+        ],
+        "instantiated_by": [
+            "lives",
+            "score",
+            "evade",
+            "conceal",
+            "guard",
+            "survive",
+            "king-of-the-hill",
+            "reconnaissance",
+            "preventing-goals",
+            "indirect-control",
+            "extended-actions",
+            "ability-losses",
+            "area-control",
+            "planned-character-development"
+        ],
+        "modulated_by": [
+            "goal-points",
+            "time-limits"
+        ],
+        "conflicts": []
+    }
+}

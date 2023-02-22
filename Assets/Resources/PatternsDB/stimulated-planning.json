@@ -1,0 +1,66 @@
+{
+    "name": "Stimulated Planning",
+    "description": "Games that encourage players to plan about certain aspects of the game.",
+    "relations": {
+        "instantiates": [
+            "cognitive-immersion",
+            "analysis-paralysis",
+            "empowerment",
+            "timing",
+            "game-mastery"
+        ],
+        "modulates": [
+            "timing"
+        ],
+        "instantiated_by": [
+            "direct-information",
+            "extended-actions",
+            "predictable-consequences",
+            "discard-piles",
+            "strategic-knowledge",
+            "collaborative-actions",
+            "score",
+            "safe-havens",
+            "privileged-abilities",
+            "limited-set-of-actions",
+            "rewards",
+            "ultra-powerful-events",
+            "irreversible-actions",
+            "turn-taking",
+            "planned-character-development",
+            "freedom-of-choice",
+            "delayed-effects",
+            "experimenting",
+            "creative-control",
+            "tradeoffs",
+            "risk-reward",
+            "puzzle-solving",
+            "resource-management",
+            "illusion-of-influence",
+            "orthogonal-unit-differentiation",
+            "resources",
+            "save-load-cycles",
+            "extra-game-actions",
+            "container",
+            "producers",
+            "converters",
+            "book-keeping-tokens",
+            "game-state-overview",
+            "perfect-information",
+            "investments",
+            "units",
+            "cut-scenes",
+            "symmetric-information",
+            "stealth"
+        ],
+        "modulated_by": [
+            "attention-swapping",
+            "limited-foresight",
+            "near-miss-indicators",
+            "right-level-of-complexity",
+            "public-information",
+            "limited-resources"
+        ],
+        "conflicts": []
+    }
+}

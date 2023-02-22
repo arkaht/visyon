@@ -1,0 +1,49 @@
+{
+    "name": "Turn Taking",
+    "description": "Letting one player do some action or actions before letting the other players act.",
+    "relations": {
+        "instantiates": [
+            "spectators",
+            "stimulated-planning",
+            "tick-based-games",
+            "self-facilitated-games",
+            "anticipation",
+            "interruptible-actions",
+            "downtime",
+            "tension",
+            "social-interaction",
+            "analysis-paralysis",
+            "game-state-overview",
+            "hovering-closures",
+            "turn-based-games"
+        ],
+        "modulates": [
+            "bidding",
+            "capture",
+            "unknown-goals",
+            "synchronous-games",
+            "negotiation",
+            "game-mastery",
+            "storytelling"
+        ],
+        "instantiated_by": [
+            "dedicated-game-facilitators",
+            "game-masters"
+        ],
+        "modulated_by": [
+            "time-limits",
+            "resources",
+            "quick-games",
+            "limited-resources",
+            "ultra-powerful-events",
+            "balancing-effects",
+            "score",
+            "bidding"
+        ],
+        "conflicts": [
+            "real-time-games",
+            "tension",
+            "the-show-must-go-on"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Outcome Indicators",
+    "description": "Players are given information about an outcome of an action in addition to the effect of the action.",
+    "relations": {
+        "instantiates": [
+            "predictable-consequences"
+        ],
+        "modulates": [
+            "rewards",
+            "public-information"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "direct-information",
+            "near-miss-indicators",
+            "perfect-information",
+            "game-state-overview",
+            "uncertainty-of-information"
+        ],
+        "conflicts": [
+            "uncertainty-of-information"
+        ]
+    }
+}

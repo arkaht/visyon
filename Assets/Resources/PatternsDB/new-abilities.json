@@ -1,0 +1,54 @@
+{
+    "name": "New Abilities",
+    "description": "Gaining new abilities during gameplay.",
+    "relations": {
+        "instantiates": [
+            "gain-competence",
+            "competence-areas",
+            "character-development",
+            "red-queen-dilemmas",
+            "planned-character-development",
+            "empowerment",
+            "investments",
+            "team-development",
+            "supporting-goals",
+            "rewards",
+            "freedom-of-choice",
+            "perceived-chance-to-succeed",
+            "privileged-abilities",
+            "varied-gameplay",
+            "orthogonal-unit-differentiation",
+            "illusion-of-influence"
+        ],
+        "modulates": [
+            "units",
+            "smooth-learning-curves",
+            "team-play",
+            "characters",
+            "ability-losses",
+            "risk-reward",
+            "gain-ownership",
+            "narrative-structures",
+            "focus-loci"
+        ],
+        "instantiated_by": [
+            "chargers",
+            "transfer-of-control",
+            "role-reversal",
+            "power-ups",
+            "tools"
+        ],
+        "modulated_by": [
+            "time-limits",
+            "budgeted-action-points",
+            "lives",
+            "freedom-of-choice",
+            "ability-losses",
+            "alternative-reality"
+        ],
+        "conflicts": [
+            "player-balance",
+            "consistent-reality-logic"
+        ]
+    }
+}

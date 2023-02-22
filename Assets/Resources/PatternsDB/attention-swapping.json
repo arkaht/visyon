@@ -1,0 +1,51 @@
+{
+    "name": "Attention Swapping",
+    "description": "Players have to move their attention between different parts of the game.",
+    "relations": {
+        "instantiates": [
+            "reconnaissance",
+            "tension",
+            "resource-management",
+            "cognitive-immersion"
+        ],
+        "modulates": [
+            "right-level-of-complexity",
+            "stimulated-planning",
+            "spatial-immersion",
+            "right-level-of-difficulty",
+            "cognitive-immersion",
+            "tradeoffs",
+            "limited-foresight",
+            "real-time-games"
+        ],
+        "instantiated_by": [
+            "disruption-of-focused-attention",
+            "units",
+            "cameras",
+            "parallel-lives",
+            "surprises",
+            "extended-actions",
+            "interruptible-actions",
+            "collaborative-actions",
+            "maneuvering",
+            "combat",
+            "enemies",
+            "area-control",
+            "book-keeping-tokens"
+        ],
+        "modulated_by": [
+            "the-show-must-go-on",
+            "game-state-overview",
+            "god-views",
+            "incompatible-goals",
+            "penalties",
+            "rewards",
+            "conflict",
+            "focus-loci"
+        ],
+        "conflicts": [
+            "game-state-overview",
+            "emotional-immersion"
+        ]
+    }
+}

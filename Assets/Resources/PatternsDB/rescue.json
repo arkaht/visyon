@@ -1,0 +1,27 @@
+{
+    "name": "Rescue",
+    "description": "Rescue is the goal of freeing someone or something that is guarded.",
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "preventing-goals"
+        ],
+        "modulates": [
+            "guard",
+            "narrative-structures"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "goal-points",
+            "safe-havens",
+            "overcome",
+            "alarms",
+            "deadly-traps",
+            "obstacles",
+            "boss-monsters",
+            "stealth",
+            "ownership"
+        ],
+        "conflicts": []
+    }
+}

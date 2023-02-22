@@ -1,0 +1,18 @@
+{
+    "name": "Discard Piles",
+    "description": "The Discard Pile is the area or stack where cards or tiles are placed after they have been used.",
+    "relations": {
+        "instantiates": [
+            "stimulated-planning",
+            "memorizing"
+        ],
+        "modulates": [
+            "tiles",
+            "analysis-paralysis",
+            "cards"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": []
+    }
+}

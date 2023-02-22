@@ -1,0 +1,27 @@
+{
+    "name": "Shrinking Game World",
+    "description": "The game world shrinks and thus restricts players' movement in the game.",
+    "relations": {
+        "instantiates": [
+            "strategic-knowledge",
+            "movement-limitations",
+            "ultra-powerful-events",
+            "the-show-must-go-on",
+            "deadly-traps",
+            "higher-level-closures-as-gameplay-progresses",
+            "tension"
+        ],
+        "modulates": [
+            "game-world",
+            "conflict"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "tiles",
+            "irreversible-actions"
+        ],
+        "conflicts": [
+            "freedom-of-choice"
+        ]
+    }
+}

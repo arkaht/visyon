@@ -1,0 +1,33 @@
+{
+    "name": "Player Constructed Worlds",
+    "description": "Game Worlds that are created by players.",
+    "relations": {
+        "instantiates": [
+            "player-decided-results",
+            "emotional-immersion",
+            "never-ending-stories",
+            "empowerment"
+        ],
+        "modulates": [
+            "game-world",
+            "narrative-structures",
+            "roleplaying"
+        ],
+        "instantiated_by": [
+            "planned-character-development",
+            "construction",
+            "game-masters",
+            "storytelling",
+            "tile-laying"
+        ],
+        "modulated_by": [
+            "self-facilitated-games",
+            "constructive-play",
+            "persistent-game-worlds",
+            "creative-control",
+            "strategic-locations",
+            "social-interaction"
+        ],
+        "conflicts": []
+    }
+}

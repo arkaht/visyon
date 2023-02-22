@@ -1,0 +1,28 @@
+{
+    "name": "Power-Ups",
+    "description": "Power-Ups are game elements that give time-limited advantages to the player that picks them up.",
+    "relations": {
+        "instantiates": [
+            "gain-competence",
+            "time-limits",
+            "strategic-knowledge",
+            "ephemeral-goals",
+            "improved-abilities",
+            "new-abilities",
+            "strategic-locations",
+            "privileged-abilities",
+            "collecting"
+        ],
+        "modulates": [
+            "skills"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "producers",
+            "trading"
+        ],
+        "conflicts": [
+            "player-balance"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Levels",
+    "description": "A level is a part of the game in which all player actions take place until a certain goal has been reached or an end condition has been fulfilled.",
+    "relations": {
+        "instantiates": [
+            "limited-foresight",
+            "game-world",
+            "varied-gameplay",
+            "consistent-reality-logic",
+            "closure-points",
+            "hovering-closures"
+        ],
+        "modulates": [
+            "surprises",
+            "inaccessible-areas",
+            "narrative-structures",
+            "varied-gameplay",
+            "game-mastery",
+            "smooth-learning-curves",
+            "right-level-of-difficulty"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "save-points",
+            "resource-generators",
+            "irreversible-actions",
+            "helpers",
+            "inaccessible-areas",
+            "spawn-points",
+            "enemies",
+            "clues",
+            "obstacles",
+            "boss-monsters",
+            "cut-scenes"
+        ],
+        "conflicts": []
+    }
+}

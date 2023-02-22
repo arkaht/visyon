@@ -1,0 +1,58 @@
+{
+    "name": "Conflict",
+    "description": "In conflict, two or more parties, often players or players against the game system, have goals, that cannot be satisfied together.",
+    "relations": {
+        "instantiates": [
+            "tension",
+            "emotional-immersion"
+        ],
+        "modulates": [
+            "attention-swapping",
+            "social-dilemmas",
+            "social-organizations"
+        ],
+        "instantiated_by": [
+            "role-reversal",
+            "combat",
+            "betting",
+            "tiebreakers",
+            "interferable-goals",
+            "preventing-goals",
+            "excluding-goals",
+            "incompatible-goals",
+            "last-man-standing",
+            "king-of-the-hill",
+            "race",
+            "transfer-of-control",
+            "overcome",
+            "player-elimination",
+            "betrayal",
+            "competition",
+            "tournaments",
+            "rescue",
+            "enemies",
+            "gain-ownership",
+            "eliminate"
+        ],
+        "modulated_by": [
+            "dedicated-game-facilitators",
+            "individual-rewards",
+            "ownership",
+            "tiebreakers",
+            "agents",
+            "symmetric-goals",
+            "lives",
+            "symmetric-information",
+            "shrinking-game-world"
+        ],
+        "conflicts": [
+            "collaborative-actions",
+            "mutual-goals",
+            "shared-rewards",
+            "supporting-goals",
+            "uncertainty-of-information",
+            "imperfect-information",
+            "cooperation"
+        ]
+    }
+}

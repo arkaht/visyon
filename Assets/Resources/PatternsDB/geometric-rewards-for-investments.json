@@ -1,0 +1,30 @@
+{
+    "name": "Geometric Rewards for Investments",
+    "description": "The possible rewards grow in geometric fashion compared to the invested resources, that is, if the investment is doubled the comparable reward is more than doubled.",
+    "relations": {
+        "instantiates": [
+            "timing"
+        ],
+        "modulates": [
+            "extended-actions",
+            "trading",
+            "transfer-of-control",
+            "investments",
+            "rewards",
+            "risk-reward",
+            "collecting",
+            "tension",
+            "combos"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "diminishing-returns",
+            "risk-reward"
+        ],
+        "conflicts": [
+            "player-balance",
+            "diminishing-returns",
+            "arithmetic-rewards-for-investments"
+        ]
+    }
+}

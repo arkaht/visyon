@@ -1,0 +1,27 @@
+{
+    "name": "Interferable Goals",
+    "description": "The game system or other players can directly influence the player's progress towards the goal.",
+    "relations": {
+        "instantiates": [
+            "conflict"
+        ],
+        "modulates": [
+            "alliances",
+            "race",
+            "symmetric-goals",
+            "area-control",
+            "symmetric-information"
+        ],
+        "instantiated_by": [
+            "last-man-standing",
+            "interruptible-actions",
+            "king-of-the-hill",
+            "preventing-goals"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "uncertainty-of-information",
+            "imperfect-information"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "King of the Hill",
+    "description": "Reaching and keeping a sought for game state that other players are trying to reach and keep.",
+    "relations": {
+        "instantiates": [
+            "continuous-goals",
+            "conflict",
+            "competition",
+            "interferable-goals",
+            "dynamic-alliances",
+            "balancing-effects",
+            "role-reversal",
+            "symmetric-goals",
+            "tension"
+        ],
+        "modulates": [],
+        "instantiated_by": [],
+        "modulated_by": [
+            "damage",
+            "time-limits",
+            "alignment",
+            "team-play",
+            "lives",
+            "gain-ownership",
+            "guard",
+            "score"
+        ],
+        "conflicts": []
+    }
+}

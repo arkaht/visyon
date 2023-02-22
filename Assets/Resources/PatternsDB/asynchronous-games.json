@@ -1,0 +1,26 @@
+{
+    "name": "Asynchronous Games",
+    "description": "Games where the players game and play sessions do not necessarily overlap in time.",
+    "relations": {
+        "instantiates": [
+            "downtime"
+        ],
+        "modulates": [
+            "freedom-of-choice",
+            "persistent-game-worlds"
+        ],
+        "instantiated_by": [
+            "dedicated-game-facilitators",
+            "ghosts"
+        ],
+        "modulated_by": [
+            "tick-based-games",
+            "turn-based-games",
+            "real-time-games",
+            "communication-channels"
+        ],
+        "conflicts": [
+            "public-information"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Construction",
+    "description": "The action of introducing new game elements that are presented as intentional constructions into the Game World.",
+    "relations": {
+        "instantiates": [
+            "competence-areas",
+            "surprises",
+            "exploration",
+            "constructive-play",
+            "experimenting",
+            "player-constructed-worlds",
+            "preventing-goals",
+            "investments",
+            "player-defined-goals",
+            "freedom-of-choice",
+            "creative-control",
+            "trading",
+            "gain-ownership",
+            "consistent-reality-logic"
+        ],
+        "modulates": [
+            "persistent-game-worlds",
+            "game-world",
+            "alternative-reality"
+        ],
+        "instantiated_by": [
+            "producers",
+            "tile-laying"
+        ],
+        "modulated_by": [
+            "producers",
+            "resources",
+            "privileged-abilities"
+        ],
+        "conflicts": []
+    }
+}

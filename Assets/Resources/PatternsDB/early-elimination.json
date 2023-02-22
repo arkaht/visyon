@@ -1,0 +1,24 @@
+{
+    "name": "Early Elimination",
+    "description": "There is a possibility that a player's game session may finish before the other players.",
+    "relations": {
+        "instantiates": [
+            "downtime",
+            "tension"
+        ],
+        "modulates": [
+            "multiplayer-games"
+        ],
+        "instantiated_by": [
+            "player-elimination"
+        ],
+        "modulated_by": [
+            "spectators",
+            "spawning",
+            "time-limits"
+        ],
+        "conflicts": [
+            "spawning"
+        ]
+    }
+}

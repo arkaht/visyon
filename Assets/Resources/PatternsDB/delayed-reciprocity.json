@@ -1,0 +1,32 @@
+{
+    "name": "Delayed Reciprocity",
+    "description": "There is a time delay in social exchange situations, i.e. the whole exchange is not immediate, something is given now and the return is to be paid back some time in the future.",
+    "relations": {
+        "instantiates": [
+            "leaps-of-faith",
+            "anticipation",
+            "social-dilemmas",
+            "uncommitted-alliances",
+            "tension",
+            "hovering-closures",
+            "delayed-effects"
+        ],
+        "modulates": [
+            "cooperation",
+            "betrayal",
+            "social-interaction"
+        ],
+        "instantiated_by": [
+            "collaborative-actions",
+            "player-decided-results",
+            "mutual-goals",
+            "shared-rewards",
+            "social-organizations",
+            "individual-rewards"
+        ],
+        "modulated_by": [
+            "trading"
+        ],
+        "conflicts": []
+    }
+}
