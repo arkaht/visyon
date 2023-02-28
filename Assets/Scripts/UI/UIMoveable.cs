@@ -5,6 +5,8 @@ public class UIMoveable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 {
 	[SerializeField]
 	private UIGrid grid;
+	[SerializeField]
+	private bool snapOnAwake = true;
 
 	private Vector2 draggedPos;
 	private RectTransform rectTransform;
@@ -12,6 +14,9 @@ public class UIMoveable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 	void Awake()
 	{
 		rectTransform = GetComponent<RectTransform>();
+
+		if ( snapOnAwake )
+			rectTransform.anchoredPosition = grid.SnapPosition( rectTransform.anchoredPosition );
 	}
 
 	public void OnBeginDrag( PointerEventData data )
