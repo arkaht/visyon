@@ -39,7 +39,7 @@ public static class PatternRegistery
 {
 	private static Dictionary<string, PatternData> patterns = new();
 
-	public static string DirectoryPath => "Assets/Resources/PatternsDB/";
+	public const string PATH = "Assets/Resources/PatternsDB/";
 
 	public static bool TryGet( string id, out PatternData pattern )
 	{
@@ -61,7 +61,7 @@ public static class PatternRegistery
 
 	public static bool Load( string id, out PatternData pattern )
 	{
-		string path = DirectoryPath + id + ".json";
+		string path = PATH + id + ".json";
 		string json = File.ReadAllText( path );
 		if ( json == null )
 		{
@@ -72,6 +72,34 @@ public static class PatternRegistery
 		pattern = LoadFromJSON( json );
 		return true;
 	}
+	
+	public static void LoadAll()
+	{
+		string[] files = Directory.GetFiles( PATH, "*.json" );
+
+		int load_successes = 0;
+		foreach ( string file in files )
+		{
+			//  load from file
+			string id = Path.GetFileNameWithoutExtension( file );
+			if ( !Load( id, out PatternData pattern ) )
+			{
+				Debug.LogError( "PatternRegistery: failed to load pattern '" + id + "'" );
+				continue;
+			}
+
+			//  register it
+			if ( patterns.ContainsKey( id ) )
+				patterns[id] = pattern;
+			else
+				patterns.Add( id, pattern );
+
+			load_successes++;
+			//Debug.Log( "PatternRegistery: loaded pattern '" + id + "'" );
+		}
+
+		Debug.Log( "PatternRegistery: loaded successfully " + load_successes + "/" + files.Length + " files" );
+	}
 
 	public static PatternData LoadFromJSON( string json )
 	{
@@ -79,9 +107,9 @@ public static class PatternRegistery
 
 		return new PatternData
 		{
-			Name = data["name"].Value,
-			Description = data["description"].Value,
-			Relations = LoadRelationsFromJSONNode( data["relations"] ),
+			Name		= data["name"].Value,
+			Description	= data["description"].Value,
+			Relations	= LoadRelationsFromJSONNode( data["relations"] ),
 		};
 	}
 
@@ -89,11 +117,11 @@ public static class PatternRegistery
 	{
 		return new PatternRelationData
 		{
-			Instantiates   = data["instantiates"].AsArray.ToStringArray(),
-			Modulates      = data["modulates"].AsArray.ToStringArray(),
-			InstantiatedBy = data["instantiated_by"].AsArray.ToStringArray(),
-			ModulatedBy    = data["modulated_by"].AsArray.ToStringArray(),
-			Conflicts      = data["conflicts"].AsArray.ToStringArray(),
+			Instantiates	= data["instantiates"].AsArray.ToStringArray(),
+			Modulates		= data["modulates"].AsArray.ToStringArray(),
+			InstantiatedBy	= data["instantiated_by"].AsArray.ToStringArray(),
+			ModulatedBy		= data["modulated_by"].AsArray.ToStringArray(),
+			Conflicts		= data["conflicts"].AsArray.ToStringArray(),
 		};
 	}
 }
