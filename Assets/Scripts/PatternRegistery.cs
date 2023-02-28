@@ -1,47 +1,37 @@
-using System;
-using System.Linq;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
 using SimpleJSON;
 
-public struct PatternTexts
+public record PatternTexts( string Definition, string[] Description, string[] Examples, string[] Usage, string[] Consequences )
 {
-	public string Definition;
-	public string[] Description;
-	public string[] Examples;
-	public string[] Usage;
-	public string[] Consequences;
-
 	public override string ToString()
 	{
 		return $"{GetType().Name}[Definition={Definition}; Description({Description.Length}); Examples({Examples.Length}); Usage({Usage.Length}); Consequences({Consequences.Length})]";
 	}
 }
 
-public struct PatternRelationData
+public record PatternRelationData( string[] Instantiates, string[] Modulates, string[] InstantiatedBy, string[] ModulatedBy, string[] Conflicts )
 {
-	public string[] Instantiates;
-	public string[] Modulates;
-	public string[] InstantiatedBy;
-	public string[] ModulatedBy;
-	public string[] Conflicts;
-
 	public override string ToString()
 	{
 		return $"{GetType().Name}[Instantiates({Instantiates.Length}; Modulates({Modulates.Length}); InstantiatedBy({InstantiatedBy.Length}); ModulatedBy({ModulatedBy.Length}); Conflicts({Conflicts.Length})]";
 	}
 }
 
-public struct PatternData
+public class PatternData
 {
-	public bool IsNull => Name == null;
+	public string Name { get; private set; }
+	public PatternTexts Texts { get; private set; }
+	public PatternRelationData Relations { get; private set; }
 
-	public string Name;
-	public PatternTexts Texts;
-	public PatternRelationData Relations;
+	public PatternData( string name, PatternTexts texts, PatternRelationData relations )
+	{
+		Name = name;
+		Texts = texts;
+		Relations = relations;
+	}
 
 	public override string ToString()
 	{
@@ -60,7 +50,8 @@ public static class PatternRegistery
 		//  retrieve from cache
 		if ( !patterns.ContainsKey( id ) )
 		{
-			if ( !Load( id, out pattern ) )
+			pattern = Load( id );
+			if ( pattern == null )
 				return false;
 
 			patterns[id] = pattern;
@@ -73,18 +64,13 @@ public static class PatternRegistery
 		return true;
 	}
 
-	public static bool Load( string id, out PatternData pattern )
+	public static PatternData Load( string id )
 	{
 		string path = PATH + id + ".json";
 		string json = File.ReadAllText( path );
-		if ( json == null )
-		{
-			pattern = new PatternData();
-			return false;
-		}
+		if ( json == null ) return null;
 
-		pattern = LoadFromJSON( json );
-		return true;
+		return LoadFromJSON( json );
 	}
 	
 	public static void LoadAll()
@@ -96,7 +82,8 @@ public static class PatternRegistery
 		{
 			//  load from file
 			string id = Path.GetFileNameWithoutExtension( file );
-			if ( !Load( id, out PatternData pattern ) )
+			PatternData pattern = Load( id );
+			if ( pattern == null )
 			{
 				Debug.LogError( "PatternRegistery: failed to load pattern '" + id + "'" );
 				continue;
@@ -119,35 +106,32 @@ public static class PatternRegistery
 	{
 		JSONNode data = JSON.Parse( json );
 
-		return new PatternData
-		{
-			Name		= data["name"].Value,
-			Texts		= LoadTextsFromJSONNode( data["texts"] ),
-			Relations	= LoadRelationsFromJSONNode( data["relations"] ),
-		};
+		return new PatternData( 
+			data["name"].Value,
+			LoadTextsFromJSONNode( data["texts"] ),
+			LoadRelationsFromJSONNode( data["relations"] )
+		);
 	}
 
 	public static PatternTexts LoadTextsFromJSONNode( JSONNode data )
 	{
-		return new PatternTexts
-		{
-			Definition		= data["definition"].Value,
-			Description		= data["description"].AsArray.ToStringArray(),
-			Examples		= data["examples"].AsArray.ToStringArray(),
-			Usage			= data["usage"].AsArray.ToStringArray(),
-			Consequences	= data["consequences"].AsArray.ToStringArray(),
-		};
+		return new PatternTexts( 
+			data["definition"].Value, 
+			data["description"].AsArray.ToStringArray(),
+			data["examples"].AsArray.ToStringArray(),
+			data["usage"].AsArray.ToStringArray(),
+			data["consequences"].AsArray.ToStringArray()
+		);
 	}
 
 	public static PatternRelationData LoadRelationsFromJSONNode( JSONNode data )
 	{
-		return new PatternRelationData
-		{
-			Instantiates	= data["instantiates"].AsArray.ToStringArray(),
-			Modulates		= data["modulates"].AsArray.ToStringArray(),
-			InstantiatedBy	= data["instantiated_by"].AsArray.ToStringArray(),
-			ModulatedBy		= data["modulated_by"].AsArray.ToStringArray(),
-			Conflicts		= data["conflicts"].AsArray.ToStringArray(),
-		};
+		return new PatternRelationData(
+			data["instantiates"].AsArray.ToStringArray(),
+			data["modulates"].AsArray.ToStringArray(),
+			data["instantiated_by"].AsArray.ToStringArray(),
+			data["modulated_by"].AsArray.ToStringArray(),
+			data["conflicts"].AsArray.ToStringArray()
+		);
 	}
 }
