@@ -20,22 +20,11 @@ public record PatternRelationData( string[] Instantiates, string[] Modulates, st
 	}
 }
 
-public class PatternData
+public record PatternData( string Name, PatternTexts Texts, PatternRelationData Relations )
 {
-	public string Name { get; private set; }
-	public PatternTexts Texts { get; private set; }
-	public PatternRelationData Relations { get; private set; }
-
-	public PatternData( string name, PatternTexts texts, PatternRelationData relations )
-	{
-		Name = name;
-		Texts = texts;
-		Relations = relations;
-	}
-
 	public override string ToString()
 	{
-		return $"{GetType().Name}[Name={Name}; Description={Texts}; Relations={Relations}]";
+		return $"{GetType().Name}[Name={Name}; Texts={Texts}; Relations={Relations}]";
 	}
 }
 
