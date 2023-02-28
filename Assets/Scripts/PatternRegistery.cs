@@ -4,30 +4,6 @@ using UnityEngine;
 
 using SimpleJSON;
 
-public record PatternTexts( string Definition, string[] Description, string[] Examples, string[] Usage, string[] Consequences )
-{
-	public override string ToString()
-	{
-		return $"{GetType().Name}[Definition={Definition}; Description({Description.Length}); Examples({Examples.Length}); Usage({Usage.Length}); Consequences({Consequences.Length})]";
-	}
-}
-
-public record PatternRelationData( string[] Instantiates, string[] Modulates, string[] InstantiatedBy, string[] ModulatedBy, string[] Conflicts )
-{
-	public override string ToString()
-	{
-		return $"{GetType().Name}[Instantiates({Instantiates.Length}; Modulates({Modulates.Length}); InstantiatedBy({InstantiatedBy.Length}); ModulatedBy({ModulatedBy.Length}); Conflicts({Conflicts.Length})]";
-	}
-}
-
-public record PatternData( string Name, PatternTexts Texts, PatternRelationData Relations )
-{
-	public override string ToString()
-	{
-		return $"{GetType().Name}[Name={Name}; Texts={Texts}; Relations={Relations}]";
-	}
-}
-
 public static class PatternRegistery
 {
 	private static Dictionary<string, PatternData> patterns = new();
@@ -113,9 +89,9 @@ public static class PatternRegistery
 		);
 	}
 
-	public static PatternRelationData LoadRelationsFromJSONNode( JSONNode data )
+	public static PatternRelations LoadRelationsFromJSONNode( JSONNode data )
 	{
-		return new PatternRelationData(
+		return new PatternRelations(
 			data["instantiates"].AsArray.ToStringArray(),
 			data["modulates"].AsArray.ToStringArray(),
 			data["instantiated_by"].AsArray.ToStringArray(),
