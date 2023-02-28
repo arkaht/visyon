@@ -1,6 +1,22 @@
 {
     "name": "Bluffing",
-    "description": "Players have a possibility to convey false information to other players in order to benefit from the situation.",
+    "texts": {
+        "definition": "Players have a possibility to convey false information to other players in order to benefit from the situation.",
+        "description": [
+            "Usually the basic information for \"Bluffing\" is something about the current game state, as is the case in \"Poker\". It is possible, however, that \"Bluffing\" concerns other game components such as past events and actions, players' goals, and even players' strategies and intentions. One of the simplest games of this kind of \"Bluffing\" is an iterated version of \"Paper-Rock-Scissors\", where the players try to outguess the other player's action based on previous plays and social clues."
+        ],
+        "examples": [
+            "\"Poker\" uses \"Bluffing\" as one of the basic characteristics of the game. The players do not have direct information about the other players' hands but try to guess the relative values based on the play of previous rounds, social clues, and how the players are playing the current round. \"Bluffing\" in \"Poker\" thus means that the player is trying to give a false impression to other players about the actual value of his hand.",
+            "The classic board game \"Diplomacy\" has all the information about positions of the players' armies and fleets available to all players. \"Bluffing\" in this game is based on giving the other players false information about the current strategies, goals, and agreements between the players. The game even has a specific diplomacy phase for giving the players the ability to scheme against other players."
+        ],
+        "usage": [
+            "In order to have the possibility for bluffing, the game should have \"Asymmetric Information\" together with means of players giving each other \"Indirect Information\" about game components, that is, the players do not have direct access to the required information but can get it from other players, usually via \"Social Interaction\". Games that have \"Symmetric Information\" as well as \"Direct Information\" about game elements limit the possibilities for \"Bluffing\" but can still have it concerning players' goals, strategies, and intentions. This, however, also requires that players have a possibility of some kind of cooperation and that the player actions can have an effect on the other players' position in the game. An example of a game not satisfying these requirements is a \"100 Meter Dash\", or almost any other sports race, where \"Bluffing\" seems to be almost impossible.",
+            "\"Bluffing\" is possible in almost all cases of \"Negotiation\" and can be used to avoid situations where \"Randomness\" would normally let players feel \"Luck\", since \"Bluffing\" can add a level of social skill even on totally random situations. Common examples where \"Bluffing\" is usually possible include \"Trading\", \"Betting\", and \"Bidding\". An explicit type of game element that can be used for \"Bluffing\" is \"Alarms\" when these can be activated by players' actions."
+        ],
+        "consequences": [
+            "The possibility of \"Bluffing\" in games creates uncertainty about results and thereby \"Tension,\" especially for a \"Bluffing\" player. \"Bluffing\" modulates \"Social Interaction\" between players, and players bluffing must be able to control their \"Emotional Immersion\", especially if the game is played in a face-to-face situation. Even though a face-to-face situation is beneficial for this type of game, it is not a requirement. As long as the possibilities and channels for \"Negotiation\" exist, there is a possibility for \"Bluffing\". \"Bluffing\" in most cases leads to at least a possibility of \"Betrayal\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "risk-reward",

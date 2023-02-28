@@ -1,6 +1,28 @@
 {
     "name": "Traverse",
-    "description": "The goal to try and move a game element from one position in the game to another.",
+    "texts": {
+        "definition": "The goal to try and move a game element from one position in the game to another.",
+        "description": [
+            "Board games such as \"Backgammon\" and \"Ludo\" and all sports \"Race\" s from the 100 Meter Dash to marathons to horse \"Races\" are examples of \"Traverse\" used together with \"Race\"."
+        ],
+        "examples": [
+            "Moving one's pawn to the opposite end of the board is a \"Traverse\" goal in \"Chess\".",
+            "Platform games such as those in the \"Mario\" or \"Super Monkey Ball\" seriescan be defined as having \"Traverse\" goals of going from the beginning of a level to the end."
+        ],
+        "usage": [
+            "The two main considerations when designing a \"Traverse\" goal are the actual game space that has to be moved through and the ways in which players can move. The game space can either only allow one specific path to be followed (having one \"Goal Point\" at the end location), as in \"Snake\" s \"&amp; Ladders\" (players do not have a choice of how to move although the ladders and snakes provide shortcuts and returns to earlier places), or allow players to choose between different paths (having at least one \"Goal Point\" at the end location and possibly intermediate \"Goal Points\" that have to be visited). The latter allow players to make plans depending on what \"Strategic Location\" s exist as well as what \"Enemies\" and \"Obstacles\" exist, for example, letting players choose between \"Evade\" and \"Overcome\" goals.",
+            "The means of \"Movement\" players have can be linked to \"Risk/Reward\" \"Tradeoff\" s as well as provide different players with different routes to advance on by the use of \"Privileged\" \"Movement\". The use of intermediate \"Goal Points\" can create a \"Hierarchy of Goals\" consisting of various \"Traverse\" Goals. The \"Goal Points\" can be used to support \"Safe Havens\", and their introductionallows players to get relief from \"Tension\" and promotes \"Stimulated Planning\" for the next phase of \"Movement.\" By making the \"Goal Point\" initially an \"Inaccessible Area\", the \"Traverse\" goal can be the main goal of a \"Hierarchy of Goals\", where several other sorts of activity besides \"Movement\" need to be performed. When the reason for a \"Traverse\" goal is to achieve \"Area Control\" of the \"Goal Point\", the \"Strategic Location\" of the \"Goal Point\" needs to be considered, as this will modulate the willingness of players to strive for the goal.",
+            "Common variants of \"Traverse\" include \"Delivery,\" where the goal objects to be moved are not the game elements doing the movement, and \"Herd\", where \"Indirect Control\" and \"Units\" are used for moving the goal objects. \"Herd\" can also be a \"Preventing Goal\" of \"Traverse\" when a player's movement can be affected by other players' actions. By giving players \"Imperfect Information\" about the \"Game World\" between the starting point and the end point, \"Traverse\" goals can becomes goals of \"Exploration\" or \"Reconnaissance\".",
+            "If some form of \"Limited Resource\" is consumed by \"Movement\", the \"Right Level of Complexity\" of a \"Traverse\" goal is affected as choices of which terrain is traversed and what movement styles to employ become important. Racing games usually provide some form of \"Charger\" or \"Pick-Ups\" in specific \"Resource Locations\" and, in \"Races,\" force players to make \"Risk/Reward\" choices between saving time and risking not having enough \"Resources\" or losing time but having \"Resources\".",
+            "When the player has \"Freedom of Choice\" regarding \"Movement\" in a \"Traverse\" Goal, the goal may require that players are given information about where the \"Goal Point\" is located. \"Game State Overview\" can be used to support players with this information as can \"Traces\", which may be seen as \"Supporting Goals\" of shorter and easier \"Traverse\" goals.",
+            "\"Traverse\" goals can be used to modulate the likelihood for players to attempt different goals in \"Selectable Sets of Goals\" by having the \"Traverse\" goals as subgoals that have to be performed before individual goals."
+        ],
+        "consequences": [
+            "\"Traverse\" gives players a clear goal to achieve and allows them to judge their local progress by their position in the game space. Although this may function as a \"Progress Indicator\", it does not necessarily give a good \"Game State Overview\", as the area that has to be traversed can be significantly greater than the player can view at any one time. \"Traverse\" as a goal requires players to perform \"Movement\" and uses the \"Contact\" goal of reaching a target object as the end condition. \"Traverse\" is very often used as the subgoal for \"Races\" and required part of \"Stealth\" goals. The presence of \"Save Points\" creates \"Traverse\" goalsthat break the \"Consistent Reality Logic\".",
+            "As \"Traverse\" depends on players moving from one area within the \"Game World\" to the other, the completion of the goal guarantees that the player has changed environment. This can be used to set up different modes of play or explain variations in repeating goals and progress the \"Narrative Structure\".",
+            "Trying to achieve \"Traverse\" goals makes \"Aim &amp; Shoot\" actions more difficulty, regardless of if the players performing the \"Traverse\" goals are aware of the actions."
+        ]
+    },
     "relations": {
         "instantiates": [
             "goal-points",

@@ -1,6 +1,25 @@
 {
     "name": "Tradeoffs",
-    "description": "That players must choose between several different options and compare values against each other.",
+    "texts": {
+        "definition": "That players must choose between several different options and compare values against each other.",
+        "description": [
+            "For choices to be interesting in games, they need to be challenging. One way choices can be difficult to do is if they have different sorts of advantages or the advantages are coupled with disadvantages. In this case, there does not have to be one choice that is easily identifiable as the best, and players have to do \"Tradeoffs\" instead."
+        ],
+        "examples": [
+            "The various technologies that can be gained in the computer game \"Civilization\" not only have different advantages but also are prerequisites for different, more advanced, technologies. When playing the game, players must make \"Tradeoffs\" between what technologies they need, often depending on the local surroundings and the goal of gaining certain advanced technologies.",
+            "All roleplaying games where players can distribute values for statistics or skills require players to do tradeoffs, such as whether they want characters that are strong and dumb or weak and smart, clumsy but charming or agile but unpleasant, and so on."
+        ],
+        "usage": [
+            "There are several ways to create \"Tradeoffs\" in games, but all rely on a \"Freedom of Choice\" for players: if various areas in the game have different properties, players have to do \"Tradeoffs\" concerning \"Area Control\"; the \"Perceived Chance to Succeed\" may differ between different actions and force \"Tradeoffs\" between the \"Risk/Rewards\" choices; \"Cameras\" may force players to do \"Tradeoffs\" on what to view or how to perform \"Attention Swapping\"; \"Player-Decided Distribution of Reward &amp; Penalties\" forces players to give advantages to some players and disadvantages to others; \"Time Limit\" and \"Budgeted Action Points\" let players choose between many actions but force them to do \"Tradeoffs\" between which to perform, and similar analysis needs to be done for \"Resource Management\"; \"Bidding\" forces players to make \"Tradeoffs\" between the cost of the bid and what can be gained from the bid; and \"Supporting Goals\" can make the main goals easier but may deplete \"Resources\" or take time.",
+            "All these forms of \"Tradeoffs\" can be modulated with \"Risk/Reward\" when they are linked to goals by making these \"Committed Goals\". Especially \"Resource Management\" requires many different types of \"Tradeoffs\" and commitments: most commonly which \"Resources\" to use in a variety of \"Consumers\" and what \"Renewable Resources\" to produce from a variety of \"Producers\" or \"Converters\". \"Incompatible Goals\" can also make the \"Tradeoff\" choices more important and can be used to create \"Tradeoff\" situations of choosing which goals players should strive for.",
+            "\"Tradeoffs\" can also be between what goal in a \"Selectable Sets of Goals\" to pursue, especially if other players can complete the other goals. This gives \"Tension\" and a sort of \"Balancing Effect\", since one player cannot fulfill all the goals.",
+            "Common activities that require players to do \"Tradeoffs\" between different actions at the spur of the moment include \"Stealth\" and \"Combat\"."
+        ],
+        "consequences": [
+            "\"Tradeoffs\" make games contain \"Stimulated Planning\" and \"Cognitive Immersion\", and knowing the values of different \"Tradeoffs\" may be \"Strategic Knowledge\" that offers the opportunity for \"Game Mastery\". However, as with any activity that gives \"Cognitive Immersion\", it may also encourage \"Analysis Paralysis\". Providing players with choices between challenges with different \"Tradeoffs\" can allow them to select the \"Right Level of Difficulty\".",
+            "Having to make \"Tradeoffs\" can cause \"Tension\" if the results of the \"Tradeoffs\" have \"Delayed Effects\". It also increases the \"Tension\" regarding the use of \"Limited Resources\", with the amount of \"Tension\" proportional to the scarcity of the \"Limited Resources\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "strategic-knowledge",

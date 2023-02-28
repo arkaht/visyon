@@ -1,6 +1,20 @@
 {
     "name": "Extra-Game Information",
-    "description": "Information provided within the game that concerns subjects outside the Game World.",
+    "texts": {
+        "definition": "Information provided within the game that concerns subjects outside the Game World.",
+        "description": [],
+        "examples": [
+            "\"The Legend of Zelda: The Wind Waker\", like other games in the series, includes a significant amount of \"Extra-Game Information\" about how to perform the actions in the game. This information is portioned out over the game so that the complexity of the gameplay is simple in the beginning and grows as the player becomes more experienced."
+        ],
+        "usage": [
+            "The primary use of \"Extra-Game Information\" is to provide instructions of the game or to show how the interface works, especially the mapping between the game controller and the player actions, but \"Extra-Game Information\" can also provide \"Strategic Knowledge\". When not contained within \"Clues\", it typically consists of \"Outstanding Features\"."
+        ],
+        "consequences": [
+            "\"Extra-Game Information\" affects \"Immersion\" negatively, as it directs the players' attention outside the \"Game World\". However, it allows instructions to be introduced when needed in the game, making it possible for the players to begin the game quickly as the more complex actions are gradually described later, thereby maintaining \"Right Level of Complexity\" of the interface for the player.",
+            "When provided through \"Storytelling\", the delivery of \"Extra-Game Information\" can be used to explain aspects of an \"Alternative Reality\" or gameplay that may be difficult to explain otherwise inside a \"Consistent\" \"Reality Logic\".",
+            "\"Extra-Game Information\" is often \"Clues\" on how to perform gameplay (for example, \"Combos\"), and as such can provide \"Smooth Learning Curves\" and the \"Right Level of Difficulty\" but also promote \"Memorizing\". As any \"Clues\", they are \"Illusionary Rewards\", but since they can provide concrete information about how to perform actions within the game, they can give players an \"Illusion of Influence\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "strategic-knowledge",

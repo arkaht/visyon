@@ -1,6 +1,22 @@
 {
     "name": "Controllers",
-    "description": "Controllers are game elements fixed in particular locations in the Game World that allow players to perform actions that would not be possible otherwise.",
+    "texts": {
+        "definition": "Controllers are game elements fixed in particular locations in the Game World that allow players to perform actions that would not be possible otherwise.",
+        "description": [],
+        "examples": [
+            "First-person shooters, such as \"Quake\", often have doors that have to be opened through activating \"Controllers\".",
+            "The cannons in \"Super Mario 64\" are \"Controllers\" that allow Mario to reach areas otherwise inaccessible by shooting himself from a cannon.",
+            "Abstract \"Controllers\" can be found in \"Return to Castle Wolfenstein: Enemy Territory\" as players can construct bridges, command centers, and towers in certain places."
+        ],
+        "usage": [
+            "\"Controllers\" share many design possibilities with \"Tools\". After choosing what \"Privileged Abilities\" the \"Controllers\" support, a game designer has to decide which \"Units\" or \"Avatars\" can use the \"Controller\", any specific skills that are needed, and any \"Resources\" the \"Controller\" might consume. However, \"Controllers\" differ in some respects from \"Tools\". First, they are public in the sense that they are stationary, and whoever is near it can activate it (unless specific skills or resources are needed). This means that any \"Gain Ownership\" goals related to the \"Controllers\" are linked to controlling the game area. Second, they may need \"Tools\" to be activated besides any requirements on skills and \"Resources\". Third, as they often are presented as part of a large machine or system, they often can affect something outside the usual reach of \"Units'\" or \"Avatars'\" actions without breaking the \"Consistent Reality Logic\" of the game. The activation of \"Controllers\" can often be the completion of a goal or a \"Level\". Further, the actions can be both \"Extended Actions\" (requiring the constant activation of a player) and \"Ultra-Powerful Events\" (for example when activating \"Moveable Tiles\").",
+            "The archetypical type of \"Controller\" is a \"Button\". However, \"Controllers\" do not have to be tangible game elements, but they can be areas where the construction or destruction of game elements is possible. Examples of this are boxes of construction material, which can be assembled to specific game elements, such as bridges or bases in \"Return to Castle Wolfenstein: Enemy Territory\"."
+        ],
+        "consequences": [
+            "\"Controllers\" are natural \"Strategic Locations\" since \"Area Control\" over the location gives players or teams access to actions that otherwise may not be performed. In addition, as they are an integral part of the \"Game World\" and thus linked to its structure, the actions they provide, including \"Ultra-Powerful Events\", usually have greater effects than mere \"Tools\".",
+            "\"Controllers\" that are \"Resource Generators\" provide a way to have \"Renewable Resources\" in games and create \"Resource Locations\" in \"Game Worlds.\" Other \"Controllers\" are simply \"Obstacles\" that allow players to perform actions to remove them."
+        ]
+    },
     "relations": {
         "instantiates": [
             "ultra-powerful-events",

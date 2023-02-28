@@ -1,6 +1,24 @@
 {
     "name": "Asymmetric Goals",
-    "description": "Players have structurally different goals requiring different tactics and actions.",
+    "texts": {
+        "definition": "Players have structurally different goals requiring different tactics and actions.",
+        "description": [
+            "Some games have goals that belong to the same categories, for example winning conditions, but differ from each other by requiring players to have fundamentally different tactics and strategies in regard to what actions should be taken. These goals can be described as asymmetric and cannot be transformed into each other without changing the structure of the goal definitions. Thus, \"Asymmetric Goals\" cannot simply be expressed as different goals, for example \"gather all blue stones\" and \"gather all red stones,\" but require goal states defined by using different categories of actions and components."
+        ],
+        "examples": [
+            "In the children's game \"Tag\", the chaser has the goal of catching another player, while the other players try to avoid the chaser, making the goals asymmetric.",
+            "The collectable card game \"Illuminati: New World Order\" does have \"Symmetric Goals\" that all players have, but the game also allows individual players to have secret goal cards, which promote radically different goals, creating an additional set of \"Asymmetric Goals\" between the players.",
+            "The board game \"Space Hulk\" provides players with many low-level \"Asymmetric Goals\" by matching slow-moving space marines, which have ranged weapons, against fast-moving aliens, which can only fight in close combat."
+        ],
+        "usage": [
+            "\"Asymmetric Goals\" can be difficult to balance due to the lack of a simple symmetry; this can be mitigated by using \"Paper-Rock-Scissor\" relations between the goals or by implementing \"Role Reversal\" to exchange the goals between players as soon as one of the \"Asymmetric Goals\" has been reached. However, goals can also be qualitatively different and be supported by giving players \"Asymmetric Abilities\" that are suited for the goals they have.",
+            "\"Asymmetric Goals\" can be used to encourage players to form \"Dynamic Alliances\" if these goals cannot be completed without the help of the other players, for example by giving \"Asymmetric Abilities\" that do not fit the goals. \"Preventing Goals\" can be used to easily create \"Asymmetric Goals\" between players, for example by letting one player have the goal to \"Gain Ownership\" of a game element and letting another player have the goal to \"Guard\" the same game element."
+        ],
+        "consequences": [
+            "\"Asymmetric Goals\" promote \"Replayability\" since players can have different goals for different game instances, requiring different strategies, skills, and actions. Further, if the \"Asymmetric Goals\" are part of \"Selectable Sets of Goals\" about which the other players have \"Imperfect Information\", they also allow players to bluffabout their goals and tactics.",
+            "\"Asymmetric Goals\" naturally occur in games that have a large \"Freedom of Choice\" for players even if the main goals are \"Symmetric Goals\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "replayability",

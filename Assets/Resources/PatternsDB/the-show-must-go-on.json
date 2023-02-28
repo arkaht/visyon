@@ -1,6 +1,24 @@
 {
     "name": "The Show Must Go On",
-    "description": "The game state can change without any player actions.",
+    "texts": {
+        "definition": "The game state can change without any player actions.",
+        "description": [
+            "\"The Show Must Go On\" is found in games where there are at least some real-time elements in the gameplay that occur even if players do nothing."
+        ],
+        "examples": [
+            "In \"Tetris\", the blocks fall down the screen regardless of the player's actions.",
+            "The balls in pinball after they have been shot to the table move on their own, requiring constant attention from the player or specific actions from the player in order to immobilize the balls.",
+            "In real-time strategy games, there is always something happening in the \"Game World\", and the players have to switch their attention constantly from one place to another to keep in pace with the game."
+        ],
+        "usage": [
+            "The real-time nature of some actions, such as \"Maneuvering\" and \"Aim &amp; Shoot\", make them more suitable for games with \"The Show Must Go On\" than to other types of games. These characteristics of \"Real-Time Games\" are the basis for games with \"The Show Must Go On.\" \"Ultra-Powerful Events\" where the players can merely observe the unfolding of the event are a good example of how to modulate \"Anticipation\" with \"The Show Must Go On\".",
+            "A game state that is dynamic independent of player activity leads to the situation that the players have an inherent possibility for doing \"No-Ops\", even without their intent. This also means that there has to be a \"Dedicated Game Facilitator\" to take care of the game state changes when the players are not performing any actions. \"Turn Taking\" in general requires player action and is therefore not possible to use in combination with \"The Show Must Go On\" in the same modes of play."
+        ],
+        "consequences": [
+            "\"The Show Must Go On\" creates events with \"Hovering Closures\" in \"Real-Time Games\" that can force players to have \"Time Limits\" and makes time a player \"Resource\". This in turn gives \"Limited Planning Abilities\" and can give players both \"Anticipation\" and \"Tension\" if the there is no possibility for player-initiated \"Game Pauses\".",
+            "Games with \"The Show Must Go On\" require that the players pay constant attention to the happenings in the game. Some games of this type build the internal threat or struggle for the players on the requirement that the players to do \"Rhythm-Based Actions\" or perform \"Attention Swapping\" between different parts of a \"Game World\". This can increase \"Tension\" in the game; at least in cases where the pace of the game increases during gameplay or there is \"Shrinking Game World\" to create pressure."
+        ]
+    },
     "relations": {
         "instantiates": [
             "time-limits",

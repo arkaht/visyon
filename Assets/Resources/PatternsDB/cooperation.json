@@ -1,6 +1,27 @@
 {
     "name": "Cooperation",
-    "description": "Players cooperate, i.e., coordinate their actions and share resources, in order to reach goals or subgoals of the game.",
+    "texts": {
+        "definition": "Players cooperate, i.e., coordinate their actions and share resources, in order to reach goals or subgoals of the game.",
+        "description": [
+            "\"Cooperation\" in games allows players to divide goals between them and rely upon each other's abilities and resources. It may enable players to perform otherwise impossible actions or may make players feel that they are part of a team. The notion of a fully cooperative game, without any kind of competition or conflict, seems to be a moot point. Games without struggle to achieve some form of goal are not games at all, and any game containing competition or conflict situations automatically introduces struggle and makes full \"Cooperation\" impossible."
+        ],
+        "examples": [
+            "Laying a puzzle together with friends has \"Cooperation\" between the players, but one can still see the puzzle as containing \"Competition\" (or even \"Conflict\") against the game system or designers of the puzzle.",
+            "The members of a \"Soccer\" team have to cooperate in order to beat the opposing team.",
+            "In \"Lord of the Rings\", the board game, the players coordinate their actions in order to defeat Sauron. The gameplay in this game is basically fully cooperative since the main goal, defeating Sauron, is common to all players, that is, either the players win the game or they all lose.",
+            "MMORPG sections where there is no possibility for destructive player versus player actions, such as attacking or stealing, encourage \"Cooperation\" as the possibility of \"Betrayal\" is lessened. Further, a player that does not cooperate can lose compared to the other players if all the other players collaborate."
+        ],
+        "usage": [
+            "The simplest way to achieve \"Cooperation\" is to use \"Team Play\", but equal levels of \"Cooperation\" can be achieved by introducing \"Mutual Goals\" with \"Shared Rewards\" to players. This creates incentives for the players to strive towards the goals together, and it has been shown that cooperative groups with \"Shared Rewards\" perform better, are more strongly motivated, and more willingly engage in \"Social Interaction\". The \"Mutual Goals\", however, do not need to be the highest level goals in the game; that is, it is possible to have \"Competition\" and \"Conflict\" between the players as a high level goal and use \"Mutual Goals\" as subgoals for reaching the high level goal.",
+            "All \"Alliances\" and \"Team Play\" are based on \"Cooperation\" between the players. Even the lowest level of \"Alliance\", agreeing not to hinder or harm the other player, is a form of \"Cooperation\", as the players coordinate their actions, even though they might not be trying to achieve \"Mutual Goals\".",
+            "Every mode of play where the players perform actions together for mutual benefit requires \"Cooperation\" from basic \"Collaborative Actions\" to \"Trading\" and even \"Bidding\". The benefit does not have to be direct to all the cooperating players but there can be a time delay for the \"Individual Rewards\" as is described in \"Delayed Reciprocity\".",
+            "\"Shared Resources\" gives players the opportunity to decide between cooperating on how to use the \"Resources\" as fairly as possible or going into \"Conflict\" over how to use them."
+        ],
+        "consequences": [
+            "\"Cooperation\" increases \"Social Interaction\" between the players, as they have to coordinate their actions in order to reach the goals of the game. Having, or having the possibility, to cooperate allows players to make use of \"Competence Areas\" and provides a form of \"Constructive Play\" as the coordination in itself is a common achievement. \"Cooperation\" is also the basis for having \"Social Organizations\" and \"Social Dilemmas\" in the game. The different perceived \"Social Statuses\" of the players may lead to spontaneous chains of command in \"Cooperation\" situations.",
+            "Games where \"Cooperation\" and \"Competition\" coexist raise the level of \"Social Interaction\" even further and also increase the \"Tension\" between the players. When there is a possibility of \"Betrayal\" for the cooperating players, this also tends to raise the \"Tension\" and sometimes lowers the motivation for \"Cooperation\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "constructive-play",

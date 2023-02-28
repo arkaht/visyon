@@ -1,6 +1,21 @@
 {
     "name": "Helpers",
-    "description": "Helpers are game elements that support the players in completing goals by giving advice or by performing actions which the players are not able to perform. They are not under any players' control, and typically do not move around in the game world.",
+    "texts": {
+        "definition": "Helpers are game elements that support the players in completing goals by giving advice or by performing actions which the players are not able to perform. They are not under any players' control, and typically do not move around in the game world.",
+        "description": [],
+        "examples": [
+            "the rumor spreading non-player characters in \"Ultima\" series are sometimes directly and sometimes indirectly giving the player advice on how to progress in the game.",
+            "each of the games in \"The Legend of Zelda\" series contains several helpers from helpful grandmothers to talking boats."
+        ],
+        "usage": [
+            "The \"Helpers\" pattern is a direct subpattern of \"Clues\", and as such the design choices relevant to \"Clues\" are relevant to \"Helpers\". However, as \"Helpers\" typically are represented as living creatures, they may provide different \"Indirect Information\" when interacted with several times. This may range from simply rotating through a couple of answers to provide variation to providing new pieces of information when the previous goals have been completed. Further, game designer have to determine if the players can modify the reaction of \"Helpers\" by their actions, e. g. gifts, bribes, threats, or direct attacks. Sometimes \"Helpers\" can also act as \"Tools\", for example, the Lion Boat in \"The Legend of Zelda: Wind Waker\" is also the player's main means of transportation. Helpers can be used to create \"Red Herrings\" for the players as the information they provide is rarely \"Direct Information\" about the game state.",
+            "Game elements can change roles between being \"Helpers\" and \"Units\" due to the actions of the player, and this can be used to create new subgoals for the player. For example, in \"Baldur's Gate\" the player can talk to many non-player characters in the game, but some these characters can also be invited to the player's adventuring party, effectively changing their status from being a \"Helper\" to being a \"Unit\"."
+        ],
+        "consequences": [
+            "\"Helpers\" are game elements in \"Levels\" or \"Game Worlds\" that provide players with \"Clues\". They can also be used to unfold the \"Narrative Structure\" by providing background stories or letting the \"Helpers\" change their advice as gameplay progresses.",
+            "Like \"Clues\", \"Helpers\" can support \"Smooth Learning Curves\" while only giving \"Illusionary Rewards\" since players may not follow or understand the help or advice they are given."
+        ]
+    },
     "relations": {
         "instantiates": [
             "indirect-information",

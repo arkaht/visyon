@@ -1,6 +1,26 @@
 {
     "name": "Budgeted Action Points",
-    "description": "Points that are used by players to do actions during their turns.",
+    "texts": {
+        "definition": "Points that are used by players to do actions during their turns.",
+        "description": [
+            "\"Budgeted Action Points\" are a way to let players decide from turn to turn which actions they want to perform. Usually they not only let players have alternatives to choose from but also allow them to perform the same actions several times if wished but at the expense of not then being able to do other actions.",
+            "A form of \"Budgeted Action Points\" is used to control how often certain actions can be performed in real-time games. In this case the actions costs a certain amount of points from some value and this value slowly increases until it has reached a maximum point. This means that the amount of uses of the action during a certain amount of time is limited but players can save up points in order to use the actions several times quickly after one another."
+        ],
+        "examples": [
+            "the board game \"Space Hulk\" has a limited set of action points for each unit in the game. For the player controlling genestealers these action points are used for moving, turning, and attacking in close combat while the player controlling the space marines can use them for these activities and additionally to shoot and reload weapons.",
+            "play-by-mail games and other tick-based games let players record what actions they want to do and send them to the game facilitator. In order to make games manageable and not grow exponentially in complexity the number of actions each player can use is set to a certain limit.",
+            "calling air strikes, producing ammunition boxes, or handing out health packs in \"Return to Castle Wolfenstein: Enemy Territory\" all requires resources from the players doing the actions. These resources are limited by are regained over time, letting players choose between continuously doing the actions at regular intervals or saving up to do several of them in a short time span."
+        ],
+        "usage": [
+            "The selection of possible actions which can be paid by the \"Budgeted Action Points\" can be any kind of action that is part of the overall game play, but \"Varied Gameplay\" and \"Tradeoffs\" can be encouraged by having heterogeneous groups. \"Budgeted Action Points\" can be used to give players \"Limited Resources\" for performing actions both before and during gameplay. Before gameplay, this is most often used to give players ways to select \"Skill\" levels or sets of advantages and disadvantages for \"Characters\". For \"Budgeted Action Points\" that are used during gameplay, common possible actions include: \"Movement\" with different costsfor different terrain and \"Unit\" types to create \"Movement Limitations\"; different forms of actions related to \"Combat\"; and, actions that refill \"Renewable Resources\" such as healing or repairing.",
+            "\"Budgeted Action Points\" can have \"Balancing Effects\" on powerful abilities since these may cost more points and not be usable so often. Further, the impact of \"New Abilities\" or \"Privileged Abilities\" is lessened when used together with \"Budgeted Action Points\" as using them requires players to not use other actions."
+        ],
+        "consequences": [
+            "\"Budgeted Action Points\" are \"Resources\" which gives players a \"Freedom of Choice\" within a \"Limited Set of Actions\". The points are a form of \"Renewable Resources\" which requires players to continuously do \"Resource Management\" and \"Tradeoffs\" between the different possible actions available.",
+            "\"Turn-Based Games\" and \"Tick-Based Games\" can have \"Budgeted Action Points\" on two levels. On the strategic level, \"Budgeted Action Points\" are used to do \"Investment\" either in technology to give new \"Units\" with \"Privileged Abilities\" or in production to create new \"Units\",\"Producers\", or \"Converters\". On a tactical level, \"Budgeted Action Points\" are given to each \"Unit\" at the start of the turn and most \"Units\" usually have a basic common set of actions with special \"Units\" have additional choices. The presence of \"Budgeted Action Points\" in \"Turn-Based Games\" typically causes \"Cognitive Immersion\" and \"Analysis Paralysis\".",
+            "\"Budgeted Action Points\" in \"Real-Time Games\" are usually optional and are shown as through a \"Status Indicator\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "cognitive-immersion",

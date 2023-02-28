@@ -1,6 +1,23 @@
 {
     "name": "Rhythm-Based Actions",
-    "description": "Actions that require players to time their actions several times in a row.",
+    "texts": {
+        "definition": "Actions that require players to time their actions several times in a row.",
+        "description": [
+            "Real-time games require players to act due to events that occur in the game. When these required actions occur in rhythm, they force players to perform \"Rhythm-Based Actions\", where the timing and stability over time can be just as important as performing the right action."
+        ],
+        "examples": [
+            "\"Pappa the Rapper\" as well as dancing games such as \"Dance Dance Revolution\" require players to hit various buttons in certain combinations while following certain rhythms. Gameplay is eased by having music or songs that have the same rhythm the players must follow.",
+            "Early sports games such as \"Decathlon\" primarily stimulated sports by requiring players to perform long sequences of \"Rhythm-Based Actions\" and judging the outcome from how well the players kept the rhythm."
+        ],
+        "usage": [
+            "\"Rhythm-Based Actions\" are basically sequences of \"Extended Actions\" that require \"Timing\" in \"Real-Time Games\". Depending on the nature of the actions, feedback to players takes different forms in \"Rhythm-Based Actions\": where the actions represent dancing and other non-dangerous activities, \"Progress Indicators\" and \"Illusionary Rewards\" usually provide feedback to how well players are executing the actions, but few \"Rewards\" or \"Penalties\" that affect the actual activity are given; where the actions are related to \"Overcome\" goals or \"Combat\" actions such as \"Combos\", failing to keep the rhythm often ends \"Extended Actions\" but has no further \"Penalties\"; and where the \"Rhythm-Based Actions\" have to do with movement-related \"Combos\", the effect of failing to keep the rhythm often means that players have to suffer the \"Penalties\" associated with \"Deadly Traps\".",
+            "\"Ultra-Powerful Events\",\"Moveable Tiles\", and \"Enemies\" with \"Reconnaissance\" goals can all be used to require \"Rhythm-Based Actions\" in games. The \"Right Level of Difficulty\" of these actions can easily be modulated by the tempo that has to be followed and by providing the \"Right Level of Complexity\" of the actions that have to be performed in that tempo."
+        ],
+        "consequences": [
+            "\"Rhythm-Based Actions\" are actions performed with the intentions of achieving temporal \"Configuration\" goals in \"Real-Time Games\". The motivation for the \"Rhythm-Based Actions\" often comes from \"Game Worlds\" where \"The Show Must Go On\", and the players are either supposed to follow the rhythm of an \"Agent\" giving mentorshipor to avoid dangers in the world.",
+            "By requiring repetitious actions, either in tempo or in type of action, \"Rhythm-Based Actions\" can give \"Sensory-Motoric Immersion\" and is one type of player skill that can be the basis for \"Game Mastery\" in games and give variation to \"Polyathlons\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "game-mastery",

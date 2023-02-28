@@ -1,6 +1,23 @@
 {
     "name": "Camping",
-    "description": "Staying in one location in the game for extended periods of time and perform the same action repeatedly.",
+    "texts": {
+        "definition": "Staying in one location in the game for extended periods of time and perform the same action repeatedly.",
+        "description": [
+            "Some areas in games are so advantageous to players that they can form the game tactics on being in that area and letting players and game events come to them. This usually is combined with performing a small range of actions and waiting for the opportunity to do them."
+        ],
+        "examples": [
+            "Weapons in first-person shooters that are good for sniping together with inaccessible areas create opportunities for camping."
+        ],
+        "usage": [
+            "Creating the possibility of \"Camping\" consist of designing weapons and locations that support the activity. The weapons are typically powerful but do not have to be fast as campers are usual well-prepared. The locations should be difficult to reach, in practice being \"Inaccessible Areas\" except through the line of fire from the camper.",
+            "Making \"Camping\" difficult or impossible in a game simply consist of making the game design not contain the prerequisites for \"Camping\"."
+        ],
+        "consequences": [
+            "\"Camping\" requires that players have \"Strategic Knowledge\" of weapons and locations in the \"Game World\", especially \"Inaccessible Areas\". Further, it forces them to wait for events to occur which they can react to, making them do \"No-Ops\".",
+            "The possibility for \"Camping\" in a game lessens the incentives for \"Varied Gameplay\" and may disrupt \"Player Balance\" if other players have no or little chance of disrupting the \"Camping\" activity. \"Camping\" is especially prone to disrupt game balance when the area watched is a \"Spawn Point\" as \"Spawning\" players have little possibilities to organize. However, in \"Team Play\" the \"Spawn Points\" themselves may be design to support \"Camping\" to let the team control an extended area based around the \"Spawn Point\".",
+            "\"Camping\" requires the same kind of actions that are required to succeed with \"Stealth\" goals and can easily be designed to be part of such goals. They can also be designed as being part of \"Guard\" goals when the guarding does not require movement."
+        ]
+    },
     "relations": {
         "instantiates": [],
         "modulates": [

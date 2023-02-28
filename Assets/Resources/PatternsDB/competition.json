@@ -1,6 +1,26 @@
 {
     "name": "Competition",
-    "description": "Competition is the struggle between players or against the game system to achieve a certain goal where the performance of the players can be measured at least relatively.",
+    "texts": {
+        "definition": "Competition is the struggle between players or against the game system to achieve a certain goal where the performance of the players can be measured at least relatively.",
+        "description": [
+            "\"Competition\" can take many forms, with the primary dichotomy being between having to actively engage against other players to win, direct \"Competition\", or being able to win without interacting directly with other players, indirect \"Competition\". The first case is the most common and is usually aggressive and destructive (e. g., \"Chess\") but is also often perceived as the most emotionally engaging. The second can more easily allow for slow-paced games and constructive gameplay. It also puts more emphasis on competing against oneself."
+        ],
+        "examples": [
+            "Many games based on race have indirect \"Competition\" between the players to reach a certain position in the game as fast as possible. The performance of the players is measured by timing each player's race."
+        ],
+        "usage": [
+            "The easiest form of \"Competition\" is \"Conflict\" with \"Enemies\", but any situation where players have \"Incompatible Goals\", \"Excluding Goals\" (possibly through \"Tiebreakers\"), or \"Rewards\" (especially \"Individual Rewards\"), can cause \"Competition\". Two forms of \"Competition\" that require \"Conflict\" are \"Overcome\" and \"King of the Hill\". Examples of \"Competition\" without \"Conflict\" are all forms of \"Races\" without \"Interferable Goals\" or \"Last Man Standing\" goals where the players are not the cause of each others' demise. In these types of \"Competitions\", the players are not each others \"Enemies\", but the game may provide other \"Enemies\" through \"Agents\".",
+            "Using \"Mutual Goals\" with \"Shared Rewards\" in subgoalsof the \"Competition\" reduces the level of competition between the players, as the players can have \"Cooperation\" with other players in \"Alliances\". By encouraging \"Dynamic\" \"Alliances\", the dynamics of \"Competition\" and \"Cooperation\" usually increase the level of \"Social Interaction\" between the players.",
+            "How the \"Competition\" ends depends on what criteria the different competitors have. \"Symmetric Goals\" allow players to judge more easily their chance of winning and are often used to create \"Player Balance\" between players. \"Asymmetric Goals\" allow different strategies and can create a more varied gameplay and may also promote temporary alliances, although it may be more difficult to balance the game. Further, players may have \"Unknown Goals,\" which allows for techniques of masquerading one's intentions.",
+            "If one player is certain to win a \"Competition\", the motivation for other players to continue competing becomes pointless. In the case of subgoals, this can be a temporary setback, which can be offset by winning other \"Competitions\", but if the outcome of the overall game becomes apparent, the motivation for continuing to play the game may become pointless.",
+            "The final outcome of \"Competition\" varies as well: the winner may gain \"Rewards\" in the form of \"Resources\", information, \"Improved Abilities\", or \"Social Status\"; the loser may similarly lose \"Resources\", suffer \"Ability Losses\", or be excluded from the game through \"Player Elimination\". Exclusion from the game near the end of the game is usually not a problem, but early exclusion may be. Specific examples of more complex forms of \"Competition\" for subgoals within games include \"Bidding\" and \"Trading\".",
+            "The use of \"Agents\" allows players to compete without having to risk the social consequences of losing a game to other players. On the other hand, this means loss of opportunities to gain \"Social Status\" by winning the game. The use of \"Ghosts\" has similar effects on \"Competition\" but may still give \"Social Status\", as the results between different players can be compared."
+        ],
+        "consequences": [
+            "Having \"Competition\" in a game gives a sense of purpose to playing the game and often creates \"Tension\" during gameplay. If players have chosen to play a competitive game, they have chosen to test their abilities against other players, a computer, or a puzzle. \"Competition\" can also motivate \"Social Interaction\" in general, but especially in games where there are dynamics of \"Competition\" and \"Cooperation\" between the players, as is the case in \"Social Dilemmas\" and rivalries in \"Social Organizations\".",
+            "As \"Competition\" makes players want to use their \"Resources\" and abilities as efficiently as possible, the presence of \"Competition\" discourages \"Experimenting\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "social-statuses",

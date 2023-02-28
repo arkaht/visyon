@@ -1,6 +1,26 @@
 {
     "name": "Gain Competence",
-    "description": "Gaining the ability to perform a certain action within the game.",
+    "texts": {
+        "definition": "Gaining the ability to perform a certain action within the game.",
+        "description": [
+            "This is the goal to gain the ability to perform a certain action, either by enabling a game element to perform that action or by gaining control of a game element that can perform that action. Typical examples of games using \"Gain Competence\" goals are roleplaying games where the players' characters gain skills and real-time strategy games with research.",
+            "\"Gain Competence\" is not the ability for a player to perform an action skillfully, see the patterns regarding \"Game Mastery\" and fields of expertise for individual discussions of these player actions."
+        ],
+        "examples": [
+            "\"Quake\" and \"Unreal Tournament\" have \"Gain Competences\" goals that are linked to acquiring weapons, since the different weapons have radically different abilities.",
+            "Computer-based roleplaying games, such as \"Neverwinter Nights\" and \"Morrowind\", have many abilities, most commonly spells, that are not available to the players. Learning these abilities provides significant help in completing the games, and gaining them may become explicit goals that are the focus of player actions on the expense of the main goal."
+        ],
+        "usage": [
+            "The \"Gain Competence\" goal can be achieved by completing other goals, typically \"Gain Ownership\" or \"Overcome\", but can also be the result of \"Investment\" or gaining \"Resources\".",
+            "The \"Rewards\" from \"Gain Competence\" are commonly to give players advantages by providing \"Privileged Abilities\" or \"Improved Abilities\" (often through \"Skills\") that allow for alternative tactics or make the fulfillment of goals easier. If the \"Gain Competence\" goal is a \"Symmetric Goal\" so other players also can gain the same competence, this can provide a \"Race\" or a \"Red Queen Dilemma\".",
+            "The actions made possible by a \"Gain Competence\" goal can either be associated directly with the player or with a game element. In the latter case, this can either be modeled as skills of \"Avatar\" s or \"Units\" that usually cannot be lost except by elimination of the game element itself, or as actions made possible by \"Tools\" or \"Pick-Ups\" that can be lost, traded, or disappear after a certain number of uses due to \"Limited Resources\". Similarly, \"Power-Ups\" and \"Chargers\" can be used to give an \"Avatar\" or \"Unit\" a new form of action for a set \"Time Limit\" or numbers of uses."
+        ],
+        "consequences": [
+            "\"Gain Competence\" goals give players offers of \"Empowerment\" and can be motivated by \"Limited Set of Actions\" or \"Asymmetric Abilities\" where the players feel disadvantaged. They are thus common effects of \"Planned Character Development\".",
+            "\"Gain Competence\" goals can often be described as receiving a \"New Ability\" or \"Improved Ability\" event as a \"Reward\". However, this may only be from the perspective of the current game state: regaining abilities to counter \"Ability Losses\" is also a \"Gain Competence\" goal and probably has stronger \"Emotional Immersion\".",
+            "\"Gain Competence\" can be used to provide players with \"Smooth Learning Curves\", as players do not have to consider all possible actions in the game in early states of the game and allows for \"Varied Gameplay\" within a game since new possibilities open up later in the game. Further, it can be used to ensure the \"Narrative Structure\" and open up new areas in the game. \"Gain Competence\" is also one way to provide \"Character Development\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "character-development",

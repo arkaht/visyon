@@ -1,6 +1,23 @@
 {
     "name": "Asynchronous Games",
-    "description": "Games where the players game and play sessions do not necessarily overlap in time.",
+    "texts": {
+        "definition": "Games where the players game and play sessions do not necessarily overlap in time.",
+        "description": [
+            "The players in these games can start playing the game regardless of the other players and also choose when they want to have their play sessions."
+        ],
+        "examples": [
+            "MMORPGs can have thousands of players in a single game instance. The players can join and leave the game whenever they want, and particular players do not have to play the game simultaneously, although there almost always are some other players playing at the same time.",
+            "The players do not often play the game at the same time in play-by-mail games, even though in many cases their game sessions are the same. Some massively multiplayer play-by-mail games, such as \"Quest\" from KJC Games, share the characteristics of MMORPGs in that the players' game sessions do not have to overlap."
+        ],
+        "usage": [
+            "\"Real-Time Games\",\"Tick-Based Games\", and \"Turn-Based Games\" are all suitable for \"Asynchronous Games\", although the play session structure has to be designed differently for each case. \"Real-Time Games\", such as existing MMORPGs, allow the players to choose when they wish to log in to the game and have real-time play sessions. \"Tick-Based Games\" place a certain time pressure on the players, as they usually have to execute their actions within a given \"Time Limit\" or lose their chance to influence the game state. Depending on the duration of a single tick, these games share characteristics from both \"Real-Time Games\" and \"Turn-Based Games\".",
+            "One way to add some of the features of \"Asynchronous Games\" to \"Single-Player Games\" is to store a record of a single player's performance in a particular game instance, thus allowing other players to compete against the \"Ghosts\" of that player's experience.",
+            "All \"Asynchronous Games\" require some form of \"Communication Channel\" to make it possible for the players to affect the game state and, in some cases, communicate with one another. The use of \"Public Information\" is restricted by \"Asynchronous Games\"; information that can be revealed in \"Synchronous Games\" to \"Spectators\" because players do not have sufficient time to process the information can become sensitive in \"Asynchronous Games\"."
+        ],
+        "consequences": [
+            "Game instances of \"Asynchronous Games\" typically have quite long lifetimes. The players have, to some extent, \"Freedom of Choice\" as to when they wish to play the game and to which extent they want to influence the progress in the game. These games almost universally require the use of \"Dedicated Game Facilitators\" to maintain the game state within a \"Persistent Game World\". The main exceptions are games where \"Ghosts\" are used, although it can be argued that \"Ghosts\" are persistent parts of the \"Game World\" over different players' game sessions. The players can scatter their play sessions over a long period of time, in one sense, meaning that there is \"Downtime\" between the sessions. \"Asynchronous Games\", however, are constructed in such way that \"Downtime\" between the play sessions is not necessarily perceived as such by the players, as they do not have to intentionally wait for the other players to perform their actions."
+        ]
+    },
     "relations": {
         "instantiates": [
             "downtime"

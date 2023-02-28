@@ -1,6 +1,27 @@
 {
     "name": "Reversability",
-    "description": "The possibility of returning to a previous game state of the whole or just parts of the game.",
+    "texts": {
+        "definition": "The possibility of returning to a previous game state of the whole or just parts of the game.",
+        "description": [
+            "The \"Reversability\" can be part of the gameplay itself, as is the case with \"Tag\", or that the players can control the reverting back to a previous game state by saving and loading the game states."
+        ],
+        "examples": [
+            "the quick save feature of many first-person shooters is a version of \"Reversability\", which can be in some cases used to \"cheat\" in the game. Before every encounter with the enemy, or even before every action, the players can save the game and if the action or the encounter is not satisfactory they can just quickly load the saved situation and try again.",
+            "\"Final Fantasy VII\" has specific points in the game world where the players can save their game state; in case of failures they can return to these game states. This is a common feature in many other computer and console games with story progression.",
+            "in \"Tag\" the player who is \"it\" can revert to being chased by the new \"it\" when the player catches another player."
+        ],
+        "usage": [
+            "\"Reversability\" of the whole game state is achieved with \"Save-Load Cycles\" where the whole game state is saved for later loading, either automatically or under player control. These player actions are also \"Extra-Game Actions\" even in games where the saving and loading is concealed in the \"Consistent Reality Logic\" of the game. \"Reversability\" can always be done in \"Self-Facilitated Games\" and can be used to give novice players a form of \"Handicap\".",
+            "\"Buttons\" can have simple \"Reversability\" of parts of the game state when the \"Buttons\" themselves have states, which can be switched back by the players or the game system. The simplest such \"Button\" is an on/off switch, which the players can toggle. \"Role Reversal\" with \"Reversability\" has usually slightly more effects on the game state than the buttons as theychange the players modes of play, players' goal structures, and their available actions.",
+            "\"Reversability\" makes \"Puzzle Solving\" easier as players can do \"Experimenting\" with the game elements instead of abstractly trying to find solutions."
+        ],
+        "consequences": [
+            "Player controlled \"Reversability\" in games gives the players the possibility to do \"Experimenting\" without the fear of losing the game progress totally, and allows \"Replayability\" within play sessions\".\" This also expands at least the perceived \"Freedom of Choice\" for the players, but may have a negative effect on \"Tension\" as the players do not necessarily risk anything more than their time in actions or action sequences with otherwise high \"Risk/Reward\". Games with \"Narrative Structures\" sometimes use this pattern to allow the players to try out different paths through the game narrative. These games have a strong sense of cumulative progress for the players and in many cases the players might have invested considerable time to reach a certain point in the game.",
+            "\"Reversability\" through \"Save-Load Cycles\" saves the players from losing the whole effort invested in a game because of a single mistake. \"Persistent Game Worlds\", however, do not lend themselves well into this type of \"Reversability\" as even one player reverting parts of the game state might cause problems with the consistency of the entire game state.",
+            "\"Closed Economies\" must by definition have \"Reversability\" or else it would be a terminating system, although with feedback loops. This means that the part of the game state which defines a \"Closed Economy\" must be able to be reconstructed later in gameplay but imposes no requirement that other parts of the game state need have the earlier values.",
+            "Generally, \"Reversability\" is more common in \"Single-Player Games\" than \"Multiplayer Games\" since no \"Negotiation\" need be done to revert to earlier play sessions."
+        ]
+    },
     "relations": {
         "instantiates": [
             "experimenting",

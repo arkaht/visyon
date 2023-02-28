@@ -1,6 +1,25 @@
 {
     "name": "Surprises",
-    "description": "Events and consequences that are unexpected by players and disturb their attention.",
+    "texts": {
+        "definition": "Events and consequences that are unexpected by players and disturb their attention.",
+        "description": [
+            "Not all things that happen in games can be foreseen by players, and this is often one of the charms of playing games. When these events not only are unpredicted but the possibility of them happening has not occurred to players, these events are \"Surprises\" and catch the players' attention."
+        ],
+        "examples": [
+            "First person-shooters where players cannot have awareness over everything in their surroundings can easily cause \"Surprises\", for example, being attacked from an unsuspected direction. Many of these games also include \"Surprises\" in the form of secret rooms.",
+            "One of the strengths of having stories in games is that they allow for \"Surprises\" to be planned so that they occur at certain points in gameplay.",
+            "One of the primary rewards for being a game master in roleplaying games is to be surprised by what the players do with the \"Game World\" and the story one has constructed."
+        ],
+        "usage": [
+            "One requirement for \"Surprises\" is the absence of \"Game State Overview\" or the presence of \"Imperfect Information\" or \"Limited Foresight\". Because of this, \"Surprises\" are most often achieved by having \"Dedicated Game Facilitators\" such as \"Game Masters\". \"Never Ending Stories\" are a way of overcoming the problems of \"Narrative Structures\" by combining \"Surprises\" with \"Replayability\", thus making the narrative continue and change forever. Relying on the unexpected, \"Surprises\" are difficult to combine with \"Predictable Consequences\" and \"Replayability\" due to \"Trans-Game Information\" between game instances; and especially difficult when players' have \"Anticipation\" of future events through \"Hovering Closures\". Likewise, too many \"Surprises\" in games can negatively influence players' \"Perceived Chance to Succeed\" and \"Illusion of Influence\". \"Self-Facilitated Games\" also are limited in how to create \"Surprises\" since specific \"Surprises\" cannot be initiated as reactions to current game states without being known.",
+            "Events caused by players that can produce \"Surprises\" are \"Disruption of Focused Attention\" events or the revealing of secret tactics or \"Secret Alliances\", especially if these cause \"Role Reversal\" or \"Betrayal\". These last cases of \"Surprises\" can have a stronger impact if players have \"Identification\" with the \"Characters\" involved.\"Surprises\" can be part of \"Exploration\" or \"Construction\" activities and the effects of \"Deadly Traps\", \"Easter Eggs\", and \"Leaps of Faith\". \"Orthogonal Unit Differentiation\" can give \"Surprises\" when meeting opponents since meeting one does not mean that players know the abilities of all future encounters. Completing \"Unknown Goals\" is an example of a positive \"Surprise\" and is the completion of any goal where the \"Rewards\" are unknown. \"Red Herrings\" are not \"Surprises\" in themselves but lay the foundation for \"Surprises\", often in the form of \"Role Reversals\".",
+            "The impact of \"Surprises\" can be increased making them require \"Irreversible Actions\". The presence of \"God's Fingers\", \"Traces\", and \"Outstanding Features\" all make \"Surprises\" more difficult to achieve, while \"Save-Load Cycles\" lessen the impact of \"Surprises\" since players can replay the event that caused the \"Surprise\" and be prepared."
+        ],
+        "consequences": [
+            "\"Surprises\" automatically give players \"Limited Planning Abilities\" although they may not be aware of it. \"Surprises\" can be planned into the design of \"Narrative Structures\" and \"Levels\", with \"Cut Scenes\" as an option to completely control the presentation of the events that are intended to \"Surprise\". \"Surprises\" can either strengthen or lessen \"Immersion\" in games depending on the type of \"Surprise\". \"Disruption of Focused Attention\" events usually give \"Spatial Immersion\" as they often occur within the \"Game World\" but ruin \"Cognitive Immersion\" as they cause \"Attention Swapping\". \"Surprises\" caused by the unfolding of the \"Narrative Structure\" can cause \"Emotional Immersion\", as it can be based upon \"Betrayal\" or \"Role Reversal\". \"Emotional Immersion\" can also be caused by \"Surprises\" with negative effects, for example \"Damage\" that affects players' \"Characters\".",
+            "The use of \"Surprises\" in games makes \"Aim &amp; Shoot\" and other \"Dexterity-Based Actions\" more difficult."
+        ]
+    },
     "relations": {
         "instantiates": [
             "attention-swapping",

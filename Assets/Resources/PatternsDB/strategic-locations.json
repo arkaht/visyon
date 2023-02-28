@@ -1,6 +1,23 @@
 {
     "name": "Strategic Locations",
-    "description": "Strategic Locations are areas in the Game World that give an advantage to the players controlling them.",
+    "texts": {
+        "definition": "Strategic Locations are areas in the Game World that give an advantage to the players controlling them.",
+        "description": [
+            "Their value can be that they contain game elements that allow certain actions or resources unavailable elsewhere, or that they control the access to other areas of the \"Game World\"."
+        ],
+        "examples": [
+            "The player who controls the center of the game board in \"Chess\", especially with officers, has a significant strategic advantage.",
+            "Controlling locations that produce valuable resources, such as the cities in \"Civilization\", provide the player a long-term strategic advantage."
+        ],
+        "usage": [
+            "\"Strategic Locations\" may be either explicit by the presence of game elements or implicit deriving from the relationship between the location and other locations in the game. Explicit \"Strategic Locations\" can easily be created by the placement of \"Resource Generators\", \"Resource Locations\", \"Chargers\", \"Tiles\",\"Pick-Ups\", \"Power-Ups\", \"Controllers\", \"Safe Havens\", \"Spawn Points\", and \"Goal Points\". To ensure players' awareness of \"Strategic Locations\", they can be set to stand out in the visual design of the \"Game World\" as \"Outstanding Features\". Implicit \"Strategic Locations\" may be intentionally created by the arrangement of explicit \"Strategic Locations\" nearby, or they may be emergent features due to \"Randomness\" of\"Resource\" allocation or due to the combinations of player strategies. In either case, \"Strategic Locations\" can affect \"Player Balance\", typically by giving advantages in \"Combat\".",
+            "Games using player constructed boards from \"Tiles\" allow the players to modify the value of explicit \"Strategic Locations\" by placing them in positions where their relationship to other \"Tiles\" increase or decrease their usability. Similarly, \"Tiles\" with no inherent value can be made \"Strategic Locations\" by connecting them to other \"Tiles\" in a certain way.",
+            "A player might \"Gain Information\" about \"Strategic Locations\" as a \"Supporting Goal\" with \"Traverse\", \"Guard\", or \"Reconnaissance\". It can be the primary subgoal in goals of \"Exploration\". Knowing \"Strategic Locations\" can also influence \"Spawning\", if players have control over which \"Spawn Points\" to use."
+        ],
+        "consequences": [
+            "Knowing and \"Memorizing\" the proper value and use of \"Strategic Locations\" is one way for the players to gain \"Strategic Knowledge\" in a game, for example, in \"Traverse\" goals. This is especially true for \"Strategic Locations\" that depend mainly on the topology of the surrounding \"Game World\" for their values, rather than on the explicit presence of valuable game elements. An example of how topology dictates that value of a location is the value of the central area of the board in \"Chess\". If the locations can be owned in the game, \"Strategic Locations\" make excellent \"Gain Ownership\" goals that can be achieved through \"Area Control\" or other actions that provide \"Ownership\" of parts of the \"Game World\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "strategic-knowledge",

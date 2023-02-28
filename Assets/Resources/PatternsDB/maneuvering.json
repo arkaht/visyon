@@ -1,6 +1,23 @@
 {
     "name": "Maneuvering",
-    "description": "Controlling the movement of game elements in real-time games.",
+    "texts": {
+        "definition": "Controlling the movement of game elements in real-time games.",
+        "description": [
+            "Games in which players control vehicles or characters that move in real time often have \"Obstacles\" or \"Enemies\" that have to be avoided. Doing this in real time requires \"Maneuvering\" of the game elements under the players' control."
+        ],
+        "examples": [
+            "Much of the skill in playing first-person shooters consists in being able to maneuver one's \"Avatar\" so one avoids enemy gunfire and has good opportunities to attack enemies.",
+            "The racing game \"F-Zero GX\" requires player to maneuver to avoid obstacles and other vehicles while traveling at high speeds on a 3D racing track."
+        ],
+        "usage": [
+            "\"Maneuvering\" can be necessary either due to the \"Movement\" of a game element controlled by a player or by the movement of other game elements. In the first case, \"Obstacles\" and \"Deadly Traps\" in the environment may cause emergent \"Evade\" goals, or \"Chargers\" and \"Pick-Ups\" may require \"Collecting\" actions, both of which can be completed by \"Maneuvering\". \"Movement\" of other game elements can be \"Enemies\", or shots from them, that aim directly for the players' game elements or can be \"Ultra-Powerful Events\", e. g., raising bridges or rock falls, that have to be avoided. \"Maneuvering\" due to the \"Movement\" of other game elements does not only have to aid in \"Evading\" them but can also include \"Aim &amp; Shoot\" actions with the intention of fulfilling \"Capture\" or \"Eliminate\" goals.",
+            "\"Maneuvering\" requires that players at least have a weak \"Spatial Immersion\" in the game and thereby requires either a \"First-Person View\" or a \"Third-Person View\". Setting the\"Right Level of Difficulty\" for \"Maneuvering\" actions can be done either by controlling the speed game elements move in or controlling the \"Right Level of Complexity\" by the number of game elements that have to be taken into consideration at any given point. The first raises the requirements on skills in \"Dexterity-Based Actions\" while the second requires \"Attention Swapping\"."
+        ],
+        "consequences": [
+            "The need for \"Maneuvering\" comes either from a lack of \"Game State Overview\" that causes the current situation to be suboptimal or because the \"Game World\" is sufficiently complex to make corrections necessary regardless of chosen path. Both these causes may be due to the \"Movement\" of other game elements, which can either be intentional movement by \"Enemies\" or instantiations of \"The Show Must Go On\".",
+            "\"Maneuvering\", like other forms of \"Movement\" in \"Real-Time Games\", can give \"Spatial Immersion\" and cannot be done in \"Turn-Based Games\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "attention-swapping",

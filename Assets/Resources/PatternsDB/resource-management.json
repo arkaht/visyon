@@ -1,6 +1,26 @@
 {
     "name": "Resource Management",
-    "description": "The players have to plan, manage, and control resource flows within the game in order to reach the goals of the game.",
+    "texts": {
+        "definition": "The players have to plan, manage, and control resource flows within the game in order to reach the goals of the game.",
+        "description": [
+            "All games where the use of \"Resources\" is not simply used for bookkeeping require players to perform \"Resource Management\". This includes deciding how to use \"Resources\" to perform different actions and strive towards different goals as well as planning on how to acquire new \"Resources\" and judging which \"Resources\" will be most valuable in the future."
+        ],
+        "examples": [
+            "Almost all strategy games, including real-time ones, have a strong \"Resource Management\" component. The final goal is usually just to overcome the opponents by maximizing the use of the \"Resources\" available.",
+            "\"Magic: The Gathering\", as well as other collectable card games, has \"Resource Management\" in at least three layers. First, when playing a single game instance the cards in the deck selected for the game are the \"Resources\" that have to be managed to overcome the opponents; second, the cards for that deck usually have to be selected from a much larger collection of cards available; and third, managing the whole collection consists of buying new cards, trading cards with other people, and other methods of obtaining the cards. The last layer of \"Resource Management\" often involves the use of extra-game \"Resources\", usually real money.",
+            "Professional team sports such as \"Soccer\" and \"Ice Hockey\" have a high level \"Resource Management\" layer for managing the composition of the teams."
+        ],
+        "usage": [
+            "The basic building block for instantiating \"Resource Management\" in the game is to have some sort of \"Limited Resources\", which have a direct impact on the possibilities of reaching the goals of the game through the use of \"Producers\" and \"Consumers\". In \"Chess\", for example, the players have 16 pieces each at the start, and these are \"Non-Renewable Resources\". The use of \"Renewable Resources\" as \"Limited Resources\" often creates more complex games, especially when there are \"Producer-Consumer\" chains with \"Converters\" for creating the final \"Resources\" from the basic \"Renewable Resources\". For example, in \"Age of Empires\", the basic \"Resources\", such as wood and food, first have to be gathered from \"Resource Locations\" back to the stockpiles, the \"Containers\", and then these \"Resources\" can be refined in \"Converters\" to \"Units\". In some games, the renewal rate of the \"Renewable Resources\" can also be one of the \"Resources\" to be managed.",
+            "Interesting variations of \"Resource Management\" are \"Player-Decided Distribution of Rewards &amp; Penalties\" where the \"Resources\" to be managed are, as the name implies, \"Rewards\" or \"Penalties\" of the game and \"Attention Swapping\", where the players' attention is the basic \"Resource\" to be managed. In many cases of team-oriented \"Multiplayer Games\", the players themselves are also \"Resources\", which have to be managed as part of \"Team Development\". This management level can lead to \"Social Organizations\" where there is a hierarchy of control similar to the hierarchy of military operations.",
+            "In any case, \"Resource Management\" can become uninteresting if there are no \"Tradeoffs\" with associated \"Risk/Reward\" structures. This can happen especially in cases where the availability of the \"Resources\" is out of balance or where there is a dominant strategy for maximizing the utility of the \"Resources\".",
+            "\"Book-Keeping Tokens\" are not used for \"Resource Management\" since they do not require any active decisions, investments, or risks on any players' behalf."
+        ],
+        "consequences": [
+            "\"Resource Management\" gives players a \"Freedom of Choice\" of how to use \"Producers\" and \"Consumers\" in a game and often causes \"Gain Ownership\" goals. Games with \"Resource Management\" usually involve long-term \"Stimulated Planning\", and this kind of strategic thinking can lead to \"Cognitive Immersion\". Games involving management of complex \"Producer-Consumer\" chains can make \"Resource Management\" a means through which players can develop \"Game Mastery\". The \"Resource Management\" involved in these games ranges from controlling the immediate \"Resources\", for example \"Units\" in a strategy game, to making long term \"Investments\", such as research in \"Civilization\" to increase the number of different \"Unit\" types available.",
+            "If it is possible to quantify how well the players have performed \"Resource Management\", this can be used as a \"Tiebreaker\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "cognitive-immersion",

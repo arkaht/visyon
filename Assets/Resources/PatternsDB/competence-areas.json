@@ -1,6 +1,22 @@
 {
     "name": "Competence Areas",
-    "description": "Players have or can develop an area of specialty within a game.",
+    "texts": {
+        "definition": "Players have or can develop an area of specialty within a game.",
+        "description": [
+            "Games where player cooperate with each other or even with the game system often require different types of skills. When players can train on one particular set of skill this allows them to become specialists with their own \"Competence Areas\"."
+        ],
+        "examples": [
+            "class-based multiplayer first-person shooters such as \"Team Fortress Classic\" or \"Return to Castle Wolfenstein: Enemy Territory\" allows players to play one class and develop their expertise as a member of that class."
+        ],
+        "usage": [
+            "\"Competence Areas\" require a \"Multiplayer Game\" that supports \"Team Play\" and \"Cooperation\". Giving players areas of expertise from the beginning of gameplay can be done by \"Privileged Abilities\" while \"Competence Areas\" can arise from \"New Abilities\" or \"Improved Abilities\" during gameplay, often implemented as improved or new \"Skills\" of \"Characters\". \"Competence Areas\" can emerge from open-ended actions such as \"Construction\" when they provide \"Creative Control\" but is difficult to guarantee by a game design.",
+            "When players can affect what abilities they receive during gameplay this allows for \"Planned Character Development\" and \"Team Development\", although it might have a negative effect on \"Team Balance\". This allows players to have \"Varied Gameplay\" by developing different \"Competence Areas\" in different game instances, and can allow \"Team Balance\" as players can react to strength of other teams and develop \"Competence Areas\" to counter these strengths."
+        ],
+        "consequences": [
+            "\"Competence Areas\" gives games \"Orthogonal Unit Differentiation\" and can provide players with \"Empowerment\" as well as \"Social Statuses\" within \"Social Organizations\". \"Competence Areas\" are likely to give rise to \"Dynamic Alliances\" in \"Multiplayer Games\" unless players are already part of teams. The possibility of \"Ability Losses\" in games also makes the loss of \"Competence Areas\" possible.",
+            "\"Polyathlons\" requires players to specialize in a small number of \"Competence Areas\", or be above average in all \"Competence Areas\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "social-statuses",

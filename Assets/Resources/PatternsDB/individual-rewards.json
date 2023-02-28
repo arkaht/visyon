@@ -1,6 +1,26 @@
 {
     "name": "Individual Rewards",
-    "description": "The reward, or parts of the reward, for reaching a goal or performing an action in the game is given to only one of the players.",
+    "texts": {
+        "definition": "The reward, or parts of the reward, for reaching a goal or performing an action in the game is given to only one of the players.",
+        "description": [
+            "Games, even those with team play, where individual players can fulfill goals usually have \"Individual Rewards\". This motivates all players that have a possibility of completing the goals to try and complete them. However, \"Individual Rewards\" can improve the chances of whole teams to succeed with and can therefore be seen as positive effects even by those who do not directly receive the rewards."
+        ],
+        "examples": [
+            "in single-player games the rewards are naturally \"Individual Rewards\". In \"Tetris\" it is the player who performs the actions and fills in the rows who gets the reward.",
+            "in \"Diplomacy\" the player who is performing the attack command will be able to conquer the area even though there might be several other players supporting this action with their own armies.",
+            "the items given as a reward for completing a goal in a roleplaying game are usually distributed amongst the players as \"Individual Rewards\"."
+        ],
+        "usage": [
+            "\"Individual Rewards\" is best suited for games where the \"Ownership\" of the goals of the players is clear. In these cases the players feel that they are rewarded for their own performance in the game and this can increase the sense of achievement. \"Individual Rewards\" have many of the same requirements and possibilities as general \"Rewards\" do but tend to focus upon \"New Abilities\", \"Improved Abilities\", and receiving personal \"Resources\" and \"Tools\". This as these types of \"Rewards\" can be linked to \"Units\" or \"Avatars\" that are directly under one player's control. In games without \"Team Play\", raising a player's \"Score\" or letting a player win the game has to be \"Individual Rewards\".",
+            "\"Individual Rewards\" can be used together with \"Shared Rewards\" when there is a possibility for separating the \"Reward\" into categories where some can be \"Shared Rewards\" and some \"Individual Rewards\". This is the usual case in fantasy roleplaying games where fungibles, such as the experience points and the gold, are shared between the players but the rare magical items are given to individual players. It is, of course, also possible to create systems where all the \"Rewards\" from even \"Mutual Goals\" are \"Individual Rewards\" in order to heighten the \"Delayed Reciprocity\" effect or create \"Conflict\" situations between players performing \"Cooperation\" or \"Collaborative Actions\"."
+        ],
+        "consequences": [
+            "\"Individual Rewards\", just like \"Rewards\" in general, increase player commitment to the game, especially in the case where the player performing the actions for reaching the goal is rewarded. If an \"Individual Reward\" goes to a player, who has not participated in the actions, is it usually regarded as unfair towards the players who did participate. However, if the players have agreed on this kind of \"Rewards\" beforehand, this use of \"Individual Rewards\", together with \"Cooperation\" and \"Mutual Goals\", gives rise to \"Delayed Reciprocity\", where the player receiving the \"Reward\" usually feels compelled to pay the favor back. There is, however, often a possibility for \"Betrayal\" in these situations which poses potential \"Social Dilemmas\" for the players.",
+            "\"Individual Rewards\" are natural in cases of \"Competition\" and \"Conflict\" between the players and in many cases getting the \"Individual Reward\" from the other players is the main motivation for playing the game in first place. This is especially true for games of direct \"Competition\" with \"Symmetric Goals\" such as \"Chess\" and \"Soccer\", but the same applies to \"Races\" without \"Interferable Goals\". The \"Reward\" itself in these cases might be just to win the other players and it can be perceived as a raise in \"Social Status\". \"Individual Rewards\" can in games with \"Team Play\" give rise to \"Races\" between players within the same team, and may pose \"Social Dilemmas\" to players when the \"Race\" has \"Interferable Goals\" or players can lessen the chance of other team members to succeed by not helping them.",
+            "\"Social Dilemmas\" can be constructed by having \"Individual Rewards\" for individual use of \"Shared Resources\". In these cases players must make \"Tradeoffs\" between the individual benefits they can receive and the benefits of helping the group. Player must also judge the potential risks and disadvantages in antagonizing the other players who have access to the \"Resources\".",
+            "\"Single-Player Games\" naturally only have \"Individual Rewards\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "social-dilemmas",

@@ -1,6 +1,25 @@
 {
     "name": "Evade",
-    "description": "This is the goal to avoid being captured or hit.",
+    "texts": {
+        "definition": "This is the goal to avoid being captured or hit.",
+        "description": [
+            "Many elements in a game---for example, monsters, falling rocks, and bullet shots---are directly dangerous to the game elements controlled by players and are best avoided. This encourages players to try and \"Evade\" these or suffer the consequences."
+        ],
+        "examples": [
+            "\"Go\" gives an example of a turn-based game in which \"Evade\" occurs. When playing the game, players may have groups that will be captured unless they manage to \"Evade\" an enclosure constructed by another player.",
+            "\"Pac-Man\" has the goal of avoiding the ghosts while collecting the yellow dots."
+        ],
+        "usage": [
+            "Creating an \"Evade\" goal involves deciding what \"Enemies\" should to be evaded and what \"Penalties\" occur it the goal is not achieved, as typically \"Evade\" goals have no explicit \"Rewards\". \"Evade\" goals can seldom be completed in themselves, with the exception of \"Evade\" goals with \"Time Limits\", but can often be completed by achieving another goal: that of completing an \"Excluding Goal\" to whatever goal causes the actions the player is trying to \"Evade\". Examples of this are to shoot an enemy that is trying to shoot you or to deactivate a robot that is trying to kill you. The \"Penalty\" for failing to \"Evade\" something is closely related to the \"Reward\" of the \"Preventing Goal\", but usually means \"Damage\", the loss of a \"Life\", or control of a \"Unit\" (possibly because another player completed \"Gain Ownership\" of the \"Unit\"). The \"Penalty\" can also be that the players are forced into \"Committed Goals\", where both succeeding and failing those goals can have negative consequences, for example, having to fight an innocent opponent to the death for having failed a \"Stealth\" goal.",
+            "\"Evade\" goals can be \"Supporting Goals\" for \"Traverse\" and \"Delivery\" goals. If the player succeeds with evading the possible\"Enemies\", there may be no need to succeed with \"Overcome\" goals.",
+            "\"Evade\" goals usually have \"Units\" or moving game elements with dangerous connotations such as bullets, arrows, or missile-like spells as the game elements to be avoided. Noticing \"Aim &amp; Shoot\" actions from these trigger \"Evade\" goals but also of course make the \"Aim &amp; Shoot\" actions more difficult. However, in games where players' \"Units\" or \"Avatars\" constantly move, \"Evade\" goals can also be constructed around \"Deadly Traps\". Any kind of \"Movement Limitations\" that affect players during evading naturally make them more difficult.",
+            "\"Evade\" patterns can interact with \"Overcome\" patterns when one player has both. If the \"Overcome\" patterns are not used at all, the player with the \"Evade\" goal cannot make the chaser fail by directly affecting values related to the chaser. When both \"Evade\" and \"Overcome\" are present simultaneously, they allow players to create tactics of offense and defense, e. g., to strike or dodge in a boxing game. Another option is to let a player have the \"Evade\" goal until a certain other goal, e. g., \"Gain Ownership\" of a weapon, is completed and then the player has the possibility to strive for the \"Overcome\" pattern. This can be used to create \"Role Reversal\" patterns, as in \"Pac-Man\", so the chasers move from having an \"Overcome\" goal to having an \"Evade\" goal."
+        ],
+        "consequences": [
+            "\"Evade\" goals are based upon not being hit and therefore naturally promote \"Movement\" in games. The goals are \"Continuous Goals\" where a player is trying to hinder the completion of another player's \"Capture\" or \"Eliminate\" goalsor to avoid being hit (which are \"Connection\" goals). As such, they are \"Preventing Goals\" and create \"Tension\" as the player is trying to hinder other players' goals.",
+            "In \"Real-Time Games\", \"Evade\" typically requires players to be proficient in \"Maneuvering\" while \"Puzzle Solving\" is often the required skill in \"Turn-Based Games\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "continuous-goals",

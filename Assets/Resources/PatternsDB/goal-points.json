@@ -1,6 +1,24 @@
 {
     "name": "Goal Points",
-    "description": "Goal Points are locations in the game world which the players can enter in order to complete a goal.",
+    "texts": {
+        "definition": "Goal Points are locations in the game world which the players can enter in order to complete a goal.",
+        "description": [
+            "In some cases, for example, racing games, it is sufficient to reach the goal by simply entering the \"Goal Point\" while other games require certain other conditions, such as carrying a particular object, for the goal to be fulfilled."
+        ],
+        "examples": [
+            "All racing games, such as the \"Midtown Madness\" and \"Super Monkey Ball\" series, make use of \"Goal Points\" by having goal lines for completing the race. Reaching the \"Goal Point\" in \"Super Monkey Ball\" is the goal for finishing each of the levels.",
+            "Capture-the-Flag variants of multiplayer first-person shooters, such as in some variants of Quake and Unreal Tournament, have certain areas where the enemy flag has to be delivered for the team to score."
+        ],
+        "usage": [
+            "The choice of using \"Goal Points\" in a game depends strongly on the particular context for the goals (typically \"Traverse\", \"Delivery\" or \"Herd\") it supports. Defining the location of a \"Goal Point\" in relation to where the pursuit of the goal started is one of the main ways to ensure the \"Right Level of Difficulty\" for that goal. However, these goals do not have to have static locations as \"Goal Points\", and instead of only one \"Goal Point\" there may be several.",
+            "The location of a \"Goal Point\" can be placed in an \"Inaccessible Areas\" to make the completion more difficult as it either requires the completion of subgoals before the goal can be reached or the use of \"Privileged Abilities\" of \"Units\" (or \"Avatars\" in multiplayer games with teams)."
+        ],
+        "consequences": [
+            "\"Goal Points\" create explicit areas to move towards in \"Game Worlds\" and thereby make players do \"Game World Navigation\". They create an explicit end condition to strive towards in \"Exploration\", \"Traverse\", \"Delivery\", and \"Herd\" goals. Both the success and the failure of reaching a goal with a\"Goal Point\" has strong closures, and the easy measure of the level of failure through the spatial distance to the \"Goal Point\" creates a \"Near Miss Indicator\" through being an intuitive \"Progress Indicator\" in the first place.",
+            "When combine with \"Area Control\" to define \"Continuous Goals\", \"Goal Points\" limit player's \"Freedom of Choice\" as they have to be in a certain area as long as the \"Continuous Goal\" has to be maintained. This, however, makes the \"Goal Point\" a \"Strategic Location\" and the objective for \"Gain Ownership\" goals. When several \"Goal Points\" simultaneously have to be held this requires players to do \"Collaborative Actions\".",
+            "\"Goal Points\" can be combined with \"Safe Havens\" to let player release \"Tension\" after reaching a closure."
+        ]
+    },
     "relations": {
         "instantiates": [
             "game-world-navigation",

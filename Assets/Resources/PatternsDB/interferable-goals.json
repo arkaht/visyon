@@ -1,6 +1,21 @@
 {
     "name": "Interferable Goals",
-    "description": "The game system or other players can directly influence the player's progress towards the goal.",
+    "texts": {
+        "definition": "The game system or other players can directly influence the player's progress towards the goal.",
+        "description": [
+            "Many goals of the player can be influenced by other players or the game system. Such goals, defined as \"Interferable Goals\", have an end condition or an evaluation function depending on variables in the game state that can be directly affected by others. The pattern is commonly used together with a high-level goal that does not allow the players to have an effect on other players' game elements, in order to create more complex gameplay. Games of direct \"Conflict\", such as \"Chess\" and \"Tennis\", always have \"Interferable Goals\"."
+        ],
+        "examples": [
+            "\"Backgammon\" has the goal of moving your pieces to your own inner table (to be able to start the larger goal of \"bearing\" them off the board). However, the opponent can interfere with the low-level goals of moving each individual piece to the inner table by \"ousting\" the vulnerable pieces. \"Backgammon\" without ousting is not using \"Interferable Goals\" even though the player can block opponent's progress as the player's actions do not have direct effect on the opponent's game state."
+        ],
+        "usage": [
+            "Making a goal interferable consists of choosing in what way the system or other player's actions can affect the game state related to the evaluation function of the outcome. The simplest way is to give other players possible actions that have a direct effect on those attributes that govern the evaluation function of the outcome. The previous example of ousting in \"Backgammon\" is about having a direct effect on the attribute of how near to the completion the pieces are. It is also an example of using \"Capture\" to make the higher level \"Race\" goal interferable. When using \"Interferable Goals\", the players have to know something about the other players' game situation, making excessive use of \"Uncertainty of Information\" and \"Imperfect Information\" unsuitable and \"Symmetric Information\" suitable.",
+            "If one wants to promote \"Conflict\" by using \"Interferable Goals\", the possibility to interfere can be encouraged in the form of a \"Preventing Goal\". Common examples of \"Interferable Goals\" are \"Guard\", \"Overcome\",\"Last Man Standing\",\"King of the Hill\", and maintaining \"Area Control\". Choosing to view the completion of \"Interruptible Action\" as goals allows players to create their own \"Interferable Goals\" of interrupting those actions."
+        ],
+        "consequences": [
+            "\"Interferable Goals\" allow players to be aggressive towards one another, in essence, letting them decide if they want to have a \"Conflict\" or not. This makes the gameplay more complex and varied as the players have to also take into account other players' intentions and possible actions. These characteristics also make \"Interferable Goals\" suitable for games with the possibility of \"Alliances\" between players.\"Symmetric Goals\" are often also \"Interferable Goals\" to offer players a wide range of tactics."
+        ]
+    },
     "relations": {
         "instantiates": [
             "conflict"

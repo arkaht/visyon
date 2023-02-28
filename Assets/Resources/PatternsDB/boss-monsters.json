@@ -1,6 +1,21 @@
 {
     "name": "Boss Monsters",
-    "description": "A more powerful enemy the players have to overcome to reach certain goals in the game.",
+    "texts": {
+        "definition": "A more powerful enemy the players have to overcome to reach certain goals in the game.",
+        "description": [
+            "Sometimes defeating the \"Boss Monster\" can be a goal in itself, but usually \"Boss Monsters\" are used as subgoals in the game and the high-level goal is of another type of goal. \"Boss Monsters\" are almost always used to structure the progress of the game."
+        ],
+        "examples": [
+            "The games in \"The Legend of Zelda\" series are almost totally structured around defeating \"Boss Monsters\" in order to progress in the game and to reach the high-level goals of the game."
+        ],
+        "usage": [
+            "Defeating the \"Boss Monster\" typically uses \"Eliminate\" modulated with some version of \"Overcome\" goal patterns. For example, in a tabletop roleplaying game, defeating the evil dragon guarding the princess consists of several rounds of tests of skills and attributes of the players until the dragon is dead. As previously mentioned, the \"Boss Monster\" is used as a subgoal to signify reaching a high-level goal, as is the case in the previous roleplaying example:\"Eliminating\" the dragon is a subgoal for \"Rescuing\" the princess. It is common for \"Boss Monsters\" to have some form of \"Achilles' Heel\" that allows players to have an easier way to defeat them.",
+            "\"Boss Monsters\" are usually an integral part of \"Narrative Structures\" and sometimes they are the main motivation for the player to progress in the game. That is why there is a need to carefully consider how to fit the nature, history, abilities, and even the audiovisual representation of the \"Boss Monsters\" to the \"Alternative Reality\" of the game."
+        ],
+        "consequences": [
+            "\"Boss Monsters\" are used to structure the progress in the \"Hierarchy of Goals\" so that \"Higher-Level Closures as Gameplay Progresses\" occur, and they typically signify the end of \"Levels\". Defeating the \"Boss Monster\" creates a more significant closure associated with the progress in the game. The \"Boss Monster\" can be used to modulate the \"Tension\" in the overall game and is a natural part in the \"Narrative Structure\" of the game, as it can be seen as an end climax for a narrative section."
+        ]
+    },
     "relations": {
         "instantiates": [
             "overcome",

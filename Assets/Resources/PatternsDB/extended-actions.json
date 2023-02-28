@@ -1,6 +1,24 @@
 {
     "name": "Extended Actions",
-    "description": "Actions that take so long to complete that they require players to miss opportunities to perform other actions in order to complete them.",
+    "texts": {
+        "definition": "Actions that take so long to complete that they require players to miss opportunities to perform other actions in order to complete them.",
+        "description": [
+            "Not all actions in games take place immediately, and some require that players continue to perform them for a period of time before taking effect. Such actions are \"Extended Actions\" and require players to make choices between completing them and abandoning them in order to start other actions. If they cannot be interrupted, they do not even let player abandon them in favor of other actions, and the player must commit fully to them."
+        ],
+        "examples": [
+            "Taking photographs to complete certain mission goals in \"America's Army\" requires that the player performs an action continuously for a certain period of time, is not able to check the surroundings freely, and risk being killed.",
+            "Buildings in the \"Age of Empires\" series let players build \"Units\", but the production of these \"Units\" takes time, and while they are being produced, no new production of units can start."
+        ],
+        "usage": [
+            "There are three main reasons for using \"Extended Actions\" instead of normal actions: requiring a certain commitment of players to start using the action but make continued use easy; encouraging player to use the actions continuously to achieve additional effects; or requiring commitment from players for a continuous period of time. The first reason gives \"Stimulated Planning\" and may have \"Balancing Effects\" if more powerful actions require more preparation and \"Resources\". The second reason gives players increased \"Freedom of Choice\", as it provides players with additional ways of using actions but can also limit players by making the continuation of the action very valuable, as for example when using \"Geometric Rewards for Investments\". The third reason can, like the first reason, cause \"Stimulated Planning\" and have \"Balancing Effects\" but can also increase \"Tension\" if the actions are \"Interruptible Actions\". Gaining \"Area Control\" is an example of an action often using \"Extended Actions\" for the third reason.",
+            "Once the action is started, the \"Extended Actions\" may either be possible to stop or be unstoppable by the players who initiated the action. The first case makes completing the actions into \"Continuous Goals\" as the player may be tempted to perform other actions instead, and the completions may be affected by other players' actions if the actions are \"Interruptible Actions\". The latter case makes the \"Extended Actions\" a form of \"Ultra-Powerful Events\" and starting to use them becomes \"Irreversible Actions\". This makes the initiation of such actions \"Risk/Reward\" choices against other possible future needs of the actions and may cause \"Tension\"."
+        ],
+        "consequences": [
+            "\"Extended Actions\" can be seen as a form of \"Investments\" as they tie up the possible actions available to players besides any possible uses of \"Resources\". They may either start taking effect immediately, having increased consequences the longer they are performed, or may require an initial threshold to be reached before starting to have effect. In the latter case, the completion of them entails \"Hovering Closures\" and has \"Perceivable Margins\", especially if they are also \"Collaborative Actions\", since they then show the willingness of several players to perform the actions. A \"Progress Indicator\", which may be an \"Illusionary Reward\" to provide feedback within a \"Game World\", usually shows how close to the threshold the player is in this case.",
+            "When \"Extended Actions\" do not produce effects until they are finished, the actions leading up to the completion can be regarded as \"No-Ops\" and the initial action can be seen as having a \"Delayed Effect\". When players only have one \"Focus Loci\", these \"No-Ops\" can equal \"Downtime\" for the player and limit their \"Freedom of Choice\". In contrast, when \"Extended Actions\" are used in combination with multiple \"Focus Loci\", typically \"Units\", gaining maximal benefit of all the possible actions through \"Attention Swapping\" can become a part of \"Game Mastery\".",
+            "\"Producers\" and \"Controllers\" are typically game elements to provide \"Extended Actions\" that are not provided by players' \"Focus Loci\". \"Combos\" and \"Dexterity-Based Actions\" such as \"Aim &amp; Shoot\" are examples of \"Extended Actions\" provided by players' \"Focus Loci\". \"Rhythm-Based Actions\" are a form of \"Dexterity-Based Action\" that can support \"Extended Actions\" using or not using \"Focus Loci\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "attention-swapping",

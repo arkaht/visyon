@@ -1,6 +1,25 @@
 {
     "name": "Storytelling",
-    "description": "The act of telling storieswithin the game.",
+    "texts": {
+        "definition": "The act of telling storieswithin the game.",
+        "description": [
+            "Some games promote players to tell stories within games. This may be retelling of actions and events that players have done, the history of the \"Game World\", or part of creating the \"Game World\"."
+        ],
+        "examples": [
+            "\"Once upon a Time\" is a card game based around storytelling. Players play cards with story concepts to be allowed to continue the story based upon the narrative started by other players.",
+            "The role of game masters in roleplaying games is partly that of storyteller, merging the preplanned events with the actions the players have performed within the \"Game World\". The gameplay in these games is based on \"Storytelling\" assisted with background material such as maps and rulebooks."
+        ],
+        "usage": [
+            "\"Storytelling\" in games can be done both by \"Dedicated Game Facilitators\" and by players. The stories told do not have to be part of the \"Narrative Structure\" of the \"Game World\" but can be in several different ways. First, they can be explanations of the history and current state of the \"Alternative\" \"Reality\" of the \"Game World\" and this is the typical way \"Storytelling\" is done by \"Dedicated Game Facilitators\" to advance the \"Narrative Structure\". Second, the stories can be part of \"Roleplaying\", the retelling of previous gameplay within \"Consistent Reality Logic\". Third, the stories can be part of creating and expanding the \"Narrative Structure\" rather than unfolding an existing structure, although this requires \"Game Masters\" or \"Self-Facilitated Games\". Providing back stories for \"Characters\" is an area where players usually are allowed \"Creative Control\" for \"Storytelling\", even in games with tightly restricted \"Narrative Structures\".",
+            "\"Storytelling\" gives both players and \"Dedicated Game Facilitators\" the possibility to explain \"Extra-Game Information\" in a context so that it does not disturb a \"Consistent Reality Logic\".",
+            "\"Storytelling\" by players or \"Game Masters\" may be controlled through \"Turn Taking\" or be \"Interruptible Actions\". In contrast, the \"Storytelling\" done in computer games, for example by \"Cut Scenes\", is a form of \"Ultra-Powerful Event\" that cannot be interrupted although they may be skipped."
+        ],
+        "consequences": [
+            "\"Storytelling\" can be used to frame all actions and events in a \"Game World\" within the \"Consistent Reality Logic\" of the \"Alternative Reality\" and can visualize the \"Game World\" and its history. When the \"Storytelling\" is performed by enacting \"Characters\", the activity gives rise to \"Roleplaying\".",
+            "When \"Storytelling\" is performed by humans, it is a form of \"Social Interaction\" that often gives \"Emotional Immersion\", and being able to tell stories well can give \"Social Status\" and can even be considered part of \"Game Mastery\" in some games. \"Storytelling\" can give players \"Creative Control\" and \"Freedom of Choice\", and in games with \"Game Masters\", these stories can become part \"Player Constructed Worlds\" by being \"Player Decided Results\". In \"Persistent Game Worlds\", the stories can have further influence by being part of the development of \"Never Ending Stories\".",
+            "Games can of course also cause \"Storytelling\" as \"Extra-Game Actions\", for example, bragging about results. In this case, \"Storytelling\" passes \"Trans-Game Information\" between players including possible \"Strategic Knowledge\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "player-decided-results",

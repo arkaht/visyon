@@ -1,6 +1,28 @@
 {
     "name": "Aim & Shoot",
-    "description": "The act of taking aim at something and then shooting at it.",
+    "texts": {
+        "definition": "The act of taking aim at something and then shooting at it.",
+        "description": [
+            "One of the most natural ways of showing attention to something is to look or point at it. Real-time games usually provide some action that can be done to the game element pointed at. Generalized, this action can be described as \"Aim &amp; Shoot\" regardless of if anything is aimed or actually shot."
+        ],
+        "examples": [
+            "Shooting in all first-person shooters consists of taking aim on the opponents, with possible compensations for their movement, and shooting.",
+            "In \"Zelda: Ocarina of Time\", the player must aim and shoot a grappling hook to be able to swing \"Link\" between chasms.",
+            "\"Pokemon Snap!\" gives players a camera and lets them move along a track trying to take as good pictures as possible of Pokemons."
+        ],
+        "usage": [
+            "Making \"Aim &amp; Shoot\" actions possible primarily depend on enabling players to complete \"Alignment\" goals of two points by a straight line. For \"First-Person Views\" this is trivial, as one point is the player's view point unless either of the two points is moving. Somewhat more difficult are \"Third-Person Views\", as more movement of the player's \"Focus Loci\" is usually necessary. \"God Views\" are in most cases too difficult, as it is too hard to get the \"Spatial Immersion\" required in order to line up the two points accurately.",
+            "The difficulty of \"Aim &amp; Shoot\" actions can be due to the \"Movement\" either of the game elements aimed at or the game element aiming. For \"Units\" or \"Avatars\", the intentional \"Movement\" due to \"Traverse\" or \"Evade\" goals can make aiming at them more difficult. For \"Moveable Tiles\" or other game elements, the mechanical \"Movement\" due to \"The Show Must Go On\" can likewise make aiming more difficult. The aiming can be further complicated by the players' own \"Movement\" of their \"Focus Loci\" or by a swaying of the aim to simulate the difficulty of real-world aiming.",
+            "Design of the \"Game World\" that makes players have a bad overview of the game state, for example the inclusions of \"Obstacles\", makes it difficult to prepare for shooting. This means that potential targets likely are \"Surprises\", and any shots will not be well aimed. Similarly, other forms of \"Surprises\" likely cause \"Disruption of Focused Attention\" events and make players lose their aim. Aiming can also be made more difficult by introducing \"Tension\", for example through \"Competition\" or \"Time Limits\".",
+            "The possibility of \"Aim &amp; Shoot\" actions can be restricted by requiring \"Tools\" or the use of \"Resources\". The latter can introduce \"Tension\" to the activity and require \"Risk/Reward\" choices between shooting now or waiting for a possible better situation to shoot.",
+            "Although \"Combat\" with the goals of \"Capture\" or \"Eliminate\" is the activity that most often creates \"Aim &amp; Shoot\" actions, other goals and reasons are possible. \"Delivery\" of game elements can be done by throwing or shooting the game elements to the receiver and \"Capture\" can be the capturing of information rather than game elements. Shooting spider webs, throwing grappling hooks, or even firing cannons with oneself inside it can give explanations for how \"Privileged Movement\" can be performed by \"Aim &amp; Shoot\"."
+        ],
+        "consequences": [
+            "\"Aim &amp; Shoot\" is a \"Dexterity-Based Action\" that is possible in \"Real-Time Games\". Often requiring \"Extended Actions\" and \"Timing\" from a game element's point of view, \"Aim &amp; Shoot\" promotes \"Spatial Immersion\".",
+            "Interestingly enough, most sports games due not make use of \"Aim &amp; Shoot\" even though this is one of the primary activities in sports they simulate. The cause for this is probably the lack of overview of the game statethat players would have if they had perspectives that allowed \"Aim &amp; Shoot\".",
+            "\"Aim &amp; Shoot\" actions from other players or \"Enemies\" naturally increase and present \"Evade\" goals."
+        ]
+    },
     "relations": {
         "instantiates": [
             "spatial-immersion",

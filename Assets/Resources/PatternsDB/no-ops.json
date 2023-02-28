@@ -1,6 +1,23 @@
 {
     "name": "No-Ops",
-    "description": "The action of doing nothing.",
+    "texts": {
+        "definition": "The action of doing nothing.",
+        "description": [
+            "Sometimes the best action in a game is to do nothing and wait for the environment to change. These actions are called No-Ops from the instructions from programming with the same name. No-Ops can also be forced on players as punishments for other players or as effects of the player's own actions."
+        ],
+        "examples": [
+            "trying to avoid guards in the \"Thief\" series of games requires that one combines silent and careful movement with periods of inactivity to not be noticed.",
+            "powering down in the board game \"RoboRally\" to repair damage requires that a player is prepared to spend one turn doing a \"No-Op\"."
+        ],
+        "usage": [
+            "The prime design choice for \"No-Ops\" is if they are voluntary or not. \"Turn-Based Games\" can enforce players to do actions every turn in order for the game to continue and may have \"No-Ops\" as \"Privileged Abilities\". \"No-Ops\" are also used in these games as a form of \"Penalty\" for performing \"Privileged Abilities\". \"Tick-Based Games\" and \"Real-Time Games\" cannot require players to do actions all the time so they support voluntary \"No-Ops\". But this is a matter of perspective, in \"Real-Time Games\" where the player's \"Avatar\" or \"Units\" move continuously, which can be described as applying \"The Show Must Go On\" on players' game elements, this can be seen as an action and players only have the choice between doing the pre-chosen action or another from a set of possible actions.",
+            "The possibility of doing \"No-Ops\", or actions with little consequence to the overall game state, is a requirement for \"Camping\". Similarly it is often used to allow \"Stealth\" goals."
+        ],
+        "consequences": [
+            "Having the possibility of \"No-Ops\" widens players' \"Freedom of Choice\" and allows \"Timing\" of actions, for example to wait for other players to do actions before acting themselves. As \"No-Ops\" can be perceived as being force to wait, having too many of them consecutively may hinder reasonable waiting times. \"Extended Actions\" that do not have an effect on the game state before they are completed can be seen as consisting of an initiating action, several \"No-Ops\", and a finishing action where the game state is updated.",
+            "Forcing players to do \"No-Ops\" while noticing the action of \"Enemies\" can increase \"Tension\" but so can doing voluntary \"No-Ops\" to wait for \"Enemies\" to appear. Extensive amount of \"No-Ops\" in games of course negatively affects \"Varied Gameplay\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "penalties",

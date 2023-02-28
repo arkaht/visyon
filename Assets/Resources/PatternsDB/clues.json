@@ -1,6 +1,27 @@
 {
     "name": "Clues",
-    "description": "Clues are game elements that give the players information about how the goals of the game can be reached.",
+    "texts": {
+        "definition": "Clues are game elements that give the players information about how the goals of the game can be reached.",
+        "description": [
+            "The clues may be explicit, describing exactly how to reach the goal, or implicit, describing facts and events in the game world which need to be interpreted by the player. Of course, this categorization is not clear-cut, as the vagueness of the clues can vary between these two poles."
+        ],
+        "examples": [
+            "Arrows and signs in \"The Legend of Zelda\" series are direct clues, which can guide the player through the game.",
+            "Many racing games contain warnings for the next turns as signs on the side of the road."
+        ],
+        "usage": [
+            "\"Clues\" may take the form of advice, encouragement, or warning. Advice tells players what to do before they have started performing a set of actions; encouragement provides feedback that a given action is correct although the goal or the closure is not completed yet; and warning gives players advice on what not to do. Encouragement is typically used to indicate completion of low-level subgoals or to promote further \"Exploration\" of a given area or object. A more specific encouragement is to use a \"Near Miss Indicator\" to indicate that the player started performing the right actions but failed to do them correctly.",
+            "A \"Clue\" can either be an object in the game, which has to be taken or manipulated to change the game state, or plain information. In the latter case, the \"Clue\" is an \"Outstanding Feature\" and can also be \"Extra-Game Information\" if it is about something outside the \"Game World\". Of course, the \"Clue\" may be about how to use the game controls or the game mechanics, which automatically makes it \"Extra-Game Information\". These forms of \"Clues\", however, may break the \"Consistent Reality Logic\" and \"Emotional Immersion\" in the game, with one example being arrows that show the way to the exit of a \"Level\". If the clues are set within the \"Consistent Reality Logic\" of the game or support the \"Alternative Reality\" of the game, they can also be used to support the \"Narrative Structure\".",
+            "Two typical forms of \"Clues\" are \"Helpers\" and \"Traces\". \"Helpers\" can provide \"Indirect Information\" to the players on how to reach the goals, and \"Traces\" allow the players to indirectly deduce how to locate \"Deadly Traps\" and \"Enemies\", for example. Other \"Clues\" provide more \"Direct Information\", for example, arrow signs to indicate directions where the player should go or explicit warning signs about dangers ahead.",
+            "\"Clues\", especially warnings and \"Helpers\", may be used to indirectly guide players who have gone astray toward the goals and the main areas of the \"Game World\" thus enacting \"Game World Navigation\". An excellent example of such a \"Helper\" is the owl in \"The Legend of Zelda: The Ocarina of Time\", who sometimes flies in to steer the player to the correct places.",
+            "The direct use of \"Clues\" is as goal objects in either a \"Gain Information\" or \"Gain Ownership\" goal, for example to learn about \"Achilles' Heels\". The player knows about the existence of the \"Clue\" and strives to retrieve the additional information by going to a specific location in the \"Game World\".",
+            "A \"Clue\" may not necessarily lead the players towards actions they perceive as beneficial for the progress in the game. When this is the case, the \"Clue\" is used to promote actions, which the players would probably not otherwise initiate, in order to support the \"Narrative Structure\" or to promote \"Player Balance\" and \"Cooperation\". This may be construed as a \"Red Herring\" pattern, used to trick players into actions that are against their low-level goals but that may be required to complete the game narrative or to put the players in positions so that they can reach the higher-level goals of the game. \"Clues\" to finding \"Easter Eggs\" are examples of luring players to perform actions that are not necessarily required to complete or win games but can rather be seen as \"Clues\" to \"Unknown Goals\"."
+        ],
+        "consequences": [
+            "\"Clues\" can be used to provide the \"Right Level of Difficulty\" and \"Smooth Learning Curves\", especially in the case where the game provides more \"Clues\" to the player if the progress is too slow. The \"Clues\" are often used to guide the player through the \"Narrative Structure\" of the game and create \"Tension\" by signaling the existence of dangers before they actually occur. This is especially the case in adventure games, which use \"Clues\" as the basic \"Resources\" of the player.",
+            "\"Clues\" are a form of \"Illusionary Reward\", since they do not have to help players nor do they actually have to change the game state in a beneficial way for the players."
+        ]
+    },
     "relations": {
         "instantiates": [
             "indirect-information",

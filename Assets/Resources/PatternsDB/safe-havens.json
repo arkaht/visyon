@@ -1,6 +1,22 @@
 {
     "name": "Safe Havens",
-    "description": "Save Havens are locations in the game world where game elements under the players' control are safe from the actions of other players or the game events.",
+    "texts": {
+        "definition": "Save Havens are locations in the game world where game elements under the players' control are safe from the actions of other players or the game events.",
+        "description": [],
+        "examples": [
+            "\"Super Mario\" 64 has \"Safe Havens\" between the worlds since the player is safe from the threats and has time to think what to do next.",
+            "many first-person shooters have \"Safe Havens\", some that are temporary and some that cannot be entered after being left. These \"Safe Havens\" are used to avoid the possibility of spawn killing, i. e. the player being killed immediately after having been being brought back into the game."
+        ],
+        "usage": [
+            "There are two requirements for a place to be a \"Safe Haven\": first, there should be no environmental elements, such as \"Deadly Traps\", that can negatively affect players. Second, no hostile \"Agents\" or players should be able to affect the area. However, the \"Safe Haven\" does not have to be permanent, for example it can either be safe under a certain \"Time Limit\" or until the players in the \"Safe Haven\" perform certain actions. Some \"Safe Havens\" also make it impossible for players to have negative consequences of their own actions. These forms of \"Safe Havens\" support \"Experimenting\".",
+            "One variant to hinder hostile activities within a \"Safe Haven\" is to allow hostile \"Agents\" or players in the area but make hostile actions impossible within the \"Safe Haven\". Sometimes these kinds of \"Safe Havens\" are safe only for the lower ranking players. For example, the home cities in \"Dark Age of Camelot\" are safe only for low level characters. By making the \"Safe Haven\" a neutral area, players can be offered the possibility for \"Negotiation\" and forming \"Dynamic Alliances\".",
+            "\"Safe Havens\" are often combined with \"Spawn Points\" to ensure that the \"Spawning\" of \"Avatars\" or \"Units\" the \"Game World\" cannot immediately be followed by attacks by other players. In games with \"Team Play\" this allows the teams to at least have a minimal area they always control. Placing \"Resource Generators\" inside such \"Safe Havens\" will further enhance the \"Balancing Effect\".",
+            "One kind of \"Save Haven\" can be constructed by making \"Avatars\" and \"Units\" indestructible for a short period of time after spawning. This approach is typically used in multiplayer games with no teams and games where the \"Save Haven\" is publicly accessible to all players."
+        ],
+        "consequences": [
+            "\"Safe Havens\" naturally create \"Goal Points\" for \"Traverse\" goalsand thereby also \"Strategic Locations\". As the players can pause and reconsider their next moves there, this also promotes \"Stimulated Planning\" and can be used to lessen \"Tension\" or to modulate the gameplay to shift between stressful periods and calmer periods."
+        ]
+    },
     "relations": {
         "instantiates": [
             "stimulated-planning",

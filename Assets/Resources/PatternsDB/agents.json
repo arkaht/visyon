@@ -1,6 +1,20 @@
 {
     "name": "Agents",
-    "description": "Entities in games that take the roles of players but are controlled by the game system.",
+    "texts": {
+        "definition": "Entities in games that take the roles of players but are controlled by the game system.",
+        "description": [
+            "Sometimes one cannot find enough players to make a game playable or enjoyable. To make gameplay possible in these situations, the game design may provide means of simulating players. These simulated players, or \"Agents\", can also be used to flesh out team-based games so that the teams are of equal size or simply let players train without having to play against other people."
+        ],
+        "examples": [
+            "Bots in first-person shooters or real-time strategy games let players simulate multiplayer variants of the game."
+        ],
+        "usage": [
+            "Creating \"Agents\" requires that \"Dedicated Game Facilitators\" can sufficiently simulate the actions and plans of players, which in many cases requires significant computer power and AI programming. However, the skill of these \"Agents\" can easily be downgraded once they have been created and this can be used to create \"Handicaps\" for players."
+        ],
+        "consequences": [
+            "\"Agents\" provide the possibility to play \"Multiplayer Games\" when not enough players are available by providing \"Enemies\" controlled by the game system. This allows for \"Competition\", \"Conflict\", and \"Tied Results\", and even \"Social Interaction\" to be present, or at least simulated, in situations where they would otherwise be impossible."
+        ]
+    },
     "relations": {
         "instantiates": [
             "enemies",

@@ -1,6 +1,25 @@
 {
     "name": "Status Indicators",
-    "description": "Players are given information about a certain part of the game state or other players through other means than observing a game element",
+    "texts": {
+        "definition": "Players are given information about a certain part of the game state or other players through other means than observing a game element",
+        "description": [
+            "Some parts of the game state, especially abstract game elements, cannot easily be visualized within the game through game elements. To present these types of information, the game can either augment the presentation of game elements with extra information or provide areas of the interface which are dedicated for showing this information."
+        ],
+        "examples": [
+            "health bar in first-person shooters or fighting games are common examples of \"Status Indicators\" that are part of the interface of the game.",
+            "The Light Gem in the \"Thief\" series indicates to the players how visible they are, and thus the risk of being detected by guards.",
+            "the jewel-shaped marker in \"The Sims\" is a \"Status Indicator\" that shows which character is controlled by the player."
+        ],
+        "usage": [
+            "\"Status Indicators\" are an option to \"Book-Keeping Tokens\" in games that have \"Dedicated Game Facilitators\". Although they are not game elements they may be observed within \"Game Worlds\" when they are instantiated through dynamic \"Outstanding Features\" in the environment.",
+            "The most common information shown by \"Status Indicators\" are \"Score\" values, amount of \"Damage\" received, remaining \"Budgeted Action Points\", time remaining of \"Time Limits\", and the position of \"Focus Loci\". However, \"Score\" values may be regarded as \"Progress Indicators\" in cases where one cannot lose points or when one is striving towards a fixed number. The last of these typical uses it to augment the presentation of game elements and may disturb \"Immersion\", something the two others avoid by presenting information outside the \"Game World\". The other two may, depending on their importance, also cause loss of \"Immersion\" as they can be attention grabbingif they provide information that is important enough.",
+            "In \"Races\", \"Status Indicators\" are usually used together with \"Progress Indicators\" so players can know both the relative positions between players and how close they are to finishing the \"Race\"."
+        ],
+        "consequences": [
+            "Like most other forms of indicators, \"Status Indicators\" provide ways for game designers to give players \"Direct Information\" about the game state. \"Status Indicators\" are more attention grabbingthan other forms of indicators since the information they usually represent can change quicker and in more ways than with other indicators, and can thereby quickly cause \"Tension\". They can provide \"Game State Overviews\" on \"First-Person Views\" to give those views characteristics closer to those of \"Third-Person Views\".",
+            "A special type of \"Status Indicators\" is those that show \"Social Status\". These do not necessarily give information about the game state but can be important for maintaining \"Social Organizations\" within game sessions or based upon the games."
+        ]
+    },
     "relations": {
         "instantiates": [
             "social-statuses"

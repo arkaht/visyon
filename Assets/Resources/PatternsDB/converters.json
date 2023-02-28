@@ -1,6 +1,22 @@
 {
     "name": "Converters",
-    "description": "Converter produces different types of game elements from other game elements, typically from other resources. In essence, a Converter transforms game elements into other game elements.",
+    "texts": {
+        "definition": "Converter produces different types of game elements from other game elements, typically from other resources. In essence, a Converter transforms game elements into other game elements.",
+        "description": [
+            "\"Converters\" often appear in strategy games as factories, cities, or special units, which can produce more units, such as tanks and fighter planes, from more basic resources. Some of the more complex games even have several levels of resource refinement. \"Converters\", however, can also appear in games where there are no resource flows to be managed as in the case of \"Chess\"."
+        ],
+        "examples": [
+            "real-time strategy game \"StarCraft\" has factories, which require basic resources, metal, energy etc. to build units for the player.",
+            "the opposing end of the \"Chess\" board is a \"Converter\" that converts pawns to queens."
+        ],
+        "usage": [
+            "As the \"Converter\" is a direct application of \"Producer-Consumer\", the \"Converter\" in fact being both a \"Consumer\" and a \"Producer\", the principles of these patterns also apply to using \"Converter\". \"Converters\" are used to create \"Producer-Consumer\" chains that create more complex resource flows within the game and can thereby be used to modulate the \"Right Level of Complexity\" in games. In these cases the \"Converters\" are usually associated with a \"Container\" to store the intermediate resources before actual use. The use of \"Converters\" to provide \"Renewable Resources\" allows the availability of the renewed \"Resource\" to be limited by the availability of the consumed \"Resource\".",
+            "In games with a \"Game Worlds\" the \"Converter\" is often represented as a game element of its own such as a \"Tool\" or a \"Resource Generator\", or as a place through a \"Strategic Location\". \"Converter\", however, can also appear as an abstract rule based entity in the game without being instantiated by specific game elements; \"Bidding\" and the act of playing \"Cards\" are examples of such abstract \"Converters\"."
+        ],
+        "consequences": [
+            "Physical \"Converters\" create entities in \"Game Worlds\" that act as \"Consumers\" of one type of \"Resources\" and \"Producers\" of another, thereby making the produced \"Resource\" into a form of \"Renewable Resource\". The introduction of a \"Converter\" into a game almost inevitably increases the complexity of the game play and in most cases also creates subgoals and alternative strategies for players, thus promoting \"Varied Gameplay\". If players have a way to control the \"Converter\", this leads to \"Empowerment\" and an enhanced \"Freedom of Choice\" and at the same time allow more complex strategies. Further, players may have to make \"Tradeoffs\" and this can encourage \"Stimulated Planning\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "producer-consumer",

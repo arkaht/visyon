@@ -1,6 +1,26 @@
 {
     "name": "Extra-Game Actions",
-    "description": "Actions that are motivated by the game state or game design but do not affect the game state as such.",
+    "texts": {
+        "definition": "Actions that are motivated by the game state or game design but do not affect the game state as such.",
+        "description": [
+            "Games can support actions that are based on the conditions in a game session but which does not affect the game state. These forms of actions are \"Extra-Game Actions\" since on one level they do not take place within the game. However, they are dependent on the current game state so their effects are dependent on when in a game session they are performed."
+        ],
+        "examples": [
+            "Betting on the outcome of a game is a typical form of \"Extra-Game Actions\" that creates a meta game based upon a game. Note that games such as \"Poker\" do not have betting as an \"Extra-Game Action\" since folding in that game affects the game state.",
+            "loading and saving in computer games are \"Extra-Game Actions\" which save or restores the entire game state of a game instance. As the whole game state is affected these actions are not considered parts of gameplay but rather ways of setting up play sessions."
+        ],
+        "usage": [
+            "\"Extra-Game Actions\" are used for four different forms of effects: to plan or prepare for gameplay before play sessions have begun, to provide \"Extra-Game Consequences\", to change the information players receive about the game state, or to change the entire game state. They are especially common in \"Multiplayer Games\" as players may need to do \"Negotiation\" or perform \"Collaborative Actions\".",
+            "Games promote players to perform \"Extra-Game Actions\" before play sessions begin by providing \"Stimulated Planning\" through \"Strategic Knowledge\", for example by letting players know their \"Privileged Abilities\" well in advance, or by letting players have \"Creative Control\" over \"Character\" or game elements used. This use of \"Creative Control\" is especially common in roleplaying games where players can either design their own characters or, in the case of live action roleplaying games, design the physical clothes and props used in the games. Thus, it is also common in games with \"Planned Character Development\" but even more so in \"Multiplayer Games\" with \"Team Development\".",
+            "\"Extra-Game Consequences\" can create \"Meta Games\" or give players \"Trans-Game Information\" such as providing information about how to perform \"Combos\". \"Storytelling\" to give players \"Emotional Immersion\" within games can also be considered \"Extra-Game Consequences\" as the game state could have been updated without the \"Storytelling\".",
+            "One special form of \"Extra-Game Action\" is to allow non-players to help players temporarily. This typically requires \"Spectators\" with \"Public Information\" if the helpers should provide information about the game state or other information relevant to succeed in goals.",
+            "Manipulating \"Book-Keeping Tokens\" are \"Extra-Game Actions\" that likely change players' perception of the game state since the actions change the game state. Changing how players are informed about the game state can either be done directly through manipulating a \"Camera\" or by changing the set-up of an user interface, but in both cases modify the \"Game State Overview\" players have. Saving and loading game states are \"Extra-Game Actions\" that allow \"Save-Load Cycles\" and \"Reversability\" to previous game states. Other player initiated \"Game Pauses\" are also simple cases of \"Extra-Game Actions\"."
+        ],
+        "consequences": [
+            "\"Extra-Game Actions\" provide players with an additional level of \"Freedom of Choice\" in games which can be done without necessarily affecting the development of the game. Except for \"Storytelling\", \"Extra-Game Actions\" typically causes players to lose \"Immersion\" since they force players to consider the mechanical or formal structure of the game. \"Cognitive Immersion\" is the form of \"Immersion\" least affected, since both saving and restoring game states and manipulating information presentation may be motivated by players' interpretations of the game state. Performing \"Extra-Game Actions\" can be considered \"Investments\" in games which are either not parts of specific game instances or not explicitly related to changes in the game state.",
+            "\"Self-Facilitated Games\" requires players to do \"Extra-Game Actions\" to run the game. In the case of games with \"Persistent Game Worlds\" these action are \"Investments\" but typically give players large amounts of \"Creative Control\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "meta-games",

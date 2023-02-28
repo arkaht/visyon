@@ -1,6 +1,26 @@
 {
     "name": "Ultra-Powerful Events",
-    "description": "Events that cannot be affected by player actions.",
+    "texts": {
+        "definition": "Events that cannot be affected by player actions.",
+        "description": [
+            "Some events in games cannot be affected by players. Some of these events are parts of the game environment, for example the rising and setting of the sun, and can be well-known to the players and occur whether or not players try to cause them to occur. Others can be started by players, for example by tripping alarms, but once they have been started, players cannot influence how they develop. These events may be used to unfold the game's story or simply represent greater forces of for example machinery.",
+            "<B>Example:</B> Games that have cut-scenes between levels or after completing goals are examples of games with \"Ultra-Powerful Events\", since players cannot affect the game while the cut-scenes are being shown."
+        ],
+        "examples": [
+            "Some of the platforms in\"Super Mario Sunshine\" start to dissolve after Mario has stood on them for a certain time. Although Mario can be moved from the platform to save him, the player cannot affect the disappearance of the platform."
+        ],
+        "usage": [
+            "\"Ultra-Powerful Events\" can be impossible for players to affect in two ways. The first way, which is optional, is that players cannot affect why and when the events start. The second way, which is required, is that players cannot affect the events when they have begun to unfold nor the way in which they unfold.",
+            "Knowledge of why \"Ultra-Powerful Events\" start can be \"Strategic Knowledge\", especially if players can start the events. Likewise, knowing how \"Ultra-Powerful Events\" unfold can be \"Strategic Knowledge\" and promote \"Stimulated Planning\", as players can prepare for actions in the game state that will be after the events has taken place.",
+            "Game elements that can cause \"Ultra-Powerful Events\" that can be explained within a \"Consistent Reality Logic\" during gameplay include \"Moveable Tiles\", \"Deadly Traps\", and \"Controllers\". \"Shrinking Game World\" is an example of an \"Ultra-Powerful Event\" that affects the \"Game World\" rather than game elements. \"Movement\" of \"Obstacles\" in the \"Game World\" is another example of an \"Ultra-Powerful Event\" that affects the \"Game World\" and may require \"Maneuvering\" or \"Rhythm-Based Actions\" by the players. \"Storytelling\" and \"Cut Scenes\" are common forms of \"Ultra-Powerful Events\" that can be used to move \"Narrative Structures\" forward, or explain \"Ability Losses\", and make players into \"Spectators\".",
+            "In games with \"Turn Taking\", \"Ultra-Powerful Events\" are common after the completion of a cycle of turns to ensure a level of \"Player Balance\" and prepare the game state for the next round of \"Turn Taking\"."
+        ],
+        "consequences": [
+            "\"Ultra-Powerful Events\" cannot be affected by players. To guarantee this, they must be enforced by \"Dedicated Game Facilitators\" such as \"Game Masters\" or computer programs. They can make actions into \"Irreversible Actions\", for example to unfold \"Narrative Structures\". In contrast, \"Reversability\" of \"Ultra-Powerful Events\" cannot unfold \"Narrative Structures\" but represent a form of \"Investment\" or play mode, as the game state is restricted to a certain subgroup of the possible game states until the \"Ultra-Powerful Event\" is completed. Since the enforcement of events cannot be guaranteed in \"Self-Facilitated Games\" (with no \"Game Masters)\", these types of games cannot guarantee \"Ultra-Powerful Events\" unless players agree upon them.",
+            "\"Ultra-Powerful Events\" that also are \"Extended Actions\" usually have \"Predictable Consequences\", as player cannot affect them, although they may be difficult to predict if their outcome is dependent on the game state. As these \"Predictable Consequences\" are caused by \"Delayed Effects\", these types of \"Ultra-Powerful Events\" provide \"Hovering Closures\" and \"Anticipation\" for players and are examples of \"The Show Must Go On\".",
+            "\"Ultra-Powerful Events\" can easily remove players' \"Freedom of Choice\". Further, they can cause players to have \"Downtime\" or lose a \"Perceived Chance to Succeed\" if they remove players' possibilities to perform any actions or make all action only have negative consequences. \"Extended Actions\" are an example of such \"Ultra-Powerful Events\" that have been initiated by the players themselves. Depending on if the player is left with any actions and how well the events can be explained within a \"Consistent Reality Logic\", \"Ultra-Powerful Events\" can support or break an \"Illusion of Influence\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "spectators",

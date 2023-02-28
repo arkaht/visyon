@@ -1,6 +1,22 @@
 {
     "name": "Never Ending Stories",
-    "description": "Stories in games which have no predefined ends.",
+    "texts": {
+        "definition": "Stories in games which have no predefined ends.",
+        "description": [
+            "Some games with stories in them have no points where the game ends. This means that the story continues until players or game facilitators lose interesting in playing the game."
+        ],
+        "examples": [
+            "\"The Sims\" can be played for as long as the players want to influence the characters actions.",
+            "MUDs and MMORPGs have world stories that continuously develop as long as the server providing the game is running and players or game facilitators affect the game state."
+        ],
+        "usage": [
+            "\"Never Ending Stories\" require the presence of \"Dedicated Game Facilitators\", players with \"Creative Control\" over the \"Narrative Structure\" through \"Storytelling\", or evaluation functions that can generate \"Narrative Structure\" based on the current game state and \"Randomness\". The \"Never Ending Stories\" do not have to be contained within one game session; roleplaying games, for example, can have long pauses between playing different scenarios that continue a \"Never Ending Story\" and feel more like different game sessions with the storiespassed between them as \"Trans-Game Information\".",
+            "The use of players to provide narrative input allows \"Player Constructed Worlds\", which often are \"Persistent Game Worlds\" so that players can develop \"Emotional Immersion\" for the development of the \"Game World\"."
+        ],
+        "consequences": [
+            "\"Never Ending Stories\" allow \"Narrative Structures\" that as long as they do not repeat themselves continuously have the potential for \"Surprises\". Since it may be difficult to know what parts of the game state can be required for future parts of the narrative, \"Never Ending Stories\" rarely have \"Closure Points\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "surprises"

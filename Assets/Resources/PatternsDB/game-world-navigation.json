@@ -1,6 +1,22 @@
 {
     "name": "Game World Navigation",
-    "description": "The action of trying to move from one place in the game to another when the correct way is not obviously apparent.",
+    "texts": {
+        "definition": "The action of trying to move from one place in the game to another when the correct way is not obviously apparent.",
+        "description": [],
+        "examples": [
+            "The text-based adventure game \"Zork\" made navigation difficult by having non-symmetric routes between locations: Moving north from a place to another did not means that one returned by going south, rather one might have to go west instead.",
+            "The maze-like levels in \"Doom\" and \"Quake\" required player to navigate within the environments to move efficiently between all parts of the levels."
+        ],
+        "usage": [
+            "\"Game World Navigation\" is most common in games with large \"Game Worlds\" and which support \"Spatial Immersion\". However, games relying on text-based descriptions can have \"Game World Navigation\" and make the action into a \"Puzzle Solving\" one by consciously breaking the \"Consistent Reality Logic\" that moving in one direction and then in the opposite direction brings one back to the starting position.",
+            "The layout of \"Game Worlds\" modulate the\"Right Level of Difficulty\" of navigating and can be made more difficult by \"Movement Limitations\", \"Obstacles\",\"Inaccessible Areas\", and other possibilities for \"Leaps of Faith\", especially if they block players' views to other areas of a \"Game World\". The navigation can be made easier by the use of \"Outstanding Features\", \"Traces\", \"Clues\", and \"Game State Overview\" in the forms of maps. The division of \"Game Worlds\" into \"Levels\" makes \"Game World Navigation\" easier as smaller areas have to be navigated. \"Privileged Movement\" forms such as flying also makes the navigation easier as players can have better \"Game State Overview\" through different perspectives and may remove problems with \"Obstacles\" and \"Inaccessible Areas\"."
+        ],
+        "consequences": [
+            "\"Game World Navigation\" is an activity based upon \"Exploration\" goals in \"Game Worlds\" done when performing \"Movement\" where only reaching the \"Goal Point\" is the only point of interest. However, learning the layout of the \"Game World\" can be used if the route has to be navigated again and can thus be \"Strategic Knowledge\".",
+            "A certain amount of \"Freedom of Choice\" is necessary for \"Game World Navigation\" to be possible; that is, players must be able to choose wrong directions to move in and have the possibility to get lost for \"Game World Navigation\" to be a purposeful activity. Since \"God Views\" let players move their view of the \"Game World\" regardless of game elements it makes \"Game World Navigation\" a trivial problem.",
+            "\"Game World Navigation\" encourages \"Cognitive Immersion\" and can actually lessen \"Spatial Immersion\" as it encourages players to perceive the \"Game World\" from an abstract perspective rather than through a game element."
+        ]
+    },
     "relations": {
         "instantiates": [
             "cognitive-immersion",

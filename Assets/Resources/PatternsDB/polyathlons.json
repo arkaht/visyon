@@ -1,6 +1,22 @@
 {
     "name": "Polyathlons",
-    "description": "Polyathlons are tournaments that consist of several different types of games.",
+    "texts": {
+        "definition": "Polyathlons are tournaments that consist of several different types of games.",
+        "description": [
+            "One way to vary gameplay in a tournament is to make players play different kinds of games. As these games typically have different skill requirements, playing them makes the areas of competences required to win a Polyathlon larger than other forms of tournaments as well as making it more likely that players have different specialties. The latter allows more players to have experiences of winnings, as they can have partial victories within the tournament by winning individual games."
+        ],
+        "examples": [
+            "\"Triathlon\",\"Pentathlon\" and\"Decathlon\", where the outcome of the whole event is based on the outcome of a series of game instances of different sports; pistol shooting, fencing, swimming, riding and cross-country running in the case of \"Pentathlon\".",
+            "\"WarioWare, Inc.\" consists of many \"Mini Games\", which are played sequentially to progress in the main game."
+        ],
+        "usage": [
+            "The games in a \"Polyathlon\" can either be chosen to require particular skills within a category of expertise, or be chosen to spread the requirements between categories (such as \"Dexterity-Based Actions\", \"Memorizing\", \"Luck\", \"Negotiation\", or \"Rhythm-Based Actions\"). When the requirements are different, player can choose to develop specific \"Competence Areas\" as part of their planning.",
+            "\"Polyathlons\" do not have to be so complex that they require several different play sessions to complete. Using, for example, \"Quick Games\", as in \"WarioWare, Inc.,\" a \"Polyathlon\" can have the same time requirement as ordinary games."
+        ],
+        "consequences": [
+            "The primary use of \"Polyathlons\" is to provide \"Varied Gameplay\" for the participants. If the players can affect which games are to be played, especially if choosing one game to exclude another, the \"Polyathlon\" supports players to use \"Extra-Game Information\" knowledge about other players' skills at playing specific games."
+        ]
+    },
     "relations": {
         "instantiates": [
             "competence-areas",

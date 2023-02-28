@@ -1,6 +1,26 @@
 {
     "name": "Container",
-    "description": "Container is a game element that can store other game elements.",
+    "texts": {
+        "definition": "Container is a game element that can store other game elements.",
+        "description": [
+            "The simplest \"Container\" is a stockpile, which can only store game elements of one kind. The \"Containers\" can, however, be more complex and allow different kinds of game elements, even other \"Containers\", to be stored. The \"Container\" can either be abstract or represented as elements in the game world, such as crates containing ammunition and health packs in first-person shooters."
+        ],
+        "examples": [
+            "the amount of money the player owns in \"Monopoly\" is a simple abstract accumulator \"Container\". The same applies to a character's hit points in roleplaying games and health and supply points in some strategy games.",
+            "in \"Civilization\" the cities are \"Containers\" that can store several kinds of different game elements ranging from food to military units.",
+            "the player's inventory in most computer roleplaying games is a \"Container\" that can store different kinds of game elements, even other \"Containers\" such as backpacks and purses."
+        ],
+        "usage": [
+            "The most important things in using the \"Container\" is deciding which kinds of \"Resources\" the \"Container\" can store and what the limit of storage is, if any, of a single \"Container\". The \"Container\" can be an abstract element, such as the bank balance in \"Monopoly\" or \"Card Hands\" and \"Drawing Stacks\" in card games, or it can be associated with a specific game element, for example, \"Strategic Locations\" such as cities and factories, or concrete \"Containers\" such as bags, barrels, and treasures chests in roleplaying and adventure games.",
+            "When specifying the limits of the \"Containers\" in games where the production of \"Resources\" is continuous, especially when using \"Converters\" in \"Producer-Consumer\" chains, it has to be taken into account what happens to the \"Resources\" when the storage limit of the \"Container\" is reached. Is the player informed about the overflow and how? Are the \"Resources\" just wasted or temporarily stockpiled somewhere else? For example, if the \"Unit\" stockpile of a tank factory in a World War II strategy game is full, the factory may simply stop working.",
+            "Using the limit in cases where the player has to store \"Resources\" in the \"Container\" by a direct action is much simpler: the player is just informed that the \"Container\" is full and the store action fails. For example, if the player's inventory in a computer roleplaying game is full, the character is not able to carry more items. Other issues regarding the storage limits of the \"Container\" are: How is the player informed about the limits of the \"Container\"? Can the \"Container\" limits be upgraded? Can the \"Container\" store several kinds of elements? If so, how the limit specified, by space or mass of units or by some other measure?",
+            "Another important point is to define which of the players have access and in which way to the \"Container\", and in which way, that is, how the players can store and withdraw things from the \"Container\"."
+        ],
+        "consequences": [
+            "\"Containers\" can be used to regulate the flow of the game, especially if they appear as parts of \"Producer-Consumer\" chains with associated \"Converters\". They allow players an additional \"Freedom of Choice\" regarding how to use \"Resources\" and promote \"Stimulated Planning\" by offering additional opportunities for planning the use of \"Resources\". They provide a form of \"Limited Resources\" by limiting the amount of \"Resources\" players can store. The role of the \"Container\" in the regulation, however, is not necessarily as strong as the \"Producer\" and \"Consumer\" parts of the chain, even though in some cases the control of the \"Containers\" is the key to the efficient \"Resource Management\".",
+            "Non-player controlled \"Containers\" storing \"Resource\", such as barrels and crates in first-person shooters, can be used to achieve partial reinforcement and thus more player involvement in the game. For example, the crates sometimes have ammunition or health packs and sometimes they do not and this creates a situation that the player usually opens all the crates available."
+        ]
+    },
     "relations": {
         "instantiates": [
             "stimulated-planning",

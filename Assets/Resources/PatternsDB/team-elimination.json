@@ -1,6 +1,21 @@
 {
     "name": "Team Elimination",
-    "description": "The elimination of the whole team in team-oriented games is an end condition and the evaluation function.",
+    "texts": {
+        "definition": "The elimination of the whole team in team-oriented games is an end condition and the evaluation function.",
+        "description": [
+            "\"Team Elimination\" can be used for the whole game instance or just with respect to specific goals or modes of play within the game."
+        ],
+        "examples": [
+            "in \"Counter-Strike\" the other team loses automatically if all the players in that team are eliminated.",
+            "in \"Anarchy Online\" and other MMORPGs the team fails in achieving a mission goal if the team members are killed during the mission."
+        ],
+        "usage": [
+            "\"Team Elimination\" requires that there is at least the possibility of some kind of \"Team Play\" and also that there the possibility of either \"Player Killing\" or \"Player Elimination\". \"Team Elimination\" with \"Player Killing\" means that even though there is \"Spawning\" for the players themselves the team fails when the members are killed. This is the case for failing missions in MMORPGs when the players are killed during the mission. \"Team Elimination\" is a completed \"Collection\" of \"Eliminate\" goalsof the team members and it can be used also as \"Mutual Goals\" for different teams in the game."
+        ],
+        "consequences": [
+            "\"Team Elimination\" shares the same basic characteristics with \"Player Elimination\", including the effect on, for example, \"Tension\". \"Team Elimination\" is naturally a \"Shared Penalty\" for the team members."
+        ]
+    },
     "relations": {
         "instantiates": [
             "shared-penalties"

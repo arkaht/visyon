@@ -1,6 +1,24 @@
 {
     "name": "Empowerment",
-    "description": "Players feel that they can affect the events and the final outcome of a game.",
+    "texts": {
+        "definition": "Players feel that they can affect the events and the final outcome of a game.",
+        "description": [
+            "Games let players make choices or perform actions that can affect the outcome of the game. This possibility to have an influence over what happens is a form of power and gives players a feeling of \"Empowerment\" simply by playing games. Playing a game can thereby be seen as an agreement among all players to give each other clearly defined powers within a game session that are described by the rules of the game. However, this \"Empowerment\" is bounded by the rules of the game and the wills and actions of other players, so the level of \"Empowerment\" depends upon the specific game design of a game and upon who the other players are."
+        ],
+        "examples": [
+            "Gaining new weapons in first-person shooters or gaining access to new units in real-time strategy games empowers players either by letting them perform actions they could not perform before or by making their actions have more powerful effects.",
+            "roleplaying games allow players the highest levels of \"Empowerment\", as players and game masters can construct entire worlds, invent and play out stories within them, and change the rules to fit the participants of the game."
+        ],
+        "usage": [
+            "\"Empowerment\" can be designed in games both as being present from the start of gameplay and as something that grows as players complete goals.",
+            "\"Self-Facilitated Games\" always have a high presence of \"Empowerment\" on a meta level throughout the entire gameplay, since the enactment of rules is only enforced by the players, and the rules may be changed at the will of the players. This is also the case in games with \"Game Masters\", but here the \"Empowerment\" is more formalized and also affects gameplay directly through \"Player Decided Results\", although the players may not be aware of the changes on either of the levels. Judgeshave a similar, but more restricted, form of \"Empowerment\" as \"Game Masters\" but these powers may only lie within certain areas of the game or be available until a certain \"Time Limit\" has expired. Other ways of empowering players throughout gameplay but within the rules include \"Player Constructed Worlds\", \"Creative Control\", and voting.",
+            "Incremental \"Empowerment\" can be used to enable \"Higher-Level Closures as Gameplay Progresses\" and synchronize these with the development of \"Narrative Structures\". Common ways to incrementally give players \"Empowerment\" during gameplay are through \"Improved Abilities\" and \"New Abilities\", especially if they are \"Privileged Abilities\", or the power to choose how to use \"Producers\" or \"Converters\". \"New Abilities\" can further empower players by giving them a larger \"Freedom of Choice\", and \"Privileged Abilities\" can empower individual players by giving them \"Competence Areas\" in games with \"Team Play\". \"Red Queen Dilemmas\" can easily emerge from designs where players are competing against other players regarding \"Empowerment\", commonly based on \"Social Status\" or \"Gain Competence\" goals."
+        ],
+        "consequences": [
+            "Players that have \"Empowerment\" in gamesoften have a larger \"Freedom of Choice\" than other players and easily have \"Emotional Immersion\", as they can help develop the course of the game in the direction they choose. \"Empowerment\" is usually achieved through games providing the \"Right Level of Difficulty\" and players achieving \"Game Mastery\", but levels of it can also be provided through \"Stimulated Planning\" or even by players \"Memorizing\" the \"Strategic Knowledge\" in the game.",
+            "Unless \"Empowerment\" is provided or given equally, it may disrupt \"Player Balance\". This can partially be mitigated through \"Time Limits\", \"Role Reversals\", and ganging up. In \"Team Play\", the effects of unequal \"Player Balance\" between players in the same team may not be a problem as long as \"Team Balance\" exists, but \"Social Status\" within the game may give another form of \"Empowerment\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "competence-areas",

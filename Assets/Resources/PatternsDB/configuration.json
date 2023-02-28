@@ -1,6 +1,26 @@
 {
     "name": "Configuration",
-    "description": "Configuration is the goal of forming a spatial, temporal, or logical arrangement of game elements.",
+    "texts": {
+        "definition": "Configuration is the goal of forming a spatial, temporal, or logical arrangement of game elements.",
+        "description": [
+            "Providing goals which consist of arranging game elements according to some predefine rule are a common use of game elements in games where the game elements can be moved. These goals make players try to form a \"Configuration\" of the available game elements.",
+            "<B>Example:</B> The card game \"Illuminati\" uses \"Configuration\" for control groups, which can be spatially arranged to draw benefit of similarities in alignment and maximize the use of control arrows."
+        ],
+        "examples": [
+            "\"Zendo\", an abstract game where the winning condition is to guess a \"Gonfiguration\".",
+            "\"Poker\", where winning rounds consists of having the rarest set of a set of predetermined \"Configuration\" s."
+        ],
+        "usage": [
+            "The completion of a \"Configuration\" goal can require three different forms of challenges. The first, knowing the rules for completing the \"Configuration\" is a \"Gain Information\" goal requiring \"Imperfect Information\" about the \"Configuration\" goal. The second form of challenge can be to find the game elements required, in essence using \"Gain Ownership\", while the last is the actual task of putting the game elements in the right \"Configuration\" which may require \"Puzzle Solving\". The two first challenges may be designed so that one can perform them in parallel sequences, making them a \"Selectable Set of Goals\", while the third is impossible to complete without completing the two former.",
+            "Basically any combination using the size, color, shape, position or other defined characteristics of game elements can be used to create a \"Configuration\". However, some configurations are intuitive and will be seen even if they have no explicitly defined by game rules. Thus, even though \"Connection\", \"Alignment\" and \"Enclosure\" are, in one sense, just special cases of configuration, they are very common and intuitive forms, and as such, they are treated as patterns of their own. The use of symmetrical configurations strengthens \"Hovering Closures\" and the presence of \"Symmetry\" in the game.",
+            "The use of \"Configuration\" can be combined with \"Continuous Goals\"; when this is the case, the goal of \"Configuration\" is to use game elements to form a sort of \"Combo\" that changes values in the game state for as long as the \"Configuration\" is maintained. Examples of this can be found linking groups with the same alignments in \"Illuminati\", and defending pieces with other pieces in \"Diplomacy\".",
+            "Many games using \"Configuration\" allow several different \"Configuration\" s which overlap or require some of the same game elements. Used for example in \"Tic-Tac-Toe\" or \"Poker\", these \"Configuration\" s form \"Selectable Sets of Goals\" and require players to do \"Tradeoffs\" but can also allow \"Varied Gameplay\" and \"Unknown Goals\" in more complex games. Different \"Configurations\" may be \"Excluding Goals\", either because they need the same game element to have different values of the same characteristic or because the completion of one of the goals changes the mode of play. In the former case the goals can be solved in sequence, and if their completion creates \"Combo\" effects they may be \"Supporting Goals\" to each other. However, thy may also require players to do \"Tradeoffs\" choices to determine which goals to try and achieve first."
+        ],
+        "consequences": [
+            "\"Configurations\" are \"Collections\" of goals regarding the arrangement of individual game elements. As long as they are not \"Unknown Goals\", spatial \"Configurations\" give players explicit goals which are their own \"Progress Indicator\" and give strong \"Hovering Closures\". The feeling that one has missed out something from the \"Collection\" is a strong urge for keeping on playing. Not finishing the \"Collection\", especially when the player is given a clear \"Near Miss Indicator,\" can lead to a near-miss effect, which promotes \"Replayability\". \"Configuration\" goals that allow for several different combinations of game elements, including using different game elements, provide players with a \"Selectable Set of Goals\" as well as increase players' \"Freedom of Choice\".",
+            "Goals where the game elements move, or temporal \"Configuration\" goals, can require \"Timing\". The temporal \"Configuration\" goals can also be used to require \"Rhythm-Based Actions\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "hovering-closures",

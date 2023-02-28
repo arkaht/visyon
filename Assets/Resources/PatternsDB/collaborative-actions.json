@@ -1,6 +1,30 @@
 {
     "name": "Collaborative Actions",
-    "description": "Compound actions that require several players to simultaneously perform actions.",
+    "texts": {
+        "definition": "Compound actions that require several players to simultaneously perform actions.",
+        "description": [
+            "Some effects in games require several players to do act together for the effects to take place. These actions are called \"Collaborative Actions\" since the players are either actively collaborating or can be seen to do so even if they are not aware of it.",
+            "\"Collaborative Actions\" require that the players are able to combine and coordinate their actions either by performing actions together at a certain time or by having actions by one or more players support other players' actions. The results of this type of coordinated actions are, usually, more effective and in some cases it is even impossible to succeed with precise coordination."
+        ],
+        "examples": [
+            "one of the simplest cases of \"Collaborative Action\" is in the game of \"Tug-of-war\" where two teams compete against each other by pulling the other team over a certain point with a rope. The team has to combine and coordinate the efforts of pulling the rope.",
+            "\"Tekken Tag Tournament\" allows special combination attacks performed by two avatars during the exchange of between different active avatars.",
+            "guarding a majority of the flag points in \"Battlefield 1942\" is necessary to affect the opposing teams `tick' counter and requires several different players in different locations.",
+            "some multiplayer first-person shooters have areas which cannot be reached by individual avatar jumping but can be reached if several avatars build `human' pyramids."
+        ],
+        "usage": [
+            "When designing \"Collaborative Actions\" in games the following things have to be taken into account: how much coordination is required between the players; how the outcome of the action is based on the precision and type of the coordination; how are the possible rewards shared and in which way; how different are the actions required; and how is the coordination is made possible as in, for example, \"Player Decided Results\".",
+            "\"Collaborative Actions\" can be achieved by requiring two or more actions to be performed simultaneously or by requiring several specific game elements with \"Asymmetric Abilities\" to perform different actions. The first case can be instantiated by having several \"Incompatible Goals\" that have to be completed at the same time, for example holding several \"Goal Points\" at once. \"Transfer of Control\" which is not based on \"Conflict\" is often based on \"Collaborative Action\" of \"Negotiation\".",
+            "Examples of \"Collaborative Actions\" include \"Negotiation\", especially \"Bidding\" in the form of voting and \"Trading\", and \"Combos\" that are performed by more than one \"Avatar\" or \"Unit\". Ganging up is a form of\"Collaborative Action\" that is typically used to gain tactical advantages in \"Combat\" but can be found in any \"Competition\" situation where players may decide to act together against perceived leaders, in the latter case creating \"Balancing Effects\" through \"Collaborative Actions\".",
+            "While \"Shared Rewards\" can be used to encourage players to start \"Collaborative Actions\", the use of \"Shared Penalties\" can make the completion of the actions, which are also \"Extended Actions\", into \"Committed Goals\" and lessen the risk for \"Betrayal\", or at least creating a cost for betraying."
+        ],
+        "consequences": [
+            "All \"Collaborative Actions\" can be seen as forms of \"Combos\" performed by several players, \"Avatars\", or \"Units\" rather than one. Making \"Collaborative Actions\" possible often requires \"Negotiation\" as \"Extra-Game Actions\" which include \"Stimulated Planning\" and determining the \"Timing\" of when the actions are to be performed. This planning creates \"Social Interaction\" and is a basis for \"Cooperation\" and \"Constructive Play\", although this can be modulated by \"Competition\" between the cooperating players or the possibility of \"Betrayal\", especially when \"Delayed Reciprocity\" or \"Individual Rewards\" are used. As such, \"Collaborative Actions\" are common in \"Team Play\" are can show \"Perceivable Margins\" in players' intentions. Being able to coordinate \"Collaborative Actions\" is often a form of \"Game Mastery\".",
+            "\"Collaborative Actions\" limit \"Freedom of Choice\" of individual players since they require other players to share the intentions or they require greater use of resource compared to actions that do not require collaboration. This is especially true when the \"Collaborative Actions\" are also \"Extended Actions\", in which case the actions can be seen as a form of \"Committed Goals\".",
+            "\"Collaborative Actions\" do not have to be made by means of formalized \"Team Play\", but performing them at least creates \"Dynamic Alliances\" while the actions are being performed. They can be encouraged by \"Shared Rewards\" or \"Player-Decided Distribution of Rewards &amp; Penalties\". \"Collaborative Actions\" where the possible \"Reward\" is not a \"Shared Reward\" between the players usually gives rise to \"Delayed Reciprocity\". These kinds of \"Collaborative Actions\" also give rise to the possibility of \"Betrayal.\" \"Transfer of Control\" which is not based on \"Conflict\" is often based on the \"Collaborative Action\" of \"Negotiation\".",
+            "When players control several \"Units\", players may be able to do \"Collaborative Actions\" on their own but this requires \"Attention Swapping.\""
+        ]
+    },
     "relations": {
         "instantiates": [
             "attention-swapping",

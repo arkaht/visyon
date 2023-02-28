@@ -1,6 +1,23 @@
 {
     "name": "Stealth",
-    "description": "Stealth is the goal to move through a certain area and perform an action without being detected.",
+    "texts": {
+        "definition": "Stealth is the goal to move through a certain area and perform an action without being detected.",
+        "description": [
+            "Sometimes favorable conditions in a game can be achieved by not having one's actions noticed by other players. When this is the case, players have \"Stealth\" goals that force them to plan actions that minimize the risks of being noticed while still completing the required actions."
+        ],
+        "examples": [
+            "\"Thief: The Dark Project\" and the other games in the series exemplify a game using \"Stealth\". The player is a master thief, Garrett, who lives in a medieval fantasy world and performs his duties by relieving the rich nobles of their riches. The main goal is to collect the valuable items, while the secondary goal is to avoid being detected by the \"Guards\" while moving around the \"Level\" s.",
+            "Many children's' games are based on one person trying to find the other players while at the same time trying to \"Guard\" an area that is a safe zone for the other players. If the other players, by a combination of stealth and running, make it to the safe zone they are home free and do not have to be the player guarding the safe zone in the next game."
+        ],
+        "usage": [
+            "\"Stealth\" is a compound goal pattern using \"Conceal\" together with \"Evade\" with a secondary goal involving \"Movement\" or other actions from the player, normally \"Rescue\", \"Traverse\", \"Delivery\", \"Camping\", or \"Gain Ownership\" (including gaining \"Area Control\" simply by being undetected in a particular place). Designing the \"Stealth\" goal consists not only of choosing between the different design options of these patterns, but also determining what player actions can reveal the players and what the \"Tradeoffs\" are between the various \"Risk/Reward\" relations for each action in a given context.",
+            "Longer \"Stealth\" goals can be divided into parts that require short \"Stealth\" goals to be fulfilled in order to avoid \"Guards\" and \"Alarms\", short bursts of action to \"Overcome\" enemy \"Units\" without them activating \"Alarms\", and \"Tension\" -filled moments when the best option for the player is to perform \"No-Ops\". The complexity of \"Stealth\" goals can be increased by letting \"Guards\" have \"Reconnaissance\" goals so that players have to take their \"Movement\" into consideration."
+        ],
+        "consequences": [
+            "\"Stealth\" is the goal of trying to \"Conceal\" one's location while having to move. \"Stealth\" goals may require players to pace themselves as quick \"Movement\" may have too high risks, and sometimes any action or \"Movement\" may cause the goal to fail. \"Stealth\" can thus create \"Tension\" as players may have no \"Freedom of Choice\" except to perform \"No-Op\" actions to continue to \"Conceal\" themselves hoping not to be detected by opponents (which actually represents a form of \"Area Control\"). The slow tempo and possible pauses in completing \"Stealth\" goalsgive players a chance to make use of \"Strategic Knowledge\", for example the locations of \"Alarms\", making the game with the pattern have \"Stimulated Planning\".",
+            "Most cases of \"Stealth\" rely on opponents having \"Guard\" or \"Reconnaissance\" as \"Preventing Goals\", making \"Stealth\" and these goals\"Excluding Goals\". Giving players \"Stealth\" goals combined with \"Herd\" goals increases the chances of failure and may limit the\"Right Level of Difficulty\" of the goals."
+        ]
+    },
     "relations": {
         "instantiates": [
             "evade",

@@ -27,9 +27,10 @@ public class UIPattern : MonoBehaviour
 
 		ID = id;
 		PatternData = pattern;
-		/*print( "data: " + PatternData );
 
-		foreach ( string pattern_id in PatternData.Relations.Instantiates )
+		print( "data: " + PatternData );
+
+		/*foreach ( string pattern_id in PatternData.Relations.Instantiates )
 		{
 			print( pattern_id );
 		}*/

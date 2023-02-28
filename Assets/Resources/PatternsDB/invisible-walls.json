@@ -1,6 +1,19 @@
 {
     "name": "Invisible Walls",
-    "description": "Invisible Walls are impassible obstacles that limit the players' movement, but not vision, to areas that appear to be part of the game world.",
+    "texts": {
+        "definition": "Invisible Walls are impassible obstacles that limit the players' movement, but not vision, to areas that appear to be part of the game world.",
+        "description": [],
+        "examples": [
+            "some of the early flight simulator games used \"Invisible Walls\" to limit the area the player can enter. When encountering an \"Invisible Wall\" the plane essentially remained in the same location, even though it still seemed to fly over the terrain."
+        ],
+        "usage": [
+            "\"Invisible Walls\" can be used to create \"Inaccessible Areas\". Although \"Invisible Walls\" may break \"Immersion\" they can be preferable to having \"Deadly Traps\", such as bottomless chasms or a sea of lava, to limit the area within which the player can move.",
+            "\"Invisible Walls\" can be fitted within the \"Consistent Reality Logic\" of a game using scientific explanations (transparent plastic armor or force shields) or magic (hexes and pentagrams) depending, of course, on the nature of the game itself. Further, these explanations can be used within the game area to create puzzles requiring \"Memorizing\"."
+        ],
+        "consequences": [
+            "\"Invisible Walls\" are typically used to limit the area within which the players can move, but still allowing the illusion of a larger world. However, when the players reach and notice the \"Invisible Wall\" they can easily loose their sense of \"Immersion\" as the wall typically breaks the \"Consistent Reality Logic\" of the game."
+        ]
+    },
     "relations": {
         "instantiates": [
             "memorizing",

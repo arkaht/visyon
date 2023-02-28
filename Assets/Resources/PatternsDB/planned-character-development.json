@@ -1,6 +1,23 @@
 {
     "name": "Planned Character Development",
-    "description": "When Character Development is under players' control and can be planned.",
+    "texts": {
+        "definition": "When Character Development is under players' control and can be planned.",
+        "description": [
+            "\"Planned Character Development\" occurs in games where the game system provides ways for players to influence how characters develop and set up goals for that development."
+        ],
+        "examples": [
+            "The computer games \"Black &amp; White\" and \"Creatures\" allow players to influence creatures' behavior through positive and negative feedback to what the creatures do in the environment. By choosing their responses, and by affecting what objects and other creatures the creatures meet in the environment, players can plan the creatures' development.",
+            "Most tabletop roleplaying games allow players to make an initial choice of how their characters should develop by choosing classes and professions. If the game system allows special abilities to become available after certain prerequisites have been met, players can plan which of these to select and set personal goals for the character."
+        ],
+        "usage": [
+            "\"Planned Character Development\" is made possible by giving players a set of possible options for how their characters can develop and letting them know what goals are required for these options to be instantiated. The goals required need to be \"Predefined Goals\" so that players can be aware of them, but may have \"Dynamic Goal Characteristics\" that change as the \"Narrative Structure\" unfolds. Naturally, the goals required cannot be \"Unknown Goals\" but they are often \"Incompatible Goals\" in order to force players into making \"Tradeoffs\". The options are often combinations of \"Privileged Abilities\", \"New Abilities\", \"Improved Abilities\", and \"Skills\" that define a number of different \"Competence Areas\"."
+        ],
+        "consequences": [
+            "\"Planned Character Development\" makes \"Character Development\" into \"Player Defined Goals\", often based upon \"Gain Competence\" goals, and promotes player \"Anticipation\". It gives players \"Creative Control\" and \"Freedom of Choice\" but requires them to maintain \"Continuous Goals\", which not only require the survival of the characters but may also limit what actions the players may perform.",
+            "Deciding what future \"Character\" options to strive for encourages \"Stimulated Planning\", often as \"Extra-Game Actions\", and is part of the \"Investment\" players make undergoing \"Planned Character Development\". This \"Investment\" makes it likely that players' have \"Emotional Immersion\" in or \"Identification\" with what happens to their \"Characters\" and that the \"Rewards\" that give the \"Character Development\" are worth more for the players. In games with \"Team Play\", \"Planned Character Development\" always gives \"Team Development\" and allows for \"Team Development\" when the rest of the group is taken into consideration, e. g., when planning so that players have individual \"Competence Areas\".",
+            "Letting players affect \"Character Development\" in games without \"Game Masters\" can make the development difficult to include in a \"Narrative Structure\" except on a general level and as threshold measures. The use of \"Game Masters\" can make the \"Planned Character Development\" an integral part of the \"Narrative Structure\" and either strengthen players \"Illusion of Influence\" or allow \"Player Constructed Worlds\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "gain-competence",

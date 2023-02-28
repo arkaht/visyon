@@ -1,6 +1,26 @@
 {
     "name": "Focus Loci",
-    "description": "The game elements through which a player's actions are taken.",
+    "texts": {
+        "definition": "The game elements through which a player's actions are taken.",
+        "description": [
+            "\"Focus Loci,\" the locations of thefocus, are the game elements through which players can affect the game state. The most obvious \"Focus Loci\" are the game elements that can be moved by the player, and the actions they provide are the possibility of moving them."
+        ],
+        "examples": [
+            "Each piece in \"Chess\" acts as a \"Focus Loci\" for the players by providing a number of potential actions.",
+            "The stones used in \"Go\" are only \"Focus Loci\" when they are being placed on the board, since players cannot perform any other actions through them later.",
+            "The \"Avatar\" that a player controls in a first-person shooter is the \"Focus Loci\" they have in the game.",
+            "Various types of mouse cursors used in real-time strategy games and \"Sims\" games are \"Focus Loci\" that allow players to move between units and characters, which in their turn are also \"Focus Loci\"."
+        ],
+        "usage": [
+            "The four main options for \"Focus Loci\" are \"Avatar\", \"Units\", \"Characters\", and \"God's Fingers\". The first three can maintain a \"Consistent Reality Logic\", but the actions they provide are then restricted by the \"Alternative Reality\" of the game. They also allow points within the game for players to have \"Identification\" with. The use of \"Characters\" allows players to have \"Focus Loci\" without the need for \"Game Worlds\". The use of several \"Focus Loci\" through \"Units\" allows single players to simulate \"Team Play\" but requires \"Attention Swapping\" and \"Status Indicators\" to show where the \"Focus Loci\" are in the \"Game World\". As the swapping between \"Units\" is often done by explicit actions performed from a \"Third-Person View\", this \"Third-Person View\" can actually be seen as a form of \"Focus Loci\". \"God's Fingers\" are most often used to allow players to have \"Game State Overview\" and to let them do \"Attention Swapping\" between other \"Focus Loci\" but can be used to provide the god-like actions found in god games.",
+            "Although not as common as the three main options, \"Cards\" can, especially in collectable card games, be \"Focus Loci\" either when being played or by being in play and giving a player \"New Abilities\". \"Book-Keeping Tokens\" whose presences indicate that a player has \"New Abilities\" are another form of more unusual \"Focus Loci\". \"Dice\" are seldom \"Focus Loci\" except in pure dice games, since using them is not usually an activity affecting the game directly but rather determining how actions are to be performed.",
+            "The choice of \"Focus Loci\" and the actions they support dictate which game elements players have \"Indirect Control\" over."
+        ],
+        "consequences": [
+            "\"Focus Loci\" are game elements within \"Game Worlds\" thatprovide methods for players to affect the \"Game Worlds\". \"Focus Loci\" can affect the \"Game World\" usually by affecting themselves, other game elements, or the environment in their immediate vicinity, for example, to gain \"Area Control\" in the latter case. These \"Focus Loci\" support \"Cognitive Immersion,\" and in some cases, \"Spatial Immersion\". The \"Focus Loci\" that are not defined as part of the \"Game World\" primarily support \"Cognitive Immersion\" but can also support \"Sensory-Motoric Immersion\".",
+            "Providing multiple \"Focus Loci\" affects the \"Risk/Reward\" tradeoffs that have to be made when initiating \"Extended Actions\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "spatial-immersion",

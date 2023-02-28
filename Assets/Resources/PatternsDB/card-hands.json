@@ -1,6 +1,21 @@
 {
     "name": "Card Hands",
-    "description": "A Card Hand consists of the cards, which are owned by the player, but which have not yet been put into play.",
+    "texts": {
+        "definition": "A Card Hand consists of the cards, which are owned by the player, but which have not yet been put into play.",
+        "description": [],
+        "examples": [
+            "in \"Poker\" each of the players is dealt five cards, which define the \"Card Hand\" for each player.",
+            "\"Bohnanza\" is a card game where the order of the cards in the \"Card Hand\" is important, as the players have to play the cards in a specific sequence."
+        ],
+        "usage": [
+            "The basic design question when using \"Card Hands\" is determining the size of the hand; should all cards be distributed at the beginning of the game or should some cards be left in, for example, a \"Drawing Stack\".",
+            "Another fundamental design question regarding \"Card Hands\" is how the size and content of the hands change. Having an initial set of cards that shrinks as cards are played makes use of \"Limited Resources\" and allows the game designer to limit the length of the game. Refilling the hand continuously as cards are being played creates a \"Closed Economy\" and frees the game design to determine the game length by other means.",
+            "Although most often consisting of \"Cards,\" a \"Card Hand\" can also consist of \"Tiles\" in games that have \"Tile-Laying\"."
+        ],
+        "consequences": [
+            "\"Card Hands\" are \"Containers\" of \"Cards\" that assign players \"Ownership\" to the \"Cards.\" Typically \"Card Hands\" are secret to all other players and being able to deduce the other players' hands offers a strategic advantage (i. e. a \"Gain Information\" goal). However, the other players may know how many cards are in the \"Card Hand\" and the cards might be marked, so the players have \"Asymmetric Information\" about the \"Card Hands\" in play."
+        ]
+    },
     "relations": {
         "instantiates": [
             "gain-information",

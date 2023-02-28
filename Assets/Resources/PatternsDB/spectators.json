@@ -1,6 +1,23 @@
 {
     "name": "Spectators",
-    "description": "People, possibly former, current, or future players, who observe the actions that players do in a game without being able to affect the game themselves.",
+    "texts": {
+        "definition": "People, possibly former, current, or future players, who observe the actions that players do in a game without being able to affect the game themselves.",
+        "description": [
+            "Not all people who can observe the development of a game played are players. Those who cannot directly affect the game as a player are \"Spectators\". While these do not experience gameplay directly, they can gain an experience from watching the game and can learn or prepare to play the game."
+        ],
+        "examples": [
+            "players whose avatars are killed in \"Counterstrike\" have to wait until the next game begins before being able to play. Depending on the server, they may be able to watch as \"Spectators\" while they are waiting or can only view a scoreboard.",
+            "most tournaments have spectators to the individual games that are played. This allows people participating in the tournament but not in the individual game to follow the gameplay as well as letting other interested people follow the whole tournament."
+        ],
+        "usage": [
+            "\"Spectators\" can either be people who will not be players at all in a game session at all or be used to give players information about the game while not playing or being able to act within it. In either case, they need to be provided with \"Public Information\" in order to be considered \"Spectators\" as they otherwise have no information about the game state. Players currently in the game can temporarily become \"Spectators\" by \"Ultra-Powerful Events\" or \"Turn Taking\" and \"Spectator\" can be used to instantiate \"Downtime\" as a form of \"Penalty\". Late arriving players can be given a \"Game State Overview\" by being \"Spectators\" for a short period of time before joining the game while games which have \"Player Elimination\" and especially \"Early Elimination\" can use \"Spectators\" to allow the eliminated players to continue to follow the gameplay.",
+            "\"Spectators\" that never become players in a game instance can still affect the outcome of the game. The most common form is by encouraging or discouraging specific players or teams, but some games such as \"Who wants to be a Millionaire?\" let \"Spectators\" give players advice."
+        ],
+        "consequences": [
+            "The use of \"Spectators\" in games allows players to show their \"Game Mastery\" and from this display gain \"Social Status\". Allowing people to be \"Spectators\", as for example is common in \"Tournaments\", make it possible for these players to gain \"Strategic Knowledge\" about the game and make perform mentorshipthrough showing how to perform actions possible. The use of \"Spectators\" allows people that are not players in one game to be players in \"Meta Games\" based upon the game.",
+            "\"Spectators\" allow \"Social Interaction\" for players of games, even if the games are \"Single-Player Games\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "social-statuses",

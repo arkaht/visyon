@@ -1,6 +1,25 @@
 {
     "name": "Improved Abilities",
-    "description": "Players' chance of succeeding with an action as a function within the game is increased, or the calculated effect the action has increased in the game.",
+    "texts": {
+        "definition": "Players' chance of succeeding with an action as a function within the game is increased, or the calculated effect the action has increased in the game.",
+        "description": [
+            "Players can progress in games by having their actions effect on the \"Game World\" increase and by having greater chances of succeeding. When these chances or effects have improved, the players have received \"Improved Abilities\" and have greater chances of completing goals or otherwise influencing the game state.",
+            "\"Improved Abilities\" are not the physical or mental abilities of players; they are the effects of the game state upon the evaluation functions of actions."
+        ],
+        "examples": [
+            "Tabletop roleplaying games often describe players' skill in an area with a value, and succeeding with the skill requires players to roll below the value with a die. Improvement of these skills is done simply by increasing the associated value.",
+            "Chargers and power-ups in racing games often give vehicles a speed boost or raise the maximum speed possible without further affecting players' possible actions."
+        ],
+        "usage": [
+            "\"Improved Abilities\" most often raise players' chance to succeed with actions or make the effects of their actions more powerful. \"Improved Abilities\" are often easier to explain within a \"Consistent Reality Logic\" than \"New Abilities\", as the pattern can use increases of \"Skills\" of \"Characters\" or \"Avatars\". \"Power-Ups\" and \"Chargers\" are common game elements used to provide temporary \"Improved Abilities\" with \"Time Limits\", while \"Tools\" give improvements as long as they are carried. Another way to give players \"Improved Abilities\" is to make their actions require fewer \"Resources\", thereby letting players make more efficient use of \"Limited Resources\".",
+            "As a \"Balancing Effect\", \"Diminishing Returns\" can be used to avoid letting players with powerful abilities more easily get \"Improved Abilities\" than other players. In the same way, \"New Abilities\" can be balanced by \"Ability Losses\" in other \"Competence Areas\"; game design can have \"Balancing Effects\" by linking \"Decreased Abilities\" in some areas to \"Improved Abilities\" in others."
+        ],
+        "consequences": [
+            "\"Improved Abilities\" are \"Rewards\" that give players \"Empowerment\" and promote \"Competence Areas\". The improvement is typically a consequence of \"Gain Competence\" goals or the acquisition of \"Tools\" as part of \"Gain Ownership\" goals. Gaining \"Improved Abilities\" creates \"Supporting Goals\", as they empower players to influence the game state and thereby can raise players' \"Perceived Chance to Succeed\" as well as create \"Illusion of Influences\".",
+            "Like \"New Abilities\", the improvement of abilities is a form of \"Character Development\" and when players' are given a \"Freedom of Choice\" to affect what abilities are improved, it gives rise to \"Planned Character Development\". In games with \"Team Play\", this provides \"Team Development\", with the additional effect of \"Orthogonal Unit Differentiation\". \"Improved Abilities\" can also, like \"New Abilities\", give rise to \"Red Queen Dilemmas\" when competing players can have \"Improved Abilities\" several times during gameplay.",
+            "The difference between \"New Abilities\" and \"Improved Abilities\" is often one of scale or perspective: are the abilities activated in the same fashion as before, do they affect the same parts of the game state, and are does the \"Alternative Reality\" explain them as being different or the same?"
+        ]
+    },
     "relations": {
         "instantiates": [
             "gain-competence",

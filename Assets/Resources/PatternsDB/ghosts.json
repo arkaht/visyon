@@ -1,6 +1,19 @@
 {
     "name": "Ghosts",
-    "description": "Ghosts are the overlay of elements and actions from previous game sessions in a current game session so that players can compare their current progress with that of the previous attempts.",
+    "texts": {
+        "definition": "Ghosts are the overlay of elements and actions from previous game sessions in a current game session so that players can compare their current progress with that of the previous attempts.",
+        "description": [],
+        "examples": [
+            "racing games such as \"Gran Turismo 3\" make use of \"Ghosts\" to let players compare their current play session with earlier ones, or to practice against the optimal path."
+        ],
+        "usage": [
+            "\"Ghosts\" are mainly used in \"Races\" or other games where the player has a limited overview of the whole game world and where there is little outside influence on players' performance.",
+            "The main design choice affecting player influence on the game's use of \"Ghosts\" is whether players should be allowed to select which game sessions are saved and used as \"Ghosts\" or if this is determined by the game mechanically, i. e. by \"Score\". Further, the use of \"Ghosts\" can be chosen to only be possible within the same save file, i. e. defining a closed game world, or be shared to other save files as \"Trans-Game Information\"."
+        ],
+        "consequences": [
+            "\"Ghosts\" can be seen as a form of \"Highscore List\" that contains the whole game sessions instead of only the \"Score\". As such, \"Ghosts\" can be used to make a \"Single-Player Game\" into a form of mixture between an \"Asynchronous Game\" and \"Multiplayer Games\" where the whole play sessions are played before comparing results. \"Ghosts\" naturally create \"Competition\" even though the players are not playing at the same time."
+        ]
+    },
     "relations": {
         "instantiates": [
             "competition",

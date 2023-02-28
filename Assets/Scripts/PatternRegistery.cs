@@ -7,6 +7,20 @@ using UnityEngine;
 
 using SimpleJSON;
 
+public struct PatternTexts
+{
+	public string Definition;
+	public string[] Description;
+	public string[] Examples;
+	public string[] Usage;
+	public string[] Consequences;
+
+	public override string ToString()
+	{
+		return $"{GetType().Name}[Definition={Definition}; Description({Description.Length}); Examples({Examples.Length}); Usage({Usage.Length}); Consequences({Consequences.Length})]";
+	}
+}
+
 public struct PatternRelationData
 {
 	public string[] Instantiates;
@@ -26,12 +40,12 @@ public struct PatternData
 	public bool IsNull => Name == null;
 
 	public string Name;
-	public string Description;
+	public PatternTexts Texts;
 	public PatternRelationData Relations;
 
 	public override string ToString()
 	{
-		return $"{GetType().Name}[Name={Name}; Description={Description}; Relations={Relations}]";
+		return $"{GetType().Name}[Name={Name}; Description={Texts}; Relations={Relations}]";
 	}
 }
 
@@ -108,8 +122,20 @@ public static class PatternRegistery
 		return new PatternData
 		{
 			Name		= data["name"].Value,
-			Description	= data["description"].Value,
+			Texts		= LoadTextsFromJSONNode( data["texts"] ),
 			Relations	= LoadRelationsFromJSONNode( data["relations"] ),
+		};
+	}
+
+	public static PatternTexts LoadTextsFromJSONNode( JSONNode data )
+	{
+		return new PatternTexts
+		{
+			Definition		= data["definition"].Value,
+			Description		= data["description"].AsArray.ToStringArray(),
+			Examples		= data["examples"].AsArray.ToStringArray(),
+			Usage			= data["usage"].AsArray.ToStringArray(),
+			Consequences	= data["consequences"].AsArray.ToStringArray(),
 		};
 	}
 

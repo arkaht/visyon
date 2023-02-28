@@ -1,6 +1,25 @@
 {
     "name": "Delayed Effects",
-    "description": "The effects of actions and events in games do not occur directly after the actions or events have started.",
+    "texts": {
+        "definition": "The effects of actions and events in games do not occur directly after the actions or events have started.",
+        "description": [
+            "\"Delayed Effects\" are those effects of actions and events that are explicitly dictated by the rules in the game; effects that are the results of combined actions or are unexpected or unplanned do not qualify as \"Delayed Effects\", even if the effects take place after some actions or events have taken place."
+        ],
+        "examples": [
+            "The effect of placing bets in \"Poker\" does not become apparent until a player folds or players show their card hands.",
+            "The activation of the most powerful weapons in first-person shooters usually takes some time from activation to the time it fires, usually to balance them somewhat against the other weapons in the game."
+        ],
+        "usage": [
+            "The primary design choices for \"Delayed Effects\" are if players should be aware of when the effects will occur and how the period of delay is determined. Showing when the effects will take place is usually done through \"Progress Indicators\" and allows players to perform actions requiring \"Timing\". Not providing information about when \"Delayed Effects\" are about to occur increases the sense of \"Randomness\" in a game, even if the period of delay is not random. \"Delayed Effects\" that are unknown to players lessen the functionality of savingas they may make it difficult to know when to save to be able to avoid \"Irreversible Actions\".",
+            "Fixed periods of delay give players the chance to use \"Memorizing\" to have a form of \"Strategic Knowledge\". If the periods of delay are random, or if players do not have knowledge of the periods of delay, this can turn the use of other actions into \"Risk/Reward\" choices, if their success depends on the \"Delayed Effects\".",
+            "Making some actions have \"Delayed Effects\" is a way of creating \"Balancing Effects\" between different actions when the more powerful actions take a longer time to perform."
+        ],
+        "consequences": [
+            "\"Delayed Effects\" impose a \"Time Limit\" on actions so that players must wait until the effects occur and can therefore affect \"Tradeoffs\" between different effects. When the \"Delayed Effects\" of an action are known, it gives \"Predictable Consequences\" to the game, which provides \"Stimulated Planning\". When combined with the absence of \"Predictable Consequences\", it instead provides players the possibility to start feeling \"Luck\" before the outcome is shown, regardless of if they feel \"Luck\" after the outcome is presented. This is used often in \"Quick Games\" with single actions to heighten the \"Anticipation\".",
+            "The wait for the effects to take place is a form of \"Hovering Closures\" once the events or actions that cause the \"Delayed Effects\" have been done, and waiting for them can create \"Anticipation\" or \"Tension\", especially when combined with \"Uncertainty of Information\". When the \"Delayed Effects\" are also the cause of \"Extended Actions\", it allows players to detect and try to stop them if they are \"Interruptible Actions\".",
+            "Examples of \"Delayed Effects\" are \"Delayed Reciprocity\", \"Betting\", \"Ultra-Powerful Events\", and \"Investments\". The two first are caused by other players and can cause friction between them and those experiencing the \"Delayed Effects\", while the last two are determined by the game system and can have more \"Predictable Consequences\". \"Delayed Effects\" cause increased \"Tension\" in the two first cases when they can result in \"Betrayals\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "time-limits",

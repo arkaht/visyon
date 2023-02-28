@@ -1,6 +1,24 @@
 {
     "name": "Resource Generators",
-    "description": "Resource Generators are specific places or game elements producing resources, in effect tying the production of resources in the game to a particular place in the game world.",
+    "texts": {
+        "definition": "Resource Generators are specific places or game elements producing resources, in effect tying the production of resources in the game to a particular place in the game world.",
+        "description": [
+            "Games that have resources appear during gameplay usually have specific areas where these resources appear or specific game elements that produce the resources. Both the areas and the producing game elements are \"Resource Generators\"."
+        ],
+        "examples": [
+            "The place where the bonus items appear in \"Pac-Man.\"",
+            "\"WarCraft,\" as well asmany other real-time strategy games, have specific locations, such as cities, which generate resources for the player controlling the location."
+        ],
+        "usage": [
+            "The \"Resource Generator\" is an instantiating pattern of the \"Producer\" pattern and as such the concerns which have to be taken into account when instantiating a \"Producer\" are valid also for the \"Resource Generator\". Many variables need to be decided on when creating a \"Resource Generator\": What resources are produced? If several are produced, what is the distribution and is it under the player's control? When are the resources produced, and are there any indications when this will occur and can the player modify the production? Are the produced resources \"Pick-Ups\"? Is the \"Resource Generator\" a physical object, and is it moveable or destroyable? If it is not a physical object, is it an \"Outstanding Feature\" in the environment so that it can be observed? Is the resource a \"Limited Resource\", i. e. is a limited amount produced during the game or are the resources available at the start of the game the only resources in the game? Does the generator need other \"Resources\" to produce? Is the generator a \"Charger\" that produces \"Resources\" that are not represented in the game world and only produces them when a player is activating the generator?",
+            "\"Resource Generators\" do not have to generate passive game elements. Many games make use of \"Spawn Points\" to create \"Units\", which can be seen as \"Resources\" to the players. Another example is generators that generate \"Enemies\". The players can often destroy these generators in order to prevent them from swarming the game area continuously with \"Enemies\".",
+            "A \"Converter\" is an example of \"Resource Generators\" that need other resources to produce their resource and which can be used to set up complex chains of refinement. A \"Mule\" is a special form of \"Converter\" set up by the player by dedicating a character to perform monotonous actions."
+        ],
+        "consequences": [
+            "\"Resource Generators\" are ways to provide \"Renewable Resources\" in \"Game Worlds\". \"Resource Generators\" can become \"Strategic Locations\" in \"Levels\" depending on the importance of the resource being generated. They are typically the objectives for \"Gain Ownership\", \"Exploration,\" or \"Eliminate\" goals. \"Resource Generators\" are variants of \"Controllers\" when they are physical game elements. If they are not physical game elements, or \"Outstanding Features\" in the game environment, knowledge of their location can become more valuable \"Strategic Knowledge\" than other \"Strategic Locations\", and the production generated from them create \"Surprises\" to the players.",
+            "The production from a \"Resource Generator\" typically spawns \"Ephemeral Goals\" as soon as they appear or make a goal have a \"Dynamic Goal Characteristics\". \"Trading\" is a natural option for actions in games where different players are access to different \"Resource Generators\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "exploration",

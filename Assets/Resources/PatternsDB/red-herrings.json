@@ -1,6 +1,23 @@
 {
     "name": "Red Herrings",
-    "description": "Information or potential goals that are designed to either mislead or distract the player",
+    "texts": {
+        "definition": "Information or potential goals that are designed to either mislead or distract the player",
+        "description": [
+            "\"Red Herrings\" can be deliberately designed into the game to provide alternative gameplay paths as distractions to the players. Some games, especially strategy games, also give players themselves the possibility to create \"Red Herrings\" as decoys in order to distract or deceive other players. In these cases \"Red Herrings\" are used as parts of players' tactics and strategies."
+        ],
+        "examples": [
+            "the player in \"Medieval: Total War\" can set up some of the units as decoys in order to lure other players' units into positions where they are vulnerable to surprise attacks. One common tactic is to hide the archers and cavalry on hills covered by trees and use peasant units to lure the opposing cavalry to charge into a position where archers can volley them down while the player's own cavalry charges downhill to outflank the enemy units.",
+            "adventure and roleplaying, especially those with mystery elements, use \"Red Herrings\" to give players false clues to make progress more difficult and at the same time more interesting.",
+            "random wandering monsters in many roleplaying games can distract and in some cases also mislead players."
+        ],
+        "usage": [
+            "Games with \"Narrative Structures\" often use \"Red Herrings\" to raise the uncertainty of the progression of the narrative and also to create \"Surprises\". \"Clues\", \"Traces\", and especially \"Helpers\" can be used as \"Red Herrings\" in a game to mislead players. The use of \"Helpers\" is one way to provide misleading \"Indirect Information\" to players. The other way, naturally, is to let the other players provide \"Red Herrings\" in the game. These can be in the form of decoys to help \"Conceal\" goals, but can also be \"Indirect Information\" provided during \"Social Interaction\". For \"Red Herrings\" to work properly almost always require \"Imperfect Information\" or \"Fog of War\". It is possible, however, to use decoys as \"Red Herrings\" in games of total \"Perfect Information\" to give false impressions to other players about a player's true intentions in the game. The same applies to the use of \"Direct Information\": perhaps the only possible way to use it with \"Red Herrings\" is to have decoys."
+        ],
+        "consequences": [
+            "The use of \"Red Herrings\" gives the players more potential outcomes and more things to consider while playing the game. This modulation of \"Anticipation\" can lead to increased \"Tension\" as players are more uncertain about the possible outcomes and, in some cases, can be used to promote \"Varied Gameplay\" even at the cost of \"Disruption of Focused Attention\". Careless use of \"Red Herrings\", however, can cause problems with the \"Right Level of Complexity\" and might lead to player frustration and to the feeling of loss of control. \"Red Herrings\" in some cases can also be used to provide \"Right Level of Complexity\" if the gameplay would otherwise be too straightforward.",
+            "\"Red Herrings\" are potentially conflicting with \"Supporting Goals\" in the sense that what to players may seem to be a \"Supporting Goal\" can turn out to be a \"Red Herring\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "indirect-information",

@@ -1,6 +1,21 @@
 {
     "name": "Book-Keeping Tokens",
-    "description": "Game elements that do not represent concrete objects in the game world but instead holds specific parts of the game state.",
+    "texts": {
+        "definition": "Game elements that do not represent concrete objects in the game world but instead holds specific parts of the game state.",
+        "description": [
+            "Game states that at least partially represent abstract values require that games have some way to store the information. This can be done by using computers or humans that have to remember the information, but when computers are not available many games have \"Book-Keeping Tokens\" to let players focus on the gameplay rather than the manipulating objects to keep track of the game state."
+        ],
+        "examples": [
+            "\"Puerto Rico\" has the role of governor that is passed among players. To help players keep track of their roles a small governor card is past to the player who currently is the governor."
+        ],
+        "usage": [
+            "\"Book-Keeping Tokens\" allow more complex game states in \"Self-Facilitated Games\" without having to do \"Memorizing\". However, they require players to do \"Extra-Game Actions\" that resemble \"Resource Management\" but without any \"Freedom of Choice\". As this requires \"Attention Swapping\" from the actual gameplay, \"Book-Keeping Tokens\" can negatively affect all kinds of \"Immersion\", except \"Cognitive Immersion\".",
+            "\"Book-Keeping Tokens\" can be the \"Focus Loci\" of actions not associated with game elements in \"Game Worlds\"."
+        ],
+        "consequences": [
+            "The values of the game state dictate most of the design requirements of \"Book-Keeping Tokens\". However, game designers have options if the \"Book-Keeping Tokens\" should be used to provide the players with \"Imperfect Information\", typically by \"Cards\", or if they should be \"Public Information\" and give players a \"Game State Overview\". The latter can support \"Cognitive Immersion\" as it gives \"Stimulated Planning\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "attention-swapping",

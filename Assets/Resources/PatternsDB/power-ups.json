@@ -1,6 +1,21 @@
 {
     "name": "Power-Ups",
-    "description": "Power-Ups are game elements that give time-limited advantages to the player that picks them up.",
+    "texts": {
+        "definition": "Power-Ups are game elements that give time-limited advantages to the player that picks them up.",
+        "description": [],
+        "examples": [
+            "The power pill in \"Pac-Man\" allows Pac-Man to hunt ghosts for a limited amount of time.",
+            " Quad damage \"Power-Up\" in \"Quake\" quadruples the damage caused by the player's weapons for a limited amount of time."
+        ],
+        "usage": [
+            "The possibilities regarding where the \"Producers\" of the \"Power-Ups\" are and when \"Power-Ups\" appear are similar to those of \"Pick-Ups\". The main differences are that \"Power-Ups\" often give the player \"New Abilities\" or \"Privileged Abilities\", and one has to determine how long the effect of the \"Power-Up\" lasts and if players can \"Trading\" them. However, \"Power-Ups\" can also provide \"Improved Abilities\" such as temporarily raising \"Skills\".",
+            "Since the \"Power-Up\" typically gives the player an advantage without a matching disadvantage, the use of \"Power-Ups\" may cause problems with \"Player Balance\" more easily than using plain \"Pick-Ups\"."
+        ],
+        "consequences": [
+            "\"Power-Ups\" share many of the consequences of \"Pick-Ups\" but typically have a more transient effect. Since the effect has a \"Time Limit\", picking up a \"Power-Up\" can actually increase \"Tension\" if the usefulness of the \"Power-Up\" depends on the success of other goals, for example, using the quad damage \"Power-Up\" properly in \"Quake\" games efficiently depends on locating and hitting enemies first. \"Power-Ups\" can be used as target objects for \"Gain Competence\" goals.",
+            "\"Power-Ups\" give players \"Ephemeral Goals\" of \"Collecting\" when they appear; knowing their location and when they are produced allows players to locate \"Strategic Locations\" and have \"Strategic Knowledge\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "gain-competence",

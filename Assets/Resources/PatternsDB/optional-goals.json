@@ -1,6 +1,28 @@
 {
     "name": "Optional Goals",
-    "description": "There are goals the player does not necessarily have to reach during the game",
+    "texts": {
+        "definition": "There are goals the player does not necessarily have to reach during the game",
+        "description": [
+            "Reaching the \"Optional Goals\" does not advance the player's progress towards the primary goals of the game. However, solving an \"Optional Goal\" might help the player indirectly by making other goals easier to solve, either by changed values in the game state or through providing the player with the opportunity to train skills."
+        ],
+        "examples": [
+            "Collecting extra heart pieces in Zelda are \"Optional Goals\" that help the player.",
+            "In one of the games in the \"Ultima\" series, one can bake bread, but this is of no use to the player in the game.",
+            "The secret areas in \"Castle Wolfenstein\" offer several types of \"Rewards\" to players but are not required to complete the game. After accidentally finding one, or being informed by other players, the player does not know where these areas are but does know that they exist and can choose to spend time looking for them.",
+            "The games in the \"Final Fantasy\" series provide many quests that give experience points and objects when they are fulfilled but they are not necessary to solve to complete the game.",
+            "The game \"Day of the Tentacle\" contains the whole predecessor, \"Maniac Mansion\", as part of a game console that is within the game. The whole inner game could be finished without providing any advantage to the outer game."
+        ],
+        "usage": [
+            "When considering a potential optional goal, one has to analyze if the goal is actually optional or a prerequisite for another goal. Further, should the goals be openly indicated to the players or something that the players have to find? Goals that appear to be required but in effect are optional can serve as a form of \"Red Herrings\" in a game.",
+            "One way to provide \"Optional Goals\" in games is to include \"Easter Eggs\" or \"Games within Games\", which either provides advantages in the main game depending on how they are completed or simply provides possibilities for additional entertainment.",
+            "Another way of providing \"Optional Goals\" is to support \"Player Defined Goals\" that are not enforced by the game. These goals are by definition optional but as they are defined and chosen by players, they may be more rewarding than the goals coded into the game.",
+            "A goal cannot simultaneously be an \"Optional Goal\" and a \"Committed Goal\"."
+        ],
+        "consequences": [
+            "\"Optional Goals\" offer the player an increased \"Freedom of Choice\" about what to do in the game and can also increase the \"Replayability\" as there may be many unfinished goals even after the game has been finished the first time. This can also provide a \"Meta Game\", as one can compare the number of \"Optional Goals\" the players have completed. Further, most \"Optional Goals\" can be seen as \"Supporting Goals\" as many \"Rewards\" increase the overall likelihood of succeeding with other goals. For example, \"Trading\" gold for more powerful weapons in roleplaying games helps the players reach their further goals. However, \"Optional Goals\" can also work as \"Red Herrings\", distracting the players from the main goal of a game without helping the overall state of the player.",
+            "\"Optional Goals\" are often part of \"Selectable Sets of Goals\" in a \"Hierarchy of Goals\" to offer players a selection of goals even though they may not have to complete more than one of them. If the \"Optional Goals\" are not known to players before gameplay begins, they are \"Ephemeral Goals\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "hierarchy-of-goals",

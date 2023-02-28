@@ -1,6 +1,24 @@
 {
     "name": "Reconnaissance",
-    "description": "Patrolling a known area in the game world to detect changes.",
+    "texts": {
+        "definition": "Patrolling a known area in the game world to detect changes.",
+        "description": [
+            "The goal in \"Reconnaissance\" is to get more information about changes happening, or having happened, in a specific place or area. This forces the players to collect information of the whereabouts of the enemy by moving units in the area. Often the game provides special units for this purpose with fast movement and possibility to notices enemy units as longer distances."
+        ],
+        "examples": [
+            "Typical examples of the pattern can be found in strategy games where the units have information only about the other units near them. For instance, \"Sid Meier's Civilization\" require player to continue moving their units within already explored areas since the movement of enemy units are not detected unless they are near a unit or a city.",
+            "In the board game \"Space Hulk\", the player playing space marines can detect the presences and location of the enemy genestealers in the spaceship but not there exact number, which may make \"Reconnaissance\" missions necessary to find where enemy buildups are taking place."
+        ],
+        "usage": [
+            "The possible reasons for \"Reconnaissance\" goals are many: locating \"Enemies\" that move and are not on \"Game State Overviews\"; finding \"Renewable Resources\" that would otherwise be \"Secret Resources\" due to bad or non-existent \"Game State Overviews\", maintaining \"Area Control\" over areas that are too large to completely watch from one positions; or to do \"Attention Swapping\" between different areas of gameplay.",
+            "Designing \"Reconnaissance\" goals consists of defining the area that has to be searched, how heavy the \"Fog of War\" is, what if any game elements can be detected, and the means a player has to observe them. To make the goal have the \"Right\" \"Level of Difficulty\", the game space that is to be search is usually not too large and many times a specific route is specified, i. e. making use of the \"Traverse\" pattern. What game elements can be detected can either be predetermined or be under the control of other players. The \"Right Level of Difficulty\" can be modulated by making use of \"Progress Indicators\" thatreveal the percentage of detected game elements or by having \"Game State Overviews\" such as maps providing \"Imperfect Information\". The creation of \"Strategic Locations\" that provide good opportunities for observation can achieve similar results.",
+            "Players have to notice presences in the game area, similarly to\"Guard\", but to notice any previous presence can make use of the\"Memorizing\" pattern. In the latter case, this can be supported by having many moveable game elements in the game space that may have been moved, by making uses of \"Traces\", or by letting players set \"Deadly Traps\" or \"Alarms\".",
+            "Similar to \"Guard\", \"Reconnaissance\" is a goal that may never be completed if there are no enemy game elements to detect."
+        ],
+        "consequences": [
+            "\"Reconnaissance\" is a special case of \"Gain Information\" relying on the \"Uncertainty of Information\" of the location or existence of \"Enemies\", and has \"Stealth\" as its \"Preventing Goal\". \"Reconnaissance\" requires players to regularly move game elements in order to find \"Enemies\" or the \"Traces\" of their presence; this can be seen as a combination of the \"Guard\" and \"Gain Information\" goals. \"Reconnaissance\" is also a \"Continuous Goal\" as it should be performed as long as there is a reasonable risk that enemy units have not be detected in a given area. \"Reconnaissance\" goals of \"Enemies\" that are performed through static patterns can require players to perform \"Rhythm-Based Actions\" to avoid detection."
+        ]
+    },
     "relations": {
         "instantiates": [
             "continuous-goals",

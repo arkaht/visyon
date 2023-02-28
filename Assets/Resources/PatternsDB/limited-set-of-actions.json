@@ -1,6 +1,27 @@
 {
     "name": "Limited Set of Actions",
-    "description": "Players can only have a few actions to choose from.",
+    "texts": {
+        "definition": "Players can only have a few actions to choose from.",
+        "description": [
+            "The actions that players can perform in a game are usually restricted, either because the focus of the game is centered on a limited topic or to make the game easy to play (although not necessarily to master)."
+        ],
+        "examples": [
+            "Bidding in \"Poker\" only lets players choose from folding, matching, or raising a bet.",
+            "\"Russian Roulette\" has only one possible action for a player, to pull the trigger.",
+            "Players in real-time strategy games typically have very \"Limited Sets of Actions\" for each \"Unit\", and if the number of \"Units\" decreases, they have few actions overall to choose from."
+        ],
+        "usage": [
+            "Limiting the possible actions available to players can be done either on an overall level or on a \"Focus Loci\" level. When done on a \"Focus Loci\" level by having limited amount of actions available to \"Avatars\" or \"Units\", the player may have many actions available in total but only have a few available at a time, which can create different play modes. Connecting actions to \"Units\" make it easy to further restrict the \"Limited Set of Actions\" as a \"Penalty\" for losing the \"Unit\", not only because the total number of possible actions shrinks but potentially because the loss of \"Privileged Abilities\" of the \"Unit\" leads to \"Ability Losses\" for the player. An example of this can be seen in \"Chess\", where the loss of each piece reduces the total amount of actions players can choose from but may also cause the loss of specific types of actions such as diagonal moves or the knight's move.",
+            "Although \"Limited Set of Actions\" promotes \"Stimulated Planning\", this can be restricted in different ways. If the actions do not have \"Predictable Consequences\", this promotes \"Limited Planning Ability\". If the actions do have \"Predictable Consequences\" but few \"Closure Points\", this may also cause \"Limited Planning Ability\" due to the size of possible game states but can maintain the risk of \"Analysis Paralysis\" as players try to overview all possible game states.",
+            "\"Limited Set of Actions\" can be used to restrict the possible game states so that \"Narrative Structures\" can be maintained and \"Higher-Level Closures as Gameplay Progresses\" are guaranteed, although this often clearly limits players' \"Freedom of Choice\"."
+        ],
+        "consequences": [
+            "Not having many choices can negatively affect \"Freedom of Choice\" at any given time in the game. However, this may only be on a local level as if the game has few \"Closure Points\", such as in \"Chess\" or death matches in first-person shooters, the \"Freedom of Choice\" to what long term goals or where to move are considerably freer.",
+            "\"Limited Set of Actions\" typically promotes \"Stimulated Planning\" as the possible series of future actions is bounded, but this can in turn cause \"Analysis Paralysis\". If the possible actions are very limited and the outcome is associated with high \"Penalties\" or \"Investments\", the choice of action can cause anxiety and thereby heighten the \"Tension\".",
+            "Games where the \"Limited Set of Actions\" can be expanded by gaining \"New Abilities\" offer \"Gain Competence\" goals, which can among other things enhance players' \"Freedom of Choice\", make previously \"Inaccessible Areas\" accessible through \"Privileged Movement\", or progress the \"Narrative Structure\" as they indicate a form of \"Character Development\". Conversely, reduction to an already \"Limited Set of Actions\" during gameplay is nearly always a \"Penalty\".",
+            "Games using a \"Game Master\" let game designers have little influence on when players have \"Limited Sets of Actions\" to choose from, as the \"Game Master\" can in most cases decide what actions are possible on the spur of the moment. However, \"Game Masters\" and other \"Dedicated Game Facilitators\" make it unnecessary for players \"Memorizing\" all rules and effects of a game."
+        ]
+    },
     "relations": {
         "instantiates": [
             "stimulated-planning",

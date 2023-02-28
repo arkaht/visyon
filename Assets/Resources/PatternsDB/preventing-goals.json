@@ -1,6 +1,25 @@
 {
     "name": "Preventing Goals",
-    "description": "Goals where the objective is to prevent a completion of another goal.",
+    "texts": {
+        "definition": "Goals where the objective is to prevent a completion of another goal.",
+        "description": [
+            "Some goals are defined as the aim of preventing another goal to be completed. This can be done by actively working against the other goal or by simply ensuring that the goal is not being pursued."
+        ],
+        "examples": [
+            "The goal of the goalkeeper in \"Soccer\" is to prevent the opposing team's players from score goals.",
+            "The goal in \"Backgammon\" is to move each individual piece to the inner table and one can prevent the other player from achieving this in two ways: by hitting the opponent's piece when moving one's own pieces or by blocking the piece by placing two or more pieces on area of the game board. The first case directly affects the opponent's piece as it interferes with the game state (the position of the piece) defining the opponent's goal. The second case indirectly prevents the goal as it does not affect the piece but may block future moves of the piece."
+        ],
+        "usage": [
+            "\"Preventing Goals\" are closely linked to \"Interferable Goals\" (and thereby \"Conflict\") as \"Preventing Goals\" can be easily constructed by explicitly rewarding the interference of an \"Interferable Goal\". However, \"Preventing Goals\" do not have to require that players actively change the game state, as hindering the change of the game state, rather than changing it, may be enough to complete the goal. Thus, \"Preventing Goals\" can be completed by simply doing \"No-Op\" actions if no other player is trying to achieve the goal, which may be the result of successful \"Negotiation\".",
+            "The creation of a \"Preventing Goal\" is easily done by choosing a low-level goal that has to be prevented: \"Construction\" gives \"Elimination\", \"Elimination\" gives \"Survive\", \"Capture\" gives \"Evade\", \"Gain Ownership\" gives \"Guard\", \"Guard\" gives \"Rescue\", \"Gain Information\" gives \"Conceal\", \"Traverse\" gives \"Herd\", and so on. The players can always create these, but the game designer can encourage them by encoding \"Preventing Goals\" with explicit \"Rewards\".",
+            "The possibility of one player completing a \"Preventing Goal\" is closely linked to another player's possibility of completing the goal that is to be prevented. As long as there is a theoretical possibility for the other goal to be completed, the \"Preventing Goal\" is not fulfilled. This means that unless the player has sufficient information (through \"Perfect Information\" or \"Game State Overview\") to determine if the underlying goal is achievable, the state of the \"Preventing Goal\" is unknown. This can be implemented by having the system indicate when the preventing goal is fulfilled or imposing a \"Time Limit\" on the prevention of the underlying goal."
+        ],
+        "consequences": [
+            "The player or \"Agent\" that has a \"Preventing Goal\" is automatically an \"Enemy\" in a \"Conflict\" with the player who has the goal that is to be prevented. \"Preventing Goals\" are by their nature \"Asymmetric Goals\", \"Excluding Goals\", and \"Incompatible Goals\" to the goals that are to be prevented. As \"Preventing Goals\" are defined as goals of avoiding specific conditions within game states to occur, which can also be described as maintaining the game state in the inverse of the condition, \"Preventing Goals\" are \"Continuous Goals\". Games with \"Symmetric Goals\" as main goals, such as \"Chess\" and \"Go\", usually have a set of \"Preventing Goals\" to the main goal to require players to make \"Tradeoffs\" between being offensive or defensive.",
+            "Naturally, a \"Preventing Goal\" makes the goal that it is based upon more difficult to complete, affecting the \"Right Level of Difficulty\" of that goal as well as giving the players with that goal \"Limited Planning Ability\".",
+            "Players may always choose to prevent other players' goals without explicitly stated \"Preventing Goals\" with in-game \"Rewards\". This means that \"Preventing Goals\" can always emerge during gameplay as \"Player Defined Goals\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "continuous-goals",

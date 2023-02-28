@@ -1,6 +1,24 @@
 {
     "name": "Hovering Closures",
-    "description": "Events that are about to occur and can clearly be observed by players.",
+    "texts": {
+        "definition": "Events that are about to occur and can clearly be observed by players.",
+        "description": [
+            "Many events that may but have not yet occurred in games can be foreseen by players and give them experiences of \"Hovering Closures\". These closures may be used by the players to plan their actions: players may intentionally try to increase the chances of \"Hovering Closures\" that are perceived as positive or simply allowed to occur, while closures with negative consequences may be acted against.",
+            "<B>Example:</B> Leaving an opening for specific blocks in \"Tetris\" usually create strong \"Hovering Closures.\""
+        ],
+        "examples": [
+            "Auctions in games are examples of \"Hovering Closures\" where one outcome is clearly perceived by the players, but this outcome can be changed by additional bids.",
+            "Races nearing the finishing lines give strong \"Hovering Closures\" as the outcome is often predictable but still requires players to continue moving."
+        ],
+        "usage": [
+            "Designed \"Hovering Closures\" can either be \"Ultra-Powerful Events\" or \"Interruptible Actions\" depending on whether players are supposed to have \"Illusion of Influence\" and a \"Perceived Chance to Succeed\". The most common ways to create \"Hovering Closures\" are \"Delayed Reciprocity\", various goals based upon \"Symmetry\" or \"Configuration\", or \"Extended Actions\" with \"Time Limits\". \"Progress Indicators\" are explicit \"Hovering Closures\", which are part of the game design.",
+            "\"Hovering Closures\" can either be created through the \"Narrative Structure\" or through the game state. When part of the \"Narrative Structure\", the \"Hovering Closure\" is usually not affected by players but can give \"Anticipation\", for example nearing the end of a \"Level\". Regarding game state, \"Hovering Closures\" can either be due to players observing \"Predictable Consequences\" from \"The Show Must Go On\" such as \"Alignment\" or due to players soon completing actions. These actions can either be those that fulfill \"Continuous Goals\" or planned actions that cannot have been done earlier due to \"Turn Taking\"."
+        ],
+        "consequences": [
+            "\"Hovering Closures\" are caused by \"Extended Actions\" and events with \"Delayed Effects\" that have \"Predictable Consequence\" s. The consequences do not have to be certain, but at least one outcome must be clearly perceivable, as for example is the case of perceiving the chance to win when \"Betting\" and also in \"Quick Games\" with single actions. \"Hovering Closures\" can create \"Emotional Immersion\" and \"Anticipation\" when the closures are related to players' success in the game or parts of the \"Narrative Structure\". \"Uncommitted Alliances\" may be the result of the \"Hovering Closure\" of one player being close to completing a goal or action that can be perceived by other players.",
+            "\"Surprises\", being neither \"Extended Actions\" or predictable, cannot be \"Hovering Closures\" and may destroy existing ones."
+        ]
+    },
     "relations": {
         "instantiates": [
             "emotional-immersion",

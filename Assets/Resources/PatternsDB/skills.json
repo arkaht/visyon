@@ -1,6 +1,25 @@
 {
     "name": "Skills",
-    "description": "The numerical representation of how likely a Unit or Character is to succeed with an action, and what possible consequences the action has.",
+    "texts": {
+        "definition": "The numerical representation of how likely a Unit or Character is to succeed with an action, and what possible consequences the action has.",
+        "description": [
+            "Many games uses numerical values to indicate how good the characters or units controlled by players are. The \"Skill\" values can be used directly to determine success or failure or let players know the likelihood of success or failure before doing the actions associated with the skill values. Further, having certain levels in particular \"Skills\" can allow extra effects to occur when the action is performed."
+        ],
+        "examples": [
+            "tabletop roleplaying system such as \"GURPS\" or d20 use skills as the primary way of showing how experienced a character is in a particular area.",
+            "the \"Deus Ex\" series of computer games allows players to develop skill areas by acquiring implants."
+        ],
+        "usage": [
+            "Designing use of \"Skills\" in games depends on the type of game. \"Real-Time Games\" usually let the success or failure depend on how the player performed the action but let \"Skill\" levels affect the difficulty or allow \"Privileged Abilities\" linked to the action. \"Turn-Based Games\" make richer use of \"Skills\", both regarding the evaluation functions used as well as the number of actions that are determined by \"Skill\" levels. \"Skill\" levels may be adjustable by players before gameplay to allow \"Handicaps\" to be set to achieve \"Player Balance\".",
+            "Actions based on \"Skills\" can in \"Turn-Based Games\" either have dynamic or static evaluation. Static evaluation promotes \"Predictable Consequences\" but may ruin the \"Illusion of Influence\" if the value used in the evaluation functions is known. Dynamic evaluationusually contains some form of \"Randomness\" and thereby gives players the chance to have \"Luck\", and can give players the \"Illusion of Influence\" through the use of \"Dice\". \"Skills\" in \"Turn-Based Games\" can be further detailed by the introduction of prerequisites, specializations, maneuvers, and the process of basing skill levels on other skill levels.",
+            "The possibility to increase \"Skill\" levels instantiates \"Character Development\" (and \"Team Development\") and can be done in several ways: the increase can be a\"Reward\" for completing a goal; \"Extended Actions\" in the form of \"Investment\" may have \"Skill\" increases as their main result; or \"Improved Abilities\" through \"Tools\", \"Power-Ups\", or \"Chargers\". The chance of increasing may be governed by \"Randomness\", or may be automatic given use of the \"Skills\". If players can affect which \"Skills\" can be raised, this allows for \"Planned Character Development\". \"Budgeted Action Points\" can be used to control the amount of \"Skill\" increases in games with many \"Skills\", and may ensure \"Player Balance\" in \"Multiplayer Games\". Another way to limit \"Skill\" increases is to use \"Diminishing Returns\", either by requiring more \"Investments\" to be done to increase the \"Skills\" or by making the chances of improving the \"Skills\" lower as the \"Skill\" gets higher."
+        ],
+        "consequences": [
+            "\"Skills\" are one way of differentiating \"Characters\" and thereby giving players \"Competence Areas\". When this is used to create \"Orthogonal Unit Differentiation\" it promotes \"Varied Gameplay\" and \"Team Play\" in \"Multiplayer Games\".",
+            "Having numerical values to indicate competence levels make it easy to implement \"Improved Abilities\" or \"Decreased Abilities\". Being above certain threshold values can also be used to determine if one has access to \"Privileged Abilities\". The possibility to increase \"Skills\" can be used to give players \"Gain Competence\" goals and advance the \"Narrative Structures\" through \"Character Development\". \"Decreased Abilities\" are typically the effect of \"Penalties\" or \"Damage\".",
+            "Known \"Skill\" levels give \"Predictable Consequences\" and thereby a \"Perceived Chance to Succeed\". This can not only be used by players to make \"Risk/Reward\" choices but allows game designers to set the \"Right Level of Difficulty\" by adjusting the \"Skills\" of \"Enemies\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "gain-competence",

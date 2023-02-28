@@ -1,6 +1,23 @@
 {
     "name": "Tile-Laying",
-    "description": "The placing of tiles as actions in the game.",
+    "texts": {
+        "definition": "The placing of tiles as actions in the game.",
+        "description": [
+            "Not all games use tiles as static parts of the game that define the game world from the beginning of the game. Instead, these games either use the tiles either to randomize the layout of the game world or make the construction of the game world into a player-driven activity."
+        ],
+        "examples": [
+            "\"Rogue\" and \"Angband\", early computer roleplaying games that used ASCII-based graphics, randomized the layout of levels for each game session. This process of constructing the levels can be seen as a form of tile laying that takes places before game play begins on that level.",
+            "a player's turn in \"Carcassonne\" consists of drawing and laying a tile in connection to those already in play and then optionally placing a token.",
+            "the board game \"The Settlers of Catan\" starts with a randomize play area consisting of hexagonal tiles every game session to ensure that game play varies."
+        ],
+        "usage": [
+            "\"Tile-Laying\" may be used either before game play begins as part of the setup phase of the game or as actions players perform. The design of the \"Tiles\" used in both cases is similar to the design of \"Cards\", and in the later case may make use of \"Drawing Stacks\" and variants of \"Card Hands\".",
+            "The \"Randomness\" of \"Game Worlds\" constructed through \"Tile-Laying\" allows the information about \"Tiles\" to \"Imperfect Information\" if the tiles are covered or placed upside down. By using a form of \"Fog of War\" this makes \"Exploration\" goals possible."
+        ],
+        "consequences": [
+            "\"Tile-Laying\" is a concrete way to allow \"Reconfigurable Game Worlds\". By introducing \"Randomness\" of how the \"Game World\" is constructed, and possibly \"Imperfect Information\" about the layout of the \"Game World\", it can promote \"Varied Gameplay\". When players control the placement of the \"Tiles\" this makes them active game elements that are \"Focus Loci\" for players and creates \"Player Constructed Worlds\". This allows them to perform \"Construction\" actions and have \"Exploration\" goals which may be the cause of \"Tension\" when the attributes on the \"Tiles\" are important for the players."
+        ]
+    },
     "relations": {
         "instantiates": [
             "reconfigurable-game-world",

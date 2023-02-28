@@ -1,6 +1,25 @@
 {
     "name": "Irreversible Actions",
-    "description": "Actions whose effect on the game state cannot be undone.",
+    "texts": {
+        "definition": "Actions whose effect on the game state cannot be undone.",
+        "description": [
+            "All actions in a game affect the game state but many may be countered by another action, for example moving in one direction and then moving the same distance in the opposite direction. The actions that do not have other actions that can revert the game state back to its original state are \"Irreversible Actions\"."
+        ],
+        "examples": [
+            "The Ko (and meta Ko) rule in \"Go\" is used to make it impossible for the game to run into infinite loops.",
+            "Pushing a box into a corner in \"Sokoban\" means that the box cannot be moved from there, as the boxes can only be pushed and not pulled."
+        ],
+        "usage": [
+            "Making actions into \"Irreversible Actions\" can be done by simply making sure that all other actions in the whole game design do not affect a specific part of the game state. Other actions may affect that part of the game state as long as all actions affect it in the same way or direction. Other ways of making \"Irreversible Actions\" are to make the actions use \"Non-Renewable Resources\" or those that give players information. Designed \"Surprises\" are thus a form of \"Irreversible Actions\", and since they are a form of \"Trans-Game Information\", they areeven \"Irreversible Actions\" across game sessions. Actions whose events provide \"Strategic Knowledge\" are likewise \"Irreversible Actions\" since these also generate \"Trans-Game Information\".",
+            "The possibility of \"Saving\" makes it impossible to have totally \"Irreversible Actions\" in a game but forces players to use \"Save-Load Cycles\". This can be countered to a certain extent by causing actions to have \"Delayed Effects\" at the cost of \"Predictable Consequences\".",
+            "\"Buttons\" and \"Alarms\" are game elements that can be used to enforce \"Irreversible Actions\", in the first case by not being able to be activated more than once and in the second case by not being able to be deactivated once activated. A typical example of a class of \"Irreversible Actions\" is \"Leaps of Faith\". Making the \"Transfer of Control\" of \"Resources\" into \"Irreversible Actions\" is part of creating \"Non-Renewable Resources\"."
+        ],
+        "consequences": [
+            "Every \"Irreversible Action\" performed is a closure, and since there is no \"Reversability\" to their effect, they do not promote \"Experimenting\" and make \"Puzzle Solving\" more difficult. Rather, they promote \"Stimulated Planning\" and may cause \"Analysis Paralysis\".",
+            "\"Irreversible Actions\" are required to progress \"Narrative Structures\" and can be used to provide a condensed history of gameplay in a game session without losing any events that affected the final outcome. Leaving a \"Level\" and not being able to come back to it is an example of a \"Narrative Structure\" can be maintained by an \"Irreversible Action\". An example of how \"Irreversible Actions\" can advance the \"Narrative Structure\" in \"Real-Time Games\" without relying on \"Levels\" is to move the places where \"Spawning\" occurs.",
+            "Not all \"Irreversible Actions\" are \"Ultra-Powerful Events\", as players may hinder the effect of the actions from taking place if the actions are \"Extended Actions\" and \"Interruptible Actions\". Likewise, the actions that caused the \"Ultra-Powerful Events\" do not have to be \"Irreversible Actions\" since another action can counter the event after it is completed. An example of this is \"Shrinking Game Worlds\": these are usually \"Ultra-Powerful Events\" that cannot be affected while they are occurring but after the \"Game World\" has become smaller it may at a later stage expand again."
+        ]
+    },
     "relations": {
         "instantiates": [
             "stimulated-planning",

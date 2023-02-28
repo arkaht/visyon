@@ -1,6 +1,24 @@
 {
     "name": "Movement Limitations",
-    "description": "The movement of game elements is limited in some way.",
+    "texts": {
+        "definition": "The movement of game elements is limited in some way.",
+        "description": [
+            "In games where movement is an important aspect of game play, limitations to the movement ability are common. These may be part of the game environment and effect all players that enter an area, part of what defines the game element, or effects of being hit by enemies."
+        ],
+        "examples": [
+            "icy areas in \"Super Mario 64\" and \"Return to Castle Wolfenstein: Enemy Territory\" make steering difficult and affect acceleration and deceleration.",
+            "the banana peel, polygon ball, and ice cube power-ups in the \"Monkey Race 2\" party game in \"Super Monkey Ball 2\" all let players shoot or drop objects that negatively affect other players movement if hit.",
+            "many racing games make the leading vehicle have a little lower maximum speed than the others vehicles in order to increase the chance of the other vehicles catching up."
+        ],
+        "usage": [
+            "\"Movement Limitations\" can occur in both \"Real-Time Games\" and \"Turn-Based Games\". In \"Real-Time Games\" they typically take the form of making \"Maneuvering\" more difficult or decreasing speed but can also make areas of the \"Game World\" into \"Obstacles\" or \"Inaccessible Areas\" (typically marked with Outstanding Features). In \"Turn-Based Games\" movement is nearly always limited by \"Budgeted Action Points\" but the cost for movement can be different for different kinds of movement to signify specific \"Movement Limitations\". When the action points can be used for other actions as well this further imposes limitations and forces players to do \"Risk/Reward\" choices.",
+            "\"Area Control\" by other players can cause \"Movement Limitations\". In \"Turn-Based Games\" this is typically explicitly governed by rules forbidding movement, increasing movement costs, or making \"Units\" moving into the area under control stop their movement. In \"Real-Time Games\" the \"Movement Limitations\" is implicit and enforced by threats of \"Combat\"."
+        ],
+        "consequences": [
+            "\"Movement Limitations\" is a way to modulate \"Movement\" and make \"Game World Navigation\" more difficult. When linked to individual game elements they can be \"Penalties\" of failing \"Evade\" goals, \"Balancing Effects\" to make \"Races\" more even, or make parts of the \"Game World\" into \"Obstacles\", \"Inaccessible Areas\", or \"Deadly Traps\". When common to all players and linked to the \"Game World\" they can also make areas into \"Inaccessible Areas\" or \"Deadly Traps\" but let players make \"Risk/Reward\" choices between trying to \"Evade\" the areas or taking risks to gain benefits, possible by \"Leaps of Faith\" actions. \"Shrinking Game World\" is an example of a way to achieve this form of \"Movement Limitations\" although no benefits can be gained by being in the area which is removed.",
+            "\"Tension\" can be the consequence of any \"Movement Limitations\" while \"Downtime\" and limited \"Freedom of Choice\" are effects commonly created by temporary limitations on movement abilities when the limitation become an \"Ability Loss\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "penalties",

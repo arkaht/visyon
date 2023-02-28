@@ -1,6 +1,25 @@
 {
     "name": "Identification",
-    "description": "The characters or parts of the game with which players identify.",
+    "texts": {
+        "definition": "The characters or parts of the game with which players identify.",
+        "description": [
+            "For players to feel any attachment to a game, they need something within the game to care about. This does not have to be a concrete game element but can just as well be a goal or type of action, but these also need some concrete game element through which players can try to achieve the goals or actions. Thereby, players need to have some game elements that they have \"Identification\" with so that they can plan or experience the gameplay through them."
+        ],
+        "examples": [
+            "Although players themselves do not feel emotional \"Identification\" with their king in \"Chess\", the events affecting the king affect the players' gameplay, and the opponent probably identifies the king with the other player.",
+            "Many of the \"Avatars\" controlled in games playable by children are small compared to the other inhabitants in the games, especially the enemies. This offers children a view within the game that at least regarding size compares to how they experience the real world.",
+            "When playing \"Europa Universalis II\" or \"Civilization\" players do not have \"Identification\" with individual characters; rather they can identify with countries or cultures."
+        ],
+        "usage": [
+            "\"Identification\" is easily created by using \"Characters\" and \"Avatars\" in games that players control. This form of \"Identification\" can be further strengthened by allowing players \"Creative Control\" of the appearance and abilities of the \"Characters\" as well as linking \"Ownership\" to them.",
+            "Although it is common to try and create \"Identification\" through \"Characters\" or \"Avatars\", the feeling of \"Identification\" in a game does not have to be with the \"Focus Loci\" the players have. It can also be created through other \"Characters\" in the \"Narrative Structure\" over which players do not have control. When \"Identification\" is achieved with ones' own \"Enemies\", the \"Narrative Structure\" can be said to have been able to create an \"Alternative Reality\" with a high level of \"Consistent Reality Logic\". However, not letting players have any connection to the game through \"Characters\" or \"Avatars\" is likely to make \"Identification\" impossible, so \"God's Finger,\" for example, is difficult to combine with the pattern.",
+            "In \"Multiplayer Games\" with \"Persistent Game Worlds\", players can have \"Identification\" with other players. Giving support for this, often through some form of \"Game State Overview\", can be a spurn for \"Social Interaction\" and can promote the emergence of \"Social Organizations\" but also modulates \"Player Killing\". Mentorshipis a social relation that can create \"Identification\" between players, as the mentor is a form of model for the other player."
+        ],
+        "consequences": [
+            "Some form of \"Identification\" is required in games for players to have \"Emotional Immersion\" in the game or the \"Alternative Reality\" in which gameplay takes place, and is most often done through \"Avatars\" or \"Characters\" or even simple \"Handles\". \"Tension\" can easily be created in the game once players have \"Identification\" with the \"Avatars\" or \"Characters\" by exposing these to potentially dangerous \"Penalties\".",
+            "Once the \"Identification\" has been achieved, it usually strengthens players' willingness to perform \"Roleplaying\" and the quality of the performance. The events and actions taken in the game strengthen the \"Identification\" if these events and actions affect the \"Characters\" and \"Avatars\". This is because they have a form of common experiencesthat is for example present through \"Planned Character Development\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "emotional-immersion"

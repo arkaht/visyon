@@ -1,6 +1,24 @@
 {
     "name": "Puzzle Solving",
-    "description": "Actions that can be solved through deductive or inductive reasoning.",
+    "texts": {
+        "definition": "Actions that can be solved through deductive or inductive reasoning.",
+        "description": [
+            "Some goals in games do not have apparent solutions. This may be because players do not have all the game elements or information required, but can also be because the solutions require multiple actions performed consecutively and in an order that is not intuitive. In both cases, the activity players need to perform to find the solution is a form of \"Puzzle Solving\". In some cases, the solutions may be drawing conclusions from the available information and, in others, testing hypotheses and rejecting impossible ones."
+        ],
+        "examples": [
+            "The gameplay in \"Myst\" consists of solving a number of puzzles. Besides that, the only actions players can perform are to move in the environment that also moves players between the puzzles.",
+            "\"Sokoban\" is a pure \"Puzzle Solving\" computer game where the only challenge the players have is to figure out how to push a number of boxes into the right parts of a maze."
+        ],
+        "usage": [
+            "The prime challenge in designing a puzzle is to achieve the \"Right Level of Complexity\" for it. However, the difficulty of the puzzle can be modulated regardless of complexity by constructing the puzzles so that they can either be solved through reasoning or through manipulation, the latter being easier. Puzzles solvable by manipulation require that players have access to \"Direct Information\", while those that can be solved through reasoning can make use of direct or \"Indirect Information\". Puzzles that can be solved through manipulation of the game environment are a form of \"Configuration\" goal requiring \"Movement\" that can actually be solved by simply trying all combinations. Although this may cause players to do repetitious actions, it cannot be avoided even with \"Irreversible Actions\" or depletion of \"Non-Renewable Resources\" if players can perform \"Save-Load Cycles\".",
+            "\"Puzzle Solving\" can start with complete or incomplete puzzles. Complete puzzles let players start with the \"Puzzle Solving\" at once, while incomplete puzzles require players to first complete \"Gain Information\" goals to gain the necessary \"Traces\", \"Clues\", or game elements. If players do not know if they have a complete or incomplete puzzle when they begin, they have to make \"Risk/Reward\" choices between trying to solve the puzzle or trying to look for more clues.",
+            "The design of \"Puzzle Solving\" has some additional possibilities depending on if the puzzles are part of \"Real-Time Games\" or \"Turn-Based Games\". The \"Tension\" and \"Right Level of Difficulty\" of \"Puzzle Solving\" can be modulated in \"Real-Time Games\" by introducing \"Time Limits\". \"Overcome\" goals can be based on \"Puzzle Solving\" in \"Real-Time Games\", as players have to try and be quicker than the other players in finding a solution, or try to find opponents' \"Achilles' Heels\" while avoiding their attacks. For \"Turn-Based Games\", many of the activities in \"Real-Time Games\" can be transformed into puzzles, for example, by having turn-based \"Movement\" creating \"Capture\" and \"Evade\" goals."
+        ],
+        "consequences": [
+            "Completing goals of \"Puzzle Solving\" is a form of \"Stimulated Planning\", as the challenge lies in finding the right combination of actions rather than performing the actions. This planning, although it may be partly externalized by arranging game elements, makes \"Puzzle Solving\" incompatible with \"Limited Planning Abilities\". If players have restricted or no \"Game State Overview\", \"Puzzle Solving\" requires \"Memorizing\", while it promotes \"Experimenting\" if players have \"Limited Foresight\" but the game supports\"Reversability\". Whatever the exact type of activity required to do the \"Puzzle Solving\", it provides opportunity for \"Cognitive Immersion\", and being skillful in solving puzzles is a form of \"Game Mastery\".",
+            "\"Puzzle Solving\" has low \"Replayability\" unless the puzzle changes between game sessions. This can be achieved through the use of \"Randomness\", but requires that the \"Randomness\" guarantee that at least one solution exists. The existence of several solutions can add some \"Replayability\" to games but primarily if they offer alternative developments of \"Narrative Structures\" or have \"Perceivable Margins\" compared to each other."
+        ]
+    },
     "relations": {
         "instantiates": [
             "cognitive-immersion",

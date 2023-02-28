@@ -1,6 +1,27 @@
 {
     "name": "Eliminate",
-    "description": "Eliminate is the goal to remove a game element from its location in the game space.",
+    "texts": {
+        "definition": "Eliminate is the goal to remove a game element from its location in the game space.",
+        "description": [
+            "Games may offer the removal of game elements for several reasons: the game elements may hinder actions, may pose a threat to the player goals, or their removal may simply be a goal in itself that is rewarded. The removal of game elements is not necessarily permanent; the board game \"Ludo\" lets players reinsert taken pieces, and many multiplayer first-person shooters let people spawn again after being killed, both as ways to allow the same number of \"Avatars\" or game elements in the game for as long as the game continues."
+        ],
+        "examples": [
+            "In \"Backgammon\", a single opponent's piece is removed from play when taken, but the piece can be brought back to the game later.",
+            "\"Counter-Strike\" differs from many first-person shooters in that players who are killed are eliminated for the remainder of the match.",
+            "The single-player puzzle game \"Peg Solitaire\" consists of eliminating all game elements from the game board save one."
+        ],
+        "usage": [
+            "The main consideration when employing \"Eliminate\" is choosing what game element can be eliminated. The goal object is usually, but not necessarily, a game element that is controlled by another player or the game system, making \"Eliminate\" become a subpattern of \"Overcome\". Common \"Eliminate\" goals are to destroy \"Resource Generators\" or to defeat \"Boss Monsters\" in order to advance to the next \"Level\". The goal to \"Eliminate\" can easily be made into a \"Hierarchy of Goals\" by using \"Damage\" so that several successful actions must be performed before the goal is completed.",
+            "\"Eliminate\" typically uses another pattern to describe the exact method of elimination. \"Combat\", through melee or \"Aim &amp; Shoot\" actions, is the most common means to achieving \"Eliminate\" goals. Luring opponents into \"Deadly Traps\" is another possibility but typically requires more indirect actions. \"Backgammon\" uses a \"Contact\" pattern to define how to do the actual elimination, but there are many other possibilities. However, elimination can occur through the non-action of the players controlling the game element, e. g., folding in \"Poker\" or other games containing \"Bidding\". \"Tournaments\" also typically contain the \"Eliminate\" pattern as players strive to eliminate each other through \"Player Elimination\".",
+            "The game elements removed by the fulfillment of the goal do not have to be removed permanently. However, even if elimination only is temporary, it usually involves some sort of \"Penalty\" for the player who controlled the eliminated game element. This typically takes the form of the game element being transferred back to a \"Spawn Point\" or having the game element out of play for a certain amount of time, possibly leading to \"Limited Set of Actions\" or forcing players to perform \"No-Ops\". The effect of \"Eliminate\" can of course be expanded to remove players from game sessions as well through \"Player Elimination\".",
+            "Strategy games that have cities or other types of \"Resource Generators\" use \"Eliminate\" in order to get rid of the produced \"Units\". The gameplay in those games is usually about maintaining a steady growth of available \"Units\" to overwhelm the opponent."
+        ],
+        "consequences": [
+            "\"Eliminate\" requires the disappearance of some game element from gameplay, and the player fulfilling such a goal is therefore a form of \"Consumer\". If the game elements to be eliminated are controlled by another player, this player can be considered an \"Enemy\" and usually has the \"Preventing Goals\" of \"Survive\" or \"Evade\". \"Eliminate\" easily creates \"Tension\" and may cause \"Conflict\" between players, especially if the \"Eliminate\" concerns game elements that are the effect of other players' \"Construction\" actions.",
+            "\"Eliminate\" can also be used to speed up and simplify gameplay in the end phase of a game by successively removing game elements during the early gameplay so that only a few remain at the end of the game. As the pieces that remain have increased values in this context, this use of \"Eliminate\" supports \"Higher-Level Closures as Gameplay Progresses\".",
+            "\"Eliminate\" does not necessarily have to be destructive towards players; the \"Collection\" of \"Resources\" and \"Pick-Ups\" in \"Real-Time Games\" that destroy and change game values are examples of how the \"Eliminate\" goal is a part of the \"Converter\" effect of completing \"Gain Ownership\" goal."
+        ]
+    },
     "relations": {
         "instantiates": [
             "aim-shoot",

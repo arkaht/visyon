@@ -1,6 +1,24 @@
 {
     "name": "Anticipation",
-    "description": "The feeling of being able to predict future game events in the games to which one has emotional attachments.",
+    "texts": {
+        "definition": "The feeling of being able to predict future game events in the games to which one has emotional attachments.",
+        "description": [
+            "Many games allow player to anticipate possible future game events. However, players only feel \"Anticipation\" about these future events if they have some emotional investment, either that the future events are something that they planned and strived for or that the future events concern characters in a narrative structure that the players care for."
+        ],
+        "examples": [
+            "The presence of traces in the environment of enemies in first-person shooters gives players a strong anticipation that combat will occur soon.",
+            "\"Anticipation\" is common in roleplaying games when players have planned the development of their characters and they near points where the characters will advance."
+        ],
+        "usage": [
+            "\"Anticipation\" can occur through \"Narrative Structures\" or the developing game state but both cases require \"Predictable Consequences\" and some form of specific \"Immersion\", most commonly \"Emotional Immersion\". However, \"Anticipation\" can negatively affect \"Immersion\" in general as players have to abstractly predict the possible future events. One example where \"Anticipation\" can be created through \"Spatial Immersion\" is \"Game World Navigation\". \"Cognitive Immersion\" can likewise give \"Anticipation\" when linked to foreseeing the completion of goals.",
+            "As players easily have \"Emotional Immersion\" in future \"Rewards\", \"Delayed Effects\" and \"Hovering Closures\" easily create \"Anticipation\", for example, through \"Betting\". \"Rewards\" linked to \"Player Defined Goals\" and \"Planned Character Development\" are especially suitable for creating \"Anticipation\", as they are chosen by players themselves and the players choose them for their emotional values. The \"Anticipation\" can be further modulated by limiting the affect that the players can have through \"Turn Taking\" and \"Downtime\" in general. Setting \"Time Limits\" for player actions and effects also increases \"Anticipation\" when the limit is clearly indicated to the players.",
+            "When \"Anticipation\" is misguided, i. e., the expected result does not occur, the resulting feeling of frustration or disappointment can be modulated by \"Near Miss Indicators\"."
+        ],
+        "consequences": [
+            "\"Anticipation\" creates \"Emotional Immersion\" but requires some specific form of \"Immersion\" to be already present. \"Anticipation\" is closely linked to \"Tension\", but where \"Tension\" is primarily concerned with the negative aspects of uncertainty, \"Anticipation\" instead deals with the sense of being able to predict game events. A typically case when both coincide is \"Delayed Reciprocity\", where the \"Anticipation\" may be both that of fulfillment of agreements and that of \"Betrayal\". Examples where \"Anticipation\" can exist without \"Tension\" include \"Ultra-Powerful Events\" such as those that occur in games where \"The Show Must Go On\".",
+            "\"Surprises\" are naturally difficult to closely link to \"Anticipation\", except when modulated by \"Red Herrings\" or \"Imperfect Information\". \"Analysis Paralysis\" is often caused by players being able to notice too many possible future game states, and thereby makes \"Anticipation\" of any of them difficult."
+        ]
+    },
     "relations": {
         "instantiates": [
             "emotional-immersion"

@@ -1,6 +1,23 @@
 {
     "name": "Achilles' Heels",
-    "description": "A special weakness of an enemy that can be used to defeat that enemy much easier than by other means.",
+    "texts": {
+        "definition": "A special weakness of an enemy that can be used to defeat that enemy much easier than by other means.",
+        "description": [
+            "Many of the more difficult enemies in games can more easily, or in some cases only, be defeated by a special form of attack. These kinds of enemies have an \"Achilles Heel\", a special weakness that players can use to their advantage if they can locate it or gain knowledge about it."
+        ],
+        "examples": [
+            "the final monster in \"Half-Life\" can only be damaged by first hitting a special area.",
+            "boss monsters in games such as \"Zelda\" or \"Super Mario Sunshine\" usually can only be defeated by special actions, such as grabbing hold of the enemies' tail and spinning around rapidly or hitting the enemies' so that it shows a vulnerable spot and then hitting that spot.",
+            "many monsters in roleplaying games can only be damaged by certain weapons, for example silver or magic weapons. This kind of vulnerability can be seen as a kind of \"Achilles Heel\" even though it is not defined by a specific area but by a specific type of attack."
+        ],
+        "usage": [
+            "\"Achilles' Heels\" are most commonly used to make \"Boss Monsters\" easier to \"Overcome\". The two main design choices regarding \"Achilles' Heels\" are their effects related to normal attacks, what is required to attack the weak point, and how players become aware of the \"Achilles' Heels\".",
+            "Three main ways that attacks against \"Achilles' Heels\" can affect enemies are: through simply modifying the \"Damage\", through having a special effect (for example stunning or confusing), or through being the only way to cause \"Damage\" at all. The two latter can be seen as forms of \"Privileged Actions\". When anyone can attack the \"Achilles Heel\", the only thing required is information about the \"Achilles Heel\", while, if only some players can attack it, the weak point can create the need to fulfill \"Gain Competence\" goals or acquire the right \"Tools\". Players can gain awareness of \"Achilles' Heels\" through the development of the \"Narrative Structure\", through \"Clues\" and \"Traces\" in the area the enemy inhabits, or through \"Experimenting\" when fighting the enemy. Gaining this information can be a \"Gain Information\" goal and \"Supporting Goal\" when part of the \"Narrative Structure\", which may in turn require other \"Supporting Goals\" to actually be able to use the information, if the \"Achilles Heel\" requires a specific form of \"Tool\". \"Public Information\" about \"Achilles' Heels\" can be used to set the \"Right Level of Difficulty\" to a lower level."
+        ],
+        "consequences": [
+            "The presence of \"Achilles' Heels\" is a form of \"Strategic Knowledge\" that players can use in \"Combat\". This can be used to provide the \"Right Level of Difficulty\" and can motivate \"Gain Information\" and \"Puzzle Solving\" if the \"Achilles Heel\" is not \"Public Information\". As \"Achilles Heels\" often require unique forms of attack or more specific uses of ordinary actions, having to perform them gives \"Varied Gameplay\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "strategic-knowledge",

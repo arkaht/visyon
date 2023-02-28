@@ -1,6 +1,27 @@
 {
     "name": "Near Miss Indicators",
-    "description": "Players have explicit information about how close they were to achieving a goal when they have failed to achieve it",
+    "texts": {
+        "definition": "Players have explicit information about how close they were to achieving a goal when they have failed to achieve it",
+        "description": [
+            "Players can receive near miss information about two sorts of actions, those they have performed themselves and those that others have performed. Indicating in an explicit way to players that the just missed completing the goal heightens the sense of failure. This feeling, a psychological phenomenon called the near miss effect, can occur in many games and has been explicitly used in studies of gambling addiction. The player who perceives the failure as a near miss situation, i. e. that the player was very close to succeeding, is much more likely to try again leading to more seductive or addictive game play.",
+            "In contrast, being informed that another player has just missed a goal can be valuable information to redirect tactics and goals as well as significantly changing the tension in the game."
+        ],
+        "examples": [
+            "\"Bowling\" has an implicit \"Near Miss Indicator\" in that the number of pins left standing is a direct measure of how near the player was from succeeding. Further, pins are built in such way that they are prone to sway from one side to another without ultimately falling, providing another layer of implicit \"Near Miss Indicators\" in \"Bowling\".",
+            "slot machines usually have the symbols arranged in such way that near misses, such as getting two cherries when three is required, are more frequent than random distribution would predict. Similar \"Near Miss Indicators\" can be found in other games of luck such as scratch pads.",
+            "The design of a \"Roulette\" wheel supports \"Near Miss Indicator\" for bets on Red or Black colors. Although primarily done to minimize possibilities of prediction, the design makes a loss only one slot away from one or two winning positions.",
+            "sounds and visual effects of explosions and bullet shots near players' avatars in first-person shooters indicate that someone just has missed, and more importantly that someone knows where the players are and wants to shoot them."
+        ],
+        "usage": [
+            "\"Near Miss Indicators\" may be explicitly added to games for two main reasons. The first is to allow players to become better at the actions they are trying to perform. In this case the indicator can not only provide \"Direct Information\" about the game state regarding the player's action but also about those opponents. The second reason is to support \"Replayability\". In this case, even gross failures can be indicated as near misses by using \"Imperfect Information\". This is easier in games based more on \"Luck\" than skill as the player might not know the exact mechanisms for determining the outcome as in slot machines, and especially in computer-based simulations of slot machines.",
+            "Explicit \"Near Miss Indicators\" are easy to have in digital games as players are not necessarily aware of the exact mechanisms for determining the outcome, and it is quite easy to modulate \"Outcome Indicators\" to be also \"Near Miss Indicators\". However, \"Near Miss Indicators\" may emerge from the nature of the game itself, especially in games with \"Perfect Information\"."
+        ],
+        "consequences": [
+            "\"Near Miss Indicators\" let players have information about how close they were to succeeding. This allows them to judge the merits of their actions after the action are performed, which can support \"Stimulated Planning\" for future attempts. As this in many cases means playing the game again or loading a saved game state, \"Near Miss Indicators\" support \"Replayability,\" especially in \"Quick Games, Save-Load Cycles\" in games with longer game play time, and -- paradoxically -- \"Perceived Chance to Succeed\" in most games.",
+            "The \"Near Miss Indicator\" is very often used with a \"Progress Indicator\" or a \"Hovering Closure\", sometimes even with a fake one, to heighten the sense of \"Anticipation\" and thus modulating \"Tension\". An example can be found in the design of some slot machines, in which the slots are determined one by one with the symbols of the other slots continuing to whirl, making it possible to nearly have won for quite some time.",
+            "\"Near Miss Indicators\" about other players' failure can significantly affect \"Tension\" and \"Perceived Chance to Succeed\" but this is very dependent on the current game state. If a player is unaware that another player was close to completing a goal, this may increase \"Tension\" or create \"Surprises\", but if one was aware of the player's intentions or progress the failure may relieve \"Tension\". In the latter case, the \"Perceived Chance to Succeed\" probably rises but in the earlier case this may go in any direction."
+        ]
+    },
     "relations": {
         "instantiates": [],
         "modulates": [

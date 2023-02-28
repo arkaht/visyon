@@ -1,6 +1,23 @@
 {
     "name": "Tiles",
-    "description": "Tiles are areas within the game world that partition it into separate parts, usually filling the whole game world.",
+    "texts": {
+        "definition": "Tiles are areas within the game world that partition it into separate parts, usually filling the whole game world.",
+        "description": [],
+        "examples": [
+            "The board game \"Othello\" (aka \"Annex\", aka \"Annexation\") consists of playing tiles and flipping them, trying to make one's color dominant on the board.",
+            "In the board game \"Dog eat Dog\" tiles are used to show that the nature on a part of the board has been polluted; they cover the board and show the same scenery, albeit more polluted, dirty and depressing.",
+            "\"NetHack\" uses \"Tiles\" to represent corridors, walls, dungeon, and cavern floors and so on. These \"Tiles\" are used to generate an almost limitless number of different dungeons."
+        ],
+        "usage": [
+            "\"Tiles\" can either be passive game elements in a game design or actively used by players. In the former case they are usually arranged before gameplay begins while in the latter case they allow \"Tile-Laying\" and can be held by players in what functionally are \"Card Hands\".",
+            "\"Tiles\" can be used either to define the \"Game World\" or to be put on an area defined by the \"Game World\". They may be designed in such a manner that every tile may be put next to any other tile (regarding form and appearance), or not (implying rules that a tile may only be put where it fits). In board games the game areas that are constructed by \"Tiles\" can make use of the two sides of a tile to represent different modes of the game area defined by the tile. In computer games the \"Tiles\" may have any number of different modes. \"Tiles\" can also have a semi-permanent nature, for example, they can start to deteriorate when an \"Avatar\" or one of a player's \"Units\" has been placed on the tile, creating a \"Time Limit\" for long the tile can be used.",
+            "\"Tiles\" can either be uniform in form, as the squares in \"Chess\", or have irregular shapes, e. g. shaped to fit an illustrative game map as in \"Diplomacy\". Irregularly shaped tiles can be used to make tiles have different properties regarding connections to other areas of the game board, creating \"Strategic Locations\". Regardless of the shape, \"Tiles\" can also become \"Strategic Locations\" by having different characteristics enabling, for example, \"Privileged Abilities\". \"Tiles\" that are placed differently in different game instances can be created so that the distribution of different tiles can make certain tiles more valuable.",
+            "\"Tiles\" can be used to define how and how fast the game elements can move through the connections to the neighboring \"Tiles\". They can also be used to define the size of the game elements, i. e. that a game element may, regardless of its actual physically size, be said to occupy one or several tiles fully if placed within them."
+        ],
+        "consequences": [
+            "\"Tiles\" allow the \"Game World\" to be separated into clearly distinguishable areas, making the position and possibilities of actions easier to judge. \"Tiles\" also allow easier construction of the \"Game World\" and in many cases are a prerequisite for \"Reconfigurable Game Worlds\", as for example to control how \"Shrinking Game Worlds\" are instantiated in many games."
+        ]
+    },
     "relations": {
         "instantiates": [
             "strategic-locations",

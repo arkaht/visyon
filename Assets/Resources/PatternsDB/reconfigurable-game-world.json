@@ -1,6 +1,24 @@
 {
     "name": "Reconfigurable Game World",
-    "description": "The player can reconfigure the game world itself, including the basic relationships and attributes of the game elements and the rules governing the dynamics of these relationships.",
+    "texts": {
+        "definition": "The player can reconfigure the game world itself, including the basic relationships and attributes of the game elements and the rules governing the dynamics of these relationships.",
+        "description": [
+            "The reconfiguration may happen between game instances to create variation from instance to instance or within a game instance as part of the events and actions the players have to consider. Three main ways of reconfiguring the \"Game World\" are possible: changing the spatial setting, modifying basic attributes of the game elements, and modifying the rules and equations that govern the changes in game element relationships. The last one, modifying the rules of the game, usually concerns changes of the rules, which resemble the laws of nature in the \"Game World\", such as making changes to the gravitational pull in flight simulators."
+        ],
+        "examples": [
+            "The board game \"Space Hulk\" contains a number of corridors and rooms that are set up in different configurations to allow a number of different scenarios.",
+            "The mods that can be added in different combinations to \"Unreal Tournament\" allow the players to select how the laws of nature function in particular game instances.",
+            "Games that allow the players to select different difficulty levels for each game instance."
+        ],
+        "usage": [
+            "The first requirement is that the game have a \"Game World\" that can be configured. The next main design choice is whether the world will be reconfigurable between or within game instances, or in a combination of both. In some cases, the reconfigurations might be different for different players, for example, the more inexperienced players in strategy games can be given \"Handicaps\" by having units with better attack and defense powers than the opponents. The third design choice is if the reconfiguration is done by game rules or if the \"Game World\" is a \"Player Constructed World\".",
+            "Reconfiguration of the \"Game World\" itself is often done using \"Tiles\" to define the \"Game World\" and then letting the players perform \"Tile-Laying\" either during the setup phase of the game or during the gameplay itself. The \"Tile-Laying\" can also be accompanied with the use of player controlled \"Moveable Tiles.\" The use of a \"Reconfigurable Game World\" is usually combined with flexible game element setupto speed up the initial gameplay and to provide possibilities for skillful setups.",
+            "The changes in the laws of nature within the game may be universal or applied to only certain game elements, e. g., those under the control of the players or of a particular player. This can be used as a player-decided \"Balancing Effect\" to create \"Player Balance\" or \"Right Level of Difficulty\". For example, changing the difficulty level in a flight simulator can change the flight characteristics of the planes drastically. Changing the relative strengths and weaknesses of different \"Units\" of the game, such as modifying attack and defense strengths in strategy games, is another common way to allow \"Reconfigurable Game Worlds\"."
+        ],
+        "consequences": [
+            "A \"Reconfigurable Game World\" provides \"Varied Gameplay\" and \"Replayability\" as the \"Game World\" changes for each game instance but may lessen \"Immersion\" as players act both within and outside the \"Consistent Reality Logic\" of the game. Games with \"Reconfigurable Game Worlds\" that have \"Strategic Locations\" and temporarily let players observe the layout of the world support \"Memorizing\", but it may prove to be difficult to have \"Right Level of Difficulty\" in the game."
+        ]
+    },
     "relations": {
         "instantiates": [
             "varied-gameplay",

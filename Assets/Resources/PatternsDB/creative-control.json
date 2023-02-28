@@ -1,6 +1,25 @@
 {
     "name": "Creative Control",
-    "description": "Players have the ability to be creative within the Game World.",
+    "texts": {
+        "definition": "Players have the ability to be creative within the Game World.",
+        "description": [
+            "Some games allow players to perform actions in the \"Game World\" that qualify as expressions of creativity. This form of \"Creative Control\" makes it possible for players to define their own goals within the game environment as well as making it possible for them to show their creations to other players."
+        ],
+        "examples": [
+            "MUDs are the games that probably provide the strongest form of \"Creative Control\" of all computer games. In these games, players who have achieved wizard status are allowed to add code to the program running the game, in essence, being able to change nearly any aspect of the game.",
+            "Many roleplaying games allow players to have \"Creative Control\" over the creation of their characters, as well as how the character develops over time. Even the somewhat limited \"Creative Control\" of choosing the \"Avatar's\" appearance in \"Anarchy Online\", allows the players to express themselves."
+        ],
+        "usage": [
+            "\"Creative Control\" can either be provided within the game state or through \"Extra-Game Consequences\". For players to have \"Creative Control\" within the game state requires a \"Right Level of Complexity\" in the game state for unexpected combinations to exist or a \"Game Master\" that can manipulate the game state space to allow creativity for players.",
+            "Letting players have \"Creative Control\" over the \"Narrative Structures\" in games can be done through \"Storytelling\" or \"Roleplaying\". In games with \"Persistent Game Worlds\" that are also \"Player Constructed Worlds\", this allows \"Never Ending Stories\" to emerge.",
+            "Common ways to allow players to have \"Creative Control\" are through the creation of \"Characters\" and providing possibilities for \"Planned Character Development\". Other less common ways that are more restricted include \"Construction\" or even \"Conceal\". Games with \"Game Masters\" can provide the greatest levels of \"Creative Control\", not only for the \"Game Masters\" but for the players, as the \"Game Masters\" can help players make player ideas possible."
+        ],
+        "consequences": [
+            "\"Creative Control\" allows players the opportunity to have \"Constructive Play\" with the aim of creating game elements, information, or even sequels of actions. Since these require \"Investments\" from the players, both within the game and outside the game, they rightly give players the sense of \"Ownership\" or \"Identification\".",
+            "Games with \"Creative Control\" allow players the \"Freedom of Choice\" to choose \"Player Defined Goals\" of creating game content. Choosing these goals and how to use the \"Creative Control\" promotes \"Stimulated Planning\". These goals often motivate \"Extra-Game Actions\" and provide \"Extra-Game Consequences\" of accomplishment for players such as social rewardsin the form of \"Social Status\" in \"Multiplayer Games\". Being skillful within one area of creativity can also become a \"Competence Area\" in these games.",
+            "Players who make use of their \"Creative Control\" in a game are likely to have \"Emotional Immersion\" in the game as they make use of their \"Empowerment\". \"Creative Control\" can give the \"Illusion of Influence\", as it allows players to perform actions that have perceivable effects although it may not change the game state that affects evaluation functions."
+        ]
+    },
     "relations": {
         "instantiates": [
             "social-statuses",

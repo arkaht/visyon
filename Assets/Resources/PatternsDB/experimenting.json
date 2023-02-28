@@ -1,6 +1,28 @@
 {
     "name": "Experimenting",
-    "description": "Performing actions to learn how the rules of cause and effect work in a game.",
+    "texts": {
+        "definition": "Performing actions to learn how the rules of cause and effect work in a game.",
+        "description": [
+            "In all but the most simple of games, the complete consequences from actions performed are difficult to understand, but \"Experimenting\" can aid in understanding them. Actions may be tested for this reason simply because they have not been tested before if a player is willing to see a game session primarily as a learning period. Some games explicitly build experimenting into gameplay as puzzles. In these cases, the actions used to test possible solutions are usually reversible."
+        ],
+        "examples": [
+            "Gameplay in \"Mastermind\" consists of one player guessing the correct combination of colored pegs. As the chance for guessing correctly based only on luck is very small, successful gameplay requires that the player combines the results from different guesses to draw conclusions and uses the guesses as experiments.",
+            "In \"Pontifex\", players' goals are to build bridges and to learn how the physics model works. The players' have to experiment with how cable, joints, and metal beams interact.",
+            "The computer game \"The Incredible Machine\" lets players use a limit set of objects such as pipes, bowling balls, cats, candles, ropes, and balloons to try and reach goal states by making the objects interact with each other in certain ways.",
+            "The abstract game \"Zendo\" require players to set up arrangements of different colored pyramids to extrapolate the correct arrangement rules that a game master has decided to use for that particular game instance.",
+            "Creating potions in \"Morrowind\" can be an experiment if the player is not an alchemist master, as not all effects of ingredients are known until one reaches that level."
+        ],
+        "usage": [
+            "\"Experimenting\" is a form of \"Gain Information\" goal and as such requires \"Imperfect Information\". The \"Imperfect Information\" can be about the fundamental rules of cause and effect in computer games, about the long-term consequences of actions, or about the game state. In the first two cases, gaining the \"Imperfect Information\" gives \"Strategic Knowledge\" about the \"Predictable Consequences\" in the game, while the last case can provide information about other players' game elements and tactics. The actual actions used in the \"Experimenting\" can be any; with \"Experimenting\", players learnabout the actions by performing them. However, it is especially common with \"Experimenting\" when doing \"Puzzle Solving\" , finding possible \"Combos\", or trying to find \"Achilles' Heels\" of \"Enemies\".",
+            "In order to encourage \"Experimenting\", the actions should not have severe consequences. In \"Quick Games\", this may not be a problem if the outcome of the game has no \"Extra-Game Consequences\", as a new game session can be started again. In other forms of games, \"Experimenting\" is encouraged by having \"Reversability\" of actions, either by allowing \"Save-Load Cycles\" or avoiding \"Irreversible Actions\". This is typically easier to do in games with \"Dedicated Game Facilitators\", as they can easily restore game states and not require players to do so. Actions that are closely related to \"Constructive Play\", for example \"Construction\", are better suited for \"Experimenting\", because these actions are less likely to result in \"Competition\". Providing \"Reversability\" in certain locations, which can be seen as a form of \"Safe Havens\", allows for \"Smooth Learning Curves\", as players can train and gain a certain level of \"Game Mastery\" before having to risk failure.",
+            "When \"Experimenting\" can have severe consequences, they create \"Tension\" and can require \"Leaps of Faith\" but also encourage \"Stimulated Planning\". \"Competition\" puts players in situations where the effect of every action can have the potential of affecting the overall outcome of the \"Competition\", and due to this act of \"Experimenting\", these situations force players to make \"Risk/Reward\" choices between the potential benefits of the experiment against the possible loss of not performing the most optimal action."
+        ],
+        "consequences": [
+            "\"Experimenting\" relies on the presence of a \"Gain Information\" goal, which players try to complete by performing different variations of actions in a game. The act of planning and \"Experimenting\" promotes \"Cognitive Immersion\" and can modulate the \"Right Level of Difficulty\" of a game. As the actions performed when \"Experimenting\" do not usually fulfill a goal in the game, the activity gives \"Illusionary Rewards\", but these can be valuable for gameplay since they may provide \"Strategic Knowledge\".",
+            "The possibility of \"Experimenting\" in a game can aid in avoiding the emergence of \"Analysis Paralysis\", as players can try the effects and consequences of their ideas and plans rather than try to deduce the effects and consequences. This can provide \"Smooth Learning Curves\".",
+            "Using \"Non-Renewable Resources\" when \"Experimenting\" can be costly but encourage \"Stimulated Planning\", unless the game allows players to use \"Save-Load Cycles\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "strategic-knowledge",

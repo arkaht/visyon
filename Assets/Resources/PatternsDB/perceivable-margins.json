@@ -1,6 +1,27 @@
 {
     "name": "Perceivable Margins",
-    "description": "That players can notice a perceivable difference between how well actions are performed in the game, or a noticeable difference between the game state before and after the actions are performed.",
+    "texts": {
+        "definition": "That players can notice a perceivable difference between how well actions are performed in the game, or a noticeable difference between the game state before and after the actions are performed.",
+        "description": [
+            "For players to be able to become aware of events in the game, and for the players to notice how well they are succeeding, the effects of the events and actions need to have \"Perceivable Margins\". The margins can simply be between how the game state, affected by an action or event, was before and after they occurred, or may be between the effects of different players' actions. \"Perceivable Margins\" are not defined by what players can notice in the game interface but rather what players can notice in the game play."
+        ],
+        "examples": [
+            "tournaments where two players meet each other in an odd number of games automatically give an integral difference between their results as long as games cannot end in draws.",
+            "taking photographs and disarming explosives in \"America's Army\" requires players to do a continuous action for several seconds. The completion of these actions shows with clearly \"Perceivable Margins\" that the team that did the action controlled a part of the game area for a significant amount of time."
+        ],
+        "usage": [
+            "\"Perceivable Margins\" give players \"Direct Information\" about the game state, but the information given can be either absolute or relative. Absolute margins are based upon measuring effects against a preset value or the previous game state, and the existence of \"Perceived Margins\" depend only upon one specific action or event. Relative margins depend on measuring two or more different actions or events against each other.",
+            "The completion of \"Extended Actions\" is a form of absolute \"Perceivable Margin\" where the margin is the amount of time that players have invested in doing the action. \"Collaborative Actions\", which, although they consist of several actions, do not measure them against each other, is one way to acquire an absolute \"Perceivable Margin\" of the number of \"Focus Loci\" performing the actions. Absolute margins is used in \"Meta Games\" or \"Tournaments\" based on the principle of being \"best-of\" a particular number of game sessions or rounds, and is especially common in games revolving around \"Combat\". Even if several players are competing, these margins are only affected by one event, which player won the latest games, and have a preset value that players strive towards, 2 won games in a best-of-3 tournament for example.",
+            "One way to create relative \"Perceivable Margins\" is to use \"Dynamic Goal Characteristics\" to enforce differences, greater than the minimum amount noticeable, between the values that are compared in evaluation functions. For example, in games where players receive one point for completing a certain subgoal, a \"Perceivable Margin\" can be created by requiring a difference of two points for one player to have reached the goal.",
+            "Votingis an example of actions that usually have both absolute and relative \"Perceivable Margins\": that a certain amount of votes must be presented for the vote to count is an absolute margin, while the outcome of the vote depends on relative margins.",
+            "The aims of \"Perceivable Margins\" and \"Balancing Effects\" are often difficult to combine, and trying to apply both likely cancels the effects of both, while prolonging gameplay."
+        ],
+        "consequences": [
+            "\"Perceivable Margins\" make effects in games easier to distinguish and can function as a form of \"Tiebreakers\", and if the margins take time to build, the game has \"Predictable Consequences\" regarding the involved actions and events since players can notice the changes. \"Perceivable Margins\" thereby reduce the feeling of \"Randomness\" in the game, and can make it easier for players to perceive \"Game Mastery\". This may also be true for games based primarily on \"Luck\"! However, requiring \"Perceivable Margins\" can also limit \"Tension\" as it can make it impossible for two competing players to both have \"Tied Results\" by winning or completing a goal simultaneously.",
+            "\"Perceivable Margins\" can be the basis for\"Disruption of Focused Attention\" events if players have \"Game State Overview\", but effects that would not be noticed without the \"Game State Overview\" can also have \"Perceivable Margins\" through \"Disruption of Focused Attention\" events caused by the game system.",
+            "\"Illusionary Rewards\" can be the cause of \"Perceivable Margins\" and may not only give players \"Illusion of Influence\" but also give them feedback to encourage future actions."
+        ]
+    },
     "relations": {
         "instantiates": [
             "predictable-consequences",

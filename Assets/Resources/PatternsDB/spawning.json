@@ -1,6 +1,26 @@
 {
     "name": "Spawning",
-    "description": "The action of an Avatar appearing in the game world.",
+    "texts": {
+        "definition": "The action of an Avatar appearing in the game world.",
+        "description": [
+            "All games where new game elements appear during game play must provide means by which these game elements are introduced. \"Spawning\" is one of the common ways of doing this besides letting game elements appear from factories, buildings, and cities which all act as a kind of producer. When \"Spawning\" occurs, it simply places the game elements in the game environment and lets it be able to do actions and be affected by actions in the game world."
+        ],
+        "examples": [
+            "\"Return to Castle Wolfenstein: Enemy Territory\" moves which spawn points are used in certain levels after major events have taken place, such as blowing up a cave or bank door or blowing up a wall in an old city.",
+            "\"Battlefield 1942\" allows players to choose where to spawn after being killed from a number of spawn points, where the exact set of points that can be chosen from depends on the teams position in the game.",
+            "spawning in the same position as another player in \"Quake\" killed that player's avatar in what is called a telefrag.",
+            "The arcade game \"Gauntlet\" let players enter ongoing games by being spawned into locations near the other players."
+        ],
+        "usage": [
+            "Besides the design of \"Spawn Points\", which includes deciding if they should be \"Safe Havens\" and creates \"Strategic Locations\", choosing how \"Spawning\" should work is mainly a question of \"Player Balance\". As \"Spawning\" is typically the result of a \"Penalty\" where players may have had \"Ability Loss\" and may have a bad \"Game State Overview\" due to \"Downtime\", \"Spawning\" players typically are disadvantaged. Several design that can be made to help \"Spawning\" player; letting them have \"Privileged Abilities\" of invulnerability for a certain period of time after \"Spawning\" to make \"Camping\" around the \"Spawn Point\" impossible; letting them purchase or otherwise receive \"Tools\" to ensure a certain level of preparedness; or letting them have several \"Spawn Points\" to choose from so that they have a \"Freedom of Choice\" to make \"Risk/Reward\" decisions.",
+            "Besides choosing whether or not to use \"Balancing Effects\", the design of \"Spawning\" can explicitly force \"Downtime\" which also affects \"Player Balance\" as well as \"Team Balance\". \"Spawning\" can make \"Team Elimination\" impossible, but may also be designed to separate it form the individual deaths, for example by letting every players have a number of lives or letting the team as a whole have a limited number of times players can respawn. The setting of the time players have to wait, if any, can be used to create reasonable waiting times in games with \"Early Elimination\" but also affect the \"Risk/Reward\" decisions of performing actions in the game which may lead to a lost of the \"Life\" of one's \"Avatar\"."
+        ],
+        "consequences": [
+            "\"Spawning\" can be seen as the effect of a form of abstract \"Producers\" at specific \"Spawn Points\". The action is caused by the beginning of game play when all players perform the action or when one player's \"Avatar\" reenters the game after having lost a \"Life\", either as part of normal game play or the effect of \"Save-Load Cycles\". \"Spawning\" gives game designs a way of avoiding \"Player Elimination\" (and \"Early Elimination\" from the entire game session) while having \"Player Killing\", and \"Spawning\" also allowing an easy way to introduce late-arriving players. \"Spawning\" create a form of \"Game Pauses\" from the players' perspective since they cannot do anything until they have spawned.",
+            "\"Spawning\" can be used to move the center of the game play so that it advances a \"Narrative Structure\". This is mainly done in game with \"Team Play\" after major \"Irreversible Actions\" (and often goals) have been completed and is done by moving which \"Spawn Points\" are used by which players.",
+            "\"Spawning\" is rarely explained within the \"Consistent Reality Logic\" of an \"Alternative Reality\" but can be sometimes be so through explanations of reinforcements arriving from \"Inaccessible Areas\" or summonings from alternative dimensions."
+        ]
+    },
     "relations": {
         "instantiates": [
             "producers",

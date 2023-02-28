@@ -1,6 +1,19 @@
 {
     "name": "High Score Lists",
-    "description": "High Score lists give players the chance to rank themselves against other players who have previously played the game.",
+    "texts": {
+        "definition": "High Score lists give players the chance to rank themselves against other players who have previously played the game.",
+        "description": [],
+        "examples": [
+            "The first arcade game to have \"High Score Lists\" was \"Asteroids\". The player who achieves a high enough score compared to the other players of the same machine is allowed to enter his initials to be displayed in the \"High Score List\"."
+        ],
+        "usage": [
+            "The use of \"High Score Lists\" is fairly standardized, with the main design choices being the number of \"Scores\" saved in the \"High Score List\" and how \"Handles\" are supported. Most \"High Score Lists\" make use of \"Handles\" so that the players can identify their own scores and know that other players can recognize them. Since \"High Score Lists\" typically are ordered, they need \"Tiebreakers\" or have to be explicitly designed to allow several players with \"Tied Results\" to be displayed as completely equal.",
+            "The use of \"Ghosts\" can be seen as a form of \"High Score List\" that allows players to judge their progress against other performances, as well as their own individual performances, in previous game sessions while playing the game."
+        ],
+        "consequences": [
+            "\"High Score Lists\" create a \"Meta Game\" out of the game by using \"Trans-Game Information\", allowing players to have \"Player Defined Goals\" such as to rank themselves against previous achievements, and thereby encouraging \"Game Mastery\". Doing so adds \"Replayability\" to the game, as the players have the additional goal of simply performing slightly better than in the previous game sessions. \"High Score Lists\" are also a simple way to introduce \"Competition\" to otherwise \"Single-Player Games\" and are also a way for players to compare and display their \"Social Statuses\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "player-defined-goals",

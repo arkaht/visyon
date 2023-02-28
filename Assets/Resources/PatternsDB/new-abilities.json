@@ -1,6 +1,28 @@
 {
     "name": "New Abilities",
-    "description": "Gaining new abilities during gameplay.",
+    "texts": {
+        "definition": "Gaining new abilities during gameplay.",
+        "description": [
+            "Many games provide players with additional actions that they can perform after they have started playing. These \"New Abilities\" give players more freedom in the game and allow them to be more empowered as gameplay continues."
+        ],
+        "examples": [
+            "Roleplaying games that use character levels often, especially to wizard or cleric character classes, award players with new spell-casting abilities. Other examples of new abilities include new forms of attack for fighters and new stealth possibilities for thieves.",
+            "\"Return to Castle Wolfenstein: Enemy Territory\" allows players to gain experience in several different skills during game play. When players \"level up\" in a skill, they gain new abilities connected to that skill, e. g., being able to call air strikes based on observation with binoculars, fully reviving team mates with health injections, or having more ammunition in supply packs.",
+            "Becoming a zombie in \"Zombiepox\" does not automatically mean game over, since players can cure their \"Avatars\" by finding brains. However, the players' \"Avatars\" have the ability to spread the zombie disease just like other zombies, which does not aid in player success."
+        ],
+        "usage": [
+            "Besides what abilities should be given, the primary design choices for \"New Ability\" are if the ability gains are temporary, if the ability is linked to a certain \"Focus Loci\" or to the player, and if players can affect what ability is gained. Further, the \"New Ability\" may be the cause of a \"Reward\" or the result of an \"Investment\".",
+            "When \"New Abilities\" are linked to \"Units\" or \"Characters\", they may be in the form of \"Chargers\" or \"Power-Ups\" that give temporary effects with \"Time Limits\", or they may be in the more permanent form of \"Tools\". \"Tools\" may allow a \"Transfer of Control\" of the \"New Ability\" and may have limited numbers of uses due to \"Limited Resources\".",
+            "Linking \"New Abilities\" to \"Characters\" is not much different that linking them to players, unless the ability can be lost with the loss of \"Lives\". Giving the \"New Abilities\" to \"Units\" increases the value of individual \"Units\" of the type that received the ability and can create \"Orthogonal Unit Differentiation\".",
+            "When players can influence what \"New Abilities\" they gain, this gives \"Freedom of Choice\" to the players and makes \"Planned Character Development\" possible. In games with \"Team Play\", this also allows \"Team Development\" and player-directed \"Orthogonal Unit Differentiation\".",
+            "Like \"Privileged Abilities,\" any \"New Ability\" can affect \"Player Balance\" negatively. This may be countered by the \"Balancing Effect\" of linking the \"New Ability\" to an \"Ability Loss\" of another type, forcing players to perform \"Risk/Reward\" choices. Another way to provide a \"Balancing Effect\" is to have the \"New Ability\" as part of a set of \"Budgeted Action Points\", which means that use of the \"New Ability\" is done instead of using an existing one."
+        ],
+        "consequences": [
+            "\"New Abilities\" are the objectives for \"Gain Competence\" goals, \"Gain Ownership\" goals of \"Tools\", and give new possibilities for new \"Competence Areas\". As they give players increased \"Freedom of Choice\" and the \"New Abilities\" often are \"Privileged Abilities\", receiving them is almost always considered a \"Reward\". This may affect players' \"Perceived Chance to Succeed\" and creates \"Illusion of Influence\" even if no actual influence needs to exist. The ability to have more influence over the game state makes goals of acquiring \"New Abilities\" into implicit if not explicit \"Supporting Goals\" and give players \"Empowerment\". Having diseases and the ability to spread them is an example of how a \"New Ability\" can be a \"Penalty\". \"Role Reversal\" events often give players \"New Abilities\" while at the same time imposing \"Ability Losses\" of existing ones.",
+            "\"New Abilities\" given to \"Characters\" are a form of \"Character Development\" and as such can move the development of the \"Narrative Structure\" forward. In games with \"Team Play\",\"New Abilities\" also foster \"Team Development\". Giving \"New Abilities\" as the gameplay unfolds lets players have \"Smooth Learning Curves\" and provides a means to support \"Varied Gameplay\" over a game session. \"New Abilities\" give rise to \"Red Queen Dilemmas\" when a game allows a series of \"New Abilities\" to be acquired by competing players.",
+            "The difference between \"New Abilities\" and \"Improved Abilities\" can be defined in several different ways: if the new action is activated in the same way as the old, if the consequences of the action affect different parts of the game state, or if the explanation given by the \"Alternative Reality\" differentiates them. \"New Abilities\", unless present in other game elements or part of \"Predefined Goals\", fits less well with a \"Consistent Reality Logic\" than \"Improved Abilities\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "gain-competence",

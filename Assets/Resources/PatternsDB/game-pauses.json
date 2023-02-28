@@ -1,6 +1,23 @@
 {
     "name": "Game Pauses",
-    "description": "The progress of game time is suspended during Game Pauses",
+    "texts": {
+        "definition": "The progress of game time is suspended during Game Pauses",
+        "description": [
+            "The suspension of game time can be either player or game system controlled. The player controlled \"Game Pauses\" are more often found in games which require constant player attention, but are played in situations that may create distractions to play."
+        ],
+        "examples": [
+            "fast action games on personal computers often offer the players the ability to suspend the game time. The reason for this is usually to allow the players to leave the game for some time to do something else. These \"Game Pauses\", however, can occasionally be used to cheat in a game, for example, to plan better ahead in \"Tetris\".",
+            "\"Cut Scenes\" and level changes are a form of \"Game Pauses\" as the progress of game time is usually suspended for a game system controlled amount of time."
+        ],
+        "usage": [
+            "The effects of both player and game system controlled \"Game Pauses\" are more drastic in \"Real-Time Games\" but they also can be used in \"Tick-Based Games\" and \"Turn-Based Games\" to permit the players \"Downtime\". Player controlled \"Game Pauses\" are almost always related to \"Extra-Game Actions\", unless the \"Game Pauses\" are within the \"Consistent Reality Logic\" of the game.",
+            "\"Spawning\", \"Cut Scenes\", and \"Game Pauses\" associated with the players changing \"Levels\" are usual forms of game system controlled \"Game Pauses\". \"Spawning\" in many cases is also an example of using \"Time Limit\" with \"Game Pause\"; the players can come back to the game only after a certain amount of time has passed. \"Save-Load Cycles\" automatically suspend the game time, due to the need to freeze the game state, sometimes even for very long times."
+        ],
+        "consequences": [
+            "Game system \"Game Pauses\" can be used to modify the \"Tension\" for the players. For example, \"Cut Scenes\" are often used not only to allow the \"Narrative Structure\" to progress but also to give the players some time to plan ahead and relax for awhile from the stressful constant attention the game might otherwise require. \"Game Pauses\" in \"Multiplayer Games\" can be used to allow for more \"Social Interaction\" between the players. However, in computer games the possibility of choosing to have \"Game Pauses\" is most common in \"Single-Player Games\" since the \"Negotiation\" regarding \"Game Pauses\" could require more effort than the \"Game Pause\" is worth, especially as the reason for the pause may have passed and \"Immersion\" may be lost if any player can cause all players to have \"Game Pauses\" without the other players' consent.",
+            "Player controlled \"Game Pauses\" interfere with \"The Show Must Go On,\" and in games with otherwise \"Limited Planning Abilities\" created by \"Time Limits,\" the players can use \"Game Pauses\" to cheat by giving them more time to think ahead. \"Time Limits\" are, in any case, almost totally useless when combined with \"Game Pauses\" unless there are also \"Time Limits\" for the \"Game Pauses\" themselves."
+        ]
+    },
     "relations": {
         "instantiates": [
             "downtime",

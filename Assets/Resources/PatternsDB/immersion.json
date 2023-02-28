@@ -1,6 +1,22 @@
 {
     "name": "Immersion",
-    "description": "Immersion in the Game World or immersion in the activity of play.",
+    "texts": {
+        "definition": "Immersion in the Game World or immersion in the activity of play.",
+        "description": [
+            "Games require players' attention and as such can make players focus on gameplay to the extent that they feel immersed in the games. This \"Immersion\" can take many forms, depending on what type of activity the players are performing in a game and what is required to become an expert player. Regardless of the type of immersion, achieving it can be satisfying to the players and can be one of the goals for playing the game. However, the immersion does not mean that players are unaware of their surroundings or that they are playing a game, but rather that they are deeply focused on the interaction they are having within the game."
+        ],
+        "examples": [
+            "First-person shooters require players to focus intensely on the spatial movement of their \"Avatar\" and react instantaneously to events that occur in the \"Game World\". This is more efficiently achieved when players perform their actions with the \"Avatar\" as their reference point for movement rather than their own body.",
+            "Many simple puzzled-based games such as \"Bejeweled\" or \"Minesweeper\" can, even though they have very little graphics and no virtual environment compared to advanced 3D games, capture players' attention through their cognitive demands so that the players become unaware of how much time is spent playing them."
+        ],
+        "usage": [
+            "Four main types of gameplay \"Immersion\" can be found in games: \"Spatial Immersion\", \"Emotional Immersion\", \"Cognitive Immersion\", and \"Sensory-Motoric Immersion\". \"Spatial Immersion\" is the result of extensive \"Maneuvering\" in the \"Game World\" in \"Real-Time Games\" and can sometimes be felt in movies. \"Emotional Immersion\" is obtained by responding to the events that \"Characters\" are part of during the unfolding of a \"Narrative Structure\" and is similar to the \"Immersion\" that books, theater, or movies provide. \"Cognitive Immersion\" is based upon the focus on abstract reasoning and is usually achieved by complex problem solving. \"Sensory-Motoric Immersion\" is the result of feedback loops between repetitious movements players make to perform actions in the game and the sensory output of the game. Although claimed as one of the greatest dangers with playing games,\"Psychological Immersion\", or the confusion of the \"Game World\" and the real world, has not been verifiable under rigorous examination (see [Dear91] or [ESA]).",
+            "Although \"Immersion\" is one of the most difficult patterns to instantiate in game design, common ways of trying to achieve it are through \"Narrative Structures\", \"Characters\", \"Avatars\", \"Game Worlds\", \"Overcome\" goals, and the presence of \"Freedom of Choice\". \"Smooth Learning Curves\" can maintain \"Immersion\" in games by not making challenges too easy or hard, which can make the game boring or frustrating and making players move their focus away from gameplay."
+        ],
+        "consequences": [
+            "\"Immersion\" is not the cause of \"Game Mastery\" but can often be found in those that possess \"Game Mastery\" and is often sought by players. However, once the \"Immersion\" gained in gameplay has been achieved, it can easily be lost. The most common causes for this loss are \"Disruption of Focused Attention\" events, \"Extra-Game Actions\" such as handling \"Book-Keeping Tokens\" or performing \"Save-Load Cycles\", presentation of \"Extra-Game Information\" such as \"Status Indicators\", the breakdown of a \"Consistent Reality Logic\", and forced \"Downtime\". Examples of more specific causes are \"Reconfigurable Game Worlds\" and\"Invisible Walls\", which can ruin \"Spatial Immersion\"; \"Games within Games\" breaking the \"Consistent Reality Logic\"; \"Surprises\", which can ruin \"Cognitive Immersion\"; and players' own \"Avatars\", which can ruin \"Emotional Immersion\" if they do not portray the emotions players expect them to."
+        ]
+    },
     "relations": {
         "instantiates": [],
         "modulates": [

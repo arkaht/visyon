@@ -1,6 +1,22 @@
 {
     "name": "Red Queen Dilemmas",
-    "description": "Players have to constantly progress in the game in order to maintain a relative level of power or success compared to other players.",
+    "texts": {
+        "definition": "Players have to constantly progress in the game in order to maintain a relative level of power or success compared to other players.",
+        "description": [
+            "\"Red Queen Dilemmas\" are the dilemmas of having to become better or more powerful in games simply to maintain the same level of influence in the game. The cause of the dilemma can either be that players benefit from gaining advantages and thereby force other players to do the same or that the difficulty of the game increases and thereby requires players to become better to have the same chance of succeeding as before. The name \"Red Queen Dilemma\" comes from Lewis Carroll's \"Through the Looking Glass\" where Alice meets the Red Queen who has to constantly run in order to stay in one place. The term was later borrowed to evolution theories where it describes the state where the species have to constantly get better in absolute terms to maintain their relative status compared to the other species the same."
+        ],
+        "examples": [
+            "treadmilling in MMORPGs is a common instance of \"Red Queen Dilemma\": the players have to perform monotonous tasks almost constantly in order to gain more experience points or otherwise advance their characters in the game. The major motive for doing treadmilling, even if it can be boring, is to keep the relative status in the game the same or higher compared to those of fellow players.",
+            "in \"Monopoly\" the players are almost forced to stay at the same pace as the leading player in order to have any chance to succeed in the later game."
+        ],
+        "usage": [
+            "There are two main requirements for the \"Red Queen Dilemma\" to emerge in games: a possibility to quantify the level of progression in the game and a possibility to raise this level by constant actions. The level of progression itself can be measured as access to extra \"Resources\", \"Improved Abilities\", \"New Abilities\", or anything else which helps a player to perform in the game. For \"Red Queen Dilemmas\" between players there is the additional requirement that the level of progression has a direct effect on how well the player can perform in the game compared to other players. When the \"Red Queen Dilemma\" is provided by the game system by constantly providing the \"Right Level of Difficulty\", this steadily increasing level of challenges supports \"Smooth Learning Curves\" and motivates players to develop \"Game Mastery\".",
+            "If this level of progression is made explicit and linked to the \"Social Status\", and especially to the display of \"Social Status\", the \"Red Queen Dilemma\" also acquires another layer of motives, that of a social pressure to advance in the hierarchy of \"Social Status\". Many MMORPGs use and feed this motive by displaying explicitly the \"Social Status\" of other players based on performance, linking the advances in \"Social Status\" directly to spending more time with the game, and giving the players constant \"Rewards\" for performing the actions, such as explicit leveling in form of \"Higher-Level Closures as Gameplay Progresses\"."
+        ],
+        "consequences": [
+            "\"Red Queen Dilemmas\" are a kind of \"Investments\" that players constantly have to spend \"Resources\" or efforts on in order to maintain the same \"Perceived Chance to Succeed\" and the same level of \"Empowerment\". Games with \"Red Queen Dilemma\" put players are in \"Competition\" with each other even though this might not be explicit in the game itself and players might not even perceive the situation as such. \"Red Queen Dilemma\" situations can at the same time maintain \"Player Balance\" but at the cost of sometimes causing even anxiety to the players. The player who drops out from the \"Red Queen Dilemma\" perceives the situation as disruption of \"Player Balance\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "competition",

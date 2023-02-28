@@ -1,6 +1,24 @@
 {
     "name": "Multiplayer Games",
-    "description": "Games that have more than one player.",
+    "texts": {
+        "definition": "Games that have more than one player.",
+        "description": [
+            "The scope of \"Multiplayer Games\" is vast, and most games in general are played in social situations, which by their nature require more than one person participating in the game. The number of players varies from just two players competing directly to thousands of players participating in the same game."
+        ],
+        "examples": [
+            "\"Chess\" has two players competing against one another by taking turns.",
+            "MMORPGs can have thousands of players playing the same game instance simultaneously and tens or even hundreds of thousands of players participating in the game instance asynchronously."
+        ],
+        "usage": [
+            "Although it may seem that the main requirement for \"Multiplayer Games\" is that the game supports several players, even \"Single-Player Games\" can be a possible foundation for making \"Multiplayer Games.\" This can be accomplished by organizing players in \"Tournaments\", introducing \"Ghosts\", or some other \"Meta Game\" elements or \"Extra-Game Actions\", these games can become \"Multiplayer Games\" as long as players can affect the gameplay of the other players or compare their individual efforts against each other.",
+            "Many design choices are unique to \"Multiplayer Games\" or are significantly modified by the presence of other players: \"Smooth Learning Curves\" and providing the \"Right Level of Difficulty\" can be more difficult to achieve, although \"Balancing Effects\" can help; \"Player Balance\" can be achieved not only through \"Balancing Effects\" but also through \"Handicaps\" such as differences in \"Skills\" or \"Asymmetric Resource Distribution\", the latter of which can also be the original source of the imbalances; \"Game Masters\" can be used and can allow the other players greater \"Freedom of Choice\" and stronger \"Illusions of Influence\"; \"Tiebreakers\" may be required to determine winners of \"Overcome\" goals unless \"Tied Results\" are to be possible; \"Player Elimination\" may exist and force individual players to quit their play sessions before the game sessions end due to \"Early Elimination\"; \"Agents\" can be used to simulate other players to allow \"Multiplayer Games\" to be played alone.",
+            "\"Persistent Game Worlds\", which by their definition have to be shared between several players, represent one way to achieve \"Multiplayer Games\" with a potentially limitless number of participating players. These types of \"Multiplayer Games\" have \"Dedicated Game Facilitators\" to maintain the game state, but \"Self-Facilitated Games\" are also possible, although, the number of participating players has to be lower, or else the game state synchronization becomes difficult."
+        ],
+        "consequences": [
+            "\"Multiplayer Games\" naturally provide a focus point for \"Social Interaction\" between the players, and it is impossible to have \"Social Organizations\", or have \"Identification\" with groups, in games without having more than one player playing the same game instance. Having several players in a game allows the game design to have \"Team Play\" and modulates \"Game Mastery\" by making it possible for players to develop specific \"Competence Areas\" for their \"Characters\". \"Multiplayer Games\" also provide some forms of \"Game Mastery\", some which are not applicable in other games, for example \"Negotiation\" and \"Creative Control\". \"Multiplayer Games\" often give players \"Limited Planning Ability\", as the goals and plans may be difficult to deduce and they can significantly affect future game states. \"Synchronous Games\" are by their nature also \"Multiplayer Games\", as there must be several players sharing the same game situation.",
+            "\"Save-Load Cycles\" are more cumbersome to use in \"Multiplayer Games\", since players must negotiate when to load previous game states."
+        ]
+    },
     "relations": {
         "instantiates": [
             "downtime",

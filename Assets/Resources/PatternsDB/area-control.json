@@ -1,6 +1,25 @@
 {
     "name": "Area Control",
-    "description": "Being in control over who can move within an area in the game world, or having access to actions linked to locations in the game world.",
+    "texts": {
+        "definition": "Being in control over who can move within an area in the game world, or having access to actions linked to locations in the game world.",
+        "description": [
+            "Games with a game board or game world can have the control of these as goals in their game. Besides being a goal in itself, control over areas in games can give access to otherwise unavailable actions and can make the use of actions and tactics easier."
+        ],
+        "examples": [
+            "one of the goals in \"Battlefield 1942\" is to have control over flag points. This is done by teams by having sole presences in the area around the flag for a certain period of time.",
+            "the goal of \"Go\" is to have as efficient \"Area Control\" as possible through so few stones as possible. Gameplay typically begins with claiming areas in the corners, which are most easy to defend, and then moving out along the sides to finally revolve around the center of the board.",
+            "having implicit \"Area Control\" over the center of the game board in \"Chess\" is one of the main strategies in the game."
+        ],
+        "usage": [
+            "The design of \"Area Control\" consists of how control is achieved and what effects the control gives. Control can either be due to direct or indirect actions. Direct actions consist of reach the area itself with a \"Focus Loci\", making it a \"Race\" to \"Traverse\" to the area. Often \"Contact\" with the area determines the winner, but the \"Contact\" may have to be an \"Extended Action\" to give \"Perceivable Margins\" and let other players try to \"Overcome\" the first claimer. Gaining \"Area Control\" due to indirect actions does not require players to have \"Focus Loci\" in the area but instead requires the use of \"Resources\" in \"Trading\" or \"Bidding\", alternatively being given the area as an effect of \"Luck\".",
+            "If the ownership of the area is not an \"Irreversible Action\", the possibility of future \"Transfer of Controls\" creates \"Guard\" goals of keeping the area which are both \"Continuous Goals\" and \"Interferable Goals\". \"Preventing Goals\" of \"Overcome\" or \"Eliminate\" can created around the \"Guard\" goal, as can \"Stealth\" when an extended sole presence is required to control the area. If the game area is larger than can be overviewed at once, the subgoal of \"Reconnaissance\" may be necessary. The \"Guard\" goal can be encouraged by giving explicit \"Penalties\" beyond any possible losses of abilities and \"Resources\" that naturally occur when the area is lost. This makes the goal of keeping the area a \"Committed Goal.\"",
+            "The common effects of \"Area Control\" is access to \"Producers\" and \"Resources\" in the area, \"Privileged Abilities\" from \"Controllers\", providing good \"Game State Overview\" through the view from the area, or making opponents have \"Movement Limitations\". When being in the area making completion of other goals easier, for example having positive modifiers for \"Combat\", the action of having \"Area Control\" is a \"Supporting Goal\"."
+        ],
+        "consequences": [
+            "Having \"Area Control\" is a form of \"Ownership\" that affects the \"Game World\". Getting \"Area Control\" over part of a \"Game World\" can be the fulfillment to \"Gain Ownership\" goals defined by \"Goal Points\", and make the areas into \"Strategic Locations\". Besides the \"Rewards\" of completing the goal, areas may be \"Strategic Locations\" due to the \"Game State Overview\" the areas gives or the presence of \"Producers, Controllers\" or \"Resources\". Like other cases of ownership, having \"Area Control\" can give \"Emotional Immersion\" and modulates how players perceive potential losses of areas.",
+            "When many areas exist that can be controlled, knowing the values of each is \"Strategic Knowledge\". Choosing between these \"Selectable Sets of Goals\" may require players to do \"Risk/Reward\" choices or \"Tradeoffs\" as not all areas may be able to be controlled by one player. Maintaining control over several areas requires \"Attention Swapping\" or \"Team Play\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "attention-swapping",

@@ -1,6 +1,22 @@
 {
     "name": "Uncommitted Alliances",
-    "description": "The players have a possibility to start and end alliances without direct in-game investments or risking penalties.",
+    "texts": {
+        "definition": "The players have a possibility to start and end alliances without direct in-game investments or risking penalties.",
+        "description": [
+            "\"Uncommitted Alliances\" are typically alliances which players form outside the game system and are thereby are not explicitly formed through game actions. There are, however, games in which the alliances have to be explicitly stated within the game but can still be undone without direct penalties. There are, however, usually penalties involved with such a breach of agreement, but these are dictated by how the breach affects the player relations during the later play."
+        ],
+        "examples": [
+            "in \"Diplomacy\" basically all agreements between players are \"Uncommitted Alliances\" as there are no in-game penalties involved in case players leave the alliances, and the dynamics of the game play are built on this premise. If players agree not to attack each other during one game year and one of the players attacks anyway, the penalty of this breach of agreement depends on the other players as the game rules do not inflict any such penalties."
+        ],
+        "usage": [
+            "The extra requirements of \"Uncommitted Alliances\" compared to ordinary \"Alliances\" are that there should be no investments required to start an alliance and that breaking the alliance is just a matter of not conforming to the agreement; that is, there are no direct, rule-governed penalties involved in breaking \"Uncommitted Alliances\". This also means that the players are given a possibility of \"Betrayal\". The player breaking the alliance of course loses the trust of at least the former members of the alliance and they also might decide to punish the player through new \"Uncommitted Alliances\".",
+            "\"Uncommitted Alliances\" are usually emergent rather than designed but normally arise due to players wanting to influence \"Predictable Consequences\". The two most common cases are through players want to gang up against perceived leaders to enforce \"Balancing Effects\" or through perceived \"Hovering Closures\" of goals that allow \"Shared Rewards\" or have \"Player-Decided Distribution of Rewards &amp; Penalties\". A special case is when players can notice that they are about to have a \"Tied Result\" and decide not to compete in order to focus on other areas of the game. This is of course not possible when \"Tiebreakers\" are used."
+        ],
+        "consequences": [
+            "The possibility of having \"Uncommitted Alliances\" in the game naturally creates more dynamic relationships between players and usually also leads to more \"Social Interaction\" in the form of \"Negotiations\". That alliances can be broken without direct \"Penalties\" creates a new level of \"Tension\" of trust between the players. This requires \"Risk/Reward\" judgments to be made before entering the \"Uncommitted Alliance\" and may make the entering into such an \"Alliance\" into a \"Leap of Faith\".",
+            "\"Uncommitted Alliances\" naturally create \"Dynamic Alliances\" as the alliances have a tendency to be dynamic, i. e. they appear and disappear depending on the game situation. This characteristic can also make the formation of \"Social Organizations\" difficult. \"Uncommitted Alliances\" usually cluster around \"Delayed Reciprocity\" situations."
+        ]
+    },
     "relations": {
         "instantiates": [
             "leaps-of-faith",

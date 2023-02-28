@@ -1,6 +1,25 @@
 {
     "name": "Outcome Indicators",
-    "description": "Players are given information about an outcome of an action in addition to the effect of the action.",
+    "texts": {
+        "definition": "Players are given information about an outcome of an action in addition to the effect of the action.",
+        "description": [
+            "In some games the outcome of actions may not be easily detectable; either because the effect is not easily noticeable, takes some time to manifest itself, or because the action takes place beyond a player's spheres of awareness. In these cases, the game may provide an explicit indicator of what has happened and how the game state has been affected."
+        ],
+        "examples": [
+            "racing games typically inform all players when one player has completed the race since the other players may not be close enough to notice this otherwise.",
+            "combat in computer roleplaying games sometimes have explicit and exact \"Outcome Indicators\" of the results of an attack as the numerical value of the hit points delivered is displayed after a successful attack.",
+            "fighting games such as \"Soul Calibur\" shows blood after successful attacks and sparks after successful blocks. These are not effects of the action since they do not represent the game state, which is done by the avatars positions, stances, and health bars, but rather indicators that the player has succeeded in an action."
+        ],
+        "usage": [
+            "\"Outcome Indicators\" can be used in all cases where the effect of an action or event can be missed. Thus, both successful and failed actions can have an \"Outcome Indicator\" and, if at all possible, the difference should be made clear in the nature of the indicator. A good example of this is the display of a special failure icon in computer roleplaying game combats in the case of a failed attack. The successful attack, in this case, is indicated as a numerical value of the power of the attack. If the game employs critical failures or successes these should also be differentiated from normal ones. \"Outcome Indicator\" can also be used to provide information about the \"Uncertainty of Information\" regarding the outcome. Special cases of \"Outcome Indicators\" are \"Near Miss Indicators\", which explicitly indicate how close the players were to succeed in an action.",
+            "As the effect of an action can be the completion of a goal, \"Outcome Indicators\" can show that a goal has been reached; \"Goal Indicators\" do not show this information but rather what goals players have but the design of these two types of indicators affect each other."
+        ],
+        "consequences": [
+            "\"Outcome Indicators\" are means of modulating, and most often avoiding, the \"Uncertainty of Information\" regarding the completion of a goal or action. As such they can be used to provide \"Public Information\",\"Direct Information\", or \"Perfect Information\" about local parts of a game state, or, when players know about which indicators exist in a game, can provide or support \"Game State Overview\".",
+            "The players are given direct feedback on the results of their actions by \"Outcome Indicators\". This helps players to determine the values of different actions and to compare results of the performances of the same action, supporting \"Predictable Consequences\" and \"Experimenting\". This information can then be used to get \"Strategic Knowledge\" of the game system and also to be able to practice the actions and tactics in a more efficient way.",
+            "More elaborate \"Outcome Indicators\", such as the animations of successful special attacks in \"Soul Calibur\", heighten the sense of achievement and also act as audiovisual \"Rewards\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "predictable-consequences"

@@ -1,6 +1,26 @@
 {
     "name": "Game State Overview",
-    "description": "Players are provided with information that extends beyond the observational abilities provided by game elements",
+    "texts": {
+        "definition": "Players are provided with information that extends beyond the observational abilities provided by game elements",
+        "description": [
+            "Many games require players to have more information than can easily be acquired by using the game elements under the players' control. In order to provide information, the game design can include various forms of overviews of the kind of information most relevant to support the intended gameplay. This \"Game State Overview\" can then let players plan their tactics better and judge their positions more accurately."
+        ],
+        "examples": [
+            "Most racing games, e. g., \"Mario Kart Double Dash!!\" and the \"Monkey Race\" party games in the \"Super Monkey Ball\" series, provide a small overhead map that shows the location of other players on the track."
+        ],
+        "usage": [
+            "\"Game State Overviews\" can be achieved both in the primary view of the \"Game World\" and in smaller secondary views, typically overhead maps. In the primary view, this requires that the game has \"Third-Person View\" or a \"God Views\", unless done through a \"Cut Scene\", in which case any type of view can be used, but several other views are possible as secondary views. Information not connected directly to game elements or connected to abstract game elements can be provided by indicators such as \"Book-Keeping Tokens\",\"Progress Indicators\",\"Goal Indicators\",\"Outcome Indicators\",\"Status Indicators\", and\"Near Miss Indicators\". Low-resolution \"Third-Person Views\", \"God Views\", and even \"First-Person Views\" can provide alternative viewpoints for secondary views that can use the same format as the primary view and thereby allow quick syntheses of information. Navigation or exploration of \"Game State Overviews\" requires players to enact \"Extra-Game Actions\" since using the overviews does not affect the game state.",
+            "The information provided by \"Game State Overviews\" is always \"Imperfect Information\" of the whole game state but may be \"Perfect Information\" of parts of it. Providing \"Direct Information\", or at least \"Indirect Information\" that loses little information in the translation, is common in \"Game State Overviews\" since their prime function is to provide quick presentations of the game state and this is often represented as \"Public Information\". This makes the information safe to show to \"Spectators\" as long as passing the information back to players in the game does not reveal sensitive information.",
+            "If the \"Game State Overview\" shows values related to other players, this can lead to \"Identification\" with other players in teams or to \"Balancing Effects\" as players can through \"Negotiation\" agree to collaborate against perceived leaders.",
+            "Special forms of \"Game State Overviews\" are log books and other parts of the user interface that allow players to access information about previous events in the \"Game World\". These \"Game State Overviews\" allow players to explore the part of the \"Narrative Structure\" that has already unfolded."
+        ],
+        "consequences": [
+            "\"Game State Overviews\" provide players with more information than they would otherwise have, typically about the current \"Score\", the current state of the \"Game World\", or the status and positions of their own \"Units\". They thereby give \"Strategic Knowledge\" but also potentially create \"Analysis Paralysis\". They can support \"Player Defined Goals\", \"Game World Navigation\", and \"Puzzle Solving\", create \"Cognitive Immersion\", and encourage \"Stimulated Planning\". As they can present the vital information for evaluation functions, \"Game State Overviews\" can show \"Perceivable Margins\" to players that otherwise would have been unknown.",
+            "The presence of a \"Game State Overview\" can cause \"Disruption of Focused Attention\" for players due to events in the \"Game World\" that require players to do \"Attention Swapping\", for example, changes in \"Area Control\" or when having \"Preventing Goals\". In this case, the \"Game State Overview\" can function as a presentation of the statuses of various \"Alarms\", or can be considered the \"Alarm\" system itself. \"Game State Overviews\" can also make \"Attention Swapping\" easier or even unnecessary. Games with complete \"Perfect Information\" can either be seen as not needing a \"Game State Overview\" or as automatically providing one.",
+            "The use of \"Game State Overview\" in games can remove \"Limited Foresight\" from players and make \"Surprises\" impossible, thereby eliminating \"Leaps of Faith\" actions and making \"Reconnaissance\" goals unnecessary. However, if modulated by \"Fog of War,\" a \"Game State Overview\" can support players with \"Exploration\" or \"Reconnaissance\" goals.",
+            "In order to make use of \"Game State Overviews\" players have to spend time observing the overviews. \"Turn Taking\" in games allows this without making players lose valuable game time."
+        ]
+    },
     "relations": {
         "instantiates": [
             "strategic-knowledge",

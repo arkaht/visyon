@@ -1,6 +1,26 @@
 {
     "name": "Guard",
-    "description": "Guard is the goal to hinder other players or game elements from accessing a particular area in the game or a particular game element.",
+    "texts": {
+        "definition": "Guard is the goal to hinder other players or game elements from accessing a particular area in the game or a particular game element.",
+        "description": [
+            "The nature of a \"Guard\" goal may range from simply detecting when another play is actively trying to achieve the goal, for example being within a certain prohibited area, to actively trying to preempt the other player's actions. This blocking of another player's goal may be of an ephemeral nature, e. g., standing in a doorway when there are other doorways, or it may be more permanent, such as killing the player's \"Avatar\" so the player is out of the game."
+        ],
+        "examples": [
+            "The goalkeeper in \"Soccer\" must \"Guard\" the team's goal so that the ball does not enter it.",
+            "\"Chess\" and \"Stratego\" are games that one loses if one fails the mission to guard a specific game element: the king in \"Chess\" and the flag in \"Stratego\"."
+        ],
+        "usage": [
+            "Creating a \"Guard\" goal consists of two components: choosing the objective to be guarded and the means by which the objective can be guarded. A \"Guard\" goal may be made easier through the use of \"Alarms\" to give the \"Right Level of Difficulty\".",
+            "The means of guarding can be divided into two main categories: passive and active. Passive actions include changing the environment, e. g., through placing \"Deadly Traps\" or \"Alarms\", or making certain activities impossible for the other player, e. g., by occupying a space and thereby hindering the other player from entering that space, but do not affect the actual game value associated with game elements under the other player's control. Active guarding actions are those that change value of game elements, e. g., reducing hit points by attacking an intruder. Of course, passive actions can have second-order consequences that affect game elements under the other player's control, e. g., setting off an \"Alarm\" may call \"Guards\" that hurt the other player's \"Avatar\".",
+            "To make the \"Guard\" goal more complex, some activities to defend the goal may only be performed after certain requirements have been fulfilled, e. g., an \"Alarm\" has been tripped or an \"Avatar\" or \"Unit\" has to be within a forbidden area. Typically, the distinction is between active and passive activities, before the other player has performed certain \"forbidden\" actions, only passive actions may be used. Another way to complicate \"Guard\" goals is to make the area that is to be guarded too large to be watched at one time and using \"Fog of War\"; forcing players to have \"Reconnaissance\" goals.",
+            "If players are free to position game elements used in the task of guarding, the positioning of them promotes \"Stimulated Planning\" and allows players to make use of \"Strategic Knowledge\" about \"Strategic Location\" s, e. g., elevated positions.",
+            "If the goals opposing the \"Guard\" goal are \"Optional Goals\" to the opponents, i. e., if they can choose to \"Traverse\" to the guarded area and \"Capture\" the guarded game element or do something completely different, the \"Guard\" goal may never be fulfilled. However, not actively trying to ensure that the \"Guard\" goal is fulfill compared to pursuing other goals is a \"Tradeoff\" to the player with the \"Guard\" goal between the perceived \"Risk/Reward\" of the different tactics."
+        ],
+        "consequences": [
+            "\"Guard\" requires observation of specific areas, game elements, or players in a game and is thereby affected by how players perform \"Camping\" actions. The \"Guard\" goal is a \"Preventing Goal\", and as such automatically gives rise to \"Conflict\". Further, as it is only completed after there is not a chance of the guarded game element being stolen or a part of the game area entered, it is a \"Continuous Goal\". By giving several players the same \"Guard\" goal, it can be transformed into a \"King of the Hill\" goal.",
+            "\"Guard\" goals often make those that have them feel they have \"Ownership\" over what is guarded, even though it may not be the case in either the game system or the \"Alternative Reality\" of the game."
+        ]
+    },
     "relations": {
         "instantiates": [
             "continuous-goals",

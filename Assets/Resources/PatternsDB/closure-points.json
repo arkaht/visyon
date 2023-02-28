@@ -1,6 +1,23 @@
 {
     "name": "Closure Points",
-    "description": "Closure Points are events in gameplay where the game state is, or can be, reduced in size.",
+    "texts": {
+        "definition": "Closure Points are events in gameplay where the game state is, or can be, reduced in size.",
+        "description": [
+            "Many games have points where most of the information about game elements and actions performed become irrelevant and are discarded. This is typically the case after important end or evaluation functions have been done, and as such can be called \"Closure Points\"."
+        ],
+        "examples": [
+            "Completing a level in \"Quake\" discards all the information about where monsters and other game elements are on the level. The only information maintained in the game state from the level are the attributes of the player's character and general stats such as difficulty level."
+        ],
+        "usage": [
+            "Common forms of \"Closure Points\" include \"Levels,\" where typically only the information regarding game elements moved between the \"Levels\" is maintained, and \"Tournaments\", where only the outcome of individual games is maintained. Additional common types of \"Closure Points\" include those when \"Transfer of Control\" occurs. \"Closure Points\" makenatural \"Save Points\" for players since the planning of tactics is often bounded by the closure of the associated pattern.",
+            "The goals leading to \"Closure Points\" can be made \"Committed Goals\" to ensure their occurrence, either to maintain the \"Narrative Structure\" or ensure \"Higher-Level Closures as Gameplay Progresses\". \"Closure Points\" can also easily be created by using \"Excluding Goals\", since the completion of one of these goals can make parts of the game state irrelevant.",
+            "\"Closure Points\" can be difficult to combine with \"Never Ending Stories\"; either because the stories are created by players and thereby outside the control of the game design or because higher-level closures cannot be infinitely achieved, and the closures risk becoming repetitious."
+        ],
+        "consequences": [
+            "\"Closure Points\" are natural points of importance in \"Narrative Structures\" and typically have some form of \"Downtime\", often \"Cut Scenes\", in conjunction with the \"Closure Points\" to let players experience the emotions attached to the \"Rewards\" or \"Penalties\" associated with the closure. Since \"Closure Points\" can affect what is described by the game state, they can be used to ensure \"Higher-Level Closures as Gameplay Progresses\". Games without many \"Predefined Goals\", e. g., \"Chess\", have few \"Closure Points\".",
+            "Although players may have \"Limited Foresight\" as to what may happen after a \"Closure Point\", as well as what leads to the \"Closure Point\", the knowledge that the \"Closure Point\" must occur gives players some \"Predictable Consequences\" of gameplay in games with \"Closure Points\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "limited-foresight",

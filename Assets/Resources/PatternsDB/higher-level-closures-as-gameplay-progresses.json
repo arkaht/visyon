@@ -1,6 +1,24 @@
 {
     "name": "Higher-Level Closures as Gameplay Progresses",
-    "description": "Closures that occur progressively become more important as the game is played.",
+    "texts": {
+        "definition": "Closures that occur progressively become more important as the game is played.",
+        "description": [
+            "Having \"Higher-Level Closures as Gameplay Progresses\" is a way to ensure that gameplay can vary and continue to be exciting or challenging. The closures can become more important either because they represent the completion of more difficult challenges or because their completion has greater effect on the game state or the game story."
+        ],
+        "examples": [
+            "\"Boss Monsters\" in single-player first-person shooters are classic examples of how the enemy met at the end of a level can provide a stronger closure than the earlier enemies.",
+            "The first stones placed in \"Go\" are extremely important for the development of every game session but do not represent high-level closures, as their impact on the game is still uncertain. Examples of higher-level closures in \"Go\" are instead when groups become with absolute certainty dead through the opponents actions or become alive through gaining two eyes or connecting to another living group."
+        ],
+        "usage": [
+            "Common ways of creating \"Higher-Level Closures as Gameplay Progresses\" are through \"Hierarchies of Goals\", as can for example be found in \"Tournaments\" and especially in those primarily concerned with \"Combat\" or other \"Overcome\" goals. Other ways are using the same goal several times but making the consequences of succeeding or failing the goal more important each time, for example by having \"Non-Renewable Resources\" or using \"Balancing Effects\" to make important outcomes be decided near the end of game sessions. Examples of this latter way are \"Eliminate\", \"Capture\",\"Collections\", and \"Last Man Standing\" goals where simply fewer goal objectives, and thereby a more \"Limited Set of Actions\", make the closure more important.",
+            "Reuse of the same goal often requires increasing the \"Tension\", for example, by \"Shrinking Game Worlds\", or that completing the goals become more difficult for \"Higher-Level Closures as Gameplay Progresses\" to exist. In the latter case, the \"Right Level of Difficulty\" can be maintained if players successively also are given \"Empowerment\" within the game. A common example of the latter is introducing \"Boss Monsters\" as targets for \"Eliminate\" goals after players have had \"Eliminate\" goals for easier \"Enemies\".",
+            "\"Red Queen Dilemmas\" by their nature create \"Higher-Level Closures as Gameplay Progresses\", but since the changes may be incremental, the different between closures may not be perceived as large."
+        ],
+        "consequences": [
+            "The primary use of \"Higher-Level Closures as Gameplay Progresses\" is to maintain \"Tension\" in games that otherwise would become repetitious. The closures can become higher-level either because of the progression of a \"Narrative Structure\" or because challenges become more difficult. As \"Higher-Level Closures as Gameplay Progresses\" changes the gameplay, having the presence of the pattern in games promotes \"Varied Gameplay\" to a certain degree.",
+            "The occurrences of \"Higher-Level Closures as Gameplay Progresses\" are usually linked to \"Closure Points\". For example, \"Boss Monsters\" are often presented as the final challenge players have to overcome before completing a \"Level\" and the replacement of most of the game state."
+        ]
+    },
     "relations": {
         "instantiates": [
             "varied-gameplay"

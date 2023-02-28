@@ -1,6 +1,22 @@
 {
     "name": "Rescue",
-    "description": "Rescue is the goal of freeing someone or something that is guarded.",
+    "texts": {
+        "definition": "Rescue is the goal of freeing someone or something that is guarded.",
+        "description": [
+            "A common plot in games is that an opponent has captured or imprisoned a character that players' characters know or care about. This gives the players a \"Rescue\" goal, which may consist of finding the location of the kidnapped character as well as \"Overcoming\" or avoiding the obstacles and enemies on the way there. Games using \"Rescue\" as the main goal often have the opponent as the final enemy that has to be defeated before completing the goal."
+        ],
+        "examples": [
+            "\"Donkey Kong\" has as an over-arching goal for Marioto \"Rescue\" the girl that has been kidnapped by the gorilla with the same name as the game.",
+            "Some missions in \"Counter-Strike\" involve scientists that the terrorists have to \"Guard\" and the counter-terrorist \"Team\" tries to free and lead to a safe zone."
+        ],
+        "usage": [
+            "A \"Rescue\" goal can be designed as either explicit goals to \"Overcome\" some \"Guards\" or to use \"Stealth\" to avoid being detected, or a combination of both, possibly allowing players the \"Freedom of Choice\" between the two. In the latter case, \"Rescue\" goals provide the possibility of several subgoals: \"Stealth\" goals to enter areas without detection and \"Gain Information\" goals to learn the layout and positions of \"Guards\", \"Alarms\", and \"Deadly Traps\". Games using \"Rescue\" as the main goal often have the character responsible for the kidnapping as a \"Boss Monster\" that has to be defeated before completing the goal.",
+            "\"Rescue\" s can be constructed so that they are completed as soon as the \"Guards\" and \"Obstacles\" are \"Overcome\" but may also be constructed so that the rescued people have to be moved into a safe area, i. e., places in the \"Game World\" that are both \"Goal Points\" and \"Safe Havens\". The latter ones allow for opposing \"Capture\" goals and provides gameplay where the goals may change several times before reaching a final conclusion."
+        ],
+        "consequences": [
+            "As a \"Rescue\" goal is defined by overcoming a \"Guard\" goal, it is a \"Preventing Goal\" and automatically creates \"Conflict\". Although the goal object of a \"Rescue\" may be a \"Character\" or \"Unit\", possibly controlled by another player, the structure of \"Rescue\" goals are often struggles over \"Ownership\". \"Rescue\" goals are often used to provide a \"Narrative Structure\" in a game; the person to be rescued can have vital information or be someone that is loved by the player's character."
+        ]
+    },
     "relations": {
         "instantiates": [
             "conflict",

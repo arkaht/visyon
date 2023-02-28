@@ -1,6 +1,24 @@
 {
     "name": "Spawn Points",
-    "description": "Positions in the game where Units, Avatars, or Enemies appear.",
+    "texts": {
+        "definition": "Positions in the game where Units, Avatars, or Enemies appear.",
+        "description": [
+            "All game elements that appear in a gamehave a first initial location, their \"Spawn Point\". The \"Spawn Points\" are most noticeable in multi-player games since their effect is most apparent to the players already in the game."
+        ],
+        "examples": [
+            "\"Spawn Points\" are explicitly used in both single player and multiplayer first-person shooters such as \"Quake\" and \"Return to Castle Wolfenstein: Enemy Territory\".",
+            "the classic arcade game \"Gauntlet\" has \"Spawn Points\", which will pour out monsters until the players destroy the monster generators.",
+            "many roleplaying games and massively multiplayer online games use \"Spawn Points\" for the player \"Avatars\" but also have spawn points for \"Enemies\".",
+            "\"Battlefield Vietnam\" offers some novel variations in S\"pawn Points\": vehicles that can be steered around the game area and tunnel exits that can be created by player actions."
+        ],
+        "usage": [
+            "Almost all games that use \"Spawning\" in \"Game Worlds\" or \"Levels\" make use of \"Spawn Points\". The main design choice to be made about \"Spawn Points\" is where to locate them. The suitable locations are usually restricted by a number of factors: what is being spawned, what is the intended \"Right Level of Difficulty\", and what should be chance for \"Surprises\" be. It may be of consequences whether the game uses \"Lives\", and how many \"Lives\" a player has left, when determining what \"Spawn Point\" will be used. Further, the effect of being able to do \"Camping\" close to \"Spawn Points\" should be considered when placing \"Spawn Points\".",
+            "Coordinated placement of \"Spawn Points\" belonging to opposing sides in team-based games can be used as \"Balancing Effects\" by placing them in equal relations to other \"Strategic Locations\", often by using \"Symmetry\"."
+        ],
+        "consequences": [
+            "\"Spawn Points\" are a form of \"Producers\" that define where \"Spawning\" occurs in \"Game Worlds\". \"Spawn Points\" are in themselves \"Strategic Locations\" as the introduction of new units appears there. They can challenge the \"Consistent Reality Logic\" as there may be no real world equivalents for such locations, an exception being \"Spawn Points\" located near the edge of the \"Game World\", which can represent access points to an expanded \"Game World\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "resource-generators",

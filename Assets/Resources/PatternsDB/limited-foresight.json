@@ -1,6 +1,25 @@
 {
     "name": "Limited Foresight",
-    "description": "Players have little knowledge of the next events in a game, or that they do not know what consequences they will have.",
+    "texts": {
+        "definition": "Players have little knowledge of the next events in a game, or that they do not know what consequences they will have.",
+        "description": [
+            "Games have undetermined outcomes when players start to play them, and often parts of gameplay likewise have outcomes that are not known beforehand by players. This \"Limited Foresight\" makes players have to perform actions without completely knowing the full consequences of them and lets them experience \"Surprises\" due to actions and events done by the game system or other players."
+        ],
+        "examples": [
+            "in \"Tetris\" players only know which the next piece will be and all future pieces are unknown, one piece being revealed at a time as players place the ones they have.",
+            "in \"Diplomacy\" concrete planning beyond the next move is difficult to do as the actions of all the other players are uncertain."
+        ],
+        "usage": [
+            "The two main ways of creating \"Limited Foresight\" for players is by limiting the game elements and information available through \"Imperfect Information\" or by making the game have less \"Predictable Consequences\" of future actions or events. Both of these can be achieve through \"Game Masters\" but several other ways exist to achieve one or the other.",
+            "Giving \"Imperfect Information\" about game elements can either be done through \"Closure Points\" or through lack of \"Game State Overview\". In the first case, players cannot gain access to the additional information until the gameplay as progressed beyond a certain threshold, for example by partitioning the game into \"Levels\". As players do not have to understand or use all information and possible actions in games constructed in this way, these games can have \"Smooth Learning Curves\" where the complexity of the game is increased in a structured fashion. In the second case, players may have potential access to all information at once, but have to do actions such as \"Exploration\" or \"Attention Swapping\" to get that information.",
+            "Ways of decreasing the \"Predictable Consequences\" in a game design include adding \"Randomness\" or setting the \"Right Level of Complexity\" high enough that not all future game states can be regarded, the latter creating the need for \"Puzzle Solving\". Another way is to make players have direct influence over the evaluation functions, for example by \"Player Decided Results\" or \"Player-Defined Distribution of Rewards &amp; Penalties.\""
+        ],
+        "consequences": [
+            "\"Limited Foresight\" is required for \"Illusion of Influences\" to exist as players have no influence in a game where there exists one optimal strategy or set of actions. Not being able to foresee events and effects gives players \"Limited Planning Ability\" but does not necessarily undermine \"Stimulated Planning\" as it may be possible to plan strategically or a few moves ahead. \"Analysis Paralysis\" is incompatible with \"Limited Foresight\" as the latter can bound \"Stimulated Planning\" so that the former cannot arise.",
+            "If players have \"Limited Foresight\" but can get more extensive foresight through getting information, the pattern guarantees the presence of \"Gain Information\" goals. These goals are especially valuable if the \"Limited Foresight\" regards information that has to do with \"Risk/Reward\" choices.",
+            "For \"Narrative Structures\" to contain \"Surprises\" they need players to have \"Limited Foresight\" regarding the story."
+        ]
+    },
     "relations": {
         "instantiates": [
             "surprises",

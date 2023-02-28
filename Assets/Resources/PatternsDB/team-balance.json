@@ -1,6 +1,24 @@
 {
     "name": "Team Balance",
-    "description": "Teams have equal chances of succeeding with actions in a game or winning a game.",
+    "texts": {
+        "definition": "Teams have equal chances of succeeding with actions in a game or winning a game.",
+        "description": [
+            "Games with teams are usually balanced the same way as games where players play against each others. This \"Team Balance\" is usually enforced only in the beginning of the game and does not usually take into consideration players' individual skills or how good they are at collaborating."
+        ],
+        "examples": [
+            "Common way of creating teams in friendly team games is to let two players alternate between choosing team members, thereby making it possible for the best and second best players to be in different teams and so on.",
+            "Some multiplayer online first-person shooters have systems for automatically arranging teams based on some value, commonly number of kills or experience points, so that the teams overall have equal scores in these values.",
+            "Changing sides after half-time in \"Soccer\" can be seen as a way to achieve balance between the teams by minimizing the influence of variations of the field or the sun."
+        ],
+        "usage": [
+            "Achieving \"Team Balance\" has many aspects in common with achieving \"Player Balance\", for example, by possibly being ruined by \"Privileged Abilities\" or being achieved through \"Handicap\", and consists of setting up a balanced starting position, and, if needed, having \"Balancing Effects\" during gameplay.",
+            "\"Team Balance\" can be enforced by creating total \"Player Balance\" between all players in all teams, but unless more than two teams are playing a game, \"Player Decided Results\" do not work, as votes, etc. tend to become draws when the teams have the same amount of players. However, \"Team Balance\" differs from \"Player Balance\" by being able to allow \"Orthogonal Unit Differentiation\" and individual \"Competence Areas\" and \"Privileged Abilities\" as long as these are present in all teams through \"Symmetry\". Further, in games with \"Player Killing\", teams can still continue to be balanced by the use of \"Spawning\"."
+        ],
+        "consequences": [
+            "\"Team Balance\" gives whole teams a \"Perceived Chance to Succeed\" and promotes \"Collaborative Actions\". It encourages \"Team Play\" as individual players' actions can give the team a lead and thereby \"Social Status\". Individual players may loose the feeling of \"Empowerment\" when \"Team Balance\" is present, either because their \"Competence Areas\" are countered by other players' disadvantages in the team or because \"Balancing Effects\" lessen the impact of their actions.",
+            "\"Team Development\" negatively affects \"Team Balance\" in the same way \"Character Development\" can negatively affect \"Player Balance\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "social-statuses",

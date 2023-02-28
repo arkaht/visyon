@@ -1,6 +1,22 @@
 {
     "name": "Leaps of Faith",
-    "description": "Making an action without any guaranteed, or visible, chance of success.",
+    "texts": {
+        "definition": "Making an action without any guaranteed, or visible, chance of success.",
+        "description": [
+            "Not all actions in games have predictable outcomes. When a player can see many potential ways of failing an action and no clear ways of how to succeed, performing the action anyway is a \"Leap of Faith\"."
+        ],
+        "examples": [
+            "the platform game \"Ghost'n'Goblins\" had places where the player could not see the other side of a chasm. In order to advance in the game the players had to jump out into the air hoping that there would be something to land on at the other side.",
+            "the negotiation game \"Intrigue\" has players bribe each other to get jobs in the castles of the other players' masters. However, bribed players do not have to follow promises, and giving bribes are \"Leaps of Faiths\" for the briber."
+        ],
+        "usage": [
+            "Designing \"Leaps of Faith\" consists of creating \"Irreversible Actions\" and creating situations where these actions do not have positive \"Predictable Consequences\", typically where players either risk being the victim of \"Betrayal\" or have difficulties performing \"Game World Navigation\". Possibilities for \"Betrayal\" can be created by \"Negotiation\" between \"Uncommitted Alliances\" or where \"Delayed Reciprocity\" exists. Difficulties in \"Game World Navigation\" can be due to \"Game State Overview\" or \"Imperfect Information\" caused by several different types of problems: \"Movement Limitations\", \"Obstacles\", and\"Inaccessible Areas\". These are usually combined with \"Deadly Traps\" at the location where the \"Leap of Faith\" is intended to happen in order to create \"Tension\" and \"Risk/Reward\"."
+        ],
+        "consequences": [
+            "\"Leaps of Faith\" are acts consisting of \"Irreversible Actions\", or what is perceived as such, with few \"Predictable Consequences\". As such, they are results of \"Risk/Reward\" choices and easily create \"Tension\". As players doing these actions have a little \"Perceived Chance to Succeed\" the \"Leaps of Faith\" that result in advantageous outcomes are usually \"Surprises\" and may be used to advance a \"Narrative Structure\". \"Leaps of Faith\" actions have low \"Replayability\" since \"Surprises\" have problems co-existing with \"Save-Load Cycles\".",
+            "\"Leaps of Faith\" actions can emerge from games where players have little \"Game State Overview\" and players start to do \"Experimenting\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "surprises",

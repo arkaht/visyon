@@ -1,6 +1,23 @@
 {
     "name": "King of the Hill",
-    "description": "Reaching and keeping a sought for game state that other players are trying to reach and keep.",
+    "texts": {
+        "definition": "Reaching and keeping a sought for game state that other players are trying to reach and keep.",
+        "description": [
+            "Some games not only have all players competing against each other towards a goal, but let the other players continue to try and achieve that goal after the first player has reached it, and making the completion of the goal by another player make the first player lose an advantage associated with reaching the goal. \"King of the Hill\" is the goal where players strive towards goals consisting of reaching and maintaining an achieved position in relation to the other players. The goal can either be to keep the game state for a certain amount of time or to simply keep it as long as possible."
+        ],
+        "examples": [
+            "Some game variants of \"Battlefield 1942\" have positions on the maps that when held for a certain period of time depletes \"ticks\" from the other team.",
+            "The board game \"Junta\" lets the president control how foreign aid money is distributed to the players. This position, although dangerous, is often sought for by all players since the ownership of money is the prerequisite for winning the game."
+        ],
+        "usage": [
+            "Defining a \"King of the Hill\" goal consist of choosing an \"Interferable Goal\" that is also a \"Continuous Goal\", and how to \"Reward\" the player that maintains the goal. The \"Interferable Goal\" in the archetypical \"King of the Hill\" is \"Guard\" but one can also make use of \"Gain Ownership\", \"Alignment\", \"Enclosure\", or \"Connection\". The players who do not have achieved the goal state should have \"Preventing Goals\". The start of the competition between players with \"King of the Hill\" goals usual have no player holding the game state, but one way of giving \"Handicap\" is to let one player start with the desired state. The typical winning condition of \"King of the Hill\" goals is determined by comparing \"Scores\" but \"Lives\" can also be used, especially if all players except one runs out of them.",
+            "For choosing the \"Reward\", two main alternatives exist: either continuously rewarding the player, usually through raising the player's \"Score\" or \"Damage\" to the other players, or by giving the other players a \"Time Limit\" before changing a value in a game state. The latter case typically takes longer time to fulfill and represents a large closure but also a larger \"Investment\". The choice between the two typically modulates the \"Risk/Reward\" of the \"King of the Hill\" goal."
+        ],
+        "consequences": [
+            "\"King of the Hill\" gives players \"Symmetric Goal\" and \"Incompatible Goals\", and as gameplay is built around the changes between defending a position and challenging it, the goal is a \"Continuous Goal\" that naturally supports \"Role Reversal\". When the goal is defined in such a way that a minority of the players, typically one, can have the position while a majority cannot, \"King of the Hill\" has a \"Balancing Effect\" and typically promotes \"Dynamic Alliances\". \"King of the Hill\" can be used for \"Team Play\" by allowing several players to have the sought after goal and by making the completion of the goal depend on game state states that refer to a team rather than an individual player, e. g. marking flags in \"Battlefield 1942\" with the team's color and letting the color remain until a member of the enemy team has been near the flag for a certain amount of time.",
+            "As \"King of the Hill\" puts one player in a position where other players either are disadvantaged or seek to replace the player to gain the advantage of the position themselves, having \"King of the Hill\" creates \"Competition\" and \"Conflict\" between the players. Further, as the \"King of the Hill\" benefits as long as the state is maintained, it puts the other players under \"Tension\" to change the state as quickly as possible."
+        ]
+    },
     "relations": {
         "instantiates": [
             "continuous-goals",

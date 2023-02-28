@@ -1,6 +1,22 @@
 {
     "name": "Team Development",
-    "description": "The efficiency of the team is improved either intentionally or unintentionally.",
+    "texts": {
+        "definition": "The efficiency of the team is improved either intentionally or unintentionally.",
+        "description": [
+            "The measurement of team efficiency depends a lot on the game itself but also on the playing style of the players. \"Team Development\", however, is most evident in games where there is a possibility to somehow quantify the efficiency of the team either in absolute terms or in relation to other teams. Even in these cases it is possible to set other standards of measuring team efficiency, for example by assessing how well the team members get along with the rest of the team outside the game. Part of the \"Team Development\" can be to manage which players should be part of the team."
+        ],
+        "examples": [
+            "the player characters' skills and abilities can be improved with experience in \"Return to Castle Wolfenstein: Enemy Territory\". Some teams plan ahead how to improve the team members' skills in such way that it is beneficial to the whole team and not just for the individual player.",
+            "many teams and groups in roleplaying games try to maximize the efficiency of the team by selecting characters with complementary skills and by planning how the skills and abilities of the characters are improved over time."
+        ],
+        "usage": [
+            "\"Team Development\" is a form of \"Resource Management\" where the \"Resources\" involved are the players and their \"Skills\" and abilities. This \"Resource Management\" aspect of \"Team Development\" is heightened if the players or some of the players can choose what kinds of \"New Abilities\" and \"Improved Abilities\" the players acquire. In games with more complex \"Character Development\" possibilities, \"Team Development\" can give rise to player roles within the team, which are only responsible for the \"Resource Management\" of the team. These kinds of teams naturally form \"Social Organizations\" with stable role differentiation and \"Competence Areas\", and hierarchies of status and power."
+        ],
+        "consequences": [
+            "\"Team Development\" is often \"Resource Management\" in a game or a \"Meta Game\" to other games. In some games, especially in MMORPGs, the composition management is part of the usual gameplay itself and in these cases the teams are often \"Dynamic Alliances\". Players' \"Character Development\" can also be part of the \"Meta Game\" as \"Extra-Game Actions\", allowing more time for the planning of the \"Team Development\". Although, improving the \"Skills\" of individual players is one way to support the efficiency of the whole team, such individual development of \"Competence Areas\" may disrupt or at least modulate \"Team Balance\". If the \"Team Balance\" goes out of sync, for example by increasing the \"Skills\" of one player too much, the efficiency of the whole team usually suffers.",
+            "Games supporting \"Team Development\" tend to have higher player commitment especially if the players have at least a certain \"Freedom of Choice\" to participate in the planning of \"Team Development\". This might be because the players perceive both the individual \"Character Development\" and the \"Team Development\" as forms of \"Investments\" which necessarily require long-term commitment from the players."
+        ]
+    },
     "relations": {
         "instantiates": [
             "meta-games"

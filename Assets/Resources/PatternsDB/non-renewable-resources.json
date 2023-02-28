@@ -1,6 +1,26 @@
 {
     "name": "Non-Renewable Resources",
-    "description": "The amount of resources available in the game is determined at the start of the game and these resources cannot be renewed once they are exhausted.",
+    "texts": {
+        "definition": "The amount of resources available in the game is determined at the start of the game and these resources cannot be renewed once they are exhausted.",
+        "description": [
+            "Some resources in games all exist at the beginning of game sessions and are not replaced as they are used. These \"Non-Renewable Resources\" thereby have a fundamentally higher value than resources that are replenished, and the use of \"Non-Renewable Resources\" is a greater commitments than use of other resources."
+        ],
+        "examples": [
+            "in \"Chess\" each player has sixteen pieces, which cannot be brought back to game after being captured.",
+            "the amount of wood, food, and other basic resources in \"Age of Empires\" is determined at the start and is not renewed during the game. The players can, and often do, exhaust these stockpiles forcing the players to seek out new resource stockpiles during the game."
+        ],
+        "usage": [
+            "\"Non-Renewable Resources\" can be used in two main ways based on the \"Ownership\" of the \"Resources\" or \"Units\". The first option is to give each of the players a certain amount of \"Non-Renewable Resources\". For example, at the start of a deathmatch in a first-person shooter each of the players only get six bullets and there is no way to get more. Modification of the amount of these \"Resources\" available to the players can be used to achieve \"Player Balance\" through providing a \"Handicap\". The other option is to make the \"Resources\" non-renewable from the game system point of view, but give the players a possibility to replenish their resources. Modifying the first-person shooter example to this option would mean that there are some bullets in the form of \"Pick-Ups\" lying around the game arena, which are not replenished during the game. If players can pick up unused bullets from the bodies of killed players, they are \"Renewable Resources\" in a limited sense through \"Transfer of Control\" but from the overall game perspective the bullets are \"Non-Renewable\" \"Resources\". Usually this option can lead to \"Varied Gameplay\" as the players have subgoals to gain more resources during the game.",
+            "The most direct way to impose a \"Time Limit\" on the game instance and game sessions is to make the \"Resources\" used in the players' basic actions nonrenewable and use the loss of these resources as an end condition of either the whole game instance or just the player's game session. For example, when all the \"Tiles\" in Carcassonne are used the game instance ends and the \"Score\" is calculated for each of the players.",
+            "The game can, of course, contain both \"Renewable\" and \"Non-Renewable Resources\", if they are different \"Resources\" or if the \"Ownership\" of the \"Resource\" has an effect on the status of the \"Resource\".",
+            "\"Cards\" are one form of \"Non-Renewable Resources\" that can be use to create \"Randomness\" with the characteristic that each type of outcome can be guaranteed to occur a predefined number of times."
+        ],
+        "consequences": [
+            "\"Non-Renewable Resources\" are a natural way to impose a \"Time Limit\" on game instances as the players' actions exhaust the \"Resources\". They also create \"Higher-Level Closures as Gameplay Progresses\" since the value of \"Resources\" increase with their rarity as long as the functionality they provide is at least as important in late gameplay as in earlier gameplay. \"Non-Renewable Resources\" are also automatically \"Limited Resources\" and make \"Transfer of Control\" actions regarding these more valuable than other \"Transfer of Control\" actions. \"Non-Renewable Resources\" that are part of \"Closed Economies\" may be perceived as being \"Renewable Resources\" to the players although it is actually the same \"Resources\" which are recycled.",
+            "\"Non-Renewable Resources\" that are consumed by actions make \"Experimenting\" costly in games, and promote \"Puzzle Solving\" to be done by abstract reasoning rather than external cognition through manipulation of game elements.",
+            "The use of depletion of \"Non-Renewable Resources\" as end conditions for goals or games can create \"Tied Results\" since the end conditions is not explicitly tied to a winning condition."
+        ]
+    },
     "relations": {
         "instantiates": [
             "closed-economies",

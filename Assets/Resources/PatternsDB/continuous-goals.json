@@ -1,6 +1,25 @@
 {
     "name": "Continuous Goals",
-    "description": "Goals that require the player to maintain a subset of a certain game state within certain limits.",
+    "texts": {
+        "definition": "Goals that require the player to maintain a subset of a certain game state within certain limits.",
+        "description": [
+            "Continuous Goals are goals which are achieved by making sure a given condition is maintained for a certain period of time. Rather than just having to fulfill a condition at a specific point in gameplay, the player must ensure that the condition is not broken through passiveness, game events, or other players' actions. Many, if not most, of the games having \"Continuous Goals\" also have as subgoal to first reach the required game state condition of the \"Continuous Goal\"."
+        ],
+        "examples": [
+            "Multiplayer first-person shooters such as \"Battlefield 1942\" have modes where teams score points (or reduce ticks from the opposing team) by controlling strategic locations.",
+            "the goal for the king in \"King of the Hill\" is to maintain the game state of being the king while the other players have the goal of changing that game state. The same situation appears in \"Tag\", but reversed; the chasing player, \"it\", has a goal to change the game state by role reversalwhile the other players try to maintain the state."
+        ],
+        "usage": [
+            "\"Continuous Goals\" can easily be constructed by modifying the scoring mechanics of a goal so that they do not depend on the fulfillment of a game state but rather on maintaining a game state. \"Preventing Goals\" are \"Continuous Goals\" since basically they are defined as maintaining the game state which is the inversion of the game state of the goal to be prevented. Examples of \"Continuous Goals\" are \"Reconnaissance\", \"Guard\", and \"King of the Hill\", of which the two latter make use of \"Goal Points\". Other examples are maintaining \"Indirect Control\" of game elements or \"Area Control\" of parts of the \"Game World\". \"Planned Character Development\" is a \"Continuous Goal\" since it usually requires many actions and subgoals to be perform while continually striving for the goal. \"Continuous Goals\" can also be defined negatively, e. g. as not performing an otherwise possible and maybe beneficial action.",
+            "Unless there is a risk of the game state to be lost, \"Continuous Goals\" can become uninteresting. This can be avoided by making the \"Continuous Goal\" also be a \"Preventing Goal\". A typical way to create this risk is to use \"Survive\" as a \"Continuous Goal,\" which is a \"Preventing Goal\" to other players' \"Eliminate\" goal.",
+            "\"Continuous Goals\" can be completed if they are combined with \"Preventing Goals\" or if they are limited by \"Time Limits\" but not all \"Continuous Goals\" have end conditions. These latter kinds of \"Continuous Goals\" are usually \"Races\" between players were the level of success of the \"Continuous Goal\" determines the winner of the race. This can be achieved by measuring and comparing how long a player has been able to maintain the required game state compared to other players.",
+            "\"Continuous Goals\" modulate the use of \"Penalties\" and \"Rewards\" by threatening with \"Penalties\" as soon as the player fails some action while waiting with \"Rewards\" until some additional requirement is met. For example, players may be threatened by \"Ability Losses\" if failing the \"Continuous Goal\" of keeping \"Units\" alive but do not have any explicit end conditions which led to \"Rewards\" specifically for keeping the \"Units\" alive."
+        ],
+        "consequences": [
+            "\"Continuous Goals\" create natural \"Hierarchies of Goals\" with the goal of achieving the game state that is to be maintained in the \"Continuous Goal\". These goals are a way to expand the \"Tension\" of a non-continuous goal; although the closure of achieving the game state of the latter still exists, this is primarily a prerequisite for the \"Continuous Goal\" and the player must continue to struggle to benefit from the achievement. This can either require player to make explicit \"Extended Actions\" or perform a number of different actions, which can be seen as implicit compound \"Extended Actions\", that maintain the game state within certain boundaries.",
+            "\"Continuous Goals\" are by nature \"Hovering Closures\". If the player can affect the game state so that the \"Continuous Goal\" no longer is maintained, this can be seen as a deliberate \"Hovering Closure\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "hierarchy-of-goals",

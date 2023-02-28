@@ -1,6 +1,24 @@
 {
     "name": "Geometric Rewards for Investments",
-    "description": "The possible rewards grow in geometric fashion compared to the invested resources, that is, if the investment is doubled the comparable reward is more than doubled.",
+    "texts": {
+        "definition": "The possible rewards grow in geometric fashion compared to the invested resources, that is, if the investment is doubled the comparable reward is more than doubled.",
+        "description": [
+            "\"Geometric Rewards for Investments\" are those rewards in games where the growth of the reward in not linear but instead grows with every resources used to gain them. \"Geometric Rewards for Investments\" discourages players to split resources into several smaller investments in favor of one large investment as the combined rewards of two lesser investments are always smaller than the reward of the larger investment using the same amount of resources."
+        ],
+        "examples": [
+            "in \"Tetris\" the reward in points for removing more than one row at the time increase in geometric fashion.",
+            "in \"Bohnanza\", a card game involving trade and luck, collecting more similar cards before cashing them in for victory points gives \"Geometric Rewards for Investments\" for some types of cards: 2 points for 2 similar cards, 4 points for 3 similar cards and so on."
+        ],
+        "usage": [
+            "Unlike \"Arithmetic Rewards for Investments\", the functions used for\"Geometric Rewards for Investments\" to determine the relationship between the \"Resources\" and \"Rewards\" of \"Investments\" are not linear. Thereby, these types of \"Investments\" are incompatible with both \"Arithmetic Rewards for Investments\" and \"Diminishing Returns\". Using \"Geometric Rewards for Investments\" together with increasing the \"Risk/Reward\" factor gives the players more interesting choices, by increasing the uncertainties for getting the \"Reward\". This can be used as a sort of a player perceived \"Balancing Effect\" where the players who are lagging behind in the progress have a chance to reach the leading players but with the drawback of increased risks. Of course, the leading players can also increase the lead in a similar fashion unless some other kind of \"Balancing Effect\" is introduced, for example, by not allowing the leading players to make these kinds of \"Investments\".",
+            "\"Geometric Rewards for Investments\" instantiates \"Hovering Closure\", especially when used together with \"Collecting\". Compared to \"Arithmetic Rewards for Investments\" players are more likely to have strong commitments to subgoals with \"Geometric Rewards for Investments,\" and this may be used to increase \"Tension\". \"Geometric Rewards for Investments\" also forces the players to plan the \"Timing\" of the \"Investments\" more carefully than with \"Arithmetic Rewards for Investments\"."
+        ],
+        "consequences": [
+            "\"Geometric Rewards for Investments\" give the players an incentive to focus their \"Resources\" or attention to certain activities, for example \"Collecting\" more \"Resources\" of the same kind. This can also be used as an incentive for the players to do \"Trading\" with other players or other actions that have the effect of \"Transfer of Control\" events.",
+            "The design choices with \"Geometric Rewards for Investment\" are mainly similar to \"Investments\" in general. The main differences, however, is the increased incitement to choose an artificial maximum amount that can be invested or to create an abrupt cutoff point where further \"Investments\" have \"Diminishing Returns\". The main reason for the increased possibility for these design choices lie in the fact that \"Geometric Rewards for Investment\" gives \"Rewards\" that grow exponentially and create problems in \"Player Balance\".",
+            "Although \"Investments\" are often made by committing \"Resources\", \"Extended\" \"Actions\" and \"Combos\" are actions that can merit \"Geometric Rewards for Investments\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "timing"

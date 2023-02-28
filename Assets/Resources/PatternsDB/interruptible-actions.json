@@ -1,6 +1,24 @@
 {
     "name": "Interruptible Actions",
-    "description": "Actions that can be interrupted before they affect the game state.",
+    "texts": {
+        "definition": "Actions that can be interrupted before they affect the game state.",
+        "description": [
+            "Just because players have performed, or started to perform, actions does not mean that they will affect the game state. Games that allow actions to be interrupted before they affect the game state, either partially or fully, have \"Interruptible Actions\"."
+        ],
+        "examples": [
+            "Most fighting games allow players to block opponent's attacks, effectively making the attacks interruptible.",
+            "In \"RoboRally\", players choose how their robots should move by deciding a sequence of programming cards. These are the actions the robot will perform, but since other robots' movement may push the robot around, the intended actions are interruptible."
+        ],
+        "usage": [
+            "In \"Real-Time Games\", \"Interruptible Actions\" are either \"Extended Actions\" with \"Delayed Effects\", so that other actions can be performed before the effect of the \"Interruptible Actions\" takes place, or that the interrupting actions can be started before the \"Interruptible Actions\". In \"Turn-Based Games\", special \"Turn Taking\" sequences may be necessary to describe in rules for how actions can be interrupted, even though these sequences are skipped in many turns.",
+            "\"Interruptible Actions\" can be used to modulate \"Irreversible Actions\" so that permanent effects on the game state cannot be initiated by one player without other players having a chance to affect this, thus providing \"Balancing Effects\" in games. This is common in fighting games where players can block attacks or interrupt \"Combos\".",
+            "In games with \"Negotiation\", for example \"Trading\", having the \"Negotiation\" be an \"Interruptible Action\" allows several parts to simultaneously engage in \"Negotiation\" and lets them immediately respond to the proposals of other players.",
+            "Being able to interrupt an action can be a \"Privileged Ability\". This is most common in card games but can also be found in situations where judges are used to modulate \"Negotiation\". Depending on the game, it may be allowed to interrupt \"Storytelling\" and this can be used to make the story into a collaborative action."
+        ],
+        "consequences": [
+            "As completing an \"Interruptible Action\" can be a goal in itself, all \"Interruptible Actions\" spawn \"Interferable Goals\". In a case where players have multiple \"Focus Loci\", \"Interruptible Actions\" that are also \"Extended Actions\" may require players to perform \"Risk/Reward\" choices on how much \"Attention Swapping\" is necessary to ensure completion of the actions."
+        ]
+    },
     "relations": {
         "instantiates": [
             "attention-swapping",

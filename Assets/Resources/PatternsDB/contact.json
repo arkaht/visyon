@@ -1,6 +1,23 @@
 {
     "name": "Contact",
-    "description": "The goal of having two or more elements have physical contact with each other.",
+    "texts": {
+        "definition": "The goal of having two or more elements have physical contact with each other.",
+        "description": [
+            "This is the goal to make one game element touch or occupy the same place as another game element. The goal is very common as it is typically used to indicate the success of goal to \"Eliminate\", \"Gain Ownership\" or \"Gain Information\". Taking the power pills in Pac-Man, capturing pieces in \"Chess\", picking up items in adventure games, crossing the end line in a racing game, hitting an opponent in a fighting game, and shooting an enemy in a first-person shooter can all be seen as examples of fulfilling the \"Contact\" goal."
+        ],
+        "examples": [
+            "Chasing games, such as \"Tag\", are probably the best known games employing \"Contact\" as a basic goal."
+        ],
+        "usage": [
+            "\"Contact\" by itself is not normally used as a stand-alone goal. Instead, \"Contact\" is often used to define the end condition of another goal patterns or to activate \"Area Control\" actions. Examples of patterns used in combination with \"Contact\" include \"Herd\", \"Capture\", \"Evade\", \"Eliminate\" and \"Gain Ownership\". The presence or absence of \"Contact\" is a basic way to formulate a Boolean condition for collections of \"Incompatible Goals\", as for example in the \"Role Reversal\" of the \"Capture\" and \"Evade\" goals in \"Tag\".",
+            "What actually defines \"Contact\" does not have to be interpreted literally; \"Contact\" can have the requirement that being under a certain distance from a game element, i. e. being in the proximity of it, can be seen as a use of \"Contact\". As this may be more difficult to judge, this may make the game have less \"Predictable Consequences\"."
+        ],
+        "consequences": [
+            "\"Contact\" implies the use of a game space topology with concepts of nearness, direction and occupying a place. The space does not have to be continuous or what the player experiences as continuous; it can also be discrete as in the case of a \"Chess\" board. The actions or moves to achieve \"Contact\" do not have to be continuous either but can consist of leaps, such as moving the knight in \"Chess\". When \"Contact\" is achieved through movement, it can be seen as being instantiated by \"Traverse\".",
+            "The direction of \"Contact\" may dictate the consequences: in the Mario series of games jumping on turtles from above immobilizes them for awhile while coming in direct horizontal \"Contact\" makes Mario loses energy or a life.",
+            "The fulfillment of a \"Contact\" goal is usually its own \"Status Indicator\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "incompatible-goals",

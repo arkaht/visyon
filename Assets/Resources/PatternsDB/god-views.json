@@ -1,6 +1,21 @@
 {
     "name": "God Views",
-    "description": "Players are given a view of the game independent of game elements",
+    "texts": {
+        "definition": "Players are given a view of the game independent of game elements",
+        "description": [
+            "Some games do not associate the user's focus of attention in a game with any particular game element. In these games the view the user has of the game is likewise independent of game elements, similar to the omniscience of a \"God Views\"."
+        ],
+        "examples": [
+            "\"SimCity\" allows players to move around the city without having to consider the locations of any individual game element such as cars or pedestrians.",
+            "\"Populous\", as an example of a god game unsurprisingly provides players with \"God Views.\""
+        ],
+        "usage": [
+            "Similar to \"Third-Person Views,\" games with \"God Views\" that require \"Imperfect Information\" about the terrain in the \"Game World\" must either use \"Fog of War\" or divide the game area into sections. The use of \"God Views\" does not have to be omnipotent; the view of a \"Game World\" can easily be restricted by restricting the movement and direction of the \"Camera\" use to provide the \"God View\"."
+        ],
+        "consequences": [
+            "\"God Views\" provide \"Game State Overviews\" which can easily and quickly be moved, making them ideal for \"Attention Swapping\" but hinder \"Spatial Immersion\" and make \"Aim &amp; Shoot\" actions difficult. They do not easily work with \"Avatars\" as the link between player attention and the \"Avatar\" is weak, and thereby the possibilities of \"Emotional Immersion\" are low. Sometimes \"Public Information\" uses \"God Views\" to provide the \"Spectators\" with more information than is given to the players."
+        ]
+    },
     "relations": {
         "instantiates": [
             "game-state-overview"

@@ -1,6 +1,26 @@
 {
     "name": "Score",
-    "description": "Score is the numerical representation of the player's success in the game, often not only representing the success but also defining it.",
+    "texts": {
+        "definition": "Score is the numerical representation of the player's success in the game, often not only representing the success but also defining it.",
+        "description": [
+            "Having a \"Score\" value for each player allows the players to easily determine the leader or the winner of the game; the \"Score\" value also allows players to compare \"Scores\" between different games and to calculate outcomes of tournaments. Many games give players several different ways to gain \"Score\" points to promote different tactics."
+        ],
+        "examples": [
+            "\"Pac-Man\" gives players three different possibilities to gain points: eating pills, capturing ghosts while under the effect of a power pill, or collecting the bonus object when it appears. The player's \"Score\" is shown in the upper part of the screen next to the current high \"Score\"."
+        ],
+        "usage": [
+            "The two fundamental choices to be made when creating a \"Score\" system is first to determine which actions or goals give points and then to decide how large these amounts are. Examples of simple scoring goals include reaching a \"Pick-Up\" first (thus modulating a \"Collecting\" activity or a \"Gain Ownership\" goal) or successfully completing a \"Dexterity-Based Action\" or an action requiring \"Timing\". More complex scoring goals can depend on the distribution of \"Resources\" between the players or completed \"Collections\". In games with \"Role Reversal\", different possibilities to \"Score\" may exist for different roles, but the use of \"Score\" can provide players with means to continue striving towards goals independent of their current role. The possibility of using \"Tiebreakers\", commonly another form of \"Score\" systems, should also be considered when designing a \"Score\" system, as \"Score\" systems usually allow for \"Tied Results\" unless explicitly designed to make them impossible.",
+            "Besides affecting \"Player Balance\", the choice of actions and goals that give points can be used to control the overall flow of the gameplay during a game session. This can be done by giving different points for the same achievements depending on when in the game it is achieved, which will encourage the players either to haste or wait; to reward certain types of actions and goals, e. g., \"Eliminate\" goals and \"Player Elimination\"; or to reward the use of actions requiring \"Non-Renewable Resources\" to limit the players' \"Freedom of Choice\" as the game progresses.",
+            "Allowing the players to gain\"Score\" points for different kinds of goals expands the players' \"Freedom of Choice\" and promotes \"Varied Gameplay\" and \"Replayability\".",
+            "Another important consideration is to determine whether the \"Scores\" of the players are \"Symmetric Information\" that should, or should not, be available to all players. If the \"Score\" values themselves are known, they provide a \"Game State Overview\" and can give rise to \"Dynamic Alliances\" where the players actively work together against the leader, thereby achieving a \"Balancing Effect\". However, this can cause \"Analysis Paralysis\" and prevents the \"Tension\" of not knowing who the leader is and the possible \"Surprise\" of an unpredicted winner.",
+            "One simple way of letting players of \"Single-Player Games\" compete against themselves or each other is to let them compare \"Scores\". The typical way to explicitly support this in games is to use \"High Score Lists\". As this requires that the game is played several times, such designs promote \"Replayability\"."
+        ],
+        "consequences": [
+            "Having \"Scores\" in games can be seen as an instantiation of an abstract \"Race\". When outcomes are determined by who first reaches a certain \"Score\", this creates a normal \"Race\", but when outcomes are based on having the highest \"Score\", the goal of achieving this becomes a \"Continuous Goal\". The\"Score\" is used this way as both \"Progress Indicator\" and \"Status Indicator\".",
+            "The use of a \"Score\" system promotes \"Stimulated Planning\" as players, given sufficient information, can calculate numerically optimal tactics not only for themselves, but also for the other players. \"Score\" is typically the information from a game state that can be used as \"Trans-Game Information\" or provide \"Extra-Game Consequences\" in \"Meta Games\" such as \"Tournaments\" and \"Highscore Lists\". It can also be used to give \"Handicaps\" by giving some players a bonus to their \"Scores\". Some games use the \"Score\" as a \"Resource\" to perform actions, for example, to determine order in \"Turn Taking\", while others base \"Scores\" on \"Resources\", and completely linking \"Score\" to \"Resources\" is possible. This requires the players to see these kinds of actions as \"Investments\" and make \"Risk/Reward\" calculations, especially in games, which are parts of \"Meta Games\".",
+            "The use of \"Save-Load Cycles\" and \"Save Points\" make the use of \"Score\" irrelevant to some degree, as players can repeat parts of the game until they reach a \"Score\" they are satisfied with."
+        ]
+    },
     "relations": {
         "instantiates": [
             "continuous-goals",

@@ -1,6 +1,25 @@
 {
     "name": "Constructive Play",
-    "description": "Constructive Play is based on putting game elements together to construct new kinds of game element configurations, which might have different emergent characteristics.",
+    "texts": {
+        "definition": "Constructive Play is based on putting game elements together to construct new kinds of game element configurations, which might have different emergent characteristics.",
+        "description": [
+            "Games provide \"Constructive Play\" when the actions available in games allow players to construct compound game elements or even set their own goals. The different features of \"Constructive Play\" such as requiring and enhancing imagination, promoting experimental problem solving, and training sensory-motoric skills can all be made part of required challenges in games."
+        ],
+        "examples": [
+            "The gameplay of \"The Incredible Machine\" is based on putting different game elements, such as conveyer belts, cats, and hamsters, together to solve specific puzzles containing dynamic parts. These puzzles are designed in such a way that there is no single correct way to solve them.",
+            "\"SimCity\", along with the other games in the \"Sim\" series, is almost purely based on \"Constructive Play\".\"SimCity\" does not even have predefined explicit goals so that the players may engage in \"Constructive Play\" even in defining their own goals.",
+            "\"SodaPlay\" (\"http://www. sodaplay. com\") allows players to build models out of mass points, which can be connected with springs. The system also allows the players to change parameters of the world such as gravity and friction. The players can then let these models loose in animated simulations. Even though the basic elements of the system are simple, the possible combinations are huge."
+        ],
+        "usage": [
+            "\"Constructive Play\" can be created by providing \"Construction\" actions in games, requiring \"Team Play\", supporting \"Cooperation\" and \"Collaborative Actions\", or giving players \"Creative Control\".",
+            "For \"Creative Control\" cases of \"Constructive Play\", the \"Right Level of Complexity\" of possible combinations of the game elements used should be large enough to support unobvious \"Construction\" s. This is usually accomplished in such a way that there are quite a number of different ways of putting two game elements together and that it is possible to add game later. It is often the case that the more elements there are in the configuration, the more ways of adding new elements exist. Excellent examples are Lego blocks: they are relatively simple, but there are several ways of putting two of them together; it is possible to add other blocks to the configuration; and the ways of adding new blocks grow almost exponentially, creating a nearly inexhaustible combination space for constructing different things from these simple blocks.",
+            "Dynamic systems, such as the cities in \"SimCity\" and the walkers in \"SodaPlay\", bring in another layer of \"Cognitive Immersion\", as the player cannot necessarily predict how the system works without \"Experimenting\" with it. Digital games offer much better possibilities for constructing such dynamic systems than traditional elements do, as computers can handle the complex and fundamentally uninteresting basic relations between elements. The constructed dynamic systems can be made even more interesting by giving the different game elements not only different ways of connecting to other elements but also \"Asymmetric Abilities\", such as the different buildings in \"SimCity\".\"Team Play\" is by its nature a dynamic system and can use \"Asymmetric Abilities\" between players in the same fashion to create the \"Right Level of Complexity\"."
+        ],
+        "consequences": [
+            "\"Constructive Play\" is closely related to \"Experimenting\", especially in cases where the amount of possible combinations is large and the \"Construction\" itself incremental. The manipulation of the game elements used in \"Constructive Play\" can cause some levels of \"Sensory-Motoric Immersion\", especially in cases where the game elements have appealing visual, tactile, or other sensory features, which can be manipulated. The constructions themselves created during \"Constructive Play\" can give rise to even aesthetic pleasures. \"Constructive Play\", where there are at least some elements of problem solving or goal orientation, is also associated with \"Cognitive Immersion\" as the players have to think ahead and both experiment mentally and physically with different ways of solving the problem or reaching the goals.",
+            "\"Constructive Play\" can in some cases lead to \"Player Constructed Worlds\" and the \"Construction\" itself can be either a specific mode of play or can be intertwined with the actual gameplay. For example, the text-based MUDs were places where some of the players construct the worlds while the other players play in the worlds."
+        ]
+    },
     "relations": {
         "instantiates": [
             "cognitive-immersion"

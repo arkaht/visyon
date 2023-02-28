@@ -1,6 +1,21 @@
 {
     "name": "Alarms",
-    "description": "Alarms are abstract game elements that provide information about particular game state changes.",
+    "texts": {
+        "definition": "Alarms are abstract game elements that provide information about particular game state changes.",
+        "description": [
+            "\"Alarms\" are turned on and off either by manipulating explicit game elements or by inherent actions of the game elements. \"Alarms\" can, for instance, show if a forbidden area has been entered or if a certain game elements have been manipulated."
+        ],
+        "examples": [
+            "Some team-based first-person shooters, such as \"Return to Castle Wolfenstein: Enemy Territory\", include \"Alarms\" to inform the players about events that are relevant on a team level, e. g., that a particular goal has been completed or that a certain activity has been initiated by the other team."
+        ],
+        "usage": [
+            "The main design choices for \"Alarms\" are how they are tripped and what \"Outstanding Features\" they set off. Further when designing \"Alarms\", the designer may choose either explicit \"Tools\" or \"Controllers\" to manipulate the \"Alarms\" or to have the manipulation of the \"Alarms\" as \"Privileged Abilities\" for certain types of \"Avatars\" or \"Units\". Using \"Tools\" or \"Controllers\" increases the complexity of the game by allowing such possibilities as deactivating the \"Alarm\" when it should not be deactivated, \"Bluffing\" by raising erroneous \"Alarms\", and preventing the raising of \"Alarms\" by destroying the means to activate them. All these actions increase the player's \"Freedom of Choice\" but may make it more difficult to guarantee the coherent \"Narrative Structure\" of the game. Having \"Avatars\" or \"Units\" with \"Privileged Abilities\" to raise \"Alarms\" may avoid this problem but may break the \"Consistent Reality Logic\".",
+            "The activation of the \"Alarm\" can signify the failure of a \"Stealth\" or \"Reconnaissance\" goal but can also make the completion of it more difficult by imposing a \"Penalty\". This \"Penalty\" is often a \"Time Limit\", the introduction of new \"Enemies\", or directing existing \"Enemies\" to the area where the \"Alarm\" was raised."
+        ],
+        "consequences": [
+            "\"Alarms\" are ways to pass information about activities and states within a game, and as such provide a \"Game State Overview\". When activated by players, an \"Alarm\" notifies the players that they have been detected, and this can explain changes in the behavior of \"Enemies\" or the introduction of new \"Enemies\" within the \"Consistent Reality Logic\" of the game. When activated by others, \"Alarms\" can notify players of \"Enemies\" activities. In both cases, raised \"Alarms\" cause \"Disruption of Focused Attention\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "disruption-of-focused-attention"

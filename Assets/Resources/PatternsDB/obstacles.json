@@ -1,6 +1,24 @@
 {
     "name": "Obstacles",
-    "description": "Obstacles are game elements that hinder the players from taking the shortest route between two places.",
+    "texts": {
+        "definition": "Obstacles are game elements that hinder the players from taking the shortest route between two places.",
+        "description": [
+            "Often the \"Obstacles\" can be moved, destroyed, or avoided by specific actions but until this has been done (and it has become possible to do so), the \"Obstacles\" slow or block the players' progress in the game."
+        ],
+        "examples": [
+            "The typical \"Obstacles\" in adventure games are locked doors, which can only be opened with a correct key, for example, the locked doors of \"The Legend of Zelda: Wind Waker\" require keys."
+        ],
+        "usage": [
+            "The choice of an \"Obstacle\" determines how players can bypass it, if at all. \"Obstacles\" that block the way to \"Inaccessible Areas\" are often also \"Controllers\", which support an action to remove the \"Obstacle\" but also require a specific \"Resource\" or \"Tool\". \"Obstacles\" can be \"Outstanding Features\" when placed alone or given different visual appearance to other \"Obstacles\".",
+            "Typically, \"Obstacles\" that do not act as boundaries for \"Inaccessible Areas\" can be avoided by taking a longer route, even if it is simply walking around a boulder or tree. The \"Obstacle\" may not necessarily block the passage through it, but can make the movement slower or cause damage or deplete \"Resources\". Note that an \"Obstacle\" can also be a larger area, for example, a chasm or a pit.",
+            "Skillful players can often bypass more than one \"Obstacle\" at the same time, and without requiring more \"Resources\" than needed for an \"Obstacle\" -free course. This expression of \"Game Mastery\" can be made possible by \"Timing\", e. g., moving between moving objects, or \"Dexterity-Based Actions\", e. g., avoiding stationary objects and other vehicles when driving, depending on the nature of the \"Obstacle\".",
+            "\"Obstacles\" are usually not deadly to \"Units\" or \"Avatars\", at least not immediately. However, they can cause \"Leaps of Faith\" and can hinder \"Aim &amp; Shoot\" actions against threats. See \"Deadly Traps\" for these types of game elements."
+        ],
+        "consequences": [
+            "\"Obstacles\" create \"Movement Limitations\" in how players can perform \"Movement\" or \"Maneuvering\" in \"Game Worlds\". Depending on the size of the \"Obstacles\", they can also make \"Game World Navigation\" difficult. By using these features and purposely placing them in special locations in \"Game Worlds\" it is possible to use \"Obstacles\" to modulate the \"Right Level of Difficulty\" of \"Traverse\" or \"Exploration\" goals in \"Levels\".",
+            "The combination of several \"Obstacles\" can create natural boundaries to an \"Inaccessible Area\", and when used in this fashion, they can support the \"Narrative Structure\" of the game. To be able to bypass \"Obstacles\" more easily can be the effect of a \"Privileged Ability\" or an expression of \"Game Mastery\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "movement-limitations",

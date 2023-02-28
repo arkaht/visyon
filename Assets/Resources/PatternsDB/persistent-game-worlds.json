@@ -1,6 +1,25 @@
 {
     "name": "Persistent Game Worlds",
-    "description": "The storage of the game state of a single game instance in Persistent Game Worlds is independent from the players' game and play sessions.",
+    "texts": {
+        "definition": "The storage of the game state of a single game instance in Persistent Game Worlds is independent from the players' game and play sessions.",
+        "description": [
+            "\"Persistent Game Worlds\" have game elements that stay in the world even though players start and finish their game sessions. The life time of a game instance is usually counted in months or even decades."
+        ],
+        "examples": [
+            "all MMORPGs have complex and dynamic \"Persistent Game Worlds\" where the players' game sessions with a single character can last for years and the life time of a game instance is determined by how popular the game is. These \"Persistent Game Worlds\" can even survive different software generations.",
+            "the game worlds in tabletop roleplaying games can survive changes in the player composition, even when the game master has been changed."
+        ],
+        "usage": [
+            "\"Persistent Game Worlds\" almost always rely on \"Dedicated Game Facilitators\" to maintain the game state independently of the players, although in some cases, especially in tabletop and live-action roleplaying games, this task might be shared between the \"Game Master\" and the players.",
+            "The game elements of \"Persistent Game Worlds\" can have a long life time enhancing the sense of \"Ownership\". Many current MMORPGs have recognized this fact and afford players the opportunity to own and modify even buildings and areas in the game. The sense of \"Ownership\" is heightened even more by allowing the players to personalize their own items, \"Avatars\", and locations in the game thus giving them \"Creative Control\" over their personal game elements. Even permitting players choose their own \"Handles\" in the game increases the player commitment. More complex \"Construction\" activities can lead to \"Player Constructed Worlds\", which is one of the strongest features of text-based MUDs.",
+            "One way to achieve \"Identification\" and the sense of \"Ownership\" is to provide the players with \"Characters\" represented by \"Avatars\" and base the gameplay on \"Character Development\". The effort the players put into developing their \"Characters\" deepens the \"Identification\" and the sense of \"Ownership\". The \"Characters\" can, in the end, feel more like a part of the players' personality than just game elements.",
+            "The persistent nature of game elements that are shared by many players makes it almost impossible to have \"Reversability\" within players' game and play sessions, which usually do not even overlap, making the game an \"Asynchronous Game\"."
+        ],
+        "consequences": [
+            "\"Persistent Game Worlds\" by their definition give rise to \"Multiplayer Games\" where several, sometimes even thousands, of players share the same \"Game World\", which itself has an existence  independent of the players themselves. The high level of \"Social Interaction\" that occurs in these games can over time give rise to both \"Social Statuses\" among the players and \"Social Organizations\" given some support through the game design.",
+            "These games offer players the possibility to enter another world, and when these shared fantasies are constructed with care the \"Emotional Immersion\" and commitment from the players can be significant. Tabletop roleplaying games create these shared fantasies through \"Storytelling\" by the players and the \"Game Masters\". The games usually have loose \"Narrative Structures\" with no definite ends, making the tales told by the players and to the players \"Never Ending Stories.\" This kind of \"Storytelling\" is usually based on the players doing \"Roleplaying\" with their \"Characters\". As much of the \"Storytelling\" does not have an immediate effect on the state of the \"Game Worlds\", these worlds typically generate significant \"Extra-Game Actions\" and \"Extra-Game Consequences\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "emotional-immersion",

@@ -1,6 +1,22 @@
 {
     "name": "Player Constructed Worlds",
-    "description": "Game Worlds that are created by players.",
+    "texts": {
+        "definition": "Game Worlds that are created by players.",
+        "description": [
+            "Some games do not have a predefined game world but either generate it for each game instance before gameplay begins or allows the game world to grow during gameplay. When the construction of the game world is under the players' influence, this leads to \"Player Constructed Worlds\"."
+        ],
+        "examples": [
+            "the tile-laying game \"Carcassonne\" starts with the game world existing of only one tile but the world is expanded by every turn taken by players.",
+            "MUDs are often completely \"Player Constructed Worlds\" as not only do players create stories about the world but also the places and game elements in the games, and even the people maintaining the servers running the game are often players."
+        ],
+        "usage": [
+            "Typical ways of allowing players to create \"Game Worlds\", or significant parts of them, are through \"Tile-Laying\", \"Construction\", \"Planned Character Development\", or \"Storytelling\". These allow players to construct the worlds, and thereby affecting \"Strategic Locations\" but not necessarily \"Narrative Structures\". For this to be possible, the games either need to be \"Self-Facilitated Games\" or have \"Game Masters\". A possible but less common way to let players construct, or at least significantly affect, \"Game Worlds\" is to make them \"Shrinking Game Worlds\" and put how the \"Game World\" shrinks under the players' control."
+        ],
+        "consequences": [
+            "\"Player Constructed Worlds\" give players \"Empowerment\" and makes the shape or history of \"Game Worlds\" into \"Player Decided Results\". This can make \"Game Worlds\" into \"Reconfigurable Game Worlds\" between game sessions or to allow players \"Creative Control\" over the \"Narrative Structure\" through \"Roleplaying\". Although not always present, \"Player Constructed Worlds\" often give players the chance to have \"Constructive Play\".",
+            "When combined with \"Persistent Game Worlds\" and \"Creative Control\", \"Player Constructed Worlds\" tend to create \"Never Ending Stories\" which often give players strong \"Emotional Immersion\", not only because of the gameplay interaction but because of the associated \"Social Interaction\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "player-decided-results",

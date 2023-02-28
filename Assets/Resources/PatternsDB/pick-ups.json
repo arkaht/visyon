@@ -1,6 +1,25 @@
 {
     "name": "Pick-Ups",
-    "description": "Pick-Ups are game elements that exist in the game world and can be collected by players, usually by moving an avatar or Units in contact with the Pick-Up.",
+    "texts": {
+        "definition": "Pick-Ups are game elements that exist in the game world and can be collected by players, usually by moving an avatar or Units in contact with the Pick-Up.",
+        "description": [
+            "Common examples of \"Pick-Ups\" include weapons, ammunition, and health packs in first-person shooters; money and energy in platform games; and food, wood, money, and metals in real-time strategy games."
+        ],
+        "examples": [
+            "the ammunition packs in \"Quake 3\" are \"Pick-Ups\" that replenish the players' ammunition."
+        ],
+        "usage": [
+            "\"Pick-Ups\" are in essence \"Resources\", and as such, the fundamental game design choice regarding a \"Pick-Up\" is to decide what the resource is to be used for: is it to gain advantages in possible actions against opponents, to fulfill goals such as \"Delivery\", to directly increase winning possibilities or is the resource usable for several different purposes and thus requiring \"Trade-Offs\"? The nature of the \"Pick-Up\" may not be completely revealed to the player who collects it until it is collected, allowing the game to change the nature of the \"Pick-Up\" depending on players' positioning, thereby providing \"Balancing Effects\". These kinds of \"Pick-Ups\" can also cause disadvantages to the players.",
+            "As \"Resource\" s that exist in the game world, the design of \"Pick-Ups\" is linked to the design of \"Resource Locations\", and the design choices available for the locations have to be considered in parallel with those of the \"Pick-Ups\". The production of the \"Pick-Ups\" is another design choice that has to be considered. Is the \"Pick-Up\" only produced once (maybe at the beginning of the game) and thus providing \"Limited Resources\" on a global level, or is a type of \"Pick-Up\" a \"Renewable Resource\" that is produced during gameplay? In the latter case, is the location of the production a known place (and thereby a \"Strategic Location\") or is it random? The production may be tied to a \"Resource Generator,\" which may be influenced or destroyed by player actions. The production of the \"Pick-Ups\" may also require actions by the players, for example, providing \"Resources\" to a \"Converter\". In any case, the production of \"Pick-Ups\" also follows the methods outlined in the more abstract \"Producer\" pattern.",
+            "Most \"Pick-Ups\" affect numerical characteristics of the \"Avatar\" or \"Unit\" that collected the \"Pick-Up\", e. g., by increasing the player's \"Score\" or an \"Avatar's\" hit points. The simplest way of implementing these is having a specific increase or decrease of one attribute of the game element each time a \"Pick-Up\" is taken. However, one can also have cut-off limits to promote \"Player Balance\" (e. g., not letting health packs or ammunition replenish past a certain level) or having \"Diminishing Returns\".",
+            "A less common type of \"Pick-Up\", which may also affect numerical characteristics, is a \"Tool\". \"Tools\" provide players with \"Privileged Abilities\" but may require resources when used.",
+            "A special type of \"Pick-Up\" is a \"Power-Up\", which gives players a time-limited advantage often consisting of increased efficiency at an action or by providing a \"Privileged Ability\". Other special \"Pick-Ups\" are those whose only function is to increase a player's \"Score\"."
+        ],
+        "consequences": [
+            "\"Pick-Ups\" are a very common way to provide \"Renewable Resources\" to players, and as such, they provide \"Supporting Goals\" requiring \"Collecting\" and possibly \"Maneuvering\". More formalized, \"Collection\" goals can be constructed by requiring players to get all \"Pick-Ups\" before being able to advance in the game, e. g., eating all the pills in \"Pac-Man\" before completing the level.",
+            "Since the successful collection of \"Pick-Ups\" has a clear effect in the \"Game World\", and it is usually easy to distinguish \"Pick-Ups\" in the game environment, they make easy goal objectives for \"Gain Ownership\" goals. The absence of a \"Pick-Up\" from a location is a form of \"Trace\" that players can use to infer activities in the game."
+        ]
+    },
     "relations": {
         "instantiates": [
             "resource-locations",

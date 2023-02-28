@@ -1,6 +1,24 @@
 {
     "name": "Cut Scenes",
-    "description": "Sequences of storytelling where players cannot act within the game.",
+    "texts": {
+        "definition": "Sequences of storytelling where players cannot act within the game.",
+        "description": [
+            "\"Cut Scenes\" are used when games cannot progress the entire game story through actions and events and need to give longer descriptions and explanations to players. These scenes are usually located between sections of gameplay that differ significantly, either because of change of location or type of activities required, or located right before a challenge to make players aware of the challenge."
+        ],
+        "examples": [
+            "In \"Myst\", the completion of puzzles resulted in video sequences from one of two brothers, and the fragmented parts of the world's history that they told unfolded the whole story for players as the game progressed.",
+            "\"Wing Commander III\" has one of the most ambitious uses of \"Cut Scenes\" in games. These scenes were used in between flight missions to put the player's character in situations of choice and then give indications of the effect of the choices."
+        ],
+        "usage": [
+            "To fully control the presentation of \"Cut Scenes\", they need to be designed in games with \"Dedicated Game Facilitators\". However, the \"Cut Scenes\" do not have to be fully predetermined: having sets of \"Cut Scenes\" allows scenes to be chosen due to the current game state; using the game engine to run the \"Cut Scenes\" allows minor variations such as the positions of game elements; and using \"Game Masters\" allows \"Cut Scenes\" to be fully modulated with the game state and players.",
+            "Common places for \"Cut Scenes\" are in conjunction with \"Boss Monsters\", \"Traces\", and \"Surprises\". The scenes can be used to show the presence of the two first, possible as \"Disruption of Focused Attention\" events, while the last can be fully instantiated by \"Cut Scenes\". \"Cut Scenes\" are also commonly used to explain movement between \"Levels\" and give \"Game State Overview\" of new \"Levels\" or other game events.",
+            "\"Cut Scenes\" do not have to be video segments; \"Game Masters\" or players in \"Self-Facilitated Games\" can create the same kind of effects through \"Storytelling\" that is not interrupted."
+        ],
+        "consequences": [
+            "\"Cut Scenes\" stop gameplay, most often in \"Real-Time Games\", and thereby are a form of \"Game Pauses\". \"Cut Scenes\" are one of the most controlled ways of \"Storytelling\" to present \"Narrative Structures\" and \"Alternative Realities\" to players. As events that control the game state completely, \"Cut Scenes\" are \"Ultra-Powerful Events\", which cause \"Downtime\" but may also cause \"Disruption of Focused Attention\" events. Since it may be difficult to time the suitability of when to enforce global \"Downtime\" in \"Multiplayer Games\", it is easier to time \"Cut Scenes\" to the events in the game in \"Single-Player Games\" unless a \"Game Master\" is used.",
+            "Player's \"Illusion of Influence\" is of course difficult to maintain during \"Cut Scenes\", and they may affect the overall impression of influence as well. However, \"Cut Scenes\" may give \"Strategic Knowledge\" about how to meet future challenges and may thereby function as \"Goal Indicators\" and increase players' \"Perceived Chance to Succeed\", and give rise to \"Stimulated Planning\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "surprises",

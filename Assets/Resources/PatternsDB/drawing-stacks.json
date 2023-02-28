@@ -1,6 +1,22 @@
 {
     "name": "Drawing Stacks",
-    "description": "A Drawing Stack is the collection of cards or tiles that are drawn in sequence by the players.",
+    "texts": {
+        "definition": "A Drawing Stack is the collection of cards or tiles that are drawn in sequence by the players.",
+        "description": [
+            "\"Drawing Stacks\" are used in card games that do not distribute all cards or tiles to the players at the beginning of the game."
+        ],
+        "examples": [
+            "A special case can be found in collectable card games, such as \"Magic: The Gathering,\" where players get to construct their own \"Drawing Stacks\" before the gameplay begins."
+        ],
+        "usage": [
+            "Although \"Drawing Stacks\" are most commonly used for \"Cards\" they can also be used for \"Tiles\", and then most often to introduce \"Randomness\" into \"Tile-Laying\". Multiple \"Drawing Stacks\" can be used to allow the players to perceive a chance of \"Luck\" as well as making it easier to judge the individual sizes of the stacks. If certain categories of the \"Cards\" or \"Tiles\" are specially marked, multiple stacks may also be used to distinguish these and let players choose within which subset of \"Cards\" or \"Tiles\" they draw. A special case of having additional \"Drawing Stacks\" is to use drafting, i. e. by having some \"Cards\" or \"Tiles\" placed openly beside the \"Drawing Stack\", which can be chosen instead of the topmost items from the stack.",
+            "\"Drawing Stacks\" are usually combined with \"Discard Piles\", stacks of \"Cards\" or \"Tiles\" that have been used in the game after having been drawn.",
+            "Collectable card games allow the players to have individual \"Drawing Stacks\" which they have created within certain boundaries. This allows the players to create various strategies and make \"Tradeoffs\" between commonality and the variety of the types of cards."
+        ],
+        "consequences": [
+            "\"Drawing Stacks\" are a form of \"Container\" for game elements. \"Drawing Stacks\" makes it possible to define the exact distribution of outcomes while providing a random and secret sequence in which they occur. However, the order is set once the stack has been shuffled. Many card games use \"Drawing Stacks\" to postpone the distribution of cards to the players, in effect causing the players to have \"Imperfect Information\" and only \"Limited Foresight\" of the resources they will have, forcing them to plan for several possible distribution possibilities. \"Drawing Stacks\" give players a sense of how many cards have been played and how many are left to play, which can support \"Stimulated Planning\"."
+        ]
+    },
     "relations": {
         "instantiates": [
             "tile-laying",

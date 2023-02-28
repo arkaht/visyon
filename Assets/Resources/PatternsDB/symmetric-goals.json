@@ -1,6 +1,24 @@
 {
     "name": "Symmetric Goals",
-    "description": "The players have goals with the same definition, for example, to be the first one to reach a certain area or amount of points, solve a problem, find an item, or overcome the opponent.",
+    "texts": {
+        "definition": "The players have goals with the same definition, for example, to be the first one to reach a certain area or amount of points, solve a problem, find an item, or overcome the opponent.",
+        "description": [
+            "\"Symmetric Goals\" are goals that several different players have that can be generalized to fit the same definition without changing the structure of the individual goal definitions. For example, \"Chess\" has the goals \"capture the white king\" and \"capture the black king,\" which although not exactly the same, can be generalized as \"capture the other player's king,\" which has the same basic structure and clarifies what actions are necessary to complete the goal."
+        ],
+        "examples": [
+            "An archetypical \"Symmetric Goal\" is that of a simple race: to be the first player to reach a goal.",
+            "A typical example of a \"Symmetric Goal\" is to surround the highest number of empty spaces in Japanese versions of \"Go\"."
+        ],
+        "usage": [
+            "If the relevant information is available, \"Symmetric Goals\" can allow players to anticipate other players' strategies, so setting the \"Right Level of Complexity\" in a game with \"Symmetric Goals\" depends on how information is presented. Allowing \"Perfect Information\" may allow \"Strategic Knowledge\" but also \"Analysis Paralysis\" so that a \"Time Limit\" might be necessary. \"Imperfect Information\" or \"Game State Overview\" may support \"Strategic Knowledge\" to a certain extent but without ending up with \"Analysis Paralysis\". Combining \"Unknown Goals\" with \"Symmetric Goals\" is difficult, since players may infer other players' goals from the similarity in actions between them.",
+            "Further, some \"Symmetric Goals\" are \"Interferable Goals\", e. g., \"Last Man Standing\" and \"King of the Hill\", while others can either be totally under player's control or not, e. g., \"Race\". The choice of whether to use \"Symmetric Goals\" that are also \"Interferable Goals\" depends on the game designer's choice of having a presence of \"Role Reversal\", \"Conflict\", or \"Competition\" in the game.",
+            "Goals where players engage in direct competition against each other, for example \"Overcome\", are by their nature \"Symmetric Goals\". In contrast, if the \"Symmetric Goal\" is defined without reference to individual players or their elements, the goal can be a \"Mutual Goal.\""
+        ],
+        "consequences": [
+            "\"Symmetric Goals\" provide one form of \"Symmetry\" in games, and in traditional games, together with \"Symmetric Resource Distribution\" and \"Symmetric Information\", it been a common technique in ensuring \"Player Balance\". However, to provide a \"Right Level of Complexity\", these games usually provide a large possible set of game states with few \"Closure Points\" and many game states that match the goal states. This usually leads players to developing different strategies and quickly achieving different positions in the game, making the players have \"Asymmetric Goals\" as subgoals towards each other even though the main goals in a game instance remain symmetric.",
+            "\"Mutual Goals\" between players are always \"Symmetric Goals\"."
+        ]
+    },
     "relations": {
         "instantiates": [],
         "modulates": [

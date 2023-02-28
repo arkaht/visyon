@@ -1,6 +1,24 @@
 {
     "name": "Collecting",
-    "description": "The action of collecting game elements from the game world.",
+    "texts": {
+        "definition": "The action of collecting game elements from the game world.",
+        "description": [
+            "\"Collecting\" is one of the most common activities in games. The collecting may be concrete by moving game elements around the game world and picking up game elements found or may be abstract by receiving game elements directly through actions or completing goals."
+        ],
+        "examples": [
+            "The game play is \"Super Mario 64\" and \"Super Mario Sunshine\" is based around the collections of stars which unlock new levels and drive the story forward.",
+            "The main actions performed in \"Pac-Man\" is moving and collecting pills."
+        ],
+        "usage": [
+            "\"Collecting\" concrete game elements requires the presence of \"Pick-Ups\" and the placement of them together with the \"Collection\" goals which motivate the activities that are closely intertwined with the design of \"Collecting\" actions. Common reasons to perform \"Collecting\" activities include gaining \"Score\", finding \"Tools\" or \"Power-Ups\" that give \"Privileged Abilities\", or gathering \"Pick-Ups\" that give \"Resources\" which can then be regarded as \"Renewable Resources\" from the players' perspectives\".\"",
+            "The \"Collecting\" of abstract game elements is typically part of a \"Hierarchy of Goals\" with a \"Collection\" goal as the main goal and the subgoals providing the game elements to be collected as \"Rewards\". \"Score\" and experience points to measure \"Character Development\" are examples of abstract \"Collecting\".",
+            "\"Collecting\" of specific types of \"Resources\" or \"Pick-Ups\" can be further encouraged by adjusting how the collected game elements can be used. For example, \"Geometric Rewards for Investments\" encourage specializing of what is collecting as well as encouraging hoarding."
+        ],
+        "consequences": [
+            "The act of \"Collecting\" is the \"Transfer of Control\" of a game element to a player. \"Collecting\" can be used to instantiate \"Collection\" goals of concrete game elements in the \"Game World\". When doing so, they make \"Movement\" or \"Maneuvering\" necessary (unless the game elements can be collected through \"Herd\" goals) and may create \"Player Defined Goals\" of \"Exploration\" if the locations of the game elements are not known. \"Collecting\" can also be done of game elements not found in the \"Game World\". In these cases, the actions are typically part trying to complete \"Hierarchies of Goals\".",
+            "\"Collecting\" is usually part of \"Constructive Play\" although the reason for doing the collecting or the reasons why the collection can be done do not need to be so."
+        ]
+    },
     "relations": {
         "instantiates": [
             "hierarchy-of-goals",

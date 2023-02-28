@@ -1,6 +1,25 @@
 {
     "name": "Meta Games",
-    "description": "A game based on the effects and outcomes of other games.",
+    "texts": {
+        "definition": "A game based on the effects and outcomes of other games.",
+        "description": [
+            "Some games are constructed around what happens in other games. These \"indirect\" games are \"Meta Games\", and as such, they usually put totally different demands on the participants than do the underlying games. In some cases, for example in betting on horse or dogs races, the underlying game may not be a proper game (and the participants may not be aware that they are participating in a game), but the participants of the \"Meta Game\" treat the activity as a game."
+        ],
+        "examples": [
+            "\"Tournaments\" are a common form of \"Meta Game\" where individual results of games are used as input to the \"Tournament\". For some sports, for example \"Soccer\", \"Hockey\", and \"Basketball\", playing the game in \"Tournament\" form is the normal way of organized games.",
+            "Betting on the outcome of games is a classic form of \"Meta Game\". In these \"Meta Games\", the skill required by players ranges from having the actual actions used in the games to having knowledge about the current condition and tactics of the participants in the game being bet upon."
+        ],
+        "usage": [
+            "\"Meta Games\" can either be designed to be part of the underlying game or be designed independently of the underlying game.",
+            "Design elements in games that support \"Meta Games\" are usually based around \"Score\" or \"Handicap\" systems. The actual \"Meta Games\" are, in these cases, created by passing these as \"Trans-Game Information\" to other games, for example by \"High Score Lists,\" explicitly supporting \"Tournaments\", or letting the inner games of \"Games within Games\" affect the outer games. Games that have \"Optional Goals\", for example \"Easter Eggs\", can be completed in several different ways. In these games, players can have a \"Meta Game\" that consists of trying to complete as many \"Optional Goals\" as possible, and the number of \"Optional Goals\" completed may, in turn, form a kind of \"Score\".",
+            "One of the main reasons for independent \"Meta Games\" is based around guessing the outcome of the underlying games before the game session has ended or, in some cases, even begun. This makes the skill of playing the \"Meta Game\" into a kind of \"Strategic Knowledge\", whatever the skill of playing the underlying game is. A common way to create an independent \"Meta Game\" is to have \"Betting\" on the outcome of a game affect \"Ownership\" of real-world objects, creating \"Extra-Game Actions\" and \"Player Defined Goals\" if done by the participants themselves.",
+            "The other main reasons for independent \"Meta Games\" is to create \"Perceivable Margins\" or minimize the effect of \"Luck\". This is usually done by creating \"Tournaments\" where the goal is to win a certain number of individual games. One of the simplest forms of \"Meta Game\" based upon this format is a \"Tournament\" of \"Quick Games,\" such as a best-of-three game of \"Paper-Rock-Scissors\". \"Meta Games\" are also a way to change \"Single-Player Games\" to \"Multiplayer Games\" by allowing players to compare results of separate game instances or in other ways have an effect on other players' game instances."
+        ],
+        "consequences": [
+            "\"Meta Games\" make the underlying games have \"Extra-Game Consequences\" that affect the \"Meta Games\" through \"Trans-Game Information\". It can modify players' \"Risk/Reward\" choices in the underlying game and allow \"Spectators\" of one game to be players in another game.",
+            "As people can create \"Meta Games\" based on any game design, outside the game designer's influence, these forms of games are examples of how players can create \"Player Defined Goals\". Game that allow for \"Team Development\" can for example easily create \"Meta Games\" around planning and trying to develop the team's skills."
+        ]
+    },
     "relations": {
         "instantiates": [
             "strategic-knowledge",

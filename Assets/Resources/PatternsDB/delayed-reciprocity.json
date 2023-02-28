@@ -1,6 +1,21 @@
 {
     "name": "Delayed Reciprocity",
-    "description": "There is a time delay in social exchange situations, i.e. the whole exchange is not immediate, something is given now and the return is to be paid back some time in the future.",
+    "texts": {
+        "definition": "There is a time delay in social exchange situations, i.e. the whole exchange is not immediate, something is given now and the return is to be paid back some time in the future.",
+        "description": [
+            "\"Delayed\" \"Reciprocity\" is very common, especially in exchange situations which do not involve exchange of tangible goods but favors, information or specific actions, i. e. when the immediate exchange is not always even possible. \"Delayed Reciprocity\" does not in its basic form require that players agree beforehand on the exact nature of the exchange, but it can also be spontaneous and without mutual agreements."
+        ],
+        "examples": [
+            "in \"Diplomacy\" the player can order his armies to support also other players' army activities. This also means that if, for example, Italy supports a French Army in attacking Spain, Italy does not get anything concrete in return immediately (well, except if Spain was attacking Italy too). France can give support to Italy later, but is not obliged to by the rules."
+        ],
+        "usage": [
+            "The basis for having \"Delayed Reciprocity\" in the game is to have player actions, which can benefit another player without benefiting the player performing the action, and that there is a possibility of having situations where the return is paid back in the future. The most explicit ways to achieve \"Delayed Reciprocity\" is though \"Collaborative Actions\" and \"Mutual Goals\" with \"Player Decided Results\" and \"Individual Rewards\" for the players. \"Social Organizations\" are formalized \"Alliances\" based around the concepts \"Social Interaction\" and some form of \"Delayed Reciprocity\". However, the similar situation can arise in any exchange and \"Cooperation\" situation where there is a possibility of having at least perceived differences in the benefit for each of the players. For example, in \"Settlers of Catan\" the players can trade basic resources between each other and it is quite common that a player agrees on a less profitable trade expecting that the other player will return the favor later in the game. This can also happen in other forms of \"Trading\".",
+            "Note, however, that \"Delayed Reciprocity\" does not require that the players have agreed upon the exchange beforehand or that the return is paid back to the same player. The \"random acts of kindness\" sometimes seen in MMORPGs where high level players help newbies in seemingly random ways create \"Delayed Reciprocity\" situations where the newbie, after having reached a high level, pays the return back to another newbie by helping him out."
+        ],
+        "consequences": [
+            "\"Delayed Reciprocity\" gives players \"Anticipation\" of a \"Delayed Effect\" and thereby creates a \"Hovering Closure\". When the \"Delayed Reciprocity\" is not guaranteed it make \"Betrayal\" possible, and requires \"Leaps of Faith\" actions from some players while forming \"Social Dilemmas\" for others. \"Delayed Reciprocity\" combined with time delay and the possibility of not getting anything in return due to a \"Betrayal\", brings in \"Tension\" between the players involved in the exchange situation. However, the situations involving \"Delayed Reciprocity\" also create a social bond between players and it seems that these situations are also one of the basic building blocks of having more sustained \"Social Interaction.\" \"Delayed Reciprocity\" situations can also be used to give rise to \"Uncommitted Alliances\" as basically they are \"Delayed Reciprocity\" situations where there can be more than two players involved and that there is a mutual agreement of some kind between the players."
+        ]
+    },
     "relations": {
         "instantiates": [
             "leaps-of-faith",

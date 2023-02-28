@@ -1,6 +1,26 @@
 {
     "name": "Betting",
-    "description": "Investing resources in the likelihood of an outcome.",
+    "texts": {
+        "definition": "Investing resources in the likelihood of an outcome.",
+        "description": [
+            "\"Betting\" is the act of risking resources for the chance of winning more resources than was used. The proportions between what is gained and what is risked is linked to the perceived probability of winning, but in the case where \"Betting\" is done by players this does not have to be close to the real probability."
+        ],
+        "examples": [
+            "\"Roulette\" is a typical example where the exchanges rate between bets and rewards are open and the probability for each outcome is static. The proportions between investments and rewards are tilted in the house's favor and the knowledge of this and the probabilities is easily available.",
+            "betting in \"Poker\" is based on the cards held and the actions of other players. The proportions between risk and reward in \"Poker\" are not fixed but vary due to the willingness of all players to bet."
+        ],
+        "usage": [
+            "The main design choice when explicitly supporting \"Betting\" in games is to choose whether player bet against a \"Dedicated Game Facilitator\", usually called the house, or against each other.",
+            "\"Betting\" against a \"Dedicated Game Facilitator\" is usually based on \"Luck\" to ensure \"Player Balance\" between different game sessions. The main design requirement for betting against the house is to calculate the probabilities of the actions that are to be bet on. Knowledge of these probabilities can usually be deducted for actions based on \"Randomness\", but as players also can do this the information is typically not held secret. Rather, the proportions of risk and reward are set so that either the game is balanced between players in \"Multiplayer Games\" or unbalanced in favor of the house in games where players play against the \"Dedicated Game Facilitator\".",
+            "\"Betting\" against each other causes players to be in \"Conflict\" with each other. It can reduce the influence of \"Luck\" as \"Imperfect Information\" may give different players different advantages."
+        ],
+        "consequences": [
+            "\"Betting\" provides ways of changing \"Ownership\" based on \"Transfer of Control\" events decided by some outcome. \"Betting\" is often used to create \"Meta Games\" of games by giving the original games \"Extra-Game Consequences\" based upon \"Gain Ownership\" goals. When these \"Meta Games\" are \"Player Defined Goals\" basically any activity can become a game although with serious \"Extra-Game Consequences\" and thereby \"Emotional Immersion\".",
+            "Regardless if the \"Betting\" is an integral part of the game or in a \"Meta Game\" that is a \"Self-Facilitated Games\", the placement of \"Resources\" on bets are \"Investments\" that determines the sizes of the \"Rewards\", and the activity therefore one of \"Resource Management\". \"Betting\" differs from \"Bidding\" in that the \"Resources\" used do not have a possibility of being returned and that the gains in \"Betting\" are of the same type as what was bet. In \"Quick Games\" of \"Betting\" the \"Resources\" usually move between players through a \"Tournament\" style of playing, and as the \"Resources\" risked and gained are of the same type, and often the exact same \"Resources\", the system is a \"Closed Economy\".",
+            "\"Betting\" is usually based on players' not having full predictabilityof the outcome and \"Delayed Effects\". As such the action is one of \"Risk/Reward\" and gives \"Anticipation\" and \"Tension\" due to \"Hovering Closures\".",
+            "The main skills required to gain \"Game Mastery\" in \"Betting\" is the \"Strategic Knowledge\" of the predictability in the game and, for \"Multiplayer Games\", being able to deduct the tacticsof other players, e. g. by reading other players' body language or playing style. \"Bluffing\" is also an important aspect of \"Betting\" skill."
+        ]
+    },
     "relations": {
         "instantiates": [
             "meta-games",

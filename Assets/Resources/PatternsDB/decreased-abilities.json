@@ -1,6 +1,24 @@
 {
     "name": "Decreased Abilities",
-    "description": "Players' chance of succeeding with an action as a function within the game is decreased, or the calculated effect the action has in the game decreased.",
+    "texts": {
+        "definition": "Players' chance of succeeding with an action as a function within the game is decreased, or the calculated effect the action has in the game decreased.",
+        "description": [
+            "Many games have events that make players' future actions have less effect, or less chance of succeeding, than they originally had. These \"Decreased Abilities\" can be the consequences of running out of \"Resources\" or being affected by hostile actions but require players to use the abilities more efficiently to reach the same level of effect as previously."
+        ],
+        "examples": [
+            "Each point of damage received in \"RoboRally\" gives the player one card less at the beginning of each turn. As these cards are used to program a robot's movement, the reduction in number of cards effectively reduces the player's ability to control the robot.",
+            "Being hit by an ice cube or polygon ball weapon in the \"Monkey Race 2\" party game in \"Super Monkey Ball 2\" significantly reduces players' top speed and ability to steer."
+        ],
+        "usage": [
+            "Instantiating \"Decreased Abilities\" can easily be done by changing the values in the game state that are part of the evaluation functions of an action. Typically, this is motivated by changes in \"Skills\" of \"Characters\" or \"Units\". An indirect way of achieving \"Decreased Abilities\" is to require use of \"Limited Resources\", and maybe \"Non-Renewable Resources\", so that players have to make \"Risk/Reward\" choices of whether to use the action. This limits the \"Freedom of Choice\" when the players can use the actions. Reducing the amount of \"Resources\" a player can access or store is another way to combine \"Decreased Abilities\" with \"Limited Resources\".",
+            "\"Decreased Abilities\" are often used as \"Penalties\" to affect \"Player Balance\". When the effect of this needs to be modulated, \"Time Limits\" of the decrease or complementing \"Improved Abilities\" in other areas can be used to achieve a \"Balancing Effect\".",
+            "A common place for \"Decreased Abilities\" to occur in gameplay is as the consequences of \"Player Killing\", either represented through the loss of \"Tools\" or experience."
+        ],
+        "consequences": [
+            "\"Decreased Abilities\" are \"Penalties\" that affect players' \"Perceived Chance to Succeed\". If an ability is decreased so much that the perceive chance of success to achieve a goal by using it becomes nothing, any \"Illusion of Influence\" due to the action is lost. If the chance actually is nil, the \"Decreased Ability\" can be seen as an \"Ability Loss\" and is in conflict with providing players with a \"Perceived Chance to Succeed\". Unlike \"Ability Loss\", \"Decreased Abilities\" can be used to affect the \"Right Level of Difficulty\" by raising it while retaining the \"Right Level of Complexity\".",
+            "\"Decreased Abilities\" can be used to negatively define \"Orthogonal Unit Differentiation\". This kind of differentiation typical is an emergent feature due to different levels of \"Damage\" or depletion of \"Resources\" between \"Units\" or players in a team."
+        ]
+    },
     "relations": {
         "instantiates": [
             "penalties"

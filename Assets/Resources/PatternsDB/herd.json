@@ -1,6 +1,25 @@
 {
     "name": "Herd",
-    "description": "Moving a game element to a location in the game without directly interacting with it.",
+    "texts": {
+        "definition": "Moving a game element to a location in the game without directly interacting with it.",
+        "description": [
+            "\"Herd\" is the goal of making a game element be in a certain location in the game where the movement of the game element cannot be directly control, as for example game element are when being carried."
+        ],
+        "examples": [
+            "\"Pool\" is an example of herding where players only have one point of control, the cue ball.",
+            "\"Populous\" allows players to place markers in the game world which make all the people under the player's control move towards the marker."
+        ],
+        "usage": [
+            "There are three primary design choices when creating a \"Herd\" goal: what to \"Herd\", how the herding is done, and the choice of \"Goal Point\", i. e. where to \"Herd\" the game element that is herded.",
+            "The game element to be herded may be able to move, but may be or not be able to do so without influences from the player. The influences for the herded game element to move based on player actions are typically motivated by the \"Consistent Reality Logic\" of the game, either as transferal of momentum from other game elements due to \"Contact\", physical forces such as gravity or magnetism, or as emotional reactions such as anger, attraction or fright based for game elements with simulated personalities. Game elements that also move due to other influences or goals can be used to achieve the\"Right Level of Difficulty\" of the goal, and may be described as having \"Herd\" as a \"Preventing Goal\" to the game elements' \"Traverse\" goals.",
+            "The act of herding can be done in two ways, either by creating repulsion or attraction to the game element to be herded. The former case is typically by achieving \"Contact\" with the game element to give it momentum, as for example when hitting a ball in \"Pool\" with another ball or simulations of game elements with the same magnetic polarity. Example of attractions are resources that are essential for the survival for \"Units\", such as food, or deep gravity wells such as black holes. When constructing a \"Herd\" goal, one has the option to use \"Privileged\" \"Movement\" to make an asymmetrical relationship between the game elements herding and being herded. This is typically used to let the herding game element have freer \"Movement\" that the herded game element to modulate the \"Right Level of Difficulty\".",
+            "\"Herd\" can easily be made to promote \"Cooperation\" by making it a \"Symmetric Goal\" for several players, so that the players control different game elements that all try to make a game element move into a specific area."
+        ],
+        "consequences": [
+            "\"Herd\" is the \"Traverse\" goal of \"Delivery\" with \"Indirect Control\" and is performed through a form of \"Collecting\" actions\".\" Similar to \"Delivery\", \"Herd\" can be used to steer players' \"Movement\" within the game space but can provide more fluid gameplay as the control of the game element changes easier between teams or within a team or group of \"Units\".",
+            "\"Herd\" seldom makes use of \"Stealth\" because of the lack of control of the game element being herding."
+        ]
+    },
     "relations": {
         "instantiates": [
             "goal-points",
