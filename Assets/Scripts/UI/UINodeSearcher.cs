@@ -7,15 +7,18 @@ using UnityEngine.UI;
 
 public class UINodeSearcher : MonoBehaviour
 {
+	[Header( "References" )]
 	[SerializeField]
 	private RectTransform content;
+	[SerializeField]
+	private TMPro.TMP_InputField inputField;
 
 	[Header( "Prefabs" )]
 	[SerializeField]
 	private GameObject choicePrefab;
-	[SerializeField]
-	private GameObject patternPrefab;
 	private static GameObject selfPrefab;
+
+	private List<UINodeSearcherChoice> choices = new();
 
 	public void AddAllPatterns()
 	{
@@ -39,9 +42,21 @@ public class UINodeSearcher : MonoBehaviour
 		GameObject obj = Instantiate( choicePrefab, content );
 
 		UINodeSearcherChoice choice = obj.GetComponent<UINodeSearcherChoice>();
-		choice.Text.text = name;
+		choice.Name = name;
 		choice.Button.onClick.AddListener( OnChoiceClicked );
 		choice.ID = id;
+
+		choices.Add( choice );
+	}
+
+	public void UpdateSearchFilter()
+	{
+		string search_text = inputField.text.ToLower();
+		foreach ( UINodeSearcherChoice choice in choices )
+		{
+			string lower_name = choice.Name.ToLower();
+			choice.gameObject.SetActive( lower_name.Contains( search_text ) );
+		}
 	}
 
 	private void OnChoiceClicked()
