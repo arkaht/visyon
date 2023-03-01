@@ -4,6 +4,8 @@ using UnityEngine.UI;
 [ExecuteInEditMode]
 public class UIGrid : MonoBehaviour
 {
+    public static UIGrid Instance { get; private set; }
+
     public Canvas Canvas => canvas;
     public int BigGap => bigGap;
     public int SmallGap => bigGap / bigLineCount;
@@ -27,6 +29,7 @@ public class UIGrid : MonoBehaviour
 
     void Awake()
     {
+        Instance = this;
         rectTransform = GetComponent<RectTransform>();
     }
 

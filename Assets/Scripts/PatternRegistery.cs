@@ -10,6 +10,8 @@ public static class PatternRegistery
 
 	public const string PATH = "Assets/Resources/PatternsDB/";
 
+	public static Dictionary<string, PatternData>.KeyCollection AllKeys => patterns.Keys;
+
 	public static bool TryGet( string id, out PatternData pattern )
 	{
 		//  retrieve from cache

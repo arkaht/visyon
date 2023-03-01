@@ -3,31 +3,39 @@ using UnityEngine.EventSystems;
 
 public class UIMoveable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+	public RectTransform RectTransform { get; private set; }
+
 	[SerializeField]
 	private UIGrid grid;
 	[SerializeField]
-	private bool snapOnAwake = true;
+	private bool snapOnStart = true;
 
 	private Vector2 draggedPos;
-	private RectTransform rectTransform;
 
 	void Awake()
 	{
-		rectTransform = GetComponent<RectTransform>();
+		RectTransform = GetComponent<RectTransform>();
 
-		if ( snapOnAwake )
-			rectTransform.anchoredPosition = grid.SnapPosition( rectTransform.anchoredPosition );
+		//  set default grid
+		if ( grid == null )
+			grid = UIGrid.Instance;
+	}
+
+	void Start()
+	{
+		if ( snapOnStart )
+			RectTransform.anchoredPosition = grid.SnapPosition( RectTransform.anchoredPosition );
 	}
 
 	public void OnBeginDrag( PointerEventData data )
 	{
-		draggedPos = rectTransform.anchoredPosition;
+		draggedPos = RectTransform.anchoredPosition;
 	}
 
 	public void OnDrag( PointerEventData data )
 	{
 		draggedPos += data.delta / grid.Canvas.scaleFactor;
-		rectTransform.anchoredPosition = grid.SnapPosition( draggedPos );
+		RectTransform.anchoredPosition = grid.SnapPosition( draggedPos );
 	}
 
 	public void OnEndDrag( PointerEventData data )
