@@ -34,21 +34,41 @@ public class Blueprinter : MonoBehaviour
 		PatternRegistery.LoadAll();
 	}
 
-	void LateUpdate()
+	void Update()
 	{
+		//  auto-focus when typing, may not be useful 
+		/*if ( currentSearcher != null && !currentSearcher.IsSearchFieldFocused )
+		{
+			for ( int i = 97; i <= 122; i++ )
+			{
+				if ( Input.GetKeyDown( (KeyCode) i ) )
+				{
+					currentSearcher.FocusSearchField();
+					break;
+				}
+			}
+		}*/
+
+		//  spawn node searcher on right click
 		if ( Input.GetMouseButtonDown( 1 ) )
 		{
 			Vector2 mouse_pos = GetMousePosition();
+
+			//  create it..
 			if ( currentSearcher == null )
 			{
 				currentSearcher = UINodeSearcher.Spawn( mouse_pos );
 				currentSearcher.AddAllPatterns();
 			}
+			//  ..or update position
 			else
 			{
 				currentSearcher.SpawnPosition = mouse_pos;
 				currentSearcher.transform.position = mouse_pos;
 			}
+
+			//  auto-focus
+			currentSearcher.FocusSearchField();
 
 			//  offset Y position to prevent off-screens
 			RectTransform rect_transform = (RectTransform) currentSearcher.transform;

@@ -1,19 +1,23 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class UINodeSearcher : MonoBehaviour
 {
+	public bool IsSearchFieldFocused => searchField.isFocused;
+	public TMP_InputField SearchField => searchField;
+
 	public Vector2 SpawnPosition { get; set; }
 
 	[Header( "References" )]
 	[SerializeField]
 	private RectTransform content;
 	[SerializeField]
-	private TMPro.TMP_InputField inputField;
+	private TMP_InputField searchField;
 
 	[Header( "Prefabs" )]
 	[SerializeField]
@@ -21,6 +25,12 @@ public class UINodeSearcher : MonoBehaviour
 	private static GameObject selfPrefab;
 
 	private List<UINodeSearcherChoice> choices = new();
+
+	public void FocusSearchField()
+	{
+		searchField.Select();
+		searchField.ActivateInputField();
+	}
 
 	public void AddAllPatterns()
 	{
@@ -53,7 +63,7 @@ public class UINodeSearcher : MonoBehaviour
 
 	public void UpdateSearchFilter()
 	{
-		string search_text = inputField.text.ToLower();
+		string search_text = searchField.text.ToLower();
 		foreach ( UINodeSearcherChoice choice in choices )
 		{
 			string lower_name = choice.Name.ToLower();
