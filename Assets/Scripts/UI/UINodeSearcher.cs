@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class UINodeSearcher : MonoBehaviour
 {
+	public Vector2 SpawnPosition { get; set; }
+
 	[Header( "References" )]
 	[SerializeField]
 	private RectTransform content;
@@ -66,12 +68,12 @@ public class UINodeSearcher : MonoBehaviour
 			return;
 
 		UIPattern pattern = UIPattern.Spawn( choice.ID );
-		pattern.transform.position = transform.position;
+		pattern.transform.position = SpawnPosition;
 
 		Destroy( gameObject );
 	}
 
-	public static UINodeSearcher Spawn()
+	public static UINodeSearcher Spawn( Vector2 pos )
 	{
 		if ( selfPrefab == null )
 		{
@@ -80,6 +82,8 @@ public class UINodeSearcher : MonoBehaviour
 
 		GameObject obj = Instantiate( selfPrefab, Blueprinter.Instance.transform );
 		UINodeSearcher searcher = obj.GetComponent<UINodeSearcher>();
+		searcher.transform.position = pos;
+		searcher.SpawnPosition = pos;
 
 		return searcher;
 	}
