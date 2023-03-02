@@ -78,7 +78,7 @@ public class UINodeSearcher : MonoBehaviour
 			return;
 
 		UIPattern pattern = UIPattern.Spawn( choice.ID );
-		pattern.transform.position = SpawnPosition;
+		pattern.transform.position = Blueprinter.Instance.ScreenToWorld( SpawnPosition );
 
 		Destroy( gameObject );
 	}
@@ -90,7 +90,7 @@ public class UINodeSearcher : MonoBehaviour
 			selfPrefab = Resources.Load<GameObject>( "Prefabs/UI/NodeSearcher" );
 		}
 
-		GameObject obj = Instantiate( selfPrefab, Blueprinter.Instance.ContentTransform );
+		GameObject obj = Instantiate( selfPrefab, Blueprinter.Instance.OverlayTransform );
 		UINodeSearcher searcher = obj.GetComponent<UINodeSearcher>();
 		searcher.transform.position = pos;
 		searcher.SpawnPosition = pos;

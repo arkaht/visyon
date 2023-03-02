@@ -8,6 +8,7 @@ public class Blueprinter : MonoBehaviour,
 	public static Blueprinter Instance { get; private set; }
 
 	public RectTransform ContentTransform => contentTransform;
+	public RectTransform OverlayTransform => overlayTransform;
 	
 	public float Width => canvas.pixelRect.width;
 	public float Height => canvas.pixelRect.height;
@@ -21,7 +22,7 @@ public class Blueprinter : MonoBehaviour,
 	[SerializeField]
 	private new Camera camera;
 	[SerializeField]
-	private RectTransform contentTransform;
+	private RectTransform contentTransform, overlayTransform;
 
 	[Header( "Settings" )]
 	[SerializeField]
@@ -52,10 +53,8 @@ public class Blueprinter : MonoBehaviour,
 		return pos;
 	}
 
-	public Vector2 ToScreenPosition( Vector2 world_pos )
-	{
-		return camera.WorldToScreenPoint( world_pos );
-	}
+	public Vector2 WorldToScreen( Vector2 world_pos ) => camera.WorldToScreenPoint( world_pos );
+	public Vector2 ScreenToWorld( Vector2 world_pos ) => camera.ScreenToWorldPoint( world_pos );
 
 	public void ResetZoomToDefault()
 	{
@@ -68,7 +67,7 @@ public class Blueprinter : MonoBehaviour,
 
 	public void SpawnNodeSearcherAtMousePosition()
 	{
-		Vector2 mouse_pos = GetMousePosition();
+		Vector2 mouse_pos = Input.mousePosition;
 
 		//  create it..
 		if ( currentSearcher == null )
@@ -91,6 +90,11 @@ public class Blueprinter : MonoBehaviour,
 		float y_diff = UnscaledHeight - ( rect_transform.anchoredPosition.y + rect_transform.sizeDelta.y );
 		if ( y_diff <= 0.0f )
 			rect_transform.anchoredPosition += new Vector2( 0.0f, -rect_transform.sizeDelta.y );
+	}
+	public void DestroySearcher()
+	{
+		if ( currentSearcher == null ) return;
+		Destroy( currentSearcher.gameObject );
 	}
 
 	void Awake()
@@ -143,12 +147,6 @@ public class Blueprinter : MonoBehaviour,
 		}
 
 		shouldSpawnSearcher = true;
-	}
-
-	public void DestroySearcher()
-	{
-		if ( currentSearcher == null ) return;
-		Destroy( currentSearcher.gameObject );
 	}
 
 	public void OnScroll( PointerEventData data )
