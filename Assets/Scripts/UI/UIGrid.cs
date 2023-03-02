@@ -25,6 +25,7 @@ public class UIGrid : MonoBehaviour
     private Color bigColor, smallColor;
 
     private bool shouldUpdate = true;
+    private int currentLineID = -1;
 
     private RectTransform rectTransform;
 
@@ -45,31 +46,34 @@ public class UIGrid : MonoBehaviour
             UpdateGrid();
     }
 
+	private void OnRectTransformDimensionsChange()
+	{
+        shouldUpdate = true;
+	}
+
+	public Vector2Int WorldToTile( Vector2 pos )
+    {
+        float small_gap = SmallGap;
+        return new(
+          Mathf.RoundToInt( pos.x / small_gap ),
+          Mathf.RoundToInt( pos.y / small_gap )
+        );
+    }
+
     public Vector2 SnapPosition( Vector2 pos )
     {
+        float small_gap = SmallGap;
         return new( 
-            Mathf.Round( pos.x / SmallGap ) * SmallGap,
-            Mathf.Round( pos.y / SmallGap ) * SmallGap
+            Mathf.Round( pos.x / small_gap ) * small_gap,
+            Mathf.Round( pos.y / small_gap ) * small_gap
         );
     }
 
 	public void UpdateGrid()
     {
         if ( bigGap <= 50 ) return;
-        
-        //  clear previous lines
-        if ( Application.isPlaying )
-            for ( int id = 0; id < transform.childCount; id++ )
-            {
-                Transform child = transform.GetChild( 0 );
-                Destroy( child.gameObject );
-            }
-        else
-            while ( transform.childCount > 0 )
-            {
-                Transform child = transform.GetChild( 0 );
-                DestroyImmediate( child.gameObject );
-            }
+
+        currentLineID = 0;
 
         int small_gap = SmallGap;
         Vector2 grid_size = rectTransform.rect.size;
@@ -80,6 +84,7 @@ public class UIGrid : MonoBehaviour
         for ( int x = 0; x < grid_size.x; x += small_gap )
 		{
 			CreateLine( new( x, 0 ), size, i % bigLineCount == 0 ? bigColor : smallColor );
+            currentLineID++;
             i++;
 		}
 
@@ -89,8 +94,23 @@ public class UIGrid : MonoBehaviour
         for ( int y = 0; y < grid_size.y; y += small_gap )
 		{
 			CreateLine( new( 0, y ), size, i % bigLineCount == 0 ? bigColor : smallColor );
+            currentLineID++;
             i++;
 		}
+
+        //  clear previous lines
+        if ( Application.isPlaying )
+            for ( int id = currentLineID; id < transform.childCount; id++ )
+            {
+                Transform child = transform.GetChild( currentLineID );
+                Destroy( child.gameObject );
+            }
+        else
+            while ( transform.childCount > currentLineID )
+            {
+                Transform child = transform.GetChild( currentLineID );
+                DestroyImmediate( child.gameObject );
+            }
 
         print( "Grid::UpdateGrid()" );
         shouldUpdate = false;
@@ -98,8 +118,11 @@ public class UIGrid : MonoBehaviour
 
 	private void CreateLine( Vector2 pos, Vector2 size, Color color )
 	{
-		GameObject line_obj = Instantiate( linePrefab, transform );
-        if ( line_obj.TryGetComponent( out Image line_image ) )
+		Transform line_transform = currentLineID >= 0 && transform.childCount > currentLineID
+                                 ? transform.GetChild( currentLineID ) 
+                                 : Instantiate( linePrefab, transform ).transform;
+
+        if ( line_transform.TryGetComponent( out Image line_image ) )
 		{
             line_image.color = color;
 			line_image.rectTransform.anchoredPosition = pos;
