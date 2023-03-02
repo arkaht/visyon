@@ -40,12 +40,13 @@ public class Blueprinter : MonoBehaviour,
 	private UINodeSearcher currentSearcher;
 	private bool shouldSpawnSearcher = false;
 
-	public Vector2 GetMousePosition( bool is_canvas_relative = true, bool is_absolute = false )
+	public Vector2 GetScreenMousePosition() => Input.mousePosition;
+	public Vector2 GetWorldMousePosition( bool is_canvas_relative = false, bool is_absolute = false )
 	{
-		Vector2 pos = camera.ScreenToWorldPoint( Input.mousePosition );
+		Vector2 pos = ScreenToWorld( GetScreenMousePosition() );
 
 		if ( is_canvas_relative )
-			pos = (Vector2)transform.InverseTransformVector( pos );
+			pos = (Vector2) transform.InverseTransformVector( pos );
 
 		if ( is_absolute )
 			pos -= contentTransform.offsetMin;
@@ -67,7 +68,7 @@ public class Blueprinter : MonoBehaviour,
 
 	public void SpawnNodeSearcherAtMousePosition()
 	{
-		Vector2 mouse_pos = Input.mousePosition;
+		Vector2 mouse_pos = GetScreenMousePosition();
 
 		//  create it..
 		if ( currentSearcher == null )
@@ -152,7 +153,7 @@ public class Blueprinter : MonoBehaviour,
 	public void OnScroll( PointerEventData data )
 	{
 		float old_zoom = camera.orthographicSize;
-		Vector3 zoom_pos = GetMousePosition( false );
+		Vector3 zoom_pos = GetWorldMousePosition();
 
 		//  zoom
 		zoomLevel = Mathf.Clamp( zoomLevel - data.scrollDelta.y * zoomMultiplier, 0.0f, zoomLevels.Length - 1.0f );
