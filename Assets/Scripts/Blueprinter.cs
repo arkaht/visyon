@@ -19,7 +19,7 @@ public class Blueprinter : MonoBehaviour,
 	[SerializeField]
 	private Canvas canvas;
 	[SerializeField]
-	private Camera camera;
+	private new Camera camera;
 	[SerializeField]
 	private RectTransform contentTransform;
 
@@ -55,6 +55,11 @@ public class Blueprinter : MonoBehaviour,
 		return camera.WorldToScreenPoint( world_pos );
 	}
 
+	public void ResetZoomToDefault()
+	{
+		zoomLevel = defaultZoomLevelID;
+		camera.orthographicSize = GetDefaultZoomSize();
+	}
 	public float GetCurrentZoomSize() => GetZoomSize( Mathf.FloorToInt( zoomLevel ) );
 	public float GetDefaultZoomSize() => zoomLevels[defaultZoomLevelID];
 	public float GetZoomSize( int level ) => zoomLevels[level];
@@ -68,7 +73,7 @@ public class Blueprinter : MonoBehaviour,
 	{
 		PatternRegistery.LoadAll();
 
-		camera.orthographicSize = GetDefaultZoomSize();
+		ResetZoomToDefault();
 	}
 
 	void Update()
