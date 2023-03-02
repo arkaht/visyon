@@ -39,10 +39,10 @@ public class Blueprinter : MonoBehaviour,
 
 	public Vector2 GetMousePosition( bool is_canvas_relative = true, bool is_absolute = false )
 	{
-		Vector2 pos = Input.mousePosition;
+		Vector2 pos = camera.ScreenToWorldPoint( Input.mousePosition );
 
 		if ( is_canvas_relative )
-			pos = (Vector2)transform.InverseTransformVector( camera.ScreenToWorldPoint( pos ) );
+			pos = (Vector2)transform.InverseTransformVector( pos );
 
 		if ( is_absolute )
 			pos -= contentTransform.offsetMin;
@@ -133,7 +133,7 @@ public class Blueprinter : MonoBehaviour,
 	public void OnScroll( PointerEventData data )
 	{
 		float old_zoom = camera.orthographicSize;
-		Vector3 zoom_pos = camera.ScreenToWorldPoint( Input.mousePosition );
+		Vector3 zoom_pos = GetMousePosition( false );
 
 		//  zoom
 		zoomLevel = Mathf.Clamp( zoomLevel - data.scrollDelta.y * zoomMultiplier, 0.0f, zoomLevels.Length - 1.0f );
@@ -142,24 +142,20 @@ public class Blueprinter : MonoBehaviour,
 		//  move relative to cursor
 		if ( camera.orthographicSize != old_zoom )
 		{
-			float zoom_ratio = old_zoom / camera.orthographicSize;
-
 			//  get cursor to camera' center offset
 			Vector3 offset = zoom_pos - camera.transform.position;
 			offset.z = 0.0f;
 
 			//  zoom in
+			float zoom_ratio;
 			if ( data.scrollDelta.y > 0.0f )
-			{
-				Vector3 diff_offset = offset / zoom_ratio;
-				camera.transform.position += offset - diff_offset;
-			}
+				zoom_ratio = 1.0f / ( old_zoom / camera.orthographicSize );
 			//  zoom out
 			else
-			{
-				Vector3 diff_offset = offset * zoom_ratio;
-				camera.transform.position -= offset - diff_offset;
-			}
+				zoom_ratio = camera.orthographicSize / old_zoom;
+
+			//  apply offset
+			camera.transform.position += offset - offset * zoom_ratio;
 		}
 	}
 }
