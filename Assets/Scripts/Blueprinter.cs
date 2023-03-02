@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
 
 public class Blueprinter : MonoBehaviour, 
-						   IBeginDragHandler, IDragHandler, IEndDragHandler, IScrollHandler
+						   IBeginDragHandler, IDragHandler, IEndDragHandler, IScrollHandler, IPointerClickHandler
 {
 	public static Blueprinter Instance { get; private set; }
 
@@ -25,7 +25,9 @@ public class Blueprinter : MonoBehaviour,
 
 	[Header( "Settings" )]
 	[SerializeField]
-	private PointerEventData.InputButton inputButton;
+	private PointerEventData.InputButton dragButton;
+	[SerializeField]
+	private PointerEventData.InputButton searchButton;
 	[SerializeField]
 	private float moveMultiplier = 1.0f, zoomMultiplier = 1.0f;
 	[SerializeField]
@@ -34,8 +36,8 @@ public class Blueprinter : MonoBehaviour,
 	private int defaultZoomLevelID = 1;
 
 	private float zoomLevel = 1.0f;
-
 	private UINodeSearcher currentSearcher;
+	private bool shouldSpawnSearcher = false;
 
 	public Vector2 GetMousePosition( bool is_canvas_relative = true, bool is_absolute = false )
 	{
@@ -64,6 +66,33 @@ public class Blueprinter : MonoBehaviour,
 	public float GetDefaultZoomSize() => zoomLevels[defaultZoomLevelID];
 	public float GetZoomSize( int level ) => zoomLevels[level];
 
+	public void SpawnNodeSearcherAtMousePosition()
+	{
+		Vector2 mouse_pos = GetMousePosition();
+
+		//  create it..
+		if ( currentSearcher == null )
+		{
+			currentSearcher = UINodeSearcher.Spawn( mouse_pos );
+			currentSearcher.AddAllPatterns();
+		}
+		//  ..or update position
+		else
+		{
+			currentSearcher.SpawnPosition = mouse_pos;
+			currentSearcher.transform.position = mouse_pos;
+		}
+
+		//  auto-focus
+		currentSearcher.FocusSearchField();
+
+		//  offset Y position to prevent off-screens
+		RectTransform rect_transform = (RectTransform) currentSearcher.transform;
+		float y_diff = UnscaledHeight - ( rect_transform.anchoredPosition.y + rect_transform.sizeDelta.y );
+		if ( y_diff <= 0.0f )
+			rect_transform.anchoredPosition += new Vector2( 0.0f, -rect_transform.sizeDelta.y );
+	}
+
 	void Awake()
 	{
 		Instance = this;
@@ -78,61 +107,33 @@ public class Blueprinter : MonoBehaviour,
 
 	void Update()
 	{
-		//  auto-focus when typing, may not be useful 
-		/*if ( currentSearcher != null && !currentSearcher.IsSearchFieldFocused )
+		if ( shouldSpawnSearcher )
 		{
-			for ( int i = 97; i <= 122; i++ )
-			{
-				if ( Input.GetKeyDown( (KeyCode) i ) )
-				{
-					currentSearcher.FocusSearchField();
-					break;
-				}
-			}
-		}*/
-		//print( camera.pixelRect );
-		//  spawn node searcher on right click
-		if ( Input.GetMouseButtonDown( 1 ) )
-		{
-			Vector2 mouse_pos = GetMousePosition();
-
-			//  create it..
-			if ( currentSearcher == null )
-			{
-				currentSearcher = UINodeSearcher.Spawn( mouse_pos );
-				currentSearcher.AddAllPatterns();
-			}
-			//  ..or update position
-			else
-			{
-				currentSearcher.SpawnPosition = mouse_pos;
-				currentSearcher.transform.position = mouse_pos;
-			}
-
-			//  auto-focus
-			currentSearcher.FocusSearchField();
-
-			//  offset Y position to prevent off-screens
-			RectTransform rect_transform = (RectTransform) currentSearcher.transform;
-			float y_diff = UnscaledHeight - ( rect_transform.anchoredPosition.y + rect_transform.sizeDelta.y );
-			if ( y_diff <= 0.0f )
-				rect_transform.anchoredPosition += new Vector2( 0.0f, -rect_transform.sizeDelta.y );
+			SpawnNodeSearcherAtMousePosition();
+			shouldSpawnSearcher = false;
 		}
 	}
 
-	public void OnBeginDrag( PointerEventData data )
-	{
-	}
-
+	public void OnBeginDrag( PointerEventData data ) {}
 	public void OnDrag( PointerEventData data )
 	{
-		if ( data.button != inputButton ) return;
+		if ( data.button != dragButton ) return;
 
 		camera.transform.position -= PixelRatio * moveMultiplier * (Vector3) data.delta;
 	}
-
 	public void OnEndDrag( PointerEventData data )
 	{
+		if ( data.button != dragButton ) return;
+
+		if ( dragButton == searchButton )
+			shouldSpawnSearcher = false;
+	}
+
+	public void OnPointerClick( PointerEventData data )
+	{
+		if ( data.button != searchButton ) return;
+
+		shouldSpawnSearcher = true;
 	}
 
 	public void OnScroll( PointerEventData data )
