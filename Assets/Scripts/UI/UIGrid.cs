@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,7 +20,7 @@ public class UIGrid : MonoBehaviour
     [SerializeField]
     private GameObject linePrefab;
     [SerializeField]
-    private int lineSize = 3;
+    private int lineWide = 2;
     [SerializeField]
     private Color bigColor, smallColor;
 
@@ -55,22 +56,26 @@ public class UIGrid : MonoBehaviour
 	public void UpdateGrid()
     {
         if ( bigGap <= 50 ) return;
-
+        
         //  clear previous lines
-        for ( int id = 0; id <= transform.childCount; id++ )
-        {
-            Transform child = transform.GetChild( 0 );
-            if ( Application.isPlaying )
+        if ( Application.isPlaying )
+            for ( int id = 0; id < transform.childCount; id++ )
+            {
+                Transform child = transform.GetChild( 0 );
                 Destroy( child.gameObject );
-            else
+            }
+        else
+            while ( transform.childCount > 0 )
+            {
+                Transform child = transform.GetChild( 0 );
                 DestroyImmediate( child.gameObject );
-        }
+            }
 
         int small_gap = bigGap / bigLineCount;
 
         //  generate horizontals
         int i = 0;
-        Vector2 size = new( lineSize, canvas.pixelRect.height / canvas.scaleFactor );
+        Vector2 size = new( lineWide, canvas.pixelRect.height / canvas.scaleFactor );
         for ( int x = 0; x < canvas.pixelRect.width / canvas.scaleFactor; x += small_gap )
 		{
 			CreateLine( new( x, 0 ), size, i % bigLineCount == 0 ? bigColor : smallColor );
@@ -79,7 +84,7 @@ public class UIGrid : MonoBehaviour
 
         //  generate verticals
         i = 0;
-        size = new( canvas.pixelRect.width / canvas.scaleFactor, lineSize );
+        size = new( canvas.pixelRect.width / canvas.scaleFactor, lineWide );
         for ( int y = 0; y < canvas.pixelRect.height / canvas.scaleFactor; y += small_gap )
 		{
 			CreateLine( new( 0, -y ), size, i % bigLineCount == 0 ? bigColor : smallColor );
