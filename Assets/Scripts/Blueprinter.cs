@@ -1,19 +1,23 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UIElements;
 
 public class Blueprinter : MonoBehaviour, 
 						   IBeginDragHandler, IDragHandler, IEndDragHandler, IScrollHandler, IPointerClickHandler
 {
-	public static Blueprinter Instance { get; private set; }
+	public static Blueprinter Instance
+	{
+		get {
+			if ( instance == null )
+				instance = FindObjectOfType<Blueprinter>();
+			return instance;
+		}
+	}
+	private static Blueprinter instance;
 
 	public RectTransform ContentTransform => contentTransform;
 	public RectTransform OverlayTransform => overlayTransform;
 	
-	public float Width => canvas.pixelRect.width;
-	public float Height => canvas.pixelRect.height;
-	public float UnscaledWidth => canvas.pixelRect.width / canvas.scaleFactor;
-	public float UnscaledHeight => canvas.pixelRect.height / canvas.scaleFactor;
+	public Vector2 CameraSize => camera.pixelRect.size;
 	public float ScreenRatio => 1920.0f / camera.pixelWidth;
 	public float PixelRatio => ScreenRatio * 1.0f / canvas.scaleFactor * GetCurrentZoomSize() / GetDefaultZoomSize();
 
@@ -103,7 +107,7 @@ public class Blueprinter : MonoBehaviour,
 
 	void Awake()
 	{
-		Instance = this;
+		instance = this;
 	}
 
 	void Start()
