@@ -87,11 +87,13 @@ public class Blueprinter : MonoBehaviour,
 		//  auto-focus
 		currentSearcher.FocusSearchField();
 
-		//  offset Y position to prevent off-screens
+		//  offset position to prevent off-screens
 		RectTransform rect_transform = (RectTransform) currentSearcher.transform;
-		float top = mouse_pos.y + rect_transform.sizeDelta.y / ScreenRatio;
-		if ( top > camera.pixelHeight )
-			rect_transform.anchoredPosition += new Vector2( 0.0f, -rect_transform.sizeDelta.y );
+		Vector2 top_right = mouse_pos + rect_transform.sizeDelta / ScreenRatio;
+		if ( top_right.x > camera.pixelWidth )
+			rect_transform.anchoredPosition -= new Vector2( rect_transform.sizeDelta.x, 0.0f );
+		if ( top_right.y > camera.pixelHeight )
+			rect_transform.anchoredPosition -= new Vector2( 0.0f, rect_transform.sizeDelta.y );
 	}
 	public void DestroySearcher()
 	{
