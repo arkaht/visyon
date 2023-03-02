@@ -90,7 +90,7 @@ public class UINodeSearcher : MonoBehaviour
 			selfPrefab = Resources.Load<GameObject>( "Prefabs/UI/NodeSearcher" );
 		}
 
-		GameObject obj = Instantiate( selfPrefab, Blueprinter.Instance.transform );
+		GameObject obj = Instantiate( selfPrefab, Blueprinter.Instance.ContentTransform );
 		UINodeSearcher searcher = obj.GetComponent<UINodeSearcher>();
 		searcher.transform.position = pos;
 		searcher.SpawnPosition = pos;

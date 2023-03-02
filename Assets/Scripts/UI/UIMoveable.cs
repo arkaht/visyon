@@ -8,7 +8,11 @@ public class UIMoveable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 	[SerializeField]
 	private UIGrid grid;
 	[SerializeField]
+	private bool snapOnMove = true;
+	[SerializeField]
 	private bool snapOnStart = true;
+	[SerializeField]
+	private PointerEventData.InputButton inputButton;
 
 	private Vector2 draggedPos;
 
@@ -29,17 +33,23 @@ public class UIMoveable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
 	public void OnBeginDrag( PointerEventData data )
 	{
+		if ( data.button != inputButton ) return;
+
 		draggedPos = RectTransform.anchoredPosition;
 	}
 
 	public void OnDrag( PointerEventData data )
 	{
-		draggedPos += data.delta / grid.Canvas.scaleFactor;
-		RectTransform.anchoredPosition = grid.SnapPosition( draggedPos );
+		if ( data.button != inputButton ) return;
+
+		draggedPos += data.delta * Blueprinter.Instance.PixelRatio;
+		RectTransform.anchoredPosition = snapOnMove ? grid.SnapPosition( draggedPos ) : draggedPos;
 	}
 
 	public void OnEndDrag( PointerEventData data )
 	{
+		if ( data.button != inputButton ) return;
+
 		print( "EndDrag: snap" );
 	}
 }

@@ -71,23 +71,24 @@ public class UIGrid : MonoBehaviour
                 DestroyImmediate( child.gameObject );
             }
 
-        int small_gap = bigGap / bigLineCount;
+        int small_gap = SmallGap;
+        Vector2 grid_size = rectTransform.rect.size;
 
-        //  generate horizontals
+        //  generate verticals
         int i = 0;
-        Vector2 size = new( lineWide, canvas.pixelRect.height / canvas.scaleFactor );
-        for ( int x = 0; x < canvas.pixelRect.width / canvas.scaleFactor; x += small_gap )
+        Vector2 size = new( lineWide, grid_size.y );
+        for ( int x = 0; x < grid_size.x; x += small_gap )
 		{
 			CreateLine( new( x, 0 ), size, i % bigLineCount == 0 ? bigColor : smallColor );
             i++;
 		}
 
-        //  generate verticals
+        //  generate horizontals
         i = 0;
-        size = new( canvas.pixelRect.width / canvas.scaleFactor, lineWide );
-        for ( int y = 0; y < canvas.pixelRect.height / canvas.scaleFactor; y += small_gap )
+        size = new( grid_size.x, lineWide );
+        for ( int y = 0; y < grid_size.y; y += small_gap )
 		{
-			CreateLine( new( 0, -y ), size, i % bigLineCount == 0 ? bigColor : smallColor );
+			CreateLine( new( 0, y ), size, i % bigLineCount == 0 ? bigColor : smallColor );
             i++;
 		}
 
