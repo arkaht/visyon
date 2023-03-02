@@ -117,7 +117,12 @@ public class Blueprinter : MonoBehaviour,
 	public void OnBeginDrag( PointerEventData data ) {}
 	public void OnDrag( PointerEventData data )
 	{
-		if ( data.button != dragButton ) return;
+		DestroySearcher();
+
+		if ( data.button != dragButton ) 
+		{
+			return;
+		}
 
 		camera.transform.position -= PixelRatio * moveMultiplier * (Vector3) data.delta;
 	}
@@ -131,9 +136,19 @@ public class Blueprinter : MonoBehaviour,
 
 	public void OnPointerClick( PointerEventData data )
 	{
-		if ( data.button != searchButton ) return;
+		if ( data.button != searchButton )
+		{
+			DestroySearcher();
+			return;
+		}
 
 		shouldSpawnSearcher = true;
+	}
+
+	public void DestroySearcher()
+	{
+		if ( currentSearcher == null ) return;
+		Destroy( currentSearcher.gameObject );
 	}
 
 	public void OnScroll( PointerEventData data )
