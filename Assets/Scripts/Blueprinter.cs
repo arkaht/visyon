@@ -14,7 +14,8 @@ public class Blueprinter : MonoBehaviour,
 	public float Height => canvas.pixelRect.height;
 	public float UnscaledWidth => canvas.pixelRect.width / canvas.scaleFactor;
 	public float UnscaledHeight => canvas.pixelRect.height / canvas.scaleFactor;
-	public float PixelRatio => 1920.0f / camera.pixelWidth * 1.0f / canvas.scaleFactor * GetCurrentZoomSize() / GetDefaultZoomSize();
+	public float ScreenRatio => 1920.0f / camera.pixelWidth;
+	public float PixelRatio => ScreenRatio * 1.0f / canvas.scaleFactor * GetCurrentZoomSize() / GetDefaultZoomSize();
 
 	[Header( "References" )]
 	[SerializeField]
@@ -88,8 +89,8 @@ public class Blueprinter : MonoBehaviour,
 
 		//  offset Y position to prevent off-screens
 		RectTransform rect_transform = (RectTransform) currentSearcher.transform;
-		float y_diff = UnscaledHeight - ( rect_transform.anchoredPosition.y + rect_transform.sizeDelta.y );
-		if ( y_diff <= 0.0f )
+		float top = mouse_pos.y + rect_transform.sizeDelta.y / ScreenRatio;
+		if ( top > camera.pixelHeight )
 			rect_transform.anchoredPosition += new Vector2( 0.0f, -rect_transform.sizeDelta.y );
 	}
 	public void DestroySearcher()
