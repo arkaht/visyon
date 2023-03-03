@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -76,27 +75,35 @@ public class UIGrid : MonoBehaviour
         currentLineID = 0;
 
         int small_gap = SmallGap;
+        Vector2 grid_pos = rectTransform.position;
         Vector2 grid_size = rectTransform.rect.size;
 
+        Vector2Int min_tile_pos = WorldToTile( grid_pos );
+        Vector2Int max_tile_pos = WorldToTile( grid_pos + grid_size );
+
         //  generate verticals
-        int i = 0;
         Vector2 size = new( lineWide, grid_size.y );
-        for ( int x = 0; x < grid_size.x; x += small_gap )
-		{
-			CreateLine( new( x, 0 ), size, i % bigLineCount == 0 ? bigColor : smallColor );
+        for ( int i = min_tile_pos.x; i < max_tile_pos.x; i++ )
+        {
+            CreateLine( 
+                new Vector3( i * small_gap, rectTransform.position.y ), 
+                size, 
+                i % bigLineCount == 0 ? bigColor : smallColor
+            );
             currentLineID++;
-            i++;
-		}
+        }
 
         //  generate horizontals
-        i = 0;
         size = new( grid_size.x, lineWide );
-        for ( int y = 0; y < grid_size.y; y += small_gap )
-		{
-			CreateLine( new( 0, y ), size, i % bigLineCount == 0 ? bigColor : smallColor );
+        for ( int i = min_tile_pos.y; i < max_tile_pos.y; i++ )
+        {
+            CreateLine( 
+                new Vector3( rectTransform.position.x, i * small_gap ), 
+                size, 
+                i % bigLineCount == 0 ? bigColor : smallColor
+            );
             currentLineID++;
-            i++;
-		}
+        }
 
         //  clear previous lines
         if ( Application.isPlaying )
@@ -125,7 +132,7 @@ public class UIGrid : MonoBehaviour
         if ( line_transform.TryGetComponent( out Image line_image ) )
 		{
             line_image.color = color;
-			line_image.rectTransform.anchoredPosition = pos;
+			line_image.rectTransform.position = pos;
 			line_image.rectTransform.sizeDelta = size;
 		}
 	}
