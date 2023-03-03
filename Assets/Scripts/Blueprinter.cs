@@ -2,7 +2,7 @@
 using UnityEngine.EventSystems;
 
 public class Blueprinter : MonoBehaviour, 
-						   IBeginDragHandler, IDragHandler, IEndDragHandler, IScrollHandler, IPointerClickHandler
+						   IDragHandler, IEndDragHandler, IScrollHandler, IPointerClickHandler
 {
 	public static Blueprinter Instance
 	{
@@ -14,6 +14,7 @@ public class Blueprinter : MonoBehaviour,
 	}
 	private static Blueprinter instance;
 
+	public bool IsDragging { get; private set; }
 	public RectTransform ContentTransform => contentTransform;
 	public RectTransform OverlayTransform => overlayTransform;
 	
@@ -126,9 +127,10 @@ public class Blueprinter : MonoBehaviour,
 		}
 	}
 
-	public void OnBeginDrag( PointerEventData data ) {}
 	public void OnDrag( PointerEventData data )
 	{
+		IsDragging = true;
+
 		DestroySearcher();
 
 		if ( data.button != dragButton ) 
@@ -144,6 +146,8 @@ public class Blueprinter : MonoBehaviour,
 
 		if ( dragButton == searchButton )
 			shouldSpawnSearcher = false;
+
+		IsDragging = false;
 	}
 
 	public void OnPointerClick( PointerEventData data )

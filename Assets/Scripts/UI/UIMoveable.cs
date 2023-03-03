@@ -40,7 +40,13 @@ public class UIMoveable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
 	public void OnDrag( PointerEventData data )
 	{
-		if ( data.button != inputButton ) return;
+		if ( data.button != inputButton ) 
+		{
+			Blueprinter.Instance.OnDrag( data );
+			return;
+		}
+
+		if ( Blueprinter.Instance.IsDragging ) return;
 
 		draggedPos += data.delta * Blueprinter.Instance.PixelRatio;
 		RectTransform.anchoredPosition = snapOnMove ? grid.SnapPosition( draggedPos ) : draggedPos;
@@ -48,7 +54,11 @@ public class UIMoveable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
 	public void OnEndDrag( PointerEventData data )
 	{
-		if ( data.button != inputButton ) return;
+		if ( data.button != inputButton ) 
+		{
+			Blueprinter.Instance.OnEndDrag( data );
+			return;
+		}
 
 		print( "EndDrag: snap" );
 	}
