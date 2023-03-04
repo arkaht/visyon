@@ -24,7 +24,7 @@ public class UIPatternPin : MonoBehaviour,
 
 		UINodeSearcher searcher = Blueprinter.Instance.SpawnNodeSearcherAtMousePosition();
 		searcher.AddPatterns( relations.Instantiates, "Instantiates" );
-		searcher.AddPatterns( relations.Conflicts, "Conflicts" );
+		searcher.AddPatterns( relations.Conflicts, "Potential Conflicts" );
 		searcher.AddPatterns( relations.Modulates, "Modulates" );
 		searcher.AddPatterns( relations.InstantiatedBy, "Instantiated By" );
 		searcher.AddPatterns( relations.ModulatedBy, "Modulated By" );

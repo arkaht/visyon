@@ -6,13 +6,21 @@ using UnityEngine.UI;
 
 public class UINodeSearcherCategory : MonoBehaviour
 {
-	public TextMeshProUGUI Text { get; private set; }
+	public TextMeshProUGUI Text => text;
 	public string Name
 	{
 		get => Text.text;
 		set => Text.text = value;
 	}
-	
+
+	private bool isFolded = false;
+
+	[SerializeField]
+	private TextMeshProUGUI text;
+	[SerializeField]
+	private RectTransform visibilityTransform;
+	[SerializeField]
+	private RectTransform contentTransform;
 	[SerializeField]
 	private GameObject choicePrefab;
 
@@ -20,7 +28,7 @@ public class UINodeSearcherCategory : MonoBehaviour
 	
 	public UINodeSearcherChoice AddChoice( string name, string id )
 	{
-		GameObject obj = Instantiate( choicePrefab, transform );
+		GameObject obj = Instantiate( choicePrefab, contentTransform );
 
 		UINodeSearcherChoice choice = obj.GetComponent<UINodeSearcherChoice>();
 		choice.Name = name;
@@ -47,8 +55,13 @@ public class UINodeSearcherCategory : MonoBehaviour
 		choices.Clear();
 	}
 
-	void Awake()
+	public void SetFolded( bool value )
 	{
-		Text = GetComponent<TextMeshProUGUI>();
-	}
+		isFolded = value;
+
+		visibilityTransform.localEulerAngles = new( 0.0f, 0.0f, isFolded ? 90.0f : 0.0f );
+		contentTransform.gameObject.SetActive( !isFolded );
+	} 
+
+	public void ToggleFolding() => SetFolded( !isFolded );
 }
