@@ -7,18 +7,30 @@ public class UIPatternPin : MonoBehaviour,
 	[SerializeField]
 	private UIPattern uiPattern;
 
+	[SerializeField]
+	private PointerEventData.InputButton inputButton;
+
 	public void OnBeginDrag( PointerEventData data )
 	{
 	}
 
 	public void OnDrag( PointerEventData data )
 	{
+		if ( data.button != inputButton )
+		{
+			Blueprinter.Instance.OnDrag( data );
+			return;
+		}
+
 	}
 
 	public void OnEndDrag( PointerEventData data )
 	{
-		/*print( "end, spawning searcher" );
-		data.hovered.ForEach( print );*/
+		if ( data.button != inputButton )
+		{
+			Blueprinter.Instance.OnEndDrag( data );
+			return;
+		}
 
 		PatternRelations relations = uiPattern.PatternData.Relations;
 
