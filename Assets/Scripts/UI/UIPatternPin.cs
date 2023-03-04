@@ -23,10 +23,10 @@ public class UIPatternPin : MonoBehaviour,
 		PatternRelations relations = uiPattern.PatternData.Relations;
 
 		UINodeSearcher searcher = Blueprinter.Instance.SpawnNodeSearcherAtMousePosition();
-		searcher.AddPatterns( relations.Instantiates );
-		searcher.AddPatterns( relations.Conflicts );
-		searcher.AddPatterns( relations.Modulates );
-		searcher.AddPatterns( relations.InstantiatedBy );
-		searcher.AddPatterns( relations.ModulatedBy );
+		searcher.AddPatterns( relations.Instantiates, "Instantiates" );
+		searcher.AddPatterns( relations.Conflicts, "Conflicts" );
+		searcher.AddPatterns( relations.Modulates, "Modulates" );
+		searcher.AddPatterns( relations.InstantiatedBy, "Instantiated By" );
+		searcher.AddPatterns( relations.ModulatedBy, "Modulated By" );
 	}
 }

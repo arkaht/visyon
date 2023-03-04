@@ -397,7 +397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: {fileID: 3932346806609932142}
   searchField: {fileID: 4507141645591239680}
-  choicePrefab: {fileID: 893594037163236851, guid: 41b72600c40dc8548984d69a4694b49c, type: 3}
+  categoryPrefab: {fileID: 893594037163236851, guid: e6897b1df55d43948911e087e317bbc0, type: 3}
 --- !u!1 &3932346806567288895
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,11 +581,11 @@ MonoBehaviour:
     m_Top: 16
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 8
+  m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 1
-  m_ChildControlHeight: 0
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0

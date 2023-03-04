@@ -21,10 +21,10 @@ public class UINodeSearcher : MonoBehaviour
 
 	[Header( "Prefabs" )]
 	[SerializeField]
-	private GameObject choicePrefab;
+	private GameObject categoryPrefab;
 	private static GameObject selfPrefab;
 
-	private List<UINodeSearcherChoice> choices = new();
+	private readonly Dictionary<string, UINodeSearcherCategory> categories = new();
 
 	public void FocusSearchField()
 	{
@@ -34,18 +34,20 @@ public class UINodeSearcher : MonoBehaviour
 
 	public void Clear()
 	{
-		choices.ForEach( ( choice ) => Destroy( choice.gameObject ) );
-		choices.Clear();
+		foreach ( UINodeSearcherCategory category in categories.Values )
+			Destroy( category.gameObject );
+
+		categories.Clear();
 	}
 
-	public void AddPatterns( IEnumerable<string> ids )
+	public void AddPatterns( IEnumerable<string> ids, string category_name )
 	{
 		foreach ( string id in ids )
-			AddPattern( id );
+			AddPattern( id, category_name );
 	}
-	public void AddAllPatterns() => AddPatterns( PatternRegistery.AllKeys );
+	public void AddAllPatterns( string category_name = "All" ) => AddPatterns( PatternRegistery.AllKeys, category_name );
 
-	public void AddPattern( string id )
+	public void AddPattern( string id, string category_name )
 	{
 		if ( !PatternRegistery.TryGet( id, out PatternData pattern ) )
 		{
@@ -53,28 +55,39 @@ public class UINodeSearcher : MonoBehaviour
 			return;
 		}
 
-		AddChoice( pattern.Name, id );
+		AddChoice( category_name, pattern.Name, id );
 	}
 
-	public void AddChoice( string name, string id )
+	public UINodeSearcherCategory AddCategory( string name )
 	{
-		GameObject obj = Instantiate( choicePrefab, content );
+		GameObject obj = Instantiate( categoryPrefab, content );
 
-		UINodeSearcherChoice choice = obj.GetComponent<UINodeSearcherChoice>();
-		choice.Name = name;
+		UINodeSearcherCategory category = obj.GetComponent<UINodeSearcherCategory>();
+		category.Name = name;
+
+		categories.Add( name, category );
+		return category;
+	}
+
+	public UINodeSearcherChoice AddChoice( string category_name, string name, string id )
+	{
+		if ( !categories.TryGetValue( category_name, out UINodeSearcherCategory category ) ) 
+		{
+			category = AddCategory( category_name );
+		}
+
+		UINodeSearcherChoice choice = category.AddChoice( name, id );
 		choice.Button.onClick.AddListener( OnChoiceClicked );
-		choice.ID = id;
 
-		choices.Add( choice );
+		return choice;
 	}
 
 	public void UpdateSearchFilter()
 	{
 		string search_text = searchField.text.ToLower();
-		foreach ( UINodeSearcherChoice choice in choices )
+		foreach ( UINodeSearcherCategory category in categories.Values )
 		{
-			string lower_name = choice.Name.ToLower();
-			choice.gameObject.SetActive( lower_name.Contains( search_text ) );
+			category.FilterByName( search_text );
 		}
 	}
 
