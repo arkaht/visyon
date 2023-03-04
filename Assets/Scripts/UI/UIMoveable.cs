@@ -6,6 +6,7 @@ public class UIMoveable : MonoBehaviour,
 {
 	public RectTransform RectTransform { get; private set; }
 	public bool IsDragging { get; private set; }
+	public bool IsHovered { get; private set; }
 
 	[SerializeField]
 	private UIGrid grid;
