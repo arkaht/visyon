@@ -32,11 +32,18 @@ public class UINodeSearcher : MonoBehaviour
 		searchField.ActivateInputField();
 	}
 
-	public void AddAllPatterns()
+	public void Clear()
 	{
-		foreach ( string id in PatternRegistery.AllKeys )
+		choices.ForEach( ( choice ) => Destroy( choice.gameObject ) );
+		choices.Clear();
+	}
+
+	public void AddPatterns( IEnumerable<string> ids )
+	{
+		foreach ( string id in ids )
 			AddPattern( id );
 	}
+	public void AddAllPatterns() => AddPatterns( PatternRegistery.AllKeys );
 
 	public void AddPattern( string id )
 	{

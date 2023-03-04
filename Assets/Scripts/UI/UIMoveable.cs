@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class UIMoveable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class UIMoveable : MonoBehaviour, 
+						  IBeginDragHandler, IDragHandler, IEndDragHandler
 {
 	public RectTransform RectTransform { get; private set; }
+	public bool IsDragging { get; private set; }
 
 	[SerializeField]
 	private UIGrid grid;
@@ -36,6 +38,7 @@ public class UIMoveable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 		if ( data.button != inputButton ) return;
 
 		draggedPos = RectTransform.anchoredPosition;
+		IsDragging = true;
 	}
 
 	public void OnDrag( PointerEventData data )
@@ -60,6 +63,6 @@ public class UIMoveable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 			return;
 		}
 
-		print( "EndDrag: snap" );
+		IsDragging = false;
 	}
 }

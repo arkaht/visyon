@@ -72,7 +72,7 @@ public class Blueprinter : MonoBehaviour,
 	public float GetDefaultZoomSize() => zoomLevels[defaultZoomLevelID];
 	public float GetZoomSize( int level ) => zoomLevels[level];
 
-	public void SpawnNodeSearcherAtMousePosition()
+	public UINodeSearcher SpawnNodeSearcherAtMousePosition()
 	{
 		Vector2 mouse_pos = GetScreenMousePosition();
 
@@ -80,11 +80,12 @@ public class Blueprinter : MonoBehaviour,
 		if ( currentSearcher == null )
 		{
 			currentSearcher = UINodeSearcher.Spawn( mouse_pos );
-			currentSearcher.AddAllPatterns();
 		}
 		//  ..or update position
 		else
 		{
+			currentSearcher.Clear();
+
 			currentSearcher.SpawnPosition = mouse_pos;
 			currentSearcher.transform.position = mouse_pos;
 		}
@@ -99,6 +100,8 @@ public class Blueprinter : MonoBehaviour,
 			rect_transform.anchoredPosition -= new Vector2( rect_transform.sizeDelta.x, 0.0f );
 		if ( top_right.y > camera.pixelHeight )
 			rect_transform.anchoredPosition -= new Vector2( 0.0f, rect_transform.sizeDelta.y );
+
+		return currentSearcher;
 	}
 	public void DestroySearcher()
 	{
@@ -123,6 +126,8 @@ public class Blueprinter : MonoBehaviour,
 		if ( shouldSpawnSearcher )
 		{
 			SpawnNodeSearcherAtMousePosition();
+			currentSearcher.AddAllPatterns();
+
 			shouldSpawnSearcher = false;
 		}
 	}
