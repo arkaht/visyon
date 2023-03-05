@@ -6,10 +6,12 @@ public class UICursorChanger : MonoBehaviour,
 {
 	[SerializeField]
 	private Texture2D hoveredCursor;
+	[SerializeField]
+	private Vector2 hotspot;
 
 	public void OnPointerEnter( PointerEventData data )
 	{
-		Cursor.SetCursor( hoveredCursor, Vector2.zero, CursorMode.ForceSoftware );
+		Cursor.SetCursor( hoveredCursor, hotspot, CursorMode.ForceSoftware );
 	}
 
 	public void OnPointerExit( PointerEventData data )
