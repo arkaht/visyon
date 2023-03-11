@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -10,6 +11,9 @@ public class UINodeSearcher : MonoBehaviour
 {
 	public bool IsSearchFieldFocused => searchField.isFocused;
 	public TMP_InputField SearchField => searchField;
+
+	public UnityEvent<UIPattern> OnSpawnPattern;
+	public UnityEvent OnRemove;
 
 	public Vector2 SpawnPosition { get; set; }
 
@@ -99,6 +103,7 @@ public class UINodeSearcher : MonoBehaviour
 
 		UIPattern pattern = UIPattern.Spawn( choice.ID );
 		pattern.transform.position = Blueprinter.Instance.ScreenToWorld( SpawnPosition );
+		OnSpawnPattern.Invoke( pattern );
 
 		Destroy( gameObject );
 	}
@@ -116,5 +121,10 @@ public class UINodeSearcher : MonoBehaviour
 		searcher.SpawnPosition = pos;
 
 		return searcher;
+	}
+
+	private void OnDestroy()
+	{
+		OnRemove.Invoke();
 	}
 }

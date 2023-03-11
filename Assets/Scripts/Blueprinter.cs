@@ -17,6 +17,8 @@ public class Blueprinter : MonoBehaviour,
 	public bool IsDragging { get; private set; }
 	public RectTransform ContentTransform => contentTransform;
 	public RectTransform OverlayTransform => overlayTransform;
+	public RectTransform ConnectionsTransform => connectionsTransform;
+	public RectTransform PatternsTransform => patternsTransform;
 	
 	public Vector2 CameraSize => camera.pixelRect.size;
 	public float ScreenRatio => 1920.0f / camera.pixelWidth;
@@ -28,7 +30,8 @@ public class Blueprinter : MonoBehaviour,
 	[SerializeField]
 	private new Camera camera;
 	[SerializeField]
-	private RectTransform contentTransform, overlayTransform;
+	private RectTransform contentTransform, overlayTransform,
+						  connectionsTransform, patternsTransform;
 
 	[Header( "Settings" )]
 	[SerializeField]

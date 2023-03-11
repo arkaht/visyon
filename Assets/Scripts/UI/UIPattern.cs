@@ -17,13 +17,12 @@ public class UIPattern : MonoBehaviour
 	private TextMeshProUGUI tmpName;
 	[SerializeField]
 	private TextMeshProUGUI tmpDefinition;
+	[SerializeField]
+	private UIPatternPin[] pins;
+
+	private Dictionary<PatternRelationType, UIPatternPin> relationPins;
 
 	private static GameObject selfPrefab;
-
-	void Awake()
-	{
-		Moveable = GetComponent<UIMoveable>();
-	}
 
 	public bool SetPattern( string id )
 	{
@@ -32,15 +31,19 @@ public class UIPattern : MonoBehaviour
 		ID = id;
 		PatternData = pattern;
 
-		//print( "data: " + PatternData );
-
-		/*foreach ( string pattern_id in PatternData.Relations.Instantiates )
-		{
-			print( pattern_id );
-		}*/
-
 		ApplyPatternData();
 		return true;
+	}
+
+	public UIPatternPin GetRelationPin( PatternRelationType relation )
+	{
+		if ( relationPins == null )
+			RetrieveRelationPins();
+
+		if ( relationPins.TryGetValue( relation, out UIPatternPin pin ) )
+			return pin;
+
+		return null;
 	}
 
 	public void ApplyPatternData()
@@ -56,10 +59,23 @@ public class UIPattern : MonoBehaviour
 			selfPrefab = Resources.Load<GameObject>( "Prefabs/UI/Pattern" );
 		}
 
-		GameObject obj = Instantiate( selfPrefab, Blueprinter.Instance.ContentTransform );
+		GameObject obj = Instantiate( selfPrefab, Blueprinter.Instance.PatternsTransform );
 		UIPattern pattern = obj.GetComponent<UIPattern>();
 		pattern.SetPattern( id );
 
 		return pattern;
+	}
+
+	private void RetrieveRelationPins()
+	{
+		relationPins = new();
+
+		foreach ( UIPatternPin pin in pins )
+			relationPins.Add( pin.Relation, pin );
+	}
+
+	void Awake()
+	{
+		Moveable = GetComponent<UIMoveable>();
 	}
 }

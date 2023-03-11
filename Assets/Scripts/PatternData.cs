@@ -25,13 +25,12 @@ public record PatternRelations( string[] Instantiates, string[] Modulates, strin
 	}
 }
 
-[Flags]
 public enum PatternRelationType
 {
-	None = 0,
-	Instantiates = 1,
-	InstantiatedBy = 2,
-	Modulates = 4,
-	ModulatedBy = 8,
-	Conflicts = 16,
+	None,
+	Instantiates,
+	InstantiatedBy,
+	Modulates,
+	ModulatedBy,
+	Conflicts,
 }
