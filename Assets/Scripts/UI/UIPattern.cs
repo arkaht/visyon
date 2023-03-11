@@ -15,6 +15,8 @@ public class UIPattern : MonoBehaviour
 
 	[SerializeField]
 	private TextMeshProUGUI tmpName;
+	[SerializeField]
+	private TextMeshProUGUI tmpDefinition;
 
 	private static GameObject selfPrefab;
 
@@ -44,6 +46,7 @@ public class UIPattern : MonoBehaviour
 	public void ApplyPatternData()
 	{
 		tmpName.text = PatternData.Name;
+		tmpDefinition.text = PatternData.Texts.Definition;
 	}
 
 	public static UIPattern Spawn( string id )
