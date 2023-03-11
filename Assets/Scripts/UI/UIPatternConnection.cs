@@ -24,6 +24,8 @@ public class UIPatternConnection : UILineConnection,
 		return connection;
 	}
 
+	//  TODO: fix graphic raycasting shape when unity website is up again
+	//  https://answers.unity.com/questions/1901509/raycasting-on-ui-graphic-with-custom-shape.html
 	public void OnPointerClick( PointerEventData data )
 	{
 		print( "pointer click " + data );
