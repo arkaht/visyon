@@ -695,6 +695,10 @@ PrefabInstance:
       propertyPath: relationsFilter
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6092367829528852764, guid: 6f1358ae82715ee4eac167e55a6c262d, type: 3}
+      propertyPath: connectionAxisPreference
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7408602173106319797, guid: 6f1358ae82715ee4eac167e55a6c262d, type: 3}
       propertyPath: m_Texture
       value: 
@@ -856,6 +860,10 @@ PrefabInstance:
       propertyPath: relationsFilter
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6092367829528852764, guid: 6f1358ae82715ee4eac167e55a6c262d, type: 3}
+      propertyPath: connectionAxisPreference
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7408602173106319797, guid: 6f1358ae82715ee4eac167e55a6c262d, type: 3}
       propertyPath: m_Texture
       value: 
@@ -1001,6 +1009,10 @@ PrefabInstance:
       propertyPath: relationsFilter
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6092367829528852764, guid: 6f1358ae82715ee4eac167e55a6c262d, type: 3}
+      propertyPath: connectionAxisPreference
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1358ae82715ee4eac167e55a6c262d, type: 3}
 --- !u!114 &1932382698178021353 stripped
@@ -1129,6 +1141,10 @@ PrefabInstance:
     - target: {fileID: 6092367829528852764, guid: 6f1358ae82715ee4eac167e55a6c262d, type: 3}
       propertyPath: relationsFilter
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6092367829528852764, guid: 6f1358ae82715ee4eac167e55a6c262d, type: 3}
+      propertyPath: connectionAxisPreference
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1358ae82715ee4eac167e55a6c262d, type: 3}

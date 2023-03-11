@@ -18,6 +18,8 @@ public class UIPatternPin : MonoBehaviour,
 	private PointerEventData.InputButton inputButton;
 	[SerializeField]
 	private PatternRelationType relationOut, relationIn;
+	[SerializeField]
+	private Axis2D connectionAxisPreference = Axis2D.None;
 
 	private Dictionary<UIPatternPin, UIPatternConnection> connections = new();
 	private UILineConnection preview_connection;
@@ -28,10 +30,9 @@ public class UIPatternPin : MonoBehaviour,
 		if ( pin.uiPattern.PatternData == uiPattern.PatternData ) return false;  //  check same patterns
 		if ( connections.ContainsKey( pin ) ) return false;  //  check existing connection
 		
-		UIPatternConnection connection = UIPatternConnection.Spawn( this, pin );
+		UIPatternConnection connection = UIPatternConnection.Spawn( this, pin, connectionAxisPreference );
 		connections.Add( pin, connection );
 		
-		print( "connect " + uiPattern.ID + " to " + pin.uiPattern.ID );
 		return true;
 	}
 
@@ -77,7 +78,7 @@ public class UIPatternPin : MonoBehaviour,
 			return;
 		}
 
-		preview_connection.Connect( transform.position, Blueprinter.Instance.ScreenToWorld( data.position ) );
+		preview_connection.Connect( transform.position, Blueprinter.Instance.ScreenToWorld( data.position ), connectionAxisPreference );
 	}
 
 	public void OnEndDrag( PointerEventData data )
@@ -87,6 +88,22 @@ public class UIPatternPin : MonoBehaviour,
 			Blueprinter.Instance.OnEndDrag( data );
 			return;
 		}
+
+		//  check hovered pins
+		foreach ( GameObject hovered in data.hovered )
+			if ( hovered != null && hovered.TryGetComponent( out UIPatternPin pin ) )
+			{
+				if ( pin.relationIn == relationOut )
+				{
+					//  destroy preview
+					Destroy( preview_connection.gameObject );
+
+					//  connect to it
+					Connect( pin );
+					return;
+				}
+				break;
+			}
 
 		//  spawn searcher
 		UINodeSearcher searcher = Blueprinter.Instance.SpawnNodeSearcherAtMousePosition();

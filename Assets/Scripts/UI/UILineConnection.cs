@@ -2,6 +2,7 @@ using UnityEngine;
 
 public enum Axis2D
 {
+    None,
     X,
     Y,
 }
@@ -33,6 +34,13 @@ public class UILineConnection : MonoBehaviour
 
     public void Connect( Vector2 start, Vector2 end, Axis2D axis )
     {
+        //  find prefered axis
+        if ( axis == Axis2D.None )
+        {
+            Connect( start, end );
+            return;
+        }
+
         transform.position = start;
 
         renderer.Points.Clear();
