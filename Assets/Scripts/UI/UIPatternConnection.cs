@@ -1,10 +1,13 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class UIPatternConnection : UILineConnection
+public class UIPatternConnection : UILineConnection,
+								   IPointerClickHandler
 {
 	public UIPatternPin PinStart, PinEnd;
 	public Axis2D PreferredAxis;
+
+	private PointerEventData.InputButton deleteButton = PointerEventData.InputButton.Left;
 
 	public static UIPatternConnection Spawn( UIPatternPin start, UIPatternPin end, Axis2D preferred_axis )
 	{
@@ -19,6 +22,16 @@ public class UIPatternConnection : UILineConnection
         connection.Data = GetConnectionData( start.Relation );
 
 		return connection;
+	}
+
+	public void OnPointerClick( PointerEventData data )
+	{
+		print( "pointer click " + data );
+		if ( data.button == deleteButton && Input.GetKey( KeyCode.LeftShift ) )
+		{
+			PinStart.Disconnect( PinEnd );
+			print( "unconnect");
+		}
 	}
 
 	void Update()

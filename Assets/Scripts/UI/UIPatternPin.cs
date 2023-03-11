@@ -24,15 +24,46 @@ public class UIPatternPin : MonoBehaviour,
 	private Dictionary<UIPatternPin, UIPatternConnection> connections = new();
 	private UILineConnection preview_connection;
 
+	private void DoConnect( UIPatternPin pin, UIPatternConnection connection )
+	{
+		connections.Add( pin, connection );
+		//print( $"add connection from {uiPattern.PatternData.Name} to {pin.uiPattern.PatternData.Name}" );
+	}
 	public bool Connect( UIPatternPin pin )
 	{
 		if ( pin == null ) return false;  //  check null-reference
 		if ( pin.uiPattern.PatternData == uiPattern.PatternData ) return false;  //  check same patterns
 		if ( connections.ContainsKey( pin ) ) return false;  //  check existing connection
 		
+		//  spawn connection
 		UIPatternConnection connection = UIPatternConnection.Spawn( this, pin, connectionAxisPreference );
-		connections.Add( pin, connection );
+
+		//  connect both
+		DoConnect( pin, connection );
+		pin.DoConnect( this, connection );
 		
+		return true;
+	}
+	public bool Connect( UIPattern pattern ) => Connect( pattern.GetRelationPin( relationIn ) );
+
+	private void DoDisconnect( UIPatternPin pin )
+	{
+		connections.Remove( pin );
+		//print( $"remove connection from {uiPattern.PatternData.Name} to {pin.uiPattern.PatternData.Name}" );
+	}
+	public bool Disconnect( UIPatternPin pin )
+	{
+		if ( pin == null ) return false;
+		if ( !connections.TryGetValue( pin, out UIPatternConnection connection ) ) return false;
+	
+		//  destroy connection
+		if ( connection != null )
+			Destroy( connection.gameObject );
+
+		//  disconnect both
+		DoDisconnect( pin );
+		pin.DoDisconnect( this );
+
 		return true;
 	}
 
@@ -112,7 +143,7 @@ public class UIPatternPin : MonoBehaviour,
 		searcher.AddPatterns( GetPossibleRelations(), GetRelationName() );
 
 		//  listen to events
-		searcher.OnSpawnPattern.AddListener( pattern => Connect( pattern.GetRelationPin( relationIn ) ) );
+		searcher.OnSpawnPattern.AddListener( pattern => Connect( pattern ) );
 		searcher.OnRemove.AddListener( () => Destroy( preview_connection.gameObject ) );
 	}
 
