@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 public record PatternData( string Name, PatternTexts Texts, PatternRelations Relations )
 {
 	public override string ToString()
@@ -21,4 +23,15 @@ public record PatternRelations( string[] Instantiates, string[] Modulates, strin
 	{
 		return $"{GetType().Name}[Instantiates({Instantiates.Length}; Modulates({Modulates.Length}); InstantiatedBy({InstantiatedBy.Length}); ModulatedBy({ModulatedBy.Length}); Conflicts({Conflicts.Length})]";
 	}
+}
+
+[Flags]
+public enum PatternRelationType
+{
+	None = 0,
+	Instantiates = 1,
+	InstantiatedBy = 2,
+	Modulates = 4,
+	ModulatedBy = 8,
+	Conflicts = 16,
 }

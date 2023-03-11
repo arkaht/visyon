@@ -9,6 +9,8 @@ public class UIPatternPin : MonoBehaviour,
 
 	[SerializeField]
 	private PointerEventData.InputButton inputButton;
+	[SerializeField]
+	private PatternRelationType relationsFilter = PatternRelationType.None;
 
 	public void OnBeginDrag( PointerEventData data )
 	{
@@ -35,10 +37,15 @@ public class UIPatternPin : MonoBehaviour,
 		PatternRelations relations = uiPattern.PatternData.Relations;
 
 		UINodeSearcher searcher = Blueprinter.Instance.SpawnNodeSearcherAtMousePosition();
-		searcher.AddPatterns( relations.Instantiates, "Instantiates" );
-		searcher.AddPatterns( relations.Conflicts, "Potential Conflicts" );
-		searcher.AddPatterns( relations.Modulates, "Modulates" );
-		searcher.AddPatterns( relations.InstantiatedBy, "Instantiated By" );
-		searcher.AddPatterns( relations.ModulatedBy, "Modulated By" );
+		if ( relationsFilter.HasFlag( PatternRelationType.Instantiates ) )
+			searcher.AddPatterns( relations.Instantiates, "Instantiates" );
+		if ( relationsFilter.HasFlag( PatternRelationType.Conflicts ) )
+			searcher.AddPatterns( relations.Conflicts, "Potential Conflicts" );
+		if ( relationsFilter.HasFlag( PatternRelationType.Modulates ) )
+			searcher.AddPatterns( relations.Modulates, "Modulates" );
+		if ( relationsFilter.HasFlag( PatternRelationType.InstantiatedBy ) )
+			searcher.AddPatterns( relations.InstantiatedBy, "Instantiated By" );
+		if ( relationsFilter.HasFlag( PatternRelationType.ModulatedBy ) )
+			searcher.AddPatterns( relations.ModulatedBy, "Modulated By" );
 	}
 }
