@@ -68,7 +68,7 @@ public class UILineConnection : MonoBehaviour
 
     public static UILineConnection Spawn( PatternRelationType relation )
     {
-		GameObject obj = new( "Pattern Connection" ); 
+		GameObject obj = new( "Line Connection" ); 
 		obj.transform.SetParent( Blueprinter.Instance.ConnectionsTransform );
 		obj.AddComponent<CanvasRenderer>();
 

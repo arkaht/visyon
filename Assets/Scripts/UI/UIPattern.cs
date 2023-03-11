@@ -63,6 +63,8 @@ public class UIPattern : MonoBehaviour
 		UIPattern pattern = obj.GetComponent<UIPattern>();
 		pattern.SetPattern( id );
 
+		obj.name = $"Pattern '{pattern.PatternData.Name}'";
+
 		return pattern;
 	}
 

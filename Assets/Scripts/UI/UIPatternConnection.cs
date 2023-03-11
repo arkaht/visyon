@@ -7,7 +7,7 @@ public class UIPatternConnection : UILineConnection
 
 	public static UIPatternConnection Spawn( UIPatternPin start, UIPatternPin end )
 	{
-		GameObject obj = new( "Pattern Connection" ); 
+		GameObject obj = new( $"Pattern Connection '{start.UIPattern.PatternData.Name}'=>'{end.UIPattern.PatternData.Name}" ); 
 		obj.transform.SetParent( Blueprinter.Instance.ConnectionsTransform );
 		obj.AddComponent<CanvasRenderer>();
 

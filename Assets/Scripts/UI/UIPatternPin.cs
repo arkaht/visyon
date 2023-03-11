@@ -8,6 +8,7 @@ using UnityEngine.UIElements;
 public class UIPatternPin : MonoBehaviour,
 							IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+	public UIPattern UIPattern => uiPattern;
 	public PatternRelationType Relation => relationOut;
 
 	[SerializeField]
