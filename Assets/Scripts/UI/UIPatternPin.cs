@@ -36,7 +36,7 @@ public class UIPatternPin : MonoBehaviour,
 		return true;
 	}
 
-	public string[] GetRelations()
+	public string[] GetPossibleRelations()
 	{
 		PatternRelations relations = uiPattern.PatternData.Relations;
 		return relationOut switch
@@ -109,7 +109,7 @@ public class UIPatternPin : MonoBehaviour,
 		UINodeSearcher searcher = Blueprinter.Instance.SpawnNodeSearcherAtMousePosition();
 
 		//  add related patterns
-		searcher.AddPatterns( GetRelations(), GetRelationName() );
+		searcher.AddPatterns( GetPossibleRelations(), GetRelationName() );
 
 		//  listen to events
 		searcher.OnSpawnPattern.AddListener( pattern => Connect( pattern.GetRelationPin( relationIn ) ) );
@@ -125,7 +125,7 @@ public class UIPatternPin : MonoBehaviour,
 		}
 
 		//  prevent using this pin if empty
-		if ( GetRelations().Length == 0 )
+		if ( GetPossibleRelations().Length == 0 )
 			Destroy( gameObject );
 	}
 }
