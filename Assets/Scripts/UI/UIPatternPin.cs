@@ -48,4 +48,31 @@ public class UIPatternPin : MonoBehaviour,
 		if ( relationsFilter.HasFlag( PatternRelationType.ModulatedBy ) )
 			searcher.AddPatterns( relations.ModulatedBy, "Modulated By" );
 	}
+
+	void Start()
+	{
+		if ( uiPattern.PatternData == null || uiPattern.PatternData.Relations == null )
+		{
+			Destroy( gameObject );
+			return;
+		}
+
+		//  get relations count
+		int count = 0;
+		PatternRelations relations = uiPattern.PatternData.Relations;
+		if ( relationsFilter.HasFlag( PatternRelationType.Instantiates ) )
+			count += relations.Instantiates.Length;
+		if ( relationsFilter.HasFlag( PatternRelationType.Conflicts ) )
+			count += relations.Conflicts.Length;
+		if ( relationsFilter.HasFlag( PatternRelationType.Modulates ) )
+			count += relations.Modulates.Length;
+		if ( relationsFilter.HasFlag( PatternRelationType.InstantiatedBy ) )
+			count += relations.InstantiatedBy.Length;
+		if ( relationsFilter.HasFlag( PatternRelationType.ModulatedBy ) )
+			count += relations.ModulatedBy.Length;
+
+		//  prevent using this pin if empty
+		if ( count == 0 )
+			Destroy( gameObject );
+	}
 }
