@@ -137,16 +137,13 @@ public class Blueprinter : MonoBehaviour,
 
 	public void OnDrag( PointerEventData data )
 	{
-		IsDragging = true;
-
 		DestroySearcher();
 
-		if ( data.button != dragButton ) 
-		{
-			return;
-		}
+		if ( data.button != dragButton ) return;
 
 		camera.transform.position -= PixelRatio * moveMultiplier * (Vector3) data.delta;
+
+		IsDragging = true;
 	}
 	public void OnEndDrag( PointerEventData data )
 	{
