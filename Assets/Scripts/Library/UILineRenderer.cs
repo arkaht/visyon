@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using Utils;
 
 //  source: https://www.youtube.com/watch?v=--LB7URk60A&ab_channel=GameDevGuide
+[RequireComponent( typeof( CanvasRenderer ) )]
 public class UILineRenderer : Graphic
 {
 	public float Thickness = 5.0f;
@@ -24,7 +26,7 @@ public class UILineRenderer : Graphic
 
 			if ( i < Points.Count - 1 )
 			{
-				angle = GetAngle( Points[i], Points[i + 1] ) + 90.0f;
+				angle = MathUtils.DirectionalAngle( Points[i], Points[i + 1] ) + 90.0f;
 			}
 
 			DrawVerticesForPoint( start, end, angle, vh );
@@ -37,10 +39,7 @@ public class UILineRenderer : Graphic
 			vh.AddTriangle( index + 1, index + 2, index + 3 );
 		}
 	}
-	public float GetAngle( Vector2 me, Vector2 target )
-	{
-		return Mathf.Atan2( target.y - me.y, target.x - me.x ) * Mathf.Rad2Deg;
-	}
+	
 	void DrawVerticesForPoint( Vector2 start, Vector2 end, float angle, VertexHelper vh )
 	{
 		UIVertex vertex = UIVertex.simpleVert;

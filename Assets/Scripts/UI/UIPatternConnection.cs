@@ -12,17 +12,20 @@ public class UIPatternConnection : UILineConnection,
 
 	public static UIPatternConnection Spawn( UIPatternPin start, UIPatternPin end, Axis2D preferred_axis )
 	{
-		//  create game object
-		GameObject obj = new( $"Pattern Connection '{start.UIPattern.PatternData.Name}'=>'{end.UIPattern.PatternData.Name}" ); 
-		obj.transform.SetParent( Blueprinter.Instance.ConnectionsTransform );
-		obj.AddComponent<CanvasRenderer>();
+		//  reverse start & end pins
+		switch ( end.Relation )
+		{
+			case PatternRelationType.Instantiates:
+			case PatternRelationType.Modulates:
+				( start, end ) = ( end, start );
+				break;
+		}
 
-		//  spawn component
-		UIPatternConnection connection = obj.AddComponent<UIPatternConnection>();
+		//  spawn connection
+		UIPatternConnection connection = Spawn<UIPatternConnection>( $"Pattern Connection '{start.UIPattern.PatternData.Name}'=>'{end.UIPattern.PatternData.Name}", start.Relation );
 		connection.PinStart = start;
 		connection.PinEnd = end;
 		connection.PreferredAxis = preferred_axis;
-		connection.Data = GetConnectionData( start.Relation );
 
 		//  update connection
 		start.UIPattern.Moveable.OnMove.AddListener( connection.UpdateConnection );
@@ -58,4 +61,6 @@ public class UIPatternConnection : UILineConnection,
 
 		StartCoroutine( DoUpdate() );
 	}
+
+	protected override Vector2 GetArrowOffset() => ( PinEnd.transform as RectTransform ).sizeDelta * 0.75f;
 }

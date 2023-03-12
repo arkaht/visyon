@@ -1,4 +1,8 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using Utils;
 
 public enum Axis2D
 {
@@ -20,12 +24,16 @@ public class UILineConnection : MonoBehaviour
 
 			renderer.Thickness = data.Thickness;
 			renderer.color = data.Color;
+			arrowImage.color = data.Color;
+			arrowImage.sprite = data.ArrowSprite;
+			arrowImage.rectTransform.sizeDelta = data.ArrowSize;
 		}
 	}
 
 	private ConnectionData data;
 
 	protected new UILineRenderer renderer;
+	protected Image arrowImage;
 
 	void Awake()
 	{
@@ -40,8 +48,11 @@ public class UILineConnection : MonoBehaviour
 
 		transform.position = start;
 
-		renderer.Points.Clear();
-		renderer.Points.Add( Vector3.zero );
+		//  initialize points
+		List<Vector2> points = new()
+		{
+			Vector3.zero
+		};
 
 		//  middle average
 		Vector3 average = UIGrid.Instance.SnapPosition( ( start + end ) * 0.5f );
@@ -50,22 +61,28 @@ public class UILineConnection : MonoBehaviour
 			case Axis2D.X:
 				if ( start.y != end.y )
 				{
-					renderer.Points.Add( transform.InverseTransformPoint( new( average.x, start.y ) ) );
-					renderer.Points.Add( transform.InverseTransformPoint( new( average.x, end.y ) ) );
+					points.Add( transform.InverseTransformPoint( new( average.x, start.y ) ) );
+					points.Add( transform.InverseTransformPoint( new( average.x, end.y ) ) );
 				}
 				break;
 			case Axis2D.Y:
 				if ( start.x != end.x )
 				{
-					renderer.Points.Add( transform.InverseTransformPoint( new( start.x, average.y ) ) );
-					renderer.Points.Add( transform.InverseTransformPoint( new( end.x, average.y ) ) );
+					points.Add( transform.InverseTransformPoint( new( start.x, average.y ) ) );
+					points.Add( transform.InverseTransformPoint( new( end.x, average.y ) ) );
 				}
 				break;
 		}
 		
-		renderer.Points.Add( transform.InverseTransformPoint( end ) );
+		points.Add( transform.InverseTransformPoint( end ) );
+
+		//  place arrow
+		Vector2 back_dir = ( points[^2] - points[^1] ).normalized;
+		arrowImage.rectTransform.position = end + back_dir * GetArrowOffset();
+		arrowImage.rectTransform.eulerAngles = new( 0.0f, 0.0f, MathUtils.DirectionalAngle( -back_dir ) );
 
 		//  schedule update
+		renderer.Points = points;
 		renderer.SetVerticesDirty();
 	}
 	public void Connect( Vector2 start, Vector2 end )
@@ -77,21 +94,31 @@ public class UILineConnection : MonoBehaviour
 		);
 	}
 
+	protected virtual Vector2 GetArrowOffset() => Vector2.zero;
+
 	private Axis2D GetPreferredAxis( Vector2 start, Vector2 end )
 	{
 		return Mathf.Abs( start.x - end.x ) > Mathf.Abs( start.y - end.y ) ? Axis2D.X : Axis2D.Y;
 	}
 
+	protected static T Spawn<T>( string name, PatternRelationType relation ) where T : UILineConnection
+	{
+		GameObject obj = new( name ); 
+		obj.transform.SetParent( Blueprinter.Instance.ConnectionsTransform );
+
+		T connection = obj.AddComponent<T>();
+
+		GameObject arrow = new( "Arrow" );
+		arrow.transform.SetParent( obj.transform );
+		Image arrow_image = arrow.AddComponent<Image>();
+		connection.arrowImage = arrow_image;
+
+		connection.Data = GetConnectionData( relation );
+		return connection;
+	}
 	public static UILineConnection Spawn( PatternRelationType relation )
 	{
-		GameObject obj = new( "Line Connection" ); 
-		obj.transform.SetParent( Blueprinter.Instance.ConnectionsTransform );
-		obj.AddComponent<CanvasRenderer>();
-
-		UILineConnection connection = obj.AddComponent<UILineConnection>();
-		connection.Data = GetConnectionData( relation );
-
-		return connection;
+		return Spawn<UILineConnection>( "Line Connection", relation );
 	}
 
 	public static ConnectionData GetConnectionData( PatternRelationType relation )
