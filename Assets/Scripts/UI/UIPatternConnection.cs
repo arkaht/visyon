@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class UIPatternConnection : UILineConnection,
@@ -11,15 +12,22 @@ public class UIPatternConnection : UILineConnection,
 
 	public static UIPatternConnection Spawn( UIPatternPin start, UIPatternPin end, Axis2D preferred_axis )
 	{
+		//  create game object
 		GameObject obj = new( $"Pattern Connection '{start.UIPattern.PatternData.Name}'=>'{end.UIPattern.PatternData.Name}" ); 
 		obj.transform.SetParent( Blueprinter.Instance.ConnectionsTransform );
 		obj.AddComponent<CanvasRenderer>();
 
+		//  spawn component
 		UIPatternConnection connection = obj.AddComponent<UIPatternConnection>();
 		connection.PinStart = start;
 		connection.PinEnd = end;
 		connection.PreferredAxis = preferred_axis;
         connection.Data = GetConnectionData( start.Relation );
+
+		//  update connection
+		start.UIPattern.Moveable.OnMove.AddListener( connection.UpdateConnection );
+		end.UIPattern.Moveable.OnMove.AddListener( connection.UpdateConnection );
+		connection.ScheduleUpdate();
 
 		return connection;
 	}
@@ -36,8 +44,18 @@ public class UIPatternConnection : UILineConnection,
 		}
 	}
 
-	void Update()
+	public void UpdateConnection()
 	{
 		Connect( PinStart.transform.position, PinEnd.transform.position, PreferredAxis );
+	}
+
+	private void ScheduleUpdate()
+	{
+		IEnumerator DoUpdate() {
+			yield return new WaitForSeconds( 0.0f );
+			UpdateConnection();
+		}
+
+		StartCoroutine( DoUpdate() );
 	}
 }

@@ -36,10 +36,7 @@ public class UILineConnection : MonoBehaviour
     {
         //  find prefered axis
         if ( axis == Axis2D.None )
-        {
-            Connect( start, end );
-            return;
-        }
+            axis = GetPreferredAxis( start, end );
 
         transform.position = start;
 
@@ -72,15 +69,20 @@ public class UILineConnection : MonoBehaviour
         renderer.SetVerticesDirty();
 	}
     public void Connect( Vector2 start, Vector2 end )
-    {
-        Connect( 
-            start, 
-            end, 
-            Mathf.Abs( start.x - end.x ) > Mathf.Abs( start.y - end.y ) ? Axis2D.X : Axis2D.Y 
-        );
-    }
+	{
+		Connect(
+			start,
+			end,
+			GetPreferredAxis( start, end )
+		);
+	}
 
-    public static UILineConnection Spawn( PatternRelationType relation )
+	private Axis2D GetPreferredAxis( Vector2 start, Vector2 end )
+	{
+		return Mathf.Abs( start.x - end.x ) > Mathf.Abs( start.y - end.y ) ? Axis2D.X : Axis2D.Y;
+	}
+
+	public static UILineConnection Spawn( PatternRelationType relation )
     {
 		GameObject obj = new( "Line Connection" ); 
 		obj.transform.SetParent( Blueprinter.Instance.ConnectionsTransform );
