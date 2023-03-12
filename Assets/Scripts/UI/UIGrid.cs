@@ -86,7 +86,7 @@ public class UIGrid : MonoBehaviour
         for ( int i = min_tile_pos.x; i < max_tile_pos.x; i++ )
         {
             CreateLine( 
-                new Vector3( i * small_gap, rectTransform.position.y ), 
+                new Vector3( i * small_gap - lineWide / 2.0f, rectTransform.position.y ), 
                 size, 
                 i % bigLineCount == 0 ? bigColor : smallColor
             );
@@ -98,7 +98,7 @@ public class UIGrid : MonoBehaviour
         for ( int i = min_tile_pos.y; i < max_tile_pos.y; i++ )
         {
             CreateLine( 
-                new Vector3( rectTransform.position.x, i * small_gap ), 
+                new Vector3( rectTransform.position.x, i * small_gap - lineWide / 2.0f ), 
                 size, 
                 i % bigLineCount == 0 ? bigColor : smallColor
             );
