@@ -44,7 +44,7 @@ public class UILineConnection : MonoBehaviour
         renderer.Points.Add( Vector3.zero );
 
         //  middle average
-        Vector3 average = ( start + end ) * 0.5f;
+        Vector3 average = UIGrid.Instance.SnapPosition( ( start + end ) * 0.5f );
 		switch ( axis )
 		{
 			case Axis2D.X:
