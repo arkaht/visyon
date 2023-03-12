@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEditor.MemoryProfiler;
 using UnityEngine;
@@ -124,16 +125,15 @@ public class UIPatternPin : MonoBehaviour,
 		foreach ( GameObject hovered in data.hovered )
 			if ( hovered != null && hovered.TryGetComponent( out UIPatternPin pin ) )
 			{
-				if ( pin.relationIn == relationOut )
-				{
-					//  destroy preview
-					Destroy( preview_connection.gameObject );
+				//  destroy preview
+				Destroy( preview_connection.gameObject );
 
+				if ( pin.relationIn == relationOut && GetPossibleRelations().Contains( pin.uiPattern.ID ) )
+				{
 					//  connect to it
 					Connect( pin );
-					return;
 				}
-				break;
+				return;
 			}
 
 		//  spawn searcher
