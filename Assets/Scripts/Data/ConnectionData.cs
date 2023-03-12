@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu( menuName = "Data/ConnectionData" )]
 public class ConnectionData : ScriptableObject
