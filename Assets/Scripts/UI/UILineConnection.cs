@@ -51,12 +51,18 @@ public class UILineConnection : MonoBehaviour
 		switch ( axis )
 		{
 			case Axis2D.X:
-                renderer.Points.Add( transform.InverseTransformPoint( new( average.x, start.y ) ) );
-                renderer.Points.Add( transform.InverseTransformPoint( new( average.x, end.y ) ) );
+                if ( start.y != end.y )
+                {
+                    renderer.Points.Add( transform.InverseTransformPoint( new( average.x, start.y ) ) );
+                    renderer.Points.Add( transform.InverseTransformPoint( new( average.x, end.y ) ) );
+                }
 				break;
 			case Axis2D.Y:
-                renderer.Points.Add( transform.InverseTransformPoint( new( start.x, average.y ) ) );
-                renderer.Points.Add( transform.InverseTransformPoint( new( end.x, average.y ) ) );
+                if ( start.x != end.x )
+                {
+                    renderer.Points.Add( transform.InverseTransformPoint( new( start.x, average.y ) ) );
+                    renderer.Points.Add( transform.InverseTransformPoint( new( end.x, average.y ) ) );
+                }
 				break;
 		}
 		
