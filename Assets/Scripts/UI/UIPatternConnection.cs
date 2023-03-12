@@ -22,7 +22,7 @@ public class UIPatternConnection : UILineConnection,
 		connection.PinStart = start;
 		connection.PinEnd = end;
 		connection.PreferredAxis = preferred_axis;
-        connection.Data = GetConnectionData( start.Relation );
+		connection.Data = GetConnectionData( start.Relation );
 
 		//  update connection
 		start.UIPattern.Moveable.OnMove.AddListener( connection.UpdateConnection );
