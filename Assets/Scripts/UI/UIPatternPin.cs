@@ -64,6 +64,11 @@ public class UIPatternPin : MonoBehaviour,
 
 		return true;
 	}
+	public void ClearConnections()
+	{
+		foreach ( var pair in connections.ToList() )
+			Disconnect( pair.Key );
+	}
 
 	public string[] GetPossibleRelations()
 	{
@@ -155,5 +160,10 @@ public class UIPatternPin : MonoBehaviour,
 		//  prevent using this pin if empty
 		if ( GetPossibleRelations().Length == 0 )
 			Destroy( gameObject );
+	}
+
+	void OnDestroy()
+	{
+		ClearConnections();
 	}
 }

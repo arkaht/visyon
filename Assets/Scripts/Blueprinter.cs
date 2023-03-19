@@ -1,8 +1,11 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Blueprinter : MonoBehaviour, 
-						   IDragHandler, IEndDragHandler, IScrollHandler, IPointerClickHandler
+						   IBeginDragHandler, IDragHandler, IEndDragHandler, IScrollHandler, IPointerClickHandler
 {
 	public static Blueprinter Instance
 	{
@@ -15,6 +18,7 @@ public class Blueprinter : MonoBehaviour,
 	private static Blueprinter instance;
 
 	public bool IsDragging { get; private set; }
+	public bool IsSelecting { get; private set; }
 	public RectTransform ContentTransform => contentTransform;
 	public RectTransform OverlayTransform => overlayTransform;
 	public RectTransform ConnectionsTransform => connectionsTransform;
@@ -24,6 +28,8 @@ public class Blueprinter : MonoBehaviour,
 	public float ScreenRatio => 1920.0f / camera.pixelWidth;
 	public float PixelRatio => ScreenRatio * 1.0f / canvas.scaleFactor * GetCurrentZoomSize() / GetDefaultZoomSize();
 
+	public IReadOnlyCollection<UISelectable> Selection => selection;
+
 	[Header( "References" )]
 	[SerializeField]
 	private Canvas canvas;
@@ -32,12 +38,16 @@ public class Blueprinter : MonoBehaviour,
 	[SerializeField]
 	private RectTransform contentTransform, overlayTransform,
 						  connectionsTransform, patternsTransform;
+	[SerializeField]
+	private UISelectionRect selectionRect;
 
 	[Header( "Settings" )]
 	[SerializeField]
 	private PointerEventData.InputButton dragButton;
 	[SerializeField]
 	private PointerEventData.InputButton searchButton;
+	[SerializeField]
+	private PointerEventData.InputButton selectButton;
 	[SerializeField]
 	private float moveMultiplier = 1.0f, zoomMultiplier = 1.0f;
 	[SerializeField]
@@ -48,6 +58,7 @@ public class Blueprinter : MonoBehaviour,
 	private float zoomLevel = 1.0f;
 	private UINodeSearcher currentSearcher;
 	private bool shouldSpawnSearcher = false;
+	private readonly HashSet<UISelectable> selection = new();
 
 	public Vector2 GetScreenMousePosition() => Input.mousePosition;
 	public Vector2 GetWorldMousePosition( bool is_canvas_relative = false, bool is_absolute = false )
@@ -64,7 +75,7 @@ public class Blueprinter : MonoBehaviour,
 	}
 
 	public Vector2 WorldToScreen( Vector2 world_pos ) => camera.WorldToScreenPoint( world_pos );
-	public Vector2 ScreenToWorld( Vector2 world_pos ) => camera.ScreenToWorldPoint( world_pos );
+	public Vector2 ScreenToWorld( Vector2 screen_pos ) => camera.ScreenToWorldPoint( screen_pos );
 
 	public void ResetZoomToDefault()
 	{
@@ -74,6 +85,33 @@ public class Blueprinter : MonoBehaviour,
 	public float GetCurrentZoomSize() => GetZoomSize( Mathf.FloorToInt( zoomLevel ) );
 	public float GetDefaultZoomSize() => zoomLevels[defaultZoomLevelID];
 	public float GetZoomSize( int level ) => zoomLevels[level];
+	
+	public bool AddToSelection( UISelectable selected )
+	{
+		if ( !selection.Add( selected ) ) return false;
+
+		selected.SetSelected( true );
+		return true;
+	}
+	public bool RemoveFromSelection( UISelectable selected )
+	{
+		if ( !selection.Remove( selected ) ) return false;
+
+		selected.SetSelected( false );
+		return true;
+	}
+	public void ClearSelection()
+	{
+		foreach ( UISelectable selected in selection.ToList() )
+			RemoveFromSelection( selected );
+	}
+	public void DeleteSelection()
+	{
+		foreach ( UISelectable selected in selection )
+			Destroy( selected.gameObject );
+
+		selection.Clear();
+	}
 
 	public UINodeSearcher SpawnNodeSearcherAtMousePosition()
 	{
@@ -126,6 +164,7 @@ public class Blueprinter : MonoBehaviour,
 
 	void Update()
 	{
+		//  spawn searcher
 		if ( shouldSpawnSearcher )
 		{
 			SpawnNodeSearcherAtMousePosition();
@@ -133,30 +172,75 @@ public class Blueprinter : MonoBehaviour,
 
 			shouldSpawnSearcher = false;
 		}
+
+		//  delete selection
+		if ( Input.GetKeyDown( KeyCode.Backspace ) || Input.GetKeyDown( KeyCode.Delete ) )
+			DeleteSelection();
 	}
 
+	public void OnBeginDrag( PointerEventData data )
+	{
+		if ( data.button == selectButton )
+		{
+			selectionRect.StartPos = ScreenToWorld( data.position );
+			IsSelecting = true;
+		}
+	}
 	public void OnDrag( PointerEventData data )
 	{
 		DestroySearcher();
 
-		if ( data.button != dragButton ) return;
-
-		camera.transform.position -= PixelRatio * moveMultiplier * (Vector3) data.delta;
-
-		IsDragging = true;
+		if ( data.button == dragButton ) 
+		{
+			camera.transform.position -= PixelRatio * moveMultiplier * (Vector3) data.delta;
+			IsDragging = true;
+		}
+		else if ( data.button == selectButton )
+		{
+			selectionRect.EndPos = ScreenToWorld( data.position );
+		}
 	}
 	public void OnEndDrag( PointerEventData data )
 	{
-		if ( data.button != dragButton ) return;
+		if ( data.button == dragButton )
+		{
+			if ( dragButton == searchButton )
+				shouldSpawnSearcher = false;
 
-		if ( dragButton == searchButton )
-			shouldSpawnSearcher = false;
+			IsDragging = false;
+		}
+		else if ( data.button == selectButton )
+		{
+			if ( !Input.GetKey( KeyCode.LeftShift ) )
+				ClearSelection();
 
-		IsDragging = false;
+			foreach( UISelectable selectable in selectionRect.Find<UISelectable>() )
+				AddToSelection( selectable );
+
+			selectionRect.Reset();
+			IsSelecting = false;
+		}
 	}
 
 	public void OnPointerClick( PointerEventData data )
 	{
+		if ( !IsSelecting )
+		{
+			ClearSelection();
+
+			//  try to select at mouse position
+			selectionRect.StartPos = ScreenToWorld( data.position );
+			selectionRect.EndPos = selectionRect.StartPos + Vector2.one;
+
+			foreach( UISelectable selectable in selectionRect.Find<UISelectable>() )
+			{
+				AddToSelection( selectable );
+				break;
+			}
+
+			selectionRect.Reset();
+		}
+
 		if ( data.button != searchButton )
 		{
 			DestroySearcher();
