@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using static UnityEditor.PlayerSettings;
 
 public class Blueprinter : MonoBehaviour, 
 						   IBeginDragHandler, IDragHandler, IEndDragHandler, IScrollHandler, IPointerClickHandler
@@ -42,11 +43,11 @@ public class Blueprinter : MonoBehaviour,
 	private UISelectionRect selectionRect;
 
 	[Header( "Settings" )]
-	[SerializeField]
+	[SerializeField, Tooltip( "Button to drag the camera around" )]
 	private PointerEventData.InputButton dragButton;
-	[SerializeField]
+	[SerializeField, Tooltip( "Button to create the search menu" )]
 	private PointerEventData.InputButton searchButton;
-	[SerializeField]
+	[SerializeField, Tooltip( "Button to create a selection & to move selectable objects around" )]
 	private PointerEventData.InputButton selectButton;
 	[SerializeField]
 	private float moveMultiplier = 1.0f, zoomMultiplier = 1.0f;
@@ -88,6 +89,7 @@ public class Blueprinter : MonoBehaviour,
 	
 	public bool AddToSelection( UISelectable selected )
 	{
+		if ( selected == null ) return false;
 		if ( !selection.Add( selected ) ) return false;
 
 		selected.SetSelected( true );
@@ -95,6 +97,7 @@ public class Blueprinter : MonoBehaviour,
 	}
 	public bool RemoveFromSelection( UISelectable selected )
 	{
+		if ( selected == null ) return false;
 		if ( !selection.Remove( selected ) ) return false;
 
 		selected.SetSelected( false );
@@ -180,10 +183,30 @@ public class Blueprinter : MonoBehaviour,
 
 	public void OnBeginDrag( PointerEventData data )
 	{
-		if ( data.button == selectButton )
+		if ( data.button != selectButton ) return;
+
+		Vector2 pos = ScreenToWorld( data.position );
+		UISelectable hovered = selectionRect.FindAtPosition<UISelectable>( pos );
+
+		//  do selection
+		if ( hovered == null )
 		{
 			selectionRect.StartPos = ScreenToWorld( data.position );
 			IsSelecting = true;
+		}
+		//  begin dragging
+		else
+		{
+			if ( !hovered.IsSelected )
+				ClearSelection();
+
+			//  select hovered if selection is empty
+			if ( selection.Count == 0 )
+				AddToSelection( hovered );
+
+			//  drag selection
+			foreach ( UISelectable selectable in selection )
+				selectable.Moveable.OnBeginDrag( data );
 		}
 	}
 	public void OnDrag( PointerEventData data )
@@ -197,7 +220,11 @@ public class Blueprinter : MonoBehaviour,
 		}
 		else if ( data.button == selectButton )
 		{
-			selectionRect.EndPos = ScreenToWorld( data.position );
+			if ( IsSelecting )
+				selectionRect.EndPos = ScreenToWorld( data.position );
+			else if ( !IsDragging )
+				foreach ( UISelectable selectable in selection )
+					selectable.Moveable.OnDrag( data );
 		}
 	}
 	public void OnEndDrag( PointerEventData data )
@@ -211,14 +238,20 @@ public class Blueprinter : MonoBehaviour,
 		}
 		else if ( data.button == selectButton )
 		{
-			if ( !Input.GetKey( KeyCode.LeftShift ) )
-				ClearSelection();
+			if ( IsSelecting )
+			{
+				if ( !Input.GetKey( KeyCode.LeftShift ) )
+					ClearSelection();
 
-			foreach( UISelectable selectable in selectionRect.Find<UISelectable>() )
-				AddToSelection( selectable );
+				foreach( UISelectable selectable in selectionRect.Find<UISelectable>() )
+					AddToSelection( selectable );
 
-			selectionRect.Reset();
-			IsSelecting = false;
+				selectionRect.Reset();
+				IsSelecting = false;
+			}
+			else
+				foreach ( UISelectable selectable in selection )
+					selectable.Moveable.OnEndDrag( data );
 		}
 	}
 
@@ -228,17 +261,12 @@ public class Blueprinter : MonoBehaviour,
 		{
 			ClearSelection();
 
-			//  try to select at mouse position
-			selectionRect.StartPos = ScreenToWorld( data.position );
-			selectionRect.EndPos = selectionRect.StartPos + Vector2.one;
-
-			foreach( UISelectable selectable in selectionRect.Find<UISelectable>() )
+			if ( data.button == selectButton )
 			{
-				AddToSelection( selectable );
-				break;
+				//  try to select at mouse position
+				Vector2 pos = ScreenToWorld( data.position );
+				AddToSelection( selectionRect.FindAtPosition<UISelectable>( pos ) );
 			}
-
-			selectionRect.Reset();
 		}
 
 		if ( data.button != searchButton )

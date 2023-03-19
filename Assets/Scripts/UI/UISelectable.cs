@@ -3,8 +3,12 @@ using UnityEngine;
 
 public class UISelectable : MonoBehaviour
 {
+	public UIMoveable Moveable => moveable;
+
 	public bool IsSelected { get; private set; }
 
+	[SerializeField]
+	private UIMoveable moveable;
 	[SerializeField]
 	private Transform SelectionFeedback;
 

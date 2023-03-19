@@ -2,8 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-public class UIMoveable : MonoBehaviour, 
-						  IBeginDragHandler, IDragHandler, IEndDragHandler
+public class UIMoveable : MonoBehaviour
 {
 	public RectTransform RectTransform { get; private set; }
 	public bool IsDragging { get; private set; }
@@ -17,8 +16,6 @@ public class UIMoveable : MonoBehaviour,
 	private bool snapOnMove = true;
 	[SerializeField]
 	private bool snapOnStart = true;
-	[SerializeField]
-	private PointerEventData.InputButton inputButton;
 
 	private Vector2 draggedPos;
 
@@ -39,22 +36,12 @@ public class UIMoveable : MonoBehaviour,
 
 	public void OnBeginDrag( PointerEventData data )
 	{
-		if ( data.button != inputButton ) return;
-
 		draggedPos = RectTransform.anchoredPosition;
 		IsDragging = true;
 	}
 
 	public void OnDrag( PointerEventData data )
 	{
-		if ( data.button != inputButton ) 
-		{
-			Blueprinter.Instance.OnDrag( data );
-			return;
-		}
-
-		if ( Blueprinter.Instance.IsDragging ) return;
-
 		draggedPos += data.delta * Blueprinter.Instance.PixelRatio;
 		RectTransform.anchoredPosition = snapOnMove ? grid.SnapPosition( draggedPos ) : draggedPos;
 
@@ -63,12 +50,6 @@ public class UIMoveable : MonoBehaviour,
 
 	public void OnEndDrag( PointerEventData data )
 	{
-		if ( data.button != inputButton ) 
-		{
-			Blueprinter.Instance.OnEndDrag( data );
-			return;
-		}
-
 		IsDragging = false;
 	}
 }

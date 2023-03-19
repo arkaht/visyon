@@ -72,6 +72,22 @@ public class UISelectionRect : MonoBehaviour
 		return objects;
 	}
 
+	public T FindAtPosition<T>( Vector2 pos ) where T : Component
+	{
+		StartPos = pos;
+		EndPos = StartPos + Vector2.one;
+
+		T selected = null;
+		foreach( T selectable in Find<T>() )
+		{
+			selected = selectable;
+			break;
+		}
+
+		Reset();
+		return selected;
+	}
+
 	public void Reset()
 	{
 		startPos = endPos = Vector2.zero;
