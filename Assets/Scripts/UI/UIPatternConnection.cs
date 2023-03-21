@@ -39,12 +39,8 @@ public class UIPatternConnection : UILineConnection,
 	//  https://answers.unity.com/questions/1901509/raycasting-on-ui-graphic-with-custom-shape.html
 	public void OnPointerClick( PointerEventData data )
 	{
-		print( "pointer click " + data );
 		if ( data.button == deleteButton && Input.GetKey( KeyCode.LeftShift ) )
-		{
 			PinStart.Disconnect( PinEnd );
-			print( "unconnect");
-		}
 	}
 
 	public void UpdateConnection()

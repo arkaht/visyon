@@ -46,12 +46,10 @@ public class UILineConnection : MonoBehaviour
 		if ( axis == Axis2D.None )
 			axis = GetPreferredAxis( start, end );
 
-		transform.position = start;
-
 		//  initialize points
 		List<Vector2> points = new()
 		{
-			Vector3.zero
+			start
 		};
 
 		//  middle average
@@ -61,29 +59,30 @@ public class UILineConnection : MonoBehaviour
 			case Axis2D.X:
 				if ( start.y != end.y )
 				{
-					points.Add( transform.InverseTransformPoint( new( average.x, start.y ) ) );
-					points.Add( transform.InverseTransformPoint( new( average.x, end.y ) ) );
+					points.Add( new( average.x, start.y ) );
+					points.Add( new( average.x, end.y ) );
 				}
 				break;
 			case Axis2D.Y:
 				if ( start.x != end.x )
 				{
-					points.Add( transform.InverseTransformPoint( new( start.x, average.y ) ) );
-					points.Add( transform.InverseTransformPoint( new( end.x, average.y ) ) );
+					points.Add( new( start.x, average.y ) );
+					points.Add( new( end.x, average.y ) );
 				}
 				break;
 		}
 		
-		points.Add( transform.InverseTransformPoint( end ) );
+		//  add end point
+		points.Add( end );
+
+		//  schedule update
+		renderer.Points = points;
+		renderer.UpdateRenderer();
 
 		//  place arrow
 		Vector2 back_dir = ( points[^2] - points[^1] ).normalized;
 		arrowImage.rectTransform.position = end + back_dir * GetArrowOffset();
 		arrowImage.rectTransform.eulerAngles = new( 0.0f, 0.0f, MathUtils.DirectionalAngle( -back_dir ) );
-
-		//  schedule update
-		renderer.Points = points;
-		renderer.SetVerticesDirty();
 	}
 	public void Connect( Vector2 start, Vector2 end )
 	{
