@@ -101,6 +101,8 @@ public class UIPatternPin : MonoBehaviour,
 	{
 		if ( data.button != inputButton ) return;
 
+		Blueprinter.Instance.DestroySearcher();
+
 		preview_connection = UILineConnection.Spawn( relationOut );
 	}
 

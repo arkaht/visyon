@@ -150,7 +150,7 @@ public class Blueprinter : MonoBehaviour,
 	public void DestroySearcher()
 	{
 		if ( currentSearcher == null ) return;
-		Destroy( currentSearcher.gameObject );
+		currentSearcher.Destroy();
 	}
 
 	void Awake()

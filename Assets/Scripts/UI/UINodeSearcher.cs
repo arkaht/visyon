@@ -1,11 +1,8 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class UINodeSearcher : MonoBehaviour
 {
@@ -29,6 +26,7 @@ public class UINodeSearcher : MonoBehaviour
 	private static GameObject selfPrefab;
 
 	private readonly Dictionary<string, UINodeSearcherCategory> categories = new();
+	private bool isDestroyed = false;
 
 	public void FocusSearchField()
 	{
@@ -123,8 +121,17 @@ public class UINodeSearcher : MonoBehaviour
 		return searcher;
 	}
 
-	private void OnDestroy()
+	public void Destroy()
 	{
+		Destroy( gameObject );
+		OnDestroy();
+	}
+
+	void OnDestroy()
+	{
+		if ( isDestroyed ) return;
+
 		OnRemove.Invoke();
+		isDestroyed = true;
 	}
 }
