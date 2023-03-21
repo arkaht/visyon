@@ -20,6 +20,7 @@ public class Blueprinter : MonoBehaviour,
 
 	public bool IsDragging { get; private set; }
 	public bool IsSelecting { get; private set; }
+	public bool IsMoving { get; private set; }
 	public RectTransform ContentTransform => contentTransform;
 	public RectTransform OverlayTransform => overlayTransform;
 	public RectTransform ConnectionsTransform => connectionsTransform;
@@ -194,7 +195,7 @@ public class Blueprinter : MonoBehaviour,
 			selectionRect.StartPos = ScreenToWorld( data.position );
 			IsSelecting = true;
 		}
-		//  begin dragging
+		//  begin moving
 		else
 		{
 			if ( !hovered.IsSelected )
@@ -207,6 +208,8 @@ public class Blueprinter : MonoBehaviour,
 			//  drag selection
 			foreach ( UISelectable selectable in selection )
 				selectable.Moveable.OnBeginDrag( data );
+
+			IsMoving = true;
 		}
 	}
 	public void OnDrag( PointerEventData data )
@@ -257,7 +260,11 @@ public class Blueprinter : MonoBehaviour,
 
 	public void OnPointerClick( PointerEventData data )
 	{
-		if ( !IsSelecting )
+		//  stop moving selection
+		if ( IsMoving )
+			IsMoving = false;
+		//  select node at position
+		else if ( !IsSelecting )
 		{
 			ClearSelection();
 
@@ -269,13 +276,11 @@ public class Blueprinter : MonoBehaviour,
 			}
 		}
 
+		//  populate searcher
 		if ( data.button != searchButton )
-		{
 			DestroySearcher();
-			return;
-		}
-
-		shouldSpawnSearcher = true;
+		else
+			shouldSpawnSearcher = true;
 	}
 
 	public void OnScroll( PointerEventData data )
