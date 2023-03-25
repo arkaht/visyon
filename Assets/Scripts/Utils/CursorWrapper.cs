@@ -9,10 +9,11 @@ public static class CursorWrapper
 			if ( data == value ) return;
 			data = value;
 
-			if ( data == null )
+			/*if ( data == null )
 				Cursor.SetCursor( null, Vector2.zero, CursorMode.ForceSoftware );
 			else
-				Cursor.SetCursor( data.Texture, data.Hotspot, CursorMode.ForceSoftware );
+				Cursor.SetCursor( data.Texture, data.Hotspot, CursorMode.ForceSoftware );*/
+			UICursor.Instance.Data = data;
 		}
 	}
 	private static CursorData data;
