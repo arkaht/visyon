@@ -31,11 +31,13 @@ public class LayoutMaxSize : LayoutElement
 		UpdateMaxSizes();
 	}
 
+	#if UNITY_EDITOR
 	protected override void OnValidate()
 	{
 		base.OnValidate();
 		UpdateMaxSizes();
 	}
+	#endif
 
 	private void UpdateMaxSizes()
 	{
