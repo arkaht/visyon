@@ -16,6 +16,7 @@ public class UICursor : MonoBehaviour
 
 			image.sprite = data.Sprite;
 			image.rectTransform.pivot = new Vector2( data.Hotspot.x, image.sprite.textureRect.size.y - data.Hotspot.y ) / image.sprite.textureRect.size;
+			image.material = data.Material;
 		}
 	}
 	private CursorData data;
