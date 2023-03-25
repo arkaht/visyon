@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEditor.MemoryProfiler;
 using UnityEngine;
 using UnityEngine.UI;
 using Utils;
@@ -15,7 +16,7 @@ public enum Axis2D
 public class UILineConnection : MonoBehaviour
 {
 	public UILineRenderer Renderer => renderer;
-	public ConnectionData Data
+	public virtual ConnectionData Data
 	{
 		get => data;
 		set
@@ -112,12 +113,13 @@ public class UILineConnection : MonoBehaviour
 		Image arrow_image = arrow.AddComponent<Image>();
 		connection.arrowImage = arrow_image;
 
-		connection.Data = GetConnectionData( relation );
 		return connection;
 	}
 	public static UILineConnection Spawn( PatternRelationType relation )
 	{
-		return Spawn<UILineConnection>( "Line Connection", relation );
+		UILineConnection connection = Spawn<UILineConnection>( "Line Connection", relation );
+		connection.Data = GetConnectionData( relation );
+		return connection;
 	}
 
 	public static ConnectionData GetConnectionData( PatternRelationType relation )
