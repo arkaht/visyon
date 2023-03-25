@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using SimpleJSON;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class UIPatternPin : MonoBehaviour,
-							IBeginDragHandler, IDragHandler, IEndDragHandler
+							IBeginDragHandler, IDragHandler, IEndDragHandler,
+							IJSONSerializable
 {
 	public UIPattern UIPattern => uiPattern;
 	public PatternRelationType Relation => relationOut;
@@ -95,6 +97,16 @@ public class UIPatternPin : MonoBehaviour,
 			PatternRelationType.Conflicts => "Potential Conflicts",
 			_ => "None",
 		};
+	}
+
+	public JSONNode Serialize()
+	{
+		JSONArray array = new();
+
+		foreach ( UIPatternPin pin in connections.Keys )
+			array.Add( pin.UIPattern.UID.ID );
+
+		return array;
 	}
 
 	public void OnBeginDrag( PointerEventData data )

@@ -1,7 +1,4 @@
-﻿
-using System;
-
-public record PatternData( string Name, PatternTexts Texts, PatternRelations Relations )
+﻿public record PatternData( string Name, PatternTexts Texts, PatternRelations Relations )
 {
 	public override string ToString()
 	{

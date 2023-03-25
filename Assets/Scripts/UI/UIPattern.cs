@@ -1,11 +1,16 @@
-﻿using System.Collections.Generic;
+﻿using SimpleJSON;
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class UIPattern : MonoBehaviour
+[RequireComponent( typeof( UniqueID ) )]
+public class UIPattern : MonoBehaviour,
+						 IJSONSerializable
 {
 	public PatternData PatternData { get; private set; }
 	public UIMoveable Moveable { get; private set; }
+	public UniqueID UID { get; private set; }
 
 	public string ID = "ability-losses";
 
@@ -16,7 +21,7 @@ public class UIPattern : MonoBehaviour
 	[SerializeField]
 	private UIPatternPin[] pins;
 
-	private Dictionary<PatternRelationType, UIPatternPin> relationPins;
+	private Dictionary<PatternRelationType, UIPatternPin> relationPins = new();
 
 	private static GameObject selfPrefab;
 
@@ -33,7 +38,7 @@ public class UIPattern : MonoBehaviour
 
 	public UIPatternPin GetRelationPin( PatternRelationType relation )
 	{
-		if ( relationPins == null )
+		if ( relationPins.Count == 0 )
 			RetrieveRelationPins();
 
 		if ( relationPins.TryGetValue( relation, out UIPatternPin pin ) )
@@ -44,10 +49,66 @@ public class UIPattern : MonoBehaviour
 
 	public void ApplyPatternData()
 	{
+		gameObject.name = $"Pattern '{PatternData.Name}'";
+
 		tmpName.text = PatternData.Name;
 		tmpDefinition.text = PatternData.Texts.Definition;
 	}
 
+	public JSONNode Serialize()
+	{
+		JSONObject obj = new();
+		obj["type"] = (int)SerializableType.Pattern;
+		obj["position"] = transform.position;
+		obj["p-id"] = ID;
+		obj["u-id"] = UID.ID;
+
+		JSONObject pins = new();
+		foreach ( PatternRelationType relation in relationPins.Keys )
+		{
+			UIPatternPin pin = relationPins[relation];
+			pins[relation.ToString()] = pin.Serialize();
+		}
+		obj["pins"] = pins;
+
+		return obj;
+	}
+
+	public static UIPattern Load( JSONObject obj )
+	{
+		string pid = obj["p-id"];
+		int uid = obj["u-id"];
+
+		UIPattern pattern = Spawn( pid );
+		pattern.transform.position = obj["position"];
+		pattern.UID.ID = uid;
+
+		//  differ pattern linking
+		pattern.StartCoroutine( pattern.CoroutineLoad( obj ) );
+
+		return pattern;
+	}
+	private IEnumerator CoroutineLoad( JSONObject obj )
+	{
+		yield return new WaitForEndOfFrame();
+
+		//  link to patterns
+		JSONObject pins = obj["pins"].AsObject;
+		foreach ( PatternRelationType relation in relationPins.Keys )
+		{
+			UIPatternPin pin = GetRelationPin( relation );
+			if ( pin == null ) continue;
+
+			JSONArray connections = pins[relation.ToString()].AsArray;
+			foreach ( JSONNode connection in connections )
+			{
+				if ( !UniqueID.TryGet( connection.AsInt, out UniqueID unique_id ) ) continue;
+				if ( !unique_id.TryGetComponent( out UIPattern target_pattern ) ) continue;
+
+				pin.Connect( target_pattern );
+			}
+		}
+	}
 	public static UIPattern Spawn( string id )
 	{
 		if ( selfPrefab == null )
@@ -57,16 +118,16 @@ public class UIPattern : MonoBehaviour
 
 		GameObject obj = Instantiate( selfPrefab, Blueprinter.Instance.PatternsTransform );
 		UIPattern pattern = obj.GetComponent<UIPattern>();
-		pattern.SetPattern( id );
 
-		obj.name = $"Pattern '{pattern.PatternData.Name}'";
+		if ( id != null )
+			pattern.SetPattern( id );
 
 		return pattern;
 	}
 
 	private void RetrieveRelationPins()
 	{
-		relationPins = new();
+		relationPins.Clear();
 
 		foreach ( UIPatternPin pin in pins )
 			relationPins.Add( pin.Relation, pin );
@@ -75,5 +136,18 @@ public class UIPattern : MonoBehaviour
 	void Awake()
 	{
 		Moveable = GetComponent<UIMoveable>();
+		UID = GetComponent<UniqueID>();
+
+		RetrieveRelationPins();
+	}
+
+	void Start()
+	{
+		Blueprinter.Instance.AddSerializable( this );
+	}
+
+	void OnDestroy()
+	{
+		Blueprinter.Instance.RemoveSerializable( this );
 	}
 }

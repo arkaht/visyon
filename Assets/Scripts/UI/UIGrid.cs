@@ -119,7 +119,7 @@ public class UIGrid : MonoBehaviour
 				DestroyImmediate( child.gameObject );
 			}
 
-		print( "Grid::UpdateGrid()" );
+		//print( "Grid::UpdateGrid()" );
 		shouldUpdate = false;
 	}
 

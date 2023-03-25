@@ -1,7 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using SimpleJSON;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using Utils;
 
 public class Blueprinter : MonoBehaviour, 
 						   IBeginDragHandler, IDragHandler, IEndDragHandler, IScrollHandler, IPointerClickHandler
@@ -59,6 +62,7 @@ public class Blueprinter : MonoBehaviour,
 	private UINodeSearcher currentSearcher;
 	private bool shouldSpawnSearcher = false;
 	private readonly HashSet<UISelectable> selection = new();
+	private readonly HashSet<IJSONSerializable> serializables = new();
 
 	public Vector2 GetScreenMousePosition() => Input.mousePosition;
 	public Vector2 GetWorldMousePosition( bool is_canvas_relative = false, bool is_absolute = false )
@@ -152,6 +156,61 @@ public class Blueprinter : MonoBehaviour,
 		currentSearcher.Destroy();
 	}
 
+	public bool AddSerializable( IJSONSerializable serializable ) => serializables.Add( serializable );
+	public bool RemoveSerializable( IJSONSerializable serializable ) => serializables.Remove( serializable );
+	public void Save( string path )
+	{
+		JSONArray array = new();
+		foreach ( IJSONSerializable serializable in serializables )
+		{
+			JSONNode node = serializable.Serialize();
+			array.Add( node );
+		}
+
+		File.WriteAllText( path, array.ToString( 4 ) );
+		print( $"Blueprinter: saved to '{path}'!" );
+	}
+	public void Load( string path )
+	{
+		Clear();
+
+		//  init variables
+		Vector3Average pos_average = new();
+
+		//  load file
+		string json = File.ReadAllText( path );
+		JSONArray array = JSON.Parse( json ).AsArray;
+		foreach ( JSONObject obj in array )
+		{
+			int num_type = obj["type"].AsInt;
+			switch ( (SerializableType)num_type )
+			{
+				case SerializableType.Pattern:
+					UIPattern pattern = UIPattern.Load( obj );
+					pos_average.Add( pattern.transform.position );
+					break;
+				default:
+					Debug.LogError( $"Blueprinter::Load: unknown type '{num_type}'!" );
+					break;
+			}
+		}
+
+		//  center camera on average
+		Vector3 camera_pos = pos_average.Result;
+		camera_pos.z = camera.transform.position.z;
+		camera.transform.position = camera_pos;
+
+	}
+	public void Clear()
+	{
+		UniqueID.ResetNextID();
+
+		TransformUtils.Clear( patternsTransform );
+		TransformUtils.Clear( connectionsTransform );
+
+		selection.Clear();
+	}
+
 	void Awake()
 	{
 		instance = this;
@@ -178,6 +237,17 @@ public class Blueprinter : MonoBehaviour,
 		//  delete selection
 		if ( Input.GetKeyDown( KeyCode.Backspace ) || Input.GetKeyDown( KeyCode.Delete ) )
 			DeleteSelection();
+
+		//  control shortcuts
+		if ( Input.GetKey( KeyCode.LeftControl ) ) 
+		{
+			//  save
+			if ( Input.GetKeyDown( KeyCode.S ) )
+				Save( "save-test-00.json" );
+			//  load
+			else if ( Input.GetKeyDown( KeyCode.R ) )
+				Load( "save-test-00.json" );
+		}
 	}
 
 	public void OnBeginDrag( PointerEventData data )
