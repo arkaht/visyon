@@ -395,6 +395,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9230e778d08be148be7dfa8639c44a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnSpawnPattern:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRemove:
+    m_PersistentCalls:
+      m_Calls: []
   content: {fileID: 3932346806609932142}
   searchField: {fileID: 4507141645591239680}
   categoryPrefab: {fileID: 893594037163236851, guid: e6897b1df55d43948911e087e317bbc0, type: 3}
@@ -432,7 +438,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -607,7 +613,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3932346806611420156
 RectTransform:
   m_ObjectHideFlags: 0
@@ -778,7 +784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.30184227, g: 0.31404373, b: 0.5377358, a: 0.4392157}
+  m_Color: {r: 0.30184227, g: 0.31404373, b: 0.5377358, a: 0.8}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
