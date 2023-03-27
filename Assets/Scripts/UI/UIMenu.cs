@@ -2,11 +2,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 public class UIMenu : MonoBehaviour,
 					  IPointerEnterHandler, IPointerExitHandler
 {
+	public UIMenuTab CurrentTab { get; private set; }
+
+	[HideInInspector]
+	public UnityEvent<UIMenuTab> OnShow, OnHide;
+
 	[Header( "References" )]
 	[SerializeField]
 	private GameObject actionPrefab;
@@ -26,28 +32,32 @@ public class UIMenu : MonoBehaviour,
 		action.Name = name;
 		action.Shortcut = shortcut;
 		action.Callback = callback;
+		action.Menu = this;
 
 		return action;
 	}
 
-	public void Show( Vector3 pos, List<MenuAction> actions )
+	public void Show( UIMenuTab tab )
 	{
 		//  show
 		CancelHide();
 		gameObject.SetActive( true );
 
 		//  set position
-		transform.position = pos;
+		transform.position = tab.SpawnPoint;
 
 		//  populate actions
 		Clear();
-		foreach ( MenuAction action in actions )
+		foreach ( MenuAction action in tab.Actions )
 			AddAction( action.Name, action.StringifyShortcut(), action.Execute );
+
+		CurrentTab = tab;
+		OnShow.Invoke( CurrentTab );
 	}
 	public void Hide()
 	{
-		//  remove previous coroutine
-		CancelHide();
+		if ( !gameObject.activeSelf ) return;
+		if ( hideCoroutine != null ) return;
 
 		//  start new coroutine
 		IEnumerator ScheduleHide()
@@ -56,15 +66,24 @@ public class UIMenu : MonoBehaviour,
 
 			gameObject.SetActive( false );
 			hideCoroutine = null;
+
+			OnHide.Invoke( CurrentTab );
+			CurrentTab = null;
 		}
 		hideCoroutine = StartCoroutine( ScheduleHide() );
 	}
 	public void CancelHide()
 	{
 		if ( hideCoroutine == null ) return;
+
 		StopCoroutine( hideCoroutine );
+		hideCoroutine = null;
 	}
 
 	public void OnPointerEnter( PointerEventData data ) => CancelHide();
-	public void OnPointerExit( PointerEventData data ) => Hide();
+	public void OnPointerExit( PointerEventData data ) 
+	{
+		if ( !data.fullyExited ) return;
+		Hide();
+	}
 }

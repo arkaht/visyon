@@ -288,8 +288,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   style: {fileID: 11400000, guid: f5db4e3b50761ce47ae9a19736f39541, type: 2}
-  background: {fileID: 6098389895530091581}
-  tmpText: {fileID: 620729552271574931}
+  backgrounds:
+  - {fileID: 6098389895530091581}
+  tmpTexts:
+  - {fileID: 620729552271574931}
 --- !u!114 &3028930851180035148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,6 +306,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menu: {fileID: 0}
   spawn: {fileID: 4563319140247485200}
+  hoverStyle: {fileID: 9198000693224552603}
+  actions: []
 --- !u!114 &681273622026480741
 MonoBehaviour:
   m_ObjectHideFlags: 0

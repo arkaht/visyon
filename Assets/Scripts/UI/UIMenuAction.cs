@@ -1,9 +1,12 @@
 ﻿using System;
-using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class UIMenuAction : MonoBehaviour
+public class UIMenuAction : MonoBehaviour,
+							IPointerClickHandler
 {
+	public UIMenu Menu { get; set; }
+
 	public string Name 
 	{
 		get => tmpText.text;
@@ -18,4 +21,10 @@ public class UIMenuAction : MonoBehaviour
 
 	[SerializeField]
 	private TMPro.TextMeshProUGUI tmpText, tmpShortcut;
+
+	public void OnPointerClick( PointerEventData data )
+	{
+		Callback.Invoke( Blueprinter.Instance );
+		Menu.Hide();
+	}
 }
