@@ -113,7 +113,7 @@ public class UIPatternPin : MonoBehaviour,
 	{
 		if ( data.button != inputButton ) return;
 
-		Blueprinter.Instance.DestroySearcher();
+		Blueprinter.Instance.Searcher.Hide();
 
 		preview_connection = UILineConnection.Spawn( relationOut );
 	}
@@ -153,7 +153,7 @@ public class UIPatternPin : MonoBehaviour,
 			}
 
 		//  spawn searcher
-		UINodeSearcher searcher = Blueprinter.Instance.SpawnNodeSearcherAtMousePosition();
+		UINodeSearcher searcher = Blueprinter.Instance.ShowSearcherAtMousePosition();
 
 		//  add related patterns
 		searcher.AddPatterns( GetPossibleRelations(), GetRelationName() );

@@ -26,6 +26,7 @@ public class Blueprinter : MonoBehaviour,
 	public RectTransform OverlayTransform => overlayTransform;
 	public RectTransform ConnectionsTransform => connectionsTransform;
 	public RectTransform PatternsTransform => patternsTransform;
+	public UINodeSearcher Searcher => searcher;
 	
 	public Vector2 CameraSize => camera.pixelRect.size;
 	public float ScreenRatio => 1920.0f / camera.pixelWidth;
@@ -43,6 +44,8 @@ public class Blueprinter : MonoBehaviour,
 						  connectionsTransform, patternsTransform;
 	[SerializeField]
 	private UISelectionRect selectionRect;
+	[SerializeField]
+	private UINodeSearcher searcher;
 
 	[Header( "Settings" )]
 	[SerializeField, Tooltip( "Button to drag the camera around" )]
@@ -59,7 +62,6 @@ public class Blueprinter : MonoBehaviour,
 	private int defaultZoomLevelID = 1;
 
 	private float zoomLevel = 1.0f;
-	private UINodeSearcher currentSearcher;
 	private bool shouldSpawnSearcher = false;
 	private readonly HashSet<UISelectable> selection = new();
 	private readonly HashSet<IJSONSerializable> serializables = new();
@@ -119,41 +121,28 @@ public class Blueprinter : MonoBehaviour,
 		selection.Clear();
 	}
 
-	public UINodeSearcher SpawnNodeSearcherAtMousePosition()
+	public UINodeSearcher ShowSearcherAtMousePosition()
 	{
+		searcher.Clear();
+		searcher.Show();
+
+		//  update position
 		Vector2 mouse_pos = GetScreenMousePosition();
-
-		//  create it..
-		if ( currentSearcher == null )
-		{
-			currentSearcher = UINodeSearcher.Spawn( mouse_pos );
-		}
-		//  ..or update position
-		else
-		{
-			currentSearcher.Clear();
-
-			currentSearcher.SpawnPosition = mouse_pos;
-			currentSearcher.transform.position = mouse_pos;
-		}
+		searcher.SpawnPosition = mouse_pos;
+		searcher.transform.position = mouse_pos;
 
 		//  auto-focus
-		currentSearcher.FocusSearchField();
+		searcher.FocusSearchField();
 
 		//  offset position to prevent off-screens
-		RectTransform rect_transform = (RectTransform) currentSearcher.transform;
+		RectTransform rect_transform = (RectTransform) searcher.transform;
 		Vector2 top_right = mouse_pos + rect_transform.sizeDelta / ScreenRatio;
 		if ( top_right.x > camera.pixelWidth )
 			rect_transform.anchoredPosition -= new Vector2( rect_transform.sizeDelta.x, 0.0f );
 		if ( top_right.y > camera.pixelHeight )
 			rect_transform.anchoredPosition -= new Vector2( 0.0f, rect_transform.sizeDelta.y );
 
-		return currentSearcher;
-	}
-	public void DestroySearcher()
-	{
-		if ( currentSearcher == null ) return;
-		currentSearcher.Destroy();
+		return searcher;
 	}
 
 	public bool AddSerializable( IJSONSerializable serializable ) => serializables.Add( serializable );
@@ -228,9 +217,7 @@ public class Blueprinter : MonoBehaviour,
 		//  spawn searcher
 		if ( shouldSpawnSearcher )
 		{
-			SpawnNodeSearcherAtMousePosition();
-			currentSearcher.AddAllPatterns();
-
+			ShowSearcherAtMousePosition().AddAllPatterns();
 			shouldSpawnSearcher = false;
 		}
 
@@ -282,7 +269,7 @@ public class Blueprinter : MonoBehaviour,
 	}
 	public void OnDrag( PointerEventData data )
 	{
-		DestroySearcher();
+		searcher.Hide();
 
 		if ( data.button == dragButton ) 
 		{
@@ -346,7 +333,7 @@ public class Blueprinter : MonoBehaviour,
 
 		//  populate searcher
 		if ( data.button != searchButton )
-			DestroySearcher();
+			searcher.Hide();
 		else
 			shouldSpawnSearcher = true;
 	}

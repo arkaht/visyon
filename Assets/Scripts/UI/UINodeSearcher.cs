@@ -26,7 +26,7 @@ public class UINodeSearcher : MonoBehaviour
 	private static GameObject selfPrefab;
 
 	private readonly Dictionary<string, UINodeSearcherCategory> categories = new();
-	private bool isDestroyed = false;
+	private bool isRemoveCalled = false;
 
 	public void FocusSearchField()
 	{
@@ -103,7 +103,7 @@ public class UINodeSearcher : MonoBehaviour
 		pattern.transform.position = Blueprinter.Instance.ScreenToWorld( SpawnPosition );
 		OnSpawnPattern.Invoke( pattern );
 
-		Destroy( gameObject );
+		Hide();
 	}
 
 	public static UINodeSearcher Spawn( Vector2 pos )
@@ -121,17 +121,21 @@ public class UINodeSearcher : MonoBehaviour
 		return searcher;
 	}
 
-	public void Destroy()
-	{
-		Destroy( gameObject );
-		OnDestroy();
-	}
+	public void Hide() => gameObject.SetActive( false );
+	public void Show() => gameObject.SetActive( true );
 
-	void OnDestroy()
+	void OnDisable()
 	{
-		if ( isDestroyed ) return;
+		if ( isRemoveCalled ) return;
 
 		OnRemove.Invoke();
-		isDestroyed = true;
+		isRemoveCalled = true;
+	}
+
+	void OnEnable()
+	{
+		OnSpawnPattern.RemoveAllListeners();
+		OnRemove.RemoveAllListeners();
+		isRemoveCalled = false;
 	}
 }
