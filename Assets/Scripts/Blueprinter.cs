@@ -316,10 +316,10 @@ public class Blueprinter : MonoBehaviour,
 		//  select node at position
 		else if ( !IsSelecting )
 		{
-			ClearSelection();
-
 			if ( data.button == selectButton )
 			{
+				ClearSelection();
+
 				//  try to select at mouse position
 				Vector2 pos = ScreenToWorld( data.position );
 				AddToSelection( selectionRect.FindAtPosition<UISelectable>( pos ) );
