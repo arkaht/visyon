@@ -9,6 +9,8 @@ using Utils;
 public class Blueprinter : MonoBehaviour, 
 						   IBeginDragHandler, IDragHandler, IEndDragHandler, IScrollHandler, IPointerClickHandler
 {
+	public const string FILE_EXTENSION = "vsy";
+
 	public static Blueprinter Instance
 	{
 		get {
@@ -19,6 +21,7 @@ public class Blueprinter : MonoBehaviour,
 	}
 	private static Blueprinter instance;
 
+	public string FilePath { get; set; } = "";
 	public bool IsDragging { get; private set; }
 	public bool IsSelecting { get; private set; }
 	public bool IsMoving { get; private set; }
@@ -157,6 +160,8 @@ public class Blueprinter : MonoBehaviour,
 		}
 
 		File.WriteAllText( path, array.ToString( 4 ) );
+		FilePath = path;
+
 		print( $"Blueprinter: saved to '{path}'!" );
 	}
 	public void Load( string path )
@@ -189,6 +194,7 @@ public class Blueprinter : MonoBehaviour,
 		camera_pos.z = camera.transform.position.z;
 		camera.transform.position = camera_pos;
 
+		FilePath = path;
 	}
 	public void Clear()
 	{

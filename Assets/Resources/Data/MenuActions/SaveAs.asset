@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f53e3b29809b52e4eac9335ee09dccdd, type: 3}
-  m_Name: SaveMenuAction
+  m_Name: SaveAs
   m_EditorClassIdentifier: 
-  Name: Save
+  Name: Save As
   ShortcutKeys:
   - Key: 306
     ShouldHold: 1
+  - Key: 304
+    ShouldHold: 1
   - Key: 115
     ShouldHold: 0
+  AskNewPath: 1

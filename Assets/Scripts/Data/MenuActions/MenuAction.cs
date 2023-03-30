@@ -14,9 +14,11 @@ public abstract class MenuAction : ScriptableObject
 	public string Name = "N/A";
 	public List<ShortcutKey> ShortcutKeys = new();
 
-	private Dictionary<string, string> keyReplacement = new() {
-		{ "LeftControl", "Ctrl" },	
-		{ "RightControl", "Ctrl" },	
+	private readonly Dictionary<string, string> keyReplacement = new() {
+		{ "LeftControl", "Ctrl" },
+		{ "RightControl", "Ctrl" },
+		{ "LeftShift", "Shift" },
+		{ "RightShift", "Shift" },
 	};
 	public string StringifyShortcut()
 	{
