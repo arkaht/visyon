@@ -16,17 +16,19 @@ public class UIMenu : MonoBehaviour,
 	[Header( "References" )]
 	[SerializeField]
 	private GameObject actionPrefab;
+	[SerializeField]
+	private Transform contentTransform;
 
 	private Coroutine hideCoroutine;
 
 	public void Clear()
 	{
-		TransformUtils.Clear( transform );
+		TransformUtils.Clear( contentTransform );
 	}
 
 	public UIMenuAction AddAction( string name, string shortcut, Action<Blueprinter> callback )
 	{
-		GameObject obj = Instantiate( actionPrefab, transform );
+		GameObject obj = Instantiate( actionPrefab, contentTransform );
 
 		UIMenuAction action = obj.GetComponent<UIMenuAction>();
 		action.Name = name;
@@ -41,7 +43,7 @@ public class UIMenu : MonoBehaviour,
 	{
 		//  show
 		CancelHide();
-		gameObject.SetActive( true );
+		contentTransform.gameObject.SetActive( true );
 
 		//  set position
 		transform.position = tab.SpawnPoint;
@@ -56,7 +58,7 @@ public class UIMenu : MonoBehaviour,
 	}
 	public void Hide()
 	{
-		if ( !gameObject.activeSelf ) return;
+		if ( !contentTransform.gameObject.activeSelf ) return;
 		if ( hideCoroutine != null ) return;
 
 		//  start new coroutine
@@ -64,7 +66,7 @@ public class UIMenu : MonoBehaviour,
 		{
 			yield return new WaitForSeconds( 0.1f );
 
-			gameObject.SetActive( false );
+			contentTransform.gameObject.SetActive( false );
 			hideCoroutine = null;
 
 			OnHide.Invoke( CurrentTab );

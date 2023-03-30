@@ -224,17 +224,6 @@ public class Blueprinter : MonoBehaviour,
 		//  delete selection
 		if ( Input.GetKeyDown( KeyCode.Backspace ) || Input.GetKeyDown( KeyCode.Delete ) )
 			DeleteSelection();
-
-		//  control shortcuts
-		if ( Input.GetKey( KeyCode.LeftControl ) ) 
-		{
-			//  save
-			if ( Input.GetKeyDown( KeyCode.S ) )
-				Save( "save-test-00.json" );
-			//  load
-			else if ( Input.GetKeyDown( KeyCode.R ) )
-				Load( "save-test-00.json" );
-		}
 	}
 
 	public void OnBeginDrag( PointerEventData data )

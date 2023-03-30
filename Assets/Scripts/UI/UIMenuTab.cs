@@ -45,4 +45,32 @@ public class UIMenuTab : MonoBehaviour,
 			} 
 		);
 	}
+
+	void Update()
+	{
+		//  handle actions shortcut
+		foreach ( MenuAction action in actions )
+		{
+			if ( action.ShortcutKeys.Count == 0 ) continue;
+
+			//  check pressing
+			bool is_user_pressing = true;
+			foreach ( ShortcutKey shortcut in action.ShortcutKeys )
+			{
+				//  check input
+				if ( shortcut.ShouldHold ? Input.GetKey( shortcut.Key ) : Input.GetKeyDown( shortcut.Key ) ) 
+					continue;
+
+				is_user_pressing = false;
+				break;
+			}
+
+			//  execute action
+			if ( is_user_pressing )
+			{ 
+				action.Execute( Blueprinter.Instance );
+				break;
+			}
+		}
+	}
 }

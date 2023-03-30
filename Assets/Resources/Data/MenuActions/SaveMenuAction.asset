@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: SaveMenuAction
   m_EditorClassIdentifier: 
   Name: Save
-  ShortcutKeys: 3201000073000000
+  ShortcutKeys:
+  - Key: 306
+    ShouldHold: 1
+  - Key: 115
+    ShouldHold: 0

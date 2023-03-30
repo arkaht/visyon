@@ -1,10 +1,18 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
+
+[Serializable]
+public struct ShortcutKey
+{
+	public KeyCode Key;
+	public bool ShouldHold;
+}
 
 public abstract class MenuAction : ScriptableObject
 {
 	public string Name = "N/A";
-	public List<KeyCode> ShortcutKeys = new();
+	public List<ShortcutKey> ShortcutKeys = new();
 
 	private Dictionary<string, string> keyReplacement = new() {
 		{ "LeftControl", "Ctrl" },	
@@ -17,7 +25,7 @@ public abstract class MenuAction : ScriptableObject
 		int count = ShortcutKeys.Count;
 		for ( int i = 0; i < count; i++ )
 		{
-			KeyCode key = ShortcutKeys[i];
+			KeyCode key = ShortcutKeys[i].Key;
 
 			//  concat key
 			string str_key = key.ToString();

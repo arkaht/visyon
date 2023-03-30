@@ -1,6 +1,59 @@
 [
     {
         "type" : 0,
+        "position" : [3700,1450,0],
+        "p-id" : "time-limits",
+        "u-id" : 18,
+        "pins" : {
+            "Instantiates" : [
+                17
+            ],
+            "InstantiatedBy" : [
+            ],
+            "Modulates" : [
+            ],
+            "ModulatedBy" : [
+            ]
+        }
+    },
+    {
+        "type" : 0,
+        "position" : [4950,1450,0],
+        "p-id" : "resources",
+        "u-id" : 17,
+        "pins" : {
+            "Instantiates" : [
+            ],
+            "InstantiatedBy" : [
+                18
+            ],
+            "Modulates" : [
+                16
+            ],
+            "ModulatedBy" : [
+            ]
+        }
+    },
+    {
+        "type" : 0,
+        "position" : [4950,850,0],
+        "p-id" : "emotional-immersion",
+        "u-id" : 16,
+        "pins" : {
+            "Instantiates" : [
+            ],
+            "InstantiatedBy" : [
+                4
+            ],
+            "Modulates" : [
+            ],
+            "ModulatedBy" : [
+                17
+            ]
+        }
+    },
+    {
+        "type" : 0,
         "position" : [1600,-400,0],
         "p-id" : "combat",
         "u-id" : 8,
@@ -79,6 +132,7 @@
         "u-id" : 4,
         "pins" : {
             "Instantiates" : [
+                16
             ],
             "InstantiatedBy" : [
                 6,
