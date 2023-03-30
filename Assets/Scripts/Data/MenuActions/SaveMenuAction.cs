@@ -16,15 +16,18 @@ public class SaveMenuAction : MenuAction
 			string filename = is_path_empty ? "" : Path.GetFileNameWithoutExtension( blueprint.FilePath );
 			string directory = is_path_empty ? "" : Path.GetDirectoryName( blueprint.FilePath );
 
-			//  ask path to user
+			//  show cursor
 			CursorWrapper.IsHardwareVisible = true;
+			
+			//  ask path to user
 			StandaloneFileBrowser.SaveFilePanelAsync( "Save Blueprint", directory, filename, Blueprinter.FILE_EXTENSION, 
 				( path ) =>
 				{
+					//  hide cursor
 					CursorWrapper.IsHardwareVisible = false;
-					if ( path.Length == 0 ) return;
 
-					//  save & replace file path
+					//  save
+					if ( path.Length == 0 ) return;
 					blueprint.Save( path );
 				} 
 			);
