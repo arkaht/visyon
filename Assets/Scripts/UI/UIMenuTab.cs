@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -21,6 +22,8 @@ public class UIMenuTab : MonoBehaviour,
 	[SerializeField]
 	private List<MenuAction> actions;
 
+	private MenuAction[] sortedByShortcutsActions;
+
 	public void OnPointerEnter( PointerEventData data )
 	{
 		menu.Show( this );
@@ -32,6 +35,13 @@ public class UIMenuTab : MonoBehaviour,
 
 	void Start()
 	{
+		//  sort actions by shortcuts:
+		//  allow us to avoid prioritizing wrong actions having similar keys
+		//  (e.g. 'Ctrl + S' for 'Save' and 'Ctrl + Shift + S' for 'Save As')
+		sortedByShortcutsActions = actions.ToArray();
+		Array.Sort( sortedByShortcutsActions, new MenuActionShortcutsComparer() );
+
+		//  appearance
 		hoverStyle.enabled = false;
 		menu.OnShow.AddListener( 
 			( tab ) => {
@@ -49,7 +59,7 @@ public class UIMenuTab : MonoBehaviour,
 	void Update()
 	{
 		//  handle actions shortcut
-		foreach ( MenuAction action in actions )
+		foreach ( MenuAction action in sortedByShortcutsActions )
 		{
 			if ( action.ShortcutKeys.Count == 0 ) continue;
 
@@ -67,7 +77,7 @@ public class UIMenuTab : MonoBehaviour,
 
 			//  execute action
 			if ( is_user_pressing )
-			{ 
+			{
 				action.Execute( Blueprinter.Instance );
 				break;
 			}

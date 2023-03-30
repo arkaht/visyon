@@ -9,6 +9,11 @@ public struct ShortcutKey
 	public bool ShouldHold;
 }
 
+public class MenuActionShortcutsComparer : IComparer<MenuAction>
+{
+	public int Compare( MenuAction x, MenuAction y ) => Math.Sign( y.ShortcutKeys.Count - x.ShortcutKeys.Count );
+}
+
 public abstract class MenuAction : ScriptableObject
 {
 	public string Name = "N/A";
