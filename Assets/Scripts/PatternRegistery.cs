@@ -12,6 +12,29 @@ public static class PatternRegistery
 
 	public static Dictionary<string, PatternData>.KeyCollection AllKeys => patterns.Keys;
 
+	public static string ConcatPatterns( string[] ids, string separator = ", " )
+	{
+		string text = "";
+
+		int length = ids.Length;
+		for ( int i = 0; i < length; i++ )
+		{
+			string id = ids[i];
+
+			//  join name
+			if ( TryGet( id, out PatternData pattern ) )
+				text += pattern.Name;
+			else
+				text += id;
+
+			//  join separator
+			if ( i + 1 < length )
+				text += separator;
+		}
+
+		return text;
+	}
+
 	public static bool TryGet( string id, out PatternData pattern )
 	{
 		//  retrieve from cache

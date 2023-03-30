@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent( typeof( UniqueID ) )]
 public class UIPattern : MonoBehaviour,
+						 IPointerClickHandler,
 						 IJSONSerializable
 {
 	public PatternData PatternData { get; private set; }
@@ -131,6 +133,16 @@ public class UIPattern : MonoBehaviour,
 
 		foreach ( UIPatternPin pin in pins )
 			relationPins.Add( pin.Relation, pin );
+	}
+
+	public void OnPointerClick( PointerEventData data )
+	{
+		if ( data.clickCount != 2 ) 
+		{
+			Blueprinter.Instance.OnPointerClick( data );
+			return;
+		}
+		Blueprinter.Instance.Viewer.ApplyPatternData( PatternData );
 	}
 
 	void Awake()

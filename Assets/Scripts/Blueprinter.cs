@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Windows.Forms;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Utils;
@@ -30,6 +31,7 @@ public class Blueprinter : MonoBehaviour,
 	public RectTransform ConnectionsTransform => connectionsTransform;
 	public RectTransform PatternsTransform => patternsTransform;
 	public UINodeSearcher Searcher => searcher;
+	public UIPatternViewer Viewer => viewer;
 	
 	public Vector2 CameraSize => camera.pixelRect.size;
 	public float ScreenRatio => 1920.0f / camera.pixelWidth;
@@ -49,6 +51,8 @@ public class Blueprinter : MonoBehaviour,
 	private UISelectionRect selectionRect;
 	[SerializeField]
 	private UINodeSearcher searcher;
+	[SerializeField]
+	private UIPatternViewer viewer;
 
 	[Header( "Settings" )]
 	[SerializeField, Tooltip( "Button to drag the camera around" )]
