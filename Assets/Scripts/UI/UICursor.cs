@@ -33,7 +33,7 @@ public class UICursor : MonoBehaviour
 	void Start()
 	{
 		Instance = this;
-		Cursor.visible = false;
+		CursorWrapper.IsHardwareVisible = false;
 	}
 
 	void OnValidate()

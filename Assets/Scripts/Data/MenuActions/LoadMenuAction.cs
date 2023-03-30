@@ -12,10 +12,17 @@ public class LoadMenuAction : MenuAction
 		string directory = is_path_empty ? "" : Path.GetDirectoryName( blueprint.FilePath );
 
 		//  ask path to user
-		string[] path = StandaloneFileBrowser.OpenFilePanel( "Open Blueprint", directory, Blueprinter.FILE_EXTENSION, false );
-		if ( path.Length == 0 ) return;
+		CursorWrapper.IsHardwareVisible = true;
+		StandaloneFileBrowser.OpenFilePanelAsync( "Open Blueprint", directory, Blueprinter.FILE_EXTENSION, false, 
+			( paths ) =>
+			{
+				CursorWrapper.IsHardwareVisible = false;
+				if ( paths.Length == 0 ) return;
 
-		//  load
-		blueprint.Load( path[0] );
+				//  loadnuAction
+				blueprint.Load( paths[0] );
+			} 
+		);
+		
 	}
 }
