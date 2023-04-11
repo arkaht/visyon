@@ -43,7 +43,6 @@ public class UIPatternViewerText : MonoBehaviour,
 
 		//  get pattern ID
 		string link = textTMP.textInfo.linkInfo[id].GetLinkID();
-		print( id + " " + link );
 		if ( !PatternRegistery.TryGet( link, out PatternData pattern_data ) )
 		{
 			Debug.LogError( $"UIPatternViewerText: link to unknown pattern '{link}'" );
