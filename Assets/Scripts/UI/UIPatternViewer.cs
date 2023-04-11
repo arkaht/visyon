@@ -29,6 +29,19 @@ public class UIPatternViewer : MonoBehaviour
 		TransformUtils.Clear( relationsTransform );
 	}
 
+	public void PlacePattern()
+	{
+		if ( Data == null ) return;
+
+		//  spawn
+		UIPattern pattern = UIPattern.Spawn( Data.ID );
+
+		//  center it on camera
+		Vector3 position = Blueprinter.Instance.Camera.transform.position;
+		position.z = 0.0f;
+		pattern.transform.position = position;
+	}
+
 	public void ApplyPatternData( PatternData data )
 	{
 		gameObject.SetActive( true );

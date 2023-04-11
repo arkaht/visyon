@@ -33,6 +33,7 @@ public class Blueprinter : MonoBehaviour,
 	public UINodeSearcher Searcher => searcher;
 	public UIPatternViewer Viewer => viewer;
 	
+	public Camera Camera => camera;
 	public Vector2 CameraSize => camera.pixelRect.size;
 	public float ScreenRatio => 1920.0f / camera.pixelWidth;
 	public float PixelRatio => ScreenRatio * 1.0f / canvas.scaleFactor * GetCurrentZoomSize() / GetDefaultZoomSize();
