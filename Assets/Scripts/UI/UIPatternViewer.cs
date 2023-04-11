@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
+using Utils;
 
 public class UIPatternViewer : MonoBehaviour
 {
@@ -20,6 +23,10 @@ public class UIPatternViewer : MonoBehaviour
 							tmpDefinition;
 	[SerializeField]
 	private GameObject textPrefab;
+	[SerializeField]
+	private Button previousButton, nextButton;
+
+	private readonly History<PatternData> history = new();
 
 	public void Clear()
 	{
@@ -27,6 +34,18 @@ public class UIPatternViewer : MonoBehaviour
 		TransformUtils.Clear( usageTransform );
 		TransformUtils.Clear( consequencesTransform );
 		TransformUtils.Clear( relationsTransform );
+	}
+
+	public void NavigateHistory( int offset )
+	{
+		PatternData data = history.Navigate( offset );
+
+		//  update buttons
+		UpdateHistoryButtons();
+
+		//  apply data
+		if ( data == null ) return;
+		ApplyPatternData( data, true );
 	}
 
 	public void PlacePattern()
@@ -42,11 +61,21 @@ public class UIPatternViewer : MonoBehaviour
 		pattern.transform.position = position;
 	}
 
-	public void ApplyPatternData( PatternData data )
+	public void ApplyPatternData( PatternData data, bool no_history = false )
 	{
 		gameObject.SetActive( true );
 
+		//  don't update if equal
 		if ( data == Data ) return;
+
+		//  insert previous into history
+		if ( !no_history )
+		{
+			history.Add( data );
+			UpdateHistoryButtons();
+		}
+
+		//  set new data
 		Data = data;
 		
 		Clear();
@@ -75,6 +104,13 @@ public class UIPatternViewer : MonoBehaviour
 	{
 		Data = null;
 		gameObject.SetActive( false );
+		history.Clear();
+	}
+
+	private void UpdateHistoryButtons()
+	{
+		previousButton.interactable = history.Previous != null;
+		nextButton.interactable = history.Next != null;
 	}
 
 	private void AddTextsTo( string[] texts, Transform parent, Func<string, string> modifier = null )
@@ -94,5 +130,10 @@ public class UIPatternViewer : MonoBehaviour
 	void Awake()
 	{
 		Reset();
+	}
+
+	void OnEnable()
+	{
+		NavigateHistory( 0 );
 	}
 }
