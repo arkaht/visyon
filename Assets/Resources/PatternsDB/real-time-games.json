@@ -3,39 +3,34 @@
     "texts": {
         "definition": "The progression of game time during play is tied to the real time.",
         "description": [
-            "\"Real-Time Games\" do not require player actions to change the game state, as the game system can make these changes based on real time. In one sense, all \"Real-Time Games\" are self-running simulations in which the players may participate. Some games offer the players a possibility to pause the game or otherwise modify the pace of the game time."
+            "[Real-Time Games](real-time-games) do not require player actions to change the game state, as the game system can make these changes based on real time. In one sense, all [Real-Time Games](real-time-games) are self-running simulations in which the players may participate. Some games offer the players a possibility to pause the game or otherwise modify the pace of the game time."
         ],
         "examples": [
             "Most arcade games are based on the players being bombarded by hectic and constant challenges from the game system. The gameplay requires constant attention to what is happening in the game. \"Space Invaders\" and other shoot-'em-ups challenge the players with ever-increasing waves of attacking enemies, which the players have to destroy.",
             "Real-time strategy games, such as those in the \"WarCraft\" and \"StarCraft\" series, modify the usually slow pace of strategy games by making the game system continue without player interaction."
         ],
         "usage": [
-            "If the players are provided with \"Communication Channels\" for \"Social Interaction\" and the gameplay itself would benefit from communication between the players, it is important to consider the characteristics of the \"Communication Channels\" to appropriately map the pace of required \"Social Interaction\" to the pace of the game itself. For example, text chatting in fast team-oriented first-person shooters is not necessarily the preferred communication method for the players.",
-            "The available player actions must also fit the pace of the game itself. Simple \"Maneuvering\" combined with \"Aim &amp; Shoot\" is a classical example of basic actions available in \"Real-Time Games\". \"Maneuvering\" in a \"Game World\", even in simple two-dimensional \"Game Worlds\", enhances the feeling of \"Spatial Immersion\". The most often used actions are, quite naturally, \"Rhythm-Based Actions\" and \"Dexterity-Based Actions\". These cases of \"Timing\" require that the players match their actions, including \"No-Ops,\" to the game time, and \"Rhythm-Based Actions\" in particular can give rise to \"Sensory-Motoric Immersion\".\"Combat\" or \"Capture\" in \"Real-Time Games\" is also often based on correct \"Timing\" of different actions, although in real-time strategy games, the \"Combat\" between \"Units\" typically resembles the \"Combat\" in \"Turn-Based Games\" and \"Tick-Based Games\".",
-            "An interesting case of \"Budgeted Action Points\" can be created in \"Real-Time Games\", where the players can save up action points for performing future actions by doing \"No-Ops\". This is more often used in \"Real-Time Games\", which require more complex actions and planning from the players and the players' strategies require proper \"Timing\" of the use of the action points.",
-            "The progression of game time is often handled by a \"Dedicated Game Facilitator\", such as a computer program, unless the game is more or less physical in nature, such as when the game time maps one to one to real time. For example, \"Tag\" is a \"Self-Facilitated Game\" where the game time is the same as the real time and, obviously, does not require \"Dedicated Game Facilitators\" to progress the game time."
+            "If the players are provided with [Communication Channels](communication-channels) for [Social Interaction](social-interaction) and the gameplay itself would benefit from communication between the players, it is important to consider the characteristics of the [Communication Channels](communication-channels) to appropriately map the pace of required [Social Interaction](social-interaction) to the pace of the game itself. For example, text chatting in fast team-oriented first-person shooters is not necessarily the preferred communication method for the players.",
+            "The available player actions must also fit the pace of the game itself. Simple [Maneuvering](maneuvering) combined with [Aim & Shoot](aim-shoot) is a classical example of basic actions available in [Real-Time Games](real-time-games). [Maneuvering](maneuvering) in a [Game World](game-world), even in simple two-dimensional [Game Worlds](game-world), enhances the feeling of [Spatial Immersion](spatial-immersion). The most often used actions are, quite naturally, [Rhythm-Based Actions](rhythm-based-actions) and [Dexterity-Based Actions](dexterity-based-actions). These cases of [Timing](timing) require that the players match their actions, including [No-Ops,](no-ops) to the game time, and [Rhythm-Based Actions](rhythm-based-actions) in particular can give rise to [Sensory-Motoric Immersion](sensory-motoric-immersion).[Combat](combat) or [Capture](capture) in [Real-Time Games](real-time-games) is also often based on correct [Timing](timing) of different actions, although in real-time strategy games, the [Combat](combat) between [Units](units) typically resembles the [Combat](combat) in [Turn-Based Games](turn-based-games) and [Tick-Based Games](tick-based-games).",
+            "An interesting case of [Budgeted Action Points](budgeted-action-points) can be created in [Real-Time Games](real-time-games), where the players can save up action points for performing future actions by doing [No-Ops](no-ops). This is more often used in [Real-Time Games](real-time-games), which require more complex actions and planning from the players and the players' strategies require proper [Timing](timing) of the use of the action points.",
+            "The progression of game time is often handled by a [Dedicated Game Facilitator](dedicated-game-facilitators), such as a computer program, unless the game is more or less physical in nature, such as when the game time maps one to one to real time. For example, \"Tag\" is a [Self-Facilitated Game](self-facilitated-games) where the game time is the same as the real time and, obviously, does not require [Dedicated Game Facilitators](dedicated-game-facilitators) to progress the game time."
         ],
         "consequences": [
-            "\"Real-Time Games\" almost always require that the players keep constant attention on what is happening in the game during play. As humans have difficulties in keeping focus on several things needing attention at the same time, \"Disruption of Focused Attention\" can be used in \"Real-Time Games\" to modify the \"Right Level of Difficulty\" and to provide more \"Varied Gameplay\". The UFO in \"Asteroids\" is a good example of this kind of gameplay modification, and many other games use rapid \"Attention Swapping\" as one of the basic challenges of the game.",
-            "As the game time goes on regardless of the players' actions, this in most cases will lead to \"Limited Planning Ability\" for the players, of course, depending on the pace of the game time and the complexity of the actions required from the players. \"Real-Time Games\" naturally give rise to \"The Show Must Go On\", even in cases where the players can use \"Game Pauses\" or other methods of suspending game time, such as \"Save-Load Cycles\". The game time is also of a different nature when the gameplay itself is paused during \"Cut Scenes\".",
-            "Games can have modes of play where the real-time modes are switched between the players by \"Turn Taking.\" For example, in \"Bowling\", the players take turns, but the actual play is in real-time. During these real-time modes of play, there is obviously no \"Downtime\" for the players. \"Synchronous Games\" are well suited for \"Real-Time Games\", while it is also possible that parts of \"Asynchronous Games\" have characteristics of \"Real-Time Games\"."
+            "[Real-Time Games](real-time-games) almost always require that the players keep constant attention on what is happening in the game during play. As humans have difficulties in keeping focus on several things needing attention at the same time, [Disruption of Focused Attention](disruptionof-focused-attention) can be used in [Real-Time Games](real-time-games) to modify the [Right Level of Difficulty](right-levelof-difficulty) and to provide more [Varied Gameplay](varied-gameplay). The UFO in \"Asteroids\" is a good example of this kind of gameplay modification, and many other games use rapid [Attention Swapping](attention-swapping) as one of the basic challenges of the game.",
+            "As the game time goes on regardless of the players' actions, this in most cases will lead to [Limited Planning Ability](limited-planning-ability) for the players, of course, depending on the pace of the game time and the complexity of the actions required from the players. [Real-Time Games](real-time-games) naturally give rise to [The Show Must Go On](the-show-must-go-on), even in cases where the players can use [Game Pauses](game-pauses) or other methods of suspending game time, such as [Save-Load Cycles](save-load-cycles). The game time is also of a different nature when the gameplay itself is paused during [Cut Scenes](cut-scenes).",
+            "Games can have modes of play where the real-time modes are switched between the players by [Turn Taking.](turn-taking) For example, in \"Bowling\", the players take turns, but the actual play is in real-time. During these real-time modes of play, there is obviously no [Downtime](downtime) for the players. [Synchronous Games](synchronous-games) are well suited for [Real-Time Games](real-time-games), while it is also possible that parts of [Asynchronous Games](asynchronous-games) have characteristics of [Real-Time Games](real-time-games)."
         ]
     },
     "relations": {
         "instantiates": [
-            "aim-shoot",
             "spatial-immersion",
-            "no-ops",
             "maneuvering",
-            "sensory-motoric-immersion",
             "the-show-must-go-on"
         ],
         "modulates": [
-            "tick-based-games",
-            "turn-based-games",
             "capture",
             "limited-planning-ability",
-            "disruption-of-focused-attention",
+            "disruptionof-focused-attention",
             "combat",
             "synchronous-games",
             "asynchronous-games",
@@ -44,12 +39,8 @@
         "instantiated_by": [],
         "modulated_by": [
             "attention-swapping",
-            "self-facilitated-games",
-            "rhythm-based-actions",
             "dedicated-game-facilitators",
             "timing",
-            "dexterity-based-actions",
-            "save-load-cycles",
             "cut-scenes",
             "game-pauses",
             "communication-channels",
@@ -58,7 +49,6 @@
         ],
         "conflicts": [
             "turn-taking",
-            "turn-based-games",
             "downtime"
         ]
     }

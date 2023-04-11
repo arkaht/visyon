@@ -3,19 +3,19 @@
     "texts": {
         "definition": "The resources are distributed symmetrically and evenly among the players, that is, the players have similar access and ownership rights to the resources.",
         "description": [
-            "One of the requirements for players to have the same basic chances of succeeding is that they have equal access to resources, at least in games where no information about player skills is known. This \"Symmetric Resource Distribution\" eliminates one possibility for inequalities in players starting positions in games although they may exist due to differences in goals and abilities."
+            "One of the requirements for players to have the same basic chances of succeeding is that they have equal access to resources, at least in games where no information about player skills is known. This [Symmetric Resource Distribution](symmetric-resource-distribution) eliminates one possibility for inequalities in players starting positions in games although they may exist due to differences in goals and abilities."
         ],
         "examples": [
             "the players have sixteen pieces each under their ownership at the start of the game of \"Chess\", with each piece having a counterpart in the other player's setup.",
             "the players have the same amount of money and no other possessions at the start of the game of \"Monopoly\"."
         ],
         "usage": [
-            "\"Symmetric Resource Distribution\" is easy to achieve by just providing the players the same kinds and amounts of \"Resources\". This is usually done only in the starting phase of the game, but, for example, in the case of \"Budgeted Action Points\" the \"Symmetric Resources Distribution\" can continue throughout the game whenever \"Resources\" are produced. \"Symmetric Resource Distributions\" are likely outcomes in \"Player-Decided Distribution of Rewards &amp; Penalties\" when no players have enough individual power or the players' positions in the game are difficult to judge.",
-            "It is possible, of course, to have both \"Symmetric\" \"Resource Distribution\" and \"Asymmetric Resource Distribution\" in the game, if they govern the distribution of different kinds of \"Resources\" or within different subgroups of players. For example, in a team-oriented first-person shooter there can be \"Symmetric Resource Distribution\" between the teams but asymmetric within the teams themselves."
+            "[Symmetric Resource Distribution](symmetric-resource-distribution) is easy to achieve by just providing the players the same kinds and amounts of [Resources](resources). This is usually done only in the starting phase of the game, but, for example, in the case of [Budgeted Action Points](budgeted-action-points) the \"Symmetric Resources Distribution\" can continue throughout the game whenever [Resources](resources) are produced. [Symmetric Resource Distributions](symmetric-resource-distribution) are likely outcomes in [Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties) when no players have enough individual power or the players' positions in the game are difficult to judge.",
+            "It is possible, of course, to have both \"Symmetric\" \"Resource Distribution\" and [Asymmetric Resource Distribution](asymmetric-resource-distribution) in the game, if they govern the distribution of different kinds of [Resources](resources) or within different subgroups of players. For example, in a team-oriented first-person shooter there can be [Symmetric Resource Distribution](symmetric-resource-distribution) between the teams but asymmetric within the teams themselves."
         ],
         "consequences": [
-            "\"Symmetric Resource Distributions\" is an easy way to achieve at least perceived \"Player Balance\" through \"Symmetry\" and is naturally incompatible with \"Asymmetric Resource Distribution\" s. However, \"Symmetric Resource Distribution\" used together with \"Non-Renewable Resources\" in games that do not have large game state spaces may negatively affect \"Varied Gameplay\".",
-            "If the players have access to the same types of \"Resources\" this can inhibit the incentives for \"Trading\" between the players, unless the goal of the \"Trading\" is to specialize in one type of \"Resource\"."
+            "[Symmetric Resource Distributions](symmetric-resource-distribution) is an easy way to achieve at least perceived [Player Balance](player-balance) through [Symmetry](symmetry) and is naturally incompatible with [Asymmetric Resource Distribution](asymmetric-resource-distribution) s. However, [Symmetric Resource Distribution](symmetric-resource-distribution) used together with [Non-Renewable Resources](non-renewable-resources) in games that do not have large game state spaces may negatively affect [Varied Gameplay](varied-gameplay).",
+            "If the players have access to the same types of [Resources](resources) this can inhibit the incentives for [Trading](trading) between the players, unless the goal of the [Trading](trading) is to specialize in one type of [Resource](resources)."
         ]
     },
     "relations": {
@@ -29,8 +29,7 @@
             "resources"
         ],
         "instantiated_by": [
-            "shared-resources",
-            "player-decided-distribution-of-rewards-penalties"
+            "shared-resources"
         ],
         "modulated_by": [],
         "conflicts": [

@@ -3,20 +3,20 @@
     "texts": {
         "definition": "Games designed to provide players with the possibility of smoothly progressing from novice to master.",
         "description": [
-            "Most games can be played at different levels of difficulty or become more and more difficult as gameplay progresses. In order for players to have as full an experience of the game design as possible, the design of these games may support players in developing game skills. When learning the skills are felt to be part of gameplay, and sometimes be enjoyable experiences, the game is said to have \"Smooth Learning Curves\" and these smooth curves can minimize the risk of players getting stuck at particular points in the game."
+            "Most games can be played at different levels of difficulty or become more and more difficult as gameplay progresses. In order for players to have as full an experience of the game design as possible, the design of these games may support players in developing game skills. When learning the skills are felt to be part of gameplay, and sometimes be enjoyable experiences, the game is said to have [Smooth Learning Curves](smooth-learning-curves) and these smooth curves can minimize the risk of players getting stuck at particular points in the game."
         ],
         "examples": [
             "The \"Zelda\" and \"Super Mario\" series provide signs and characters that give players hints about what they can do. They explain all the options players have and minimize the risk that players get stuck in the game because they do not know what they should do.",
-            "Many first-person shooters can be played both alone and against opponents through the Internet. In these games, the single player game usually provides \"Smooth Learning Curves\" that can be seen as a preparation for playing the multiplayer versions."
+            "Many first-person shooters can be played both alone and against opponents through the Internet. In these games, the single player game usually provides [Smooth Learning Curves](smooth-learning-curves) that can be seen as a preparation for playing the multiplayer versions."
         ],
         "usage": [
-            "Designing games with \"Smooth Learning Curves\" involves making players have the \"Right Level of Difficulty\" whatever their skill levels, and thereby giving them a \"Perceived Chance to Succeed\" and an \"Illusion of Influence\". When this is done in a way that is perceived as being in competition against some other player, it causes \"Red Queen Dilemmas\" to occur. Adjusting the difficulty of challenges to player skills can be done in three ways: providing information to players on how to overcome the challenges, explicitly adjusting the challenges to the players' skills, or letting players make the adjustments themselves.",
-            "Information about challenges can either be explicit \"Extra-Game Information\" provided in the form of \"Clues\" or \"Helpers\" or be implicit through \"Consistent Reality Logic\". In either case, information can allow players to build \"Strategic Knowledge\" and reduce \"Limited Foresight\", which can either be useful within the same game instance or in all game instances.",
-            "The difficulty of challenges can be designed to provide \"Smooth Learning Curves\" either by changing the difficulty of individual challenges during gameplay or by designing the challenges so that the easier ones are encountered earlier and the players gradually get \"New Abilities\" to overcome the later, more difficult challenges. Changes during gameplay require the use of \"Dedicated Game Facilitators\" or \"Balancing Effects\" while \"Levels\", and other forms of \"Inaccessible Areas\" that later become accessible, are the common ways to make sure players have the easiest challenges first.",
-            "Ways players themselves can adjust the difficulty of challenges include deciding on \"Handicaps\" in \"Multiplayer Games\", setting a difficulty level in games that provide the \"Right Level of Complexity\" or right level of opposition, or simply choosing to play with opponents of the same skill levels. The presence of \"Combos\" can allow players to try and overcome challenges either through easier and less effective normal actions or more difficult and more effective actions. Games that depend on \"Luck\" can give \"Smooth Learning Curves\", as players can perform actions and try to complete goals without their \"Perceived Chance to Succeed\" being close to their actual chance to succeed. \"Save-Load Cycles\" allow players to control their learning process themselves by giving them the possibility to do \"Experimenting\"."
+            "Designing games with [Smooth Learning Curves](smooth-learning-curves) involves making players have the [Right Level of Difficulty](right-levelof-difficulty) whatever their skill levels, and thereby giving them a [Perceived Chance to Succeed](perceived-chanceto-succeed) and an [Illusion of Influence](illusionof-influence). When this is done in a way that is perceived as being in competition against some other player, it causes [Red Queen Dilemmas](red-queen-dilemmas) to occur. Adjusting the difficulty of challenges to player skills can be done in three ways: providing information to players on how to overcome the challenges, explicitly adjusting the challenges to the players' skills, or letting players make the adjustments themselves.",
+            "Information about challenges can either be explicit [Extra-Game Information](extra-game-information) provided in the form of [Clues](clues) or [Helpers](helpers) or be implicit through [Consistent Reality Logic](consistent-reality-logic). In either case, information can allow players to build [Strategic Knowledge](strategic-knowledge) and reduce [Limited Foresight](limited-foresight), which can either be useful within the same game instance or in all game instances.",
+            "The difficulty of challenges can be designed to provide [Smooth Learning Curves](smooth-learning-curves) either by changing the difficulty of individual challenges during gameplay or by designing the challenges so that the easier ones are encountered earlier and the players gradually get [New Abilities](new-abilities) to overcome the later, more difficult challenges. Changes during gameplay require the use of [Dedicated Game Facilitators](dedicated-game-facilitators) or [Balancing Effects](balancing-effects) while [Levels](levels), and other forms of [Inaccessible Areas](inaccessible-areas) that later become accessible, are the common ways to make sure players have the easiest challenges first.",
+            "Ways players themselves can adjust the difficulty of challenges include deciding on [Handicaps](handicaps) in [Multiplayer Games](multiplayer-games), setting a difficulty level in games that provide the [Right Level of Complexity](right-levelof-complexity) or right level of opposition, or simply choosing to play with opponents of the same skill levels. The presence of [Combos](combos) can allow players to try and overcome challenges either through easier and less effective normal actions or more difficult and more effective actions. Games that depend on [Luck](luck) can give [Smooth Learning Curves](smooth-learning-curves), as players can perform actions and try to complete goals without their [Perceived Chance to Succeed](perceived-chanceto-succeed) being close to their actual chance to succeed. [Save-Load Cycles](save-load-cycles) allow players to control their learning process themselves by giving them the possibility to do [Experimenting](experimenting)."
         ],
         "consequences": [
-            "\"Smooth Learning Curves\" allow players to experience challenges whatever their skill levels in a game and help them develop \"Game Mastery\". Providing \"Smooth Learning Curves\" allow games to provide \"Immersion\" from the point when players are novices until they have mastered gameplay."
+            "[Smooth Learning Curves](smooth-learning-curves) allow players to experience challenges whatever their skill levels in a game and help them develop [Game Mastery](game-mastery). Providing [Smooth Learning Curves](smooth-learning-curves) allow games to provide [Immersion](immersion) from the point when players are novices until they have mastered gameplay."
         ]
     },
     "relations": {
@@ -26,8 +26,8 @@
         ],
         "modulates": [
             "multiplayer-games",
-            "perceived-chance-to-succeed",
-            "illusion-of-influence"
+            "perceived-chanceto-succeed",
+            "illusionof-influence"
         ],
         "instantiated_by": [
             "limited-foresight",
@@ -35,14 +35,12 @@
             "experimenting",
             "dedicated-game-facilitators",
             "luck",
-            "right-level-of-difficulty",
-            "right-level-of-complexity",
+            "right-levelof-difficulty",
+            "right-levelof-complexity",
             "combos",
             "clues",
             "helpers",
-            "extra-game-information",
             "balancing-effects",
-            "save-load-cycles",
             "handicaps"
         ],
         "modulated_by": [

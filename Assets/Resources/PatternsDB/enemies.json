@@ -3,29 +3,28 @@
     "texts": {
         "definition": "Enemies are avatars and units that hinder the players trying to complete the goals.",
         "description": [
-            "Many games have game elements that portray people or monsters that try and hinder players' goals. These \"Enemies\" can actively resist players' intentions through actions or they can be an explanation for challenges or obstacles in the \"Game World\".",
-            "<B>Example:</B> In \"Soul Calibur II\", the combat opponents are straightforward \"Enemies\", which try to hinder the players' progress in the game."
+            "Many games have game elements that portray people or monsters that try and hinder players' goals. These [Enemies](enemies) can actively resist players' intentions through actions or they can be an explanation for challenges or obstacles in the [Game World](game-world).",
+            "<B>Example:</B> In \"Soul Calibur II\", the combat opponents are straightforward [Enemies](enemies), which try to hinder the players' progress in the game."
         ],
         "examples": [
             "With the exception of puzzles, most games include enemies. A typical example of an enemy, albeit initially unknown, is Ganon in \"The Legend of Zelda\", whose defeat is the plot of the game."
         ],
         "usage": [
-            "The primary design choice when defining \"Enemies\" is how players can \"Overcome\" or \"Evade\" them. There may be many ways to do this, which may change during gameplay, and players may have to complete several subgoals before having the chance to challenge the \"Enemies\" at all. Typical ways of overcoming \"Enemies\" are by \"Elimination\" (most often in the form of \"Aim &amp; Shoot\"), by permanently making \"Interferable Goals\" impossible or by converting through succeeding with \"Gain Ownership\" goals. Games that provide many \"Enemies\" can give them different abilities to support \"Orthogonal Unit Differentiation\", and thereby \"Varied Gameplay\", or vary the environment in which these \"Enemies\" are encountered.",
-            "Another design choice is where in a \"Level\" the \"Enemies\" are met. They may block paths to \"Traverse\" goal, which makes their appearance likely or guaranteed, they may be the objectives of \"Reconnaissance\" goals, or may be \"Surprises\" in \"Exploration\" goals. In games requiring \"Maneuvering\" they can provide additional hazards that have to be actively avoided.",
-            "Having the \"Enemies\" appear separated allows players to decide what \"Enemies\" to challenge first (which can be useful to counter \"Orthogonal Unit Differentiation\"), while having the \"Enemies\" appear together can modulate the \"Right Level of Difficulty\" between different areas of the \"Level\".",
-            "The most challenging \"Enemies\" are other humans. Computer controlled \"Agents\" can be made very challenging by using information or ultra-powerful abilities impossible for players to have, in principle, using \"Ultra-Powerful Events\", but this easily conflicts with players' \"Perceived Chance to Succeed\". \"Game Masters\" can more precisely modulate players' \"Perceived Chance to Succeed\" not only on their actual chance to succeed but also what the players believe.",
-            "The cause for enmity between the player and the \"Enemies\" can usually be described through a \"Goal/Preventing Goal\" pair. By using high-level goal pairs, the \"Enemies\" can be used as the main driving force for the \"Narrative Structure\" of the game. Such an overarching goal can then be used to create numerous subgoals within a \"Hierarchy of Goals\": a \"Collection\" of goals that consist of several duels, \"Gain Information\" goals to gain the identity of the \"Enemies\" or their \"Achilles' Heel\", \"Overcome\" to defeat the henchmen of the \"Enemy\", \"Supporting Goals\" to find the \"Tools\" for defeating the \"Enemy\", and so on. However, causes compatible with the \"Consistent Reality Logic\" need to be found to explain why these \"Enemies\" cannot be encountered early in the game.",
-            "The difficulty of \"Enemies\" can be modulated by changing their \"Skills\", giving them \"Privileged Movement\", or changing their numbers. \"Alarms\" can be used to support \"Enemies\" and can motivate the introduction of move \"Enemies\" if the \"Alarms\" are tripped. If players can have \"Identification\" with the \"Enemies\", it can create a form of \"Social Dilemma\" as can having to perform certain actions to \"Overcome\" the \"Enemies\". A special type of an \"Enemy\" is the \"Boss Monster\", who is used to signify the final goal that has to be fulfilled to complete a \"Level\"."
+            "The primary design choice when defining [Enemies](enemies) is how players can [Overcome](overcome) or [Evade](evade) them. There may be many ways to do this, which may change during gameplay, and players may have to complete several subgoals before having the chance to challenge the [Enemies](enemies) at all. Typical ways of overcoming [Enemies](enemies) are by \"Elimination\" (most often in the form of [Aim & Shoot](aim-shoot)), by permanently making [Interferable Goals](interferable-goals) impossible or by converting through succeeding with [Gain Ownership](gain-ownership) goals. Games that provide many [Enemies](enemies) can give them different abilities to support [Orthogonal Unit Differentiation](orthogonal-unit-differentiation), and thereby [Varied Gameplay](varied-gameplay), or vary the environment in which these [Enemies](enemies) are encountered.",
+            "Another design choice is where in a [Level](levels) the [Enemies](enemies) are met. They may block paths to [Traverse](traverse) goal, which makes their appearance likely or guaranteed, they may be the objectives of [Reconnaissance](reconnaissance) goals, or may be [Surprises](surprises) in [Exploration](exploration) goals. In games requiring [Maneuvering](maneuvering) they can provide additional hazards that have to be actively avoided.",
+            "Having the [Enemies](enemies) appear separated allows players to decide what [Enemies](enemies) to challenge first (which can be useful to counter [Orthogonal Unit Differentiation](orthogonal-unit-differentiation)), while having the [Enemies](enemies) appear together can modulate the [Right Level of Difficulty](right-levelof-difficulty) between different areas of the [Level](levels).",
+            "The most challenging [Enemies](enemies) are other humans. Computer controlled [Agents](agents) can be made very challenging by using information or ultra-powerful abilities impossible for players to have, in principle, using [Ultra-Powerful Events](ultra-powerful-events), but this easily conflicts with players' [Perceived Chance to Succeed](perceived-chanceto-succeed). [Game Masters](game-masters) can more precisely modulate players' [Perceived Chance to Succeed](perceived-chanceto-succeed) not only on their actual chance to succeed but also what the players believe.",
+            "The cause for enmity between the player and the [Enemies](enemies) can usually be described through a \"Goal/Preventing Goal\" pair. By using high-level goal pairs, the [Enemies](enemies) can be used as the main driving force for the [Narrative Structure](narrative-structures) of the game. Such an overarching goal can then be used to create numerous subgoals within a [Hierarchy of Goals](hierarchyof-goals): a [Collection](collection) of goals that consist of several duels, [Gain Information](gain-information) goals to gain the identity of the [Enemies](enemies) or their [Achilles' Heel](achilles-heels), [Overcome](overcome) to defeat the henchmen of the [Enemy](enemies), [Supporting Goals](supporting-goals) to find the [Tools](tools) for defeating the [Enemy](enemies), and so on. However, causes compatible with the [Consistent Reality Logic](consistent-reality-logic) need to be found to explain why these [Enemies](enemies) cannot be encountered early in the game.",
+            "The difficulty of [Enemies](enemies) can be modulated by changing their [Skills](skills), giving them [Privileged Movement](privileged-movement), or changing their numbers. [Alarms](alarms) can be used to support [Enemies](enemies) and can motivate the introduction of move [Enemies](enemies) if the [Alarms](alarms) are tripped. If players can have [Identification](identification) with the [Enemies](enemies), it can create a form of [Social Dilemma](social-dilemmas) as can having to perform certain actions to [Overcome](overcome) the [Enemies](enemies). A special type of an [Enemy](enemies) is the [Boss Monster](boss-monsters), who is used to signify the final goal that has to be fulfilled to complete a [Level](levels)."
         ],
         "consequences": [
-            "\"Enemies\" are the \"Characters\" or \"Avatars\" of players that have \"Preventing Goals\" or \"Agents\" or \"Units\" controlled by \"Dedicated Game Facilitators\" or \"Game Masters\". The presence of \"Enemies\" in \"Game Worlds\" causes \"Tension\" and gives players motivation for \"Overcome\" goals, often through \"Combat\". As such, they naturally cause \"Conflict\" or \"Competition\" as they threaten to make the players lose \"Lives\" or\"Resources\" (working as a form of \"Consumers\"), or otherwise block the players' progress in the game.",
-            "The appearance of \"Enemies\" are nearly always \"Disruption of Focused Attention\" events and can require \"Attention Swapping\" when several different groups of \"Enemies\" exist. \"Enemies\" are often used to give the motivation for the unfolding of \"Narrative Structures\" in games. When players can identify common \"Enemies\", this is usually a motivation for creating \"Alliances\"."
+            "[Enemies](enemies) are the [Characters](characters) or [Avatars](avatars) of players that have [Preventing Goals](preventing-goals) or [Agents](agents) or [Units](units) controlled by [Dedicated Game Facilitators](dedicated-game-facilitators) or [Game Masters](game-masters). The presence of [Enemies](enemies) in [Game Worlds](game-world) causes [Tension](tension) and gives players motivation for [Overcome](overcome) goals, often through [Combat](combat). As such, they naturally cause [Conflict](conflict) or [Competition](competition) as they threaten to make the players lose [Lives](lives) or[Resources](resources) (working as a form of [Consumers](consumers)), or otherwise block the players' progress in the game.",
+            "The appearance of [Enemies](enemies) are nearly always [Disruption of Focused Attention](disruptionof-focused-attention) events and can require [Attention Swapping](attention-swapping) when several different groups of [Enemies](enemies) exist. [Enemies](enemies) are often used to give the motivation for the unfolding of [Narrative Structures](narrative-structures) in games. When players can identify common [Enemies](enemies), this is usually a motivation for creating [Alliances](alliances)."
         ]
     },
     "relations": {
         "instantiates": [
             "attention-swapping",
-            "aim-shoot",
             "conflict",
             "combat",
             "competition",
@@ -35,7 +34,7 @@
             "reconnaissance",
             "preventing-goals",
             "tension",
-            "disruption-of-focused-attention"
+            "disruptionof-focused-attention"
         ],
         "modulates": [
             "exploration",
@@ -44,8 +43,8 @@
             "evade",
             "levels",
             "narrative-structures",
-            "right-level-of-difficulty",
-            "perceived-chance-to-succeed",
+            "right-levelof-difficulty",
+            "perceived-chanceto-succeed",
             "maneuvering"
         ],
         "instantiated_by": [

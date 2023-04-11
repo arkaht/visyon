@@ -1,0 +1,48 @@
+{
+    "name": "Geometric Rewards for Investments",
+    "texts": {
+        "definition": "The possible rewards grow in geometric fashion compared to the invested resources, that is, if the investment is doubled the comparable reward is more than doubled.",
+        "description": [
+            "[Geometric Rewards for Investments](geometric-rewardsfor-investments) are those rewards in games where the growth of the reward in not linear but instead grows with every resources used to gain them. [Geometric Rewards for Investments](geometric-rewardsfor-investments) discourages players to split resources into several smaller investments in favor of one large investment as the combined rewards of two lesser investments are always smaller than the reward of the larger investment using the same amount of resources."
+        ],
+        "examples": [
+            "in \"Tetris\" the reward in points for removing more than one row at the time increase in geometric fashion.",
+            "in \"Bohnanza\", a card game involving trade and luck, collecting more similar cards before cashing them in for victory points gives [Geometric Rewards for Investments](geometric-rewardsfor-investments) for some types of cards: 2 points for 2 similar cards, 4 points for 3 similar cards and so on."
+        ],
+        "usage": [
+            "Unlike [Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments), the functions used for[Geometric Rewards for Investments](geometric-rewardsfor-investments) to determine the relationship between the [Resources](resources) and [Rewards](rewards) of [Investments](investments) are not linear. Thereby, these types of [Investments](investments) are incompatible with both [Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments) and [Diminishing Returns](diminishing-returns). Using [Geometric Rewards for Investments](geometric-rewardsfor-investments) together with increasing the [Risk/Reward](risk-reward) factor gives the players more interesting choices, by increasing the uncertainties for getting the [Reward](rewards). This can be used as a sort of a player perceived [Balancing Effect](balancing-effects) where the players who are lagging behind in the progress have a chance to reach the leading players but with the drawback of increased risks. Of course, the leading players can also increase the lead in a similar fashion unless some other kind of [Balancing Effect](balancing-effects) is introduced, for example, by not allowing the leading players to make these kinds of [Investments](investments).",
+            "[Geometric Rewards for Investments](geometric-rewardsfor-investments) instantiates [Hovering Closure](hovering-closures), especially when used together with [Collecting](collecting). Compared to [Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments) players are more likely to have strong commitments to subgoals with [Geometric Rewards for Investments,](geometric-rewardsfor-investments) and this may be used to increase [Tension](tension). [Geometric Rewards for Investments](geometric-rewardsfor-investments) also forces the players to plan the [Timing](timing) of the [Investments](investments) more carefully than with [Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments)."
+        ],
+        "consequences": [
+            "[Geometric Rewards for Investments](geometric-rewardsfor-investments) give the players an incentive to focus their [Resources](resources) or attention to certain activities, for example [Collecting](collecting) more [Resources](resources) of the same kind. This can also be used as an incentive for the players to do [Trading](trading) with other players or other actions that have the effect of [Transfer of Control](transferof-control) events.",
+            "The design choices with [Geometric Rewards for Investment](geometric-rewardsfor-investments) are mainly similar to [Investments](investments) in general. The main differences, however, is the increased incitement to choose an artificial maximum amount that can be invested or to create an abrupt cutoff point where further [Investments](investments) have [Diminishing Returns](diminishing-returns). The main reason for the increased possibility for these design choices lie in the fact that [Geometric Rewards for Investment](geometric-rewardsfor-investments) gives [Rewards](rewards) that grow exponentially and create problems in [Player Balance](player-balance).",
+            "Although [Investments](investments) are often made by committing [Resources](resources), \"Extended\" \"Actions\" and [Combos](combos) are actions that can merit [Geometric Rewards for Investments](geometric-rewardsfor-investments)."
+        ]
+    },
+    "relations": {
+        "instantiates": [
+            "timing"
+        ],
+        "modulates": [
+            "extended-actions",
+            "trading",
+            "transferof-control",
+            "investments",
+            "rewards",
+            "risk-reward",
+            "collecting",
+            "tension",
+            "combos"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "diminishing-returns",
+            "risk-reward"
+        ],
+        "conflicts": [
+            "player-balance",
+            "diminishing-returns",
+            "arithmetic-rewardsfor-investments"
+        ]
+    }
+}

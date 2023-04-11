@@ -3,27 +3,26 @@
     "texts": {
         "definition": "Capture is the goal pattern where the end result is the elimination or change of ownership of an actively resisting goal object.",
         "description": [
-            "The \"Capture\" is done directly by the actions performed by game elements under a player's control; thus, shooting an opponent in a first-person shooter is not an example of \"Capture\"."
+            "The [Capture](capture) is done directly by the actions performed by game elements under a player's control; thus, shooting an opponent in a first-person shooter is not an example of [Capture](capture)."
         ],
         "examples": [
-            "\"Go\" allows \"Capture\" by completely enclosing an enemy group of stones.",
+            "\"Go\" allows [Capture](capture) by completely enclosing an enemy group of stones.",
             "\"Qix\" allows the player to catch computer-controlled units by enclosing them in the smaller area of the two areas that are created by outlining a path in the unmarked part of the game area.",
             "Priests in \"Age of Empires\" can convert pieces controlled by other players as their main offensive action."
         ],
         "usage": [
-            "The prime design choice regarding \"Capture\" is to decide if the aim is to \"Eliminate\" or \"Gain Ownership\", but can in both cases be seen as a struggle over \"Ownership\". As \"Capture\" is most often done through the actions of a game element under a player's control, determining what game elements can be used to \"Capture\" is usually a part of defining the goal.",
-            "The game design must support some action that facilitates the \"Capture\". In the case of \"Real-Time Games\", this typically is \"Combat\", \"Maneuvering\", or \"Aim &amp; Shoot\" promoting skills in \"Dexterity-Based Actions\". \"Turn-Based Games\" favor the use of \"Puzzle Solving\", and thereby \"Stimulated Planning\", but can also make use of \"Investment\" or \"Bidding\". The first type of game usually has the subgoal of \"Contact\" (with \"Qix\" as an example of \"Enclosure\") while the second type of game commonly has subgoals such as \"Contact\", \"Alignment\", \"Enclosure\", \"Configuration\", and \"Connection\"."
+            "The prime design choice regarding [Capture](capture) is to decide if the aim is to [Eliminate](eliminate) or [Gain Ownership](gain-ownership), but can in both cases be seen as a struggle over [Ownership](ownership). As [Capture](capture) is most often done through the actions of a game element under a player's control, determining what game elements can be used to [Capture](capture) is usually a part of defining the goal.",
+            "The game design must support some action that facilitates the [Capture](capture). In the case of [Real-Time Games](real-time-games), this typically is [Combat](combat), [Maneuvering](maneuvering), or [Aim & Shoot](aim-shoot) promoting skills in [Dexterity-Based Actions](dexterity-based-actions). [Turn-Based Games](turn-based-games) favor the use of [Puzzle Solving](puzzle-solving), and thereby [Stimulated Planning](stimulated-planning), but can also make use of [Investment](investments) or [Bidding](bidding). The first type of game usually has the subgoal of [Contact](contact) (with \"Qix\" as an example of [Enclosure](enclosure)) while the second type of game commonly has subgoals such as [Contact](contact), [Alignment](alignment), [Enclosure](enclosure), [Configuration](configuration), and [Connection](connection)."
         ],
         "consequences": [
-            "\"Capture\" goals are very often related to \"Overcome\" goals in the \"Hierarchies of Goals\". How they are related to each other depends primarily on their individual \"Reward\" structures and on players' tactics. \"Capture\" is often achieved by \"Movement\" but in \"Real-Time Games\", this depends on \"Timing\", while in \"Turn-Based Games\", it more often is a form of \"Puzzle Solving\", as players have to take other players or \"Agents\" actions into consideration due to \"Turn Taking\".",
-            "\"Captures\" combined with \"Eliminate\" of game elements that are \"Non-Renewable Resources\" can quicken gameplay as fewer game elements remain and promote \"Higher-Level Closures as Gameplay Progresses\" since each element represents a greater part of players' \"Resources\". When \"Capture\" allows \"Transfer of Control\", this causes \"Preventing Goals\" such as \"Evade\" and can trigger retaliating \"Capture\" goals by an original owner to regain control. The control of a new game element through \"Capture\" can motivate \"New Abilities\", possibly \"Privileged Abilities\", to become available."
+            "[Capture](capture) goals are very often related to [Overcome](overcome) goals in the \"Hierarchies of Goals\". How they are related to each other depends primarily on their individual [Reward](rewards) structures and on players' tactics. [Capture](capture) is often achieved by [Movement](movement) but in [Real-Time Games](real-time-games), this depends on [Timing](timing), while in [Turn-Based Games](turn-based-games), it more often is a form of [Puzzle Solving](puzzle-solving), as players have to take other players or [Agents](agents) actions into consideration due to [Turn Taking](turn-taking).",
+            "[Captures](capture) combined with [Eliminate](eliminate) of game elements that are [Non-Renewable Resources](non-renewable-resources) can quicken gameplay as fewer game elements remain and promote [Higher-Level Closures as Gameplay Progresses](higher-level-closuresas-gameplay-progresses) since each element represents a greater part of players' [Resources](resources). When [Capture](capture) allows [Transfer of Control](transferof-control), this causes [Preventing Goals](preventing-goals) such as [Evade](evade) and can trigger retaliating [Capture](capture) goals by an original owner to regain control. The control of a new game element through [Capture](capture) can motivate [New Abilities](new-abilities), possibly [Privileged Abilities](privileged-abilities), to become available."
         ]
     },
     "relations": {
         "instantiates": [
             "combat",
-            "higher-level-closures-as-gameplay-progresses",
-            "transfer-of-control",
+            "transferof-control",
             "gain-ownership",
             "timing",
             "movement",
@@ -34,16 +33,13 @@
             "overcome"
         ],
         "modulated_by": [
-            "aim-shoot",
             "connection",
             "enclosure",
-            "turn-based-games",
             "contact",
             "alignment",
             "configuration",
             "evade",
             "puzzle-solving",
-            "real-time-games",
             "maneuvering",
             "turn-taking",
             "ownership",

@@ -3,20 +3,20 @@
     "texts": {
         "definition": "Resource Locations are the locations where resources are found in the game world.",
         "description": [
-            "Nearly all games with a game world use \"Resource Locations\" in one form or another. These are locations that are known to have resources, although this may vary over gameplay as resources are used or new resources appear."
+            "Nearly all games with a game world use [Resource Locations](resource-locations) in one form or another. These are locations that are known to have resources, although this may vary over gameplay as resources are used or new resources appear."
         ],
         "examples": [
-            "all the places where the pills are located in \"Pac-Man\" levels. The more special \"Resource Locations\" are where the power pills are placed and also the location where the bonus items appear.",
-            "the places where trees, bushes, and mines are located in \"Age of Empires\" are \"Resource Locations\" for the basic resources of the game."
+            "all the places where the pills are located in \"Pac-Man\" levels. The more special [Resource Locations](resource-locations) are where the power pills are placed and also the location where the bonus items appear.",
+            "the places where trees, bushes, and mines are located in \"Age of Empires\" are [Resource Locations](resource-locations) for the basic resources of the game."
         ],
         "usage": [
-            "\"Resource Locations\" are required for all \"Resources\" that are not purely abstract. The nature of the \"Resources\", together with the \"Consistent Reality Logic\" of the game, usually limits the possible \"Resource Locations\" for a given \"Resource\". For example, normal burning torches are not found under water nor do ammunition boxes usually lie around in public places.",
-            "\"Resources\" that are not represented by game elements can still be collected from \"Resource Locations\", typically represented by \"Chargers\".",
-            "\"Resource Locations\" are usually marked by \"Traces\" and \"Outstanding Features\" to help the players identify the exact spot where the \"Resources\" can be found or will appear. The location of the \"Resources\" can be used to guide the players towards certain areas in the game, functioning as \"Traces\", or lure players into \"Deadly Traps\". Similarly, letting players identify \"Resource Locations\" within \"Inaccessible Areas\" provides them with \"Gain Ownership\" goals.",
-            "For \"Resources\" that are introduced during the gameplay, i. e. \"Renewable Resources\", the \"Resource Location\" can either be determined by \"Randomness\" (or \"Randomness\" can be used to select one of several \"Resource Locations\"), or by placing them in such way that they have a \"Balancing Effect\". \"Controllers\" define more permanent \"Resource Locations\", since they very seldom can be moved, although they may be destroyed."
+            "[Resource Locations](resource-locations) are required for all [Resources](resources) that are not purely abstract. The nature of the [Resources](resources), together with the [Consistent Reality Logic](consistent-reality-logic) of the game, usually limits the possible [Resource Locations](resource-locations) for a given [Resource](resources). For example, normal burning torches are not found under water nor do ammunition boxes usually lie around in public places.",
+            "[Resources](resources) that are not represented by game elements can still be collected from [Resource Locations](resource-locations), typically represented by [Chargers](chargers).",
+            "[Resource Locations](resource-locations) are usually marked by [Traces](traces) and [Outstanding Features](outstanding-features) to help the players identify the exact spot where the [Resources](resources) can be found or will appear. The location of the [Resources](resources) can be used to guide the players towards certain areas in the game, functioning as [Traces](traces), or lure players into [Deadly Traps](deadly-traps). Similarly, letting players identify [Resource Locations](resource-locations) within [Inaccessible Areas](inaccessible-areas) provides them with [Gain Ownership](gain-ownership) goals.",
+            "For [Resources](resources) that are introduced during the gameplay, i. e. [Renewable Resources](renewable-resources), the [Resource Location](resource-locations) can either be determined by [Randomness](randomness) (or [Randomness](randomness) can be used to select one of several [Resource Locations](resource-locations)), or by placing them in such way that they have a [Balancing Effect](balancing-effects). [Controllers](controllers) define more permanent [Resource Locations](resource-locations), since they very seldom can be moved, although they may be destroyed."
         ],
         "consequences": [
-            "\"Resource Locations\" typically are \"Strategic Locations\", their value depending on the value of the resource and the ease with which the location can be reached. By placing some \"Resource Locations\" at places difficult to get to and some at places easy to get to, it is possible to steer the unfolding of the gameplay."
+            "[Resource Locations](resource-locations) typically are [Strategic Locations](strategic-locations), their value depending on the value of the resource and the ease with which the location can be reached. By placing some [Resource Locations](resource-locations) at places difficult to get to and some at places easy to get to, it is possible to steer the unfolding of the gameplay."
         ]
     },
     "relations": {
@@ -28,7 +28,6 @@
             "gain-ownership"
         ],
         "instantiated_by": [
-            "pick-ups",
             "chargers",
             "controllers"
         ],

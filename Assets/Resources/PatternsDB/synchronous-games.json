@@ -3,17 +3,17 @@
     "texts": {
         "definition": "Games in which the players' game and play sessions must overlap in time.",
         "description": [
-            "The most common scenario in \"Synchronous Games\" is that the players' game sessions last as long as the game instance itself, and that the play sessions and the game sessions are one and the same, as is the case with many board and card games. Simply put, the players must play the game at the same time, from start to finish. However, a game can be synchronous and have pauses in the gameplay as long as all players take pauses at the same time."
+            "The most common scenario in [Synchronous Games](synchronous-games) is that the players' game sessions last as long as the game instance itself, and that the play sessions and the game sessions are one and the same, as is the case with many board and card games. Simply put, the players must play the game at the same time, from start to finish. However, a game can be synchronous and have pauses in the gameplay as long as all players take pauses at the same time."
         ],
         "examples": [
             "In \"Monopoly\", the players start their game session when the game instance is started, and their play sessions usually also coincide in such way that the players are playing the game together from start to finish. It is not unusual for individual players to end the game at different times, however, dropping out of gameplay as they lose. Some games offer opportunities for players who have already lost to continue participating and influence the play as a non-player."
         ],
         "usage": [
-            "\"Synchronous Games\" are, by definition, also \"Multiplayer Games\", and the synchronization of the game state can be done by either \"Dedicated Game Facilitators\" or by the players themselves in \"Self-Facilitated Games\". The real-time nature of sharing the play sessions means that \"Real-Time Games\" and \"Tick-Based Games\" are more suitable further characteristics of \"Synchronous Games.\" \"Turn-Based Games\" are often played in face-to-face situations, making them in those cases \"Synchronous Games\" with the associated effects of \"Turn Taking\" on \"Downtime\"."
+            "[Synchronous Games](synchronous-games) are, by definition, also [Multiplayer Games](multiplayer-games), and the synchronization of the game state can be done by either [Dedicated Game Facilitators](dedicated-game-facilitators) or by the players themselves in [Self-Facilitated Games](self-facilitated-games). The real-time nature of sharing the play sessions means that [Real-Time Games](real-time-games) and [Tick-Based Games](tick-based-games) are more suitable further characteristics of [Synchronous Games.](synchronous-games) [Turn-Based Games](turn-based-games) are often played in face-to-face situations, making them in those cases [Synchronous Games](synchronous-games) with the associated effects of [Turn Taking](turn-taking) on [Downtime](downtime)."
         ],
         "consequences": [
-            "\"Synchronous Games\" with \"Turn Taking\" often have \"Downtime\" for the players who are not taking their turn. It is possible, however, to reduce the negative effects of \"Downtime\" by minimizing the duration of \"Turn Taking\", by making the active player's actions interesting for the observing players, or in some cases allowing the players in \"Downtime\" to perform some actions that affect the game state.",
-            "\"Synchronous Games\" are often played in a social situation: the real-time nature of playing the game together, especially in face to face situations, naturally causes \"Social Interaction\" between the players. If the situation is mediated, it is important to provide the players \"Communication Channels\" that have proper characteristics to match the pace of the game."
+            "[Synchronous Games](synchronous-games) with [Turn Taking](turn-taking) often have [Downtime](downtime) for the players who are not taking their turn. It is possible, however, to reduce the negative effects of [Downtime](downtime) by minimizing the duration of [Turn Taking](turn-taking), by making the active player's actions interesting for the observing players, or in some cases allowing the players in [Downtime](downtime) to perform some actions that affect the game state.",
+            "[Synchronous Games](synchronous-games) are often played in a social situation: the real-time nature of playing the game together, especially in face to face situations, naturally causes [Social Interaction](social-interaction) between the players. If the situation is mediated, it is important to provide the players [Communication Channels](communication-channels) that have proper characteristics to match the pace of the game."
         ]
     },
     "relations": {
@@ -24,13 +24,9 @@
             "social-interaction"
         ],
         "instantiated_by": [
-            "self-facilitated-games",
             "multiplayer-games"
         ],
         "modulated_by": [
-            "tick-based-games",
-            "turn-based-games",
-            "real-time-games",
             "communication-channels",
             "dedicated-game-facilitators",
             "turn-taking"

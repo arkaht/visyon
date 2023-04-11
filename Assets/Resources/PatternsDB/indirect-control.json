@@ -3,20 +3,20 @@
     "texts": {
         "definition": "Game elements whose actions players can affect through other game elements.",
         "description": [
-            "Some game elements in game that perform actions cannot be directly controlled by players but the players may be able to influence their actions through other game elements. In these cases players have a form of control over the game elements' actions since they have \"Indirect Control\" through intermediate game elements."
+            "Some game elements in game that perform actions cannot be directly controlled by players but the players may be able to influence their actions through other game elements. In these cases players have a form of control over the game elements' actions since they have [Indirect Control](indirect-control) through intermediate game elements."
         ],
         "examples": [
             "A player cannot directly affect the movement of any ball in billiards except the cue ball. However by hitting the cue ball so that it hits other ball, players can indirectly control the movement of any ball.",
             "Important goals in \"Carolus Magnus\" are having control over areas in the game. However, players cannot have control over areas directly. Rather, various factions have influence on the areas and the players compete with each other for control over the factions."
         ],
         "usage": [
-            "Players have \"Indirect Control\" of the game elements whose actions can be affected by the players' \"Focus Loci\". The design of \"Indirect Control\" thereby relies mainly on choosing what actions players' \"Focus Loci\" have and how influential these are on the game elements in question. \"Indirect Control\" affects \"Predictable Consequences\" of actions negatively when the influence depends upon \"Randomness\" or parts of the game state unknown to players.",
-            "Game elements under \"Indirect Control\" of players can be seen as \"Resources\" that provide actions. If more than one player can indirectly control a game element, this can cause \"Conflict\" and create \"Gain Ownership\" goals that are \"Continuous Goals\"."
+            "Players have [Indirect Control](indirect-control) of the game elements whose actions can be affected by the players' [Focus Loci](focus-loci). The design of [Indirect Control](indirect-control) thereby relies mainly on choosing what actions players' [Focus Loci](focus-loci) have and how influential these are on the game elements in question. [Indirect Control](indirect-control) affects [Predictable Consequences](predictable-consequences) of actions negatively when the influence depends upon [Randomness](randomness) or parts of the game state unknown to players.",
+            "Game elements under [Indirect Control](indirect-control) of players can be seen as [Resources](resources) that provide actions. If more than one player can indirectly control a game element, this can cause [Conflict](conflict) and create [Gain Ownership](gain-ownership) goals that are [Continuous Goals](continuous-goals)."
         ],
         "consequences": [
-            "\"Indirect Control\" is one way to limit the effectiveness of how actions can be used and can modulate the\"Right Level of Complexity\" of a game, especially \"Dexterity-Based Actions\". \"Ability Loss\" from a game element under \"Indirect Control\" is less of a \"Penalty\" than otherwise as the ownership of the game element under \"Indirect Control\" is less fixed.",
-            "When the number of game elements with a type of \"Privileged Abilities\" is a limited, \"Indirect Control\" of them can be used to allow \"Conflict\" with \"Eliminate\" goals without removing the \"Privileged Abilities\" from game play. Rather, the game elements that influence the game element with the \"Privileged Abilities\" can be the target of \"Eliminate\" goals and all parts of the \"Conflict\" may actually have a \"Survive\" goal for the game element with the \"Privileged Abilities\".",
-            "\"Indirect Control\" lets the goal of \"Traverse\" be transformed into one of \"Herd\"."
+            "[Indirect Control](indirect-control) is one way to limit the effectiveness of how actions can be used and can modulate the[Right Level of Complexity](right-levelof-complexity) of a game, especially [Dexterity-Based Actions](dexterity-based-actions). [Ability Loss](ability-losses) from a game element under [Indirect Control](indirect-control) is less of a [Penalty](penalties) than otherwise as the ownership of the game element under [Indirect Control](indirect-control) is less fixed.",
+            "When the number of game elements with a type of [Privileged Abilities](privileged-abilities) is a limited, [Indirect Control](indirect-control) of them can be used to allow [Conflict](conflict) with [Eliminate](eliminate) goals without removing the [Privileged Abilities](privileged-abilities) from game play. Rather, the game elements that influence the game element with the [Privileged Abilities](privileged-abilities) can be the target of [Eliminate](eliminate) goals and all parts of the [Conflict](conflict) may actually have a [Survive](survive) goal for the game element with the [Privileged Abilities](privileged-abilities).",
+            "[Indirect Control](indirect-control) lets the goal of [Traverse](traverse) be transformed into one of [Herd](herd)."
         ]
     },
     "relations": {
@@ -28,8 +28,7 @@
         "modulates": [
             "ability-losses",
             "traverse",
-            "right-level-of-complexity",
-            "dexterity-based-actions"
+            "right-levelof-complexity"
         ],
         "instantiated_by": [
             "herd",

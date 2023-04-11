@@ -1,0 +1,57 @@
+{
+    "name": "Selectable Sets of Goals",
+    "texts": {
+        "definition": "The player can select the goals he tries to achieve in the game from a set of available goals.",
+        "description": [
+            "The selection of goals from which players can choose can either be handled within the game system, meaning that players have to explicitly choose the goals, or it can be left open so that players do not have to decide at any given time exactly what goals to strive for. The latter also means that the player is free to change the commitment to different goals during the gameplay."
+        ],
+        "examples": [
+            "Traversing the technology tree in the computer game \"Civilization\" requires players to select goals defining what kind of technology to develop. Beyond what technology to develop next, players can also implicitly select collections of technology goals to reach as goals in order to match later requirements of advanced technologies.",
+            "The different possibilities for scoring in the board game \"Settlers of Catan\" allow players to select from several different goals to achieve the overarching goal of reaching a certain amount of points.",
+            "The different worlds in \"Super Mario 64\" offer different sets of goals providing players with selectable sets of [Selectable Sets of Goals](selectable-setsof-goals). The player is also free to move within these worlds and goals without needing to complete them in any specific order."
+        ],
+        "usage": [
+            "If the player is forced to choose one or several [Predefined Goals](predefined-goals) from the set, these goals can be seen as [Investments](investments) or as the use of [Risk/Reward](risk-reward) patterns depending on the varying [Rewards](rewards) and [Penalties](penalties) associated with the goals. An example of this is when the game allows [Area Control](area-control) over several different areas if players complete [Traverse](traverse) goals to these areas. Knowledge of which goals have been chosen can be [Strategic Knowledge](strategic-knowledge) for other players while giving the possibility of not revealing these options and choices allows for players to have secret tactics. \"Selectable Set of Goals\" provide [Varied Gameplay](varied-gameplay) if the different goals are sufficiently different, for example, by requiring different skill sets.",
+            "Using \"Selectable Set of Goals\" without [Dynamic Goal Characteristics](dynamic-goal-characteristics) means that the player has to select the goals at the start of the game and then stick to them. Most games, however, use this pattern with [Dynamic Goal Characteristics](dynamic-goal-characteristics) in such way that the player can modify the set, if need be, during the gameplay. The goals that can be chosen do not all have to exist at the start of the game; some may be [Ephemeral Goals](ephemeral-goals). The player is, especially in adventure games, seldom given an explicit choice of the available goals but rather has the goals of getting more information about the availability of the others goals.",
+            "If the goals within the \"Selectable Set of Goals\" are unknown but the player somehow knows there are several different solutions, the game can promote [Replayability](replayability), as the player is encouraged to try to find the different goals.",
+            "One way to force players to select one or just a few of the possible goals in a \"Selectable Set of Goals\" is to define the goals as different [Configurations,](configuration) which still require the use of the same game elements."
+        ],
+        "consequences": [
+            "Having a \"Selectable Set of Goals\" offers players a wide range of activities and thereby makes [Varied Gameplay](varied-gameplay) possible. The possibility of players to choose goals according to their abilities and [Resources](resources) can be a [Balancing Effect](balancing-effects) and can make them plan and work towards certain states before selecting goals.",
+            "The choice of goals can either be predetermined before the game starts, allowing the designer to have full control of the set to promote [Strategic Knowledge](strategic-knowledge) for the players, or the goals can be generated during gameplay, hindering [Predictable Consequences](predictable-consequences). The selection of the goals can be used as a [Balancing Effect](balancing-effects) by setting the difficulty level of the goals according to the player position in the game.",
+            "[Selectable Sets of Goals](selectable-setsof-goals) may force players to make [Risk/Reward](risk-reward) choices depending on how the goals relate to each other but also to select the [Right Level of Difficulty](right-levelof-difficulty). [Incompatible Goals](incompatible-goals) may limit the need for [Attention Swapping](attention-swapping), but if the goals are [Excluding Goals](excluding-goals), players need to make [Tradeoffs](tradeoffs) between the difficulty of completing the different goals and the rewards they give.",
+            "If the player only has to complete one or some of the goals, the other goals will in effect be [Optional Goals](optional-goals) and offer players a [Freedom of Choice](freedomof-choice) within the limits the game designer chooses. If all goals have to be achieved, the set is an instance of the [Collection](collection) goal pattern, but players may have the option of choosing the order in which to complete the goals, thereby making use of potential [Supporting Goals](supporting-goals).",
+            "As the player can have different gameplay experiences depending on the choice of goals, having a set of goals can provide [Replayability](replayability). In all cases, \"Selectable Set of Goals\" are parts of a [Hierarchy of Goals](hierarchyof-goals)."
+        ]
+    },
+    "relations": {
+        "instantiates": [
+            "replayability",
+            "strategic-knowledge",
+            "risk-reward",
+            "right-levelof-difficulty",
+            "varied-gameplay",
+            "tradeoffs",
+            "freedomof-choice"
+        ],
+        "modulates": [
+            "hierarchyof-goals",
+            "unknown-goals",
+            "excluding-goals"
+        ],
+        "instantiated_by": [
+            "configuration",
+            "predefined-goals",
+            "optional-goals",
+            "area-control"
+        ],
+        "modulated_by": [
+            "ephemeral-goals",
+            "incompatible-goals",
+            "traverse"
+        ],
+        "conflicts": [
+            "predictable-consequences"
+        ]
+    }
+}

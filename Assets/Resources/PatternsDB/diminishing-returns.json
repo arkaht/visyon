@@ -3,17 +3,17 @@
     "texts": {
         "definition": "The returns for similar investments decrease as the player progresses in the game.",
         "description": [
-            "To encourage variation in gameplay, many games make player effort have less and less effect after a certain point. This reduction of usefulness in invested actions, \"Resources\", or even display of high skill levels are all indications of \"Diminishing Returns\" in the game design."
+            "To encourage variation in gameplay, many games make player effort have less and less effect after a certain point. This reduction of usefulness in invested actions, [Resources](resources), or even display of high skill levels are all indications of [Diminishing Returns](diminishing-returns) in the game design."
         ],
         "examples": [
             "The potential gains of winning bidding sessions in games have diminishing returns that become more and more apparent the further the bidding session goes on.",
             "In many roleplaying games, raising skills and abilities require more experience points, or other types of investments, for the higher skill and ability levels."
         ],
         "usage": [
-            "\"Diminishing Returns\" offer a way to modulate \"Rewards\" for \"Investments\" in addition to \"Geometric Rewards for Investments\" and \"Arithmetic Rewards for Investments\", and can be used to modulate these \"Reward\" schemes to achieve \"Player Balance\". Implementing \"Diminishing Returns\" is simple by just making the \"Rewards\" associated with similar \"Investments\" smaller as the player progresses in the game. \"Diminishing Returns\" can also be used to limit the effectiveness of different means of \"Renewable Resources\" in games."
+            "[Diminishing Returns](diminishing-returns) offer a way to modulate [Rewards](rewards) for [Investments](investments) in addition to [Geometric Rewards for Investments](geometric-rewardsfor-investments) and [Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments), and can be used to modulate these [Reward](rewards) schemes to achieve [Player Balance](player-balance). Implementing [Diminishing Returns](diminishing-returns) is simple by just making the [Rewards](rewards) associated with similar [Investments](investments) smaller as the player progresses in the game. [Diminishing Returns](diminishing-returns) can also be used to limit the effectiveness of different means of [Renewable Resources](renewable-resources) in games."
         ],
         "consequences": [
-            "\"Diminishing Returns\" naturally modify \"Player Balance\" where there is a possibility to advance \"Skills\" and receive \"Improved Abilities\" of the player controlled \"Units\" and \"Characters\", especially in games in which \"Mules\" are possible. The advantages for making \"Investments\" diminish as the players' progress in the game. At the same time, this creates a practical limit for the progress while keeping the feeling, or in many cases an illusion, of player progress and \"Character Development\". In this case, the \"Diminishing Returns\" are a form of \"Balancing Effect\". \"Diminishing Returns\" can also be used as a incentive for more \"Varied Gameplay\" as the players gain less and less \"Rewards\" by performing the same kind of actions and may encourage \"Transfer of Control\" of \"Resources\" between players."
+            "[Diminishing Returns](diminishing-returns) naturally modify [Player Balance](player-balance) where there is a possibility to advance [Skills](skills) and receive [Improved Abilities](improved-abilities) of the player controlled [Units](units) and [Characters](characters), especially in games in which [Mules](mule) are possible. The advantages for making [Investments](investments) diminish as the players' progress in the game. At the same time, this creates a practical limit for the progress while keeping the feeling, or in many cases an illusion, of player progress and [Character Development](character-development). In this case, the [Diminishing Returns](diminishing-returns) are a form of [Balancing Effect](balancing-effects). [Diminishing Returns](diminishing-returns) can also be used as a incentive for more [Varied Gameplay](varied-gameplay) as the players gain less and less [Rewards](rewards) by performing the same kind of actions and may encourage [Transfer of Control](transferof-control) of [Resources](resources) between players."
         ]
     },
     "relations": {
@@ -24,22 +24,22 @@
         "modulates": [
             "character-development",
             "resources",
-            "transfer-of-control",
+            "transferof-control",
             "investments",
             "rewards",
             "varied-gameplay",
             "skills",
             "improved-abilities",
             "renewable-resources",
-            "geometric-rewards-for-investments",
+            "geometric-rewardsfor-investments",
             "mule",
-            "arithmetic-rewards-for-investments"
+            "arithmetic-rewardsfor-investments"
         ],
         "instantiated_by": [],
         "modulated_by": [],
         "conflicts": [
-            "geometric-rewards-for-investments",
-            "arithmetic-rewards-for-investments"
+            "geometric-rewardsfor-investments",
+            "arithmetic-rewardsfor-investments"
         ]
     }
 }

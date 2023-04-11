@@ -3,20 +3,20 @@
     "texts": {
         "definition": "Games where there is only one player in a game instance.",
         "description": [
-            "The player in \"Single-Player Games\" is in a conflict situation with the game system. It is possible, and sometimes even desirable, to analyze these games in such a way that conflict with the game system is framed as a conflict situation in \"Multiplayer Games\". This personification of the game system often helps to clear the goal structures and the motivations for the conflict situation."
+            "The player in [Single-Player Games](single-player-games) is in a conflict situation with the game system. It is possible, and sometimes even desirable, to analyze these games in such a way that conflict with the game system is framed as a conflict situation in [Multiplayer Games](multiplayer-games). This personification of the game system often helps to clear the goal structures and the motivations for the conflict situation."
         ],
         "examples": [
-            "The vast majority of computer games are \"Single-Player Games\" where the player is competing against or in conflict with the game system.",
-            "Puzzles of any kind can be classified as \"Single-Player Games\" although they are a borderline case between games and game-like activities, because they do not typically have the conflict situations common to games in general."
+            "The vast majority of computer games are [Single-Player Games](single-player-games) where the player is competing against or in conflict with the game system.",
+            "Puzzles of any kind can be classified as [Single-Player Games](single-player-games) although they are a borderline case between games and game-like activities, because they do not typically have the conflict situations common to games in general."
         ],
         "usage": [
-            "The amount of the possible \"Social Interaction\" can be increased by using, for example, \"Score\" to measure the performance of the player. This allows players to compare their performances to one other and to use \"Highscore Lists\" to create simple \"Meta Games\" with multiple players. A more refined method is to have \"Ghosts\" in the game where players can directly compare their performance between each other during the play.",
-            "The goals and conflicts, as previously noted, can even in \"Single-Player Games\" be structured in similar fashion as in \"Multiplayer Games\". For example, by analyzing \"Pac-Man\" as a game between the Pac-Man and the ghosts reveals somewhat surprising similarities with \"Tag\", including the \"Role Reversals\". Even \"Tetris\" can be thought of as a conflict between the (computer controlled) player who is trying to fill the screen and the player who is trying to keep the screen clear. The \"Rewards\" and \"Penalties\" in \"Single-Player Games\" are best crafted as \"Individual Rewards\" and \"Individual Penalties\".",
-            "\"Single-Player Games\" are free to have player specific modulations of game time, such as \"Game Pauses\" and \"Cut Scenes\". Other game state manipulations, which are outside the game itself, are trivially possible in \"Single-Player Games\". \"Reversability\" with \"Save-Load Cycles\" is simple, as all that is required is to store the game state for later use.",
-            "The ways to modulate \"Right Level of Difficulty\" can be done somewhat differently in \"Single-Player Games\" compared to \"Multiplayer Games\". First, by having players complete \"Levels\", the game designers can control what sort of challenges the players should meet. Second, it is easier to control what information the player has that can be used to give a player \"Limited Planning Ability\"."
+            "The amount of the possible [Social Interaction](social-interaction) can be increased by using, for example, [Score](score) to measure the performance of the player. This allows players to compare their performances to one other and to use \"Highscore Lists\" to create simple [Meta Games](meta-games) with multiple players. A more refined method is to have [Ghosts](ghosts) in the game where players can directly compare their performance between each other during the play.",
+            "The goals and conflicts, as previously noted, can even in [Single-Player Games](single-player-games) be structured in similar fashion as in [Multiplayer Games](multiplayer-games). For example, by analyzing \"Pac-Man\" as a game between the Pac-Man and the ghosts reveals somewhat surprising similarities with \"Tag\", including the [Role Reversals](role-reversal). Even \"Tetris\" can be thought of as a conflict between the (computer controlled) player who is trying to fill the screen and the player who is trying to keep the screen clear. The [Rewards](rewards) and [Penalties](penalties) in [Single-Player Games](single-player-games) are best crafted as [Individual Rewards](individual-rewards) and [Individual Penalties](individual-penalties).",
+            "[Single-Player Games](single-player-games) are free to have player specific modulations of game time, such as [Game Pauses](game-pauses) and [Cut Scenes](cut-scenes). Other game state manipulations, which are outside the game itself, are trivially possible in [Single-Player Games](single-player-games). [Reversability](reversability) with [Save-Load Cycles](save-load-cycles) is simple, as all that is required is to store the game state for later use.",
+            "The ways to modulate [Right Level of Difficulty](right-levelof-difficulty) can be done somewhat differently in [Single-Player Games](single-player-games) compared to [Multiplayer Games](multiplayer-games). First, by having players complete [Levels](levels), the game designers can control what sort of challenges the players should meet. Second, it is easier to control what information the player has that can be used to give a player [Limited Planning Ability](limited-planning-ability)."
         ],
         "consequences": [
-            "\"Single-Player Games\" cannot have \"Social Interaction\" between the players of the same game instance, but if the game is played in a social situation, such as an arcade machine in a pub, there is a possibility for spontaneous \"Social Interaction\" with the player and the \"Spectators\". Even though the potential players are not sharing the game instance, they do share the \"Alternative Reality\" provided by the game, and this can, in games with \"Narrative Structures\" and applications of \"Imperfect Information\", especially \"Easter Eggs\" and \"Exploration\", lead to another kind of \"Social Interaction\" around the game where the players share their experiences and sometimes help each other solve difficult problems and progress in the game."
+            "[Single-Player Games](single-player-games) cannot have [Social Interaction](social-interaction) between the players of the same game instance, but if the game is played in a social situation, such as an arcade machine in a pub, there is a possibility for spontaneous [Social Interaction](social-interaction) with the player and the [Spectators](spectators). Even though the potential players are not sharing the game instance, they do share the [Alternative Reality](alternative-reality) provided by the game, and this can, in games with [Narrative Structures](narrative-structures) and applications of [Imperfect Information](imperfect-information), especially [Easter Eggs](easter-eggs) and [Exploration](exploration), lead to another kind of [Social Interaction](social-interaction) around the game where the players share their experiences and sometimes help each other solve difficult problems and progress in the game."
         ]
     },
     "relations": {
@@ -36,14 +36,13 @@
             "downtime",
             "dedicated-game-facilitators",
             "ghosts",
-            "save-load-cycles",
             "easter-eggs",
             "imperfect-information",
             "score",
             "narrative-structures",
             "cut-scenes",
             "game-pauses",
-            "right-level-of-difficulty",
+            "right-levelof-difficulty",
             "limited-planning-ability",
             "asymmetric-resource-distribution"
         ],

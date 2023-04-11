@@ -3,22 +3,22 @@
     "texts": {
         "definition": "The action of introducing new game elements that are presented as intentional constructions into the Game World.",
         "description": [
-            "The introduction of game elements in the game can be the cause of players' actions. When the game elements introduced are perceived as something requiring organizing the environment (in technical terms, countering entropy) this can be framed as \"Construction\"."
+            "The introduction of game elements in the game can be the cause of players' actions. When the game elements introduced are perceived as something requiring organizing the environment (in technical terms, countering entropy) this can be framed as [Construction](construction)."
         ],
         "examples": [
             "\"Pontifex\" by ChronicLogic allows players to build bridges that are tested by a physics engine that sends a train over the bridges.",
             "\"The Sims\" allows players to construct homes for their Sims, redecorating and rebuilding the houses as the needs and living conditions of the Sims change.",
             "The board game \"The Settlers of Catan\" allows players to build villages and towns at the intersections of hexes in the game, and roads between them.",
-            "Massively multiplayer online roleplaying games usually allow players to construct houses by buying them and construct items through actions. Text-based multiplayer dungeons take this further by letting high-level players create new areas in the \"Game World\" and program the functionality of areas and game elements."
+            "Massively multiplayer online roleplaying games usually allow players to construct houses by buying them and construct items through actions. Text-based multiplayer dungeons take this further by letting high-level players create new areas in the [Game World](game-world) and program the functionality of areas and game elements."
         ],
         "usage": [
-            "The main design choices for supporting \"Construction\" include the design of the new game elements that are the product of the action, what \"Resources\" are needed, the possibility of succeeding, and the variations in designs that the players can create. Requiring scarce \"Resources\" for construction to occur can give rise to \"Exploration\" or \"Gain Ownership\" as well as \"Trading\". Linking the chance of success to a \"Skill\" encourages \"Construction\" as a \"Competence Area\". Allowing a large variation in the possible \"Constructions\" give players a \"Freedom of Choice\" and the \"Creative Control\" to \"Experiment\" and select \"Player Defined Goals\". The possibility of failed \"Constructions\" leading to alternative \"Constructions\" also encourages \"Experimenting\".",
-            "The amount of \"Construction\" in a game can easily be limited by making it a \"Privileged Ability\"."
+            "The main design choices for supporting [Construction](construction) include the design of the new game elements that are the product of the action, what [Resources](resources) are needed, the possibility of succeeding, and the variations in designs that the players can create. Requiring scarce [Resources](resources) for construction to occur can give rise to [Exploration](exploration) or [Gain Ownership](gain-ownership) as well as [Trading](trading). Linking the chance of success to a [Skill](skills) encourages [Construction](construction) as a [Competence Area](competence-areas). Allowing a large variation in the possible [Constructions](construction) give players a [Freedom of Choice](freedomof-choice) and the [Creative Control](creative-control) to \"Experiment\" and select [Player Defined Goals](player-defined-goals). The possibility of failed [Constructions](construction) leading to alternative [Constructions](construction) also encourages [Experimenting](experimenting).",
+            "The amount of [Construction](construction) in a game can easily be limited by making it a [Privileged Ability](privileged-abilities)."
         ],
         "consequences": [
-            "\"Construction\" allows the introduction of new game elements as the effect of \"Producers\", instead of having to rely on \"Spawning\". As such, it can be used to explain within the \"Consistent Reality Logic\" of an \"Alternative Reality\" the appearance of artificial objects by non-automatic processes.",
-            "\"Construction\" is typically a form of \"Investment\" but is often perceived as \"Constructive Play\" since the \"Investment\" is toward creating something. When the \"Construction\" gives players sufficient \"Creative Control\" the results can be \"Surprises\". When the players can create game elements that affect the \"Game World\", especially in \"Persistent Game Worlds\", \"Construction\" can enable \"Player Constructed Worlds\". An obvious way to affect the \"Game World\" in this fashion is through \"Tile-Laying\".",
-            "Goals to \"Eliminate\" are typically the antithesis of the intentions of \"Construction\" as may be used to create \"Preventing Goals\" and \"Conflict\"."
+            "[Construction](construction) allows the introduction of new game elements as the effect of [Producers](producers), instead of having to rely on [Spawning](spawning). As such, it can be used to explain within the [Consistent Reality Logic](consistent-reality-logic) of an [Alternative Reality](alternative-reality) the appearance of artificial objects by non-automatic processes.",
+            "[Construction](construction) is typically a form of [Investment](investments) but is often perceived as [Constructive Play](constructive-play) since the [Investment](investments) is toward creating something. When the [Construction](construction) gives players sufficient [Creative Control](creative-control) the results can be [Surprises](surprises). When the players can create game elements that affect the [Game World](game-world), especially in [Persistent Game Worlds](persistent-game-worlds), [Construction](construction) can enable [Player Constructed Worlds](player-constructed-worlds). An obvious way to affect the [Game World](game-world) in this fashion is through [Tile-Laying](tile-laying).",
+            "Goals to [Eliminate](eliminate) are typically the antithesis of the intentions of [Construction](construction) as may be used to create [Preventing Goals](preventing-goals) and [Conflict](conflict)."
         ]
     },
     "relations": {
@@ -32,7 +32,7 @@
             "preventing-goals",
             "investments",
             "player-defined-goals",
-            "freedom-of-choice",
+            "freedomof-choice",
             "creative-control",
             "trading",
             "gain-ownership",
@@ -44,8 +44,7 @@
             "alternative-reality"
         ],
         "instantiated_by": [
-            "producers",
-            "tile-laying"
+            "producers"
         ],
         "modulated_by": [
             "producers",

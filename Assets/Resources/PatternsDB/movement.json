@@ -3,23 +3,23 @@
     "texts": {
         "definition": "The action of moving game elements in the Game World.",
         "description": [
-            "\"Movement\" of game elements is a common action in games that have a \"Game World\" or board. \"Movement\" allows players to try and move game elements into favorable positions as well as control or explore the game area."
+            "[Movement](movement) of game elements is a common action in games that have a [Game World](game-world) or board. [Movement](movement) allows players to try and move game elements into favorable positions as well as control or explore the game area."
         ],
         "examples": [
             "Racing games such as F-Zero GX and \"Mario Kart: Double Dash!!\" have movement as the primary activity in the game.",
-            "With the exception of the value of kings and the ability of pawns to become queens, different \"Movement\" abilities are what distinguish different types of pieces in \"Chess\".",
+            "With the exception of the value of kings and the ability of pawns to become queens, different [Movement](movement) abilities are what distinguish different types of pieces in \"Chess\".",
             "\"Spacewar\" and \"Asteroids\" both allow players to move spaceships by rotation and thrust in the spaceships' direction. However, they also allow players to escape dangerous situations by providing a limited number of hyperjumps that place the spaceship in a random location."
         ],
         "usage": [
-            "Deciding how game elements can move depends on the \"Game World\" and the intended differences between game elements. \"Obstacles\", \"Inaccessible Areas\", and \"Deadly Traps\" in the \"Game World\" can all be used as basics for \"Privileged Movement\" or \"Movement Limitations\". The easiest form of \"Privileged Movement\" for one game element compared to other game elements is the ability to move faster (or longer in \"Turn-Based Games\"). This can be used to modulate the \"Right Level of Difficulty\" in \"Capture\" and \"Evade\" goals.",
-            "The difficulty of \"Movement\" is connected to the complexity of the movement and the \"Freedom of Choice\" the player has. The more degrees of freedom of movement a player has, up to the maximum of six (three absolute and three rotational) for a single \"Focus Loci\", the more the complexity of the \"Movement\" is increased. So, finding the \"Right Level of Difficulty\" for \"Movement\" lies in finding a balance between the \"Right Level of Complexity\" for the \"Movement\" and the intended \"Freedom of Choice\" the players should have when moving. Further complications to \"Movement\" occur through the introduction of acceleration, deceleration, momentum, dislocated centers of gravity, jointed vehicles, and vehicles with complex forms of locomotion.",
-            "\"Movement\" can be used to create \"Orthogonal Unit Differentiation\" by either giving \"Units\" some form of\"Privileged Movement\" or imposing some form of \"Movement Limitation\" on the units.",
-            "In \"Turn-Based Games\", the typical way of instantiating \"Movement\" is through randomizing how far players can move, giving players \"Budgeted Action Points\" that can be spent (possible not only) on \"Movement\", or a combination of both."
+            "Deciding how game elements can move depends on the [Game World](game-world) and the intended differences between game elements. [Obstacles](obstacles), [Inaccessible Areas](inaccessible-areas), and [Deadly Traps](deadly-traps) in the [Game World](game-world) can all be used as basics for [Privileged Movement](privileged-movement) or [Movement Limitations](movement-limitations). The easiest form of [Privileged Movement](privileged-movement) for one game element compared to other game elements is the ability to move faster (or longer in [Turn-Based Games](turn-based-games)). This can be used to modulate the [Right Level of Difficulty](right-levelof-difficulty) in [Capture](capture) and [Evade](evade) goals.",
+            "The difficulty of [Movement](movement) is connected to the complexity of the movement and the [Freedom of Choice](freedomof-choice) the player has. The more degrees of freedom of movement a player has, up to the maximum of six (three absolute and three rotational) for a single [Focus Loci](focus-loci), the more the complexity of the [Movement](movement) is increased. So, finding the [Right Level of Difficulty](right-levelof-difficulty) for [Movement](movement) lies in finding a balance between the [Right Level of Complexity](right-levelof-complexity) for the [Movement](movement) and the intended [Freedom of Choice](freedomof-choice) the players should have when moving. Further complications to [Movement](movement) occur through the introduction of acceleration, deceleration, momentum, dislocated centers of gravity, jointed vehicles, and vehicles with complex forms of locomotion.",
+            "[Movement](movement) can be used to create [Orthogonal Unit Differentiation](orthogonal-unit-differentiation) by either giving [Units](units) some form of[Privileged Movement](privileged-movement) or imposing some form of [Movement Limitation](movement-limitations) on the units.",
+            "In [Turn-Based Games](turn-based-games), the typical way of instantiating [Movement](movement) is through randomizing how far players can move, giving players [Budgeted Action Points](budgeted-action-points) that can be spent (possible not only) on [Movement](movement), or a combination of both."
         ],
         "consequences": [
-            "\"Movement\" actions are prerequisites for completing \"Race\", \"Capture\", \"Stealth\", \"Exploration\",\"Herd\", \"Delivery\", and \"Traverse\" goals as well as for performing the actions of \"Aim &amp; Shoot\" or the \"Collecting\" of \"Pick-Ups\". The \"Movement\" done to reach the \"Goal Points\" of these goals makes the game elements used act as \"Progress Indicators\" against the \"Game World\". \"Evade\" also requires \"Movement\" but does not use a location as a goal but rather avoiding a specific location. All intentional \"Movement\" in a \"Game World\" requires \"Game World Navigation\".",
-            "\"Movement\" does not always offer \"Spatial Immersion\" but does so in \"Real-Time Games\", especially when \"First-Person Views\" are used. In these cases, \"Movement\" becomes actions of \"Maneuvering\" and requires skills in \"Dexterity-Based Actions\". \"Turn-Based Games\" with \"Movement\" give rise to \"Puzzle Solving\" rather than \"Dexterity-Based Actions\", for example, games that require players to move between many interconnected places give rise to Traveling Salesman's problems.",
-            "\"Movement\" of game elements that are not under the control of any players, usually \"Obstacles\", can be \"Ultra-Powerful Events\" that require \"Movement\" or \"Maneuvering\" from the players in response, for example completing \"Aim &amp; Shoot\" actions."
+            "[Movement](movement) actions are prerequisites for completing [Race](race), [Capture](capture), [Stealth](stealth), [Exploration](exploration),[Herd](herd), [Delivery](delivery), and [Traverse](traverse) goals as well as for performing the actions of [Aim & Shoot](aim-shoot) or the [Collecting](collecting) of [Pick-Ups](pick-ups). The [Movement](movement) done to reach the [Goal Points](goal-points) of these goals makes the game elements used act as [Progress Indicators](progress-indicators) against the [Game World](game-world). [Evade](evade) also requires [Movement](movement) but does not use a location as a goal but rather avoiding a specific location. All intentional [Movement](movement) in a [Game World](game-world) requires [Game World Navigation](game-world-navigation).",
+            "[Movement](movement) does not always offer [Spatial Immersion](spatial-immersion) but does so in [Real-Time Games](real-time-games), especially when [First-Person Views](first-person-views) are used. In these cases, [Movement](movement) becomes actions of [Maneuvering](maneuvering) and requires skills in [Dexterity-Based Actions](dexterity-based-actions). [Turn-Based Games](turn-based-games) with [Movement](movement) give rise to [Puzzle Solving](puzzle-solving) rather than [Dexterity-Based Actions](dexterity-based-actions), for example, games that require players to move between many interconnected places give rise to Traveling Salesman's problems.",
+            "[Movement](movement) of game elements that are not under the control of any players, usually [Obstacles](obstacles), can be [Ultra-Powerful Events](ultra-powerful-events) that require [Movement](movement) or [Maneuvering](maneuvering) from the players in response, for example completing [Aim & Shoot](aim-shoot) actions."
         ]
     },
     "relations": {
@@ -28,17 +28,13 @@
             "spatial-immersion",
             "budgeted-action-points",
             "puzzle-solving",
-            "ultra-powerful-events",
             "orthogonal-unit-differentiation",
-            "progress-indicators",
-            "dexterity-based-actions"
+            "progress-indicators"
         ],
         "modulates": [
-            "aim-shoot",
             "game-world"
         ],
         "instantiated_by": [
-            "aim-shoot",
             "delivery",
             "herd",
             "exploration",

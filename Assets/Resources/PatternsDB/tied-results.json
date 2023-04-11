@@ -3,26 +3,25 @@
     "texts": {
         "definition": "Two results can be regarded as even in the game and the effects of the results can be divided.",
         "description": [
-            "\"Tied Results\" occur when the outcome of results depends on numerical values and the game design allows the game play regarding that result to end when players have the same values. If the shared values are used to determine winner in the game players may simply share the position, while when the results are part of the continued game play the rewards and penalties may be shared between the players."
+            "[Tied Results](tied-results) occur when the outcome of results depends on numerical values and the game design allows the game play regarding that result to end when players have the same values. If the shared values are used to determine winner in the game players may simply share the position, while when the results are part of the continued game play the rewards and penalties may be shared between the players."
         ],
         "examples": [
-            "\"Chess\" allows game play to end in a stalemate, effectively a \"Tied Results\" even though one player may have an overwhelming amount of game pieces left comparing to the other player.",
+            "\"Chess\" allows game play to end in a stalemate, effectively a [Tied Results](tied-results) even though one player may have an overwhelming amount of game pieces left comparing to the other player.",
             "many fighting games such as the \"Tekken\" series or racing games such as \"Monkey Race 2\" in \"Super Monkey Ball 2\" do allow the fights and races to end as draws although this rarely happens."
         ],
         "usage": [
-            "Explicitly making \"Tied Results\" possible requires that the values that are compared can have the same values, and that the time for comparison makes it possible for the values to be the same at that time. Allowing values that are exactly the same for several different measures can easily be possible by changing the values in the same increments and not allowing them to affect each other. Examples of such measurements are the time of different participants in \"Races\", especially if the participants cannot affect each others positions or movement, or values that are compared between game sessions as in \"Tournaments\" or \"Highscore Lists\". \"Score\" values can also easily have the same values if the points given are of the same values. For the comparisons to occur when the values are the same, the end conditions cannot depend on directly on one value reaching a certain threshold. Instead the times for comparison of the results between players are decided by \"Time Limits\", or the depletion of some other \"Non-Renewable Resources\".",
-            "The existence of \"Tied Results\" can be used to create both \"Shared Penalties\" and \"Shared Rewards\", and this can encourage \"Uncommitted Alliances\", especially if the \"Rewards\" are increased and the \"Penalties\" are decreased proportionally with the number of players having the \"Tied Results\"."
+            "Explicitly making [Tied Results](tied-results) possible requires that the values that are compared can have the same values, and that the time for comparison makes it possible for the values to be the same at that time. Allowing values that are exactly the same for several different measures can easily be possible by changing the values in the same increments and not allowing them to affect each other. Examples of such measurements are the time of different participants in [Races](race), especially if the participants cannot affect each others positions or movement, or values that are compared between game sessions as in [Tournaments](tournaments) or \"Highscore Lists\". [Score](score) values can also easily have the same values if the points given are of the same values. For the comparisons to occur when the values are the same, the end conditions cannot depend on directly on one value reaching a certain threshold. Instead the times for comparison of the results between players are decided by [Time Limits](time-limits), or the depletion of some other [Non-Renewable Resources](non-renewable-resources).",
+            "The existence of [Tied Results](tied-results) can be used to create both [Shared Penalties](shared-penalties) and [Shared Rewards](shared-rewards), and this can encourage [Uncommitted Alliances](uncommitted-alliances), especially if the [Rewards](rewards) are increased and the [Penalties](penalties) are decreased proportionally with the number of players having the [Tied Results](tied-results)."
         ],
         "consequences": [
-            "\"Tied Results\" are the effect of results without \"Perceivable Margins\" where different actions or events are compared against each other. For players to perceive the results as tied the results must be tied with someone, so \"Tied Results\" occur in \"Multiplayer Games\" or games with \"Agents\".",
-            "If players can notice that \"Tied Results\" are about to happen they can form \"Uncommitted Alliances\" if they are satisfied with having \"Shared Reward\" and \"Shared Penalties\" if this is possible. This is a form of \"Player-Decided Distribution of Rewards and Penalties\", and \"Tied Results\" may encourage the \"Uncommitted Alliances\" by making the explicit \"Rewards\" and \"Penalties\" into true \"Player-Decided Distribution of Rewards and Penalties\". However, these alliances are brittle and put players in \"Social Dilemmas\" as they can be tempted to commit \"Betrayal\".",
-            "\"Tied Results\" are not possible between players that have \"Excluding Goals\" and are of course incompatible with \"Tiebreakers\"."
+            "[Tied Results](tied-results) are the effect of results without [Perceivable Margins](perceivable-margins) where different actions or events are compared against each other. For players to perceive the results as tied the results must be tied with someone, so [Tied Results](tied-results) occur in [Multiplayer Games](multiplayer-games) or games with [Agents](agents).",
+            "If players can notice that [Tied Results](tied-results) are about to happen they can form [Uncommitted Alliances](uncommitted-alliances) if they are satisfied with having [Shared Reward](shared-rewards) and [Shared Penalties](shared-penalties) if this is possible. This is a form of \"Player-Decided Distribution of Rewards and Penalties\", and [Tied Results](tied-results) may encourage the [Uncommitted Alliances](uncommitted-alliances) by making the explicit [Rewards](rewards) and [Penalties](penalties) into true \"Player-Decided Distribution of Rewards and Penalties\". However, these alliances are brittle and put players in [Social Dilemmas](social-dilemmas) as they can be tempted to commit [Betrayal](betrayal).",
+            "[Tied Results](tied-results) are not possible between players that have [Excluding Goals](excluding-goals) and are of course incompatible with [Tiebreakers](tiebreakers)."
         ]
     },
     "relations": {
         "instantiates": [
             "shared-penalties",
-            "player-decided-distribution-of-rewards-penalties",
             "uncommitted-alliances",
             "shared-rewards"
         ],
@@ -35,12 +34,10 @@
             "high-score-lists",
             "tournaments",
             "agents",
-            "score",
-            "non-renewable-resources"
+            "score"
         ],
         "modulated_by": [
             "social-dilemmas",
-            "player-decided-distribution-of-rewards-penalties",
             "betrayal"
         ],
         "conflicts": [

@@ -3,18 +3,18 @@
     "texts": {
         "definition": "Consequences that is due to actions within games or based on game states of games but that do not affect the game state or how the game state is perceived.",
         "description": [
-            "Not all effects based on actions connected to games need to affect the game state of the game itself. These effects are \"Extra-Game Consequences\" which can either simply give players additional experiences, provide the basis for other games, or translate the results of a game into real-world rewards or penalties."
+            "Not all effects based on actions connected to games need to affect the game state of the game itself. These effects are [Extra-Game Consequences](extra-game-consequences) which can either simply give players additional experiences, provide the basis for other games, or translate the results of a game into real-world rewards or penalties."
         ],
         "examples": [
-            "the ability to convert markers back to money makes gambling games have \"Extra-Game Consequences\" when players have to buy markers. The tradition of being able to convert markers to money and vice versa, and the tension it brings, make the \"Extra-Game Consequences\" an integral part of the game although this is not necessary for the rules of the game to function.",
-            "the existence of persistent online game worlds have made it possible to buy and sell characters and equipments through Internet auctioning sites. This makes character development and the gaining and losing of equipment in these games have potential \"Extra-Game Consequences\"."
+            "the ability to convert markers back to money makes gambling games have [Extra-Game Consequences](extra-game-consequences) when players have to buy markers. The tradition of being able to convert markers to money and vice versa, and the tension it brings, make the [Extra-Game Consequences](extra-game-consequences) an integral part of the game although this is not necessary for the rules of the game to function.",
+            "the existence of persistent online game worlds have made it possible to buy and sell characters and equipments through Internet auctioning sites. This makes character development and the gaining and losing of equipment in these games have potential [Extra-Game Consequences](extra-game-consequences)."
         ],
         "usage": [
-            "\"Rewards\" and \"Penalties\" of \"Extra-Game Consequences\" are those that do not affect the game state although they most often are linked to corresponding \"Rewards\" and \"Penalties\" within the games. These effects are usually linked to the real world by having a conversion between game elements or \"Scores\" and real world money (which links \"Investments\" in the game with real world \"Investments\"), or by affecting players' \"Social Status\". This makes the pursuit of goals that include any actions with \"Extra-Game Consequences\" into \"Committed Goals\" and a form of \"Investment\" of players' time and effort. Besides these, the most common of these types of\"Rewards\" are simply winning the game or \"Illusionary Rewards\". \"Player Defined Goals\" that are not controlled by game rules provide \"Rewards\" and \"Penalties\" that either can be completely personal or part of defining a \"Meta Game\".",
-            "The most common type of action that is used to provide \"Extra-Game Consequences\" is \"Betting\" in \"Quick Games\", such as slot machines. However, games with \"Persistent Game Worlds\" allow players to create value within the game that can be traded in the real world: this value can be created by acquiring \"Tools\", successfully conducting \"Character Development\", or creating game element in games where players have \"Creative Control\"."
+            "[Rewards](rewards) and [Penalties](penalties) of [Extra-Game Consequences](extra-game-consequences) are those that do not affect the game state although they most often are linked to corresponding [Rewards](rewards) and [Penalties](penalties) within the games. These effects are usually linked to the real world by having a conversion between game elements or [Scores](score) and real world money (which links [Investments](investments) in the game with real world [Investments](investments)), or by affecting players' [Social Status](social-statuses). This makes the pursuit of goals that include any actions with [Extra-Game Consequences](extra-game-consequences) into [Committed Goals](committed-goals) and a form of [Investment](investments) of players' time and effort. Besides these, the most common of these types of[Rewards](rewards) are simply winning the game or [Illusionary Rewards](illusionary-rewards). [Player Defined Goals](player-defined-goals) that are not controlled by game rules provide [Rewards](rewards) and [Penalties](penalties) that either can be completely personal or part of defining a [Meta Game](meta-games).",
+            "The most common type of action that is used to provide [Extra-Game Consequences](extra-game-consequences) is [Betting](betting) in [Quick Games](quick-games), such as slot machines. However, games with [Persistent Game Worlds](persistent-game-worlds) allow players to create value within the game that can be traded in the real world: this value can be created by acquiring [Tools](tools), successfully conducting [Character Development](character-development), or creating game element in games where players have [Creative Control](creative-control)."
         ],
         "consequences": [
-            "The use of designed \"Extra-Game Consequences\" stretch the perception that the real-world effects of playing games should be trivial or at least less serious than performing an action which a game simulates. \"Extra-Game Consequences\" are the effect of \"Extra-Game Actions\" and when they affect other games they do so through \"Trans-Game Information\" including affecting the outcome of \"Meta Games\". The unfolding of the \"Narrative Structure\" is, besides explicit changes in the game state and information passed to players about how to play the game, also \"Extra-Game Consequences\" since the game state is not affected."
+            "The use of designed [Extra-Game Consequences](extra-game-consequences) stretch the perception that the real-world effects of playing games should be trivial or at least less serious than performing an action which a game simulates. [Extra-Game Consequences](extra-game-consequences) are the effect of [Extra-Game Actions](extra-game-actions) and when they affect other games they do so through [Trans-Game Information](trans-game-information) including affecting the outcome of [Meta Games](meta-games). The unfolding of the [Narrative Structure](narrative-structures) is, besides explicit changes in the game state and information passed to players about how to play the game, also [Extra-Game Consequences](extra-game-consequences) since the game state is not affected."
         ]
     },
     "relations": {
@@ -30,14 +30,12 @@
         "instantiated_by": [
             "social-statuses",
             "character-development",
-            "trans-game-information",
             "illusionary-rewards",
             "persistent-game-worlds",
             "creative-control",
             "player-defined-goals",
             "score",
             "betting",
-            "extra-game-actions",
             "tools",
             "narrative-structures"
         ],

@@ -3,38 +3,35 @@
     "texts": {
         "definition": "Actions where the intent is to kill or otherwise overcome opponents",
         "description": [
-            "Symbolizing the actions between game elements in games as \"Combat\" is one of the oldest and most common ways to give games themes. By doing so, the theme of the game contains a link with the real-world competition between players as well as alludes to the tension, uncertainty, and importance of the real-world equivalent. \"Combat\" in games give players clear goals and opponents and gives clear indication of what players have succeeded and what players have failed."
+            "Symbolizing the actions between game elements in games as [Combat](combat) is one of the oldest and most common ways to give games themes. By doing so, the theme of the game contains a link with the real-world competition between players as well as alludes to the tension, uncertainty, and importance of the real-world equivalent. [Combat](combat) in games give players clear goals and opponents and gives clear indication of what players have succeeded and what players have failed."
         ],
         "examples": [
             "First-person shooters' main challenge is to kill or otherwise overcome the enemies found in the game.",
-            "Fighting games such as the \"Dead or Alive\", \"Tekken\", or \"Mortal Kombat\" focus purely on \"Combat\", with \"Meta Goals\" of unlocking new characters or new costumes."
+            "Fighting games such as the \"Dead or Alive\", \"Tekken\", or \"Mortal Kombat\" focus purely on [Combat](combat), with \"Meta Goals\" of unlocking new characters or new costumes."
         ],
         "usage": [
-            "The main influence on designing \"Combat\" in games is whether the games are \"Real-Time Games\" or \"Turn-Based Games\". In both cases, \"Combat\" usually includes \"Randomness\" and \"Imperfect Information\" in the process to determine the outcome but how these are achieved depend on the type of game. Both types of games also typically provide \"Privileged Abilities\" specifically affecting \"Combat\" and can have \"Enemies\" with \"Achilles' Heels\" that provide specific targets to aim for.",
-            "In \"Turn-Based Games\" the results of\"Combat\" are usually based on an evaluation function, as players' skills lies in trying to make the game state have as many modifiers in their favor as possible. Common influences on the evaluation function include \"Skills\", \"Privileged Abilities\", and \"Collaborative Actions\". \"Budgeted Action Points\" can be used to allow several \"Combat\" actions to be performed in one turn and increase the \"Tradeoffs\" between different possible actions in these forms of \"Combat\".\"Imperfect Information\" exists mainly due to not knowing the opponents strengths, weaknesses, and configuration, while \"Randomness\" is usually instantiated through \"Dice\" or the equivalent.",
-            "In \"Real-Time Games\", the main difference between design choices for \"Combat\" lies in whether players control \"Avatars\" or \"Units\". \"Imperfect Information\" is often the cause of bad \"Game State Overview\" or the problem of perceiving enemy actions as they occur while \"Randomness\" occurs due to opponent's guesses to the \"Imperfect Information\" they have.",
-            "Control of \"Avatars\" in \"Combat\" requires \"Timing\" and \"Dexterity-Based Actions\", typically \"Aim &amp; Shoot\" or \"Combos\" of close combat maneuvers. \"Damage\" in this case is often abstracted to forced retreats, stuns simulated by forced\"No-Ops\", and health values shown by \"Progress Indicators\". If \"Combat\" is the only activity in the game, as is the case in fighting games, the \"Combat\" is often structured in \"Tournaments\" to allow \"Perceivable Margins\" and \"Higher-Level Closures as Gameplay Progresses\" by having more difficult opponents appear later in the \"Tournament\". Fighting Games also often combine loss of \"Combat\" with \"Player Elimination\". Games where players engage in activities other than \"Combat\" usually make use of \"Lives\" and penalize loss of \"Lives\" by \"Ability Losses\" and \"Spawning\" at earlier locations. \"Real-Time Games\" with \"Avatars\" and \"Team Play\" often have special \"Penalties\" for team killing or make those events impossible through \"Privileged Abilities\".",
-            "Controlling \"Units\" require skills in coordinating \"Collaborative Actions\" and employing \"Attention Swapping\". Often knowledge of \"Strategic Locations\" is important as well as efficient \"Resource Management\". The loss of \"Units\" due to \"Combat\" in these games do not usually have any specific \"Penalties\" connected to them except for the possible \"Ability Losses\" if no other still existing \"Units\" have the same abilities."
+            "The main influence on designing [Combat](combat) in games is whether the games are [Real-Time Games](real-time-games) or [Turn-Based Games](turn-based-games). In both cases, [Combat](combat) usually includes [Randomness](randomness) and [Imperfect Information](imperfect-information) in the process to determine the outcome but how these are achieved depend on the type of game. Both types of games also typically provide [Privileged Abilities](privileged-abilities) specifically affecting [Combat](combat) and can have [Enemies](enemies) with [Achilles' Heels](achilles-heels) that provide specific targets to aim for.",
+            "In [Turn-Based Games](turn-based-games) the results of[Combat](combat) are usually based on an evaluation function, as players' skills lies in trying to make the game state have as many modifiers in their favor as possible. Common influences on the evaluation function include [Skills](skills), [Privileged Abilities](privileged-abilities), and [Collaborative Actions](collaborative-actions). [Budgeted Action Points](budgeted-action-points) can be used to allow several [Combat](combat) actions to be performed in one turn and increase the [Tradeoffs](tradeoffs) between different possible actions in these forms of [Combat](combat).[Imperfect Information](imperfect-information) exists mainly due to not knowing the opponents strengths, weaknesses, and configuration, while [Randomness](randomness) is usually instantiated through [Dice](dice) or the equivalent.",
+            "In [Real-Time Games](real-time-games), the main difference between design choices for [Combat](combat) lies in whether players control [Avatars](avatars) or [Units](units). [Imperfect Information](imperfect-information) is often the cause of bad [Game State Overview](game-state-overview) or the problem of perceiving enemy actions as they occur while [Randomness](randomness) occurs due to opponent's guesses to the [Imperfect Information](imperfect-information) they have.",
+            "Control of [Avatars](avatars) in [Combat](combat) requires [Timing](timing) and [Dexterity-Based Actions](dexterity-based-actions), typically [Aim & Shoot](aim-shoot) or [Combos](combos) of close combat maneuvers. [Damage](damage) in this case is often abstracted to forced retreats, stuns simulated by forced[No-Ops](no-ops), and health values shown by [Progress Indicators](progress-indicators). If [Combat](combat) is the only activity in the game, as is the case in fighting games, the [Combat](combat) is often structured in [Tournaments](tournaments) to allow [Perceivable Margins](perceivable-margins) and [Higher-Level Closures as Gameplay Progresses](higher-level-closuresas-gameplay-progresses) by having more difficult opponents appear later in the [Tournament](tournaments). Fighting Games also often combine loss of [Combat](combat) with [Player Elimination](player-elimination). Games where players engage in activities other than [Combat](combat) usually make use of [Lives](lives) and penalize loss of [Lives](lives) by [Ability Losses](ability-losses) and [Spawning](spawning) at earlier locations. [Real-Time Games](real-time-games) with [Avatars](avatars) and [Team Play](team-play) often have special [Penalties](penalties) for team killing or make those events impossible through [Privileged Abilities](privileged-abilities).",
+            "Controlling [Units](units) require skills in coordinating [Collaborative Actions](collaborative-actions) and employing [Attention Swapping](attention-swapping). Often knowledge of [Strategic Locations](strategic-locations) is important as well as efficient [Resource Management](resource-management). The loss of [Units](units) due to [Combat](combat) in these games do not usually have any specific [Penalties](penalties) connected to them except for the possible [Ability Losses](ability-losses) if no other still existing [Units](units) have the same abilities."
         ],
         "consequences": [
-            "\"Combat\" is the means to achieving \"Capture\", \"Overcome\", or \"Eliminate\" goals against \"Enemies\" and gives rise to \"Conflict\" against either other players or \"Dedicated Game Facilitators\". When these goals deal with \"Area Control\", the presence of \"Combat\" is especially common since the opposing goalstypically are also achieved by \"Combat\". The actual actions required to successfully win \"Combat\" depend heavily on the definitions of how to successfully complete the goals.",
-            "Participating in \"Combat\" is a \"Risk/Reward\" choice as are the \"Tradeoffs\" that have to be considered between different possible actions within the \"Combat\"."
+            "[Combat](combat) is the means to achieving [Capture](capture), [Overcome](overcome), or [Eliminate](eliminate) goals against [Enemies](enemies) and gives rise to [Conflict](conflict) against either other players or [Dedicated Game Facilitators](dedicated-game-facilitators). When these goals deal with [Area Control](area-control), the presence of [Combat](combat) is especially common since the opposing goalstypically are also achieved by [Combat](combat). The actual actions required to successfully win [Combat](combat) depend heavily on the definitions of how to successfully complete the goals.",
+            "Participating in [Combat](combat) is a [Risk/Reward](risk-reward) choice as are the [Tradeoffs](tradeoffs) that have to be considered between different possible actions within the [Combat](combat)."
         ]
     },
     "relations": {
         "instantiates": [
             "attention-swapping",
-            "aim-shoot",
             "conflict",
             "randomness",
             "imperfect-information",
             "timing",
             "player-elimination",
             "perceivable-margins",
-            "higher-level-closures-as-gameplay-progresses",
             "collaborative-actions",
             "resource-management",
-            "dexterity-based-actions",
             "budgeted-action-points",
             "risk-reward",
             "tradeoffs",
@@ -49,7 +46,6 @@
         ],
         "modulated_by": [
             "damage",
-            "turn-based-games",
             "dice",
             "avatars",
             "units",
@@ -58,9 +54,7 @@
             "privileged-abilities",
             "combos",
             "strategic-locations",
-            "achilles-heels",
-            "dedicated-game-facilitators",
-            "real-time-games"
+            "dedicated-game-facilitators"
         ],
         "conflicts": []
     }

@@ -3,27 +3,27 @@
     "texts": {
         "definition": "The goal of learning the layout of the Game World, or locating specific parts or objects in it.",
         "description": [
-            "In games where the whole \"Game World\" is not know at the beginning of the game, it is often advantageous to try and acquire this knowledge during gameplay. Typically examples of this use of \"Exploration\" can be found in real-time strategy games, first-person shooters, and roleplaying games."
+            "In games where the whole [Game World](game-world) is not know at the beginning of the game, it is often advantageous to try and acquire this knowledge during gameplay. Typically examples of this use of [Exploration](exploration) can be found in real-time strategy games, first-person shooters, and roleplaying games."
         ],
         "examples": [
-            "Games in the \"Civilization\" series start with the players knowing very little about the \"Game World\". A prerequisite for being able to plan on a higher level against the other players or how to expand one's civilization depends on completing as much \"Exploration\" of the world as possible."
+            "Games in the \"Civilization\" series start with the players knowing very little about the [Game World](game-world). A prerequisite for being able to plan on a higher level against the other players or how to expand one's civilization depends on completing as much [Exploration](exploration) of the world as possible."
         ],
         "usage": [
-            "The definition of an \"Exploration\" goal is by its nature fuzzy. The player is given the task that there is something important to find in an unknown territory in the \"Game World\", either specific game elements or \"Strategic Locations\", but the exact locations of the \"Goal Points\" are not known. However, the exact nature of what is to be found does not have to be explicitly known either, giving game designers two different options for \"Surprises\". \"Exploration\" often makes use of \"Supporting Goals\" that provide partial information of how to find the main goal of the search.",
-            "For \"Exploration\" to be used, games need to provide a form of \"Movement\" in the game space that in non-linear, so that a player has to decide in which direction to explore. That said, the area to be explored may be predetermined or be created using \"Randomness\" or a game board constructed by another player. The latter supports \"Replayability\" while the former can more easily provide a \"Narrative Structure\" or \"Surprises\".",
-            "\"Resources\", \"Outstanding Features\", \"Obstacles\",\"Traces\", and \"Clues\" are typically used in designing the \"Game World\" to support \"Exploration\" and give points of reference. \"Enemies\" and \"Deadly Traps\" are also commonly used to provide \"Optional Goals\" or increase the \"Tension\" at certain points. \"Easter Eggs\" are special cases that provide extra-game rewardsfor \"Exploration\". The design of the area in which the \"Exploration\" goal is situated can be postponed by using \"Tile-Laying\" to create the \"Game World\" as it is being explored.",
-            "Common reasons for \"Exploration\" besides explicitly given goals are the known existences of \"Secret Resources\", for example, \"Resources\" needed to perform \"Construction\" actions\".\" When these \"Resources\" are also \"Shared Resources\", they put players in \"Races\" against each other. The use of \"Levels\" guarantees a form of \"Exploration\" goal, since the unvisited \"Levels\" are unexplored areas. The knowledge that \"Resource Generators\" exist is a motivation for \"Exploration\" in real-time strategy games."
+            "The definition of an [Exploration](exploration) goal is by its nature fuzzy. The player is given the task that there is something important to find in an unknown territory in the [Game World](game-world), either specific game elements or [Strategic Locations](strategic-locations), but the exact locations of the [Goal Points](goal-points) are not known. However, the exact nature of what is to be found does not have to be explicitly known either, giving game designers two different options for [Surprises](surprises). [Exploration](exploration) often makes use of [Supporting Goals](supporting-goals) that provide partial information of how to find the main goal of the search.",
+            "For [Exploration](exploration) to be used, games need to provide a form of [Movement](movement) in the game space that in non-linear, so that a player has to decide in which direction to explore. That said, the area to be explored may be predetermined or be created using [Randomness](randomness) or a game board constructed by another player. The latter supports [Replayability](replayability) while the former can more easily provide a [Narrative Structure](narrative-structures) or [Surprises](surprises).",
+            "[Resources](resources), [Outstanding Features](outstanding-features), [Obstacles](obstacles),[Traces](traces), and [Clues](clues) are typically used in designing the [Game World](game-world) to support [Exploration](exploration) and give points of reference. [Enemies](enemies) and [Deadly Traps](deadly-traps) are also commonly used to provide [Optional Goals](optional-goals) or increase the [Tension](tension) at certain points. [Easter Eggs](easter-eggs) are special cases that provide extra-game rewardsfor [Exploration](exploration). The design of the area in which the [Exploration](exploration) goal is situated can be postponed by using [Tile-Laying](tile-laying) to create the [Game World](game-world) as it is being explored.",
+            "Common reasons for [Exploration](exploration) besides explicitly given goals are the known existences of [Secret Resources](secret-resources), for example, [Resources](resources) needed to perform [Construction](construction) actions\".\" When these [Resources](resources) are also [Shared Resources](shared-resources), they put players in [Races](race) against each other. The use of [Levels](levels) guarantees a form of [Exploration](exploration) goal, since the unvisited [Levels](levels) are unexplored areas. The knowledge that [Resource Generators](resource-generators) exist is a motivation for [Exploration](exploration) in real-time strategy games."
         ],
         "consequences": [
-            "\"Exploration\" is movement in the \"Game World\" with the aim of finding game elements or charting the \"Game World\". It requires \"Game World Navigation\" and \"Memorizing\" the layout unless some \"Game State Overview\" shows the already-explored areas. As \"Exploration\" relies upon the environment being unknown to players, it gives players \"Limited Foresight\" and can be used to create \"Surprises\". The possibility of \"Surprises\", the feeling of discovering new places, and \"Illusionary Rewards\" in the form of aesthetically pleasing \"Outstanding Features\" can all give players \"Emotional Immersion\".",
-            "\"Exploration\" is a special case of combining \"Traverse\" and \"Gain Information\" and, like the latter, requires either \"Imperfect Information\" or \"Uncertainty of Information\". \"Exploration\" differs from \"Reconnaissance\" in that the places, areas, and area boundaries are not known and the player has to get more information about them when there is \"Fog of War\". \"Exploration\" can be used to move players into new game spaces, either to provide \"Varied Gameplay\" by the novelty of the area or provide \"Surprises\" to put the player at a disadvantage, e. g., by the lack of knowledge of \"Strategic Location\" s.",
-            "\"Single-Player Games\" that support \"Exploration\" through \"Easter Eggs\" and other \"Optional Goals\" offers players the opportunity to trade knowledge between game instances."
+            "[Exploration](exploration) is movement in the [Game World](game-world) with the aim of finding game elements or charting the [Game World](game-world). It requires [Game World Navigation](game-world-navigation) and [Memorizing](memorizing) the layout unless some [Game State Overview](game-state-overview) shows the already-explored areas. As [Exploration](exploration) relies upon the environment being unknown to players, it gives players [Limited Foresight](limited-foresight) and can be used to create [Surprises](surprises). The possibility of [Surprises](surprises), the feeling of discovering new places, and [Illusionary Rewards](illusionary-rewards) in the form of aesthetically pleasing [Outstanding Features](outstanding-features) can all give players [Emotional Immersion](emotional-immersion).",
+            "[Exploration](exploration) is a special case of combining [Traverse](traverse) and [Gain Information](gain-information) and, like the latter, requires either [Imperfect Information](imperfect-information) or [Uncertainty of Information](uncertaintyof-information). [Exploration](exploration) differs from [Reconnaissance](reconnaissance) in that the places, areas, and area boundaries are not known and the player has to get more information about them when there is [Fog of War](fogof-war). [Exploration](exploration) can be used to move players into new game spaces, either to provide [Varied Gameplay](varied-gameplay) by the novelty of the area or provide [Surprises](surprises) to put the player at a disadvantage, e. g., by the lack of knowledge of [Strategic Location](strategic-locations) s.",
+            "[Single-Player Games](single-player-games) that support [Exploration](exploration) through [Easter Eggs](easter-eggs) and other [Optional Goals](optional-goals) offers players the opportunity to trade knowledge between game instances."
         ]
     },
     "relations": {
         "instantiates": [
             "game-world-navigation",
-            "uncertainty-of-information",
+            "uncertaintyof-information",
             "surprises",
             "traverse",
             "emotional-immersion",
@@ -32,8 +32,7 @@
             "gain-information"
         ],
         "modulates": [
-            "memorizing",
-            "single-player-games"
+            "memorizing"
         ],
         "instantiated_by": [
             "shared-resources",
@@ -41,7 +40,6 @@
             "resource-generators",
             "secret-resources",
             "illusionary-rewards",
-            "tile-laying",
             "construction",
             "imperfect-information",
             "game-world"
@@ -57,7 +55,7 @@
             "easter-eggs",
             "surprises",
             "resources",
-            "fog-of-war",
+            "fogof-war",
             "game-state-overview",
             "strategic-locations"
         ],

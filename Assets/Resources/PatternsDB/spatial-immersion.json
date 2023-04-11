@@ -3,18 +3,18 @@
     "texts": {
         "definition": "Perceiving movement in the game from the perspective of oneself moving.",
         "description": [
-            "Real-time games which involve moving a game element in a game world, are easier to perform actions in, if one as a player regards the movement of the game element as one was the game element. This \"Spatial Immersion\" does not require any other identification with the game element and simply makes the cognitive processes easier for the player."
+            "Real-time games which involve moving a game element in a game world, are easier to perform actions in, if one as a player regards the movement of the game element as one was the game element. This [Spatial Immersion](spatial-immersion) does not require any other identification with the game element and simply makes the cognitive processes easier for the player."
         ],
         "examples": [
             "racing games such as \"Mario Kart: Double Dash!!\" or \"Wipeout\" put the players in the positions of vehicles moving around racing tracks with the goals of avoid obstacles and being the quickest around the track.",
-            "first-person shooters easily give players \"Spatial Immersion\" due to the first-person view the games use and the freedom of movement and view they provide."
+            "first-person shooters easily give players [Spatial Immersion](spatial-immersion) due to the first-person view the games use and the freedom of movement and view they provide."
         ],
         "usage": [
-            "\"Spatial Immersion\" is most easily achieved by requiring \"Maneuvering\" of \"Avatars\" in \"Real-Time Games\" using \"First-Person Views\". However, \"Third-Person Views\" can also works as can other \"Focus Loci\" with the exception of \"God Views\". Although \"Spatial Immersion\" is most common in \"Real-Time Games,\" even \"Turn-Based Games\" such as \"RoboRally\" can give \"Spatial Immersion\" by requiring players to plan their \"Movement\" in advance.",
-            "The use of \"Cameras\" can increase the \"Spatial Immersion\" but at the cost of limiting the possibilities for \"Emotional Immersion\". \"Attention Swapping\" caused by \"Surprises\" and other \"Disruption of Focus Attention\" events within the \"Game World\" can further strengthen \"Spatial Immersion\". \"Aim &amp; Shoot\" and other \"Dexterity-Based Actions\" can encourage \"Spatial Immersion\" as they force players to consider the spatial properties of other game elements without necessarily requiring thought about the movement of oneself."
+            "[Spatial Immersion](spatial-immersion) is most easily achieved by requiring [Maneuvering](maneuvering) of [Avatars](avatars) in [Real-Time Games](real-time-games) using [First-Person Views](first-person-views). However, [Third-Person Views](third-person-views) can also works as can other [Focus Loci](focus-loci) with the exception of [God Views](god-views). Although [Spatial Immersion](spatial-immersion) is most common in [Real-Time Games,](real-time-games) even [Turn-Based Games](turn-based-games) such as \"RoboRally\" can give [Spatial Immersion](spatial-immersion) by requiring players to plan their [Movement](movement) in advance.",
+            "The use of [Cameras](cameras) can increase the [Spatial Immersion](spatial-immersion) but at the cost of limiting the possibilities for [Emotional Immersion](emotional-immersion). [Attention Swapping](attention-swapping) caused by [Surprises](surprises) and other \"Disruption of Focus Attention\" events within the [Game World](game-world) can further strengthen [Spatial Immersion](spatial-immersion). [Aim & Shoot](aim-shoot) and other [Dexterity-Based Actions](dexterity-based-actions) can encourage [Spatial Immersion](spatial-immersion) as they force players to consider the spatial properties of other game elements without necessarily requiring thought about the movement of oneself."
         ],
         "consequences": [
-            "\"Spatial Immersion\" is the \"Immersion\" gained by perceiving \"Maneuvering\" of objects in the game from the perspective of oneself moving. Having \"Spatial Immersion\" eases the understanding of where game elements are in the \"Game World\" and the consequences of their \"Movement\", as well as how game elements are spatially related to each other. \"Game World Navigation\" is a common task when performing \"Maneuvering,\" a task eased by achieving \"Spatial Immersion,\" and gives players the \"Anticipation\" of being able to arrive at a destination. However, \"Game World Navigation\" requires players to form abstract representations of the \"Game World\" from an outside perspective and therefore counters \"Spatial Immersion\". This paradoxical effect of navigating can be lessened by giving players \"Limited Planning Abilities\" so that they are forced to base most of their actions on their immediate surroundings."
+            "[Spatial Immersion](spatial-immersion) is the [Immersion](immersion) gained by perceiving [Maneuvering](maneuvering) of objects in the game from the perspective of oneself moving. Having [Spatial Immersion](spatial-immersion) eases the understanding of where game elements are in the [Game World](game-world) and the consequences of their [Movement](movement), as well as how game elements are spatially related to each other. [Game World Navigation](game-world-navigation) is a common task when performing [Maneuvering,](maneuvering) a task eased by achieving [Spatial Immersion,](spatial-immersion) and gives players the [Anticipation](anticipation) of being able to arrive at a destination. However, [Game World Navigation](game-world-navigation) requires players to form abstract representations of the [Game World](game-world) from an outside perspective and therefore counters [Spatial Immersion](spatial-immersion). This paradoxical effect of navigating can be lessened by giving players [Limited Planning Abilities](limited-planning-ability) so that they are forced to base most of their actions on their immediate surroundings."
         ]
     },
     "relations": {
@@ -25,18 +25,13 @@
         ],
         "modulates": [],
         "instantiated_by": [
-            "aim-shoot",
             "surprises",
             "avatars",
             "focus-loci",
-            "disruption-of-focused-attention",
+            "disruptionof-focused-attention",
             "movement",
             "maneuvering",
-            "first-person-views",
-            "third-person-views",
-            "real-time-games",
             "game-world",
-            "dexterity-based-actions",
             "limited-planning-ability"
         ],
         "modulated_by": [

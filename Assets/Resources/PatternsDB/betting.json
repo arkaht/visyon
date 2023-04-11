@@ -3,22 +3,22 @@
     "texts": {
         "definition": "Investing resources in the likelihood of an outcome.",
         "description": [
-            "\"Betting\" is the act of risking resources for the chance of winning more resources than was used. The proportions between what is gained and what is risked is linked to the perceived probability of winning, but in the case where \"Betting\" is done by players this does not have to be close to the real probability."
+            "[Betting](betting) is the act of risking resources for the chance of winning more resources than was used. The proportions between what is gained and what is risked is linked to the perceived probability of winning, but in the case where [Betting](betting) is done by players this does not have to be close to the real probability."
         ],
         "examples": [
             "\"Roulette\" is a typical example where the exchanges rate between bets and rewards are open and the probability for each outcome is static. The proportions between investments and rewards are tilted in the house's favor and the knowledge of this and the probabilities is easily available.",
             "betting in \"Poker\" is based on the cards held and the actions of other players. The proportions between risk and reward in \"Poker\" are not fixed but vary due to the willingness of all players to bet."
         ],
         "usage": [
-            "The main design choice when explicitly supporting \"Betting\" in games is to choose whether player bet against a \"Dedicated Game Facilitator\", usually called the house, or against each other.",
-            "\"Betting\" against a \"Dedicated Game Facilitator\" is usually based on \"Luck\" to ensure \"Player Balance\" between different game sessions. The main design requirement for betting against the house is to calculate the probabilities of the actions that are to be bet on. Knowledge of these probabilities can usually be deducted for actions based on \"Randomness\", but as players also can do this the information is typically not held secret. Rather, the proportions of risk and reward are set so that either the game is balanced between players in \"Multiplayer Games\" or unbalanced in favor of the house in games where players play against the \"Dedicated Game Facilitator\".",
-            "\"Betting\" against each other causes players to be in \"Conflict\" with each other. It can reduce the influence of \"Luck\" as \"Imperfect Information\" may give different players different advantages."
+            "The main design choice when explicitly supporting [Betting](betting) in games is to choose whether player bet against a [Dedicated Game Facilitator](dedicated-game-facilitators), usually called the house, or against each other.",
+            "[Betting](betting) against a [Dedicated Game Facilitator](dedicated-game-facilitators) is usually based on [Luck](luck) to ensure [Player Balance](player-balance) between different game sessions. The main design requirement for betting against the house is to calculate the probabilities of the actions that are to be bet on. Knowledge of these probabilities can usually be deducted for actions based on [Randomness](randomness), but as players also can do this the information is typically not held secret. Rather, the proportions of risk and reward are set so that either the game is balanced between players in [Multiplayer Games](multiplayer-games) or unbalanced in favor of the house in games where players play against the [Dedicated Game Facilitator](dedicated-game-facilitators).",
+            "[Betting](betting) against each other causes players to be in [Conflict](conflict) with each other. It can reduce the influence of [Luck](luck) as [Imperfect Information](imperfect-information) may give different players different advantages."
         ],
         "consequences": [
-            "\"Betting\" provides ways of changing \"Ownership\" based on \"Transfer of Control\" events decided by some outcome. \"Betting\" is often used to create \"Meta Games\" of games by giving the original games \"Extra-Game Consequences\" based upon \"Gain Ownership\" goals. When these \"Meta Games\" are \"Player Defined Goals\" basically any activity can become a game although with serious \"Extra-Game Consequences\" and thereby \"Emotional Immersion\".",
-            "Regardless if the \"Betting\" is an integral part of the game or in a \"Meta Game\" that is a \"Self-Facilitated Games\", the placement of \"Resources\" on bets are \"Investments\" that determines the sizes of the \"Rewards\", and the activity therefore one of \"Resource Management\". \"Betting\" differs from \"Bidding\" in that the \"Resources\" used do not have a possibility of being returned and that the gains in \"Betting\" are of the same type as what was bet. In \"Quick Games\" of \"Betting\" the \"Resources\" usually move between players through a \"Tournament\" style of playing, and as the \"Resources\" risked and gained are of the same type, and often the exact same \"Resources\", the system is a \"Closed Economy\".",
-            "\"Betting\" is usually based on players' not having full predictabilityof the outcome and \"Delayed Effects\". As such the action is one of \"Risk/Reward\" and gives \"Anticipation\" and \"Tension\" due to \"Hovering Closures\".",
-            "The main skills required to gain \"Game Mastery\" in \"Betting\" is the \"Strategic Knowledge\" of the predictability in the game and, for \"Multiplayer Games\", being able to deduct the tacticsof other players, e. g. by reading other players' body language or playing style. \"Bluffing\" is also an important aspect of \"Betting\" skill."
+            "[Betting](betting) provides ways of changing [Ownership](ownership) based on [Transfer of Control](transferof-control) events decided by some outcome. [Betting](betting) is often used to create [Meta Games](meta-games) of games by giving the original games [Extra-Game Consequences](extra-game-consequences) based upon [Gain Ownership](gain-ownership) goals. When these [Meta Games](meta-games) are [Player Defined Goals](player-defined-goals) basically any activity can become a game although with serious [Extra-Game Consequences](extra-game-consequences) and thereby [Emotional Immersion](emotional-immersion).",
+            "Regardless if the [Betting](betting) is an integral part of the game or in a [Meta Game](meta-games) that is a [Self-Facilitated Games](self-facilitated-games), the placement of [Resources](resources) on bets are [Investments](investments) that determines the sizes of the [Rewards](rewards), and the activity therefore one of [Resource Management](resource-management). [Betting](betting) differs from [Bidding](bidding) in that the [Resources](resources) used do not have a possibility of being returned and that the gains in [Betting](betting) are of the same type as what was bet. In [Quick Games](quick-games) of [Betting](betting) the [Resources](resources) usually move between players through a [Tournament](tournaments) style of playing, and as the [Resources](resources) risked and gained are of the same type, and often the exact same [Resources](resources), the system is a [Closed Economy](closed-economies).",
+            "[Betting](betting) is usually based on players' not having full predictabilityof the outcome and [Delayed Effects](delayed-effects). As such the action is one of [Risk/Reward](risk-reward) and gives [Anticipation](anticipation) and [Tension](tension) due to [Hovering Closures](hovering-closures).",
+            "The main skills required to gain [Game Mastery](game-mastery) in [Betting](betting) is the [Strategic Knowledge](strategic-knowledge) of the predictability in the game and, for [Multiplayer Games](multiplayer-games), being able to deduct the tacticsof other players, e. g. by reading other players' body language or playing style. [Bluffing](bluffing) is also an important aspect of [Betting](betting) skill."
         ]
     },
     "relations": {
@@ -29,12 +29,11 @@
             "anticipation",
             "closed-economies",
             "resource-management",
-            "transfer-of-control",
+            "transferof-control",
             "investments",
             "rewards",
             "game-mastery",
             "player-defined-goals",
-            "extra-game-consequences",
             "risk-reward",
             "bluffing",
             "luck",
@@ -54,7 +53,6 @@
         "modulated_by": [
             "predictable-consequences",
             "strategic-knowledge",
-            "self-facilitated-games",
             "tournaments",
             "quick-games",
             "dedicated-game-facilitators",

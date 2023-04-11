@@ -3,7 +3,7 @@
     "texts": {
         "definition": "All or part of the information of the game state is available during the game to people other than the players",
         "description": [
-            "Many games either by explicit design or by their medium allow people not playing the game themselves to have access to the game state. Sports and board games are the most typical examples of games that provide \"Public Information\" because of their medium; non-players can simply observe the positions of the players and game elements and follow the actions performed. Other games, for example card and computer games, require technological support that has to be either embedded in the game or set up specifically for a certain game instance to provide information to non-players in an easily accessible format.",
+            "Many games either by explicit design or by their medium allow people not playing the game themselves to have access to the game state. Sports and board games are the most typical examples of games that provide [Public Information](public-information) because of their medium; non-players can simply observe the positions of the players and game elements and follow the actions performed. Other games, for example card and computer games, require technological support that has to be either embedded in the game or set up specifically for a certain game instance to provide information to non-players in an easily accessible format.",
             "Note that information available to people not playing the game may not be available to all the players."
         ],
         "examples": [
@@ -11,13 +11,13 @@
             "Players who have been killed in \"Counter-Strike\" can in the normal setups follow other players while they are waiting for their next turn to begin."
         ],
         "usage": [
-            "What information can or should be \"Public Information\" naturally depends on the type game, but the most important factor is how \"Spectators\" can influence the players based on \"Public Information\". This can be avoided by either forbidding the \"Spectators\" to influence the players' actions directly or it can be made part of the game through \"Extra-Game Actions\", for example by asking the audience for advice in \"Who Wants to be a Millionaire?\" In \"Real-Time Games\" or games with \"Limited Planning Ability\", the possibility of \"Spectators\" unbalancing gameplay through advice may be insignificant due to the problem of giving advice in time, especially in games based on \"Rhythm-Based Actions\" or\"Dexterity-Based Actions\".",
-            "The availability of information is the prime factor affecting how players can make use of \"Public Information\". \"Symmetric Information\" and \"Perfect Information\" between all players are already available to the players and therefore harmless to make public. \"Trans-Game Information\", including statistics of earlier performances can affect \"Strategic Knowledge\", but this is typically not a problem since such information is commonly available between games also for the players.",
-            "The \"Public Information\" made available can be aimed at providing an overview or detailed information about certain players or game elements. In the first case, \"Game State Overview\" and \"God Views\" are commonly used but also explicit \"Goal Indicators\", \"Status Indicators\", \"Progress Indicators\", and \"Outcome Indicators\". Detailed information is typically kept by \"Book-Keeping Tokens\" or in the form of \"Trans-Game Information\", but it can also be represented in \"First-Person Views\" or \"Third-Person Views\", as these allow focusing on particular parts of gameplay. \"Public Information\" is often broadcast or otherwise transmitted through dedicated \"Communication Channels\", such as newspapers and television. \"Public Information\" for \"Spectators\" has an effect on the perceived \"Social Status\" of the players."
+            "What information can or should be [Public Information](public-information) naturally depends on the type game, but the most important factor is how [Spectators](spectators) can influence the players based on [Public Information](public-information). This can be avoided by either forbidding the [Spectators](spectators) to influence the players' actions directly or it can be made part of the game through [Extra-Game Actions](extra-game-actions), for example by asking the audience for advice in \"Who Wants to be a Millionaire?\" In [Real-Time Games](real-time-games) or games with [Limited Planning Ability](limited-planning-ability), the possibility of [Spectators](spectators) unbalancing gameplay through advice may be insignificant due to the problem of giving advice in time, especially in games based on [Rhythm-Based Actions](rhythm-based-actions) or[Dexterity-Based Actions](dexterity-based-actions).",
+            "The availability of information is the prime factor affecting how players can make use of [Public Information](public-information). [Symmetric Information](symmetric-information) and [Perfect Information](perfect-information) between all players are already available to the players and therefore harmless to make public. [Trans-Game Information](trans-game-information), including statistics of earlier performances can affect [Strategic Knowledge](strategic-knowledge), but this is typically not a problem since such information is commonly available between games also for the players.",
+            "The [Public Information](public-information) made available can be aimed at providing an overview or detailed information about certain players or game elements. In the first case, [Game State Overview](game-state-overview) and [God Views](god-views) are commonly used but also explicit [Goal Indicators](goal-indicators), [Status Indicators](status-indicators), [Progress Indicators](progress-indicators), and [Outcome Indicators](outcome-indicators). Detailed information is typically kept by [Book-Keeping Tokens](book-keeping-tokens) or in the form of [Trans-Game Information](trans-game-information), but it can also be represented in [First-Person Views](first-person-views) or [Third-Person Views](third-person-views), as these allow focusing on particular parts of gameplay. [Public Information](public-information) is often broadcast or otherwise transmitted through dedicated [Communication Channels](communication-channels), such as newspapers and television. [Public Information](public-information) for [Spectators](spectators) has an effect on the perceived [Social Status](social-statuses) of the players."
         ],
         "consequences": [
-            "\"Public Information\" is a requirement for \"Spectators\" and is especially common in \"Tournaments\". However, letting \"Spectators\" have access to the information about the game state can cause problems, since they can potentially send this information back to the players, either unmodified or after processing it. This potential problem can be solved in \"Self-Facilitated Games\" or those that have \"Game Masters\", but it is a more difficult problem in games having other formsof \"Dedicated Game Facilitators\" or in \"Asynchronous Games\".",
-            "\"Public Information\" allows people to collect their own \"Trans-Game Information\", i. e., statistics and observations about players' tactics, in order to gain \"Strategic Knowledge\" and promote \"Stimulated Planning\". When provided during gameplay and concern \"Paper-Rock-Scissors\" relations or \"Achilles' Heels\", the availability of \"Public Information\" heavily influences players' plans and actions."
+            "[Public Information](public-information) is a requirement for [Spectators](spectators) and is especially common in [Tournaments](tournaments). However, letting [Spectators](spectators) have access to the information about the game state can cause problems, since they can potentially send this information back to the players, either unmodified or after processing it. This potential problem can be solved in [Self-Facilitated Games](self-facilitated-games) or those that have [Game Masters](game-masters), but it is a more difficult problem in games having other formsof [Dedicated Game Facilitators](dedicated-game-facilitators) or in [Asynchronous Games](asynchronous-games).",
+            "[Public Information](public-information) allows people to collect their own [Trans-Game Information](trans-game-information), i. e., statistics and observations about players' tactics, in order to gain [Strategic Knowledge](strategic-knowledge) and promote [Stimulated Planning](stimulated-planning). When provided during gameplay and concern [Paper-Rock-Scissors](paper-rock-scissors) relations or [Achilles' Heels](achilles-heels), the availability of [Public Information](public-information) heavily influences players' plans and actions."
         ]
     },
     "relations": {
@@ -28,20 +28,11 @@
             "social-statuses",
             "status-indicators",
             "strategic-knowledge",
-            "achilles-heels",
-            "stimulated-planning",
-            "trans-game-information",
-            "paper-rock-scissors",
-            "extra-game-actions"
+            "stimulated-planning"
         ],
-        "instantiated_by": [
-            "book-keeping-tokens"
-        ],
+        "instantiated_by": [],
         "modulated_by": [
             "god-views",
-            "trans-game-information",
-            "first-person-views",
-            "third-person-views",
             "perfect-information",
             "goal-indicators",
             "symmetric-information",

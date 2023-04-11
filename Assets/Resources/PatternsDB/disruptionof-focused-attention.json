@@ -1,0 +1,44 @@
+{
+    "name": "Disruption of Focused Attention",
+    "texts": {
+        "definition": "That players' attention is forcefully moved from one aspect of the game to another.",
+        "description": [
+            "Players can often choose on what part of the game play in a game they want to focus their attention. When this focus is disrupted by events in the game, this is an event in itself called a [Disruption of Focused Attention](disruptionof-focused-attention)."
+        ],
+        "examples": [
+            "being shot in first-person shooters is usually indicated by parts of the player's view being tinted red.",
+            "the effect of activating buttons in adventure games or first-person shooters can be shown by short cut scenes. They can show areas currently not observed by the players and can thereby focus their attention on areas that would otherwise go unnoticed."
+        ],
+        "usage": [
+            "Designed [Disruption of Focused Attention](disruptionof-focused-attention) events are primarily used in games to increase [Game State Overview](game-state-overview) or affect the [Right Level of Difficulty](right-levelof-difficulty).",
+            "[Cut Scenes](cut-scenes), [Surprises](surprises),[Alarms](alarms), and multiple [Enemies](enemies) are typical ways of designing [Disruption of Focused Attention](disruptionof-focused-attention) events.[Game State Overviews](game-state-overview) can not only be the effect of [Disruption of Focused Attention](disruptionof-focused-attention) events as designed overviews can increases that events in the game create emergent [Disruption of Focused Attention](disruptionof-focused-attention) events while[Red Herrings](red-herrings) can be used to not only create these events but to make players have their attention focused on other parts of the game for a prolonged period of time."
+        ],
+        "consequences": [
+            "[Disruption of Focused Attention](disruptionof-focused-attention) creates [Attention Swapping](attention-swapping), possibly several times if players chose to refocus their attention of what they originally focused upon. If the events which cause the disruption are located within the [Game World](game-world) they can increase [Spatial Immersion](spatial-immersion) but [Disruption of Focused Attention](disruptionof-focused-attention) events in general affect [Cognitive Immersion](cognitive-immersion) and [Sensory-Motoric Immersion](sensory-motoric-immersion) negatively. However, some [Real-Time Games](real-time-games) use [Disruption of Focused Attention](disruptionof-focused-attention) as an integral part of the challenge of the gameplay.",
+            "[Dexterity-Based Actions](dexterity-based-actions), [Aim & Shoot](aim-shoot) in particular, are difficult to perform when exposed to [Disruption of Focused Attention](disruptionof-focused-attention) events."
+        ]
+    },
+    "relations": {
+        "instantiates": [
+            "attention-swapping",
+            "spatial-immersion",
+            "game-state-overview"
+        ],
+        "modulates": [
+            "right-levelof-difficulty"
+        ],
+        "instantiated_by": [
+            "red-herrings",
+            "enemies",
+            "game-state-overview",
+            "cut-scenes",
+            "surprises",
+            "alarms"
+        ],
+        "modulated_by": [],
+        "conflicts": [
+            "immersion",
+            "cognitive-immersion"
+        ]
+    }
+}

@@ -3,20 +3,20 @@
     "texts": {
         "definition": "Making gameplay easier for certain players in order to make all players have the same chance to succeed.",
         "description": [
-            "In some games, players may be aware of differences in their playing skills. In order to make the outcome as uncertain as possible within the game rules and thereby more interesting, players may decide on \"Handicaps\". These either make some actions easier for some players or allow those players other advantages so that the greater skills of other players are balanced and all players have equal chance of succeeding in the game."
+            "In some games, players may be aware of differences in their playing skills. In order to make the outcome as uncertain as possible within the game rules and thereby more interesting, players may decide on [Handicaps](handicaps). These either make some actions easier for some players or allow those players other advantages so that the greater skills of other players are balanced and all players have equal chance of succeeding in the game."
         ],
         "examples": [
             "Fighting games such as the \"Tekken\" or those of the \"Dead or Alive\" series allow players to choose starting health by percentage, for example 80\\% or 140\\%. This allows one player to have a handicap against another player.",
-            "\"Golf\" is one of the most well-known sports to make use of \"Handicap\". In this case, the \"Handicap\" does not only serve to equal gameplay but also to indicate mastery of the sport.",
-            "\"Go\" uses a \"Handicap\" system of allowing the weaker player to place a certain number of stones in the handicap points before the actual game begins in such a way that both players are challenged while playing."
+            "\"Golf\" is one of the most well-known sports to make use of [Handicap](handicaps). In this case, the [Handicap](handicaps) does not only serve to equal gameplay but also to indicate mastery of the sport.",
+            "\"Go\" uses a [Handicap](handicaps) system of allowing the weaker player to place a certain number of stones in the handicap points before the actual game begins in such a way that both players are challenged while playing."
         ],
         "usage": [
-            "Providing \"Handicaps\" for players can either be done by making it possible to set individual \"Right Levels of Difficulty\" (possibly by changing the skills of \"Agents\"), giving certain players more \"Resources\" or abilities (where differences in \"Non-Renewable Resources\" give greater \"Handicaps\" that other \"Resources\"), or limiting or ignoring negative consequences for certain players. Being able to change the \"Resources\" in a game with a \"Game World\" makes the game one with a \"Reconfigurable Game World\", although the differences in configurations may not be that large from a structural point.",
-            "Individual levels of difficulty can be set by having different thresholds for evaluations functions, providing various bonuses to \"Score\" values, giving a head start in \"Races\", or giving \"Skill\" advantages. The use of \"Asymmetric Resource Distribution\", \"Asymmetric Abilities\", or \"Privileged Abilities\" can have \"Balancing Effects\", as players may not have to be as efficient or may have a larger \"Freedom of Choice\" than other players. In \"Self-Facilitated Games\", the use of \"Handicaps\" is usually the result of \"Negotiation\" before gameplay begins, and a special form of \"Handicap\" in these games is to allow novice players \"Reversability\" by taking back their actions and performing other actions."
+            "Providing [Handicaps](handicaps) for players can either be done by making it possible to set individual \"Right Levels of Difficulty\" (possibly by changing the skills of [Agents](agents)), giving certain players more [Resources](resources) or abilities (where differences in [Non-Renewable Resources](non-renewable-resources) give greater [Handicaps](handicaps) that other [Resources](resources)), or limiting or ignoring negative consequences for certain players. Being able to change the [Resources](resources) in a game with a [Game World](game-world) makes the game one with a [Reconfigurable Game World](reconfigurable-game-world), although the differences in configurations may not be that large from a structural point.",
+            "Individual levels of difficulty can be set by having different thresholds for evaluations functions, providing various bonuses to [Score](score) values, giving a head start in [Races](race), or giving [Skill](skills) advantages. The use of [Asymmetric Resource Distribution](asymmetric-resource-distribution), [Asymmetric Abilities](asymmetric-abilities), or [Privileged Abilities](privileged-abilities) can have [Balancing Effects](balancing-effects), as players may not have to be as efficient or may have a larger [Freedom of Choice](freedomof-choice) than other players. In [Self-Facilitated Games](self-facilitated-games), the use of [Handicaps](handicaps) is usually the result of [Negotiation](negotiation) before gameplay begins, and a special form of [Handicap](handicaps) in these games is to allow novice players [Reversability](reversability) by taking back their actions and performing other actions."
         ],
         "consequences": [
-            "\"Handicaps\" can be used to give individual players the \"Right Level of Difficulty\" in \"Multiplayer Games\" and at the same time provide \"Player Balance\" or \"Team Balance\". The presence of \"Handicap\" systems in games provides a form of \"Trans-Game Information\", which can be a form of \"Score\" in a \"Meta Game\". \"Handicaps\" are incompatible with \"Symmetry\" but are often used for the same reason: to achieve \"Player Balance\".",
-            "As \"Handicaps\" are a form of \"Balancing Effect\", they give all players a \"Perceived Chance to Succeed\". If the levels of \"Handicap\" are gradually lowered as players become more skillful, their use provides a \"Smooth Learning Curve\" for players to achieve \"Game Mastery\"."
+            "[Handicaps](handicaps) can be used to give individual players the [Right Level of Difficulty](right-levelof-difficulty) in [Multiplayer Games](multiplayer-games) and at the same time provide [Player Balance](player-balance) or [Team Balance](team-balance). The presence of [Handicap](handicaps) systems in games provides a form of [Trans-Game Information](trans-game-information), which can be a form of [Score](score) in a [Meta Game](meta-games). [Handicaps](handicaps) are incompatible with [Symmetry](symmetry) but are often used for the same reason: to achieve [Player Balance](player-balance).",
+            "As [Handicaps](handicaps) are a form of [Balancing Effect](balancing-effects), they give all players a [Perceived Chance to Succeed](perceived-chanceto-succeed). If the levels of [Handicap](handicaps) are gradually lowered as players become more skillful, their use provides a [Smooth Learning Curve](smooth-learning-curves) for players to achieve [Game Mastery](game-mastery)."
         ]
     },
     "relations": {
@@ -26,11 +26,10 @@
             "smooth-learning-curves",
             "team-balance",
             "balancing-effects",
-            "perceived-chance-to-succeed",
-            "right-level-of-difficulty"
+            "perceived-chanceto-succeed",
+            "right-levelof-difficulty"
         ],
         "modulates": [
-            "self-facilitated-games",
             "multiplayer-games",
             "resources",
             "race",
@@ -44,9 +43,7 @@
             "reversability"
         ],
         "modulated_by": [
-            "trans-game-information",
             "agents",
-            "non-renewable-resources",
             "negotiation",
             "skills"
         ],

@@ -1,0 +1,74 @@
+{
+    "name": "Right Level of Difficulty",
+    "texts": {
+        "definition": "That the level of difficulty experienced by the player is the one intended by the game design.",
+        "description": [
+            "For the challenges in games to be interesting to players, they need to have the [Right Level of Difficulty](right-levelof-difficulty). If the challenges are too easy, players may be bored while if they are too difficult, players may give up playing the game."
+        ],
+        "examples": [
+            "\"Go\" can be played on boards of different sizes; 9x9, 13x13, and 19x19 are the most common. Players can choose the difficulty of a game by choosing the size of the board, as the difficulty (and length) of a game grows with the size of the board.",
+            "\"Zelda: The Ocarina of Time\" starts with easy quests that require mastery of very few actions and pose few threats. As players complete the quests, they move on to more challenging quests, and the game can thereby increase the level of difficulty as players show that they have mastered the current level of difficulty.",
+            "Adventures that can be bought for many types of tabletop roleplaying games are categorized after which levels the players' characters should have. Although a [Game Master](game-masters) may use any adventure for any group of characters, the [Right Level of Difficulty](right-levelof-difficulty) will most probably only occur if the players have the right levels."
+        ],
+        "usage": [
+            "Although the difficulty of a game is individual to each player, games can be designed so that players can progress according to their own learning curve. Setting the [Right Level of Difficulty](right-levelof-difficulty) in games can either be done by making challenges easier, by making challenges more difficult, or by controlling which challenges players have to meet.",
+            "Challenges can be made easier, either by providing information about how to solve the challenge or by making the actions of overcoming the challenge easier to perform, for example, by the presence of [Achilles' Heels](achilles-heels). Information can be given by [Clues](clues), [Traces](traces), [Extra-Game Information](extra-game-information), or by letting players discover it themselves through [Experimenting](experimenting). Making challenges easier usually requires some form of [Tradeoff](tradeoffs) for players and can be done through [Selectable Sets of Goals](selectable-setsof-goals) or [Supporting Goals](supporting-goals). Having to choose one goal from a \"Selectable Set of Goals\" where the different goals have [Varied Gameplay](varied-gameplay) allows the player to choose the goal with the perceived [Right Level of Difficulty](right-levelof-difficulty) but makes the other goals impossible to complete. The [Right Level of Difficulty](right-levelof-difficulty) in a game can also be created by [Varied Gameplay](varied-gameplay) to require players to use different competences. [Supporting Goals](supporting-goals), for example trying to find [Easter Eggs](easter-eggs), do not have to make other goals impossible but take extra time to perform and may deplete [Resources](resources) for the player.",
+            "Making challenges more difficult can be done by introducing opposition or by making the required player actions more difficult to perform. Opposition can take the form of [Enemies](enemies) or [Preventing Goals](preventing-goals) of [Agents](agents) or other players in [Multiplayer Games](multiplayer-games). General ways of making challenges more difficult are by making the game have the [Right Level of Complexity](right-levelof-complexity) to have a certain difficulty and give players [Limited Planning Abilities](limited-planning-ability), introducing [Time Limits](time-limits) for the challenges, distracting the players through [Disruption of Focused Attention](disruptionof-focused-attention) events, or forcing players to choose how to perform [Attention Swapping](attention-swapping). Temporary [Ability Losses](ability-losses) or [Decreased Abilities](decreased-abilities) (for example lowering [Skills](skills)) can be used to make an otherwise easy challenge have the [Right Level of Difficulty](right-levelof-difficulty). A more specific way to make challenges more difficult in games requiring [Maneuvering](maneuvering) is through the introduction of more [Obstacles](obstacles) or simply increasing the speed in [Rhythm-Based Actions](rhythm-based-actions).",
+            "Control of what challenges players meet depends on whether games are [Single-Player Games](single-player-games) or [Multiplayer Games](multiplayer-games). [Levels](levels) are the most common way of controlling difficulty in [Single-Player Games](single-player-games), simply by having the [Levels](levels) vary in difficulty and letting players gain access to them when they show that they have mastered the previous [Levels](levels). Games that are played alone can have their overall difficulty easily modified by the player through difficulty levels. In games with strong [Narrative Structures](narrative-structures), having the [Right Level of Difficulty](right-levelof-difficulty) not only means adjusting to player skills but also the development of the plot, for example, allowing [Higher-Level Closures as Gameplay Progresses](higher-level-closuresas-gameplay-progresses).",
+            "In [Multiplayer Games](multiplayer-games), the [Right Level of Difficulty](right-levelof-difficulty) must be designed with consideration to [Player Balance](player-balance). This can be done through [Handicaps](handicaps) before gameplay begins to make all players have equal possibilities in the game or through [Balancing Effects](balancing-effects) during gameplay, for example, [Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties). Having one of the players take the role of a [Game Master](game-masters) allows the [Right Level of Difficulty](right-levelof-difficulty) to be granted at all times, as long as the [Game Master](game-masters) can gauge the merit players' plans and adjust the difficulty accordingly.",
+            "As [Reconfigurable Game Worlds](reconfigurable-game-world) and [Ephemeral Goals](ephemeral-goals) are constructed during, or immediately before, gameplay their use can make pre-designed ways of achieving the [Right Level of Difficulty](right-levelof-difficulty) less effective. [Game Masters](game-masters) can be used to mitigate this problem, as they can adjust the difficulty level on the fly."
+        ],
+        "consequences": [
+            "Providing the [Right Level of Difficulty](right-levelof-difficulty) in games allows players to feel [Tension](tension) as there is a risk that they may fail, while giving the [Empowerment](empowerment), since they have a [Perceived Chance to Succeed](perceived-chanceto-succeed) and [Illusion of Influence](illusionof-influence). If the [Right Level of Difficulty](right-levelof-difficulty) is continuously provided for players, it gives them a [Smooth Learning Curve](smooth-learning-curves) and increases the likelihood that players progress to having [Game Mastery](game-mastery). If this [Right Level of Difficulty](right-levelof-difficulty) is due to [Competition](competition), the learning is enforced by a [Red Queen Dilemma](red-queen-dilemmas)."
+        ]
+    },
+    "relations": {
+        "instantiates": [
+            "smooth-learning-curves",
+            "empowerment",
+            "illusionof-influence",
+            "game-mastery",
+            "perceived-chanceto-succeed",
+            "limited-planning-ability",
+            "tension"
+        ],
+        "modulates": [
+            "multiplayer-games",
+            "red-queen-dilemmas",
+            "player-balance",
+            "maneuvering"
+        ],
+        "instantiated_by": [
+            "time-limits",
+            "selectable-setsof-goals",
+            "balancing-effects",
+            "game-masters",
+            "right-levelof-complexity",
+            "handicaps",
+            "varied-gameplay"
+        ],
+        "modulated_by": [
+            "attention-swapping",
+            "reconfigurable-game-world",
+            "decreased-abilities",
+            "supporting-goals",
+            "enemies",
+            "tradeoffs",
+            "levels",
+            "ability-losses",
+            "easter-eggs",
+            "narrative-structures",
+            "disruptionof-focused-attention",
+            "clues",
+            "obstacles",
+            "skills",
+            "limited-planning-ability",
+            "traces",
+            "experimenting"
+        ],
+        "conflicts": [
+            "reconfigurable-game-world",
+            "ephemeral-goals"
+        ]
+    }
+}

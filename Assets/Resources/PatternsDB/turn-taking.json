@@ -7,28 +7,26 @@
         ],
         "examples": [
             "in \"Puerto Rico\" a turn consists of each player choosing an action in a sequential order. The action chosen by the first player is performed by all players before the next action is chosen and so on until all players have chosen actions.",
-            "\"Diplomacy\" is a turn-based game without \"Turn Taking\" as all players do their turns simultaneously.",
-            "\"Golf\" uses \"Turn Taking\" where the player the farthest from the hole always has the turn until all players have hit the ball into the hole.",
+            "\"Diplomacy\" is a turn-based game without [Turn Taking](turn-taking) as all players do their turns simultaneously.",
+            "\"Golf\" uses [Turn Taking](turn-taking) where the player the farthest from the hole always has the turn until all players have hit the ball into the hole.",
             "\"Spin the Bottle\" uses randomness to determine whose turn it is next and players may play a complete game session without having a turn."
         ],
         "usage": [
-            "\"Turn Taking\" in \"Turn-Based Games\" may occur on many levels and is more often done in rounds, segments, and phases than in turns. This allows players more chances to perform actions, including interrupting \"Interruptible Actions\" and increasing possibilities for reasonable waiting times in \"Synchronous Games\", and can modulate actions such as \"Capture\". Many times the \"Turn Taking\" for interrupting actions is not explicitly called out in game play every time they occur but players have to individually claim them within a reasonable \"Time Limit\".",
-            "The order in which \"Turn Taking\" takes place can be varied in several different ways. The \"Turn Taking\" can be constructed so that every player gets one turn before the \"Turn Taking\" process begins to repeat or is reset (with possible \"Ultra-Powerful Events\" interjected), that players can have several turns as long as they have some form of \"Limited Resource\", or simply uses continuously use \"Randomness\" to determine who has the next turn. Having each player get one turn in a larger cycle provides a sequential turn-taking cycle with the round-robin sequences as the most common and causing \"hit left; dodge right\"patterns to emerge. Other sequential orders can be produced by \"Bidding\" or by measuring \"Resources\" or \"Score\" values, of which the latter can be used to have \"Balancing Effects\".",
-            "\"Turn Taking\" in \"Real-Time Games\" is not common and most often reserved for \"Negotiation\" in \"Trading\" where players must do some form of \"Resource Management\" to conduct the trade. Putting a \"Time Limit\" on a player in \"Turn Taking\" creates a form of sequential \"Tick-Based Game\". It is also possible to construct sort of \"Tournaments\" from \"Quick Games\" by allowing the players to take turns in playing their game instances and comparing the overall results."
+            "[Turn Taking](turn-taking) in [Turn-Based Games](turn-based-games) may occur on many levels and is more often done in rounds, segments, and phases than in turns. This allows players more chances to perform actions, including interrupting [Interruptible Actions](interruptible-actions) and increasing possibilities for reasonable waiting times in [Synchronous Games](synchronous-games), and can modulate actions such as [Capture](capture). Many times the [Turn Taking](turn-taking) for interrupting actions is not explicitly called out in game play every time they occur but players have to individually claim them within a reasonable [Time Limit](time-limits).",
+            "The order in which [Turn Taking](turn-taking) takes place can be varied in several different ways. The [Turn Taking](turn-taking) can be constructed so that every player gets one turn before the [Turn Taking](turn-taking) process begins to repeat or is reset (with possible [Ultra-Powerful Events](ultra-powerful-events) interjected), that players can have several turns as long as they have some form of [Limited Resource](limited-resources), or simply uses continuously use [Randomness](randomness) to determine who has the next turn. Having each player get one turn in a larger cycle provides a sequential turn-taking cycle with the round-robin sequences as the most common and causing \"hit left; dodge right\"patterns to emerge. Other sequential orders can be produced by [Bidding](bidding) or by measuring [Resources](resources) or [Score](score) values, of which the latter can be used to have [Balancing Effects](balancing-effects).",
+            "[Turn Taking](turn-taking) in [Real-Time Games](real-time-games) is not common and most often reserved for [Negotiation](negotiation) in [Trading](trading) where players must do some form of [Resource Management](resource-management) to conduct the trade. Putting a [Time Limit](time-limits) on a player in [Turn Taking](turn-taking) creates a form of sequential [Tick-Based Game](tick-based-games). It is also possible to construct sort of [Tournaments](tournaments) from [Quick Games](quick-games) by allowing the players to take turns in playing their game instances and comparing the overall results."
         ],
         "consequences": [
-            "\"Turn Taking\" can both relieve and create \"Tension.\" The relief for a player can come in the form of not having to consider that \"The Show Must Go On\" while it is the player's turn and in the form of having \"Downtime\" when it is not the player's turn. \"Tension\" can be created by the possibility for \"Analysis Paralysis\" due to \"Risk/Rewards\" choices during the player's turn and by \"Hovering Closure\" s and \"Anticipation\" while it is not. Having \"Turn Taking\" may cause the players not having their turn to have \"Downtime\", which can be used to gain \"Game State Overview\" or act as \"Spectators\" to the active player's actions in order to deduce possible secret tacticsand \"Unknown Goals\".",
-            "In games where the order in which \"Turn Taking\" takes place players may have two turns after each other. These flip-flop events usually give significant advantages to the player and if they can be the cause of \"Stimulated Planning\" this is one way to achieve \"Game Mastery\" in the game.",
-            "\"Turn Taking\" can be enforced by \"Dedicated Game Facilitators\" but also exist in most \"Self-Facilitated Games\". As the other players can help and supervise the actual handling of physical game elements used by the active player, \"Turn Taking\" supports \"Self-Facilitated Games\" and may let every player take part in \"Storytelling\" or let every players temporarily take the role of the \"Game Masters\".",
-            "\"Turn Taking\" can be used to create civilized \"Negotiation\", for example in \"Bidding\", and thereby encourage less pressurized \"Social Interaction\"."
+            "[Turn Taking](turn-taking) can both relieve and create [Tension.](tension) The relief for a player can come in the form of not having to consider that [The Show Must Go On](the-show-must-go-on) while it is the player's turn and in the form of having [Downtime](downtime) when it is not the player's turn. [Tension](tension) can be created by the possibility for [Analysis Paralysis](analysis-paralysis) due to [Risk/Rewards](risk-reward) choices during the player's turn and by [Hovering Closure](hovering-closures) s and [Anticipation](anticipation) while it is not. Having [Turn Taking](turn-taking) may cause the players not having their turn to have [Downtime](downtime), which can be used to gain [Game State Overview](game-state-overview) or act as [Spectators](spectators) to the active player's actions in order to deduce possible secret tacticsand [Unknown Goals](unknown-goals).",
+            "In games where the order in which [Turn Taking](turn-taking) takes place players may have two turns after each other. These flip-flop events usually give significant advantages to the player and if they can be the cause of [Stimulated Planning](stimulated-planning) this is one way to achieve [Game Mastery](game-mastery) in the game.",
+            "[Turn Taking](turn-taking) can be enforced by [Dedicated Game Facilitators](dedicated-game-facilitators) but also exist in most [Self-Facilitated Games](self-facilitated-games). As the other players can help and supervise the actual handling of physical game elements used by the active player, [Turn Taking](turn-taking) supports [Self-Facilitated Games](self-facilitated-games) and may let every player take part in [Storytelling](storytelling) or let every players temporarily take the role of the [Game Masters](game-masters).",
+            "[Turn Taking](turn-taking) can be used to create civilized [Negotiation](negotiation), for example in [Bidding](bidding), and thereby encourage less pressurized [Social Interaction](social-interaction)."
         ]
     },
     "relations": {
         "instantiates": [
             "spectators",
             "stimulated-planning",
-            "tick-based-games",
-            "self-facilitated-games",
             "anticipation",
             "interruptible-actions",
             "downtime",
@@ -36,8 +34,7 @@
             "social-interaction",
             "analysis-paralysis",
             "game-state-overview",
-            "hovering-closures",
-            "turn-based-games"
+            "hovering-closures"
         ],
         "modulates": [
             "bidding",
@@ -57,13 +54,11 @@
             "resources",
             "quick-games",
             "limited-resources",
-            "ultra-powerful-events",
             "balancing-effects",
             "score",
             "bidding"
         ],
         "conflicts": [
-            "real-time-games",
             "tension",
             "the-show-must-go-on"
         ]

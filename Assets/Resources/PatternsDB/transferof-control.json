@@ -1,0 +1,62 @@
+{
+    "name": "Transfer of Control",
+    "texts": {
+        "definition": "When the influence over a game element is passed from one player to another.",
+        "description": [
+            "Many games let game elements, or the control over the actions they allow, shift between players. This [Transfer of Control](transferof-control) makes the ownership of game elements less sure in the game and provides players with goals of trying to change the ownership status of game elements."
+        ],
+        "examples": [
+            "Trading in the board game \"Civilization\" allows players to collect series of a commodities, which can then be used to purchase advances.",
+            "The special ability of \"Priests\" in \"Age of Empires\" is to transfer the control of enemy units to the player controlling the \"Priests\"."
+        ],
+        "usage": [
+            "[Resources](resources) are the most common type of game element that may shift between different players' control, followed by [Tools](tools) and [Units](units). [Transfer of Control](transferof-control) also addressed which player has [Area Control](area-control) over various parts of the game board or world. [Gain Ownership](gain-ownership) and [Collection](collection) goals require [Transfer of Control](transferof-control) events to occur, but the [Transfer of Control](transferof-control) does not have to be between players; the control can go from being uncontrolled, or controlled by the game system, to a player or vice versa. [Collecting](collecting) is an activity that gives a player control over game elements that in most cases are not under any other player's control. [Penalties](penalties) of losing [Resources](resources) or [Tools](tools), and the [Ability Losses](ability-losses) these cause, are examples of [Transfer of Control](transferof-control) from players to an uncontrolled state.",
+            "If the [Transfer of Controls](transferof-control) are [Irreversible Actions](irreversible-actions) and the[Resources](resources) involved are [Limited Resources](limited-resources) or [Non-Renewable Resources](non-renewable-resources), the action of transferring control defines a sort of [Closure Point](closure-points). If [Reversability](reversability) of the control transversal is possible, either between players or between players and the game system, this makes the [Resources](resources) used [Renewable Resources](renewable-resources), as a [Closed Economy](closed-economies) exists.",
+            "[Transfer of Control](transferof-control) can be modulated to encourage players to specialize in a few game element types or spread control over many types. [Geometric Rewards for Investments](geometric-rewardsfor-investments) encourage players to focus upon one or a few game elements, while [Privileged Abilities](privileged-abilities), [Diminishing Returns](diminishing-returns), and explicit heterogeneous [Collections](collection) all favor wider spreads of control.",
+            "The actions leading to [Transfer of Control](transferof-control) can either be based on [Collaborative Actions](collaborative-actions) or [Conflict](conflict) although the former can lead to the latter. [Negotiation](negotiation) is an example that enables [Collaborative Actions](collaborative-actions) regarding control transfer through such actions as [Trading](trading) or [Bidding](bidding). [Betting](betting) is similar but lies closer to [Conflict](conflict). [Overcome](overcome) and [Capture](capture) goals are pure examples of [Conflict](conflict) and are most often conducted through [Combat](combat).",
+            "[Transfer of Control](transferof-control) does not have to be total. By giving other players some control, the control can become shared and require [Collaborative Actions](collaborative-actions) such as [Bidding](bidding). Another form of making [Transfer of Control](transferof-control) less total is by introducing some form of reversed transfer. Examples of this occur naturally in [Trading](trading) but may be enforced in [Bidding](bidding) by distributing the [Resources](resources) used for the [Betting](betting) to the players who do not win the bet. This form of reciprocal transfer usually has [Balancing Effects](balancing-effects) but also allows players to have [Strategic Knowledge](strategic-knowledge) about the difference in values between the transferred game elements or actions."
+        ],
+        "consequences": [
+            "[Transfer of Control](transferof-control) provides means of changing [Ownership](ownership) of game elements during gameplay. This can provide [Varied Gameplay](varied-gameplay) for players, as it means that [New Abilities](new-abilities) or [Privileged Abilities](privileged-abilities) that are unavailable other times can be available for players. Depending on how the [Transfer of Control](transferof-control) can be done, the presence of the possibility of it gives rise to [Negotiation](negotiation) or [Conflict](conflict). Both gaining control and losing control of game elements easily causes [Emotional Immersion](emotional-immersion)."
+        ]
+    },
+    "relations": {
+        "instantiates": [
+            "conflict",
+            "strategic-knowledge",
+            "collaborative-actions",
+            "emotional-immersion",
+            "closed-economies",
+            "varied-gameplay",
+            "closure-points",
+            "collecting",
+            "privileged-abilities",
+            "new-abilities",
+            "area-control",
+            "ownership"
+        ],
+        "modulates": [
+            "units",
+            "resources",
+            "tools"
+        ],
+        "instantiated_by": [
+            "bidding",
+            "trading",
+            "capture",
+            "overcome",
+            "betting",
+            "negotiation",
+            "gain-ownership",
+            "collection"
+        ],
+        "modulated_by": [
+            "irreversible-actions",
+            "diminishing-returns",
+            "geometric-rewardsfor-investments",
+            "balancing-effects",
+            "renewable-resources"
+        ],
+        "conflicts": []
+    }
+}

@@ -3,24 +3,23 @@
     "texts": {
         "definition": "Surprises in the game that are not related to the game.",
         "description": [
-            "\"Easter Eggs\" are surprises put in games that do not necessarily advance the game story or even fit within the reality of the \"Game World\". The design of \"Easter Eggs\" started as programmers' and game designers' ways of protesting against management but soon turned into a gameplay value, encouraging exploration and people to replay the games."
+            "[Easter Eggs](easter-eggs) are surprises put in games that do not necessarily advance the game story or even fit within the reality of the [Game World](game-world). The design of [Easter Eggs](easter-eggs) started as programmers' and game designers' ways of protesting against management but soon turned into a gameplay value, encouraging exploration and people to replay the games."
         ],
         "examples": [
-            "The first documented \"Easter Egg\" was the text \"Created by Robinett.\" in \"Adventure\" put there by the programmer Warren Robinett. To find it, players had first to find a single dot object that had the same color as the background of the game and was located in a room that was inaccessible unless you used a special bridge. This dot then had to be carried to a specific wall to let the players enter a secret room which contained the message.",
-            "\"Super Mario Bros.\" included entire levels as \"Easter Eggs\", including an underwater world that was seemingly endless.",
-            "The whole game\"Maniac Mansion\" is included as an \"Easter Egg\" in its sequel \"Day of the Tentacle\"."
+            "The first documented [Easter Egg](easter-eggs) was the text \"Created by Robinett.\" in \"Adventure\" put there by the programmer Warren Robinett. To find it, players had first to find a single dot object that had the same color as the background of the game and was located in a room that was inaccessible unless you used a special bridge. This dot then had to be carried to a specific wall to let the players enter a secret room which contained the message.",
+            "\"Super Mario Bros.\" included entire levels as [Easter Eggs](easter-eggs), including an underwater world that was seemingly endless.",
+            "The whole game\"Maniac Mansion\" is included as an [Easter Egg](easter-eggs) in its sequel \"Day of the Tentacle\"."
         ],
         "usage": [
-            "Designing \"Easter Eggs\" includes choosing where in the \"Game World\" they exist, what they contain, creating possible \"Clues\" to ease finding them, and making sure they are \"Optional Goals\". Typical contents of \"Easter Eggs\" include \"Games within Games\" or \"Resources\" to modulate the \"Right Level of Difficulty\". The use of \"Games within Games\" and other \"Easter Eggs\" that effectively change the mode of play may be more suitable in \"Single-Player Games\", since there is no need to try and synchronize and explain changes of play mode in these types of games."
+            "Designing [Easter Eggs](easter-eggs) includes choosing where in the [Game World](game-world) they exist, what they contain, creating possible [Clues](clues) to ease finding them, and making sure they are [Optional Goals](optional-goals). Typical contents of [Easter Eggs](easter-eggs) include [Games within Games](gameswithin-games) or [Resources](resources) to modulate the [Right Level of Difficulty](right-levelof-difficulty). The use of [Games within Games](gameswithin-games) and other [Easter Eggs](easter-eggs) that effectively change the mode of play may be more suitable in [Single-Player Games](single-player-games), since there is no need to try and synchronize and explain changes of play mode in these types of games."
         ],
         "consequences": [
-            "\"Easter Eggs\" are a way of providing \"Surprises\" in games, which are extra-game rewards in addition to any other benefits they give. Knowledge about their existence provides \"Optional Goals\" of \"Exploration\" and may stimulate \"Social Interaction\" between game sessions to pass \"Trans-Game Information\". \"Easter Eggs\" may even promote \"Replayability\", since players can have \"Player Defined Goals\" to find all \"Easter Eggs\" even after completing a game. The \"Consistent Reality Logic\" of an \"Alternative Reality\" can be negatively affected by \"Easter Eggs\" unless they only consist of \"Resources\" or purely aesthetic effects."
+            "[Easter Eggs](easter-eggs) are a way of providing [Surprises](surprises) in games, which are extra-game rewards in addition to any other benefits they give. Knowledge about their existence provides [Optional Goals](optional-goals) of [Exploration](exploration) and may stimulate [Social Interaction](social-interaction) between game sessions to pass [Trans-Game Information](trans-game-information). [Easter Eggs](easter-eggs) may even promote [Replayability](replayability), since players can have [Player Defined Goals](player-defined-goals) to find all [Easter Eggs](easter-eggs) even after completing a game. The [Consistent Reality Logic](consistent-reality-logic) of an [Alternative Reality](alternative-reality) can be negatively affected by [Easter Eggs](easter-eggs) unless they only consist of [Resources](resources) or purely aesthetic effects."
         ]
     },
     "relations": {
         "instantiates": [
             "surprises",
-            "trans-game-information",
             "optional-goals",
             "replayability",
             "player-defined-goals"
@@ -28,12 +27,11 @@
         "modulates": [
             "exploration",
             "game-world",
-            "right-level-of-difficulty",
-            "single-player-games"
+            "right-levelof-difficulty"
         ],
         "instantiated_by": [
             "resources",
-            "games-within-games"
+            "gameswithin-games"
         ],
         "modulated_by": [
             "clues"

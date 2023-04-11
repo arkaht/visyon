@@ -3,38 +3,35 @@
     "texts": {
         "definition": "Sets of actions that trigger additional effects than those that occur due to the individual actions.",
         "description": [
-            "\"Combos\" are a sequence of actions that due to the order or configuration they are performed in trigger additional effects. The sequence of actions perform to create the effect can be seen as an action in itself, although more complex than ordinary actions and possibly interruptible even when the actions it consists of are not."
+            "[Combos](combos) are a sequence of actions that due to the order or configuration they are performed in trigger additional effects. The sequence of actions perform to create the effect can be seen as an action in itself, although more complex than ordinary actions and possibly interruptible even when the actions it consists of are not."
         ],
         "examples": [
-            "Fighting games such as the \"Tekken\" or \"Dead or Alive\" series have only a few basic actions but by heavy use of \"Combos\" each character in the game can have the number of possible actions increased by an order of magnitude.",
+            "Fighting games such as the \"Tekken\" or \"Dead or Alive\" series have only a few basic actions but by heavy use of [Combos](combos) each character in the game can have the number of possible actions increased by an order of magnitude.",
             "The height of jumps in game such as \"Mario 64\" or \"Super Mario Sunshine\" can be extended considerably by pressing the jump button again at the right moment after starting a jump."
         ],
         "usage": [
-            "The design of \"Combos\" includes deciding if they should provide additional effects or simply modify the already existing effects, how complex they should be to perform and if their execution can be affected by others. \"Combos\" can simply modify the original \"Rewards\" and \"Penalties\" or introduce new \"Rewards\" and \"Penalties\". \"Combos\" are often used to provide \"Privileged Abilities\", either as an additional \"Reward\" or as a way to provide \"Orthogonal Unit Differentiation\", and are especially common in \"Combat\" activities in \"Real-Time Games\". The complexity of performing \"Combos\" can be used to set the \"Right Level of Complexity\", for example by requiring \"Rhythm-Based Actions\", in the game and can provide a \"Smooth Learning Curves\" as players can have the possibility to choose between performing simple actions or more difficult \"Combos\". As with any \"Extended Actions\", \"Combos\" offer the possibility of being \"Interruptible Actions\" independently of whether the actions they consists of are interruptible. In the case of \"Combos\" that are complex or interruptible, motivation for performing them can be given by providing \"Geometric Rewards for Investments\" in addition to any \"Privileged Abilities\".",
-            "In games with complex \"Combos\", or games where players are encouraged to find the \"Combos\" by \"Experimenting\", it is common to indicate when a player has started to perform a combo and provide additional feedback for each of the individual actions that has been performed. This can be done by \"Illusionary Rewards\" within the game world or by \"Progress Indicators\" providing \"Extra-Game Information\".",
-            "All forms of \"Collaborative Actions\" are forms of \"Combos\"."
+            "The design of [Combos](combos) includes deciding if they should provide additional effects or simply modify the already existing effects, how complex they should be to perform and if their execution can be affected by others. [Combos](combos) can simply modify the original [Rewards](rewards) and [Penalties](penalties) or introduce new [Rewards](rewards) and [Penalties](penalties). [Combos](combos) are often used to provide [Privileged Abilities](privileged-abilities), either as an additional [Reward](rewards) or as a way to provide [Orthogonal Unit Differentiation](orthogonal-unit-differentiation), and are especially common in [Combat](combat) activities in [Real-Time Games](real-time-games). The complexity of performing [Combos](combos) can be used to set the [Right Level of Complexity](right-levelof-complexity), for example by requiring [Rhythm-Based Actions](rhythm-based-actions), in the game and can provide a [Smooth Learning Curves](smooth-learning-curves) as players can have the possibility to choose between performing simple actions or more difficult [Combos](combos). As with any [Extended Actions](extended-actions), [Combos](combos) offer the possibility of being [Interruptible Actions](interruptible-actions) independently of whether the actions they consists of are interruptible. In the case of [Combos](combos) that are complex or interruptible, motivation for performing them can be given by providing [Geometric Rewards for Investments](geometric-rewardsfor-investments) in addition to any [Privileged Abilities](privileged-abilities).",
+            "In games with complex [Combos](combos), or games where players are encouraged to find the [Combos](combos) by [Experimenting](experimenting), it is common to indicate when a player has started to perform a combo and provide additional feedback for each of the individual actions that has been performed. This can be done by [Illusionary Rewards](illusionary-rewards) within the game world or by [Progress Indicators](progress-indicators) providing [Extra-Game Information](extra-game-information).",
+            "All forms of [Collaborative Actions](collaborative-actions) are forms of [Combos](combos)."
         ],
         "consequences": [
-            "\"Combos\" are \"Extended Actions\" that require \"Timing\" to be successfully executed. Being able to perform a \"Combo\" can be a goal in itself as it is a \"Configuration\" of actions. Games where players know that \"Combos\" exist but are not provided with instructions on how to do them encourage players to do \"Experimenting\". In these games, knowing how to perform the \"Combos\" is \"Strategic Knowledge\" and can be shared as \"Extra-Game Actions\"."
+            "[Combos](combos) are [Extended Actions](extended-actions) that require [Timing](timing) to be successfully executed. Being able to perform a [Combo](combos) can be a goal in itself as it is a [Configuration](configuration) of actions. Games where players know that [Combos](combos) exist but are not provided with instructions on how to do them encourage players to do [Experimenting](experimenting). In these games, knowing how to perform the [Combos](combos) is [Strategic Knowledge](strategic-knowledge) and can be shared as [Extra-Game Actions](extra-game-actions)."
         ]
     },
     "relations": {
         "instantiates": [
             "extended-actions",
             "strategic-knowledge",
-            "rhythm-based-actions",
             "smooth-learning-curves",
             "experimenting",
             "configuration",
             "privileged-abilities",
-            "extra-game-information",
             "timing",
-            "extra-game-actions",
             "orthogonal-unit-differentiation"
         ],
         "modulates": [
             "combat",
-            "right-level-of-complexity"
+            "right-levelof-complexity"
         ],
         "instantiated_by": [
             "collaborative-actions"
@@ -45,7 +42,7 @@
             "illusionary-rewards",
             "rewards",
             "progress-indicators",
-            "geometric-rewards-for-investments"
+            "geometric-rewardsfor-investments"
         ],
         "conflicts": []
     }

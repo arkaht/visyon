@@ -3,21 +3,21 @@
     "texts": {
         "definition": "Players cannot make plans about what future actions to perform due to characteristics inherent in the game design.",
         "description": [
-            "Many games do not let players plan their actions accurately beyond a certain point. This \"Limited Planning Ability\" can exist because players do not have all the information, because future actions and events are difficult to foresee, or because players simply do not have the time to do the planning. It may force players to take chances, quicken gameplay, and give players unexpected experiences."
+            "Many games do not let players plan their actions accurately beyond a certain point. This [Limited Planning Ability](limited-planning-ability) can exist because players do not have all the information, because future actions and events are difficult to foresee, or because players simply do not have the time to do the planning. It may force players to take chances, quicken gameplay, and give players unexpected experiences."
         ],
         "examples": [
             "Deathmatches in multiplayer first-person shooters give players very little chance to plan while playing the game, since all other players are actively trying to eliminate them.",
             "The planning in most gambling games is very limited with the exception for long-term strategies regarding money."
         ],
         "usage": [
-            "\"Limited Planning Ability\" can be achieved through several different approaches: limiting the amount of things that can be planned, making events unpredictable, or limiting the time players have to plan. The first approach can easily be achieved by giving players a \"Limited Set of Actions\" but does not in itself give \"Limited Planning Ability\" if players have any \"Freedom of Choice\".",
-            "The second approach, \"Limited Foresight\", can either be achieved by making the effects of actions difficult to predict or by limiting the information available to judge the values of different actions and plans. The former relies on \"Imperfect Information\", \"Uncertainty of Information\", or actions that do not have \"Predictable Consequences\", with \"Randomness\" and \"Multiplayer Games\" being the most common ways to achieve this. The latter does not automatically make consequences more difficult to predict, but the difficulty to do so can be increased by using \"Secret Resources\", \"Preventing Goals\", \"Player Decided Results\", and \"Player-Defined Distribution of Rewards &amp; Penalties\".",
-            "The third approach is easily implemented through \"Time Limits\". \"Real-Times Games\" can be used to create \"Limited Planning Ability\", as they put a natural \"Time Limit\" on how much time players have until either they must reach to other players actions or before the game state has changed so much due to \"The Show Must Go On\" that the previous planning is outdated."
+            "[Limited Planning Ability](limited-planning-ability) can be achieved through several different approaches: limiting the amount of things that can be planned, making events unpredictable, or limiting the time players have to plan. The first approach can easily be achieved by giving players a [Limited Set of Actions](limited-setof-actions) but does not in itself give [Limited Planning Ability](limited-planning-ability) if players have any [Freedom of Choice](freedomof-choice).",
+            "The second approach, [Limited Foresight](limited-foresight), can either be achieved by making the effects of actions difficult to predict or by limiting the information available to judge the values of different actions and plans. The former relies on [Imperfect Information](imperfect-information), [Uncertainty of Information](uncertaintyof-information), or actions that do not have [Predictable Consequences](predictable-consequences), with [Randomness](randomness) and [Multiplayer Games](multiplayer-games) being the most common ways to achieve this. The latter does not automatically make consequences more difficult to predict, but the difficulty to do so can be increased by using [Secret Resources](secret-resources), [Preventing Goals](preventing-goals), [Player Decided Results](player-decided-results), and \"Player-Defined Distribution of Rewards &amp; Penalties\".",
+            "The third approach is easily implemented through [Time Limits](time-limits). \"Real-Times Games\" can be used to create [Limited Planning Ability](limited-planning-ability), as they put a natural [Time Limit](time-limits) on how much time players have until either they must reach to other players actions or before the game state has changed so much due to [The Show Must Go On](the-show-must-go-on) that the previous planning is outdated."
         ],
         "consequences": [
-            "\"Limited Planning Ability\" makes gameplay mentally easier as focus is shifted from planning to doing, which limits the likelihood of \"Analysis Paralysis\" to occur. Limiting the planning can thereby make \"Cognitive Immersion\" less common but makes already existing possibilities for \"Spatial Immersion\" easier. Depending on the intended gameplay, this can be used to have the \"Right Level of Complexity\" by modulating how much players can plan. However, \"Limited Planning Ability\" gives players less \"Freedom of Choice\" and can thereby negatively affect any \"Illusion of Influence\".",
-            "When players have \"Limited Planning Abilities\" in \"Multiplayer Games\", this limits the likelihood that \"Downtime\" occurs for the other players. In \"Single-Player Games\", the use of \"Limited Planning Abilities\" usually sets the \"Right Level of Difficulty\" or allows players to have \"Surprises\" due to \"Limited Foresight\".",
-            "\"Puzzle Solving\" is usually incompatible with \"Limited Planning Ability\", since solving a puzzle often entails finding a correct plan of execution."
+            "[Limited Planning Ability](limited-planning-ability) makes gameplay mentally easier as focus is shifted from planning to doing, which limits the likelihood of [Analysis Paralysis](analysis-paralysis) to occur. Limiting the planning can thereby make [Cognitive Immersion](cognitive-immersion) less common but makes already existing possibilities for [Spatial Immersion](spatial-immersion) easier. Depending on the intended gameplay, this can be used to have the [Right Level of Complexity](right-levelof-complexity) by modulating how much players can plan. However, [Limited Planning Ability](limited-planning-ability) gives players less [Freedom of Choice](freedomof-choice) and can thereby negatively affect any [Illusion of Influence](illusionof-influence).",
+            "When players have [Limited Planning Abilities](limited-planning-ability) in [Multiplayer Games](multiplayer-games), this limits the likelihood that [Downtime](downtime) occurs for the other players. In [Single-Player Games](single-player-games), the use of [Limited Planning Abilities](limited-planning-ability) usually sets the [Right Level of Difficulty](right-levelof-difficulty) or allows players to have [Surprises](surprises) due to [Limited Foresight](limited-foresight).",
+            "[Puzzle Solving](puzzle-solving) is usually incompatible with [Limited Planning Ability](limited-planning-ability), since solving a puzzle often entails finding a correct plan of execution."
         ]
     },
     "relations": {
@@ -26,9 +26,8 @@
         ],
         "modulates": [
             "multiplayer-games",
-            "single-player-games",
             "surprises",
-            "right-level-of-difficulty"
+            "right-levelof-difficulty"
         ],
         "instantiated_by": [
             "limited-foresight",
@@ -36,22 +35,21 @@
             "player-decided-results",
             "preventing-goals",
             "secret-resources",
-            "uncertainty-of-information",
+            "uncertaintyof-information",
             "randomness",
             "the-show-must-go-on",
-            "right-level-of-difficulty",
-            "right-level-of-complexity"
+            "right-levelof-difficulty",
+            "right-levelof-complexity"
         ],
         "modulated_by": [
-            "limited-set-of-actions",
-            "real-time-games",
+            "limited-setof-actions",
             "imperfect-information"
         ],
         "conflicts": [
             "predictable-consequences",
             "downtime",
-            "illusion-of-influence",
-            "freedom-of-choice",
+            "illusionof-influence",
+            "freedomof-choice",
             "analysis-paralysis",
             "puzzle-solving",
             "cognitive-immersion"

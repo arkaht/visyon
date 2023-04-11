@@ -3,19 +3,19 @@
     "texts": {
         "definition": "The resources available to the players are limited to such extent that they are forced to plan ahead the use of the resources, that is, there is a perceivable possibility of running out of the resources during the game play.",
         "description": [
-            "For games that use resources to possess the right level of challenge the availability of resource has to be restricted. This means that players have \"Limited Resources\" in some sense and have to make use of them in the most efficient way to play the game as well as possible."
+            "For games that use resources to possess the right level of challenge the availability of resource has to be restricted. This means that players have [Limited Resources](limited-resources) in some sense and have to make use of them in the most efficient way to play the game as well as possible."
         ],
         "examples": [
             "in \"Chess\" the players have sixteen pieces each and there is a clear threat of losing these resources.",
             "even though it is possible to build more troops in \"WarCraft\" the game is balanced in such way that there is always a need for planning the use of the troops and also a feeling of the possibility of running out of them."
         ],
         "usage": [
-            "\"Limited Resources\" can be used together with both \"Non-Renewable Resources\" and \"Renewable Resources\". The main point in both cases is, however, to control the amount of \"Resources\" available to the player at any certain point of gameplay in such way that the player is always forced to plan and to make \"Tradeoffs\" when using the \"Resources\". This is often used by having some form of \"Container\" that limits the amount of \"Resources\" available, and the capacity of the \"Container\", in turn, can be modulated by \"Improved Abilities\" or \"Decreased Abilities\" to modulate how limited the \"Resources\" are. Ways of combining \"Limited Resources\" and \"Renewable Resources\" may be that it is possible to gain new \"Resources\" from \"Pick-Ups\" or \"Resource Generators\" but either the \"Resources\" must be used far from these or that the amount of \"Renewable Resources\" are limited.",
-            "\"Limited Resources\" can be used, for example through \"Time Limits\" or \"Budgeted Action Points\", to lessen \"Downtime\" and potential imbalances between players in games with \"Turn Taking\"."
+            "[Limited Resources](limited-resources) can be used together with both [Non-Renewable Resources](non-renewable-resources) and [Renewable Resources](renewable-resources). The main point in both cases is, however, to control the amount of [Resources](resources) available to the player at any certain point of gameplay in such way that the player is always forced to plan and to make [Tradeoffs](tradeoffs) when using the [Resources](resources). This is often used by having some form of [Container](container) that limits the amount of [Resources](resources) available, and the capacity of the [Container](container), in turn, can be modulated by [Improved Abilities](improved-abilities) or [Decreased Abilities](decreased-abilities) to modulate how limited the [Resources](resources) are. Ways of combining [Limited Resources](limited-resources) and [Renewable Resources](renewable-resources) may be that it is possible to gain new [Resources](resources) from [Pick-Ups](pick-ups) or [Resource Generators](resource-generators) but either the [Resources](resources) must be used far from these or that the amount of [Renewable Resources](renewable-resources) are limited.",
+            "[Limited Resources](limited-resources) can be used, for example through [Time Limits](time-limits) or [Budgeted Action Points](budgeted-action-points), to lessen [Downtime](downtime) and potential imbalances between players in games with [Turn Taking](turn-taking)."
         ],
         "consequences": [
-            "\"Limited Resources\" decrease players' \"Freedom of Choice\". In principle all games have \"Limited Resources\", but often some of the \"Resources\" are more limited than the others forcing the player to plan and form strategies about the use of these resources. The amount of available \"Resources\" limits the possible actions and strategies of the players, and thereby their \"Freedom of Choice\". Limiting the amount of \"Resources\" available to the player reduces the potential actions possible for the player, increases \"Stimulated Planning\" and, in some cases, gives a method to avoid \"Analysis Paralysis\". Planning how to use \"Limited Resources\" is one of the corner stones of \"Resource Management\" and skill in making most use of \"Limited Resources\", and especially in making correct \"Risk/Reward\" judgments and often basis for \"Game Mastery\".",
-            "Some form of \"Limited Resources\", typically health, is a requirement for the design of \"Last Man Standing\" goals."
+            "[Limited Resources](limited-resources) decrease players' [Freedom of Choice](freedomof-choice). In principle all games have [Limited Resources](limited-resources), but often some of the [Resources](resources) are more limited than the others forcing the player to plan and form strategies about the use of these resources. The amount of available [Resources](resources) limits the possible actions and strategies of the players, and thereby their [Freedom of Choice](freedomof-choice). Limiting the amount of [Resources](resources) available to the player reduces the potential actions possible for the player, increases [Stimulated Planning](stimulated-planning) and, in some cases, gives a method to avoid [Analysis Paralysis](analysis-paralysis). Planning how to use [Limited Resources](limited-resources) is one of the corner stones of [Resource Management](resource-management) and skill in making most use of [Limited Resources](limited-resources), and especially in making correct [Risk/Reward](risk-reward) judgments and often basis for [Game Mastery](game-mastery).",
+            "Some form of [Limited Resources](limited-resources), typically health, is a requirement for the design of [Last Man Standing](last-man-standing) goals."
         ]
     },
     "relations": {
@@ -26,7 +26,6 @@
             "decreased-abilities"
         ],
         "modulates": [
-            "pick-ups",
             "stimulated-planning",
             "resource-generators",
             "last-man-standing",
@@ -34,12 +33,11 @@
             "downtime",
             "tradeoffs",
             "turn-taking",
-            "freedom-of-choice"
+            "freedomof-choice"
         ],
         "instantiated_by": [
             "time-limits",
             "budgeted-action-points",
-            "non-renewable-resources",
             "container"
         ],
         "modulated_by": [

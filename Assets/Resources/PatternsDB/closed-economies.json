@@ -3,19 +3,19 @@
     "texts": {
         "definition": "A game design which makes the number of a certain type of resources fixed during entire game sessions, although the resources may take different forms or have different status during that period.",
         "description": [
-            "\"Closed Economies\" in games mean that there is no production of resources within the game system and that the resources do not leave the game system. These resources, however, are free to circulate within the game system and they can be transformed into other resources and game elements during the gameplay."
+            "[Closed Economies](closed-economies) in games mean that there is no production of resources within the game system and that the resources do not leave the game system. These resources, however, are free to circulate within the game system and they can be transformed into other resources and game elements during the gameplay."
         ],
         "examples": [
-            "the deck of cards in \"Poker\" forms a \"Closed Economy\" as no new cards are produced during the gameplay and no cards are removed from play between the rounds. The bets used in \"Poker\" are also a kind of \"Closed Economy\"; only the distribution of these resources among the players changes during the gameplay."
+            "the deck of cards in \"Poker\" forms a [Closed Economy](closed-economies) as no new cards are produced during the gameplay and no cards are removed from play between the rounds. The bets used in \"Poker\" are also a kind of [Closed Economy](closed-economies); only the distribution of these resources among the players changes during the gameplay."
         ],
         "usage": [
-            "\"Closed Economies\" are easier to create when the \"Resources\" used during the game cannot be converted to other types of \"Resources\". In these cases it is usually the distribution of these \"Resources\" among the different players that is used as the main variation in the gameplay, as are for example the cases with \"Poker\" and other \"Betting\" games using \"Closed Economies\".",
-            "Although the number of \"Resources\" is fixed in \"Closed Economies\", the distribution of them can vary and sometimes the possibility of variation is modulated by restricting the number of potential owners of the \"Resources\". This can be used as an end condition for game sessions: the players who run out of their \"Resources\" are removed from play through \"Player Elimination\".",
-            "More complex cases of \"Closed Economies\" are found in games where the \"Resources\" can be converted to other types of \"Resources\" through the use of \"Converters\". If this conversion can be cyclical, i. e. that \"Resource\" A can be converted to \"Resource\" B and later \"Resource\" B can be converted to \"Resource\" A, the conversion rate has to be symmetrical. In more complex cases the number of \"Resources\" may differ, but for the system to be a \"Closed Economy\" the original distribution of \"Resources\" must be achieved, providing a form of \"Reversability\" even though other parts of the game state may have changed. The conversion of initial \"Resources\" to other \"Resources\" can also be used as an end condition for the game: when all or a certain amount of the initial \"Resources\" are converted the game or the mode of play ends."
+            "[Closed Economies](closed-economies) are easier to create when the [Resources](resources) used during the game cannot be converted to other types of [Resources](resources). In these cases it is usually the distribution of these [Resources](resources) among the different players that is used as the main variation in the gameplay, as are for example the cases with \"Poker\" and other [Betting](betting) games using [Closed Economies](closed-economies).",
+            "Although the number of [Resources](resources) is fixed in [Closed Economies](closed-economies), the distribution of them can vary and sometimes the possibility of variation is modulated by restricting the number of potential owners of the [Resources](resources). This can be used as an end condition for game sessions: the players who run out of their [Resources](resources) are removed from play through [Player Elimination](player-elimination).",
+            "More complex cases of [Closed Economies](closed-economies) are found in games where the [Resources](resources) can be converted to other types of [Resources](resources) through the use of [Converters](converters). If this conversion can be cyclical, i. e. that [Resource](resources) A can be converted to [Resource](resources) B and later [Resource](resources) B can be converted to [Resource](resources) A, the conversion rate has to be symmetrical. In more complex cases the number of [Resources](resources) may differ, but for the system to be a [Closed Economy](closed-economies) the original distribution of [Resources](resources) must be achieved, providing a form of [Reversability](reversability) even though other parts of the game state may have changed. The conversion of initial [Resources](resources) to other [Resources](resources) can also be used as an end condition for the game: when all or a certain amount of the initial [Resources](resources) are converted the game or the mode of play ends."
         ],
         "consequences": [
-            "\"Closed Economies\" make the use of \"Resources\" independent of the number of that kind of \"Resource\" in a game. This makes them into \"Renewable Resources\" from the players' perspective although they are \"Non-Renewable Resources\" from a game design level.",
-            "The games with \"Closed Economies\" usually impose a kind of \"Time Limit\" to game instances as \"Closed Economies\" easily grind to halt either when the \"Resource\" distribution among the players becomes unbalanced or when there are no further favorable possibilities for converting the available \"Resources\"."
+            "[Closed Economies](closed-economies) make the use of [Resources](resources) independent of the number of that kind of [Resource](resources) in a game. This makes them into [Renewable Resources](renewable-resources) from the players' perspective although they are [Non-Renewable Resources](non-renewable-resources) from a game design level.",
+            "The games with [Closed Economies](closed-economies) usually impose a kind of [Time Limit](time-limits) to game instances as [Closed Economies](closed-economies) easily grind to halt either when the [Resource](resources) distribution among the players becomes unbalanced or when there are no further favorable possibilities for converting the available [Resources](resources)."
         ]
     },
     "relations": {
@@ -28,9 +28,8 @@
             "resources"
         ],
         "instantiated_by": [
-            "transfer-of-control",
-            "betting",
-            "non-renewable-resources"
+            "transferof-control",
+            "betting"
         ],
         "modulated_by": [],
         "conflicts": []

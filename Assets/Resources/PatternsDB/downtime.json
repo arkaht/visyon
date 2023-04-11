@@ -3,24 +3,24 @@
     "texts": {
         "definition": "The player cannot directly affect the outcome of the game for a period of time.",
         "description": [
-            "Whenever players cannot actively work towards achieving a goal, they experience \"Downtime\". This does not mean they cannot do anything in the game; one may be able to move within a limited area without being able to affect the outcome. Neither does it have to automatically occur because players cannot affect the game state; as long as one is planning future actions, one is not having \"Downtime\"."
+            "Whenever players cannot actively work towards achieving a goal, they experience [Downtime](downtime). This does not mean they cannot do anything in the game; one may be able to move within a limited area without being able to affect the outcome. Neither does it have to automatically occur because players cannot affect the game state; as long as one is planning future actions, one is not having [Downtime](downtime)."
         ],
         "examples": [
             "Waiting for one's opponent to move a piece in \"Chess\" when one has finished one's own planning.",
-            "Players that have \"Avatars\" killed in a \"Counter-Strike\" game do not have them respawned and have to wait as spectators until the next match begins.",
-            "Many team-based multiplayer first-person shooters, for example \"Team Fortress Classic\" or \"Return to Castle Wolfenstein: Enemy Territories\", have a certain amount of time where players can move their \"Avatar\" in the game environment before the game begins. This time, which allows more players to be logged on at the beginning of the actual game, cannot be used to affect the outcome of the game with the exception of minor differences in starting position."
+            "Players that have [Avatars](avatars) killed in a \"Counter-Strike\" game do not have them respawned and have to wait as spectators until the next match begins.",
+            "Many team-based multiplayer first-person shooters, for example \"Team Fortress Classic\" or \"Return to Castle Wolfenstein: Enemy Territories\", have a certain amount of time where players can move their [Avatar](avatars) in the game environment before the game begins. This time, which allows more players to be logged on at the beginning of the actual game, cannot be used to affect the outcome of the game with the exception of minor differences in starting position."
         ],
         "usage": [
-            "\"Downtime\" is a difficult pattern to explicitly design for since the cause of \"Downtime\" depends heavily on the players doing action in the game, the current game state, and the subjective opinion of the players experiencing the \"Downtime\". However, the amount of \"Downtime\" in a game can usually be restricted by achieving the \"Right Level of Difficulty\" or giving players \"Limited Planning Ability\", for example limiting \"Analysis Paralysis\" through \"Limited Resources\". \"Dedicated Game Facilitators\", especially \"Game Masters\", can observe \"Downtime\" among players and stop it by giving players opportunities---or forcing them---to act. However, these game facilitators can also force \"Downtime\" upon players. When the right level of \"Downtime\" is achieved, the pattern can support several other patterns, for example, \"Anticipation\" or \"Penalties\".",
-            "There are a number of ways to cause intentional \"Downtime\" for players. Both \"Turn-Based Games\" and \"Real-Time Games\" use the pattern to create \"Penalties\" ---more specifically, \"Individual Penalties\" ---often as an effect of \"Damage\". In the first case, this usually consists of having to skip a turn, while in the second case, it can consist of having to wait a certain time, possibly as a \"Spectator\", until \"Spawning\" occurs or having to wait until the game is finished. In games where all actions are of the same type, any limitations of actions or \"Ability Losses\" can cause \"Downtime\", for example, \"Movement Limitations\" in racing games. \"Cut Scenes\" cause \"Downtime\", which allows for directed parts of the \"Narrative Structure\" to be unfolded, and may be combined to release \"Tension\" after \"Closure Points\". \"Ultra-Powerful Events\" can cause \"Downtime\", but only when they completely hinder players from making any form of actions.",
-            "\"Downtime\" can also be caused by the game system. Examples include the time caused by the saving and loading in \"Save-Load Cycles\" and other system initiated \"Game Pauses\". \"Tick-Based Games\" with long tick times can also have \"Downtime\", and sometimes this it is also intentionally designed into the game.",
-            "\"Downtime\" does not necessarily mean that players cannot affect the game state but that the changes are not perceived as meaningful for the players. \"Downtime\" can be lessened by promoting \"Negotiation\" or \"Stimulated Planning\" for all players, but if the \"Downtime\" is caused by a player, this can negatively affect \"Player Balance\". This is because the player has an advantage since his planning is done from the current game state and does not have to take several possible game states as the starting point for the planning."
+            "[Downtime](downtime) is a difficult pattern to explicitly design for since the cause of [Downtime](downtime) depends heavily on the players doing action in the game, the current game state, and the subjective opinion of the players experiencing the [Downtime](downtime). However, the amount of [Downtime](downtime) in a game can usually be restricted by achieving the [Right Level of Difficulty](right-levelof-difficulty) or giving players [Limited Planning Ability](limited-planning-ability), for example limiting [Analysis Paralysis](analysis-paralysis) through [Limited Resources](limited-resources). [Dedicated Game Facilitators](dedicated-game-facilitators), especially [Game Masters](game-masters), can observe [Downtime](downtime) among players and stop it by giving players opportunities---or forcing them---to act. However, these game facilitators can also force [Downtime](downtime) upon players. When the right level of [Downtime](downtime) is achieved, the pattern can support several other patterns, for example, [Anticipation](anticipation) or [Penalties](penalties).",
+            "There are a number of ways to cause intentional [Downtime](downtime) for players. Both [Turn-Based Games](turn-based-games) and [Real-Time Games](real-time-games) use the pattern to create [Penalties](penalties) ---more specifically, [Individual Penalties](individual-penalties) ---often as an effect of [Damage](damage). In the first case, this usually consists of having to skip a turn, while in the second case, it can consist of having to wait a certain time, possibly as a [Spectator](spectators), until [Spawning](spawning) occurs or having to wait until the game is finished. In games where all actions are of the same type, any limitations of actions or [Ability Losses](ability-losses) can cause [Downtime](downtime), for example, [Movement Limitations](movement-limitations) in racing games. [Cut Scenes](cut-scenes) cause [Downtime](downtime), which allows for directed parts of the [Narrative Structure](narrative-structures) to be unfolded, and may be combined to release [Tension](tension) after [Closure Points](closure-points). [Ultra-Powerful Events](ultra-powerful-events) can cause [Downtime](downtime), but only when they completely hinder players from making any form of actions.",
+            "[Downtime](downtime) can also be caused by the game system. Examples include the time caused by the saving and loading in [Save-Load Cycles](save-load-cycles) and other system initiated [Game Pauses](game-pauses). [Tick-Based Games](tick-based-games) with long tick times can also have [Downtime](downtime), and sometimes this it is also intentionally designed into the game.",
+            "[Downtime](downtime) does not necessarily mean that players cannot affect the game state but that the changes are not perceived as meaningful for the players. [Downtime](downtime) can be lessened by promoting [Negotiation](negotiation) or [Stimulated Planning](stimulated-planning) for all players, but if the [Downtime](downtime) is caused by a player, this can negatively affect [Player Balance](player-balance). This is because the player has an advantage since his planning is done from the current game state and does not have to take several possible game states as the starting point for the planning."
         ],
         "consequences": [
-            "\"Downtime\" occurs primary in \"Multiplayer Games\": either \"Asynchronous Games\" or \"Synchronous Games\" that are \"Turn-Based Games\" and where the \"Turn Taking\" takes time due to \"Cognitive Immersion\" and \"Analysis Paralysis\" of other players. However, any type of game with \"Player Elimination\" or \"Player Killing\" can have \"Downtime\" if they allow players to return to the game after a period of time. \"Downtime\" can be especially problematic in games with the possibility of \"Early Elimination\". \"Downtime\" can also exist in \"Single-Player Games\", but in those cases is mainly due to having to wait for \"Extended Actions\" to complete or the effect of \"Penalties\".",
-            "Since players experiencing \"Downtime\" cannot choose what they do, it causes loss of \"Freedom of Choice\", and experiencing \"Downtime\" can be perceived as an \"Individual Penalty\". The pattern can also occur in \"Real-Time Games\", typically because of players being in a section where no meaningful changes in game state occur, for example, in a moving elevator. When combined with views of \"Inaccessible Areas\", these periods of \"Downtime\" can cause \"Tension\", for example, if one can see that the elevator is moving towards a place filled with monsters. \"Downtime\" is usually enforced on the player after a \"Closure Point\", either for technical reasons or for maintaining the \"Consistent Reality Logic\" through a \"Cut Scene\".",
-            "Too large periods of \"Downtime\" make reasonable waiting times impossible and can ruin \"Immersion\". However, acceptable levels of \"Downtime\" not only allow reasonable waiting times but may be required to build \"Anticipation\" for one's next action. Further, \"Downtime\" can be used to try and figure out \"Unknown Goals\" of other players by observing their actions.",
-            "\"No-Ops\" do not create \"Downtime\" since they are choices made by players to not affect the game state, which affects the outcome of the game."
+            "[Downtime](downtime) occurs primary in [Multiplayer Games](multiplayer-games): either [Asynchronous Games](asynchronous-games) or [Synchronous Games](synchronous-games) that are [Turn-Based Games](turn-based-games) and where the [Turn Taking](turn-taking) takes time due to [Cognitive Immersion](cognitive-immersion) and [Analysis Paralysis](analysis-paralysis) of other players. However, any type of game with [Player Elimination](player-elimination) or [Player Killing](player-killing) can have [Downtime](downtime) if they allow players to return to the game after a period of time. [Downtime](downtime) can be especially problematic in games with the possibility of [Early Elimination](early-elimination). [Downtime](downtime) can also exist in [Single-Player Games](single-player-games), but in those cases is mainly due to having to wait for [Extended Actions](extended-actions) to complete or the effect of [Penalties](penalties).",
+            "Since players experiencing [Downtime](downtime) cannot choose what they do, it causes loss of [Freedom of Choice](freedomof-choice), and experiencing [Downtime](downtime) can be perceived as an [Individual Penalty](individual-penalties). The pattern can also occur in [Real-Time Games](real-time-games), typically because of players being in a section where no meaningful changes in game state occur, for example, in a moving elevator. When combined with views of [Inaccessible Areas](inaccessible-areas), these periods of [Downtime](downtime) can cause [Tension](tension), for example, if one can see that the elevator is moving towards a place filled with monsters. [Downtime](downtime) is usually enforced on the player after a [Closure Point](closure-points), either for technical reasons or for maintaining the [Consistent Reality Logic](consistent-reality-logic) through a [Cut Scene](cut-scenes).",
+            "Too large periods of [Downtime](downtime) make reasonable waiting times impossible and can ruin [Immersion](immersion). However, acceptable levels of [Downtime](downtime) not only allow reasonable waiting times but may be required to build [Anticipation](anticipation) for one's next action. Further, [Downtime](downtime) can be used to try and figure out [Unknown Goals](unknown-goals) of other players by observing their actions.",
+            "[No-Ops](no-ops) do not create [Downtime](downtime) since they are choices made by players to not affect the game state, which affects the outcome of the game."
         ]
     },
     "relations": {
@@ -35,8 +35,7 @@
             "unknown-goals",
             "multiplayer-games",
             "closure-points",
-            "consistent-reality-logic",
-            "single-player-games"
+            "consistent-reality-logic"
         ],
         "instantiated_by": [
             "early-elimination",
@@ -45,12 +44,9 @@
             "cognitive-immersion",
             "movement-limitations",
             "multiplayer-games",
-            "turn-based-games",
             "synchronous-games",
             "asynchronous-games",
             "analysis-paralysis",
-            "ultra-powerful-events",
-            "save-load-cycles",
             "cut-scenes",
             "ability-losses",
             "spawning",
@@ -60,19 +56,17 @@
             "game-pauses"
         ],
         "modulated_by": [
-            "tick-based-games",
             "dedicated-game-facilitators",
-            "right-level-of-complexity",
+            "right-levelof-complexity",
             "limited-resources",
             "game-masters"
         ],
         "conflicts": [
             "time-limits",
             "ephemeral-goals",
-            "real-time-games",
             "negotiation",
             "tension",
-            "freedom-of-choice",
+            "freedomof-choice",
             "game-masters",
             "dedicated-game-facilitators",
             "limited-planning-ability",

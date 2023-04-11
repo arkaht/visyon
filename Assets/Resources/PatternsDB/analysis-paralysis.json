@@ -3,20 +3,20 @@
     "texts": {
         "definition": "The players can spend considerable amounts of time planning their actions, because the consequences of the actions are at least somewhat predictable, and the number of possible outcomes grows exponentially the further in game time the players plan ahead.",
         "description": [
-            "The classic case of \"Analysis Paralysis\" is that the players are unable to make any useful decisions regarding future actions because they attempt to think too far ahead, and the possible game state space is far too large for proper min-max analysis. \"Analysis Paralysis\" depends also on the players' play style; some players are more prone to \"Analysis Paralysis\" than the others."
+            "The classic case of [Analysis Paralysis](analysis-paralysis) is that the players are unable to make any useful decisions regarding future actions because they attempt to think too far ahead, and the possible game state space is far too large for proper min-max analysis. [Analysis Paralysis](analysis-paralysis) depends also on the players' play style; some players are more prone to [Analysis Paralysis](analysis-paralysis) than the others."
         ],
         "examples": [
             "\"Chess\" and \"Go\" have been used as prime examples of games where there is a possibility to almost endlessly analyze the possible actions for the future. Both have decision trees, which grow exponentially over game time.",
-            "\"Diplomacy\", even though the possible actions are quite limited, can cause \"Analysis Paralysis\" when the players start to think recursively about what the other players are trying to do and how the other players would perceive the players' actions."
+            "\"Diplomacy\", even though the possible actions are quite limited, can cause [Analysis Paralysis](analysis-paralysis) when the players start to think recursively about what the other players are trying to do and how the other players would perceive the players' actions."
         ],
         "usage": [
-            "\"Analysis Paralysis\" can be achieved by letting players have \"Freedom of Choice\" between several actions with \"Predictable Consequences\", even if these are \"Limited Set of Actions\" or players have \"Limited Resources\". This forces players to consider \"Tradeoffs\" and the more difficult the values of the actions are to judge, the more likely \"Analysis Paralysis\" is to occur. The likelihood can also be modulated by \"Irreversible Actions\", as well as \"Predefined Goals\" in games where the players have \"Perfect Information\" and \"Symmetric Information\" about the discrete game states. This allows the players to plan the consequences of their current and future actions. \"Irreversible Actions\" guarantee that consequences of the chosen action will be effective also in the future, and this makes it possible to plan several actions ahead while at the same time decreasing the chances to perform \"Experimenting.\" \"Budgeted Action Points\" provide means of expanding the number of decisions the players have to make in each decision point, in effect, broadening the scope of \"Freedom of Choice\", as are open \"Discard Piles\" in card games, which allow the players to have \"Game State Overviews\" and may cause \"Analysis Paralysis\".",
-            "It is possible to lessen the possibility for \"Analysis Paralysis\" by introducing \"Randomness\" to the consequences of the actions and thereby giving players \"Limited Foresight\" and \"Limited Planning Abilities\"."
+            "[Analysis Paralysis](analysis-paralysis) can be achieved by letting players have [Freedom of Choice](freedomof-choice) between several actions with [Predictable Consequences](predictable-consequences), even if these are [Limited Set of Actions](limited-setof-actions) or players have [Limited Resources](limited-resources). This forces players to consider [Tradeoffs](tradeoffs) and the more difficult the values of the actions are to judge, the more likely [Analysis Paralysis](analysis-paralysis) is to occur. The likelihood can also be modulated by [Irreversible Actions](irreversible-actions), as well as [Predefined Goals](predefined-goals) in games where the players have [Perfect Information](perfect-information) and [Symmetric Information](symmetric-information) about the discrete game states. This allows the players to plan the consequences of their current and future actions. [Irreversible Actions](irreversible-actions) guarantee that consequences of the chosen action will be effective also in the future, and this makes it possible to plan several actions ahead while at the same time decreasing the chances to perform [Experimenting.](experimenting) [Budgeted Action Points](budgeted-action-points) provide means of expanding the number of decisions the players have to make in each decision point, in effect, broadening the scope of [Freedom of Choice](freedomof-choice), as are open [Discard Piles](discard-piles) in card games, which allow the players to have [Game State Overviews](game-state-overview) and may cause [Analysis Paralysis](analysis-paralysis).",
+            "It is possible to lessen the possibility for [Analysis Paralysis](analysis-paralysis) by introducing [Randomness](randomness) to the consequences of the actions and thereby giving players [Limited Foresight](limited-foresight) and [Limited Planning Abilities](limited-planning-ability)."
         ],
         "consequences": [
-            "\"Analysis Paralysis\" is caused by \"Stimulated Planning\" and \"Cognitive Immersion\", and is usually a feature game designers try to avoid. That players have \"Analysis Paralysis\" can be a sign that the game does not have the \"Right Level of Complexity\" for those players.",
-            "In games with \"Turn Taking\", the presence of \"Analysis Paralysis\" leads to excessive \"Downtime\" for the other players in case some of the players get stuck in planning their turns. The nature of \"Analysis Paralysis\" situations has a somewhat adverse effect on the \"Anticipation\" of the uncertain outcome during the play.",
-            "The negative effects of \"Analysis Paralysis\" for other players can easily be avoided by having \"Time Limits\"."
+            "[Analysis Paralysis](analysis-paralysis) is caused by [Stimulated Planning](stimulated-planning) and [Cognitive Immersion](cognitive-immersion), and is usually a feature game designers try to avoid. That players have [Analysis Paralysis](analysis-paralysis) can be a sign that the game does not have the [Right Level of Complexity](right-levelof-complexity) for those players.",
+            "In games with [Turn Taking](turn-taking), the presence of [Analysis Paralysis](analysis-paralysis) leads to excessive [Downtime](downtime) for the other players in case some of the players get stuck in planning their turns. The nature of [Analysis Paralysis](analysis-paralysis) situations has a somewhat adverse effect on the [Anticipation](anticipation) of the uncertain outcome during the play.",
+            "The negative effects of [Analysis Paralysis](analysis-paralysis) for other players can easily be avoided by having [Time Limits](time-limits)."
         ]
     },
     "relations": {
@@ -27,14 +27,14 @@
         "instantiated_by": [
             "cognitive-immersion",
             "stimulated-planning",
-            "limited-set-of-actions",
+            "limited-setof-actions",
             "irreversible-actions",
             "budgeted-action-points",
             "tradeoffs",
-            "freedom-of-choice",
+            "freedomof-choice",
             "turn-taking",
             "predefined-goals",
-            "right-level-of-complexity",
+            "right-levelof-complexity",
             "game-state-overview"
         ],
         "modulated_by": [

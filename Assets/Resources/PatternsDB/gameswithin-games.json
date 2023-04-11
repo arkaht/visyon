@@ -1,0 +1,36 @@
+{
+    "name": "Games within Games",
+    "texts": {
+        "definition": "A game which is played completely within another game.",
+        "description": [
+            "[Games within Games](gameswithin-games) are games that are played completely within the framework of another game. This may be because the original games do not have enough tension or excitement without the outer games or because the designs only allow the inner games to be played through the interface of the outer games."
+        ],
+        "examples": [
+            "\"WarioWare\" consist of playing a number of small games within the scope of the game. As the smaller games are provided only through the main game, playing the main game is the only way to play the smaller games.",
+            "Although available as an independent game, the entire game \"Maniac Mansion\" could be played by getting to the right location in its sequel \"Day of the Tentacle\"."
+        ],
+        "usage": [
+            "[Games within Games](gameswithin-games) can be used to create [Meta Games](meta-games) if [Trans-Game Information](trans-game-information) is passed between the games or can simply be chances for players to enjoy or experience other games. The former can be required parts of the main game, forcing players to have [Varied Gameplay](varied-gameplay), or be [Optional Goals](optional-goals), letting players choose whether they want the offered [Varied Gameplay](varied-gameplay) or not. These optional [Games within Games](gameswithin-games) can be [Ephemeral Goals](ephemeral-goals) if they are only available to play for certain periods of time or be [Easter Eggs](easter-eggs) if their existence is unknown at the beginning of a game session."
+        ],
+        "consequences": [
+            "Unless the inner games fit the [Consistent Reality Logic](consistent-reality-logic) of the outer games, the inner games of [Games within Games](gameswithin-games) negatively affect any [Immersion](immersion) in the outer games as they have different reality logics."
+        ]
+    },
+    "relations": {
+        "instantiates": [
+            "meta-games",
+            "optional-goals",
+            "easter-eggs",
+            "varied-gameplay"
+        ],
+        "modulates": [
+            "ephemeral-goals",
+            "consistent-reality-logic"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [],
+        "conflicts": [
+            "immersion"
+        ]
+    }
+}

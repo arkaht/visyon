@@ -3,8 +3,8 @@
     "texts": {
         "definition": "Points that are used by players to do actions during their turns.",
         "description": [
-            "\"Budgeted Action Points\" are a way to let players decide from turn to turn which actions they want to perform. Usually they not only let players have alternatives to choose from but also allow them to perform the same actions several times if wished but at the expense of not then being able to do other actions.",
-            "A form of \"Budgeted Action Points\" is used to control how often certain actions can be performed in real-time games. In this case the actions costs a certain amount of points from some value and this value slowly increases until it has reached a maximum point. This means that the amount of uses of the action during a certain amount of time is limited but players can save up points in order to use the actions several times quickly after one another."
+            "[Budgeted Action Points](budgeted-action-points) are a way to let players decide from turn to turn which actions they want to perform. Usually they not only let players have alternatives to choose from but also allow them to perform the same actions several times if wished but at the expense of not then being able to do other actions.",
+            "A form of [Budgeted Action Points](budgeted-action-points) is used to control how often certain actions can be performed in real-time games. In this case the actions costs a certain amount of points from some value and this value slowly increases until it has reached a maximum point. This means that the amount of uses of the action during a certain amount of time is limited but players can save up points in order to use the actions several times quickly after one another."
         ],
         "examples": [
             "the board game \"Space Hulk\" has a limited set of action points for each unit in the game. For the player controlling genestealers these action points are used for moving, turning, and attacking in close combat while the player controlling the space marines can use them for these activities and additionally to shoot and reload weapons.",
@@ -12,13 +12,13 @@
             "calling air strikes, producing ammunition boxes, or handing out health packs in \"Return to Castle Wolfenstein: Enemy Territory\" all requires resources from the players doing the actions. These resources are limited by are regained over time, letting players choose between continuously doing the actions at regular intervals or saving up to do several of them in a short time span."
         ],
         "usage": [
-            "The selection of possible actions which can be paid by the \"Budgeted Action Points\" can be any kind of action that is part of the overall game play, but \"Varied Gameplay\" and \"Tradeoffs\" can be encouraged by having heterogeneous groups. \"Budgeted Action Points\" can be used to give players \"Limited Resources\" for performing actions both before and during gameplay. Before gameplay, this is most often used to give players ways to select \"Skill\" levels or sets of advantages and disadvantages for \"Characters\". For \"Budgeted Action Points\" that are used during gameplay, common possible actions include: \"Movement\" with different costsfor different terrain and \"Unit\" types to create \"Movement Limitations\"; different forms of actions related to \"Combat\"; and, actions that refill \"Renewable Resources\" such as healing or repairing.",
-            "\"Budgeted Action Points\" can have \"Balancing Effects\" on powerful abilities since these may cost more points and not be usable so often. Further, the impact of \"New Abilities\" or \"Privileged Abilities\" is lessened when used together with \"Budgeted Action Points\" as using them requires players to not use other actions."
+            "The selection of possible actions which can be paid by the [Budgeted Action Points](budgeted-action-points) can be any kind of action that is part of the overall game play, but [Varied Gameplay](varied-gameplay) and [Tradeoffs](tradeoffs) can be encouraged by having heterogeneous groups. [Budgeted Action Points](budgeted-action-points) can be used to give players [Limited Resources](limited-resources) for performing actions both before and during gameplay. Before gameplay, this is most often used to give players ways to select [Skill](skills) levels or sets of advantages and disadvantages for [Characters](characters). For [Budgeted Action Points](budgeted-action-points) that are used during gameplay, common possible actions include: [Movement](movement) with different costsfor different terrain and [Unit](units) types to create [Movement Limitations](movement-limitations); different forms of actions related to [Combat](combat); and, actions that refill [Renewable Resources](renewable-resources) such as healing or repairing.",
+            "[Budgeted Action Points](budgeted-action-points) can have [Balancing Effects](balancing-effects) on powerful abilities since these may cost more points and not be usable so often. Further, the impact of [New Abilities](new-abilities) or [Privileged Abilities](privileged-abilities) is lessened when used together with [Budgeted Action Points](budgeted-action-points) as using them requires players to not use other actions."
         ],
         "consequences": [
-            "\"Budgeted Action Points\" are \"Resources\" which gives players a \"Freedom of Choice\" within a \"Limited Set of Actions\". The points are a form of \"Renewable Resources\" which requires players to continuously do \"Resource Management\" and \"Tradeoffs\" between the different possible actions available.",
-            "\"Turn-Based Games\" and \"Tick-Based Games\" can have \"Budgeted Action Points\" on two levels. On the strategic level, \"Budgeted Action Points\" are used to do \"Investment\" either in technology to give new \"Units\" with \"Privileged Abilities\" or in production to create new \"Units\",\"Producers\", or \"Converters\". On a tactical level, \"Budgeted Action Points\" are given to each \"Unit\" at the start of the turn and most \"Units\" usually have a basic common set of actions with special \"Units\" have additional choices. The presence of \"Budgeted Action Points\" in \"Turn-Based Games\" typically causes \"Cognitive Immersion\" and \"Analysis Paralysis\".",
-            "\"Budgeted Action Points\" in \"Real-Time Games\" are usually optional and are shown as through a \"Status Indicator\"."
+            "[Budgeted Action Points](budgeted-action-points) are [Resources](resources) which gives players a [Freedom of Choice](freedomof-choice) within a [Limited Set of Actions](limited-setof-actions). The points are a form of [Renewable Resources](renewable-resources) which requires players to continuously do [Resource Management](resource-management) and [Tradeoffs](tradeoffs) between the different possible actions available.",
+            "[Turn-Based Games](turn-based-games) and [Tick-Based Games](tick-based-games) can have [Budgeted Action Points](budgeted-action-points) on two levels. On the strategic level, [Budgeted Action Points](budgeted-action-points) are used to do [Investment](investments) either in technology to give new [Units](units) with [Privileged Abilities](privileged-abilities) or in production to create new [Units](units),[Producers](producers), or [Converters](converters). On a tactical level, [Budgeted Action Points](budgeted-action-points) are given to each [Unit](units) at the start of the turn and most [Units](units) usually have a basic common set of actions with special [Units](units) have additional choices. The presence of [Budgeted Action Points](budgeted-action-points) in [Turn-Based Games](turn-based-games) typically causes [Cognitive Immersion](cognitive-immersion) and [Analysis Paralysis](analysis-paralysis).",
+            "[Budgeted Action Points](budgeted-action-points) in [Real-Time Games](real-time-games) are usually optional and are shown as through a [Status Indicator](status-indicators)."
         ]
     },
     "relations": {
@@ -28,16 +28,13 @@
             "resources",
             "renewable-resources",
             "tradeoffs",
-            "freedom-of-choice",
+            "freedomof-choice",
             "varied-gameplay",
             "analysis-paralysis",
             "balancing-effects",
             "limited-resources"
         ],
         "modulates": [
-            "tick-based-games",
-            "turn-based-games",
-            "real-time-games",
             "new-abilities",
             "privileged-abilities",
             "characters",

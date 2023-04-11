@@ -3,21 +3,21 @@
     "texts": {
         "definition": "Players have access to information about the game state in the same format that the game state is stored",
         "description": [
-            "Many games allow players to see the configuration of game elements, and their individual values, using the same syntax as the game state uses. The easiest examples are from non-computerized board games where physical game elements are used to store the game state. Card games also make use of \"Direct Information\" as players typically see their own cards and the cards that have been played but card games can also force players to communicate or gain information in indirect ways, e. g. bidding in \"Bridge\"."
+            "Many games allow players to see the configuration of game elements, and their individual values, using the same syntax as the game state uses. The easiest examples are from non-computerized board games where physical game elements are used to store the game state. Card games also make use of [Direct Information](direct-information) as players typically see their own cards and the cards that have been played but card games can also force players to communicate or gain information in indirect ways, e. g. bidding in \"Bridge\"."
         ],
         "examples": [
             "Classical board games such as \"Go\" and \"Chess\" have their game state stored by the spatial relations of the physical game pieces and the board."
         ],
         "usage": [
-            "\"Direct Information\" can easily be implemented by using tangible game elements to represent values in the game state; if the only way to manipulate the value is to manipulate the game element, information about it is automatically direct. Other ways of implementing \"Direct Information\" depend on how much information, and what kind of information, the game designer wants players to be able to give or receive. \"Social Interaction\" and \"Negotiation\" can allow players to freely choose the amount and type of information, and also allow them to use direct or \"Indirect Information\" as they wish or if they wish to mix them. \"Direct Information\" in these cases decreases the possibility of \"Bluffing\". \"Bidding\" and \"Trading\" typically has a minimum set of information that needs to be communicated, typically number and kind of game elements although this can be expanded greatly or reduced to only a number of game elements.",
-            "Other ways of giving players \"Direct Information\" include game elements such as \"Alarms\" and \"Traces\" or parts of the interface such as \"Status Indicators, Goal Indicators\", \"Progress Indicators,\" and \"Outcome Indicators\". Game elements that can be used for either \"Direct Information\" or \"Indirect Information\" to support \"Puzzle Solving\" include \"Helpers\" and \"Clues\".",
-            "A special case of using \"Direct Information\" is to support \"Save-Load Cycles\" so that the game state can be stored for later gameplay or for returning to a previous game state."
+            "[Direct Information](direct-information) can easily be implemented by using tangible game elements to represent values in the game state; if the only way to manipulate the value is to manipulate the game element, information about it is automatically direct. Other ways of implementing [Direct Information](direct-information) depend on how much information, and what kind of information, the game designer wants players to be able to give or receive. [Social Interaction](social-interaction) and [Negotiation](negotiation) can allow players to freely choose the amount and type of information, and also allow them to use direct or [Indirect Information](indirect-information) as they wish or if they wish to mix them. [Direct Information](direct-information) in these cases decreases the possibility of [Bluffing](bluffing). [Bidding](bidding) and [Trading](trading) typically has a minimum set of information that needs to be communicated, typically number and kind of game elements although this can be expanded greatly or reduced to only a number of game elements.",
+            "Other ways of giving players [Direct Information](direct-information) include game elements such as [Alarms](alarms) and [Traces](traces) or parts of the interface such as \"Status Indicators, Goal Indicators\", [Progress Indicators,](progress-indicators) and [Outcome Indicators](outcome-indicators). Game elements that can be used for either [Direct Information](direct-information) or [Indirect Information](indirect-information) to support [Puzzle Solving](puzzle-solving) include [Helpers](helpers) and [Clues](clues).",
+            "A special case of using [Direct Information](direct-information) is to support [Save-Load Cycles](save-load-cycles) so that the game state can be stored for later gameplay or for returning to a previous game state."
         ],
         "consequences": [
-            "Since \"Direct Information\" easily allows players to make assumptions about the game state, the pattern supports \"Perceivable Margins\" and \"Stimulated Planning\". Since it minimizes risks for misunderstanding information, \"Direct Information\" can be used to support \"Perfect Information\" although \"Direct Information\" is not guarantee of its presence.",
-            "\"Direct Information\" can eliminate the possibility for \"Uncertainty of Information\" or \"Imperfect Information\" due to risks for misunderstanding. However, since these patterns can occur for several other reasons, e. g. lack of information or by use of \"Bluffing\", the patterns can co-exist.",
-            "\"Direct Information\" risks breaking \"Emotional Immersion\" as the numerical game states are seldom compatible with \"Narrative Structures\" orthe theme of the game used to evoke the emotions.",
-            "\"Negotiation\" is typically not done by using \"Direct Information\", although the consequences of the \"Negotiation\", e. g. \"Bidding\" and \"Trading\", often require it to avoid \"Player Decided Results\"."
+            "Since [Direct Information](direct-information) easily allows players to make assumptions about the game state, the pattern supports [Perceivable Margins](perceivable-margins) and [Stimulated Planning](stimulated-planning). Since it minimizes risks for misunderstanding information, [Direct Information](direct-information) can be used to support [Perfect Information](perfect-information) although [Direct Information](direct-information) is not guarantee of its presence.",
+            "[Direct Information](direct-information) can eliminate the possibility for [Uncertainty of Information](uncertaintyof-information) or [Imperfect Information](imperfect-information) due to risks for misunderstanding. However, since these patterns can occur for several other reasons, e. g. lack of information or by use of [Bluffing](bluffing), the patterns can co-exist.",
+            "[Direct Information](direct-information) risks breaking [Emotional Immersion](emotional-immersion) as the numerical game states are seldom compatible with [Narrative Structures](narrative-structures) orthe theme of the game used to evoke the emotions.",
+            "[Negotiation](negotiation) is typically not done by using [Direct Information](direct-information), although the consequences of the [Negotiation](negotiation), e. g. [Bidding](bidding) and [Trading](trading), often require it to avoid [Player Decided Results](player-decided-results)."
         ]
     },
     "relations": {
@@ -41,13 +41,11 @@
             "perfect-information",
             "communication-channels"
         ],
-        "modulated_by": [
-            "save-load-cycles"
-        ],
+        "modulated_by": [],
         "conflicts": [
             "indirect-information",
             "imperfect-information",
-            "uncertainty-of-information",
+            "uncertaintyof-information",
             "emotional-immersion",
             "red-herrings"
         ]

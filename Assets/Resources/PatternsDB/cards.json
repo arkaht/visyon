@@ -8,24 +8,22 @@
         ],
         "examples": [
             "The common set of cards, used for example in \"Blackjack\" or \"Poker\", consists of 52 cards split between four suits of 13 cards each, where the 13 cards are numbered from 2 to 10 and include a knight, queen, king and ace.",
-            "alternative card designs include the \"card sets\" of collectable card games such as \"Magic: the Gathering\" or \"Illuminati: New World Order\". In both of these several different categories of cards are mixed and are required to be used in order to win, some enabling actions, some acting as resources generators. \"Illuminati: New World Order\" also uses spatial relationships of the \"Cards\" as a meaningful element of the gameplay.",
-            "the board game \"Talisman\" uses \"Cards\" to randomize the contents of areas on the game board, and the \"Card Hands\" players possess are public inventories of items found."
+            "alternative card designs include the \"card sets\" of collectable card games such as \"Magic: the Gathering\" or \"Illuminati: New World Order\". In both of these several different categories of cards are mixed and are required to be used in order to win, some enabling actions, some acting as resources generators. \"Illuminati: New World Order\" also uses spatial relationships of the [Cards](cards) as a meaningful element of the gameplay.",
+            "the board game \"Talisman\" uses [Cards](cards) to randomize the contents of areas on the game board, and the [Card Hands](card-hands) players possess are public inventories of items found."
         ],
         "usage": [
             "The most well-known card games use the common card pack with 52 cards in four suits. However, there are many other types of card packs and many games use game specific card sets to provide either additional or different information or to have different distributions of the cards.",
-            "Games where players have control over the cards, i. e. by using \"Card Hands\", the \"Cards\" are given to players either by distributing all cards before the gameplay begins or by using a \"Drawing Stack\".",
-            "\"Cards\" usually are taken out of play after being used once, making them \"Non-Renewable Resources\" and \"Focus Loci\" for the actions they represent, and the actions of playing them can be seen as an abstract form of \"Consumers\" or \"Converters\". Independent of how cards are used by players, most games use \"Discard Piles\" to separate the cards that have been used from others, except for card games which use tricks."
+            "Games where players have control over the cards, i. e. by using [Card Hands](card-hands), the [Cards](cards) are given to players either by distributing all cards before the gameplay begins or by using a [Drawing Stack](drawing-stacks).",
+            "[Cards](cards) usually are taken out of play after being used once, making them [Non-Renewable Resources](non-renewable-resources) and [Focus Loci](focus-loci) for the actions they represent, and the actions of playing them can be seen as an abstract form of [Consumers](consumers) or [Converters](converters). Independent of how cards are used by players, most games use [Discard Piles](discard-piles) to separate the cards that have been used from others, except for card games which use tricks."
         ],
         "consequences": [
-            "Sets of \"Cards\" allow game designers to determine exactly the distribution between different resources, events or outcomes in a game while still providing \"Randomness\". Since cardsare two-sided, the information contained on the card can be distributed in various ways between the two-sides: having no information on one side (except that it is a card in the set) as is the case for traditional cards; marking functionally different cards on both sides but not the specific characteristics or placing one of several categories of information on both sides. This allows fine-tuning of the use of \"Imperfect Information\" in the game design, including using it in \"Book-Keeping Tokens\"."
+            "Sets of [Cards](cards) allow game designers to determine exactly the distribution between different resources, events or outcomes in a game while still providing [Randomness](randomness). Since cardsare two-sided, the information contained on the card can be distributed in various ways between the two-sides: having no information on one side (except that it is a card in the set) as is the case for traditional cards; marking functionally different cards on both sides but not the specific characteristics or placing one of several categories of information on both sides. This allows fine-tuning of the use of [Imperfect Information](imperfect-information) in the game design, including using it in [Book-Keeping Tokens](book-keeping-tokens)."
         ]
     },
     "relations": {
         "instantiates": [
             "randomness",
             "imperfect-information",
-            "non-renewable-resources",
-            "book-keeping-tokens",
             "focus-loci"
         ],
         "modulates": [],

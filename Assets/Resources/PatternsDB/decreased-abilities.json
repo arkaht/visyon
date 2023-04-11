@@ -3,20 +3,20 @@
     "texts": {
         "definition": "Players' chance of succeeding with an action as a function within the game is decreased, or the calculated effect the action has in the game decreased.",
         "description": [
-            "Many games have events that make players' future actions have less effect, or less chance of succeeding, than they originally had. These \"Decreased Abilities\" can be the consequences of running out of \"Resources\" or being affected by hostile actions but require players to use the abilities more efficiently to reach the same level of effect as previously."
+            "Many games have events that make players' future actions have less effect, or less chance of succeeding, than they originally had. These [Decreased Abilities](decreased-abilities) can be the consequences of running out of [Resources](resources) or being affected by hostile actions but require players to use the abilities more efficiently to reach the same level of effect as previously."
         ],
         "examples": [
             "Each point of damage received in \"RoboRally\" gives the player one card less at the beginning of each turn. As these cards are used to program a robot's movement, the reduction in number of cards effectively reduces the player's ability to control the robot.",
             "Being hit by an ice cube or polygon ball weapon in the \"Monkey Race 2\" party game in \"Super Monkey Ball 2\" significantly reduces players' top speed and ability to steer."
         ],
         "usage": [
-            "Instantiating \"Decreased Abilities\" can easily be done by changing the values in the game state that are part of the evaluation functions of an action. Typically, this is motivated by changes in \"Skills\" of \"Characters\" or \"Units\". An indirect way of achieving \"Decreased Abilities\" is to require use of \"Limited Resources\", and maybe \"Non-Renewable Resources\", so that players have to make \"Risk/Reward\" choices of whether to use the action. This limits the \"Freedom of Choice\" when the players can use the actions. Reducing the amount of \"Resources\" a player can access or store is another way to combine \"Decreased Abilities\" with \"Limited Resources\".",
-            "\"Decreased Abilities\" are often used as \"Penalties\" to affect \"Player Balance\". When the effect of this needs to be modulated, \"Time Limits\" of the decrease or complementing \"Improved Abilities\" in other areas can be used to achieve a \"Balancing Effect\".",
-            "A common place for \"Decreased Abilities\" to occur in gameplay is as the consequences of \"Player Killing\", either represented through the loss of \"Tools\" or experience."
+            "Instantiating [Decreased Abilities](decreased-abilities) can easily be done by changing the values in the game state that are part of the evaluation functions of an action. Typically, this is motivated by changes in [Skills](skills) of [Characters](characters) or [Units](units). An indirect way of achieving [Decreased Abilities](decreased-abilities) is to require use of [Limited Resources](limited-resources), and maybe [Non-Renewable Resources](non-renewable-resources), so that players have to make [Risk/Reward](risk-reward) choices of whether to use the action. This limits the [Freedom of Choice](freedomof-choice) when the players can use the actions. Reducing the amount of [Resources](resources) a player can access or store is another way to combine [Decreased Abilities](decreased-abilities) with [Limited Resources](limited-resources).",
+            "[Decreased Abilities](decreased-abilities) are often used as [Penalties](penalties) to affect [Player Balance](player-balance). When the effect of this needs to be modulated, [Time Limits](time-limits) of the decrease or complementing [Improved Abilities](improved-abilities) in other areas can be used to achieve a [Balancing Effect](balancing-effects).",
+            "A common place for [Decreased Abilities](decreased-abilities) to occur in gameplay is as the consequences of [Player Killing](player-killing), either represented through the loss of [Tools](tools) or experience."
         ],
         "consequences": [
-            "\"Decreased Abilities\" are \"Penalties\" that affect players' \"Perceived Chance to Succeed\". If an ability is decreased so much that the perceive chance of success to achieve a goal by using it becomes nothing, any \"Illusion of Influence\" due to the action is lost. If the chance actually is nil, the \"Decreased Ability\" can be seen as an \"Ability Loss\" and is in conflict with providing players with a \"Perceived Chance to Succeed\". Unlike \"Ability Loss\", \"Decreased Abilities\" can be used to affect the \"Right Level of Difficulty\" by raising it while retaining the \"Right Level of Complexity\".",
-            "\"Decreased Abilities\" can be used to negatively define \"Orthogonal Unit Differentiation\". This kind of differentiation typical is an emergent feature due to different levels of \"Damage\" or depletion of \"Resources\" between \"Units\" or players in a team."
+            "[Decreased Abilities](decreased-abilities) are [Penalties](penalties) that affect players' [Perceived Chance to Succeed](perceived-chanceto-succeed). If an ability is decreased so much that the perceive chance of success to achieve a goal by using it becomes nothing, any [Illusion of Influence](illusionof-influence) due to the action is lost. If the chance actually is nil, the [Decreased Ability](decreased-abilities) can be seen as an [Ability Loss](ability-losses) and is in conflict with providing players with a [Perceived Chance to Succeed](perceived-chanceto-succeed). Unlike [Ability Loss](ability-losses), [Decreased Abilities](decreased-abilities) can be used to affect the [Right Level of Difficulty](right-levelof-difficulty) by raising it while retaining the [Right Level of Complexity](right-levelof-complexity).",
+            "[Decreased Abilities](decreased-abilities) can be used to negatively define [Orthogonal Unit Differentiation](orthogonal-unit-differentiation). This kind of differentiation typical is an emergent feature due to different levels of [Damage](damage) or depletion of [Resources](resources) between [Units](units) or players in a team."
         ]
     },
     "relations": {
@@ -27,18 +27,17 @@
             "units",
             "player-balance",
             "risk-reward",
-            "right-level-of-difficulty",
-            "perceived-chance-to-succeed",
+            "right-levelof-difficulty",
+            "perceived-chanceto-succeed",
             "characters",
             "skills",
             "orthogonal-unit-differentiation",
             "player-killing",
             "limited-resources",
-            "right-level-of-complexity",
+            "right-levelof-complexity",
             "improved-abilities"
         ],
         "instantiated_by": [
-            "non-renewable-resources",
             "limited-resources"
         ],
         "modulated_by": [
@@ -47,9 +46,9 @@
             "balancing-effects"
         ],
         "conflicts": [
-            "illusion-of-influence",
-            "perceived-chance-to-succeed",
-            "freedom-of-choice"
+            "illusionof-influence",
+            "perceived-chanceto-succeed",
+            "freedomof-choice"
         ]
     }
 }

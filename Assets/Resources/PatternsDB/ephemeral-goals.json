@@ -3,26 +3,26 @@
     "texts": {
         "definition": "Goals that have a dynamic existence, that is, they can appear and disappear during the gameplay; their appearance not necessarily known at the beginning of the game and their disappearance may not be due to their completion or them having become impossible.",
         "description": [
-            "Not all goals of a game have to be rigidly predefined by the designer. Many games have goals that appear and disappear dynamically based on the flow of the game, sometimes generated randomly using templates. The defining characteristics of these \"Ephemeral Goals\" are that they become available to players during gameplay and can become unavailable independent of players' actions. These goals do not have to be linked to the main goals of a game, and when they are not linked let players choose between concentrating on one form or the others depending on their own preferences and the current requirements posed by the game state and other players."
+            "Not all goals of a game have to be rigidly predefined by the designer. Many games have goals that appear and disappear dynamically based on the flow of the game, sometimes generated randomly using templates. The defining characteristics of these [Ephemeral Goals](ephemeral-goals) are that they become available to players during gameplay and can become unavailable independent of players' actions. These goals do not have to be linked to the main goals of a game, and when they are not linked let players choose between concentrating on one form or the others depending on their own preferences and the current requirements posed by the game state and other players."
         ],
         "examples": [
-            "The collectable card game \"ShadowRun\" uses \"Ephemeral Goals\" in an explicit way. The players have to accomplish \"shadowruns,\" which are different types of missions or quests in a crime-infested cyberpunk world. The game unfolds by the players playing mission cards of different value on the table and the players can when it is their turn make the missions more difficult by playing obstacle cards on the mission.",
-            "\"Dark Age of Camelot\", and many other massively multiplayer online roleplaying games and multi-user dungeons use a different kind of \"Ephemeral Goal\" where the moderators of the game can inject new quests and tasks to the game while the game is being played.",
+            "The collectable card game \"ShadowRun\" uses [Ephemeral Goals](ephemeral-goals) in an explicit way. The players have to accomplish \"shadowruns,\" which are different types of missions or quests in a crime-infested cyberpunk world. The game unfolds by the players playing mission cards of different value on the table and the players can when it is their turn make the missions more difficult by playing obstacle cards on the mission.",
+            "\"Dark Age of Camelot\", and many other massively multiplayer online roleplaying games and multi-user dungeons use a different kind of [Ephemeral Goal](ephemeral-goals) where the moderators of the game can inject new quests and tasks to the game while the game is being played.",
             "\"Grand Theft Auto 3\" allows players to perform certain missions when they have acquired certain vehicles, e. g. taking taxi assignments when driving a taxi. The goals do not exist otherwise during gameplay and do not influence the main game except through rewards that change the amount of money the player has in the game.",
             "Many tabletop and computer roleplaying games use random encounters during the gameplay. These encounters are, as the name suggests, created randomly usually from a predefined set of characteristics. The most usual random encounter challenge still seems to be to defeat a group of wandering monsters or other enemies."
         ],
         "usage": [
-            "The two main structural design choices to be made about \"Ephemeral Goals\" are first, when they should be introduced and, secondly, when they should disappear. The introduction of these goals can either be by using \"Randomness\" or by observing the current game state. The latter is especially used to catch pacing problems and most common in roleplaying games moderated by \"Game Masters\" since they can easily notice \"Downtime\" for players. In both cases the \"Ephemeral Goals\" are usually \"Unknown Goals\", either because their existence is unknown to players at the beginning of gameplay or because the exact nature of the goals, including when they will become known, is unknown.",
-            "Many \"Ephemeral Goals\" disappear after a certain \"Time Limit\" with no penalty to the players except missing the reward. This makes them \"Optional Goals\" but other \"Ephemeral Goals\" can also be optional, for example those which do impose a \"Penalty\" (and thus are \"Committed Goals\") but allow players to ignore them in order to concentrate on the main goals of the game.",
-            "A common way to introduce random \"Ephemeral Goals\" into gameplay is to have a selection of \"Predefined Goals\" which are modified randomly using certain templates. The principle is often used in games with \"Power-Ups\" which appear during gameplay, \"Resource Generators\" that produce game elements, and random encounters in roleplaying game, where the exact characteristics of a goal of defeating the wandering monsters are generated randomly from a predefined encounter table.",
-            "In order not to make \"Ephemeral Goals\" requirements for the main goals of games, the \"Rewards\" and \"Penalties\" of them have to be tied to game statistics that have a general meaning, e. g. money, health or experience points. This makes the introduction of high-level \"Ephemeral Goals\" during gameplay generally more difficult as they risk having negative affect on \"Right Level of Difficulty\", \"Player Balance\", and the \"Narrative Structure\". Even the minor dynamic subgoals, such as random encounters in roleplaying games, have to be carefully balanced in order to keep the gameplay seemingly fair. For example, it is usually not a good idea to throw in a random ancient dragon against new player characters in a roleplaying game.",
-            "\"Ephemeral Goals\" can be supported in games by allowing \"Player Defined Goals\" to be defined during gameplay. These can either be encoded in the game system through explicit rules or be constructed outside the game system. In the latter case these goals automatically become \"Optional Goals\" as the definition then lies solely in the hands of the players.",
-            "A way to vary \"Selectable Sets of Goals\" during gameplay is to have some of the goals in the sets be \"Ephemeral Goals\" that are only available at certain times."
+            "The two main structural design choices to be made about [Ephemeral Goals](ephemeral-goals) are first, when they should be introduced and, secondly, when they should disappear. The introduction of these goals can either be by using [Randomness](randomness) or by observing the current game state. The latter is especially used to catch pacing problems and most common in roleplaying games moderated by [Game Masters](game-masters) since they can easily notice [Downtime](downtime) for players. In both cases the [Ephemeral Goals](ephemeral-goals) are usually [Unknown Goals](unknown-goals), either because their existence is unknown to players at the beginning of gameplay or because the exact nature of the goals, including when they will become known, is unknown.",
+            "Many [Ephemeral Goals](ephemeral-goals) disappear after a certain [Time Limit](time-limits) with no penalty to the players except missing the reward. This makes them [Optional Goals](optional-goals) but other [Ephemeral Goals](ephemeral-goals) can also be optional, for example those which do impose a [Penalty](penalties) (and thus are [Committed Goals](committed-goals)) but allow players to ignore them in order to concentrate on the main goals of the game.",
+            "A common way to introduce random [Ephemeral Goals](ephemeral-goals) into gameplay is to have a selection of [Predefined Goals](predefined-goals) which are modified randomly using certain templates. The principle is often used in games with [Power-Ups](power-ups) which appear during gameplay, [Resource Generators](resource-generators) that produce game elements, and random encounters in roleplaying game, where the exact characteristics of a goal of defeating the wandering monsters are generated randomly from a predefined encounter table.",
+            "In order not to make [Ephemeral Goals](ephemeral-goals) requirements for the main goals of games, the [Rewards](rewards) and [Penalties](penalties) of them have to be tied to game statistics that have a general meaning, e. g. money, health or experience points. This makes the introduction of high-level [Ephemeral Goals](ephemeral-goals) during gameplay generally more difficult as they risk having negative affect on [Right Level of Difficulty](right-levelof-difficulty), [Player Balance](player-balance), and the [Narrative Structure](narrative-structures). Even the minor dynamic subgoals, such as random encounters in roleplaying games, have to be carefully balanced in order to keep the gameplay seemingly fair. For example, it is usually not a good idea to throw in a random ancient dragon against new player characters in a roleplaying game.",
+            "[Ephemeral Goals](ephemeral-goals) can be supported in games by allowing [Player Defined Goals](player-defined-goals) to be defined during gameplay. These can either be encoded in the game system through explicit rules or be constructed outside the game system. In the latter case these goals automatically become [Optional Goals](optional-goals) as the definition then lies solely in the hands of the players.",
+            "A way to vary [Selectable Sets of Goals](selectable-setsof-goals) during gameplay is to have some of the goals in the sets be [Ephemeral Goals](ephemeral-goals) that are only available at certain times."
         ],
         "consequences": [
-            "\"Ephemeral Goals\" can be used to create \"Surprises\" and if generated randomly may also increase the \"Replayability\" of a game. Depending on their structure, they can be used to increase the plausibility of an \"Alternative Reality\" or to insert \"Red Herrings\" in a \"Narrative Structure\". In the first case they insert elements into the reality that does not specifically have to with the players and in the second they introduce elements that can be misinterpreted by players.",
-            "Having \"Ephemeral Goals\" that do not tie into the \"Narrative Structure\" of a game risks irritating players as strategies can be made obsolete and expectations of the immediate gameplay may be ruined. This problem can be mitigated if the rules for the appearance or disappearance of the goals are explicit and clear, even if the knowledge the players have about these goals is only that they may occur. Another way can be to make \"Ephemeral Goals\" into \"Optional Goals\" or packaging each of them as \"Games within Games\", as for example the taxi missions in \"Grand Theft Auto 3\".",
-            "\"Ephemeral Goals\" that are also \"Optional Goals\" offer a more \"Varied Gameplay\" as players can choose how many goals they want to try to complete. \"Ephemeral Goals\" that are not optional can be seen as subgoals of a goal with \"Dynamic Goal Characteristics\"."
+            "[Ephemeral Goals](ephemeral-goals) can be used to create [Surprises](surprises) and if generated randomly may also increase the [Replayability](replayability) of a game. Depending on their structure, they can be used to increase the plausibility of an [Alternative Reality](alternative-reality) or to insert [Red Herrings](red-herrings) in a [Narrative Structure](narrative-structures). In the first case they insert elements into the reality that does not specifically have to with the players and in the second they introduce elements that can be misinterpreted by players.",
+            "Having [Ephemeral Goals](ephemeral-goals) that do not tie into the [Narrative Structure](narrative-structures) of a game risks irritating players as strategies can be made obsolete and expectations of the immediate gameplay may be ruined. This problem can be mitigated if the rules for the appearance or disappearance of the goals are explicit and clear, even if the knowledge the players have about these goals is only that they may occur. Another way can be to make [Ephemeral Goals](ephemeral-goals) into [Optional Goals](optional-goals) or packaging each of them as [Games within Games](gameswithin-games), as for example the taxi missions in \"Grand Theft Auto 3\".",
+            "[Ephemeral Goals](ephemeral-goals) that are also [Optional Goals](optional-goals) offer a more [Varied Gameplay](varied-gameplay) as players can choose how many goals they want to try to complete. [Ephemeral Goals](ephemeral-goals) that are not optional can be seen as subgoals of a goal with [Dynamic Goal Characteristics](dynamic-goal-characteristics)."
         ]
     },
     "relations": {
@@ -30,14 +30,13 @@
             "player-defined-goals"
         ],
         "modulates": [
-            "hierarchy-of-goals",
-            "selectable-sets-of-goals",
+            "hierarchyof-goals",
+            "selectable-setsof-goals",
             "narrative-structures",
             "alternative-reality"
         ],
         "instantiated_by": [
             "resource-generators",
-            "power-ups",
             "game-masters"
         ],
         "modulated_by": [
@@ -46,14 +45,14 @@
             "committed-goals",
             "optional-goals",
             "unknown-goals",
-            "games-within-games",
+            "gameswithin-games",
             "rewards"
         ],
         "conflicts": [
             "predefined-goals",
             "player-balance",
             "narrative-structures",
-            "right-level-of-difficulty",
+            "right-levelof-difficulty",
             "downtime"
         ]
     }

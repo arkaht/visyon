@@ -11,11 +11,11 @@
             "the board game \"The Settlers of Catan\" starts with a randomize play area consisting of hexagonal tiles every game session to ensure that game play varies."
         ],
         "usage": [
-            "\"Tile-Laying\" may be used either before game play begins as part of the setup phase of the game or as actions players perform. The design of the \"Tiles\" used in both cases is similar to the design of \"Cards\", and in the later case may make use of \"Drawing Stacks\" and variants of \"Card Hands\".",
-            "The \"Randomness\" of \"Game Worlds\" constructed through \"Tile-Laying\" allows the information about \"Tiles\" to \"Imperfect Information\" if the tiles are covered or placed upside down. By using a form of \"Fog of War\" this makes \"Exploration\" goals possible."
+            "[Tile-Laying](tile-laying) may be used either before game play begins as part of the setup phase of the game or as actions players perform. The design of the [Tiles](tiles) used in both cases is similar to the design of [Cards](cards), and in the later case may make use of [Drawing Stacks](drawing-stacks) and variants of [Card Hands](card-hands).",
+            "The [Randomness](randomness) of [Game Worlds](game-world) constructed through [Tile-Laying](tile-laying) allows the information about [Tiles](tiles) to [Imperfect Information](imperfect-information) if the tiles are covered or placed upside down. By using a form of [Fog of War](fogof-war) this makes [Exploration](exploration) goals possible."
         ],
         "consequences": [
-            "\"Tile-Laying\" is a concrete way to allow \"Reconfigurable Game Worlds\". By introducing \"Randomness\" of how the \"Game World\" is constructed, and possibly \"Imperfect Information\" about the layout of the \"Game World\", it can promote \"Varied Gameplay\". When players control the placement of the \"Tiles\" this makes them active game elements that are \"Focus Loci\" for players and creates \"Player Constructed Worlds\". This allows them to perform \"Construction\" actions and have \"Exploration\" goals which may be the cause of \"Tension\" when the attributes on the \"Tiles\" are important for the players."
+            "[Tile-Laying](tile-laying) is a concrete way to allow [Reconfigurable Game Worlds](reconfigurable-game-world). By introducing [Randomness](randomness) of how the [Game World](game-world) is constructed, and possibly [Imperfect Information](imperfect-information) about the layout of the [Game World](game-world), it can promote [Varied Gameplay](varied-gameplay). When players control the placement of the [Tiles](tiles) this makes them active game elements that are [Focus Loci](focus-loci) for players and creates [Player Constructed Worlds](player-constructed-worlds). This allows them to perform [Construction](construction) actions and have [Exploration](exploration) goals which may be the cause of [Tension](tension) when the attributes on the [Tiles](tiles) are important for the players."
         ]
     },
     "relations": {
@@ -30,7 +30,7 @@
         ],
         "modulates": [
             "tiles",
-            "fog-of-war",
+            "fogof-war",
             "game-world",
             "imperfect-information"
         ],

@@ -3,18 +3,18 @@
     "texts": {
         "definition": "A Mule is a player character that is set, typically by using scripts, to perform long, monotonous and specialized sets of actions.",
         "description": [
-            "Mules provide means of automating actions, typically actions that generate resources, which other game elements under the player's control benefit from using. \"Mule\" is, in effect, an automated player character, which is used to boost up the character under direct player control in Massively Multiplayer Online Games."
+            "Mules provide means of automating actions, typically actions that generate resources, which other game elements under the player's control benefit from using. [Mule](mule) is, in effect, an automated player character, which is used to boost up the character under direct player control in Massively Multiplayer Online Games."
         ],
         "examples": [
             "the player can set the villagers in \"Age of Empires\" to gather resources until the resources run out or the player gives them different tasks."
         ],
         "usage": [
-            "Several features of components other than the character need to be considered when making a \"Mule\" possible. First, players must be able to define scripts or sequences of actions for game elements (although the game clients may be hacked to perform such functions). Second, monotonous actions must be possible, i. e. an action must be possible to repeat many times with a chance of gaining a positive outcome each time. Third, the actions of a \"Mule\" usually require the presence of some resource that is refined into another resource, in practice making the \"Mule\" a \"Converter\".",
-            "The use of a \"Mule\" can become a \"Risk/Reward\" tradeoff if there is a chance of having critical failures of the actions being performed, typically leading to the destruction of \"Tools\" or attacks by \"Enemies\", or if the game permits, \"Player Elimination\" from attacks by the other players or the game elements under the game systems control. These challenges may be simple to deal with if the player is monitoring the character, but when the character is set to do actions without supervision this may leave the character incapable of responding appropriately to these failure situations.",
-            "To modulate the efficiency of using a \"Mule\", the resource generated may have \"Diminishing Returns\", require skills, or require the presence of \"Non-Renewable Resources\" or \"Renewable Resources\" with a lower replenishment rate than the rate of consumption set for the \"Mule\"."
+            "Several features of components other than the character need to be considered when making a [Mule](mule) possible. First, players must be able to define scripts or sequences of actions for game elements (although the game clients may be hacked to perform such functions). Second, monotonous actions must be possible, i. e. an action must be possible to repeat many times with a chance of gaining a positive outcome each time. Third, the actions of a [Mule](mule) usually require the presence of some resource that is refined into another resource, in practice making the [Mule](mule) a [Converter](converters).",
+            "The use of a [Mule](mule) can become a [Risk/Reward](risk-reward) tradeoff if there is a chance of having critical failures of the actions being performed, typically leading to the destruction of [Tools](tools) or attacks by [Enemies](enemies), or if the game permits, [Player Elimination](player-elimination) from attacks by the other players or the game elements under the game systems control. These challenges may be simple to deal with if the player is monitoring the character, but when the character is set to do actions without supervision this may leave the character incapable of responding appropriately to these failure situations.",
+            "To modulate the efficiency of using a [Mule](mule), the resource generated may have [Diminishing Returns](diminishing-returns), require skills, or require the presence of [Non-Renewable Resources](non-renewable-resources) or [Renewable Resources](renewable-resources) with a lower replenishment rate than the rate of consumption set for the [Mule](mule)."
         ],
         "consequences": [
-            "Permitting players to set up \"Mule\" characters allows them to create a form of a \"Resource Generator\"."
+            "Permitting players to set up [Mule](mule) characters allows them to create a form of a [Resource Generator](resource-generators)."
         ]
     },
     "relations": {

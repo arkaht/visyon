@@ -47,13 +47,15 @@ public class UIPatternViewer : MonoBehaviour
 		AddTextsTo( data.Texts.Examples, informationTransform, ( text ) => "<b>Example: </b>" + text );
 		AddTextsTo( data.Texts.Usage, usageTransform );
 		AddTextsTo( data.Texts.Consequences, consequencesTransform );
+
+		//TMP_TextUtilities.FindNearestLink;
 		
 		//  relations
-		AddTextTo( "<b>Instantiates: </b>" + PatternRegistery.ConcatPatterns( data.Relations.Instantiates ), relationsTransform );
-		AddTextTo( "<b>Modulates: </b>" + PatternRegistery.ConcatPatterns( data.Relations.Modulates ), relationsTransform );
-		AddTextTo( "<b>Instantiated By: </b>" + PatternRegistery.ConcatPatterns( data.Relations.InstantiatedBy ), relationsTransform );
-		AddTextTo( "<b>Modulated By: </b>" + PatternRegistery.ConcatPatterns( data.Relations.ModulatedBy ), relationsTransform );
-		AddTextTo( "<b>Potentially Conflicting with: </b>" + PatternRegistery.ConcatPatterns( data.Relations.Conflicts ), relationsTransform );
+		AddTextTo( "<b>Instantiates: </b>" + PatternRegistery.ConcatPatterns( data.Relations.Instantiates, true ), relationsTransform );
+		AddTextTo( "<b>Modulates: </b>" + PatternRegistery.ConcatPatterns( data.Relations.Modulates, true ), relationsTransform );
+		AddTextTo( "<b>Instantiated By: </b>" + PatternRegistery.ConcatPatterns( data.Relations.InstantiatedBy, true ), relationsTransform );
+		AddTextTo( "<b>Modulated By: </b>" + PatternRegistery.ConcatPatterns( data.Relations.ModulatedBy, true ), relationsTransform );
+		AddTextTo( "<b>Potentially Conflicting with: </b>" + PatternRegistery.ConcatPatterns( data.Relations.Conflicts, true ), relationsTransform );
 	}
 	
 	public void Reset()
@@ -71,8 +73,9 @@ public class UIPatternViewer : MonoBehaviour
 	private void AddTextTo( string text, Transform parent )
 	{
 		GameObject obj = Instantiate( textPrefab, parent );
-		var tmp = obj.GetComponent<TextMeshProUGUI>();
-		tmp.text = text;
+		var viewer_text = obj.GetComponent<UIPatternViewerText>();
+		viewer_text.Viewer = this;
+		viewer_text.Text = text;
 	}
 
 	void Awake()

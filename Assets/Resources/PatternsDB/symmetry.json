@@ -3,19 +3,19 @@
     "texts": {
         "definition": "Symmetrical relations exist between players regarding the goals, resources, and actions they can perform.",
         "description": [
-            "\"Symmetry\" is a common feature in games to ensure that players have equal opportunities. In these cases, the outcome of the games are either dependent on the players' skills or \"Randomness\", since the game system does not put any player in a favorable position."
+            "[Symmetry](symmetry) is a common feature in games to ensure that players have equal opportunities. In these cases, the outcome of the games are either dependent on the players' skills or [Randomness](randomness), since the game system does not put any player in a favorable position."
         ],
         "examples": [
             "The game pieces that each player has and the setup of them are symmetrical in \"Chess\" to minimize the differences of playing one side or the other.",
             "The placement of initial settlements in \"Settlers of Catan\" is symmetrical in a fashion: the player who is first to place the first settlement is the last to place the second settlement while the player who is last to place the first settlement is the first to place the second settlement, and thereby gets to place two settlements in a row."
         ],
         "usage": [
-            "Creating \"Symmetry\" in games mainly consists of ensuring the same abilities, \"Symmetric Resource Distribution\", and \"Symmetric Goals\". Conversely, \"Asymmetric Abilities\", \"Asymmetric Resource Distribution\", and \"Asymmetric Goals\" all hinder \"Symmetry\" as does any way of introducing \"Handicaps\". However, games with \"Team Play\" or \"Orthogonal Unit Differentiation\" can have \"Symmetry\" on a higher level while not having it on a lower level by making sure that whatever exists for one player or team exists for the other.",
-            "\"Symmetry\" can also be used to create \"Outstanding Features\" in the \"Game World\", or provide \"Configuration\" goals with strong \"Hovering Closures\"."
+            "Creating [Symmetry](symmetry) in games mainly consists of ensuring the same abilities, [Symmetric Resource Distribution](symmetric-resource-distribution), and [Symmetric Goals](symmetric-goals). Conversely, [Asymmetric Abilities](asymmetric-abilities), [Asymmetric Resource Distribution](asymmetric-resource-distribution), and [Asymmetric Goals](asymmetric-goals) all hinder [Symmetry](symmetry) as does any way of introducing [Handicaps](handicaps). However, games with [Team Play](team-play) or [Orthogonal Unit Differentiation](orthogonal-unit-differentiation) can have [Symmetry](symmetry) on a higher level while not having it on a lower level by making sure that whatever exists for one player or team exists for the other.",
+            "[Symmetry](symmetry) can also be used to create [Outstanding Features](outstanding-features) in the [Game World](game-world), or provide [Configuration](configuration) goals with strong [Hovering Closures](hovering-closures)."
         ],
         "consequences": [
-            "\"Symmetry\" in games can provide \"Player Balance\" and \"Team Balance\" but also provides a form of \"Consistent Reality Logic\" since it can easily be assumed by players. Although \"Symmetry\" in player relations can allow balanced starting positions, it does not in itself ensure \"Player Balance\" or \"Team Balance\" during gameplay. In fact, success can more easily become derived from skillful execution or \"Luck\" in the beginning of these games as it might be easier to judge all players' positions. In games where \"Randomness\" plays little role in the outcome, \"Symmetry\" provides a basis for showing and observing \"Game Mastery\".",
-            "\"Paper-Rock-Scissors\" patterns provide a complex form of \"Symmetry\" between the usefulness of actions and tactics in a game."
+            "[Symmetry](symmetry) in games can provide [Player Balance](player-balance) and [Team Balance](team-balance) but also provides a form of [Consistent Reality Logic](consistent-reality-logic) since it can easily be assumed by players. Although [Symmetry](symmetry) in player relations can allow balanced starting positions, it does not in itself ensure [Player Balance](player-balance) or [Team Balance](team-balance) during gameplay. In fact, success can more easily become derived from skillful execution or [Luck](luck) in the beginning of these games as it might be easier to judge all players' positions. In games where [Randomness](randomness) plays little role in the outcome, [Symmetry](symmetry) provides a basis for showing and observing [Game Mastery](game-mastery).",
+            "[Paper-Rock-Scissors](paper-rock-scissors) patterns provide a complex form of [Symmetry](symmetry) between the usefulness of actions and tactics in a game."
         ]
     },
     "relations": {
@@ -30,8 +30,7 @@
             "game-mastery"
         ],
         "instantiated_by": [
-            "symmetric-resource-distribution",
-            "paper-rock-scissors"
+            "symmetric-resource-distribution"
         ],
         "modulated_by": [
             "configuration",

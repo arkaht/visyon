@@ -3,29 +3,28 @@
     "texts": {
         "definition": "The game elements through which a player's actions are taken.",
         "description": [
-            "\"Focus Loci,\" the locations of thefocus, are the game elements through which players can affect the game state. The most obvious \"Focus Loci\" are the game elements that can be moved by the player, and the actions they provide are the possibility of moving them."
+            "[Focus Loci,](focus-loci) the locations of thefocus, are the game elements through which players can affect the game state. The most obvious [Focus Loci](focus-loci) are the game elements that can be moved by the player, and the actions they provide are the possibility of moving them."
         ],
         "examples": [
-            "Each piece in \"Chess\" acts as a \"Focus Loci\" for the players by providing a number of potential actions.",
-            "The stones used in \"Go\" are only \"Focus Loci\" when they are being placed on the board, since players cannot perform any other actions through them later.",
-            "The \"Avatar\" that a player controls in a first-person shooter is the \"Focus Loci\" they have in the game.",
-            "Various types of mouse cursors used in real-time strategy games and \"Sims\" games are \"Focus Loci\" that allow players to move between units and characters, which in their turn are also \"Focus Loci\"."
+            "Each piece in \"Chess\" acts as a [Focus Loci](focus-loci) for the players by providing a number of potential actions.",
+            "The stones used in \"Go\" are only [Focus Loci](focus-loci) when they are being placed on the board, since players cannot perform any other actions through them later.",
+            "The [Avatar](avatars) that a player controls in a first-person shooter is the [Focus Loci](focus-loci) they have in the game.",
+            "Various types of mouse cursors used in real-time strategy games and \"Sims\" games are [Focus Loci](focus-loci) that allow players to move between units and characters, which in their turn are also [Focus Loci](focus-loci)."
         ],
         "usage": [
-            "The four main options for \"Focus Loci\" are \"Avatar\", \"Units\", \"Characters\", and \"God's Fingers\". The first three can maintain a \"Consistent Reality Logic\", but the actions they provide are then restricted by the \"Alternative Reality\" of the game. They also allow points within the game for players to have \"Identification\" with. The use of \"Characters\" allows players to have \"Focus Loci\" without the need for \"Game Worlds\". The use of several \"Focus Loci\" through \"Units\" allows single players to simulate \"Team Play\" but requires \"Attention Swapping\" and \"Status Indicators\" to show where the \"Focus Loci\" are in the \"Game World\". As the swapping between \"Units\" is often done by explicit actions performed from a \"Third-Person View\", this \"Third-Person View\" can actually be seen as a form of \"Focus Loci\". \"God's Fingers\" are most often used to allow players to have \"Game State Overview\" and to let them do \"Attention Swapping\" between other \"Focus Loci\" but can be used to provide the god-like actions found in god games.",
-            "Although not as common as the three main options, \"Cards\" can, especially in collectable card games, be \"Focus Loci\" either when being played or by being in play and giving a player \"New Abilities\". \"Book-Keeping Tokens\" whose presences indicate that a player has \"New Abilities\" are another form of more unusual \"Focus Loci\". \"Dice\" are seldom \"Focus Loci\" except in pure dice games, since using them is not usually an activity affecting the game directly but rather determining how actions are to be performed.",
-            "The choice of \"Focus Loci\" and the actions they support dictate which game elements players have \"Indirect Control\" over."
+            "The four main options for [Focus Loci](focus-loci) are [Avatar](avatars), [Units](units), [Characters](characters), and [God's Fingers](god-finger). The first three can maintain a [Consistent Reality Logic](consistent-reality-logic), but the actions they provide are then restricted by the [Alternative Reality](alternative-reality) of the game. They also allow points within the game for players to have [Identification](identification) with. The use of [Characters](characters) allows players to have [Focus Loci](focus-loci) without the need for [Game Worlds](game-world). The use of several [Focus Loci](focus-loci) through [Units](units) allows single players to simulate [Team Play](team-play) but requires [Attention Swapping](attention-swapping) and [Status Indicators](status-indicators) to show where the [Focus Loci](focus-loci) are in the [Game World](game-world). As the swapping between [Units](units) is often done by explicit actions performed from a [Third-Person View](third-person-views), this [Third-Person View](third-person-views) can actually be seen as a form of [Focus Loci](focus-loci). [God's Fingers](god-finger) are most often used to allow players to have [Game State Overview](game-state-overview) and to let them do [Attention Swapping](attention-swapping) between other [Focus Loci](focus-loci) but can be used to provide the god-like actions found in god games.",
+            "Although not as common as the three main options, [Cards](cards) can, especially in collectable card games, be [Focus Loci](focus-loci) either when being played or by being in play and giving a player [New Abilities](new-abilities). [Book-Keeping Tokens](book-keeping-tokens) whose presences indicate that a player has [New Abilities](new-abilities) are another form of more unusual [Focus Loci](focus-loci). [Dice](dice) are seldom [Focus Loci](focus-loci) except in pure dice games, since using them is not usually an activity affecting the game directly but rather determining how actions are to be performed.",
+            "The choice of [Focus Loci](focus-loci) and the actions they support dictate which game elements players have [Indirect Control](indirect-control) over."
         ],
         "consequences": [
-            "\"Focus Loci\" are game elements within \"Game Worlds\" thatprovide methods for players to affect the \"Game Worlds\". \"Focus Loci\" can affect the \"Game World\" usually by affecting themselves, other game elements, or the environment in their immediate vicinity, for example, to gain \"Area Control\" in the latter case. These \"Focus Loci\" support \"Cognitive Immersion,\" and in some cases, \"Spatial Immersion\". The \"Focus Loci\" that are not defined as part of the \"Game World\" primarily support \"Cognitive Immersion\" but can also support \"Sensory-Motoric Immersion\".",
-            "Providing multiple \"Focus Loci\" affects the \"Risk/Reward\" tradeoffs that have to be made when initiating \"Extended Actions\"."
+            "[Focus Loci](focus-loci) are game elements within [Game Worlds](game-world) thatprovide methods for players to affect the [Game Worlds](game-world). [Focus Loci](focus-loci) can affect the [Game World](game-world) usually by affecting themselves, other game elements, or the environment in their immediate vicinity, for example, to gain [Area Control](area-control) in the latter case. These [Focus Loci](focus-loci) support [Cognitive Immersion,](cognitive-immersion) and in some cases, [Spatial Immersion](spatial-immersion). The [Focus Loci](focus-loci) that are not defined as part of the [Game World](game-world) primarily support [Cognitive Immersion](cognitive-immersion) but can also support [Sensory-Motoric Immersion](sensory-motoric-immersion).",
+            "Providing multiple [Focus Loci](focus-loci) affects the [Risk/Reward](risk-reward) tradeoffs that have to be made when initiating [Extended Actions](extended-actions)."
         ]
     },
     "relations": {
         "instantiates": [
             "spatial-immersion",
             "cognitive-immersion",
-            "sensory-motoric-immersion",
             "indirect-control",
             "identification"
         ],
@@ -37,9 +36,6 @@
         ],
         "instantiated_by": [
             "cards",
-            "god-s-finger",
-            "book-keeping-tokens",
-            "third-person-views",
             "units",
             "characters",
             "dice"

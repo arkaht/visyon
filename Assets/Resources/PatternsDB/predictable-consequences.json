@@ -3,28 +3,28 @@
     "texts": {
         "definition": "Players can predict how the game state will change if they perform actions, or possibly sequences of actions.",
         "description": [
-            "When players can understand how actions and events affect the game state of a game, those actions and events have \"Predictable Consequences\". A game can have \"Predictable Consequences\" without players being able to exactly predict what action is going to be performed or what effect an action can have. A game can be predictable if players can anticipate the set of possible actions another player can perform, and an action can be predictable if players can imagine the set of possible future game states its effects can create."
+            "When players can understand how actions and events affect the game state of a game, those actions and events have [Predictable Consequences](predictable-consequences). A game can have [Predictable Consequences](predictable-consequences) without players being able to exactly predict what action is going to be performed or what effect an action can have. A game can be predictable if players can anticipate the set of possible actions another player can perform, and an action can be predictable if players can imagine the set of possible future game states its effects can create."
         ],
         "examples": [
-            "The actions in first-person shooters often contain no elements of chance and thereby have totally \"Predictable Consequences\". However, being able to perform these actions is not easy for a player, especially when one has to anticipate other players' actions and these actions often have the intention of disrupting the player.",
-            "The actions in \"Chess\" and \"Go\" have totally \"Predictable Consequences\", and skillful playing of these games consists on being able to predict opponents' actions and planning many actions ahead."
+            "The actions in first-person shooters often contain no elements of chance and thereby have totally [Predictable Consequences](predictable-consequences). However, being able to perform these actions is not easy for a player, especially when one has to anticipate other players' actions and these actions often have the intention of disrupting the player.",
+            "The actions in \"Chess\" and \"Go\" have totally [Predictable Consequences](predictable-consequences), and skillful playing of these games consists on being able to predict opponents' actions and planning many actions ahead."
         ],
         "usage": [
-            "How \"Predictable Consequences\" actions and events are used in game designs depends mainly on who performs or influences them: the game system or players. The predictability of game systems can vary as much as that of the predictability of opponents but can also be fixed so that players are aware of them before the actions or events are initiated. Providing the \"Right Level of Complexity\" is also important when considering \"Predictable Consequences\": games that have \"Predictable Consequences\" for individual actions and events can lose that predictability when the complexity increases, for example, by having few \"Closure Points\" that reduce the potential game space or allowing long and dynamic \"Producer-Consumer\" chains.",
-            "The most \"Predictable Consequences\" (although maybe only in the short term) are the players' own actions when they have \"Perfect Information\" of the game state and the evaluation function is static. If the evaluation of the action uses some amount of \"Randomness\", the action can still have \"Predictable Consequences\", but since the outcomes are bounded within a number of possible outcomes, players have \"Uncertainty of Information\" about the exact outcome. The same applies to \"Indirect Control\" if the time difference between the action and the outcome is great enough. If players have \"Imperfect Information\" about a part of the game state that affects the outcome of the action, the predictability immediately is significantly reduced.",
-            "After that, the most predictable actions and events are \"Ultra-Powerful Events\" controlled by the game system. Effects that require \"Perceivable Margins\" are \"Predictable Consequences\" in one sense, since players may observe that the margin is close to being fulfilled. \"Damage\" and other \"Penalties\" usually also have very predictable consequences since experiencing unexpected \"Penalties\", especially \"Individual Penalties\", may cause players to simply stop playing the game. \"Investments\" also usually have a range of \"Predictable Consequences\", even if they chances of gaining on the \"Investments\" may be small, as players otherwise would be unwilling to make the \"Investments\". \"Surprises\" caused by the game system, which the first time they are experienced are intended not to be predictable, actually also easily become predictable after the first encounter. The effects of \"Leaps of Faiths\" and \"Irreversible Actions\" are likewise difficult to predict the first time they are done but then might become easy to predict.",
-            "Effects of games that can either be easy to predict or completely impossible due to player perception of the game state include \"Selectable Sets of Goals\", \"Paper-Rock-Scissors\", \"Player-Decided Distribution of Rewards &amp; Penalties\", and \"Player Decided Results\". The use of \"Randomness\" can give more \"Predictable Consequences\", especially when used together with \"Skills\", than actions from other players since the distribution of the \"Randomness\" can be known in advance. This means that even games that are initially associated with \"Luck\" can become very predictable and have \"Strategic Knowledge\", especially regarding \"Betting\".",
-            "\"Predictable Consequences\" from game systems can be achieved indirectly through \"Consistent Reality Logic\", \"Alternative Reality\", and \"Illusionary Rewards\". In these cases, players experiencing them can understand how future actions and effects will affect the game state without necessarily having experienced the actions and effects themselves. In contrast, \"Outcome Indicators\" provide a means to give players \"Direct Information\" to support \"Predictable Consequences\" within a game, but this violates the \"Consistent Reality Logic\".",
-            "Games with \"Limited Planning Ability\" have some part of their game design constructed so that players cannot accurately foresee future game states, and thereby cannot have \"Predictable Consequences\" regarding at least part of the game state."
+            "How [Predictable Consequences](predictable-consequences) actions and events are used in game designs depends mainly on who performs or influences them: the game system or players. The predictability of game systems can vary as much as that of the predictability of opponents but can also be fixed so that players are aware of them before the actions or events are initiated. Providing the [Right Level of Complexity](right-levelof-complexity) is also important when considering [Predictable Consequences](predictable-consequences): games that have [Predictable Consequences](predictable-consequences) for individual actions and events can lose that predictability when the complexity increases, for example, by having few [Closure Points](closure-points) that reduce the potential game space or allowing long and dynamic [Producer-Consumer](producer-consumer) chains.",
+            "The most [Predictable Consequences](predictable-consequences) (although maybe only in the short term) are the players' own actions when they have [Perfect Information](perfect-information) of the game state and the evaluation function is static. If the evaluation of the action uses some amount of [Randomness](randomness), the action can still have [Predictable Consequences](predictable-consequences), but since the outcomes are bounded within a number of possible outcomes, players have [Uncertainty of Information](uncertaintyof-information) about the exact outcome. The same applies to [Indirect Control](indirect-control) if the time difference between the action and the outcome is great enough. If players have [Imperfect Information](imperfect-information) about a part of the game state that affects the outcome of the action, the predictability immediately is significantly reduced.",
+            "After that, the most predictable actions and events are [Ultra-Powerful Events](ultra-powerful-events) controlled by the game system. Effects that require [Perceivable Margins](perceivable-margins) are [Predictable Consequences](predictable-consequences) in one sense, since players may observe that the margin is close to being fulfilled. [Damage](damage) and other [Penalties](penalties) usually also have very predictable consequences since experiencing unexpected [Penalties](penalties), especially [Individual Penalties](individual-penalties), may cause players to simply stop playing the game. [Investments](investments) also usually have a range of [Predictable Consequences](predictable-consequences), even if they chances of gaining on the [Investments](investments) may be small, as players otherwise would be unwilling to make the [Investments](investments). [Surprises](surprises) caused by the game system, which the first time they are experienced are intended not to be predictable, actually also easily become predictable after the first encounter. The effects of [Leaps of Faiths](leapsof-faith) and [Irreversible Actions](irreversible-actions) are likewise difficult to predict the first time they are done but then might become easy to predict.",
+            "Effects of games that can either be easy to predict or completely impossible due to player perception of the game state include [Selectable Sets of Goals](selectable-setsof-goals), [Paper-Rock-Scissors](paper-rock-scissors), [Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties), and [Player Decided Results](player-decided-results). The use of [Randomness](randomness) can give more [Predictable Consequences](predictable-consequences), especially when used together with [Skills](skills), than actions from other players since the distribution of the [Randomness](randomness) can be known in advance. This means that even games that are initially associated with [Luck](luck) can become very predictable and have [Strategic Knowledge](strategic-knowledge), especially regarding [Betting](betting).",
+            "[Predictable Consequences](predictable-consequences) from game systems can be achieved indirectly through [Consistent Reality Logic](consistent-reality-logic), [Alternative Reality](alternative-reality), and [Illusionary Rewards](illusionary-rewards). In these cases, players experiencing them can understand how future actions and effects will affect the game state without necessarily having experienced the actions and effects themselves. In contrast, [Outcome Indicators](outcome-indicators) provide a means to give players [Direct Information](direct-information) to support [Predictable Consequences](predictable-consequences) within a game, but this violates the [Consistent Reality Logic](consistent-reality-logic).",
+            "Games with [Limited Planning Ability](limited-planning-ability) have some part of their game design constructed so that players cannot accurately foresee future game states, and thereby cannot have [Predictable Consequences](predictable-consequences) regarding at least part of the game state."
         ],
         "consequences": [
-            "\"Predictable Consequences\" let players predict future game states and thus have \"Anticipation\" and notice \"Hovering Closures\" in games. Being able to understand the consequences of other actions and events in the game, players can also achieve a more correct \"Perceived Chance to Succeed\" and make more informed \"Risk/Reward\" choices, which can provide \"Strategic Knowledge\" and support \"Stimulated Planning\", \"Cognitive Immersion\", and create \"Uncommitted Alliances\". \"Predictable Consequences\" are a requirement for \"Investments\" and are most apparent in games using \"Arithmetic Rewards for Investments\".",
-            "When games have \"Predictable Consequences\" of the immediate actions that players can perform but \"Limited Foresight\" to the complex effects of the actions combined, this can encourage \"Experimenting\" and lead to \"Surprises\". \"Predictable Consequences\" can in some cases cause \"Analysis Paralysis\" as the players can better plan ahead."
+            "[Predictable Consequences](predictable-consequences) let players predict future game states and thus have [Anticipation](anticipation) and notice [Hovering Closures](hovering-closures) in games. Being able to understand the consequences of other actions and events in the game, players can also achieve a more correct [Perceived Chance to Succeed](perceived-chanceto-succeed) and make more informed [Risk/Reward](risk-reward) choices, which can provide [Strategic Knowledge](strategic-knowledge) and support [Stimulated Planning](stimulated-planning), [Cognitive Immersion](cognitive-immersion), and create [Uncommitted Alliances](uncommitted-alliances). [Predictable Consequences](predictable-consequences) are a requirement for [Investments](investments) and are most apparent in games using [Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments).",
+            "When games have [Predictable Consequences](predictable-consequences) of the immediate actions that players can perform but [Limited Foresight](limited-foresight) to the complex effects of the actions combined, this can encourage [Experimenting](experimenting) and lead to [Surprises](surprises). [Predictable Consequences](predictable-consequences) can in some cases cause [Analysis Paralysis](analysis-paralysis) as the players can better plan ahead."
         ]
     },
     "relations": {
         "instantiates": [
-            "perceived-chance-to-succeed",
+            "perceived-chanceto-succeed",
             "anticipation",
             "hovering-closures",
             "stimulated-planning",
@@ -44,9 +44,8 @@
             "damage",
             "alternative-reality",
             "illusionary-rewards",
-            "ultra-powerful-events",
             "penalties",
-            "arithmetic-rewards-for-investments",
+            "arithmetic-rewardsfor-investments",
             "outcome-indicators",
             "perfect-information",
             "investments",
@@ -56,25 +55,22 @@
         "modulated_by": [
             "skills",
             "limited-foresight",
-            "right-level-of-complexity",
+            "right-levelof-complexity",
             "closure-points",
-            "uncertainty-of-information",
+            "uncertaintyof-information",
             "imperfect-information",
             "randomness"
         ],
         "conflicts": [
-            "producer-consumer",
             "irreversible-actions",
             "indirect-control",
-            "player-decided-distribution-of-rewards-penalties",
             "player-decided-results",
             "surprises",
             "luck",
             "risk-reward",
-            "paper-rock-scissors",
             "limited-planning-ability",
-            "selectable-sets-of-goals",
-            "leaps-of-faith"
+            "selectable-setsof-goals",
+            "leapsof-faith"
         ]
     }
 }

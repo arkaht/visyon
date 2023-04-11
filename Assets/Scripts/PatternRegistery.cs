@@ -12,7 +12,7 @@ public static class PatternRegistery
 
 	public static Dictionary<string, PatternData>.KeyCollection AllKeys => patterns.Keys;
 
-	public static string ConcatPatterns( string[] ids, string separator = ", " )
+	public static string ConcatPatterns( string[] ids, bool in_markdown = false, string separator = ", " )
 	{
 		string text = "";
 
@@ -23,7 +23,9 @@ public static class PatternRegistery
 
 			//  join name
 			if ( TryGet( id, out PatternData pattern ) )
-				text += pattern.Name;
+			{
+				text += in_markdown ? $"[{pattern.Name}]({id})" : pattern.Name;
+			}
 			else
 				text += id;
 
@@ -60,7 +62,7 @@ public static class PatternRegistery
 		string json = File.ReadAllText( path );
 		if ( json == null ) return null;
 
-		return LoadFromJSON( json );
+		return LoadFromJSON( id, json );
 	}
 	
 	public static void LoadAll()
@@ -92,11 +94,12 @@ public static class PatternRegistery
 		Debug.Log( "PatternRegistery: loaded successfully " + load_successes + "/" + files.Length + " files" );
 	}
 
-	public static PatternData LoadFromJSON( string json )
+	public static PatternData LoadFromJSON( string id, string json )
 	{
 		JSONNode data = JSON.Parse( json );
 
 		return new PatternData( 
+			id,
 			data["name"].Value,
 			LoadTextsFromJSONNode( data["texts"] ),
 			LoadRelationsFromJSONNode( data["relations"] )

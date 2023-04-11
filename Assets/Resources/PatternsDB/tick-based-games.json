@@ -3,24 +3,22 @@
     "texts": {
         "definition": "The game time progresses according to real time, but in discrete steps.",
         "description": [
-            "The real time delay between the processing points, the ticks, in game time can vary wildly from game to game. In one sense, it can even be argued that every computer game is a \"Tick-Based Game\" because there are discrete points in time when the game state is refreshed, but for this discussion we will limit the definition to games where the game state changes during the ticks are perceivable to the players."
+            "The real time delay between the processing points, the ticks, in game time can vary wildly from game to game. In one sense, it can even be argued that every computer game is a [Tick-Based Game](tick-based-games) because there are discrete points in time when the game state is refreshed, but for this discussion we will limit the definition to games where the game state changes during the ticks are perceivable to the players."
         ],
         "examples": [
             "many play-by-mail and play-by-email games have deadlines for the game state synchronizations. The players' commands should be sent to the game masters before the deadline. The players' actions are processed at the same time and results are sent back to the players. The tick interval, or the turn length, depends a lot on the complexity of the game and whether the medium is snail mail or email and varies from hours to weeks.",
             "the combat system in \"Final Fantasy VII\" is basically a hybrid between tick-based and real-time where the player and the enemies have certain time slots for deciding their actions, which are carried out when the time slot ends."
         ],
         "usage": [
-            "\"Tick-Based Games\" require that there are \"Time Limits\" for the players participating in \"Turn Taking\" or that the players take their turns simultaneously, that is, they can plan and submit their actions to the game system, often a \"Dedicated Game Facilitator\", within the same time frame as the other players and that the actions are processed at the same time. The length of the \"Time Limit\" depends a lot on the complexity of the game. \"Tick-Based Games\" can also be seen as \"Turn-Based Games\" with \"Time Limits\" and where player actions are resolved for the turn simultaneously.",
-            "Some games use a form of \"Budgeted Action Points\" for avoiding the players' frustration for possible missed turns or unintentional \"No-Ops\". In these cases the players accrue certain amounts of action points during each tick and the players can use the actions whenever they want, making the game state changes in these games hybrids between \"Real-Time Games\" and \"Tick-Based Games\" and at the same time \"Asynchronous Games\". For example, in a strategy game each player gets an action point per hour up to the maximum of 24 action points. The players can move their armies in real time by spending two action points per army movement. This makes it possible for the player to make twelve army movements within one day."
+            "[Tick-Based Games](tick-based-games) require that there are [Time Limits](time-limits) for the players participating in [Turn Taking](turn-taking) or that the players take their turns simultaneously, that is, they can plan and submit their actions to the game system, often a [Dedicated Game Facilitator](dedicated-game-facilitators), within the same time frame as the other players and that the actions are processed at the same time. The length of the [Time Limit](time-limits) depends a lot on the complexity of the game. [Tick-Based Games](tick-based-games) can also be seen as [Turn-Based Games](turn-based-games) with [Time Limits](time-limits) and where player actions are resolved for the turn simultaneously.",
+            "Some games use a form of [Budgeted Action Points](budgeted-action-points) for avoiding the players' frustration for possible missed turns or unintentional [No-Ops](no-ops). In these cases the players accrue certain amounts of action points during each tick and the players can use the actions whenever they want, making the game state changes in these games hybrids between [Real-Time Games](real-time-games) and [Tick-Based Games](tick-based-games) and at the same time [Asynchronous Games](asynchronous-games). For example, in a strategy game each player gets an action point per hour up to the maximum of 24 action points. The players can move their armies in real time by spending two action points per army movement. This makes it possible for the player to make twelve army movements within one day."
         ],
         "consequences": [
-            "\"Tick-Based Games\", especially when using \"Budgeted Action Points\", are well suited for \"Asynchronous Games\" depending, however, on the tick interval and the players' time schedules for playing the game. By modifying the tick interval it is possible to change the nature of the game from \"Synchronous Game\" to \"Asynchronous Game\". For example, changing the tick interval in \"Final Fantasy VII\" combat to two days makes it much more suitable for \"Asynchronous Game\". The tick interval can also be used to overcome the problems with lags in the medium, for example computer networks or mail systems, used in the game, while still retaining at least some characteristics of \"Real-Time Games\". The combat system in \"Final Fantasy VII\" would tolerate lags of at least couple of seconds without the players noticing anything. Too long tick intervals may result in unintentional \"Game Pauses\" and \"Downtime\" for the players."
+            "[Tick-Based Games](tick-based-games), especially when using [Budgeted Action Points](budgeted-action-points), are well suited for [Asynchronous Games](asynchronous-games) depending, however, on the tick interval and the players' time schedules for playing the game. By modifying the tick interval it is possible to change the nature of the game from [Synchronous Game](synchronous-games) to [Asynchronous Game](asynchronous-games). For example, changing the tick interval in \"Final Fantasy VII\" combat to two days makes it much more suitable for [Asynchronous Game](asynchronous-games). The tick interval can also be used to overcome the problems with lags in the medium, for example computer networks or mail systems, used in the game, while still retaining at least some characteristics of [Real-Time Games](real-time-games). The combat system in \"Final Fantasy VII\" would tolerate lags of at least couple of seconds without the players noticing anything. Too long tick intervals may result in unintentional [Game Pauses](game-pauses) and [Downtime](downtime) for the players."
         ]
     },
     "relations": {
-        "instantiates": [
-            "no-ops"
-        ],
+        "instantiates": [],
         "modulates": [
             "asynchronous-games",
             "synchronous-games",
@@ -32,8 +30,6 @@
             "dedicated-game-facilitators"
         ],
         "modulated_by": [
-            "real-time-games",
-            "turn-based-games",
             "budgeted-action-points",
             "game-pauses"
         ],

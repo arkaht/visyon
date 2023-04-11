@@ -3,20 +3,20 @@
     "texts": {
         "definition": "Completing an Excluding Goal makes the completion of other goals in the game meaningless or impossible.",
         "description": [
-            "Some goals exist in relations to each other so that conditions required in the game state to fulfill one makes the completion of the others impossible. The two basic forms of \"Excluding Goals\" are based around collections of the same goal or collections of different goals. Racing is an example of several players having the same goal but only one can complete the goal. Collections of different goals can also be between different players but may also be goals that one player has and has to choose between."
+            "Some goals exist in relations to each other so that conditions required in the game state to fulfill one makes the completion of the others impossible. The two basic forms of [Excluding Goals](excluding-goals) are based around collections of the same goal or collections of different goals. Racing is an example of several players having the same goal but only one can complete the goal. Collections of different goals can also be between different players but may also be goals that one player has and has to choose between."
         ],
         "examples": [
-            "\"Races\" which do not allow tied results use \"Excluding Goals\"; the first player to finish the race makes the other players' goals invalid.",
+            "[Races](race) which do not allow tied results use [Excluding Goals](excluding-goals); the first player to finish the race makes the other players' goals invalid.",
             "\"Star Wars: Knights of the Old Republic\" is a single player adventure game, where finishing certain goals exclude other possible goals as the player character moves towards being good or evil."
         ],
         "usage": [
-            "\"Excluding Goals\" can easily be created by taking one goal and constructing \"Preventing Goals\" aroundit. However, \"Excluding Goals\" do not have to be of a preventing nature, as \"Races\" and \"Overcome\" goals are examples of goals being excluding but not preventing. However, in these cases \"Excluding Goals\" have to use \"Tie-Breakers\" to ensure that only one player can have a certain position in the outcome of the game. Further, this requires that there must exist rules to determine the order in which the \"Excluding Goals\" exclude each other, typically the order in which they were completed but in some cases judged on how well goals were completed.",
-            "Using \"Excluding Goals\" with \"Hierarchy of Goals\" assumes, of course, that the hierarchy is not linear. Goal hierarchies arranged in a tree-like structure are the most suitable for \"Excluding Goals\" as the exclusion can be easily implemented by just cutting of branches from the goal tree. Using the pattern in this manner implies the use of \"Dynamic Goal Characteristics\" for the goal information available to the players and also the use of \"Selectable Sets of Goals\" to allow the players to choose what goals they are pursuing."
+            "[Excluding Goals](excluding-goals) can easily be created by taking one goal and constructing [Preventing Goals](preventing-goals) aroundit. However, [Excluding Goals](excluding-goals) do not have to be of a preventing nature, as [Races](race) and [Overcome](overcome) goals are examples of goals being excluding but not preventing. However, in these cases [Excluding Goals](excluding-goals) have to use \"Tie-Breakers\" to ensure that only one player can have a certain position in the outcome of the game. Further, this requires that there must exist rules to determine the order in which the [Excluding Goals](excluding-goals) exclude each other, typically the order in which they were completed but in some cases judged on how well goals were completed.",
+            "Using [Excluding Goals](excluding-goals) with [Hierarchy of Goals](hierarchyof-goals) assumes, of course, that the hierarchy is not linear. Goal hierarchies arranged in a tree-like structure are the most suitable for [Excluding Goals](excluding-goals) as the exclusion can be easily implemented by just cutting of branches from the goal tree. Using the pattern in this manner implies the use of [Dynamic Goal Characteristics](dynamic-goal-characteristics) for the goal information available to the players and also the use of [Selectable Sets of Goals](selectable-setsof-goals) to allow the players to choose what goals they are pursuing."
         ],
         "consequences": [
-            "\"Excluding Goals\" is a one way of creating \"Incompatible Goals\"; the other goals simply fail when one is completed. Because of this incompatibility, \"Excluding Goals\" make \"Tied Results\" impossible and raises the level of \"Conflict\" between the players. This is because the success of one player becomes closely linked to the failure of the other players in \"Competition\", creating higher \"Risk/Reward\" levels compared to goals where players have do not have to compete against each other. \"Excluding Goals\" can also create \"Perceivable Margins\" if the goals have sufficiently strong impact on the game.",
-            "Goal exclusion within \"Selectable Sets of Goals\" that is part of a \"Hierarchy of Goals\" only allows players to fulfill a subset of the possible goals when playing the game. This use of the pattern can promote \"Replayability\", especially in games with strong \"Narrative Structure\", as it leads to the possibility for players to traverse the hierarchy in different ways, each leading to a different play experience.",
-            "The use of \"Excluding Goals\" forms a natural starting point for defining \"Closure Points\" as certain characteristics of the possible future game states are known when one of the \"Excluding Goals\" is completed. If the game state values needed by the excluded goals are not needed for the other goals in the game, the \"Closure Points\" may remove game elements no longer needed and make unnecessary action unavailable."
+            "[Excluding Goals](excluding-goals) is a one way of creating [Incompatible Goals](incompatible-goals); the other goals simply fail when one is completed. Because of this incompatibility, [Excluding Goals](excluding-goals) make [Tied Results](tied-results) impossible and raises the level of [Conflict](conflict) between the players. This is because the success of one player becomes closely linked to the failure of the other players in [Competition](competition), creating higher [Risk/Reward](risk-reward) levels compared to goals where players have do not have to compete against each other. [Excluding Goals](excluding-goals) can also create [Perceivable Margins](perceivable-margins) if the goals have sufficiently strong impact on the game.",
+            "Goal exclusion within [Selectable Sets of Goals](selectable-setsof-goals) that is part of a [Hierarchy of Goals](hierarchyof-goals) only allows players to fulfill a subset of the possible goals when playing the game. This use of the pattern can promote [Replayability](replayability), especially in games with strong [Narrative Structure](narrative-structures), as it leads to the possibility for players to traverse the hierarchy in different ways, each leading to a different play experience.",
+            "The use of [Excluding Goals](excluding-goals) forms a natural starting point for defining [Closure Points](closure-points) as certain characteristics of the possible future game states are known when one of the [Excluding Goals](excluding-goals) is completed. If the game state values needed by the excluded goals are not needed for the other goals in the game, the [Closure Points](closure-points) may remove game elements no longer needed and make unnecessary action unavailable."
         ]
     },
     "relations": {
@@ -27,7 +27,7 @@
             "closure-points"
         ],
         "modulates": [
-            "hierarchy-of-goals"
+            "hierarchyof-goals"
         ],
         "instantiated_by": [
             "overcome",
@@ -36,7 +36,7 @@
             "tiebreakers"
         ],
         "modulated_by": [
-            "selectable-sets-of-goals",
+            "selectable-setsof-goals",
             "dynamic-goal-characteristics"
         ],
         "conflicts": [

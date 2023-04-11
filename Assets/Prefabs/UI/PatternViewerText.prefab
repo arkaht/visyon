@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8551253906739256426}
   - component: {fileID: 8551253906739256436}
   - component: {fileID: 8551253906739256437}
+  - component: {fileID: 6309954343209784195}
   m_Layer: 5
   m_Name: PatternViewerText
   m_TagString: Untagged
@@ -135,3 +136,17 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6309954343209784195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8551253906739256427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a5c0fbb29b92b48955b3f087a7d67f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Viewer: {fileID: 0}
+  textTMP: {fileID: 8551253906739256437}

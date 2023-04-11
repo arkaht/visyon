@@ -3,24 +3,23 @@
     "texts": {
         "definition": "Being able to do a form of movement that other game elements cannot.",
         "description": [
-            "Few games that have movement of game elements have the same form of movement for all of them. By providing game elements with different types of movement, some or in rare cases, all game elements have \"Privileged Movement\" that gives them additional value."
+            "Few games that have movement of game elements have the same form of movement for all of them. By providing game elements with different types of movement, some or in rare cases, all game elements have [Privileged Movement](privileged-movement) that gives them additional value."
         ],
         "examples": [
             "taking control of vehicles in \"Battlefield 1942\" or \"Battlefield Vietnam\" give players other forms of movement that when on foot, with planes and helicopters allowing the most different type of movement.",
             "knights in \"Chess\" have a privileged form of movement since they do not require line-of-sight to the square that they move to.",
-            "the game of \"Draughts\" (or \"Checkers\") requires that players promote at least one singleton to a doubleton in order to get the required \"Privileged Movement\" that is necessary to win."
+            "the game of \"Draughts\" (or \"Checkers\") requires that players promote at least one singleton to a doubleton in order to get the required [Privileged Movement](privileged-movement) that is necessary to win."
         ],
         "usage": [
-            "\"Privileged Movement\" can be used to let game elements move in ways impossible to other game elements or may make the \"Movement\" have effects which other game elements do not have. Examples of ways which \"Privileged Movement\" can affect the movement itself includes ignoring \"Obstacles\" or entering \"Inaccessible Areas\". When the \"Privileged Movement\" allows better \"Game State Overview\" than otherwise possible, it helps \"Game World Navigation\". Examples of forms of \"Privileged Movement\" can be that the game elements repulse or attract other game elements in their wake or that the game elements leaves \"Traces\" that can have beneficial or negative consequences to those that enter the \"Traces\", or that the \"Traces\" simply give information.",
-            "The effects \"Privileged Movement\" allows can depend on the type of locomotion the \"Privileged Movement\" uses. Flying allows better \"Game State Overview\" and thereby promotes \"Game World Navigation\" and lets players avoid \"Enemies\" that cannot fly and do not have ranged weapons. Climbing may allow vertical movement by usually depends on the material of what is climbed. Swinging requires players to perform \"Aim &amp; Shoot\" actions."
+            "[Privileged Movement](privileged-movement) can be used to let game elements move in ways impossible to other game elements or may make the [Movement](movement) have effects which other game elements do not have. Examples of ways which [Privileged Movement](privileged-movement) can affect the movement itself includes ignoring [Obstacles](obstacles) or entering [Inaccessible Areas](inaccessible-areas). When the [Privileged Movement](privileged-movement) allows better [Game State Overview](game-state-overview) than otherwise possible, it helps [Game World Navigation](game-world-navigation). Examples of forms of [Privileged Movement](privileged-movement) can be that the game elements repulse or attract other game elements in their wake or that the game elements leaves [Traces](traces) that can have beneficial or negative consequences to those that enter the [Traces](traces), or that the [Traces](traces) simply give information.",
+            "The effects [Privileged Movement](privileged-movement) allows can depend on the type of locomotion the [Privileged Movement](privileged-movement) uses. Flying allows better [Game State Overview](game-state-overview) and thereby promotes [Game World Navigation](game-world-navigation) and lets players avoid [Enemies](enemies) that cannot fly and do not have ranged weapons. Climbing may allow vertical movement by usually depends on the material of what is climbed. Swinging requires players to perform [Aim & Shoot](aim-shoot) actions."
         ],
         "consequences": [
-            "\"Privileged Movement\" is a form of \"Privileged Abilities\" regarding \"Movement\" and can be used to create \"Orthogonal Unit Differentiation\". Like other \"Privileged Abilities\", the use of \"Privileged Movement\" can potentially disrupt \"Player Balance\". \"Privileged Movement\" can be used to make \"Herd\" or \"Traverse\" goals easier for certain game elements and may be used to maintain a \"Narrative Structure\" by only making certain \"Inaccessible Areas\" accessible at the right time."
+            "[Privileged Movement](privileged-movement) is a form of [Privileged Abilities](privileged-abilities) regarding [Movement](movement) and can be used to create [Orthogonal Unit Differentiation](orthogonal-unit-differentiation). Like other [Privileged Abilities](privileged-abilities), the use of [Privileged Movement](privileged-movement) can potentially disrupt [Player Balance](player-balance). [Privileged Movement](privileged-movement) can be used to make [Herd](herd) or [Traverse](traverse) goals easier for certain game elements and may be used to maintain a [Narrative Structure](narrative-structures) by only making certain [Inaccessible Areas](inaccessible-areas) accessible at the right time."
         ]
     },
     "relations": {
         "instantiates": [
-            "aim-shoot",
             "privileged-abilities",
             "orthogonal-unit-differentiation"
         ],

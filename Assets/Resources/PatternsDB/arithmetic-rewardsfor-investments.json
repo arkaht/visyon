@@ -1,0 +1,38 @@
+{
+    "name": "Arithmetic Rewards for Investments",
+    "texts": {
+        "definition": "The possible rewards have a linear relationship to the investments, that is, if the investment is double, the comparable reward is doubled.",
+        "description": [
+            "[Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments) are those rewards in game that are directly proportional with the resources used to gain them. As long as requirements of minimum and maximum investments are met, [Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments) allow players to split resources into several smaller investments rather than one large investment with no other penalty than maybe not receiving all rewards at the same time."
+        ],
+        "examples": [
+            "the unit construction in strategy games is often based on [Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments). If it costs 100 production points to construct a tank, it costs 200 points to construct two tanks, 300 points to construct three tanks, and so on."
+        ],
+        "usage": [
+            "[Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments) use linear functions between the [Resources](resources) and [Rewards](rewards) of [Investments](investments) and are thereby incompatible with [Geometric Rewards for Investments](geometric-rewardsfor-investments) and [Diminishing Returns](diminishing-returns). They make the planning of the [Investments](investments) straightforward as there is no real incentive for hoarding the [Resources](resources) before investing. As the [Investments](investments) can be done in smaller chunks and do not represent so great [Risk/Reward](risk-reward) choices they give players a [Freedom of Choice](freedomof-choice) how to make [Investments](investments). The ease of understanding the [Rewards](rewards) received from [Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments) makes them have [Predictable Consequences](predictable-consequences), both for the players who are making the [Investments](investments) and those observing the [Investments](investments) being made."
+        ],
+        "consequences": [
+            "When implementing [Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments) the costs involved have to be balanced compared to other possible [Investments](investments) in the game. It is also possible to artificially limit the maximum possible amount used in single [Investments](investments) or require minimum amounts to be invested to modulate the [Risk/Reward](risk-reward) choices that have to be made. Another way of modulating the [Risk/Reward](risk-reward) choices is to not make several identical [Investments](investments) using arithmetic reward schemes possible at the same time by imposing [Time Limits](time-limits) between such [Investments](investments)."
+        ]
+    },
+    "relations": {
+        "instantiates": [
+            "predictable-consequences",
+            "freedomof-choice"
+        ],
+        "modulates": [
+            "investments",
+            "rewards",
+            "risk-reward"
+        ],
+        "instantiated_by": [],
+        "modulated_by": [
+            "time-limits",
+            "diminishing-returns"
+        ],
+        "conflicts": [
+            "geometric-rewardsfor-investments",
+            "diminishing-returns"
+        ]
+    }
+}

@@ -8,36 +8,32 @@
         ],
         "examples": [],
         "usage": [
-            "\"Save-Load Cycles\" may be instantiated in games either by letting players initiate savingand loading whenever they wish or only at specific \"Save Points\". The former increases players \"Freedom of Choice\" and encourages \"Experimenting\". The latter creates goals of reaching the \"Save Points\" and makes \"Risk/Reward\" choices have more \"Tension\".",
-            "Considerations that should be made when creating \"Save-Load Cycles\" are how this affects \"Surprises\" and \"Leaps of Faiths\" in the game. Further, \"Save-Load Cycles\" are difficult to include in \"Multiplayer Games\" since they require \"Negotiation\" to coordinate these actions and thereby easily ruin \"Immersion\". Although no \"Negotiation\" is required in \"Single-Player Games\", the presence of \"Save-Load Cycles\" during gameplay may in this case also work against \"Immersion\"."
+            "[Save-Load Cycles](save-load-cycles) may be instantiated in games either by letting players initiate savingand loading whenever they wish or only at specific [Save Points](save-points). The former increases players [Freedom of Choice](freedomof-choice) and encourages [Experimenting](experimenting). The latter creates goals of reaching the [Save Points](save-points) and makes [Risk/Reward](risk-reward) choices have more [Tension](tension).",
+            "Considerations that should be made when creating [Save-Load Cycles](save-load-cycles) are how this affects [Surprises](surprises) and [Leaps of Faiths](leapsof-faith) in the game. Further, [Save-Load Cycles](save-load-cycles) are difficult to include in [Multiplayer Games](multiplayer-games) since they require [Negotiation](negotiation) to coordinate these actions and thereby easily ruin [Immersion](immersion). Although no [Negotiation](negotiation) is required in [Single-Player Games](single-player-games), the presence of [Save-Load Cycles](save-load-cycles) during gameplay may in this case also work against [Immersion](immersion)."
         ],
         "consequences": [
-            "\"Save-Load Cycles\" are \"Extra-Game Actions\" that allow players to save and load entire game states, typically made possible by \"Dedicated Game Facilitators\". The possibility of \"Save-Load Cycles\" in a game means that play sessions do not have to be part of the complete game session as parts of the gameplay can be abandoned to return to previous game states. This gives players the possibility of \"Replayability\" within a game instance, although the players can use \"Trans-Game Information\" from previous play sessions. Being able to learn from experience and try to practice this new knowledge can provide players with a \"Smooth Learning Curves\" and form a sort of \"Near Miss Indicator\" since players can compare how well they have succeeded when playing from a saved point several times.",
-            "Since \"Save-Load Cycles\" make \"Irreversible Actions\" impossible in the perspective of the overall game session, players are free to do \"Experimenting.\" Further, \"Save-Load Cycles\" make \"Penalties\" and \"Ability Losses\" have less influence on the overall game session as in other cases of \"Reversability\". The act of loading a game state creates a form of \"Spawning\" action for players, and since they can know the game state from earlier experiences, they have the opportunity of \"Stimulated Planning\".",
-            "Although \"Save-Load Cycles\" provide the possibility of \"Replayability\", they do not necessarily make replay meaningful. \"Puzzle Solving\" especiallybecomes pointless to do repeatedly, unless the puzzle can be solve in many different ways that can be quantifiably measured against each other.",
-            "\"Save-Load Cycles\" cause \"Downtime\" and \"Game Pauses\" from actual gameplay in \"Real-Time Games\", since the actions to perform savingand loading take time away from actions in the game.",
-            "Although not intentionally constructed so, \"Save-Load Cycles\" may give players \"Direct Information\" to the game state by analyzing the files in which the saved game state is stored."
+            "[Save-Load Cycles](save-load-cycles) are [Extra-Game Actions](extra-game-actions) that allow players to save and load entire game states, typically made possible by [Dedicated Game Facilitators](dedicated-game-facilitators). The possibility of [Save-Load Cycles](save-load-cycles) in a game means that play sessions do not have to be part of the complete game session as parts of the gameplay can be abandoned to return to previous game states. This gives players the possibility of [Replayability](replayability) within a game instance, although the players can use [Trans-Game Information](trans-game-information) from previous play sessions. Being able to learn from experience and try to practice this new knowledge can provide players with a [Smooth Learning Curves](smooth-learning-curves) and form a sort of [Near Miss Indicator](near-miss-indicators) since players can compare how well they have succeeded when playing from a saved point several times.",
+            "Since [Save-Load Cycles](save-load-cycles) make [Irreversible Actions](irreversible-actions) impossible in the perspective of the overall game session, players are free to do [Experimenting.](experimenting) Further, [Save-Load Cycles](save-load-cycles) make [Penalties](penalties) and [Ability Losses](ability-losses) have less influence on the overall game session as in other cases of [Reversability](reversability). The act of loading a game state creates a form of [Spawning](spawning) action for players, and since they can know the game state from earlier experiences, they have the opportunity of [Stimulated Planning](stimulated-planning).",
+            "Although [Save-Load Cycles](save-load-cycles) provide the possibility of [Replayability](replayability), they do not necessarily make replay meaningful. [Puzzle Solving](puzzle-solving) especiallybecomes pointless to do repeatedly, unless the puzzle can be solve in many different ways that can be quantifiably measured against each other.",
+            "[Save-Load Cycles](save-load-cycles) cause [Downtime](downtime) and [Game Pauses](game-pauses) from actual gameplay in [Real-Time Games](real-time-games), since the actions to perform savingand loading take time away from actions in the game.",
+            "Although not intentionally constructed so, [Save-Load Cycles](save-load-cycles) may give players [Direct Information](direct-information) to the game state by analyzing the files in which the saved game state is stored."
         ]
     },
     "relations": {
         "instantiates": [
             "stimulated-planning",
-            "trans-game-information",
             "smooth-learning-curves",
             "experimenting",
             "downtime",
             "replayability",
-            "freedom-of-choice",
+            "freedomof-choice",
             "spawning",
-            "extra-game-actions",
             "game-pauses",
             "reversability"
         ],
         "modulates": [
             "direct-information",
             "near-miss-indicators",
-            "real-time-games",
-            "single-player-games",
             "tension"
         ],
         "instantiated_by": [
@@ -48,7 +44,7 @@
         ],
         "conflicts": [
             "surprises",
-            "leaps-of-faith",
+            "leapsof-faith",
             "penalties",
             "multiplayer-games",
             "irreversible-actions",

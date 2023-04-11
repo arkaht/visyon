@@ -1,0 +1,64 @@
+{
+    "name": "Illusion of Influence",
+    "texts": {
+        "definition": "Players believe that they can influence the outcome of the game, regardless of whether this is correct.",
+        "description": [
+            "Some games allow actions that do not actually make players come closer to achieving goals, or even changing the game state. When these actions appear meaningful, including being meaningful to the player but not within a game state perspective, the players have an [Illusion of Influence](illusionof-influence) within the game."
+        ],
+        "examples": [
+            "Games with well-developed stories, such as the \"Final Fantasy\" or \"Zelda\" series, do not let players experience the stories unless they complete the goals. If this is an [Illusion of Influence](illusionof-influence), as the stories are fully planned before gameplay begins, or real influence, as the stories are not told unless the players do actions, is a matter of perspective.",
+            "Adventure games consisting of multiple branch stories provide the players with choices of what story to read and, thereby, a feeling of affecting the story. However, this is an illusion, as all the possible stories have already been scripted."
+        ],
+        "usage": [
+            "Having a [Perceived Chance to Succeed](perceived-chanceto-succeed) is a requirement for players to be able to experience an [Illusion of Influence](illusionof-influence). This can be achieved through providing the [Right Level of Difficulty](right-levelof-difficulty) for the players or by basing outcomes on [Randomness](randomness), which gives players a potential [Illusion of Influence](illusionof-influence) through [Luck](luck). In [Multiplayer Games](multiplayer-games), it is important to consider [Player Balance](player-balance), as this strongly affects players' [Illusion of Influence](illusionof-influence), and in games with [Team Play](team-play), this is both regarding differences between players within the same team and between players of different teams. [Smooth Learning Curves](smooth-learning-curves) can be used to give [Illusion of Influence](illusionof-influence) throughout the game, even if the game becomes more and more difficult or complex. If the [Right Level of Complexity](right-levelof-complexity) is not achieved, this can ruin [Illusion of Influence](illusionof-influence) since players then get [Limited Planning Abilities](limited-planning-ability), for example, when too many [Producer-Consumer](producer-consumer) relationships exist for players to have an overview of how they interact.",
+            "Influence can be either to choose between what should happen or exist in the game or to be able to create objects or events in the game. Choosing between what events should occur in the game depends on players' [Freedom of Choice](freedomof-choice) as well as the chance of success. Influence, or the [Illusion of Influence](illusionof-influence), can thereby be created through [New Abilities](new-abilities) and [Improved Abilities](improved-abilities), and removed by [Ability Losses](ability-losses) and [Decreased Abilities](decreased-abilities). Affecting abilities in this fashion is most easily done with [Tools](tools). Creating objects and events provides a more tangible form of influence and can be done by [Creative Control](creative-control); for example, by creating [Characters](characters) and allowing [Planned Character Development](planned-character-development).",
+            "[Game Masters](game-masters) can provide a strong [Illusion of Influence](illusionof-influence), as anything players may want to influence can be discussed as part of [Social Interaction](social-interaction). [Randomness](randomness) can create an [Illusion of Influence](illusionof-influence) in two different ways: first, players may feel that they do have influence through [Luck](luck); and second, the results can be faked by [Game Masters](game-masters) or computers. However, the first form of illusion is brittle, as players do not have any real influence over random results, and players with this form of [Strategic Knowledge](strategic-knowledge) are unlikely to have any such [Illusion of Influence](illusionof-influence)."
+        ],
+        "consequences": [
+            "[Illusion of Influence](illusionof-influence) can affect [Emotional Immersion](emotional-immersion), as it makes players feel that their actions are important in the game, and when they feel this, they often experience [Freedom of Choice](freedomof-choice). The possibility to influence encourages [Stimulated Planning](stimulated-planning) but this, and the perception of influence, is restricted by [Limited Foresight](limited-foresight) and [Limited Planning Abilities](limited-planning-ability) in the games.",
+            "[Narrative Structures](narrative-structures) due to limitations on possible actions and what order events need to occur naturally limit players' [Illusion of Influence](illusionof-influence), and this is most strongly affected by the presence of [Cut Scenes](cut-scenes). Indeed, beginning to play a game that one knows has a strong story is done with the [Extra-Game Information](extra-game-information) that one has a limited impact on the possible stories that can develop.",
+            "Although players can influence the initiation of [Ultra-Powerful Events](ultra-powerful-events), they cannot affect their development, and this is one way [Illusion of Influences](illusionof-influence) can be destroyed in games. [Surprises](surprises), since they cannot be anticipated, are likewise events that can destroy[Illusion of Influences](illusionof-influence), as are [Shared Penalties](shared-penalties), which players have no control over avoiding."
+        ]
+    },
+    "relations": {
+        "instantiates": [
+            "stimulated-planning",
+            "emotional-immersion"
+        ],
+        "modulates": [
+            "multiplayer-games",
+            "team-play",
+            "freedomof-choice"
+        ],
+        "instantiated_by": [
+            "player-balance",
+            "planned-character-development",
+            "improved-abilities",
+            "game-masters",
+            "perceived-chanceto-succeed",
+            "creative-control",
+            "characters",
+            "luck",
+            "social-interaction",
+            "tools",
+            "right-levelof-difficulty",
+            "new-abilities"
+        ],
+        "modulated_by": [
+            "limited-foresight",
+            "strategic-knowledge",
+            "smooth-learning-curves",
+            "right-levelof-complexity",
+            "randomness"
+        ],
+        "conflicts": [
+            "surprises",
+            "shared-penalties",
+            "decreased-abilities",
+            "narrative-structures",
+            "ability-losses",
+            "cut-scenes",
+            "limited-planning-ability"
+        ]
+    }
+}

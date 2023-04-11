@@ -1,0 +1,67 @@
+{
+    "name": "Player-Decided Distribution of Rewards & Penalties",
+    "texts": {
+        "definition": "That one or more player controls the process of distributing between several players the rewards for completing, or the penalties for failing, a goal.",
+        "description": [
+            "Games may allow players to have influence over how the distribution of rewards or penalties is performed. This [Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties) may let one or a few players chose between being fair leaders or egoistic despots and can cause intense negotiation between players."
+        ],
+        "examples": [
+            "the board game \"Junta\" allows the players who is \"El Presidente\" to divide the foreign aid received between players in any manner he or she chooses, regardless of any promises.",
+            "the division of treasure and magic items in roleplaying games is usually a heated discussion between players based on effort and risks taken to get the loot as well as potential use of the found items.",
+            "in \"Drachengold\" players find treasures but do only get to keep them if they can agree on how they should be distributed between the players within a limit amount of time."
+        ],
+        "usage": [
+            "The two main design choices regarding [Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties) are who affects the distribution and what restrictions to the distribution exist. The two common ways for players to be able to affect the distribution is through [Privileged Abilities](privileged-abilities) or through [Bidding](bidding), which in the later case may require certain [Resources](resources) and these [Resources](resources) may influence the vote in various degrees depending on their values. Typically options when designing [Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties) are how to divide [Shared Rewards](shared-rewards) or [Shared Penalties](shared-penalties), but also to assign [Individual Penalties](individual-penalties) within a group.",
+            "Putting some restrictions on the distribution is mainly to ensure that [Symmetric Resource Distribution](symmetric-resource-distribution) at some level is done, or that all players receive a minimum level from the available [Renewable Resources](renewable-resources), or to make [Social Status](social-statuses) have explicit effects on gameplay. However, restrictions lessen players' [Freedom of Choice](freedomof-choice) and lessen the impact of [Betrayal](betrayal)."
+        ],
+        "consequences": [
+            "[Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties) are a form of [Player Decided Results](player-decided-results) which increases players' [Freedom of Choice](freedomof-choice) and creates the potential for [Tension](tension). They make the process of [Rewards](rewards) into one where [Negotiation](negotiation) takes place as where [Betrayal](betrayal) of [Uncommitted Alliances](uncommitted-alliances) can take place. When the distribution or effects of the [Rewards](rewards) and [Penalties](penalties) have [Imperfect Information](imperfect-information), the tension causes by [Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties) is increased but the possibility of [Secret Alliances](secret-alliances) emerges.",
+            "As these forms of [Rewards](rewards) can be [Shared Rewards](shared-rewards) they are typically given after the completion of [Mutual Goals](mutual-goals) or [Collaborative Actions](collaborative-actions), and are most common in games with [Team Play](team-play) or the possibility for [Dynamic Alliances](dynamic-alliances).",
+            "Participating in actions affecting the events that initiate [Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties) is a [Risk/Reward](risk-reward) choice. First, participating in making the events occur may require [Resources](resources) and risks without being compensated if it is successful and give [Penalties](penalties) if the events are part of [Committed Goals](committed-goals). Second, actively working against the event occurring can significantly raise the chances of getting any [Penalties](penalties) if the event occurs without any chance of getting the [Rewards](rewards). Being neutral lessens the risk of receiving [Penalties](penalties) but typically also gives little chance of receiving [Rewards](rewards) either. As all [Player Decided Results](player-decided-results) they have few [Predictable Consequences](predictable-consequences) but also give players [Limited Planning Abilities](limited-planning-ability).",
+            "Letting players affect the distribution of [Rewards](rewards) and [Penalties](penalties) can have [Balancing Effects](balancing-effects) when players in overall advantageous situations cannot benefit themselves or when mainly [Penalties](penalties) are assigned. When several players affect the distribution this allows them to gang up against perceived leaders and the risk of disrupting [Player Balance](player-balance) is lessened.",
+            "When the [Rewards](rewards) or [Penalties](penalties) distributed affect [Resources](resources), the act of choosing how the distribution of [Resources](resources) should be made is one of [Resource Management](resource-management) and requires [Tradeoff](tradeoffs) decisions to be made. [Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties) typically results in [Asymmetric Resource Distribution](asymmetric-resource-distribution) but can promote [Symmetric Resource Distribution](symmetric-resource-distribution) within the subgroup of players who decided the choice of distribution.",
+            "[Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties) may be the effect of dividing [Rewards](rewards) from a [Tied Results](tied-results). However, the knowledge that one can have [Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties) can modulate players' behaviors so that agree on reaching a [Tied Result](tied-results)."
+        ]
+    },
+    "relations": {
+        "instantiates": [
+            "player-decided-results",
+            "resource-management",
+            "dynamic-alliances",
+            "balancing-effects",
+            "betrayal",
+            "tradeoffs",
+            "freedomof-choice",
+            "secret-alliances",
+            "risk-reward",
+            "uncommitted-alliances",
+            "tension",
+            "symmetric-resource-distribution",
+            "asymmetric-resource-distribution",
+            "negotiation"
+        ],
+        "modulates": [
+            "individual-penalties",
+            "penalties",
+            "shared-penalties",
+            "tied-results",
+            "rewards",
+            "shared-rewards"
+        ],
+        "instantiated_by": [
+            "collaborative-actions",
+            "tied-results",
+            "team-play"
+        ],
+        "modulated_by": [
+            "committed-goals",
+            "mutual-goals",
+            "imperfect-information",
+            "resources",
+            "privileged-abilities"
+        ],
+        "conflicts": [
+            "predictable-consequences"
+        ]
+    }
+}

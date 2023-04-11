@@ -3,23 +3,23 @@
     "texts": {
         "definition": "Conceal is the goal of trying to hinder other players ability to gain information.",
         "description": [
-            "Having as much information as possible about the game state is usually advantageous, and \"Conceal\" is the goal of trying to prevent other players from gaining information about part of the game state.",
-            "\"Conceal\" is not only about preventing or hindering other players from finding out the location of the goal object; the aim of \"Conceal\" may be to keep certain information associated with a game element from the other players.",
+            "Having as much information as possible about the game state is usually advantageous, and [Conceal](conceal) is the goal of trying to prevent other players from gaining information about part of the game state.",
+            "[Conceal](conceal) is not only about preventing or hindering other players from finding out the location of the goal object; the aim of [Conceal](conceal) may be to keep certain information associated with a game element from the other players.",
             "For example, in some strategy games, the player can use special actions to hide the actual strength of the unit, but not its location or existence. The exact location can also be partially hidden: the Elven cloak in a roleplaying game may hide the wearer in 80\\% of the cases, and cloaking devices in space games may show small bits of intergalactic fighters every now and then."
         ],
         "examples": [
-            "The children's game \"Hide &amp; Seek\" is the archetypical example of using \"Conceal\" where all children except one try to \"Conceal\" their locations.",
+            "The children's game \"Hide &amp; Seek\" is the archetypical example of using [Conceal](conceal) where all children except one try to [Conceal](conceal) their locations.",
             "The game \"Zendo\" allows the master to secretly make a rule for how differently colored pyramids should be arranged to have Buddha nature, and the goal of the students is to try and extrapolate the rule from experiments."
         ],
         "usage": [
-            "The information in \"Conceal\" goals can either be provided to the player or set up by the player, by either following rules or arranging game elements. The possibility to choose or create the information to be hidden allows the pattern to promote \"Replayability\" and to support \"Freedom of Choice\" and \"Creative Control\".",
-            "Using the \"Conceal\" pattern involves choosing what is hidden, where it can be hidden, and when the action of hiding can be performed. Optionally, the support of producing \"Red Herrings\" can be introduced in order to let players generate \"Asymmetric Information\" for other players.",
-            "A common use of the \"Conceal\" pattern is to hide a game element, i. e., its location, but an attribute of a game element can also be hidden. When players have to hide \"Avatars\" or \"Units\", this may give those players \"Limited Sets of Actions\" as they may only be able to do \"No-Op\" actions. Further, it may create \"Tension\" or force players to make \"Risk/Reward\" choices between using the game elements and giving other players information. As an example, the board game \"Stratego\" has the position of all pieces as public information, but a player does not initially know the rank of the other player's pieces. Each turn a player must move a piece, which provides \"Imperfect Information\" about which piece it is since many pieces have overlapping movement abilities."
+            "The information in [Conceal](conceal) goals can either be provided to the player or set up by the player, by either following rules or arranging game elements. The possibility to choose or create the information to be hidden allows the pattern to promote [Replayability](replayability) and to support [Freedom of Choice](freedomof-choice) and [Creative Control](creative-control).",
+            "Using the [Conceal](conceal) pattern involves choosing what is hidden, where it can be hidden, and when the action of hiding can be performed. Optionally, the support of producing [Red Herrings](red-herrings) can be introduced in order to let players generate [Asymmetric Information](asymmetric-information) for other players.",
+            "A common use of the [Conceal](conceal) pattern is to hide a game element, i. e., its location, but an attribute of a game element can also be hidden. When players have to hide [Avatars](avatars) or [Units](units), this may give those players \"Limited Sets of Actions\" as they may only be able to do [No-Op](no-ops) actions. Further, it may create [Tension](tension) or force players to make [Risk/Reward](risk-reward) choices between using the game elements and giving other players information. As an example, the board game \"Stratego\" has the position of all pieces as public information, but a player does not initially know the rank of the other player's pieces. Each turn a player must move a piece, which provides [Imperfect Information](imperfect-information) about which piece it is since many pieces have overlapping movement abilities."
         ],
         "consequences": [
-            "\"Conceal\" is a \"Preventing Goal\" to \"Gain Information\" but can also be an \"Unknown Goal\" since other players may not know who has the information. As a \"Preventing Goal\", it is also a \"Continuous Goal\", but as the information hidden may be context dependent, the player with the goal may choose to abandon the goal as a \"Tradeoff\" towards completing other goals. An example of this can be to choose to reveal ones position in an ambush when the enemy is sufficiently close to make an attack likely to succeed.",
-            "When the failure of \"Conceal\" can lead to the loss of \"Lives\", the goal can be seen as a \"Supporting Goal\" to \"Survive\".",
-            "When the information to be concealed can be concealed by a player through \"Red Herrings\" and suboptimal actions, this offers a form of \"Creative Control\" to that player. Games with secret tactics naturally have the goal to \"Conceal\" these from other players. In these cases, players may have to do \"Risk/Reward\" judgments between the benefit of making the most optimal action against the risk of revealing what goals and \"Resources\" they own. This presence of this form of \"Creative Control\" may be to create \"Surprises\" when the information is revealed."
+            "[Conceal](conceal) is a [Preventing Goal](preventing-goals) to [Gain Information](gain-information) but can also be an [Unknown Goal](unknown-goals) since other players may not know who has the information. As a [Preventing Goal](preventing-goals), it is also a [Continuous Goal](continuous-goals), but as the information hidden may be context dependent, the player with the goal may choose to abandon the goal as a [Tradeoff](tradeoffs) towards completing other goals. An example of this can be to choose to reveal ones position in an ambush when the enemy is sufficiently close to make an attack likely to succeed.",
+            "When the failure of [Conceal](conceal) can lead to the loss of [Lives](lives), the goal can be seen as a [Supporting Goal](supporting-goals) to [Survive](survive).",
+            "When the information to be concealed can be concealed by a player through [Red Herrings](red-herrings) and suboptimal actions, this offers a form of [Creative Control](creative-control) to that player. Games with secret tactics naturally have the goal to [Conceal](conceal) these from other players. In these cases, players may have to do [Risk/Reward](risk-reward) judgments between the benefit of making the most optimal action against the risk of revealing what goals and [Resources](resources) they own. This presence of this form of [Creative Control](creative-control) may be to create [Surprises](surprises) when the information is revealed."
         ]
     },
     "relations": {
@@ -38,7 +38,7 @@
         ],
         "modulated_by": [
             "red-herrings",
-            "freedom-of-choice",
+            "freedomof-choice",
             "creative-control"
         ],
         "conflicts": []

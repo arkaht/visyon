@@ -7,23 +7,21 @@
         ],
         "examples": [
             "The game area shrinks in \"Bomber Man\" after players have failed to eliminate each other in a certain period of time to increase the tension of the game.",
-            "One of the multiplayer levels in \"Half-Life\" allowed players to activate an air strike. All those not in a bunker complex when the air strike hit was killed, in effect reducing the \"Game World\" to the bunker for parts of the game play."
+            "One of the multiplayer levels in \"Half-Life\" allowed players to activate an air strike. All those not in a bunker complex when the air strike hit was killed, in effect reducing the [Game World](game-world) to the bunker for parts of the game play."
         ],
         "usage": [
-            "\"Shrinking Game Worlds\" have two prime characteristics: in what way the \"Game World\" shrinks and what activates the shrinkage. Having a uniform and predefined way in which the world shrinks, typically by using \"Tiles\" as a unit of the shrinkage, and how this is activated, most commonly simple a \"Time Limit\", allows player to have \"Strategic Knowledge\" and make increases \"Conflict\" if potential for it existed to begin with. If players can control the shrinkage this allows \"Player Defined Goals\" anda form of \"Player Constructed World\". The ability to control \"Shrinking Game Worlds\" can be used as an offensive ability as being caught in a shrinking area is often a \"Deadly Trap\"."
+            "[Shrinking Game Worlds](shrinking-game-world) have two prime characteristics: in what way the [Game World](game-world) shrinks and what activates the shrinkage. Having a uniform and predefined way in which the world shrinks, typically by using [Tiles](tiles) as a unit of the shrinkage, and how this is activated, most commonly simple a [Time Limit](time-limits), allows player to have [Strategic Knowledge](strategic-knowledge) and make increases [Conflict](conflict) if potential for it existed to begin with. If players can control the shrinkage this allows [Player Defined Goals](player-defined-goals) anda form of [Player Constructed World](player-constructed-worlds). The ability to control [Shrinking Game Worlds](shrinking-game-world) can be used as an offensive ability as being caught in a shrinking area is often a [Deadly Trap](deadly-traps)."
         ],
         "consequences": [
-            "\"Shrinking Game Worlds\" are \"Ultra-Powerful Events\" that instantiate\"The Show Must Go On\". They increase \"Tension\" by limiting players' \"Freedom of Choice\" by creating \"Movement Limitations\". If the events are caused by \"Irreversible Actions\" a \"Shrinking Game World\" can ensure \"Higher-Level Closures as Gameplay Progresses\"."
+            "[Shrinking Game Worlds](shrinking-game-world) are [Ultra-Powerful Events](ultra-powerful-events) that instantiate[The Show Must Go On](the-show-must-go-on). They increase [Tension](tension) by limiting players' [Freedom of Choice](freedomof-choice) by creating [Movement Limitations](movement-limitations). If the events are caused by [Irreversible Actions](irreversible-actions) a [Shrinking Game World](shrinking-game-world) can ensure [Higher-Level Closures as Gameplay Progresses](higher-level-closuresas-gameplay-progresses)."
         ]
     },
     "relations": {
         "instantiates": [
             "strategic-knowledge",
             "movement-limitations",
-            "ultra-powerful-events",
             "the-show-must-go-on",
             "deadly-traps",
-            "higher-level-closures-as-gameplay-progresses",
             "tension"
         ],
         "modulates": [
@@ -36,7 +34,7 @@
             "irreversible-actions"
         ],
         "conflicts": [
-            "freedom-of-choice"
+            "freedomof-choice"
         ]
     }
 }

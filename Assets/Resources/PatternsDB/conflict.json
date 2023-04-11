@@ -6,16 +6,16 @@
             "Almost all games have conflict situations, as otherwise it would be difficult to motivate the goal structures within the game. This, however, does not necessarily mean that all games are of an aggressive and competitive nature, but that games can be based on different kinds of conflict situations and on different levels. Even highly cooperative games, such as Reiner Knizia's \"Lord of the Rings\", have a built-in conflict between the players and the game system. The same applies, of course, to all single-player games, where the players struggle against the game system. However, it can be argued that certain categories of games, especially simulation games, do not have explicit conflict situations and to a certain extent this is true. It is possible to play a simulation game, such as \"SimCity\" or \"The\" \"Sims\", in such a way that there is no perceived conflict situation, but as soon as the players set goals for themselves in the game, there has to be conflict, as otherwise there is no game."
         ],
         "examples": [
-            "The \"Conflict\" situation in \"Tetris\" is that the game system creates blocks that start to fall down, and the player tries to keep the screen as clear from blocks as possible.",
-            "In \"Chess\", the \"Conflict\" situation is clear: the two players try to checkmate each other's king, and the winner is the first player able to do that."
+            "The [Conflict](conflict) situation in \"Tetris\" is that the game system creates blocks that start to fall down, and the player tries to keep the screen as clear from blocks as possible.",
+            "In \"Chess\", the [Conflict](conflict) situation is clear: the two players try to checkmate each other's king, and the winner is the first player able to do that."
         ],
         "usage": [
-            "\"Conflict\" is almost intuitively part of all games, but determining which kinds of \"Conflict\" situations and on which levels the \"Conflict\" appears is a difficult task. Using \"Eliminate\" and \"Overcome\" goals or direct \"Competition\" from \"Enemies\" in the form of other players or \"Agents\", is an easy way to create \"Conflict\" in games, especially if \"Combat\" actions are available. The severity of the \"Conflict\" can be modulated by the use of \"Lives\" or the possibility of \"Player Elimination\".",
-            "\"Gain\" \"Ownership\" through \"Transfer of Control\" events can either modulate or be the main reason for almost any kind of \"Conflict\". \"Competitions\" with \"Individual Rewards\" for the players are \"Conflict\" situations, as only some of the players are able to reach their goals in an adequate manner, especially if \"Tiebreakers\" are used. \"Race\", \"Rescue\", \"Last Man Standing\", and \"King of the Hill\" are classical ways of bringing \"Conflict\" and \"Competition\" into games and can be modulated by the goals resulting in \"Player Elimination\". \"Betrayals\" that cause \"Role Reversals\" give \"Conflicts\" with potentially greater \"Emotional Immersion\", since the \"Conflict\" is unexpected and probably perceived as unfairly motivated. \"Tournaments\" allow the \"Conflict\" to extend between game instances.",
-            "For \"Conflict\" to exist, players must be aware that they have opponents, so \"Uncertainty of Information\" or \"Imperfect Information\" about the goals of players, or even which players exist, make \"Conflict\" difficult. Although not required for \"Conflict\" to exist, \"Symmetric Information\" can intensify and focus \"Conflicts\", especially if players have \"Symmetric Goals\"."
+            "[Conflict](conflict) is almost intuitively part of all games, but determining which kinds of [Conflict](conflict) situations and on which levels the [Conflict](conflict) appears is a difficult task. Using [Eliminate](eliminate) and [Overcome](overcome) goals or direct [Competition](competition) from [Enemies](enemies) in the form of other players or [Agents](agents), is an easy way to create [Conflict](conflict) in games, especially if [Combat](combat) actions are available. The severity of the [Conflict](conflict) can be modulated by the use of [Lives](lives) or the possibility of [Player Elimination](player-elimination).",
+            "\"Gain\" [Ownership](ownership) through [Transfer of Control](transferof-control) events can either modulate or be the main reason for almost any kind of [Conflict](conflict). [Competitions](competition) with [Individual Rewards](individual-rewards) for the players are [Conflict](conflict) situations, as only some of the players are able to reach their goals in an adequate manner, especially if [Tiebreakers](tiebreakers) are used. [Race](race), [Rescue](rescue), [Last Man Standing](last-man-standing), and [King of the Hill](kingofthe-hill) are classical ways of bringing [Conflict](conflict) and [Competition](competition) into games and can be modulated by the goals resulting in [Player Elimination](player-elimination). [Betrayals](betrayal) that cause [Role Reversals](role-reversal) give [Conflicts](conflict) with potentially greater [Emotional Immersion](emotional-immersion), since the [Conflict](conflict) is unexpected and probably perceived as unfairly motivated. [Tournaments](tournaments) allow the [Conflict](conflict) to extend between game instances.",
+            "For [Conflict](conflict) to exist, players must be aware that they have opponents, so [Uncertainty of Information](uncertaintyof-information) or [Imperfect Information](imperfect-information) about the goals of players, or even which players exist, make [Conflict](conflict) difficult. Although not required for [Conflict](conflict) to exist, [Symmetric Information](symmetric-information) can intensify and focus [Conflicts](conflict), especially if players have [Symmetric Goals](symmetric-goals)."
         ],
         "consequences": [
-            "\"Conflict\" is a common source in games of \"Emotional Immersion\", and \"Conflict\" naturally creates \"Tension\" in games as other players or the game system are actively working against oneself. Games use different kinds of \"Conflict\" situations as the main motivations for the players to play the game and spectators to watch the drama unfold.\"Conflict\" can happen on several different levels in the game, and even though a game might contain features of \"Collaborative Actions\" without \"Conflict\", there usually is a \"Conflict\" situation at least on some level, for example, as a \"Social Dilemma\" or rivalries between the members of the \"Social Organization\"."
+            "[Conflict](conflict) is a common source in games of [Emotional Immersion](emotional-immersion), and [Conflict](conflict) naturally creates [Tension](tension) in games as other players or the game system are actively working against oneself. Games use different kinds of [Conflict](conflict) situations as the main motivations for the players to play the game and spectators to watch the drama unfold.[Conflict](conflict) can happen on several different levels in the game, and even though a game might contain features of [Collaborative Actions](collaborative-actions) without [Conflict](conflict), there usually is a [Conflict](conflict) situation at least on some level, for example, as a [Social Dilemma](social-dilemmas) or rivalries between the members of the [Social Organization](social-organizations)."
         ]
     },
     "relations": {
@@ -38,9 +38,9 @@
             "excluding-goals",
             "incompatible-goals",
             "last-man-standing",
-            "king-of-the-hill",
+            "kingofthe-hill",
             "race",
-            "transfer-of-control",
+            "transferof-control",
             "overcome",
             "player-elimination",
             "betrayal",
@@ -67,7 +67,7 @@
             "mutual-goals",
             "shared-rewards",
             "supporting-goals",
-            "uncertainty-of-information",
+            "uncertaintyof-information",
             "imperfect-information",
             "cooperation"
         ]

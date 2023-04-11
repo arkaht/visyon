@@ -1,0 +1,92 @@
+{
+    "name": "Freedom of Choice",
+    "texts": {
+        "definition": "Players have the ability to make choices in the game.",
+        "description": [
+            "For a game to be a game at all, the players have to be able to make what they feel are interesting choices. This means that the choices must have seemingly different effects and have effects that are meaningful. If these conditions are met, players can feel that they have the [Freedom of Choice](freedomof-choice) within the game system and they can affect the outcome of the game."
+        ],
+        "examples": [
+            "Open-ended games like \"The Sims\" provide players with a multitude of game elements to interact with and many types of actions for each game element. In addition, they give players the freedom to define their own goals within the game.",
+            "Menu-based adventure-based games limit players to only a few choices throughout the entire game."
+        ],
+        "usage": [
+            "The most important thing with [Freedom of Choice](freedomof-choice) is not that players can affect game states, it is that they have the [Illusion of Influence](illusionof-influence) and a [Perceived Chance to Succeed](perceived-chanceto-succeed). [Freedom of Choice](freedomof-choice) can be achieved in several ways: affecting the actions possible for the players, what can be done with the actions, letting players choose goals, or letting players affect the results in the game.",
+            "[Freedom of Choice](freedomof-choice) can be increased by expanding players' possible range of actions. This can be done by [Improved Abilities](improved-abilities) and [New Abilities](new-abilities) and is often represented as [Rewards](rewards) or [Character Development](character-development). Even allowing players to do [No-Ops](no-ops) is a form of expanding the range of possible actions for players and thereby increasing their freedom. Ways of letting players have increased [Freedom of Choice](freedomof-choice) of what to do when performing actions include [Trading](trading), [Conceal](conceal), [Construction](construction), [Character](characters) creation, [Planned Character Development](planned-character-development), deciding how to do [Game World Navigation](game-world-navigation), choosing where [Spawning](spawning) occurs, and giving them [Creative Control](creative-control) through the actions. [Extended Actions](extended-actions), which players can choose how long to continue doing, are another way of giving players more freedom in how to use actions.",
+            "Although motivated by [Limited Resources](limited-resources), [Resource Management](resource-management) gives players opportunities of how to use [Resources](resources), including [No-Ops](no-ops), by saving them in [Containers](container) and creating other types of [Resources](resources) through [Converters](converters). The type of [Investments](investments) that give players the greatest [Freedom of Choice](freedomof-choice) are [Arithmetic Rewards for Investments](arithmetic-rewardsfor-investments), since they does not give any [Penalties](penalties) or disadvantages between making one large [Investment](investments) or several smaller ones.",
+            "Players' goals can be chosen by the players through [Selectable Sets of Goals](selectable-setsof-goals), which still let the game designer control the goals, or [Player Defined Goals](player-defined-goals), which can either be implemented in the game state or be completely under the players' will. [Optional Goals](optional-goals) can further give players choices of objectives in the game without forcing them. [Asymmetric Goals](asymmetric-goals) are the effect of allowing players to choose goals in [Multiplayer Games](multiplayer-games).",
+            "The most powerful [Freedom of Choice](freedomof-choice) players can have is that which affects the results in games. This can range from the relatively limited [Budgeted Action Points](budgeted-action-points) and [Player-Decided Distribution of Rewards & Penalties](player-decided-distributionof-rewards-penalties) to allowing full [Reversability](reversability) through [Save-Load Cycles](save-load-cycles) and letting the players freely choose when they want to play the game in first place in [Asynchronous Games](asynchronous-games)."
+        ],
+        "consequences": [
+            "[Freedom of Choice](freedomof-choice) gives players [Empowerment](empowerment) within the game and can thereby give [Emotional Immersion](emotional-immersion). Being able to choose between different actions or goals supports [Varied Gameplay](varied-gameplay) in a concrete way, and when this causes players to have [Asymmetric Abilities](asymmetric-abilities), itcan promote [Replayability](replayability) of the game. [Freedom of Choice](freedomof-choice) can either be due to the ability of affecting the game states or through the possibility of performing [Extra-Game Actions](extra-game-actions), for example, [Storytelling](storytelling) or [Social Interaction](social-interaction). The presence of [Freedom of Choice](freedomof-choice) can also have negative effects: it can cause [Social Dilemmas](social-dilemmas) and force players to make [Tradeoffs](tradeoffs) and [Risk/Reward](risk-reward) choices.",
+            "[Freedom of Choice](freedomof-choice) lets players plan their actions and thereby promotes [Stimulated Planning](stimulated-planning) and [Immersion](immersion), especially [Cognitive Immersion](cognitive-immersion). Too much [Freedom of Choice](freedomof-choice) is however a source of [Analysis Paralysis](analysis-paralysis), and there are many ways to limit players' [Freedom of Choice](freedomof-choice): [Limited Planning Ability](limited-planning-ability) lessens players freedom to make long-term plans in a game; [Predefined Goals](predefined-goals) may force players to have certain goals and tactics in a game; [Ultra-Powerful Events](ultra-powerful-events) may enforce [Narrative Structures](narrative-structures) and [Downtime](downtime) and cause [Shrinking Game Worlds](shrinking-game-world); [Inaccessible Areas](inaccessible-areas) and [Movement Limitations](movement-limitations) can hinder players from moving within the whole [Game World](game-world); what players can do in the game may be defined as a [Limited Set of Actions](limited-setof-actions) or require commitment to [Extended Actions](extended-actions) or [Collaborative Actions](collaborative-actions); and actions may further be restricted by [Decreased Abilities](decreased-abilities) and [Ability Losses](ability-losses) during gameplay.",
+            "Players' [Freedom of Choice](freedomof-choice) can affect their [Perceived Chance to Succeed](perceived-chanceto-succeed) with actions, but having a [Perceived Chance to Succeed](perceived-chanceto-succeed) with several different types of actions gives [Freedom of Choice](freedomof-choice)."
+        ]
+    },
+    "relations": {
+        "instantiates": [
+            "game-world-navigation",
+            "cognitive-immersion",
+            "stimulated-planning",
+            "emotional-immersion",
+            "empowerment",
+            "social-dilemmas",
+            "immersion",
+            "replayability",
+            "tradeoffs",
+            "varied-gameplay",
+            "analysis-paralysis",
+            "reversability",
+            "risk-reward",
+            "perceived-chanceto-succeed"
+        ],
+        "modulates": [
+            "character-development",
+            "multiplayer-games",
+            "conceal",
+            "rewards",
+            "improved-abilities",
+            "new-abilities",
+            "characters"
+        ],
+        "instantiated_by": [
+            "extended-actions",
+            "trading",
+            "asymmetric-abilities",
+            "resource-management",
+            "converters",
+            "planned-character-development",
+            "construction",
+            "budgeted-action-points",
+            "optional-goals",
+            "creative-control",
+            "player-defined-goals",
+            "selectable-setsof-goals",
+            "new-abilities",
+            "storytelling",
+            "social-interaction",
+            "container",
+            "arithmetic-rewardsfor-investments"
+        ],
+        "modulated_by": [
+            "limited-resources",
+            "asynchronous-games",
+            "spawning",
+            "illusionof-influence",
+            "asymmetric-goals"
+        ],
+        "conflicts": [
+            "collaborative-actions",
+            "penalties",
+            "movement-limitations",
+            "limited-setof-actions",
+            "downtime",
+            "extended-actions",
+            "shrinking-game-world",
+            "decreased-abilities",
+            "ability-losses",
+            "inaccessible-areas",
+            "limited-planning-ability",
+            "narrative-structures"
+        ]
+    }
+}

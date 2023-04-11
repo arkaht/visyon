@@ -3,32 +3,31 @@
     "texts": {
         "definition": "This goal consists of forming a linear alignment of game elements.",
         "description": [
-            "Many games make use of the spatial relationship of game elements to cause effects in the game state. When the pieces have to form a line (typically defined by three game elements) for an effect to occur, this can be described as giving players the goal of\"Alignment\". The goal usually requires the aligned elements to be next to each other. There are, however, games where this is not required but the \"Alignment\" can also be determined by the movement paths of game elements such as leaping in \"Droughts\"."
+            "Many games make use of the spatial relationship of game elements to cause effects in the game state. When the pieces have to form a line (typically defined by three game elements) for an effect to occur, this can be described as giving players the goal of[Alignment](alignment). The goal usually requires the aligned elements to be next to each other. There are, however, games where this is not required but the [Alignment](alignment) can also be determined by the movement paths of game elements such as leaping in \"Droughts\"."
         ],
         "examples": [
-            "A well known, and perhaps the simplest, game of \"Alignment\" is \"Tic-Tac-Toe\" where the winner is the first to have three markers in horizontal, vertical or diagonal \"Alignment\" in a three by three board.",
-            "\"Tetris\" uses the horizontal \"Alignment\" of blocks to remove them from the screen and increase the player's score.",
+            "A well known, and perhaps the simplest, game of [Alignment](alignment) is \"Tic-Tac-Toe\" where the winner is the first to have three markers in horizontal, vertical or diagonal [Alignment](alignment) in a three by three board.",
+            "\"Tetris\" uses the horizontal [Alignment](alignment) of blocks to remove them from the screen and increase the player's score.",
             "\"Bejeweled\" lets players swap game elements which are neighbors, removing them and rewarding the player with points if three or more game elements become aligned."
         ],
         "usage": [
-            "The requirements for using \"Alignment\" are to have a \"Game World\" that allows spatial arrangements and to have a \"Game State Overview\" for players of the whole area which is to be used. The prime challenges that can be designed for \"Alignment\" goals consist of how players can move the necessary game elements into the correct position and how game elements can be removed in order to hinder the completion of the \"Alignment\". The difficulty of the goal can easily be increased by making the game elements move on their own or making them moveable by other players and introducing \"Preventing Goals\".",
-            "\"Alignment\" is used in many ways in board games to create \"Capture\", with approach and withdrawal as two specific cases [Parlett, p.232-233]. In approach the piece is captured by moving towards it in a straight line and stopping right next to it. Withdrawal is, obviously, the reverse of approach: the piece is captured by moving an adjacent piece away from it in a straight line. Intervention and custodianship are other methods of \"Capture\" listed by Parlett, also using \"Alignment\" as the base pattern. Intervention involves capturing enemy pieces by moving a piece between them to form a line. The captured piece in custodianship is flanked by friendly pieces in such a way that the pieces form a line, as for example is the case in Hnefatafl or Othello where several pieces can be captured by flanking."
+            "The requirements for using [Alignment](alignment) are to have a [Game World](game-world) that allows spatial arrangements and to have a [Game State Overview](game-state-overview) for players of the whole area which is to be used. The prime challenges that can be designed for [Alignment](alignment) goals consist of how players can move the necessary game elements into the correct position and how game elements can be removed in order to hinder the completion of the [Alignment](alignment). The difficulty of the goal can easily be increased by making the game elements move on their own or making them moveable by other players and introducing [Preventing Goals](preventing-goals).",
+            "[Alignment](alignment) is used in many ways in board games to create [Capture](capture), with approach and withdrawal as two specific cases [Parlett, p.232-233]. In approach the piece is captured by moving towards it in a straight line and stopping right next to it. Withdrawal is, obviously, the reverse of approach: the piece is captured by moving an adjacent piece away from it in a straight line. Intervention and custodianship are other methods of [Capture](capture) listed by Parlett, also using [Alignment](alignment) as the base pattern. Intervention involves capturing enemy pieces by moving a piece between them to form a line. The captured piece in custodianship is flanked by friendly pieces in such a way that the pieces form a line, as for example is the case in Hnefatafl or Othello where several pieces can be captured by flanking."
         ],
         "consequences": [
-            "\"Alignment\" is a form of \"Configuration\", and offers one of the strongest possibilities for \"Hovering Closures\" by offering players clear visual \"Progress Indicators\" using the gestalt law of connectivity. \"Alignment\" can be a case of \"Connection\", but does not have to be so, since the game elements involved in the \"Alignment\" do not necessarily need to have \"Connection\" between each other.",
-            "In games where shots move instantaneously to the target, or the target is stationary, the action of \"Aim &amp; Shoot\" has \"Alignment\" as a goal."
+            "[Alignment](alignment) is a form of [Configuration](configuration), and offers one of the strongest possibilities for [Hovering Closures](hovering-closures) by offering players clear visual [Progress Indicators](progress-indicators) using the gestalt law of connectivity. [Alignment](alignment) can be a case of [Connection](connection), but does not have to be so, since the game elements involved in the [Alignment](alignment) do not necessarily need to have [Connection](connection) between each other.",
+            "In games where shots move instantaneously to the target, or the target is stationary, the action of [Aim & Shoot](aim-shoot) has [Alignment](alignment) as a goal."
         ]
     },
     "relations": {
         "instantiates": [
             "configuration",
-            "aim-shoot",
             "hovering-closures",
             "progress-indicators"
         ],
         "modulates": [
             "capture",
-            "king-of-the-hill"
+            "kingofthe-hill"
         ],
         "instantiated_by": [],
         "modulated_by": [
