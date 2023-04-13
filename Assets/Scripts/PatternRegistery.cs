@@ -8,7 +8,7 @@ public static class PatternRegistery
 {
 	private static Dictionary<string, PatternData> patterns = new();
 
-	public const string PATH = "Assets/Resources/PatternsDB/";
+	public static string PATH => Application.streamingAssetsPath + "/PatternsDB/";
 
 	public static Dictionary<string, PatternData>.KeyCollection AllKeys => patterns.Keys;
 
