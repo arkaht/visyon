@@ -74,6 +74,8 @@ public class Blueprinter : MonoBehaviour,
 	private readonly HashSet<UISelectable> selection = new();
 	private readonly HashSet<IJSONSerializable> serializables = new();
 
+	private const KeyCode ADDITIVE_SELECTION_KEY = KeyCode.LeftShift;
+
 	public Vector2 GetScreenMousePosition() => Input.mousePosition;
 	public Vector2 GetWorldMousePosition( bool is_canvas_relative = false, bool is_absolute = false )
 	{
@@ -252,23 +254,22 @@ public class Blueprinter : MonoBehaviour,
 		{
 			selectionRect.StartPos = ScreenToWorld( data.position );
 			IsSelecting = true;
+			return;
 		}
+
 		//  begin moving
-		else
-		{
-			if ( !hovered.IsSelected )
-				ClearSelection();
+		if ( !hovered.IsSelected )  //  TODO
+			ClearSelection();
 
-			//  select hovered if selection is empty
-			if ( selection.Count == 0 )
-				AddToSelection( hovered );
+		//  select hovered if selection is empty
+		if ( selection.Count == 0 )
+			AddToSelection( hovered );
 
-			//  drag selection
-			foreach ( UISelectable selectable in selection )
-				selectable.Moveable.OnBeginDrag( data );
+		//  drag selection
+		foreach ( UISelectable selectable in selection )
+			selectable.Moveable.OnBeginDrag( data );
 
-			IsMoving = true;
-		}
+		IsMoving = true;
 	}
 	public void OnDrag( PointerEventData data )
 	{
@@ -301,7 +302,8 @@ public class Blueprinter : MonoBehaviour,
 		{
 			if ( IsSelecting )
 			{
-				if ( !Input.GetKey( KeyCode.LeftShift ) )
+				bool is_additive = Input.GetKey( ADDITIVE_SELECTION_KEY );
+				if ( !is_additive )
 					ClearSelection();
 
 				foreach( UISelectable selectable in selectionRect.Find<UISelectable>() )
@@ -326,11 +328,27 @@ public class Blueprinter : MonoBehaviour,
 		{
 			if ( data.button == selectButton )
 			{
-				ClearSelection();
+				bool is_additive = Input.GetKey( ADDITIVE_SELECTION_KEY );
+				if ( !is_additive )
+					ClearSelection();
 
 				//  try to select at mouse position
 				Vector2 pos = ScreenToWorld( data.position );
-				AddToSelection( selectionRect.FindAtPosition<UISelectable>( pos ) );
+				UISelectable hovered = selectionRect.FindAtPosition<UISelectable>( pos );
+				if ( hovered != null )
+				{
+					//  additive control
+					if ( is_additive )
+					{
+						if ( hovered.IsSelected )
+						{
+							RemoveFromSelection( hovered );
+							return;
+						}
+					}
+
+					AddToSelection( hovered );
+				}
 			}
 		}
 
