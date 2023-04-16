@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class UISelectable : MonoBehaviour
 {
 	public UIMoveable Moveable => moveable;
 
 	public bool IsSelected { get; private set; }
+
+	public UnityEvent OnDoubleClick;
 
 	[SerializeField]
 	private UIMoveable moveable;

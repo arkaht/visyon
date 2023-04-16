@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Windows.Forms;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Utils;
@@ -109,6 +108,26 @@ public class Blueprinter : MonoBehaviour,
 
 		selected.SetSelected( true );
 		return true;
+	}
+	public void AddInterconnectionsToSelection( UIPattern pattern, HashSet<UIPattern> close_list = null )
+	{
+		//  init close list
+		close_list ??= new();
+		if ( close_list.Contains( pattern ) ) return;  //  prevent stack overflow
+
+		//  add self
+		AddToSelection( pattern.Selectable );
+		close_list.Add( pattern );
+
+		//  add all connections
+		foreach ( UIPatternPin pin in pattern.RelationPins.Values )
+		{
+			foreach ( UIPatternConnection connection in pin.Connections.Values )
+			{
+				UIPatternPin next_pin = connection.PinStart == pin ? connection.PinEnd : connection.PinStart;
+				AddInterconnectionsToSelection( next_pin.UIPattern, close_list );
+			}
+		}
 	}
 	public bool RemoveFromSelection( UISelectable selected )
 	{
@@ -318,38 +337,53 @@ public class Blueprinter : MonoBehaviour,
 		}
 	}
 
+	private void HandleSelectionAtClick( PointerEventData data )
+	{
+		bool is_additive = Input.GetKey( ADDITIVE_SELECTION_KEY );
+		if ( !is_additive )
+			ClearSelection();
+
+		//  try to select at mouse position
+		Vector2 pos = ScreenToWorld( data.position );
+		UISelectable hovered = selectionRect.FindAtPosition<UISelectable>( pos );
+		if ( hovered != null )
+		{
+			//  additive control
+			if ( is_additive )
+			{
+				//  select inter-connections
+				if ( data.clickCount == 2 )
+				{
+					if ( hovered.TryGetComponent( out UIPattern pattern ) )
+					{
+						AddInterconnectionsToSelection( pattern );
+					}
+				}
+				//  invert selection
+				else if ( hovered.IsSelected )
+				{
+					RemoveFromSelection( hovered );
+					return;
+				}
+			}
+			//  double click
+			else if ( data.clickCount == 2 )
+			{
+				hovered.OnDoubleClick.Invoke();
+			}
+
+			AddToSelection( hovered );
+		}
+	}
 	public void OnPointerClick( PointerEventData data )
 	{
 		//  stop moving selection
 		if ( IsMoving )
 			IsMoving = false;
 		//  select node at position
-		else if ( !IsSelecting )
+		else if ( !IsSelecting && data.button == selectButton )
 		{
-			if ( data.button == selectButton )
-			{
-				bool is_additive = Input.GetKey( ADDITIVE_SELECTION_KEY );
-				if ( !is_additive )
-					ClearSelection();
-
-				//  try to select at mouse position
-				Vector2 pos = ScreenToWorld( data.position );
-				UISelectable hovered = selectionRect.FindAtPosition<UISelectable>( pos );
-				if ( hovered != null )
-				{
-					//  additive control
-					if ( is_additive )
-					{
-						if ( hovered.IsSelected )
-						{
-							RemoveFromSelection( hovered );
-							return;
-						}
-					}
-
-					AddToSelection( hovered );
-				}
-			}
+			HandleSelectionAtClick( data );
 		}
 
 		//  populate searcher

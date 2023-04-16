@@ -5,14 +5,15 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-[RequireComponent( typeof( UniqueID ) )]
+[RequireComponent( typeof( UIMoveable ), typeof( UniqueID ), typeof( UISelectable ) )]
 public class UIPattern : MonoBehaviour,
-						 IPointerClickHandler,
 						 IJSONSerializable
 {
 	public PatternData PatternData { get; private set; }
 	public UIMoveable Moveable { get; private set; }
 	public UniqueID UID { get; private set; }
+	public Dictionary<PatternRelationType, UIPatternPin> RelationPins { get; private set; } = new();
+	public UISelectable Selectable { get; private set; }
 
 	public string ID = "ability-losses";
 
@@ -22,8 +23,6 @@ public class UIPattern : MonoBehaviour,
 	private TextMeshProUGUI tmpDefinition;
 	[SerializeField]
 	private UIPatternPin[] pins;
-
-	private Dictionary<PatternRelationType, UIPatternPin> relationPins = new();
 
 	private static GameObject selfPrefab;
 
@@ -40,10 +39,10 @@ public class UIPattern : MonoBehaviour,
 
 	public UIPatternPin GetRelationPin( PatternRelationType relation )
 	{
-		if ( relationPins.Count == 0 )
+		if ( RelationPins.Count == 0 )
 			RetrieveRelationPins();
 
-		if ( relationPins.TryGetValue( relation, out UIPatternPin pin ) )
+		if ( RelationPins.TryGetValue( relation, out UIPatternPin pin ) )
 			return pin;
 
 		return null;
@@ -66,9 +65,9 @@ public class UIPattern : MonoBehaviour,
 		obj["u-id"] = UID.ID;
 
 		JSONObject pins = new();
-		foreach ( PatternRelationType relation in relationPins.Keys )
+		foreach ( PatternRelationType relation in RelationPins.Keys )
 		{
-			UIPatternPin pin = relationPins[relation];
+			UIPatternPin pin = RelationPins[relation];
 			pins[relation.ToString()] = pin.Serialize();
 		}
 		obj["pins"] = pins;
@@ -96,7 +95,7 @@ public class UIPattern : MonoBehaviour,
 
 		//  link to patterns
 		JSONObject pins = obj["pins"].AsObject;
-		foreach ( PatternRelationType relation in relationPins.Keys )
+		foreach ( PatternRelationType relation in RelationPins.Keys )
 		{
 			UIPatternPin pin = GetRelationPin( relation );
 			if ( pin == null ) continue;
@@ -129,13 +128,18 @@ public class UIPattern : MonoBehaviour,
 
 	private void RetrieveRelationPins()
 	{
-		relationPins.Clear();
+		RelationPins.Clear();
 
 		foreach ( UIPatternPin pin in pins )
-			relationPins.Add( pin.Relation, pin );
+			RelationPins.Add( pin.Relation, pin );
 	}
 
-	public void OnPointerClick( PointerEventData data )
+	public void OnDoubleClick()
+	{
+		Blueprinter.Instance.Viewer.ApplyPatternData( PatternData );
+	}
+
+	/*public void OnPointerClick( PointerEventData data )
 	{
 		if ( data.clickCount != 2 ) 
 		{
@@ -143,12 +147,13 @@ public class UIPattern : MonoBehaviour,
 			return;
 		}
 		Blueprinter.Instance.Viewer.ApplyPatternData( PatternData );
-	}
+	}*/
 
 	void Awake()
 	{
 		Moveable = GetComponent<UIMoveable>();
 		UID = GetComponent<UniqueID>();
+		Selectable = GetComponent<UISelectable>();
 
 		RetrieveRelationPins();
 	}

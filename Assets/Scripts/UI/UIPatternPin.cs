@@ -10,6 +10,7 @@ public class UIPatternPin : MonoBehaviour,
 {
 	public UIPattern UIPattern => uiPattern;
 	public PatternRelationType Relation => relationOut;
+	public Dictionary<UIPatternPin, UIPatternConnection> Connections { get; private set; } = new();
 
 	[SerializeField]
 	private UIPattern uiPattern;
@@ -21,19 +22,18 @@ public class UIPatternPin : MonoBehaviour,
 	[SerializeField]
 	private Axis2D connectionAxisPreference = Axis2D.None;
 
-	private Dictionary<UIPatternPin, UIPatternConnection> connections = new();
 	private UILineConnection preview_connection;
 
 	private void DoConnect( UIPatternPin pin, UIPatternConnection connection )
 	{
-		connections.Add( pin, connection );
+		Connections.Add( pin, connection );
 		//print( $"add connection from {uiPattern.PatternData.Name} to {pin.uiPattern.PatternData.Name}" );
 	}
 	public bool Connect( UIPatternPin pin )
 	{
 		if ( pin == null ) return false;  //  check null-reference
 		if ( pin.uiPattern.PatternData == uiPattern.PatternData ) return false;  //  check same patterns
-		if ( connections.ContainsKey( pin ) ) return false;  //  check existing connection
+		if ( Connections.ContainsKey( pin ) ) return false;  //  check existing connection
 		
 		//  spawn connection
 		UIPatternConnection connection = UIPatternConnection.Spawn( this, pin, connectionAxisPreference );
@@ -48,13 +48,13 @@ public class UIPatternPin : MonoBehaviour,
 
 	private void DoDisconnect( UIPatternPin pin )
 	{
-		connections.Remove( pin );
+		Connections.Remove( pin );
 		//print( $"remove connection from {uiPattern.PatternData.Name} to {pin.uiPattern.PatternData.Name}" );
 	}
 	public bool Disconnect( UIPatternPin pin )
 	{
 		if ( pin == null ) return false;
-		if ( !connections.TryGetValue( pin, out UIPatternConnection connection ) ) return false;
+		if ( !Connections.TryGetValue( pin, out UIPatternConnection connection ) ) return false;
 	
 		//  destroy connection
 		if ( connection != null )
@@ -68,7 +68,7 @@ public class UIPatternPin : MonoBehaviour,
 	}
 	public void ClearConnections()
 	{
-		foreach ( var pair in connections.ToList() )
+		foreach ( var pair in Connections.ToList() )
 			Disconnect( pair.Key );
 	}
 
@@ -103,7 +103,7 @@ public class UIPatternPin : MonoBehaviour,
 	{
 		JSONArray array = new();
 
-		foreach ( UIPatternPin pin in connections.Keys )
+		foreach ( UIPatternPin pin in Connections.Keys )
 			array.Add( pin.UIPattern.UID.ID );
 
 		return array;
