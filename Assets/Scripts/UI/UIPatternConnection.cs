@@ -27,7 +27,7 @@ public class UIPatternConnection : UILineConnection,
 	private UICursorChanger cursorChanger;
 
 	private const PointerEventData.InputButton DELETE_BUTTON = PointerEventData.InputButton.Left;
-	private const KeyCode ADDITIONAL_HOLD_KEY = KeyCode.LeftShift;
+	private const KeyCode ADDITIONAL_HOLD_KEY = KeyCode.LeftAlt;
 
 	public static UIPatternConnection Spawn( UIPatternPin start, UIPatternPin end, Axis2D preferred_axis )
 	{
