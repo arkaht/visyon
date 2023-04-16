@@ -233,8 +233,11 @@ public class Blueprinter : MonoBehaviour,
 		}
 
 		//  delete selection
-		if ( Input.GetKeyDown( KeyCode.Backspace ) || Input.GetKeyDown( KeyCode.Delete ) )
-			DeleteSelection();
+		if ( !searcher.isActiveAndEnabled )
+		{
+			if ( Input.GetKeyDown( KeyCode.Backspace ) || Input.GetKeyDown( KeyCode.Delete ) )
+				DeleteSelection();
+		}
 	}
 
 	public void OnBeginDrag( PointerEventData data )
