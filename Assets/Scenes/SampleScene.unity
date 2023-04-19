@@ -1378,7 +1378,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 570, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177270458
@@ -2946,12 +2946,16 @@ PrefabInstance:
       objectReference: {fileID: 2104763875}
     - target: {fileID: 3028930851180035148, guid: 64a7b02a8b8f47445ba7897a39204d9c, type: 3}
       propertyPath: actions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3028930851180035148, guid: 64a7b02a8b8f47445ba7897a39204d9c, type: 3}
       propertyPath: actions.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 3a86d7de450b2ae4b992b14cb3bf60a8, type: 2}
+    - target: {fileID: 3028930851180035148, guid: 64a7b02a8b8f47445ba7897a39204d9c, type: 3}
+      propertyPath: actions.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 47fe731d57d24fa4daf528405fa1e353, type: 2}
     - target: {fileID: 4829959327900419161, guid: 64a7b02a8b8f47445ba7897a39204d9c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3018,7 +3022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4829959327900419161, guid: 64a7b02a8b8f47445ba7897a39204d9c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 167.79498
       objectReference: {fileID: 0}
     - target: {fileID: 4829959327900419161, guid: 64a7b02a8b8f47445ba7897a39204d9c, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -6656,7 +6660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4829959327900419161, guid: 64a7b02a8b8f47445ba7897a39204d9c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 98.22
       objectReference: {fileID: 0}
     - target: {fileID: 4829959327900419161, guid: 64a7b02a8b8f47445ba7897a39204d9c, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -18430,7 +18434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4829959327900419161, guid: 64a7b02a8b8f47445ba7897a39204d9c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 32.35
       objectReference: {fileID: 0}
     - target: {fileID: 4829959327900419161, guid: 64a7b02a8b8f47445ba7897a39204d9c, type: 3}
       propertyPath: m_AnchoredPosition.y

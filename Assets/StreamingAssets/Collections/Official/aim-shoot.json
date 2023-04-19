@@ -1,0 +1,95 @@
+{
+    "name" : "Aim & Shoot",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "The action of taking aim at something and then shooting at it.",
+        "description" : [
+            "Combat is a common occurrence in games, and then many times through players having to [[Aim & Shoot]]. However, one of the most natural ways of showing attention to something is to look or point at it, and the action of [[Aim & Shoot]] can be generalized to describe any action where one indicates what one wants to affect through pointing."
+        ],
+        "examples" : [
+            "The wargames [[Advanced Squad Leader]] and [[Warhammer Fantasy Battle]] requires that shooters have a clear line of sight to fire. They do also include indirect fire, but since this does not require calculations of trajectories it is for gameplay purposes very similar to ordinary [[Aim & Shoot]].",
+            "Already the first [[:Category:Console Games|Console Games]] included ''light guns''<ref name=\"light_gun\"/> to allow players to aim physical gun props at their TVs. [[Duck Hunt]] is a later example of this type of games.",
+            "[[Aim & Shoot]] is more or less a defining trait in [[:Category:FPS Games|first-person shooters]] such as the [[Quake series|Quake]], [[Doom series|Doom]], [[Half-Life series|Half-Life]], [[Left 4 Dead series|Left 4 Dead]], and [[Crysis series]]. It is also important in many other games with first-person views, e.g. the [[Deus Ex series]] and the [[Thief series]] as well as the latter installments of the [[Elder Scrolls series]] and the [[Fallout series]].",
+            "Examples of non-violent applications of [[Aim & Shoot]] include taking photos in [[Dead Rising]] and [[Pokémon Snap]], and using the grappling hook in [[The Legend of Zelda: The Wind Waker]] and [[Just Cause 2]] (although the latter may be used to kill enemies even so).",
+            "The turn-based games [[Scorched Earth]] and the [[Worms series]] require players to aim their tanks and worms respectively before shooting, in some cases having to take into consideration wind effects."
+        ],
+        "usage" : [
+            "The normal use of [[Aim & Shoot]] actions requires that players are able to complete [[Alignment]] goals of two points by having [[Line of Sight]]. [[Crosshairs]] are very often used to support this [[Alignment]], and this makes [[Aim & Shoot]] nearly trivial in [[First-Person Views]] in unstressed conditions, as one aim point is simply the player's view point unless either of the two points is moving. Somewhat more difficult are [[Third-Person Views]], as more movement of the player's [[Focus Loci]] is usually necessary. [[God Views]] are in most cases too difficult, as it is too hard to get the [[Spatial Engrossment]] required in order to line up the two points accurately. However, an option to requiring [[Line of Sight]] is to require the judgement that shooting will create a suitable trajectory: either those close to parabolas simulating indirect fire (as in [[Scorched Earth]] and the [[Worms series]]), or those requiring bounces against other game elements (e.g. \"kick shots\"<ref name=\"kickshot\"/> in [[Eight-ball]]). The possibility of [[Aim & Shoot]] actions can be restricted by requiring [[Tools]] or [[Weapons]], or the use of [[Resources]] such as [[Ammunition]]. The latter can introduce [[Tension]] to the activity and require [[Risk/Reward]] choices between shooting now or waiting for a possible better situation to shoot.",
+            "The difficulty of [[Aim & Shoot]] actions can be due to the [[Movement]] either of the game elements aimed at or the game element aiming. For [[Agents]], the intentional [[Movement]] due to [[Traverse]] or [[Evade]] goals can make aiming at them more difficult, especially if the [[Movement]] is actually [[Maneuvering]]. For [[Moveable Tiles]] or other game elements, the mechanical [[Movement]] due to [[The Show Must Go On]] can likewise make aiming more difficult. The aiming can be further complicated by the players' own [[Movement]] of their [[Focus Loci]] or by a swaying of the aim to simulate the difficulty of real-world aiming. While performing [[No-Ops]] to slightly reduce the swaying is a common design feature, the use of [[Skills]], [[Tools]] or [[Weapons]] can also motivate reducing the swaying; this [[Variable Accuracy]] is one way [[Player/Character Skill Composites]] can modulate [[Aim & Shoot]]. Various [[Auto-Aim]] solutions can also make [[Aim & Shoot]] actions easier through providing [[Player/Character Skill Composites]]. In contrast, aiming can be made more difficult by introducing [[Tension]], for example through [[Competition]] or [[Time Limits]].",
+            "The design of [[Game Worlds]] and [[Levels]] that makes players have a bad overview of the game state, for example the inclusions of [[Obstacles]], makes it difficult to [[Aim & Shoot]]. This means shots will not be well aimed and that potential targets likely are [[Surprises]] and they are in turn [[Surprises]] by being shot at. Other forms of [[Surprises]] likely cause a [[Disruption of Focused Attention]] for players and make players lose their aim. ",
+            "Although [[Aim & Shoot]] is often used to enable [[Combat]] with goals to [[Capture]] or [[Eliminate]] visible [[Enemies]] or destroy [[Destructible Objects]], other goals and reasons are possible. [[Deliver]] goals connected to game elements can be done by throwing or shooting the game elements to the receiver and [[Capture]] can be the capturing of information rather than game elements. Shooting spider webs, throwing grappling hooks (as done in [[The Legend of Zelda series]] and [[Just Cause 2]]), or even firing cannons with oneself inside it (e.g. the [[Super Mario series]]) can give explanations for how [[Privileged Movement]] can be performed by [[Aim & Shoot]]. When [[Aim & Shoot]] is done for [[Combat]] purposes, the typical effect of successfully perform the action is either [[Damage]] or instant [[Game Element Removal]]. An alternative for [[Aim & Shoot]] in [[Combat]] is to make [[Friendly Fire]] possible - this is typically done to provide more [[Challenging Gameplay]]. The presence of [[Achilles' Heels]] in some [[Enemies]] can increase the difficulty of [[Aim & Shoot]] for some battles.",
+            "[[Aim & Shoot]] may most often be used in [[Real-Time Games]] but can be found in [[Turn-Based Games]] such as [[Scorched Earth]], the [[Worms series]], and the pool game [[Eight-ball]]. The pattern can also be said to occur in some war games (e.g. [[Warhammer 40K]]) where one first declares attacks and then checks if one has [[Line of Sight]].",
+            "Interestingly enough, most sports games due not make use of [[Aim & Shoot]] even though this is one of the primary activities in sports they simulate. The cause for this is probably the lack of overview of the game state that players would have if they had perspectives that allowed [[Aim & Shoot]]."
+        ],
+        "consequences" : [
+            "As an activity that in most cases require skill, [[Aim & Shoot]] typically adds [[Performance Uncertainty]] to a game (the use of [[Aim & Shoot]] in [[Advanced Squad Leader]] being a counter-example). It is often used to make [[Combat]] possible, or to make [[Destructible Objects]] possible to destroy. [[Aim & Shoot]] requires [[Dexterity-Based Actions]]  and [[Timing]] in [[Real-Time Games]], and since players can see and imagine hitting or activating what the aim at the pattern can provide an [[Exaggerated Perception of Influence]]. As soon as there is more than one target for the action, [[Aim & Shoot]] instantiates [[Freedom of Choice]]. As soon as [[Aim & Shoot]] is made possible through an action of a diegetic [[Agents|Agent]], it is an [[Abilities|Ability]]. The action often requires players to engage in [[Extended Actions]] (mainly consisting of [[No-Ops]]), and when this is done from an [[Avatars|Avatar's]] (or other game element's) point of view, [[Aim & Shoot]] promotes [[Spatial Engrossment]]. While less common in [[Turn-Based Games]], the pattern promotes [[Puzzle Solving]] in these. [[Puzzle Solving]] is also promoted when the aiming is not directly to the target through [[Line of Sight]] but requires a more complex trajectory.",
+            "[[Enemies]] that can [[Aim & Shoot]] rather than just shoot make [[Evade]] goals. While [[Maneuvering]] of [[Enemies]] can make [[Aim & Shoot]] more difficult, the opposite also applies: [[Enemies]] shooting at one makes [[Maneuvering]] more difficult.",
+            "[[Aim & Shoot]] can easily be appropriated by players to engage in [[Beat the Leader]] activities."
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "abilities",
+            "beat-leader",
+            "destructible-objects",
+            "capture",
+            "combat",
+            "eliminate",
+            "exaggerated-perception-influence",
+            "freedom-choice",
+            "line-sight",
+            "performance-uncertainty",
+            "risk-reward",
+            "tension",
+            "puzzle-solving"
+        ],
+        "modulates" : [
+            "achilles-heels",
+            "combat",
+            "evade",
+            "maneuvering"
+        ],
+        "instantiated_by" : [
+            "alignment",
+            "deliver",
+            "enemies",
+            "privileged-movement",
+            "tools",
+            "weapons"
+        ],
+        "modulated_by" : [
+            "auto-aim",
+            "ammunition",
+            "competition",
+            "crosshairs",
+            "evade",
+            "first-person-views",
+            "friendly-fire",
+            "interfaces",
+            "line-sight",
+            "maneuvering",
+            "moveable-tiles",
+            "movement",
+            "no-ops",
+            "obstacles",
+            "player-character-skill-composites",
+            "resources",
+            "skills",
+            "surprises",
+            "tension",
+            "third-person-views",
+            "time-limits",
+            "tools",
+            "traverse",
+            "variable-accuracy",
+            "weapons"
+        ],
+        "conflicts" : [
+            "god-views"
+        ]
+    }
+}

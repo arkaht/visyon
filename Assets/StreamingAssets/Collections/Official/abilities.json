@@ -1,0 +1,96 @@
+{
+    "name" : "Abilities",
+    "categories" : [
+        "Patterns",
+        "Action Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Actions that agents can do which allow players to affect game states.",
+        "description" : [
+            "Players need to be able to perform actions in order for them to have gameplay. The actions that are coupled to specific agents in the game worlds are called the [[Abilities]] of those agents."
+        ],
+        "examples" : [
+            "The various pieces used in [[Chess]] all have the [[Abilities|Ability]] to move, and capture the pieces in the square they move to; The ''en passant''<ref name=\"en_passant\"/> move is a special [[Abilities|Ability]] of pawns to capture other pawns that just moved two squares.",
+            "In one sense [[Pac-Man]] only has movement [[Abilities]], but a more inclusive view would add the [[Abilities|Ability]] to eat pills, power pills, bonus fruits, and ghosts while under the influence of a power pill. [[Space Invaders]] only lets players move their ship left and right and shoot.",
+            "[[:Category:Fighting Games|Fighting Games]] such as the [[Street Fighter series|Street Fighter]] or [[Tekken series]] have many characters with [[Abilities]] related both to movement and combat. In many cases these [[Abilities]] can be combined into various combos.",
+            "It is difficult to judge exactly how many [[Abilities]] players of [[:Category:Tabletop Roleplaying Games|Tabletop Roleplaying Games]] such as [[Dungeons & Dragons]] or [[Fiasco]] have. This since while there may be specific rules for certain actions, game masters can allow anything the players want to do based on how well they feel it works with the gameplay style they wish the game to have. "
+        ],
+        "usage" : [
+            "[[Abilities]] can modify [[Avatars]], [[Characters]], [[Companions]], and [[Units]] by giving players means of affecting the game state through using these game elements. [[Competence Areas]], [[Orthogonal Differentiation]], and [[Privileged Abilities]] can all be created by only providing certain [[Abilities]] to certain game elements. [[Skills]] can be used to differentiate how powerful [[Abilities]] are for different game elements.",
+            "Many games have rules regarding changing which [[Abilities]] players have access to, typically ass part of [[Penalties]] or [[Rewards]], or related to [[Character Development|Character]] or [[Abstract Player Construct Development]]. [[Ability Losses]], [[Cooldown]], [[Decreased Abilities]], [[New Abilities]], [[Improved Abilities]], [[Power-Ups]], and [[Unlocking]] are all general patterns related to this, in many cases making [[Abilities]] into [[Temporary Abilities]] or attaching [[Gain Competence]] goals to the [[Abilities]]. [[Area Control]], [[Deterioration]], and [[Location-Fixed Abilities]] are ways of relating access to [[Abilities]] to other parts of the game system. Requiring two or more players or [[Agents]] to perform actions, i.e. [[Collaborative Actions]], is generic category of [[Abilities]] that requires [[Cooperation]] or [[Coordination]].",
+            "There are many common actions in games that can be [[Abilities]]. [[Movement]] is a one (sometimes in the form of [[Quick Travel]]), and [[Capture]] is another which can be expanded to also provide [[Combat]] or make the game elements into [[Consumers]]. [[Aim & Shoot]] is the primary option to make [[Combat]] possible at a distance through [[Abilities]]. Two other common actions that can be [[Abilities]] are [[Construction]] and (somewhat paradoxically) [[No-Ops]]. [[Producers]] is perhaps not as common but found in many [[:Category:Real-Time Strategy Games|Real-Time Strategy Games]] and all [[:Category:FPS Games|FPS Games]] where shots actually need to traverse the space between shooter and target. ",
+            "[[Powers]] is a specific type of [[Abilities]]. [[Ammunition]] can be this also when different types of [[Ammunition]] provide different types of [[Abilities]]. [[Combos]] can be seen as higher order [[Abilities]] that are created by offering sequences of more basic [[Abilities]] as a possible action for players. These [[Combos]] may provide additional effects or simply be [[Combos]] because they basic [[Abilities]] could not be performed otherwise (or performed as quickly). While [[Action Programming]] is often built by providing players with [[Abilities]] that need to be placed in a sequence, it does not create [[Abilities]] like [[Combos]] do because the resulting programming cannot be said to be done by the game element itself.",
+            "[[Abilities]] that have been design can be modified in a number of ways. [[Extended Actions]] can make them take longer time and add [[Tension]] if they are also [[Interruptible Actions]]. If they cause [[Irreversible Events]], this can require more consideration before they are done and also increase [[Tension]] (and work against the presence of [[Experimenting]] or [[Pottering]]). [[Anonymous Actions]] can be used to let players not only have secret plans, but keep (at least part) of the execution of these plans secret as well. Linking the use of [[Resources]] to the use of [[Abilities]] (which [[Ammunition]] is an example of) introduces [[Resource Management]] as part of using one's [[Abilities]] well. ",
+            "In many cases, [[Game Masters]] can both provide players with new [[Abilities]] or modify existing ones based simply on the players stating that they want to do something. [[Game Masters]] can also modify their own and players [[Abilities]] through [[Feigned Die Rolls]]."
+        ],
+        "consequences" : [
+            "Providing game elements with [[Abilities]] make it possible for players to interpret them as [[Agents]]. They case provide a basis for [[Character Defining Actions]] in games with [[Characters]], especially those that result in [[Irreversible Events]].",
+            "Since [[Abilities]] can give players possibilities to try and affect the game state of a game, the pattern typically gives players a [[Freedom of Choice]] of what to do and may cause them to have an [[Exaggerated Perception of Influence]]. While [[Abilities]] do affect the game state of a game, it does not necessarily need to cause player to focus on facing particular challenges, they can also make [[Pottering]] possible. Limiting the number of [[Abilities]] is one way of guaranteeing that players have a [[Limited Set of Actions]] while providing many [[Abilities]] can create [[Complex Gameplay]]."
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "action-programming",
+            "agents",
+            "complex-gameplay",
+            "combos",
+            "exaggerated-perception-influence",
+            "freedom-choice",
+            "limited-set-actions",
+            "pottering"
+        ],
+        "modulates" : [
+            "avatars",
+            "characters",
+            "companions",
+            "units"
+        ],
+        "instantiated_by" : [
+            "aim-shoot",
+            "ammunition",
+            "capture",
+            "collaborative-actions",
+            "combat",
+            "combos",
+            "consumers",
+            "construction",
+            "movement",
+            "no-ops",
+            "game-masters",
+            "powers",
+            "producers",
+            "quick-travel"
+        ],
+        "modulated_by" : [
+            "ability-losses",
+            "anonymous-actions",
+            "area-control",
+            "competence-areas",
+            "cooldown",
+            "decreased-abilities",
+            "deterioration",
+            "extended-actions",
+            "feigned-die-rolls",
+            "game-masters",
+            "gain-competence",
+            "improved-abilities",
+            "interruptible-actions",
+            "irreversible-events",
+            "location-fixed-abilities",
+            "new-abilities",
+            "orthogonal-differentiation",
+            "power-ups",
+            "privileged-abilities",
+            "resources",
+            "skills",
+            "temporary-abilities",
+            "unlocking"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

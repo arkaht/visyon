@@ -1,0 +1,61 @@
+{
+    "name" : "Kingmaker",
+    "categories" : [
+        "Negative Patterns",
+        "Dynamic Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Gameplay situations where a player cannot win but can decide which other player should.",
+        "description" : [
+            "Games provide players with possibilities to do actions that can influence their own and other players' positions in the game state. While players typically try to improve their own situations &mdash; otherwise they are arguable not gaming &mdash; this is not always possible. Something players can perform actions but only positively affect the situations of other players. Taken to the extreme, this can allow, or force, a player to make an action that determines who will win a game as long as it isn't the player itself. Such players are [[Kingmaker|Kingmakers]]. ",
+            "Wikipedia has a page on the same concept under the name [https://en.wikipedia.org/wiki/Kingmaker_scenario Kingmaker Scenario]. "
+        ],
+        "examples" : [
+            "[[Kingmaker]] is very rarely intentionally designed to be present in most game instances of a game, but can occur in many games anyway. Wikipedia lists the television series Survivor as an example where [[Kingmaker]] situations are explicitly designed for."
+        ],
+        "usage" : [
+            "The possibility of [[Kingmaker]] situation in games are in many cases unwanted so it is usually a [[:Category:Negative Patterns|Negative Pattern]]. [[Kingmaker]] typically occurs in the [[Endgame]] of a game since this is when positions are more or less established. The typical causes for it to occur are [[Dominant Strategies]], [[Early Elimination]], [[Early Leaving Players]], [[Predictable Consequences]], [[Predictable Winner]], [[Possibility of Graceful Surrender]], and [[Unwinnable Game States]] so one strategy to avoid [[Kingmaker]] possibilities is to avoid those patterns. ",
+            "If the presence of [[Kingmaker]] situations have been observed in a game, there are some design features that can work against it occurring. [[Balancing Effects]], [[Randomness]], and [[Uncertainty of Outcome]] works against [[Predictable Consequences]] or a [[Predictable Winner]] making a [[Kingmaker]] emerge. [[Imperfect Information]] and [[Uncertainty of Information]] can make players not realize that there actually exists a [[Kingmaker]] situation; [[:Category:Board Games|Board Games]] with [[Scores]] often do this by having at least some of the [[Scores]] be hidden (see for example [[Lords of Waterdeep]], [[Ticket to Ride]], and [[Village]]). ",
+            "[[Kingmaker]] can also be mitigated by [[Exaggerated Perception of Influence]] (which can trick players into believing they have a chance to win and thereby not engage in kingmaking. It can also be mitigated by giving players [[Value of Effort]] for their gameplay so they don't end or unbalance game instances just because they themselves cannot win. [[Revoke Rules]] can offer a less bad option in [[Kingmaker]] situations by letting players suffer a penalty for a violation of the rules but without necessarily losing the game."
+        ],
+        "consequences" : [
+            "[[Kingmaker]] typically occurs in the [[Endgame]] when players' positions tend to rather clearly established. This makes the number of candidates for winning narrower and in this sense [[Kingmaker]] can help players perceive a [[Predictable Winner]]. Just as [[Balancing Effects]] can work against [[Kingmaker]] situations occurring, the presence of [[Kingmaker]] possibilities work against [[Player Balance]] and therefore against [[Balancing Effects]] as well. "
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "[[Predictable Winner]]"
+        ],
+        "modulates" : [
+            "[[Endgame]]"
+        ],
+        "instantiated_by" : [
+            "[[Dominant Strategies]], ",
+            "[[Early Elimination]], ",
+            "[[Early Leaving Players]], ",
+            "[[Predictable Consequences]], ",
+            "[[Predictable Winner]], ",
+            "[[Possibility of Graceful Surrender]], ",
+            "[[Unwinnable Game States]]"
+        ],
+        "modulated_by" : [
+            "[[Revoke Rules]]"
+        ],
+        "conflicts" : [
+            "[[Balancing Effects]], ",
+            "[[Exaggerated Perception of Influence]], ",
+            "[[Imperfect Information]], ",
+            "[[Player Balance]], ",
+            "[[Randomness]], ",
+            "[[Uncertainty of Information]], ",
+            "[[Uncertainty of Outcome]], ",
+            "[[Value of Effort]]"
+        ]
+    }
+}

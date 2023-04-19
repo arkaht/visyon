@@ -3,12 +3,13 @@ using System.IO;
 using UnityEngine;
 
 using SimpleJSON;
+using System.Text.RegularExpressions;
 
 public static class PatternRegistery
 {
 	private static Dictionary<string, PatternData> patterns = new();
 
-	public static string PATH => Application.streamingAssetsPath + "/PatternsDB/";
+	public static string DirectoryPath => Application.streamingAssetsPath + "/PatternsDB/";
 
 	public static Dictionary<string, PatternData>.KeyCollection AllKeys => patterns.Keys;
 
@@ -37,6 +38,22 @@ public static class PatternRegistery
 		return text;
 	}
 
+	public static string SafePatternID( string name )
+	{
+		string id = "";
+
+		var matches = Regex.Matches( name, @"[A-Z][a-z]+" );
+		foreach ( Match match in matches )
+		{
+			if ( id != "" )
+				id += "-";
+
+			id += match.Value;
+		}
+
+		return id.ToLower();
+	}
+
 	public static bool TryGet( string id, out PatternData pattern )
 	{
 		//  retrieve from cache
@@ -58,7 +75,7 @@ public static class PatternRegistery
 
 	public static PatternData Load( string id )
 	{
-		string path = PATH + id + ".json";
+		string path = DirectoryPath + id + ".json";
 		string json = File.ReadAllText( path );
 		if ( json == null ) return null;
 
@@ -67,7 +84,7 @@ public static class PatternRegistery
 	
 	public static void LoadAll()
 	{
-		string[] files = Directory.GetFiles( PATH, "*.json" );
+		string[] files = Directory.GetFiles( DirectoryPath, "*.json" );
 
 		int load_successes = 0;
 		foreach ( string file in files )
@@ -97,34 +114,6 @@ public static class PatternRegistery
 	public static PatternData LoadFromJSON( string id, string json )
 	{
 		JSONNode data = JSON.Parse( json );
-
-		return new PatternData( 
-			id,
-			data["name"].Value,
-			LoadTextsFromJSONNode( data["texts"] ),
-			LoadRelationsFromJSONNode( data["relations"] )
-		);
-	}
-
-	public static PatternTexts LoadTextsFromJSONNode( JSONNode data )
-	{
-		return new PatternTexts( 
-			data["definition"].Value, 
-			data["description"].AsArray.ToStringArray(),
-			data["examples"].AsArray.ToStringArray(),
-			data["usage"].AsArray.ToStringArray(),
-			data["consequences"].AsArray.ToStringArray()
-		);
-	}
-
-	public static PatternRelations LoadRelationsFromJSONNode( JSONNode data )
-	{
-		return new PatternRelations(
-			data["instantiates"].AsArray.ToStringArray(),
-			data["modulates"].AsArray.ToStringArray(),
-			data["instantiated_by"].AsArray.ToStringArray(),
-			data["modulated_by"].AsArray.ToStringArray(),
-			data["conflicts"].AsArray.ToStringArray()
-		);
+		return PatternData.FromJSON( id, data );
 	}
 }
