@@ -2,6 +2,7 @@
 using SimpleJSON;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
@@ -51,6 +52,8 @@ namespace Visyon.Wiki
 						 modulated_by = new(),
 						 conflicts = new();
 
+			StringBuilder bb_text = new();
+
 			//  parse wiki text
 			string current_header = "Description";
 			foreach ( string line in text.Split( "\n" ) )
@@ -68,18 +71,20 @@ namespace Visyon.Wiki
 				}
 
 				//  search: definition
-				if ( definition == null && ( ( match = Regex.Match( line, REG_DEFINITION ) ) ).Success )
+				if ( definition == null && ( match = Regex.Match( line, REG_DEFINITION ) ).Success )
 				{
 					definition = match.Groups[1].ToString();
+					bb_text.AppendLine( "<style=\"Definition\">" + definition + "</style>" + "\n" );
 					//Debug.Log( "Definition: " + definition );
 					//Debug.Log( line );
 					continue;
 				}
 
 				//  search: header
-				if ( ( ( match = Regex.Match( line, REG_HEADER ) ).Success ) )
+				if ( ( match = Regex.Match( line, REG_HEADER ) ).Success )
 				{
 					current_header = match.Groups[1].ToString();
+					bb_text.AppendLine( "<style=\"h2\">" + current_header + "</style>" );
 					//Debug.Log( "Current Header: " + current_header );
 					continue;
 				}
@@ -134,6 +139,8 @@ namespace Visyon.Wiki
 						Debug.LogWarning( $"WikiCollectionUpdater: header '{current_header}' for '{page_name}' is not supported!" );
 						break;
 				}
+
+				bb_text.AppendLine( line + "\n" );
 			}
 
 			//  combine data
@@ -163,6 +170,8 @@ namespace Visyon.Wiki
 			//  write to file
 			Directory.CreateDirectory( DirectoryPath );
 			File.WriteAllText( DirectoryPath + pattern_id + ".json", data_pattern.Serialize().ToString( 4 ) );
+
+			Debug.Log( bb_text.ToString() );
 		}
 	}
 }
