@@ -1,10 +1,11 @@
 ﻿
 using SimpleJSON;
+using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Text.RegularExpressions;
 using UnityEngine;
+using Visyon.Core;
 
 namespace Visyon.Wiki
 {
@@ -12,12 +13,17 @@ namespace Visyon.Wiki
 	{
 		public static string DirectoryPath => Application.streamingAssetsPath + "/Collections/Official/";
 
-		private static readonly RequestClient client = new( "http://virt10.itu.chalmers.se/api.php" );
+		public const string BaseLink = "http://virt10.itu.chalmers.se/";
+		public static string IndexLink => BaseLink + "index.php";
+		public static string APILink => BaseLink + "api.php";
 
-		private const string REG_REF = @"\[\[([^\]]+)\]\]";
-		private const string REG_MARK_CATEGORY = @"\[\[Category:([^\]]+)\]\]";
-		private const string REG_DEFINITION = @"''([^']+)''";
-		private const string REG_HEADER = @"=+\s([^=]*)\s=+";
+		private static readonly RequestClient client = new( APILink );
+
+		internal const string REG_REF = @"\[\[([^\]]+)\]\]";
+		internal const string REG_SPECIAL_REF = @"\[\[([^|\]]*)\|?([^\]]*)\]\]";
+		internal const string REG_MARK_CATEGORY = @"\[\[Category:([^\]]+)\]\]";
+		internal const string REG_DEFINITION = @"''([^']+)''";
+		internal const string REG_HEADER = @"=+\s([^=]*)\s=+";
 
 		public static async void AsyncUpdateAll() 
 		{
@@ -52,13 +58,14 @@ namespace Visyon.Wiki
 						 modulated_by = new(),
 						 conflicts = new();
 
-			StringBuilder bb_text = new();
+			string pattern_id = PatternRegistery.SafePatternID( pattern_name );
+			List<string> bb_texts = new();
 
 			//  parse wiki text
 			string current_header = "Description";
 			foreach ( string line in text.Split( "\n" ) )
 			{
-				if ( line.Length == 0 || line == "-" ) continue;  //  skip empty lines
+				if ( line == string.Empty || line == "-" ) continue;  //  skip empty lines
 
 				Match match;
 
@@ -74,17 +81,23 @@ namespace Visyon.Wiki
 				if ( definition == null && ( match = Regex.Match( line, REG_DEFINITION ) ).Success )
 				{
 					definition = match.Groups[1].ToString();
-					bb_text.AppendLine( "<style=\"Definition\">" + definition + "</style>" + "\n" );
+					//bb_texts.Add( "<style=\"Definition\">" + definition + "</style>" );
 					//Debug.Log( "Definition: " + definition );
-					//Debug.Log( line );
 					continue;
 				}
 
 				//  search: header
 				if ( ( match = Regex.Match( line, REG_HEADER ) ).Success )
 				{
-					current_header = match.Groups[1].ToString();
-					bb_text.AppendLine( "<style=\"h2\">" + current_header + "</style>" );
+					string header = match.Groups[1].ToString();
+					if ( header == "History" ) break;  //  stop parsing from history
+
+					//  get header type
+					int header_type = ( line.Split( "=" ).Length - 1 ) / 2;
+					if ( header_type < 4 )
+						current_header = header;
+
+					bb_texts.Add( $"<style=\"h{header_type}\">" + header + "</style>" );
 					//Debug.Log( "Current Header: " + current_header );
 					continue;
 				}
@@ -98,7 +111,7 @@ namespace Visyon.Wiki
 				switch ( current_header )
 				{
 					//  texts
-					case "Description":
+					/*case "Description":
 						description.Add( line );
 						break;
 					case "Examples":
@@ -109,7 +122,7 @@ namespace Visyon.Wiki
 						break;
 					case "Consequences":
 						consequences.Add( line );
-						break;
+						break;*/
 					//  relations
 					case "Can Instantiate":
 						instantiates.Add( relation_pattern_id );
@@ -130,24 +143,44 @@ namespace Visyon.Wiki
 						conflicts.Add( relation_pattern_id );
 						break;
 					//  ignore these
-					case "History":
+					/*case "History":
 					case "References":
 					case "Acknowledgements":
 						break;
 					//  un-supported header
 					default:
 						Debug.LogWarning( $"WikiCollectionUpdater: header '{current_header}' for '{page_name}' is not supported!" );
-						break;
+						break;*/
 				}
 
-				bb_text.AppendLine( line + "\n" );
+				string bb_line = Regex.Replace( line, REG_SPECIAL_REF, match => {
+					string reference = match.Groups[1].Value;
+					string nickname = match.Groups[2].Value == string.Empty ? reference : match.Groups[2].Value;
+
+					//Debug.Log( reference + " | " + nickname );
+
+					//  category reference
+					if ( reference.StartsWith( ":Category" ) )
+					{
+						string link = Uri.EscapeUriString( IndexLink + "/" + reference.Remove( 0, 1 ) );
+						return TextMarkup.AsLink( link, nickname );
+					}
+
+					//  current link
+					string id = PatternRegistery.SafePatternID( reference );
+					if ( id == pattern_id )
+						return TextMarkup.AsCurrentLink( nickname );
+
+					//  link to pattern
+					return TextMarkup.AsLink( id, nickname );
+				} );
+				bb_texts.Add( bb_line );
 			}
 
 			//  combine data
-			string pattern_id = PatternRegistery.SafePatternID( page_name );
 			PatternTexts data_texts = new( 
 				definition, 
-				description.ToArray(),
+				bb_texts.ToArray(),
 				examples.ToArray(), 
 				usage.ToArray(), 
 				consequences.ToArray() 
@@ -171,7 +204,8 @@ namespace Visyon.Wiki
 			Directory.CreateDirectory( DirectoryPath );
 			File.WriteAllText( DirectoryPath + pattern_id + ".json", data_pattern.Serialize().ToString( 4 ) );
 
-			Debug.Log( bb_text.ToString() );
+			/*foreach ( string bb_text in bb_texts )
+				Debug.Log( bb_text );*/
 		}
 	}
 }
