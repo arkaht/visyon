@@ -6,8 +6,8 @@ public class UpdateOfficialCollectionMenuAction : MenuAction
 {
 	public override void Execute( Blueprinter blueprint ) 
 	{
-		WikiCollectionUpdater.AsyncUpdate( "Abilities" );
-		WikiCollectionUpdater.AsyncUpdate( "Aim_%26_Shoot" );
+		//WikiCollectionUpdater.AsyncRetrievePatternsIDs();
+		WikiCollectionUpdater.AsyncUpdateAll();
 		//wiki.GetPagesFromCategory( "Patterns", 20 );
 	}
 }

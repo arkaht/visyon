@@ -42,7 +42,7 @@ public static class PatternRegistery
 	{
 		string id = "";
 
-		var matches = Regex.Matches( name, @"[A-Z][a-z]+" );
+		var matches = Regex.Matches( name, @"[A-Z][a-zA-Z]+" );
 		foreach ( Match match in matches )
 		{
 			if ( id != "" )

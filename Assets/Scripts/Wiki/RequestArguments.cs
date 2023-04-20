@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimpleJSON;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +20,7 @@ namespace Visyon.Wiki
 
 		public void Set( string key, string value )
 		{
-			collection.Add( key, value );
+			collection[key] = value;
 		}
 
 		public string Get( string key, string default_value = null )
@@ -43,6 +44,14 @@ namespace Visyon.Wiki
 			}
 
 			return str;
+		}
+
+		public void Update( JSONObject obj )
+		{
+			foreach ( string key in obj.Keys )
+			{
+				Set( key, obj[key].ToString() );
+			}
 		}
 	}
 }

@@ -3,7 +3,9 @@ using SimpleJSON;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using UnityEngine;
 using Visyon.Core;
 
@@ -18,6 +20,7 @@ namespace Visyon.Wiki
 		public static string APILink => BaseLink + "api.php";
 
 		private static readonly RequestClient client = new( APILink );
+		private static readonly HashSet<string> patternsIDs = new();
 
 		internal const string REG_REF = @"\[\[([^\]]+)\]\]";
 		internal const string REG_SPECIAL_REF = @"\[\[([^|\]]*)\|?([^\]]*)\]\]";
@@ -27,11 +30,62 @@ namespace Visyon.Wiki
 
 		public static async void AsyncUpdateAll() 
 		{
+			await AsyncUpdate( "Abilities" );
+			await AsyncUpdate( "Aim_%26_Shoot" );
+		}
+
+		public static async Task AsyncRetrievePatternsIDs()
+		{
+			patternsIDs.Clear();
+
+			//  build params
+			RequestArguments args = WikiArgumentsBuilder.GetPagesFromCategory( "Patterns", 300 );
+
+			//  fetch'em
+			int iter = 0;
+			do
+			{
+				if ( ++iter > 50 )
+				{
+					Debug.LogWarning( "WikiCollectionUpdater: canceling patterns retrieving, exceed maximum iterations!" );
+					break;
+				}	
+
+				//  do request
+				string content = await client.Get( args );
+
+				//  parse json
+				JSONObject root = JSON.Parse( content ).AsObject;
+				JSONArray array = root["query"]["categorymembers"].AsArray;
+
+				//  fill IDs
+				foreach ( JSONObject obj in array )
+				{
+					string pattern_name = obj["title"];
+					string pattern_id = PatternRegistery.SafePatternID( pattern_name );
+
+					//Debug.Log( pattern_id );
+					if ( !patternsIDs.Add( pattern_id ) )
+						Debug.LogWarning( $"WikiCollectionUpdater: {pattern_name} conflicts with the ID {pattern_id}!" );
+				}
+
+				//  update continue
+				if ( !root.HasKey( "continue" ) )
+					break;
+				args.Update( root["continue"].AsObject );
+			}
+			while ( true );
+
+			Debug.Log( $"WikiCollectionUpdater: retrieved {patternsIDs.Count} patterns IDs" );
 		}
 
 		public static void Update( string pattern_name ) => AsyncUpdate( pattern_name );  //  TODO: remove
-		public static async void AsyncUpdate( string page_name )
+		public static async Task AsyncUpdate( string page_name )
 		{
+			//  ensure patterns IDs are retrieved
+			if ( patternsIDs.Count == 0 )
+				await AsyncRetrievePatternsIDs();
+
 			//  request content
 			RequestArguments args = WikiArgumentsBuilder.GetPage( page_name );
 			string content = await client.Get( args );
@@ -59,15 +113,14 @@ namespace Visyon.Wiki
 						 conflicts = new();
 
 			string pattern_id = PatternRegistery.SafePatternID( pattern_name );
-			List<string> bb_texts = new();
+			List<string> markups = new();
 
 			//  parse wiki text
+			Match match;
 			string current_header = "Description";
 			foreach ( string line in text.Split( "\n" ) )
 			{
 				if ( line == string.Empty || line == "-" ) continue;  //  skip empty lines
-
-				Match match;
 
 				//  search: category marks
 				if ( ( match = Regex.Match( line, REG_MARK_CATEGORY ) ).Success )
@@ -81,7 +134,7 @@ namespace Visyon.Wiki
 				if ( definition == null && ( match = Regex.Match( line, REG_DEFINITION ) ).Success )
 				{
 					definition = match.Groups[1].ToString();
-					//bb_texts.Add( "<style=\"Definition\">" + definition + "</style>" );
+					markups.Add( TextMarkup.AsDefinition( definition ) );
 					//Debug.Log( "Definition: " + definition );
 					continue;
 				}
@@ -97,15 +150,17 @@ namespace Visyon.Wiki
 					if ( header_type < 4 )
 						current_header = header;
 
-					bb_texts.Add( $"<style=\"h{header_type}\">" + header + "</style>" );
+					//  append
+					header = ReplaceReferences( header, pattern_id );
+					markups.Add( TextMarkup.AsHeader( header_type, header ) );
 					//Debug.Log( "Current Header: " + current_header );
 					continue;
 				}
 
-				Match relation_match;
+				//  match pattern relations
 				string relation_pattern_id = "";
-				if ( ( relation_match = Regex.Match( line, REG_REF ) ).Success )
-					relation_pattern_id = PatternRegistery.SafePatternID( relation_match.Groups[1].ToString() );
+				if ( ( match = Regex.Match( line, REG_REF ) ).Success )
+					relation_pattern_id = PatternRegistery.SafePatternID( match.Groups[1].ToString() );
 
 				//  fill data
 				switch ( current_header )
@@ -153,34 +208,13 @@ namespace Visyon.Wiki
 						break;*/
 				}
 
-				string bb_line = Regex.Replace( line, REG_SPECIAL_REF, match => {
-					string reference = match.Groups[1].Value;
-					string nickname = match.Groups[2].Value == string.Empty ? reference : match.Groups[2].Value;
-
-					//Debug.Log( reference + " | " + nickname );
-
-					//  category reference
-					if ( reference.StartsWith( ":Category" ) )
-					{
-						string link = Uri.EscapeUriString( IndexLink + "/" + reference.Remove( 0, 1 ) );
-						return TextMarkup.AsLink( link, nickname );
-					}
-
-					//  current link
-					string id = PatternRegistery.SafePatternID( reference );
-					if ( id == pattern_id )
-						return TextMarkup.AsCurrentLink( nickname );
-
-					//  link to pattern
-					return TextMarkup.AsLink( id, nickname );
-				} );
-				bb_texts.Add( bb_line );
+				markups.Add( ReplaceReferences( line, pattern_id ) );
 			}
 
 			//  combine data
 			PatternTexts data_texts = new( 
 				definition, 
-				bb_texts.ToArray(),
+				markups.ToArray(),
 				examples.ToArray(), 
 				usage.ToArray(), 
 				consequences.ToArray() 
@@ -203,9 +237,44 @@ namespace Visyon.Wiki
 			//  write to file
 			Directory.CreateDirectory( DirectoryPath );
 			File.WriteAllText( DirectoryPath + pattern_id + ".json", data_pattern.Serialize().ToString( 4 ) );
+		}
 
-			/*foreach ( string bb_text in bb_texts )
-				Debug.Log( bb_text );*/
+		public static string ReplaceReferences( string input, string current_pattern_id = "" )
+		{
+			return 
+				Regex.Replace( input, REG_SPECIAL_REF, match => {
+					string reference = match.Groups[1].Value;
+					string nickname = match.Groups[2].Value == string.Empty ? reference : match.Groups[2].Value;
+
+					//Debug.Log( reference + " | " + nickname );
+
+					//  category reference
+					if ( reference.StartsWith( ":Category" ) )
+					{
+						return TextMarkup.AsLink( 
+							Uri.EscapeUriString( IndexLink + "/" + reference.Remove( 0, 1 ) ), 
+							nickname 
+						);
+					}
+
+					//  pattern reference
+					string id = PatternRegistery.SafePatternID( reference );
+					if ( patternsIDs.Contains( id ) )
+					{
+						//  current link
+						if ( id == current_pattern_id )
+							return TextMarkup.AsCurrentLink( nickname );
+
+						//  link to pattern
+						return TextMarkup.AsLink( id, nickname );
+					}
+
+					//  game or unknown references..
+					return TextMarkup.AsLink( 
+						Uri.EscapeUriString( IndexLink + "/" + reference ), 
+						nickname 
+					);
+				} );
 		}
 	}
 }

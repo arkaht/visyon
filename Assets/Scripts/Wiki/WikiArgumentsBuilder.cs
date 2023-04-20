@@ -14,7 +14,7 @@ namespace Visyon.Wiki
 				);
 		}
 
-		public static RequestArguments GetPagesFromCategory( string category, int limit, string _continue = "" )
+		public static RequestArguments GetPagesFromCategory( string category, int limit )
 		{
 			return
 				new RequestArguments(
@@ -22,7 +22,6 @@ namespace Visyon.Wiki
 					new( "list", "categorymembers" ),
 					new( "cmtitle", $"Category:{category}" ),
 					new( "cmlimit", limit.ToString() ),
-					new( "continue", _continue ),
 					new( "format", "json" )
 				);
 		}
