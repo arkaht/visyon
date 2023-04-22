@@ -27,11 +27,14 @@ namespace Visyon.Wiki
 		internal const string REG_MARK_CATEGORY = @"\[\[Category:([^\]]+)\]\]";
 		internal const string REG_DEFINITION = @"''([^']+)''";
 		internal const string REG_HEADER = @"=+\s([^=]*)\s=+";
+		internal const string REG_SMALL_REF = @"(?:'{2}|"")([^']*)(?:'{2}|"")<ref[^>]*\/>";
 
 		public static async void AsyncUpdateAll() 
 		{
 			await AsyncUpdate( "Abilities" );
 			await AsyncUpdate( "Aim_%26_Shoot" );
+
+			PatternRegistery.RegisterCollection( "Official" );
 		}
 
 		public static async Task AsyncRetrievePatternsIDs()
@@ -101,11 +104,6 @@ namespace Visyon.Wiki
 			List<string> categories = new();
 			string definition = null;
 
-			List<string> description = new(),
-						 examples = new(),
-						 usage = new(),
-						 consequences = new();
-
 			List<string> instantiates = new(),
 						 modulates = new(),
 						 instantiated_by = new(),
@@ -114,13 +112,31 @@ namespace Visyon.Wiki
 
 			string pattern_id = PatternRegistery.SafePatternID( pattern_name );
 			List<string> markups = new();
+			List<string> relation_buffer = new();
 
 			//  parse wiki text
 			Match match;
+			bool in_relation = false;
 			string current_header = "Description";
 			foreach ( string line in text.Split( "\n" ) )
 			{
-				if ( line == string.Empty || line == "-" ) continue;  //  skip empty lines
+				if ( line == string.Empty )  //  skip empty lines
+				{
+					//  append relation buffer
+					if ( relation_buffer.Count > 0 )
+					{
+						markups.Add( string.Join( ", ", relation_buffer ) );
+						relation_buffer.Clear();
+					}
+					continue;
+				}
+				if ( line == "-" )
+				{
+					if ( in_relation )
+						markups.Add( "N/A" );
+
+					continue;
+				}
 
 				//  search: category marks
 				if ( ( match = Regex.Match( line, REG_MARK_CATEGORY ) ).Success )
@@ -147,8 +163,28 @@ namespace Visyon.Wiki
 
 					//  get header type
 					int header_type = ( line.Split( "=" ).Length - 1 ) / 2;
-					if ( header_type < 4 )
+					if ( header_type < 4 )  //  ignore h4+
 						current_header = header;
+
+					//  handle relation buffer
+					switch ( header )
+					{
+						case "Can Instantiate":
+						case "Can Modulate":
+						case "Can Be Instantiated By":
+						case "Can Be Modulated By":
+						case "Possible Closure Effects":
+						case "Potentially Conflicting With":
+							in_relation = true;
+							break;
+						default:
+							if ( header_type < 4 )
+								in_relation = false;
+
+							if ( relation_buffer.Count > 0 )
+								relation_buffer.Clear();
+							break;
+					}
 
 					//  append
 					header = ReplaceReferences( header, pattern_id );
@@ -163,6 +199,7 @@ namespace Visyon.Wiki
 					relation_pattern_id = PatternRegistery.SafePatternID( match.Groups[1].ToString() );
 
 				//  fill data
+				string marked_text = ReplaceReferences( line, pattern_id );
 				switch ( current_header )
 				{
 					//  texts
@@ -201,23 +238,26 @@ namespace Visyon.Wiki
 					/*case "History":
 					case "References":
 					case "Acknowledgements":
-						break;
+						break;*/
 					//  un-supported header
 					default:
-						Debug.LogWarning( $"WikiCollectionUpdater: header '{current_header}' for '{page_name}' is not supported!" );
-						break;*/
+						//Debug.LogWarning( $"WikiCollectionUpdater: header '{current_header}' for '{page_name}' is not supported!" );
+						break;
 				}
 
-				markups.Add( ReplaceReferences( line, pattern_id ) );
+				if ( in_relation )
+				{
+					marked_text = Regex.Replace( marked_text, @"(,)\s*$", "" ).Trim();
+					relation_buffer.Add( marked_text );
+				}
+				else
+					markups.Add( marked_text );
 			}
 
 			//  combine data
-			PatternTexts data_texts = new( 
+			PatternTexts data_texts = new(
 				definition, 
-				markups.ToArray(),
-				examples.ToArray(), 
-				usage.ToArray(), 
-				consequences.ToArray() 
+				markups.ToArray()
 			);
 			PatternRelations data_relations = new( 
 				instantiates.ToArray(), 
@@ -241,6 +281,9 @@ namespace Visyon.Wiki
 
 		public static string ReplaceReferences( string input, string current_pattern_id = "" )
 		{
+			input = Regex.Replace( input, REG_SMALL_REF, match => {
+				return TextMarkup.AsItalic( match.Groups[1].Value );
+			} );
 			return 
 				Regex.Replace( input, REG_SPECIAL_REF, match => {
 					string reference = match.Groups[1].Value;

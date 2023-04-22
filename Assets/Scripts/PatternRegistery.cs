@@ -4,12 +4,15 @@ using UnityEngine;
 
 using SimpleJSON;
 using System.Text.RegularExpressions;
+using UnityEngine.Events;
 
 public static class PatternRegistery
 {
+	public static UnityEvent OnReload = new();
+
 	private static Dictionary<string, PatternData> patterns = new();
 
-	public static string DirectoryPath => Application.streamingAssetsPath + "/PatternsDB/";
+	public static string DirectoryPath => Application.streamingAssetsPath + "/Collections/";
 
 	public static Dictionary<string, PatternData>.KeyCollection AllKeys => patterns.Keys;
 
@@ -59,11 +62,13 @@ public static class PatternRegistery
 		//  retrieve from cache
 		if ( !patterns.ContainsKey( id ) )
 		{
-			pattern = Load( id );
+			/*pattern = Load( id );
 			if ( pattern == null )
 				return false;
 
-			patterns[id] = pattern;
+			patterns[id] = pattern;*/
+			pattern = null;
+			return false;
 		}
 		else
 		{
@@ -73,25 +78,30 @@ public static class PatternRegistery
 		return true;
 	}
 
-	public static PatternData Load( string id )
+	/// <summary>
+	/// Inform every registered events to reload themselves potentially due to a registery update
+	/// </summary>
+	public static void Reload() => OnReload.Invoke();
+
+	public static PatternData LoadFromCollection( string collection, string id )
 	{
-		string path = DirectoryPath + id + ".json";
+		string path = $"{DirectoryPath}{collection}/{id}.json";
 		string json = File.ReadAllText( path );
 		if ( json == null ) return null;
 
 		return LoadFromJSON( id, json );
 	}
 	
-	public static void LoadAll()
+	public static void RegisterCollection( string collection, bool should_reload = true )
 	{
-		string[] files = Directory.GetFiles( DirectoryPath, "*.json" );
+		string[] files = Directory.GetFiles( $"{DirectoryPath}{collection}/", "*.json" );
 
 		int load_successes = 0;
 		foreach ( string file in files )
 		{
 			//  load from file
 			string id = Path.GetFileNameWithoutExtension( file );
-			PatternData pattern = Load( id );
+			PatternData pattern = LoadFromCollection( collection, id );
 			if ( pattern == null )
 			{
 				Debug.LogError( "PatternRegistery: failed to load pattern '" + id + "'" );
@@ -99,16 +109,16 @@ public static class PatternRegistery
 			}
 
 			//  register it
-			if ( patterns.ContainsKey( id ) )
-				patterns[id] = pattern;
-			else
-				patterns.Add( id, pattern );
+			patterns[id] = pattern;
 
 			load_successes++;
 			//Debug.Log( "PatternRegistery: loaded pattern '" + id + "'" );
 		}
 
 		Debug.Log( "PatternRegistery: loaded successfully " + load_successes + "/" + files.Length + " files" );
+
+		if ( should_reload )
+			Reload();
 	}
 
 	public static PatternData LoadFromJSON( string id, string json )

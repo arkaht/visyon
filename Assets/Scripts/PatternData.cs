@@ -31,7 +31,7 @@ public record PatternData( string ID, string Name, string[] Categories, PatternT
 	}
 }
 
-public record PatternTexts( string Definition, string[] Description, string[] Examples, string[] Usage, string[] Consequences )
+public record PatternTexts( string Definition, string[] Markups )
 	: IJSONSerializable
 {
 	public static PatternTexts FromJSON( JSONNode data )
@@ -39,10 +39,7 @@ public record PatternTexts( string Definition, string[] Description, string[] Ex
 		return 
 			new PatternTexts( 
 				data["definition"].Value, 
-				data["description"].AsArray.ToStringArray(),
-				data["examples"].AsArray.ToStringArray(),
-				data["usage"].AsArray.ToStringArray(),
-				data["consequences"].AsArray.ToStringArray()
+				data["markups"].AsArray.ToStringArray()
 			);
 	}
 
@@ -50,16 +47,13 @@ public record PatternTexts( string Definition, string[] Description, string[] Ex
 	{
 		JSONObject data = new();
 		data["definition"] = Definition;
-		data["description"] = JSONArray.FromStringArray( Description );
-		data["examples"] = JSONArray.FromStringArray( Examples );
-		data["usage"] = JSONArray.FromStringArray( Usage );
-		data["consequences"] = JSONArray.FromStringArray( Consequences );
+		data["markups"] = JSONArray.FromStringArray( Markups );
 		return data;
 	}
 
 	public override string ToString()
 	{
-		return $"{GetType().Name}[Definition={Definition}; Description({Description.Length}); Examples({Examples.Length}); Usage({Usage.Length}); Consequences({Consequences.Length})]";
+		return $"{GetType().Name}[Definition={Definition}; Markups({Markups.Length});]";
 	}
 }
 

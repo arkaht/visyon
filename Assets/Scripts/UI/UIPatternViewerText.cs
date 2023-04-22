@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System;
+using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -41,8 +42,16 @@ public class UIPatternViewerText : MonoBehaviour,
 		int id = TMP_TextUtilities.FindIntersectingLink( textTMP, data.position, null );
 		if ( id == -1 ) return;
 
-		//  get pattern ID
 		string link = textTMP.textInfo.linkInfo[id].GetLinkID();
+
+		//  open url
+		if ( link.StartsWith( "http://" ) || link.StartsWith( "https://" ) )
+		{
+			Application.OpenURL( link );
+			return;
+		}
+
+		//  get pattern ID
 		if ( !PatternRegistery.TryGet( link, out PatternData pattern_data ) )
 		{
 			Debug.LogError( $"UIPatternViewerText: link to unknown pattern '{link}'" );

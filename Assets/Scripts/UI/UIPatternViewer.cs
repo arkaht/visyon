@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using Utils;
 
@@ -14,26 +15,21 @@ public class UIPatternViewer : MonoBehaviour
 	[SerializeField]
 	private Transform scrollView;
 	[SerializeField]
-	private Transform informationTransform, 
-					  usageTransform, 
-					  consequencesTransform,
-					  relationsTransform;
+	private Transform contentTransform;
 	[SerializeField]
-	private TextMeshProUGUI tmpName, 
-							tmpDefinition;
+	private TextMeshProUGUI tmpName;
 	[SerializeField]
 	private GameObject textPrefab;
 	[SerializeField]
 	private Button previousButton, nextButton;
+	[SerializeField]
+	private string patternID;
 
 	private readonly History<PatternData> history = new();
 
 	public void Clear()
 	{
-		TransformUtils.Clear( informationTransform );
-		TransformUtils.Clear( usageTransform );
-		TransformUtils.Clear( consequencesTransform );
-		TransformUtils.Clear( relationsTransform );
+		TransformUtils.Clear( contentTransform );
 	}
 
 	public void NavigateHistory( int offset )
@@ -65,9 +61,6 @@ public class UIPatternViewer : MonoBehaviour
 	{
 		gameObject.SetActive( true );
 
-		//  don't update if equal
-		if ( data == Data ) return;
-
 		//  insert previous into history
 		if ( !no_history )
 		{
@@ -77,27 +70,13 @@ public class UIPatternViewer : MonoBehaviour
 
 		//  set new data
 		Data = data;
+		patternID = data == null ? string.Empty : data.ID;
 		
 		Clear();
 
-		//  basics
+		//  set content
 		tmpName.text = data.Name;
-		tmpDefinition.text = data.Texts.Definition;
-
-		//  more content
-		AddTextsTo( data.Texts.Description, informationTransform );
-		AddTextsTo( data.Texts.Examples, informationTransform, ( text ) => "<b>Example: </b>" + text );
-		AddTextsTo( data.Texts.Usage, usageTransform );
-		AddTextsTo( data.Texts.Consequences, consequencesTransform );
-
-		//TMP_TextUtilities.FindNearestLink;
-		
-		//  relations
-		AddTextTo( "<b>Instantiates: </b>" + PatternRegistery.ConcatPatterns( data.Relations.Instantiates, true ), relationsTransform );
-		AddTextTo( "<b>Modulates: </b>" + PatternRegistery.ConcatPatterns( data.Relations.Modulates, true ), relationsTransform );
-		AddTextTo( "<b>Instantiated By: </b>" + PatternRegistery.ConcatPatterns( data.Relations.InstantiatedBy, true ), relationsTransform );
-		AddTextTo( "<b>Modulated By: </b>" + PatternRegistery.ConcatPatterns( data.Relations.ModulatedBy, true ), relationsTransform );
-		AddTextTo( "<b>Potentially Conflicting with: </b>" + PatternRegistery.ConcatPatterns( data.Relations.Conflicts, true ), relationsTransform );
+		AddTextsTo( data.Texts.Markups, contentTransform );
 	}
 	
 	public void Reset()
@@ -129,11 +108,31 @@ public class UIPatternViewer : MonoBehaviour
 
 	void Awake()
 	{
-		Reset();
+		if ( patternID == string.Empty )
+			Reset();
+		else if ( PatternRegistery.TryGet( patternID, out PatternData data ) )
+			ApplyPatternData( data );
 	}
 
 	void OnEnable()
 	{
 		NavigateHistory( 0 );
+
+		//  bind to event
+		PatternRegistery.OnReload.AddListener( Reload );
+	}
+	void OnDisable()
+	{
+		//  unbind to event
+		PatternRegistery.OnReload.RemoveListener( Reload );
+	}
+
+	private void Reload()
+	{
+		if ( patternID == string.Empty ) return;
+		if ( !PatternRegistery.TryGet( patternID, out PatternData new_data ) ) return;
+
+		Debug.Log( "UIPatternViewer: reloading.." );
+		ApplyPatternData( new_data, true );
 	}
 }

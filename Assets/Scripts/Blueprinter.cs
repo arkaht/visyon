@@ -234,13 +234,13 @@ public class Blueprinter : MonoBehaviour,
 
 	void Awake()
 	{
+		PatternRegistery.RegisterCollection( "Official" );
+
 		instance = this;
 	}
 
 	void Start()
 	{
-		PatternRegistery.LoadAll();
-
 		ResetZoomToDefault();
 	}
 
