@@ -117,8 +117,8 @@ public class UIPatternViewer : MonoBehaviour
 	{
 		if ( patternID == string.Empty )
 			Reset();
-		else if ( PatternRegistery.TryGet( patternID, out PatternData data ) )
-			ApplyPatternData( data );
+		else
+			Reload();
 	}
 
 	void OnEnable()
@@ -140,6 +140,8 @@ public class UIPatternViewer : MonoBehaviour
 		if ( !PatternRegistery.TryGet( patternID, out PatternData new_data ) ) return;
 
 		Debug.Log( "UIPatternViewer: reloading.." );
-		ApplyPatternData( new_data, true );
+
+		history.Remove( history.Current );
+		ApplyPatternData( new_data );
 	}
 }
