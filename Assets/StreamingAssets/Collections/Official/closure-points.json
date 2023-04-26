@@ -13,7 +13,7 @@
         "markups" : [
             "<style=\"Definition\">Events during gameplay where pieces of the game state is, or can be, removed.</style>",
             "Gameplay actions affect game states. <style=\"CurrentLink\">Closure Points</style> occur when the actions result in the game states being reduced, some parts of them no longer being accessible, or there are significant changes to how they can be manipulated in the future.",
-            "Note: ''This pattern describes closure points that can objectively be identifying through how they affect game states.''",
+            "Note: <i>This pattern describes closure points that can objectively be identifying through how they affect game states.</i>",
             "<style=\"H3\">Examples</style>",
             "Games that provide levels also provide <style=\"CurrentLink\">Closure Points</style>. A few examples of the many games that does this include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Candy%20Crush%20Saga\">Candy Crush Saga</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom\">Doom</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Staries\">Staries</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tetris\">Tetris</link></style>.",
             "<style=\"H2\">Using the pattern</style>",
