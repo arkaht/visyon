@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using Visyon.Core;
 
 public class UITaskViewer : MonoBehaviour
@@ -24,6 +25,8 @@ public class UITaskViewer : MonoBehaviour
 	private TMP_Text titleTMP, stateTMP, timerTMP;
 	[SerializeField]
 	private UIProgressBar progress;
+	[SerializeField]
+	private Button hideButton;
 
 	private readonly Stopwatch stopwatch = new();
 
@@ -40,6 +43,7 @@ public class UITaskViewer : MonoBehaviour
 		stopwatch.Reset();
 		stopwatch.Start();
 
+		hideButton.interactable = false;
 		IsRunning = true;
 	}
 
@@ -48,6 +52,7 @@ public class UITaskViewer : MonoBehaviour
 		stopwatch.Stop();
 		print( "UITaskViewer: finished tasks in " + stopwatch.Elapsed );
 
+		hideButton.interactable = true;
 		IsRunning = false;
 	}
 
