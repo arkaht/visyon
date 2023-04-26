@@ -3,7 +3,6 @@ using SimpleJSON;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -11,6 +10,12 @@ using Visyon.Core;
 
 namespace Visyon.Wiki
 {
+	public enum TaskResponse
+	{
+		Success,
+		Critical,
+	}
+
 	public static class WikiCollectionUpdater
 	{
 		public static string DirectoryPath => Application.streamingAssetsPath + "/Collections/Official/";
@@ -21,6 +26,7 @@ namespace Visyon.Wiki
 
 		private static readonly RequestClient client = new( APILink );
 		private static readonly HashSet<string> patternsIDs = new();
+		private static readonly List<string> patternsPages = new();
 
 		internal const string REG_REF = @"\[\[([^\]]+)\]\]";
 		internal const string REG_SPECIAL_REF = @"\[\[([^|\]]*)\|?([^\]]*)\]\]";
@@ -31,15 +37,76 @@ namespace Visyon.Wiki
 
 		public static async void AsyncUpdateAll() 
 		{
-			await AsyncUpdate( "Abilities" );
-			await AsyncUpdate( "Aim_%26_Shoot" );
+			using Tasker tasker = UITaskViewer.Instance.Use( "Wiki Collection Update" );
+			if ( tasker == null )
+			{
+				Debug.LogWarning( "WikiCollectionUpdater: a tasker is already reserved, unable to update!" );
+				return;
+			}
 
-			PatternRegistery.RegisterCollection( "Official" );
+			//  retrieving
+			await tasker.Task( "Retrieving Patterns IDs", AsyncRetrievePatternsIDs() );
+			tasker.AddProgress();
+			tasker.SetMaximumProgress( patternsPages.Count + 1 );
+
+			//  downloading
+			int i = 0;
+			int successes = 0;
+			bool has_error = false;
+			foreach ( string page in patternsPages )
+			{
+				if ( ++i > 25 ) break;
+
+				await tasker.Task( 
+					"Downloading: " + page, 
+					Task.Run( 
+						async () =>
+						{
+							try
+							{
+								await AsyncUpdate( Uri.EscapeDataString( page ) );
+								successes++;
+							}
+							catch ( TaskCanceledException e )
+							{
+								has_error = true;
+								Debug.LogException( e );
+							}
+							catch ( Exception e )
+							{
+								//has_error = true;
+								Debug.LogException( e );
+							}
+						} 
+					)
+				);
+				tasker.AddProgress();
+
+				//  delay next request to prevent service outage
+				await Task.Delay( 250 );
+
+				if ( has_error ) break;
+			}
+
+			if ( !has_error )
+			{
+				//  success
+				tasker.State = $"Succesfully updated {successes}/{patternsIDs.Count} patterns";
+				Debug.Log( $"WikiCollectionUpdater: successfully updated {successes}/{patternsIDs.Count}" );
+
+				//  reload registery
+				PatternRegistery.RegisterCollection( "Official" );
+			}
+			else
+			{
+				tasker.State = $"An error has occured!";
+			}
 		}
 
 		public static async Task AsyncRetrievePatternsIDs()
 		{
 			patternsIDs.Clear();
+			patternsPages.Clear();
 
 			//  build params
 			RequestArguments args = WikiArgumentsBuilder.GetPagesFromCategory( "Patterns", 300 );
@@ -67,9 +134,11 @@ namespace Visyon.Wiki
 					string pattern_name = obj["title"];
 					string pattern_id = PatternRegistery.SafePatternID( pattern_name );
 
-					//Debug.Log( pattern_id );
+					//Debug.Log( pattern_name + " | " + pattern_id );
 					if ( !patternsIDs.Add( pattern_id ) )
 						Debug.LogWarning( $"WikiCollectionUpdater: {pattern_name} conflicts with the ID {pattern_id}!" );
+
+					patternsPages.Add( pattern_name );
 				}
 
 				//  update continue
@@ -92,13 +161,23 @@ namespace Visyon.Wiki
 			//  request content
 			RequestArguments args = WikiArgumentsBuilder.GetPage( page_name );
 			string content = await client.Get( args );
-			Debug.Log( content );
+			//Debug.Log( content );
 
 			//  parse to json
 			JSONNode root = JSON.Parse( content );
+			if ( root.HasKey( "error" ) )
+			{
+				string code = root["error"]["code"];
+				if ( code.StartsWith( "internal" ) )
+					//case "internal_api_error_DBConnectionError":
+					throw new TaskCanceledException( "WikiCollectionUpdater: server internal error: " + code );
+
+				throw new Exception( $"WikiCollectionUpdater: failed to get page of '{page_name}', result body: '{content}'" );
+			}
+
 			string text = root["parse"]["wikitext"]["*"];
 			string pattern_name = root["parse"]["title"];
-			Debug.Log( pattern_name + ": " + text );
+			//Debug.Log( pattern_name + ": " + text );
 
 			//  init
 			List<string> categories = new();
@@ -202,19 +281,6 @@ namespace Visyon.Wiki
 				string marked_text = ReplaceReferences( line, pattern_id );
 				switch ( current_header )
 				{
-					//  texts
-					/*case "Description":
-						description.Add( line );
-						break;
-					case "Examples":
-						examples.Add( line );
-						break;
-					case "Using the pattern":
-						usage.Add( line );
-						break;
-					case "Consequences":
-						consequences.Add( line );
-						break;*/
 					//  relations
 					case "Can Instantiate":
 						instantiates.Add( relation_pattern_id );
@@ -234,11 +300,6 @@ namespace Visyon.Wiki
 					case "Potentially Conflicting With":
 						conflicts.Add( relation_pattern_id );
 						break;
-					//  ignore these
-					/*case "History":
-					case "References":
-					case "Acknowledgements":
-						break;*/
 					//  un-supported header
 					default:
 						//Debug.LogWarning( $"WikiCollectionUpdater: header '{current_header}' for '{page_name}' is not supported!" );
@@ -276,7 +337,7 @@ namespace Visyon.Wiki
 
 			//  write to file
 			Directory.CreateDirectory( DirectoryPath );
-			File.WriteAllText( DirectoryPath + pattern_id + ".json", data_pattern.Serialize().ToString( 4 ) );
+			await File.WriteAllTextAsync( DirectoryPath + pattern_id + ".json", data_pattern.Serialize().ToString( 4 ) );
 		}
 
 		public static string ReplaceReferences( string input, string current_pattern_id = "" )
