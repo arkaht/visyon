@@ -1,0 +1,79 @@
+{
+    "name" : "Winning by Ending Gameplay",
+    "categories" : [
+        "Gameplay Arc Patterns",
+        "Winning Patterns",
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Games which are one by achieving a required game state which ends gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Games which are one by achieving a required game state which ends gameplay.</style>",
+            "A majority of games are designed so they end at some point. Those that reward a player by letting them win by doing so use a <style=\"CurrentLink\">Winning by Ending Gameplay</style> design solution (the typical other solution with winners is to end gameplay and then determine the winner). ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> is won by checkmating one's opponent (or making him or her surrender) while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style> ends as soon as a player can show that he or she has 10 points. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Formula%20D\">Formula D</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hare%20and%20Tortoise\">Hare and Tortoise</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pachisi\">Pachisi</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Snakes%20and%20Ladders\">Snakes and Ladders</link></style> can be seen as weak examples of <style=\"CurrentLink\">Winning by Ending Gameplay</style> since only the winner may actually have gameplay ended if the other players continue playing to see what positions they got; two-player versions of these games are however strong examples.",
+            "Many games with narratives, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mass%20Effect%20series\">Mass Effect series</link></style>, end with a \"victory\" when the player has completed the last challenges and been told the end of the story.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The design of <style=\"CurrentLink\">Winning by Ending Gameplay</style> is in practice designed a goal which ends gameplay and declares the player who reached the goal the winner. Unlike <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>, <style=\"CurrentLink\">Winning by Ending Gameplay</style> can be applied both to <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> and <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>. ",
+            "General examples, to the level that they are patterns, which support <style=\"CurrentLink\">Winning by Ending Gameplay</style> is <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, and games where one wins by having a certain <style=\"Link\"><link=\"scores\">Score</link></style>. The specific choices made regarding the pattern heavily affect how a <style=\"Link\"><link=\"endgame\">Endgame</link></style> plays out if a game has such a gameplay phase.",
+            "One design consideration that needs to be taken for the pattern is however if several players can, or should be allowed to, end gameplay simultaneously. <style=\"Link\"><link=\"scores\">Scores</link></style> can be used as <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> if this is the case and <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> are unwanted.",
+            "Due to its definition, <style=\"CurrentLink\">Winning by Ending Gameplay</style> is incompatible with <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> and <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>. However, if <style=\"Link\"><link=\"speedending\">Speedending</link></style> is possible in the latter the combination of these can result in players <style=\"CurrentLink\">Winning by Ending Gameplay</style> (if they judged the game state correctly and managed to end the game instance quickly enough). ",
+            "<style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style> is not typically compatible with <style=\"CurrentLink\">Winning by Ending Gameplay</style> since the latter is a <style=\"Link\"><link=\"rewards\">Reward</link></style> rather than a <style=\"Link\"><link=\"penalties\">Penalty</link></style>. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Winning by Ending Gameplay</style> causes <style=\"Link\"><link=\"game-over\">Game Over</link></style> for players and in many cases <style=\"Link\"><link=\"tension\">Tension</link></style> when this is close to occurring. The pattern can be used to let players have a chance of ending <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> prematurely by winning, but can also be used to designate <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> or a <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style> to win if no player has won when time has run out. <style=\"CurrentLink\">Winning by Ending Gameplay</style> creates <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style> since who wins a game is typically the largest closure in a game instance and <style=\"CurrentLink\">Winning by Ending Gameplay</style> puts this after the end of gameplay,",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"scores\">Scores</link></style></style>",
+            "<style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style></style>",
+            "<style=\"Link\"><link=\"game-system-player\">Game System Player</link></style>, <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"Link\"><link=\"speedending\">Speedending</link></style> together with <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>, <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-over",
+            "higher-level-closures-gameplay-progresses",
+            "tension",
+            "tiebreakers",
+            "game-system-player",
+            "tied-results"
+        ],
+        "modulates" : [
+            "endgame",
+            "multiplayer-games",
+            "single-player-games",
+            "time-limited-game-instances"
+        ],
+        "instantiated_by" : [
+            "last-man-standing",
+            "races",
+            "scores",
+            "speedending"
+        ],
+        "modulated_by" : [
+            "scores"
+        ],
+        "conflicts" : [
+            "game-termination-penalties",
+            "unwinnable-games",
+            "winner-gameplay-ends"
+        ]
+    }
+}

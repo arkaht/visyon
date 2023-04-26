@@ -1,0 +1,91 @@
+{
+    "name" : "Flanking Routes",
+    "categories" : [
+        "Level Design Patterns",
+        "Mechanical Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Alternative ways to reach locations in game worlds which may be unexpected to others.",
+        "markups" : [
+            "<style=\"Definition\">Alternative ways to reach locations in game worlds which may be unexpected to others.</style>",
+            "Games that contain aspects of area control require that players guard access routes to these. <style=\"CurrentLink\">Flanking Routes</style> are either access routes that are less likely to be used or ones that will not attract the main portions of combatants. Even so, they can be vital for the outcome since use of them can launch surprise attacks or take over areas believed to be safe.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Flanking Routes</style> are often found in the maps of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Real-Time%20Strategy%20Games\">Real-Time Strategy Games</link></style> and team-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style>. Both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style> contain maps where gameplay needs to go along certain tracks but how this progresses depend heavily on how team make use of the numerous <style=\"CurrentLink\">Flanking Routes</style> that exist. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%202\">Battlefield 2</link></style> sneaking on the left side of the map ''Strike at Karkand'' offers marine teams a viable strategy to take a spawn point, while driving jeeps off-road on the western plateau on the ''Dragon Valley'' can let them steal one deep inside the Chinese team's territory.",
+            "<style=\"CurrentLink\">Flanking Routes</style> can also exist in other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Strategy%20Games\">Strategy Games</link></style> than <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Real-Time%20Strategy%20Games\">Real-Time Strategy Games</link></style>. A well-known example from World War II which is recreated in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Wargames\">Wargames</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts%20of%20Iron%20series\">Hearts of Iron series</link></style> is the possibility of Germany to avoid the French Maginot line by going through Belgium and Holland. However, in most cases flanking in these games depends more on outmaneuvering other forces than on terrain features.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Flanking Routes</style> is primarily a way to modulate how other features of <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style> work, e.g. <style=\"Link\"><link=\"arenas\">Arenas</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"galleries\">Galleries</link></style>, or <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>. However, they can also be used to support <style=\"Link\"><link=\"laning\">Laning</link></style> simply by having several (typically three) alternate routes to the same place. ",
+            "Designing them consist of providing additional ways of reaching locations in the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. Although all accesses to a location may similar and thereby make what is perceived as <style=\"CurrentLink\">Flanking Routes</style> depend on what the current game state is, accesses that are intended to always be perceived as <style=\"CurrentLink\">Flanking Routes</style> should either be narrower or otherwise less obvious (e.g. by containing <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>), or be extra accesses to those that will guaranteed be focus for gameplay. An example of the latter can be found in the ''Gold Rush'' map in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style> and all payload maps in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style>. Here, the attacking team needs to move a tank or cart respectively along a predefined route but several <style=\"CurrentLink\">Flanking Routes</style> exist that let defending players various ways of trying to intercept or ambush the attackers.",
+            "An option for <style=\"CurrentLink\">Flanking Routes</style> is to make them <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style>, e.g. by being down an unscalable cliff side. Another option, in games with <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>, is to make them only accessible to those that are either using or ''not'' using the <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>.",
+            "When players can create <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style> (which engineers in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style> can) or <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style> (which North Vietnamese engineers in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20Vietnam\">Battlefield Vietnam</link></style> can), this opens up for these to be used as <style=\"CurrentLink\">Flanking Routes</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Flanking Routes</style> affect the ease with how <style=\"Link\"><link=\"movement\">Movement</link></style> can be done in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and <style=\"Link\"><link=\"levels\">Levels</link></style>. They also affect the usefulness of <style=\"Link\"><link=\"galleries\">Galleries</link></style> and <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, and the difficulty of <style=\"Link\"><link=\"combat\">Combat</link></style> to gain or retain <style=\"Link\"><link=\"area-control\">Area Control</link></style> of many types of areas, e.g. <style=\"Link\"><link=\"arenas\">Arenas</link></style>. They also make <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> goals more difficult and <style=\"Link\"><link=\"scouting\">Scouting</link></style> goals necessary. They not only modulate how important <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> are, but can directly counter the purpose of them. Likewise, they can make <style=\"Link\"><link=\"camping\">Camping</link></style> more difficult or even make it meaningless.",
+            "The existence of <style=\"CurrentLink\">Flanking Routes</style> lets players have a <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style> on how to reach or take control over locations, and through this can provide <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>. They can make <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals possible since unguarded <style=\"CurrentLink\">Flanking Routes</style> may exist, or encourage these goals further if they already are possible. This in turn makes the routes <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style> to those wanting to hinder <style=\"Link\"><link=\"movement\">Movement</link></style> through them and gives rise to <style=\"Link\"><link=\"guard\">Guard</link></style> goals; when not enough players or <style=\"Link\"><link=\"units\">Units</link></style> exist to <style=\"Link\"><link=\"guard\">Guard</link></style> all accesses this also requires <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>. Failure to <style=\"Link\"><link=\"guard\">Guard</link></style> the <style=\"CurrentLink\">Flanking Routes</style> can lead to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> and <style=\"Link\"><link=\"combos\">Combos</link></style> in the form of two-pronged attacks.",
+            "All these consequences of <style=\"CurrentLink\">Flanking Routes</style> make them <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> in addition to the strategic values of the areas they provide access to. They can also help combatants achieve <style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style>. They however rely on the locations of <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"units\">Units</link></style> and how aware players are of these, so effective use or defense against <style=\"CurrentLink\">Flanking Routes</style> requires <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>. In games with <style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"CurrentLink\">Flanking Routes</style> provides a possibility for <style=\"Link\"><link=\"team-combos\">Team Combos</link></style> in having some team members take the <style=\"CurrentLink\">Flanking Routes</style> while other team members distract the opponents.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>, <style=\"Link\"><link=\"laning\">Laning</link></style>, <style=\"Link\"><link=\"scouting\">Scouting</link></style>, <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"teams\">Teams</link></style></style>",
+            "<style=\"Link\"><link=\"team-combos\">Team Combos</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"arenas\">Arenas</link></style>, <style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"galleries\">Galleries</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, <style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style>, <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "attention-demanding-gameplay",
+            "attention-swapping",
+            "laning",
+            "scouting",
+            "selectable-set-goals",
+            "stealth",
+            "strategic-locations",
+            "surprises",
+            "tactical-planning",
+            "varied-gameplay",
+            "team-combos"
+        ],
+        "modulates" : [
+            "area-control",
+            "arenas",
+            "camping",
+            "choke-points",
+            "combat",
+            "combos",
+            "galleries",
+            "game-boards",
+            "game-worlds",
+            "guard",
+            "levels",
+            "movement",
+            "reconnaissance",
+            "sniper-locations",
+            "surprise-attacks",
+            "stealth",
+            "vehicles"
+        ],
+        "instantiated_by" : [
+            "spawn-points",
+            "warp-zones"
+        ],
+        "modulated_by" : [
+            "choke-points",
+            "one-way-travel"
+        ],
+        "conflicts" : [
+            "camping",
+            "choke-points"
+        ]
+    }
+}

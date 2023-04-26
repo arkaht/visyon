@@ -1,0 +1,73 @@
+{
+    "name" : "Information Passing",
+    "categories" : [
+        "Patterns",
+        "Character Patterns",
+        "Needs revision",
+        "Needs examples"
+    ],
+    "texts" : {
+        "definition" : "The passing, from a character to another, of information that has, or can have, influence on the gameplay.",
+        "markups" : [
+            "<style=\"Definition\">The passing, from a character to another, of information that has, or can have, influence on the gameplay.</style>",
+            "When characters interact with each other in games it is quite common that they exchange information, and this regardless of if they are under player control or not. Besides the role this information can have in the development of a story, it can also trigger new goals for players, make them aware of action possibilities previously overlooked, or improve the chances of making good choices.",
+            "<style=\"H3\">Examples</style>",
+            "In Lies and Seductions<ref name=\"Lankoski2010\"/> players can find out that a non-player character, Ed, is a good poker player but becomes legless when drunk through talking to other characters, and thereby uncover the possible game strategy to win money from Ed.",
+            "Players of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thief%20series\">Thief series</link></style> of games receive new goals, or have current goals canceled, as their characters overheard discussions between non-player characters.",
+            "Characters in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style> can quickly become friends or enemies depending on what they heard them saying.",
+            "Through the use of dialogue menus, players of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mass%20Effect%20series\">Mass Effect series</link></style> can develop their relations to crew members under their command. The possible choices of dialogues depend not only on previous conversations but also on which attributes their characters' have.",
+            "The interactive drama <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fa%C3%A7ade\">Façade</link></style> allows players to talk to two non-player characters through free text input. <style=\"CurrentLink\">Information Passing</style> takes place in both directions since not only do the characters' utterances provide clues for potential conversation topics but the interpretation of the input by the game's parser results in the characters changing their opinion about the player's character and each other.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Information Passing</style> is easily achieved as part of <style=\"Link\"><link=\"dialogues\">Dialogues</link></style> in a game although the level of influence on gameplay can vary. While <style=\"CurrentLink\">Information Passing</style> resulting in the completion or failure of goals directly steers the gameplay, merely providing the player with information also lets the pattern provide <style=\"Link\"><link=\"clues\">Clues</link></style> or <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style> (the latter also showing the possibility of introducing <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>). Similarly, the introduction of <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style> or <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style> as an effect of <style=\"CurrentLink\">Information Passing</style> show two distinctly different ways of influencing the gameplay.",
+            "One design choice regarding <style=\"CurrentLink\">Information Passing</style> is if the events are predetermined <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Canned%20Text%20Responses\">Canned Text Responses</link></style> which are part of <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> (as for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thief%20series\">Thief series</link></style>) or if the <style=\"CurrentLink\">Information Passing</style> is part of the game system (as for example in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style>). This is especially important regarding the information characters under players' control can pass on to others, since providing options beyond a single utterance or a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> easily requires advanced parsing capabilities since such a system in practice functions as a <style=\"Link\"><link=\"chat-channels\">Chat Channel</link></style>.",
+            "One specific way of creating <style=\"CurrentLink\">Information Passing</style> is to present it as <style=\"Link\"><link=\"gossip\">Gossip</link></style> between characters. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eavesdropping\">Eavesdropping</link></style> can be combined with this or work independently as another way to instantiate the pattern, but also open up to having <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals requiring <style=\"Link\"><link=\"stealth\">Stealth</link></style>.",
+            "Although described for players, the patterns of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetric%20Information\">Symmetric</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style> can be applied on a character level in relation to <style=\"CurrentLink\">Information Passing</style>, as can those related to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "One design possibility regarding how the <style=\"CurrentLink\">Information Passing</style> is represented in the game environment is if it should be presented verbatim or symbolic to the players. While giving players the access to the exact information passed between the characters can more easily provide <style=\"Link\"><link=\"clues\">Clues</link></style> or <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style> it typically requires more resources to develop this type of content for the game. This extra work however also creates the possibility of providing players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style> and provide a form of <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>. In contrast, representing the <style=\"CurrentLink\">Information Passing</style> as symbols (see for example the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style>) makes it easier to integrate with the game system and provides easily creates <style=\"Link\"><link=\"ambiguous-responses\">Ambiguous Responses</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "For simple <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Canned%20Text%20Responses\">Canned Text Responses</link></style> the interface for supporting <style=\"CurrentLink\">Information Passing</style> can be just a button of a menu to choose from a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Information Passing</style> is typically a cornerstone in games' <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> since not only can it be used to parcel out information to players but it can also be used to establish <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> without the immediate use of <style=\"Link\"><link=\"combat\">Combat</link></style>, e.g. to create <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style> within <style=\"Link\"><link=\"factions\">Factions</link></style>. However, this typically makes it important that players' have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> so that is a typically requirement for <style=\"CurrentLink\">Information Passing</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Typically, a game event of containing <style=\"CurrentLink\">Information Passing</style> results in information being gained by players also, although it may not be the same information or only the knowledge that information has been passed. When information is revealed, this may cause <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> and the unfolding of <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> but regardless of this, the event may be sufficient to complete <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals. ",
+            "The pattern becomes incompatible with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> whenever <style=\"CurrentLink\">Information Passing</style> events give information not only to characters but also to players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style>, <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"dialogues\">Dialogues</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Canned%20Text%20Responses\">Canned Text Responses</link></style>, <style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>, <style=\"Link\"><link=\"gossip\">Gossip</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"ambiguous-responses\">Ambiguous Responses</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eavesdropping\">Eavesdropping</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "clues"
+        ],
+        "modulates" : [
+            "dialogues",
+            "factions",
+            "optional-goals",
+            "predefined-goals",
+            "predetermined-story-structures"
+        ],
+        "instantiated_by" : [
+            "canned-text-responses",
+            "chat-channels",
+            "dialogues",
+            "gossip"
+        ],
+        "modulated_by" : [
+            "ambiguous-responses"
+        ],
+        "conflicts" : [
+            "perfect-information"
+        ]
+    }
+}

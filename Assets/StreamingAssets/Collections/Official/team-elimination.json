@@ -1,0 +1,62 @@
+{
+    "name" : "Team Elimination",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The goal of eliminating a whole team from gameplay.",
+        "markups" : [
+            "<style=\"Definition\">The goal of eliminating a whole team from gameplay.</style>",
+            "<style=\"CurrentLink\">Team Elimination</style> is the goal to remove all members of a team from gameplay.",
+            "<style=\"H3\">Examples</style>",
+            "One way to win matches in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike series</link></style> is to kill all members in the other <style=\"Link\"><link=\"teams\">Team</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Making <style=\"CurrentLink\">Team Elimination</style> possible is a way to modify how <style=\"Link\"><link=\"teams\">Teams</link></style> work in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. The main way of allowing <style=\"CurrentLink\">Team Elimination</style> in games is through having <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals for all members of a <style=\"Link\"><link=\"teams\">Team</link></style>. In the case of <style=\"Link\"><link=\"teams\">Teams</link></style> consisting of players, this means using <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> but when <style=\"Link\"><link=\"teams\">Teams</link></style> consist of <style=\"Link\"><link=\"characters\">Characters</link></style> the successful completion of <style=\"CurrentLink\">Team Elimination</style> can result in  <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> of the player controlling that <style=\"Link\"><link=\"teams\">Team</link></style> instead. Since this allows <style=\"CurrentLink\">Team Elimination</style> to be viewed as a <style=\"Link\"><link=\"collections\">Collection</link></style> of <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals, so designing such goals is one way to encourage <style=\"CurrentLink\">Team Elimination</style> if it is possible to <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> the <style=\"Link\"><link=\"teams\">Team</link></style> members. The possibility to cause <style=\"CurrentLink\">Team Elimination</style> can be a <style=\"Link\"><link=\"mutual-goals\">Mutual Goal</link></style> for other <style=\"Link\"><link=\"teams\">Teams</link></style>.",
+            "The presence of <style=\"Link\"><link=\"spawning\">Spawning</link></style> making <style=\"CurrentLink\">Team Elimination</style> impossible since new <style=\"Link\"><link=\"teams\">Team</link></style> members continuously enter gameplay.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Team Elimination</style> is a <style=\"Link\"><link=\"shared-penalties\">Shared Penalty</link></style> between also those in a <style=\"Link\"><link=\"teams\">Team</link></style> can be cause <style=\"Link\"><link=\"game-over\">Game Over</link></style> for them. In some cases they can lead to <style=\"Link\"><link=\"spectacular-failure-enjoyment\">Spectacular Failure Enjoyment</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style>, <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style>, <style=\"Link\"><link=\"spectacular-failure-enjoyment\">Spectacular Failure Enjoyment</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"characters\">Characters</link></style></style>",
+            "<style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"eliminate\">Eliminate</link></style> in games with <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"collections\">Collections</link></style> together with <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"spawning\">Spawning</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-over",
+            "mutual-goals",
+            "shared-penalties",
+            "spectacular-failure-enjoyment",
+            "player-elimination"
+        ],
+        "modulates" : [
+            "multiplayer-games",
+            "teams"
+        ],
+        "instantiated_by" : [
+            "eliminate"
+        ],
+        "modulated_by" : [
+            "collections"
+        ],
+        "conflicts" : [
+            "spawning"
+        ]
+    }
+}

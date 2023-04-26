@@ -1,0 +1,62 @@
+{
+    "name" : "Asymmetric Gameplay",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Gameplay which for one player does not have symmetry with the gameplay of another player or that of previous game instances.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay which for one player does not have symmetry with the gameplay of another player or that of previous game instances.</style>",
+            "Games offers actions and goals to players. When these actions and goals differ between different players the games provide the players with <style=\"CurrentLink\">Asymmetric Gameplay</style>. This can also occur when a player can have very different types of actions and goals between game instances of the same game.",
+            "<style=\"H3\">Examples</style>",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, provide <style=\"CurrentLink\">Asymmetric Gameplay</style> through letting players create characters to control that each have different abilities and roles depending on choices such as profession and race.",
+            "The board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Vast:%20The%20Crystal%20Caverns\">Vast: The Crystal Caverns</link></style> provides each player with very different goals and actions, one being that of a dragon, another being that of knight, and a third being that of the cave in which the others move about. Other board games providing players with very asymmetrical gameplay include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ogre\">Ogre</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style>. Both let one player control significantly more units than the other and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style> puts time limits on one player but not on the other. A weaker example can be found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Memoir%20'44\">Memoir '44</link></style> where the asymmetry consists of differences in types and numbers of \"command cards\" (and to a lesser degree units).",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Asymmetric Gameplay</style> is typically used in a game design to provide <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>. It is typically designed as part of a game through a more specific pattern, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Abilities\">Asymmetric Abilities</link></style>, <style=\"Link\"><link=\"asymmetric-goals\">Asymmetric Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, <style=\"Link\"><link=\"asymmetric-resource-distribution\">Asymmetric Resource Distribution</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Roles\">Asymmetric Roles</link></style>, or <style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>.",
+            "Naturally, <style=\"CurrentLink\">Asymmetric Gameplay</style> is in conflict with having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style> on the same level in a game.",
+            "<style=\"H2\">Consequences</style>",
+            "As stated above, <style=\"CurrentLink\">Asymmetric Gameplay</style> creates <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>. It typically through this also provides <style=\"Link\"><link=\"replayability\">Replayability</link></style> as long as not all types of gameplay are guaranteed to be exhausted within a game instance. It can also create <style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style> in games with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style></style>",
+            "<style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Abilities\">Asymmetric Abilities</link></style>, <style=\"Link\"><link=\"asymmetric-goals\">Asymmetric Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, <style=\"Link\"><link=\"asymmetric-resource-distribution\">Asymmetric Resource Distribution</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Roles\">Asymmetric Roles</link></style>, <style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "replayability",
+            "varied-gameplay",
+            "reflective-communication"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "asymmetric-abilities",
+            "asymmetric-goals",
+            "asymmetric-information",
+            "asymmetric-resource-distribution",
+            "asymmetric-roles",
+            "asymmetric-starting-conditions"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "symmetry"
+        ]
+    }
+}

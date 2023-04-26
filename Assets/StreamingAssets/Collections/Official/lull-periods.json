@@ -1,0 +1,71 @@
+{
+    "name" : "Lull Periods",
+    "categories" : [
+        "Gameplay Arc Patterns",
+        "Narration Patterns",
+        "Subjective Patterns",
+        "Dynamic Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Gameplay time when players are not stressed about performing actions.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay time when players are not stressed about performing actions.</style>",
+            "Like most other types of designed artifacts or activities that are intended to give experiences, games can vary in the intensity of those experiences over the time of a game instance. <style=\"CurrentLink\">Lull Periods</style> are period of time when the gameplay is relaxed in the sense that players do not need to react quickly to game events and have a freedom in how much they interact with, or focus on, the game.",
+            "<style=\"H3\">Examples</style>",
+            "Many strategy games, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style> alternate between intense periods of expansion or warfare and calmer period when the players' civilizations steadily grow and develop. ",
+            "Games that are supposed to provoke horror or at least tense anticipation, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Silent%20Hill%20series\">Silent Hill series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, alternate between <style=\"CurrentLink\">Lull Periods</style> where players explore or move through the game worlds and intense scenes when players need to focus solely on the forces attacking them.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Lull Periods</style> can range from complete removal of possibilities to perform actions to gameplay time when there is not particular stress. This makes the latter end of the scale subjective, and the pattern into a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Subjective%20Patterns\">Subjective Pattern</link></style>. Perhaps the most objective use of it for the latter end is as interruptions between <style=\"Link\"><link=\"waves\">Waves</link></style> as for example the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> make use of. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cut%20Scenes\">Cut Scenes</link></style> and other forms of patterns that create <style=\"Link\"><link=\"downtime\">Downtime</link></style> can be used for the former end of the scale while moving along <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style> or observing well-behaving <style=\"Link\"><link=\"exploitation\">Exploitation</link></style> or <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> can be used for the latter end. <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> and <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can be used for both and can easily move from one end to the other of the scale as needed. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Although <style=\"CurrentLink\">Lull Periods</style> do not have to relate to a game's narration, it can be used as a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Narration%20Patterns\">Narration Pattern</link></style> for reason of tempo.",
+            "<style=\"H2\">Consequences</style>",
+            "As its definition suggested, <style=\"CurrentLink\">Lull Periods</style> is not compatible with <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style> or <style=\"Link\"><link=\"tension\">Tension</link></style> but can provide players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> if they know approximately when the <style=\"CurrentLink\">Lull Periods</style> will end. Player can make use of <style=\"CurrentLink\">Lull Periods</style> to engage in <style=\"Link\"><link=\"pottering\">Pottering</link></style> or <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, and in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> experience <style=\"Link\"><link=\"togetherness\">Togetherness</link></style> simply because they can focus their attention more on the players than on the gameplay without as great risk of missing something. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"pottering\">Pottering</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"togetherness\">Togetherness</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"waves\">Waves</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cut%20Scenes\">Cut Scenes</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"exploitation\">Exploitation</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style>, <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "pottering",
+            "stimulated-planning",
+            "togetherness"
+        ],
+        "modulates" : [
+            "waves"
+        ],
+        "instantiated_by" : [
+            "cut-scenes",
+            "dedicated-game-facilitators",
+            "downtime",
+            "exploitation",
+            "game-masters",
+            "gameplay-engines",
+            "transport-routes"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "attention-demanding-gameplay",
+            "tension"
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "name" : "Herd",
+    "categories" : [
+        "Patterns",
+        "Goal Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "The goal of moving one or more game elements to a location without directly interacting with them.",
+        "markups" : [
+            "<style=\"Definition\">The goal of moving one or more game elements to a location without directly interacting with them.</style>",
+            "Many goals in games consist of getting one or more game elements to a specific location. <style=\"CurrentLink\">Herd</style> goals are variations of this where players cannot directly move the game elements but instead have to affect them by moving other game elements.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pool%20Games\">Pool Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eight-ball\">Eight-ball</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Snooker\">Snooker</link></style> are examples of <style=\"CurrentLink\">Herd</style> Goals where players only have one point of control, the cue ball, to move the other balls.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Populous\">Populous</link></style> allows players to place markers in the game world which make all controlled people move towards the marker. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lemmings\">Lemmings</link></style> provides a variety of tools that can influence the movement of the lemmings under the players' control. ",
+            "Games where players get quests to guide willing subject to specific points are numerous. Examples include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20Island\">Dead Island</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crysis%20series\">Crysis</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Everquest%20series\">Everquest</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fable%20series\">Fable</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style>.",
+            "The site GiantBomb has pages for <i>Guidance Gameplay</i>  and <i>Escort Mission</i> whose meanings are both covered by this pattern.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Herd</style> is a form of <style=\"Link\"><link=\"deliver\">Deliver</link></style> goal where what has to be delivered can move on its own and not necessarily is cooperating. This creates three primary design choices when creating <style=\"CurrentLink\">Herd</style> goals: what to <style=\"CurrentLink\">Herd</style>, how players can influence the <style=\"Link\"><link=\"movement\">Movement</link></style> of that which is herded, and where they should be herded.",
+            "Practically any type of game element that can be affected by <style=\"Link\"><link=\"movement\">Movement</link></style> are possible candidates for <style=\"CurrentLink\">Herd</style> goals. However, having <style=\"Link\"><link=\"agents\">Agents</link></style> as the game elements to be herded is more in line with the common connotations of herding and brings in additional complexities to the goal since the <style=\"Link\"><link=\"agents\">Agents</link></style> may intentionally or not move in the wrong directions. While any type of <style=\"Link\"><link=\"agents\">Agents</link></style> can be used in this sense, <style=\"Link\"><link=\"avatars\">Avatars</link></style> are rarely used (examples include multiplayer maps in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life series</link></style> where one specific player needs to be guided and protected by the other players in his or her team to a goal location). Making is possible for that which is herded possible to die (e.g., from <style=\"Link\"><link=\"enemies\">Enemies</link></style> or <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>) introduces <style=\"Link\"><link=\"survive\">Survive</link></style> goals and shows a way to make <style=\"CurrentLink\">Herd</style> goals more complicated or challenging.",
+            "The most important issue on how players can get the herded game elements moving is that it is through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Control\">Indirect Control</link></style>. This is most often by moving some game elements, which may be <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> but can also be cue balls as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Snooker\">Snooker</link></style>, and having the movement of the herded game elements changed by direct collisions or by being attracted or repulsed by the proximity to other game elements. Games using this form of herding can be made easier by providing players with <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>. The influences for the herded game element to move based on player actions are typically motivated to maintain a <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. Examples of possible explanations include transferal of momentum from other game elements due to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style>, physical forces such as gravity or magnetism, or effects of emotional reactions such as anger, attraction or fright if the game elements are <style=\"Link\"><link=\"agents\">Agents</link></style>. ",
+            "Like for other <style=\"Link\"><link=\"deliver\">Deliver</link></style> goals, the end point for <style=\"CurrentLink\">Herd</style> goals can be described as <style=\"Link\"><link=\"check-points\">Check Points</link></style>. Reaching these can often be made easier be <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> or locations with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style> since they  restrict the <style=\"Link\"><link=\"movement\">Movement</link></style> of those herded while <style=\"Link\"><link=\"arenas\">Arenas</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Open%20Worlds\">Open Worlds</link></style> can make them more difficult since unwanted <style=\"Link\"><link=\"movement\">Movement</link></style> can occur in any direction there.",
+            "<style=\"H2\">Consequences</style>",
+            "As described above, <style=\"CurrentLink\">Herd</style> is basically a <style=\"Link\"><link=\"deliver\">Deliver</link></style> goal of bringing game elements to a specific <style=\"Link\"><link=\"check-points\">Check Point</link></style> but only having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Control\">Indirect Control</link></style> over them. This goal automatically creates a <style=\"Link\"><link=\"traverse\">Traverse</link></style> goal and can in many cases have the characteristics of <style=\"Link\"><link=\"collecting\">Collecting</link></style> actions (especially so if the <style=\"Link\"><link=\"agents\">Agents</link></style> can become separated). It is likely to make <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style> more difficult since the <style=\"Link\"><link=\"movement\">Movement</link></style> of several game elements need to be considered in real-time. Like many other goal patterns, <style=\"CurrentLink\">Herd</style> can easily be made into explicit gameplay goals as <style=\"Link\"><link=\"quests\">Quests</link></style>.",
+            "Since players not only need to consider their own possibilities of <style=\"Link\"><link=\"movement\">Movement</link></style> but also that of the game elements they are herding  to succeed with <style=\"CurrentLink\">Herd</style> goals, the pattern is likely to open up for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>. That players have only <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Control\">Indirect Control</link></style> of the <style=\"Link\"><link=\"agents\">Agents</link></style> may cause these to be perceived as <style=\"Link\"><link=\"enemies\">Enemies</link></style>, especially in games based on <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style> since here the <style=\"Link\"><link=\"agents\">Agents</link></style> can resist herding attempt in real-time. <style=\"Link\"><link=\"agents\">Agents</link></style> may in this situation also be seen as having <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> of not making the <style=\"CurrentLink\">Herd</style> goals succeed. <style=\"CurrentLink\">Herd</style> may be difficult itself but combined with <style=\"Link\"><link=\"stealth\">Stealth</link></style> it is more likely to create <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> as players have to try to be sneaky with something they do not control directly.",
+            "The use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style> together with <style=\"CurrentLink\">Herd</style> goals creates a <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchy</link></style> of <style=\"CurrentLink\">Herd</style> goals.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"collecting\">Collecting</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"agents\">Agents</link></style></style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style></style>",
+            "<style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"stealth\">Stealth</link></style></style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>",
+            "<style=\"Link\"><link=\"deliver\">Deliver</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Control\">Indirect Control</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"arenas\">Arenas</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Open%20Worlds\">Open Worlds</link></style>, <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>, <style=\"Link\"><link=\"survive\">Survive</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "collecting",
+            "quests",
+            "spatial-engrossment",
+            "traverse",
+            "enemies",
+            "preventing-goals",
+            "goal-hierarchies",
+            "challenging-gameplay"
+        ],
+        "modulates" : [
+            "maneuvering"
+        ],
+        "instantiated_by" : [
+            "check-points",
+            "movement",
+            "deliver"
+        ],
+        "modulated_by" : [
+            "agents",
+            "arenas",
+            "choke-points",
+            "connection",
+            "one-way-travel",
+            "open-worlds",
+            "privileged-movement",
+            "survive"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

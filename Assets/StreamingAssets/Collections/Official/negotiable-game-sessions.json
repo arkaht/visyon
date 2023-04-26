@@ -1,0 +1,75 @@
+{
+    "name" : "Negotiable Game Sessions",
+    "categories" : [
+        "To be Published",
+        "Gameplay Adaptability Patterns",
+        "Subjective Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Note: This pattern is based upon the [[Underlying_Assumptions_and_Concepts#Game Sessions|Game Sessions]] concept from the activity-based framework used for developing the original gameplay design patterns collection.",
+        "markups" : [
+            "''Support for players to have complete gameplay experiences while having influence over the time need and without negatively affecting other players' gameplay experience.''",
+            "Players of any game may have preferences on how long the game should take to complete, and this may change between each time the game is played. Games that allow players to influence the time taken to play through them can be said to have <style=\"CurrentLink\">Negotiable Game Sessions</style>.",
+            "<style=\"Definition\">Note: This pattern is based upon the [[Underlying_Assumptions_and_Concepts#Game Sessions|Game Sessions]] concept from the activity-based framework used for developing the original gameplay design patterns collection.</style>",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sandbox%20Games\">Sandbox Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Dwarf Fortress</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style> does not force players to strive towards winning conditions and can for this reason continue to be played for as long as players find them interesting. Even those that have more explicit winning conditions, as for the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Elder%20Scrolls%20series\">Elder Scrolls series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style>, have <style=\"CurrentLink\">Negotiable Game Sessions</style> when they let players continue playing after the game is won.",
+            "There is no natural ending point for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Call%20of%20Cthulhu\">Call of Cthulhu</link></style> as long as the game master and enough players are willing to continue. This gives these games a weak form of <style=\"CurrentLink\">Negotiable Game Sessions</style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> have no winning conditions and continue regardless if exactly which players are logged onto the game. While arriving late or leaving early may cause disruptions for other players, this only affects a small group of players instead of all players, so these games can be said to have <style=\"CurrentLink\">Negotiable Game Sessions</style>. Similarly, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zombie%20Lane\">Zombie Lane</link></style> only lets players weakly interact with each other and have no enforced winning conditions so players can play them for as long as they wish motivated primarily by the local goals they have. The same applies to mobile games <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Insectopia\">Insectopia</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Several factors affect if a game supports <style=\"CurrentLink\">Negotiable Game Sessions</style>. The two first relate to the variety of length of game sessions supported by the game while still providing a meaningful gameplay experience. The minimum amount of time or actions required of a player can be affected by <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> while <style=\"Link\"><link=\"speedruns\">Speedruns</link></style> make a goal of shortening game sessions but all games have thresholds under which it is difficult to see players being able to have senses of gameplay closure. <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> games with small <style=\"Link\"><link=\"levels\">Levels</link></style> where each level can be seen as its own game, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style>, probably have the lowest such thresholds. The maximum length of game sessions can quite easily be raised: <style=\"Link\"><link=\"sidequests\">Sidequests</link></style> does it in discrete amounts while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sandbox%20Gameplay\">Sandbox Gameplay</link></style> opens up for game sessions as long as players can find interesting goals for themselves (<style=\"Link\"><link=\"replayability\">Replayability</link></style> also provides more context to players but between different game sessions). <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> that are set by players is a way to enforce maximum limits to the game sessions and can in this way help support the pattern.",
+            "<style=\"Link\"><link=\"negotiable-play-sessions\">Negotiable Play Sessions</link></style> can give rise to <style=\"CurrentLink\">Negotiable Game Sessions</style> when the length of play sessions determine the game session length rather than the overall game session length being static in terms of challenges, <style=\"Link\"><link=\"levels\">Levels</link></style>, or similar measures (but not turns) and play sessions need to add up to this. For example, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> can have <style=\"CurrentLink\">Negotiable Game Sessions</style> since the allowed amount of time for each turn (seen as a play session) can be negotiated.",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> complicates the issue of having <style=\"CurrentLink\">Negotiable Game Sessions</style> since it either requires that all players can - and do - align their game sessions or that the game system supports unsynchronized game sessions. While this makes basic forms of <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> work against the pattern, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> and <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> respectively show how these requirements can be supported.",
+            "In <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> with <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>, <style=\"CurrentLink\">Negotiable Game Sessions</style> can partly be created through <style=\"Link\"><link=\"configurable-gameplay-areas\">Configurable Gameplay Areas</link></style> since these can put upper and lower boundaries on how long the game sessions will take. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Negotiable Game Sessions</style> makes <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style> likely to occur. Like <style=\"Link\"><link=\"negotiable-play-sessions\">Negotiable Play Sessions</link></style>, <style=\"CurrentLink\">Negotiable Game Sessions</style> provide one of the needed aspects of both <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style> and <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>, and through this <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> and <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>. It also shares the consequence with that pattern in that is lowers the risk of <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style> (this is only a risk if the game is not designed in other way to compensate for players leaving early). It makes players engage in <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> since they need to discuss how long the game sessions should be.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>, <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"negotiable-play-sessions\">Negotiable Play Sessions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sandbox%20Gameplay\">Sandbox Gameplay</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> together with <style=\"Link\"><link=\"levels\">Levels</link></style>",
+            "<style=\"Link\"><link=\"configurable-gameplay-areas\">Configurable Gameplay Areas</link></style> in <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> with <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "casual-gameplay",
+            "extra-game-actions",
+            "player-agency",
+            "social-adaptability",
+            "ubiquitous-gameplay",
+            "unsynchronized-game-sessions"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "difficulty-levels",
+            "drop-in-drop-out",
+            "negotiable-play-sessions",
+            "sandbox-gameplay",
+            "self-facilitated-games",
+            "speedruns",
+            "time-limits",
+            "puzzle-solving",
+            "configurable-gameplay-areas"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "early-leaving-players",
+            "multiplayer-games"
+        ]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name" : "Asynchronous Collaborative Actions",
+    "categories" : [
+        "Patterns",
+        "To be Published",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Collaboration between players where the actions do not need to be done simultaneously or be observed by the other collaborators.",
+        "markups" : [
+            "<style=\"Definition\">Collaboration between players where the actions do not need to be done simultaneously or be observed by the other collaborators.</style>",
+            "Many games allow players to collaborate. In many cases the collaboration is done by players doing actions simultaneously and being able to observe each other, and in these cases players can easily notice that everyone is doing what they committed themselves to doing and how the collaboration progresses. However, collaboration can be achieved by players without them doing the actions at the same time and without them being aware of others' actions as they are being done. In these <style=\"CurrentLink\">Asynchronous Collaborative Actions</style>, players have to place trust in other players, and while this may make it more difficult to achieve it at the same time can provide more satisfaction when it works. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style> requires players in each team to do many types of collaboration but not necessarily at together. One example is putting effort into having control of different parts of the game world. ",
+            "Social media games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zombie%20Lane\">Zombie Lane</link></style> are weak examples of <style=\"CurrentLink\">Asynchronous Collaborative Actions</style> since the collaboration consists of independent altruistic actions.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Asynchronous Collaborative Actions</style> is basically <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> through <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style>, but can be seen as a pattern in itself since it gives rise to some consequences that neither of the two more basic patterns do on their own. One primary design choice for the pattern is how many actions in sequence are necessary for the <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> to give benefits, and another is if <style=\"Link\"><link=\"rewards\">Rewards</link></style> are given out simultaneously or not. While these choices exists for <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> in general, they more strongly affect the probability that it will occur for <style=\"CurrentLink\">Asynchronous Collaborative Actions</style> since players need to trust each other more for these actions.",
+            "While <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> is a clear way to create the pattern, it can also be achieved in more voluntary form through <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style>. In this case, the pattern emerges from several individual actions that form as collaboration when viewed together over time.",
+            "<style=\"Link\"><link=\"time-limits\">Time Limits</link></style> can be used to either make both voluntary and necessary cooperation feel more forced.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> can be used in order to encourage the <style=\"CurrentLink\">Asynchronous Collaborative Actions</style> since this lets players remind each other. This also increases the likelihood for <style=\"Link\"><link=\"guilting\">Guilting</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Asynchronous Collaborative Actions</style> is more difficult to achieve that <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, and for this reason, it can be a way to provide <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>. It provides a <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style> since players do not need to observe or directly interact with each other. It does however not in itself enforce the anonymity since players may be able to notice each other and may be able to synchronize the collaboration even if they do not engage in gameplay at the same time. The pattern gives <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style> when the <style=\"CurrentLink\">Asynchronous Collaborative Actions</style> consist of several steps or can be repeated.",
+            "<style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style> can be seen as one consequence of <style=\"CurrentLink\">Asynchronous Collaborative Actions</style> since either the specific <style=\"Link\"><link=\"abilities\">Abilities</link></style> of players dictate different roles or that the time when they should do the actions define roles. The dependence on others that the pattern creates can cause <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> and make players engage in <style=\"Link\"><link=\"guilting\">Guilting</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style>, <style=\"Link\"><link=\"guilting\">Guilting</link></style>, <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style> together with <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style> or <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "complex-gameplay",
+            "encouraged-return-visits",
+            "functional-roles",
+            "guilting",
+            "possibility-anonymity",
+            "social-dilemmas"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "asynchronous-gameplay"
+        ],
+        "modulated_by" : [
+            "communication-channels",
+            "time-limits"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

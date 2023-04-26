@@ -1,0 +1,90 @@
+{
+    "name" : "Fog of War",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Information Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Hiding information about parts of game worlds that are not being observed or have not yet been explored by players.",
+        "markups" : [
+            "<style=\"Definition\">Hiding information about parts of game worlds that are not being observed or have not yet been explored by players.</style>",
+            "While many games give players views of game worlds that could not be achieved by any diegetic entity, it in many cases makes sense to limit players' information to that which his or her units could perceive. This juxtaposition between a non-diegetic player's view and the perception possible by diegetic entities is called <style=\"CurrentLink\">Fog of War</style>, from the awareness from military leaders that they have to act without full information about the situation.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Fog of War</style> originated in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Wargames\">Wargames</link></style> and is here typically limited to the presence of identity of enemy units. Examples of such games include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advanced%20Squad%20Leader\">Advanced Squad Leader</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rommel%20in%20the%20Desert\">Rommel in the Desert</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stratego\">Stratego</link></style>. A futuristic example is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style>. ",
+            "Computer-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Strategy%20Games\">Strategy Games</link></style> can introduce a second level, hiding the game world until explored, since computers can easily handle the added excise. Games that make use of this include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advance%20Wars%20series\">Advance Wars</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Age%20of%20Empires%20series\">Age of Empire</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts%20of%20Iron%20series\">Hearts of Iron series</link></style> but it should be noted that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carcassonne\">Carcassonne</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Species\">Dominant Species</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Drakborgen\">Drakborgen</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zombies!!!\">Zombies!!!</link></style> show that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> can also support this type of <style=\"CurrentLink\">Fog of War</style>. For the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style>, players start with just the areas around his or her starting units explored and the choice between whether to put resources into improving ones cities or exploring the environment can make the difference between success and failure in the game. In later installments of the game, some units can be given upgrades that improve their range and thereby lessen the <style=\"CurrentLink\">Fog of War</style>. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Metroid%20Fusion\">Metroid Fusion</link></style> reveals most of the layout of each level and even explicitly indicates the places the player has already visited. The game further indicates the location of the power-ups on the overview map, but not the exact location on the play area. The in-game tactical maps in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> show all terrain features, friendly units, and all enemy units spotted by any friendly units.",
+            "The GiantBomb web site has a page for <style=\"CurrentLink\">Fog of War</style> listing numerous examples<ref name=\"gb\"/>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Fog of War</style> is used to hide information about <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and in addition hide information in <style=\"Link\"><link=\"mini\">Mini-maps</link></style> for games that use these. Two main design choices exist for <style=\"CurrentLink\">Fog of War</style>: how is it dispersed and is it divided into a <style=\"CurrentLink\">Fog of War</style> concerning terrain and a <style=\"CurrentLink\">Fog of War</style> concerning <style=\"Link\"><link=\"units\">Units</link></style>. The former is mainly a question of if terrain should be visible from the beginning of game instances or should be revealed the first time the <style=\"CurrentLink\">Fog of War</style> is dispersed for an area. A third alternative is if the game should show the presence of <style=\"Link\"><link=\"resources\">Resources</link></style> or if these should be hidden; this creates <style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style> and can be considered independently of if a <style=\"CurrentLink\">Fog of War</style> hides the terrain or enemy units (diegetic explanations might be that <style=\"Link\"><link=\"resources\">Resources</link></style> need to be prospected or that <style=\"Link\"><link=\"units\">Units</link></style> can hide). ",
+            "<style=\"CurrentLink\">Fog of War</style> is typically removed for all parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> in the observational ranges of <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style>, and restored when these game elements have moved away or been removed from gameplay. The observational ranges are in this sense <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> functions with a maximum limit. This makes these patterns able to instantiate the pattern even if they functionally remove it during gameplay. <style=\"Link\"><link=\"installations\">Installations</link></style> can also work as removers of <style=\"CurrentLink\">Fog of War</style>, but since these cannot move, their role in relation to the pattern is to let players keep having overview of a location they have taken control over or in which they have built an <style=\"Link\"><link=\"installations\">Installation</link></style>. Giving these <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>, and <style=\"Link\"><link=\"installations\">Installations</link></style> the ability to affect <style=\"CurrentLink\">Fog of War</style> opens up possibilities of granting some of these <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> in regards to the <style=\"CurrentLink\">Fog of War</style>. Some games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carcassonne\">Carcassonne</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Drakborgen\">Drakborgen</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zombies!!!\">Zombies!!!</link></style>, have <style=\"CurrentLink\">Fog of War</style> simply because their <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> are built during gameplay. For these <style=\"Link\"><link=\"tile-laying\">Tile-Laying</link></style> can be said to create the <style=\"CurrentLink\">Fog of War</style> although it like the previous cases actually removes the <style=\"CurrentLink\">Fog of War</style>. This type of <style=\"CurrentLink\">Fog of War</style> is however shared between all players.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Fog of War</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Information%20Patterns\">Information Pattern</link></style>. In games with <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"CurrentLink\">Fog of War</style> allows for <style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Fog of War</style> modulates players' perception of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> by giving them an <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>. Through this, it provides means of giving <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> in games with <style=\"Link\"><link=\"third-person-views\">Third-Person</link></style> or <style=\"Link\"><link=\"god-views\">God Views</link></style> comparable to that which comes automatically in games with <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style>. In games where <style=\"CurrentLink\">Fog of War</style> is not the same for all players, it gives them <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, and makes it possible for them to have <style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style>. It can modulate <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> so that one has the freedom to move over entire <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> but without revealing all information within them. In games with <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style>, <style=\"CurrentLink\">Fog of War</style> can require players to engage in <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>.",
+            "Since knowing the terrain of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and what the terrains contain, often give tactical advantages, the presence of <style=\"CurrentLink\">Fog of War</style> naturally creates <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> and, more specifically, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> goals. When <style=\"CurrentLink\">Fog of War</style> comes in two layers, making a difference between what has not been seen at all and that which currently is not seen, the pattern also modulates <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> since it encourages players to explore the same areas repeatedly to notice difference. When this becomes a more structure gameplay activity, it is in fact a <style=\"Link\"><link=\"guard\">Guard</link></style> or <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> goal. Needing to consider <style=\"CurrentLink\">Fog of War</style> in these ways affect how players can and need to do <style=\"Link\"><link=\"stimulated-planning\">Stimulated</link></style> and <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>. ",
+            "<style=\"CurrentLink\">Fog of War</style> can modulate many types of actions through introducing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, but this is probably most directly noticeable in games with <style=\"Link\"><link=\"combat\">Combat</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"combat\">Combat</link></style></style>",
+            "<style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style></style>",
+            "<style=\"Link\"><link=\"memorizing\">Memorizing</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"resources\">Resources</link></style></style>",
+            "<style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style>, <style=\"Link\"><link=\"god-views\">God Views</link></style>, <style=\"Link\"><link=\"mini\">Mini-maps</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style>, <style=\"Link\"><link=\"tile-laying\">Tile-Laying</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "asymmetric-information",
+            "gain-information",
+            "game-world-exploration",
+            "guard",
+            "imperfect-information",
+            "reconnaissance",
+            "secret-resources",
+            "uncertainty-information",
+            "surprise-attacks",
+            "memorizing",
+            "secret-resources"
+        ],
+        "modulates" : [
+            "combat",
+            "game-state-overviews",
+            "game-world-exploration",
+            "game-worlds",
+            "god-fingers",
+            "god-views",
+            "mini",
+            "resources",
+            "stimulated-planning",
+            "tactical-planning",
+            "third-person-views"
+        ],
+        "instantiated_by" : [
+            "avatars",
+            "installations",
+            "line-sight",
+            "tile-laying",
+            "units"
+        ],
+        "modulated_by" : [
+            "privileged-abilities"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

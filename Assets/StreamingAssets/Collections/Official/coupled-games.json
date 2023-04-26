@@ -1,0 +1,56 @@
+{
+    "name" : "Coupled Games",
+    "categories" : [
+        "Patterns",
+        "To be Published",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Games that are designed so that the events in one game affects events in another game",
+        "markups" : [
+            "<style=\"Definition\">Games that are designed so that the events in one game affects events in another game</style>",
+            "Most games are designed to not be intentionally affected other things than the players' actions and the inner workings of the games themselves. However, some game have rules for allowing input from other sources and when these other sources are other games, the games become <style=\"CurrentLink\">Coupled Games</style>.",
+            "<style=\"H3\">Examples</style>",
+            "A limited form of <style=\"CurrentLink\">Coupled Games</style> can be found in the pairing of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Metroid%20Prime\">Metroid Prime</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Metroid%20Fusion\">Metroid Fusion</link></style>, which was released on the GameBoy Advance and GameCube respectively. Completing one of these games gave a reward in the other if the systems were linked together, in one case providing a new costume for the main character and in the other allowing players to play the first Metroid game.",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sonic%20Adventure\">Sonic Adventure</link></style> on the SEGA Dreamcast could find Chao creatures. While these could be raised and played with in the main game, they could also be interacted with as a separate game on the ''Visual Memory Units'' - interactive memory cards - of the console. These were also used in the Dreamcast version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Power%20Stone\">Power Stone</link></style> where players could gain advantages through player various small games on the VMUs.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A general choice when making <style=\"CurrentLink\">Coupled Games</style> is if both games should be able to affect each other or if only one game should be able to affect the other. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> is used in both cases, but in the second case the \"affecting\" games may be created only to make the pattern appear and in this case they may be <style=\"Link\"><link=\"minigames\">Minigames</link></style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "It may be difficult to have <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> in both of the <style=\"CurrentLink\">Coupled Games</style> since this either may require breaks in gameplay in one of the games until certain points are reaching in the other or may let players gain knowledge of future events in one of the games through playing the other one. It is however possible to have a <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structure</link></style> in one and not in the other.",
+            "<style=\"H2\">Consequences</style>",
+            "The input from one of the games to another can be seen as a form of <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>. If the designs of the <style=\"CurrentLink\">Coupled Games</style> are sufficiently interwoven, players may perceive these as one gameplay experience and in those cases the pattern gives rise to <style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style>, <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"minigames\">Minigames</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "crossmedia-gameplay",
+            "extra-game-input"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "minigames",
+            "trans-game-information"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "predetermined-story-structures"
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "name" : "Asymmetric Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Mechanical Patterns",
+        "Symmetry Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Goals that from a systemic perspective are asymmetric to each other.",
+        "markups" : [
+            "<style=\"Definition\">Goals that from a systemic perspective are asymmetric to each other.</style>",
+            "There are often reasons to compare goals in games, e.g. because they are different ways to winning a game or because one wants to compare one's own goals to that of others. When goals share the same scope or level of detail but differ in requirements or rewards they are <style=\"CurrentLink\">Asymmetric Goals</style>.",
+            "<style=\"H3\">Examples</style>",
+            "In the children's game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tag\">Tag</link></style>, the chaser has the goal of catching another player, while the other players try to avoid the chaser, making the goals asymmetric.",
+            "The collectable card game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illuminati:%20New%20World%20Order\">Illuminati: New World Order</link></style> has <style=\"CurrentLink\">Asymmetric Goals</style> in that all players have individual secret goal goals (which complement common winning goals that all players also have).",
+            "The board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style> provides players with many low-level <style=\"CurrentLink\">Asymmetric Goals</style> by matching slow-moving space marines, which have ranged weapons, against fast-moving aliens, which can only fight in close combat.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Asymmetric Goals</style> are typically introduced in a game to provide <style=\"Link\"><link=\"asymmetric-gameplay\">Asymmetric Gameplay</link></style>. The pattern is often used to make different players have different requirements and <style=\"Link\"><link=\"rewards\">Rewards</link></style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competitions</link></style> or in the <style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style> of games. By definition, <style=\"CurrentLink\">Asymmetric Goals</style> are incompatible with <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style> (although both patterns can exist in games related to different sets of goals). ",
+            "<style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> are by definition linked to other goals and since they are not similar this is a way to provide <style=\"CurrentLink\">Asymmetric Goals</style> in a game. Another way it through providing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversal</link></style> since switching roles in many cases means having different goals. A third way is in games where several players each have a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> in which goals to pursuit since as long as they don't pick the same goals (if that is possible) the goals will be asymmetric to each other. ",
+            "Given that <style=\"CurrentLink\">Asymmetric Goals</style> often have different requirements, it can be relevant to consider connecting <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Abilities\">Asymmetric Abilities</link></style> to the goals so players are given <style=\"Link\"><link=\"abilities\">Abilities</link></style> that fit the requirements of the goals. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Paper-Rock-Scissors\">Paper-Rock-Scissors</link></style> can be applied to several <style=\"CurrentLink\">Asymmetric Goals</style> to create loops of goals which are different to each other but which are created so they all have advantages against other goals in the loop. A benefit of this is that this can mitigate problems with <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> while preserving the asymmetry.",
+            "<style=\"H2\">Consequences</style>",
+            "While <style=\"CurrentLink\">Asymmetric Goals</style> present in the beginning of a game provides <style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>, they in general provide <style=\"Link\"><link=\"asymmetric-gameplay\">Asymmetric Gameplay</link></style>. Through this, games with <style=\"CurrentLink\">Asymmetric Goals</style> typically gain <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> and thereby <style=\"Link\"><link=\"replayability\">Replayability</link></style> (unless all variety is guaranteed to be covered during a single game instance). As with other types of asymmetry in games, <style=\"CurrentLink\">Asymmetric Goals</style> can make it more difficult to support <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> since the differences easily can provide advantages or disadvantages to some players. ",
+            "In games with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"CurrentLink\">Asymmetric Goals</style> can encourage <style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style> between players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>, <style=\"Link\"><link=\"asymmetric-gameplay\">Asymmetric Gameplay</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style></style>",
+            "<style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>, <style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversal</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Abilities\">Asymmetric Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Paper-Rock-Scissors\">Paper-Rock-Scissors</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "asymmetric-starting-conditions",
+            "asymmetric-gameplay",
+            "replayability",
+            "varied-gameplay",
+            "reflective-communication"
+        ],
+        "modulates" : [
+            "competition",
+            "end-state-scoring",
+            "freedom-choice"
+        ],
+        "instantiated_by" : [
+            "freedom-choice",
+            "preventing-goals",
+            "role-reversal"
+        ],
+        "modulated_by" : [
+            "asymmetric-abilities",
+            "paper-rock-scissors"
+        ],
+        "conflicts" : [
+            "player-balance",
+            "symmetric-goals"
+        ]
+    }
+}

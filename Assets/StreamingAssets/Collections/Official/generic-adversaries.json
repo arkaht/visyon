@@ -1,0 +1,62 @@
+{
+    "name" : "Generic Adversaries",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "More or less adversary diegetic entities that are indistinguishable from other similar entities.",
+        "markups" : [
+            "<style=\"Definition\">More or less adversary diegetic entities that are indistinguishable from other similar entities.</style>",
+            "Games often put players in opposition to entities in game worlds, sometimes by making them directly hostile and sometimes by simply making actions impossible or inadvisable. When multiple such entities exist and they are functionally identical to each other, they are <style=\"CurrentLink\">Generic Adversaries</style>. ",
+            "Note: ''This pattern was first identified in the book chapter \"Of Heroes and Henchmen: The Conventions of Killing Generic Expendables in Video Games\" by René Glas<ref name=\"glas\"/>. TV Tropes uses \"Mook\" for the same phenomenon<ref name=\"tvtropes\"/>.''",
+            "<style=\"H3\">Examples</style>",
+            "While there are many different types of enemies in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style>, all instances within one category of enemies are identical to each other making all but the boss monsters of these games into <style=\"CurrentLink\">Generic Adversaries</style>. ",
+            "The regular \"infected\" that players encounters in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> may look different from each other but are otherwise <style=\"CurrentLink\">Generic Adversaries</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Generic Adversaries</style> are diegetically intentional entities that are identical to each other. As such, they can fill roles for <style=\"Link\"><link=\"enemies\">Enemies</link></style> that need to exist in large numbers, e.g. in <style=\"Link\"><link=\"waves\">Waves</link></style>. Although they are named as adversaries, they can also be used as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inhabitants\">Inhabitants</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style> that are only adversary passively or through their mere presence. In this way, <style=\"CurrentLink\">Generic Adversaries</style> are by definition required for the creation of <style=\"Link\"><link=\"units\">Units</link></style>. The design involved in creating <style=\"CurrentLink\">Generic Adversaries</style> consists of making a template for them and considering when players should encounter them (which might be a question of when they should be spawned). ",
+            "While <style=\"CurrentLink\">Generic Adversaries</style> should be similar enough to be viewed as generic, some variation can be provided to them through <style=\"Link\"><link=\"randomness\">Randomness</link></style> to make gameplay less predictable. One area where this may be especially appropriate is the composition of any eventual <style=\"Link\"><link=\"loot\">Loot</link></style> they have.",
+            "<style=\"H2\">Consequences</style>",
+            "As <style=\"Link\"><link=\"enemies\">Enemies</link></style> that can both be numerous and can easily be created on the fly, <style=\"CurrentLink\">Generic Adversaries</style> can be well suited to create <style=\"Link\"><link=\"combat\">Combat</link></style>-oriented <style=\"Link\"><link=\"grinding\">Grinding</link></style>. Since interacting with them tend to involve the same kind of actions, challenges, and solutions, use of them tend to give rise to <style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style> unless other factors are changed to compensate.",
+            "If the behavior of <style=\"CurrentLink\">Generic Adversaries</style> aren't complex regarding prediction or co-operation, they can open up for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kiting\">Kiting</link></style> behaviors from players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inhabitants\">Inhabitants</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kiting\">Kiting</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style>, <style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>, <style=\"Link\"><link=\"waves\">Waves</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"loot\">Loot</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "enemies",
+            "grinding",
+            "inhabitants",
+            "kiting",
+            "npcs",
+            "repetitive-gameplay",
+            "units",
+            "waves"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "loot",
+            "randomness"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "name" : "Surrendering",
+    "categories" : [
+        "Dynamic Patterns",
+        "Negative Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The act of a player to abandon a game instance in acknowledgment of being beat.",
+        "markups" : [
+            "<style=\"Definition\">The act of a player to abandon a game instance in acknowledgment of being beat.</style>",
+            "Many games recognize one player as a winner of a game instance in some way. Those that do naturally give players the goal of being the winner, but can also make players that perceive that they have no chance of winning decide that the best thing they can do is <style=\"CurrentLink\">Surrendering</style> and start doing something else.",
+            "<style=\"H3\">Examples</style>",
+            "Two-players competitive <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> with perfect information, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>, have well-established traditions that <style=\"CurrentLink\">Surrendering</style> is socially accepted and a way of indicating that one perceives the other player to have bested oneself.",
+            "The act of folding in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style> can be seen as a form of <style=\"CurrentLink\">Surrendering</style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Online%20Games\">Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients%20series\">DoTA series</link></style> have problems in different degrees of players leaving a game when they perceive that they cannot win but long before the gameplay is intended to end. This is called \"ragequitting\" when this is done due to frustration with how team mates behave.",
+            "<style=\"H2\">Using the pattern</style>",
+            "While <style=\"CurrentLink\">Surrendering</style> may be seen as a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Negative%20Patterns\">Negative Pattern</link></style>, it is that only way to end participation in <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>. The possibility of perceiving a <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style> which is not oneself can trigger a wish for <style=\"CurrentLink\">Surrendering</style> but a more specific form of <style=\"CurrentLink\">Surrendering</style>, <style=\"Link\"><link=\"ragequitting\">Ragequitting</link></style>, can occur when actions from a player or from that player's <style=\"Link\"><link=\"teams\">Team</link></style> members causes the player to become so frustrated that the quit in anger. Of course, whole <style=\"Link\"><link=\"teams\">Teams</link></style> can decide to surrender to another team.",
+            "If <style=\"CurrentLink\">Surrendering</style> is a wanted behavior of players or one as a design wants to mitigate the effects of it on other players, implementing a <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style> can make gameplay possible for other players after the surrender with little or no negative effects; this of course in one sense also encourages <style=\"CurrentLink\">Surrendering</style>. ",
+            "The likelihood of players <style=\"CurrentLink\">Surrendering</style> can be lessened by making it more difficult to judge who is the winner and thereby mask for players in the worst positions that they are likely to lose. Both <style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style> and <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style> can be used for this. In contrast, <style=\"Link\"><link=\"bluffing\">Bluffing</link></style> can increase the chances of players <style=\"CurrentLink\">Surrendering</style> if other players skillfully bluff that they seem to be in a better situation than they actually are (an important part of games like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style>).",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Surrendering</style> causes <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style> and <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style> through self-inflicted <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>. It also creates <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style> when it occurs if gameplay still can continue. It can be seen as a modulation of <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> since it provides an alternative way for players to be eliminated, but since this exists for free in all games and <style=\"CurrentLink\">Surrendering</style> is rarely a positive experience there is seldom design rationales to encourage <style=\"CurrentLink\">Surrendering</style> in relation to <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>.",
+            "In conjunction with <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> it formally supports <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> but only as long as the design of <style=\"CurrentLink\">Surrendering</style> actions does not ruin other players' gameplay.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style>, <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style></style>",
+            "<style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style>, <style=\"Link\"><link=\"ragequitting\">Ragequitting</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"bluffing\">Bluffing</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style>, <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "early-elimination",
+            "early-leaving-players",
+            "player-elimination",
+            "unsynchronized-game-sessions",
+            "drop-in-drop-out"
+        ],
+        "modulates" : [
+            "last-man-standing",
+            "teams"
+        ],
+        "instantiated_by" : [
+            "predictable-winner",
+            "possibility-graceful-surrender",
+            "ragequitting",
+            "unwinnable-games"
+        ],
+        "modulated_by" : [
+            "bluffing"
+        ],
+        "conflicts" : [
+            "end-state-scoring",
+            "secret-goals"
+        ]
+    }
+}

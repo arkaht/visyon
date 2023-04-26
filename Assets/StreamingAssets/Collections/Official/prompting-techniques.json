@@ -1,0 +1,63 @@
+{
+    "name" : "Prompting Techniques",
+    "categories" : [
+        "Patterns",
+        "Narration Patterns",
+        "Interface Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Prompts players can use while roleplaying to communicate intentions about changing scenes without breaking the diegesis.",
+        "markups" : [
+            "<style=\"Definition\">Prompts players can use while roleplaying to communicate intentions about changing scenes without breaking the diegesis.</style>",
+            "In Live Action Roleplaying, gameplay is quite often divided into scenes. However, the time to change from one scene to another may not be obvious to all involved, especially if this is something players have influence over, and the players do in these cases need to communicate about this. <style=\"CurrentLink\">Prompting Techniques</style> are ways players can make other players aware of their preferences without having to break scenes or say things that are out of place for a game's diegesis.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Prompting Techniques</style> have been developed for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style>. <i>Feather Play</i> allows players to indicate in a discrete way to other players that one wishes to initiate a sexual encounter . <i>The Liquor on the Table</i> is allows players in a bar environment to show the other players that they should strive to set in motion the events they had planned for the scene.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Prompting Techniques</style> can be introduced both as ways to communicate that specific types of <style=\"Link\"><link=\"scenes\">Scenes</link></style> should start and as ways to communicate that ongoing <style=\"Link\"><link=\"scenes\">Scenes</link></style> should end. While the pattern can work for any type of <style=\"Link\"><link=\"enactment\">Enactment</link></style> it seems to be used more to modulate <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>, quite likely because it can allow <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style> to continue without any non-diegetic interruptions. ",
+            "The primary concern when designing them is to find prompts that are easily noticed but maintain <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> or at least do not disrupt other activities (the ''feather play'' technique mentioned above is an example of the latter). This often means that it makes sense to have different <style=\"CurrentLink\">Prompting Techniques</style> for different types of <style=\"Link\"><link=\"scenes\">Scenes</link></style>. ",
+            "<style=\"CurrentLink\">Prompting Techniques</style> are typically invitations or suggestions to change <style=\"Link\"><link=\"scenes\">Scenes</link></style> but may be demands when they come from <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> instead of players.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "As mentioned above, <style=\"CurrentLink\">Prompting Techniques</style> is a way to avoid <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style> and thereby support <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "As a way of letting players signal to each other how gameplay should be shaped, <style=\"CurrentLink\">Prompting Techniques</style> can be seen as an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Prompting Techniques</style> are one specific type of <style=\"Link\"><link=\"meta-techniques\">Meta-Techniques</link></style> that can support players' <style=\"Link\"><link=\"enactment\">Enactment</link></style> or <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>. It does this through removing some reasons for introducing <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style>, and thereby help players maintain <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> during their <style=\"Link\"><link=\"enactment\">Enactment</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"meta-techniques\">Meta-Techniques</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>, <style=\"Link\"><link=\"scenes\">Scenes</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "diegetic-consistency",
+            "meta-techniques"
+        ],
+        "modulates" : [
+            "enactment",
+            "physical-enactment",
+            "scenes"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "non-diegetic-communication"
+        ]
+    }
+}

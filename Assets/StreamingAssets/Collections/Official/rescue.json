@@ -1,0 +1,78 @@
+{
+    "name" : "Rescue",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Goal Patterns"
+    ],
+    "texts" : {
+        "definition" : "The goal of freeing someone or something that is guarded or otherwise not free to move by its own will.",
+        "markups" : [
+            "<style=\"Definition\">The goal of freeing someone or something that is guarded or otherwise not free to move by its own will.</style>",
+            "A common plot in games is that an opponent has captured or imprisoned a character that players' characters know or they care about. This gives players <style=\"CurrentLink\">Rescue</style> goals, which may consist of finding the location of the kidnapped character as well as overcoming or avoiding the obstacles and enemies on the way there. Games using <style=\"CurrentLink\">Rescue</style> as the main goal often have the opponent as the final enemy that has to be defeated before completing the goal.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Kong\">Donkey Kong</link></style> and the games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style> have goals for Mario to <style=\"CurrentLink\">Rescue</style> a kidnapped girl, princess peach in the case of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style>.",
+            "Some missions in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> are <style=\"CurrentLink\">Rescue</style> missions for the counter-terrorist teams (the terrorists need to guard them for a certain amount of time).",
+            "Characters killed in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> respawn, but can only actually re-enter the game if other players rescue them from the closets and other small areas in which they appear. Active characters can also need rescuing - those that have fallen of ledges or pounced on by \"hunters\" cannot get out of their trouble on their own.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are two main ways of creating <style=\"CurrentLink\">Rescue</style> goals. First, something in a game may be suffering from <style=\"Link\"><link=\"helplessness\">Helplessness</link></style>. Second, they can be designed by creating explicit goals in which <style=\"Link\"><link=\"guard\">Guard</link></style> goals are assigned to <style=\"Link\"><link=\"agents\">Agents</link></style> (which may be players) and then giving others the goals and means of freeing that which is guarded. Typical, what needs rescuing is a <style=\"Link\"><link=\"non-player-characters\">Non-Player Character</link></style> which may or may not be an <style=\"Link\"><link=\"agents\">Agent</link></style>, but in some cases players' <style=\"Link\"><link=\"characters\">Characters</link></style> or <style=\"Link\"><link=\"avatars\">Avatars</link></style> can work even though this may give these players <style=\"Link\"><link=\"downtime\">Downtime</link></style>; when the gameplay involving the <style=\"CurrentLink\">Rescue</style> is frantic in some aspect, this may lead to <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> with the pattern having the <style=\"Link\"><link=\"mutual-fubar-enjoyment\">Mutual FUBAR Enjoyment</link></style> pattern.",
+            "The means of fulfilling <style=\"CurrentLink\">Rescue</style> goals are typically being able to engage successfully in <style=\"Link\"><link=\"combat\">Combat</link></style> with the guards or being able to avoid this by succeeding with <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals. <style=\"CurrentLink\">Rescue</style> goals can also be implicit, here the <style=\"Link\"><link=\"guard\">Guard</link></style> goals (and the guards) only need to be diegetically hinted at, and the pattern itself takes on aspects of narration and theme rather than gameplay.",
+            "Several patterns can be used to make <style=\"CurrentLink\">Rescue</style> goals more challenging or complex. <style=\"Link\"><link=\"alarms\">Alarms</link></style> and <style=\"Link\"><link=\"traps\">Traps</link></style> can make the process generally longer or more difficult, while <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style> can be suitable if the <style=\"CurrentLink\">Rescue</style> goals should be finales of games or <style=\"Link\"><link=\"levels\">Levels</link></style>. <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals can be required to localize those that need rescuing and be part of the rewards for completing the <style=\"CurrentLink\">Rescue</style>. <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals can also be coupled to <style=\"CurrentLink\">Rescue</style> goals as <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style> related the locations of <style=\"Link\"><link=\"alarms\">Alarms</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, and <style=\"Link\"><link=\"traps\">Traps</link></style> that could make the <style=\"CurrentLink\">Rescue</style> more difficult. Further challenges can be added by ensuring that <style=\"CurrentLink\">Rescue</style> attempts are noticed as some point, e.g. when they have succeeded by those involved have not yet reached safe areas; this since they can open up for <style=\"Link\"><link=\"capture\">Capture</link></style> goals of those that had the original <style=\"Link\"><link=\"guard\">Guard</link></style> goals and their allies.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Rescue</style> goals are often used as part of <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> in a game, and they make easy starting points for creating <style=\"Link\"><link=\"quests\">Quests</link></style>. When doing so, they also support <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>. While <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> can be built from the pattern, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> can also provide information and motivation for the pattern.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Rescue</style> goals are <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> since they are defined by <style=\"Link\"><link=\"overcome\">Overcome</link></style> goals to agents with <style=\"Link\"><link=\"guard\">Guard</link></style> goals, making <style=\"CurrentLink\">Rescue</style> and <style=\"Link\"><link=\"guard\">Guard</link></style> into <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>. The exception to this is when the people guarding are only implied through narration and cannot actually try to hinder players during gameplay. Although the goal object of <style=\"CurrentLink\">Rescue</style> goals may be <style=\"Link\"><link=\"characters\">Characters</link></style> or <style=\"Link\"><link=\"units\">Units</link></style>, possibly controlled by other players, the structure of <style=\"CurrentLink\">Rescue</style> goals can in many cases be seen as struggles over <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> (e.g., the missions in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> with hostages). ",
+            "The use of <style=\"CurrentLink\">Rescue</style> goals on players so that they become the ones that need to be rescued requires applying the <style=\"Link\"><link=\"helplessness\">Helplessness</link></style> pattern on them.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style> and <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"mutual-fubar-enjoyment\">Mutual FUBAR Enjoyment</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"guard\">Guard</link></style></style>",
+            "<style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"helplessness\">Helplessness</link></style>",
+            "<style=\"Link\"><link=\"guard\">Guard</link></style> together with <style=\"Link\"><link=\"combat\">Combat</link></style> or <style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"alarms\">Alarms</link></style>, <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>, <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "downtime",
+            "narration-structures",
+            "overcome",
+            "predetermined-story-structures",
+            "preventing-goals",
+            "quests",
+            "mutual-fubar-enjoyment",
+            "excluding-goals"
+        ],
+        "modulates" : [
+            "ownership"
+        ],
+        "instantiated_by" : [
+            "gain-information",
+            "helplessness",
+            "guard"
+        ],
+        "modulated_by" : [
+            "alarms",
+            "boss-monsters",
+            "capture",
+            "gain-information",
+            "narration-structures",
+            "non-player-characters",
+            "traps"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

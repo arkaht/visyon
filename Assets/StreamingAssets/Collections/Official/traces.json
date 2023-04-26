@@ -1,0 +1,99 @@
+{
+    "name" : "Traces",
+    "categories" : [
+        "Patterns",
+        "Narration Patterns",
+        "Needs revision",
+        "Needs references",
+        "Level Design Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game elements, or distinct parts of game worlds, that guide players to locations in the environment that influence gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Game elements, or distinct parts of game worlds, that guide players to locations in the environment that influence gameplay.</style>",
+            "Players may have difficulties realizing where interesting gameplay possibilities exist in games. When game designers wish to make it easier, but not completely obvious, to locate these they can make use of <style=\"CurrentLink\">Traces</style>. These may be purely visual changes in the game environment, the presence or absence of game items, or blatantly non-diegetic objects, but these all indicate to players that certain locations may be more interesting to explore than others.",
+            "<style=\"H3\">Examples</style>",
+            "A literal use of <style=\"CurrentLink\">Traces</style> are found in many first-person shooters, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Duke%20Nukem%203D\">Duke Nukem 3D</link></style>, by avatars leaving footprints after going through water, blood, etc. This can be used by players (and sometimes the AI) to track each other. See the page for footprints on Giant Bomb for more examples<ref name=\"Giant Bomb\"/>. While many of these games let bodies disappear after a while as a form of temporary <style=\"CurrentLink\">Traces</style>, stealth-based ones such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Metal%20Gear%20series\">Metal Gear series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thief%20series\">Thief series</link></style> force players to hide neutralized enemies to avoid them being detected by guards.",
+            "Both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%202\">Half-Life 2</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> provide <style=\"CurrentLink\">Traces</style> in their games that show what people of those worlds previously have done in their struggles, and players can make use of these to find locations where they can replenish their supplies.",
+            "Where to go next in race events in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style> are shown through non-diegetic pillars of light that can be seen from far away.",
+            "The difficulties of navigating the mazes in certain text-based games, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20series\">Zork series</link></style>, required players to create their own <style=\"CurrentLink\">Traces</style> in the form of breadcrumb trails consisting of dropped game items.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Traces</style> are commonly used to indicate the presence and location of <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, and <style=\"Link\"><link=\"traps\">Traps</link></style>. While <style=\"CurrentLink\">Traces</style> in these cases lead players to specific points in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style>, they can also support the <style=\"Link\"><link=\"movement\">Movement</link></style> required for accomplishing <style=\"Link\"><link=\"traverse\">Traverse</link></style> and <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> goals; for <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> goals, the detection of <style=\"CurrentLink\">Traces</style> can instead be either supporting <style=\"Link\"><link=\"clues\">Clues</link></style> or the primary subgoal.",
+            "The functional nature of <style=\"CurrentLink\">Traces</style> in games can be separated into two general classes: those that cannot be manipulated by the players and those that can. The first class provides players with information about what previous actions have happened before and during the gameplay. Those generated before the gameplay typically provide <style=\"Link\"><link=\"clues\">Clues</link></style> or help unfold <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> by being part of <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>, while those generated during the gameplay can be <style=\"CurrentLink\">Traces</style> of other players and often disappear after a certain <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>.",
+            "<style=\"CurrentLink\">Traces</style> which consist of game elements that can be manipulated by the players create additional tactics in games. Players may be able to move the elements to set-up false <style=\"CurrentLink\">Traces</style>, i.e. <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style> that may led to <style=\"Link\"><link=\"traps\">Traps</link></style> (rather than warning players of them), or make <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between whether to spend time hiding their own <style=\"CurrentLink\">Traces</style> or performing other actions instead -hiding unconscious guards in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thief%20series\">Thief series</link></style> is an example of this.",
+            "There are many ways to create <style=\"CurrentLink\">Traces</style>, the most basic being the placement of <style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, and <style=\"Link\"><link=\"props\">Props</link></style>. <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> can be used to make these easier to notice or instantiate the pattern directly by change the visual presentation of the actual <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style>. <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style> are more complex solutions typically making use of several other \"smaller\" patterns but at the same time allows the <style=\"CurrentLink\">Traces</style> to be part of <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>. Depending on their status, <style=\"Link\"><link=\"switches\">Switches</link></style> can be <style=\"CurrentLink\">Traces</style> if players have the knowledge of what state they should be in. <style=\"CurrentLink\">Traces</style> can also occur through the lack of game elements, e. g. <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style> or <style=\"Link\"><link=\"enemies\">Enemies</link></style>. In these cases the configuration of game elements can be seen as negative <style=\"CurrentLink\">Traces</style>, i.e. the <style=\"CurrentLink\">Traces</style> are detected because something is lacking or has been changed due to the actions of the players or game events.",
+            "While game designers can add <style=\"CurrentLink\">Traces</style> to games that exist at the start of game instances, they may also be designed to occur as consequences of action and events; the footprints left after entering water in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Duke%20Nukem%203D\">Duke Nukem 3D</link></style> is a specific example of this while leaving <style=\"CurrentLink\">Traces</style> from <style=\"Link\"><link=\"damage\">Damage</link></style> can be found in various forms in many games.  However, players may create <style=\"CurrentLink\">Traces</style> themselves if they can drop <style=\"Link\"><link=\"game-items\">Game Items</link></style>, which can be used to support <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, and unless <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style> are instantly respawn the absence of them from locations in games can be <style=\"CurrentLink\">Traces</style> also.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Traces</style> can often be constructed to maintain games' <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> through using <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>, <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>, and <style=\"Link\"><link=\"props\">Props</link></style> so that they are presented as effects of previous events. <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> and <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style> can be used when these are not sufficiently obvious, but can break the consistency if overused or if the theme is not followed. <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> are guaranteed to break <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> but can make the <style=\"CurrentLink\">Traces</style> very obvious. <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> can be used for greater control of how the <style=\"CurrentLink\">Traces</style> are to be presented.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Even if the <style=\"CurrentLink\">Traces</style> pattern relates primarily to how players can be informed about previous and potentially future gameplay events, it can also support <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>. This is more or less a given when they are created as part of <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>.",
+            "<style=\"CurrentLink\">Traces</style> may be especially appropriate for those <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> using a <style=\"Link\"><link=\"detective-structures\">Detective Structure</link></style> since these rely on players slowly being told the story from one perspective.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Traces</style> are either built from <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> or become this through how they attract attention, or both. By directing players towards points of interest in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style> where danger or <style=\"Link\"><link=\"rewards\">Rewards</link></style> can be found there, <style=\"CurrentLink\">Traces</style> provides <style=\"Link\"><link=\"clues\">Clues</link></style> that can give rise to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style> in games but can also help in <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> activities. However, not all <style=\"CurrentLink\">Traces</style> lead to what they seem, some are instead <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>. Being able to both give players information and misinformation about future gameplay, <style=\"CurrentLink\">Traces</style> are able to modulate the difficulty in games to have the right level of <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>.",
+            "<style=\"CurrentLink\">Traces</style> modulates <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> and <style=\"Link\"><link=\"movement\">Movement</link></style> since they affect where players want to move, especially when they are used to indicate the route for <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals or give <style=\"Link\"><link=\"clues\">Clues</link></style> for <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> goals. When the <style=\"CurrentLink\">Traces</style> are created during gameplay as effects of actions and events, <style=\"CurrentLink\">Traces</style> can support players in their <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>. If they can be modified by players the <style=\"CurrentLink\">Traces</style> can require <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between removing these and doing other actions and can let players lead other players into <style=\"Link\"><link=\"traps\">Traps</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"props\">Props</link></style>, <style=\"Link\"><link=\"switches\">Switches</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "clues",
+            "diegetically-outstanding-features",
+            "predetermined-story-structures",
+            "reconnaissance",
+            "red-herrings",
+            "tactical-planning",
+            "tension",
+            "thematic-consistency",
+            "trade-offs"
+        ],
+        "modulates" : [
+            "challenging-gameplay",
+            "detective-structures",
+            "damage",
+            "enemies",
+            "game-boards",
+            "game-world-exploration",
+            "game-world-navigation",
+            "game-worlds",
+            "levels",
+            "movement",
+            "puzzle-solving",
+            "reconnaissance",
+            "resource-locations",
+            "traps",
+            "traverse"
+        ],
+        "instantiated_by" : [
+            "check-points",
+            "diegetically-outstanding-features",
+            "enemies",
+            "environmental-storytelling",
+            "game-items",
+            "geospatial-game-widgets",
+            "landmarks",
+            "pick-ups",
+            "props",
+            "switches"
+        ],
+        "modulated_by" : [
+            "cutscenes",
+            "thematic-consistency",
+            "time-limits"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

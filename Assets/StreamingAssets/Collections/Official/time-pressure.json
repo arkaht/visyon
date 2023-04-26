@@ -1,0 +1,65 @@
+{
+    "name" : "Time Pressure",
+    "categories" : [
+        "Aesthetic Patterns",
+        "Patterns",
+        "Needs references",
+        "Needs work",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "That gameplay imposes a sense of need for complete actions or goals quickly.",
+        "markups" : [
+            "<style=\"Definition\">That gameplay imposes a sense of need for complete actions or goals quickly.</style>",
+            "Whenever players need to complete an activity and perceive that they have limited time they may feel <style=\"CurrentLink\">Time Pressure</style>. The time available may be presented to players very concrete, e.g. explicitly pointed out to players as time left to complete something, but may also not be presented at all (as long as players are made aware of the pressure at some point). However, the amount of time available can be undecided while still creating stress for the players, e.g. when they are pitched against each other to complete a race or puzzle as quickly as possible. ",
+            "<style=\"H3\">Examples</style>",
+            "Many racing games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Out%20Run\">Out Run</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sega%20Rally\">Sega Rally</link></style>, give players a limited amount of time to reach a check point, and thereby put them under stress. Successfully getting there before the time has run out replenishes the time left but typically so that one is under even more <style=\"CurrentLink\">Time Pressure</style> to reach the next check point.",
+            "The survival mode in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> make people strive for as long as possible to avoid getting overwhelmed by zombies. By having three different levels of success players have a time-related pressure that consist not of finishing something as quickly as possible but avoiding failure for as long as possible.",
+            "Turn-based games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> often have implicit <style=\"CurrentLink\">Time Pressure</style> as other players have to wait while one player is playing. This <style=\"CurrentLink\">Time Pressure</style> is typically formalized in tournament forms of the game to make it easier to synchronize the different games.",
+            "Each turn in the board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ricochet%20Robots\">Ricochet Robots</link></style> put players in the situation where they not only have to solve a puzzle but also do so quicker than the other players. This stresses players to quickly find a solution while making it uncertain how long time they have until they need to find a more efficient solution than is currently sufficient.",
+            "The casual game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Staries\">Staries</link></style> penalizes players that take too long time to make a move by locking stars on the game board. There is however done with no forewarning after a move has been done so players are implicitly stressed to make moves as quickly as possible.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"Link\"><link=\"time-limits\">Time Limits</link></style> as used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Out%20Run\">Out Run</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sega%20Rally\">Sega Rally</link></style> can naturally cause <style=\"CurrentLink\">Time Pressure</style> but only if they are part of <style=\"Link\"><link=\"committed-goals\">Committed Goals</link></style>. These can then easily be communicated to players through <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> and <style=\"Link\"><link=\"alarms\">Alarms</link></style>, which may or may not clearly express needs to be done hastily or what the consequences of failing will be. While <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> give external reasons for <style=\"CurrentLink\">Time Pressure</style>, <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style> or any type of <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style> (that is, continuous goals can be used even if they are not <style=\"Link\"><link=\"committed-goals\">Committed Goals</link></style>) can be used to created internal reasons. <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> provide a harsher alternative to <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> since the amount of gameplay time available are non-negotiable for these.",
+            "An alternative to have time run out is to create <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style> to need to be maintain for a certain amount of time, where the <style=\"Link\"><link=\"survive\">Survive</link></style> goal is a clear example of this.",
+            "Besides deciding the reasons for the <style=\"CurrentLink\">Time Pressure</style> the amount of time available needs to be decided. This needs to be balanced against the intentions of <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> since for example a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Time%20Limit\">Time Limit</link></style> that may stress a novice player may not imply any pressure on an expert player. Note that <style=\"CurrentLink\">Time Pressure</style> does not need to be limited to <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> or <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>; the turns in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> can provide a measure of time as well. ",
+            "<style=\"CurrentLink\">Time Pressure</style> can also be created by setting up players to compete with each other in being the first to achieve a certain objective in the game (i.e. they have the same <style=\"Link\"><link=\"symmetric-goals\">Symmetric</link></style> and <style=\"Link\"><link=\"interferable-goals\">Interferable</link></style> goal as for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ricochet%20Robots\">Ricochet Robots</link></style>). Games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Racing\">Racing</link></style> instantiate this pattern, and a <style=\"Link\"><link=\"meta-games\">Meta Game</link></style> version of this is <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>. The latter makes use of storing the <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style> of how long time it takes to perform various goals as <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style> and thereby lets players try to beat previous times.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Time Pressure</style> can be either implicitly or explicitly imposed on players. Having <style=\"Link\"><link=\"goal-indicators\">Goal Indicators</link></style> and <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> while it is possible to succeed gives explicit <style=\"CurrentLink\">Time Pressure</style> while showing these after a failure can provide <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Being stressed about completing activity within limited time gives <style=\"Link\"><link=\"tension\">Tension</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> of a potential failure, both which can give rise to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>. Putting players under <style=\"CurrentLink\">Time Pressure</style> give them <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Ability\">Limited Planning Ability</link></style> which likely avoids <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, but may also be the cause of it. Since it limits players' possibility to decide for themselves when to do actions, the patterns works against <style=\"Link\"><link=\"pottering\">Pottering</link></style>.",
+            "<style=\"Link\"><link=\"tension\">Tension</link></style> for reaching goals can be modulates by <style=\"CurrentLink\">Time Pressure</style> if players are given clear indications of the goals with <style=\"Link\"><link=\"goal-indicators\">Goal Indicators</link></style> and <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> show the time left (i.e. the <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>), or at least <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> of how much the players have achieved so far.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>",
+            "<style=\"H3\">Can be Instantiated By</style>",
+            "<style=\"Link\"><link=\"alarms\">Alarms</link></style>, <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Racing\">Racing</link></style>, <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style>",
+            "<style=\"H3\">Can Modulated By</style>",
+            "<style=\"Link\"><link=\"goal-indicators\">Goal Indicators</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, ",
+            "<style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"pottering\">Pottering</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "analysis-paralysis",
+            "emotional-engrossment",
+            "tension"
+        ],
+        "modulates" : [
+            "complex-gameplay"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "analysis-paralysis",
+            "pottering"
+        ]
+    }
+}

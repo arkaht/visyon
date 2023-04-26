@@ -1,0 +1,70 @@
+{
+    "name" : "Mimetic Interfaces",
+    "categories" : [
+        "Interface Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where sensors measures how well a player performs actions in the game.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where sensors measures how well a player performs actions in the game.</style>",
+            "The ability of computer systems to use sensors to measure physical actions that players are performing can be used as input to games. Games that do this have <style=\"CurrentLink\">Mimetic Interfaces</style>. ",
+            "<style=\"CurrentLink\">Mimetic Interfaces</style> are discussed in greater detail in the book <i>A Casual Revolution</i>.",
+            "<style=\"H3\">Examples</style>",
+            "Already the Magnavox Odyssey, first game console, provided a <style=\"CurrentLink\">Mimetic Interface</style> through the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shooting%20Gallery\">Shooting Gallery</link></style> which allows players to aim a gun replica at bright areas on the display. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Wii%20Sports\">Wii Sports</link></style> is a game where the <style=\"CurrentLink\">Mimetic Interface</style> allows players to approximate playing various sports while the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Just%20Dance%20series\">Just Dance series</link></style> allow players to try and dance according to certain goals. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Konga\">Donkey Konga</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guitar%20Hero%20series\">Guitar Hero series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rock%20Band%20series\">Rock Band series</link></style> in contrast use various peripherals to let players \"play\" music by hitting the right buttons or areas of the peripherals. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/SingStar%20series\">SingStar series</link></style> uses input from a microphone to judge how well players can match the tones that they should sing.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Mimetic Interfaces</style> are created by requires players to do <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> of actions while having <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>. Since the actions need to be physical in some way, <style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style> is a common solution (as seen in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Konga\">Donkey Konga</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guitar%20Hero%20series\">Guitar Hero series</link></style> being based on playing musical instruments and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Just%20Dance%20series\">Just Dance series</link></style> requiring players to dance). <style=\"CurrentLink\">Mimetic Interfaces</style> are easily based on <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style> since presenting rhythms and check that these are being followed is easy to measure. Other types of action can also be the basis for <style=\"CurrentLink\">Mimetic Interfaces</style> but complex activities or those requiring high levels of granularity can be technically challenging to detect. For this reason, many games using <style=\"CurrentLink\">Mimetic Interfaces</style> have rather limited gameplay actions and the pattern may be good to use for <style=\"Link\"><link=\"minigames\">Minigames</link></style> since these can provide variety in theme if nothing else. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> can rather easily be created for games with <style=\"CurrentLink\">Mimetic Interfaces</style> by starting with easy actions and then making them more challenging. This can further be done through having high levels of tolerance for what is acceptable performances in early part of the game and then demanding more \"correct\" actions later on. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Mimetic Interfaces</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Mimetic Interfaces</style> require the <style=\"Link\"><link=\"enactment\">Enactment</link></style> of actions by players, and may depend on <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style> if these actions closely relate to skill sets in the real world. Since the action to be performed are typically based on those some type of role (e.g. athlete, musician, etc.), <style=\"CurrentLink\">Mimetic Interfaces</style> open up for <style=\"Link\"><link=\"role-fulfillment\">Role Fulfillment</link></style> goals. However, since they tend to attract attention, they are often <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competing%20for%20Attention\">Competing for Attention</link></style> and work against a game having <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>.",
+            "<style=\"CurrentLink\">Mimetic Interfaces</style> can provide players with <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> in several ways: they can be playing the actual music the players can trick themselves into feeling that they are playing, they can be tolerant in how they judge, and by letting players continue to perform they can make players believe that they are performing well regardless of how well they are doing the actual actions. Juul discusses part of these effects through the concept of the <i>Magic Crayon\" in his book \"A Casual Revolution</i>.",
+            "<style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style> and <style=\"CurrentLink\">Mimetic Interfaces</style> deal with similar aspects of gameplay but are not compatible since the former uses non-game actions and activities as input to a game while the latter has activities within the game that are similar to non-game activities. ",
+            "Since <style=\"Link\"><link=\"ai-players\">AI Players</link></style> typically work within the software part of a game, such players are difficult to use with <style=\"CurrentLink\">Mimetic Interfaces</style> (<style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style> can be used with <style=\"Link\"><link=\"ai-players\">AI Players</link></style> to overcome this issue). ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competing%20for%20Attention\">Competing for Attention</link></style>, <style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, <style=\"Link\"><link=\"role-fulfillment\">Role Fulfillment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"minigames\">Minigames</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style>",
+            "<style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> together with <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>, <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "competing-attention",
+            "enactment",
+            "exaggerated-perception-influence",
+            "player-physical-prowess",
+            "role-fulfillment",
+            "smooth-learning-curves"
+        ],
+        "modulates" : [
+            "minigames",
+            "rhythm-based-actions"
+        ],
+        "instantiated_by" : [
+            "dexterity-based-actions",
+            "physical-enactment"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "ai-players",
+            "real-life-activities-affect-game-state",
+            "minimalized-social-weight"
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "name" : "Entrenching Gameplay",
+    "categories" : [
+        "Gameplay Arc Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Games where the perceivable game state becomes less and less mutable as gameplay continues.",
+        "markups" : [
+            "<style=\"Definition\">Games where the perceivable game state becomes less and less mutable as gameplay continues.</style>",
+            "In some games, effects of the actions players do cannot be undone. When these effects combine, they can limit the possible future gameplay actions and steer the gameplay towards focusing on dealing with the local situations that have arisen. This leads to a form of <style=\"CurrentLink\">Entrenching Gameplay</style> where while the initial gameplay may be seen as quite open or unpredictable, the later gameplay focuses on a few specific parts of the game state.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> is an archetypical example of a game that becomes more entrenched as gameplay continues. This since each player action is placing a stone on a board with a limited size, and even if stones are sometimes removed, the space freed up is limited in how much gameplay options are available. The puzzle game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style> consists of pushing single boxes and trying to cover all target areas with boxes. Since boxes can become stuck - and usually are - through being pushed into corners or into clusters of other boxes, most played levels exhibit <style=\"CurrentLink\">Entrenching Gameplay</style>. ",
+            "The tiles placed while playing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carcassonne\">Carcassonne</link></style> cannot be moved. While many tiles can be placed next to existing tiles in the early game, the combination of tiles neighboring the same empty spaces reduces the number of tiles that possibly could be placed there. The placement of roads and settlements in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style> locks the options for other players. This makes game instances of the game exhibit first initial expansions, then races, and finally a focus on developing settlements and acquiring score cards.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "The gameplay of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Munchkin\">Munchkin</link></style> often includes quick shifts in who is the leader and generally the possibilities of the players. This runs counter to the core of <style=\"CurrentLink\">Entrenching Gameplay</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main component in constructing <style=\"CurrentLink\">Entrenching Gameplay</style> is the use of <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> (and by implication avoiding <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style>). This does not in itself cause gameplay to focus on specific parts of the game state, but this is typically achieved when the events can cause emergent effects (i.e. when the game has <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emergent%20Gameplay\">Emergent Gameplay</link></style> concerning the events). <style=\"Link\"><link=\"complete-resource-depletion\">Complete Resource Depletion</link></style> can also be used to create <style=\"CurrentLink\">Entrenching Gameplay</style> when the <style=\"Link\"><link=\"resources\">Resources</link></style> no longer available are what allows actions that can radically shift game states.",
+            "<style=\"CurrentLink\">Entrenching Gameplay</style> is often used to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predictable%20Gameplay%20Time\">Predictable Gameplay Time</link></style>; if this is the reason for using the pattern then an alternative is using <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style> instead.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Since <style=\"CurrentLink\">Entrenching Gameplay</style> describes the general structure that gameplay will take during a game instance, this provides a basis for having a <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structure</link></style> in the game. If having this is part of the design goals of a game it however probably also needs <style=\"Link\"><link=\"characters\">Characters</link></style> or <style=\"Link\"><link=\"factions\">Factions</link></style> so players have something that they can see as having goals or intentions.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Entrenching Gameplay</style> often makes games exhibit <style=\"Link\"><link=\"middlegame\">Middlegame</link></style> and <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases, the former typically due to competition over <style=\"Link\"><link=\"expansion\">Expansion</link></style> and the latter due to defensive stances in <style=\"Link\"><link=\"combat\">Combat</link></style>; <style=\"CurrentLink\">Entrenching Gameplay</style> may occur in <style=\"Link\"><link=\"startgame\">Startgame</link></style> phases but not if <style=\"Link\"><link=\"randomness\">Randomness</link></style> plays a large role in the beginning of the game (as in e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carcassonne\">Carcassonne</link></style>). Since <style=\"CurrentLink\">Entrenching Gameplay</style> is defined by the game state changing less and less it typically does not provide <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> (it is unlikely that players are offered more types of actions when the game state can be changed less and less). ",
+            "As mentioned above, <style=\"CurrentLink\">Entrenching Gameplay</style> provides a <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structure</link></style> to games. This behavior of the game system makes <style=\"CurrentLink\">Entrenching Gameplay</style> a way of achieving <style=\"Link\"><link=\"critical-gameplay-design\">Critical Gameplay Design</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"critical-gameplay-design\">Critical Gameplay Design</link></style>, <style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"expansion\">Expansion</link></style>, <style=\"Link\"><link=\"middlegame\">Middlegame</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predictable%20Gameplay%20Time\">Predictable Gameplay Time</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"complete-resource-depletion\">Complete Resource Depletion</link></style>",
+            "<style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emergent%20Gameplay\">Emergent Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "critical-gameplay-design",
+            "endgame",
+            "expansion",
+            "middlegame",
+            "predetermined-story-structures",
+            "predictable-gameplay-time"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "complete-resource-depletion",
+            "irreversible-events"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "reversibility",
+            "varied-gameplay"
+        ]
+    }
+}

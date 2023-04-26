@@ -1,0 +1,80 @@
+{
+    "name" : "Vision Modes",
+    "categories" : [
+        "Patterns",
+        "Information Patterns",
+        "Interface Patterns",
+        "Needs revision",
+        "Platform Patterns",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Different ways of presenting the same views in a game world.",
+        "markups" : [
+            "<style=\"Definition\">Different ways of presenting the same views in a game world.</style>",
+            "Many games with game worlds let players view these in different ways. While the most common way is to let players move their viewpoint, allowing them to change <style=\"CurrentLink\">Vision Modes</style> lets the see different type of information from exactly the same perspective. Diegetically this can be exampled as night vision, infrared vision, and other types of vision that are either inherent abilities or ones acquired through using specialized tools.",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alien%20vs%20Predator%20series\">Alien vs Predator series</link></style> of first-person shooters provided those that played members of the predator race with the possibility of viewing the game worlds in several different ways, e.g. through thermal or electro-magnetic field detection. Proper use of these can give distinct advantages while misuse can effectively render the players blind. Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Batman:%20Arkham%20Asylum\">Batman: Arkham Asylum</link></style> can activate a ''detective mode'' to have certain game elements highlighted. Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%202\">Assassin's Creed 2</link></style> can similarly use an ''eagle vision'' to point out dangers, hidden treasures, and secret markings on buildings.",
+            "Some games supply <style=\"CurrentLink\">Vision Modes</style> through equipment characters can carry. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Call%20of%20Duty%20series\">Call of Duty series</link></style> does this through weapons with scopes and thermal sights, while the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> has ''night vision'' spells. Fantasy <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> provide certain races with infravision or ultravision. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> does this in most of its fantasy setting while the modern or futuristic ones have equipment to provide <style=\"CurrentLink\">Vision Modes</style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout 4</link></style> lets players that choose the ''Scrapper'' perk see outlines around containers that contain items they have indicated that they want to collect.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Introducing <style=\"CurrentLink\">Vision Modes</style> to a game design consist of deciding how <style=\"Link\"><link=\"game-worlds\">Game World</link></style> presentations should differ due to them and how they should be made available to players. For added complexity, several different <style=\"CurrentLink\">Vision Modes</style> can be available. The presentations themselves are typically achieved through having <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> since this makes it easy to control how information is presented to players.",
+            "While the actual presentation typically depends on maintaining a <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, the actual gameplay difference is either to make game entities in <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> or to reveal <style=\"Link\"><link=\"clues\">Clues</link></style> or ways to <style=\"Link\"><link=\"secret-areas\">Secret Areas</link></style>. <style=\"CurrentLink\">Vision Modes</style> are typically given as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style> or through <style=\"Link\"><link=\"tools\">Tools</link></style>, and for games with multiple <style=\"CurrentLink\">Vision Modes</style> all or just some can be included in for each particular enabler.",
+            "While <style=\"CurrentLink\">Vision Modes</style> can modulate <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> by simply making some game entities visible, it can also be used to let <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> penetrate through game entities that normally is not transparent. ",
+            "<style=\"CurrentLink\">Vision Modes</style> are most commonly used with <style=\"Link\"><link=\"first-person-views\">First</link></style> or <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style> since there is not strong diegetic reason to avoid giving all possible information in <style=\"Link\"><link=\"god-views\">God Views</link></style>. In games with huge amounts of information available to players, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Victoria%20series\">Victoria</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts%20of%20Iron%20series\">Hearts of Iron series</link></style>, it may however reduce information overload to have several different <style=\"Link\"><link=\"god-views\">God Views</link></style> players can move between. The pattern can also be applied locally in <style=\"Link\"><link=\"picture-picture-views\">Picture-in-Picture Views</link></style> without changing the overall representation.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Vision Modes</style> is both an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Information%20Patterns\">Information</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. While <style=\"CurrentLink\">Vision Modes</style> deal with what information is shown and <style=\"Link\"><link=\"cameras\">Cameras</link></style> deal with what perspective is used, how the two are used in a game is worth considering simultaneously.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Vision Modes</style> are often <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> and give <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> as players need to shift between different ways of viewing <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. They are likely to cause <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style> since players may miss events or information unless everything has been viewed in all possible <style=\"CurrentLink\">Vision Modes</style>. While the use of <style=\"CurrentLink\">Vision Modes</style> give players an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> since they may be <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, they can work against the level of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> possible in a game (see Linderoth (2010)<ref name=\"Linderoth\"/> for a discussion on how the presence of <style=\"CurrentLink\">Vision Modes</style> affect players possibilities of learning to play those games) by not requiring players to <style=\"Link\"><link=\"experimenting\">Experimenting</link></style> with the game environment to learn which game entities are important for what activities.",
+            "Since <style=\"CurrentLink\">Vision Modes</style> imply perception abilities of a diegetic character in games with <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style>, they do also imply the presence of <style=\"Link\"><link=\"characters\">Characters</link></style>. This can also lead <style=\"CurrentLink\">Vision Modes</style> to create <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style> in games with <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>, <style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"secret-areas\">Secret Areas</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style></style>",
+            "<style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"god-views\">God Views</link></style>, <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style>, <style=\"Link\"><link=\"picture-picture-views\">Picture-in-Picture Views</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"experimenting\">Experimenting</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "attention-swapping",
+            "clues",
+            "diegetically-outstanding-features",
+            "exaggerated-perception-influence",
+            "secret-areas",
+            "varied-gameplay",
+            "characters",
+            "player-character-skill-composites"
+        ],
+        "modulates" : [
+            "first-person-views",
+            "game-worlds",
+            "god-views",
+            "line-sight",
+            "picture-picture-views",
+            "third-person-views"
+        ],
+        "instantiated_by" : [
+            "mediated-gameplay",
+            "powers",
+            "tools"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "experimenting",
+            "gameplay-mastery"
+        ]
+    }
+}

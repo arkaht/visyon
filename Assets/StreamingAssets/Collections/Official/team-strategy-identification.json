@@ -1,0 +1,66 @@
+{
+    "name" : "Team Strategy Identification",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Discovering and deciding on a team strategy, often based upon using synergies.",
+        "markups" : [
+            "<style=\"Definition\">Discovering and deciding on a team strategy, often based upon using synergies.</style>",
+            "Some games encourage or force players to work together. A part of working together is discovering how one's actions can be coordinated into supporting each other, and succeeding in finding such cases are examples of <style=\"CurrentLink\">Team Strategy Identification</style>. ",
+            "''Note: The use of 'team' in the name of this pattern refers to any type of cooperation between players rather than the more formalized cooperation that the pattern <style=\"Link\"><link=\"teams\">Teams</link></style> describe.''",
+            "<style=\"H3\">Examples</style>",
+            "Quite naturally, <style=\"CurrentLink\">Team Strategy Identification</style> occurs in games where players need to cooperate. This is given in games where players either play in teams, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bridge\">Bridge</link></style>, or in those where players need to work together against the game system or game environment. Examples of games where the latter can promote <style=\"CurrentLink\">Team Strategy Identification</style> include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Forbidden%20Island\">Forbidden Island</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Alert\">Space Alert</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Yggdrasil\">Yggdrasil</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Team Strategy Identification</style> requires that players have other players to work together with and that they have a reason to find strategies. This means that the pattern relies on <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> and typically make use of more or less formalized structures for groups of players, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style>, <style=\"Link\"><link=\"parties\">Parties</link></style>, or <style=\"Link\"><link=\"teams\">Teams</link></style>. These can provide common goals which encourage common strategies or be ways for people that wish to cooperate to find like-minded. Providing external threats, either through other <style=\"Link\"><link=\"teams\">Teams</link></style> or by <style=\"Link\"><link=\"pve\">PvE</link></style> gameplay, is another way to motivate players to find common strategies. In games where players have <style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style>, the goal of <style=\"CurrentLink\">Team Strategy Identification</style> can be to minimize losses within the player group or to evenly balance negative effects. <style=\"CurrentLink\">Team Strategy Identification</style> can also be encouraged in games where players have different <style=\"Link\"><link=\"characters\">Characters</link></style> that have <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style> in <style=\"Link\"><link=\"abilities\">Abilities</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style> but where they still need to work as a <style=\"Link\"><link=\"teams\">Team</link></style>.",
+            "An exception to the rule that <style=\"CurrentLink\">Team Strategy Identification</style> needs multiple players is when <style=\"Link\"><link=\"ai-players\">AI Players</link></style> can be used. In this case human players need to figure out how the <style=\"Link\"><link=\"ai-players\">AI Players</link></style> function, or to which level they can negotiate over strategies. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "The presences of <style=\"Link\"><link=\"mini\">Mini-maps</link></style> can help with <style=\"CurrentLink\">Team Strategy Identification</style> in games with <style=\"Link\"><link=\"teams\">Teams</link></style> since in these cases the <style=\"Link\"><link=\"mini\">Mini-maps</link></style> can show the location of team members and players can to a certain extent find strategies solely on the knowledge of where the other players are.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> is a typically consequence of trying to reach <style=\"CurrentLink\">Team Strategy Identification</style>. When strategies related to this are successfully identified, these can be perceived as <style=\"Link\"><link=\"team-accomplishments\">Team Accomplishments</link></style> and be <style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style> for those active in the identification. Both identifying the strategy and being a part of that strategy can give a sense of <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>. A typical result of <style=\"CurrentLink\">Team Strategy Identification</style> is the discovery or planned use of <style=\"Link\"><link=\"team-combos\">Team Combos</link></style>.",
+            "The possibility of <style=\"CurrentLink\">Team Strategy Identification</style> in games is likely to cause <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> (at least as long some players recognize this possibility).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"team-accomplishments\">Team Accomplishments</link></style>, <style=\"Link\"><link=\"team-combos\">Team Combos</link></style>, <style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style>",
+            "<style=\"Link\"><link=\"characters\">Characters</link></style> together with <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style> and <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"Link\"><link=\"mini\">Mini-maps</link></style> together with <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style>, <style=\"Link\"><link=\"parties\">Parties</link></style>, <style=\"Link\"><link=\"pve\">PvE</link></style>, or <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "negotiation",
+            "team-accomplishments",
+            "team-combos",
+            "social-rewards",
+            "stimulated-planning",
+            "togetherness"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "internal-conflicts",
+            "characters",
+            "mini",
+            "multiplayer-games"
+        ],
+        "modulated_by" : [
+            "ai-players"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

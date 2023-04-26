@@ -1,0 +1,58 @@
+{
+    "name" : "Current Player Tokens",
+    "categories" : [
+        "Interface Patterns",
+        "Game Element Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Tokens used to show whose turn it is in a game.",
+        "markups" : [
+            "<style=\"Definition\">Tokens used to show whose turn it is in a game.</style>",
+            "Many games divide gameplay into turns. However, sometimes it can be difficult to keep track of whose turn it is, for example due to turns being long, breaks have been taken, or players get to perform actions in other players' turns. <style=\"CurrentLink\">Current Player Tokens</style> are simply tokens used to indicate who has a turn currently which are passed on as the turn pass.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> includes a coin as a <style=\"CurrentLink\">Current Player Token</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Twilight%20Struggle\">Twilight Struggle</link></style> has a round track which works as a <style=\"CurrentLink\">Current Player Token</style> in that it helps keep track of whose turn it is (besides which turn it is). ",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Current Player Tokens</style> is mainly about the physical and graphical designs of a token. Potentially, players can be reminded to pass the token on a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cheat%20Sheets\">Cheat Sheet</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Current Player Tokens</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Current Player Tokens</style> are simply <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> used in <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> that have <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>. They help players keep track of whose turn it is and through that the <style=\"Link\"><link=\"excise\">Excise</link></style> related to ending old turns and starting new ones.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cheat%20Sheets\">Cheat Sheets</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "bookkeeping-tokens"
+        ],
+        "modulates" : [
+            "excise",
+            "self-facilitated-games",
+            "turn-taking"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "cheat-sheets"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

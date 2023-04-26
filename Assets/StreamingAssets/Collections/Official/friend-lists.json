@@ -1,0 +1,79 @@
+{
+    "name" : "Friend Lists",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Gameplay Adaptability Patterns",
+        "Interface Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Lists maintained by games for individual players to help them.",
+        "markups" : [
+            "<style=\"Definition\">Lists maintained by games for individual players to help them.</style>",
+            "Some games rely on players having explicit enumerations of which other players are able to help them or otherwise affect their gameplay. Others let players create enumerations of those they may want to play with and provide support to more easily find them and start new game instances. Both these design functions rely on <style=\"CurrentLink\">Friend Lists</style>, i.e. lists with the other players that a player has indicated can be important or relevant for their own gameplay. ",
+            "<style=\"H3\">Examples</style>",
+            "Multiplayer games like the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> allow players to find their friend so they can either try to join the same game instances or together set up new game instances. Single player games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Farmville\">Farmville</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Candy%20Crush%20Saga\">Candy Crush Saga</link></style> also make use of <style=\"CurrentLink\">Friend Lists</style> by letting players be able to help or unlock things for each other. ",
+            "Steam and Facebook provide <style=\"CurrentLink\">Friend Lists</style> which are not part of individual games but which individual games can access to use inside the games.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Friend Lists</style> are organizational tools that help players find their friends and information about them in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> or <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style> where players can or need to help each other. As such, they depend on a certain amount of infrastructure in the form of <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>. Practical design considerations that need to be taken when designing <style=\"CurrentLink\">Friend Lists</style> include how people should be able to find each other, how friendships are suggested and confirmed, and if different levels of friendship can be indicated. ",
+            "While some games only allow players to invite people already playing the game to be on their <style=\"CurrentLink\">Friend Lists</style>, others support <style=\"Link\"><link=\"invites\">Invites</link></style> to help players populate their lists (this is typically the case in <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style> where the help of other players is needed to progress). ",
+            "The use of <style=\"CurrentLink\">Friend Lists</style> is typically to provide specialized versions of services that exist for all players but restricted them so they only apply to one's friends. Examples include only talking with one's friends on <style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style> or <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, being able to find information more easily about one's friends on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style> or <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>, and easily setting up games with one's friends in <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>, a more specialized form of <style=\"CurrentLink\">Friend Lists</style>, is often used in <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>, to let players that otherwise couldn't perform actions that influence each other. This includes <style=\"Link\"><link=\"visits\">Visits</link></style> to their gameplay areas and the possibility of giving things from their <style=\"Link\"><link=\"free-gift-inventories\">Free Gift Inventories</link></style>.",
+            "<style=\"CurrentLink\">Friend Lists</style> can be populated using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style> from <style=\"CurrentLink\">Friend Lists</style> outside the game, for example <style=\"CurrentLink\">Friend Lists</style> on social media platforms such as Facebook or general gaming services like Steam. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Friend Lists</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Friend Lists</style> help games have <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> in that they have a larger <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> in selecting what type of gameplay experience they will have (based on the assumption that they know how their friends play). This can let players increase their chances of having <style=\"Link\"><link=\"togetherness\">Togetherness</link></style> through playing with others that they already have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mutual%20Experiences\">Mutual Experiences</link></style> with. They are also possible to create new <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mutual%20Experiences\">Mutual Experiences</link></style> since they already have established relationships with those they are playing with and can easily contact each other after the game instance. ",
+            "Quite naturally, <style=\"CurrentLink\">Friend Lists</style> work against anonymity in games. This means that <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style>, <style=\"Link\"><link=\"player-anonymity\">Player Anonymity</link></style>, and <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style> are all problematic to use together with <style=\"CurrentLink\">Friend Lists</style>. As a consequence of this, <style=\"CurrentLink\">Friend Lists</style> also make it more difficult for players to have <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mutual%20Experiences\">Mutual Experiences</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>, <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"free-gift-inventories\">Free Gift Inventories</link></style>, <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style>, <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>, <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>, <style=\"Link\"><link=\"visits\">Visits</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>, <style=\"Link\"><link=\"invites\">Invites</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>, <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style>, <style=\"Link\"><link=\"player-anonymity\">Player Anonymity</link></style>, <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "mutual-experiences",
+            "social-adaptability",
+            "togetherness"
+        ],
+        "modulates" : [
+            "chat-channels",
+            "communication-channels",
+            "free-gift-inventories",
+            "game-lobbies",
+            "global-high-score-lists",
+            "massively-single-player-online-games",
+            "meta-servers",
+            "multiplayer-games",
+            "public-player-statistics",
+            "visits"
+        ],
+        "instantiated_by" : [
+            "neighbors"
+        ],
+        "modulated_by" : [
+            "extra-game-information",
+            "invites"
+        ],
+        "conflicts" : [
+            "actor-detachment",
+            "enforced-player-anonymity",
+            "player-anonymity",
+            "possibility-anonymity"
+        ]
+    }
+}

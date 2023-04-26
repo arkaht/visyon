@@ -1,0 +1,68 @@
+{
+    "name" : "Game System Player",
+    "categories" : [
+        "Patterns",
+        "Player Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "A passive player controlled by the game system.",
+        "markups" : [
+            "<style=\"Definition\">A passive player controlled by the game system.</style>",
+            "Games are constructed around the idea that players will be playing them. In some cases all these players are not humans but either artificial intelligence programs or complex rule sets, but they should still seem to have agency and make actions that seem to have the intent of make that player more likely to win. A <style=\"CurrentLink\">Game System Player</style> is in contrast a player run by the game system with a predictable or at least fixed rule-based behavior that is difficult to interpret as having agency. It can however win over the other players so they need to take the actions of the <style=\"CurrentLink\">Game System Player</style> into consideration while playing.",
+            "<style=\"H3\">Examples</style>",
+            "Players use rolled dice to place bets in the game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Las%20Vegas\">Las Vegas</link></style> but some of these dice belong to the ''bank'' player. Given that each other player has some ''bank'' dice, these other players together determine the actions the ''bank'' does during a round. This ''bank'' player can under rare circumstance make more money than the other players and thereby win. Player of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Genesis\">Genesis</link></style> controls angels but the game also includes a dark angel that follows a deterministic public algorithm and which can win if the players work against each other too much. The barbarians that threaten the players in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Republic%20of%20Rome\">The Republic of Rome</link></style> can be seen as a <style=\"CurrentLink\">Game System Player</style>, but this is a weak example since they are only part of the challenges that face the players (others are famine, internal unrest, and economic crises).",
+            "<style=\"H2\">Using the pattern</style>",
+            "While a <style=\"CurrentLink\">Game System Player</style> can be constructed as an <style=\"Link\"><link=\"ai-players\">AI Player</link></style> the main concern with designing one is making its behavior so simple that players can easily understand all actions it can do; this is especially relevant if the <style=\"CurrentLink\">Game System Player</style> is to be part of a <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Game</link></style>. This concern translates into requirements on making the actions it can make easy to perform and making it easy to determine which action it should make. For this reason, it is quite likely that it makes sense for a <style=\"CurrentLink\">Game System Player</style> to have other types of actions available than the other players of a game has, i.e. a <style=\"CurrentLink\">Game System Player</style> often has <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>.",
+            "A very passive form of <style=\"CurrentLink\">Game System Player</style> can be created through <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> together with <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>, one example of this is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planetfall\">Planetfall</link></style> where the player has a limited number of turns to complete the game or lose due to rising water levels.",
+            "<style=\"H2\">Consequences</style>",
+            "A <style=\"CurrentLink\">Game System Player</style> is typically not seen as an <style=\"Link\"><link=\"agents\">Agent</link></style> since their model for behavior is rule-bound and completely open to investigation. However, they can still exhibit <style=\"Link\"><link=\"unpredictable-behavior\">Unpredictable Behavior</link></style>, for example through use of <style=\"Link\"><link=\"randomness\">Randomness</link></style>, and in these cases they can give rise to both <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style> and <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>. ",
+            "The presence of a <style=\"CurrentLink\">Game System Player</style> introduces an <style=\"Link\"><link=\"enemies\">Enemy</link></style>, and this can give <style=\"Link\"><link=\"symbiotic-player-relations\">Symbiotic Player Relations</link></style> between other players since they have this <style=\"Link\"><link=\"enemies\">Enemy</link></style> in common and cause them to engage in <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>. Given the passive role of a <style=\"CurrentLink\">Game System Player</style>, the challenge can be viewed as <style=\"Link\"><link=\"pve\">PvE</link></style> rather than <style=\"Link\"><link=\"pvp\">PvP</link></style>.",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style> occurs in games with a <style=\"CurrentLink\">Game System Player</style> which the players need to enact the actions of, this is for example the case in all <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> with a <style=\"CurrentLink\">Game System Player</style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"pve\">PvE</link></style>, <style=\"Link\"><link=\"symbiotic-player-relations\">Symbiotic Player Relations</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style></style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"unpredictable-behavior\">Unpredictable Behavior</link></style></style>",
+            "<style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style> and <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>",
+            "<style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> together with <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "cooperation",
+            "enemies",
+            "privileged-abilities",
+            "pve",
+            "symbiotic-player-relations",
+            "excise",
+            "player-unpredictability"
+        ],
+        "modulates" : [
+            "self-facilitated-games"
+        ],
+        "instantiated_by" : [
+            "ai-players",
+            "time-limited-game-instances"
+        ],
+        "modulated_by" : [
+            "randomness"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name" : "Changes in Perception of Real World Phenomena due to Gameplay",
+    "categories" : [
+        "Patterns",
+        "To be Published",
+        "Needs revision",
+        "Needs references",
+        "Subjective Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay that makes people reconsider their understanding of real world phenomena.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay that makes people reconsider their understanding of real world phenomena.</style>",
+            "Like doing any type of activity, gaming can lead to that one learns something about oneself or the activity. Since games often portray some aspect of real world phenomena (even if done in a fictional setting), they can also tell something about that phenomena besides just the game. However, if this is part of the diegesis it is something that could be observed simply by studying the game as an artifact rather than playing and this kind of learning is similar to that which is provided by books, images, and movies. A kind of learning not readily provided by the other types of artifacts is that which comes from interacting with a game system and understanding its dynamics. When this type of dynamic can be mapped consistently onto phenomena outside the game, it can cause <style=\"CurrentLink\">Changes in Perception of Real World Phenomena due to Gameplay</style>.",
+            "This pattern is related to the idea that a game can have a <i>procedural rhetoric</i>, and users of this pattern may benefit from considering the work on this subject.",
+            "<style=\"H3\">Examples</style>",
+            "The ''caches'' hidden in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style> are often place in locations people do not ordinarily visit but may still be close to commonly visited ones. For this reason, the game can make people change their perception of a known environment. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Power%20Explorer\">Power Explorer</link></style> uses the energy usage of players' houses as input. By doing so, it can make people aware of what appliances use power and when and thereby reconsider their daily habits.",
+            "<style=\"H2\">Using the pattern</style>",
+            "While <style=\"CurrentLink\">Changes in Perception of Real World Phenomena due to Gameplay</style> can occur by chance (or serendipity) in any game, consciously designing for it and successfully achieving the intended change is significantly more difficult. Besides the issues that players' already existing knowledge and willingness to study and translate the dynamics of a game to some other phenomena can affect the possibilities for the pattern to work, the pattern is extremely dependent on the game system and how well it models a particular real world phenomena. See the pattern <style=\"Link\"><link=\"critical-gameplay-design\">Critical Gameplay Design</link></style> for some ways game systems can in themselves be model of potentially interesting phenomena.",
+            "There are however a couple of ways of evoking the pattern that are not directly depending on how the game system is constructed. Instead, the game design can connect to real world phenomena and thereby draw players' attentions to it. Both <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style> and <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> connect game systems with the real world through making one the cause of effects in the other, and this can be connected more consistently to players' lives through making <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>. While this may simply change players' perceptions of real world phenomena only by how they relate to the game, it can also cause players to realign the perception of the phenomena in itself.",
+            "Making physical locations important to game state changes is a specific way of trying to instantiate the pattern, typically through <style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style> or <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>. <style=\"Link\"><link=\"seamful-gameplay\">Seamful Gameplay</link></style> can also cause <style=\"CurrentLink\">Changes in Perception of Real World Phenomena due to Gameplay</style> since it makes players focus upon the borders between where some technology works and where it does not work.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Although <style=\"CurrentLink\">Changes in Perception of Real World Phenomena due to Gameplay</style> can occur in any game, the patterns described here to create it make use of having the game state interface with real world phenomena. For this reason, the pattern is classified as an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The intention with using this pattern is to create <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>. However, <style=\"CurrentLink\">Changes in Perception of Real World Phenomena due to Gameplay</style> works against <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> since linking the game state to real world phenomena ties the gameplay to players' contexts and thereby social contexts.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style>, <style=\"Link\"><link=\"critical-gameplay-design\">Critical Gameplay Design</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>, <style=\"Link\"><link=\"seamful-gameplay\">Seamful Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "extra-game-consequences"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "artifact-location-proximity",
+            "critical-gameplay-design",
+            "extra-game-actions",
+            "extra-game-input",
+            "player-location-proximity",
+            "real-life-activities-affect-game-state",
+            "seamful-gameplay"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "social-adaptability"
+        ]
+    }
+}

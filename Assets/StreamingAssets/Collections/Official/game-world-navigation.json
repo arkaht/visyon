@@ -1,0 +1,101 @@
+{
+    "name" : "Game World Navigation",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Diegetic Patterns",
+        "Level Design Patterns",
+        "Action Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Trying to move from one place in a game world to another when the best way is not obviously apparent.",
+        "markups" : [
+            "<style=\"Definition\">Trying to move from one place in a game world to another when the best way is not obviously apparent.</style>",
+            "Like in the real world, not all game worlds are easy to move around in. When the problem of moving depends on a difficulty in determining which direction one should be moving to get closer to a specific destination, players need to engage in <style=\"CurrentLink\">Game World Navigation</style>.",
+            "<style=\"H3\">Examples</style>",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Basic%20Roleplaying\">Basic Roleplaying</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style>, movement between different areas is often handled abstract, possibly requiring players to make skill rolls to avoid getting lost or losing time. Text-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Adventure%20Games\">Adventure Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20series\">Zork series</link></style> can made navigation difficult by having non-symmetric routes between locations: that one can move north from one place to another does not automatically means that one can return by going south, one might instead for example have to go west.",
+            "The maze-like levels in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> required player to navigate within the environments to move efficiently between all parts of the levels. The large sizes of the game worlds in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> would make <style=\"CurrentLink\">Game World Navigation</style> difficult if the games did not include various navigational aids such as compasses and maps. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Game World Navigation</style> is the activity of trying to find one's way from one point in a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> (or <style=\"Link\"><link=\"levels\">Level</link></style>) to another. This is typically achieved by presenting several alternative <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style> or having open areas that through the placement of <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> or <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> create the same options. Besides the presence of these environments, this also requires that <style=\"Link\"><link=\"movement\">Movement</link></style> in possible and that it is possible to get lost or take unnecessarily long routes. For the last requirement, <style=\"Link\"><link=\"traverse\">Traverse</link></style> does not always give rise to <style=\"CurrentLink\">Game World Navigation</style> (e.g. completing <style=\"Link\"><link=\"levels\">Levels</link></style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Kong\">Donkey Kong</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Frogger\">Frogger</link></style> requires completing <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals but these is no risk of getting lost) while the opposite is true. This being said, <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals can motivate players to engage in navigation, e.g. to get to <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, while requiring <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> can force players do <style=\"CurrentLink\">Game World Navigation</style> although in this can one cannot be sure of the exact location one is trying to get to. <style=\"CurrentLink\">Game World Navigation</style> is most common in games with large <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Just%20Cause%20series\">Just Cause series</link></style>). However, games relying on text-based descriptions, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20series\">Zork series</link></style> can have <style=\"CurrentLink\">Game World Navigation</style> and make the activity into one of <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> by consciously breaking <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> so that moving in one direction and then moving in the opposite direction does not brings one back to the original position.",
+            "In games with abstract <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>, <style=\"CurrentLink\">Game World Navigation</style> is typically handled as a <style=\"Link\"><link=\"skills\">Skill</link></style>. In contrast, when the layout of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and <style=\"Link\"><link=\"levels\">Levels</link></style> are present to players as a consistent representation this layout can heavily affect how easy or difficult <style=\"CurrentLink\">Game World Navigation</style> is. <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> in general makes it more difficult while <style=\"Link\"><link=\"big-dumb-objects\">Big Dumb Objects</link></style>, <style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>, <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style>, <style=\"Link\"><link=\"props\">Props</link></style>, and <style=\"Link\"><link=\"traces\">Traces</link></style> makes it more easy, especially if players can have <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> to these from great distances.  An exception to this is when the latter are used to create <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>. <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> (which may be caused by <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>) can also cause <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style> since players may at first perceive that a certain route is feasible only to later discover it is not. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leaps%20of%20Faith\">Leaps of Faith</link></style> can be used to introduce <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> considerations into navigation. <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style> can provide quick ways of getting between places but can also cause confusion since they may not work in both directions and may not even be noticeable (making them into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leaps%20of%20Faith\">Leaps of Faith</link></style>). <style=\"Link\"><link=\"mini\">Mini-maps</link></style> can make <style=\"CurrentLink\">Game World Navigation</style> easier by not only indicating where players are and what direction they should be moving, but also when the goal location is (the <style=\"Link\"><link=\"mini\">Mini-maps</link></style> in both the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> are example of this) but this is a somewhat risky design strategy since it can easily become too easy. <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> can do the same, and some types of <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style> - primarily flying - can effectively give the same functionality to players besides making navigation easier by allowing more forms of <style=\"Link\"><link=\"movement\">Movement</link></style>. One a general design level, the division of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> into <style=\"Link\"><link=\"levels\">Levels</link></style> makes <style=\"CurrentLink\">Game World Navigation</style> easier as smaller areas have to be navigated and being able to have <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> about an environment naturally also helps navigation of that environment. All these possibilities provide efficient ways to ensure either <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style> or <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> regarding <style=\"CurrentLink\">Game World Navigation</style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Having to do with finding one's way in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"CurrentLink\">Game World Navigation</style> is both a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Diegetic%20Patterns\">Diegetic</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Level%20Design%20Patterns\">Level Design Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Game World Navigation</style> is the activity of trying to succeed with <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style>, and implies that players have a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> since otherwise there would be not challenge to the act of navigating. In this way, requiring <style=\"CurrentLink\">Game World Navigation</style> can affect what skills are required in <style=\"Link\"><link=\"races\">Races</link></style>. As mentioned above, <style=\"CurrentLink\">Game World Navigation</style> can require <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> when <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> is broken but this can occur when players get lost or are unsure of which routes are possible. Through this, <style=\"CurrentLink\">Game World Navigation</style> encourages <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cognitive%20Engrossment\">Cognitive Engrossment</link></style> but can actually lessen <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style> as it encourages players to perceive <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> from an abstract perspective rather than through a diegetic perspective. While <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> may be the reason for engaging in <style=\"CurrentLink\">Game World Navigation</style>, the reverse may be true since players may discover new areas while navigating.",
+            "While <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> and <style=\"Link\"><link=\"mini\">Mini-maps</link></style> may help navigation by providing maps, they may also make it too easy to find where one is in a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> and in what direction one should be travelling, thereby making the activity of navigating closer to <style=\"Link\"><link=\"excise\">Excise</link></style> than a gameplay challenge. The same applies to <style=\"Link\"><link=\"god-views\">God Views</link></style> since they can let players move their view of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> regardless of game elements, making <style=\"CurrentLink\">Game World Navigation</style> a trivial problem.",
+            "<style=\"CurrentLink\">Game World Navigation</style> combined with <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style> leads to <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cognitive%20Engrossment\">Cognitive Engrossment</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leaps%20of%20Faith\">Leaps of Faith</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style></style>",
+            "<style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"big-dumb-objects\">Big Dumb Objects</link></style>, <style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leaps%20of%20Faith\">Leaps of Faith</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style>, <style=\"Link\"><link=\"mini\">Mini-maps</link></style>, <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style>, <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>, <style=\"Link\"><link=\"props\">Props</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"traces\">Traces</link></style>, <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"god-views\">God Views</link></style>, <style=\"Link\"><link=\"mini\">Mini-maps</link></style>, <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "casual-gameplay",
+            "challenging-gameplay",
+            "cognitive-engrossment",
+            "freedom-choice",
+            "game-world-exploration",
+            "puzzle-solving",
+            "traverse",
+            "risk-reward",
+            "physical-navigation"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "game-world-exploration",
+            "game-worlds",
+            "levels",
+            "movement",
+            "transport-routes",
+            "traverse"
+        ],
+        "modulated_by" : [
+            "big-dumb-objects",
+            "clues",
+            "diegetically-outstanding-features",
+            "game-state-overviews",
+            "inaccessible-areas",
+            "landmarks",
+            "leaps-faith",
+            "levels",
+            "line-sight",
+            "mini",
+            "movement-limitations",
+            "obstacles",
+            "point-interest-indicators",
+            "privileged-movement",
+            "props",
+            "races",
+            "red-herrings",
+            "strategic-knowledge",
+            "strategic-locations",
+            "traces",
+            "warp-zones"
+        ],
+        "conflicts" : [
+            "game-state-overviews",
+            "god-views",
+            "mini",
+            "privileged-movement",
+            "spatial-engrossment"
+        ]
+    }
+}

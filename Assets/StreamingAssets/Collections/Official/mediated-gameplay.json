@@ -1,0 +1,108 @@
+{
+    "name" : "Mediated Gameplay",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns",
+        "Platform Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where the players interaction with the game state and/or each other is done through a system.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where the players interaction with the game state and/or each other is done through a system.</style>",
+            "Games are typically designed with the intention of making player experience the gameplay as something they can directly affect. Even so, not all games allow players to directly manipulate or perceive their game state, constructing presentations for players to view and interpreting players' activities to determine with gameplay actions will take place. Games that do this have <style=\"CurrentLink\">Mediated Gameplay</style>.",
+            "<style=\"H3\">Examples</style>",
+            "The game states of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pinball%20Games\">Pinball Games</link></style> are typically maintained by the physical game elements used in them. In contrast, computer games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> have <style=\"CurrentLink\">Mediated Gameplay</style> in that they an internal game state in the system and construct presentations for players to know what this game state is and what the effects of their actions have been. Making computerized version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pinball%20Games\">Pinball Games</link></style> introduce the same separation between game state, presentation, and possibilities to affect the game state.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Day%20of%20the%20Tentacle\">Day of the Tentacle</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> shows examples of when <style=\"CurrentLink\">Mediated Gameplay</style> is used to hide information from the players so they do not have complete access to the entire game state. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/BatMUD\">BatMUD</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20series\">Zork series</link></style> do the same, but also show how text can be used instead of graphics to mediate gameplay.",
+            "Mediation of gameplay can also be done by humans. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Call%20of%20Cthulhu\">Call of Cthulhu</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Paranoia\">Paranoia</link></style> human game masters maintain (and create) the current game state and the presentation of the game worlds to the players is done through them or under their guidance. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/I%20Love%20Bees\">I Love Bees</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style>,  and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Beast\">The Beast</link></style> show examples of where combinations of computer systems and game masters mediate the gameplay for players.",
+            "<style=\"H2\">Using the pattern</style>",
+            "As the name suggests, <style=\"CurrentLink\">Mediated Gameplay</style> need someone or something that mediates the gameplay for the players. While players may make use of existing systems to mediate gameplay, e.g. using email or the postal system to play <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, this pattern assumes that the mediating system is part of the design of the game. This means that <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> in the form of <style=\"Link\"><link=\"game-servers\">Game Servers</link></style> are a prerequisite for the pattern. <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style> can be used to enable selection and movement between these <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, adding a layer of mediation. A specific form of <style=\"Link\"><link=\"game-servers\">Game Servers</link></style> are those that provide <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>; here the <style=\"CurrentLink\">Mediated Gameplay</style> has some of the aspects of <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> and some of the aspects of <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>.",
+            "Given this basis, several patterns that are more specific can affect various parts of the interaction players have. <style=\"Link\"><link=\"cameras\">Cameras</link></style> allow players to view <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> from perspective not tied to the one's given by <style=\"Link\"><link=\"avatars\">Avatars</link></style>. <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> allows players to talk to each other using non-diegetic communication. More unusual, <style=\"Link\"><link=\"self-reported-positioning\">Self-Reported Positioning</link></style> allows players themselves to provide their location to the game system in games that make use of this data.",
+            "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style> also create <style=\"CurrentLink\">Mediated Gameplay</style>, but this is most often a natural consequence of using that pattern (and most often in games that have <style=\"CurrentLink\">Mediated Gameplay</style> anyway) than a motivation for using the pattern.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Mediated Gameplay</style> assumes the presence of an interface that controls at least parts of how players can interact with the game system and each other. For this reason, it is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. This makes decisions on what information is presented to players a central part of designing <style=\"CurrentLink\">Mediated Gameplay</style>, with options on giving <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> on both local and global levels of the game state.",
+            "While many other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Patterns</link></style> can be part of <style=\"CurrentLink\">Mediated Gameplay</style>, they do not necessarily need to be so since the gameplay may primarily be done unmediated with only some presentations being mediated. Patterns which are difficult to support ''without'' <style=\"CurrentLink\">Mediated Gameplay</style> include <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>, <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>, and <style=\"Link\"><link=\"vision-modes\">Vision Modes</link></style>. While <style=\"Link\"><link=\"self-reported-positioning\">Self-Reported Positioning</link></style> also requires <style=\"CurrentLink\">Mediated Gameplay</style>, it modulates the pattern rather than is created by it.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Since <style=\"CurrentLink\">Mediated Gameplay</style> gives the design a possibility to control how players experience the gameplay and <style=\"Link\"><link=\"game-worlds\">Game World</link></style>, it is a powerful tool in enforcing <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> and providing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The use of <style=\"CurrentLink\">Mediated Gameplay</style> allows games to control information about the gameplay, and presenting the state of the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> is typically the main responsibility for any game with a diegetic setting. The mediation makes it less of a problem to hold the game state in stasis until it suits players to interact with the game, and for this reason, <style=\"CurrentLink\">Mediated Gameplay</style> provides a basis for <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style>.",
+            "While the mediation can be used to provide both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> about the parts of the game state or the entirety of it, <style=\"CurrentLink\">Mediated Gameplay</style> also allows for more specific design solutions regarding information presentation, e.g. <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>, <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>, and <style=\"Link\"><link=\"vision-modes\">Vision Modes</link></style>. It can also allow different narration to different players in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> through the use of <style=\"Link\"><link=\"phasing\">Phasing</link></style>.",
+            "When some parts of gameplay is accessible through <style=\"CurrentLink\">Mediated Gameplay</style> but other is not, this can make a game have <style=\"Link\"><link=\"tiered-participation\">Tiered Participation</link></style>. That is, some players may be able to participate in the gameplay in a mediated form while others participate physically and this is likely to put different requirements on what is expected from them.",
+            "<style=\"CurrentLink\">Mediated Gameplay</style> is very likely to have an influence on <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> when the communication between the players also is mediated; this typically happens except in the cases when players make sure they have another communication channel (most simply done by sitting close to each other). The primary effect of this is to make <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style> impossible, which makes many aspects of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> more difficult; aspects made easier include lying and keeping up appearances. However, <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> can alleviate most of this effect and may be a likely candidate to modify <style=\"CurrentLink\">Mediated Gameplay</style> since <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> is often a design goal for games. For <style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"CurrentLink\">Mediated Gameplay</style> typically limits the expressiveness possible which makes nuances performances difficult but also makes it less obvious if one falls out of character temporarily. <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> is even more restricted by <style=\"CurrentLink\">Mediated Gameplay</style>, but games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guitar%20Hero%20series\">Guitar Hero</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/SingStar%20series\">SingStar series</link></style> or any using Kinect or Sony Move technology show how <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style> can be created by combining the two. ",
+            "Further, <style=\"CurrentLink\">Mediated Gameplay</style> can make players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Communication%20Abilities\">Limited Communication Abilities</link></style> and when this is consciously enforced, it can lead to <style=\"Link\"><link=\"player-anonymity\">Player Anonymity</link></style> and <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>, or in some cases even <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style>. Even when players have good possibilities to communicate, the co-presence of <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>, or <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> can give players the <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>. Since <style=\"CurrentLink\">Mediated Gameplay</style> does not easily provide the full context in which player is participating in the game, it does make <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style> more difficult to support and through this work against <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>; the latter can be mitigated through specific design solutions such as <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay. <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> can help players familiarize themselves with each other and determine how the game should be played in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> with <style=\"CurrentLink\">Mediated Gameplay</style>, and may be especially suitable for games with <style=\"Link\"><link=\"teams\">Teams</link></style> or <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>, <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Communication%20Abilities\">Limited Communication Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, <style=\"Link\"><link=\"player-anonymity\">Player Anonymity</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"tiered-participation\">Tiered Participation</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>, <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>, <style=\"Link\"><link=\"vision-modes\">Vision Modes</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>, or <style=\"Link\"><link=\"player-characters\">Player Characters</link></style></style>",
+            "<style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style></style>",
+            "<style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"cameras\">Cameras</link></style>, <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>, <style=\"Link\"><link=\"self-reported-positioning\">Self-Reported Positioning</link></style>",
+            "<style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> or those with <style=\"Link\"><link=\"teams\">Teams</link></style> or <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay",
+            "<style=\"Link\"><link=\"phasing\">Phasing</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "actor-detachment",
+            "enforced-player-anonymity",
+            "game-worlds",
+            "imperfect-information",
+            "limited-communication-abilities",
+            "perfect-information",
+            "player-anonymity",
+            "predetermined-story-structures",
+            "split-screen-views",
+            "surprises",
+            "tiered-participation",
+            "third-person-views",
+            "tooltips",
+            "vision-modes",
+            "possibility-anonymity",
+            "mimetic-interfaces",
+            "social-interaction"
+        ],
+        "modulates" : [
+            "asynchronous-gameplay",
+            "coordination",
+            "cooperation",
+            "enactment",
+            "multiplayer-games",
+            "negotiation"
+        ],
+        "instantiated_by" : [
+            "chat-channels",
+            "dedicated-game-facilitators",
+            "game-masters",
+            "game-servers",
+            "massively-single-player-online-games"
+        ],
+        "modulated_by" : [
+            "cameras",
+            "communication-channels",
+            "meta-servers",
+            "self-reported-positioning",
+            "game-lobbies",
+            "phasing"
+        ],
+        "conflicts" : [
+            "interruptibility",
+            "social-adaptability",
+            "unmediated-social-interaction"
+        ]
+    }
+}

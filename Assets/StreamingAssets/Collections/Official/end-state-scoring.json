@@ -1,0 +1,67 @@
+{
+    "name" : "End State Scoring",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The process of adding up all points to players in a phase after gameplay has finished.",
+        "markups" : [
+            "<style=\"Definition\">The process of adding up all points to players in a phase after gameplay has finished.</style>",
+            "Some games end by a player winning, a player losing, or a draw is reached. Other games have criteria for when game ends and the outcome of all players are first determined then. Such games typically use <style=\"CurrentLink\">End State Scoring</style> in that all points are officially and publicly counted after players' possibility to affect the game state has ended.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Amun-Re\">Amun-Re</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Egizia\">Egizia</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lords%20of%20Waterdeep\">Lords of Waterdeep</link></style> are all <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> where players have cards with conditional score bonus that are only give out after gameplay finishes. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Agricola\">Agricola</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stone%20Age\">Stone Age</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/7%20Wonders\">7 Wonders</link></style> is similar but here the cards or tiles that give points are publicly visible. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> the acquisition of victory cards are open but players then need to memorize the distribution of these between the players when a game instance nears its end.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main requirement of <style=\"CurrentLink\">End State Scoring</style> is to postpone the handing out of at least some points to players <style=\"Link\"><link=\"scores\">Scores</link></style> until gameplay ends. The main design decision regarding <style=\"CurrentLink\">End State Scoring</style> is if people should have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> regarding the game state and how players can get points based on the game state. The former promotes <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style> while the latter promotes <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>. For this reason, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> seems to be the much more common choice. This is typically at implemented through <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style>.",
+            "A typical way of combining <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> and <style=\"CurrentLink\">End State Scoring</style> is to give players <style=\"Link\"><link=\"asymmetric-goals\">Asymmetric Goals</link></style> related to how they score in a game. An example of this is which lord one plays in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lords%20of%20Waterdeep\">Lords of Waterdeep</link></style> since different lords provide different bonus points depending what quests and buildings one has completed.",
+            "While <style=\"CurrentLink\">End State Scoring</style> is performed when gameplay ends, this might either be the more permanent end of <style=\"Link\"><link=\"game-over\">Game Over</link></style> or the sometimes temporary end of <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">End State Scoring</style> makes it important for gameplay to know their relative positions before the end state as well as what possible points all players can add to their <style=\"Link\"><link=\"scores\">Scores</link></style> during the final scoring. When players cannot calculate the positions for all players before an <style=\"CurrentLink\">End State Scoring</style>, the use of this pattern can provide <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, and <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style>. If the scoring is at least partly based on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, players can be motivated to engage in <style=\"Link\"><link=\"bluffing\">Bluffing</link></style> to make it more difficult for other players to be able and correctly deduce their position before the end state and how much points they can get in the end state. <style=\"CurrentLink\">End State Scoring</style> in general makes <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style> more difficult but this becomes even more so when the scoring relies on hidden information (such as <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style>); that it is more difficult to determine leaders in games with <style=\"CurrentLink\">End State Scoring</style> also make it less likely that player begin <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>.",
+            "Regardless of if players can accurately or not calculate positions, the presence of <style=\"CurrentLink\">End State Scoring</style> can create <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style> since players may spend time trying to do so. The presence of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> more or less guarantees <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style> unless it is very easy to determine player positions and possible points to be gotten during the <style=\"CurrentLink\">End State Scoring</style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style></style>",
+            "<style=\"Link\"><link=\"bluffing\">Bluffing</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"asymmetric-goals\">Asymmetric Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>, <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "analysis-paralysis",
+            "exaggerated-perception-influence",
+            "tension",
+            "uncertainty-outcome",
+            "bluffing"
+        ],
+        "modulates" : [
+            "death-consequences",
+            "game-over",
+            "scores"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "asymmetric-goals",
+            "imperfect-information",
+            "perfect-information",
+            "secret-scoring-mechanisms"
+        ],
+        "conflicts" : [
+            "beat-leader",
+            "surrendering"
+        ]
+    }
+}

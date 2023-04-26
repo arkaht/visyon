@@ -1,0 +1,67 @@
+{
+    "name" : "Arenas",
+    "categories" : [
+        "Level Design Patterns",
+        "Mechanical Patterns",
+        "Needs revision",
+        "Patterns",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Open locations in game worlds that naturally or by design become battlegrounds.",
+        "markups" : [
+            "<style=\"Definition\">Open locations in game worlds that naturally or by design become battlegrounds.</style>",
+            "In games where combat occurs, the characteristics of gameplay locations can heavily influence how this can be done. <style=\"CurrentLink\">Arenas</style> are open areas which draws players into conflicts there, either because they contain check points or resources or because players have willingly placed themselves within them to challenge others.",
+            "<style=\"H3\">Examples</style>",
+            "While maybe not a big surprise given its name, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20III%20Arena\">Quake III Arena</link></style> contains many maps with <style=\"CurrentLink\">Arenas</style>, e.g. ''arena gate'', ''dredwerks'', and ''the forgotten place''. Many of central access routes and check points in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style> maps are also <style=\"CurrentLink\">Arenas</style>, e.g. the areas attackers need to take in ''Dustbowl''. Other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> that have <style=\"CurrentLink\">Arenas</style> include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style>. Given the open maps in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/America's%20Army\">America's Army</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>, the games do not have clear <style=\"CurrentLink\">Arenas</style> but combat in these games are often located to specific areas anyway.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> have explicit <style=\"CurrentLink\">Arenas</style> where players can earn money by fighting monsters or non-player characters in duels. This is also possible in ''the thorn'' in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The prime requirement of creating <style=\"CurrentLink\">Arenas</style> is to make sure there are open but constrained areas in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style>. However, for <style=\"CurrentLink\">Arenas</style> to be perceivable as interesting structures in games, there needs to be other gameplay areas available as well (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> can be said to have <style=\"CurrentLink\">Arenas</style> that consist of the entire boards but trying to use the pattern in this way offers little in the way of design options or for understanding the resulting gameplay). <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style> are all potential <style=\"Link\"><link=\"game-worlds\">Game World</link></style> features that can be placed in conjunction with the <style=\"CurrentLink\">Arenas</style> to make them noticeable through the difference in gameplay they provide. <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> are quite often used to create the boundaries between <style=\"CurrentLink\">Arenas</style> and other parts of the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. While not necessarily making them more noticeable, <style=\"Link\"><link=\"check-points\">Check Points</link></style> can be placed within <style=\"CurrentLink\">Arenas</style> to draw gameplay to these areas and this can be used to balance the deterrent effect of <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Arenas</style> focus where <style=\"Link\"><link=\"combat\">Combat</link></style> takes place in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style>. Controlling them can provide access to <style=\"Link\"><link=\"check-points\">Check Points</link></style> or other parts of the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and for this reason they are often <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> and cause players to strive for <style=\"Link\"><link=\"area-control\">Area Control</link></style> of them. Given their openness, they make <style=\"Link\"><link=\"herd\">Herd</link></style> more difficult since that which is herded has more possibilities of heading of in the wrong directions. In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> with <style=\"Link\"><link=\"teams\">Teams</link></style>, they can let players coordinate attacks or defenses to achieve <style=\"Link\"><link=\"team-combos\">Team Combos</link></style>.",
+            "<style=\"CurrentLink\">Arenas</style> provide natural starting points for considering adjacent <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style> and can in this way help instantiate these. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"herd\">Herd</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"team-combos\">Team Combos</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "area-control",
+            "sniper-locations",
+            "strategic-locations"
+        ],
+        "modulates" : [
+            "combat",
+            "game-boards",
+            "game-worlds",
+            "herd",
+            "levels",
+            "multiplayer-games",
+            "team-combos",
+            "teams"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "check-points",
+            "choke-points",
+            "flanking-routes",
+            "sniper-locations",
+            "strongholds"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "name" : "Speedending",
+    "categories" : [
+        "Dynamic Patterns",
+        "Gameplay Arc Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Taking actions to end a game as quickly as possible when one believes oneself to be leading.",
+        "markups" : [
+            "<style=\"Definition\">Taking actions to end a game as quickly as possible when one believes oneself to be leading.</style>",
+            "The relative position in games can change during gameplay and in many games players can have a certain awareness of their position. <style=\"CurrentLink\">Speedending</style> occurs in games where not only players can know (or believe to know) that their position is that of the leader but can also influence the game to end sooner to avoid the risk of other overtaking them.",
+            "<style=\"H3\">Examples</style>",
+            "One of the ways <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> ends is if three stacks of cards are depleted. A player can perform <style=\"CurrentLink\">Speedending</style> in this game by purposefully buying cards from nearly depleted decks even if they are not otherwise useful. More specifically, depleting only the deck of \"province\" cards ends the game so this can be a quicker but more costly way of doing <style=\"CurrentLink\">Speedending</style>. Similarly, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Concordia\">Concordia</link></style> ends when all \"personality\" cards have been sold and players that wish to speedend this game can by these as often as possible.",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style> can engage in <style=\"CurrentLink\">Speedending</style> by playing cards both during \"develop\" and \"settle\" phases even if they cards played are not the best long-term investments.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Being able to do <style=\"CurrentLink\">Speedending</style> in a game relies on players being able to judge their own position in relation to others, and that when they judge themselves leaders that they can influence the game to end. In addition, <style=\"CurrentLink\">Speedending</style> assumes <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style> since if one is able to end the game by winning players will simply be more focused on winning instead of ending the game as quickly as possible (even if they may be performing the exact same actions). ",
+            "<style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, and <style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style> are all ways of letting players know their relative position. In contrast to these rather direct means of satisfying the first condition for <style=\"CurrentLink\">Speedending</style>, means of letting players influence when a game ends are less precise. One typical construct is tying the <style=\"Link\"><link=\"complete-resource-depletion\">Complete Resource Depletion</link></style> of particular <style=\"Link\"><link=\"resources\">Resource</link></style>, e.g. \"province\" cards in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style>, to the game ending and providing player actions that consume the <style=\"Link\"><link=\"resources\">Resource</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Successful <style=\"CurrentLink\">Speedending</style> results in <style=\"Link\"><link=\"game-over\">Game Over</link></style> for one or several players and heavily affects existing <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases. Being able to notice when one should perform <style=\"CurrentLink\">Speedending</style> as well as being able to do it can be signs of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> since it shows an awareness when one should do a <style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style>. This last issue actually applies to players noticing other players doing <style=\"CurrentLink\">Speedending</style> also, to maximize their score they need to shift focus as well. ",
+            "Since <style=\"CurrentLink\">Speedending</style> makes players focus on ending the game (or maximizing <style=\"Link\"><link=\"scores\">Scores</link></style> when others are trying to end the game), the pattern works against <style=\"Link\"><link=\"investments\">Investments</link></style>.",
+            "While <style=\"CurrentLink\">Speedending</style> can appear in games with <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>, the combination of these two patterns in the right circumstances cause them to create <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style> even if this normally is incompatible with <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"game-over\">Game Over</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style></style>",
+            "<style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"complete-resource-depletion\">Complete Resource Depletion</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, <style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style>, <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"investments\">Investments</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "gameplay-mastery",
+            "game-over",
+            "winning-ending-gameplay"
+        ],
+        "modulates" : [
+            "endgame",
+            "construction-scoring-phase-shift"
+        ],
+        "instantiated_by" : [
+            "complete-resource-depletion",
+            "game-state-overviews",
+            "predictable-consequences",
+            "predictable-winner",
+            "score-tracks",
+            "winner-gameplay-ends"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "investments"
+        ]
+    }
+}

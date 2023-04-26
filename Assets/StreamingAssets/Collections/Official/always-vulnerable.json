@@ -1,0 +1,67 @@
+{
+    "name" : "Always Vulnerable",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "This pattern is not about players always being vulnerable when they are playing; it is about players being vulnerable even when they are not even aware of gameplay events.",
+        "markups" : [
+            "''The situation where players' resources in game instances can be threatened even when they are not playing.''",
+            "Some game progress regardless of whether a player is playing. When this makes players' efforts or resources be at risk even when he or she is not playing, those players are <style=\"CurrentLink\">Always Vulnerable</style>.",
+            "<style=\"Definition\">This pattern is not about players always being vulnerable when they are playing; it is about players being vulnerable even when they are not even aware of gameplay events.</style>",
+            "<style=\"H3\">Examples</style>",
+            "Players' resource in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> and their villages in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Travian\">Travian</link></style> can be attacked even if the players themselves are not logged onto these games. This can also happen in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empires%20&%20Allies\">Empires & Allies</link></style> but the effects are less severe and can be avoided through having declared \"neutrality.\"",
+            "<style=\"CurrentLink\">Always Vulnerable</style> may occur in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>. This is however not so much a question of which particular game system is being used as how game masters handle ",
+            "the question of how to treat the characters of players who are missing a session. Some game masters fudge events so that they cannot die (but perhaps do not get as much rewards as the others) while others let them be in the same amount of danger as the characters of present players.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are two versions of this pattern. One is that players' <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, etc. can be threaten when other players have play sessions in the game instance. The other is that all players have their <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, etc. threatened regardless of if anybody else is playing at all. The first obviously requires <style=\"Link\"><link=\"pvp\">PvP</link></style> gameplay and <style=\"CurrentLink\">Always Vulnerable</style> can be seen as a way of modulating these types of games - it makes most sense in games built around <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> or <style=\"Link\"><link=\"parties\">Parties</link></style> since then the other players (or <style=\"Link\"><link=\"game-masters\">Game Master</link></style>) can more impartially be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Proxy%20Players\">Proxy Players</link></style> (and it may be difficult to find diegetic reasons why the missing player's resources should be safe when other players' resources are not). The second alternative is mainly about having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style> in <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style> or <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style> not remove players' <style=\"Link\"><link=\"resources\">Resources</link></style> if players leave or take a break from gameplay. Regardless, <style=\"CurrentLink\">Always Vulnerable</style> is not compatible with <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Games that make players be <style=\"CurrentLink\">Always Vulnerable</style> also have <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style> in that players that do not keep aware of the ongoing gameplay are likely to suffer negative consequences. This easily makes players experience <style=\"Link\"><link=\"tension\">Tension</link></style>. <style=\"CurrentLink\">Always Vulnerable</style> can focus gameplay aiming at <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style> to make players have their attention more on their <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>.",
+            "For games where one cannot play all the time the server, this makes <style=\"CurrentLink\">Always Vulnerable</style> lead to <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>.",
+            "Given that <style=\"Link\"><link=\"combat\">Combat</link></style> is one of the types of gameplay activities where <style=\"CurrentLink\">Always Vulnerable</style> makes itself most apparent, the pattern can be seen as a way to modulate <style=\"Link\"><link=\"combat\">Combat</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>, <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>, <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, <style=\"Link\"><link=\"pvp\">PvP</link></style>, <style=\"Link\"><link=\"parties\">Parties</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "attention-demanding-gameplay",
+            "encouraged-return-visits",
+            "tension"
+        ],
+        "modulates" : [
+            "combat",
+            "focus-loci",
+            "fubar-enjoyment",
+            "investments",
+            "massively-multiplayer-online-games",
+            "pvp",
+            "parties",
+            "resources",
+            "tick-based-games"
+        ],
+        "instantiated_by" : [
+            "the-show-must-go-on"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "game-pauses"
+        ]
+    }
+}

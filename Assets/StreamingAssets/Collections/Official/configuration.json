@@ -1,0 +1,72 @@
+{
+    "name" : "Configuration",
+    "categories" : [
+        "Patterns",
+        "Goal Patterns",
+        "Mechanical Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The goal of forming a spatial, temporal, or logical arrangement of game elements.",
+        "markups" : [
+            "<style=\"Definition\">The goal of forming a spatial, temporal, or logical arrangement of game elements.</style>",
+            "Many games make use of game elements and have their spatial position or relation to each other as part of the game state. This sets up for having <style=\"CurrentLink\">Configuration</style> goals, goals whose criteria for success are met by placing game elements in a certain <style=\"CurrentLink\">Configuration</style>. Similarly, games that distinguish gameplay into discrete time units can have <style=\"CurrentLink\">Configuration</style> goals consisting of performing actions according to a specific temporal <style=\"CurrentLink\">Configuration</style>. A third alternate can be based on logical arrangements.",
+            "<style=\"H3\">Examples</style>",
+            "The card game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illuminati\">Illuminati</link></style> uses <style=\"CurrentLink\">Configuration</style> for control groups, which can be spatially arranged to draw benefit of similarities in alignment and maximize the use of control arrows. A more abstract example is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style>, where winning rounds consists of having the rarest set of a set of predetermined <style=\"CurrentLink\">Configurations</style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zendo\">Zendo</link></style> is an abstract game where the winning condition is to guess a <style=\"CurrentLink\">Configuration</style> decided by a player.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The design of <style=\"CurrentLink\">Configuration</style> goals depend on which game elements should form the <style=\"CurrentLink\">Configuration</style>, what spatial relations they should form, and what should happen when one fails or succeeds with the goal. Specific ways of creating <style=\"CurrentLink\">Configuration</style> include <style=\"Link\"><link=\"alignment\">Alignment</link></style> and <style=\"Link\"><link=\"enclosure\">Enclosure</link></style>. The latter is less specific on the exact spatial arrangement and other <style=\"CurrentLink\">Configuration</style> goals that need little or no spatial arrangement include <style=\"Link\"><link=\"collections\">Collections</link></style>, <style=\"Link\"><link=\"combos\">Combos</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style>. <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style> can be used to make the <style=\"CurrentLink\">Configuration</style> completely or much more focused on temporal <style=\"CurrentLink\">Configuration</style> than spatial. ",
+            "In some cases the challenge with <style=\"CurrentLink\">Configuration</style> is simply placing the game elements, and this can be difficult due to the actions of others, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style> requirements. In other cases the challenge can have more to do with <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>. <style=\"CurrentLink\">Configuration</style> can easily be designed to support or break <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style> regarding the placement of game elements in a game. ",
+            "A typical effect of succeeding with <style=\"CurrentLink\">Configuration</style> goals in the <style=\"Link\"><link=\"capture\">Capture</link></style> of some game elements. This means that <style=\"CurrentLink\">Configuration</style> goals are often motivated by <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals. While this can cause <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Element%20Removal\">Game Element Removal</link></style> of captured game elements, the game elements used to create the <style=\"CurrentLink\">Configuration</style> can also be removed (or become stuck) and this <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Element%20Removal\">Game Element Removal</link></style> can stop the goal from being completed several times. ",
+            "<style=\"CurrentLink\">Configuration</style> goals can be made so they are mutually exclusive &mdash; they are <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style> &mdash; by requiring the use of the same game elements when the game elements can't be reused. This makes these goals into a <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Given that <style=\"CurrentLink\">Configuration</style> uses spatial relations, they often offer <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style> to players that are beginning to near the completion of the <style=\"CurrentLink\">Configuration</style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Element%20Removal\">Game Element Removal</link></style>, <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style></style>",
+            "<style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"alignment\">Alignment</link></style>, <style=\"Link\"><link=\"collections\">Collections</link></style>, <style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style>, <style=\"Link\"><link=\"enclosure\">Enclosure</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "capture",
+            "game-element-removal",
+            "hovering-closures",
+            "selectable-set-goals"
+        ],
+        "modulates" : [
+            "symmetry"
+        ],
+        "instantiated_by" : [
+            "alignment",
+            "collections",
+            "combos",
+            "connection",
+            "enclosure",
+            "gain-ownership",
+            "puzzle-solving",
+            "rhythm-based-actions"
+        ],
+        "modulated_by" : [
+            "imperfect-information",
+            "incompatible-goals",
+            "timing"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

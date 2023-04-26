@@ -1,0 +1,71 @@
+{
+    "name" : "Player Augmentations",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : null,
+        "markups" : [
+            "''Support mechanisms that boost players' abilities to perform gameplay activities.''",
+            "An important part of many games is to let players have a chance of influencing gameplay or the overall outcome of a game. <style=\"CurrentLink\">Player Augmentations</style> are improvements to players' abilities to perform that are not part of gameplay progression.",
+            "<style=\"H3\">Examples</style>",
+            "Most MUDs and some of their successors <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>) allow people to write code that can control players' characters. While this can be used to let the characters act without players being present, it can also be used to make them react automatically to certain conditions.",
+            "Several <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> help players with aiming weapons. Examples include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Just%20Cause%20series\">Just Cause series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style>. ",
+            "Game masters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style> can let player characters have greater chances of succeeding with actions simply by ruling that they have a greater chance.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Creating <style=\"CurrentLink\">Player Augmentations</style> primarily consist of determining what types of actions to affect and how to affect them. What possibilities exist for creating <style=\"CurrentLink\">Player Augmentations</style> depend on what medium supports the gameplay. <style=\"Link\"><link=\"auto-aim\">Auto-Aim</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Automated%20Responses\">Automated Responses</link></style>, and <style=\"Link\"><link=\"mules\">Mules</link></style> in computer-based games while <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can support <style=\"CurrentLink\">Player Augmentations</style> in most games through either specific rules or through improvisation (e.g. <style=\"Link\"><link=\"feigned-die-rolls\">Feigned Die Rolls</link></style>). When given to players by the game, they are <style=\"Link\"><link=\"facilitating-rewards\">Facilitating Rewards</link></style>. ",
+            "<style=\"H2\">Consequences</style>",
+            "As <style=\"CurrentLink\">Player Augmentations</style> affect the <style=\"Link\"><link=\"agents\">Agents</link></style> that players represent in the game, the pattern can be used to modulate <style=\"Link\"><link=\"agents\">Agents</link></style> and they cause <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style>. This often extends to also causing <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player/System%20Action%20Composites\">Player/System Action Composites</link></style>. They do not create <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> events since these are gameplay events and <style=\"CurrentLink\">Player Augmentations</style> provide help outside the structure of gameplay events in a game instance. Since they actually make players' skills and efforts less meaningful, they work against <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> and <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>.",
+            "<style=\"CurrentLink\">Player Augmentations</style> help players performing <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>. While this can be seen as cheating, it can also be seen as non-problematic if the challenge is seen as finding exploits and using them even if it would be more or less impossible for humans to do so.",
+            "While <style=\"CurrentLink\">Player Augmentations</style> is not a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Subjective%20Patterns\">Subjective Pattern</link></style>, many consequences of it flip-flop between supporting a pattern and working against it depending on if players perceive the augmentation as increasing their ability to influence gameplay or not. <style=\"Link\"><link=\"player-agency\">Player Agency</link></style> is the prime examples of this but also <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> and <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> (the latter is also dependent on which players are given augmentation and to what degree). ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"facilitating-rewards\">Facilitating Rewards</link></style>, <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player/System%20Action%20Composites\">Player/System Action Composites</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"auto-aim\">Auto-Aim</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Automated%20Responses\">Automated Responses</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"mules\">Mules</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "enforced-agent-behavior",
+            "exaggerated-perception-influence",
+            "facilitating-rewards",
+            "player-agency",
+            "player-balance",
+            "player-character-skill-composites",
+            "player-system-action-composites"
+        ],
+        "modulates" : [
+            "agents",
+            "speedruns"
+        ],
+        "instantiated_by" : [
+            "auto-aim",
+            "automated-responses",
+            "game-masters",
+            "mules"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "exaggerated-perception-influence",
+            "gameplay-mastery",
+            "player-agency",
+            "player-balance",
+            "value-effort"
+        ]
+    }
+}

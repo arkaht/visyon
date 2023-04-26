@@ -1,0 +1,97 @@
+{
+    "name" : "Loot",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns",
+        "Needs references",
+        "Needs revision",
+        "Needs examples"
+    ],
+    "texts" : {
+        "definition" : "Items, typically randomly generated, found in game worlds that function as rewards.",
+        "markups" : [
+            "<style=\"Definition\">Items, typically randomly generated, found in game worlds that function as rewards.</style>",
+            "<style=\"CurrentLink\">Loot</style> is the reward players can gain from defeated enemies (or innocent victims) by taking their possessions. This may be weapons and armor they used to defend themselves with as well as tools or other material goods.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Loot</style> first appeared in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> although it was referred to as ''random treasure''. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based versions</link></style> inherited this, both in single-player games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Nethack\">Nethack</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style>, and in multiplayer games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style> are examples of how <style=\"CurrentLink\">Loot</style> are used in other types of games.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Drakborgen\">Drakborgen</link></style> should an inverse example of the pattern; players try to get into a dragon's lair and get as much <style=\"CurrentLink\">Loot</style> as possible before it awakens.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The two primary considerations for designing <style=\"CurrentLink\">Loot</style> is when players should receive them and what they should consist of. The most common source for <style=\"CurrentLink\">Loot</style> is <style=\"Link\"><link=\"generic-adversaries\">Generic Adversaries</link></style> or <style=\"Link\"><link=\"enemies\">Enemies</link></style> that drop them when they are killed, as for example found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style>. In fact, that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inhabitants\">Inhabitants</link></style> of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> provide <style=\"CurrentLink\">Loot</style> can be enough to make them into <style=\"Link\"><link=\"enemies\">Enemies</link></style> for players. Other sources include <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> but any type of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inhabitants\">Inhabitants</link></style> that can be the target for <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals can work.",
+            "Typical types of <style=\"CurrentLink\">Loot</style> include <style=\"Link\"><link=\"resources\">Resources</link></style>, e.g. <style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, money, or energy, and <style=\"Link\"><link=\"game-items\">Game Items</link></style>, e.g <style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"equipment\">Equipment</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, and <style=\"Link\"><link=\"weapons\">Weapons</link></style>. <style=\"CurrentLink\">Loot</style> can of course consist of many individual items, so these can be combined in one case of <style=\"CurrentLink\">Loot</style>. <style=\"Link\"><link=\"randomness\">Randomness</link></style> is a core part of <style=\"CurrentLink\">Loot</style>; if what <style=\"CurrentLink\">Loot</style> is acquired is completely known in advance the design instead becomes the more general <style=\"Link\"><link=\"resources\">Resources</link></style> instead. This does not mean that <style=\"CurrentLink\">Loot</style> needs to be completely random among all possible game elements, the exact composition of any given <style=\"CurrentLink\">Loot</style> may be bounded to maintain <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> and to maintain <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>. In games with <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, they can tailor the <style=\"CurrentLink\">Loot</style> to having <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> or support <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, and the fourth edition of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> suggest that players should give their <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> wish lists for what magic items they would like to find as part of <style=\"CurrentLink\">Loot</style>. Player interest for <style=\"CurrentLink\">Loot</style> can be increased by introducing <style=\"Link\"><link=\"sets\">Sets</link></style>, as done e.g. in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo series</link></style>.",
+            "For <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Loot%20Rights\">Loot Rights</link></style> may be used to mechanize how <style=\"CurrentLink\">Loot</style> will be distributed among players.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "As mentioned earlier, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> may influence what type of <style=\"CurrentLink\">Loot</style> should be given so not to break come into direct confrontation with it. Besides regulating what type of game element make thematic sense to have been carried, another aspect is that <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> can be broken if the <style=\"CurrentLink\">Loot</style> contains <style=\"Link\"><link=\"tools\">Tools</link></style> or <style=\"Link\"><link=\"weapons\">Weapons</link></style> which could have helped their owners but were not used.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Loot</style> is a type of <style=\"Link\"><link=\"resources\">Resources</link></style> given as <style=\"Link\"><link=\"rewards\">Rewards</link></style> for completing <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals, and a typical example of <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>. By providing this, they give a motivation for players to engage in <style=\"Link\"><link=\"combat\">Combat</link></style> (besides any other that may already exist). Since letting <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inhabitants\">Inhabitants</link></style>, or <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> provide <style=\"CurrentLink\">Loot</style> makes them a possible way to gain <style=\"Link\"><link=\"resources\">Resources</link></style>, this pairing makes the former into <style=\"Link\"><link=\"resource-sources\">Resource Sources</link></style>. When players know about the potential for <style=\"CurrentLink\">Loot</style>, and especially if they know something about the distribution between different types of <style=\"CurrentLink\">Loot</style> and <style=\"Link\"><link=\"sets\">Sets</link></style> are part of a game's design, the pattern gives rise to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> and <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> on how to gain it. However, the search for particular <style=\"CurrentLink\">Loot</style> can become <style=\"Link\"><link=\"excise\">Excise</link></style> when players have to wade through a lot unwanted <style=\"CurrentLink\">Loot</style> in order to have a chance of finding what they actually want. ",
+            "In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, the presence of <style=\"CurrentLink\">Loot</style> can give rise to several types of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>. The first is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> about who should receive what part of the <style=\"CurrentLink\">Loot</style> and this can be done through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voting\">Voting</link></style> or game support for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Loot%20Rights\">Loot Rights</link></style>. A possible effect of this type of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> is that some players willingly abstain from <style=\"CurrentLink\">Loot</style> in the belief that the other players' will honor this by <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>. A second type of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> is <style=\"Link\"><link=\"betrayal\">Betrayal</link></style> that easily emerges if any player engages in ''ninja looting'', i.e. taking <style=\"CurrentLink\">Loot</style> without caring or discussing other players' wishes (this includes taking the <style=\"CurrentLink\">Loot</style> which one has not had part in generating). This can also be seen as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> breaking down and being replaced by simple <style=\"Link\"><link=\"races\">Races</link></style> to get to the <style=\"CurrentLink\">Loot</style> first. Related to this is ''scavenging'', collecting <style=\"CurrentLink\">Loot</style> that has been left by those who produced it due to being of little value to them.",
+            "In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> with <style=\"Link\"><link=\"parties\">Parties</link></style>, the presence of <style=\"CurrentLink\">Loot</style> modulates the stability of <style=\"Link\"><link=\"parties\">Parties</link></style> since players may fail to achieve <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style> of <style=\"Link\"><link=\"rewards\">Rewards</link></style> and <style=\"Link\"><link=\"penalties\">Penalties</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inhabitants\">Inhabitants</link></style>, or <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style></style>",
+            "<style=\"Link\"><link=\"resource-sources\">Resource Sources</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inhabitants\">Inhabitants</link></style></style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voting\">Voting</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> and <style=\"Link\"><link=\"parties\">Parties</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"equipment\">Equipment</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"generic-adversaries\">Generic Adversaries</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inhabitants\">Inhabitants</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"parties\">Parties</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"resource-sources\">Resource Sources</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Loot%20Rights\">Loot Rights</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "excise",
+            "game-element-insertion",
+            "races",
+            "red-queen-dilemmas",
+            "rewards",
+            "stimulated-planning",
+            "resource-sources",
+            "enemies",
+            "betrayal",
+            "delayed-reciprocity",
+            "negotiation",
+            "social-interaction",
+            "voting",
+            "player-decided-distributions"
+        ],
+        "modulates" : [
+            "ammunition",
+            "armor",
+            "combat",
+            "eliminate",
+            "enemies",
+            "equipment",
+            "game-items",
+            "game-masters",
+            "generic-adversaries",
+            "inhabitants",
+            "non-player-characters",
+            "parties",
+            "resources",
+            "tools",
+            "weapons"
+        ],
+        "instantiated_by" : [
+            "randomness",
+            "resource-sources"
+        ],
+        "modulated_by" : [
+            "thematic-consistency",
+            "loot-rights"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

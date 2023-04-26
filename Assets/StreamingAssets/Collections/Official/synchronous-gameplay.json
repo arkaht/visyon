@@ -1,0 +1,68 @@
+{
+    "name" : "Synchronous Gameplay",
+    "categories" : [
+        "Mechanical Patterns",
+        "Subjective Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "typically",
+        "markups" : [
+            "''Games in which all players' game and play sessions overlap with each other in time.''",
+            "Many games are designed to have several players playing them together. When they are designed so the time spent playing takes places simultaneously, they have <style=\"CurrentLink\">Synchronous Gameplay</style>. Since planning what to do can be considered playing, this can be subjective to how interested players are in planning and predicting future actions while not being able to actually perform actions in a game.",
+            " ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> that are also <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Co-Op%20Games\">Co-Op Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Forbidden%20Island\">Forbidden Island</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Alert\">Space Alert</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/XCOM:%20The%20Board%20Game\">XCOM: The Board Game</link></style>, are built so that all players play together through the whole game instances.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Team-based%20Games\">Team-based Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients\">Defense of the Ancients</link></style> are designed around <style=\"CurrentLink\">Synchronous Gameplay</style> but in a weaker form where players can be eliminated or quit before game instances are finished. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> with teams, e.g. such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Volleyball\">Volleyball</link></style>, also have <style=\"CurrentLink\">Synchronous Gameplay</style> except when using reserves which excludes practically all matches played professionally. ",
+            "<style=\"Definition\">typically</style>",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Synchronous Gameplay</style> is typically either part of a game design to support <style=\"Link\"><link=\"togetherness\">Togetherness</link></style> or simply a practical consequence of handling <style=\"Link\"><link=\"excise\">Excise</link></style> in <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> while at the same time letting players observe each other to mitigate risks of errors or cheating. While quite obviously <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> are not needed in the latter case, in the former it may be necessary if only to postpone the start of gameplay until everyone is present and to synchronize eventual <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>. Since <style=\"CurrentLink\">Synchronous Gameplay</style> ensures that all players are present at the same time, providing <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> to them often make sense if <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> between them is encouraged. ",
+            "How play and game sessions are handled for <style=\"CurrentLink\">Synchronous Gameplay</style> is important since players may need to have pauses between them. This makes the decision of having <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>, or <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> important when having <style=\"CurrentLink\">Synchronous Gameplay</style>. As one example of how these may influence the gameplay, <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> don't in themselves provide natural points for breaks while <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> do.",
+            "<style=\"CurrentLink\">Synchronous Gameplay</style> is incompatible with <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> when turns do not support the players not having one from having gameplay. While <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> strictly is against the definition of <style=\"CurrentLink\">Synchronous Gameplay</style> given above, a weaker form of <style=\"CurrentLink\">Synchronous Gameplay</style> can be said to be that all non-eliminated players have simultaneous play and game sessions. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Synchronous Gameplay</style> makes games become <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> and one sense of judging how much of <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> they are can be how much of the gameplay is synchronous. Having to wait for players in the beginning of a game instance can cause <style=\"CurrentLink\">Synchronous Gameplay</style> to force <style=\"Link\"><link=\"downtime\">Downtime</link></style> on players. In addition, one player wanting or needing to take a break from gameplay forces <style=\"Link\"><link=\"downtime\">Downtime</link></style> on other players.",
+            "Having players having play session are the same time allows them to have real-time conversations, so <style=\"CurrentLink\">Synchronous Gameplay</style> affect the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> they can have during gameplay.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>, <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "downtime",
+            "multiplayer-games",
+            "togetherness"
+        ],
+        "modulates" : [
+            "social-interaction"
+        ],
+        "instantiated_by" : [
+            "dedicated-game-facilitators",
+            "self-facilitated-games"
+        ],
+        "modulated_by" : [
+            "communication-channels",
+            "player-elimination",
+            "real-time-games",
+            "tick-based-games",
+            "turn-based-games"
+        ],
+        "conflicts" : [
+            "turn-taking"
+        ]
+    }
+}

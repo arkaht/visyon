@@ -1,0 +1,65 @@
+{
+    "name" : "Player-Artifact Proximity",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Pervasive Patterns",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Game rules that depend on players being physically close to artifacts.",
+        "markups" : [
+            "<style=\"Definition\">Game rules that depend on players being physically close to artifacts.</style>",
+            "Players' physical position in relation to gameplay artifacts is typically assumed not to be part of gameplay since either the artifacts are virtual ones or all players are co-located and can easily reach all artifacts. However, some games do this by measuring the position of both players and gameplay artifacts or otherwise ensuring that they are close to each other in order for players to interact with the artifacts or for gameplay events to be initiated. Games that do this make use of <style=\"CurrentLink\">Player-Artifact Proximity</style>. Note that artifacts can be either physical ones or virtual ones that are somehow given a location in the physical space. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> that make use of balls or pucks are trivial cases of <style=\"CurrentLink\">Player-Artifact Proximity</style> since it is rather obvious that players need to be close to them to be able to influence them. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> are two examples of this. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Baseball\">Baseball</link></style> is a somewhat more interesting example since pitchers need to throw balls within the ''strike zone'' of the batters, in effect requiring that a <style=\"CurrentLink\">Player-Artifact Proximity</style> is achieved.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style> is based on players trying to find small caches hidden by other players. While the general locations of these are given with GPS coordinates, players need to locate the actual caches to be able to report their contents. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Insectopia\">Insectopia</link></style> makes use of nearby Bluetooth devices to generate gameplay content and given the range of Bluetooth communication, this becomes a form of <style=\"CurrentLink\">Player-Artifact Proximity</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Design choices linked to <style=\"CurrentLink\">Player-Artifact Proximity</style> relate to what events are triggered by coming within the proximity and leaving it, and the distance for the proximity threshold. This can be modulated by having several different proximity thresholds for different events, making the triggering require <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, and making the events continuously trigger as long as players perform the <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> of being in the proximity. While sensors or <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> can measure distances between players and artifacts to determine if they are in proximity, and alternative exists in creating <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals that are completed by physically examining the artifacts. This option is used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style> where technology helps players get close enough to the caches to start looking for them based upon clues received and then verify that they have been found by reporting on what it contained.",
+            "Beyond this, the artifacts used can be gameplay <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> or <style=\"Link\"><link=\"game-items\">Game Items</link></style> such as <style=\"Link\"><link=\"tools\">Tools</link></style>, so when using <style=\"CurrentLink\">Player-Artifact Proximity</style> one should take the design possibilities these have into consideration.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Player-Artifact Proximity</style> makes the physical position of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> or <style=\"Link\"><link=\"tools\">Tools</link></style> into a gameplay feature, and thereby modify the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> and <style=\"Link\"><link=\"tools\">Tools</link></style>. This also makes games have <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style> since the gameplay area is linked to the real world, and if this area is not denied to other activities it can also create <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>. Having to move to come close to artifacts (or achieve a certain distance from them) makes <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style> a consequence of <style=\"CurrentLink\">Player-Artifact Proximity</style>. ",
+            "If <style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style> is supported for the artifact and proximity is required to gain <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style>, <style=\"CurrentLink\">Player-Artifact Proximity</style> gives rise to <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style></style>",
+            "<style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-element-trading",
+            "pervasive-gameplay",
+            "physical-navigation",
+            "player-player-proximity"
+        ],
+        "modulates" : [
+            "game-items",
+            "real-world-gameplay-spaces",
+            "tokens",
+            "tools"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "dedicated-game-facilitators",
+            "extended-actions",
+            "gain-information"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "name" : "Awareness of Surroundings",
+    "categories" : [
+        "Patterns",
+        "Agent Patterns",
+        "Needs work",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "The ability of algorithmic agents to detect and react to all diegetically relevant phenomena.",
+        "markups" : [
+            "<style=\"Definition\">The ability of algorithmic agents to detect and react to all diegetically relevant phenomena.</style>",
+            "For agents of game worlds to behave convincingly, they need to exhibit some characteristics. One of these is having an <style=\"CurrentLink\">Awareness of Surroundings</style>, i.e. noticing and reacting appropriately to things, agents, and events that they can perceive.",
+            "<style=\"H3\">Examples</style>",
+            "The enemies controlled by computers in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike series</link></style> are programmed to be both aware of players and the items one can retrieve from the environment. While the inhabitants of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> and many other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> have the same functionality, showing proper responses to movement, closeness, etc., in non-combat aspects of the gameplay make these games lack some <style=\"CurrentLink\">Awareness of Surroundings</style> that socially believable characters should have (see Lankoski & Björk for a more detailed exploration of this<ref name=\"Lankoski & Björk 2007\"/>).",
+            "The \"Sims\" in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style> of games can both react and interaction with much of their environments. This is implemented in the games partly by having appropriate reaction coded in the various items of the environment, something which allows the games to easily be expanded with new items.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Awareness of Surroundings</style> is a pattern applied to <style=\"Link\"><link=\"enemies\">Enemies</link></style> or <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> run by <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> to make them react to what exists in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. Typically things that <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> need to have responses to include other <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> (especially <style=\"Link\"><link=\"enemies\">Enemies</link></style>), <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, and <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style>.",
+            "While reacting to something in the environment based solely on the relationship the <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> has to that something is sufficient for a basic <style=\"CurrentLink\">Awareness of Surroundings</style>, more complex and believable responses may require the use of <style=\"Link\"><link=\"context-dependent-reactions\">Context Dependent Reactions</link></style> and <style=\"Link\"><link=\"memory-important-events\">Memory of Important Events</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Providing <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> is one of the reasons for making <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> have an <style=\"CurrentLink\">Awareness of Surroundings</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "That <style=\"Link\"><link=\"agents\">Agents</link></style> have an <style=\"CurrentLink\">Awareness of Surroundings</style> provides one of the requirements for them to display both a <style=\"Link\"><link=\"sense-self\">Sense of Self</link></style> and an <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>. This can also help for a game to have <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>, <style=\"Link\"><link=\"sense-self\">Sense of Self</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"context-dependent-reactions\">Context Dependent Reactions</link></style>, <style=\"Link\"><link=\"memory-important-events\">Memory of Important Events</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "own-agenda",
+            "sense-self",
+            "thematic-consistency"
+        ],
+        "modulates" : [
+            "algorithmic-agents",
+            "enemies",
+            "non-player-characters"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "context-dependent-reactions",
+            "memory-important-events"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

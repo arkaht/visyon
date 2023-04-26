@@ -1,0 +1,74 @@
+{
+    "name" : "Real World Gameplay Spaces",
+    "categories" : [
+        "Patterns",
+        "To be Published",
+        "Needs revision",
+        "Pervasive Patterns",
+        "Interface Patterns",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Games where the specifics of physical space that constitutes the gameplay space affects the gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Games where the specifics of physical space that constitutes the gameplay space affects the gameplay.</style>",
+            "In one sense, all games require ''some'' space in the real world, even if it is through computers or other machines that enable them. However, a distinction can be made for games where players physically need to move their entire bodies to new locations in order to game. In these cases, the games can be said to have <style=\"CurrentLink\">Real World Gameplay Spaces</style> in which the gameplay takes place which either denies that space to other activities or leads to the two activities sharing the space. Similarly, games where the game elements moved are large enough to interfere significantly with other activities in the same space can be said to have <style=\"CurrentLink\">Real World Gameplay Spaces</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style> are obvious examples of <style=\"CurrentLink\">Real World Gameplay Spaces</style> since players need to move around in specially designated areas to participate. Competitions with remote controlled vehicles (e.g. those arranged by IFMAR<ref name=\"ifmar\"/>) and the robot gladiator games shown in the TV series <ref name=\"robotwars\">Robot Wars</ref> also have <style=\"CurrentLink\">Real World Gameplay Spaces</style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Alternate%20Reality%20Games\">Alternate Reality Games</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trenne%20Byar\">Trenne Byar</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style>) take place in physical environments which may or may not be shared with other activities and people not aware of the game activity taking place. The same applies to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Can%20You%20See%20Me%20Now?\">Can You See Me Now?</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Insectopia\">Insectopia</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pirates!\">Pirates!</link></style> can be seen as weak examples since the position in the real world do matter to gameplay but only in how players are in proximity to other players or game elements. ",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blindfold%20Chess\">Blindfold Chess</link></style> can be seen as a counter-example of <style=\"CurrentLink\">Real World Gameplay Spaces</style> since it does not require any space at all besides that which the people playing it would occupy anyway. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Insectopia\">Insectopia</link></style> is an example of a game where the physical proximity of players to Bluetooth devices is part of the gameplay but where the specific of the physical space is not important.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The pattern <style=\"CurrentLink\">Real World Gameplay Spaces</style> can quite easily be part of a game through defining a physical space and specifying how this related to gameplay actions. The simplest of these relations is to define that actions can only be performed within the space but the introduction of <style=\"CurrentLink\">Real World Gameplay Spaces</style> open up for several specific other patterns, namely those related to physical proximity. The most common of these are probably <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, and <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style>.",
+            "Games with <style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style> and <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> can be designed to require movement or actions in the real world and thereby instantiate <style=\"CurrentLink\">Real World Gameplay Spaces</style>. It should be noted however that properly designed games with <style=\"CurrentLink\">Real World Gameplay Spaces</style> can allow <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> so the patterns can instantiate each other. <style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style> can make games indirectly have <style=\"CurrentLink\">Real World Gameplay Spaces</style> by making players need to move in the real world to access the different media used in the games.",
+            "It may be seen as <style=\"CurrentLink\">Real World Gameplay Spaces</style> is necessary for <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style> since in these players enact all their <style=\"Link\"><link=\"characters\">Characters</link></style> actions. However, these games can be localized to small enclosed area where the spatial aspects become irrelevant. For this reason, <style=\"CurrentLink\">Real World Gameplay Spaces</style> is a possible way to modify games with <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style> by making spatial movement or distances a feature in the gameplay.",
+            "<style=\"Link\"><link=\"configurable-gameplay-areas\">Configurable Gameplay Areas</link></style> may be a valuable way of modifying games with <style=\"CurrentLink\">Real World Gameplay Spaces</style> that are set up anew for each game instance.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Real World Gameplay Spaces</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style> in that it either requires players to move their own bodies as part of gameplay or state something about how game elements are moved within the game.",
+            "<style=\"H2\">Consequences</style>",
+            "Games with <style=\"CurrentLink\">Real World Gameplay Spaces</style> typically have <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>, either due to explicit design choices or because real-world events affect the gameplay and thereby become game events. When <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> is required, this creates <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style> which can in turn be seen as an example of <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>. The pattern can give rise to <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style> in games where not all necessary information about the gameplay space is available to players at all time (i.e. a game without <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>).",
+            "Further, <style=\"CurrentLink\">Real World Gameplay Spaces</style> is a prerequisite for <style=\"Link\"><link=\"hybrid-gameplay-spaces\">Hybrid Gameplay Spaces</link></style>. They make a requirement of having <style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style> if <style=\"Link\"><link=\"ai-players\">AI Players</link></style> are supposed to participate fully in the gameplay.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>, <style=\"Link\"><link=\"hybrid-gameplay-spaces\">Hybrid Gameplay Spaces</link></style>, <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style></style>",
+            "<style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style>, <style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"configurable-gameplay-areas\">Configurable Gameplay Areas</link></style>, <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "events-timed-real-world",
+            "hybrid-gameplay-spaces",
+            "real-world-knowledge-advantages",
+            "physical-navigation"
+        ],
+        "modulates" : [
+            "ai-players",
+            "live-action-roleplaying"
+        ],
+        "instantiated_by" : [
+            "alternate-reality-gameplay",
+            "crossmedia-gameplay",
+            "pervasive-gameplay"
+        ],
+        "modulated_by" : [
+            "configurable-gameplay-areas",
+            "player-artifact-proximity",
+            "player-location-proximity",
+            "player-player-proximity"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

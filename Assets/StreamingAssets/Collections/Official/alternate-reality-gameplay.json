@@ -1,0 +1,77 @@
+{
+    "name" : "Alternate Reality Gameplay",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns",
+        "Information Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Games where it is more or less unclear if information about the game and actions performed have to do with a game or the real world.",
+        "markups" : [
+            "<style=\"Definition\">Games where it is more or less unclear if information about the game and actions performed have to do with a game or the real world.</style>",
+            "Most games are easily distinguishable as such and both players and spectators can easily judge if somebody is playing them or not. Games that make this difficult by \"hiding\" in other activities have <style=\"CurrentLink\">Alternate Reality Gameplay</style>, and this can both make it difficult to know when one is receiving information from the game and how one should actually affect them. ",
+            "The book <i>Pervasive Games - Theory and Design</i> specifically discusses the design and theories surrounding games with <style=\"CurrentLink\">Alternate Reality Gameplay</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin\">Assassin</link></style> is an early example of <style=\"CurrentLink\">Alternate Reality Gameplay</style> in that players attempt to \"kill\" each other while going about their everyday lives. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conspiracy%20for%20Good\">Conspiracy for Good</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/I%20Love%20Bees\">I Love Bees</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Prosopopeia\">Prosopopeia</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Beast\">The Beast</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Truth%20About%20Marika\">The Truth About Marika</link></style> are examples of more elaborate games with <style=\"CurrentLink\">Alternate Reality Gameplay</style>, including the presence of developed narratives and the use of many different types of mediums. Wikipedia has an entry on ''Alternate Reality Games'', including several examples<ref name=\"arg\"/>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eternal%20Darkness:%20Sanity's%20Requiem\">Eternal Darkness: Sanity's Requiem</link></style> shows that <style=\"CurrentLink\">Alternate Reality Gameplay</style> can be staged on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer-based Games</link></style>. This be providing players with untrue information about the status of controllers, saves, etc.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Creating <style=\"CurrentLink\">Alternate Reality Gameplay</style> requires that the information and events from the game, and often other players, can be mistaken for other activities. This means that players need to have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> and one way of doing this is piggybacking on other things (e.g. by being small parts of commercials or TV shows) or being one of many \"messages\" in a medium (e.g. phone calls). <style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style> can be used to make both these solutions less obvious by simply increasing the number of mediums used. The use of performers engaging in <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style> is in this sense mediums available to game designers.",
+            "<style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> is often used as one of the primary activities players can engage in as part of <style=\"CurrentLink\">Alternate Reality Gameplay</style>. There are several reasons for this. One is that trying to find information from the game and judge if information found is actually from the game are both natural activities if the channels for gameplay is uncertain. Another is that <style=\"Link\"><link=\"clues\">Clues</link></style> can easily be spread over both space and time to the extent game designers want to structure narrative progression and scale the game. A third is that <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> can be done of groups of players, and they can rather easily create their own forums for doing so using the internet.",
+            "Players' actions can be more difficult to anticipate in games with <style=\"CurrentLink\">Alternate Reality Gameplay</style> than other types of games since these do not clearly communicate to players what they can actually do. This means that game designers may wish to both help stumbling players and make use of innovative activities they have initiated. For this reason, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, often called ''Puppetmasters'' by designers of alternate reality games, are used in alternate reality game productions.",
+            "<style=\"CurrentLink\">Alternate Reality Gameplay</style> often co-exists with <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>, so it can be advisable to consider these patterns simultaneously. <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> provides a natural starting point for <style=\"CurrentLink\">Alternate Reality Gameplay</style> since in these it is easy to hide or blur the \"gameness\" of communications to players. The <style=\"Link\"><link=\"fake-game-overs\">Fake Game Overs</link></style> and other \"lies\" told to players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eternal%20Darkness:%20Sanity's%20Requiem\">Eternal Darkness: Sanity's Requiem</link></style> shows that other types of games can have <style=\"CurrentLink\">Alternate Reality Gameplay</style> also.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Since <style=\"CurrentLink\">Alternate Reality Gameplay</style> is supposed to be able to merge with the real world, it needs to comply to a <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> which in turn complies with the players' perception of reality.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Focusing on hiding or confusing what is a game, <style=\"CurrentLink\">Alternate Reality Gameplay</style> is both an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Information%20Patterns\">Information</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. A specific problem regarding this is how players should first become aware of the games; <style=\"Link\"><link=\"rabbit-hole-invitations\">Rabbit Hole Invitations</link></style> is one reoccurring solution to this problem which makes it a challenge to become aware of the existence of the games while <style=\"Link\"><link=\"fake-game-cancellations\">Fake Game Cancellations</link></style> is another which can openly advertise their existence but then blur this by claiming that they are cancelled. ",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Many games with <style=\"CurrentLink\">Alternate Reality Gameplay</style> have <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> that can slowly be revealed through <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>. However, player actions can be very difficult to predict in games with <style=\"CurrentLink\">Alternate Reality Gameplay</style> since players have little support in knowing what are \"proper\" gameplay actions. This can make it necessary to be able to modify the <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> by <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> to keep players interested.",
+            "<style=\"H2\">Consequences</style>",
+            "Although <style=\"CurrentLink\">Alternate Reality Gameplay</style> can be completely instantiated by electronic mediums, the possibility of locating gameplay at specific points makes many games with this pattern have <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>. This, and the fact that many electronic mediums used as available to the general public, makes this type of gameplay support <style=\"Link\"><link=\"spectators\">Spectators</link></style> in most cases, even if the <style=\"Link\"><link=\"spectators\">Spectators</link></style> may not be aware of the fact that they are <style=\"Link\"><link=\"spectators\">Spectators</link></style> of a game.",
+            "Not being sure of whether something is part of a game or not can cause <style=\"Link\"><link=\"tension\">Tension</link></style> in addition to that created by the actual gameplay.",
+            "The common use of <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style> in <style=\"CurrentLink\">Alternate Reality Gameplay</style> can easily lead to involuntary <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>, but this can occur in other situations as well simply by the loose restrictions on player actions.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>, <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style>, <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"fake-game-cancellations\">Fake Game Cancellations</link></style>, <style=\"Link\"><link=\"fake-game-overs\">Fake Game Overs</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"rabbit-hole-invitations\">Rabbit Hole Invitations</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "non-player-help",
+            "real-world-gameplay-spaces",
+            "spectators",
+            "tension"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "crossmedia-gameplay",
+            "diegetic-consistency",
+            "imperfect-information",
+            "pervasive-gameplay",
+            "puzzle-solving"
+        ],
+        "modulated_by" : [
+            "fake-game-cancellations",
+            "fake-game-overs",
+            "game-masters",
+            "live-action-roleplaying",
+            "predetermined-story-structures",
+            "rabbit-hole-invitations"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

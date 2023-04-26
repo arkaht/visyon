@@ -1,0 +1,58 @@
+{
+    "name" : "Coaches",
+    "categories" : [
+        "Player Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "People that supervise and guide members of teams.",
+        "markups" : [
+            "<style=\"Definition\">People that supervise and guide members of teams.</style>",
+            "Many games have teams. Some of these have people whose role is to help the members of these teams with instructions on how to both play the games and in many cases train before the games. While such <style=\"CurrentLink\">Coaches</style> are in fact often members of these teams, they are a special case not only due to these responsibilities but also because they do not actually perform the gameplay actions other team members do. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Baseball\">Baseball</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Basketball\">Basketball</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> all make use of <style=\"CurrentLink\">Coaches</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style> implies that the players are the <style=\"CurrentLink\">Coaches</style> of the teams while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hattrick\">Hattrick</link></style> provides statistics for them. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Coaches</style> in games tend to be humans but hypothetically they could also be <style=\"Link\"><link=\"characters\">Characters</link></style> as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hattrick\">Hattrick</link></style> shows. The main design choices related to <style=\"CurrentLink\">Coaches</style> tend to be how they can affect <style=\"Link\"><link=\"team-development\">Team Development</link></style> and, if they exist, how to make use of <style=\"Link\"><link=\"reserves\">Reserves</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Coaches</style> are <style=\"Link\"><link=\"entitled-players\">Entitled Players</link></style> and being one is a <style=\"Link\"><link=\"social-roles\">Social Role</link></style> in a <style=\"Link\"><link=\"teams\">Team</link></style>. Being one often requires use of <style=\"Link\"><link=\"social-skills\">Social Skills</link></style>, and making decisions regarding how to use <style=\"Link\"><link=\"reserves\">Reserves</link></style> and well as what directions <style=\"Link\"><link=\"team-development\">Team Development</link></style> should take.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"entitled-players\">Entitled Players</link></style>, <style=\"Link\"><link=\"social-skills\">Social Skills</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"reserves\">Reserves</link></style>, <style=\"Link\"><link=\"team-development\">Team Development</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"characters\">Characters</link></style>, players",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "entitled-players",
+            "social-skills",
+            "social-roles"
+        ],
+        "modulates" : [
+            "reserves",
+            "team-development",
+            "teams"
+        ],
+        "instantiated_by" : [
+            "characters",
+            ""
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

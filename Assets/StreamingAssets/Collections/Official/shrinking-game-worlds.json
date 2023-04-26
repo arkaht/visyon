@@ -1,0 +1,68 @@
+{
+    "name" : "Shrinking Game Worlds",
+    "categories" : [
+        "Patterns",
+        "Level Design Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Game worlds that become smaller as gameplay progresses.",
+        "markups" : [
+            "<style=\"Definition\">Game worlds that become smaller as gameplay progresses.</style>",
+            "Some games, primarily those where player compete against each other, decrease the size of the game world as game play progresses. These <style=\"CurrentLink\">Shrinking Game Worlds</style> make sure that player will eventually encounter each other.",
+            "<style=\"H3\">Examples</style>",
+            "Most of the stones placed while playing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> are not removed, leading to players having an effectively <style=\"CurrentLink\">Shrinking Game World</style>. The same is true in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hey!%20That's%20My%20Fish!\">Hey! That's My Fish!</link></style>, but in this case it is due to players removing ice tiles each time it is their turn. Building harvesters are required in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Greed%20Corp\">Greed Corp</link></style> to get new resources but each time these are activated they remove a layer of the tile they are on and those surrounding it which eventually leads to the tiles disappearing. ",
+            "The gameplay area shrinks in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bomberman%20series\">Bomberman series</link></style> if players fail to eliminate each other within a certain period of time. One of the multiplayer levels in [Half-Life]], ''Crossfire'' allows players to activate air strikes. Players not in a bunker when these arrive are killed, in effect reducing the gameplay area to the bunker for periods of the matches.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Shrinking Game Worlds</style> have two prime characteristics: in what way <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> shrink and in what way the shrinkage is activated. It is however important that each shrinkage is an <style=\"Link\"><link=\"irreversible-events\">Irreversible Event</link></style> since otherwise the game effect instead becomes that of a <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game World</link></style> (one could theoretically conceive of games where sometimes reductions are countered by  growths in other areas but overall <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> become smaller with time). Having <style=\"Link\"><link=\"tiles\">Tiles</link></style> as <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style> even if the \"destruction\" can simply be its removal, it one way of creating <style=\"CurrentLink\">Shrinking Game Worlds</style> and can do this with clear units for the shrinkage (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Greed%20Corp\">Greed Corp</link></style>). ",
+            "The reduction of <style=\"Link\"><link=\"game-worlds\">Game World</link></style> size can simply be a matter of <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> (as in multiplayer games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bomberman%20series\">Bomberman series</link></style>) or be required action by players during their turn in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Shrinking Game Worlds</style> are <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style> that instantiate <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style> but successively making <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> smaller as gameplay takes place. They increase <style=\"Link\"><link=\"tension\">Tension</link></style> by creating <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style> which in turn can limit players' <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>. That <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> shrink can be seen as an <style=\"Link\"><link=\"environmental-effects\">Environmental Effect</link></style> in these worlds, and these can effectively become <style=\"Link\"><link=\"traps\">Traps</link></style> for players - especially if other players can affect which parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> are removed (as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hey!%20That's%20My%20Fish!\">Hey! That's My Fish!</link></style>). By definition, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> that are to shrink need to be <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style> and the actual shrinkage is a reconfiguration. If players can control the shrinkage this allows <style=\"Link\"><link=\"player-defined-goals\">Player Defined Goals</link></style> and a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Constructed%20Worlds\">Player Constructed Worlds</link></style>. ",
+            "As the actual shrinking are <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"CurrentLink\">Shrinking Game Worlds</style> can both guarantee <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> and <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style> since players are force to share a more limited space and outcomes of struggles become more and more vital for the final outcome of the game instances.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Constructed%20Worlds\">Player Constructed Worlds</link></style>, <style=\"Link\"><link=\"player-defined-goals\">Player Defined Goals</link></style>, <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>, <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>",
+            "<style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style> together with <style=\"Link\"><link=\"tiles\">Tiles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "environmental-effects",
+            "higher-level-closures-gameplay-progresses",
+            "movement-limitations",
+            "player-constructed-worlds",
+            "player-defined-goals",
+            "reconfigurable-game-worlds",
+            "tension",
+            "the-show-must-go-on",
+            "time-limited-game-instances",
+            "traps",
+            "ultra-powerful-events"
+        ],
+        "modulates" : [
+            "game-worlds"
+        ],
+        "instantiated_by" : [
+            "irreversible-events",
+            "destructible-objects"
+        ],
+        "modulated_by" : [
+            "irreversible-events",
+            "time-limits"
+        ],
+        "conflicts" : [
+            "freedom-choice"
+        ]
+    }
+}

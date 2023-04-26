@@ -1,0 +1,70 @@
+{
+    "name" : "Unpredictable Behavior",
+    "categories" : [
+        "Patterns",
+        "Subjective Patterns",
+        "Agent Patterns",
+        "Speculative Patterns",
+        "Needs references",
+        "Needs examples"
+    ],
+    "texts" : {
+        "definition" : "The ability of agents to make actions that are unexpected.",
+        "markups" : [
+            "<style=\"Definition\">The ability of agents to make actions that are unexpected.</style>",
+            "The rules and goals of games often make it possible to predict the behavior of agents in the game world to a certain extent, and learning to do so is often part of the enjoyment and challenge of mastering a game. However, in some cases it may be desirable to have unpredictability in agent behavior, either to make the game more challenging or to create more suspense. Agents that at least sometimes are difficult to know what they will do next have <style=\"CurrentLink\">Unpredictable Behavior</style>.",
+            " ",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ELIZA\">ELIZA</link></style> program can surprise people by seeming to follow human behavior in quickly changing subject or making strange connections. However, this is merely an artifact of a simple dialogue system that intentionally expresses itself vaguely so people need to read much into what it says for it to have any meaning.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Unpredictable Behavior</style> is a pattern for modifying how <style=\"Link\"><link=\"agents\">Agents</link></style> behave. The easiest way to create the possibility for this is simply to let players control the agents but <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can be more appropriate for <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>. ",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> can be modified to exhibit this behavior also, in this case typically through <style=\"Link\"><link=\"randomness\">Randomness</link></style> but sufficiently complex rule-based behaviors can also produce this result as can vagueness which <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ELIZA\">ELIZA</link></style> shows.",
+            "While displaying previously unknown <style=\"Link\"><link=\"abilities\">Abilities</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style> can be a form of <style=\"CurrentLink\">Unpredictable Behavior</style>, this is only the case for the first such events since after experiencing it players can assume that it might occur again. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cut%20Scenes\">Cut Scenes</link></style> can be used to make <style=\"Link\"><link=\"agents\">Agents</link></style> have <style=\"CurrentLink\">Unpredictable Behavior</style> for specific situations since the <style=\"Link\"><link=\"agents\">Agents</link></style> do not need to abide to game rules during these events, but this is of course only unpredictable the first time players encounter the situation in which the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cut%20Scenes\">Cut Scene</link></style> took place.",
+            "<style=\"H2\">Consequences</style>",
+            "The use of <style=\"CurrentLink\">Unpredictable Behavior</style> can give the illusion of <style=\"Link\"><link=\"agents\">Agents</link></style> having <style=\"Link\"><link=\"own-agenda\">Own Agendas</link></style> which indirectly can support <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. Rather obvious, <style=\"CurrentLink\">Unpredictable Behavior</style> can create <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, and thereby work against a game having <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>.",
+            "When the <style=\"Link\"><link=\"agents\">Agents</link></style> that have <style=\"CurrentLink\">Unpredictable Behavior</style> are players (e.g. through the use of <style=\"Link\"><link=\"ai-players\">AI Players</link></style> or a <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style>), this gives rise to both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/player%20Unpredictability\">player Unpredictability</link></style> and <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"ai-players\">AI Players</link></style> or <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style></style>",
+            "<style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style> and <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cut%20Scenes\">Cut Scenes</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, Players, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "own-agenda",
+            "surprises",
+            "thematic-consistency",
+            "uncertainty-outcome",
+            "player-unpredictability"
+        ],
+        "modulates" : [
+            "agents",
+            "algorithmic-agents",
+            "non-player-characters"
+        ],
+        "instantiated_by" : [
+            "cut-scenes",
+            "game-masters",
+            "",
+            "randomness"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "predictable-consequences"
+        ]
+    }
+}

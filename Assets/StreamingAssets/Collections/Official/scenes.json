@@ -1,0 +1,91 @@
+{
+    "name" : "Scenes",
+    "categories" : [
+        "Patterns",
+        "Narration Patterns",
+        "Gameplay Arc Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "A gameplay period diegetically localized in time and space.",
+        "markups" : [
+            "<style=\"Definition\">A gameplay period diegetically localized in time and space.</style>",
+            "Some games divide gameplay into several different sequences differentiate by where and when they take place in the game world. Such individual sequences are <style=\"CurrentLink\">Scenes</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Scenes</style> are a game concept is primarily used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>, and is explicitly discussed in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Toon\">Toon</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Vampire:%20The%20Masquerade\">Vampire: The Masquerade</link></style>. The latter defines <style=\"CurrentLink\">Scenes</style> as “one compact period of time in one location”<ref name=\"vtm\"/>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fiasco\">Fiasco</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Universalis\">Universalis</link></style> are examples of more modern <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> which explores alternative power structures by letting players, rather than game masters, create <style=\"CurrentLink\">Scenes</style>",
+            "Since <style=\"Link\"><link=\"levels\">Levels</link></style> create rigidly-confined <style=\"CurrentLink\">Scenes</style>, many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> exhibits the pattern also. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Adventure%20Games\">Adventure Games</link></style> are among those that most often make use of <style=\"Link\"><link=\"levels\">Levels</link></style> for narrative purposes, with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grim%20Fandango\">Grim Fandango</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Walking%20Dead%20series\">Walking Dead series</link></style> as examples of how <style=\"CurrentLink\">Scenes</style> unlock the narration as gameplay challenges are overcome. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fahrenheit\">Fahrenheit</link></style> shows a more complex use of <style=\"CurrentLink\">Scenes</style> in that it shifts which character the player controls between each of them. ",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style> is an example of how <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Action%20Games\">Action Games</link></style> can make use of <style=\"CurrentLink\">Scenes</style> to construct more complex narratives. Here, the main historical gameplay is framed by <style=\"CurrentLink\">Scenes</style> of focused on the modern day character Desmond Miles. Another example of use of <style=\"CurrentLink\">Scenes</style> in the series is from the second game, where players briefly get to play Altaïr from the first game as to get knowledge about how Altaïr's bloodline continued.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Slaves to Armok II: Dwarf Fortress</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> are examples of games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Open%20Worlds\">Open Worlds</link></style> and no <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A first option when considering the use of <style=\"CurrentLink\">Scenes</style> is it they should be <style=\"Link\"><link=\"levels\">Levels</link></style>. This subpattern of <style=\"CurrentLink\">Scenes</style> put emphasis on defining all diegetic elements and gameplay actions while not using it allows a focus on <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>. Other options relate to where the <style=\"CurrentLink\">Scenes</style> should be located, which <style=\"Link\"><link=\"characters\">Characters</link></style> should be present, and how long each <style=\"CurrentLink\">Scenes</style> should last. <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> are <style=\"CurrentLink\">Scenes</style> in which players cannot affect what happens; <style=\"Link\"><link=\"summary-updates\">Summary Updates</link></style> are a subtype of <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> which can provide a prologue or epilogue to other <style=\"CurrentLink\">Scenes</style>. The <style=\"Link\"><link=\"contextualization\">Contextualization</link></style> technique introduces <style=\"CurrentLink\">Scenes</style> within ongoing <style=\"CurrentLink\">Scenes</style> to enhance these with explanations of former events or foreshadowing of future events.",
+            "For <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> the length of <style=\"CurrentLink\">Scenes</style> are more or less determined, either in actual time through <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> or when certain end conditions are met. More flexibility regarding the length of <style=\"CurrentLink\">Scenes</style> can be achieved through the use of <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, which also can improvise <style=\"CurrentLink\">Scenes</style> according to the need to the players, the narration, or the gameplay. <style=\"Link\"><link=\"meta-techniques\">Meta-Techniques</link></style> can allow both way to communicate meta information during <style=\"CurrentLink\">Scenes</style> as well as convey information to players that <style=\"CurrentLink\">Scenes</style> should start or end. One example of this is <style=\"Link\"><link=\"prompting-techniques\">Prompting Techniques</link></style>, which allow both players and <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> to indicate when <style=\"CurrentLink\">Scenes</style> should end or when new <style=\"CurrentLink\">Scenes</style> should start.",
+            "All <style=\"CurrentLink\">Scenes</style> which change location from the previous <style=\"CurrentLink\">Scene</style> make use of <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Scenes</style> that are not created through <style=\"Link\"><link=\"levels\">Levels</link></style> allow details about the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> to be decided or created only when they need to be. This can be used to have both <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style> and <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style> and opens up for <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fiasco\">Fiasco</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Universalis\">Universalis</link></style> shows how this can be used to provide players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Scenes</style> allows designers great control over <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> such as <style=\"Link\"><link=\"adventures\">Adventures</link></style>. This can for example be used to have <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> (and thereby prevent <style=\"Link\"><link=\"open-destiny\">Open Destinies</link></style>) and guarantee breaks in <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style> (as for example the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style> does). They also allow special focus to be placed on individual <style=\"Link\"><link=\"characters\">Characters</link></style>, and can create <style=\"Link\"><link=\"melodramatic-structures\">Melodramatic Structures</link></style> when this is not only done for narrative purposes but also change which <style=\"Link\"><link=\"characters\">Characters</link></style> can act.",
+            "They use of <style=\"CurrentLink\">Scenes</style> can also guarantee that players are exposed to <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style> or <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>. <style=\"Link\"><link=\"finale-levels\">Finale Levels</link></style> can be <style=\"CurrentLink\">Scenes</style> where narrative arcs are brought to a conclusion (e.g. by fighting <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>). ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Scenes</style> are one way of presenting <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> to players. By limiting the area in these where gameplay can occur, <style=\"CurrentLink\">Scenes</style> typically limit or make <style=\"Link\"><link=\"movement\">Movement</link></style> irrelevant and can be used to structure the development of <style=\"Link\"><link=\"adventures\">Adventures</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"adventures\">Adventures</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"characters\">Characters</link></style></style>",
+            "<style=\"Link\"><link=\"melodramatic-structures\">Melodramatic Structures</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"contextualization\">Contextualization</link></style>, <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"finale-levels\">Finale Levels</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"contextualization\">Contextualization</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"meta-techniques\">Meta-Techniques</link></style>, <style=\"Link\"><link=\"prompting-techniques\">Prompting Techniques</link></style>, <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>, <style=\"Link\"><link=\"summary-updates\">Summary Updates</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>, <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "adventures",
+            "game-element-insertion",
+            "game-worlds",
+            "narration-structures",
+            "predetermined-story-structures",
+            "reconfigurable-game-worlds",
+            "melodramatic-structures"
+        ],
+        "modulates" : [
+            "boss-monsters",
+            "characters",
+            "environmental-storytelling",
+            "movement",
+            "storytelling"
+        ],
+        "instantiated_by" : [
+            "contextualization",
+            "cutscenes",
+            "finale-levels",
+            "game-masters",
+            "levels"
+        ],
+        "modulated_by" : [
+            "contextualization",
+            "creative-control",
+            "game-masters",
+            "meta-techniques",
+            "prompting-techniques",
+            "quick-travel",
+            "summary-updates",
+            "time-limits"
+        ],
+        "conflicts" : [
+            "movement",
+            "open-destiny",
+            "temporal-consistency"
+        ]
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "name" : "Public Player Statistics",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Statistics about players that are easily accessible to others.",
+        "markups" : [
+            "<style=\"Definition\">Statistics about players that are easily accessible to others.</style>",
+            "While players can always lets other know how well (or bad) they performed in a game, games can help with this by keeping track of player data and making it available to others. These <style=\"CurrentLink\">Public Player Statistics</style> may only be accessible to others playing the game or anyone with access to the Internet, but they make what players do more important since they need to stand for their performances.",
+            "<style=\"H3\">Examples</style>",
+            "The high score lists on early arcade games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style> are early examples of <style=\"CurrentLink\">Public Player Statistics</style>, even if they are only available to those in close proximity to the machines.",
+            "The rise of achievement system on Steam, Xbox Live, and PlayStation Network are examples of <style=\"CurrentLink\">Public Player Statistics</style>. These allow players of numerous games, including the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cogs\">Cogs</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20II\">Assassin's Creed II</link></style>, to see how far and well they have played the games compared to their friends, and if they have done optional challenges.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ravenwood%20Fair\">Ravenwood Fair</link></style> let players broadcast what they are doing, including when they level up, to all other people on Facebook.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Public Player Statistics</style> is basically <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style> made available to others than the player creating them. They can quite easily be created through the use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style> or <style=\"Link\"><link=\"achievements\">Achievements</link></style> as long as they can be accessed by others (they can be especially appropriate for <style=\"Link\"><link=\"goal-achievements\">Goal Achievements</link></style> since these are directly linked to players' progress). They can then be modulated so only selected people can view them through the use of <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> (or so that players can filter presentations when the gameplay data of very many players can be accessed), or that people not even playing the games are told about them through <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>. The latter option may be under players' control (like updating one's status on Facebook about what one has done in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ravenwood%20Fair\">Ravenwood Fair</link></style>) or automatically be sent out by the system. Less obvious ways to create <style=\"CurrentLink\">Public Player Statistics</style> include <style=\"Link\"><link=\"visits\">Visits</link></style> and <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>. The former allows players to choose when they visit other players' parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and thereby know more about their gameplay. The latter reveals what tasks and challenges players are currently trying to finish to those not playing the game.",
+            "Having a <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style> in a game removes a central point with having <style=\"CurrentLink\">Public Player Statistics</style>. This can however be modulated through the use of <style=\"Link\"><link=\"handles\">Handles</link></style> which may be recognized by friends or small subgroups of other players.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "While <style=\"CurrentLink\">Public Player Statistics</style> can designed with the intent to support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style>, it can also be used for players to find suitable opponents and thereby have <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>. In this case <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> are suitable locations to provide the information about other players but in can also be feasible to have <style=\"CurrentLink\">Public Player Statistics</style> accessible through  <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Public Player Statistics</style> can increase the <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> for players in games since it allows them to have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style> by displaying their <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> through <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>. This quite naturally leads to <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> based upon having better statistics than other players. It also allows <style=\"Link\"><link=\"spectators\">Spectators</link></style> of sorts even if this was not possible earlier since others can follow the changes in the statistics. This can allow players to engage in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style> or be perceived by others regardless of the players' intent. ",
+            "As the name implies, <style=\"CurrentLink\">Public Player Statistics</style> provides an amount <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style>, and there is typically no <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> about the information revealed.",
+            "When <style=\"CurrentLink\">Public Player Statistics</style> is used to help player achieve <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> by finding opponents of the same level of skill, this is a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style>, <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"achievements\">Achievements</link></style>, <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"goal-achievements\">Goal Achievements</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style>, <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>, <style=\"Link\"><link=\"visits\">Visits</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "bragging",
+            "extra-game-consequences",
+            "game-based-social-statuses",
+            "meta-games",
+            "player-balance",
+            "public-information",
+            "spectators",
+            "trans-game-information"
+        ],
+        "modulates" : [
+            "achievements",
+            "game-lobbies",
+            "gameplay-mastery",
+            "goal-achievements",
+            "value-effort"
+        ],
+        "instantiated_by" : [
+            "global-high-score-lists",
+            "non-player-help",
+            "visits"
+        ],
+        "modulated_by" : [
+            "extra-game-broadcasting",
+            "friend-lists",
+            "gameplay-statistics",
+            "handles",
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+            "possibility-anonymity",
+            "uncertainty-information"
+        ]
+    }
+}

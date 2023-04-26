@@ -1,0 +1,60 @@
+{
+    "name" : "Back-to-Back Game Sessions",
+    "categories" : [
+        "Meta Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Playing a game again directly after finishing a game session and swapping the roles players have.",
+        "markups" : [
+            "<style=\"Definition\">Playing a game again directly after finishing a game session and swapping the roles players have.</style>",
+            "So games are not balanced due to starting players having advantages or simply that the setup gives some players advantages or others. While these imbalances may be intentional to fit thematic requirements or are simply difficult to design away, they can be balanced by playing the games several times so each player gets each type of advantage. Such <style=\"CurrentLink\">Back-to-Back Game Sessions</style> may require players to spend more time playing the game to have the intended experience but at the same time can allow different gameplay experiences.",
+            "<style=\"H3\">Examples</style>",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> tournaments it is common that players meeting each other play several game instances and that one alternates who starts. This removes the advantage of being the starting player and thereby gives a more balanced result. This can be applied to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> tournaments as well even if the ''komi'' compensation is intended to remove first player advantages. ",
+            "The scenarios in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Memoir%20'44\">Memoir '44</link></style> are in several cases not balanced to be aligned to the historical events they depict. The game rules suggest that players play each scenario twice, switching sides between each game instance, to make it possible for players to compare how well they played. The scenarios in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style> are often tilted in the favor of the \"genestealer\" player and for this reason a fair judgment of how players have succeeded is difficult to do without playing scenarios twice with roles reversed after the first game instance.",
+            "Servers for team-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> are often set up so they swap which team has which side on a map. This creates <style=\"CurrentLink\">Back-to-Back Game Sessions</style> for players that play several matches on the same server.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Back-to-Back Game Sessions</style> for games where all players are co-located is mainly a question of encouraging players to play the game several times with changes roles. For games where players are not in each other's proximity, the pattern can need <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> to help players handle the transitions between game instances (which players probably view as rounds).",
+            "However, <style=\"Link\"><link=\"scores\">Scores</link></style> can be useful for making <style=\"CurrentLink\">Back-to-Back Game Sessions</style> easy to compare to each other, and those designing games to use <style=\"CurrentLink\">Back-to-Back Game Sessions</style> may consider having <style=\"Link\"><link=\"scores\">Scores</link></style> in the underlying game.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Back-to-Back Game Sessions</style> are a way to create <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> to provide <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> to imbalances such as <style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style> or <style=\"Link\"><link=\"first-player-advantages\">First Player Advantages</link></style> in the underlying games. They can of course also affect already existing <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> such as <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>. Besides providing <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> they may, especially in games with <style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>, also give <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> since players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversal</link></style> between the game instances.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversal</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>, <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"first-player-advantages\">First Player Advantages</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "balancing-effects",
+            "meta-games",
+            "role-reversal",
+            "varied-gameplay"
+        ],
+        "modulates" : [
+            "asymmetric-starting-conditions",
+            "tournaments"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "game-lobbies",
+            "scores"
+        ],
+        "conflicts" : [
+            "first-player-advantages"
+        ]
+    }
+}

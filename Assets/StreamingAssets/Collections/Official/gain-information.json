@@ -1,0 +1,113 @@
+{
+    "name" : "Gain Information",
+    "categories" : [
+        "Mechanical Patterns",
+        "Goal Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The goal of performing actions in a game in order to be able to receive information or make deductions.",
+        "markups" : [
+            "<style=\"Definition\">The goal of performing actions in a game in order to be able to receive information or make deductions.</style>",
+            "<style=\"CurrentLink\">Gain Information</style> goals are tasks related to gaining more knowledge about something in the game. This can range from discovering where a certain game element is in the game space, knowing what values game elements have, what abilities other players have access to, to what goals exist in the game. The completion of the goal can either be verified by a game state change that does not require the player to actually understand the information or by requiring the player to perform some activity or complete a goal that indicates that the information has been collected and understood by a player. In the first case, this can be by the player gaining an object in the game, e.g., picking up a book, or choosing an action that presents the information to the player, e.g., looking at a sign. In the second case, this can be by observing that the player has done an action that was unlikely to have been performed otherwise, e. g., selecting the right five-digit combination to a safe.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hide%20&%20Seek\">Hide & Seek</link></style>, the traditional children's game, is the archetypical example of direct use of this pattern. In the game, one of the players is the seeker whose task is to find out the other players who have had a certain amount of time to hide themselves. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stratego\">Stratego</link></style> is a strategy game where a player knows the position of the other players pieces but not their type - and given that the type solely determines outcomes in battles it is critical to as efficiently as possible determine how the other player has distributed the various types of pieces.",
+            "<style=\"CurrentLink\">Gain Information</style> is the typical goal used in mystery games to drive the unfolding of the story, e. g., the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gabriel%20Knight%20series\">Gabriel Knight series</link></style>.",
+            "A weaker example of <style=\"CurrentLink\">Gain Information</style> can be found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style>-based games like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style>, where having good suspicions about want hands other players have is very advantageous. This is a weaker example since the goal cannot actual be fulfilled through game actions before the motivation for the <style=\"CurrentLink\">Gain Information</style> goal - winning a current hand - has been resolved. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go%20Fish\">Go Fish</link></style> is a stronger example since the gameplay is based upon guessing other players' hands and the correctness of the guesses directly influence the game state.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The basis for constructing <style=\"CurrentLink\">Gain Information</style> goals is that players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>. This means that making games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Foresight\">Limited Foresight</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>, or those requiring <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> quite naturally can provide or create <style=\"CurrentLink\">Gain Information</style> goals. Limiting players possibilities to observe a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20World\">Game Worlds</link></style> to that of a single <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character\">Characters</link></style> perspective, i.e., using a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Detective%20Structure\">Detective Structures</link></style> make <style=\"CurrentLink\">Gain Information</style> goals arise through <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> to players as long as not the whole <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20World\">Game Worlds</link></style> or gameplay possibilities can be observed at once. Similar to <style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> together with <style=\"Link\"><link=\"clues\">Clues</link></style> make players have <style=\"CurrentLink\">Gain Information</style> goals in the form of trying to figure out what will happen next <style=\"Link\"><link=\"information-passing\">Information Passing</link></style> as a pattern is quite often used as the means by which <style=\"CurrentLink\">Gain Information</style> goals are finished.",
+            "Another way to provide <style=\"CurrentLink\">Gain Information</style> is through making one or some players or agents not have the same information as others, i.e., having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>. <style=\"Link\"><link=\"factions\">Factions</link></style> supports this in relation to diegetic characters while <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style> shows how this can be achieved within <style=\"Link\"><link=\"factions\">Factions</link></style>; in both cases one category of possible <style=\"CurrentLink\">Gain Information</style> goals include identifying others' <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style> or <style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style>. The hidden information about the other player's pieces in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stratego\">Stratego</link></style> is another example of this; while this is a type of <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> in general <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> and thereby <style=\"CurrentLink\">Gain Information</style> goals can be supported by the game system hiding information about the environment from players. Cards games where players have <style=\"Link\"><link=\"hands\">Hands</link></style> quite naturally cause other players to have <style=\"CurrentLink\">Gain Information</style> goals but they may not be possible to succeed with from a game system perspective unless specific actions support this - <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go%20Fish\">Go Fish</link></style> is an example of a game with this type of support.",
+            "Possible information target for <style=\"CurrentLink\">Gain Information</style> goals include: identifying <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hidden%20Rules\">Hidden Rules</link></style> (since the latter provide <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>); pinpoint locations of items that players have <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals connected to; noticing the presence or locations of <style=\"Link\"><link=\"enemies\">Enemies</link></style> (which may take the form of <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> goals); uncovering the <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>, <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>, or <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> of existing <style=\"Link\"><link=\"enemies\">Enemies</link></style>; and discovering the existence of <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style>; revealing <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style> or <style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style> of opponents (as mentioned previously) where <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style> can become especially important if they are also <style=\"Link\"><link=\"committed-goals\">Committed Goals</link></style>; or simply finding the solution to a puzzle. <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> goals may require <style=\"CurrentLink\">Gain Information</style> goals to be completed first it the information to be memorized isn't made freely available at the beginning of a <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> goal. Similarly, <style=\"Link\"><link=\"helpers\">Helpers</link></style> may not start helping players before they have been given certain information, i.e., players have succeeded with <style=\"CurrentLink\">Gain Information</style> goals and then given that information to the <style=\"Link\"><link=\"helpers\">Helpers</link></style>.",
+            "<style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> and <style=\"Link\"><link=\"rescue\">Rescue</link></style> goals can be based upon the need to succeed with <style=\"CurrentLink\">Gain Information</style> goals, but these can also offer unintended or serendipitous solutions to <style=\"CurrentLink\">Gain Information</style> goals in that items or those rescued had information players where not aware that they would have. <style=\"Link\"><link=\"quests\">Quests</link></style> can also be based around <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> asking playing to <style=\"CurrentLink\">Gain Information</style> for them.",
+            "In games where player use their own bodies to traverse gameplay areas, e.g., <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style>, <style=\"CurrentLink\">Gain Information</style> goals can be modified by <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style> to require players to be physically close to specific game objects to succeed.",
+            "<style=\"CurrentLink\">Gain Information</style> goals can be made more difficult through the introduction of false clues or possible answers, i.e., <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style> can be used to either make the <style=\"CurrentLink\">Gain Information</style> goals easier of to provide supporting structures that allow the goal to be spread out more over game time or game space.",
+            "Perhaps not to surprising, <style=\"CurrentLink\">Gain Information</style> goals can be difficult to have in games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "As mentioned above, <style=\"Link\"><link=\"factions\">Factions</link></style> (including <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>) and <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style> or <style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style> connected to these can be used to create <style=\"CurrentLink\">Gain Information</style> goals.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Gain Information</style> goals can be created through interfaces providing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> or <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> to players.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "As mentioned above, the narration patterns <style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style> and <style=\"Link\"><link=\"factions\">Factions</link></style> are ways of structuring gameplay around <style=\"CurrentLink\">Gain Information</style> goals; they can also be the basis for <style=\"Link\"><link=\"quests\">Quests</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "As long as the information that is part of a <style=\"CurrentLink\">Gain Information</style> goal is useful, that <style=\"CurrentLink\">Gain Information</style> goal becomes a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Supporting%20Goal\">Supporting Goals</link></style>. <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> activities arises from trying to <style=\"CurrentLink\">Gain Information</style> how to solve a puzzle, while <style=\"Link\"><link=\"conceal\">Conceal</link></style> goals can arise when an agent in the game wants to hinder others from succeeding with <style=\"CurrentLink\">Gain Information</style> goals. Players may engage in <style=\"Link\"><link=\"experimenting\">Experimenting</link></style> when players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> regarding if they have the information contained in a <style=\"CurrentLink\">Gain Information</style> goal to test options.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/System%20Exploration\">System Exploration</link></style> emerges from <style=\"CurrentLink\">Gain Information</style> goals when these can be completed by understanding the systemic properties of a game. In contrast, when players need to visit different parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> by engaging in <style=\"Link\"><link=\"traverse\">Traverse</link></style> them, <style=\"CurrentLink\">Gain Information</style> leads to <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"conceal\">Conceal</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/System%20Exploration\">System Exploration</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style></style>",
+            "<style=\"Link\"><link=\"experimenting\">Experimenting</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"traverse\">Traverse</link></style></style>",
+            "<style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style>, <style=\"Link\"><link=\"rescue\">Rescue</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, <style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"hands\">Hands</link></style>, <style=\"Link\"><link=\"helpers\">Helpers</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"information-passing\">Information Passing</link></style>, <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Foresight\">Limited Foresight</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style>, <style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>, <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style>, <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style> together with <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> or <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>",
+            "<style=\"Link\"><link=\"committed-goals\">Committed Goals</link></style> together with <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style>",
+            "<style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> together with <style=\"Link\"><link=\"clues\">Clues</link></style>",
+            "<style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hidden%20Rules\">Hidden Rules</link></style>",
+            "<style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style>, <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "conceal",
+            "gain-ownership",
+            "quests",
+            "supporting-goals",
+            "system-exploration",
+            "experimenting",
+            "game-world-exploration"
+        ],
+        "modulates" : [
+            "player-artifact-proximity",
+            "rescue"
+        ],
+        "instantiated_by" : [
+            "asymmetric-information",
+            "detective-structures",
+            "enemies",
+            "factions",
+            "fog-war",
+            "gain-ownership",
+            "hands",
+            "helpers",
+            "imperfect-information",
+            "information-passing",
+            "internal-rivalry",
+            "limited-foresight",
+            "memorizing",
+            "puzzle-solving",
+            "reconnaissance",
+            "secret-goals",
+            "secret-resources",
+            "stimulated-planning",
+            "strategic-locations",
+            "uncertainty-information",
+            "unknown-goals",
+            "vulnerabilities",
+            "enemies",
+            "committed-goals",
+            "predetermined-story-structures",
+            "strategic-knowledge",
+            "tactical-planning"
+        ],
+        "modulated_by" : [
+            "indirect-information",
+            "red-herrings"
+        ],
+        "conflicts" : [
+            "perfect-information"
+        ]
+    }
+}

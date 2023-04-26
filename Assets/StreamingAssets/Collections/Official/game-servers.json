@@ -1,0 +1,86 @@
+{
+    "name" : "Game Servers",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published",
+        "Platform Patterns"
+    ],
+    "texts" : {
+        "definition" : "Computer or mechanical systems responsible for running individual game instances.",
+        "markups" : [
+            "<style=\"Definition\">Computer or mechanical systems responsible for running individual game instances.</style>",
+            "Computer-mediated games need programs to uphold the game state, handle input from players and provide presentations of game events. In many cases they also have to handle various agents that perform actions within the game. <style=\"CurrentLink\">Game Servers</style> is the name of these programs. Game instances can also be maintained by mechanical systems, e.g. pinball machines, so these can also be <style=\"CurrentLink\">Game Servers</style> even if they are not full-fledged computers.",
+            "For <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style>, <style=\"CurrentLink\">Game Servers</style> are frequently called ''shards''.",
+            "Note: ''while a computer system can be built to handle several different game instances, this pattern describes the logics that control one game instance. Systems that control more than one game instance and support some form of extra-game communication or interaction are at least partially <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>.''",
+            "<style=\"H3\">Examples</style>",
+            "The first <style=\"CurrentLink\">Game Servers</style> were developed for playing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Nim\">Nim</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tic-Tac-Toe\">Tic-Tac-Toe</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> in the 1940s and 1950s but already in the 19th century did Charles Babbage and Ada Lovelace design concepts for creative mechanical systems for playing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tic-Tac-Toe\">Tic-Tac-Toe</link></style><ref name=\"babbage\"/>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Machines</link></style> are dedicated machines for playing games. Well-known examples of this type of games include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gauntlet\">Gauntlet</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pong\">Pong</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Invaders\">Space Invaders</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Kong%20series\">Donkey Kong</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man%20series\">Pac-Man series</link></style>. Similarly, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pinball%20Games\">Pinball Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Trek:%20The%20Next%20Generation\">Star Trek: The Next Generation</link></style> can be considered <style=\"CurrentLink\">Game Servers</style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Online%20Games\">Online Games</link></style> require <style=\"CurrentLink\">Game Servers</style> so that players have some place to connect to when they wish to play. Examples of this can be found in many genres: the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style>; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/BatMUD\">BatMUD</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style> for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">MUDs</link></style>; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style> for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style>; and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Candy%20Crush%20Saga\">Candy Crush Saga</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Social%20Media%20Games\">Social Media Games</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The two primary requirements of <style=\"CurrentLink\">Game Servers</style> is to support the gameplay mechanics and provide functionality for players to join game instances. In most cases supporting gameplay is done through implementing in code all rules that the game has and the actions a <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitator</link></style> needs, but with some extra effort a simulation of the game components can instead be provided. This extra effort allow for either <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Self-Facilitated%20Rules\">Self-Facilitated Rules</link></style> which otherwise are difficult to combine with <style=\"CurrentLink\">Game Servers</style> (see the mobile app version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/M.I.G.\">M.I.G.</link></style> for an example of this). It can also be used to offer (rather than enforce) functionality to off-load some of the <style=\"Link\"><link=\"excise\">Excise</link></style> players of <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> need to do. While implementing the rules of a game or simulating the environment in which a game can be played is the primary requirements from a pure gameplay perspective, many <style=\"CurrentLink\">Game Servers</style> are also responsible for containing and presenting <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>.",
+            "While the main reason for having <style=\"CurrentLink\">Game Servers</style> is to provide online <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, there are some distinct variants. First, the use of <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style> is very common since this allows the number of players to scale easily at the expense of not having them play the same game instance. Second, some servers provide <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> which means that they are not supposed to be reset to former states and that using multiple copies of the <style=\"CurrentLink\">Game Servers</style> would mean that they would start to diverge. It may be for this reason that there are few examples of games using <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style> together with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>. Finally, <style=\"CurrentLink\">Game Servers</style> can provide a compromise between <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> and [Multiplayer Games]] by being <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Candy%20Crush%20Saga\">Candy Crush Saga</link></style> are examples of this.",
+            "<style=\"CurrentLink\">Game Servers</style> do not per se require <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Clients\">Game Clients</link></style>, e.g. MUDs such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style> can be played without using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Clients\">Game Clients</link></style>. However, as soon as games have graphical (or even ascii-based) representation they become a necessity. Games using <style=\"CurrentLink\">Game Servers</style> that wish to handle more players than a single game instance can handle make use of <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>. ",
+            "Several patterns related to how players can modify future game instances or communicate with each other are relevant when designing <style=\"CurrentLink\">Game Servers</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Rule%20Setup\">Player Decided Rule Setup</link></style> give the players that are going to play together a chance to choose the variant of the game they prefer most while support for <style=\"Link\"><link=\"player-kicking\">Player Kicking</link></style> can remove players that somehow have made themselves unwanted. <style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style> and <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> are necessary for players to be able to discuss with each other how to use these possibility.",
+            "<style=\"Link\"><link=\"instances\">Instances</link></style> is a design possibility that for book-keeping reasons only is practical to use often when one has <style=\"CurrentLink\">Game Servers</style>. Together with <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>, <style=\"CurrentLink\">Game Servers</style> can make automate <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Game Servers</style> do typically not provide interfaces for players, this is the responsibility of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Clients\">Game Clients</link></style>. The exception is games using purely <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illocutionary%20Interfaces\">Illocutionary Interfaces</link></style>, i.e. text-based interfaces, since here the players can be interacting directly with the games using the protocol that is used to communicate with the <style=\"CurrentLink\">Game Servers</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Quite understandably, <style=\"CurrentLink\">Game Servers</style> provide <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> to players. They do in most cases instantiate <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> by handling all non-player actions and game system updates needed, and can support <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style>.",
+            "<style=\"CurrentLink\">Game Servers</style> more or less automatically provide <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style> for players; this is needed to run the game and making it possible to access outside the game or outside game instances is typically not a hard process.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>, <style=\"Link\"><link=\"instances\">Instances</link></style>, <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>, <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Self-Facilitated%20Rules\">Self-Facilitated Rules</link></style>, <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style></style>",
+            "<style=\"Link\"><link=\"meta-games\">Meta Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Self-Facilitated%20Rules\">Self-Facilitated Rules</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Clients\">Game Clients</link></style>, <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>, <style=\"Link\"><link=\"instances\">Instances</link></style>, <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Rule%20Setup\">Player Decided Rule Setup</link></style>, <style=\"Link\"><link=\"player-kicking\">Player Kicking</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Self-Facilitated%20Rules\">Self-Facilitated Rules</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "dedicated-game-facilitators",
+            "game-worlds",
+            "gameplay-statistics",
+            "instances",
+            "massively-single-player-online-games",
+            "mediated-gameplay",
+            "multiplayer-games",
+            "persistent-game-worlds",
+            "self-facilitated-games",
+            "self-facilitated-rules",
+            "unsynchronized-game-sessions",
+            "meta-games"
+        ],
+        "modulates" : [
+            "excise",
+            "self-facilitated-rules",
+            "self-facilitated-games"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "chat-channels",
+            "game-clients",
+            "game-lobbies",
+            "instances",
+            "meta-servers",
+            "player-decided-rule-setup",
+            "player-kicking"
+        ],
+        "conflicts" : [
+            "self-facilitated-rules",
+            "self-facilitated-games"
+        ]
+    }
+}

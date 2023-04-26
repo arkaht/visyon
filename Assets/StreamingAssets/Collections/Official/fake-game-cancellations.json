@@ -1,0 +1,59 @@
+{
+    "name" : "Fake Game Cancellations",
+    "categories" : [
+        "Information Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Games that pretend to be cancelled to be able to cause uncertainty of surprises when players are offered gameplay opportunities.",
+        "markups" : [
+            "<style=\"Definition\">Games that pretend to be cancelled to be able to cause uncertainty of surprises when players are offered gameplay opportunities.</style>",
+            "Some games wish to remain secret or mysterious, even to the people who play them, and this can make it problematic for them to recruit players to begin with. <style=\"CurrentLink\">Fake Game Cancellations</style> offers one solution to this: the game can be openly advertised so players can sign up to them but then pretend to be cancelled. By doing this both the general public which may have seen the invitations and the players who has signed up can believe that the game will not be staged, and when it then contacts players this can come as a surprise to them or they can be unsure about what events they experience are part of the game and which parts are not.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Fake Game Cancellations</style> are found in alternate reality games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Majestic\">Majestic</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style>,  and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Prosopopeia\">Prosopopeia</link></style>. See the book <i>Pervasive Games - Theory and Design</i> for more details about these games.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Fake Game Cancellations</style> cause confusion if a game instance is going to take place or not, and for this purpose the pattern is in practice only used to games that wish to have <style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style>. Two things need to be considered when creating <style=\"CurrentLink\">Fake Game Cancellations</style>. One is how to inform players and others about the fake cancellation. This may be simply to close down <style=\"Link\"><link=\"game-servers\">Game Servers</link></style> but can also be sending out messages to the players; for extra effect, this can be done through other channels - a form of <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>. The second thing that needs to considered is how to be able to contact players again after the <style=\"CurrentLink\">Fake Game Cancellations</style>, this is typically solved through requiring a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Registration\">Game Registration</link></style> from players were their contact information is collected. Depending on the reason give for <style=\"CurrentLink\">Fake Game Cancellations</style>, <style=\"Link\"><link=\"fake-game-overs\">Fake Game Overs</link></style> can create them. ",
+            "An alternative to <style=\"CurrentLink\">Fake Game Cancellations</style> is <style=\"Link\"><link=\"rabbit-hole-invitations\">Rabbit Hole Invitations</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Fake Game Cancellations</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Information%20Patterns\">Information Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The main reason for using <style=\"CurrentLink\">Fake Game Cancellations</style> is to be able to give player <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> when the game later contacts them.",
+            "Although not part of gameplay, intentionally lying to players can create serious ethical issues for game designers. This is of course related to what the gameplay actually consists of, if monetary transactions have occurred, and how aware players may be the idea of <style=\"CurrentLink\">Fake Game Cancellations</style>. For example, players with experience of <style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style> may have no problems with <style=\"CurrentLink\">Fake Game Cancellations</style> since they  are likely to know about previous games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Majestic\">Majestic</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style>, which have used the technique earlier.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style>, <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>, <style=\"Link\"><link=\"fake-game-overs\">Fake Game Overs</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Registration\">Game Registration</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "surprises"
+        ],
+        "modulates" : [
+            "alternate-reality-gameplay",
+            "game-servers"
+        ],
+        "instantiated_by" : [
+            "extra-game-broadcasting",
+            "fake-game-overs"
+        ],
+        "modulated_by" : [
+            "game-registration"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

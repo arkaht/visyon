@@ -1,0 +1,55 @@
+{
+    "name" : "Waves",
+    "categories" : [
+        "Gameplay Arc Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Timed attacks by large numbers of identical enemies.",
+        "markups" : [
+            "<style=\"Definition\">Timed attacks by large numbers of identical enemies.</style>",
+            "Players can encounter enemies in many games. In some of these games, the game causes large number of such enemies to stage massed attack against the players, and such attacks are called <style=\"CurrentLink\">Waves</style>. Zagal <i>et al.</i> describe the phenomenon as: \"A wave is a group of usually similar enemy entities that must be avoided or destroyed as they approach the player. There is usually a pause, or respite, between waves. One of the defining aspects of the wave is player interaction results in the end of the game (game over). Segmentation with waves is primarily used to increase the tension of the gameplay.\"",
+            "<style=\"H3\">Examples</style>",
+            "Each level in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Plants%20vs.%20Zombies\">Plants vs. Zombies</link></style> consists of a number of <style=\"CurrentLink\">Waves</style> that the player's plants must be able to handle. While small numbers of infected can be found throughout most of the levels in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, most of the infected show up in <style=\"CurrentLink\">Waves</style> that occur based on an algorithm intended to create alternating periods of relative calm and chaotic fighting.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Waves</style> consists of deciding when groups of <style=\"Link\"><link=\"generic-adversaries\">Generic Adversaries</link></style> should be encountered, and which types of <style=\"Link\"><link=\"generic-adversaries\">Generic Adversaries</link></style> if several different types exist. In games where <style=\"CurrentLink\">Waves</style> are intended to occur often, the design of them may instead be thought of as when <style=\"Link\"><link=\"lull-periods\">Lull Periods</link></style> should happen. One aspect of designing <style=\"CurrentLink\">Waves</style> is how they should change over time, or how different <style=\"CurrentLink\">Waves</style> should differ from each other. Typically, <style=\"CurrentLink\">Waves</style> become progressively more difficult &mdash; which easily makes a game support <style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style> &mdash; but often the <style=\"CurrentLink\">Waves</style> also have different characteristics in that the individual <style=\"Link\"><link=\"enemies\">Enemies</link></style> may have particular <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> or <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Waves</style> is a way to modify how <style=\"Link\"><link=\"enemies\">Enemies</link></style> works in games, and can be used to create <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> as well as <style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"generic-adversaries\">Generic Adversaries</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"lull-periods\">Lull Periods</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "challenging-gameplay",
+            "ever-increasing-difficulty"
+        ],
+        "modulates" : [
+            "enemies"
+        ],
+        "instantiated_by" : [
+            "generic-adversaries"
+        ],
+        "modulated_by" : [
+            "lull-periods"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

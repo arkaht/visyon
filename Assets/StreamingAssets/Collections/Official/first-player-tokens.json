@@ -1,0 +1,61 @@
+{
+    "name" : "First Player Tokens",
+    "categories" : [
+        "Interface Patterns",
+        "Game Element Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published",
+        "Interface Patterns|Interface Pattern"
+    ],
+    "texts" : {
+        "definition" : "A token that shows which player is first in the order of taking turns.",
+        "markups" : [
+            "<style=\"Definition\">A token that shows which player is first in the order of taking turns.</style>",
+            "Many games divide gameplay into turns and in some of these the order is not set between rounds. When this can become problematic for players to keep track of <style=\"CurrentLink\">First Player Tokens</style> can help them keep track of this part of the game state.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> as a <style=\"CurrentLink\">First Player Token</style> showing which player has the role of governor, which is the player that went first in the current round of selecting roles. In this game, the token is past in a pre-determined order but in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lords%20of%20Waterdeep\">Lords of Waterdeep</link></style> an action allows other players to take the token.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carolus%20Magnus\">Carolus Magnus</link></style> not only has a <style=\"CurrentLink\">First Player Token</style> but one for each place in the order. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Russian%20Railroads\">Russian Railroads</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Species\">Dominant Species</link></style> has tracks where players place tokens of their color to indicate their place in the turn order, making these be <style=\"CurrentLink\">First Player Token</style>, \"Second Player Tokens\", etc. depending on their position.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">First Player Tokens</style> are motivated in game design as part of helping players of <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> handle the <style=\"Link\"><link=\"excise\">Excise</link></style> caused by <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style> in games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rounds\">Rounds</link></style> and <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>. ",
+            "While there natural are design choices regarding the visual and physical design of <style=\"CurrentLink\">First Player Tokens</style>, there are also some other concerns. For games with <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style> regarding all places in the turn order it is typically not enough with <style=\"CurrentLink\">First Player Tokens</style> as \"Second Player Tokens\", \"Third Player Tokens\", etc. are needed (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carolus%20Magnus\">Carolus Magnus</link></style> is an example of a game where this is needed). Another possibility is to have a player order track and have players place tokens representing them on this track; this makes those token be ephemeral <style=\"CurrentLink\">First Player Tokens</style> depending on their positions.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">First Player Tokens</style> is a type of <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"first-player-advantages\">First Player Advantages</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rounds\">Rounds</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>, <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "bookkeeping-tokens"
+        ],
+        "modulates" : [
+            "excise",
+            "first-player-advantages",
+            "rounds",
+            "self-facilitated-games",
+            "turn-taking",
+            "varying-turn-orders"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

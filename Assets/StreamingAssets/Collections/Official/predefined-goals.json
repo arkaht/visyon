@@ -1,0 +1,85 @@
+{
+    "name" : "Predefined Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Patterns",
+        "Needs work",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Goals of the game that have been predefined by designers before gameplay begins.",
+        "markups" : [
+            "<style=\"Definition\">Goals of the game that have been predefined by designers before gameplay begins.</style>",
+            "<style=\"CurrentLink\">Predefined Goals</style> are preset by the game designer, quite often arranged in a rigid hierarchy, which can only be adaptable by players' choices or interpretations if the design allows it. All winnable games, i.e., games where there exists a game state that defines one or several winners, have the predefined primary goal that can be stated as ''win the game'' but predefined goals that are explicit prerequisite for that game are very common. Other <style=\"CurrentLink\">Predefined Goals</style> are not directly tied to winning a game but helps players through improving the game state in a specific way if they are achieved, and through this help players plan how they should act while playing. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> has the <style=\"CurrentLink\">Predefined Goals</style> for each player to checkmate the other player's king. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> has the <style=\"CurrentLink\">Predefined Goal</style> of eliminating all other players by driving them into bankruptcy.",
+            "Games of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/StarCraft\">StarCraft</link></style> is won by eliminating all the units of the opponents, although human opponents may surrender before this happens.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> don't provide players (or <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>) with <style=\"CurrentLink\">Predefined Goals</style>. Instead, it is up to <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> to propose goals to the players' <style=\"Link\"><link=\"characters\">Characters</link></style> that the players can adopt or invent their own for their <style=\"Link\"><link=\"characters\">Characters</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A requirement of <style=\"CurrentLink\">Predefined Goals</style> is that the needs to complete the goal and the effects of doing so are determined before gameplay begins. This means that some <style=\"Link\"><link=\"rewards\">Reward</link></style> in addition to the normal consequences of actions or game states are added if a <style=\"CurrentLink\">Predefined Goal</style> should be created. The requirement of <style=\"CurrentLink\">Predefined Goals</style> existing before gameplay begins is a way of capturing that players should perceive them as not being created for them on the fly, this means that goals introduced through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style> or by being created by <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can effectively work as <style=\"CurrentLink\">Predefined Goals</style>. ",
+            "<style=\"Link\"><link=\"main-goals\">Main Goals</link></style>, <style=\"Link\"><link=\"mandatory-goals\">Mandatory Goals</link></style>, and <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style> can all be <style=\"CurrentLink\">Predefined Goals</style>. Since their relation to other goals are defined before gameplay begins, <style=\"CurrentLink\">Predefined Goals</style> can easily be used to create <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> or <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>. While the existence of <style=\"CurrentLink\">Predefined Goals</style> is given due to them being predefined players may only have access to them for specific moments in the game, i.e. they may be <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style>. ",
+            "Not all aspects of a goal needs to be set in advance for goals to work as <style=\"CurrentLink\">Predefined Goals</style>. As long as enough information is presented to players to let them plan how to work towards the goal and what the consequences of fulfilling or failing the goal are imaginable, a goal can functionally works as a <style=\"CurrentLink\">Predefined Goal</style>. The additional aspects of the goals can then be set using <style=\"Link\"><link=\"randomness\">Randomness</link></style> as needed. This may not be perceived by players since only revealing part of the information about the <style=\"CurrentLink\">Predefined Goals</style> initially and later parceling out the additional information can give the same player experience.",
+            "How players become aware of <style=\"CurrentLink\">Predefined Goals</style> is another design choice. They may simply be part of the general information about the rules of the games, as is the case for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>, and which case players have both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetric%20Information\">Symmetric Information</link></style> about the goals. They may be provided before gameplay begins but be randomized (and secret to other players). Examples of games using this solution is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ticket%20to%20Ride\">Ticket to Ride</link></style> where players get goal cards in the beginning of the game and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gloomhaven\">Gloomhaven</link></style> where before each scenario players get two random ''battle goal'' cards to choose between. This provides some players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> about them and creates <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style> in the game. Of course, <style=\"CurrentLink\">Predefined Goals</style> can also be <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style> (typically only for a limited amount of time so players at some point can start to strive towards them), this lets players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> about the goals of a game. The awareness of <style=\"CurrentLink\">Predefined Goals</style> can also occur through <style=\"Link\"><link=\"information-passing\">Information Passing</link></style> so the information about the <style=\"CurrentLink\">Predefined Goals</style> are done more or less diegetically (see the narration aspects section below). ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Predefined Goals</style> that are introduced when gameplay is in progress is often tied to <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> of a game. If the goals are goals that are given to the players' <style=\"Link\"><link=\"characters\">Characters</link></style>, the use of <style=\"Link\"><link=\"factions\">Factions</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style> are often suitable solutions. For continuity reasons, <style=\"CurrentLink\">Predefined Goals</style> that support <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> are typically <style=\"CurrentLink\">Predefined Goals</style> since they would otherwise reveal things prematurely or cause breaks in the order in which narrative events occur.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Predefined Goals</style> let players have goals that are designed for specific purposes in a game. Being able to fulfill them efficiently or repeatedly over game instances are not only an indicator but a reason for players being able to reach <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> of games with them. While this effect of <style=\"CurrentLink\">Predefined Goals</style> applies regardless of if players know which <style=\"CurrentLink\">Predefined Goals</style> they have at the beginning of the game, <style=\"CurrentLink\">Predefined Goals</style> that are also <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style> let players acquire <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> between game instances. ",
+            "<style=\"CurrentLink\">Predefined Goals</style> help create <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style> since require players to strive towards specific game states, especially if players must succeed with the <style=\"CurrentLink\">Predefined Goals</style> as part of completing a game.",
+            "The presence of <style=\"CurrentLink\">Predefined Goals</style> in a game can guarantee <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>. When players have several <style=\"CurrentLink\">Predefined Goals</style> to choose from they are provided a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> which can also support <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>. However, the presence of many goals, or goals that are difficult to choose from, can lead to <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style></style>",
+            "<style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>, <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"information-passing\">Information Passing</link></style>, <style=\"Link\"><link=\"main-goals\">Main Goals</link></style>, <style=\"Link\"><link=\"mandatory-goals\">Mandatory Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetric%20Information\">Symmetric Information</link></style>, <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "enforced-agent-behavior",
+            "gameplay-mastery",
+            "goal-hierarchies",
+            "selectable-set-goals",
+            "strategic-knowledge"
+        ],
+        "modulates" : [
+            "analysis-paralysis",
+            "freedom-choice",
+            "internal-rivalry",
+            "narration-structures",
+            "player-planned-development",
+            "supporting-goals"
+        ],
+        "instantiated_by" : [
+            "factions",
+            "npcs"
+        ],
+        "modulated_by" : [
+            "asymmetric-information",
+            "ephemeral-goals",
+            "imperfect-information",
+            "information-passing",
+            "main-goals",
+            "mandatory-goals",
+            "perfect-information",
+            "randomness",
+            "symmetric-information",
+            "unknown-goals"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

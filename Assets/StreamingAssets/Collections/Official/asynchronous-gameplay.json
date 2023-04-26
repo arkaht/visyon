@@ -1,0 +1,83 @@
+{
+    "name" : "Asynchronous Gameplay",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Needs revision",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Gameplay that does not require - or demands - that not all players are playing at the same time.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay that does not require - or demands - that not all players are playing at the same time.</style>",
+            "While many games are played by players that are co-presence with each other, not all games do. Those with <style=\"CurrentLink\">Asynchronous Gameplay</style> can be played with some or no other players present while not causing gameplay problems.",
+            "<style=\"H3\">Examples</style>",
+            "Turn-based games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> support <style=\"CurrentLink\">Asynchronous Gameplay</style> since players alternate between performing actions in the game and each action can be simply described in messages. This allows players to record their action as messages for other players, who performs these actions when the messages are received and after this begins considering their own next move.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> allows players to come and go by simply replacing them with AI players when someone leave and having those AI players yield their places when someone wants to join a game. ",
+            "Game masters of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> can handle cases where not all players are present by either taking on the roles of those players' characters themselves or by providing narrative explanations why those characters are not active in the same way others are.",
+            "<style=\"H2\">Using the pattern</style>",
+            "One of the needs of <style=\"CurrentLink\">Asynchronous Gameplay</style> is maintaining the game state, often without any player present. This means that <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> are often needed for <style=\"CurrentLink\">Asynchronous Gameplay</style>. One simple aspect of the game state which games with <style=\"CurrentLink\">Asynchronous Gameplay</style>  often need to support is simply making it clear to active players which the other players are; <style=\"Link\"><link=\"handles\">Handles</link></style> is a simple solution to this.",
+            "Another aspect of <style=\"CurrentLink\">Asynchronous Gameplay</style> is how players should be able to interact with the game and other players. <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> ensure that players have chances of interacting with the game in equal amounts but can lead to <style=\"Link\"><link=\"downtime\">Downtime</link></style>. <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style> in practice makes players have simultaneous and synchronized turns but unless the ticks are long players the presence of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style> can work directly against <style=\"CurrentLink\">Asynchronous Gameplay</style>. The same goes for <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>. Games with <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style> avoid this through making players make all decisions before gameplay begins. <style=\"Link\"><link=\"ghosts\">Ghosts</link></style> offer a similar solution by having recordings of players offer competition. <style=\"Link\"><link=\"free-gift-inventories\">Free Gift Inventories</link></style> on the other hand provide players with possibilities of supporting other players without them being present. While not possible for all types of games due to technical issues, <style=\"Link\"><link=\"ai-players\">AI Players</link></style> can in a brute force way support <style=\"CurrentLink\">Asynchronous Gameplay</style> by simply replacing human players with <style=\"Link\"><link=\"ai-players\">AI Players</link></style>. ",
+            "While not strictly necessary for <style=\"CurrentLink\">Asynchronous Gameplay</style>, it is often easier to allow players to also not be in physical proximity through the use of <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> and <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>. Most cases of <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> support this as well as having <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, so they make good starting points for supporting <style=\"CurrentLink\">Asynchronous Gameplay</style>. Similarly, games that support <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay have typically met the requirements for supporting <style=\"CurrentLink\">Asynchronous Gameplay</style>. ",
+            "While <style=\"CurrentLink\">Asynchronous Gameplay</style> can require all players to be present at the beginning of a game instance, one could argue that a fuller form of the pattern supports <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>. In contrast, players may not be need to be present at the end of a game instance due to <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> or support for <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style> but games can also simply end at players can be informed about the final state later. As these patterns show, support for <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style> often overlap with support for <style=\"CurrentLink\">Asynchronous Gameplay</style> so it often makes sense to consider both when considering one. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style> can be difficult to combine with <style=\"CurrentLink\">Asynchronous Gameplay</style> since players can potentially gain advantages by access information about the other players. Likewise, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Common%20Experiences\">Common Experiences</link></style> can be problematic to support in games with <style=\"CurrentLink\">Asynchronous Gameplay</style> since players may not ever actually directly interact with each other (this is especially the case when <style=\"Link\"><link=\"ai-players\">AI Players</link></style> are used to replace players that leave gameplay).",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Asynchronous Gameplay</style> can cause quite difference consequences depending on how what other characteristics a game has. If it allows players flexibility when to play, it supports <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style> or a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> of when to play and when taken further in this direction it also supports <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>. On the other hand, if players need to wait for other players to finish their game sessions so they jointly can start new ones, <style=\"CurrentLink\">Asynchronous Gameplay</style> instead causes <style=\"Link\"><link=\"downtime\">Downtime</link></style> with the silver lining that this can be used for <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>. ",
+            "In games with <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>, <style=\"CurrentLink\">Asynchronous Gameplay</style> can turn <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> into <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>. As another example of different consequences due to the presence of other characteristics or patterns, <style=\"Link\"><link=\"asynchronous-collaborative-actions\">Asynchronous Collaborative Actions</link></style> can emerge when <style=\"CurrentLink\">Asynchronous Gameplay</style> co-exists with <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style> or <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style> or <style=\"Link\"><link=\"cooperation\">Cooperation</link></style></style>",
+            "<style=\"Link\"><link=\"asynchronous-collaborative-actions\">Asynchronous Collaborative Actions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style></style>",
+            "<style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"ghosts\">Ghosts</link></style>, <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"free-gift-inventories\">Free Gift Inventories</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>, <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>, <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Common%20Experiences\">Common Experiences</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "downtime",
+            "freedom-choice",
+            "interruptibility",
+            "stimulated-planning",
+            "ubiquitous-gameplay",
+            "asynchronous-collaborative-actions",
+            "massively-single-player-online-games"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "ai-players",
+            "dedicated-game-facilitators",
+            "drop-in-drop-out",
+            "ghosts",
+            "no-direct-player-influence",
+            "persistent-game-worlds"
+        ],
+        "modulated_by" : [
+            "communication-channels",
+            "free-gift-inventories",
+            "handles",
+            "late-arriving-players",
+            "mediated-gameplay",
+            "real-time-games",
+            "tick-based-games",
+            "turn-based-games"
+        ],
+        "conflicts" : [
+            "common-experiences",
+            "public-information",
+            "the-show-must-go-on"
+        ]
+    }
+}

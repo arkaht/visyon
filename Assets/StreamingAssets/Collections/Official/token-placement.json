@@ -1,0 +1,77 @@
+{
+    "name" : "Token Placement",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Action Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Using tokens to select future actions to be performed.",
+        "markups" : [
+            "<style=\"Definition\">Using tokens to select future actions to be performed.</style>",
+            "Many games give players several different actions to choose from. Those using <style=\"CurrentLink\">Token Placement</style> let players compete with each other in picking actions to be played by placing tokens. By having limited number of tokens that can be played and needing to compete with other players for the actions, <style=\"CurrentLink\">Token Placement</style> can require players to make trade-offs between with actions to do and iteratively design their plans before performing them.",
+            "''Note: BoardGameGeek uses ''Worker Placement<ref name=\"bgg\"/>'' to describe a similar concept.''",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Agricola\">Agricola</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Caylus\">Caylus</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Species\">Dominant Species</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Egizia\">Egizia</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Homesteaders\">Homesteaders</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stone%20Age\">Stone Age</link></style> all make use of <style=\"CurrentLink\">Token Placement</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Token Placement</style> systems require deciding what actions players can pick by placing <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> and how many such tokens players should have. Since one of the reasons for using it is that players need to compete for being able to perform actions, the pattern is primarily one for <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. Likewise, <style=\"CurrentLink\">Token Placement</style> does rarely combine well with <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, instead being used in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>. Regarding the actions, this not only means designing a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> players can choose from but also considering if there should be one or several slots for each type of action. The actual amount of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> give to each player each round is often designed to occupy a certain percentage of the total number of actions - this means that the number is often changed depending on how many players participate but at the same time the number of actions are typically set so that players at least get to place two or three <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> (the pattern <style=\"Link\"><link=\"role-selection\">Role Selection</link></style> basically supersedes <style=\"CurrentLink\">Token Placement</style> if one can only place one token). ",
+            "<style=\"CurrentLink\">Token Placement</style> are rarely designed to be contest of reactions, so a <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> sequences need to be designed for the pattern. It is however quite common to support a <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style> by allow <style=\"CurrentLink\">Token Placement</style> to placed so the change the turn order, in effect turning the <style=\"CurrentLink\">Token Placement</style> pattern back on the <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> pattern - <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Agricola\">Agricola</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Caylus\">Caylus</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Species\">Dominant Species</link></style> all do this in various ways.",
+            "When players compete with each other over places in <style=\"CurrentLink\">Token Placement</style> this has quite similar effects as <style=\"Link\"><link=\"bidding\">Bidding</link></style> and <style=\"Link\"><link=\"drafting\">Drafting</link></style> in other games. For this reason, it may be appropriate to consider the consequences of all these patterns when consider having one of them present in a game design.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Token Placement</style> makes the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> used into explicit <style=\"Link\"><link=\"resources\">Resources</link></style> but also make the possible actions into <style=\"Link\"><link=\"resources\">Resources</link></style>, so the pattern both instantiates and modulates <style=\"Link\"><link=\"resources\">Resources</link></style>. Since the actions are limited in number, players are automatically put in <style=\"Link\"><link=\"resource-competition\">Resource Competition</link></style> situations by the pattern.",
+            "The use of <style=\"CurrentLink\">Token Placement</style> in games provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planning%20Phases\">Planning Phases</link></style> in which players have a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to place <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> (<style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping</link></style> ones even if they are referred to as ''workers'' in many games) to select future actions from a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>. Since players have only a few <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> to place these are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, and since these are used to decide future actions the pattern can be seen as a form of <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style> (the places to place the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> may also be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style> and when this is true the pattern modulates <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style> as well). Given that the places are limited players may become involved in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competitions\">Competitions</link></style> for specific actions. These <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competitions</link></style> are likely to create both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style>, and force players to make <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between the most necessary and most efficient actions. Both figuring out where to place one's own <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> and to do this taking into consideration how other players will place their <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> require players to engage in <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>. ",
+            "<style=\"CurrentLink\">Token Placement</style> is a loose form of <style=\"Link\"><link=\"action-programming\">Action Programming</link></style> since only the action to be performed is decided in advance - as long as there are several ways of performing the actions players have some <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> during the execution these.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competitions\">Competitions</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planning%20Phases\">Planning Phases</link></style>, <style=\"Link\"><link=\"resource-competition\">Resource Competition</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>, <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>, <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "action-programming",
+            "anticipation",
+            "competitions",
+            "freedom-choice",
+            "limited-resources",
+            "limited-set-actions",
+            "planning-phases",
+            "resource-competition",
+            "resources",
+            "tactical-planning",
+            "tension",
+            "trade-offs",
+            "varying-turn-orders"
+        ],
+        "modulates" : [
+            "budgeted-action-points",
+            "multiplayer-games",
+            "limited-resources",
+            "resources",
+            "turn-based-games",
+            "turn-taking"
+        ],
+        "instantiated_by" : [
+            "bookkeeping-tokens"
+        ],
+        "modulated_by" : [
+            "turn-taking"
+        ],
+        "conflicts" : [
+            "real-time-games"
+        ]
+    }
+}

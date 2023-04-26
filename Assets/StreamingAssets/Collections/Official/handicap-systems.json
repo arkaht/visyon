@@ -1,0 +1,103 @@
+{
+    "name" : "Handicap Systems",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Difficulty-Related Patterns",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Systems for making gameplay easier or more difficult for certain players in order to even the chances of all players to succeed or win.",
+        "markups" : [
+            "<style=\"Definition\">Systems for making gameplay easier or more difficult for certain players in order to even the chances of all players to succeed or win.</style>",
+            "In some games, players may be aware of differences in their playing skills. In order to make the outcome as uncertain as possible within the game rules and thereby more interesting, players may decide to make use of <style=\"CurrentLink\">Handicap Systems</style>. These either make some actions easier for some players or allow those players other advantages so that the greater skills of other players are balanced and all players have equal chance of succeeding in the game. Single-player games can also provide <style=\"CurrentLink\">Handicap Systems</style> - in this case to let players decided on how easy or hard games should be.",
+            "<style=\"H3\">Examples</style>",
+            "Fighting games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20series\">Tekken</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20or%20Alive%20series\">Dead or Alive series</link></style> allow players to choose starting health by percentage, for example 80% or 140%. This allows one player to have a handicap against another player.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Golf\">Golf</link></style> is one of the most well-known sports to make use of <style=\"CurrentLink\">Handicap Systems</style>. In this case, one's handicap level does not only serve to equal gameplay but also to indicate mastery of the sport.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> uses a <style=\"CurrentLink\">Handicap System</style> of allowing the weaker player to place a certain number of stones in the handicap points before the actual game begins in such a way that both players are challenged while playing.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A first decisions regarding the design of <style=\"CurrentLink\">Handicap Systems</style> is if they are intended to be voluntary or not. <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> is an example of the former while <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style> can be either or.",
+            "There are several different types of specific advantages or disadvantages <style=\"CurrentLink\">Handicap Systems</style> can provide. Basic ways are changing the amount of <style=\"Link\"><link=\"health\">Health</link></style> and <style=\"Link\"><link=\"resources\">Resources</link></style> available (the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20series\">Tekken series</link></style> is an example of the former while handicap stones in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> an example of the latter), where differences in <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style> give greater effect than differences for other <style=\"Link\"><link=\"resources\">Resources</link></style>. Other ways include setting different thresholds for evaluations functions, providing various bonuses to <style=\"Link\"><link=\"scores\">Score</link></style> values, or giving a head starts or <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style> in <style=\"Link\"><link=\"races\">Races</link></style> (which of course modulates the <style=\"Link\"><link=\"races\">Races</link></style>).. For games with <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>, giving <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Increased%20Abilities\">Increased</link></style> or <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> is an options, e.g. through changing <style=\"Link\"><link=\"skills\">Skill</link></style> levels. The use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Abilities\">Asymmetric Abilities</link></style>, <style=\"Link\"><link=\"asymmetric-resource-distribution\">Asymmetric Resource Distribution</link></style>, <style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>, and <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> can also create <style=\"CurrentLink\">Handicap Systems</style>, this since players may not have the possibility to be as efficient as other players, or may not have as large <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> as other players. While these can be applied on players, they can also be applied on <style=\"Link\"><link=\"enemies\">Enemies</link></style> to provide twice the possible range of the <style=\"CurrentLink\">Handicap Systems</style>. In addition to this, game designs have the option of changing the gaming skills of <style=\"Link\"><link=\"ai-players\">AI Players</link></style> and <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> - <style=\"Link\"><link=\"companions\">Companions</link></style> can do this but can instantiate <style=\"CurrentLink\">Handicap Systems</style> more fully since they are on the players' side.",
+            "<style=\"CurrentLink\">Handicap Systems</style> can also be used, as for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Golf\">Golf</link></style>, to bind together many game instances into <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>. These typically requires the presences of <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> to keep track of the various handicap levels of players.",
+            "Regardless of the existence or not of <style=\"CurrentLink\">Handicap Systems</style>, players may of course make self-imposed limitations to balance themselves against each other. While this is always possible in how well players tried to execute actions, in <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> this can also be changes in rules or setup. This use of <style=\"CurrentLink\">Handicap Systems</style> is usually the result of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> before gameplay begins, and a special form of this is to allow novice players <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility%20\">Reversibility </link></style> by taking back their actions and performing other actions.",
+            "Although similar in name, <style=\"CurrentLink\">Handicap Systems</style> are not related to <style=\"Link\"><link=\"handicap-achievements\">Handicap Achievements</link></style> although the sub-pattern of <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> are.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Handicap Systems</style> supported by game design are typically accessed through <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Handicap Systems</style> can be used to let players decide on their own if they wish <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> or <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, and in games with <style=\"Link\"><link=\"pvp\">PvP</link></style> this can be used to create <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> while in games with <style=\"Link\"><link=\"tvt\">TvT</link></style> it can create <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>. When <style=\"CurrentLink\">Handicap Systems</style> are enforced and records of these are kept, this a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> and can be a form of <style=\"Link\"><link=\"scores\">Score</link></style> in a <style=\"Link\"><link=\"meta-games\">Meta Game</link></style> (examples of this is the ranking systems used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>). <style=\"CurrentLink\">Handicap Systems</style> are incompatible with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style> but are often used for the same reason - to achieve <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>.",
+            "<style=\"CurrentLink\">Handicap Systems</style> provide <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> and can by this give all players a perceived chance of being able to win, even if this may be an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>. If the support given by the <style=\"CurrentLink\">Handicap Systems</style> are gradually lowered as players become more skillful, their use can provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> for players to achieve <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>. When they work by affecting which actions are possible or not, <style=\"CurrentLink\">Handicap Systems</style> modulate players' <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>. By this, the pattern support <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> since these systems widen the range of situations when it is feasible to play the game - a player can find more people that can play against him or her while they all have similar chances.",
+            "A Voluntary <style=\"CurrentLink\">Handicap System</style> is an example of a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Rule%20Setup\">Player Decided Rule Setup</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Rule%20Setup\">Player Decided Rule Setup</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"meta-games\">Meta Games</link></style></style>",
+            "<style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"pvp\">PvP</link></style></style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"tvt\">TvT</link></style></style>",
+            "<style=\"Link\"><link=\"team-balance\">Team Balance</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>, <style=\"Link\"><link=\"pvp\">PvP</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Abilities\">Asymmetric Abilities</link></style>, <style=\"Link\"><link=\"asymmetric-resource-distribution\">Asymmetric Resource Distribution</link></style>, <style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>, <style=\"Link\"><link=\"companions\">Companions</link></style>, <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Increased%20Abilities\">Increased Abilities</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style> together with <style=\"Link\"><link=\"races\">Races</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "balancing-effects",
+            "casual-gameplay",
+            "challenging-gameplay",
+            "exaggerated-perception-influence",
+            "meta-games",
+            "player-decided-rule-setup",
+            "reversibility",
+            "social-adaptability",
+            "smooth-learning-curves",
+            "trans-game-information",
+            "scores",
+            "player-balance",
+            "team-balance",
+            "negotiation"
+        ],
+        "modulates" : [
+            "ai-players",
+            "algorithmic-agents",
+            "freedom-choice",
+            "health",
+            "player-character-skill-composites",
+            "pvp",
+            "races",
+            "scores",
+            "tvt"
+        ],
+        "instantiated_by" : [
+            "asymmetric-abilities",
+            "asymmetric-resource-distribution",
+            "asymmetric-starting-conditions",
+            "companions",
+            "decreased-abilities",
+            "difficulty-levels",
+            "dynamic-difficulty-adjustment",
+            "increased-abilities",
+            "privileged-abilities",
+            "self-facilitated-games",
+            "movement-limitations"
+        ],
+        "modulated_by" : [
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+            "symmetry"
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "name" : "Non-Diegetic Features",
+    "categories" : [
+        "Interface Patterns",
+        "Information Patterns",
+        "Diegetic Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Parts of the presentation of a game that do not fit its diegesis.",
+        "markups" : [
+            "<style=\"Definition\">Parts of the presentation of a game that do not fit its diegesis.</style>",
+            "Many games present players with a game world in which the gameplay takes place. <style=\"CurrentLink\">Non-Diegetic Features</style> are the parts which are presented to players that do not fit with the game world due to not fitting in the diegesis.",
+            "<style=\"H3\">Examples</style>",
+            "Displaying scores or health in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mortal%20Kombat%20series\">Mortal Kombat series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20series\">Tekken series</link></style> are examples of <style=\"CurrentLink\">Non-Diegetic Features</style>. The display of players' names above their avatars in games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> are other examples. As a player in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> or as spectators in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> one can see the outlines of team members through walls, which is yet another example of <style=\"CurrentLink\">Non-Diegetic Features</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Breaking <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> is typically not a design goal in itself, but introducing <style=\"CurrentLink\">Non-Diegetic Features</style> is often to provide players with information they need for the sake of the gameplay and only relevant when a game is to have a diegesis (see <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> for ways of trying to strongly convey information to players without breaking <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>). Since this information is most often about the game state, <style=\"CurrentLink\">Non-Diegetic Features</style> are often <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> of some sort. One example of this is letting players know when other players come and go in games with <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay. Making <style=\"Link\"><link=\"clues\">Clues</link></style> into <style=\"CurrentLink\">Non-Diegetic Features</style> is an example which does not directly tie to the game state but where <style=\"CurrentLink\">Non-Diegetic Features</style> is instead used to be more sure that players will notice them. <style=\"Link\"><link=\"quick-time-events\">Quick Time Events</link></style> and <style=\"Link\"><link=\"fake-game-overs\">Fake Game Overs</link></style> specifically use <style=\"CurrentLink\">Non-Diegetic Features</style> to introduce gameplay or trick players. Communication is a form of information exchange, and a common form of <style=\"CurrentLink\">Non-Diegetic Features</style> in games is the presentation of <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style>.",
+            "In games with <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> or <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"CurrentLink\">Non-Diegetic Features</style> can be used to increase <style=\"Link\"><link=\"player-character-awareness-consistency\">Player/Character Awareness Consistency</link></style>, i.e, make what players are aware of regarding the game state or <style=\"Link\"><link=\"game-worlds\">Gam World</link></style> be more similar to what their <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> or <style=\"Link\"><link=\"avatars\">Avatars</link></style> would be aware of.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Non-Diegetic Features</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Diegetic%20Patterns\">Diegetic Pattern</link></style> but relates heavily to interfaces.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Non-Diegetic Features</style> is not only an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style> because the diegesis in a game is part of its interface, but also because it is often caused by interface elements. Examples include <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style>, <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style> (including some <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style>), <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Juicy%20Interfaces\">Juicy Interfaces</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Modal%20Windows\">Modal Windows</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pie%20Menus\">Pie Menus</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Popup%20Screens\">Popup Screens</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, and <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voice-Overs\">Voice-Overs</link></style> stands out as a <style=\"CurrentLink\">Non-Diegetic Feature</style> that is audial rather than visual. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Modifiable%20Game%20Interfaces\">Modifiable Game Interfaces</link></style> give players to add <style=\"CurrentLink\">Non-Diegetic Features</style> to their game as they add elements to their interfaces.",
+            "While <style=\"CurrentLink\">Non-Diegetic Features</style> are typically considered in relation to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/:Computer%20Games\">Computer Games</link></style> they do occur frequently in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> when <style=\"Link\"><link=\"dice\">Dice</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> are used together with <style=\"Link\"><link=\"game-boards\">Game Boards</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maps\">Maps</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Non-Diegetic Features</style> challenges b",
+            "oth the <style=\"Link\"><link=\"diegetic-consistency\">Diegetic</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> of games. Since <style=\"CurrentLink\">Non-Diegetic Features</style> can be noted by players, in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> players may discuss these and this can lead to <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style> together with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"player-character-awareness-consistency\">Player/Character Awareness Consistency</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style>, <style=\"Link\"><link=\"fake-game-overs\">Fake Game Overs</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style>, <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Juicy%20Interfaces\">Juicy Interfaces</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Modal%20Windows\">Modal Windows</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Modifiable%20Game%20Interfaces\">Modifiable Game Interfaces</link></style>, <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pie%20Menus\">Pie Menus</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Popup%20Screens\">Popup Screens</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, <style=\"Link\"><link=\"quick-time-events\">Quick Time Events</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voice-Overs\">Voice-Overs</link></style>",
+            "<style=\"Link\"><link=\"dice\">Dice</link></style> together with <style=\"Link\"><link=\"game-boards\">Game Boards</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maps\">Maps</link></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> together with <style=\"Link\"><link=\"game-boards\">Game Boards</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maps\">Maps</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> if used together with <style=\"Link\"><link=\"clues\">Clues</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "non-diegetic-communication"
+        ],
+        "modulates" : [
+            "drop-in-drop-out",
+            "game-state-indicators",
+            "player-character-awareness-consistency"
+        ],
+        "instantiated_by" : [
+            "clues",
+            "crosshairs",
+            "fake-game-overs",
+            "game-state-indicators",
+            "geospatial-game-widgets",
+            "god-fingers",
+            "hud-interfaces",
+            "inventories",
+            "juicy-interfaces",
+            "modal-windows",
+            "modifiable-game-interfaces",
+            "non-diegetic-communication",
+            "pie-menus",
+            "popup-screens",
+            "progress-indicators",
+            "quick-time-events",
+            "secondary-interface-screens",
+            "tooltips",
+            "voice-overs",
+            "dice",
+            "tokens"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "diegetic-consistency",
+            "thematic-consistency",
+            "thematic-consistency"
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "name" : "Solution Uncertainty",
+    "categories" : [
+        "Dynamic Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Uncertainty in a game which stems from not being aware of an existent solution to a challenge.",
+        "markups" : [
+            "<style=\"Definition\">Uncertainty in a game which stems from not being aware of an existent solution to a challenge.</style>",
+            "Players of games are often tasks with trying to reach a goal without knowing exactly how to reach that goal. A game has <style=\"CurrentLink\">Solution Uncertainty</style> when this challenge takes the form of mainly having to do with figuring out what actions to do, rather than doing them, although a solution might not actually exist.",
+            "Note: ''Uncertainty that comes from the possibility of players failing to perform an action or series of actions is covered by the pattern <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>.''",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzles\">Puzzles</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Jigsaw%20Puzzles\">Jigsaw Puzzles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Solitaire\">Solitaire</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tangram\">Tangram</link></style> all built upon <style=\"CurrentLink\">Solution Uncertainty</style> to provide gameplay for players without requiring other players to participate. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alchemists\">Alchemists</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battleship\">Battleship</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cluedo\">Cluedo</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mastermind\">Mastermind</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mystery%20of%20the%20Abbey\">Mystery of the Abbey</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ricochet%20Robots\">Ricochet Robots</link></style> are examples of multiplayer games that build upon similar <style=\"CurrentLink\">Solution Uncertainty</style>.",
+            "Examples of computer-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzle%20Games\">Puzzle Games</link></style> relying on <style=\"CurrentLink\">Solution Uncertainty</style> include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Angry%20Birds\">Angry Birds</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Continuity\">Continuity</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cursor*10\">Cursor*10</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Drop%207\">Drop 7</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%20series\">Portal series</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Adventure%20Games\">Adventure Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/King's%20Quest%20series\">King's Quest series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leisure%20Suit%20Larry%20series\">Leisure Suit Larry series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maniac%20Mansion\">Maniac Mansion</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Myst%20series\">Myst series</link></style> are similar but combine puzzle solving with exploration of an environment and the telling of a story.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Solution Uncertainty</style> is created by introducing <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>, or a combination of these. It is however important to note that a solution must not necessarily exist, the important thing is that players experience that a solution might exist. Similarly, <style=\"CurrentLink\">Solution Uncertainty</style> can be constructed to allow for <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style> or <style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style>.",
+            "<style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> can ruin games based on <style=\"CurrentLink\">Solution Uncertainty</style> if the solution can become apparent due to the knowledge players can bring over from other game instances. It can however also be a way of modifying <style=\"CurrentLink\">Solution Uncertainty</style>  so that players may have an advantage in finding solutions if they have <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>. ",
+            "The use of <style=\"Link\"><link=\"ai-players\">AI Players</link></style> requires extra consideration when it comes to using <style=\"CurrentLink\">Solution Uncertainty</style> in a game since human players and <style=\"Link\"><link=\"ai-players\">AI Players</link></style> most likely have very different cognitive abilities and what can be difficult for one category of players to find can be trivial for the other.",
+            "<style=\"H2\">Consequences</style>",
+            "The most basic consequence of <style=\"CurrentLink\">Solution Uncertainty</style> is that it creates <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style> in games. This often leads to <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> or <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, which in turn can make for <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> or lead to players suffering from <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>. A slightly more unintuitive effect of <style=\"CurrentLink\">Solution Uncertainty</style> is that is can lead to a player becoming the target of a <style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style> due to an inability of foreseeing a potential attack. <style=\"CurrentLink\">Solution Uncertainty</style> can help make it impossible to know exactly who will win, and can thereby support <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>.",
+            "While <style=\"CurrentLink\">Solution Uncertainty</style> does not automatically create <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style>, it does provide a basis for making this type of gameplay in that it opens up for players considering how to manipulate a game state rather than simply manipulating it.",
+            "Games that rely heavily on <style=\"CurrentLink\">Solution Uncertainty</style> typically works badly with <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>. This since the former relies on being uncertain that there is a solution or how to reach it and having found one in no way guarantees that there exists a better solution or that players have any gameplay reason to try and find a better one even if one is possible.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style>, <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "analysis-paralysis",
+            "challenging-gameplay",
+            "no-direct-player-influence",
+            "puzzle-solving",
+            "surprise-attacks",
+            "tactical-planning",
+            "uncertainty-outcome",
+            "winner-gameplay-ends"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "complex-gameplay",
+            "imperfect-information",
+            "uncertainty-information"
+        ],
+        "modulated_by" : [
+            "ai-players",
+            "lucky-guess-solutions",
+            "strategic-knowledge",
+            "trial-error-solutions"
+        ],
+        "conflicts" : [
+            "further-player-improvement-potential",
+            "strategic-knowledge"
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "name" : "Arithmetic Progression",
+    "categories" : [
+        "Patterns",
+        "Resource Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "A linear relationship between the effort put into an action and its potential reward or risk.",
+        "markups" : [
+            "<style=\"Definition\">A linear relationship between the effort put into an action and its potential reward or risk.</style>",
+            "<style=\"CurrentLink\">Arithmetic Progression</style> described the relation between the effort players put into some part of the game and what type of effect can arise from the action. These effect can either be positive, i.e. rewards for wanted outcomes of the actions, or negative, i.e. penalties if the actions fail for some reason.",
+            "See wikipedia<ref name=\"wiki\"/> for more information on arithmetic progression.",
+            "<style=\"H3\">Examples</style>",
+            "Unit construction in many strategy games have a linear relation between the numbers produced and its cost, e.g. each ''Longbowman'' in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Age%20of%20Empires%20III\">Age of Empires III</link></style> costing 40 wood and 60 food (An exception can be found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts%20of%20Iron%20series\">Hearts of Iron series</link></style> which uses various modifiers through the version so that producing one unit can provide rebates on units produced afterwards).",
+            "Most board games that use action points to determine how much a player can do each turn have a direct translation between how many points are used on movement and how far one can move. This is for example true in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> makes use of an <style=\"CurrentLink\">Arithmetic Progression</style> to make action more desirable the longer since they have been used - for each turn an action card has not been used a bonus doubloon is placed on it and this is given to whomever first chooses the action.",
+            "Betting in gambling games often make use of <style=\"CurrentLink\">Arithmetic Progression</style>. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style> the potential win is directly related to how many others follow while in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style> how much can be won is a fixed multiple based on how much is bet (and which type of bet).",
+            "<style=\"H2\">Using the pattern</style>",
+            "Implementing <style=\"CurrentLink\">Arithmetic Progression</style> is rather easy, the most demanding design choice related to it is actually if it should be used instead of <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Discontinuous%20Progression\">Discontinuous Progression</link></style>. <style=\"Link\"><link=\"repeat-combos\">Repeat Combos</link></style> is a specific example of how the pattern can be created by allowing the same type of goal to be reached several times with a linear relation between the <style=\"Link\"><link=\"rewards\">Rewards</link></style> given for each goal.",
+            "The actual choices consist of deciding what efforts should be related to what effects. The efforts most often are uses of <style=\"Link\"><link=\"resources\">Resources</link></style>, but these do not have to be concrete <style=\"Link\"><link=\"resources\">Resources</link></style> but can also be <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style> or time invested in <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>. The number of pieces of <style=\"Link\"><link=\"sets\">Sets</link></style> collected is another possible effort that can be related to <style=\"CurrentLink\">Arithmetic Progression</style>. The effects can be either <style=\"Link\"><link=\"rewards\">Rewards</link></style> or <style=\"Link\"><link=\"penalties\">Penalties</link></style>, or both, but affecting <style=\"Link\"><link=\"scores\">Scores</link></style> or <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> is another possibility. The relation needs to be based solely on one unit of whatever the effort consists of, for example adding a value of 1 for each time an action is done. This since if the effect depends on the number of units the progression will become a <style=\"Link\"><link=\"geometric-progression\">Geometric One</link></style>, or, if the relation change depends on which unit in a sequence of units it is it will become a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Discontinuous%20Progression\">Discontinuous Progression</link></style>.",
+            "When designing <style=\"CurrentLink\">Arithmetic Progression</style> the <style=\"Link\"><link=\"investments\">Investments</link></style> they represent need to compared to the other ones possible <style=\"Link\"><link=\"investments\">Investments</link></style> in the game. It is also possible to artificially limit the maximum possible amount used in single <style=\"Link\"><link=\"investments\">Investments</link></style> or require minimum amounts to be invested to modulate the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> choices that have to be made; even if these uses of <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style> (or <style=\"Link\"><link=\"action-caps\">Action Caps</link></style>) and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Event%20Thresholds\">Event Thresholds</link></style> can be seen as a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Discontinuous%20Progression\">Discontinuous Progression</link></style> regard how the <style=\"Link\"><link=\"investments\">Investments</link></style> can be made it does not change the fact that the changes on effects are arithmetic. Another way of modulating the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> choices is to not make several identical <style=\"Link\"><link=\"investments\">Investments</link></style> using arithmetic reward schemes possible at the same time by imposing <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> between such <style=\"Link\"><link=\"investments\">Investments</link></style> (although this can negatively affect players' <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>). It should be pointed out that when the type of <style=\"Link\"><link=\"investments\">Investment</link></style> involved can be done many separate times in the game (as compared to only once), the use of <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style> and <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> may functionally become the same for players.",
+            "Since the consequences of <style=\"CurrentLink\">Arithmetic Progression</style> are more intuitive than other types of progression, they are often used in <style=\"Link\"><link=\"betting\">Betting</link></style> situations, especially when players bet <style=\"Link\"><link=\"resources\">Resources</link></style> against each other.",
+            "<style=\"H2\">Consequences</style>",
+            "Since <style=\"CurrentLink\">Arithmetic Progression</style> affect the relation between effort and effect, it can modulate <style=\"Link\"><link=\"investments\">Investments</link></style>. By definition <style=\"CurrentLink\">Arithmetic Progression</style> make use of different ways of translating between effort and effect than <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Discontinuous%20Progression\">Discontinuous Progression</link></style>, and are thereby incompatible with each other.",
+            "<style=\"CurrentLink\">Arithmetic Progression</style> makes the planning of the <style=\"Link\"><link=\"investments\">Investments</link></style> straightforward since there is an intuitive and easy to remember relation between how much <style=\"Link\"><link=\"resources\">Resources</link></style> are used and the potential <style=\"Link\"><link=\"rewards\">Rewards</link></style> or <style=\"Link\"><link=\"penalties\">Penalties</link></style>, or in other words: they support <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>. As <style=\"Link\"><link=\"rewards\">Rewards</link></style> can be claimed whenever without ruining the value of later <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"CurrentLink\">Arithmetic Progression</style> lets players do <style=\"Link\"><link=\"investments\">Investments</link></style> in smaller chunks, thereby not requiring so great <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> choices (there nearly always is some risk - either due to a possibility of losing the <style=\"Link\"><link=\"investments\">Investments</link></style> or not having put them in the most profitable option) and giving players a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> as well as encouraging <style=\"Link\"><link=\"experimenting\">Experimenting</link></style> (compared to <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style>). While the <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> provide by <style=\"CurrentLink\">Arithmetic Progression</style> may not be as strong as for certain varieties of the other types of progression, its value is known in advance and may be a safer option.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"experimenting\">Experimenting</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"betting\">Betting</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"sets\">Sets</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>, <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"repeat-combos\">Repeat Combos</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"action-caps\">Action Caps</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Event%20Thresholds\">Event Thresholds</link></style>, <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Discontinuous%20Progression\">Discontinuous Progression</link></style>, <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "experimenting",
+            "freedom-choice",
+            "predictable-consequences"
+        ],
+        "modulates" : [
+            "betting",
+            "extended-actions",
+            "investments",
+            "penalties",
+            "resources",
+            "rewards",
+            "risk-reward",
+            "scores",
+            "sets",
+            "value-effort",
+            "vulnerabilities"
+        ],
+        "instantiated_by" : [
+            "repeat-combos"
+        ],
+        "modulated_by" : [
+            "action-caps",
+            "event-thresholds",
+            "resource-caps",
+            "time-limits"
+        ],
+        "conflicts" : [
+            "discontinuous-progression",
+            "geometric-progression"
+        ]
+    }
+}

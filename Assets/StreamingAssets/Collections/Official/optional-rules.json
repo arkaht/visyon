@@ -1,0 +1,72 @@
+{
+    "name" : "Optional Rules",
+    "categories" : [
+        "Patterns",
+        "Rule Patterns",
+        "Needs revision",
+        "Patterns created on the Wiki",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Rules of a game that players can choose to use or not.",
+        "markups" : [
+            "<style=\"Definition\">Rules of a game that players can choose to use or not.</style>",
+            "All games consist of a core of rules which identify them as specific games compared to others. However, many games also have a set of associated <style=\"CurrentLink\">Optional Rules</style>. These can be ones that groups of players simply use to make the game better in their view, so-called ''house rules'', regardless of what any ''official'' source says. They can also be rules created by game designers that players can choose to use before gameplay begins as options or ones they can start using after buying expansions.",
+            "Since the gaming rules<ref name=\"gaming rules\"/> of any game is decided by the players, all games in one sense have <style=\"CurrentLink\">Optional Rules</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> can easily be modified by the game masters and players themselves so they have rules that suit their needs and wishes. In addition, many of them include various <style=\"CurrentLink\">Optional Rules</style> that can be added if more options or detailed outcomes are wanted, as one example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> provide many <style=\"CurrentLink\">Optional Rules</style> for actions and modifiers in combat situations.  Yet another way to provide <style=\"CurrentLink\">Optional Rules</style> is through additional rule books, e.g. <i>Low-Tech</i>, <i>High-Tech</i>, <i>Ultra-Tech</i>, and <i>Bio-Tech</i> for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> and ''Player's Handbook 2''<ref name=\"p2\"/>, ''Player's Handbook 3''<ref name=\"p3\"/>, and the various ''power'' books for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> (arcane<ref name=\"pa\"/>, divine<ref name=\"pd\"/>, martial<ref name=\"pm\"/>, and primal<ref name=\"pp\"/>).",
+            "The expansion ''Settlers of Catan Event Cards'' offers players a way to modify the gameplay of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style> - by using cards instead of dice the distribution of resources can become less random so the outcome depends less on players' luck. Besides being optional themselves, expansion to board game often include <style=\"CurrentLink\">Optional Rules</style>. One example of this can be found in the ''exodus'' expansion to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> which provides the ''Cylon Fleet'', ''Conflicted Loyalties'', and ''Ionian Nebula'' options that can either be added individually or be combined depending on how players wish to change the gameplay.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20series\">Civilization series</link></style> allows players to set options before gameplay begins to, among other things, control how barbarians behave, if leader personalities should be randomized, and which victory conditions should be used. The ''hardcore'' mode in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style> is an option players can use which makes character deaths permanent - instead of being able to respawn one must complete the whole game without dying a single time.",
+            "Experienced players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style> and other similar games sometimes make the game more difficult by adding self-imposed limitations, e.g. following a vegetarian or vegan diet.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Any rule can be made an <style=\"CurrentLink\">Optional Rule</style> by simply stating so. However, for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> these need to be coded and for any game diegetic content may need to be created so it may be ineffective and confusing to provide too many <style=\"CurrentLink\">Optional Rules</style> in any single game. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style> (e.g. ''exodus'' for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> or ''Low-Tech'', ''High-Tech'', and ''Ultra-Tech'' for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style>) is one way of postponing the required production until it has been deemed worthwhile. In contrast <style=\"Link\"><link=\"handicap-achievements\">Handicap Achievements</link></style> can be seen as providing <style=\"CurrentLink\">Optional Rules</style> within the closed design of a game, letting players choose if they wish to follow these in order to receive the specific <style=\"Link\"><link=\"achievements\">Achievements</link></style>. When <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> not only change numerical values within the game system but also add rules, they are also examples of how <style=\"CurrentLink\">Optional Rules</style> can be provided to players. In contrast, letting players choose to use <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"friendly-fire\">Friendly Fire</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player/System%20Action%20Composites\">Player/System Action Composites</link></style> as <style=\"CurrentLink\">Optional Rules</style> are ways of creating <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>. ",
+            "The <style=\"CurrentLink\">Optional Rules</style> do not necessary need to be created as part of the main design of a game. This since <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> or those with <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can create <style=\"CurrentLink\">Optional Rules</style> before gameplay begins to tailor the rule set to their wishes, and may even do so during gameplay.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "For <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>, <style=\"CurrentLink\">Optional Rules</style> are often created and inserted to fulfill the need of players or <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> for <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. If this really is <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> or a want to make the game system behave more like they perceive the real world to behave can however be discussed.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Optional Rules</style> provides <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to players on a rules level and, as long as the decisions on which to use are in their hands instead of a <style=\"Link\"><link=\"game-masters\">|Game Master's</link></style>, a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Rule%20Setup\">Player Decided Rule Setup</link></style>. If they are added during gameplay they either create <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style> or <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style> depending on if they can be removed or not later. ",
+            "Quite naturally, adding <style=\"CurrentLink\">Optional Rules</style> can create more <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> since there are more rules. Adding rules to any game can add <style=\"Link\"><link=\"excise\">Excise</link></style> to it, so the addition of <style=\"CurrentLink\">Optional Rules</style> can do this but with the possible extra burden of keeping track of which <style=\"CurrentLink\">Optional Rules</style> are being used.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Rule%20Setup\">Player Decided Rule Setup</link></style>, <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"friendly-fire\">Friendly Fire</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player/System%20Action%20Composites\">Player/System Action Composites</link></style></style>",
+            "<style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player/System%20Action%20Composites\">Player/System Action Composites</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"handicap-achievements\">Handicap Achievements</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "complex-gameplay",
+            "excise",
+            "freedom-choice",
+            "evolving-rule-sets",
+            "player-decided-rule-setup",
+            "varying-rule-sets",
+            "difficulty-levels"
+        ],
+        "modulates" : [
+            "player-system-action-composites",
+            "thematic-consistency"
+        ],
+        "instantiated_by" : [
+            "difficulty-levels",
+            "expansions",
+            "game-masters",
+            "handicap-achievements",
+            "self-facilitated-games"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

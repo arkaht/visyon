@@ -1,0 +1,67 @@
+{
+    "name" : "Uncertainty of Outcome",
+    "categories" : [
+        "Dynamic Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The characteristic of a game that it is difficult to reliably determine what the final outcome of a game instance will be before gameplay begins.",
+        "markups" : [
+            "<style=\"Definition\">The characteristic of a game that it is difficult to reliably determine what the final outcome of a game instance will be before gameplay begins.</style>",
+            "A central part of gameplay experiences is that players do not know what the final outcome will be; this is what lets players feel that they have a possibility to affect the outcome or let them pick an outcome that wish will occur. Having an <style=\"CurrentLink\">Uncertainty of Outcome</style> each time the game is played is the requirement for this.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Gambling%20Games\">Gambling Games</link></style>, for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blackjack\">Blackjack</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guts\">Guts</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style>, rely on heavily on uncertainty that comes from a combination of randomness and unpredictability of what other players will do. They share the latter with perfect information games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> but here the unpredictability of other players depend on the difficulty of being able to calculate the full consequences of the actions possible.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bowling\">Bowling</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Figure%20Skating\">Figure Skating</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style>, have <style=\"CurrentLink\">Uncertainty of Outcome</style> because players can perform actions with varying levels of success. This is also found in computer-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Real-Time%20Games\">Real-Time Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pong\">Pong</link></style>. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Uncertainty of Outcome</style> is very often a design goal in games since it provides a basic <style=\"Link\"><link=\"tension\">Tension</link></style> to gameplay. Being more a consequence of more specific rule design than a characteristics directly appearing through rules, it is typically made present in a game through specific subpatterns. Third main sources for <style=\"CurrentLink\">Uncertainty of Outcome</style> can be pointed out. First, uncertainty can simply come from <style=\"Link\"><link=\"randomness\">Randomness</link></style>. Second, the complexity of the game state or game system can give players <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style>. Thirdly, uncertainty can come from the players themselves or other <style=\"Link\"><link=\"agents\">Agents</link></style> in a game through <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>, or <style=\"Link\"><link=\"unpredictable-behavior\">Unpredictable Behavior</link></style>. As a more specific case, <style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style> can cause <style=\"CurrentLink\">Uncertainty of Outcome</style> not only from the means above, but also because not all factors related to the scoring may have been set until the end of gameplay.",
+            "There are some other reasons why <style=\"CurrentLink\">Uncertainty of Outcome</style> can be a design goal in a game. One such reasons is to either make <style=\"Link\"><link=\"betting\">Betting</link></style> possible or to make it interesting, another to have a basic foundation for <style=\"Link\"><link=\"replayability\">Replayability</link></style>. A variant of <style=\"Link\"><link=\"betting\">Betting</link></style>, <style=\"Link\"><link=\"bidding\">Bidding</link></style>, instead has uncertainty from players typically not knowing how much other players are willing to bid.",
+            "<style=\"H2\">Consequences</style>",
+            "As stated above, <style=\"CurrentLink\">Uncertainty of Outcome</style> typically adds <style=\"Link\"><link=\"tension\">Tension</link></style> to games, and in many cases provide <style=\"Link\"><link=\"replayability\">Replayability</link></style> as well. It works directly against <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Strategies\">Dominant Strategies</link></style> and through this also against a <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style> and <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style>. It can make players with <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> be less likely to win but still let them have an advantage based upon their expertise.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"betting\">Betting</link></style>, <style=\"Link\"><link=\"luck\">Luck</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"bidding\">Bidding</link></style>, <style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style>, <style=\"Link\"><link=\"unpredictable-behavior\">Unpredictable Behavior</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Strategies\">Dominant Strategies</link></style>, <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "betting",
+            "luck",
+            "replayability",
+            "tension"
+        ],
+        "modulates" : [
+            "gameplay-mastery"
+        ],
+        "instantiated_by" : [
+            "bidding",
+            "end-state-scoring",
+            "performance-uncertainty",
+            "player-unpredictability",
+            "randomness",
+            "solution-uncertainty",
+            "unpredictable-behavior"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "dominant-strategies",
+            "kingmaker",
+            "predictable-winner"
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "name" : "Sockets",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns",
+        "Interface Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Spaces for game item upgrades.",
+        "markups" : [
+            "<style=\"Definition\">Spaces for game item upgrades.</style>",
+            "Games that allow players to upgrade their equipment sometimes do this by having specific slots for these upgrades. The slots are called <style=\"CurrentLink\">Sockets</style> after one of the most common appearance of this - that the items have slots into which gems can be fitted to provide various bonuses.",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> all have equipment that players can put different types of gems into them while the the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style> provides the same functionality through runes. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> has several types of <style=\"CurrentLink\">Sockets</style>, including those for cogs rather than gems, limiting which upgrades can be put in which equipment.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Sockets</style> are locations for placing <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> in <style=\"Link\"><link=\"equipment\">Equipment</link></style> and this dictates the main design options available when introducing them into a game design. Primary is to decide how many <style=\"CurrentLink\">Sockets</style> the various types of <style=\"Link\"><link=\"equipment\">Equipment</link></style> should have, and if there are different types of <style=\"CurrentLink\">Sockets</style> into which only certain types of <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> can be placed.",
+            "<style=\"CurrentLink\">Sockets</style> are limited in number for any <style=\"Link\"><link=\"equipment\">Equipment</link></style> and this makes them into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>. However, this can be changed in some way. Increases in the number of <style=\"CurrentLink\">Sockets</style> can be the effect of <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> - for example providing the <style=\"Link\"><link=\"companions\">Companion</link></style> Isabela in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20II\">Dragon Age II</link></style> with a \"Supportive Corselet\" or \"Boiled Leather Plates\" gives an extra rune slot each to her. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, blacksmiths can add a gem socket to a bracer or glove at the cost of making them have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Enforced%20Ownership\">Enforced Ownership</link></style> if equipped (they can make a \"Eternal Belt Buckle\" which works as an <style=\"Link\"><link=\"upgrades\">Upgrade</link></style> to belts with the same cost attached). ",
+            "An option existing specifically for <style=\"CurrentLink\">Sockets</style> is if the <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> placed within them can be remove later. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20II\">Dragon Age II</link></style> hinders this (but not <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age\">Dragon Age</link></style>) making the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Upgrading\">Upgrading</link></style> in these games into <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>; while other types of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Upgrading\">Upgrading</link></style> may be irreversible because the <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> are consumed in these case the <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> remains to remind players of their choice. An additional option exists when <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> are permanently locked in <style=\"CurrentLink\">Sockets</style> - that new <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> may be placed in them but that the old ones are destroyed then.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "The management of <style=\"CurrentLink\">Sockets</style> may be part of the interfaces for <style=\"Link\"><link=\"inventories\">Inventories</link></style> or have their own <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> as for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> provides.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Sockets</style> gives players the <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to choose when to engage in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Upgrading\">Upgrading</link></style> through using <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> on <style=\"Link\"><link=\"equipment\">Equipment</link></style>.",
+            "When <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> can be removed from <style=\"CurrentLink\">Sockets</style>, players can make <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between their different benefits that different <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> can provide. When they cannot be removed, players need to do <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> choices if they should place a particular <style=\"Link\"><link=\"upgrades\">Upgrade</link></style> in a particular <style=\"CurrentLink\">Socket</style> or if they should hope for a better combination later.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Upgrading\">Upgrading</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"equipment\">Equipment</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "limited-resources",
+            "trade-offs",
+            "upgrading",
+            "risk-reward"
+        ],
+        "modulates" : [
+            "equipment",
+            "upgrades"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "irreversible-events",
+            "secondary-interface-screens",
+            "upgrades"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

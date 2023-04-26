@@ -1,0 +1,79 @@
+{
+    "name" : "HUD Interfaces",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Interface Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Information and access to game actions that are presented in computer games as if they were on a plane in front of the presentation of the game world.",
+        "markups" : [
+            "<style=\"Definition\">Information and access to game actions that are presented in computer games as if they were on a plane in front of the presentation of the game world.</style>",
+            "Computer games that have game worlds present these to players through user interfaces. However, often additional information is presented to players as on a plane right before the actual presentation of the game world. Such presentations of information and access to gameplay actions are called <style=\"CurrentLink\">HUD Interfaces</style>. ",
+            "Note: ''this pattern describes a more generic design solution that a true HUD interface. It is more aligned to the ''Overlay'' part in Fagerholt & Lorentzon's conceptual view of visual UI conventions in FPS games<ref name=\"fagerholt\"/>.",
+            "<style=\"H3\">Examples</style>",
+            "True <style=\"CurrentLink\">HUD Interfaces</style> are used in games with first person views, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>. However, the idea of overlaying information in a plane in front of a game world presentation exists also in computer-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Strategy%20Games\">Strategy Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> shows how game series that first used third-person views and later first-person views can continuously make use of <style=\"CurrentLink\">HUD Interfaces</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "While many different types of information can be presented in <style=\"CurrentLink\">HUD Interfaces</style>, e.g. <style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>, the creation of <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> in a game instantiates a (at least minimal) <style=\"CurrentLink\">HUD Interface</style> by its very nature, and affects <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> actions directly. While <style=\"CurrentLink\">HUD Interfaces</style> can serve as reminders of <style=\"Link\"><link=\"clues\">Clues</link></style> accessible in other places, <style=\"CurrentLink\">HUD Interfaces</style> can also be the only source for them and can thereby both modulate and instantiate them. <style=\"CurrentLink\">HUD Interfaces</style> can also be used to simple actions, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Naming\">Naming</link></style>.",
+            "<style=\"Link\"><link=\"controllers\">Controllers</link></style> can optionally be used to change what is shown in <style=\"CurrentLink\">HUD Interfaces</style> if these are used in a game. ",
+            "While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Screen%20Splatter\">Screen Splatter</link></style> can be seen as its own plane which information is presented on, it is equally possible to view it as a way of modifying what is presented on <style=\"CurrentLink\">HUD Interfaces</style>. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">HUD Interfaces</style> can maintain <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> if the game uses <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> and <style=\"Link\"><link=\"avatars\">Avatars</link></style> and it makes sense for players' <style=\"Link\"><link=\"avatars\">Avatars</link></style> to have these. This of course also requires that no <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style> are represented through the interfaces though.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">HUD Interfaces</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. While <style=\"CurrentLink\">HUD Interfaces</style> make most diegetic sense in games with <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style>, the use of the term here to signify any information in an overlay to the diegetic presentation of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> means that it can equally well be used in games with <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style> or <style=\"Link\"><link=\"god-views\">God Views</link></style> (as the examples from the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> show).",
+            "<style=\"H2\">Consequences</style>",
+            "The use of <style=\"CurrentLink\">HUD Interfaces</style> provides a clear way of presenting <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> and <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> in games. When they don't break <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> they can also ensure <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. The presences of very minimalistic <style=\"CurrentLink\">HUD Interfaces</style>, for example those only showing <style=\"Link\"><link=\"handles\">Handles</link></style> or <style=\"Link\"><link=\"health\">Health</link></style>, can be enough to make players aware that they are playing <style=\"Link\"><link=\"characters\">Characters</link></style> in a game. ",
+            "As stated above, while <style=\"CurrentLink\">HUD Interfaces</style> can be diegetic in their presentation, they often introduce <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>) and thereby work against <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"handles\">Handles</link></style> or <style=\"Link\"><link=\"health\">Health</link></style></style>",
+            "<style=\"Link\"><link=\"characters\">Characters</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style>, <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Naming\">Naming</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Screen%20Splatter\">Screen Splatter</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "chat-channels",
+            "clues",
+            "game-state-indicators",
+            "game-state-overviews",
+            "non-diegetic-features",
+            "thematic-consistency",
+            "characters"
+        ],
+        "modulates" : [
+            "aim-shoot",
+            "clues",
+            "equipment-slots",
+            "first-person-views",
+            "health",
+            "lives",
+            "naming",
+            "neighbors"
+        ],
+        "instantiated_by" : [
+            "crosshairs"
+        ],
+        "modulated_by" : [
+            "controllers",
+            "screen-splatter"
+        ],
+        "conflicts" : [
+            "diegetic-consistency"
+        ]
+    }
+}

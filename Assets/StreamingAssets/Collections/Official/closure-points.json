@@ -1,0 +1,74 @@
+{
+    "name" : "Closure Points",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Events during gameplay where pieces of the game state is, or can be, removed.",
+        "markups" : [
+            "<style=\"Definition\">Events during gameplay where pieces of the game state is, or can be, removed.</style>",
+            "Gameplay actions affect game states. <style=\"CurrentLink\">Closure Points</style> occur when the actions result in the game states being reduced, some parts of them no longer being accessible, or there are significant changes to how they can be manipulated in the future.",
+            "Note: ''This pattern describes closure points that can objectively be identifying through how they affect game states.''",
+            "<style=\"H3\">Examples</style>",
+            "Games that provide levels also provide <style=\"CurrentLink\">Closure Points</style>. A few examples of the many games that does this include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Candy%20Crush%20Saga\">Candy Crush Saga</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom\">Doom</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Staries\">Staries</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tetris\">Tetris</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A very common way of using <style=\"CurrentLink\">Closure Points</style> is to remove part of the game state to replace it with another. This can be done more specifically through <style=\"Link\"><link=\"levels\">Levels</link></style> (especially for <style=\"Link\"><link=\"finale-levels\">Finale Levels</link></style>), <style=\"Link\"><link=\"quests\">Quests</link></style>, and <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>; <style=\"Link\"><link=\"levels\">Levels</link></style> that are <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> due to not being possible to reenter are stronger examples of how <style=\"Link\"><link=\"levels\">Levels</link></style> can be <style=\"CurrentLink\">Closure Points</style>.  ",
+            "However, not all <style=\"CurrentLink\">Closure Points</style> reduce game states, some instead hinder certain actions or game states to occur in the future. <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, and <style=\"Link\"><link=\"permadeath\">Permadeath</link></style> are examples of how to create these types of <style=\"CurrentLink\">Closure Points</style>. Others <style=\"CurrentLink\">Closure Points</style> are closures because they make players safe from having to redo some things if they fail with actions in the future or because they significantly change what actions are available. <style=\"Link\"><link=\"save-points\">Save Points</link></style> is an example of the former while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style> is an example of the latter. ",
+            "<style=\"CurrentLink\">Closure Points</style> can be modified by letter players have very clear information about what will happen when they are reached, i.e. they can have <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>. They can also be emphasized by linking <style=\"Link\"><link=\"downtime\">Downtime</link></style> to them. Another way to make <style=\"CurrentLink\">Closure Points</style> have stronger impact is to make them be the end of <style=\"Link\"><link=\"committed-goals\">Committed Goals</link></style>. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Since <style=\"CurrentLink\">Closure Points</style> tend to be manually designed, they are difficult to combine with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Never%20Ending%20Stories\">Never Ending Stories</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Closure Points</style> is the prime means of ensuring that games can have <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>. It also lets players have clear gameplay points where they can have a chance to experience <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>. They can also create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Foresight\">Limited Foresight</link></style> since these points often reduces the size of game states and creates new ones. When <style=\"CurrentLink\">Closure Points</style> are consistently presented in a certain fashion in a game they also work as <style=\"Link\"><link=\"goal-indicators\">Goal Indicators</link></style> for the overarching goals of that game.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"goal-indicators\">Goal Indicators</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Foresight\">Limited Foresight</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"finale-levels\">Finale Levels</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"save-points\">Save Points</link></style>, <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style>",
+            "<style=\"Link\"><link=\"levels\">Levels</link></style> with <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"committed-goals\">Committed Goals</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Never%20Ending%20Stories\">Never Ending Stories</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "goal-indicators",
+            "higher-level-closures-gameplay-progresses",
+            "limited-foresight",
+            "value-effort"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "excluding-goals",
+            "finale-levels",
+            "irreversible-events",
+            "levels",
+            "narration-structures",
+            "permadeath",
+            "quests",
+            "save-points",
+            "tournaments",
+            "transfer-control",
+            "levels"
+        ],
+        "modulated_by" : [
+            "committed-goals",
+            "downtime",
+            "predictable-consequences"
+        ],
+        "conflicts" : [
+            "never-ending-stories"
+        ]
+    }
+}

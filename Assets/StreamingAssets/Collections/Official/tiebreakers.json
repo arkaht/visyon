@@ -1,0 +1,85 @@
+{
+    "name" : "Tiebreakers",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Rules for how to make distinctions in what would else be tied results.",
+        "markups" : [
+            "<style=\"Definition\">Rules for how to make distinctions in what would else be tied results.</style>",
+            "Games often need to evaluate players or their actions (or aspects of the game state) so that distinctions can be made between them, e.g. who one the game, who gets to move first. Whenever the main rule for doing so can end in tied results but another rule lets this be resolved, that other rule is a <style=\"CurrentLink\">Tiebreaker</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> where players can win over each other typically have <style=\"CurrentLink\">Tiebreakers</style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Agricola\">Agricola</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Amun-Re\">Amun-Re</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Caylus\">Caylus</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style>. Victory points can be <style=\"CurrentLink\">Tiebreakers</style> but this is not so common since typically they are the main way of determining winners to begin with, but other measures commonly used are most resources or most money.",
+            "In the team vs. team versions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, <style=\"CurrentLink\">Tiebreakers</style> are which team quickest gets to the end of the level (or gets the furthest) in some levels while in others it can be which gets the gas cans the quickest.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> can end in draws.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Tiebreakers</style> are applied to situations where <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> are possible and for some reason this is not wanted in the design, or the likelihood of it is wanted to be significantly lower (as for <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>, <style=\"CurrentLink\">Tiebreakers</style> typically only make sense in [PvP]] or <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay). While <style=\"CurrentLink\">Tiebreakers</style> can be applied to any situation where <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> can occur, they are often applied in situations where <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> or <style=\"Link\"><link=\"overcome\">Overcome</link></style> goals want to be put in focus, e.g. in <style=\"Link\"><link=\"tournaments\">Tournaments</link></style> or in <style=\"Link\"><link=\"bidding\">Bidding</link></style> situations. More specifically, <style=\"CurrentLink\">Tiebreakers</style> are often applied to <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style>, <style=\"Link\"><link=\"races\">Races</link></style> or <style=\"Link\"><link=\"scores\">Scores</link></style>. The actual <style=\"CurrentLink\">Tiebreakers</style> tend to be <style=\"Link\"><link=\"resources\">Resources</link></style>, and while <style=\"Link\"><link=\"scores\">Scores</link></style> can work this is typically already the value used that can have <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>; an example of when <style=\"Link\"><link=\"scores\">Scores</link></style> can be <style=\"CurrentLink\">Tiebreakers</style> is games with <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style> but where several players can end at the same time. The use of <style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style> can both be the basis for how to handle <style=\"CurrentLink\">Tiebreakers</style> (e.g. by using who comes first to a certain place on them as <style=\"CurrentLink\">Tiebreakers</style>) and something that is heavily affected by the presence of <style=\"CurrentLink\">Tiebreakers</style>. ",
+            "The two main design solutions to actually create <style=\"CurrentLink\">Tiebreakers</style> are to either enforce <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style> or to use <style=\"Link\"><link=\"tournaments\">Tournaments</link></style> to play new game instances or new sub parts of a game until the <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> are broken. Somewhat paradoxical, <style=\"CurrentLink\">Tiebreakers</style> can result in <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>... when this can occur designers can add additional <style=\"CurrentLink\">Tiebreakers</style> or accept than in rare circumstances <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> are acceptable.",
+            "<style=\"H2\">Consequences</style>",
+            "By not allowing <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>, <style=\"CurrentLink\">Tiebreakers</style> make goals into <style=\"Link\"><link=\"excluding-goals\">Excluding</link></style> and <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style> and thereby increase or create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflict</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style>. The use of \"sudden death\" extensions to gameplay as <style=\"CurrentLink\">Tiebreakers</style> can be seen as a use of <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style> because the length of game instances can be extended in some of them. <style=\"CurrentLink\">Tiebreakers</style> can cause <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> in that it is not possible to shared <style=\"Link\"><link=\"rewards\">Rewards</link></style> or <style=\"Link\"><link=\"penalties\">Penalties</link></style> with other players even when one wishes to. ",
+            "When <style=\"CurrentLink\">Tiebreakers</style> prevent <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>, they also prevent <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style> and <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style>. This in turn removes a possibility for player to engage in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> to form <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style> aimed at sharing these <style=\"Link\"><link=\"rewards\">Rewards</link></style> (and less commonly <style=\"Link\"><link=\"penalties\">Penalties</link></style>).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>, <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"bidding\">Bidding</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>, <style=\"Link\"><link=\"pvp\">PvP</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"CurrentLink\">Tiebreakers</style>, <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>, <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>, <style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>",
+            "<style=\"Link\"><link=\"scores\">Scores</link></style> together with <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style>, <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style>, <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "conflicts",
+            "excluding-goals",
+            "incompatible-goals",
+            "social-dilemmas",
+            "tension",
+            "tied-results",
+            "varying-rule-sets"
+        ],
+        "modulates" : [
+            "bidding",
+            "competition",
+            "conflicts",
+            "high-score-lists",
+            "overcome",
+            "pvp",
+            "races",
+            "score-tracks",
+            "scores",
+            "tiebreakers",
+            "tied-results",
+            "tournaments",
+            "tvt"
+        ],
+        "instantiated_by" : [
+            "perceivable-margins",
+            "resources",
+            "tournaments",
+            "scores"
+        ],
+        "modulated_by" : [
+            "score-tracks"
+        ],
+        "conflicts" : [
+            "negotiation",
+            "shared-penalties",
+            "shared-rewards",
+            "tied-results",
+            "uncommitted-alliances"
+        ]
+    }
+}

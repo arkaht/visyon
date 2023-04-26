@@ -1,0 +1,54 @@
+{
+    "name" : "Repetition of Position Draws",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Rules that make games end in draws if players make position or game states repeat themselves in a game instance.",
+        "markups" : [
+            "<style=\"Definition\">Rules that make games end in draws if players make position or game states repeat themselves in a game instance.</style>",
+            "Actions that players make in games are typically done to advance their positions or increase their chances of winning. However, when players meet each other in games their actions can cancel each out in ways that make the positions of game elements &mdash; or more generally, the whole game state &mdash; repeat themselves. <style=\"CurrentLink\">Repetition of Position Draws</style> are rules that make such sequences of actions result in draws instead of letting players potentially continue infinitely with the actions.",
+            "Wikipedia has a page on a specific instance of this, the [https://en.wikipedia.org/wiki/Threefold_repetition Threefold repetition]. ",
+            "<style=\"H3\">Examples</style>",
+            "Game instances of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> end if players make the same position occur three times (not necessarily in a row). <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shogi\">Shogi</link></style> does the same but allows repetitions up to four times before a draw is enforced.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> forbids the direct repetition of an existing game state, and may forbid any repetition depending on which rule set is used.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main reason for including <style=\"CurrentLink\">Repetition of Position Draws</style> in a game is to avoid a certain type of <style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style>. The main choices is how many repetitions are allowed and if only directly repetitions are counted. Unless computer or referee support exists, keeping track of all previous positions or game states can be problematic for players. As direct repetition often suffices, but as a parallel one can consider the issues with ''ko'' and ''superko'' situations in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Repetition of Position Draws</style> provides one way of achieving <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> in a game, and this may provide a tactic for disadvantaged players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"tied-results\">Tied Results</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "tied-results"
+        ],
+        "modulates" : [
+            "repetitive-gameplay"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

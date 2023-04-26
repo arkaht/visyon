@@ -1,0 +1,79 @@
+{
+    "name" : "Quick Travel",
+    "categories" : [
+        "Patterns",
+        "Action Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Ways for players to move between different places in a game world without visiting the intermittent places.",
+        "markups" : [
+            "<style=\"Definition\">Ways for players to move between different places in a game world without visiting the intermittent places.</style>",
+            "Many games make players move through their game worlds. While this makes it easy to structure the gameplay in relation to challenges and surprises, moving back and forth can become tedious. <style=\"CurrentLink\">Quick Travel</style> solves this by providing various ways of letting players instantaneously move from one part of the game world to another.",
+            "<style=\"H3\">Examples</style>",
+            "Game masters of tabletop roleplaying games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Paranoia\">Paranoia</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style> often invoke <style=\"CurrentLink\">Quick Travel</style> to skip having to play through uninteresting section with the players. Players may also be able to do this as various forms of teleportation actions. The computer-based game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style> provides ''Portal'' scrolls that allow players to open short cuts to the safety of the town where loot can be sold and new supplies can be bought. All games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> but <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Elder%20Scrolls%20III:%20Morrowind\">Morrowind</link></style> have <style=\"CurrentLink\">Quick Travel</style> options to already visited areas through the map of the game world (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Elder%20Scrolls%20III:%20Morrowind\">Morrowind</link></style> has it through hired transport and magical devices).",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> allows players to move from the right side of the game area to the left side and vice versa through entering a ''connecting'' tunnels. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20Bros.\">Super Mario Bros.</link></style> contains hidden ''warp pipes'' that players can use to skip ahead to levels several steps ahead. In contrast, the Nether world in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> provides a form of <style=\"CurrentLink\">Quick Travel</style> in that each step taken there represents several in the main game world and players can take shortcuts by entering and exiting it.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Quick Travel</style> is used in games to avoid the need of <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>. <style=\"CurrentLink\">Quick Travel</style> can be realized as actions, events, or modifications of the nature of the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> themselves. As actions, <style=\"CurrentLink\">Quick Travel</style> can be put in the hands of players and thereby give them a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>. As events, they can be <style=\"Link\"><link=\"rewards\">Rewards</link></style> or <style=\"Link\"><link=\"setback-penalties\">Setback Penalties</link></style> to reflect player performances as for example finishing <style=\"Link\"><link=\"levels\">Levels</link></style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20Bros.\">Super Mario Bros.</link></style> <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style> and <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style> are two ways of modifying <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> so they support <style=\"CurrentLink\">Quick Travel</style>. <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style>, found in e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style>, break Euclidean geometry by inserting short cuts that affect normal means of <style=\"Link\"><link=\"movement\">Movement</link></style> and (possibly <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style>). <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style> are a special case of <style=\"CurrentLink\">Quick Travel</style> to avoid the <style=\"Link\"><link=\"grinding\">Grinding</link></style> of having to travel linearly through already explored areas of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> by opening up another, shorter, route of normal travel. In general, <style=\"CurrentLink\">Quick Travel</style> can reduce the <style=\"Link\"><link=\"excise\">Excise</link></style> of <style=\"Link\"><link=\"movement\">Movement</link></style> over large spaces in games.",
+            "Games divided into <style=\"Link\"><link=\"levels\">Levels</link></style> which are not immediately adjacent to each other automatically make use of <style=\"CurrentLink\">Quick Travel</style>, possibly through <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style>, and can those that use <style=\"Link\"><link=\"quests\">Quests</link></style>. These may be <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>, i.e. players have no possibility to not travel, and this design choice can also be modulated to be a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style> if one wishes to guarantee that players cannot return. ",
+            "<style=\"CurrentLink\">Quick Travel</style> can be the basis for <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style> and <style=\"Link\"><link=\"privileged-abilities\">Abilities</link></style> as the <style=\"Link\"><link=\"movement\">Movement</link></style> it provides is typically more powerful than other varieties of <style=\"Link\"><link=\"movement\">Movement</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> are often used, even if they only present static images (as for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oblivion\">Oblivion</link></style> does), to provide a rationale for the travelling that can be used to maintain <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> of <style=\"Link\"><link=\"game-worlds\">Game World</link></style> maps can be used as a way of masking the transition between the different places linked by <style=\"CurrentLink\">Quick Travel</style>. This is done for most games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> as well as for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style>. <style=\"Link\"><link=\"switches\">Switches</link></style> or <style=\"Link\"><link=\"controllers\">Controllers</link></style> can be used to make <style=\"CurrentLink\">Quick Travel</style> explicit actions that have to be initiated (and thereby less likely to accidentally be started through for example moving to close to <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style>).",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Besides being able to be events in <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"CurrentLink\">Quick Travel</style> is often used when changing <style=\"Link\"><link=\"scenes\">Scenes</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Quick Travel</style> changes <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> by letting players have <style=\"Link\"><link=\"movement\">Movement</link></style> in them without visiting a continuously series of places between them. For games where such travel is possible, <style=\"CurrentLink\">Quick Travel</style> offers a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to avoid what easily can be a form of <style=\"Link\"><link=\"grinding\">Grinding</link></style>. Since <style=\"Link\"><link=\"movement\">Movement</link></style> is tied to game elements, <style=\"CurrentLink\">Quick Travel</style> is typically an <style=\"Link\"><link=\"abilities\">Ability</link></style> even if the action does not always have a diegetic explanation. ",
+            "When used as a <style=\"Link\"><link=\"rewards\">Reward</link></style> or a <style=\"Link\"><link=\"setback-penalties\">Setback Penalty</link></style>, <style=\"CurrentLink\">Quick Travel</style> is a <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Event</link></style> and quite often modulated by <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style> to also become an <style=\"Link\"><link=\"irreversible-events\">Irreversible Event</link></style>.",
+            "<style=\"CurrentLink\">Quick Travel</style> can give an <style=\"Link\"><link=\"illusion-open-space\">Illusion of Open Space</link></style> when <style=\"CurrentLink\">Quick Travel</style> is enabled through <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> depicting whole <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> but not all locations can be traveled to.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"abilities\">Abilities</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"setback-penalties\">Setback Penalties</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style></style>",
+            "<style=\"Link\"><link=\"illusion-open-space\">Illusion of Open Space</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"scenes\">Scenes</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style>, <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, <style=\"Link\"><link=\"switches\">Switches</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>, <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "abilities",
+            "freedom-choice",
+            "predetermined-story-structures",
+            "privileged-abilities",
+            "illusion-open-space"
+        ],
+        "modulates" : [
+            "game-worlds",
+            "scenes"
+        ],
+        "instantiated_by" : [
+            "levels"
+        ],
+        "modulated_by" : [
+            "controllers",
+            "cutscenes",
+            "one-way-travel",
+            "quests",
+            "secondary-interface-screens",
+            "switches",
+            "ultra-powerful-events"
+        ],
+        "conflicts" : [
+            "excise",
+            "grinding",
+            "transport-routes"
+        ]
+    }
+}

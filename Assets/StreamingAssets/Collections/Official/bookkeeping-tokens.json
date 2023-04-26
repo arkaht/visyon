@@ -1,0 +1,89 @@
+{
+    "name" : "Bookkeeping Tokens",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Game elements that do not represent diegetic objects in the game world but instead uphold abstract parts of the game state.",
+        "markups" : [
+            "<style=\"Definition\">Game elements that do not represent diegetic objects in the game world but instead uphold abstract parts of the game state.</style>",
+            "Game states that at least partially represent abstract values require that games have some way to store the information. This can be done by using computers or humans that have to remember the information, but when computers are not available many games have <style=\"CurrentLink\">Bookkeeping Tokens</style> to let players focus on the gameplay rather than memorizing game states.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> has the role of governor that is passed among players. To help players keep track of their roles a small governor card is past to the player who currently is the governor. Given that players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carolus%20Magnus\">Carolus Magnus</link></style> have a turn order based upon which ''turn discs'' they have played rather the way they physically sit around the game board, the game provides <style=\"CurrentLink\">Bookkeeping Tokens</style> to help players keep track of this order.",
+            "Many games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Amun-Re\">Amun-Re</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Balderdash\">Balderdash</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Caylus\">Caylus</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inca%20Empire\">Inca Empire</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pictionary\">Pictionary</link></style>, make use of score tracks so that players know the current positions of each other. Both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Egizia\">Egizia</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ursuppe\">Ursuppe</link></style> also have score tracks but in these cases they are also used to determine turn order. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style> are instead examples of games that make use of chips as <style=\"CurrentLink\">Bookkeeping Tokens</style> to keep track of victory points. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Caverna:%20The%20Cave%20Farmers\">Caverna: The Cave Farmers</link></style> have \"modifying\" <style=\"CurrentLink\">Bookkeeping Tokens</style> in addition to ordinary ones, letting a token that represents a specific resource instead represent several through placing them on tokens that state \"*4\" or \"*8\".",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Agricola\">Agricola</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stone%20Age\">Stone Age</link></style> are examples of board games that have many types of <style=\"CurrentLink\">Bookkeeping Tokens</style> to keep track of which resources players have. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Origins:%20How%20We%20Became%20Human\">Origins: How We Became Human</link></style> provides each player with a limit number of <style=\"CurrentLink\">Bookkeeping Tokens</style> that are used for many different purposes, e.g. as units on the game board, or levels of elders and innovation in civilizations. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/High%20Frontier\">High Frontier</link></style> does the same, but in this case for rockets, bases, factories, and claiming glory sites. In contrast, the board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Android\">Android</link></style> makes use of many different types of tokens to keep track of both the overall and individual players' stories.",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Alert\">Space Alert</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/RoboRally\">RoboRally</link></style> use cards as <style=\"CurrentLink\">Bookkeeping Tokens</style> to set up the future moves their characters or robots should do.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The values of the game state that need to be kept track of dictate most of the design requirements of <style=\"CurrentLink\">Bookkeeping Tokens</style>. This may be to handle <style=\"Link\"><link=\"resources\">Resources</link></style> such as <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style>, to keep track of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style> and <style=\"Link\"><link=\"skills\">Skills</link></style> including when players receive <style=\"Link\"><link=\"new-abilities\">New</link></style> or <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, to keep track of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Victory%20Points\">Victory Points</link></style> through individual <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chips\">Chips</link></style> or by being placed on <style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style>, to let players set up their <style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, or to help players keep track of <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> through <style=\"Link\"><link=\"first-player-tokens\">First Player Tokens</link></style> and <style=\"Link\"><link=\"current-player-tokens\">Current Player Tokens</link></style>. However, game designers have the option of making the <style=\"CurrentLink\">Bookkeeping Tokens</style> provide players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, typically through <style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chips\">Chips</link></style>, or <style=\"Link\"><link=\"tiles\">Tiles</link></style>.",
+            "Another, less common but found for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Origins:%20How%20We%20Became%20Human\">Origins: How We Became Human</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/High%20Frontier\">High Frontier</link></style>, option is to use <style=\"CurrentLink\">Bookkeeping Tokens</style> for many different values in game states which players can affect, and thereby making them into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Since <style=\"CurrentLink\">Bookkeeping Tokens</style> are non-diegetic, they become <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> if placed within <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Bookkeeping Tokens</style> are interface elements in games, so they are inherently related to interfaces.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Bookkeeping Tokens</style> are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> that can help players run <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> by upholding the game states instead of <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> them, e.g. by being <style=\"Link\"><link=\"resources\">Resources</link></style> such as <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Victory%20Points\">Victory Points</link></style> or letting player commit their <style=\"Link\"><link=\"action-programming\">Action Programming</link></style>. This can also encourage <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> and provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cognitive%20Engrossment\">Cognitive Engrossment</link></style>; if the tokens provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public</link></style> or semi-public information these patterns are even stronger present since players have <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>. However, they require players to do <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> in the form of <style=\"Link\"><link=\"excise\">Excise</link></style> that resemble <style=\"Link\"><link=\"resource-management\">Resource Management</link></style> but without any <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>. Since this requires <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>, all kinds of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Engrossment\">Engrossment</link></style> can be negatively affected (except <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cognitive%20Engrossment\">Cognitive Engrossment</link></style>).",
+            "<style=\"CurrentLink\">Bookkeeping Tokens</style> present in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> are <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> since they do not represent diegetic elements. Regardless, they can be the <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> of players' actions either through indicating that an action has been done or by giving <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> to affect the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>.",
+            "When <style=\"CurrentLink\">Bookkeeping Tokens</style> are used to provide <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style> they do limit <style=\"Link\"><link=\"excise\">Excise</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cognitive%20Engrossment\">Cognitive Engrossment</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style></style>",
+            "<style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Victory%20Points\">Victory Points</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chips\">Chips</link></style>, <style=\"Link\"><link=\"current-player-tokens\">Current Player Tokens</link></style>, <style=\"Link\"><link=\"first-player-tokens\">First Player Tokens</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Engrossment\">Engrossment</link></style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style> when <style=\"CurrentLink\">Bookkeeping Tokens</style> are used to provide <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "cognitive-engrossment",
+            "excise",
+            "extra-chances",
+            "extra-game-actions",
+            "focus-loci",
+            "geospatial-game-widgets",
+            "improved-abilities",
+            "limited-resources",
+            "new-abilities",
+            "tokens",
+            "game-state-overviews"
+        ],
+        "modulates" : [
+            "action-programming",
+            "attributes",
+            "memorizing",
+            "money",
+            "resources",
+            "self-facilitated-games",
+            "skills",
+            "stimulated-planning",
+            "turn-taking",
+            "victory-points"
+        ],
+        "instantiated_by" : [
+            "cards",
+            "chips",
+            "current-player-tokens",
+            "first-player-tokens",
+            "tiles"
+        ],
+        "modulated_by" : [
+            "score-tracks"
+        ],
+        "conflicts" : [
+            "engrossment",
+            "excise"
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "name" : "Resource Locations",
+    "categories" : [
+        "Mechanical Patterns",
+        "Level Design Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Places in game world that contain resources.",
+        "markups" : [
+            "<style=\"Definition\">Places in game world that contain resources.</style>",
+            "<style=\"CurrentLink\">Resource Locations</style> are simply places in game worlds where resource that are useful to players can be found. ",
+            "<style=\"H3\">Examples</style>",
+            "The levels in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> have specific <style=\"CurrentLink\">Resource Locations</style> for the \"power pellets\". Certain spaces in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> have valuable resources in them. For the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style>, all provinces have resources but different ones. ",
+            "The levels in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> all have places where players can find ammunition, first aid kits, and other items that help players in gameplay challenges.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Resource Locations</style> are used in games to provide <style=\"Link\"><link=\"resource-sources\">Resource Sources</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. Which <style=\"Link\"><link=\"resources\">Resources</link></style> to place and where to place them are the main design choices in focus when using <style=\"CurrentLink\">Resource Locations</style>. ",
+            "Some games only put <style=\"CurrentLink\">Resource Locations</style> in certain areas of the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> such as particular <style=\"Link\"><link=\"tiles\">Tiles</link></style> while others, mainly those using <style=\"Link\"><link=\"territories\">Territories</link></style>, have each discernible gameplay space have its own <style=\"Link\"><link=\"resources\">Resource</link></style>. Placing <style=\"CurrentLink\">Resource Locations</style> in <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> can let players see these before they can access them and thereby help them set up goals; this assumes that players will later be able to get access to the areas. Being able to have <style=\"Link\"><link=\"area-control\">Area Control</link></style> over <style=\"CurrentLink\">Resource Locations</style> limit who can make use of the <style=\"Link\"><link=\"resources\">Resources</link></style> they contain and intensify <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals.",
+            "The exact type of <style=\"Link\"><link=\"resources\">Resources</link></style> placed naturally depends on what <style=\"Link\"><link=\"resources\">Resources</link></style> are used in a game, but several patterns relate to how they can be placed in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. <style=\"Link\"><link=\"game-items\">Game Items</link></style> (including the more specific choices of <style=\"Link\"><link=\"tools\">Tools</link></style> and <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>) and <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style> are basic <style=\"CurrentLink\">Resource Locations</style>. <style=\"Link\"><link=\"chargers\">Chargers</link></style> provide a more abstract case since they affect <style=\"Link\"><link=\"resources\">Resources</link></style> of the game elements that come into proximity of them. Stationary <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> that can be harvested, i.e. provide some <style=\"Link\"><link=\"controllers\">Controller</link></style> functionality, are also <style=\"CurrentLink\">Resource Locations</style>. <style=\"Link\"><link=\"bases\">Bases</link></style> and <style=\"Link\"><link=\"installations\">Installations</link></style> often contain, produce, or manage <style=\"Link\"><link=\"resources\">Resources</link></style> and thereby are <style=\"CurrentLink\">Resource Locations</style> as well.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Besides the intentionality and <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style> shown by <style=\"CurrentLink\">Resource Locations</style> in the form of <style=\"Link\"><link=\"bases\">Bases</link></style> or <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"traces\">Traces</link></style> of the <style=\"Link\"><link=\"resources\">Resources</link></style> (or its collecting) found nearby <style=\"CurrentLink\">Resource Locations</style> can also provide <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "While how to represent the <style=\"Link\"><link=\"resources\">Resources</link></style> found in <style=\"CurrentLink\">Resource Locations</style> depend on their diegetic nature, the importance of <style=\"CurrentLink\">Resource Locations</style> can be stressed through using <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Resource Locations</style> are <style=\"Link\"><link=\"resource-sources\">Resource Sources</link></style> and quite often <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>. If where they exist are already known or public information, the knowledge (or suspicion) of their existence gives rise to <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>. Being able to access them provides a form of <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goal, especially if this is contests by other players. Making most efficient use of them can signify that gameplay is in <style=\"Link\"><link=\"exploitation\">Exploitation</link></style> phases.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"exploitation\">Exploitation</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"resource-sources\">Resource Sources</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"territories\">Territories</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"bases\">Bases</link></style>, <style=\"Link\"><link=\"chargers\">Chargers</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>",
+            "<style=\"Link\"><link=\"controllers\">Controllers</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>, <style=\"Link\"><link=\"traces\">Traces</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "exploitation",
+            "gain-ownership",
+            "game-world-exploration",
+            "resource-sources",
+            "strategic-locations"
+        ],
+        "modulates" : [
+            "game-worlds",
+            "inaccessible-areas",
+            "resources",
+            "territories",
+            "tiles"
+        ],
+        "instantiated_by" : [
+            "bases",
+            "chargers",
+            "game-items",
+            "installations",
+            "pick-ups",
+            "tools",
+            "vehicles",
+            "controllers"
+        ],
+        "modulated_by" : [
+            "area-control",
+            "diegetically-outstanding-features",
+            "environmental-storytelling",
+            "traces"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

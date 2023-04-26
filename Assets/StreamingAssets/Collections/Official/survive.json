@@ -1,0 +1,81 @@
+{
+    "name" : "Survive",
+    "categories" : [
+        "Patterns",
+        "Goal Patterns",
+        "Needs work",
+        "Needs revision",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The goal of trying to avoid having game elements being eliminated, killed, or otherwise removed from gameplay.",
+        "markups" : [
+            "<style=\"Definition\">The goal of trying to avoid having game elements being eliminated, killed, or otherwise removed from gameplay.</style>",
+            "Many games have effects that capture, destroy, kill, or eliminate game elements depending on the theme of the game. As these events are usually negative for the players who control the game elements, they have the expected goal of trying to make these game elements <style=\"CurrentLink\">Survive</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Survive</style> goals typically manifest in two different ways in games. One is a hostile environment, primarily through enemies or monsters, threaten to kill players' characters. Example of this can be found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Alert\">Space Alert</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Invaders\">Space Invaders</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>. Another is that players must handle continuously depleting resources, as for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oxygen%20Not%20Included\">Oxygen Not Included</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roguelikes\">Roguelikes</link></style>, e.g., <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unexplored\">Unexplored</link></style>, and more generally <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Survival%20Games\">Survival Games</link></style> typically provide both types of challenges with varying ratios. Examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Survival%20Games\">Survival Games</link></style> include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20of%20Winter\">Dead of Winter</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/No%20Man's%20Sky\">No Man's Sky</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Project%20Zomboid\">Project Zomboid</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Slaves to Armok II: Dwarf Fortress</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Terraria\">Terraria</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Valheim\">Valheim</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The two primary aspects of consider when designing for <style=\"CurrentLink\">Survive</style> goals in a game is what is to <style=\"CurrentLink\">Survive</style> and what threatens it. ",
+            "<style=\"CurrentLink\">Survive</style> goals tied to game elements directly tied to players' agency, e.g., <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, and <style=\"Link\"><link=\"units\">Units</link></style> are typically most natural to consider in games. The use of <style=\"Link\"><link=\"lives\">Lives</link></style> allows <style=\"CurrentLink\">Survive</style> goals to not remove game elements permanently or end gameplay when a <style=\"CurrentLink\">Survive</style> goal is failed the first time. However, <style=\"CurrentLink\">Survive</style> goals do not need to be focus on players' <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>. <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guide%20and%20Protect\">Guide and Protect</link></style>, and <style=\"Link\"><link=\"herd\">Herd</link></style> can be modulated with the <style=\"CurrentLink\">Survive</style> goal by making it possible for the targets of those goals to \"die\" and thereby failing the goals. <style=\"CurrentLink\">Survive</style> goals can also be introduced to the rivals in games with <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style> to removing elimination of those rivals as a solution to the rivalry. ",
+            "Survival threats can either be passive or active. Passive threats are typically based on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maintenance%20Costs\">Maintenance Costs</link></style> of thematically suitable <style=\"Link\"><link=\"resources\">Resources</link></style> (e.g., <style=\"Link\"><link=\"health\">Health</link></style>) and many different <style=\"Link\"><link=\"resources\">Resources</link></style> can be used simultaneously or more complex or difficult gameplay (e.g., food, water, air, heat, etc.). <style=\"Link\"><link=\"steadily-decreasing-resources\">Steadily Decreasing Resources</link></style> can be used to make passive threats to <style=\"CurrentLink\">Survive</style> goals be guaranteed to at some point succeed in making players fail with the goal and thereby create <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>. Active threats can broadly be divided into <style=\"Link\"><link=\"enemies\">Enemies</link></style> and <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>. An alterative to game-controlled <style=\"Link\"><link=\"enemies\">Enemies</link></style> are players with <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals focused on the owner of the <style=\"CurrentLink\">Survive</style> goal (<style=\"Link\"><link=\"enemies\">Enemies</link></style> can also be given <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals to nuance whom they are <style=\"Link\"><link=\"enemies\">Enemies</link></style> to). A special case of this is <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>; where players all have <style=\"CurrentLink\">Survive</style> goals and <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style> of <style=\"Link\"><link=\"eliminate\">Eliminating</link></style> each other. Introducing <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals is one way to modify the <style=\"CurrentLink\">Survive</style> goal with a <style=\"Link\"><link=\"preventing-goals\">Preventing Goal</link></style>. However, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> to <style=\"CurrentLink\">Survive</style> goals can also be possible for passive threats if for example players can deny each other access to needed <style=\"Link\"><link=\"resources\">Resources</link></style>. ",
+            "<style=\"CurrentLink\">Survive</style> goals in themselves are <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>. However, players can be offered more active ways of succeeding with <style=\"CurrentLink\">Survive</style> goals by allowing them to <style=\"Link\"><link=\"conceal\">Conceal</link></style> the targets of the goals or by <style=\"Link\"><link=\"eliminate\">Eliminating</link></style> the threats that exist.",
+            "Games aiming at <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style> by having a player need to deal with many simultaneous challenges can increase the likelihood of that experience by adding the need of fulfilling <style=\"CurrentLink\">Survive</style> goals.",
+            "<style=\"CurrentLink\">Survive</style> goals are often used to create <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> by simply having no winning condition and having gameplay end when the <style=\"CurrentLink\">Survive</style> goal fails.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "While <style=\"CurrentLink\">Survive</style> goals with active threats are typically presented as violence in some form, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style> show how <style=\"CurrentLink\">Survive</style> goals can be tied more abstractly to player performance in music-themed games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guitar%20Hero%20series\">Guitar Hero series</link></style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Survive</style> goals tied to other entities than those controlled by players, i.e., <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style>, offer the possibility of <style=\"Link\"><link=\"quests\">Quests</link></style> that can readily be tied to a game's narration.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Survive</style> is an example of a <style=\"Link\"><link=\"continuous-goals\">Continuous Goal</link></style> in that succeeding with it requires maintaining a state (i.e., being ''alive'') over time. It often functions as a <style=\"Link\"><link=\"preventing-goals\">Preventing Goal</link></style> also whenever there is some player of <style=\"Link\"><link=\"agents\">Agent</link></style> that has a relevant <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goal. That is, <style=\"CurrentLink\">Survive</style> and <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> often function as <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> to each other.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guide%20and%20Protect\">Guide and Protect</link></style>, <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style>, <style=\"Link\"><link=\"herd\">Herd</link></style>, <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maintenance%20Costs\">Maintenance Costs</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"conceal\">Conceal</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"steadily-decreasing-resources\">Steadily Decreasing Resources</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "continuous-goals",
+            "preventing-goals",
+            "quests",
+            "unwinnable-games"
+        ],
+        "modulates" : [
+            "eliminate",
+            "guard",
+            "guide-protect",
+            "fubar-enjoyment",
+            "herd",
+            "internal-rivalry"
+        ],
+        "instantiated_by" : [
+            "avatars",
+            "characters",
+            "enemies",
+            "environmental-effects",
+            "lives",
+            "last-man-standing",
+            "maintenance-costs",
+            "rhythm-based-actions",
+            "units"
+        ],
+        "modulated_by" : [
+            "conceal",
+            "eliminate",
+            "steadily-decreasing-resources",
+            "preventing-goals"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "name" : "PvE",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where game systems, rather than other players, provide challenges to players.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where game systems, rather than other players, provide challenges to players.</style>",
+            "Games need challenges. While many games create challenges by making players compete against each other in various forms, other do so by having the game itself create opposition to the players' intentions. This second form was given the name <style=\"CurrentLink\">PvE</style> (for \"Player versus Environment\") by players in massively multiplayer online games to distinguish it from the first one (<style=\"Link\"><link=\"pvp\">PvP</link></style>, or \"Player versus Player\"). Note that the two types of challenges are not mutually incompatible and players may simultaneously have both types of challenges.",
+            "Note: the concept of <style=\"CurrentLink\">PvE</style> grew out of the need to distinguish between different options of how players could play massively multiplayer online games. From this origin, in common usage it has a strong undertone of  being an optional activities and being strongly related to fighting. This pattern however describes a more generalized usage based on its core definition.",
+            "<style=\"H3\">Examples</style>",
+            "What games have <style=\"CurrentLink\">PvE</style> gameplay depend on what requirements on puts on the game to have an \"environment\". Taking an inclusive view, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Jigsaw%20Puzzles\">Jigsaw Puzzles</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Solitaire\">Solitaire</link></style> are games that retroactively can be considered <style=\"CurrentLink\">PvE</style> since they are single-player games and logically the challenge in them must come from the game design. Collaborative <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Arkham%20Horror\">Arkham Horror</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ghost%20Stories\">Ghost Stories</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lord%20of%20the%20Rings\">Lord of the Rings</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shadows%20over%20Camelot\">Shadows over Camelot</link></style> also have <style=\"CurrentLink\">PvE</style> as the core gameplay although some include small elements of player conflicts (this is supported in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Arkham%20Horror\">Arkham Horror</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lord%20of%20the%20Rings\">Lord of the Rings</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style> by game expansions).",
+            "Judging that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> is often quite easy and many of these games have <style=\"CurrentLink\">PvE</style> gameplay. To mention just a few, <style=\"CurrentLink\">PvE</style> can be found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Centipede\">Centipede</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Plants%20vs.%20Zombies\">Plants vs. Zombies</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pik-Min%20series\">Pik-Min</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style>. Examples of games that mixed <style=\"CurrentLink\">PvE</style> and <style=\"Link\"><link=\"pvp\">PvP</link></style> heavily include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients%20series\">Defense of the Ancients series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Game</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Republic%20of%20Rome\">The Republic of Rome</link></style>.",
+            "Wikipedia<ref name=\"wiki\"/> and GiantBomb<ref name=\"gb\"/> have pages for the concept <style=\"CurrentLink\">PvE</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">PvE</style> can easily be created by introducing <style=\"Link\"><link=\"enemies\">Enemies</link></style> controlled by the game system that engage players in <style=\"Link\"><link=\"combat\">Combat</link></style> or other types of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>. Less direct approaches to creating <style=\"CurrentLink\">PvE</style> include <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style> and hostile <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, as well as <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> based on the gameplay environment. Although <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> are not necessary for this pattern to give rise to <style=\"CurrentLink\">PvE</style> gameplay, using them can adapt them to fit the current gameplay context as well as create other types of <style=\"CurrentLink\">PvE</style> simply by the setup of game elements.",
+            "<style=\"CurrentLink\">PvE</style> and <style=\"Link\"><link=\"pvp\">PvP</link></style> gameplay is not in opposition to each other, but most games are skewed towards one or the other. Due to this, one can consider the patterns as being able to modulate each other through introducing elements of the other pattern. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shadows%20over%20Camelot\">Shadows over Camelot</link></style> are examples of games with mainly <style=\"CurrentLink\">PvE</style> gameplay but with some <style=\"Link\"><link=\"pvp\">PvP</link></style> aspects.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> often have <style=\"Link\"><link=\"enemies\">Enemies</link></style> are part of the structures, and this makes games with that pattern often support <style=\"CurrentLink\">PvE</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">PvE</style> is one of the basic ways of providing challenges and <style=\"Link\"><link=\"tension\">Tension</link></style> in both <style=\"Link\"><link=\"single-player-games\">Single-Player</link></style> and <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. Regardless of type of game, it can provide the motivation for <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> as <style=\"Link\"><link=\"symbiotic-player-relations\">Symbiotic Player Relations</link></style> since the players have common <style=\"Link\"><link=\"enemies\">Enemies</link></style> and may postpone any eventual conflicts they have to handle this challenge first.",
+            "In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, players can team up even if they the design does not require it. This means that <style=\"CurrentLink\">PvE</style> <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> can create <style=\"Link\"><link=\"team-strategy-identification\">Team Strategy Identification</link></style> and these can result in <style=\"Link\"><link=\"team-accomplishments\">Team Accomplishments</link></style>. <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> that provide <style=\"CurrentLink\">PvE</style> and <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style> can situations where players experience <style=\"Link\"><link=\"mutual-fubar-enjoyment\">Mutual FUBAR Enjoyment</link></style> if the environmental challenges are perceived as common and that the players at least are not directly hostile to each other.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"symbiotic-player-relations\">Symbiotic Player Relations</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"mutual-fubar-enjoyment\">Mutual FUBAR Enjoyment</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"team-accomplishments\">Team Accomplishments</link></style>, <style=\"Link\"><link=\"team-strategy-identification\">Team Strategy Identification</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"pvp\">PvP</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"pvp\">PvP</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "cooperation",
+            "symbiotic-player-relations",
+            "tension",
+            "mutual-fubar-enjoyment",
+            "team-accomplishments",
+            "team-strategy-identification"
+        ],
+        "modulates" : [
+            "multiplayer-games",
+            "pvp",
+            "single-player-games"
+        ],
+        "instantiated_by" : [
+            "combat",
+            "conflicts",
+            "dedicated-game-facilitators",
+            "enemies",
+            "environmental-effects",
+            "game-system-player",
+            "predetermined-story-structures",
+            "puzzle-solving",
+            "traps"
+        ],
+        "modulated_by" : [
+            "pvp"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "name" : "Bluffing",
+    "categories" : [
+        "Action Patterns",
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : null,
+        "markups" : [
+            "''Conveying false information to other players in order to influence their behaviors to one's own advantage.''",
+            "Players have a possibility to convey false information to other players in order to benefit from the situation.",
+            "Usually, the basic information for Bluffing is something about the current game state, as is the case in Poker. It is possible, however, that Bluffing concerns other game components such as past events and actions, players' goals, and even players' strategies and intentions. One of the simplest games of this kind of Bluffing is an iterated version of Paper-Rock-Scissors, where the players try to outguess the other player's action based on previous plays and social clues.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> uses <style=\"CurrentLink\">Bluffing</style> as one of the basic characteristics of the game. The players do not have direct information about the other players' hands but try to guess the relative values based on the play of previous rounds, social clues, and how the players are playing the current round. <style=\"CurrentLink\">Bluffing</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> thus means that the player is trying to give a false impression to other players about the actual value of his hand.",
+            "The classic board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diplomacy\">Diplomacy</link></style> has all the information about positions of the players' armies and fleets available to all players. <style=\"CurrentLink\">Bluffing</style> in this game is based on giving the other players false information about the current strategies, goals, and agreements between the players. The game even has a specific diplomacy phase for giving the players the ability to scheme together with players against other players.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> is a board game where players are co-operating, but some players are traitors they need to bluff that they are ordinary players. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20of%20Winter\">Dead of Winter</link></style> has a similar feature, but where it is not certain that there is a player with opposing goals; all players however have personal goals that need to be fulfilled to be eligible to be part of a common victory. These personal goals can require players to hide their intentions (so that other players don't ruin this even if the game is geared toward co-operation) but also allows any potential traitor to hide their goals behind personal goals.",
+            "The spy is one of the classes in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style>. Players of this role can mask themselves to be seen as being other roles and belonging to the opposing team. Performing as the other roles and team without shooting (since this removes the disguise) through various forms of <style=\"CurrentLink\">Bluffing</style> is however required to place the spies in positions where they can be most efficient for their teams.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, and <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style> are the primary requirements for <style=\"CurrentLink\">Bluffing</style> to be possible in a game. This since players need some part of the game state to be unknown to other players to be able to try <style=\"CurrentLink\">Bluffing</style> and the <style=\"CurrentLink\">Bluffing</style> players' actions cannot be too predictable. Further, players need to have the means of giving each other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style> about game state or player intentions, i.e., players can make guesses regarding the game state based on other players actions and players can use this do to actions with the main intention of misleading players trying to make guesses. While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style> supports <style=\"CurrentLink\">Bluffing</style> well, the activity can still be possible in games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style> but becomes more challenging since the <style=\"CurrentLink\">Bluffing</style> becomes limited to players' goals, strategies, and intentions; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> are examples of where this type of <style=\"CurrentLink\">Bluffing</style> can exist. ",
+            "Ensuring that players have several interesting choices of actions to perform typically provide the necessary <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style> to make <style=\"CurrentLink\">Bluffing</style> possible. However, <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style> can - at least early in  game instances - be furthered by providing players with <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style>. Players in leading positions in a game may wish to engage in <style=\"CurrentLink\">Bluffing</style> regarding their position in games where other players can engage in trying to <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>. This makes the possibility of ganging up to <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style> a means of providing and encouraging <style=\"CurrentLink\">Bluffing</style> activities. Games can help players hide the positions, and thereby help them in <style=\"CurrentLink\">Bluffing</style>, through having <style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> about other player's <style=\"Link\"><link=\"scores\">Scores</link></style>.",
+            "<style=\"CurrentLink\">Bluffing</style> can be directly designed to modify some other activities. Examples include <style=\"Link\"><link=\"bidding\">Bidding</link></style> when players can pretend to bid on something when not doing so, by being able to set of false <style=\"Link\"><link=\"alarms\">Alarms</link></style>, and when <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style> allows players to take on roles of other players in <style=\"Link\"><link=\"pvp\">PvP</link></style> or <style=\"Link\"><link=\"tvt\">TvT</link></style> games (spies disguising themselves as other classes in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style> are an example of this). <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> provides a flexible basis that easily can support attempts at misdirection and therefor <style=\"CurrentLink\">Bluffing</style>. More precise examples of this are games where <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> is possible, with <style=\"Link\"><link=\"trading\">Trading</link></style>, <style=\"Link\"><link=\"betting\">Betting</link></style>, and <style=\"Link\"><link=\"bidding\">Bidding</link></style> as specific examples. Another type of <style=\"CurrentLink\">Bluffing</style> is possible in games with <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>. Here players can pretend to be less skillful in the actions performed to try and trick other players to make wrong assumptions when deciding on what actions and strategies they will be taking. Knowledge of other players and their ability to perform actions, or even more generally their ability to play specific games or games, can in these situations become <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style> that hinder their abilities to bluff. ",
+            "Games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetric%20Information\">Symmetric Information</link></style> can be difficult to combine with the possibility for players to bluff since other players can be able to deduce goals and intentions of those that try to bluff. In general, the prerequisites for <style=\"CurrentLink\">Bluffing</style> can be met by games supporting <style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style> and thereby making a game support <style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style> is a good ground for making a game be able to have <style=\"CurrentLink\">Bluffing</style>; note that this only gives to possibility for <style=\"CurrentLink\">Bluffing</style>, players also need a reason to engage in the activity, e.g., <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The possibility of <style=\"CurrentLink\">Bluffing</style> in games creates uncertainty about results and thereby <style=\"Link\"><link=\"tension\">Tension</link></style>, especially for the <style=\"CurrentLink\">Bluffing</style> player. <style=\"CurrentLink\">Bluffing</style> modulates <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> between players, and players bluffing must be able to control their <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>. This is especially true if the game is played face-to-face, i.e., with <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>. It should be noted that even though <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style> can require more skill and produce more <style=\"Link\"><link=\"tension\">Tension</link></style>, it is not a requirement. As long as the possibilities and channels for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> exist, there is a possibility for <style=\"CurrentLink\">Bluffing</style>. <style=\"CurrentLink\">Bluffing</style> in most cases leads to at least a possibility of <style=\"Link\"><link=\"betrayal\">Betrayal</link></style> but not always since the influence a bluffer might be aiming for does not necessarily need to be negative for the player being affected. ",
+            "Having the possibility to bluff in a game provides players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> choices related to if they should bluff or not. That players can differ in how good they are at <style=\"CurrentLink\">Bluffing</style> means that the pattern opens up for <style=\"Link\"><link=\"social-skills\">Social Skills</link></style> influencing the gameplay and having <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> by being skillful in <style=\"CurrentLink\">Bluffing</style>. This in turn can affect if and how players take on any potential <style=\"Link\"><link=\"social-roles\">Social Roles</link></style> of a game, e.g., if they will try to dominate other players. In games with <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>, e.g., <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style>, the possibility of a player to do skillful <style=\"CurrentLink\">Bluffing</style> can increase the chance of other players <style=\"Link\"><link=\"surrendering\">Surrendering</link></style> to that player.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"social-skills\">Social Skills</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"alarms\">Alarms</link></style>, <style=\"Link\"><link=\"bidding\">Bidding</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"alarms\">Alarms</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>, <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"betting\">Betting</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>, <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> together with <style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style>",
+            "<style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>",
+            "<style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style> together with <style=\"Link\"><link=\"pvp\">PvP</link></style> or <style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style>, <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetric%20Information\">Symmetric Information</link></style>, <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetric%20Information\">Symmetric Information</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "emotional-engrossment",
+            "gameplay-mastery",
+            "risk-reward",
+            "social-skills",
+            "social-roles",
+            "tension"
+        ],
+        "modulates" : [
+            "alarms",
+            "bidding",
+            "social-interaction",
+            "surrendering"
+        ],
+        "instantiated_by" : [
+            "alarms",
+            "asymmetric-information",
+            "beat-leader",
+            "betrayal",
+            "betting",
+            "indirect-information",
+            "negotiation",
+            "performance-uncertainty",
+            "player-unpredictability",
+            "secret-goals",
+            "social-interaction",
+            "trading",
+            "uncertainty-information",
+            "negotiation",
+            "end-state-scoring",
+            "sanctioned-cheating"
+        ],
+        "modulated_by" : [
+            "direct-information",
+            "real-world-knowledge-advantages",
+            "symmetric-information",
+            "player-player-proximity",
+            "unmediated-social-interaction"
+        ],
+        "conflicts" : [
+            "symmetric-information"
+        ]
+    }
+}

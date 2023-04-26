@@ -1,0 +1,71 @@
+{
+    "name" : "Unwinnable Game States",
+    "categories" : [
+        "Patterns",
+        "Negative Patterns",
+        "Dynamic Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Game states from which no actions or events in a game instance can let a player win.",
+        "markups" : [
+            "<style=\"Definition\">Game states from which no actions or events in a game instance can let a player win.</style>",
+            "By gaming, people try to affect a game state through gameplay actions to reach some goal. Players have <style=\"CurrentLink\">Unwinnable Game States</style> when there exists goals which lets players win a game but there are not combinations of actions or events that make this possible.",
+            "TV Tropes has a wiki page for a similar concept, [http://tvtropes.org/pmwiki/pmwiki.php/Main/Unwinnable Unwinnable].",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tic-Tac-Toe\">Tic-Tac-Toe</link></style> is famously known for not having <style=\"CurrentLink\">Unwinnable Game States</style> for both players when they both play optimally. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/First%20to%2012\">First to 12</link></style> has an <style=\"CurrentLink\">Unwinnable Game State</style> for the starting player if the second player plays optimally. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Unwinnable Game States</style> is typically seen as a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Negative%20Patterns\">Negative Pattern</link></style> since it may cause players in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> to quit, and generally makes players feel they have no <style=\"Link\"><link=\"player-agency\">Player Agency</link></style> or <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>. They can be caused by <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Strategies\">Dominant Strategies</link></style>, a <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, or through the actions of a <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style>. While <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> always cause <style=\"CurrentLink\">Unwinnable Game States</style> this may not be a problem since these games are typically designed to give players other meaningful goals than winning.",
+            "The main ways of avoiding <style=\"CurrentLink\">Unwinnable Game States</style> &mdash; or at least avoiding players perceiving them &mdash; is to have <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style> or designing a game with a <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> can also help with this.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Unwinnable Game States</style> can be countered by <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> and is more likely to be detected when <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> is available. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Unwinnable Game States</style>, or game states that are perceived to be unwinnable can lead to <style=\"Link\"><link=\"surrendering\">Surrendering</link></style> and <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. This may be bad if a game isn't design to support this (e.g. through <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style>) since players leaving are likely to disrupt <style=\"Link\"><link=\"team-balance\">Team Balance</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. However, it is not necessarily a cause of <style=\"Link\"><link=\"ragequitting\">Ragequitting</link></style> (but the actions of another player which puts a player in an <style=\"CurrentLink\">Unwinnable Game State</style> is). ",
+            "<style=\"Link\"><link=\"save-files\">Save Files</link></style> that contain <style=\"CurrentLink\">Unwinnable Game States</style> are likely to be seen as pointless at best in games which one tries to win, and <style=\"Link\"><link=\"save-points\">Save Points</link></style> can create these if not explicitly design to avoid them. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"surrendering\">Surrendering</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"save-files\">Save Files</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Strategies\">Dominant Strategies</link></style>, <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, <style=\"Link\"><link=\"save-points\">Save Points</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>, <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>, <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "surrendering",
+            "early-leaving-players"
+        ],
+        "modulates" : [
+            "save-files"
+        ],
+        "instantiated_by" : [
+            "dominant-strategies",
+            "kingmaker",
+            "perfect-information",
+            "predictable-winner",
+            "save-points",
+            "unwinnable-games"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "imperfect-information",
+            "player-agency",
+            "secret-scoring-mechanisms",
+            "value-effort",
+            "winner-gameplay-ends"
+        ]
+    }
+}

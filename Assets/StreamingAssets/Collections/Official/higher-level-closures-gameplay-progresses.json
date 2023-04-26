@@ -1,0 +1,95 @@
+{
+    "name" : "Higher-Level Closures as Gameplay Progresses",
+    "categories" : [
+        "Patterns",
+        "Subjective Patterns",
+        "Aesthetic Patterns",
+        "Needs revision",
+        "Needs references",
+        "Needs examples",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Closures that occur progressively become more important as the game is played.",
+        "markups" : [
+            "<style=\"Definition\">Closures that occur progressively become more important as the game is played.</style>",
+            "Games typically want to keep players engaged in playing them, and one way of doing this is providing closures. However, to continue keeping players engage these closures typically need to become more intense over time. For this reason, many games tend to have structures so to ensure <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Games using levels, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%20series\">Portal</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style>, have more challenging ones later in the games. In addition, individual levels typically have more difficult enemies or challenges at the end of them and the overarching narration is typically presented so these move in line with the intensity of the gameplay closures. ",
+            "Games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Master%20of%20Orion\">Master of Orion</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> provide <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> both by making more powerful technologies and units available as players progress and by intensifying the competition between players more and more as gameplay time passes.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Ways of achieving <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> depend on finding ways of making later closures more important that earlier ones. Since the experience of closures are highly subjective, the pattern is a subjective one and even more so than for other patterns ensuring its presence in game designs typically needs to be verified by play tests. However, using <style=\"Link\"><link=\"closure-points\">Closure Points</link></style> and <style=\"Link\"><link=\"access-rewards\">Access Rewards</link></style> to organize closure possibilities is probably the most general way of causing <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> simply by denying players to chance to have some closures before others. <style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style> achieves this more generally, but since the challenges used in such design solutions may be similar to each other this similarity may water down the closure experiences they provide. ",
+            "Most generally, <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style> allow game designs to have more important closures later simply because more important actions and goals can be made only possible to achieve later in the gameplay and successful design of <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> throughout a game implies that the challenges have become steadily more difficult and thereby the closures steadily more intense. Slightly less general, the <style=\"Link\"><link=\"endgame\">Endgame</link></style> of a game is where the final effect of all players' efforts are resolved which collect at least some high level closures there and <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> let game designs have a structure to the closures, thereby making it possible to put more important ones later in the game. Another example of using <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> to provide <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> is to let players successively move higher up in <style=\"Link\"><link=\"factions\">Factions</link></style>.<style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style> allow the structuring of <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> through spatial means and related to this, <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style> and <style=\"Link\"><link=\"finale-levels\">Finale Levels</link></style> can be used in level designs in this sense to guarantee greater closures at specific points in the gameplay (and shows how <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> can modify <style=\"Link\"><link=\"overcome\">Overcome</link></style> goals).  ",
+            "<style=\"Link\"><link=\"capture\">Capture</link></style> goals of <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style>, <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, and <style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style> have in common that they ensure that later closures are more important than earlier ones simple because there are fewer game elements or space in the later ones. <style=\"Link\"><link=\"extermination\">Extermination</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> and <style=\"Link\"><link=\"tournaments\">Tournaments</link></style> can do the same but with players; <style=\"Link\"><link=\"extermination\">Extermination</link></style> also is likely to be an <style=\"Link\"><link=\"endgame\">Endgame</link></style> phase and typically have the effect of later closures focusing on fewer players as per <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> can make closures more intense by stripping players of possibilities but this does require that the closures already exist as potentialities. <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> can provide <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> by avoiding to make early closure game-breaking ones and thereby guarantee the importance of later closures. <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style>, or <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style> together with <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style> instead make later closures more important since the effects they contain are larger than the earlier ones. <style=\"Link\"><link=\"stack-seeding\">Stack Seeding</link></style> doesn't automatically do this but let game designs be structured this way if wanted. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style> provide the illusion of <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> but since the pattern can be subjectively perceived, this may work just as well as actually having the intensity of the gameplay closures increase by some other mean. ",
+            "While <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style> makes the winning closure the last part of gameplay, <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style> can make all closures important right up until gameplay ends as long as at least some <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style> is used. Due to this, <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> appear quite naturally in all games except <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>. <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> share with <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> that it is difficult to steadily increase the intensity of closure so both these patterns are generally not possible to combine with <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style>. ",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "While closures and increases of them are typically present in narratives, as a gameplay pattern <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> does not necessarily have any connection to those types of closures. However, gameplay closures can be designed to map with narrative closures so the pattern can be used to modify <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> and <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> typically make games have <style=\"Link\"><link=\"tension\">Tension</link></style> and give players the sense of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empowerment\">Empowerment</link></style> and an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illusion%20of%20Influence\">Illusion of Influence</link></style>. ",
+            "In games with <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"CurrentLink\">Higher-Level Closures as Gameplay Progresses</style> can support the other methods used to encourage players to return by making the closures associated with them stronger as gameplay time progresses.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empowerment\">Empowerment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illusion%20of%20Influence\">Illusion of Influence</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"access-rewards\">Access Rewards</link></style>, <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"closure-points\">Closure Points</link></style>, <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, <style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style>, <style=\"Link\"><link=\"extermination\">Extermination</link></style>, <style=\"Link\"><link=\"finale-levels\">Finale Levels</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style>, <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>, <style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style>, <style=\"Link\"><link=\"stack-seeding\">Stack Seeding</link></style>, <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>, <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style>, <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>",
+            "<style=\"Link\"><link=\"factions\">Factions</link></style> together with <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>",
+            "<style=\"Link\"><link=\"capture\">Capture</link></style> together with <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style>",
+            "<style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style> together with <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>",
+            "<style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style> together with <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "empowerment",
+            "illusion-influence",
+            "tension"
+        ],
+        "modulates" : [
+            "encouraged-return-visits",
+            "narration-structures",
+            "overcome",
+            "predetermined-story-structures"
+        ],
+        "instantiated_by" : [
+            "access-rewards",
+            "balancing-effects",
+            "boss-monsters",
+            "challenging-gameplay",
+            "closure-points",
+            "conditional-passageways",
+            "endgame",
+            "ever-increasing-difficulty",
+            "extermination",
+            "finale-levels",
+            "game-element-insertion",
+            "goal-hierarchies",
+            "improved-abilities",
+            "increasing-rewards",
+            "last-man-standing",
+            "player-elimination",
+            "red-queen-dilemmas",
+            "shrinking-game-worlds",
+            "stack-seeding",
+            "tournaments",
+            "varying-rule-sets",
+            "winning-ending-gameplay",
+            "factions",
+            "capture",
+            "geometric-progression",
+            "secret-scoring-mechanisms"
+        ],
+        "modulated_by" : [
+            "limited-set-actions"
+        ],
+        "conflicts" : [
+            "persistent-game-worlds",
+            "unwinnable-games"
+        ]
+    }
+}

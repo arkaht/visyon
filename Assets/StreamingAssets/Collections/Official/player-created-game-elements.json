@@ -1,0 +1,79 @@
+{
+    "name" : "Player Created Game Elements",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Player Patterns",
+        "Game Element Patterns",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Game Elements created by players to be used in a game.",
+        "markups" : [
+            "<style=\"Definition\">Game Elements created by players to be used in a game.</style>",
+            "Not all games bought or created by organizers come with all parts complete. Instead players of some games either have to create game elements themselves before gameplay begins or can create game elements during gameplay. This may be the character one is going to play in a role-playing game, the program that is going to compete for oneself in a programming game, or the props to be used in a live-action roleplaying game. All these are examples of <style=\"CurrentLink\">Player Created Game Elements</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Player Created Game Elements</style> are common in all types of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style>. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop versions</link></style> like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> players need create their own characters and potential followers or pets. This is also needed in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based versions</link></style> like the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neverwinter%20Nights%20series\">Neverwinter Nights series</link></style> but <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer ones</link></style> like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Entropia%20Universe\">Entropia Universe</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> also include the crafting of new game items as part of gameplay. The older text-based versions such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style> went one step further and let the players not only create the areas gameplay took place in but the actual rules through adding and changing the code that ran the servers. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragonbane\">Dragonbane</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trenne%20Byar\">Trenne Byar</link></style>, require a multitude of props and buildings and all these need to be created by players or organizers (whom typically are players also). ",
+            "Besides the goal of surviving encounters with various \"mobs\", playing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> consists to a large degree of crafting new items and tools as well as reshaping the game world according to one's whim.",
+            "Although players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%2040K\">Warhammer 40K</link></style> buy miniatures to play this game, painting them is part of the gaming activities (and required for tournaments). On this merit, the miniatures used during gameplay can be seen as <style=\"CurrentLink\">Player Created Game Elements</style> since the painting (and modifying) of the miniatures make them all unique and in many cases have specific aesthetic intentions.",
+            "When not playing the game, players of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advance%20Wars%20series\">Advance Wars series</link></style> or some implementations of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style> can make new levels to either play themselves or to challenge other players with.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are two main ways in which <style=\"CurrentLink\">Player Created Game Elements</style> can be supported in games. The first way consists of making it possible to do gameplay actions that insert <style=\"Link\"><link=\"game-items\">Game Items</link></style> in the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. <style=\"Link\"><link=\"construction\">Construction</link></style> and <style=\"Link\"><link=\"crafting\">Crafting</link></style> lets this be done and perceived by players as they have created the <style=\"Link\"><link=\"game-items\">Game Items</link></style>; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style> can also do this but are more likely to be seen as effect of the game system than creations of players. The second way consists of letting players create game elements as <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>. This may be the creation of <style=\"Link\"><link=\"player-created-characters\">Player-Created Characters</link></style> before gameplay starts in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Storytelling%20System\">Storytelling System</link></style>, the programming of <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> for <style=\"Link\"><link=\"zero-player-games\">Zero-Player Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crobots\">Crobots</link></style>, or even the real world crafting of items for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/1942%20%E2%80%93%20Noen%20%C3%A5%20stole%20p%C3%A5\">1942 – Noen å stole på</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trenne%20Byar\">Trenne Byar</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Initial%20Personalization\">Initial Personalization</link></style> and <style=\"Link\"><link=\"workshopping\">Workshopping</link></style> are more specific technique usable for this purpose, typically used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> but possible in other games as well. ",
+            "<style=\"Link\"><link=\"entitled-players\">Entitled Players</link></style> provide a means both only letting some players be able to create game elements and for doing this outside the actual gameplay.",
+            "<style=\"Link\"><link=\"storytelling\">Storytelling</link></style> can either be the cause of why new <style=\"CurrentLink\">Player Created Game Elements</style> appear or be used as explanations of how they enter the game. More specifically, the ability of players to engage in <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style> is very likely to affect <style=\"CurrentLink\">Player Created Game Elements</style> since the players can have already planned well in advance what game elements to introduce when the possibility to do so appears.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> are quite often used to support <style=\"Link\"><link=\"crafting\">Crafting</link></style> and sometimes <style=\"Link\"><link=\"construction\">Construction</link></style> actions and can thereby be relevant when one wishes to enable <style=\"CurrentLink\">Player Created Game Elements</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The support for <style=\"CurrentLink\">Player Created Game Elements</style> can produce anything from individual <style=\"Link\"><link=\"game-items\">Game Items</link></style> to complete <style=\"Link\"><link=\"levels\">Levels</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Constructed%20Worlds\">Player Constructed Worlds</link></style>. Having players create game elements make them into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style>, and the present of the pattern <style=\"CurrentLink\">Player Created Game Elements</style> make no sense unless these game elements can enter gameplay through <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>. Being able to create game elements typically provides players with <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> and this can be the basis for allowing <style=\"Link\"><link=\"pottering\">Pottering</link></style> activities within a game (as long as other aspects such as <style=\"Link\"><link=\"tension\">Tension</link></style> is lacking from the experience). For games meant to include <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, letting players create parts of the game, most commonly <style=\"Link\"><link=\"player-created-characters\">Player-Created Characters</link></style>, allows them to modulate in which way they should roleplay.",
+            "While <style=\"CurrentLink\">Player Created Game Elements</style> can create <style=\"Link\"><link=\"game-items\">Game Items</link></style> that can be exchanged as part of <style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style>, the introduction of new items may disrupt the values of existing goods. For this reason, <style=\"CurrentLink\">Player Created Game Elements</style> can both create and work against <style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Constructed%20Worlds\">Player Constructed Worlds</link></style>, <style=\"Link\"><link=\"pottering\">Pottering</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"crafting\">Crafting</link></style>, <style=\"Link\"><link=\"entitled-players\">Entitled Players</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Initial%20Personalization\">Initial Personalization</link></style>, <style=\"Link\"><link=\"player-created-characters\">Player-Created Characters</link></style>, <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>, <style=\"Link\"><link=\"workshopping\">Workshopping</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "game-element-insertion",
+            "game-element-trading",
+            "game-items",
+            "levels",
+            "player-constructed-worlds",
+            "pottering",
+            "producers"
+        ],
+        "modulates" : [
+            "roleplaying"
+        ],
+        "instantiated_by" : [
+            "algorithmic-agents",
+            "construction",
+            "crafting",
+            "entitled-players",
+            "extra-game-actions",
+            "initial-personalization",
+            "player-created-characters",
+            "storytelling",
+            "workshopping"
+        ],
+        "modulated_by" : [
+            "player-planned-development",
+            "secondary-interface-screens",
+            "storytelling"
+        ],
+        "conflicts" : [
+            "game-element-trading"
+        ]
+    }
+}

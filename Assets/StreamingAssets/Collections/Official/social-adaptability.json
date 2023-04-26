@@ -1,0 +1,92 @@
+{
+    "name" : "Social Adaptability",
+    "categories" : [
+        "Gameplay Adaptability Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Games that through their design easily can be modified for varying social contexts.",
+        "markups" : [
+            "<style=\"Definition\">Games that through their design easily can be modified for varying social contexts.</style>",
+            "There are many reasons why people wish to play various games, but in many cases, games need to be rejected because they do not fit the wanted or required social requirements of the wanted gaming activity. This may be practical issues related to where one plans to play, who wants to play, how one wants to play, and when people can take part in the activity. Games that have flexible underlying systems, are facilitated by humans, or have different ways of being played can fit a wider range of social conditions by having <style=\"CurrentLink\">Social Adaptability</style> - the ability of the game design to function in various settings while still giving a quite similar gameplay experience. ",
+            "The above <style=\"CurrentLink\">Social Adaptability</style> deals with some of the boundary conditions for being able to play games. However, playing a game is in itself a social context which may vary. The rules of games may unintentionally (from the designers' perspective) create unwanted situations, e.g. having a novice player make a trivial solution which cannot be retracted or making one player have a hopeless situation simply due to a series of bad luck. In such cases, the social reason for playing may be threatened and players may wish to bend or ignore rules to keep the gameplay interesting or enjoyable for everyone. Games that allow players to fudge or outright violate rules and game states in this sense have <style=\"CurrentLink\">Social Adaptability</style> during game instances.",
+            "<style=\"H3\">Examples</style>",
+            "Many children's game, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hide-and-Seek\">Hide-and-Seek</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tag\">Tag</link></style>, depend on the players having some agreement of what constitutes the area in which one can play. This forms a low level of <style=\"CurrentLink\">Social Adaptability</style>.",
+            "Traditional board games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Backgammon\">Backgammon</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> do support <style=\"CurrentLink\">Social Adaptability</style> in that it is the players that update the game state through moving physical game elements. This allows them to retract moves if both players agree upon it and also set up examples to show specific game situations. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> is similar but in addition has a handicap system that provides <style=\"CurrentLink\">Social Adaptability</style> in \"real\" games, allowing players of different skills to meet each under with equal chances. Unlike most <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Golf\">Golf</link></style> also supports this type of <style=\"CurrentLink\">Social Adaptability</style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Storytelling%20System\">Storytelling System</link></style> have game masters that are responsible for running the game system, developing the story, and enacting the various diegetic characters encountered. All these areas can be manipulated by the game masters - sometimes without the players' awareness but sometimes with their unspoken consent - to make sure the group has a whole avoid unwanted experiences.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Insectopia\">Insectopia</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style> are all weak examples of games having <style=\"CurrentLink\">Social Adaptability</style> since players can take pauses in them whenever and are thereby able to adopt to the social context.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Being able to control when one wants to play is an important aspect of <style=\"CurrentLink\">Social Adaptability</style>, which often is a question of how to support <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>. This can be achieved through <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Proxy%20Players\">Proxy Players</link></style> depending on other features of a game (as if it is a <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Game</link></style>), but is also one of the abilities the use of <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can bring to a game design. <style=\"Link\"><link=\"tiered-participation\">Tiered Participation</link></style> can provide <style=\"CurrentLink\">Social Adaptability</style> by letting players move between different levels of engagement in the gameplay rather than moving for either playing or not playing. In addition to considering the possibility to interrupt gameplay, <style=\"CurrentLink\">Social Adaptability</style> can also be supported by letting players decide how long the game should take; <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable Game Sessions</link></style> and <style=\"Link\"><link=\"negotiable-game-instance-duration\">Negotiable Game Instance Duration</link></style> can support this. ",
+            "Where one can play a game also affects <style=\"CurrentLink\">Social Adaptability</style>. The strongest way to support this form of <style=\"CurrentLink\">Social Adaptability</style> is through <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style> but another way is through <style=\"Link\"><link=\"configurable-gameplay-areas\">Configurable Gameplay Areas</link></style> in <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>. <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style> can also help make games possible to play in a wider range of environment since the game actions and events produced by games can be disturbing in certain environments (depending on both the actions and the environment). <style=\"Link\"><link=\"self-reported-positioning\">Self-Reported Positioning</link></style> allows players to be flexible about where they are in the game compared to where they actually are in the real world and thereby support some <style=\"CurrentLink\">Social Adaptability</style>.",
+            "Changing how one can play a game while it is being played requires the presence of somebody that has power to do so. <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> naturally allow for this, but in game with social or mechanized power structures this can still be possible through <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> and <style=\"Link\"><link=\"entitled-players\">Entitled Players</link></style>. Games with <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style> support <style=\"CurrentLink\">Social Adaptability</style> in the sense that they have removed obstacles for people to feel the game is specifically excluding them. <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> support <style=\"CurrentLink\">Social Adaptability</style> in the sense that it can let players choose to play with (or not with) their friends and thereby have more control of what type of gameplay experience they will have. ",
+            "What interaction a game should provide is also part of <style=\"CurrentLink\">Social Adaptability</style>. While <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> provide a small amount of influence to players in how challenging a game should be, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Results\">Player Decided Results</link></style> let them have a small influence on the outcome of events. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Rule%20Setup\">Player Decided Rule Setup</link></style> can give more power and granularity in how they can influence the gameplay experience. One specific examples of this is <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style> which makes it possible for players with different skill levels in a game to compete with equal chances. <style=\"Link\"><link=\"free-game-element-manipulation\">Free Game Element Manipulation</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, and <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> give even more power to the players, but <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can provide the same feature if player power is not wanted in this sense. Examples why this could be the case include that it would cause <style=\"Link\"><link=\"excise\">Excise</link></style>, remove the possibility of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, or that the players are not believed to be able to uphold the game system.",
+            "There are many patterns that can weaken or remove <style=\"CurrentLink\">Social Adaptability</style> in games. Somewhat paradoxically, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> work against <style=\"CurrentLink\">Social Adaptability</style> since a player must consider the other players' opinions on when and how to play. <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> can provide thresholds for novice players or those that cannot for some reason dedicate all their abilities to a specific play or game session; <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style> does this as well but for physical activities. Games that require players' attention continuously, i.e. those with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style> but without being mitigated by <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style> or <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay, also make it difficult to fit their gameplay into environments with changing social demands. <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> quite naturally lead to some restrictions on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> between players and thereby make enacting any possible <style=\"CurrentLink\">Social Adaptability</style> more difficult. <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> typically do this as well but also restrict modifying or ignoring rules unless explicitly design to allow this - <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> are an exception to this since they often have power over changing the rules and game states freely.",
+            "A somewhat unlikely candidate for causing problems with <style=\"CurrentLink\">Social Adaptability</style> is <style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>. However, games with this pattern are based on players already having some perceptions of the phenomena the game design focuses upon. This restricts the number of players that the design can work for and this cannot easily be changed by players in direct conjunction to playing these types of games.",
+            "<style=\"H2\">Consequences</style>",
+            "The primary consequence of <style=\"CurrentLink\">Social Adaptability</style> is to provide players with a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> regarding when and how they are to play a game. This provides them with <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>. ",
+            "When players have the power to use the game <style=\"CurrentLink\">Social Adaptability</style> to fit their preferences, this can enforce their sense of <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>, <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>, <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"entitled-players\">Entitled Players</link></style>, <style=\"Link\"><link=\"free-game-element-manipulation\">Free Game Element Manipulation</link></style>, c, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>, <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>, <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>, <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable Game Sessions</link></style>, <style=\"Link\"><link=\"negotiable-game-instance-duration\">Negotiable Game Instance Duration</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Results\">Player Decided Results</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Rule%20Setup\">Player Decided Rule Setup</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Proxy%20Players\">Proxy Players</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"self-reported-positioning\">Self-Reported Positioning</link></style>, <style=\"Link\"><link=\"tiered-participation\">Tiered Participation</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>",
+            "<style=\"Link\"><link=\"configurable-gameplay-areas\">Configurable Gameplay Areas</link></style> together with <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "player-agency",
+            "togetherness"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "actor-detachment",
+            "difficulty-levels",
+            "drop-in-drop-out",
+            "entitled-players",
+            "free-game-element-manipulation",
+            "",
+            "fudged-results",
+            "game-pauses",
+            "game-masters",
+            "handicap-systems",
+            "interruptibility",
+            "minimalized-social-weight",
+            "negotiable-game-sessions",
+            "negotiable-game-instance-duration",
+            "player-decided-results",
+            "player-decided-rule-setup",
+            "proxy-players",
+            "self-facilitated-games",
+            "self-reported-positioning",
+            "tiered-participation",
+            "ubiquitous-gameplay",
+            "configurable-gameplay-areas"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "challenging-gameplay",
+            "changes-perception-real-world-phenomena-gameplay",
+            "dedicated-game-facilitators",
+            "mediated-gameplay",
+            "multiplayer-games",
+            "player-physical-prowess",
+            "the-show-must-go-on"
+        ]
+    }
+}

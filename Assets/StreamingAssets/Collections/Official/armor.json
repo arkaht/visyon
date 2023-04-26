@@ -1,0 +1,91 @@
+{
+    "name" : "Armor",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Game Items that protect from damage.",
+        "markups" : [
+            "<style=\"Definition\">Game Items that protect from damage.</style>",
+            "<style=\"CurrentLink\">Armor</style> is game items that protect characters or avatars from various forms of damage. They can be armor similar to that in the real world or be fictive concepts such as magical defenses or high-tech force fields.",
+            "<style=\"H3\">Examples</style>",
+            "Often being combat-oriented, many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> have detailed rules for armor, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20and%20Dragons\">Dungeons and Dragons</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style>, as well as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neverwinter%20Nights%20series\">Neverwinter Nights</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Elder%20Scrolls%20series\">Elder Scrolls series</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> contain a multitude of armors (and clothing) that not only offer players protection but also bonuses to skills and attributes. They do however deteriorate with use, as do the armors in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Elder%20Scrolls%20series\">The Elder Scrolls series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Entropia%20Universe\">Entropia Universe</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>. ",
+            "The armor in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> are abstracted to a number which is decreased by attacks and improved by finding new <style=\"CurrentLink\">Armor</style> or ''armor shards''.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> allows players to craft their own armor out of a variety of material, including leather, iron, and diamond gems.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The two main design choices for <style=\"CurrentLink\">Armor</style> is how it much each piece of <style=\"CurrentLink\">Armor</style> should protect from <style=\"Link\"><link=\"damage\">Damage</link></style> and which <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"characters\">Characters</link></style> can use each piece. A fundamental choice is however if <style=\"CurrentLink\">Armor</style> should be a <style=\"Link\"><link=\"resources\">Resource</link></style> and then typically available as <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, or <style=\"Link\"><link=\"game-items\">Game Items</link></style> and then be <style=\"Link\"><link=\"equipment\">Equipment</link></style>. Depending on if they are <style=\"Link\"><link=\"resources\">Resources</link></style> or <style=\"Link\"><link=\"game-items\">Game Items</link></style>, the design choices associated with these patterns should also be consulted when designing <style=\"CurrentLink\">Armor</style>. While <style=\"CurrentLink\">Armor</style> can be <style=\"Link\"><link=\"game-items\">Game Items</link></style> in their own right, they can also effects provided by <style=\"Link\"><link=\"installations\">Installations</link></style> or <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>.",
+            "While some games limit use of <style=\"CurrentLink\">Armor</style> to specific ''classes'', often more or less the same as <style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style>, others make the useful only to specific <style=\"Link\"><link=\"characters\">Characters</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20II\">Dragon Age II</link></style>). Related to this is how many pieces of <style=\"CurrentLink\">Armor</style> may be used, it is common to use a <style=\"Link\"><link=\"equipment-slots\">Equipment Slot</link></style> system so that only one piece of a particular type of <style=\"CurrentLink\">Armor</style> (e.g. helmet, breastplate, etc.) can be equipped at the same time, or that there are rules for layering armor (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style>).",
+            "Like for most <style=\"Link\"><link=\"equipment\">Equipment</link></style>, there are several options for <style=\"CurrentLink\">Armor</style>. One is to assign a weight to them as a way to affect carrying capabilities, another is to make them be affected by <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>. For providing <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> or <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"CurrentLink\">Armor</style> can modulating <style=\"Link\"><link=\"skills\">Skills</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style> by giving <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>.  Determining if <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> should be available is another option, and if they are if these should make use of a <style=\"Link\"><link=\"sockets\">Sockets</link></style> system. For games using <style=\"Link\"><link=\"sets\">Sets</link></style>, it is common to have <style=\"Link\"><link=\"sets\">Sets</link></style> of <style=\"CurrentLink\">Armor</style> or possible combinations of <style=\"Link\"><link=\"weapons\">Weapons</link></style> and <style=\"CurrentLink\">Armor</style>. Another option is to let <style=\"Link\"><link=\"damage\">Damage</link></style> affect <style=\"CurrentLink\">Armor</style> (besides <style=\"Link\"><link=\"health\">Health</link></style> typically). This combination creates a form of indirect <style=\"Link\"><link=\"energy-penalties\">Energy Penalties</link></style> since losing all <style=\"CurrentLink\">Armor</style> doesn't lead to <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style> but makes it more likely. ",
+            "Common ways of letting players get access to <style=\"CurrentLink\">Armor</style> is as part of <style=\"Link\"><link=\"loot\">Loot</link></style>, through <style=\"Link\"><link=\"trading\">Trading</link></style>, or as <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style> (when they are a <style=\"Link\"><link=\"resources\">Resource</link></style>). For games with <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases, otherwise not available <style=\"CurrentLink\">Armor</style> may be <style=\"Link\"><link=\"loot\">Loot</link></style> from <style=\"Link\"><link=\"endgame-quests\">Endgame Quests</link></style> to provide means for players to improve even if they have reached the last development stages (typically <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>). ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "It is quite common to change the visual appearance of <style=\"Link\"><link=\"avatars\">Avatars</link></style> if they are equipped with <style=\"CurrentLink\">Armor</style>, both to indicate this status to the players controlling them and those players encountering them.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "In games where <style=\"CurrentLink\">Armor</style> is to be used as part of <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>, they may need to not only look like real <style=\"CurrentLink\">Armor</style> but also provide some protection.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Armor</style> is a way to modulate how <style=\"Link\"><link=\"combat\">Combat</link></style> takes place through protecting the <style=\"Link\"><link=\"health\">Health</link></style> of <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"characters\">Characters</link></style>. While for the one using the <style=\"CurrentLink\">Armor</style> this is most likely seen as an <style=\"Link\"><link=\"improved-abilities\">Improved Ability</link></style> regarding <style=\"Link\"><link=\"combat\">Combat</link></style>, it can by others be seen as a way of giving them <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> in afflicting <style=\"Link\"><link=\"damage\">Damage</link></style>.",
+            "When <style=\"CurrentLink\">Armor</style> exists as <style=\"Link\"><link=\"game-items\">Game Items</link></style>, they need to be <style=\"Link\"><link=\"equipment\">Equipment</link></style> so that players can choose which <style=\"CurrentLink\">Armor</style> to use.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"equipment\">Equipment</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"sets\">Sets</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"damage\">Damage</link></style></style>",
+            "<style=\"Link\"><link=\"energy-penalties\">Energy Penalties</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style></style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>, <style=\"Link\"><link=\"endgame-quests\">Endgame Quests</link></style>, <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style>, <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>, <style=\"Link\"><link=\"loot\">Loot</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "decreased-abilities",
+            "equipment",
+            "game-items",
+            "improved-abilities",
+            "resources",
+            "sets",
+            "energy-penalties",
+            "balancing-effects",
+            "trade-offs"
+        ],
+        "modulates" : [
+            "avatars",
+            "characters",
+            "combat",
+            "damage",
+            "health",
+            "attributes",
+            "skills"
+        ],
+        "instantiated_by" : [
+            "installations",
+            "vehicles"
+        ],
+        "modulated_by" : [
+            "decreased-abilities",
+            "deterioration",
+            "endgame-quests",
+            "equipment-slots",
+            "live-action-roleplaying",
+            "loot",
+            "pick-ups",
+            "trading",
+            "upgrades"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

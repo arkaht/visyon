@@ -1,0 +1,73 @@
+{
+    "name" : "Unlocking",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "The act of getting access to additional abilities or game-related content.",
+        "markups" : [
+            "<style=\"Definition\">The act of getting access to additional abilities or game-related content.</style>",
+            "Many games withhold abilities or content from players until they have met certain requirements, which may be as simple as reaching a certain level of completing the game or proving a certain level of game mastery. When players have been aware of these abilities or content before they are revealed the act of <style=\"CurrentLink\">Unlocking</style> them becomes significant in itself.",
+            "Note: ''This pattern does not look at the opening up of new spatial areas in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, see <style=\"Link\"><link=\"access-rewards\">Access Rewards</link></style> for discussions on that (and the type of access to game content discussed here(.",
+            "<style=\"H3\">Examples</style>",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> could unlock new powers and skills by gaining character levels. This is also found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> but may here take the form of development trees, as for example in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style>. Similar trees exist in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20Island\">Dead Island</link></style>. <style=\"CurrentLink\">Unlocking</style> new weapons in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> does not give access to better weapons but rather ones that are more specialized.",
+            "Games on social network platforms such as Facebook, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CityVille\">CityVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empires%20&%20Allies\">Empires & Allies</link></style>, also make use of <style=\"CurrentLink\">Unlocking</style> but here this is typically tied to being able to finish constructions and players can pay money to do this instead of having to get the help from a certain amount of friends. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing for players to be able to perform <style=\"CurrentLink\">Unlocking</style> in games rely on deciding what <style=\"Link\"><link=\"abilities\">Abilities</link></style> or game-related content can be unlocked and announcing this to the players. <style=\"CurrentLink\">Unlocking</style> is often applied to control how <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>, and <style=\"Link\"><link=\"weapons\">Weapons</link></style> are introduced into gameplay. <style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style> is a specific type of game content acquired by <style=\"CurrentLink\">Unlocking</style> that instead of directly improving players' abilities give them a greater <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>.",
+            "<style=\"Link\"><link=\"achievements\">Achievements</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Development%20Trees\">Development Trees</link></style>, the latter linked for example to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Technologies\">Technologies</link></style>, are examples of patterns that by their nature provide <style=\"CurrentLink\">Unlocking</style> so implementing these in a game also create the <style=\"CurrentLink\">Unlocking</style> pattern. <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style> or <style=\"Link\"><link=\"character-development\">Character Development</link></style> can also provide <style=\"CurrentLink\">Unlocking</style> through the use of <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>, the already mentioned <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Development%20Trees\">Development Trees</link></style>, or more specialized solutions. For games with explicit <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, reaching theses can result in the <style=\"CurrentLink\">Unlocking</style> of new gameplay content. <style=\"Link\"><link=\"endgame-quests\">Endgame Quests</link></style> are specifically packaged gameplay content used for this purpose.",
+            "Having sufficient numbers of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>, or getting help from them, is a way of implementing <style=\"CurrentLink\">Unlocking</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CityVille\">CityVille</link></style> and other games on social network platforms; for these games <style=\"CurrentLink\">Unlocking</style> is typically also <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Since <style=\"CurrentLink\">Unlocking</style> is the act of gaining access to something preordained, this can easily be felt as a <style=\"Link\"><link=\"rewards\">Reward</link></style>, or more precisely an <style=\"Link\"><link=\"access-rewards\">Access Reward</link></style> than gives <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> to the actions leading up to the <style=\"CurrentLink\">Unlocking</style>; an exception to this if the <style=\"CurrentLink\">Unlocking</style> is a result of an <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>. Knowing about the possibility of <style=\"CurrentLink\">Unlocking</style> something makes it possible to have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> about this and can motivate both <style=\"Link\"><link=\"grinding\">Grinding</link></style> and <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>. It however ruins the possibilities that the effects of the <style=\"CurrentLink\">Unlocking</style> actions are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"access-rewards\">Access Rewards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>, <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"abilities\">Abilities</link></style>, <style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>, <style=\"Link\"><link=\"achievements\">Achievements</link></style>, <style=\"Link\"><link=\"character-development\">Character Development</link></style>, <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Development%20Trees\">Development Trees</link></style>, <style=\"Link\"><link=\"endgame-quests\">Endgame Quests</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>, <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "access-rewards",
+            "anticipation",
+            "grinding",
+            "player-planned-development",
+            "rewards",
+            "sidegrades",
+            "value-effort"
+        ],
+        "modulates" : [
+            "abilities",
+            "endgame",
+            "privileged-abilities",
+            "vehicles",
+            "weapons"
+        ],
+        "instantiated_by" : [
+            "abstract-player-construct-development",
+            "achievements",
+            "character-development",
+            "character-levels",
+            "development-trees",
+            "endgame-quests",
+            "neighbors",
+            "purchasable-game-advantages"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "surprises"
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "name" : "Landmarks",
+    "categories" : [
+        "Patterns",
+        "Level Design Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Distinct objects in game worlds that help navigation within them.",
+        "markups" : [
+            "<style=\"Definition\">Distinct objects in game worlds that help navigation within them.</style>",
+            "Navigating in game worlds, or simply knowing where one is, can be difficult in some game worlds. <style=\"CurrentLink\">Landmarks</style> are ways of helping in this by providing distinguishing game elements that allow players to identify where they are by how they are positioned in relation to these.",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mirror's%20Edge\">Mirror's Edge</link></style> uses temporary glowing pillars of light to guide players in races.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Elder%20Scrolls%20IV:%20Oblivion\">The Elder Scrolls IV: Oblivion</link></style> contains the ''White Gold Tower'' in a central part of the game world and this tall building can be used by players in many parts of the wilderness to realize where they are. Other games that make use of tall buildings as <style=\"CurrentLink\">Landmarks</style> include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Landmarks</style> are not a specific type of game elements in themselves but rather game elements that distinguish themselves in such ways to help players locate themselves and possible future locations. Any element in a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> can work as long as they are <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> in some fashion, and this may be the main raison d'être for some <style=\"Link\"><link=\"props\">Props</link></style>. Simply by their size, <style=\"Link\"><link=\"big-dumb-objects\">Big Dumb Objects</link></style> (e.g. the various tall buildings in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Elder%20Scrolls%20IV:%20Oblivion\">The Elder Scrolls IV: Oblivion</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style>) and <style=\"Link\"><link=\"installations\">Installations</link></style> (unless there are too many of the latter and they are not distinguishable from each other) will likely be <style=\"CurrentLink\">Landmarks</style>. <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, while not being elements ''of'' <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> are still elements ''in'' <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and may therefore also serve as <style=\"CurrentLink\">Landmarks</style>.",
+            "While <style=\"CurrentLink\">Landmarks</style> can help in any <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> they can specifically be placed to show the route of <style=\"Link\"><link=\"races\">Races</link></style>; if used, <style=\"Link\"><link=\"check-points\">Check Points</link></style> are natural candidates for being <style=\"CurrentLink\">Landmarks</style> in this case. They can also be used to create <style=\"Link\"><link=\"clues\">Clues</link></style> or <style=\"Link\"><link=\"traces\">Traces</link></style> that players can follow. Their overall usefulness is very much dependent on how often players can have a <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> to them (which is why <style=\"Link\"><link=\"big-dumb-objects\">Big Dumb Objects</link></style> make good <style=\"CurrentLink\">Landmarks</style>). They can also be used simply to makes <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style> more important and give some indication of how far one has traveled in them.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Landmarks</style> are <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, and the more they stand out the more distinguishable they are. For this reason, if it is important enough, breaking <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> can be used to makes elements work better as <style=\"CurrentLink\">Landmarks</style>. This makes <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> effective as <style=\"CurrentLink\">Landmarks</style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "While not able to play parts of <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style> that provide much information, <style=\"CurrentLink\">Landmarks</style> can still provide important parts in these.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Landmarks</style> help players with <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and <style=\"Link\"><link=\"levels\">Levels</link></style>. By making players less likely to get lost, their presence can also encourage <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>. How they should look can depend on what is required to maintain a <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, but they may be necessary to create this consistency.",
+            "In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"CurrentLink\">Landmarks</style> can support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"traces\">Traces</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"big-dumb-objects\">Big Dumb Objects</link></style>, <style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"props\">Props</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"line-sight\">Line of Sight</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "clues",
+            "thematic-consistency",
+            "traces",
+            "coordination"
+        ],
+        "modulates" : [
+            "environmental-storytelling",
+            "game-boards",
+            "game-world-exploration",
+            "game-world-navigation",
+            "game-worlds",
+            "levels",
+            "races",
+            "transport-routes"
+        ],
+        "instantiated_by" : [
+            "big-dumb-objects",
+            "check-points",
+            "diegetically-outstanding-features",
+            "geospatial-game-widgets",
+            "installations",
+            "props"
+        ],
+        "modulated_by" : [
+            "line-sight",
+            "thematic-consistency"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

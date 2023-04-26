@@ -1,0 +1,78 @@
+{
+    "name" : "Temporary Abilities",
+    "categories" : [
+        "Patterns",
+        "Event Patterns",
+        "Action Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Abilities only available for limited periods of game time.",
+        "markups" : [
+            "<style=\"Definition\">Abilities only available for limited periods of game time.</style>",
+            "While games need to let players have some abilities to affect gameplay, not all abilities need to be present throughout entire game sessions. Those that are not are <style=\"CurrentLink\">Temporary Abilities</style> and may be transitory rewards or powerful abilities that players only can use a limited times.",
+            "<style=\"H3\">Examples</style>",
+            "Power-Ups in many action games only provide <style=\"CurrentLink\">Temporary Abilities</style> for short periods of time, e.g. the ''Quad Damage'' in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> gives four times the normal damage but only for a brief period of time while the ''metal cap'' in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%2064\">Super Mario 64</link></style> temporarily makes Mario sink in water and invincible. The ''banana skin'' and ''green shell'' power-ups found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> give players a limit number of attacks on other players (which may also be lost due to other players' attack or crashing outside the course).",
+            "Equipping oneself with a tool in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> lets players perform different sorts of actions, and these actions are available until the tool is destroyed through wear and tear or until it is replace with another tool. More restricted, switching weapons in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style> lets players do different types of damage which can be seen as different abilities. Explosive weapons such as rocket launchers in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style> also temporary give the ability to damage several enemies at once (and do ''rocket jumps'') until ammunition runs dry. The ''gravity gun'' in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%202\">Half-Life 2</link></style> gives players the ability to attract or repel other objects instead of shooting them - here also as long as one has ammunition.",
+            "Casting beneficial spells on others, ''Buffing'' them, is a way of giving other players <style=\"CurrentLink\">Temporary Abilities</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>. While taking damage is not really an ability, being affected with damage-causing diseases in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20Classic\">Team Fortress Classic</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> are new <style=\"CurrentLink\">Temporary Abilities</style> since one can transmit the disease until one's avatar is cured or dies.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are two main ways of creating <style=\"CurrentLink\">Temporary Abilities</style>: having <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> for how long the <style=\"Link\"><link=\"abilities\">Abilities</link></style> can be used or having a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Number%20of%20Uses\">Limited Number of Uses</link></style> for them. These may be combined so that players may only use the <style=\"Link\"><link=\"abilities\">Abilities</link></style> a limited number of times but needs to do so before the <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> run out or forfeit them. The pattern of <style=\"CurrentLink\">Temporary Abilities</style> can be weakly present in games if they are present from the beginning of gameplay but not to the end, or vice versa. The reason for the weak presence is that players may be able to control their actions so that the <style=\"Link\"><link=\"abilities\">Abilities</link></style> are available until they are no longer important or that if they are acquired but not lost they can simply be seen as <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style> or <style=\"Link\"><link=\"character-development\">Character Development</link></style>. ",
+            "For this reason, providing players with <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> bounded with <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> is the most explicit way of instantiating the pattern. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Buffs\">Buffs</link></style> work this way as do many <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style> but not all, for example the ''green shell'' <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style>. In this case, and all other cases where the abilities have a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Number%20of%20Uses\">Limited Number of Uses</link></style>, the <style=\"Link\"><link=\"abilities\">Abilities</link></style> become <style=\"Link\"><link=\"resources\">Resources</link></style>. <style=\"Link\"><link=\"ammunition\">Ammunition</link></style> is an explicit <style=\"Link\"><link=\"resources\">Resource</link></style> that functions this way. <style=\"Link\"><link=\"equipment\">Equipment</link></style>, and its subpattern <style=\"Link\"><link=\"tools\">Tools</link></style>, can be made into providing <style=\"CurrentLink\">Temporary Abilities</style> through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Number%20of%20Uses\">Limited Number of Uses</link></style> or <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>. The same effect can be reached by having the loss of <style=\"Link\"><link=\"equipment\">Equipment</link></style> be an effect of <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>. <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style> makes <style=\"Link\"><link=\"abilities\">Abilities</link></style> temporary simply because they can only be used when players are in certain positions or have control over them.",
+            "<style=\"CurrentLink\">Temporary Abilities</style> may be appropriate for <style=\"Link\"><link=\"spawning\">Spawning</link></style> or newly arrived players in games where gameplay may not begin simultaneously for all players, e.g. games with <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay. In this case, they can either provide <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> (such as <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>) or give them an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Regardless if the <style=\"CurrentLink\">Temporary Abilities</style> are constructed through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Number%20of%20Uses\">Limited Number of Uses</link></style> or <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, players may wish to have clear presentation of these. <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> are useful for this, typically through parts of <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style> in computer-based games or through <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> in non-computerized ones.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Temporary Abilities</style> is one way of changing how <style=\"Link\"><link=\"abilities\">Abilities</link></style> work in games. By only having access to them at intermittent periods during gameplay they can provide <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> and making full use of them can be a source for <style=\"Link\"><link=\"tension\">Tension</link></style>. The disappearance of <style=\"CurrentLink\">Temporary Abilities</style> are <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>.",
+            "The <style=\"CurrentLink\">Temporary Abilities</style> become <style=\"Link\"><link=\"resources\">Resources</link></style> of sort when they have a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Number%20of%20Uses\">Limited Number of Uses</link></style>. As also mentioned above, <style=\"CurrentLink\">Temporary Abilities</style> can be used to let late-arriving players have an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> or to create <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> between them and the other players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Number%20of%20Uses\">Limited Number of Uses</link></style></style>",
+            "<style=\"Link\"><link=\"resources\">Resources</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"abilities\">Abilities</link></style>, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Buffs\">Buffs</link></style>, <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>",
+            "<style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> together with <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"Link\"><link=\"equipment\">Equipment</link></style> together with <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"deterioration\">Deterioration</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Number%20of%20Uses\">Limited Number of Uses</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "ability-losses",
+            "balancing-effects",
+            "exaggerated-perception-influence",
+            "tension",
+            "varied-gameplay",
+            "resources"
+        ],
+        "modulates" : [
+            "abilities",
+            "drop-in-drop-out",
+            "spawning"
+        ],
+        "instantiated_by" : [
+            "ammunition",
+            "buffs",
+            "location-fixed-abilities",
+            "power-ups",
+            "tools",
+            "new-abilities",
+            "equipment"
+        ],
+        "modulated_by" : [
+            "game-state-indicators"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

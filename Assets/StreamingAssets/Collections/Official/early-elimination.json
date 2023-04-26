@@ -1,0 +1,74 @@
+{
+    "name" : "Early Elimination",
+    "categories" : [
+        "Patterns",
+        "Negative Patterns",
+        "Subjective Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : null,
+        "markups" : [
+            "''The ending of players' game sessions well in advance of the end of game instances.''",
+            "Player elimination occurs in many games. <style=\"CurrentLink\">Early Elimination</style> occurs when one or more players are eliminated long before the games end, forcing them to have extended periods of times when they cannot participate in the games in the same fashion as other players.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Early Elimination</style> is found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk\">Risk</link></style>. It can also occur in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diplomacy\">Diplomacy</link></style> although there players as a group can control this to certain extent. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin\">Assassin</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia\">Mafia</link></style> are games specifically designed around player elimination and the first players to be eliminated suffer from <style=\"CurrentLink\">Early Elimination</style>.",
+            "It is possible, although quite rare, to eliminate one of the players in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style> in the early phases of matches.",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> players can be killed in very early in game rounds and if so they remain outside the play for the rest of the round. Some configurations of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style>, however, allow eliminated players to observe what is happening during the game as spectators.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Early Elimination</style> is in one sense always possible in games as any game instance may have <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style> through <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>. However, <style=\"CurrentLink\">Early Elimination</style> due to game events requires that <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> is possible in a <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Game</link></style>, and then that some players can suffer from this well in advance of the game instances ending. An easy way to introduce <style=\"CurrentLink\">Early Elimination</style> is to make the possibilities to complete <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals present from the beginning of gameplay, e.g. through using <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>. While this makes it possible that <style=\"CurrentLink\">Early Elimination</style> occurs, building games around <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> goals encourage players to force these <style=\"CurrentLink\">Early Elimination</style> on other players. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> is an example of this where one well-placed shot from an enemy players at once can <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> a player. The possibility of <style=\"Link\"><link=\"player-kicking\">Player Kicking</link></style> in a game can also lead to <style=\"CurrentLink\">Early Elimination</style> but in this case for social reasons rather than pure gameplay reasons.",
+            "<style=\"CurrentLink\">Early Elimination</style>, however, does not require that the fulfillment of <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals can take place in early phases of the game. For example, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> has <style=\"CurrentLink\">Early Elimination</style> even if the elimination may occur after more than an hour's gameplay since there is still potentially several more hours of remaining play time. The length of the possible <style=\"Link\"><link=\"downtime\">Downtime</link></style> is what ultimately matters if players perceive that they have been eliminated early, but this length differs depending on if a game is played face-to-face with friends or anonymously over the net. ",
+            "<style=\"CurrentLink\">Early Elimination</style> can be countered through many of the ways <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> can be countered. However, additional solutions exist by regulating the length of the game instances since this affects how long time players can have <style=\"Link\"><link=\"downtime\">Downtime</link></style>. Two examples are using <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> on the game instances or using strong <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style> since both these effectively provides <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Gameplay%20Time\">Limited Gameplay Time</link></style>. Another solution to let players have some meaningful activity during their wait is to let them control neutral <style=\"Link\"><link=\"enemies\">Enemies</link></style> (although this risks creating <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style> situations). Yet another is to have temporary <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style> in the beginning of a game. Having an <style=\"Link\"><link=\"extermination\">Extermination</link></style> phase at the end of the game counters <style=\"CurrentLink\">Early Elimination</style> since it gravitates eliminations to the end of game instances. ",
+            "There are some options if ones does not want to remove <style=\"CurrentLink\">Early Elimination</style> but still remove some of the negative effects of it (see below). <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> can let eliminate players interact with each other and thereby not be socially isolated. As an alternative, games with <style=\"CurrentLink\">Early Elimination</style> can make <style=\"Link\"><link=\"spectators\">Spectators</link></style> out of the people who get eliminated from gameplay. This occurs automatically in games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style> but can be supported through special views in games with <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Early Elimination</style> is, in one sense, just a more drastic version of <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>. <style=\"CurrentLink\">Early Elimination</style> has similar effects on <style=\"Link\"><link=\"tension\">Tension</link></style> as <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, but can lead to longer period of <style=\"Link\"><link=\"downtime\">Downtime</link></style> and make it difficult to keep the affect players interested in the game instances as a whole. It can make it difficult for players to want to engaging in <style=\"Link\"><link=\"playing-lose\">Playing to Lose</link></style>.",
+            "It can be seen as both a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Negative%20Patterns\">Negative</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Subjective%20Patterns\">Subjective</link></style> pattern. This since how negative it is depends much on how much actual time players need to have <style=\"Link\"><link=\"downtime\">Downtime</link></style> after being elimination and before the players as a whole can start a new activity, and how boring affected players perceive this <style=\"Link\"><link=\"downtime\">Downtime</link></style>. However, it can be motivated as a way of maintaining <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> in game worlds where people die often or randomly.",
+            "These effects, of course, depend on the average play time of each game instance. Games with naturally short game instances, e.g. through using <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Gameplay%20Time\">Limited Gameplay Time</link></style>, may have <style=\"CurrentLink\">Early Elimination</style> without players seeing the resulting <style=\"Link\"><link=\"downtime\">Downtime</link></style> as a big problem. This is especially true for games that are played in many rounds, as for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> does.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>, <style=\"Link\"><link=\"player-kicking\">Player Kicking</link></style>, <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Gameplay%20Time\">Limited Gameplay Time</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"extermination\">Extermination</link></style>, <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>, <style=\"Link\"><link=\"playing-lose\">Playing to Lose</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "downtime",
+            "kingmaker",
+            "spectators",
+            "tension",
+            "thematic-consistency"
+        ],
+        "modulates" : [
+            "multiplayer-games",
+            "player-elimination"
+        ],
+        "instantiated_by" : [
+            "early-leaving-players",
+            "eliminate",
+            "last-man-standing",
+            "permadeath",
+            "player-kicking",
+            "surrendering"
+        ],
+        "modulated_by" : [
+            "game-lobbies",
+            "limited-gameplay-time",
+            "time-limits"
+        ],
+        "conflicts" : [
+            "extermination",
+            "invulnerabilities",
+            "playing-lose"
+        ]
+    }
+}

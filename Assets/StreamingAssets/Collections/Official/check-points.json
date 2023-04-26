@@ -1,0 +1,88 @@
+{
+    "name" : "Check Points",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Interface Patterns",
+        "Needs revision",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Locations in game worlds which signify game state changes directly related to the progress of some goal.",
+        "markups" : [
+            "<style=\"Definition\">Locations in game worlds which signify game state changes directly related to the progress of some goal.</style>",
+            "Goals in many games consist of moving between different places in game worlds or levels. <style=\"CurrentLink\">Check Points</style> act as places which indicate having reach such points, or points along the way.",
+            "<style=\"H3\">Examples</style>",
+            "All <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style>, such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sega%20Rally%20series\">Sega Rally series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Out%20Run\">Out Run</link></style>, make use of <style=\"CurrentLink\">Check Points</style> by having goal lines for completing the race. Racing goal in other games, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style> use <style=\"CurrentLink\">Check Points</style> in the same fashion. They are also used in some of the team versus team levels in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>.",
+            "''Capture the Flag'' variants of multiplayer <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">first-person shooters</link></style>, such as in some variants of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament</link></style>, have certain areas where the enemy flag has to be delivered for the team to score.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Check Points</style> are typically used to create <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals (including <style=\"Link\"><link=\"deliver\">Deliver</link></style> and <style=\"Link\"><link=\"herd\">Herd</link></style> goals) or <style=\"Link\"><link=\"backtracking-levels\">Backtracking Levels</link></style> (by having a <style=\"CurrentLink\">Check Point</style> at the furthermost point of a <style=\"Link\"><link=\"levels\">Level</link></style>). They are also used indicate how to achieve <style=\"Link\"><link=\"area-control\">Area Control</link></style>, notice how far players have gotten in <style=\"Link\"><link=\"levels\">Levels</link></style> or <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>. By doing these things, they affect <style=\"Link\"><link=\"movement\">Movement</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. The naturally form a form of <style=\"Link\"><link=\"collections\">Collection</link></style> but this can be made more explicit and part of the game mechanics if not all <style=\"CurrentLink\">Check Points</style> need to be reached or players have choices on which order to reach the <style=\"CurrentLink\">Check Points</style>.",
+            "<style=\"CurrentLink\">Check Points</style> can be placed anywhere that makes sense to specific goals in a game, but <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style> and <style=\"Link\"><link=\"save-points\">Save Points</link></style> are examples of game features that quite naturally suit themselves as <style=\"CurrentLink\">Check Points</style> as well (<style=\"CurrentLink\">Check Points</style> can of course also be modified so they act as <style=\"Link\"><link=\"save-points\">Save Points</link></style> also - so the patterns can affect each other). By their placements, they can draw players together in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, e.g. to get many to <style=\"Link\"><link=\"arenas\">Arenas</link></style>, and thereby offer a design solution for getting players co-located in games with large <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style>.",
+            "Otherwise, <style=\"CurrentLink\">Check Points</style> are typically <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>. Regardless, the location of <style=\"CurrentLink\">Check Points</style> can be indicated locally or from a distance by <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>. They can also be indicated on <style=\"Link\"><link=\"mini\">Mini-maps</link></style> to make them easier to reach. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Check Points</style> typically work against <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> since most they are <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Check Points</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Check Points</style> are <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style> that provide both <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style> and a type of <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> or <style=\"Link\"><link=\"goal-indicators\">Goal Indicators</link></style>. They can serve as <style=\"Link\"><link=\"landmarks\">Landmarks</link></style> or <style=\"Link\"><link=\"traces\">Traces</link></style> and can denote <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, or make places into <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> simply by their own existence. By their placement they can make players engage in <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> as part of trying to achieve some other goal. ",
+            "When reaching <style=\"CurrentLink\">Check Points</style> are used to achieve <style=\"Link\"><link=\"area-control\">Area Control</link></style>, they create <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"backtracking-levels\">Backtracking Levels</link></style>, <style=\"Link\"><link=\"collections\">Collections</link></style>, <style=\"Link\"><link=\"deliver\">Deliver</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"goal-indicators\">Goal Indicators</link></style>, <style=\"Link\"><link=\"herd\">Herd</link></style>, <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>, <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style>, <style=\"Link\"><link=\"traces\">Traces</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"area-control\">Area Control</link></style></style>",
+            "<style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"arenas\">Arenas</link></style>, <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"save-points\">Save Points</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"herd\">Herd</link></style>, <style=\"Link\"><link=\"mini\">Mini-maps</link></style>, <style=\"Link\"><link=\"save-points\">Save Points</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "backtracking-levels",
+            "collections",
+            "deliver",
+            "game-world-exploration",
+            "goal-indicators",
+            "herd",
+            "landmarks",
+            "point-interest-indicators",
+            "progress-indicators",
+            "strategic-locations",
+            "supporting-goals",
+            "traces",
+            "traverse",
+            "gain-ownership"
+        ],
+        "modulates" : [
+            "area-control",
+            "arenas",
+            "continuous-goals",
+            "game-worlds",
+            "levels",
+            "movement",
+            "multiplayer-games"
+        ],
+        "instantiated_by" : [
+            "geospatial-game-widgets",
+            "safe-havens",
+            "save-points"
+        ],
+        "modulated_by" : [
+            "diegetically-outstanding-features",
+            "herd",
+            "mini",
+            "save-points"
+        ],
+        "conflicts" : [
+            "diegetic-consistency"
+        ]
+    }
+}

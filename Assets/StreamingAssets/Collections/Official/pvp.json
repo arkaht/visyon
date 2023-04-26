@@ -1,0 +1,93 @@
+{
+    "name" : "PvP",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where players as individuals are in active conflict with each other.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where players as individuals are in active conflict with each other.</style>",
+            "One of the most common ways of creating challenges for players is to make them play against other players. Somewhat surprising, this has been so common in games that no term has been needed for this, instead concepts such as team-based or cooperation games have been introduced. It was first with the advent of massively multiplayer online games that a need to distinguish between combat against the other players and against the \"environment\" was needed, and the terms <style=\"CurrentLink\">PvP</style> (\"player versus player\") and <style=\"Link\"><link=\"pve\">PvE</link></style> (\"player versus environment\") was coined.",
+            "Note: <style=\"CurrentLink\">PvP</style> began being used as a concept to describe optional gameplay in massively multiplayer online games. While this means that <style=\"CurrentLink\">PvP</style> has assumptions of being optional and being combat-related, this pattern describes the concept based only around the core definition.",
+            "<style=\"H3\">Examples</style>",
+            "The concept of <style=\"CurrentLink\">PvP</style> gameplay originated in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>. How much these focus on <style=\"CurrentLink\">PvP</style> naturally varies, see <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Genocide\">Genocide</link></style> for examples of games that heavily focus upon <style=\"CurrentLink\">PvP</style>. ",
+            "Other games where it is easy to perceive players as fighting each other include those where they control avatars or characters locked in some violent conflict. Examples of such games include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Real-Time%20Strategy%20Games\">Real-Time Strategy Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients%20series\">Defense of the Ancients series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Travian\">Travian</link></style>. Multiplayer version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20II\">Diablo II</link></style> also has <style=\"CurrentLink\">PvP</style>, as can the games <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin\">Assassin</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Paranoia\">Paranoia</link></style>.",
+            "Wikipedia<ref name=\"wiki\"/> and GiantBomb<ref name=\"gb\"/> have pages dedicated to the concept of <style=\"CurrentLink\">PvP</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The concept of <style=\"CurrentLink\">PvP</style> began being used to differentiate different types of <style=\"Link\"><link=\"combat\">Combat</link></style> in <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>. For obvious reasons, <style=\"CurrentLink\">PvP</style> is an option for <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> rather than <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>. It requires players to be in some type of confrontation or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> against each other where <style=\"Link\"><link=\"combat\">Combat</link></style> is the typically case. However, one could argue games with <style=\"Link\"><link=\"races\">Races</link></style> or where players have the option of <style=\"Link\"><link=\"betrayal\">Betrayal</link></style> could be a form of <style=\"CurrentLink\">PvP</style>. In its use in <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, <style=\"CurrentLink\">PvP</style> has connotations of providing <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style> and causing <style=\"Link\"><link=\"player-killing\">Player Killing</link></style>. In some games, the gameplay structure avoids promoting <style=\"CurrentLink\">PvP</style> until later phases, e.g <style=\"Link\"><link=\"extermination\">Extermination</link></style>. However, from the description of this pattern these effects depend on the underlying patterns that determine the actual gameplay activities that create the pattern. <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> may be required to determine winners of <style=\"Link\"><link=\"overcome\">Overcome</link></style> goals unless <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> are to be possible. If gameplay can continue without some players, this may make the players <style=\"Link\"><link=\"always-vulnerable\">Always Vulnerable</link></style>.",
+            "The use of <style=\"CurrentLink\">PvP</style> in any game opens up for considering using <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> to equalize the playing field if the players are expected to have different levels of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>. Patterns that can work for <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> in games with <style=\"CurrentLink\">PvP</style> include <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>, <style=\"Link\"><link=\"killcams\">Killcams</link></style>,<style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>, and <style=\"Link\"><link=\"team-development\">Team Development</link></style> (although only small errors in design may make <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style> and <style=\"Link\"><link=\"team-development\">Team Development</link></style> work against it instead). Games with <style=\"CurrentLink\">PvP</style> gameplay that have <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style> often require players to engage in <style=\"Link\"><link=\"bluffing\">Bluffing</link></style> and <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> to succeed with the <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals of not letting other players notice what they are doing. This can cause <style=\"Link\"><link=\"tension\">Tension</link></style> both for those trying to hide something and to those (perhaps wrongfully) believing this is taking place. ",
+            "<style=\"CurrentLink\">PvP</style> and <style=\"Link\"><link=\"pve\">PvE</link></style> can co-exist in games although most games have gameplay tilted more toward one or the other. In fact, for their everyday usage it has been argued that <style=\"CurrentLink\">PvP</style> requires <style=\"Link\"><link=\"pve\">PvE</link></style> as a contrast<ref name=\"bartle\"/>. Even so, games designed primarily for one or the other can in most cases be modulated by the other. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients\">Defense of the Ancients</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Republic%20of%20Rome\">The Republic of Rome</link></style> are examples of games with mainly <style=\"CurrentLink\">PvP</style> gameplay but with some <style=\"Link\"><link=\"pve\">PvE</link></style> aspects.",
+            "On a basic level, <style=\"CurrentLink\">PvP</style> works against <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, but these patterns can be combined rather easily through, for example with <style=\"Link\"><link=\"teams\">Teams</link></style> to create <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay. <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> can also occur spontaneously in <style=\"CurrentLink\">PvP</style> gameplay if opportunities to <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style> exist.",
+            "In games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>, <style=\"Link\"><link=\"backseat-gamers\">Backseat Gamers</link></style> typically do not work well with <style=\"CurrentLink\">PvP</style> gameplay. This since the extra help can seem to disrupt <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> and that the <style=\"Link\"><link=\"backseat-gamers\">Backseat Gamer</link></style> may have information that the playing opponent may not have.",
+            "<style=\"H2\">Consequences</style>",
+            "While the specific actions that create <style=\"CurrentLink\">PvP</style> gameplay can have <style=\"Link\"><link=\"tension\">Tension</link></style>, the pattern itself can also be assumed to create <style=\"Link\"><link=\"tension\">Tension</link></style> since it pits players against each other. Since meeting better players allows new challenges, games with <style=\"CurrentLink\">PvP</style> can typically provide <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style> as long as some for of skills are needed - i.e. gameplay depends on <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> of all involved players - and players can easily find opponents with better skill levels. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style></style>",
+            "<style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"teams\">Teams</link></style></style>",
+            "<style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>, <style=\"Link\"><link=\"killcams\">Killcams</link></style>, <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>, or <style=\"Link\"><link=\"team-development\">Team Development</link></style></style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style></style>",
+            "<style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"pve\">PvE</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"extermination\">Extermination</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"Link\"><link=\"always-vulnerable\">Always Vulnerable</link></style>, <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>, <style=\"Link\"><link=\"killcams\">Killcams</link></style>, <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"pve\">PvE</link></style>, <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>, <style=\"Link\"><link=\"team-development\">Team Development</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>, ",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>",
+            "<style=\"Link\"><link=\"backseat-gamers\">Backseat Gamers</link></style> in games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "tension",
+            "further-player-improvement-potential",
+            "tvt",
+            "player-balance",
+            "bluffing",
+            "player-balance",
+            "roleplaying",
+            "stealth",
+            "tension"
+        ],
+        "modulates" : [
+            "massively-multiplayer-online-games",
+            "multiplayer-games",
+            "pve"
+        ],
+        "instantiated_by" : [
+            "betrayal",
+            "combat",
+            "conflicts",
+            "extermination"
+        ],
+        "modulated_by" : [
+            "always-vulnerable",
+            "balancing-effects",
+            "beat-leader",
+            "drafting",
+            "player-balance",
+            "pve",
+            "sanctioned-cheating",
+            "teams",
+            "tiebreakers",
+            ""
+        ],
+        "conflicts" : [
+            "cooperation",
+            "single-player-games",
+            "backseat-gamers"
+        ]
+    }
+}

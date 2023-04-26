@@ -1,0 +1,64 @@
+{
+    "name" : "Vehicle Sections",
+    "categories" : [
+        "Level Design Patterns",
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Gameplay areas created for vehicular movement.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay areas created for vehicular movement.</style>",
+            "Some games let players alternate between self-propelled movement and using vehicles. <style=\"CurrentLink\">Vehicle Sections</style> are parts of game worlds specifically designed for the latter.",
+            "<style=\"H3\">Examples</style>",
+            "''The coast'' region in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%202\">Half-Life 2</link></style> in mainly an area meant to be traversed using a buggy. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crysis\">Crysis</link></style> has two parts of the game specifically designed to support travelling in vehicles - in one case in a main battle tank and in another a vertical takeoffs and landing aircraft. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo:%20Combat%20Evolved\">Halo: Combat Evolved</link></style> and the other games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo series</link></style> have several areas designed to using the ''Warthog'' and other vehicles.",
+            "Games with huge open worlds, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> but also multiplayer maps in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo series</link></style>, can arguably be said to consist mainly of <style=\"CurrentLink\">Vehicle Sections</style>. Building and narrow passages are here the exceptions the <style=\"CurrentLink\">Vehicle Sections</style> and make pedestrian gameplay feasible.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Vehicle Sections</style> is concerned with presenting players with a different scale between moving in <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> and moving without them - games where one always is inside vehicles with the same capacities could be said to consist entirely of <style=\"CurrentLink\">Vehicle Sections</style> but this also makes talking about the pattern superfluous. ",
+            "<style=\"CurrentLink\">Vehicle Sections</style> can be emphasized compare to other regions in several ways. One is simply to having entire <style=\"Link\"><link=\"game-boards\">Game Boards</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style> be <style=\"CurrentLink\">Vehicle Sections</style> which are intermixed with other <style=\"Link\"><link=\"game-boards\">Game Boards</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style> (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crysis\">Crysis</link></style> can be seen as an example of this). Another, exemplified by the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style> from the third installment and forward, is to have most of a <style=\"Link\"><link=\"levels\">Level</link></style> be <style=\"CurrentLink\">Vehicle Sections</style> but provide some places where pedestrian movement is required or those lacking <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> can are not disadvantaged.",
+            "While <style=\"CurrentLink\">Vehicle Sections</style> can make use of all types of game world features that other areas can use, it is worth pointing out that <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> and <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> can have more abrupt effects in <style=\"CurrentLink\">Vehicle Sections</style> since players are likely to be moving at higher speeds.",
+            "<style=\"H2\">Consequences</style>",
+            "Not too surprising, <style=\"CurrentLink\">Vehicle Sections</style> are <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style> of <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style> dedicated for using <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>. They affect <style=\"Link\"><link=\"movement\">Movement</link></style>, and in many cases also <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>, by letting players make explicit use of the capabilities of the <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> provided. They can however cause <style=\"Link\"><link=\"excise\">Excise</link></style> if players intentionally or by mistake traverse them without the <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>. In games that mix <style=\"CurrentLink\">Vehicle Sections</style> with other sections within a continuous <style=\"Link\"><link=\"game-worlds\">Game World</link></style>, knowing where the boundaries between these are is a form of <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>.",
+            "Since vehicular travel can be assumed to be quicker than \"ordinary\" travel, <style=\"CurrentLink\">Vehicle Sections</style> can be seen as a halfway alternative between <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style> and ordinary <style=\"Link\"><link=\"movement\">Movement</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "excise",
+            "strategic-knowledge",
+            "transport-routes"
+        ],
+        "modulates" : [
+            "game-boards",
+            "game-worlds",
+            "levels",
+            "maneuvering",
+            "movement",
+            "vehicles"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "choke-points",
+            "obstacles"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

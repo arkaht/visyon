@@ -1,0 +1,98 @@
+{
+    "name" : "Crafting",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns",
+        "Diegetic Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "The activity of creating game items.",
+        "markups" : [
+            "<style=\"Definition\">The activity of creating game items.</style>",
+            "<style=\"CurrentLink\">Crafting</style> is the activity of creating game items within game worlds through actions. By allowing these activities, games explain how the items come to be in the worlds as well as offer players the possibility to engage in a constructive activity.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Crafting</style> is most often found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Entropia%20Universe\">Entropia Universe</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>. Here, players can craft weapons, armor, and tools depending on the setting.",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Slaves to Armok II: Dwarf Fortress</link></style> start with a small cache of items but need to craft more for their dwarves having a chance to survive; in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> players need to craft all tools they wish to use. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zombie%20Lane\">Zombie Lane</link></style> allows players to buy more powerful weapons that the default shovel, but also that they can create special types of weapons through <style=\"CurrentLink\">Crafting</style>.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fable%20series\">Fable series</link></style> let players engage in mini-games that are diegetically presented as crafting but doesn't actually create game items.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The design choices associated with creating <style=\"CurrentLink\">Crafting</style> in a game are primarily what is required to engage in the <style=\"CurrentLink\">Crafting</style> activity and what <style=\"Link\"><link=\"game-items\">Game Items</link></style> are constructed from the action, alternatively how can one improve the quality of functionality of some <style=\"Link\"><link=\"game-items\">Game Items</link></style>. <style=\"CurrentLink\">Crafting</style> is often modulated by <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> in that players may be able to choose which <style=\"Link\"><link=\"game-items\">Game Items</link></style> to produce from the <style=\"Link\"><link=\"resources\">Resources</link></style> at hand.",
+            "<style=\"CurrentLink\">Crafting</style> consists of improving something or transforming something into something else, so requiring that some form of <style=\"Link\"><link=\"resources\">Resources</link></style> is consumed in the process is quite natural and common. To limit who can do the <style=\"CurrentLink\">Crafting</style>, or when it can be done, game designs can require use of <style=\"Link\"><link=\"tools\">Tools</link></style> or that those doing the action have specific <style=\"Link\"><link=\"skills\">Skills</link></style> or <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>. A more specific form of the latter can be to require that some actions are done by <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>. Making use of stationary <style=\"Link\"><link=\"tools\">Tools</link></style>, i.e. <style=\"Link\"><link=\"installations\">Installations</link></style>, for <style=\"CurrentLink\">Crafting</style>, makes possibilities to craft into <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style> (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> does this for crafting larger items). Making the <style=\"Link\"><link=\"construction\">Construction</link></style> of each <style=\"Link\"><link=\"game-items\">Game Item</link></style> have a <style=\"Link\"><link=\"development-time\">Development Time</link></style> or require <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> can modulate how often new items can occur. Besides allowing the <style=\"CurrentLink\">Crafting</style> to begin with, the use of <style=\"Link\"><link=\"skills\">Skills</link></style> or particular <style=\"Link\"><link=\"tools\">Tools</link></style> can also be used to influence the quality of the produced <style=\"Link\"><link=\"game-items\">Game Items</link></style>, the use of <style=\"Link\"><link=\"resources\">Resources</link></style>, and the time taken to finish the action.",
+            "Any type of <style=\"Link\"><link=\"game-items\">Game Items</link></style> can be the result of <style=\"CurrentLink\">Crafting</style>, but <style=\"Link\"><link=\"tools\">Tools</link></style> is worth mentioning as a subcategory since it may be required for players to engage in other types of <style=\"CurrentLink\">Crafting</style> and thereby can set up development chains where the <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> gained can be seen as a form of <style=\"Link\"><link=\"character-development\">Character Development</link></style>. For some types of <style=\"Link\"><link=\"game-items\">Game Items</link></style>, e.g. <style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, it can be worth considering that each completed <style=\"CurrentLink\">Crafting</style> action provides not one but several instances of the <style=\"Link\"><link=\"game-items\">Game Items</link></style>. When <style=\"CurrentLink\">Crafting</style> is instead used to modify existing <style=\"Link\"><link=\"game-items\">Game Items</link></style> this is most often to either counter <style=\"Link\"><link=\"deterioration\">Deterioration</link></style> or give <style=\"Link\"><link=\"new-abilities\">New</link></style> or <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> - <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> and <style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style> are specific examples of the latter.",
+            "The actions making <style=\"CurrentLink\">Crafting</style> possible can be <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> if they only can take place before gameplay begins. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Crafting</style> allows players to help create the content in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and is therefore a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Diegetic%20Patterns\">Diegetic Pattern</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Since <style=\"CurrentLink\">Crafting</style> typically concerns manipulating and transforming <style=\"Link\"><link=\"game-items\">Game Items</link></style> that one has, the interface for <style=\"CurrentLink\">Crafting</style> is quite often part of the interface for <style=\"Link\"><link=\"inventories\">Inventories</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Crafting</style> provides a way for players or other <style=\"Link\"><link=\"agents\">Agents</link></style> to engage in the <style=\"Link\"><link=\"construction\">Construction</link></style> of <style=\"Link\"><link=\"game-items\">Game Items</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, quite likely resulting in <style=\"Link\"><link=\"player-created-game-elements\">Player Created Game Elements</link></style>. Performing <style=\"CurrentLink\">Crafting</style> activities can be seen as making <style=\"Link\"><link=\"investments\">Investments</link></style> since <style=\"Link\"><link=\"resources\">Resources</link></style> are usually consumed while engaging in <style=\"CurrentLink\">Crafting</style> (if nothing else, gameplay time is consumed). <style=\"CurrentLink\">Crafting</style> makes those that engage in it into <style=\"Link\"><link=\"converters\">Converters</link></style>, and when <style=\"Link\"><link=\"tools\">Tools</link></style> or crafted <style=\"Link\"><link=\"game-items\">Game Items</link></style> are required to engage in other types of <style=\"CurrentLink\">Crafting</style>, this sets up <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Production-Consumption%20Chains\">Production-Consumption Chains</link></style>. When this is kept to one <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>, this provides a form of <style=\"Link\"><link=\"character-development\">Character Development</link></style>. In games with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> of <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, both this type of <style=\"CurrentLink\">Crafting</style> and repetitious \"basic\" <style=\"CurrentLink\">Crafting</style> can disrupt both the economy within the game and the <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> if not the effort to create <style=\"Link\"><link=\"game-items\">Game Items</link></style> is balanced with the value of them.",
+            "When <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> is given to players regarding <style=\"CurrentLink\">Crafting</style>, as for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Slaves to Armok II: Dwarf Fortress</link></style>, this gives them <style=\"Link\"><link=\"framed-freedom\">Framed Freedom</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Constructive%20Gameplay\">Constructive Gameplay</link></style>. The knowledge of what <style=\"Link\"><link=\"game-items\">Game Items</link></style> can be construct, and what is required to do this, can be <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>. The possibility of <style=\"Link\"><link=\"agents\">Agents</link></style> to create artifacts can be a vital component in explaining civilizations in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and therefore help instantiate <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> (although of course only artifacts which are consistent with the theme should be possible to create).",
+            "Being an activity that does not inherently need to have risks involved or require player skills, <style=\"CurrentLink\">Crafting</style> can easily open up for <style=\"Link\"><link=\"grinding\">Grinding</link></style>. However, it can give some worth to other forms of <style=\"Link\"><link=\"grinding\">Grinding</link></style>, e.g. that of <style=\"Link\"><link=\"collecting\">Collecting</link></style> resources.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Constructive%20Gameplay\">Constructive Gameplay</link></style>, <style=\"Link\"><link=\"converters\">Converters</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"player-created-game-elements\">Player Created Game Elements</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style></style>",
+            "<style=\"Link\"><link=\"framed-freedom\">Framed Freedom</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"tools\">Tools</link></style></style>",
+            "<style=\"Link\"><link=\"character-development\">Character Development</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Production-Consumption%20Chains\">Production-Consumption Chains</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"collecting\">Collecting</link></style>, <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"development-time\">Development Time</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style> in games with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "construction",
+            "constructive-gameplay",
+            "converters",
+            "extra-game-actions",
+            "improved-abilities",
+            "investments",
+            "new-abilities",
+            "player-created-game-elements",
+            "thematic-consistency",
+            "grinding",
+            "privileged-abilities",
+            "strategic-knowledge",
+            "framed-freedom",
+            "character-development",
+            "production-consumption-chains"
+        ],
+        "modulates" : [
+            "collecting",
+            "deterioration",
+            "game-items",
+            "game-worlds",
+            "grinding",
+            "persistent-game-worlds"
+        ],
+        "instantiated_by" : [
+            "privileged-abilities",
+            "skills",
+            "tools"
+        ],
+        "modulated_by" : [
+            "creative-control",
+            "development-time",
+            "extended-actions",
+            "neighbors",
+            "resources",
+            "sidegrades",
+            "skills",
+            "tools",
+            "upgrades"
+        ],
+        "conflicts" : [
+            "player-balance"
+        ]
+    }
+}

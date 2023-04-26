@@ -1,0 +1,92 @@
+{
+    "name" : "Deliver",
+    "categories" : [
+        "Goal Patterns",
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The goal of moving a certain game element to another specified game element or place within the game space.",
+        "markups" : [
+            "<style=\"Definition\">The goal of moving a certain game element to another specified game element or place within the game space.</style>",
+            "Many games make goals of having specific game elements in specific places of the game world. <style=\"CurrentLink\">Deliver</style> goals are such goals but where a focus is placed on the moving of specific rather than general game elements.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Football\">Football</link></style> can be described as the task of delivering the ball into the other team's goal.",
+            "Capture the flag variants of first-person shooters such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style> have the goal of gaining access of the other team's flag and carrying it to one's own capture point.",
+            "The \"Fairgrounds\" level in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%202\">Left 4 Dead series</link></style> has an optional goal consisting of transporting a garden gnome to a rescue vehicle.",
+            "Many games, e.g., the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, that have vast game spaces and non-players character make use of <style=\"CurrentLink\">Deliver</style> quests. A side effect of performing these is that it makes players see more parts of the game worlds than they might otherwise do.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Deliver</style> requires something to deliver somewhere and that the player has means of moving that. The latter part of this typically implies that players have to engage in some form of <style=\"Link\"><link=\"movement\">Movement</link></style>.",
+            "<style=\"Link\"><link=\"game-items\">Game Items</link></style> in general suit as the things to be delivered. <style=\"Link\"><link=\"macguffins\">MacGuffins</link></style> can be used for <style=\"CurrentLink\">Deliver</style> goals that are intended to be more significant since these add a narration importance. <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> are an option if their movement is indirectly controlled by a player (i.e., a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Control\">Indirect Control</link></style>) - a natural option is that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">Non-Player Characters</link></style> follows players' <style=\"Link\"><link=\"avatars\">Avatars</link></style> (but <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> can work also). Players may automatically gain the thing to <style=\"CurrentLink\">Deliver</style> as the set-up of the goal, but the goal can be made more challenging by first requiring a <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goal to be fulfilled (e.g., through <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style> or <style=\"Link\"><link=\"trading\">Trading</link></style>).",
+            "The somewhere that the delivery should go can be anywhere,but design goals related to <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> can require motivations for why the thing should be delivered to the place. <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> that want to have the thing is a standard option. <style=\"Link\"><link=\"installations\">Installations</link></style> is another option when the things delivered are needed to use or activate the <style=\"Link\"><link=\"installations\">Installations</link></style>, e.g., delivering a certain magic gem to a circle of runes to activate them.",
+            "The place chosen as a delivery point for <style=\"CurrentLink\">Deliver</style> goals can be seen (or made into) a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Check%20Point\">Check Points</link></style>. Additionally, for games with <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> <style=\"CurrentLink\">Deliver</style> goals may need <style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style> goals to be part of the game state.",
+            "<style=\"CurrentLink\">Deliver</style> differs from <style=\"Link\"><link=\"collections\">Collections</link></style> in that the focus is on specific game elements that needs to be moved to specific places. <style=\"Link\"><link=\"collections\">Collections</link></style> in contrast focus upon having game elements together, and there might be many different game elements that can take a place in the collection.",
+            "The difficulty of <style=\"CurrentLink\">Deliver</style> goals can be modified by requiring <style=\"Link\"><link=\"evade\">Evade</link></style> or <style=\"Link\"><link=\"overcome\">Overcome</link></style> subgoals to be dealt with. An archetypical example is bandit or pirates that try to steal what is to be delivered as it is being moved.",
+            "<style=\"Link\"><link=\"capture\">Capture</link></style> can be used to make is possible to remove the thing to be delivered from a player's control, and this in turn creates a <style=\"Link\"><link=\"guard\">Guard</link></style> goal for players.",
+            "Having <style=\"Link\"><link=\"check-points\">Check Points</link></style> (besides the delivery point) allows games to show players their progress in <style=\"CurrentLink\">Deliver</style> goals and possibly more advanced starting positions after failed attempts to <style=\"CurrentLink\">Deliver</style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Deliver</style> goals can quite easily be constructed to drive narration in that succeeding with such a goal implies clear actions having been performed by the player, and that the story arcs for various <style=\"Link\"><link=\"characters\">Characters</link></style> can be updated depending on this. While <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> can be built from the pattern, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> can also provide information and motivation for the pattern.",
+            "<style=\"H2\">Consequences</style>",
+            "By their structure, <style=\"CurrentLink\">Deliver</style> goals provide games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Goal%20Points\">Goal Points</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals, and a basis for <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> or <style=\"Link\"><link=\"quests\">Quests</link></style>. Depending on how <style=\"Link\"><link=\"movement\">Movement</link></style> is made possible of what is to be delivered, <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> may be a consequence of <style=\"CurrentLink\">Deliver</style>. <style=\"CurrentLink\">Deliver</style> goals where active opposition exists (typically in the form of <style=\"Link\"><link=\"evade\">Evade</link></style> or <style=\"Link\"><link=\"overcome\">Overcome</link></style> goals), give players <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals. Those <style=\"CurrentLink\">Deliver</style> goals that depend on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Control\">Indirect Control</link></style> for <style=\"Link\"><link=\"movement\">Movement</link></style> can create <style=\"Link\"><link=\"herd\">Herd</link></style> goals - moving a group of animals from one spot to another is an example of such a <style=\"CurrentLink\">Deliver</style> goal.",
+            "The combination of <style=\"CurrentLink\">Deliver</style> and <style=\"Link\"><link=\"guard\">Guard</link></style> goals create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guide%20and%20Protect\">Guide and Protect</link></style> goals when what is to be delivered has some semblance of agency (e.g., by being <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style>).",
+            "<style=\"CurrentLink\">Deliver</style> goals making use of <style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style> typically have <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style> as a consequence (unless the artifact is moved by a player without the player moving).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Goal%20Points\">Goal Points</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style></style>",
+            "<style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"guard\">Guard</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guide%20and%20Protect\">Guide and Protect</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Control\">Indirect Control</link></style></style>",
+            "<style=\"Link\"><link=\"herd\">Herd</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"macguffins\">MacGuffins</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "aim-shoot",
+            "goal-points",
+            "narration-structures",
+            "quests",
+            "stealth",
+            "traverse",
+            "player-location-proximity",
+            "guide-protect",
+            "herd"
+        ],
+        "modulates" : [
+            "artifact-location-proximity",
+            "trading"
+        ],
+        "instantiated_by" : [
+            "check-points",
+            "gain-ownership",
+            "game-items",
+            "installations",
+            "macguffins",
+            "movement",
+            "non-player-characters"
+        ],
+        "modulated_by" : [
+            "capture",
+            "evade",
+            "narration-structures",
+            "overcome",
+            "pick-ups"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

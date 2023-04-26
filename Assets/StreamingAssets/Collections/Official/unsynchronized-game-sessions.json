@@ -1,0 +1,67 @@
+{
+    "name" : "Unsynchronized Game Sessions",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : null,
+        "markups" : [
+            "''Gameplay where the beginning and end of different players' game sessions are not aligned.''",
+            "Some games have players start or stop playing at noticeably different points in time. Those that do have <style=\"CurrentLink\">Unsynchronized Game Sessions</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "Games where players are eliminated but the games as a whole have short rounds, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coup\">Coup</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style>, are weak examples of <style=\"CurrentLink\">Unsynchronized Game Sessions</style>. However, the meta game of winning money in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Gambling%20Games\">Gambling Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> provide strong examples of this. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Vampire:%20The%20Masquerade\">Vampire: The Masquerade</link></style> often have <style=\"CurrentLink\">Unsynchronized Game Sessions</style> since players tend to come and go in campaign in these games. Similarly, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> have some players beginning to play the game long after others have stopped playing. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Unsynchronized Game Sessions</style> is not so much something that is typically design for as something that is an effect of other design decisions related to when players can begin or end their game sessions. This means that <style=\"CurrentLink\">Unsynchronized Game Sessions</style> can emerge from the presence of ",
+            "<style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>, <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable Game Sessions</link></style>, <style=\"Link\"><link=\"negotiable-play-sessions\">Negotiable Play Sessions</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style>, and <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>. All these patterns imply <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> but this pattern does not in itself cause <style=\"CurrentLink\">Unsynchronized Game Sessions</style>. <style=\"Link\"><link=\"game-over\">Game Over</link></style> is a special case since it can exists without other players, so the pattern needs to work explicitly in a <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Game</link></style> to be able to cause <style=\"CurrentLink\">Unsynchronized Game Sessions</style>. <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> and <style=\"Link\"><link=\"game-servers\">Game Servers</link></style> provide support that can allow <style=\"CurrentLink\">Unsynchronized Game Sessions</style> to exist without breaking gameplay for players. ",
+            "Both <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style> and <style=\"CurrentLink\">Unsynchronized Game Sessions</style> have to do with how synchronized players game sessions are but are independent of each other; this since players can have <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style> but still start and end their game sessions at the same time. Correspondence <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> is an example of this with the minor exception of when players become aware of the final move.",
+            "<style=\"H2\">Consequences</style>",
+            "The primary effect of <style=\"CurrentLink\">Unsynchronized Game Sessions</style> is making it difficult for player to feel <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>. <style=\"Link\"><link=\"downtime\">Downtime</link></style> can occur to players when <style=\"CurrentLink\">Unsynchronized Game Sessions</style> is part of a game that is used multiple times to create <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> and players need to wait for other players to end their ongoing game sessions.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"meta-games\">Meta Games</link></style></style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>, <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable Game Sessions</link></style>, <style=\"Link\"><link=\"negotiable-play-sessions\">Negotiable Play Sessions</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style>, <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>",
+            "<style=\"Link\"><link=\"game-over\">Game Over</link></style> together with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"togetherness\">Togetherness</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "downtime"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "dedicated-game-facilitators",
+            "drop-in-drop-out",
+            "early-leaving-players",
+            "game-servers",
+            "late-arriving-players",
+            "negotiable-game-sessions",
+            "negotiable-play-sessions",
+            "player-elimination",
+            "possibility-graceful-surrender",
+            "surrendering",
+            "game-over"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "togetherness"
+        ]
+    }
+}

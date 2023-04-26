@@ -1,0 +1,91 @@
+{
+    "name" : "Reconnaissance",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Goal Patterns"
+    ],
+    "texts" : {
+        "definition" : "Patrolling game world areas to detect changes.",
+        "markups" : [
+            "<style=\"Definition\">Patrolling game world areas to detect changes.</style>",
+            "The actions in games can quite naturally change the locations of game elements or the status of the gameplay environment. Having information about the current state is typically advantageous to players, so if players do not have this directly from the game, they may set up <style=\"CurrentLink\">Reconnaissance</style> goals for themselves to acquire this. <style=\"CurrentLink\">Reconnaissance</style> goals can also be set up by the game or game masters so they are explicit goals that need to be completed for the gameplay to progress.",
+            "<style=\"H3\">Examples</style>",
+            "Typical examples of the pattern can be found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Strategy%20Games\">Strategy Games</link></style> where the units have information only about the other units near them. For instance, in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> player are required to continue moving their units within already explored areas since the movement of enemy units are not detected unless they are near a unit or a city. In the board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style>, the player playing space marines always knows the presences and location of the enemy \"genestealers\" but not their exact number. This makes <style=\"CurrentLink\">Reconnaissance</style> missions necessary to find where enemy buildups are taking place. Other examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Strategy%20Games\">Strategy Games</link></style> which require <style=\"CurrentLink\">Reconnaissance</style> missions due to one reason or another include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advanced%20Squad%20Leader\">Advanced Squad Leader</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advance%20Wars%20series\">Advance Wars series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts%20of%20Iron%20series\">Hearts of Iron series</link></style>.",
+            "Performing <style=\"CurrentLink\">Reconnaissance</style>-based missions can be vital for winning <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Real-Time%20Strategy%20Games\">Real-Time Strategy Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients%20series\">Defense of the Ancients series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Starcraft%20series\">Starcraft series</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> and other games with similar gameplay that take place in open environments, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Far%20Cry%20series\">Far Cry series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20War%20II%20Online\">World War II Online</link></style>, do not require players to engage in <style=\"CurrentLink\">Reconnaissance</style> goals, but doing so can provide tactical advantages.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The possible reasons for <style=\"CurrentLink\">Reconnaissance</style> goals are many: locating <style=\"Link\"><link=\"enemies\">Enemies</link></style>, finding <style=\"Link\"><link=\"resources\">Resources</link></style> that would otherwise be <style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style>, <style=\"Link\"><link=\"guard\">Guarding</link></style> or maintaining <style=\"Link\"><link=\"area-control\">Area Control</link></style> over areas too large to watch from one position. However, there are two main ways of creating <style=\"CurrentLink\">Reconnaissance</style> goals that are solvable. One is to have <style=\"Link\"><link=\"enemies\">Enemies</link></style> for which players have an <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> regarding their location due to some circumstance. The other is to have a general <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>. The <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> may actually be the cause of the <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> but can on its own create solvable <style=\"CurrentLink\">Reconnaissance</style> goals - they are solved when all needed areas are observed. <style=\"Link\"><link=\"traces\">Traces</link></style> offers a third possibility for <style=\"CurrentLink\">Reconnaissance</style> goals - it may be enough to find these but since they normally are less noticeable than <style=\"Link\"><link=\"enemies\">Enemies</link></style> they may not need to have gameplay mechanics to hid them (they can also be used to make it easier to notice the presence of <style=\"Link\"><link=\"enemies\">Enemies</link></style>). In many cases it makes sense that the <style=\"Link\"><link=\"enemies\">Enemies</link></style> have <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals (not caring about detection being the main counter reason), and when this occurs the <style=\"CurrentLink\">Reconnaissance</style> and <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals become <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>.",
+            "Adding specifics to <style=\"CurrentLink\">Reconnaissance</style> goals consists of defining the area that has to be searched, deciding how the <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> works if it exists, placing the <style=\"Link\"><link=\"enemies\">Enemies</link></style> (if any), and deciding on the means for players to observe the environment. <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style> can make <style=\"CurrentLink\">Reconnaissance</style> goals more difficult since players or <style=\"Link\"><link=\"agents\">Agents</link></style> need to be aware of these and check these as part of searching for changes in areas. <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals are quite often used to limit the area that needs be traveled but still require players to have large areas to watch. <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> is the typical way of being able to detect changes but <style=\"Link\"><link=\"alarms\">Alarms</link></style> can provide additional means. The pattern can support <style=\"Link\"><link=\"scouting\">Scouting</link></style> if players can be <style=\"Link\"><link=\"stealth\">Stealthy</link></style> while performing <style=\"CurrentLink\">Reconnaissance</style>.",
+            "<style=\"CurrentLink\">Reconnaissance</style> differs from <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration differs</link></style> in that the places, areas, and area boundaries may all already be known but the players need to notice differences in the environment from what they know. This makes <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> a possible supporting activity for succeeding with <style=\"CurrentLink\">Reconnaissance</style> goals.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Since <style=\"CurrentLink\">Reconnaissance</style> goals build upon players not having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, games that wish to have these goals may need to consider which presentations of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> they use. For example, ",
+            "<style=\"Link\"><link=\"god-views\">God Views</link></style> do not work well with <style=\"CurrentLink\">Reconnaissance</style> unless tempered by <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>. <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> can help in <style=\"CurrentLink\">Reconnaissance</style> tasks but can also make them trivial.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Players' <style=\"CurrentLink\">Reconnaissance</style> goals can be woven into <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> as ways of letting players be introduced to threats. Those of their <style=\"Link\"><link=\"enemies\">Enemies</link></style> are typically part of specific scenes or <style=\"Link\"><link=\"levels\">Levels</link></style> but do not advance the narration.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Reconnaissance</style> goals are special cases of <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals in that they rely on <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> regarding the locations or existences of <style=\"Link\"><link=\"enemies\">Enemies</link></style>. If there actually are people trying to avoid detection, i.e. <style=\"Link\"><link=\"agents\">Agents</link></style> with <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals, the <style=\"CurrentLink\">Reconnaissance</style> goals modulate the <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals and are <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>. These goals are also <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style> as they should be performed as long as there is a reasonable risk that there are still <style=\"Link\"><link=\"enemies\">Enemies</link></style> within in a given gameplay area. While having <style=\"CurrentLink\">Reconnaissance</style> goals can make players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> of finding <style=\"Link\"><link=\"enemies\">Enemies</link></style>, actually finding them may still give them <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> since the actual situation and time may be unexpected.",
+            "<style=\"CurrentLink\">Reconnaissance</style> can give rise to both <style=\"Link\"><link=\"strategic-planning\">Strategic</link></style> and <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>. <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style> since players need to plan how to conduct patrols without knowing the specifics of the situation or need to plan how to avoid others' <style=\"CurrentLink\">Reconnaissance</style> goals, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> since getting information through successes with <style=\"CurrentLink\">Reconnaissance</style> goals make players need to reconsider what they should do.",
+            "The <style=\"CurrentLink\">Reconnaissance</style> goals of <style=\"Link\"><link=\"enemies\">Enemies</link></style> that are performed through static <style=\"Link\"><link=\"movement\">Movement</link></style> patterns can require players to perform <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style> to avoid detection.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"enemies\">Enemies</link></style></style>",
+            "<style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"stealth\">Stealth</link></style></style>",
+            "<style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"scouting\">Scouting</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"traces\">Traces</link></style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style> together with <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"alarms\">Alarms</link></style>, <style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style>, <style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style>, <style=\"Link\"><link=\"traces\">Traces</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"god-views\">God Views</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "continuous-goals",
+            "gain-information",
+            "memorizing",
+            "predetermined-story-structures",
+            "preventing-goals",
+            "strategic-planning",
+            "surprises",
+            "tactical-planning",
+            "rhythm-based-actions",
+            "excluding-goals",
+            "scouting"
+        ],
+        "modulates" : [
+            "stealth"
+        ],
+        "instantiated_by" : [
+            "fog-war",
+            "guard",
+            "traces",
+            "enemies"
+        ],
+        "modulated_by" : [
+            "alarms",
+            "area-control",
+            "environmental-effects",
+            "flanking-routes",
+            "hiding-places",
+            "game-state-overviews",
+            "line-sight",
+            "secret-resources",
+            "traces",
+            "traverse"
+        ],
+        "conflicts" : [
+            "game-state-overviews",
+            "god-views"
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "name" : "Picture-in-Picture Views",
+    "categories" : [
+        "To be Published",
+        "Patterns",
+        "Needs revision",
+        "Interface Patterns|Interface Pattern",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Games which make use of presentations inside other presentations.",
+        "markups" : [
+            "<style=\"Definition\">Games which make use of presentations inside other presentations.</style>",
+            "Computer games typically make use of a screen to provide most of the information needed for players to interact with the game system, and typically try to provide a continuous presentation of the game environment on this screen. However, sometimes not all information can be presented while making individual aspects understandable. <style=\"CurrentLink\">Picture-in-Picture Views</style> is a way of solving this, hiding part of the main presentation in order to be able to show some aspect otherwise unavailable. This may be an overview in a game where the main view is typically focused on a small part of the game environment or a close-up in a game where the main view provides an overview.",
+            "<style=\"H3\">Examples</style>",
+            "The views of wingmen are shown as <style=\"CurrentLink\">Picture-in-Picture Views</style> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Fox%20series\">Star Fox series</link></style>. Players of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transport%20Tycoon%20series\">Transport Tycoon series</link></style> of business management games (including <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/openTTD\">openTTD</link></style>) can open and customizes <style=\"CurrentLink\">Picture-in-Picture Views</style> to be informed about specific parts of the game while moving the main view to where they wish to interact with the system.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">FPS</link></style> game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/XIII\">XIII</link></style> makes use of <style=\"CurrentLink\">Picture-in-Picture Views</style> to highlight certain events, such as specific kills or the initial moves in ambushes. Several other games in the genre, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Deus%20Ex%20series\">Deus Ex series</link></style>, let players place cameras in the game environment that can then be viewed. Although they sometimes take up all of the screen space instead of just limited parts, sticky cameras in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Splinter%20Cell%20series\">Splinter Cell series</link></style> are examples of <style=\"CurrentLink\">Picture-in-Picture Views</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/System%20Shock\">System Shock</link></style> uses <style=\"CurrentLink\">Picture-in-Picture Views</style> to provide the input from hardware implants that record what is behind the player character or those that provide 360 views.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main design choices regarding <style=\"CurrentLink\">Picture-in-Picture Views</style> is what information they should provide, where the views should be within the larger view, what sizes they  should be, and if players should be able to modify their sizes and positions. <style=\"Link\"><link=\"mini\">Mini-maps</link></style> are typical examples of <style=\"CurrentLink\">Picture-in-Picture Views</style>.",
+            "An option for <style=\"CurrentLink\">Picture-in-Picture Views</style> is to make it possible for players to change the views. This can either be by toggling through different views, which may be from changing <style=\"Link\"><link=\"vision-modes\">Vision Modes</link></style> or from changing locations viewed, or be by making the views controllable by <style=\"Link\"><link=\"cameras\">Cameras</link></style>. ",
+            "One reason for using <style=\"CurrentLink\">Picture-in-Picture Views</style> is to create <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style> on the fly during gameplay. An example of this is <style=\"Link\"><link=\"killcams\">Killcams</link></style> that do not take over the entire game presentation but just a small portion of it. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "While it may seem that <style=\"CurrentLink\">Picture-in-Picture Views</style> might challenge the <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> of a game, this can easily be avoided by introducing diegetic elements that can provide images from afar.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Picture-in-Picture Views</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. Alternatives to it include <style=\"Link\"><link=\"auxiliary-game-screens\">Auxiliary Game Screens</link></style> and <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Picture-in-Picture Views</style> are a form of <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style>. They typically create <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style> (conceivably, it would instead be <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> if they are used to form <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style> of diegetic entities that can look at several independent things at once). ",
+            "<style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> can be supported by <style=\"CurrentLink\">Picture-in-Picture Views</style> by either local or global view, where <style=\"Link\"><link=\"mini\">Mini-maps</link></style> is a typical example. When the information presented is abstract, the pattern can be seen as providing <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> although it may also be interpreted as abstract diegetic information.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style>, <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"killcams\">Killcams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"mini\">Mini-maps</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"cameras\">Cameras</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-state-indicators",
+            "game-state-overviews",
+            "point-interest-indicators",
+            "split-screen-views",
+            "third-person-views"
+        ],
+        "modulates" : [
+            "killcams"
+        ],
+        "instantiated_by" : [
+            "mini"
+        ],
+        "modulated_by" : [
+            "cameras"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name" : "Pay to Play",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Games that require players to pay in some for to play.",
+        "markups" : [
+            "<style=\"Definition\">Games that require players to pay in some for to play.</style>",
+            "People need to have access to games to be able to play them. All games that have to be bought are in a sense <style=\"CurrentLink\">Pay to Play</style>, but this pattern specifically looks at game design that require players to pay to play the game rather than own it. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Gambling%20Games\">Gambling Games</link></style> are archetypal examples of games requiring people to pay to play them. Examples include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blackjack\">Blackjack</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pinball%20Games\">Pinball Games</link></style> and later <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Kong\">Donkey Kong</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> later mechanized this.",
+            "Some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, require players to pay monthly subscription fees to continue playing. Others, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Farmville\">Farmville</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Candy%20Crush%20Saga\">Candy Crush Saga</link></style>, don't require players to pay to play directly but does it indirectly by letting them by upgrades and power-ups.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The easiest solution to designing <style=\"CurrentLink\">Pay to Play</style> is of course to demand payment of players. This can either be in a fee to be allowed to start playing, extra costs during gameplay, or a combination. An alternative is <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style>, where players in advance need to acquire game elements by paying for them.",
+            "<style=\"CurrentLink\">Pay to Play</style> can be applied to allow players to get <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style> and well as provide extra <style=\"Link\"><link=\"lives\">Lives</link></style> so that gameplay can continue even if a <style=\"Link\"><link=\"game-over\">Game Over</link></style> event actually took place. Allowing players to pay for <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style> and <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> are indirect ways of creating <style=\"CurrentLink\">Pay to Play</style> as players can get stuck and in effect not be able to progress unless they engage in <style=\"CurrentLink\">Pay to Play</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Pay to Play</style> provides <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style> and is the basic mechanism used to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gambling\">Gambling</link></style>. It can be required to have funds to support <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gambling\">Gambling</link></style>, <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style>, <style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style>, Money",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "dedicated-game-facilitators",
+            "gambling",
+            "purchasable-game-advantages"
+        ],
+        "modulates" : [
+            "expansions",
+            "game-over",
+            "lives",
+            "pick-ups",
+            "upgrades"
+        ],
+        "instantiated_by" : [
+            "heterogeneous-game-element-ownership",
+            ""
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

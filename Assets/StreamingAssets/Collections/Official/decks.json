@@ -1,0 +1,67 @@
+{
+    "name" : "Decks",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Card Patterns",
+        "Mechanical Patterns",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Sets of cards used as a unit in a game.",
+        "markups" : [
+            "<style=\"Definition\">Sets of cards used as a unit in a game.</style>",
+            "Cards are found in many games. <style=\"CurrentLink\">Decks</style> are in many games simply the collection of all cards while in some other games different <style=\"CurrentLink\">Decks</style> exists for different functions or each player have their own <style=\"CurrentLink\">Decks</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "All traditional <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Whist\">Whist</link></style>, makes use of <style=\"CurrentLink\">Decks</style>. In all these cases they use the same set of 52 cards, while games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bang!\">Bang!</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fluxx\">Fluxx</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Frank's%20Zoo\">Frank's Zoo</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Munchkin\">Munchkin</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/No%20Thanks!\">No Thanks!</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Great%20Dalmuti\">The Great Dalmuti</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uno\">Uno</link></style> make use of <style=\"CurrentLink\">Decks</style> customized for those games. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Collectible%20Card%20Games\">Collectible Card Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearthstone:%20Heroes%20of%20Warcraft\">Hearthstone: Heroes of Warcraft</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pok%C3%A9mon%20Trading%20Card%20Game\">Pokémon Trading Card Game</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Trek%20Customizable%20Card%20Game\">Star Trek Customizable Card Game</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illuminati:%20New%20World%20Order\">Illuminati: New World Order</link></style> also make use of <style=\"CurrentLink\">Decks</style>, but in this case each player creates (or is assigned) his or her own <style=\"CurrentLink\">Deck</style> to play with. Deck Building games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Legendary:%20A%20Marvel%20Deck%20Building%20Game\">Legendary: A Marvel Deck Building Game</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Lord%20of%20the%20Rings:%20The%20Fellowship%20of%20the%20Ring%20Deck-Building%20Game\">The Lord of the Rings: The Fellowship of the Ring Deck-Building Game</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style> function in the same way, but here players expand their <style=\"CurrentLink\">Decks</style> during gameplay.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The design of how <style=\"CurrentLink\">Decks</style> are used in games rely primarily on deciding which <style=\"Link\"><link=\"cards\">Cards</link></style> can be used. A secondary choice is how many <style=\"CurrentLink\">Decks</style> should be used, e.g. should each player have their own <style=\"CurrentLink\">Decks</style>? <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style> allow players to construct the <style=\"CurrentLink\">Decks</style> used and is very often used when players have their own <style=\"CurrentLink\">Decks</style>. The use of these patterns in <style=\"Link\"><link=\"collectible-card-games\">Collectible Card Games</link></style> make <style=\"CurrentLink\">Decks</style> a common occurrence in this type of games. ",
+            "Each <style=\"CurrentLink\">Deck</style> in a game can be design as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Faucet/Drain\">Faucet/Drain</link></style> systems, with <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> as the primary way to design the latter choice. The most common use of <style=\"CurrentLink\">Decks</style> is as <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, often to let players create <style=\"Link\"><link=\"hands\">Hands</link></style>. This can be modified by <style=\"Link\"><link=\"drafting-spreads\">Drafting Spreads</link></style> that let players choose which <style=\"Link\"><link=\"cards\">Card</link></style> from a limited set they wish to take. <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style> are typically used whenever the number of <style=\"Link\"><link=\"cards\">Cards</link></style> in <style=\"CurrentLink\">Decks</style> are not sufficient for the intended gameplay time or when re-use of <style=\"Link\"><link=\"cards\">Cards</link></style> for new <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> are intended; this creates true <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style> if no new <style=\"Link\"><link=\"cards\">Cards</link></style> are introduced and lets new <style=\"Link\"><link=\"cards\">Cards</link></style> be randomized with the old ones when <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> is used (since new <style=\"Link\"><link=\"cards\">Cards</link></style> are typically placed in <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style>). ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Decks</style> in an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Decks</style> provide <style=\"Link\"><link=\"randomness\">Randomness</link></style> for games using <style=\"Link\"><link=\"cards\">Cards</link></style>. Keeping track of which <style=\"Link\"><link=\"cards\">Cards</link></style> are left in <style=\"CurrentLink\">Decks</style> often provide gameplay advantage and because of this the presence of <style=\"CurrentLink\">Decks</style> encourage <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>. It can also provide <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> either when players know which <style=\"Link\"><link=\"cards\">Cards</link></style> are in <style=\"CurrentLink\">Decks</style> or when they can create them through <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"collectible-card-games\">Collectible Card Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cards\">Cards</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style>, <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>, <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style>, <style=\"Link\"><link=\"drafting-spreads\">Drafting Spreads</link></style>, <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Faucet/Drain\">Faucet/Drain</link></style>, <style=\"Link\"><link=\"hands\">Hands</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "memorizing",
+            "randomness",
+            "strategic-knowledge"
+        ],
+        "modulates" : [
+            "collectible-card-games"
+        ],
+        "instantiated_by" : [
+            "cards"
+        ],
+        "modulated_by" : [
+            "closed-economies",
+            "deck-building",
+            "discard-piles",
+            "drafting-spreads",
+            "drawing-stacks",
+            "faucet-drain",
+            "hands",
+            "pre-customized-decks"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

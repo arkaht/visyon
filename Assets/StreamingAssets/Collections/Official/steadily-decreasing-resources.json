@@ -1,0 +1,65 @@
+{
+    "name" : "Steadily Decreasing Resources",
+    "categories" : [
+        "Patterns",
+        "Resource Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        " To be Published"
+    ],
+    "texts" : {
+        "definition" : "The inescapable depletion of a resource as gameplay progresses.",
+        "markups" : [
+            "<style=\"Definition\">The inescapable depletion of a resource as gameplay progresses.</style>",
+            "Handling limited resources is a problem many games pose to players, but at the same time most do give players possibilities of increasing these resources in some ways. Games that do not do this - and were players do need to use the resources or the game system depletes them automatically - have <style=\"CurrentLink\">Steadily Decreasing Resources</style>.",
+            "<style=\"H3\">Examples</style>",
+            "In both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stratego\">Stratego</link></style> players have a limited number of pieces they can make use of, and these are slowly but surely used up as gameplay progresses. While there are a limited number of stones in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>, the positions to place these in are the actual <style=\"CurrentLink\">Steadily Decreasing Resources</style>.",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hey!%20That's%20My%20Fish!\">Hey! That's My Fish!</link></style>, the gameplay area is slowly reduced as players take pieces of it as part of their turns. The gameplay area in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Forbidden%20Island\">Forbidden Island</link></style> also shrinks but here as an effect of passing time and players have a possibility of slowing this.",
+            "The victory points in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style> and the provinces in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> show how resources that determine who wins a game can also be <style=\"CurrentLink\">Steadily Decreasing Resources</style> that decides when the games end. Survival games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/This%20War%20of%20Mine\">This War of Mine</link></style> (both the computer game and the board game) often make use of <style=\"CurrentLink\">Steadily Decreasing Resources</style> to create a tension and force the games into one form of resolution or other; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Valheim\">Valheim</link></style> show that this is not the case for all survival games.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Steadily Decreasing Resources</style> is, quite obviously, a way of restricting <style=\"Link\"><link=\"resources\">Resources</link></style> during game instances. This depends on two factors. First, that the game system does not allow ways of introducing new <style=\"Link\"><link=\"resources\">Resources</link></style> during games, so e.g., <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> and <style=\"Link\"><link=\"spawning\">Spawning</link></style> can remove the presence of the pattern from a game (<style=\"Link\"><link=\"converters\">Converters</link></style> may work as long as the material being converted is a <style=\"CurrentLink\">Steadily Decreasing Resources</style>). Second, players must have some need to use or consume the <style=\"Link\"><link=\"resources\">Resources</link></style>. This can be enforced by making it part of player actions (as in \"normal\" situations in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>) or by \"bribing\" players to do this by having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Victory%20Points\">Victory Points</link></style> as the  <style=\"Link\"><link=\"resources\">Resources</link></style> used. Some games have <style=\"CurrentLink\">Steadily Decreasing Resources</style> even if not all actions require use of <style=\"Link\"><link=\"resources\">Resources</link></style> if over time one can guarantee that they will be used up or the game will end. The typical way of doing this is through having some form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Repeats\">Limited Repeats</link></style>: in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> the ''Ko'' rule ensures this while the <i>threefold repetition</i> rule does so in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> (and some other strategy games).",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Steadily Decreasing Resources</style> can be a way to enforce <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style> in a game or be a way to modulate that pattern if it already exists. It can also lead to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Gameplay%20Time\">Limited Gameplay Time</link></style> since the consumption of the <style=\"Link\"><link=\"resources\">Resources</link></style> forces games to an end state at a speed equal to the decrease. <style=\"CurrentLink\">Steadily Decreasing Resources</style> affecting the specific <style=\"Link\"><link=\"resources\">Resources</link></style> needed for <style=\"Link\"><link=\"survive\">Survive</link></style> goals make games into <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>. <style=\"CurrentLink\">Steadily Decreasing Resources</style> can also give rise to <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> simply if the demand for the <style=\"Link\"><link=\"resources\">Resources</link></style> is unlimited.",
+            "The presence of the pattern is likely to make each use of an affected <style=\"Link\"><link=\"resources\">Resource</link></style> into an <style=\"Link\"><link=\"investments\">Investment</link></style> and create <style=\"Link\"><link=\"entrenching-gameplay\">Entrenching Gameplay</link></style> since options of using the <style=\"Link\"><link=\"resources\">Resources</link></style> also disappear as the <style=\"Link\"><link=\"resources\">Resources</link></style> do. As long as players can compete over the <style=\"Link\"><link=\"resources\">Resources</link></style>, the pattern is even more likely than <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style> to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"entrenching-gameplay\">Entrenching Gameplay</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Gameplay%20Time\">Limited Gameplay Time</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"survive\">Survive</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Victory%20Points\">Victory Points</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Repeats\">Limited Repeats</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "conflicts",
+            "entrenching-gameplay",
+            "investments",
+            "limited-gameplay-time",
+            "limited-resources",
+            "unwinnable-games"
+        ],
+        "modulates" : [
+            "limited-resources",
+            "resources",
+            "survive",
+            "victory-points"
+        ],
+        "instantiated_by" : [
+            "limited-repeats"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "resource-generators",
+            "spawning"
+        ]
+    }
+}

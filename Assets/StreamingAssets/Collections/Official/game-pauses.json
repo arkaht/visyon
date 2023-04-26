@@ -1,0 +1,93 @@
+{
+    "name" : "Game Pauses",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The suspense of progress of game time.",
+        "markups" : [
+            "<style=\"Definition\">The suspense of progress of game time.</style>",
+            "Games typically progress through a series of gameplay events, and in many games these events progress automatically. <style=\"CurrentLink\">Game Pauses</style> are intentional breaks in this flow of progress of gameplay events. ",
+            "<style=\"H3\">Examples</style>",
+            "Turn-based games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ghost%20Stories\">Ghost Stories</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lords%20of%20Waterdeep\">Lords of Waterdeep</link></style> easily support <style=\"CurrentLink\">Game Pauses</style> since players need to update the game state manually and effectively can cause <style=\"CurrentLink\">Game Pauses</style> simply by not doing this. Similarly, game masters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ars%20Magica\">Ars Magica</link></style> can interrupt gameplay from progressing whenever they wish (players can't necessarily do this since the game masters can decide what player characters do if their players don't themselves say what their characters do).",
+            "Several <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Basketball\">Basketball</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Volleyball\">Volleyball</link></style> allow for players or coaches to call out \"Time-Outs\" which effectively start <style=\"CurrentLink\">Game Pauses</style>. ",
+            "Most single-player <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> support <style=\"CurrentLink\">Game Pauses</style>. Some examples include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Arcanum:%20Of%20Steamworks%20and%20Magick%20Obscura\">Arcanum: Of Steamworks and Magick Obscura</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Batman:%20Arkham%20Asylum\">Batman: Arkham Asylum</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spec%20Ops:%20The%20Line\">Spec Ops: The Line</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Witcher%20series\">Witcher series</link></style>. ",
+            "<style=\"H4\">Anti-Examples</style>",
+            "Physical <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pinball%20Games\">Pinball Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Trek:%20The%20Next%20Generation\">Star Trek: The Next Generation</link></style> don't allow <style=\"CurrentLink\">Game Pauses</style> simply because they make use of physical balls being affected by gravity. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Centipede\">Centipede</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Frogger\">Frogger</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Kong%20series\">Donkey Kong series</link></style>, don't allow <style=\"CurrentLink\">Game Pauses</style> due to wanting players to minimize their time at the machine for economic reasons; the computer-based version of these games do typically allow <style=\"CurrentLink\">Game Pauses</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Game Pauses</style> are introduced in games to interrupt the otherwise progress of game events occurring. This means that <style=\"CurrentLink\">Game Pauses</style> are typically introduced into games where this would automatically occur otherwise, i.e. <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> and <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>. It can also be used to let players create their own natural break points in <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>. ",
+            "While <style=\"CurrentLink\">Game Pauses</style> in their most basic form simply is the halting of updates to a game state, some other patterns cause it. <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> stops the game state from being updated while showing information to players while <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style> not only stops updates to game states but replace the current game state with another. <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> are often more easy to introduce <style=\"CurrentLink\">Game Pauses</style> in since it can be very clear between which turns a pause is done (and all players that did not have a turn just before the pause were likely to have some form of <style=\"Link\"><link=\"downtime\">Downtime</link></style> already). One way of modulating <style=\"CurrentLink\">Game Pauses</style> is to limit how long they can be, that is, connect <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> to them. Another, very common, option is to make it possible to save the current game state during a pause in <style=\"Link\"><link=\"save-files\">Save Files</link></style>; this allows for extensive pauses since the game can be turned off or set down while still making it possible to recreate the game state at a later point in time.",
+            "Entering <style=\"Link\"><link=\"inventories\">Inventories</link></style> often cause games to pause regarding everything but the actual manipulation of <style=\"Link\"><link=\"game-items\">Game Items</link></style> in the <style=\"Link\"><link=\"inventories\">Inventories</link></style>. This is basically a <style=\"CurrentLink\">Game Pause</style> applied to most of the game state, so the pattern can be seen as a way to modify how <style=\"Link\"><link=\"inventories\">Inventories</link></style> work. ",
+            "The examples of <style=\"Link\"><link=\"save-files\">Save Files</link></style> and <style=\"Link\"><link=\"inventories\">Inventories</link></style> causing <style=\"CurrentLink\">Game Pauses</style> show how <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> in general can cause <style=\"CurrentLink\">Game Pauses</style>. This is however a choice, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style> do not to this for example. ",
+            "<style=\"H3\">Interfaces Aspects</style>",
+            "<style=\"CurrentLink\">Game Pauses</style> work against <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> when they causes a game to enter <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Game Pauses</style> creates <style=\"Link\"><link=\"downtime\">Downtime</link></style> for players and provides time for them to engage in <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, e.g. by observing <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> without stress. This can provide <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style> but only strongly as long as it doesn't cause unwanted <style=\"Link\"><link=\"downtime\">Downtime</link></style> for other players; <style=\"CurrentLink\">Game Pauses</style> in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> creates <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>. The pattern also creates a simple (and weak) form of <style=\"Link\"><link=\"game-time-manipulation\">Game Time Manipulation</link></style>. ",
+            "When players themselves can trigger these <style=\"CurrentLink\">Game Pauses</style>, it provides them with <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> that give them the <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> when to play (especially so for <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>). This opens up for <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, <style=\"Link\"><link=\"negotiable-play-sessions\">Negotiable Play Sessions</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>, and <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>. <style=\"CurrentLink\">Game Pauses</style> can help players not feel stressed by having to choose between different game actions, so the pattern can help promote <style=\"Link\"><link=\"framed-freedom\">Framed Freedom</link></style>. Further, <style=\"CurrentLink\">Game Pauses</style> let players engage in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> if this is possible already and they wish to do so. ",
+            "<style=\"CurrentLink\">Game Pauses</style> work against several other patterns. Its purpose is to interrupt <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style> and since pauses may let players take their focus away from gameplay it also works against <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style>. From this perspective it also works against <style=\"Link\"><link=\"always-vulnerable\">Always Vulnerable</link></style> and <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> but this is only true in that it lets players interrupt their experience of the gameplay these patterns cause (as they may have to begin dealing with them against when gameplay begins again).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-time-manipulation\">Game Time Manipulation</link></style>, <style=\"Link\"><link=\"negotiable-play-sessions\">Negotiable Play Sessions</link></style>, <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style></style>",
+            "<style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"framed-freedom\">Framed Freedom</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"save-files\">Save Files</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"always-vulnerable\">Always Vulnerable</link></style>, <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> in games with <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "casual-gameplay",
+            "downtime",
+            "extra-game-actions",
+            "freedom-choice",
+            "game-time-manipulation",
+            "negotiable-play-sessions",
+            "interruptibility",
+            "social-adaptability",
+            "stimulated-planning",
+            "ubiquitous-gameplay",
+            "drop-in-drop-out",
+            "freedom-choice"
+        ],
+        "modulates" : [
+            "framed-freedom",
+            "game-state-overviews",
+            "inventories",
+            "real-time-games",
+            "social-interaction",
+            "tick-based-games",
+            "unwinnable-games"
+        ],
+        "instantiated_by" : [
+            "cutscenes",
+            "save-load-cycles",
+            "secondary-interface-screens"
+        ],
+        "modulated_by" : [
+            "save-files",
+            "time-limits",
+            "turn-based-games"
+        ],
+        "conflicts" : [
+            "always-vulnerable",
+            "attention-demanding-gameplay",
+            "tension",
+            "the-show-must-go-on",
+            "time-limits",
+            "diegetic-consistency"
+        ]
+    }
+}

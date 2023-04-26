@@ -1,0 +1,72 @@
+{
+    "name" : "Diegetic Communication",
+    "categories" : [
+        "Patterns",
+        "Diegetic Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : null,
+        "markups" : [
+            "''Player communicating within a game world's diegesis in a thematically appropriate way.''",
+            "Players of games often enact actions in game worlds as well as engage in conversations with other players or game entities. <style=\"CurrentLink\">Diegetic Communication</style> occurs when players take part of conversations as inhabitants of those game worlds and do so without referring to things that do not belong to the specific game worlds.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Storytelling%20System\">Storytelling System</link></style> encourages players to roleplay by speaking as their characters but this is difficult to do consistency since players and game masters need to discuss rules sometimes. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massive Multiplayer</link></style> versions such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> automate rules and most game masters' tasks but players may still need to talk to each other about rules and thereby cannot always use <style=\"CurrentLink\">Diegetic Communication</style>. Single-player <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer Roleplaying Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Arcanum:%20Of%20Steamworks%20and%20Magick%20Obscura\">Arcanum</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Witcher%20series\">Witcher series</link></style>, can avoid this through using dialogue systems where players.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "Most games allow players to engage in non-diegetic communication simply because they can say whatever they want either face-to-face or due to the fact that the communication channels provided to them allows this type of communication as well. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "The design goal of <style=\"CurrentLink\">Diegetic Communication</style> is often not to make it the only form of communication in a game but to encourage it to the best possible level and ensure that different types of communication do not interfere with each other. Per its definition, <style=\"CurrentLink\">Diegetic Communication</style> is not compatible with <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style> and designing for each is largely a case of minimizing the other of compartmentalizing them. Also given by its definition, <style=\"CurrentLink\">Diegetic Communication</style> is a way of affecting how players communicate through their <style=\"Link\"><link=\"characters\">Characters</link></style> (since some diegetic entity must be doing the actual communicating in the diegesis). This typically means that <style=\"CurrentLink\">Diegetic Communication</style> and <style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style> can be problematic to combine since players must handle shifts between the two types of communication to not break <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "<style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> can both provide a medium for players to engage in <style=\"CurrentLink\">Diegetic Communication</style>, and by providing several players can more easily police themselves to keep specific ones reserved for <style=\"CurrentLink\">Diegetic Communication</style>. <style=\"Link\"><link=\"dialogues\">Dialogues</link></style> is a special case of this where the game systems can ensure that all communication is diegetic.",
+            "Having <style=\"CurrentLink\">Diegetic Communication</style> is often seen as something that improves <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>. <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style> typically requires talking between players, and having this as <style=\"CurrentLink\">Diegetic Communication</style> is in contrast seen as one of the main features of the gaming style. For this type of gaming <style=\"Link\"><link=\"meta-techniques\">Meta-Techniques</link></style> such as <style=\"Link\"><link=\"meta-postures\">Meta-Postures</link></style>, <style=\"Link\"><link=\"prompting-techniques\">Prompting Techniques</link></style>, <style=\"Link\"><link=\"substitute-actions\">Substitute Actions</link></style> exist which provide extra <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> to players and can thereby keep normal conversation as <style=\"CurrentLink\">Diegetic Communication</style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Diegetic Communication</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Diegetic%20Patterns\">Diegetic Pattern</link></style> and designing for it is strongly related to designing for <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>. ",
+            "For games with <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"CurrentLink\">Diegetic Communication</style> may often mean ensuring <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/In%20Character%20Conversations\">In Character Conversations</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "While having <style=\"CurrentLink\">Diegetic Communication</style> helps having <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, it also helps having <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. <style=\"CurrentLink\">Diegetic Communication</style> can put a twist on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> but also limit it if players find doing the <style=\"CurrentLink\">Diegetic Communication</style> difficult or uncomfortable. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/In%20Character%20Conversations\">In Character Conversations</link></style> in games with <style=\"Link\"><link=\"characters\">Characters</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>",
+            "<style=\"Link\"><link=\"meta-techniques\">Meta-Techniques</link></style> in games with <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style>, <style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "diegetic-consistency",
+            "live-action-roleplaying",
+            "thematic-consistency"
+        ],
+        "modulates" : [
+            "characters",
+            "roleplaying",
+            "social-interaction"
+        ],
+        "instantiated_by" : [
+            "communication-channels",
+            "dialogues",
+            "in-character-conversations"
+        ],
+        "modulated_by" : [
+            "communication-channels",
+            "meta-techniques"
+        ],
+        "conflicts" : [
+            "non-diegetic-communication",
+            "reflective-communication",
+            "social-interaction"
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "name" : "Zero-Player Games",
+    "categories" : [
+        "Patterns",
+        "Player Patterns",
+        "Needs revision",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Games where humans have no direct choices during the gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Games where humans have no direct choices during the gameplay.</style>",
+            "Zero-Player Games<ref name=\"wiki\"/> are games where humans do not directly influence the game sessions. Instead they may have indirect influence, e.g. by creating the rules of how entities in the game should act, or be spectators.",
+            "''Note: this pattern, unlike most others, assume that players are humans - this is due to the pattern adopting the original name of the game type.''",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Programming%20Games\">Programming Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crobots\">Crobots</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/P-Robots\">P-Robots</link></style> are typical examples of <style=\"CurrentLink\">Zero-Player Games</style> since all player activity takes places before gameplay begins in programming the robots (an alternative view is that the games proper are the meta games of programming, but this still leaves the rules of how the robots can move as <style=\"CurrentLink\">Zero-Player Games</style>). RoboCup<ref name=\"robocup\"/> is a competitions within the robotics community consisting of several different types of <style=\"CurrentLink\">Zero-Player Games</style>, including both virtual agents and physical robots.",
+            "Seeing each puzzle as its own game, several puzzle games where players need to set up the game and then see it resolve can be seen as <style=\"CurrentLink\">Zero-Player Games</style>, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Incredible%20Machine%20game%20series\">Incredible Machine game series</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/4%20Minutes%20and%2033%20Seconds%20of%20Uniqueness\">4 Minutes and 33 Seconds of Uniqueness</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Progress%20Quest\">Progress Quest</link></style> are example of <style=\"CurrentLink\">Zero-Player Games</style> in that players cannot directly influence the gameplay except for, respectively, when they play or how long they play.",
+            "A weaker form yet of <style=\"CurrentLink\">Zero-Player Games</style> can be found in those that do not require actions from humans when the game is running but allows this at their pleasure. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conway's%20Game%20of%20Life\">Conway's Game of Life</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tower%20Defense%20Games\">Tower Defense Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Desktop%20Tower%20Defense\">Desktop Tower Defense</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Plants%20vs.%20Zombies\">Plants vs. Zombies</link></style> can be seen as examples of this.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Alert\">Space Alert</link></style> can also be seen as a <style=\"CurrentLink\">Zero-Player Game</style> in its second phase, since the only things player can do then is to update the game state according to their planned moves (with the exception of claiming to have made mistakes in placing cards and correcting them). <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Scorched%20Earth\">Scorched Earth</link></style> can be played against AI players, and the game continues playing if the human players' tanks are destroyed.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Having this pattern in a game is mostly a question of not introducing <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> during gameplay. However, one may wish to modulate the pattern to provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> or some <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> during the set-up phase so that these patterns exist at all in the game. This requires <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> and typically that the game supports some form of <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>. <style=\"Link\"><link=\"action-programming\">Action Programming</link></style> to perform <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> is one option for this purpose. Anther option is to allow the <style=\"Link\"><link=\"construction\">Construction</link></style> of <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> that are a form of <style=\"Link\"><link=\"ai-players\">AI Players</link></style> (as is done in for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/C-Robots\">C-Robots</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/P-Robots\">P-Robots</link></style>), but since all players are <style=\"Link\"><link=\"ai-players\">AI Players</link></style> it is feasible to ask how many decisions are actually made during gameplay. The setting up of an the initial game state (a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Constructed%20Worlds\">Player Constructed Worlds</link></style>, that may or may not be interfered with after it has been initiated, is a third possibility. A classic example of this is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conway's%20Game%20of%20Life\">Conway's Game of Life</link></style> but the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style> can be seen as an example of this which uses <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> (if one does not consider the issues that Sims do not  seek employment or purchasing things on their own). Unless the goal is to provide <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, it is typically required to have sufficiently complex relations within the rule set to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emergent%20Gameplay\">Emergent Gameplay</link></style> to achieve interesting choices in the set-up phase.",
+            "<style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style> may seem natural to <style=\"CurrentLink\">Zero-Player Games</style>, but does not have to. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Progress%20Quest\">Progress Quest</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/4%20Minutes%20and%2033%20Seconds%20of%20Uniqueness\">4 Minutes and 33 Seconds of Uniqueness</link></style> are examples of games where players do not have to perform any actions but it is nonetheless important if they (or other people) play. Each challenge in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ricochet%20Robots\">Ricochet Robots</link></style> is conducted without any player actions and proving the solution afterwards not so much influences the game state as randomizes it slightly for the next challenge.",
+            "By definition, <style=\"CurrentLink\">Zero-Player Games</style> need some form of <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>. However, besides the usual options of having <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> or computer-based facilitators it is also possible to have people playing a <style=\"Link\"><link=\"meta-games\">Meta Game</link></style> based on the game perform all necessary update to the game state.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Although <style=\"CurrentLink\">Zero-Player Games</style> do not need interfaces to provide input while they are progressing, they typically provide some form of output to allow <style=\"Link\"><link=\"spectators\">Spectators</link></style> and thereby enable <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Given that <style=\"CurrentLink\">Zero-Player Games</style> have no input from players during the game session, the gameplay development is easier to consider narrations than those of other games, even if they may be the results of algorithms.",
+            "<style=\"H2\">Consequences</style>",
+            "One may ask what the purpose is of having games in which players do not perform actions or can make choices since this removes all their <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>. One reason is that they provide the basis of <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> where players can engage in <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> or <style=\"Link\"><link=\"construction\">Construction</link></style>. An alternative view is that <style=\"CurrentLink\">Zero-Player Games</style> make use of <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style> where the players' skill lies in programming, setting up states, or creating rules which are then executed by <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> or <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>. However, unless <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> or computer-based facilitators are used, these games providing the <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> can be said to have replaced all the ''inner'' gameplay with <style=\"Link\"><link=\"excise\">Excise</link></style>.",
+            "<style=\"CurrentLink\">Zero-Player Games</style> based upon <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> requires players to have <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> to intentionally be able to create viable <style=\"Link\"><link=\"agents\">Agents</link></style>. Those supporting <style=\"Link\"><link=\"spectators\">Spectators</link></style> can encourage the development of this <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> since one can observe the behaviors of other players' constructs.",
+            "Quite naturally, those <style=\"CurrentLink\">Zero-Player Games</style> where one can program <style=\"Link\"><link=\"ai-players\">AI Players</link></style> result in <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> or <style=\"Link\"><link=\"spectators\">Spectators</link></style></style>",
+            "<style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style>, <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emergent%20Gameplay\">Emergent Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Constructed%20Worlds\">Player Constructed Worlds</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "enforced-agent-behavior",
+            "player-character-skill-composites",
+            "strategic-knowledge"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "ai-players",
+            "algorithmic-agents",
+            "dedicated-game-facilitators",
+            "extra-game-actions",
+            "no-direct-player-influence",
+            "strategic-planning"
+        ],
+        "modulated_by" : [
+            "action-programming"
+        ],
+        "conflicts" : [
+            "creative-control",
+            "exaggerated-perception-influence",
+            "freedom-choice",
+            "player-agency"
+        ]
+    }
+}

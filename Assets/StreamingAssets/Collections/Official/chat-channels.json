@@ -1,0 +1,104 @@
+{
+    "name" : "Chat Channels",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns",
+        "Platform Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "Platform Patterns",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Text-based message channels in games.",
+        "markups" : [
+            "<style=\"Definition\">Text-based message channels in games.</style>",
+            "Games have many was of receiving input from players are providing output of their actions and other game events. One of these ways is through text, and often the interaction provides through these take the form of conversations or dialogues. Games can have such <style=\"CurrentLink\">Chat Channels</style> as the only communication means with players, but most that make any use of them in multiplayer games offer several <style=\"CurrentLink\">Chat Channels</style> through the same interface to let players select specific groups as recipients for messages.",
+            "<style=\"H3\">Examples</style>",
+            "Early <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Adventure%20Games\">Adventure Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Colossal%20Cave%20Adventure\">Colossal Cave Adventure</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20series\">Zork series</link></style> used a single <style=\"CurrentLink\">Chat Channels</style> for players to give commands to the game system. Early <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/BatMUD\">BatMUD</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style>, continued this but provided different channels to only address players belong to the same in-game groups or that were nearby in the game worlds (the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Adventure%20Games\">Adventure Games</link></style> actually have two channels also, one to communicate with the game system and one to communicate with characters in the game world).",
+            "While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, and other later <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> introduced graphical interfaces, they still kept the <style=\"CurrentLink\">Chat Channels</style> for providing both ways of communicating with other players and giving commands to the game system.",
+            "<style=\"CurrentLink\">Chat Channels</style> are also found in several computer applications with game-like qualities. Examples include the psychologist simulator <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ELIZA\">ELIZA</link></style> and the interactive drama <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fa%C3%A7ade\">Façade</link></style>, the later which allows text input while the gameplay continues. ",
+            "<style=\"H4\">Anti-Examples</style>",
+            "While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Angband\">Angband</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tic-Tac-Toe\">Tic-Tac-Toe</link></style> implementation ''OXO'' all used text characters to convey information to players, they do not use <style=\"CurrentLink\">Chat Channels</style> per se as the characters are used to ''draw'' graphics (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Angband\">Angband</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style> do allow some free text input as well but in a very limited sense).",
+            "<style=\"H2\">Using the pattern</style>",
+            "Implementing <style=\"CurrentLink\">Chat Channels</style> requires <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> that receives messages, stores them, and sends them to appropriate receiver. Normally this is done by <style=\"Link\"><link=\"game-servers\">Game Servers</link></style> or <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>, the latter if designers wish players to be able to communicate with all players that play the game. This can however create a problem with having too many possible players to communicate with, and difficulties in finding the ones that one wants to chat with. For this reason, games rarely have only one <style=\"CurrentLink\">Chat Channel</style>, and deciding which to provide is one of the main design choices regarding the pattern. Examples include channels that only support communication with the players close in the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> (which maintains <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>) and those that allow secret communication with co-members of <style=\"Link\"><link=\"parties\">Parties</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style>, or <style=\"Link\"><link=\"teams\">Teams</link></style>. For games with many players or for <style=\"CurrentLink\">Chat Channels</style> over <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>, the use of <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> can let players easily communicate with their friends even if there are hundreds or thousands of other players. In many cases, all these channels are accessed through the same command line interface (which then functions as a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illocutionary%20Interfaces\">Illocutionary Interface</link></style>).",
+            "Another design choice for <style=\"CurrentLink\">Chat Channels</style> is if they should be between players or between <style=\"Link\"><link=\"characters\">Characters</link></style>. Both types may exist simultaneously, but if a channel goes to both players and <style=\"Link\"><link=\"characters\">Characters</link></style>, they may disrupt <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>. The type of content that can be transmitted through the <style=\"CurrentLink\">Chat Channels</style> is yet another area where several design options exist. ",
+            "Censoring can be merited if a specific decorum is wanted or the game design is aimed at particular target audience while allowing players to using scripting can let them create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Automated%20Responses\">Automated Responses</link></style> up to the level of becoming <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Proxy%20Players\">Proxy Players</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Canned%20Text%20Responses\">Canned Text Responses</link></style> strictly limit which messages can be sent and can through this enforce censoring but can also simplify the user interface for the <style=\"CurrentLink\">Chat Channels</style>. Using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illocutionary%20Interfaces\">Illocutionary Interfaces</link></style> dictate that some actions need to be able to be sent through them and this can be mapped to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Canned%20Text%20Responses\">Canned Text Responses</link></style>, but allowing free text input to these interfaces can create <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> and encourage <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/System%20Exploration\">System Exploration</link></style> of the interface. ",
+            "<style=\"CurrentLink\">Chat Channels</style> typically identify who sent a message. This common way of doing this is through <style=\"Link\"><link=\"handles\">Handles</link></style> since these are also in text.",
+            "The typically alternative to using <style=\"CurrentLink\">Chat Channels</style> in a game is instead using more structured <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>. However, <style=\"CurrentLink\">Chat Channels</style> used by <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> or which allow <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Performative%20Utterances\">Performative Utterances</link></style> basically are <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Chat Channels</style> can have issues with both <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. The first depends on how text messages are presented in the <style=\"Link\"><link=\"game-worlds\">Game World</link></style>, and while it may be quite clear that presentations based upon <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> or <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style> break <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> generated voice responses from text is also likely to be perceived as artificial given current technologies. The second is due to players having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> in what they say and this can be used to introduce inconsistencies, i.e. the pattern can make <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thematically%20Consistent%20Dialogues\">Thematically Consistent Dialogues</link></style> impossible to guarantee; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Canned%20Text%20Responses\">Canned Text Responses</link></style> can be used to hinder this at the cost of severely limiting <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>.",
+            "<style=\"Link\"><link=\"emotes\">Emotes</link></style> allow what is types in <style=\"CurrentLink\">Chat Channels</style> to be presented as diegetic actions.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Chat Channels</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. While they often are available during play sessions, the same <style=\"CurrentLink\">Chat Channels</style> typically also exist in <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> if these exist.",
+            "''See section above also.''",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "When <style=\"CurrentLink\">Chat Channels</style> allow players to formulate the messages freely, they can help players in <style=\"Link\"><link=\"enactment\">Enactment</link></style> which the game may not otherwise allow, including expressing complex emotions or providing non-diegetic narrative information.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Chat Channels</style> are text-based forms of <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> that at least make some part of a game have <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>. Like most <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> the allow players to have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> and may make it easier to adopt various <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>. Since they typically support free form messages, they give <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> to players which can be used both to be more precise at a certain cost of communication speed and to provide <style=\"Link\"><link=\"ambiguous-responses\">Ambiguous Responses</link></style>. The freedom in expression can also support <style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style>,  <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, and <style=\"Link\"><link=\"guilting\">Guilting</link></style> as well as let players pass <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>. This last consequence of the pattern makes it difficult to combine <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style> in games with <style=\"CurrentLink\">Chat Channels</style> and can make it difficult to have <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>.",
+            "When game actions can be invoked through the <style=\"CurrentLink\">Chat Channels</style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voting\">Voting</link></style>, the channels are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illocutionary%20Interfaces\">Illocutionary Interfaces</link></style> and when the information is received by <style=\"Link\"><link=\"characters\">Characters</link></style> the pattern also gives rise to <style=\"Link\"><link=\"information-passing\">Information Passing</link></style>.",
+            "As mentioned above, <style=\"CurrentLink\">Chat Channels</style> can cause problems with both <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, especially regarding <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thematically%20Consistent%20Dialogues\">Thematically Consistent Dialogues</link></style> for the latter case.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"ambiguous-responses\">Ambiguous Responses</link></style>, <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style>, <style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"Link\"><link=\"guilting\">Guilting</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illocutionary%20Interfaces\">Illocutionary Interfaces</link></style>, <style=\"Link\"><link=\"information-passing\">Information Passing</link></style>, <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voting\">Voting</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Performative%20Utterances\">Performative Utterances</link></style></style>",
+            "<style=\"Link\"><link=\"dialogues\">Dialogues</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>, <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style>, <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>, <style=\"Link\"><link=\"parties\">Parties</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Automated%20Responses\">Automated Responses</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Canned%20Text%20Responses\">Canned Text Responses</link></style>, <style=\"Link\"><link=\"emotes\">Emotes</link></style>, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>, <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style>, <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thematically%20Consistent%20Dialogues\">Thematically Consistent Dialogues</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "ambiguous-responses",
+            "communication-channels",
+            "creative-control",
+            "bragging",
+            "enactment",
+            "guilting",
+            "illocutionary-interfaces",
+            "information-passing",
+            "mediated-gameplay",
+            "social-interaction",
+            "social-roles",
+            "voting",
+            "dialogues"
+        ],
+        "modulates" : [
+            "cooperation",
+            "game-lobbies",
+            "game-servers",
+            "guilds",
+            "meta-servers",
+            "parties",
+            "teams"
+        ],
+        "instantiated_by" : [
+            "dedicated-game-facilitators",
+            "geospatial-game-widgets",
+            "hud-interfaces"
+        ],
+        "modulated_by" : [
+            "automated-responses",
+            "canned-text-responses",
+            "emotes",
+            "friend-lists",
+            "handles"
+        ],
+        "conflicts" : [
+            "actor-detachment",
+            "enforced-player-anonymity",
+            "diegetic-consistency",
+            "thematic-consistency",
+            "thematically-consistent-dialogues"
+        ]
+    }
+}

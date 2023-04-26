@@ -1,0 +1,62 @@
+{
+    "name" : "Tiered Participation",
+    "categories" : [
+        "Patterns",
+        "Gameplay Adaptability Patterns",
+        "Needs work",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Games where players can belong to different tiers in regards to their expected involvement in the gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Games where players can belong to different tiers in regards to their expected involvement in the gameplay.</style>",
+            "While many people may wish to play a certain game, not all may have the same possibilities to engage in gameplay for the same periods of time or with the same types of activities. Games with <style=\"CurrentLink\">Tiered Participation</style> try to solve this issue by having several distinct different ways of playing the game, each which puts different types of requirements on how to play in terms of time spend playing and types of gameplay actions that should be performed.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Tiered Participation</style> is most commonly found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Alternate%20Reality%20Games\">Alternate Reality Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conspiracy%20for%20Good\">Conspiracy for Good</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style>. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Can%20You%20See%20Me%20Now?\">Can You See Me Now?</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncle%20Roy%20All%20Around%20You\">Uncle Roy All Around You</link></style> are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Mixed%20Reality%20Games\">Mixed Reality Games</link></style> where participants can engage in the games either through physical movement in an urban environment or through moving their avatars in a virtual environment. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Wizard's%20Apprentice\">Wizard's Apprentice</link></style> is an example of a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-Augmented%20Board%20Games\">Computer-Augmented Board Game</link></style> designed to support one player - typically a parent - that is only moderately interest in the game but instead more interested in supporting the other players - typically children - so they can have an engaging and fun experience. ",
+            "Weaker examples of the pattern can be found in games where non-players can observe the gameplay and give advice. While this can occur in most games, it is probably the most socially acceptable and less disturbing in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzle%20Games\">Puzzle Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Angry%20Birds\">Angry Birds</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Continuity\">Continuity</link></style>. The pattern becomes strong when observers can choose to join the game and become players, as is supported for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gauntlet\">Gauntlet</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lego%20Star%20Wars%20series\">Lego Star Wars series</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main requirement of <style=\"CurrentLink\">Tiered Participation</style> is rather obviously that there should be several different ways of playing the game in regards to actions required and time spent while still be regarded as a player. Two concrete ways of doing this is through supporting <style=\"Link\"><link=\"backseat-gamers\">Backseat Gamers</link></style> or <style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style>, where the roles in the latter case differ in commitment required besides actual gameplay actions provided. Other ways of doing this often build upon making different parts of the game available through different access routes, which means having some gameplay accessible through <style=\"Link\"><link=\"mediated-gameplay\">Mediated</link></style> or <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>.",
+            "A major design choice for the <style=\"CurrentLink\">Tiered Participation</style> is if the tiers are intended to support different groups of players or to support players in moving between different levels of commitment, or both. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Wizard's%20Apprentice\">Wizard's Apprentice</link></style> is an example of the first case (where the wizard player can only increase his or her engagement in the game by being a <style=\"Link\"><link=\"backseat-gamers\">Backseat Gamer</link></style>) while the <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lego%20Star%20Wars%20series\">Lego Star Wars series</link></style> support the second case. Most <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Alternate%20Reality%20Games\">Alternate Reality Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conspiracy%20for%20Good\">Conspiracy for Good</link></style>, but especially those tied to TV series (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Truth%20About%20Marika\">The Truth About Marika</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Lost%20Experience\">The Lost Experience</link></style>) support both.",
+            "<style=\"H2\">Consequences</style>",
+            "The main reason for having <style=\"CurrentLink\">Tiered Participation</style> in games is to support <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> and this in many cases also translates into providing different forms of <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>. While players of some of the tiers may have <style=\"Link\"><link=\"downtime\">Downtime</link></style>, this is often intentionally so since those players have been perceived not to want to engage with the game as often as players in other tiers. Allowing players to move between tiers or playing on several tiers at once eliminates the risk of the players feeling unfairly treated compared to others.",
+            "Since players are interacting with the game under different conditions, it may be difficult to provide <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> while having <style=\"CurrentLink\">Tiered Participation</style>. This can be offset (as often in the case for unbalanced games) by using <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style> or by circumventing it by having the game be based upon <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"backseat-gamers\">Backseat Gamers</link></style>, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style>, <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "downtime",
+            "social-adaptability",
+            "social-roles"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "backseat-gamers",
+            "drop-in-drop-out",
+            "functional-roles",
+            "mediated-gameplay",
+            "ubiquitous-gameplay"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "player-balance"
+        ]
+    }
+}

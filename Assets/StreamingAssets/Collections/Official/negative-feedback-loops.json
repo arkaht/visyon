@@ -1,0 +1,74 @@
+{
+    "name" : "Negative Feedback Loops",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Rule systems that affect the game state to move a specific part of the game state towards a preset value.",
+        "markups" : [
+            "<style=\"Definition\">Rule systems that affect the game state to move a specific part of the game state towards a preset value.</style>",
+            "Players try to use actions in games to manipulate the game state towards values conforming to their goals. However, this may ruin a planned experienced by designers or unbalance a game with many players. One way to work against this happening is to have rules in place that check the game state and when they defect values outside certain boundaries modify the game state in ways to nudge it back towards being inside the boundaries. Such design constructs are called <style=\"CurrentLink\">Negative Feedback Loops</style>. ",
+            "Wikipedia has an entry on [https://en.wikipedia.org/wiki/Negative_feedback Negative Feedback]. The chapter ''Games as Cybernetic Systems'' in Rules of Play<ref name=\"rop\"/> look extensively at positive and negative feedback loops and their use in games.",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%20series\">Super Monkey Ball series</link></style> are two <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Game series</link></style> that make use of <style=\"CurrentLink\">Negative Feedback Loops</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Negative Feedback Loops</style> are used in games to balance part of the game state over time. This is often done to provide players with <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> or <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, which can also provide subtle <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Comeback%20Mechanisms\">Comeback Mechanisms</link></style>. However, it can also be used to prolong the time it takes to play a game (that is, help create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predictable%20Gameplay%20Time\">Predictable Gameplay Time</link></style>), balance powers in networks with <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>, or makes points about the futility of trying to disrupt balances in games that aim to have <style=\"Link\"><link=\"critical-gameplay-design\">Critical Gameplay Design</link></style>.",
+            "The core of making <style=\"CurrentLink\">Negative Feedback Loops</style> is to identify a part of the game state to measure and determine what is to be seen as the ideal value for that value. In games this is typically a value relative players' positions, for example their relative score positions or relative places in a <style=\"Link\"><link=\"races\">Race</link></style>, which is a slight complication compare to the basic model of <style=\"CurrentLink\">Negative Feedback Loops</style>. The next step, which may require extensive play testing, is to determine which parts of the game state to modify to influence the measured part of the game towards the ideal value. While in many non-game examples of <style=\"CurrentLink\">Negative Feedback Loops</style> one can influence the measured part directly (if a room is too warm, lower the temperature for example) this would remove player agency in games, one cannot for example take the player that is last in a <style=\"Link\"><link=\"races\">Race</link></style> and put first. Instead, part of the game state that help players improve their own positions are used. In the case of a <style=\"Link\"><link=\"races\">Race</link></style> the speeds of the players can for example be changed, as is done in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%20series\">Super Monkey Ball series</link></style> (the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> also provides different <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style> depending on relative position). A quite common use of <style=\"CurrentLink\">Negative Feedback Loops</style> related to players' <style=\"Link\"><link=\"scores\">Scores</link></style> is to let the player with the lowest score be allowed to act first next turn, in effect modifying how <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style> works. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Egizia\">Egizia</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ursuppe\">Ursuppe</link></style> does this (so does <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Golf\">Golf</link></style> but here it doesn't help balance positions so it is not a <style=\"CurrentLink\">Negative Feedback Loop</style>). A variation for creating <style=\"CurrentLink\">Negative Feedback Loops</style> is setting reward structures to use <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style> with ratios somewhere between 0 and 1. ",
+            "<style=\"CurrentLink\">Negative Feedback Loop</style> can emerge spontaneously through <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style> in games where players can have a perception of each other's positions and can gang up on the perceived leader.",
+            "By definition <style=\"CurrentLink\">Negative Feedback Loops</style> are in opposition to <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>. This means that they cannot be combined regarding the same aspect of a game state but different types of loops can exist for different parts of the game state.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style> may appear out of <style=\"CurrentLink\">Negative Feedback Loops</style> if players perceive a need to continue putting effort into the things measured by the loop. <style=\"CurrentLink\">Negative Feedback Loops</style> created through using <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style> cause <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diminishing%20Returns\">Diminishing Returns</link></style> for players. This may in turn encourage them to engage in <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> to find other venues to advance their positions during a game instance.",
+            "That many <style=\"CurrentLink\">Negative Feedback Loops</style> work against players' in leading positions makes the pattern work against a <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style> since any <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Runaway%20Leader\">Runaway Leader</link></style> are more unlikely to occur and leaders in general may be more difficult to perceive. For the same reason, the <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> that <style=\"CurrentLink\">Negative Feedback Loops</style> can have make them useful to support <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> or <style=\"Link\"><link=\"team-balance\">Team Balance</link></style> (depending on what the loops affect). While <style=\"CurrentLink\">Negative Feedback Loops</style> may affect any part of a game state, they often modify players' access to <style=\"Link\"><link=\"resources\">Resources</link></style> since <style=\"Link\"><link=\"resources\">Resources</link></style> are a common gameplay feature which make actions possible or not depending on what access players have to them.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Comeback%20Mechanisms\">Comeback Mechanisms</link></style>, <style=\"Link\"><link=\"critical-gameplay-design\">Critical Gameplay Design</link></style>, <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>, <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diminishing%20Returns\">Diminishing Returns</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predictable%20Gameplay%20Time\">Predictable Gameplay Time</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Runaway%20Leader\">Runaway Leader</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "balancing-effects",
+            "comeback-mechanisms",
+            "critical-gameplay-design",
+            "dynamic-difficulty-adjustment",
+            "player-balance",
+            "red-queen-dilemmas",
+            "team-balance",
+            "diminishing-returns"
+        ],
+        "modulates" : [
+            "internal-rivalry",
+            "predictable-gameplay-time",
+            "races",
+            "resources",
+            "varying-turn-orders"
+        ],
+        "instantiated_by" : [
+            "geometric-progression"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "positive-feedback-loops",
+            "predictable-winner",
+            "runaway-leader"
+        ]
+    }
+}

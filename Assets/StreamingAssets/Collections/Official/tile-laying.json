@@ -1,0 +1,64 @@
+{
+    "name" : "Tile-Laying",
+    "categories" : [
+        "Patterns",
+        "Action Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "The act of placing game elements when their spatial relation to other such game elements affects gameplay.",
+        "markups" : [
+            "<style=\"Definition\">The act of placing game elements when their spatial relation to other such game elements affects gameplay.</style>",
+            "Some games use the spatial relations between game elements to represent aspects of game worlds or relations in abstract structures. <style=\"CurrentLink\">Tile-Laying</style> exists in these games when the elements and relations are not fixed but created through placing them, and it is likely that the resulting relations differ between game instances.",
+            "''Note:'' While the pattern name suggests only the laying of <style=\"Link\"><link=\"tiles\">Tiles</link></style>, it is also applicable to <style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style>, and <style=\"Link\"><link=\"units\">Units</link></style>.",
+            "<style=\"H3\">Examples</style>",
+            "As the name suggests, <style=\"CurrentLink\">Tile-Laying</style> primarily occurs in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tile-Based%20Games\">Tile-Based Games</link></style>. For example, players' turns in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carcassonne\">Carcassonne</link></style> consist of drawing and laying a tile in connection to those already in play and then optionally placing a token. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Samurai\">Samurai</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neuroshima%20Hex\">Neuroshima Hex</link></style> have similar gameplay structures to depict struggles over land areas. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Small%20World\">Small World</link></style> lets players place a number of units (and sometimes other tokens) as part of their turn. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Acquire\">Acquire</link></style> using <style=\"CurrentLink\">Tile-Laying</style> to abstractly represent competitions between hotel chains and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Android\">Android</link></style> uses played tiles to unveil a conspiracy; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illuminati\">Illuminati</link></style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Game</link></style> where its is instead used to abstractly represent power structures. Tiles are placed in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Drakborgen\">Drakborgen</link></style> gradually as the players' explore the gameplay area. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms%20(board%20game)\">Kingdoms</link></style> is a math-oriented <style=\"CurrentLink\">Tile-Laying</style> game with a fantasy theme.",
+            "Weaker examples of <style=\"CurrentLink\">Tile-Laying</style> exist in games where the <style=\"CurrentLink\">Tile-Laying</style> is done before gameplay begins. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style> is commonly played this way in order to ensure that the resources provided on its hexagonal tiles are randomized. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rogue\">Rogue</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Angband\">Angband</link></style>, early <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> that used ASCII-based graphics, randomizes the layout of levels for each game session.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Tile-Laying</style> is nearly always a form of <style=\"Link\"><link=\"construction\">Construction</link></style>, and the primary design choice if one wishes to have it present in a game design is to decide if <style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style>. <style=\"Link\"><link=\"units\">Units</link></style> can sometimes also be used (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Small%20World\">Small World</link></style>) when they are placed onto <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> rather than moved around on them, and in this case does not necessarily need to be seen as <style=\"Link\"><link=\"construction\">Construction</link></style>. <style=\"CurrentLink\">Tile-Laying</style> may be used either before game play begins as part of the setup phase of the game or during gameplay as part of the actions players perform.  While <style=\"Link\"><link=\"randomness\">Randomness</link></style> is typically used in both cases, in the later case <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> are also common and sometimes combined with variants of <style=\"Link\"><link=\"hands\">Hands</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Tile-Laying</style> a concrete way to construct <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or abstract structures whose relations are shown through spatial positioning. When laid <style=\"Link\"><link=\"tiles\">Tiles</link></style> (or <style=\"Link\"><link=\"cards\">Cards</link></style>, etc.) can be moved, this allows for <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style> during gameplay but this pattern is in one sense always supported by the game since the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> can change between game instances. While <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style> can allow <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> goals, <style=\"CurrentLink\">Tile-Laying</style> can more directly link to this if players place <style=\"Link\"><link=\"tiles\">Tiles</link></style> as they do the actual exploration (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Drakborgen\">Drakborgen</link></style>). <style=\"CurrentLink\">Tile-Laying</style> done before gameplay occurs can create <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> simply by placing <style=\"Link\"><link=\"tiles\">Tiles</link></style>, <style=\"Link\"><link=\"cards\">Cards</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> upside down. When players control the placement of the game elements that are used for the <style=\"CurrentLink\">Tile-Laying</style> to makes <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Constructed%20Worlds\">Player-Constructed Worlds</link></style> possible. ",
+            "Regardless if players are placing the tiles or <style=\"Link\"><link=\"randomness\">Randomness</link></style> is used, the variation this causes makes it likely that games with <style=\"CurrentLink\">Tile-Laying</style> have <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>. This, or the <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style> that <style=\"CurrentLink\">Tile-Laying</style> can provide, supports <style=\"Link\"><link=\"replayability\">Replayability</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Constructed%20Worlds\">Player-Constructed Worlds</link></style>, <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style></style>",
+            "<style=\"Link\"><link=\"replayability\">Replayability</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"Link\"><link=\"construction\">Construction</link></style> together with <style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"hands\">Hands</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-world-exploration",
+            "fog-war",
+            "player-constructed-worlds",
+            "reconfigurable-game-worlds",
+            "varied-gameplay",
+            "replayability"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "units",
+            "construction"
+        ],
+        "modulated_by" : [
+            "drawing-stacks",
+            "hands",
+            "randomness"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "name" : "Controllers",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns",
+        "Level Design Patterns",
+        "Needs work",
+        "Needs revision",
+        "Needs examples",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Game elements fixed in particular locations in Game Worlds that allow actions or events not possible elsewhere.",
+        "markups" : [
+            "<style=\"Definition\">Game elements fixed in particular locations in Game Worlds that allow actions or events not possible elsewhere.</style>",
+            "While players typically have access to a certain set of actions besides moving while exploring game worlds, the items that can be found within the worlds can provide additional actions. <style=\"CurrentLink\">Controllers</style> are items that do this but cannot be moved, thereby forcing players to be at specific positions in order to be able to use these actions.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-person shooters</link></style>, such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style>, often have doors that have to be opened through activating <style=\"CurrentLink\">Controllers</style>. Abstract <style=\"CurrentLink\">Controllers</style> can be found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style> as players can construct bridges, command centers, and towers in certain places.",
+            "Mounted weapons found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> are all examples of <style=\"CurrentLink\">Controllers</style> that provide players with increased firepower at specific locations. The cannons in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%2064\">Super Mario 64</link></style> are also <style=\"CurrentLink\">Controllers</style>, but in this case have the more peaceful ability to allow Mario reach areas otherwise inaccessible by shooting himself from them.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Two main types of <style=\"CurrentLink\">Controllers</style> exist: <style=\"Link\"><link=\"switches\">Switches</link></style> that set events in motion when activated and <style=\"Link\"><link=\"installations\">Installations</link></style> that provide players with <style=\"Link\"><link=\"new-abilities\">New</link></style> or <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>. Examples of effects started by <style=\"Link\"><link=\"switches\">Switches</link></style> include opening <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, finishing <style=\"Link\"><link=\"levels\">Levels</link></style>, or initiating <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>. <style=\"Link\"><link=\"switches\">Switches</link></style> may also affect <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> if their geographical spread are fixed, otherwise affecting them are more probably abilities and affected through <style=\"Link\"><link=\"installations\">Installations</link></style>. Both types of <style=\"CurrentLink\">Controllers</style> can affect <style=\"Link\"><link=\"moveable-tiles\">Moveable Tiles</link></style>, but <style=\"Link\"><link=\"switches\">Switches</link></style> are of limited usefulness to control their <style=\"Link\"><link=\"movement\">Movement</link></style> rather than just start and stop it.",
+            "<style=\"CurrentLink\">Controllers</style> do not have to be tangible game elements and those that are not represents a third type of <style=\"CurrentLink\">Controllers</style>. They can be areas where the <style=\"Link\"><link=\"construction\">Construction</link></style> or destruction of game elements are possible, and one examples of this are the boxes of construction material in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style> which can be assembled to specific game elements, such as bridges or bases.",
+            "Several options of available for all types of <style=\"CurrentLink\">Controllers</style>: which <style=\"Link\"><link=\"units\">Units</link></style> or <style=\"Link\"><link=\"avatars\">Avatars</link></style> can use them, are specific <style=\"Link\"><link=\"skills\">Skills</link></style> or <style=\"Link\"><link=\"tools\">Tools</link></style> are needed to use them, and are <style=\"Link\"><link=\"resources\">Resources</link></style> are consumed by using them. Further, using them can require <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> (e.g. requiring the constant activation of a player), and the effects they cause can be both <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style> (for example when activating <style=\"Link\"><link=\"moveable-tiles\">Moveable Tiles</link></style>) and <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "As <style=\"CurrentLink\">Controllers</style> are often presented as large machines or systems, or the control panels for these, they can affect parts of a <style=\"Link\"><link=\"game-boards\">Game Board</link></style>, <style=\"Link\"><link=\"game-worlds\">Game World</link></style>, or <style=\"Link\"><link=\"levels\">Level</link></style> out of the usual reach of <style=\"Link\"><link=\"units\">Units</link></style> or <style=\"Link\"><link=\"avatars\">Avatars</link></style> without breaking <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Some <style=\"CurrentLink\">Controllers</style>, especially <style=\"Link\"><link=\"installations\">Installations</link></style>, may switch players' interfaces to better help support the activities and actions they provide. This may be changing <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style> or switching from <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> to <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style> or vice versa. Examples of both of these possibilities exist in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%202\">Half-Life 2</link></style> does the same, and has a magnetic crane which provides a different view point for players since the scale it works on is different from the normal one in the game.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Compared to <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"CurrentLink\">Controllers</style> (and especially <style=\"Link\"><link=\"switches\">Switches</link></style>) let game designers structure where and when players can perform actions which functionally for them are <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>. This can be used to progress <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> and when <style=\"CurrentLink\">Controllers</style> are used in this way their effects are typically both <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> and <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>. One example of this is that the activation of <style=\"CurrentLink\">Controllers</style> can often be the completion of goals, <style=\"Link\"><link=\"quests\">Quests</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Controllers</style> gives players or <style=\"Link\"><link=\"teams\">Teams</link></style> access to <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, quite often <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, when their <style=\"Link\"><link=\"units\">Units</link></style> or <style=\"Link\"><link=\"avatars\">Avatars</link></style> are near them. They are natural <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and <style=\"Link\"><link=\"levels\">Levels</link></style> since having access to their <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style> may require <style=\"Link\"><link=\"area-control\">Area Control</link></style> and this can spawn goals of <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>. <style=\"CurrentLink\">Controllers</style> that are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> provide a way to have <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style> in games and create <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>. ",
+            "While providing <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> can make <style=\"CurrentLink\">Controllers</style> give players <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> and a greater <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, both these patterns most clearly materialize when the <style=\"CurrentLink\">Controllers</style> are used to make <style=\"Link\"><link=\"quests\">Quests</link></style> be completed.",
+            "As mentioned above, <style=\"CurrentLink\">Controllers</style> can depending on their design modulate <style=\"Link\"><link=\"alarms\">Alarms</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, or <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style></style>",
+            "<style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"alarms\">Alarms</link></style>, <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"moveable-tiles\">Moveable Tiles</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"switches\">Switches</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "area-control",
+            "construction",
+            "exaggerated-perception-influence",
+            "freedom-choice",
+            "gain-ownership",
+            "improved-abilities",
+            "irreversible-events",
+            "location-fixed-abilities",
+            "new-abilities",
+            "predetermined-story-structures",
+            "privileged-abilities",
+            "strategic-locations",
+            "thematic-consistency",
+            "ultra-powerful-events",
+            "renewable-resources",
+            "resource-locations"
+        ],
+        "modulates" : [
+            "alarms",
+            "avatars",
+            "conditional-passageways",
+            "environmental-effects",
+            "game-boards",
+            "game-worlds",
+            "hud-interfaces",
+            "levels",
+            "moveable-tiles",
+            "quests",
+            "quick-travel",
+            "units"
+        ],
+        "instantiated_by" : [
+            "installations",
+            "switches"
+        ],
+        "modulated_by" : [
+            "extended-actions",
+            "resource-generators",
+            "resources",
+            "skills",
+            "tools"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

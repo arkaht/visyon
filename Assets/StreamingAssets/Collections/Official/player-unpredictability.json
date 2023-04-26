@@ -1,0 +1,89 @@
+{
+    "name" : "Player Unpredictability",
+    "categories" : [
+        "Dynamic Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The limit on what will happen in future gameplay due to not knowing how other players will act.",
+        "markups" : [
+            "<style=\"Definition\">The limit on what will happen in future gameplay due to not knowing how other players will act.</style>",
+            "Practically all games want the outcome of playing them to be uncertain in various forms, but achieve this in various forms as well. <style=\"CurrentLink\">Player Unpredictability</style> is the way of having this uncertainty in games through having other players be able to choose or perform actions which are not trivial for others to deduce. An advantage which this solution is that changing who you play over time with can maintain this uncertainty and players can be differently good at providing this type of <style=\"CurrentLink\">Player Unpredictability</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "Many sports, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fencing\">Fencing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Wrestling\">Wrestling</link></style>, put participants in direct competition with others and a large part of being skillful in these sports consists of being able to read what the opponent will do next while not letting him or her read oneself. In contrast, when playing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> players need not only to consider what they can do many moves ahead of the current position but also need to consider what moves their opponents will be between these; given the many alternatives possible and the advantage of thinking ahead as many steps as possible, this leads to a high degree of <style=\"CurrentLink\">Player Unpredictability</style>. ",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Real-Time%20Strategy%20Games\">Real-Time Strategy Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients%20series\">Defense of the Ancients series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Starcraft%20series\">Starcraft series</link></style>, put much emphasis of having good opening strategies and reacting quickly to the strategies of one's opponents. This makes the opening of the games have a high degree of <style=\"CurrentLink\">Player Unpredictability</style> as players try to outwit each other. In contrast, games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearthstone:%20Heroes%20of%20Warcraft\">Hearthstone: Heroes of Warcraft</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%2040K\">Warhammer 40K</link></style> let players construct their own decks or armies before gameplay begins and here the <style=\"CurrentLink\">Player Unpredictability</style> consists mainly of which choices players have made before gameplay has even begun. As another type of example, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/RoboRally\">RoboRally</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style> have phases where players at the same time choose which actions they want to perform and then perform them at the same time (according to a specific order when necessary). This injects a certain amount of <style=\"CurrentLink\">Player Unpredictability</style> in each turn of the game.",
+            "Some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Co-Op%20Games\">Co-Op Games</link></style> have most players work together but have a potential traitor. This adds <style=\"CurrentLink\">Player Unpredictability</style> in the form that players cannot fully trust other players to do what they say they will do or what is in the best interest for the group. Examples of games where this version of <style=\"CurrentLink\">Player Unpredictability</style> exists include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20of%20Winter:%20A%20Crossroads%20Game\">Dead of Winter: A Crossroads Game</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shadows%20over%20Camelot\">Shadows over Camelot</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The basic requirement for <style=\"CurrentLink\">Player Unpredictability</style> is that there are other players that can be unpredictable, i.e. <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> is a necessary but not sufficient requirement for having the pattern in a game. Non-human players, i.e. <style=\"Link\"><link=\"ai-players\">AI Players</link></style> or <style=\"Link\"><link=\"game-system-player\">Game System Players</link></style>, can provide <style=\"CurrentLink\">Player Unpredictability</style> through ensuring that they have <style=\"Link\"><link=\"unpredictable-behavior\">Unpredictable Behavior</link></style>.",
+            "While games like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> shows that one can have <style=\"CurrentLink\">Player Unpredictability</style> in games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, the use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style> - often combined with <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> - lets games not that dependent on predicting opponents exact movements also have <style=\"CurrentLink\">Player Unpredictability</style>. Given each player <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style> is another direct way of providing <style=\"CurrentLink\">Player Unpredictability</style>, as is requiring actions or activities that rely on being deceitful or manipulative, e.g. <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>. <style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style> can also create <style=\"CurrentLink\">Player Unpredictability</style> since players can surprise each other by unexpected and effective actions. This is also the case for gameplay where <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style> can be found (not surprising since they often cause <style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style> to be present) but when the possible solutions can be tested in order the opposite occurs; <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style> work against <style=\"CurrentLink\">Player Unpredictability</style>. ",
+            "That players can plan different strategies in a game allows for a form of <style=\"CurrentLink\">Player Unpredictability</style> before gameplay begins. The use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style> lets this have practical consequences on the initial game state.",
+            "Several patterns work against <style=\"CurrentLink\">Player Unpredictability</style>. <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> can make it more obvious what other players will do for the player that have this, while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Strategies\">Dominant Strategies</link></style> and <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style> can make it completely obvious what a player which is winning will do in the future.",
+            "<style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player/System%20Action%20Composites\">Player/System Action Composites</link></style> can be used to modulate <style=\"CurrentLink\">Player Unpredictability</style> since part of what a player does or how well that player does an action becomes determined by algorithms; this effect on the pattern is more pronounced in games where one can have <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> about how the composites work. <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style> affects <style=\"CurrentLink\">Player Unpredictability</style> in another matter, namely that one will only get to know what other players actually did after one no longer can take direct actions against them.",
+            "<style=\"CurrentLink\">Player Unpredictability</style> is probably most difficult to maintain in <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases since typically there the game state is more simply reduced to specific states. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Player Unpredictability</style> has many effects on gameplay. First, it causes an <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style> of due to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Foresight\">Limited Foresight</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Ability\">Limited Planning Ability</link></style>, or causes these two patterns through the uncertainty. Second, it typically leads to <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cognitive%20Engrossment\">Cognitive Engrossment</link></style> as players need to engage in judgments on the possible <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> situations they are aware of. Third, is can lead of <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style> due to the difficulties that can arise from trying to do this planning. Finally, it can lead to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>.",
+            "<style=\"CurrentLink\">Player Unpredictability</style> can make <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> more difficult since players cannot as easily assume what other players will be doing.",
+            "It can be beneficial to players to have high unpredictability to others, especially in games with <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, or <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style>. This can make <style=\"CurrentLink\">Player Unpredictability</style> into a player skill and provides one route to <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> in these games. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cognitive%20Engrossment\">Cognitive Engrossment</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Foresight\">Limited Foresight</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Ability\">Limited Planning Ability</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style>, <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style>, <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>",
+            "<style=\"Link\"><link=\"unpredictable-behavior\">Unpredictable Behavior</link></style> together with <style=\"Link\"><link=\"ai-players\">AI Players</link></style> or <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style>, <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player/System%20Action%20Composites\">Player/System Action Composites</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Strategies\">Dominant Strategies</link></style>, <style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "cognitive-engrossment",
+            "gameplay-mastery",
+            "limited-foresight",
+            "limited-planning-ability",
+            "risk-reward",
+            "stimulated-planning",
+            "surprises",
+            "uncertainty-outcome"
+        ],
+        "modulates" : [
+            "analysis-paralysis",
+            "cooperation"
+        ],
+        "instantiated_by" : [
+            "betrayal",
+            "bluffing",
+            "lucky-guess-solutions",
+            "multiplayer-games",
+            "negotiation",
+            "pre-customized-decks",
+            "secret-goals",
+            "trial-error-solutions",
+            "uncertainty-information",
+            "asymmetric-information",
+            "unpredictable-behavior"
+        ],
+        "modulated_by" : [
+            "no-direct-player-influence",
+            "player-character-skill-composites",
+            "player-system-action-composites"
+        ],
+        "conflicts" : [
+            "dominant-strategies",
+            "endgame",
+            "predictable-winner",
+            "strategic-knowledge",
+            "trial-error-solutions"
+        ]
+    }
+}

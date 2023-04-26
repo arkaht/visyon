@@ -1,0 +1,97 @@
+{
+    "name" : "Strategic Planning",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Dynamic Patterns",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Planning based solely on knowledge of game rules and the abilities of other players.",
+        "markups" : [
+            "<style=\"Definition\">Planning based solely on knowledge of game rules and the abilities of other players.</style>",
+            "Most games allow or require players to plan what they want to do later in them. <style=\"CurrentLink\">Strategic Planning</style> takes place when this planning is only loosely based upon the current gameplay situation and more on general patterns of gameplay and large scale effects.",
+            "''Note: definitions of strategy and tactics vary. For this collection of patterns, strategy refers to aspects of games that do not depend on any specific game state while tactics relate to how one acts on specific game states.''",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Strategy%20Games\">Strategy Games</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Wargames\">Wargames</link></style> depend on both tactical and <style=\"CurrentLink\">Strategic Planning</style>, with the importance of the latter typically being more significant in the beginning of gameplay and the former being more significant in endgames. Examples of these games are numerous, ranging from the ancient <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hnefatafl\">Hnefatafl</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kriegsspiel\">Kriegsspiel</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mahjong\">Mahjong</link></style> to the more modern <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diplomacy\">Diplomacy</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hex\">Hex</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversi\">Reversi</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk\">Risk</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stratego\">Stratego</link></style>. Computer-based examples such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts%20of%20Iron%20series\">Hearts of Iron</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Victoria%20series\">Victoria series</link></style> can add additional complexity to these games through having the computer handle the bookkeeping necessary for supporting huge numbers of units.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Zero-Player%20Games\">Zero-Player Games</link></style> can be considered for only consist of <style=\"CurrentLink\">Strategic Planning</style> and setting up the game system in advance so that the planning is executed properly. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/4%20Minutes%20and%2033%20Seconds%20of%20Uniqueness\">4 Minutes and 33 Seconds of Uniqueness</link></style> can likewise be seen as only consisting of the gameplay action of beginning the game when, according to <style=\"CurrentLink\">Strategic Planning</style>, no other players is likely to begin playing the game soon.",
+            "<style=\"H2\">Using the pattern</style>",
+            "In contrast with <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, which depends on specific game states, <style=\"CurrentLink\">Strategic Planning</style> depends on general structures of the game design. Both are however likely to affect each other so considering them together may be prudent. The basic requirement for <style=\"CurrentLink\">Strategic Planning</style> is that players can have <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> about the game and that they have a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> of what strategy to use during gameplay. Since this is typically achieved through playing the games, having <style=\"Link\"><link=\"replayability\">Replayability</link></style> supports <style=\"CurrentLink\">Strategic Planning</style> (actually, not having <style=\"Link\"><link=\"replayability\">Replayability</link></style> probably indicates that players can do <style=\"CurrentLink\">Strategic Planning</style> perfectly but this also removes the possibility for them to have any <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>). Generally speaking, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> supports <style=\"CurrentLink\">Strategic Planning</style> since players can more easily find general structures in the gameplay. ",
+            "Having <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> in games is one way to allow players to develop <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> and thereby be able to do <style=\"CurrentLink\">Strategic Planning</style>. Examples of <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> suitable for supporting <style=\"CurrentLink\">Strategic Planning</style> due to how they affect gameplay actions include <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, and those that support <style=\"Link\"><link=\"camping\">Camping</link></style>. Knowing about these locations so one can plan ahead can be vital for <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals. Related also to these locations and planning is knowing how to most efficiently be able to use any <style=\"Link\"><link=\"zone-control\">Zone of Control</link></style> functionality in the game, and this becomes especially relevant for games that also have <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>. Knowing which <style=\"Link\"><link=\"weapons\">Weapons</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style> that <style=\"Link\"><link=\"enemies\">Enemies</link></style> have <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> to - or can exploit <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> - is example of another type of <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> that can let players do <style=\"CurrentLink\">Strategic Planning</style> in advance of <style=\"Link\"><link=\"combat\">Combat</link></style>.",
+            "Knowing how to set up their part of game instances with <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style>, e.g. through <style=\"Link\"><link=\"card-building\">Card</link></style> or <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>, to create <style=\"Link\"><link=\"combos\">Combos</link></style> is another way in which players can do <style=\"CurrentLink\">Strategic Planning</style> based upon their <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>. Similarly, the ability to create <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> can lead to players engaging in <style=\"CurrentLink\">Strategic Planning</style>. <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> cannot be used in this sense since players may not know which other players have which abilities so they may not be privileged, but when abilities are predetermined those that then are <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> can be the basis for <style=\"CurrentLink\">Strategic Planning</style>.",
+            "Games which have similar actions and situations in the beginning of game instances, that is, having <style=\"Link\"><link=\"startgame\">Startgame</link></style> phases such as <style=\"Link\"><link=\"laning\">Laning</link></style>, allow for <style=\"CurrentLink\">Strategic Planning</style> since the different permutations of game states can be handled for some time before the specifics of the game state make <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> more important. ",
+            "<style=\"Link\"><link=\"randomness\">Randomness</link></style> can hinder the knowledge of these strategic aspects, but knowing the probabilities used can in turn represent <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> on a higher level. Related to this, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Abilities\">Limited Planning Abilities</link></style> can works against <style=\"CurrentLink\">Strategic Planning</style> but <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Foresight\">Limited Foresight</link></style> is not as likely to interfere with this type of planning since the foresight has more to do with tactical issues. Related to this, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> goals require <style=\"CurrentLink\">Strategic Planning</style> ''due'' to having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> and thereby <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Abilities\">Limited Planning Abilities</link></style>; here players need to make use of all their current knowledge to try and maximize their chances of acquiring more.",
+            "<style=\"CurrentLink\">Strategic Planning</style> can be the sole activity possible in games. This is the case when the intention is to make <style=\"Link\"><link=\"zero-player-games\">Zero-Player Games</link></style>, often in the form of giving players the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> to construct <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "One way of supporting <style=\"CurrentLink\">Strategic Planning</style> is to make <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> available through the game interface. Since this knowledge typically takes too much space to be shown all at once during gameplay, it can instead be made accessible through <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>, or <style=\"Link\"><link=\"loading-hints\">Loading Hints</link></style> (see the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> for an example of the first pattern and  the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style> for the two other patterns).",
+            "<style=\"H2\">Consequences</style>",
+            "The possibility to do <style=\"CurrentLink\">Strategic Planning</style> leads to <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> in games, including planning as <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>. Noting how strategies work, or can be adjusted to work, can provide a sense of <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> in performing the <style=\"CurrentLink\">Strategic Planning</style>. When planning does take place during gameplay in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> that are and <style=\"Link\"><link=\"turn-based-games\">Turn-Based</link></style>, this can lead to <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style> since other players are forced to have <style=\"Link\"><link=\"downtime\">Downtime</link></style>.",
+            "While <style=\"Link\"><link=\"replayability\">Replayability</link></style> is often a requirement for <style=\"CurrentLink\">Strategic Planning</style> since the primary way of learning game systems are through interacting with them, <style=\"CurrentLink\">Strategic Planning</style> also modulates <style=\"Link\"><link=\"replayability\">Replayability</link></style> since players can consider ways of improving their gameplay. This can lead to <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> as players try different strategies.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>, <style=\"Link\"><link=\"zero-player-games\">Zero-Player Games</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> and <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style></style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"replayability\">Replayability</link></style></style>",
+            "<style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"replayability\">Replayability</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"card-building\">Card Building</link></style>, <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style>, <style=\"Link\"><link=\"laning\">Laning</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"startgame\">Startgame</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"zone-control\">Zone of Control</link></style>",
+            "<style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style> or <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style> together with <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style>",
+            "<style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> together with <style=\"Link\"><link=\"loading-hints\">Loading Hints</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, or <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>",
+            "<style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style> or <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Abilities\">Limited Planning Abilities</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "extra-game-actions",
+            "stimulated-planning",
+            "value-effort",
+            "zero-player-games",
+            "analysis-paralysis",
+            "downtime",
+            "varied-gameplay"
+        ],
+        "modulates" : [
+            "replayability"
+        ],
+        "instantiated_by" : [
+            "camping",
+            "card-building",
+            "deck-building",
+            "freedom-choice",
+            "gameplay-engines",
+            "laning",
+            "predictable-consequences",
+            "privileged-abilities",
+            "reconnaissance",
+            "replayability",
+            "startgame",
+            "stealth",
+            "strategic-knowledge",
+            "strategic-locations",
+            "zone-control",
+            "achilles-heels",
+            "algorithmic-agents",
+            "combos",
+            "strategic-knowledge",
+            "vulnerabilities"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "limited-planning-abilities",
+            "randomness"
+        ]
+    }
+}

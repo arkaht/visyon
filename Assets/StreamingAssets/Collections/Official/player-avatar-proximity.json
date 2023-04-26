@@ -1,0 +1,58 @@
+{
+    "name" : "Player-Avatar Proximity",
+    "categories" : [
+        "Patterns",
+        "Pervasive Patterns",
+        "Needs revision",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Game rules that depend on players being physically close to avatars.",
+        "markups" : [
+            "<style=\"Definition\">Game rules that depend on players being physically close to avatars.</style>",
+            "Being close to other players is important in games where players physically enact gameplay action, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style>. Likewise, games the proximity to other avatars is usually important in games that take place in virtual environments, for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Fighting%20Games\">Fighting Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">FPS Games</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style>. However, a less common case is when the physical location of one player and the virtual location of another player's avatar are important to gameplay. This <style=\"CurrentLink\">Player-Avatar Proximity</style> feature can only occur in games where players' locations are mapped to virtual environment (or vice versa) but then give players an additional level of complexity of spatial relations.",
+            "<style=\"H3\">Examples</style>",
+            "The pervasive game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Can%20You%20See%20Me%20Now?\">Can You See Me Now?</link></style> pitches group of players navigating real world environments against individual ones that move their avatars on a game map of the real world environment. Through GPS devices the locations of the first group is positioned on the map and the group can use this to catch the individual players by coming close to their avatars.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncle%20Roy%20All%20Around%20You\">Uncle Roy All Around You</link></style> is a co-operative game where a player navigating the real world can team up with one navigating a virtual one to complete tasks.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Being in some sense a combination of <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style> and how <style=\"Link\"><link=\"avatars\">Avatars</link></style> can interact with each other, the design of <style=\"CurrentLink\">Player-Avatar Proximity</style> has the possibilities of both and often the consequences of them as well. As one example, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> can be used both to require a certain time before the proximity is acknowledged by the game system and the effect of being in the proximity can be an <style=\"Link\"><link=\"extended-actions\">Extended Action</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Player-Avatar Proximity</style> is a specific gameplay feature that can be used in <style=\"Link\"><link=\"hybrid-gameplay-spaces\">Hybrid Gameplay Spaces</link></style>, which modifies both how players can act within these spaces and the <style=\"Link\"><link=\"avatars\">Avatars</link></style> inhabiting them. Given that both players and avatars have possibility to move, the pattern creates <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style> and is likely to create <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style> in the form of <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style> since it is unlikely that players and avatars will have the same possibility of moving. These two ways of locomotion is likely to give games additional <style=\"Link\"><link=\"replayability\">Replayability</link></style>, especially if players need to choose <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Classes\">Character Classes</link></style> and these provide only one of the types of locomotion.",
+            "Placing players close to each other, even if one is present through an avatar, is also likely to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> between them.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"hybrid-gameplay-spaces\">Hybrid Gameplay Spaces</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "orthogonal-differentiation",
+            "physical-navigation",
+            "privileged-movement",
+            "replayability",
+            "social-interaction"
+        ],
+        "modulates" : [
+            "avatars",
+            "hybrid-gameplay-spaces"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "extended-actions"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

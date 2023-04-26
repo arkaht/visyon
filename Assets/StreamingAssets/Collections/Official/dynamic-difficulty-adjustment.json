@@ -1,0 +1,93 @@
+{
+    "name" : "Dynamic Difficulty Adjustment",
+    "categories" : [
+        "Patterns",
+        "Balancing Patterns",
+        "Difficulty-Related Patterns",
+        "Needs references",
+        "Needs revision",
+        "Needs examples",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Games that during gameplay adjust their difficulty depending on how well players progresses.",
+        "markups" : [
+            "<style=\"Definition\">Games that during gameplay adjust their difficulty depending on how well players progresses.</style>",
+            "Providing the right level of challenge for players in a game can be difficult for game designers to achieve solely through creating challenges in advance. While they can let players have influence on this, e.g. through a scale of difficulty settings or by choosing their opponents, <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> is rules in the game system that adjusts players' challenges depending on how well they are gaming.",
+            "There is a US patent related to <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style><ref name=\"patent\"/>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oblivion\">Oblivion</link></style> all uses <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> systems to within certain limits scale the strength of enemies to those of the players.",
+            "While changing this is quite natural for these combat-oriented games, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%20series\">Super Monkey Ball series</link></style> instead typically increase the maximum speed of the last racers to help that player catch up.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> can also have <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> systems. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shadows%20over%20Camelot\">Shadows over Camelot</link></style> increases the difficulty of other challenges when quests are solved, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> has mechanisms for balancing gameplay halfway through game instances when playing with a odd number of players.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> is in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> used to try and reach a certain level of challenge, possibly set by players through <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, while for <style=\"Link\"><link=\"pvp\">PvP</link></style> it is instead used to achieve <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>. In games with <style=\"Link\"><link=\"tvt\">TvT</link></style>, <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> systems are also applied to achieve <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>. A prime choice for these systems are if they should be possible to turn on and off, i.e. if they are <style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style> - if always active they may not be revealed to players to give them an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>. One reason to make them optional is that they can they work as a form of <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>; another reason to make <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> systems optional is that the decrease the <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> possible in games.",
+            "The main way of achieving <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> is through <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style>, typically by measuring gameplay progress and then giving <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Increased%20Abilities\">Increased Abilities</link></style> as appropriate. Common examples are affecting how <style=\"Link\"><link=\"damage\">Damage</link></style> is given or received, and affecting top speed for <style=\"Link\"><link=\"movement\">Movement</link></style>. Number of <style=\"Link\"><link=\"enemies\">Enemies</link></style> and the performance of these and <style=\"Link\"><link=\"ai-players\">AI Players</link></style> are other design solutions used frequently. A low key way of providing <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> is to give failing players <style=\"Link\"><link=\"clues\">Clues</link></style> on how to progress better.",
+            "While all games can have <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> can do them secretly and without causing any extra <style=\"Link\"><link=\"excise\">Excise</link></style> to players and <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can do the adjustment on the fly depending on the specific context of gameplay.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "When optional, <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> is typically selectable through <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> but in other cases they may be completely hidden from players.",
+            "<style=\"H2\">Consequences</style>",
+            "In <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> acts as a <style=\"Link\"><link=\"balancing-effects\">Balancing Effect</link></style>, not necessarily making gameplay even between players and the system but towards reaching <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style> or <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> depending on the game design. If players can choose to have <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> it can due to this function as <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> and can also help preserve a sense of <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>. In games with <style=\"Link\"><link=\"pvp\">PvP</link></style> the systems can give rise to <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> and in games with <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay, <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>. For games with <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> support, the latter also gives players a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to game less depending on how this will affect the other players.",
+            "Systems for <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> are <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, both in themselves and as examples of <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>. They can give players <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perceptions of Influence</link></style>, if not revealed to them. If they are known to players this may still occur by this is a volatile state - if may just as easily work against it if players can note specific cases when the system rather than the player had the deciding effect. When <style=\"CurrentLink\">Dynamic Difficulty Adjustment</style> systems forcefully but secretly change outcomes of game events, they give rise to <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style></style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style></style>",
+            "<style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"pvp\">PvP</link></style></style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"tvt\">TvT</link></style></style>",
+            "<style=\"Link\"><link=\"team-balance\">Team Balance</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"pvp\">PvP</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, <style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Increased%20Abilities\">Increased Abilities</link></style>, <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "balancing-effects",
+            "casual-gameplay",
+            "challenging-gameplay",
+            "exaggerated-perception-influence",
+            "fudged-results",
+            "handicap-systems",
+            "freedom-choice",
+            "difficulty-levels",
+            "player-balance",
+            "team-balance"
+        ],
+        "modulates" : [
+            "ai-players",
+            "damage",
+            "enemies",
+            "movement",
+            "pvp",
+            "single-player-games",
+            "tvt"
+        ],
+        "instantiated_by" : [
+            "clues",
+            "decreased-abilities",
+            "dedicated-game-facilitators",
+            "game-masters",
+            "increased-abilities",
+            "negative-feedback-loops"
+        ],
+        "modulated_by" : [
+            "optional-rules",
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+            "exaggerated-perception-influence",
+            "value-effort"
+        ]
+    }
+}

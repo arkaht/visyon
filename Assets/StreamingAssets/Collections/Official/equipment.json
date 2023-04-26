@@ -1,0 +1,101 @@
+{
+    "name" : "Equipment",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns",
+        "Interface  Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Game items that can be equipped.",
+        "markups" : [
+            "<style=\"Definition\">Game items that can be equipped.</style>",
+            "In games where players can get hold of many types of items that can be used or worn, players need to actively choose which items to use. This is typically done by equipping them, and since not all items necessarily can be equipped it makes sense to distinguish between those that are <style=\"CurrentLink\">Equipment</style> and those that are not.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20and%20Dragons\">Dungeons and Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mutant\">Mutant</link></style> have many <style=\"CurrentLink\">Equipment</style> such as weapons, armor, tools, and for some cases magical items. While neither players nor game masters necessarily keep exact track of what is equipped (except maybe armor) since this can be negotiated as necessary, computer-based examples such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style> requires that players explicitly choose which items are equipped. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> are games sharing similarities with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style>, including the requirement to equip items for them to be usable or affect gameplay beyond what they weight.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> have a limited set of weapons (and medical equipment for the latter) that players can use. At any given point only one of these are usable, but all can be said to be <style=\"CurrentLink\">Equipment</style> in that players have to select one for it to become active.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Besides deciding which ones should become <style=\"CurrentLink\">Equipment</style>, making <style=\"Link\"><link=\"game-items\">Game Items</link></style> possible to equip consists of deciding if they are actively or passively equipped. Actively equipped <style=\"Link\"><link=\"game-items\">Game Items</link></style> let <style=\"Link\"><link=\"agents\">Agents</link></style> be prepared to use specific actions while passively equipped <style=\"Link\"><link=\"game-items\">Game Items</link></style> either constantly provide a benefit or does so when <style=\"Link\"><link=\"enemies\">Enemies</link></style> perform actions against them. In both cases this is done to receive <style=\"Link\"><link=\"new-abilities\">New</link></style> or <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> compared to what one currently has, although this can also be seen as selecting the most appropriate ones for a given situation if the items selected from are available most of the time. Types of <style=\"Link\"><link=\"game-items\">Game Items</link></style> commonly equipped for active use is <style=\"Link\"><link=\"weapons\">Weapons</link></style> and <style=\"Link\"><link=\"tools\">Tools</link></style> while <style=\"Link\"><link=\"armor\">Armor</link></style> and <style=\"CurrentLink\">Equipment</style> are commonly done so for defensive use. <style=\"Link\"><link=\"game-items\">Game Items</link></style> that are intended to be usable as <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> need to be <style=\"CurrentLink\">Equipment</style> since they are to be applied on other <style=\"CurrentLink\">Equipment</style> to modify the <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> they provide - this is one example of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Upgrading\">Upgrading</link></style>. One way of supporting this is through <style=\"Link\"><link=\"sockets\">Sockets</link></style>.",
+            "Regardless of if <style=\"CurrentLink\">Equipment</style> are to be used actively or passively, using them can cause <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>. This, or simply having a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Number%20of%20Uses\">Limited Number of Uses</link></style>, makes the <style=\"CurrentLink\">Equipment</style> into a form of <style=\"Link\"><link=\"resources\">Resource</link></style> and the actions they provide into <style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style>. Likewise, linking the loss of <style=\"CurrentLink\">Equipment</style> to <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style> (but not <style=\"Link\"><link=\"permadeath\">Permadeaths</link></style>) make them into <style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style>.",
+            "A special case of <style=\"CurrentLink\">Equipment</style> are ''cursed'' <style=\"Link\"><link=\"game-items\">Game Items</link></style>. These, most often found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> (and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style>), give <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>. Equipping them are <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> to avoid them simply being removed, or at least until some type of <style=\"Link\"><link=\"privileged-abilities\">Privileged Ability</link></style> has been applied on them. For games wishing to avoid <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style> (primarily <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>), making equipping of <style=\"CurrentLink\">Equipment</style> into <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> is an option - but here it is not the equipping that cannot be reversed, it is that having done so once makes it impossible to use in <style=\"Link\"><link=\"trading\">Trading</link></style> with other players.",
+            "Who should be able to use the <style=\"CurrentLink\">Equipment</style> is another design choice. This may be <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>, but also <style=\"Link\"><link=\"companions\">Companions</link></style> and <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, and allowing this only for some is a way to provide <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>.",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style> that are to equip <style=\"Link\"><link=\"game-items\">Game Items</link></style> need to have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> of these in some form. This can be proven by having <style=\"CurrentLink\">Equipment</style> in <style=\"Link\"><link=\"inventories\">Inventories</link></style> or <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style>. For <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style>, some <style=\"CurrentLink\">Equipment</style> can be said to be possible to equip twice - once when acquired and placed in a slot (e.g. picking up a weapon in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>) and once when that <style=\"Link\"><link=\"equipment-slots\">Equipment Slot</link></style> is chosen to be active. ",
+            "While <style=\"CurrentLink\">Equipment</style> can be made available just like all other types of <style=\"Link\"><link=\"game-items\">Game Items</link></style>, the option to make them <style=\"Link\"><link=\"loot\">Loot</link></style> is somewhat more plausible than for other types of <style=\"Link\"><link=\"game-items\">Game Items</link></style> since they can be assumed to have been used, or at least intended by the used. A special case however regards games with <style=\"Link\"><link=\"player-created-characters\">Player-Created Characters</link></style>. Here, equipping the <style=\"Link\"><link=\"characters\">Characters</link></style> is part of creating them so what <style=\"CurrentLink\">Equipment</style> should be available before gameplay begins become a necessary design choice in these games. The use of <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style> is a common design solution in these cases, and adds a level of <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> regarding this.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "While any <style=\"CurrentLink\">Equipment</style> can affect the diegetic presentation of <style=\"Link\"><link=\"avatars\">Avatars</link></style>, the purpose of <style=\"Link\"><link=\"cosmetic-game-items\">Cosmetic Game Items</link></style> is to have this effect. This can be the sole purpose why the <style=\"Link\"><link=\"game-items\">Game Items</link></style> are <style=\"CurrentLink\">Equipment</style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Equipping <style=\"Link\"><link=\"game-items\">Game Items</link></style> are typically done through adding functionality to the <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> used for <style=\"Link\"><link=\"inventories\">Inventories</link></style> and <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Equipment</style> provide a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> for players, not only by having the option to use one particular <style=\"Link\"><link=\"game-items\">Game Item</link></style> but also indirectly because there typically are several <style=\"Link\"><link=\"game-items\">Game Items</link></style> to choose from. The typical reason to equip is to access <style=\"Link\"><link=\"improved-abilities\">Improved</link></style> or <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> of <style=\"Link\"><link=\"game-items\">Game Items</link></style> so in one sense <style=\"CurrentLink\">Equipment</style> make these changes possible as well, and since this is often done through <style=\"Link\"><link=\"inventories\">Inventories</link></style> of systems of <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style> the pattern changes how these are used as well. However, equipping ''cursed'' <style=\"Link\"><link=\"game-items\">Game Items</link></style> and thereby receiving <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> are <style=\"Link\"><link=\"traps\">Traps</link></style> likely to cause <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> since <style=\"Link\"><link=\"game-items\">Game Items</link></style> rarely are equipped if one knows their effects. While all <style=\"Link\"><link=\"game-items\">Game Items</link></style> can cause players to have <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals, the <style=\"Link\"><link=\"improved-abilities\">Improved</link></style> or <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> that <style=\"CurrentLink\">Equipment</style> can provide give direct gameplay rationale for having these goals.",
+            "<style=\"CurrentLink\">Equipment</style> can be <style=\"Link\"><link=\"resources\">Resources</link></style> in the cases where they can stop functioning (e.g. through <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>) or where possession of them is not permanent due to them being <style=\"Link\"><link=\"transferable-items\">Transferable Items</link></style>.",
+            "When equipping <style=\"Link\"><link=\"game-items\">Game Items</link></style> is done through choosing which out of several <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style> should be active, this provides a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> - players can choose which action to be ready to perform out of a limited selection.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Number%20of%20Uses\">Limited Number of Uses</link></style></style>",
+            "<style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> and <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style></style>",
+            "<style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"companions\">Companions</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>, <style=\"Link\"><link=\"cosmetic-game-items\">Cosmetic Game Items</link></style>, <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>, <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Number%20of%20Uses\">Limited Number of Uses</link></style>, <style=\"Link\"><link=\"loot\">Loot</link></style>, <style=\"Link\"><link=\"player-created-characters\">Player-Created Characters</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, <style=\"Link\"><link=\"sockets\">Sockets</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Upgrading\">Upgrading</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style> when used together with <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "decreased-abilities",
+            "freedom-choice",
+            "gain-ownership",
+            "improved-abilities",
+            "irreversible-events",
+            "new-abilities",
+            "privileged-abilities",
+            "temporary-abilities",
+            "limited-set-actions",
+            "traps"
+        ],
+        "modulates" : [
+            "avatars",
+            "companions",
+            "inventories",
+            "non-player-characters",
+            "player-characters"
+        ],
+        "instantiated_by" : [
+            "armor",
+            "game-items",
+            "tools",
+            "weapons",
+            "upgrades"
+        ],
+        "modulated_by" : [
+            "budgeted-action-points",
+            "cosmetic-game-items",
+            "death-consequences",
+            "deterioration",
+            "equipment-slots",
+            "freedom-choice",
+            "limited-number-uses",
+            "loot",
+            "player-created-characters",
+            "secondary-interface-screens",
+            "sockets",
+            "upgrades",
+            "upgrading"
+        ],
+        "conflicts" : [
+            "purchasable-game-advantages"
+        ]
+    }
+}

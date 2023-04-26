@@ -1,0 +1,64 @@
+{
+    "name" : "Loading Hints",
+    "categories" : [
+        "Patterns",
+        "Information Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Gameplay hints presented during loading sequences.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay hints presented during loading sequences.</style>",
+            "Computer-based games can usually provide players with gameplay whenever players what and for how long they want. One exception to this is that they may have to load data when players enter new levels or worlds, and this forced waiting can be irritating in contrast to the gameplay. <style=\"CurrentLink\">Loading Hints</style> is one way of avoiding this by providing some information to players during the enforced pause, thereby adding some benefit to the  interruption.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20IV\">Civilization IV</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style> show <style=\"CurrentLink\">Loading Hints</style> while new worlds are generated or when players load saved games.",
+            "Both the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> present <style=\"CurrentLink\">Loading Hints</style> when players fast travel between locations.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Loading Hints</style> obviously requires that there are points during gameplay (or just before it starts) when players have to wait, i.e. when they have <style=\"Link\"><link=\"downtime\">Downtime</link></style>. However, the pattern can make sense to use in games that have countdowns or where there is a pause before some type of gameplay begins. This given, creating <style=\"CurrentLink\">Loading Hints</style> mainly consist of compiling <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> and selecting which to show as hints and possibly when during gameplay which hint should be shown.",
+            "The alternatives to using <style=\"CurrentLink\">Loading Hints</style> is simply letting players wait, giving them <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> to view, or providing <style=\"Link\"><link=\"minigames\">Minigames</link></style> or other small interactive possibilities (see the GiantBomb page<ref name=\"giantbomb\"/> for more examples).",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Loading Hints</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Information%20Patterns\">Information Pattern</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Although <style=\"CurrentLink\">Loading Hints</style> pertain to gameplay, this information can overlap with a game narration so the pattern can also be used to bring forward <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> or provide background information about <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Loading Hints</style> are ways to provide players with <style=\"Link\"><link=\"clues\">Clues</link></style> while they are having <style=\"Link\"><link=\"downtime\">Downtime</link></style>. By doing so, they can support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> and encourage <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style> by giving players <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>. This can also help players learn and understand games with <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style></style>",
+            "<style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "clues",
+            "smooth-learning-curves",
+            "strategic-planning"
+        ],
+        "modulates" : [
+            "complex-gameplay",
+            "downtime",
+            "predetermined-story-structures",
+            "strategic-knowledge"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

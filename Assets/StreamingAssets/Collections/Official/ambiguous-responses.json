@@ -1,0 +1,62 @@
+{
+    "name" : "Ambiguous Responses",
+    "categories" : [
+        "Patterns",
+        "Agent Patterns",
+        "Speculative Patterns",
+        "Dialogue Patterns",
+        "Needs references",
+        "Needs examples",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The ability of agents to gives responses that can be interpreted in two or more ways.",
+        "markups" : [
+            "<style=\"Definition\">The ability of agents to gives responses that can be interpreted in two or more ways.</style>",
+            "Conversations in games between agents in games consist of utterances and responses to these utterances. When the responses can be interpreted to mean two or more different things, the game has <style=\"CurrentLink\">Ambiguous Responses</style>. ",
+            "Note: ''Gamers have discusses <style=\"CurrentLink\">Ambiguous Responses</style> is relation to dialogues in games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mass%20Effect%20series\">Mass Effect</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style> but this has been related to that the options players are provided with are ambiguous, i.e. they may seem to indicate that the player character will act in a certain way but when the option is chosen he or she performs in another way.''",
+            "<style=\"H3\">Examples</style>",
+            "As a currently <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Speculative%20Patterns\">Speculative Pattern</link></style>, no examples are listen here.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Creating <style=\"CurrentLink\">Ambiguous Responses</style>, or the possibility for it, in a game depend mainly on how to modify the <style=\"Link\"><link=\"information-passing\">Information Passing</link></style> that occurs in it. Naturally, free-text communication between humans, e.g. through <style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, makes the presence of <style=\"CurrentLink\">Ambiguous Responses</style> possible but does not guarantee that it occurs. <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>, being more structured, can enforce that at least some options are <style=\"CurrentLink\">Ambiguous Responses</style> both from <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> and <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> but making all options such for players can remove the sense of <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> for players.",
+            "Allowing <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> to provide <style=\"CurrentLink\">Ambiguous Responses</style> is another possibility, but unless their options in <style=\"Link\"><link=\"dialogues\">Dialogues</link></style> are tagged as ambiguous it can require significant development of AI systems to make them able to provide intentional ones. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ELIZA\">ELIZA</link></style> shows another design strategy for ambiguous <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> where all responses possible are precisely ambiguous and the <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agent</link></style> has no internal model of what the meaning of the conversation is.",
+            " ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Ambiguous Responses</style> is one of the prime vehicles for setting up the misunderstandings in <i>comedies of errors</i>. As such, the pattern can be used to create certain blocks in <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Ambiguous Responses</style> basically adds <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> to <style=\"Link\"><link=\"information-passing\">Information Passing</link></style>. In doing so it can create <style=\"Link\"><link=\"tension\">Tension</link></style> as players can be unsure of the actual meaning of a response.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"information-passing\">Information Passing</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "predetermined-story-structures",
+            "tension",
+            "uncertainty-information"
+        ],
+        "modulates" : [
+            "algorithmic-agents",
+            "information-passing"
+        ],
+        "instantiated_by" : [
+            "chat-channels"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

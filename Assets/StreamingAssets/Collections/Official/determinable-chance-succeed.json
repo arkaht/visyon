@@ -1,0 +1,85 @@
+{
+    "name" : "Determinable Chance to Succeed",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Game support that lets players have ways of judging the chance for success or failure they have with their actions.",
+        "markups" : [
+            "<style=\"Definition\">Game support that lets players have ways of judging the chance for success or failure they have with their actions.</style>",
+            "For games to be interesting to play, players must feel that they can influence the outcome of the game. Players have a <style=\"CurrentLink\">Determinable Chance to Succeed</style> when they can, rightly or wrongly, determine more or less exactly what their chance of succeeding in influencing the game state &mdash; and thereby the outcome of a game &mdash; in specific ways.",
+            "<style=\"H3\">Examples</style>",
+            "Simple betting games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Craps\">Craps</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hazard\">Hazard</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style> let players have a fully <style=\"CurrentLink\">Determinable Chance to Succeed</style>. Other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Gambling%20Games\">Gambling Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blackjack\">Blackjack</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style> allow players to make some calculations on what probabilities they have to win but not necessarily with complete certainty. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Basic%20Roleplaying\">Basic Roleplaying</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> let player characters have skills which provide specific percentages to succeed with actions. The ''V.A.T.S system'' in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> is a similar case where players in combat can get the exact chances of hitting various enemies and body parts displayed.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Giving players a <style=\"CurrentLink\">Determinable Chance to Succeed</style> requires that games offer them a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> between actions or goals and that their actions in the game have <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>. However, having a <style=\"CurrentLink\">Determinable Chance to Succeed</style> with several different actions gives a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, so the patterns affect each other on different levels, e.g. regarding choices between the ways actions can be tried and why actions should be performed. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Results\">Player Decided Results</link></style> are an example of how players can be guaranteed to influence the game, although not necessarily in a way that lets all players have influence.",
+            "Players' basic perception of their chance to succeed is usually based on <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, the <style=\"Link\"><link=\"skills\">Skills</link></style> of their <style=\"Link\"><link=\"characters\">Characters</link></style>, and if they feel games have <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> or <style=\"Link\"><link=\"team-balance\">Team Balance</link></style> (in games with <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay for the latter). Similar to <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> can make players continuously feel that they have a <style=\"CurrentLink\">Determinable Chance to Succeed</style> throughout a game. Although <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> naturally gives players a <style=\"CurrentLink\">Determinable Chance to Succeed</style> that is equal to the actual chance to succeed, this may dissuade players from trying if the chance is small or nonexistent. In these cases, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> can instead be used to show, or give the illusion, that players have a chance to succeed and thereby encourage players to try determine what that chance is. Note that the chance perceived by players do not need to be correct, and if players are likely to think they have higher chances than they do this pattern supports <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>. Players' possibility to perceive the chances to succeed with specific abilities can easily be modulated negatively during gameplay with <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> and <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, and positively by <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> and <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cut%20Scenes\">Cut Scenes</link></style> can give players information on how they should act and thereby make it easier to determine what chances they have of succeeding. <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style> and <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> can provide players with explicit information about how well they are performing which can in turn help them determine what chances new attempts will have. <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style> can help players in having a <style=\"CurrentLink\">Determinable Chance to Succeed</style> in two ways: first in knowing that they have several chances and second being able to use their previous experiences in later attempt. <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> have a strong impact on players' ability to succeed: they can either make attempted actions automatic successes, automatic failures, or let the success depend on <style=\"Link\"><link=\"randomness\">Randomness</link></style> with the possible influence of <style=\"Link\"><link=\"skills\">Skills</link></style>. This can translate into players' having a <style=\"CurrentLink\">Determinable Chance to Succeed</style> depending on what information the <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> provide and how much players' trust that information.",
+            "Game mechanisms that hide or manipulate players' chance of succeeding works against having a <style=\"CurrentLink\">Determinable Chance to Succeed</style>. This includes <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, and <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>. While <style=\"Link\"><link=\"player-augmentations\">Player Augmentations</link></style> may actually increase chances of success, it does not necessarily make it possible for players to determine how large that chance is. In contrast, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> can make players so focused on handling the challenges so they cannot reflect on their chances of succeeding, so this pattern can also work against <style=\"CurrentLink\">Determinable Chance to Succeed</style>. <style=\"Link\"><link=\"enemies\">Enemies</link></style> can do this as well by having unknown capabilities or unknown possibilities to succeed, by these can also be used to increase or decrease the determinability. <style=\"Link\"><link=\"randomness\">Randomness</link></style> can in a similar faction affect players' possibility to determine their chances of success, so this pattern can also modulate <style=\"CurrentLink\">Determinable Chance to Succeed</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> and <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style> are examples of events that may ruin players' possibility to have a <style=\"CurrentLink\">Determinable Chance to Succeed</style> while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leaps%20of%20Faith\">Leaps of Faith</link></style> are actions that players have to perform without having any determinable chance of success.",
+            "<style=\"H2\">Consequences</style>",
+            "Having a <style=\"CurrentLink\">Determinable Chance to Succeed</style> gives players influence, which can become an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> (which in turn actually can work against having a proper <style=\"CurrentLink\">Determinable Chance to Succeed</style>). When this lets player feel that they have a chance to succeed, this can in turn led to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style> as well as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Results\">Player Decided Results</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leaps%20of%20Faith\">Leaps of Faith</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "exaggerated-perception-influence",
+            "emotional-engrossment",
+            "tension"
+        ],
+        "modulates" : [
+            "freedom-choice"
+        ],
+        "instantiated_by" : [
+            "cutscenes",
+            "extra-chances",
+            "freedom-choice",
+            "imperfect-information",
+            "near-miss-indicators",
+            "perfect-information",
+            "player-balance",
+            "player-decided-results",
+            "predictable-consequences",
+            "progress-indicators",
+            "skills",
+            "smooth-learning-curves",
+            "strategic-knowledge",
+            "team-balance"
+        ],
+        "modulated_by" : [
+            "ability-losses",
+            "decreased-abilities",
+            "enemies",
+            "game-masters",
+            "improved-abilities",
+            "new-abilities",
+            "randomness"
+        ],
+        "conflicts" : [
+            "balancing-effects",
+            "challenging-gameplay",
+            "enemies",
+            "exaggerated-perception-influence",
+            "fudged-results",
+            "leaps-faith",
+            "surprises",
+            "ultra-powerful-events"
+        ]
+    }
+}

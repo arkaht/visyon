@@ -1,0 +1,83 @@
+{
+    "name" : "Handles",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Identifiers to recognize players or their efforts in games.",
+        "markups" : [
+            "<style=\"Definition\">Identifiers to recognize players or their efforts in games.</style>",
+            "Many types of games need to let players identify themselves to the game and other players for practical reasons or those based on vanity. <style=\"CurrentLink\">Handles</style> provide players with means to do so, and these handle may be temporary ones that only are used for one game instance or are used to keep records of all game instances players have in a game, or even on a gaming platform.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Invaders\">Space Invaders</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gauntlet\">Gauntlet</link></style> and many, if not most, other arcade games have high score lists where the players can leave their short nick-names if they perform well enough in the game. The players can enter any kind of (three-character) <style=\"CurrentLink\">Handles</style> in these high score lists, but using the same Handle as someone is likely to be considered impolite.",
+            "Several online multiplayer <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style> let players enter names for their avatars. Some games, e.g. the later installments of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style> use these Handles as keys to store the performances of the individual players, letting other player view these compare them with each other. The <style=\"CurrentLink\">Handles</style> are also used to let players find friends to player together with, something especially important in cooperative games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>. ",
+            "Games with persistent game worlds that players can return to, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Entropia%20Universe\">Entropia Universe</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> need <style=\"CurrentLink\">Handles</style> and passwords to let players have secure user accounts so they and only they can take up gameplay from where they left it when last played.",
+            "Gaming platforms such as Steam, Xbox Live, and PlayStation Network require players to create profiles identifiable by their <style=\"CurrentLink\">Handles</style> which not only let players coordinate their gaming activities but also let players view each others' achievements and other records of gaming activities.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CityVille\">CityVille</link></style>, and other Facebook-based games take information from players' profiles, e.g. their names and profile pictures, to create the <style=\"CurrentLink\">Handles</style> used in the games.",
+            "<style=\"H2\">Using the pattern</style>",
+            "One of the two main aspects of designing <style=\"CurrentLink\">Handles</style> is how they should be constructed and the other is how they are displayed or used. <style=\"CurrentLink\">Handles</style> can be symbols or short free-form pieces of text, but players may either have a limited set of predefined <style=\"CurrentLink\">Handles</style> to choose from or be allowed to create them themselves through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Naming\">Naming</link></style> (which in the case of symbols might in fact be closer to drawing than <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Naming\">Naming</link></style>). The classic limit of three characters per <style=\"CurrentLink\">Handle</style> that early <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Invaders\">Space Invaders</link></style> had is sometimes still used in web-based games. In online games for children, such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disney's%20Toontown%20Online\">Disney's Toontown Online</link></style>, players may only be allowed to compose their <style=\"CurrentLink\">Handles</style> from predefined list of words in order to avoid the possibility of obscene <style=\"CurrentLink\">Handles</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CityVille\">CityVille</link></style>, and many other Facebook-based games use the information in players' accounts as <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style> to create their <style=\"CurrentLink\">Handles</style> - showing a case where players only indirectly can affect what <style=\"CurrentLink\">Handles</style> they will get in a game.",
+            "Regarding their uses in games, <style=\"CurrentLink\">Handles</style> are often used to create <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/User%20Accounts\">User Accounts</link></style>. Through the latter, they can support <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> through <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style> and ways to identify each other in <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> and <style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>. In the latter, they can also be prefixed to <style=\"Link\"><link=\"emotes\">Emotes</link></style> to ensure that these have a common format so that the <style=\"Link\"><link=\"emotes\">Emotes</link></style> are easily identified as such. <style=\"CurrentLink\">Handles</style> can also be used to display with <style=\"Link\"><link=\"teams\">Teams</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style> players belong to, and this may either be controlled by the game system (or <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>) or be informally done by player agreement. When <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"CurrentLink\">Handles</style> exist in games, <style=\"CurrentLink\">Handles</style> are quite often used to create <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> that provide <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> of which <style=\"Link\"><link=\"avatars\">Avatars</link></style> is controlled by which players. Alternatively, the <style=\"CurrentLink\">Handles</style> can be shown as part of <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> when these are pointed at <style=\"Link\"><link=\"avatars\">Avatars</link></style> (or <style=\"Link\"><link=\"enemies\">Enemies</link></style>).",
+            "In games with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> or <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>, the design of <style=\"CurrentLink\">Handles</style> also requires that one considers possibilities of duplicates, temporary <style=\"CurrentLink\">Handles</style>, identity thefts, and players trying to gain advantages from having several <style=\"CurrentLink\">Handles</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Handles</style> are used to identify different players in cases where differentiation would otherwise be impossible or difficult, e.g. in <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style> or <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>. For people playing together this can support <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style> in <style=\"Link\"><link=\"teams\">Teams</link></style> or <style=\"Link\"><link=\"parties\">Parties</link></style>, partly by providing different identifies but even more so by making it possible to assume future actions, and can help players form more <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Organizations\">Social Organizations</link></style> where the players may have different roles and responsibilities. Both in these types of games and others, <style=\"CurrentLink\">Handles</style> can provide the starting points for players' to have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Identification\">Identification</link></style> with entities in the games or the events that take place during gameplay.",
+            "Whenever <style=\"CurrentLink\">Handles</style> can be noticed by others players or <style=\"Link\"><link=\"spectators\">Spectators</link></style>, they can work to accrue <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style> since a players' <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> can be noticed. <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style> are a prime example of this use of Handles, allowing players to compare the outcomes of their game instances with other players. ",
+            "Letting players choose or create their <style=\"CurrentLink\">Handles</style> gives them a limited form of a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, but may make <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style> impossible. However, <style=\"CurrentLink\">Handles</style> in games with only <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> can allow for a <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>.",
+            "Having a unique identify is a core feature of being a <style=\"Link\"><link=\"characters\">Character</link></style>, so showing <style=\"CurrentLink\">Handles</style> through <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> or <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style> can be the starting point for having the <style=\"Link\"><link=\"characters\">Characters</link></style> pattern in a game design.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Identification\">Identification</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style></style>",
+            "<style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> or <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style></style>",
+            "<style=\"Link\"><link=\"characters\">Characters</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style>, <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style>, <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style>, <style=\"Link\"><link=\"emotes\">Emotes</link></style>, <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>, <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"parties\">Parties</link></style>, <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/User%20Accounts\">User Accounts</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Naming\">Naming</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "game-state-indicators",
+            "high-score-lists",
+            "identification",
+            "possibility-anonymity",
+            "characters"
+        ],
+        "modulates" : [
+            "asynchronous-gameplay",
+            "avatars",
+            "chat-channels",
+            "cooperation",
+            "coordination",
+            "crosshairs",
+            "emotes",
+            "game-lobbies",
+            "mediated-gameplay",
+            "multiplayer-games",
+            "parties",
+            "public-player-statistics",
+            "teams",
+            "user-accounts"
+        ],
+        "instantiated_by" : [
+            "extra-game-input",
+            "naming"
+        ],
+        "modulated_by" : [
+            "geospatial-game-widgets"
+        ],
+        "conflicts" : [
+            "enforced-player-anonymity"
+        ]
+    }
+}

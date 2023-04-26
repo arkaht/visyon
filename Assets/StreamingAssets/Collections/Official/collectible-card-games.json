@@ -1,0 +1,64 @@
+{
+    "name" : "Collectible Card Games",
+    "categories" : [
+        "Patterns",
+        "Card Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Card games where players maintain their own card collections which are used to provide game elements to the individual game instances they participate in.",
+        "markups" : [
+            "<style=\"Definition\">Card games where players maintain their own card collections which are used to provide game elements to the individual game instances they participate in.</style>",
+            "Many games uses cards but <style=\"CurrentLink\">Collectible Card Games</style> are a specific category of these games where players bring their own set of cards to play each other. This adds aspects of acquiring new cards and preparing which cards to use to these games.",
+            "<style=\"H3\">Examples</style>",
+            "Well-known examples of <style=\"CurrentLink\">Collectible Card Games</style> include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pok%C3%A9mon%20Trading%20Card%20Game\">Pokémon Trading Card Game</link></style>. See also the category of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Collectible%20Card%20Games\">Collectible Card Games</link></style> on this wiki for additional examples.",
+            "An odd example of a mini game, the card game ''Caravan'' in the game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> is a collectible card game which depends on players gathering cards in a post-apocalyptic US wasteland.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Collectible Card Games</style> are basically games using <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style> of <style=\"Link\"><link=\"cards\">Cards</link></style> that are put into <style=\"Link\"><link=\"decks\">Decks</link></style>. Like other games using <style=\"Link\"><link=\"cards\">Cards</link></style>, they can make use of <style=\"Link\"><link=\"cooldown\">Cooldown</link></style> periods, <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style>, and <style=\"Link\"><link=\"hands\">Hands</link></style>; they typically don't use <style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style> since this is cumbersome to keep track of while still at the same time keeping track of card ownership. <style=\"Link\"><link=\"drafting\">Drafting</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style> are two ways of letting players gain their initial <style=\"Link\"><link=\"decks\">Decks</link></style>.",
+            "<style=\"CurrentLink\">Collectible Card Games</style> make use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style> much more often than other card-based games, this since the collecting aspect of the game is lost if people have had time to get all existing <style=\"Link\"><link=\"cards\">Cards</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Collectible Card Games</style> require players to engage in <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> since they need to acquire <style=\"Link\"><link=\"cards\">Cards</link></style> before gameplay and decide which <style=\"Link\"><link=\"cards\">Cards</link></style> they want to use. Further, preparing to play <style=\"CurrentLink\">Collectible Card Games</style> requires players to engage in <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>. That good <style=\"Link\"><link=\"cards\">Cards</link></style> may be more expensive than other <style=\"Link\"><link=\"cards\">Cards</link></style> and that having a large collection to choose from can be advantageous means that <style=\"CurrentLink\">Collectible Card Games</style> typically provide <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>. Since <style=\"CurrentLink\">Collectible Card Games</style> often have <style=\"Link\"><link=\"cards\">Cards</link></style> containing their own rules, combinations of these are likely to create <style=\"Link\"><link=\"combos\">Combos</link></style>. The introduction of new <style=\"Link\"><link=\"cards\">Cards</link></style> into <style=\"CurrentLink\">Collectible Card Games</style> can make players be surprised of new effects in the game, and this can practically become that same as <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style> for players experiencing this.",
+            "<style=\"CurrentLink\">Collectible Card Games</style> can make <style=\"Link\"><link=\"cards\">Cards</link></style> into the <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> for players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cards\">Cards</link></style> together with <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"cooldown\">Cooldown</link></style>, <style=\"Link\"><link=\"decks\">Decks</link></style>, <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style>, <style=\"Link\"><link=\"hands\">Hands</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "combos",
+            "deck-building",
+            "extra-game-actions",
+            "fudged-results",
+            "purchasable-game-advantages"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "cards"
+        ],
+        "modulated_by" : [
+            "cooldown",
+            "decks",
+            "discard-piles",
+            "drafting",
+            "expansions",
+            "hands",
+            "pre-customized-decks"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

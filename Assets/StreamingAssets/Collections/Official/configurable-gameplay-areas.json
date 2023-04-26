@@ -1,0 +1,65 @@
+{
+    "name" : "Configurable Gameplay Areas",
+    "categories" : [
+        "Patterns",
+        "To be Published",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Games with physical gameplay areas which can vary between game instances.",
+        "markups" : [
+            "<style=\"Definition\">Games with physical gameplay areas which can vary between game instances.</style>",
+            "Most games define a gameplay area in which the actions dictating the outcome of the game take place. When games that are set up and played several times have different gameplay areas, they display the characteristic of having <style=\"CurrentLink\">Configurable Gameplay Areas</style>.",
+            "<style=\"H3\">Examples</style>",
+            "The board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> is typically played on board 19 times 19 lines but can be played on other sizes. 13 times 13 lines is used for shorter more tactical games and 9 times 9 gameplay areas are used to teach the basics of the game.",
+            "Each game instance of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style> begins by setting up the gameplay areas by placing hexes. This may be done according to a formula or done randomly to create variation.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pirates!\">Pirates!</link></style> makes use of radio beacons to locate game islands in a physical environment. By varying the distances of these beacons, different style of gameplay and length of gameplay sessions have been achieved for each game instance.",
+            "The game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Can%20You%20See%20Me%20Now?\">Can You See Me Now?</link></style> takes place both in a real world city and on a map representing the same city. Game instances of the game have been set up in several different cities by selecting which part of them to show on the game map.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Configurable Gameplay Areas</style> can be used to modify <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>, and for games which use the real world to represent fictional ones - as for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">LARPs</link></style> do - these can be the same thing. The pattern is most typically achieved through <style=\"Link\"><link=\"tiles\">Tiles</link></style> for <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> while markers or the specific installation of underlying technological systems do so for <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>.",
+            "The pattern is heavily influence by whether a game is a <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Game</link></style> or not since this puts players in charge of the configuration. Although the choice of making a game self-facilitated may often be taken before decisions on making if have <style=\"CurrentLink\">Configurable Gameplay Areas</style>, this still makes <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> modify <style=\"CurrentLink\">Configurable Gameplay Areas</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Since <style=\"CurrentLink\">Configurable Gameplay Areas</style> is likely to affect how long it takes to play a game, the pattern gives <style=\"Link\"><link=\"negotiable-game-instance-duration\">Negotiable Game Instance Duration</link></style> and <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable Game Sessions</link></style>, even if the negotiation may be solely in the hands of <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>.",
+            "When applied on <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"CurrentLink\">Configurable Gameplay Areas</style> gives <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style>. For <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, the pattern gives <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> since players can before gameplay begins modify the set up to fit their perception of how to achieve the most desirable gameplay possible.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"negotiable-game-instance-duration\">Negotiable Game Instance Duration</link></style>, <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable Game Sessions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style></style>",
+            "<style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style></style>",
+            "<style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"tiles\">Tiles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "negotiable-game-instance-duration",
+            "negotiable-game-sessions",
+            "social-adaptability",
+            "reconfigurable-game-worlds"
+        ],
+        "modulates" : [
+            "game-worlds",
+            "real-world-gameplay-spaces"
+        ],
+        "instantiated_by" : [
+            "tiles"
+        ],
+        "modulated_by" : [
+            "self-facilitated-games"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

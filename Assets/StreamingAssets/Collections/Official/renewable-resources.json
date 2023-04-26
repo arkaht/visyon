@@ -1,0 +1,87 @@
+{
+    "name" : "Renewable Resources",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Resources which in some manner are replenished during gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Resources which in some manner are replenished during gameplay.</style>",
+            "Resources are a common component of games. While some resources are limited through a game sessions, others can be replenished during gameplay as they are used or due to other factors such as being constructed or reproduced. Such resources are <style=\"CurrentLink\">Renewable Resources</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "The fourth edition of the role-playing game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> let all players have powers which are renewable in the sense that they can be used once per encounter or once per day (there are also powers that can be used whenever). ",
+            "Card games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style> have <style=\"CurrentLink\">Renewable Resources</style> in that cards are drawn from a drawing stack that is recreated from a discard stack whenever it is depleted. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Legendary%20Encounters:%20An%20Alien%20Deck%20Building%20Game\">Legendary Encounters: An Alien Deck Building Game</link></style> shows a weak example of this since some drawing stacking are only reshuffled once before ending the game through their depletion. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fury%20of%20Dracula\">Fury of Dracula</link></style> the player that plays Dracula has five cards to evade capture or trigger events but these cards can only re-used as they drops off the \"trail spaces\".",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Renewable Resources</style> is used to ensure that <style=\"Link\"><link=\"resources\">Resources</link></style> are continuously introduced into game instances, although this characteristic may be disrupted by players. Designing for their presence in games mainly consist of deciding which <style=\"Link\"><link=\"resources\">Resources</link></style> should be renewable and under what conditions they renew. Specific ways of making <style=\"Link\"><link=\"resources\">Resources</link></style> renewable include having <style=\"Link\"><link=\"chargers\">Chargers</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>, and <style=\"Link\"><link=\"controllers\">Controllers</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>. While all these related to specific points in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"CurrentLink\">Renewable Resources</style> can also be achieved in more abstract ways through <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"no-use-bonus\">No-Use Bonus</link></style>, or <style=\"Link\"><link=\"regenerating-resources\">Regenerating Resources</link></style>. Designed <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style> by definition renew <style=\"Link\"><link=\"resources\">Resources</link></style>, at least as long as differences are made between different states of more abstract <style=\"Link\"><link=\"resources\">Resources</link></style> through <style=\"Link\"><link=\"converters\">Converters</link></style> or if some states of <style=\"Link\"><link=\"resources\">Resources</link></style> are seen as locked or hidden. The later can be achieved through having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> of the sources of renewal and give rise to <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals if <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style> is possible. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> can of course also be used in designs that do not have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style> as well. <style=\"CurrentLink\">Renewable Resources</style> are often necessary in <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> to avoid complete depletion or the <style=\"Link\"><link=\"resources\">Resources</link></style> being hoarded in specific places or states. Quite obviously, <style=\"CurrentLink\">Renewable Resources</style> isn't compatible with <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style>. ",
+            "Typical examples of <style=\"Link\"><link=\"resources\">Resources</link></style> that can be renewed include <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>, <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, and <style=\"Link\"><link=\"units\">Units</link></style>. When <style=\"CurrentLink\">Renewable Resources</style> are renewed automatically this is practically an example of applying a <style=\"Link\"><link=\"time-limits\">Time Limit</link></style>. When renewing them are instead actions, being able to do so can be <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> for <style=\"Link\"><link=\"characters\">Characters</link></style>. <style=\"CurrentLink\">Renewable Resources</style> can by affected by <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style> to create maximum amount of <style=\"Link\"><link=\"resources\">Resources</link></style> available to individual players or to the game state as a whole. Another, and compatible option, is to use <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diminishing%20Returns\">Diminishing Returns</link></style> so that the <style=\"Link\"><link=\"resources\">Resources</link></style> replenish slower if there are many of them.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Renewable Resources</style> can make the number of usable <style=\"Link\"><link=\"resources\">Resources</link></style> greater over a game instance than what is available at a specific point of time due to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style> or <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style>. Figuring out how to much <style=\"CurrentLink\">Renewable Resources</style> can be used without depleting their ability to renew is a form of <style=\"Link\"><link=\"resource-management\">Resource Management</link></style>, and can turn into situations where <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> need to be made between short-term needs and long-term benefits. <style=\"CurrentLink\">Renewable Resources</style> often gives rise to <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> when several players can make use of them since overuse from any one player can affect all negatively. ",
+            "<style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style> on <style=\"CurrentLink\">Renewable Resources</style> can created <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Encouraged%20Constant%20Player%20Activity\">Encouraged Constant Player Activity</link></style> since players need to consume the <style=\"Link\"><link=\"resources\">Resources</link></style> to most efficiently make use of them. This in itself is a form of <style=\"Link\"><link=\"resource-management\">Resource Management</link></style>. The presence of <style=\"CurrentLink\">Renewable Resources</style> affects the usefulness of <style=\"Link\"><link=\"mules\">Mules</link></style> since without them the <style=\"Link\"><link=\"mules\">Mules</link></style> can most likely only be effective for short periods of time.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"resource-management\">Resource Management</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Encouraged%20Constant%20Player%20Activity\">Encouraged Constant Player Activity</link></style>, <style=\"Link\"><link=\"resource-management\">Resource Management</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"mules\">Mules</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"chargers\">Chargers</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"no-use-bonus\">No-Use Bonus</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style>, <style=\"Link\"><link=\"regenerating-resources\">Regenerating Resources</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>",
+            "<style=\"Link\"><link=\"controllers\">Controllers</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"converters\">Converters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diminishing%20Returns\">Diminishing Returns</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style>, <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "privileged-abilities",
+            "resource-management",
+            "social-dilemmas",
+            "trade-offs",
+            "encouraged-constant-player-activity"
+        ],
+        "modulates" : [
+            "budgeted-action-points",
+            "characters",
+            "extra-chances",
+            "gain-ownership",
+            "health",
+            "limited-resources",
+            "lives",
+            "mules",
+            "persistent-game-worlds",
+            "resources",
+            "transfer-control",
+            "units"
+        ],
+        "instantiated_by" : [
+            "chargers",
+            "closed-economies",
+            "game-element-insertion",
+            "no-use-bonus",
+            "pick-ups",
+            "producers",
+            "regenerating-resources",
+            "spawning",
+            "controllers"
+        ],
+        "modulated_by" : [
+            "converters",
+            "diminishing-returns",
+            "ownership",
+            "resource-caps",
+            "time-limits"
+        ],
+        "conflicts" : [
+            "non-renewable-resources"
+        ]
+    }
+}

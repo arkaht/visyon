@@ -1,0 +1,72 @@
+{
+    "name" : "Ever Increasing Difficulty",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Gameplay that becomes more and more difficult as players succeed against the challenges put forward by the game.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay that becomes more and more difficult as players succeed against the challenges put forward by the game.</style>",
+            "Games often want to challenge players, and do so continuously until players have either won them or stopped playing. While players can be challenges anew by being given another type of challenge after one has been overcome, it is quite common for games to use a more difficult variation of a previous challenge, not the least to maintain a common type of gameplay and encourage players to develop the skills associated with the challenges. Games that string together series of steadily more difficult challenges this way can be said to have <style=\"CurrentLink\">Ever Increasing Difficulty</style>. This is most true in games that can never be won because they always provide new and more difficult challenges but a weaker form of the pattern hold true for a game with a limited set of challenges but which presents these in order of difficulty to their players.",
+            "<style=\"H3\">Examples</style>",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Centipede\">Centipede</link></style> confronted players with more and more difficult levels. However, due to practical reasons concerning programming, the difficulty in these games  flatten out as some point so they are weak examples of the game. ",
+            "Players of both tabletop and computer-based versions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, typically meet more and more difficult opponents until either the game or campaign ends, or they simply stop playing.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Games are typically design for <style=\"CurrentLink\">Ever Increasing Difficulty</style> to ensure that players at some point have <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style>. This can only be guaranteed in <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> since these can for practical purposes indefinitely increase the difficulty, but a weaker form of the pattern can be found in games that have end conditions but provide <style=\"CurrentLink\">Ever Increasing Difficulty</style> until those conditions are met. This is a weaker form since skillful or experienced players may neither experience <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> or <style=\"Link\"><link=\"tension\">Tension</link></style> from them. ",
+            "Designing <style=\"CurrentLink\">Ever Increasing Difficulty</style> depends on finding ways of making challenges more and more difficult as gameplay progresses. Generally, this is designing a <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style> where succeeding against a particular challenge makes the next challenge be more difficult. An archetypical examples of this is presenting players with some form of <style=\"Link\"><link=\"enemies\">Enemy</link></style> and when a player defeats that enemy a stronger or more difficult <style=\"Link\"><link=\"enemies\">Enemy</link></style> is presented. A variant of this is using more and more difficult <style=\"Link\"><link=\"waves\">Waves</link></style> of <style=\"Link\"><link=\"enemies\">Enemies</link></style>. An alternative, which does not have to rely on <style=\"Link\"><link=\"combat\">Combat</link></style> or otherwise overcoming <style=\"Link\"><link=\"enemies\">Enemies</link></style>, is to have more and more difficult <style=\"Link\"><link=\"levels\">Levels</link></style>. This can be automated through having <style=\"Link\"><link=\"levels\">Levels</link></style> be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Procedurally%20Generated%20Game%20Areas\">Procedurally Generated Game Areas</link></style>. ",
+            "Games with <style=\"CurrentLink\">Ever Increasing Difficulty</style> often also have <style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style>. This adds another reason or lure to continue playing or entering new areas of gameplay (instead of <style=\"Link\"><link=\"grinding\">Grinding</link></style> in already completed areas). When the <style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style> provide <style=\"Link\"><link=\"rewards\">Rewards</link></style> that make gameplay easy, the combination of <style=\"CurrentLink\">Ever Increasing Difficulty</style> and <style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style> can lead to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Ever Increasing Difficulty</style> often harmonizes rather well with <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> in that these in general also want a rise level of <style=\"Link\"><link=\"tension\">Tension</link></style> as gameplay progresses in a game.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Ever Increasing Difficulty</style> creates <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style> and often also <style=\"Link\"><link=\"tension\">Tension</link></style>, and these reasons are often the motivation for having the pattern present in a game. Since the pattern strives to put players in overwhelming situations at some point, it also sets players up for <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style> and <style=\"Link\"><link=\"spectacular-failure-enjoyment\">Spectacular Failure Enjoyment</link></style>. Games with <style=\"CurrentLink\">Ever Increasing Difficulty</style> also provide <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style> as long as the difficulty at some point goes beyond the players' skill at the game.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style>, <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"spectacular-failure-enjoyment\">Spectacular Failure Enjoyment</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Procedurally%20Generated%20Game%20Areas\">Procedurally Generated Game Areas</link></style>, <style=\"Link\"><link=\"waves\">Waves</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "challenging-gameplay",
+            "fubar-enjoyment",
+            "further-player-improvement-potential",
+            "higher-level-closures-gameplay-progresses",
+            "spectacular-failure-enjoyment",
+            "tension",
+            "unwinnable-games",
+            "red-queen-dilemmas"
+        ],
+        "modulates" : [
+            "predetermined-story-structures"
+        ],
+        "instantiated_by" : [
+            "enemies",
+            "levels",
+            "positive-feedback-loops",
+            "procedurally-generated-game-areas",
+            "waves"
+        ],
+        "modulated_by" : [
+            "increasing-rewards"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

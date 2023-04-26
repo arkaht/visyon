@@ -1,0 +1,72 @@
+{
+    "name" : "Big Dumb Objects",
+    "categories" : [
+        "Level Design Patterns",
+        "Narration Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Very large artificial objects in game worlds that provide evidence of powerful entities or groups of individuals.",
+        "markups" : [
+            "<style=\"Definition\">Very large artificial objects in game worlds that provide evidence of powerful entities or groups of individuals.</style>",
+            "Games often contain big mysterious objects on a different scale than the players in their game worlds. In science fiction literature, such structures are called <style=\"CurrentLink\">Big Dumb Objects</style>, and are used to create a sense of wonder or otherworldliness. ",
+            "See also the Wikipedia entry<ref name=\"wiki\"/> for the concept.",
+            "<style=\"H3\">Examples</style>",
+            "The majority of the gameplay in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo series</link></style> takes place on the Ringworld-like<ref name=\"ringworld\"/> structures the series are named after.",
+            "The White Gold Tower in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Elder%20Scrolls%20IV:%20Oblivion\">The Elder Scrolls IV: Oblivion</link></style> dominates the Imperial City of Cyrodiil, and can be seen from long distances when players travel in the wilderness of the game world.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Introducing <style=\"CurrentLink\">Big Dumb Objects</style> to games consist mainly of deciding who created them, what they look like, and where in the <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style> they are located. As an option, <style=\"CurrentLink\">Big Dumb Objects</style> can be so large that they are the actually <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> - the ring structures in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo series</link></style> are examples of this.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Given their size, and typically mysterious nature, <style=\"CurrentLink\">Big Dumb Objects</style> are <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>. While they can be designed so they can be seen from any type of location, using them so they can visible from <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style> can make otherwise boring movement interesting.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Given how obvious <style=\"CurrentLink\">Big Dumb Objects</style> are, they need to be part of <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> in the form of <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style> unless they are going to quite bluntly break <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "As mentioned above, <style=\"CurrentLink\">Big Dumb Objects</style> are examples of <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. There presence is often motivated by how they help maintaining a <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. They also typically help players in performing <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> since they provide players with a <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> to easily recognizable <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>. Since they are visible from long distances, they let players have the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> of reaching them for a long time. When they cannot be reached, they instead give rise to perceivable <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>.",
+            "When the <style=\"CurrentLink\">Big Dumb Objects</style> are introduced to <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> that otherwise are based on the real world, they do become instances of <style=\"Link\"><link=\"alien-space-bats\">Alien Space Bats</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"alien-space-bats\">Alien Space Bats</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>, <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "alien-space-bats",
+            "anticipation",
+            "diegetically-outstanding-features",
+            "environmental-storytelling",
+            "inaccessible-areas",
+            "landmarks",
+            "line-sight",
+            "predetermined-story-structures",
+            "thematic-consistency",
+            "traverse"
+        ],
+        "modulates" : [
+            "game-boards",
+            "game-world-navigation",
+            "game-worlds",
+            "levels",
+            "transport-routes"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

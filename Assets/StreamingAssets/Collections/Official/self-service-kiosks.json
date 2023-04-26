@@ -1,0 +1,76 @@
+{
+    "name" : "Self-Service Kiosks",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Location in game worlds where players can on their own do transactions or receive services.",
+        "markups" : [
+            "<style=\"Definition\">Location in game worlds where players can on their own do transactions or receive services.</style>",
+            "In games where players control characters inhabiting game worlds, they may have need of various services such as trading, healing, or training. <style=\"CurrentLink\">Self-Service Kiosks</style> are places where players can go to get these services and can handle the interaction as if using a vending machine.",
+            "<style=\"H3\">Examples</style>",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style>, e.g.  the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Witcher%20series\">Witcher series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style>, have vendors selling the various items players need and sell the superfluous ones. These vendors are shown as non-player characters but cannot be killed or otherwise interacted with except to trade and talk. In contrast, most places where one can buy and sell things in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> are run by non-player characters that can be killed, but the ''Vendortron'' robot outside of Freeside in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> qualifies as a <style=\"CurrentLink\">Self-Service Kiosk</style> since it is built into a kiosk and cannot be attacked.",
+            "<style=\"CurrentLink\">Self-Service Kiosks</style> are also found in more action-oriented computer games. There are various non-player characters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style>, including in the dungeons, that function as <style=\"CurrentLink\">Self-Service Kiosks</style> since they cannot be hurt or killed. The earlier <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo series</link></style> also contain such non-player characters and does <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style> have several establishments that function as <style=\"CurrentLink\">Self-Service Kiosks</style>, some which have to be entered by foot (e.g. cloth and weapon stores) and some which have to be entered while driving a vehicle (e.g. body shops).",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Self-Service Kiosks</style> provide specified services at specified locations in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style>, so designing these consist of choosing what services should be available and where they should be available.",
+            "The most common types of services provided by <style=\"CurrentLink\">Self-Service Kiosks</style> are <style=\"Link\"><link=\"trading\">Trading</link></style> (by having <style=\"Link\"><link=\"transferable-items\">Transferable Items</link></style> associated with them), receiving <style=\"Link\"><link=\"quests\">Quests</link></style>, and hearing <style=\"Link\"><link=\"gossip\">Gossip</link></style>. Other examples include training <style=\"Link\"><link=\"skills\">Skills</link></style> and repairing <style=\"Link\"><link=\"game-items\">Game Items</link></style> that suffer from <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>.",
+            "For services that may have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, e.g. <style=\"Link\"><link=\"trading\">Trading</link></style> and <style=\"Link\"><link=\"quests\">Quests</link></style>, an option is to periodically refill the kiosks by making them into ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Some <style=\"CurrentLink\">Self-Service Kiosks</style> are represented as <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> in the role of <style=\"Link\"><link=\"helpers\">Helpers</link></style>; showing that not all <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style> are <style=\"Link\"><link=\"characters\">Characters</link></style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Since they can provide <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"CurrentLink\">Self-Service Kiosks</style> can help move <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predefined%20Story%20Structures\">Predefined Story Structures</link></style> forward. They can also be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predefined%20Story%20Structures\">Predefined Story Structures</link></style> in their own right.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Self-Service Kiosks</style> provide <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style> by the <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style> they provide. When <style=\"Link\"><link=\"game-items\">Game Items</link></style> or <style=\"Link\"><link=\"quests\">Quests</link></style> offered at them replenish, they are also <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>.",
+            "<style=\"CurrentLink\">Self-Service Kiosks</style> are <style=\"Link\"><link=\"installations\">Installations</link></style> since they provide actions to players (to access the services), and due to this they are in a way <style=\"Link\"><link=\"tools\">Tools</link></style> also.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"gossip\">Gossip</link></style>, <style=\"Link\"><link=\"helpers\">Helpers</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predefined%20Story%20Structures\">Predefined Story Structures</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>",
+            "<style=\"H4\">with ...</style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"deterioration\">Deterioration</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"transferable-items\">Transferable Items</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "gossip",
+            "helpers",
+            "installations",
+            "location-fixed-abilities",
+            "non-player-characters",
+            "quests",
+            "predefined-story-structures",
+            "resource-generators",
+            "strategic-locations",
+            "trading",
+            "tools"
+        ],
+        "modulates" : [
+            "deterioration",
+            "game-boards",
+            "game-worlds",
+            "levels",
+            "skills"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "transferable-items"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

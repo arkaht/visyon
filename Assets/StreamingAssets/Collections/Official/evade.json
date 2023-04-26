@@ -1,0 +1,91 @@
+{
+    "name" : "Evade",
+    "categories" : [
+        "Goal Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "The goal to avoid being captured or hit.",
+        "markups" : [
+            "<style=\"Definition\">The goal to avoid being captured or hit.</style>",
+            "Many games have dangers that need to be avoided. <style=\"CurrentLink\">Evade</style> is the goal to try and avoid these dangers, regardless if they are due to \"natural\" causes such as falling rocks or intentional attacks such as weapon fire.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> gives an example of a turn-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Game</link></style> in which <style=\"CurrentLink\">Evade</style> occurs. When playing this game, players may have groups that will be captured unless they manage to <style=\"CurrentLink\">Evade</style> an enclosure constructed by another player. <style=\"CurrentLink\">Evade</style> goals can also occur in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, either as \"optional goals\" when any piece is threatened or as enforced goals when one's king is checked.",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> had <style=\"CurrentLink\">Evade</style> goals as a main part of their gameplay: in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> one much avoiding ghosts while collecting the yellow dots, in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Centipede\">Centipede</link></style> one must avoid all enemies while trying to kill the centipede, in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Kong\">Donkey Kong</link></style> barrels need to be avoided, and being hit by asteroids in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style> destroys one's ship.",
+            "Much of the skill in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style> consist of avoiding to be hit be enemies. ",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resident%20Evil%20series\">Resident Evil series</link></style> makes use of quick time event challenges to let players evade various dangers in the game.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Creating <style=\"CurrentLink\">Evade</style> goals consist of providing players means of avoiding <style=\"Link\"><link=\"penalties\">Penalties</link></style> by doing <style=\"Link\"><link=\"movement\">Movement</link></style> of <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style>. <style=\"CurrentLink\">Evade</style> differs from <style=\"Link\"><link=\"conceal\">Conceal</link></style> in that in the former <style=\"Link\"><link=\"enemies\">Enemies</link></style> may already know one's locations or <style=\"Link\"><link=\"enemies\">Enemies</link></style> may effectively be absent. One such example of absent <style=\"Link\"><link=\"enemies\">Enemies</link></style> is provided by <style=\"Link\"><link=\"traps\">Traps</link></style>, and in this case even gameplay <style=\"Link\"><link=\"movement\">Movement</link></style> may not be necessary if <style=\"Link\"><link=\"quick-time-events\">Quick Time Events</link></style> are used instead. Being the target of <style=\"Link\"><link=\"capture\">Capture</link></style> goals already imply that some type of <style=\"Link\"><link=\"penalties\">Penalties</link></style> exists and that <style=\"Link\"><link=\"movement\">Movement</link></style> is possible (otherwise, the <style=\"Link\"><link=\"capture\">Capture</link></style> goal would be trivial), so this pattern can be seen as a way of instantiating <style=\"CurrentLink\">Evade</style> goals. Giving <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> or <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> to <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style> can be seen as another way of creating <style=\"CurrentLink\">Evade</style> goals which may co-exist with other <style=\"CurrentLink\">Evade</style> goals - here the evasion is done to protect especially vulnerable areas rather than all areas. However, not all <style=\"CurrentLink\">Evade</style> goals exist at the beginning of games. Instead, they can appear as a form of <style=\"Link\"><link=\"penalties\">Penalty</link></style> due to failing with others goals, e.g. <style=\"Link\"><link=\"scouting\">Scouting</link></style>. Paradoxically, successful <style=\"Link\"><link=\"scouting\">Scouting</link></style> can allow players to succeed with <style=\"CurrentLink\">Evade</style> goals if the threat that needs to be evaded is known but isn't threatening to the players yet due to those players being undetected.",
+            "Common <style=\"Link\"><link=\"penalties\">Penalties</link></style> linked to failure of <style=\"CurrentLink\">Evade</style> goals are <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>, or the loss of <style=\"Link\"><link=\"lives\">Lives</link></style> (or <style=\"Link\"><link=\"units\">Units</link></style>). <style=\"CurrentLink\">Evade</style> goals can seldom be completed in themselves, with the exception of <style=\"CurrentLink\">Evade</style> goals with <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, but can often be completed by achieving another goal: that of completing an <style=\"Link\"><link=\"excluding-goals\">Excluding Goal</link></style> to whatever goals cause the actions the player is trying to <style=\"CurrentLink\">Evade</style> to be done. Examples of this include shooting <style=\"Link\"><link=\"enemies\">Enemies</link></style> that are trying to shoot one or deactivating robots trying to kill one. Besides being tied to other goals to be fulfilled, <style=\"CurrentLink\">Evade</style> goals can be <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style> for <style=\"Link\"><link=\"traverse\">Traverse</link></style> and <style=\"Link\"><link=\"deliver\">Deliver</link></style> goals. <style=\"CurrentLink\">Evade</style> patterns often interact with <style=\"Link\"><link=\"overcome\">Overcome</link></style> patterns: there may be no need to succeed with <style=\"Link\"><link=\"overcome\">Overcome</link></style> goals if players can succeed with <style=\"CurrentLink\">Evade</style> goals, and vice versa. They also allow players to create tactics of offense and defense, e.g., accepting ''Gote'' or trying various gambits to acquire ''Sente'' in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>. Explicit interaction between the patterns can be designed by letting players have <style=\"CurrentLink\">Evade</style> goal until a certain other goal, e.g. <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> of a <style=\"Link\"><link=\"weapons\">Weapon</link></style> or acquiring a <style=\"Link\"><link=\"power-ups\">Power-Up</link></style>, is completed, and then let them strive for an <style=\"Link\"><link=\"overcome\">Overcome</link></style> goal. This can be used to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversal</link></style> patterns, as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> where ghost move from having <style=\"Link\"><link=\"capture\">Capture</link></style> goals to having <style=\"CurrentLink\">Evade</style> goals if the player gets hold of a power pill.",
+            "While <style=\"Link\"><link=\"enemies\">Enemies</link></style> are not necessary for <style=\"CurrentLink\">Evade</style> goals, having them present is likely to make the <style=\"CurrentLink\">Evade</style> goals more difficult. Related to this is using <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> to determine success or failure with <style=\"CurrentLink\">Evade</style> goals but this does not necessarily need to imply the presence of <style=\"Link\"><link=\"enemies\">Enemies</link></style>. <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> can also be used together with or independently of <style=\"Link\"><link=\"enemies\">Enemies</link></style> to modulate <style=\"CurrentLink\">Evade</style> goals but it is worth noting that this pattern can be used to make <style=\"CurrentLink\">Evade</style> goals both easier and more difficult. Any kind of <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style> that affect players during evasion naturally makes <style=\"CurrentLink\">Evade</style> goals more difficult while <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style> can make them easier (the opposite can be achieved by giving these to those with <style=\"Link\"><link=\"capture\">Capture</link></style> goals related to the <style=\"CurrentLink\">Evade</style> goals).",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Evade</style> goals can easily be formalized in games as <style=\"Link\"><link=\"quests\">Quests</link></style> and thereby create <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>. While <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> can be built from <style=\"CurrentLink\">Evade</style> goals, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> can also provide information and motivation for the pattern.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Evade</style> goals are based upon avoiding being hit or captured, and therefore naturally promote <style=\"Link\"><link=\"movement\">Movement</link></style> in games. In <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, this typically requires players to be proficient in <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style> while <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> is often the required skill in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>.",
+            "<style=\"CurrentLink\">Evade</style> goals are <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style> that are likely to cause <style=\"Link\"><link=\"tension\">Tension</link></style> to those that have them due to the clear potential for <style=\"Link\"><link=\"penalties\">Penalties</link></style> if they fail. When the evasion has to be done against <style=\"Link\"><link=\"agents\">Agents</link></style> actions, <style=\"CurrentLink\">Evade</style> goals are <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>. One such example is to avoid the <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> or <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals of others, something which naturally make these goals more difficult. Another example is to avoid those with <style=\"Link\"><link=\"capture\">Capture</link></style> goals - here the use of <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style> for one or the other can easily make for <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"capture\">Capture</link></style> and <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style></style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"overcome\">Overcome</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversal</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"deliver\">Deliver</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> together with <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"Link\"><link=\"movement\">Movement</link></style> and <style=\"Link\"><link=\"penalties\">Penalties</link></style> together with <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> together with <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style>, <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "continuous-goals",
+            "maneuvering",
+            "narration-structures",
+            "preventing-goals",
+            "puzzle-solving",
+            "quests",
+            "supporting-goals",
+            "tension",
+            "challenging-gameplay",
+            "role-reversal",
+            "tactical-planning"
+        ],
+        "modulates" : [
+            "aim-shoot",
+            "deliver",
+            "eliminate",
+            "overcome",
+            "traverse"
+        ],
+        "instantiated_by" : [
+            "capture",
+            "traps",
+            "achilles-heels",
+            "movement",
+            "vulnerabilities"
+        ],
+        "modulated_by" : [
+            "aim-shoot",
+            "enemies",
+            "excluding-goals",
+            "line-sight",
+            "movement-limitations",
+            "narration-structures",
+            "privileged-movement",
+            "time-limits"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

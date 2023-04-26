@@ -1,0 +1,96 @@
+{
+    "name" : "Save-Load Cycles",
+    "categories" : [
+        "Gameplay Adaptability Patterns",
+        "Patterns",
+        "Dynamic Patterns",
+        "Needs revision",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The actions of saving and loading game states to help get the game state one wishes.",
+        "markups" : [
+            "<style=\"Definition\">The actions of saving and loading game states to help get the game state one wishes.</style>",
+            "Many computer games allow players to save their game state. This can let them divide game instances into multiple game sessions and be able to turn of the game programs in-between. It can also let players store game state when they are in good positions or before they try potentially dangerous actions so they can go back to that game state if things went bad. Doing so repeatedly while playing causes players to engage in <style=\"CurrentLink\">Save-Load Cycles</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Examples of games that allow <style=\"CurrentLink\">Save-Load Cycles</style> include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Baldur's%20Gate%20series\">Baldur's Gate series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Deus%20Ex%20series\">Deus Ex series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mirror's%20Edge\">Mirror's Edge</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sid%20Meier's%20Alpha%20Centauri\">Sid Meier's Alpha Centauri</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/X-COM%20series\">X-COM series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20series\">Zork series</link></style>. Of these, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/X-COM%20series\">X-COM series</link></style> provide \"ironman modes\" in which the <style=\"CurrentLink\">Save-Load Cycles</style> are forbidden to make the games more challenging.",
+            "<style=\"H2\">Using the pattern</style>",
+            "While it is used both for <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> and <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, the presence of <style=\"CurrentLink\">Save-Load Cycles</style> affect the latter more through allowing <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style> in them which otherwise would not be present (<style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> have the opportunity for <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style> between each turn naturally). The primary challenge of <style=\"CurrentLink\">Save-Load Cycles</style> is the technical need of being able to store whole game states and quickly replace current ones with saved ones. This is typically solved by having games that support <style=\"Link\"><link=\"save-files\">Save Files</link></style> or are run by <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>. <style=\"Link\"><link=\"save-points\">Save Points</link></style> can be used to make this easier but can also be used to require players to get to certain point in the gameplay before being allowed to save. ",
+            "<style=\"CurrentLink\">Save-Load Cycles</style> can difficult to combine well with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> since this requires that all players can easily come to agreements on when to abandon current play sessions and replace the current game state with a saved one. This becomes a practical impossibility in <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style> since these typically wish to provide <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> for all players. ",
+            "Some <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, typically called \"ironman mode\", forbid the use of <style=\"CurrentLink\">Save-Load Cycles</style>. This is typically done too make the games more difficult but there are other reasons to consider not providing <style=\"CurrentLink\">Save-Load Cycles</style>. They void <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> and make <style=\"Link\"><link=\"penalties\">Penalties</link></style> such as <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style> and <style=\"Link\"><link=\"permadeath\">Permadeath</link></style> avoidable. Further, they let players experience <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leaps%20of%20Faith\">Leaps of Faith</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, and <style=\"Link\"><link=\"tension\">Tension</link></style> once and then reload a play again without having to be affect by these emotionally. They can also make <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> pointless at least from a planning perspective and stop <style=\"Link\"><link=\"scores\">Scores</link></style> from representing how well players played in a continuous series of play sessions.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Save-Load Cycles</style> are typically not explained through a game's diegesis. An exception can be found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style>. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "While access to \"quick-save\" and \"quick-load\" functionality may be enabled through the primary interface of a game, the main functionality for <style=\"CurrentLink\">Save-Load Cycles</style> is typically provided in <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Besides potentially making the presence of <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leaps%20of%20Faith\">Leaps of Faith</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> mute regarding gameplay, <style=\"CurrentLink\">Save-Load Cycles</style> can do the same for narration aspects of a game.",
+            "<style=\"H2\">Consequences</style>",
+            "The actual actions of saving and loading are <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> and cause some <style=\"Link\"><link=\"downtime\">Downtime</link></style> for players. However, more interesting is the many effects on gameplay <style=\"CurrentLink\">Save-Load Cycles</style> have. The first most basic consequences is that it allows for <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style> since players can have <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style> and this gives players a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> when to play since the pattern in practice gives them <style=\"Link\"><link=\"negotiable-play-sessions\">Negotiable Play Sessions</link></style>. Player can also use the interludes between play sessions to plan, so the pattern also provides <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>. However, the use of the pattern in a game breaks <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style> of the diegesis as compared to the sequence of gameplay actions players perform.",
+            "The ability to load after something unwanted has occurred gives players a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style> and <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, and since players can learn from previous attempts <style=\"CurrentLink\">Save-Load Cycles</style> provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> between play sessions and can let players create <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style> for themselves. Games providing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style> are affected by <style=\"CurrentLink\">Save-Load Cycles</style> as players can use the information provided as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> to make use of it earlier than they were supposed to have knowledge of it. The same applies for information provided by <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style>. This can be seen as a form of <style=\"Link\"><link=\"game-time-manipulation\">Game Time Manipulation</link></style> done through non-gameplay actions and allowing for local <style=\"Link\"><link=\"replayability\">Replayability</link></style> inside game instances. Extensive use of these possibility provided by <style=\"CurrentLink\">Save-Load Cycles</style> can lead to <style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style> (which can be especially likely in games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mini%20Games\">Mini Games</link></style>).",
+            "While the pattern is most often used in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, in these specifically <style=\"CurrentLink\">Save-Load Cycles</style> can encourage player to do <style=\"Link\"><link=\"experimenting\">Experimenting</link></style> since the cost of testing something may at most be some <style=\"Link\"><link=\"downtime\">Downtime</link></style>. The ability to instantly mitigate bad effects of gameplay actions which <style=\"CurrentLink\">Save-Load Cycles</style> provide can let players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> when trying to learn something about a game.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"game-time-manipulation\">Game Time Manipulation</link></style>, <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>, <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>, <style=\"Link\"><link=\"negotiable-play-sessions\">Negotiable Play Sessions</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style>, <style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style></style>",
+            "<style=\"Link\"><link=\"experimenting\">Experimenting</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"save-files\">Save Files</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style>, <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style>, <style=\"Link\"><link=\"save-points\">Save Points</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leaps%20of%20Faith\">Leaps of Faith</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "downtime",
+            "extra-chances",
+            "freedom-choice",
+            "fudged-results",
+            "game-time-manipulation",
+            "game-pauses",
+            "interruptibility",
+            "negotiable-play-sessions",
+            "replayability",
+            "reversibility",
+            "save-scumming",
+            "smooth-learning-curves",
+            "stimulated-planning",
+            "trans-game-information",
+            "experimenting"
+        ],
+        "modulates" : [
+            "real-time-games"
+        ],
+        "instantiated_by" : [
+            "dedicated-game-facilitators",
+            "extra-game-actions",
+            "save-files"
+        ],
+        "modulated_by" : [
+            "direct-information",
+            "near-miss-indicators",
+            "save-points",
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+            "death-consequences",
+            "difficulty-levels",
+            "irreversible-events",
+            "leaps-faith",
+            "penalties",
+            "permadeath",
+            "multiplayer-games",
+            "scores",
+            "surprises",
+            "temporal-consistency",
+            "tension",
+            "time-limited-game-instances"
+        ]
+    }
+}

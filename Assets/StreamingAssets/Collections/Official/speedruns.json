@@ -1,0 +1,88 @@
+{
+    "name" : "Speedruns",
+    "categories" : [
+        "Patterns",
+        "Goal Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "The goal of completing a game or a part of a game where time is the most essential measure of success.",
+        "markups" : [
+            "<style=\"Definition\">The goal of completing a game or a part of a game where time is the most essential measure of success.</style>",
+            "Many games, e.g. racing games, depend on completing some activity as quickly as possible. Even so, after one has manage to be the quickest one can try to be better than one was previously or quicker than others have been in other game or play sessions. Similarly, if one has managed to complete a game or a section of a game that didn't depend on time one can have a new challenge in trying to solve the same part quicker. Such attempts are called <style=\"CurrentLink\">Speedruns</style>.",
+            "Note: ''Although it is common to differ between the voluntary speed challenges of <style=\"CurrentLink\">Speedruns</style> and those required by rules in racing games, this pattern make not distinction between the two as the design options between requiring or encouraging them is minimal.''",
+            "<style=\"H3\">Examples</style>",
+            "Skilled players of the arcade version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> managed to reach what has turned out to be the maximum score due to a software bug. The first such ''perfect score'' took about 6 hours, but players have found challenges in trying to do this quicker and in 2010 the time has been shaved to less than 4 hours<ref name=\"Pac-Man\"/>.",
+            "Racing games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Need%20for%20Speed%20series\">Need for Speed series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> let players try to beat previously time lap records, and so does the 'parkour' game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mirror's%20Edge\">Mirror's Edge</link></style>. For the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style>, players can in the ''Time Trial'' mode compete against the ''ghosts'' of others players' (and the developers') performances and for internet connected versions even download performances to compete against.",
+            "The number of stars collected for completing a puzzle in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cogs\">Cogs</link></style> depend on number of moves and time. Since the unlocking of new levels only depend on total number of stars, players can proceed to complete all levels and later return to fully complete specific levels as a form of <style=\"CurrentLink\">Speedrun</style>.",
+            "A wiki devoted to <style=\"CurrentLink\">Speedruns</style>, [http://speedrunwiki.com/Main_Page Speedrunwiki], exists. Wikipedia also as a page for speedruns<ref name=\"Wikipedia\"/>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Speedruns</style> requires the setting of <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> for some other goal. These can be explicit set by designers which works well with making them parts of <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> (as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cogs\">Cogs</link></style>) or <style=\"Link\"><link=\"handicap-achievements\">Handicap Achievements</link></style> (as for the ''Bridge over Trebled Slaughter'' <style=\"Link\"><link=\"achievements\">Achievement</link></style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%202\">Left 4 Dead 2</link></style>). Another solution is to make them depend on the players own previous performances, which can provide a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> since inexperienced players only need to beat the performances of inexperienced players and let them gradually develop <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>.",
+            "<style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> are a prerequisite for <style=\"CurrentLink\">Speedruns</style>. This since minimizing time consumption in games that have other ways of measuring times, e.g. by counting turns use in a <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>, is more accurately described as a <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> activity. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal\">Portal</link></style> is an interesting case for this since it can be seen as an example of both these cases - players can try to solve <style=\"Link\"><link=\"levels\">Levels</link></style> as quickly as possible in <style=\"CurrentLink\">Speedruns</style> but also try to solve <style=\"Link\"><link=\"levels\">Levels</link></style> in as few steps or portal uses. ",
+            "Like other cases where players performances are used to create <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>, the pattern require <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> to ensure that completed <style=\"CurrentLink\">Speedruns</style> are trustworthy for people not present when the <style=\"CurrentLink\">Speedruns</style> occurred. <style=\"Link\"><link=\"replays\">Replays</link></style> can be used to let others view the <style=\"CurrentLink\">Speedruns</style> whenever it suits them as long as means exist to share them.",
+            "<style=\"Link\"><link=\"player-augmentations\">Player Augmentations</link></style> make <style=\"CurrentLink\">Speedruns</style> easier and may be seen as cheats if the execution is seen as a primary component of performing a particular <style=\"CurrentLink\">Speedrun</style> (as compared to finding out how it can be made).",
+            "Scully-Baker<ref name=\"Scully-Blaker\"/> describes two types of <style=\"CurrentLink\">Speedruns</style>: ''finesse'' and ''deconstructive''. While the first relies on speedrunners behaving like \"ideal\" players and thereby complying to design intentions, the deconstructive speedruns makes use of glitches. Thus, games can be design to support ''finesse'' <style=\"CurrentLink\">Speedruns</style> readily but supporting ''deconstructive'' <style=\"CurrentLink\">Speedruns</style> is a harder design challenges since it depends of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Glitch%20Usage\">Glitch Usage</link></style> - designed <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style> may be a possibility here.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"Link\"><link=\"replays\">Replays</link></style> in the form of <style=\"Link\"><link=\"ghosts\">Ghosts</link></style> are a way of making the challenge of <style=\"CurrentLink\">Speedruns</style> have presence in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> as <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>. When these <style=\"Link\"><link=\"ghosts\">Ghosts</link></style> are downloads of other players performances this makes the games using them into <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Speedruns</style> are at conflict with <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> for the simple reason that they are used to motivate players to replay parts of games several times, something which typically is difficult to combine with a sensible unfolding of a narrative. However, successful or interesting <style=\"CurrentLink\">Speedruns</style> are typically <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> worth retelling so this pattern does create <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Speedruns</style> are <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> in the form of <style=\"Link\"><link=\"races\">Races</link></style> - either trying to beat one's own or another players times or trying to complete a part of a game giving a certain <style=\"Link\"><link=\"time-limits\">Time Limit</link></style>. Being a pattern dealing with trying to meet <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, <style=\"CurrentLink\">Speedruns</style> also cause <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style> and very likely <style=\"Link\"><link=\"tension\">Tension</link></style> as well. When they contain whole game instances, they provide <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> and help create a lower bound for <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable Game Sessions</link></style>.",
+            "Given that <style=\"CurrentLink\">Speedruns</style> are built upon completing a goal better than before, they pose <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style> to players. Further, since <style=\"CurrentLink\">Speedruns</style> motivate players to try to replay games improve their own performances, the use of this pattern also promotes <style=\"Link\"><link=\"replayability\">Replayability</link></style> and development of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>. In fact, since <style=\"CurrentLink\">Speedruns</style> typically are executed to show one's <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, it is typically done by players wishing to engage in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style> at some level. This means that the <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> for doing <style=\"CurrentLink\">Speedruns</style> are increased if players have the possibility to themselves initiate <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style> of the activities or <style=\"Link\"><link=\"replays\">Replays</link></style> of them. In this way, <style=\"CurrentLink\">Speedruns</style> are nearly always done to be able to retell them later as <style=\"Link\"><link=\"game-instance-stories\">Game Instance Stories</link></style>. ",
+            "When <style=\"CurrentLink\">Speedruns</style> as instantiated by using previous player performance, these earlier performances are examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> used as <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"game-instance-stories\">Game Instance Stories</link></style>, <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>, <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"handicap-achievements\">Handicap Achievements</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable Game Sessions</link></style>, <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style></style>",
+            "<style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"ghosts\">Ghosts</link></style></style>",
+            "<style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ghosts\">Ghosts</link></style>, <style=\"Link\"><link=\"replays\">Replays</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Glitch%20Usage\">Glitch Usage</link></style>, <style=\"Link\"><link=\"player-augmentations\">Player Augmentations</link></style>, <style=\"Link\"><link=\"replays\">Replays</link></style>, <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "bragging",
+            "gameplay-mastery",
+            "game-instance-stories",
+            "gameplay-statistics",
+            "meta-games",
+            "narration-structures",
+            "negotiable-game-sessions",
+            "optional-goals",
+            "races",
+            "replayability",
+            "value-effort",
+            "massively-single-player-online-games"
+        ],
+        "modulates" : [
+            "levels",
+            "real-time-games"
+        ],
+        "instantiated_by" : [
+            "ghosts",
+            "replays"
+        ],
+        "modulated_by" : [
+            "dedicated-game-facilitators",
+            "glitch-usage",
+            "player-augmentations",
+            "replays",
+            "sanctioned-cheating"
+        ],
+        "conflicts" : [
+            "predetermined-story-structures"
+        ]
+    }
+}

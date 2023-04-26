@@ -1,0 +1,88 @@
+{
+    "name" : "Geometric Progression",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Relations where each change in effort results in the effect being multiplied by a fixed value.",
+        "markups" : [
+            "<style=\"Definition\">Relations where each change in effort results in the effect being multiplied by a fixed value.</style>",
+            "<style=\"CurrentLink\">Geometric Progression</style> occurs in games when the growth of effects are not linear but grows by depending on the current strengths of the effects and constant factor, called the ''common ratio''. For factors larger than 1, <style=\"CurrentLink\">Geometric Progression</style> makes each new effort have a greater effect than the previous one and can thus discourages players to split resources into several smaller investments in favor of one large investment as the combined rewards of two lesser investments are always smaller than the reward of the larger investment using the same amount of resources. Factors less than 1 have the opposite effect and encourage players to spread resources. ",
+            "For the purpose of this pattern, the common ratio is assumed to be larger than 0 (progression shifting from positive to negative values are rare in games) and differ from 1 (this would simply make extra effort have no effect). See wikipedia<ref name=\"wiki\"/> for more information on geometric progression.",
+            "<style=\"H3\">Examples</style>",
+            "The point reward in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tetris\">Tetris</link></style> for removing more than one row at once increases in a geometric fashion. The pot in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> variant <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guts\">Guts</link></style> does not have to grow between rounds, but when it grows it grows by a factor 2 or more leading to a <style=\"CurrentLink\">Geometric Progression</style> in its size until it resets.",
+            "The rent one has to pay for landing on another players' property in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> grows geometrically for the first three houses but tampers of for the fourth and for hotels. Exchanging collected cards for victory points in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bohnanza\">Bohnanza</link></style> follows a <style=\"CurrentLink\">Geometric Progression</style> but in reducing the number of cards needs to get another point rather than providing more points. For example, 4 ''wax beans'' are required to get 1 points, 7 to get 2 points, 9 for 3 points, and 11 for 4 points.",
+            "The first levels for buying skills in the roleplaying system <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> has a <style=\"CurrentLink\">Geometric Progression</style> that encourages players to diversify their skill sets.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Geometric Progression</style> can be included in games through setting progression schemes. These schemes are often applied to <style=\"Link\"><link=\"resources\">Resources</link></style> through <style=\"Link\"><link=\"investments\">Investments</link></style> and thereby potential to <style=\"Link\"><link=\"rewards\">Rewards</link></style> and <style=\"Link\"><link=\"penalties\">Penalties</link></style>, but can also directly modify <style=\"Link\"><link=\"rewards\">Reward</link></style> and <style=\"Link\"><link=\"penalties\">Penalty</link></style> schemes as well as how <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> or <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> function. As something affected by <style=\"Link\"><link=\"rewards\">Reward</link></style> and <style=\"Link\"><link=\"penalties\">Penalty</link></style>, <style=\"Link\"><link=\"scores\">Score</link></style> systems can also be modified to make <style=\"CurrentLink\">Geometric Progression</style> present in the calculations when increasing or decreasing scores. <style=\"Link\"><link=\"sets\">Sets</link></style> are another potential target for <style=\"CurrentLink\">Geometric Progression</style>, here the schemes apply to the number of game elements collected or equipped. An alternative is to consider changing the effectiveness of individual actions which has the same overall effect if the actions are aimed at the same target but requires prioritization of target order if many targets are chosen.",
+            "Some other patterns have progression quite close enough to geometric progression to be worthy mention. <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> have the characteristic that the chance of drawing a specific <style=\"Link\"><link=\"cards\">Card</link></style> increase for each extra <style=\"Link\"><link=\"cards\">Card</link></style> drawn, and the increase can for all but the first extra <style=\"Link\"><link=\"cards\">Card</link></style> be describes as a multiplier between 1 and 1.5. This can be used to create implicit <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> - <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style> uses this together with <style=\"Link\"><link=\"stack-seeding\">Stack Seeding</link></style> to guarantee that certain cards appear semi-regularly.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Geometric Progression</style> typically provides <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style> or <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style> depending on if the common ratio is above 1 or below 1. With <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style> the pattern creates <style=\"Link\"><link=\"combos\">Combos</link></style> and <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, and thereby <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>. <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> can also be achieved in a similar way with <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, that of players creating an increasing value of effort as long as the action is maintained since the action becomes more and more powerful or rewarding the longer it is continued. In contrast, with <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style> players are instead encouraged to seek <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> in order to avoid <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diminishing%20Returns\">Diminishing Returns</link></style>. Regardless of what type feedback loops created, this changes how players need to consider <style=\"Link\"><link=\"collecting\">Collecting</link></style> and <style=\"Link\"><link=\"trading\">Trading</link></style>. ",
+            "Whenever <style=\"CurrentLink\">Geometric Progression</style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> both relate to a game event, the former affects the latter. This since either the reward becomes larger or smaller in relation to the risk, or, if the risk and the reward aspects both change by the same amount, the outcome will have larger or smaller effect on the gameplay overall. When applied on <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"CurrentLink\">Geometric Progression</style> provides <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> either to collect the necessary resources to achieve <style=\"Link\"><link=\"combos\">Combos</link></style> or to avoid <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diminishing%20Returns\">Diminishing Returns</link></style>. When the <style=\"Link\"><link=\"investments\">Investments</link></style> can provide <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style> this can require <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style> and trying to succeed with this can easily cause <style=\"Link\"><link=\"tension\">Tension</link></style>.",
+            "Quite obviously, <style=\"CurrentLink\">Geometric Progression</style> is not applicable together with either <style=\"Link\"><link=\"arithmetic-progression\">Arithmetic</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Discontinuous%20Progression\">Discontinuous Progression</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style>, <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"investments\">Investments</link></style></style>",
+            "<style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"investments\">Investments</link></style> and <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style></style>",
+            "<style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diminishing%20Returns\">Diminishing Returns</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style></style>",
+            "<style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style></style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"collecting\">Collecting</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"sets\">Sets</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>, <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"arithmetic-progression\">Arithmetic Progression</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Discontinuous%20Progression\">Discontinuous Progression</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "negative-feedback-loops",
+            "positive-feedback-loops",
+            "stimulated-planning",
+            "stimulated-planning",
+            "tension",
+            "timing",
+            "diminishing-returns",
+            "varied-gameplay",
+            "value-effort",
+            "combos",
+            "higher-level-closures-gameplay-progresses",
+            "value-effort"
+        ],
+        "modulates" : [
+            "collecting",
+            "extended-actions",
+            "investments",
+            "penalties",
+            "risk-reward",
+            "resources",
+            "rewards",
+            "scores",
+            "sets",
+            "trading",
+            "vulnerabilities"
+        ],
+        "instantiated_by" : [
+            "drawing-stacks"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "arithmetic-progression",
+            "discontinuous-progression"
+        ]
+    }
+}

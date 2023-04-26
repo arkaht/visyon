@@ -1,0 +1,69 @@
+{
+    "name" : "Character Alignments",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "A categorization system for ethical and moral stances of characters in a game",
+        "markups" : [
+            "<style=\"Definition\">A categorization system for ethical and moral stances of characters in a game</style>",
+            "Some games, especially role-playing games, concern themselves with if actions are morally correct or not from the view point of the characters performing those actions. Making characters adhere to <style=\"CurrentLink\">Character Alignments</style> is a way to organize the possible stances characters can take, and potentially linking these to game mechanics in various ways.",
+            "<style=\"H3\">Examples</style>",
+            "The first <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Roleplaying</link></style> game, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>, had <style=\"CurrentLink\">Character Alignments</style> as part of character definition. In its first incarnation this was a choice between lawful, neutral, and chaotic, but this was in later version of the game expanded to nine options by adding a second dimension based on good, neutral, and evil. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style>, another <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Roleplaying</link></style> game, uses the scale lawful-good-neutral-evil-chaotic. The fourth edition of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> introduced as very similar scale -- lawful good-good-unaligned-evil-chaotic evil -- but returned to the 2-dimensional system in its fifth edition.",
+            "Wikipedia has a page related to <style=\"CurrentLink\">Character Alignments</style><ref name=\"wiki\"/>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The most basic design questions regarding <style=\"CurrentLink\">Character Alignments</style> is what alignments should exist, and if they should be organized in various dimensions. From these decisions, the next steps is to relate the alignments to actions and opinions in the diegesis to help players with <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>. This typically takes the form of which actions one should perform (and in what circumstances) and which actions are deemed morally objectionable or worse. This typically takes the form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Maintenance\">Diegetic Social Maintenance</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Norms\">Diegetic Social Norms</link></style>, but these may also exist independently of the alignment system.",
+            "Unless players are completely blocked from performing actions that go against their alignment, game designers need to consider what happens when <style=\"Link\"><link=\"characters\">Characters</link></style> break the rules of the alignments. <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> is a typical penalty but allowing <style=\"Link\"><link=\"characters\">Characters</link></style> to change alignment despite the penalty makes <style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style> a possibility.",
+            "While <style=\"CurrentLink\">Character Alignments</style> are typically most relevant to <style=\"Link\"><link=\"player-created-characters\">Player-Created Characters</link></style>, they can be useful for all <style=\"Link\"><link=\"characters\">Characters</link></style> and <style=\"Link\"><link=\"factions\">Factions</link></style> especially when the alignments are <style=\"Link\"><link=\"characteristics\">Characteristics</link></style> that affect actions.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Deciding if <style=\"CurrentLink\">Character Alignments</style> refer to metaphysical properties that exist in the diegesis or if they are only social constructs can be relevant to games with <style=\"CurrentLink\">Character Alignments</style>. This since that in the former case breaking the rules of one's alignment can be the basis for <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> due to being in the disfavor of a god, for example. The same can occur in the latter case but then needs to be tied to psychological explanations.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Besides helping players guide how they should roleplay, the explicitness of <style=\"CurrentLink\">Character Alignments</style> can help in the design of <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> which belong to <style=\"Link\"><link=\"characters\">Characters</link></style> rather than players.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Character Alignments</style> can be <style=\"Link\"><link=\"characteristics\">Characteristics</link></style> in that they can regulate what actions agents of specific alignments can do in a game as well as affects with actions can be made against them; being revealed by \"detect good\" spells for example. As mentioned above, <style=\"CurrentLink\">Character Alignments</style> can be used to regulate how <style=\"Link\"><link=\"characters\">Characters</link></style> should behave or what are the norms of <style=\"Link\"><link=\"factions\">Factions</link></style>. In doing so, they dictate <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Norms\">Diegetic Social Norms</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Maintenance\">Diegetic Social Maintenance</link></style> in the cases when they do require active engagement. They can also affect how players can or want to relate to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Maintenance\">Diegetic Social Maintenance</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Norms\">Diegetic Social Norms</link></style> that exist independently of the <style=\"CurrentLink\">Character Alignment</style> system. ",
+            "<style=\"CurrentLink\">Character Alignments</style> can be an important part of making players of <style=\"Link\"><link=\"player-created-characters\">Player-Created Characters</link></style> consider how they wish to <style=\"Link\"><link=\"roleplaying\">Roleplay</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"characteristics\">Characteristics</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Maintenance\">Diegetic Social Maintenance</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Norms\">Diegetic Social Norms</link></style>, <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Maintenance\">Diegetic Social Maintenance</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Norms\">Diegetic Social Norms</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"player-created-characters\">Player-Created Characters</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "characteristics",
+            "diegetic-social-maintenance",
+            "diegetic-social-norms",
+            "ability-losses",
+            "social-dilemmas"
+        ],
+        "modulates" : [
+            "characters",
+            "diegetic-social-maintenance",
+            "diegetic-social-norms",
+            "factions",
+            "player-created-characters",
+            "roleplaying"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "character-defining-actions"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

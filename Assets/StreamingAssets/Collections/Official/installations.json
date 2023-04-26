@@ -1,0 +1,104 @@
+{
+    "name" : "Installations",
+    "categories" : [
+        "Patterns",
+        "Level Design Patterns",
+        "Game Element Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Tools in game worlds that due to their size or construction are immovable by players.",
+        "markups" : [
+            "<style=\"Definition\">Tools in game worlds that due to their size or construction are immovable by players.</style>",
+            "Some tools that players need to use are for diegetic or gameplay purposes not possible for them to carry around in game worlds. These large, heavy, or bolted down tools are <style=\"CurrentLink\">Installations</style>. They typically provide actions not possible elsewhere or more efficient version of those on can perform anyway.",
+            "<style=\"H3\">Examples</style>",
+            "Both the <i>Low-Tech</i> and <i>High-Tech</i> sourcebooks for the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Game</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> have heavy weapons, e.g. ballistas and howitzers, that for most practical purposes are <style=\"CurrentLink\">Installations</style> for the players' characters.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Memoir%20'44\">Memoir '44</link></style> have sandbags that protect units in a hex until they leave it or are destroyed.",
+            "While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%202\">Half-Life 2</link></style> has the \"Mounted Pulse Gun\", the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> have many real world heavy weapons as <style=\"CurrentLink\">Installations</style>, including the M1919 Browning, the 40mm Bofors, and the Phalanx CIWS<ref name=\"battlefield\"/>. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Morrowind\">Morrowind</link></style> has \"guild guides\" in each of the five mage guilds, and these can provide instant teleportation to any of the other guilds for a fee.",
+            "Although not fitting the everyday meaning on <style=\"CurrentLink\">Installations</style>, cities in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> and entire provinces in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Victoria%20series\">Victoria series</link></style> are functionally <style=\"CurrentLink\">Installations</style> since they provide players with abilities to perform actions. Buildings in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Command%20and%20Conquer%20series\">Command and Conquer</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Starcraft%20series\">Starcraft</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warcraft%20series\">Warcraft series</link></style> are also <style=\"CurrentLink\">Installations</style> in this way.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Installations</style> are either <style=\"Link\"><link=\"bases\">Bases</link></style> or <style=\"Link\"><link=\"tools\">Tools</link></style> that due their size have locations on <style=\"Link\"><link=\"game-boards\">Game Boards</link></style> or in <style=\"Link\"><link=\"levels\">Levels</link></style> of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. In the case of where they are <style=\"Link\"><link=\"tools\">Tools</link></style> they typically are <style=\"Link\"><link=\"weapons\">Weapons</link></style> or <style=\"Link\"><link=\"armor\">Armor</link></style>. This makes the design of them mainly relate to the choices associated with <style=\"Link\"><link=\"tools\">Tools</link></style> (or <style=\"Link\"><link=\"weapons\">Weapons</link></style>) and there spatial placement (Hullett & Whitehead<ref name=\"Hullett\"/> ''Turret'' pattern describes <style=\"CurrentLink\">Installations</style> with <style=\"Link\"><link=\"weapons\">Weapons</link></style>). Although most <style=\"CurrentLink\">Installations</style> are fixed in one position, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> can be considered <style=\"CurrentLink\">Installations</style>, especially if they can be immobilized but continue to function as <style=\"Link\"><link=\"tools\">Tools</link></style> or <style=\"Link\"><link=\"weapons\">Weapons</link></style>. When <style=\"CurrentLink\">Installations</style> are part of the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> rather than objects in them, they are examples of <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> that modify players' actions positively through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Buffs\">Buffs</link></style>. Given their size and typical scarcity, they often provide <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> although this may be balanced by having required <style=\"Link\"><link=\"cooldown\">Cooldown</link></style> periods. <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style> are <style=\"CurrentLink\">Installations</style> that provide <style=\"Link\"><link=\"trading\">Trading</link></style> or more interaction that just activation to use.",
+            "Some <style=\"CurrentLink\">Installations</style> contain <style=\"Link\"><link=\"minigames\">Minigames</link></style>. Reasons for doing this include letting players have chances of earning <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style> through participating in <style=\"Link\"><link=\"betting\">Betting</link></style> games (this is found for example in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leisure%20Suit%20Larry%20series\">Leisure Suit Larry series</link></style>) or to provide <style=\"Link\"><link=\"easter-eggs\">Easter Eggs</link></style> (found for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Day%20of%20the%20Tentacle\">Day of the Tentacle</link></style>).",
+            "While <style=\"Link\"><link=\"weapons\">Weapons</link></style> are common as <style=\"CurrentLink\">Installations</style>, <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style> can be <style=\"CurrentLink\">Installations</style> since they are <style=\"Link\"><link=\"tools\">Tools</link></style> for <style=\"Link\"><link=\"movement\">Movement</link></style>. Another common, but somewhat misnamed, type of <style=\"CurrentLink\">Installations</style> are the cities of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style>, the buildings of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Starcraft%20series\">Starcraft series</link></style>, and the provinces of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Victoria%20series\">Victoria series</link></style>. These not only provide actions (thereby being <style=\"Link\"><link=\"tools\">Tools</link></style>) but often have various <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style> and actions associated with them and are thereby <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>.",
+            "One option for <style=\"CurrentLink\">Installations</style> is if they should be <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style> with an initial <style=\"Link\"><link=\"health\">Health</link></style> value. If this is the case (as if for example is in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>), an additional option is if they should reappear or not due to <style=\"Link\"><link=\"spawning\">Spawning</link></style>. Another is if they should be able to be created by players through <style=\"Link\"><link=\"construction\">Construction</link></style>. A third option is to require specific <style=\"Link\"><link=\"game-items\">Game Items</link></style> to be used or at least be present for <style=\"CurrentLink\">Installations</style> to work. This sets up for <style=\"Link\"><link=\"deliver\">Deliver</link></style> goals, for example to <style=\"Link\"><link=\"deliver\">Deliver</link></style> <style=\"Link\"><link=\"ammunition\">Ammunition</link></style> to <style=\"CurrentLink\">Installations</style> that are <style=\"Link\"><link=\"weapons\">Weapons</link></style>.",
+            "<style=\"CurrentLink\">Installations</style> can also be used to provide advantages to those that control an area to fulfill a <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style> goal.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Installations</style> are quite likely to be <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> simply due to their size, but this may be ensured through linking <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> to them. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Starting to use <style=\"CurrentLink\">Installations</style> can merit a change in interface since both the actions possible and viewpoint to the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> may be quite different. Since <style=\"CurrentLink\">Installations</style> typically make places into <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, they are often shown on <style=\"Link\"><link=\"mini\">Mini-maps</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Installations</style> are <style=\"Link\"><link=\"controllers\">Controllers</link></style> and <style=\"Link\"><link=\"tools\">Tools</link></style>, possibly <style=\"Link\"><link=\"weapons\">Weapons</link></style> and <style=\"Link\"><link=\"armor\">Armor</link></style>, that modulate <style=\"Link\"><link=\"avatars\">Avatars</link></style> in that they can provide them with <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>. In some cases those that function as <style=\"Link\"><link=\"controllers\">Controllers</link></style> provide access to <style=\"Link\"><link=\"resources\">Resources</link></style> and in these cases <style=\"CurrentLink\">Installations</style> become <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>. Since they are only available at certain places, the abilities the give are a form of <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>. They  modulate the <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style> or <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> which contain them since they have their own presence there, and they typically make their location into <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> and thereby support <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>, as well as making <style=\"Link\"><link=\"territories\">Territories</link></style> more valuable. They are quite likely to be <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> and <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>, especially if tied to <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>. They are also quite likely <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> and can create <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>.",
+            "Like <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"units\">Units</link></style>, <style=\"CurrentLink\">Installations</style> can be game elements that disperse <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>. This, and that they can provide players with gameplay actions, can make them into <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>. These features make <style=\"CurrentLink\">Installations</style> excellent for <style=\"Link\"><link=\"expansion\">Expansion</link></style> and <style=\"Link\"><link=\"exploitation\">Exploitation</link></style> phases.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"deliver\">Deliver</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"expansion\">Expansion</link></style>, <style=\"Link\"><link=\"exploitation\">Exploitation</link></style>, <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>, <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>, <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"minigames\">Minigames</link></style></style>",
+            "<style=\"Link\"><link=\"easter-eggs\">Easter Eggs</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"territories\">Territories</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"bases\">Bases</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>, <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Buffs\">Buffs</link></style> together with <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"cooldown\">Cooldown</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"mini\">Mini-maps</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "armor",
+            "choke-points",
+            "controllers",
+            "deliver",
+            "diegetically-outstanding-features",
+            "expansion",
+            "exploitation",
+            "focus-loci",
+            "fog-war",
+            "landmarks",
+            "location-fixed-abilities",
+            "obstacles",
+            "privileged-abilities",
+            "resource-locations",
+            "strategic-locations",
+            "strategic-planning",
+            "tools",
+            "weapons",
+            "easter-eggs"
+        ],
+        "modulates" : [
+            "avatars",
+            "game-boards",
+            "game-worlds",
+            "king-hill",
+            "levels",
+            "territories"
+        ],
+        "instantiated_by" : [
+            "bases",
+            "environmental-effects",
+            "self-service-kiosks",
+            "vehicles",
+            "warp-zones",
+            "buffs"
+        ],
+        "modulated_by" : [
+            "abstract-player-constructs",
+            "construction",
+            "cooldown",
+            "diegetically-outstanding-features",
+            "destructible-objects",
+            "geospatial-game-widgets",
+            "mini",
+            "spawning"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

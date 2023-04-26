@@ -1,0 +1,69 @@
+{
+    "name" : "Minimalized Social Weight",
+    "categories" : [
+        "To be Published",
+        "Patterns",
+        "Gameplay Adaptability Patterns",
+        "Needs revision",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : null,
+        "markups" : [
+            "''Games that interfere little with players' abilities to social interact with other people while the games are being played.''",
+            "Games are often played as a way to have social interaction with others. While the gameplay itself can in this way be a type of social interaction, games can pose obstacles for social interaction by requiring players to focus their attention on interacting with the game interface, updating the game state to reflect the effects of actions, or interacting with parts of the game system that isn't mediated to other players. Even when the games do not interrupt the flow of interaction between players, they may do so with non-players that the players are able to (or should be able to) interact with. While it may be impossible to fully avoid these issues, games that pose few obstacles to social interaction can be said to have <style=\"CurrentLink\">Minimalized Social Weight</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzle%20Games\">Puzzle Games</link></style> consisting on many levels that can be solved in rather short amount of time, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Angry%20Birds\">Angry Birds</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Continuity\">Continuity</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style>, have <style=\"CurrentLink\">Minimalized Social Weight</style> since they easily can be abandoned and do not distract other surrounding activities. The same applies to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Party%20Games\">Party Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Party%20series\">Mario Party</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/WarioWare%20series\">WarioWare series</link></style> since each party game does not take much time to play.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Kong\">Donkey Kong</link></style> fail to let players easily interact with each other or spectators since moving one's attention away from the gameplay for a second may cause one to lose lives in the game.",
+            "Each turn in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ricochet%20Robots\">Ricochet Robots</link></style> focuses all players' attention on finding the most efficient way to move a robot across a board, and any kind of social interaction during this time disrupts gameplay.",
+            "Even if the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Konga\">Donkey Konga</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guitar%20Hero%20series\">Guitar Hero</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rock%20Band%20series\">Rock Band series</link></style> are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Party%20Games\">Party Games</link></style>, they do not support <style=\"CurrentLink\">Minimalized Social Weight</style> since players mimic attention demanding performances.",
+            "Both the technology and gameplay in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Prosopopeia\">Prosopopeia</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style> were designed to not necessarily be noticeable. This was a design requirement for the games since they partly took place in public spaces.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A starting point for achieving <style=\"CurrentLink\">Minimalized Social Weight</style> is to avoid the usually negative patterns of <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style> and <style=\"Link\"><link=\"excise\">Excise</link></style>. While deciding to aim for this is usually easy in a game design process, the pattern also typically conflicts with <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style> and choosing which pattern to support may be a tougher design decision.",
+            "<style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style> is one way of trying to minimize how much attention the game requires from players. This since even if players may need to focus on the gameplay while played they can easily stop to engage in social interaction with others. Issues with the solution exist for games with <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> or when the interruptions are perceived as causing <style=\"Link\"><link=\"downtime\">Downtime</link></style> since in both these cases other players feel that their gameplay is being negatively affected. <style=\"Link\"><link=\"minigames\">Minigames</link></style> offers a solution similar to <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style> in that the end of each minigame is a position where gameplay can be interrupted.",
+            "While <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> do provide <style=\"Link\"><link=\"excise\">Excise</link></style>, they do provide <style=\"CurrentLink\">Minimalized Social Weight</style> since players can whenever they wish to interrupt non-social gameplay and <style=\"Link\"><link=\"excise\">Excise</link></style> to have social interaction outside the game. Note that requiring or supporting <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> does not in itself make games have <style=\"CurrentLink\">Minimalized Social Weight</style>, this both because interaction within the gameplay may be strongly affected by the game and because the pattern may also refer to interaction with non-players.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Besides the actual interaction required with a game's interface (which is part of the discussion above), the design of the interface can add social weight to a game. Interfaces that are difficult or time-consuming to use add social weight as do those that draw attention to themselves through their appearance. One example of how games can draw attention to themselves purely through the interface - and thereby work against the pattern of <style=\"CurrentLink\">Minimalized Social Weight</style> - is through having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Juicy%20Interfaces\">Juicy Interfaces</link></style>. <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style> is another, in which the players are made to draw attention to the gamed by how they interface with them.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "As media developed to be attention grabbing with a narration of diegetic events, <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> work against <style=\"CurrentLink\">Minimalized Social Weight</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Since it reduces the intrusion a game has on the social context in which it is played, <style=\"CurrentLink\">Minimalized Social Weight</style> makes it have both <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> and <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>, <style=\"Link\"><link=\"minigames\">Minigames</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>, <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Juicy%20Interfaces\">Juicy Interfaces</link></style>., <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "pervasive-gameplay",
+            "social-adaptability"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "interruptibility",
+            "minigames"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "attention-demanding-gameplay",
+            "analysis-paralysis",
+            "cutscenes",
+            "excise",
+            "juicy-interfaces",
+            "mimetic-interfaces"
+        ]
+    }
+}

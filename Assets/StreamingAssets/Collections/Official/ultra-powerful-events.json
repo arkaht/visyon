@@ -1,0 +1,110 @@
+{
+    "name" : "Ultra-Powerful Events",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Events that cannot be affected by player actions.",
+        "markups" : [
+            "<style=\"Definition\">Events that cannot be affected by player actions.</style>",
+            "Some events in games cannot be affected by players. Some of these are parts of the game environment, for example the rising and setting of the sun, and can be well-known to the players and occur whether or not players try to cause them to occur. Others can be started by players, for example by tripping alarms, but once they have been started, players cannot influence how they develop. All such events are <style=\"CurrentLink\">Ultra-Powerful Events</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Some of the platforms in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style> start to dissolve after Mario has stood on them for a certain time. Although Mario can be moved from the platform to save him, the player cannot affect the disappearance of the platform.",
+            "Games that have cutscenes between levels or after completing goals, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20Rising%20series\">Dead Rising series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style>, are examples of games with <style=\"CurrentLink\">Ultra-Powerful Events</style> since players cannot affect the game while the cutscenes are being shown.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Ultra-Powerful Events</style> are either used to make some events always take place, make <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> uninterruptible, or guarantee <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style> or <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>. They are one way of ensured that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>. While players cannot stop <style=\"CurrentLink\">Ultra-Powerful Events</style> from occurring their effects may not be since other events can counter the changes to the game state the first events caused. Thus, <style=\"CurrentLink\">Ultra-Powerful Events</style> may be a good starting point for creating <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> but designing for this has to take into account <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style> that can occur from other actions and events. Of course, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style> of <style=\"CurrentLink\">Ultra-Powerful Events</style> may be desired. ",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> and <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can make any event into an <style=\"CurrentLink\">Ultra-Powerful Event</style>, for example through <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style> or by making players <style=\"Link\"><link=\"helplessness\">Helpless</link></style>. Examples of design features whose events are often made into <style=\"CurrentLink\">Ultra-Powerful Events</style> include <style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style>, <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style>, <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>, <style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style>, <style=\"Link\"><link=\"switches\">Switches</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, and <style=\"Link\"><link=\"damage\">Damage</link></style> done due to <style=\"Link\"><link=\"moveable-tiles\">Moveable Tiles</link></style>. When used together with <style=\"Link\"><link=\"moveable-tiles\">Moveable Tiles</link></style>, <style=\"CurrentLink\">Ultra-Powerful Events</style> can require <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style> and <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style> (and knowing about these can be <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>). <style=\"CurrentLink\">Ultra-Powerful Events</style> can also affect  <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style> by requiring players to move due to the events. By necessity, the actions of <style=\"Link\"><link=\"ghosts\">Ghosts</link></style> need to be <style=\"CurrentLink\">Ultra-Powerful Events</style> because being able to interrupt one of their events would very likely invalidated all their future actions. When <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style> isn't an <style=\"CurrentLink\">Ultra-Powerful Event</style> triggered by other cause, the action of doing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quick\">Quick</link></style> travel can be made into one, so <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style> can be both modulated and instantiated by <style=\"CurrentLink\">Ultra-Powerful Events</style>. ",
+            "<style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style> are typically <style=\"CurrentLink\">Ultra-Powerful Events</style> (and <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>) since they wouldn't really be defining characters otherwise.",
+            "Games with <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> often have some bookkeeping events when everyone has made their turns. These events are <style=\"CurrentLink\">Ultra-Powerful Events</style>. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"Link\"><link=\"alien-space-bats\">Alien Space Bats</link></style> is one option for introducing <style=\"CurrentLink\">Ultra-Powerful Events</style>. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> and <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> are primarily constructed through <style=\"CurrentLink\">Ultra-Powerful Events</style>, and the presence of these of course heavily influence how <style=\"Link\"><link=\"storytelling\">Storytelling</link></style> can be done. <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> and <style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style> are <style=\"CurrentLink\">Ultra-Powerful Events</style> used nearly exclusively for narrative purposes. <style=\"Link\"><link=\"loyalty\">Loyalty</link></style> goals can be used to create some <style=\"CurrentLink\">Ultra-Powerful Events</style>, typically to spawn new goals. <style=\"CurrentLink\">Ultra-Powerful Events</style> are a way to introduce guarantee <style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style> or the introduction of <style=\"Link\"><link=\"companions\">Companions</link></style>.",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> quite naturally easily affected by <style=\"CurrentLink\">Ultra-Powerful Events</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Ultra-Powerful Events</style> are difficult to combine with both <style=\"Link\"><link=\"free-game-element-manipulation\">Free Game Element Manipulation</link></style> and <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, and they typically affect players' <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>. Those which are known in advance work create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> and <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style> while working against <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>; those that aren't work against players having a <style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style>. Known <style=\"CurrentLink\">Ultra-Powerful Events</style> also led games to having <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, and this can be <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> and make games with it have <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>.",
+            "When <style=\"CurrentLink\">Ultra-Powerful Events</style> take agency away from players they can <style=\"Link\"><link=\"downtime\">Downtime</link></style> and make these players into <style=\"Link\"><link=\"spectators\">Spectators</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"companions\">Companions</link></style>, <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"moveable-tiles\">Moveable Tiles</link></style></style>",
+            "<style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"ghosts\">Ghosts</link></style>, <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>, <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>, <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>, <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"alien-space-bats\">Alien Space Bats</link></style>, <style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style>, <style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"helplessness\">Helplessness</link></style>, <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, <style=\"Link\"><link=\"loyalty\">Loyalty</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style>, <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style>, <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>, <style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style>, <style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style>, <style=\"Link\"><link=\"switches\">Switches</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style> together with <style=\"Link\"><link=\"moveable-tiles\">Moveable Tiles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"free-game-element-manipulation\">Free Game Element Manipulation</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "companions",
+            "delayed-effects",
+            "downtime",
+            "hovering-closures",
+            "narration-structures",
+            "predictable-consequences",
+            "predetermined-story-structures",
+            "spectators",
+            "stimulated-planning",
+            "strategic-knowledge",
+            "surprise-attacks",
+            "time-limits",
+            "strategic-knowledge"
+        ],
+        "modulates" : [
+            "extended-actions",
+            "freedom-choice",
+            "game-worlds",
+            "ghosts",
+            "maneuvering",
+            "quick-travel",
+            "storytelling",
+            "the-show-must-go-on",
+            "turn-taking"
+        ],
+        "instantiated_by" : [
+            "alien-space-bats",
+            "character-defining-actions",
+            "controllers",
+            "cutscenes",
+            "dedicated-game-facilitators",
+            "fudged-results",
+            "game-masters",
+            "helplessness",
+            "location-fixed-abilities",
+            "loyalty",
+            "movement",
+            "one-way-travel",
+            "quick-returns",
+            "quick-travel",
+            "scripted-information-sequences",
+            "shrinking-game-worlds",
+            "switches",
+            "traps",
+            "damage"
+        ],
+        "modulated_by" : [
+            "irreversible-events",
+            "reversibility"
+        ],
+        "conflicts" : [
+            "determinable-chance-succeed",
+            "exaggerated-perception-influence",
+            "free-game-element-manipulation",
+            "self-facilitated-games"
+        ]
+    }
+}

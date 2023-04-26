@@ -1,0 +1,85 @@
+{
+    "name" : "Replays",
+    "categories" : [
+        "Narration Patterns",
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Stored recordings of gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Stored recordings of gameplay.</style>",
+            "<style=\"CurrentLink\">Replays</style> are recordings of what have happened during a game session. It can either be done by a player following his or her gameplay or an independent presentation of the overall gameplay. The actual recording may be playable as other videos, be records of game state updates that only can be shown in game engines, or be used as input to entities in future game instances.",
+            "<style=\"H3\">Examples</style>",
+            "Regardless of if they are supported by the game designs themselves, players can usually create <style=\"CurrentLink\">Replays</style>. Screen recording programs running simultaneously as games can do this on computers while it can be done for nearly all types of with the use of regular video cameras. One exception is games providing 3D projections since these are difficult to capture correctly and another one is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> since video recording equipment is usually not consistent with the diegesis nor easy to hide. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pelageya\">Pelageya</link></style>, a two part Finnish <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">LARP</link></style>, shows a case where <style=\"CurrentLink\">Replays</style> can be used effectively: players of the first part recorded events in a spaceship as they took place and players of the second part later had to try and figure out what had happen on the ship by viewing the recordings. The design of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/En%20Stilla%20Middag\">En Stilla Middag</link></style> also motivates the present of cameras at some occasions by being the staging of a 60-year celebration in modern time.",
+            "Examples of games that have built-in systems to create <style=\"CurrentLink\">Replays</style> include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/America's%20Army\">America's Army</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%202\">Battlefield 2</link></style> and later installments of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>. These <style=\"CurrentLink\">Replays</style> can take much less space than other <style=\"CurrentLink\">Replays</style> since they only need to contain the game state updates; the downside to this is that they need game engines to play or export the <style=\"CurrentLink\">Replays</style> later. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Clash%20of%20Clans\">Clash of Clans</link></style> is another example, which supports players to replays of the fights they have been part of from within the game itself.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/F-Zero%20series\">F-Zero series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gran%20Turismo%20series\">Gran Turismo series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> make use of <style=\"CurrentLink\">Replays</style> in another fashion. Here, the <style=\"CurrentLink\">Replays</style> are shown during other play sessions to provide incorporeal racing opponents that lets players compete against non-present players or even themselves. The cooperative two-player game the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ESP%20Game\">ESP Game</link></style> takes this one step further in that players do not know if they are playing with other humans or <style=\"CurrentLink\">Replays</style> of these humans previous game sessions.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Replays</style> are typically added to a game design to allow the storing of players' <style=\"Link\"><link=\"enactment\">Enactment</link></style> or other actions where there exists <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>. This <style=\"Link\"><link=\"enactment\">Enactment</link></style> is typical a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Real-Time%20Performance\">Real-Time Performance</link></style> and may be more motivated for <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> than other types of <style=\"Link\"><link=\"enactment\">Enactment</link></style>. While <style=\"CurrentLink\">Replays</style> can be displayed back to players as part of the game experience or directly afterwards, another use of <style=\"CurrentLink\">Replays</style> are to support <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>. ",
+            "<style=\"CurrentLink\">Replays</style> are from a gameplay perspective trivial to design. They do however need <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, not only to generate the actual footage but also to be able and store the <style=\"CurrentLink\">Replays</style> and later play them. They also require consideration on how controlling the creation of <style=\"CurrentLink\">Replays</style> can be done through the game interface without distracting from playing the games. One design option that does exist for <style=\"CurrentLink\">Replays</style> is whether it is players or the game system that initiates the recording and presentations of <style=\"CurrentLink\">Replays</style>. An example of the latter is <style=\"Link\"><link=\"killcams\">Killcams</link></style>, which affect gameplay since they are shown directly after kills and can reveal the location of enemy players.",
+            "The above has assumed computer-based games. <style=\"CurrentLink\">Replays</style> may however may possible in some other types of games. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style> is an example of a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Game</link></style> where providing a separate <style=\"Link\"><link=\"discard-piles\">Discard Pile</link></style> for each trick allows players to rather easily reconstruct the gameplay afterwards if they wish to.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Even if starting and stopping the recordings of <style=\"CurrentLink\">Replays</style> are <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, the interface for doing so is typically accessible through key presses rather than <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>. This is to avoid distracting players from the often challenging gameplay they wish to save for posterity.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Replays</style> let players record gameplay sequences which can become narratives of their own gameplay experience or the narratives contained within the <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> of games (or both). They can support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Generated%20Narratives\">Player-Generated Narratives</link></style> even if games have <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> since players can manipulate the footage in post-production through cutting, voice-overs, special effects, etc. As such, <style=\"CurrentLink\">Replays</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Narration%20Patterns\">Narration Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Replays</style> are a form of <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> of gameplay and can be seen as a way to display <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style> from a specific game instance. When players can control the creation of <style=\"CurrentLink\">Replays</style> this gives them a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to engage in <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, possibly to create <style=\"Link\"><link=\"game-instance-stories\">Game Instance Stories</link></style>. These can be used later to allow others to be <style=\"Link\"><link=\"spectators\">Spectators</link></style> to game sessions. This in turn can support <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> in the form of <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>.",
+            "<style=\"CurrentLink\">Replays</style> can be the basis for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>. For <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, this can modulate them so they support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> even if not during gameplay itself.",
+            "System-created <style=\"CurrentLink\">Replays</style> can be used to create <style=\"Link\"><link=\"ai-players\">AI Players</link></style> and <style=\"Link\"><link=\"ghosts\">Ghosts</link></style> through letting the actions of game entities be based upon those contained within the <style=\"CurrentLink\">Replays</style>. One use of these is to show opponents during <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, <style=\"Link\"><link=\"game-instance-stories\">Game Instance Stories</link></style>, <style=\"Link\"><link=\"ghosts\">Ghosts</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Generated%20Narratives\">Player-Generated Narratives</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>, <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>, <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Real-Time%20Performance\">Real-Time Performance</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"killcams\">Killcams</link></style>",
+            "<style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style> together with <style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "ai-players",
+            "bragging",
+            "extra-game-actions",
+            "extra-game-consequences",
+            "freedom-choice",
+            "gameplay-statistics",
+            "game-based-social-statuses",
+            "game-instance-stories",
+            "ghosts",
+            "player-generated-narratives",
+            "spectators",
+            "speedruns",
+            "social-interaction"
+        ],
+        "modulates" : [
+            "enactment",
+            "extra-game-broadcasting",
+            "physical-enactment",
+            "performance-uncertainty",
+            "real-time-performance",
+            "single-player-games",
+            "speedruns"
+        ],
+        "instantiated_by" : [
+            "dedicated-game-facilitators",
+            "killcams",
+            "discard-piles"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

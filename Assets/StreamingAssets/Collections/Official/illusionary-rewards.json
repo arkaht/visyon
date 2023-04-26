@@ -1,0 +1,69 @@
+{
+    "name" : "Illusionary Rewards",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Rewards that do not quantifiably help in completing goals or positively affect game states for players.",
+        "markups" : [
+            "<style=\"Definition\">Rewards that do not quantifiably help in completing goals or positively affect game states for players.</style>",
+            "While many rewards in games help players by changing the game state in some way to their advantage, not all do. Those that don't are called <style=\"CurrentLink\">Illusionary Rewards</style> in this pattern collection since it primarily focuses on gameplay related to game state manipulation.",
+            "<style=\"H3\">Examples</style>",
+            "Collecting all stars in the various games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style> are not required to complete the games but doing so, even after completing the actual goal of the game, can give players satisfaction and be used to compare one's skill and dedication with other players.",
+            "Some games, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20series\">Tekken series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style>, allow players to unlock new outfits for the avatars they control. This does not change the gameplay itself but is still perceived as a reward since it offers some novelty and can be shown to other people.",
+            "Even if they affect the game state, all effects players have on the character in The Sims are <style=\"CurrentLink\">Illusionary Rewards</style> since there are no formalized goal in the game. However, these rewards are vital for gameplay as they either represent the goals players have set for themselves or provide entertainment for the players when they occur unplanned.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Reason for providing <style=\"CurrentLink\">Illusionary Rewards</style> can be to help motivate <style=\"Link\"><link=\"grinding\">Grinding</link></style> and to give players an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>. They can also provide goals in <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>. ",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style> and <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> can provide <style=\"CurrentLink\">Illusionary Rewards</style> when they seem to indicate the presence of something interesting in a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> but this is a false promise. Giving players the possibility of <style=\"Link\"><link=\"experimenting\">Experimenting</link></style> is an <style=\"CurrentLink\">Illusionary Rewards</style> in that it doesn't affect the game state but shows how they can be useful for gameplay anyway since it can help players later through the knowledge they have acquired. Giving <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style> is examples of <style=\"CurrentLink\">Illusionary Rewards</style> since they doesn't affect the game state. ",
+            "Sometimes what would otherwise be <style=\"Link\"><link=\"rewards\">Rewards</link></style> can become <style=\"CurrentLink\">Illusionary Rewards</style> due to the larger context. One such example is when the overall state of a <style=\"Link\"><link=\"tournaments\">Tournament</link></style> makes the <style=\"Link\"><link=\"rewards\">Rewards</link></style> within one specific part of it meaningless since the larger outcome of that part has already been decided by the other parts. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "While <style=\"CurrentLink\">Illusionary Rewards</style> do not provide <style=\"Link\"><link=\"rewards\">Rewards</link></style> that affect the game state, they can reveal information about it when they are given to players. In this way they can function as <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> and help players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style>. This can be a supporting function for players to develop <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Illusionary Rewards</style> are defined by not providing <style=\"Link\"><link=\"rewards\">Rewards</link></style> as defined by the game state. They can however give other types of <style=\"Link\"><link=\"rewards\">Rewards</link></style> by providing <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>. When they make players in advantageous positions try to achieve them, <style=\"CurrentLink\">Illusionary Rewards</style> can provide <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> between the players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"experimenting\">Experimenting</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>, <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"rewards\">Rewards</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "balancing-effects",
+            "exaggerated-perception-influence",
+            "extra-game-consequences",
+            "game-based-social-statuses",
+            "grinding",
+            "perceivable-margins",
+            "progress-indicators"
+        ],
+        "modulates" : [
+            "gameplay-mastery",
+            "unwinnable-games"
+        ],
+        "instantiated_by" : [
+            "clues",
+            "diegetically-outstanding-features",
+            "experimenting",
+            "extra-game-information",
+            "tournaments"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "rewards"
+        ]
+    }
+}

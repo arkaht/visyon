@@ -1,0 +1,63 @@
+{
+    "name" : "Real World Knowledge Advantages",
+    "categories" : [
+        "Patterns",
+        "Information Patterns",
+        "Needs revision",
+        "Needs references",
+        "To be Published",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Games where players can make use of specific real world knowledge to their advantage.",
+        "markups" : [
+            "<style=\"Definition\">Games where players can make use of specific real world knowledge to their advantage.</style>",
+            "Many games benefit players with various generic real world skills and abilities, e.g. manual dexterity, memorizing, and planning ahead. Fewer games let players received noticeable advantages during gameplay due to have knowledge of real world facts. Games that do have this - either by intent or by mistake - offer players <style=\"CurrentLink\">Real World Knowledge Advantages</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Organized betting on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> is an example of <style=\"CurrentLink\">Real World Knowledge Advantages</style> since knowing the current performance of dogs, horses, or teams can let players have better understanding of the true odds rather than those offered. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Fantasy%20Sports\">Fantasy Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fantasy%20Football\">Fantasy Football</link></style> are similar but here players create imaginative teams based on the statistics of performers of the real sports, and these games may or may not involve monetary rewards. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Quiz%20Games\">Quiz Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trivial%20Pursuit\">Trivial Pursuit</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Who%20Wants%20to%20Be%20a%20Millionaire?\">Who Wants to Be a Millionaire?</link></style> are based around the players' knowledge about worldly facts, and therefore quite naturally players may have <style=\"CurrentLink\">Real World Knowledge Advantages</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fauna\">Fauna</link></style> is noteworthy in this context since it does let players make some use of others' knowledge through guessing similar.",
+            "Games where players have to move through physical environments not specifically created for the games often also can let players have <style=\"CurrentLink\">Real World Knowledge Advantages</style>. Examples of such games include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/BotFighters\">BotFighters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Can%20You%20See%20Me%20Now?\">Can You See Me Now?</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The simplest and most direct way of providing the possibility of <style=\"CurrentLink\">Real World Knowledge Advantages</style> is to make use of <style=\"Link\"><link=\"quizzes\">Quizzes</link></style>. ",
+            "Less common, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style> can create <style=\"CurrentLink\">Real World Knowledge Advantages</style> since most activities are easier to perform well if one has knowledge about them. More specific, and typically requiring much more localized game design, is to make use of <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>. This can give <style=\"CurrentLink\">Real World Knowledge Advantages</style> to players since it they can use what they know about the environment to help in <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style> and attaining <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style> or <style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style>.",
+            "Knowledge about other players and their abilities can be very concrete <style=\"CurrentLink\">Real World Knowledge Advantages</style>. This can for example make it more difficult for those players to engage in <style=\"Link\"><link=\"bluffing\">Bluffing</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The <style=\"CurrentLink\">Real World Knowledge Advantages</style> pattern often leads to chances of showing <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, since in many cases the advantages are clearly noticeable or possible to convey to others. This is however <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style> which may lead to difficulties in maintaining <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style> in a game.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"bluffing\">Bluffing</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style>, <style=\"Link\"><link=\"quizzes\">Quizzes</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>, <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "extra-game-information",
+            "gameplay-mastery"
+        ],
+        "modulates" : [
+            "bluffing"
+        ],
+        "instantiated_by" : [
+            "artifact-location-proximity",
+            "quizzes",
+            "physical-navigation",
+            "player-location-proximity",
+            "real-life-activities-affect-game-state",
+            "real-world-gameplay-spaces"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "actor-detachment"
+        ]
+    }
+}

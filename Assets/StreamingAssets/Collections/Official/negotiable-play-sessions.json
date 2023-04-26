@@ -1,0 +1,72 @@
+{
+    "name" : "Negotiable Play Sessions",
+    "categories" : [
+        "Patterns",
+        "Gameplay Adaptability Patterns",
+        "Needs revision",
+        "Needs references",
+        "Subjective Patterns",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Support for individual players to be able to decide how long their play sessions should be without negatively affecting the outcome or gameplay for all players.",
+        "markups" : [
+            "<style=\"Definition\">Support for individual players to be able to decide how long their play sessions should be without negatively affecting the outcome or gameplay for all players.</style>",
+            "Many times playing a game is done over several play sessions. Players may have different preferences on how long these should be, and individual players may change their preferences from play session to play session. Games that include design options to let players have varying lengths of their play sessions without disrupting the gameplay progression (but not necessarily the gameplay experience) can be said to have <style=\"CurrentLink\">Negotiable Play Sessions</style>.",
+            "''Note: This pattern is based upon the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Underlying_Assumptions_and_Concepts#Play%20Sessions\">Play Sessions</link></style> concept from the activity-based framework used for developing the original gameplay design patterns collection.''",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzle%20Games\">Puzzle Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Angry%20Birds\">Angry Birds</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%20series\">Portal series</link></style> don't require the presence of other players (except the co-op variant of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%202\">Portal 2</link></style>) and players can retry individual levels without any penalties. This allows players to stop their current play sessions whenever they want with the only penalty being the possibly wasted time on one level.",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style> can whenever they wish choose to start looking for nearby caches and suffer no penalty for stopping. Equipped with a GPS and access to the internet, the only potential problem for not being able to play whenever one wants to - besides other obligations one may have - is that there may be no caches nearby. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Insectopia\">Insectopia</link></style> functions rather similarly but uses Bluetooth device to generate game content. ",
+            "That there are many players in multiplayer games makes it more difficult for them to have <style=\"CurrentLink\">Negotiable Play Sessions</style>, since leaving the game may disrupt the gameplay for the other players. Turn-based games that do not need computational support, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>, can easily be split into many play sessions if both players agree, so they can be said to have some support for <style=\"CurrentLink\">Negotiable Play Sessions</style>. When playing through some asynchronous communication means (such as email) the individual play sessions can take place anytime within the boundaries set up for when one needs to report one's next move. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> shows that also computer-based games can support that individual players can decide how long to game without it disrupting other players.",
+            "<style=\"H3\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Invaders\">Space Invaders</link></style> do not let players pause and constantly put their gameplay positions in jeopardy. Players may choose when to start playing but the only way to choose when to stop a play session is to abandon the whole game session.",
+            "<style=\"H2\">Using the pattern</style>",
+            "While <style=\"CurrentLink\">Negotiable Play Sessions</style> implies that individual players can \"negotiate\" with the game on how long a play session can be while still providing meaningful results, the presence of other players complicates this. Leaving a game may unbalance it for remaining players or even make further gameplay impossible (in both cases ruining their <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>). For this reason <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> are likely to be incompatible with <style=\"CurrentLink\">Negotiable Play Sessions</style> unless design features are added specifically to counter this.",
+            "<style=\"CurrentLink\">Negotiable Play Sessions</style> can be supported in several different ways. <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> provide natural breaking points for the sessions while <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> give players control over every step in the update of the game. <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style> provide support for players of <style=\"Link\"><link=\"single-player-games\">Single-Player</link></style> <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> to interrupt their play sessions, and games that allow <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style> let players continue easily between power downs of the systems that run them. <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay allows players of <style=\"Link\"><link=\"multiplayer-games\">Multiplayer</link></style> <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> to control the lengths of their play sessions without disrupting gameplay for others. <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style> with long tick (or the use of slowly recharging <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>) let players choose when to play within a tick and for how long.",
+            "Finally, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> support <style=\"CurrentLink\">Negotiable Play Sessions</style> when players set the limits before starting play sessions even if this does not make the negotiable once they have started.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Negotiable Play Sessions</style> cause <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> as long as any player begins negotiating the length of a play session. Having <style=\"CurrentLink\">Negotiable Play Sessions</style> provides a basis for providing both <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable</link></style> and <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style> as well as <style=\"Link\"><link=\"negotiable-game-instance-duration\">Negotiable Game Instance Duration</link></style>. This also lessens the risk that <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style> negatively affect the gameplay of other players. By letting players have control over their play sessions, the pattern supports <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>. Further, by letting players have control over when they play parts of what will become the total gameplay of a game, <style=\"CurrentLink\">Negotiable Play Sessions</style> provides characteristics found in both <style=\"Link\"><link=\"casual-gameplay\">Casual</link></style> and <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable Game Sessions</link></style>, <style=\"Link\"><link=\"negotiable-game-instance-duration\">Negotiable Game Instance Duration</link></style>, <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>, <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "casual-gameplay",
+            "extra-game-actions",
+            "negotiable-game-sessions",
+            "negotiable-game-instance-duration",
+            "player-agency",
+            "ubiquitous-gameplay",
+            "unsynchronized-game-sessions"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "drop-in-drop-out",
+            "game-pauses",
+            "save-load-cycles",
+            "self-facilitated-games",
+            "tick-based-games",
+            "time-limits",
+            "turn-based-games"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "early-leaving-players",
+            "multiplayer-games"
+        ]
+    }
+}

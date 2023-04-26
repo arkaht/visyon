@@ -1,0 +1,86 @@
+{
+    "name" : "Competence Areas",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Game entities have or can develop areas of specialty within a game.",
+        "markups" : [
+            "<style=\"Definition\">Game entities have or can develop areas of specialty within a game.</style>",
+            "Games in which different types of actions or activities are possible open up for the possibility of different game entities being better or worse at specific abilities. Being a specialist in a type of action and thereby better than others in it means that these game entities have <style=\"CurrentLink\">Competence Areas</style>.",
+            "<style=\"H3\">Examples</style>",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%2040K\">Warhammer 40K</link></style>, space marine units can have some soldier equipped with missile launchers or flamethrowers to make them better at fighting specific types of enemies. All other armies in the game have similar ways of modifying their forces - or have different types of forces to choice from - so that no army should by default have an advantage over another one.",
+            "Class-based multiplayer <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> allow players to play one class and develop their expertise as a member of that class. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, many different races and classes also exist but during gameplay, these are less important than if player characters excel functional roles such as ''tanker'', ''healers'', or ''damage dealer''. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Game</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> had in early versions a near one-to-one mapping between classes and <style=\"CurrentLink\">Competence Areas</style>, but this have been less prominent in the fourth edition - something clearly noticeable by the use of function role concepts ''Controller'', ''Defender'', ''Leader'', and ''Striker''.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A major design choice for <style=\"CurrentLink\">Competence Areas</style> is if the game entities with the competences represent different players or are a group of resources available to one player. The first option requires <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> and here <style=\"CurrentLink\">Competence Areas</style> can occur because players are trying to find ways of out-competing each other or because <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> becomes more efficient if they do specialize. Another major choice for <style=\"CurrentLink\">Competence Areas</style> is whether they should be present from the beginning of the game or appear as gameplay progress, and in the latter case if players have a say in how these develop and if who has what <style=\"CurrentLink\">Competence Area</style> is permanent.",
+            "<style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> are general ways of making different <style=\"Link\"><link=\"characters\">Characters</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> have different <style=\"Link\"><link=\"abilities\">Abilities</link></style>, and thereby <style=\"CurrentLink\">Competence Areas</style>. More specific ways includes providing different <style=\"Link\"><link=\"characteristics\">Characteristics</link></style> and <style=\"Link\"><link=\"abilities\">Abilities</link></style> include using <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, and <style=\"Link\"><link=\"weapons\">Weapons</link></style> as well as <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>. All these may be present at the beginning of games (as e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%2040K\">Warhammer 40K</link></style> requires) or can develop over time through <style=\"Link\"><link=\"new-abilities\">New</link></style> or  <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> are examples of this, and so is the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> through picking up weapons found during gameplay). <style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style> is a specific option letting players specialize during or between game sessions and thereby customize their <style=\"Link\"><link=\"abilities\">Abilities</link></style> to gain the <style=\"CurrentLink\">Competence Areas</style> perceive to be most beneficial. Although <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, and <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style> cannot give <style=\"CurrentLink\">Competence Areas</style> to those that affected by these changes, they can effectively give them to ''not'' affected. Generally, games with <style=\"Link\"><link=\"characters\">Characters</link></style> that can have <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style> lead to the players making sure that these will have <style=\"CurrentLink\">Competence Areas</style>. In games with <style=\"Link\"><link=\"teams\">Teams</link></style>, the presence of <style=\"Link\"><link=\"team-development\">Team Development</link></style> can allow individual members to develop their own <style=\"CurrentLink\">Competence Areas</style>. ",
+            "<style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style> by their nature requires that players master several different <style=\"CurrentLink\">Competence Areas</style>, but lets players strive to win by being better at some areas than others are.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Competence Areas</style> change the importance of <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, and <style=\"Link\"><link=\"units\">Units</link></style> in games since they have functionally specialized abilities; this is only indirect for <style=\"Link\"><link=\"avatars\">Avatars</link></style> since when these are used it is the players that have the actual competence. The possibility of attaining <style=\"CurrentLink\">Competence Areas</style> during gameplay give players <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> goals and can give <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> between game instances if players have choices regarding with <style=\"CurrentLink\">Competence Areas</style> to develop. When different entities have different <style=\"CurrentLink\">Competence Areas</style>, this provides <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>. In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, having players with different <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Compentence%20Areas\">Compentence Areas</link></style> is likely to also give them different <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>. When <style=\"CurrentLink\">Competence Areas</style> are based on players own skills there provide skilled players with <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> but another form of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> can be to know which <style=\"CurrentLink\">Competence Areas</style> to select or strive for in a game when these competences are based on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Classes\">Character Classes</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>, or <style=\"Link\"><link=\"skills\">Skills</link></style>. ",
+            "In <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, <style=\"CurrentLink\">Competence Areas</style> between different types of <style=\"Link\"><link=\"units\">Units</link></style> or between <style=\"Link\"><link=\"characters\">Characters</link></style> can support <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> between different tactics and allow the possibility a greater variety of <style=\"Link\"><link=\"team-combos\">Team Combos</link></style>. In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"CurrentLink\">Competence Areas</style> can provide players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empowerment\">Empowerment</link></style> as well as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>. When <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> exists, the <style=\"CurrentLink\">Competence Areas</style> can lead to more formalized <style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style> between the players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empowerment\">Empowerment</link></style>, <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style></style>",
+            "<style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"social-roles\">Social Roles</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"abilities\">Abilities</link></style>, <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, players, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"characteristics\">Characteristics</link></style>, <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>, <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>, <style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"team-development\">Team Development</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "empowerment",
+            "gain-competence",
+            "game-based-social-statuses",
+            "gameplay-mastery",
+            "orthogonal-differentiation",
+            "varied-gameplay",
+            "functional-roles",
+            "social-roles"
+        ],
+        "modulates" : [
+            "abilities",
+            "abstract-player-constructs",
+            "characters",
+            "",
+            "units"
+        ],
+        "instantiated_by" : [
+            "ability-losses",
+            "characteristics",
+            "decreased-abilities",
+            "equipment-slots",
+            "improved-abilities",
+            "movement-limitations",
+            "multiplayer-games",
+            "new-abilities",
+            "player-planned-development",
+            "polyathlons",
+            "privileged-abilities",
+            "privileged-movement",
+            "sidegrades",
+            "skills",
+            "team-development",
+            "tools",
+            "weapons"
+        ],
+        "modulated_by" : [
+            "cooperation"
+        ],
+        "conflicts" : [
+            "ability-losses"
+        ]
+    }
+}

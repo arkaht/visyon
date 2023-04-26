@@ -1,0 +1,77 @@
+{
+    "name" : "Conceal",
+    "categories" : [
+        "Information Patterns",
+        "Goal Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The goal of trying to hinder other players ability to gain information.",
+        "markups" : [
+            "<style=\"Definition\">The goal of trying to hinder other players ability to gain information.</style>",
+            "Having as much information as possible about a game state in a game is usually advantageous. <style=\"CurrentLink\">Conceal</style> is the goal of trying to prevent other players from gaining information about part of the game state. While <style=\"CurrentLink\">Conceal</style> goals are often preventing or hindering other players from finding out the location of the specific game elements or the players themselves the aim of <style=\"CurrentLink\">Conceal</style> goals may also be to keep certain information associated with a game element from other players.",
+            "<style=\"H3\">Examples</style>",
+            "The children's game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hide-and-Seek\">Hide-and-Seek</link></style> is the archetypical example of using <style=\"CurrentLink\">Conceal</style> where all children except one try to Conceal their locations. Another archetypical example is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battleships\">Battleships</link></style> where players try to place their ships in ways to make it difficult for their opponents to guess where the ships are. An important aspect of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stratego\">Stratego</link></style> is to keep the identity of one's pieces hiding from one's opponent.",
+            "The game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zendo\">Zendo</link></style> allows the master to secretly make a rule for how differently colored pyramids should be arranged to have \"Buddha nature\", and the goal of the students is to try and extrapolate the rule from experiments.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Conceal</style> goals require two parts: providing players with the possibility of hiding and giving them reasons to hide. What is hidden is typically <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>, or the players themselves. ",
+            "<style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style> provides possibilities to hide, so this pattern is a basic component that can be used to create <style=\"CurrentLink\">Conceal</style> goals. More generic, the presence of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> in a game can allow <style=\"CurrentLink\">Conceal</style> goals as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battleships\">Battleships</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stratego\">Stratego</link></style> show. <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style> can help players with <style=\"CurrentLink\">Conceal</style> goals if the players can create these <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style> as decoys for what they are trying to hide. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> can more generally support <style=\"CurrentLink\">Conceal</style> goals through allow players to create additional <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style> or <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>. It can also allow players to make <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style> better. From an interface perspective, <style=\"Link\"><link=\"auxiliary-game-screens\">Auxiliary Game Screens</link></style> can allow players to perform the actual hiding in ways that are less prone to being seen by other players. ",
+            "While <style=\"CurrentLink\">Conceal</style> goals can simply be given as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Enforced%20Goals\">Enforced Goals</link></style> to players, many combinations of patterns naturally make players take on implicit <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conceal%20Goals\">Conceal Goals</link></style>. <style=\"Link\"><link=\"enemies\">Enemies</link></style>, especially with <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> goals, is one example. Others are when the game elements, be they <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style>, have <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> or <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> that others can exploit. The latter of these may make players try to hide some game elements while showing (or sacrificing) others. Players with <style=\"Link\"><link=\"survive\">Survive</link></style> goals are likely to take on <style=\"CurrentLink\">Conceal</style> goals if possible since this offers one solution to completing the <style=\"Link\"><link=\"survive\">Survive</link></style> goals (so <style=\"CurrentLink\">Conceal</style> goals modify the <style=\"Link\"><link=\"survive\">Survive</link></style> goals).",
+            "<style=\"CurrentLink\">Conceal</style> goal can be pointless unless somebody is looking for what is hidden; that is, <style=\"CurrentLink\">Conceal</style> goals may only be meaningful if there are <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, e.g. <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> or <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, that are stopped by the <style=\"CurrentLink\">Conceal</style> goal being successful.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Conceal</style> is a <style=\"Link\"><link=\"continuous-goals\">Continuous Goal</link></style> which when combined with <style=\"Link\"><link=\"traverse\">Traverse</link></style> provides <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals. When done as (allowed) <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> they support <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style>. To others, <style=\"CurrentLink\">Conceal</style> goals can be <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style></style>",
+            "<style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"traverse\">Traverse</link></style></style>",
+            "<style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"survive\">Survive</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, <style=\"Link\"><link=\"auxiliary-game-screens\">Auxiliary Game Screens</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style> together with <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style> together with <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "continuous-goals",
+            "unknown-goals",
+            "sanctioned-cheating",
+            "stealth"
+        ],
+        "modulates" : [
+            "survive"
+        ],
+        "instantiated_by" : [
+            "asymmetric-information",
+            "auxiliary-game-screens",
+            "enemies",
+            "gain-information",
+            "gain-ownership",
+            "hiding-places",
+            "imperfect-information",
+            "preventing-goals",
+            "avatars",
+            "avatars"
+        ],
+        "modulated_by" : [
+            "creative-control",
+            "red-herrings"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

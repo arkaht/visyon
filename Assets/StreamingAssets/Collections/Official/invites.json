@@ -1,0 +1,59 @@
+{
+    "name" : "Invites",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Game actions the result in new players being invited to join the game.",
+        "markups" : [
+            "<style=\"Definition\">Game actions the result in new players being invited to join the game.</style>",
+            "Some games allow, or may even need, players to arrive after specific game instances have started. While this can be handled informally by players and facilitators like game masters in many cases, the games themselves can provide <style=\"CurrentLink\">Invites</style>, game actions that allow players to try to recruit new players and possibly get in-game rewards for doing so.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia%20Wars\">Mafia Wars</link></style> allow players to try and recruit new people to the game. By doing so they get other players that are likely to help them with the various tasks the games challenges them with.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> uses the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Steam\">Steam</link></style> platform to make it easy to invite other players owning the game to quickly join ongoing games.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Invites</style> are mechanized ways for players to invite new people to play the game, often automatically making them part of <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>. As such, they require some kind of medium which allows the games to perform <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style> in order to reach non-players; this typically means that they require internet connectivity. Given that they are actions handled by the game system to add more players to game instances, the games that are to include <style=\"CurrentLink\">Invites</style> need to already support <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> or <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay. They make most sense in games with very many players, i.e. <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style> and <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, but may also be important for games relying heavily on <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>.",
+            "Using <style=\"CurrentLink\">Invites</style> may be motivated by the players' context, e.g. adjusting <style=\"Link\"><link=\"team-balance\">Team Balance</link></style> by recruiting new <style=\"Link\"><link=\"teams\">Team</link></style> members. This may not only be to get better <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> in one's own team but also getting a more <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> by improving the other team. Games existing on social media sites, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Combine\">Combine</link></style> on Facebook, show another reason for <style=\"CurrentLink\">Invites</style> - <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style> through <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style> about new positions in local and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style> and thereby taunting others to try and beat them.",
+            "While games may provide players who successfully invite other people with <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> shows that <style=\"CurrentLink\">Invites</style> can also be packaged as <style=\"Link\"><link=\"rewards\">Rewards</link></style> waiting for the new possible players.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Invites</style> are wholly or partly <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>. When used to get aid they are a sort of <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style> in that they ask people not playing a game to join for this reason.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>, <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"H3\">Potentially Conflicting With</style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "extra-game-actions",
+            "non-player-help",
+            "rewards"
+        ],
+        "modulates" : [
+            "cooperation",
+            "drop-in-drop-out",
+            "friend-lists",
+            "late-arriving-players",
+            "massively-multiplayer-online-games",
+            "massively-single-player-online-games",
+            "teams"
+        ],
+        "instantiated_by" : [
+            "extra-game-broadcasting"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

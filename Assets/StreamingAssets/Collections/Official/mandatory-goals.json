@@ -1,0 +1,63 @@
+{
+    "name" : "Mandatory Goals",
+    "categories" : [
+        "Patterns",
+        "Goal Patterns",
+        "Needs work",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "Stub",
+        "To be Published",
+        "Staffan's current workpage"
+    ],
+    "texts" : {
+        "definition" : "The one-sentence \"definition\" that should be in italics.",
+        "markups" : [
+            "<style=\"Definition\">The one-sentence \"definition\" that should be in italics.</style>",
+            "This pattern is a still a stub.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"H4\">Anti-Examples</style>",
+            "optional",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"Link\"><link=\"main-goals\">Main Goals</link></style> is one subgroup of <style=\"CurrentLink\">Mandatory Goals</style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "N/A",
+            "<style=\"H4\">with ...</style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>, <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"main-goals\">Main Goals</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+        ],
+        "modulates" : [
+            "goal-hierarchies",
+            "overcome",
+            "predefined-goals",
+            "narration-structures"
+        ],
+        "instantiated_by" : [
+            "main-goals"
+        ],
+        "modulated_by" : [
+            "narration-structures"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

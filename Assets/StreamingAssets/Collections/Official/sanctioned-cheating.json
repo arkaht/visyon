@@ -1,0 +1,105 @@
+{
+    "name" : "Sanctioned Cheating",
+    "categories" : [
+        "Patterns",
+        "Rule Patterns",
+        "Subjective Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Cheating which either is supported by the game design or is seen as acceptable to a certain degree by other players.",
+        "markups" : [
+            "<style=\"Definition\">Cheating which either is supported by the game design or is seen as acceptable to a certain degree by other players.</style>",
+            "A basic agreement when playing games is that one should follow the rules. However, some games give some leeway in this by supporting actions that in other circumstances (or games) would be seen as cheating. These actions might be punishable if other players detected them in multiplayer games or might make others view the actions in a single-player game more as playing than gaming. In both case, the game design does sanction these \"cheating\" and can by this be said to provide <style=\"CurrentLink\">Sanctioned Cheating</style>.",
+            "See the book <i>Cheating - Gaining Advantage in Videogames</i> for more details of what this pattern collection calls <style=\"CurrentLink\">Sanctioned Cheating</style> in the context of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style>.",
+            "<style=\"H3\">Examples</style>",
+            "Some traditional <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cheat\">Cheat</link></style> provide <style=\"CurrentLink\">Sanctioned Cheating</style> in that it is okay to lie but being called out on it has a negative consequence. Another <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Game</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illuminati\">Illuminati</link></style>, allows players to do some specific types of cheating actions which have to be retracted if other players notice them. ",
+            "\"Creative Mode\" in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> can be seen as a form of <style=\"CurrentLink\">Sanctioned Cheating</style> since it provides players with unlimited resources. The cheat codes provided in for example the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style> function the same way but require the players to use these explicitly as they need resources.",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style> allow players to access command prompts where they can change the game state and give themselves abilities (e.g. becoming immune to damage by entering \"god mode\"). Using similar systems in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style> allow players to change ownership of provinces, activate events or otherwise affect the game state. ",
+            "Using programs to control one's avatar to do routine actions in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">MMOGs</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> can be seen as <style=\"CurrentLink\">Sanctioned Cheating</style> but opinions may differ between players and the game developers.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Sanctioned Cheating</style> is basically deciding on allowing or making possible certain gameplay actions that are typically seen as cheating. Often this relates to changing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> of game elements, performing actions as if having <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, or giving oneself <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>. This typically provides an initial set of possible actions to consider, but besides this game designers can consider whom is sanctioned to use them and if there are rule-based consequences to being found out using these actions. That the actions often should be hidden and that they are not presented as direct gameplay actions make <style=\"Link\"><link=\"conceal\">Concealing</link></style> the use of <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> one prime way of creating <style=\"CurrentLink\">Sanctioned Cheating</style>. This also implies that some amount of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> must exist about the gameplay. Similarly, not choosing from the \"correct\" alternatives when choosing which action, <style=\"Link\"><link=\"cards\">Card</link></style>, or <style=\"Link\"><link=\"tiles\">Tile</link></style> to play can be <style=\"CurrentLink\">Sanctioned Cheating</style>; <style=\"Link\"><link=\"revoke-rules\">Revoke Rules</link></style> can be put in place to make this an unlikely action to want to take (while also scaffolding a game so it can continue if players make unintentional mistakes). ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cheat%20Codes\">Cheat Codes</link></style> is a way of creating <style=\"CurrentLink\">Sanctioned Cheating</style> to give players access to <style=\"Link\"><link=\"resources\">Resources</link></style> or give them <style=\"Link\"><link=\"abilities\">Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>, or <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style> they otherwise wouldn't have. It is typically only used in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> due to the problems with <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> and being able to notice its use in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cheat%20Codes\">Cheat Codes</link></style> are typically accessible through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Command%20Line%20Systems\">Command Line Systems</link></style> but these may also provide <style=\"CurrentLink\">Sanctioned Cheating</style> simply by providing actions there which are not possible from within the main interface of the game (e.g. instantly acquiring a province through using the command ''own'' in the console window in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis IV</link></style>). ",
+            "<style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> can adjust which cheats, if any, in the \"normal\" set of <style=\"CurrentLink\">Sanctioned Cheating</style> are allowed; a typical case being that in an \"ironman mode\" none are allowed.",
+            "The use of <style=\"Link\"><link=\"mules\">Mules</link></style> is a form of <style=\"CurrentLink\">Sanctioned Cheating</style>, especially in the case when they are used to perform repetitious actions that could argued are more related to <style=\"Link\"><link=\"excise\">Excise</link></style> than gameplay.",
+            "<style=\"Link\"><link=\"feigned-die-rolls\">Feigned Die Rolls</link></style> is a type of <style=\"CurrentLink\">Sanctioned Cheating</style> that <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can allow themselves to have by simply hiding their die rolls. They can typically do this without complaints since they are <style=\"Link\"><link=\"entitled-players\">Entitled Players</link></style>.",
+            "<style=\"CurrentLink\">Sanctioned Cheating</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Subjective%20Patterns\">Subject Pattern</link></style> since players can argue that they are allowed since players can do them. In some cases it is also subjective in that players, or more likely <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, can decide that the cheating they are doing is sanctioned on the basis of improving the experience for all players. One example can be \"cheating\" by worsening your own position to achieve <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, and this type of <style=\"CurrentLink\">Sanctioned Cheating</style> can be seen as players taking control of the game to make it a <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Game</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Glitch%20Usage\">Glitch Usage</link></style> ''may'' be a type of <style=\"CurrentLink\">Sanctioned Cheating</style> depend on what it is used (i.e. it is subjective if this is the case). One case when it is typically seen as sanctioned is in <style=\"Link\"><link=\"speedruns\">Speedruns</link></style> since players attempting these are adding very specific additional goals to the gameplay activity. Making use of <style=\"Link\"><link=\"revoke-rules\">Revoke Rules</link></style> is often frown upon since these rules nominally are in place to save game instances from having to stop but might be justifiable in some <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style> situations.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Sanctioned Cheating</style> affects <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> and <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> differently. In <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> they provide players a greater degree of <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> and give <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> both in creating <style=\"Link\"><link=\"player-defined-goals\">Player Defined Goals</link></style> and in defining what types of activity they actually want to have from interacting with the game; <style=\"Link\"><link=\"pottering\">Pottering</link></style> for example can significantly be supported through <style=\"CurrentLink\">Sanctioned Cheating</style>. In games with <style=\"Link\"><link=\"pvp\">PvP</link></style> or <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay, the pattern typically forces players to behave as they are doing something while doing something else. This is a form of <style=\"Link\"><link=\"bluffing\">Bluffing</link></style> which may require <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> that also provides players with a form of <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals. Players engaging in <style=\"CurrentLink\">Sanctioned Cheating</style> in these kinds of games may also experience <style=\"Link\"><link=\"tension\">Tension</link></style> over the risk of being exposed while those that do not cheat may experience <style=\"Link\"><link=\"tension\">Tension</link></style> from knowing that other players may be cheating.",
+            "Since the actions provided by the <style=\"CurrentLink\">Sanctioned Cheating</style> is to a certain level forbidden, being able to do them can give players an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>.",
+            "<style=\"CurrentLink\">Sanctioned Cheating</style> has a fickle relation to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>; performing <style=\"CurrentLink\">Sanctioned Cheating</style> well may provide a positive status of this type but just as well ruin one depending on the opinions of other players of what is acceptable.",
+            "Somewhat paradoxically, <style=\"CurrentLink\">Sanctioned Cheating</style> can be used to achieve <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>; this is probably more common in <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> since players make take control of the game facilitation specifically for this reason. However, it is a pattern relating to <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> for all types of <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> (rather than just those with <style=\"Link\"><link=\"pvp\">PvP</link></style> gameplay) and to <style=\"Link\"><link=\"team-balance\">Team Balance</link></style> for games with <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"pvp\">PvP</link></style> or <style=\"Link\"><link=\"tvt\">TvT</link></style></style>",
+            "<style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">with <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, ",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, ",
+            "<style=\"Link\"><link=\"player-defined-goals\">Player Defined Goals</link></style>, ",
+            "<style=\"Link\"><link=\"pottering\">Pottering</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"tvt\">TvT</link></style></style>",
+            "<style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, ",
+            "<style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, ",
+            "<style=\"Link\"><link=\"stealth\">Stealth</link></style>, ",
+            "<style=\"Link\"><link=\"team-balance\">Team Balance</link></style>, ",
+            "<style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style>, <style=\"Link\"><link=\"pvp\">PvP</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>, <style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cheat%20Codes\">Cheat Codes</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Command%20Line%20Systems\">Command Line Systems</link></style>, <style=\"Link\"><link=\"feigned-die-rolls\">Feigned Die Rolls</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Glitch%20Usage\">Glitch Usage</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"mules\">Mules</link></style>, <style=\"Link\"><link=\"revoke-rules\">Revoke Rules</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"Link\"><link=\"conceal\">Conceal</link></style> together with <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "exaggerated-perception-influence",
+            "game-based-social-statuses",
+            "invulnerabilities",
+            "privileged-abilities",
+            "player-balance",
+            "bluffing",
+            "player-balance",
+            "roleplaying",
+            "stealth",
+            "tension"
+        ],
+        "modulates" : [
+            "difficulty-levels",
+            "multiplayer-games",
+            "ownership",
+            "pvp",
+            "single-player-games",
+            "speedruns",
+            "tvt"
+        ],
+        "instantiated_by" : [
+            "cheat-codes",
+            "command-line-systems",
+            "feigned-die-rolls",
+            "glitch-usage",
+            "imperfect-information",
+            "mules",
+            "revoke-rules",
+            "self-facilitated-games",
+            "conceal"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "game-based-social-statuses"
+        ]
+    }
+}

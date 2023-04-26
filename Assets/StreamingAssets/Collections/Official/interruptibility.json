@@ -1,0 +1,84 @@
+{
+    "name" : "Interruptibility",
+    "categories" : [
+        "To be Published",
+        "Patterns",
+        "Subjective Patterns",
+        "Gameplay Adaptability Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Game structures that allow players to interrupt their gameplay without disrupting the gameplay for the players.",
+        "markups" : [
+            "<style=\"Definition\">Game structures that allow players to interrupt their gameplay without disrupting the gameplay for the players.</style>",
+            "Since it is often difficult to know exactly how long play sessions will take, players often have to interrupt their gameplay at unexpected points. Another reason for such interruptions is that the external situation has changed and no longer permits continued gameplay. Games that can gracefully handle this so gameplay can continue with a minimum of negative effects have <style=\"CurrentLink\">Interruptibility</style>.",
+            "<style=\"H3\">Examples</style>",
+            "All <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> can easily be interrupted simply by not making one's turn. While this may irritate other players in some games, it is unproblematic in single-player games.",
+            "Games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts%20of%20Iron%20series\">Hearts of Iron series</link></style> can be paused whenever in single-player games to perform actions and plan. ",
+            "Games based upon players' proximity to locations or other players, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Insectopia\">Insectopia</link></style>, are built upon short bursts of player action injected into other activities. From the perspective of playing the game, the games support <style=\"CurrentLink\">Interruptibility</style> since players are not required to do actions at any given point of time.",
+            "While players may suffer limited setback by not playing social media games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zombie%20Lane\">Zombie Lane</link></style>, these are not due to interrupting ongoing play sessions but rather for not playing the games for a significant amount of time. This means that cutting play sessions short in these games are unproblematic and they support <style=\"CurrentLink\">Interruptibility</style> well.",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style>, players roleplay themselves being intermittently possessed by a ghost. They can easily interrupt their gameplay by deciding that the ghost has stopped possessing them.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are two aspects regarding the use of <style=\"CurrentLink\">Interruptibility</style> in games. One relates to making it possible to interrupt one's gameplay without ruining the game instances, the other relates to making it possible to interrupt gameplay without suffering negative consequences. <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style> and support for <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style> help pausing game instances so they can be resumed later, while <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style> is based upon not requiring all players to be active at the same time and thereby make it easy (or necessary) for individual players to take breaks in the gameplay.",
+            "Since nothing happens in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> until player actions are done, these support <style=\"CurrentLink\">Interruptibility</style>. However, this points to the possibility that <style=\"CurrentLink\">Interruptibility</style> exists but causes negative consequences since the game state should continues to update. This most obviously can occur in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> since other players may not want to experience <style=\"Link\"><link=\"downtime\">Downtime</link></style>, and this becomes especially problematic in games with <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> since the causes for the interruption may not be apparent to other players. However, games with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> can have this regardless if any other players have ongoing play sessions. <style=\"Link\"><link=\"no-ops\">No-Ops</link></style> let players take breaks even if they can  be affected by game events and the gameplay can become unbalance for other players, and <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style> can enforce <style=\"Link\"><link=\"no-ops\">No-Ops</link></style> for players who have not provided new gameplay actions before the tick occurs. <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> designs avoid that the pausing player has negative consequences but other players can still experience imbalances - <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> and <style=\"Link\"><link=\"ai-players\">AI Players</link></style> can avoid this by filling in for the players that have left. Games that provide <style=\"CurrentLink\">Interruptibility</style> for some players while gameplay continues for others need to consider how (and if) players can rejoin the game instances: <style=\"Link\"><link=\"spawning\">Spawning</link></style> is a typical solution.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Interruptibility</style> may cause issues with <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> since the removal of a player's <style=\"Link\"><link=\"characters\">Character</link></style> may be difficult to explain in diegetic terms.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Games supporting <style=\"CurrentLink\">Interruptibility</style> may need to provide <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> or <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> to help players know if other players have interrupted their gameplay, and to let returning players be aware of the current game state.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Interruptibility</style> gives players a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> when to play, which in many cases can become <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between playing now or at a later point. By making it possible for players to choose when to play without negative consequences for not playing, the pattern helps provide <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> and give a game <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>. This in turn helps make both <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive</link></style> and <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style> possible and lowers the occurence of <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style> since they can choose to interrupt their game rather than leave it.",
+            "As mentioned above, providing <style=\"CurrentLink\">Interruptibility</style> for one player may cause <style=\"Link\"><link=\"downtime\">Downtime</link></style> for others unless mitigated by <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> mechanics.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style>, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>, <style=\"Link\"><link=\"no-ops\">No-Ops</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>, <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>, <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "downtime",
+            "freedom-choice",
+            "minimalized-social-weight",
+            "pervasive-gameplay",
+            "social-adaptability",
+            "trade-offs",
+            "ubiquitous-gameplay"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "ai-players",
+            "algorithmic-agents",
+            "asynchronous-gameplay",
+            "drop-in-drop-out",
+            "game-pauses",
+            "no-ops",
+            "save-load-cycles",
+            "spawning",
+            "tick-based-games",
+            "turn-based-games"
+        ],
+        "modulated_by" : [
+            "game-lobbies",
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+            "early-leaving-players",
+            "mediated-gameplay",
+            "multiplayer-games",
+            "persistent-game-worlds",
+            "diegetic-consistency"
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "name" : "Game Lobbies",
+    "categories" : [
+        "Patterns",
+        "Platform Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published",
+        "Interface Patterns",
+        "Meta Patterns"
+    ],
+    "texts" : {
+        "definition" : "Meeting spaces for players before game instances begin.",
+        "markups" : [
+            "<style=\"Definition\">Meeting spaces for players before game instances begin.</style>",
+            "Online games can either directly place players in ongoing game instances or provide an interface to let them chose (or create) these. <style=\"CurrentLink\">Game Lobbies</style> are the interfaces that handle the latter options and may allow players to interact with each other before gameplay begins.",
+            "<style=\"H3\">Examples</style>",
+            "Practically all online multiplayer games where players match up against each other make use of <style=\"CurrentLink\">Game Lobbies</style>. Examples includes <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake\">Quake</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/StarCraft\">StarCraft</link></style> series. Similarly, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> provides <style=\"CurrentLink\">Game Lobbies</style> so that players have the possibility of matching up and avoid using bots as replacements for players. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Everquest\">Everquest</link></style> allow players find each other not only to engage in team-based conflicts but also to create groups that cooperative in trying to complete localized gameplay areas.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Game Lobbies</style> can be used to allow players in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> with <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> to decide what type of game they should play and whom they should play it with. A main design choice for <style=\"CurrentLink\">Game Lobbies</style> is their scope, and in many cases games need to support players moving between these scopes. On the highest level, <style=\"CurrentLink\">Game Lobbies</style> in <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style> can help players select <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>. Connecting to one of these can put players in the next scope, in which players of a <style=\"Link\"><link=\"game-servers\">Game Server</link></style> can gather before gameplay begins. This can simply be to allow enough players to be able for the game to be able to start but can also allow friends or rivals to find each other if <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> are available. In games that in reality are <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> consisting of <style=\"Link\"><link=\"back-back-game-sessions\">Back-to-Back Game Sessions</link></style> or several matches, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style>, the <style=\"CurrentLink\">Game Lobbies</style> also serve as a space for players to discuss the just experienced gameplay. This can also be used to let players suffering from <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style> or <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> to occupy themselves until the current match has ended.",
+            "<style=\"CurrentLink\">Game Lobbies</style> can also be used during games to allow players to find each other so they can together enter <style=\"Link\"><link=\"instances\">Instances</link></style>. This may encourage and support players unfamiliar with each other to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pickup%20Groups\">Pickup Groups</link></style>.",
+            "<style=\"CurrentLink\">Game Lobbies</style> can make use of <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>, and <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style> to help players identify themselves and find appropriate players to play with. They nearly always provide <style=\"Link\"><link=\"chat-channels\">Chat</link></style> or other <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> so that players can both socialize and negotiate when gameplay should begin. In games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Rule%20Setup\">Player Decided Rule Setup</link></style>, for example concerning <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, the <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> also allow players to discuss which options or variants should be used.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "As a way of allowing players to meet outside ongoing gameplay, <style=\"CurrentLink\">Game Lobbies</style> is not only an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style> but also a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Meta%20Patterns\">Meta Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Game Lobbies</style> provides players with a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> whom they can play with. To a certain level they support <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> in that players already connected to the <style=\"CurrentLink\">Game Lobbies</style> can discuss waiting for additional players compared to starting to play. In games which support <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>, they can also help players be aware of when players have taken a pause in play as well as how the other players should to handle this situation.",
+            "Although <style=\"CurrentLink\">Game Lobbies</style> do not need to have <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> between players, this is so common that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> nearly always is supported through the presence of this pattern.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"back-back-game-sessions\">Back-to-Back Game Sessions</link></style>, <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style>, <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, <style=\"Link\"><link=\"instances\">Instances</link></style>, <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pickup%20Groups\">Pickup Groups</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Rule%20Setup\">Player Decided Rule Setup</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>, or <style=\"Link\"><link=\"tvt\">TvT</link></style> in games that have <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>, <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "social-interaction"
+        ],
+        "modulates" : [
+            "back-back-game-sessions",
+            "difficulty-levels",
+            "early-elimination",
+            "game-servers",
+            "instances",
+            "interruptibility",
+            "late-arriving-players",
+            "meta-games",
+            "meta-servers",
+            "pickup-groups",
+            "player-decided-rule-setup",
+            "player-elimination",
+            "multiplayer-games"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "chat-channels",
+            "communication-channels",
+            "friend-lists",
+            "gameplay-statistics",
+            "handles",
+            "public-player-statistics"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

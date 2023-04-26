@@ -1,0 +1,96 @@
+{
+    "name" : "Evolving Rule Sets",
+    "categories" : [
+        "Patterns",
+        "Rule Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Games where the new rules are added to the game as time passes.",
+        "markups" : [
+            "<style=\"Definition\">Games where the new rules are added to the game as time passes.</style>",
+            "Games needs rules to be playable, but these rules can change over time. These <style=\"CurrentLink\">Evolving Rule Sets</style> can do so on two different time scales: both during game instances and between game instances. Although this may cause irritations for players since the premises have been changed, it can also offer new activities, balance gameplay, and add details where players have requested it.",
+            "<style=\"H3\">Examples</style>",
+            "The modern variants of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> have evolved during the centuries they have been played. In contrast, roleplaying games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> have gone through several revisions (as of 2011, 4 and 3 respectively) and nearly every new product for these game systems include new rules of some sort. Commercially successful board games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style> have spawned expansions with not only more content but more rules and game components with new functionality. Similarly, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Collectible%20Card%20Games\">Collectible Card Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pok%C3%A9mon%20Trading%20Card%20Game\">Pokémon Trading Card Game</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style> release new cards in expansions, and the latter only allows a few of the latest expansions to be used in official tournaments.",
+            "While many games can change over time due to local variations becoming popular or official changes or expansions are added, some games are designed to have their rules change during gameplay. Examples of this latter category include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fluxx%20series\">Fluxx series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Nomic\">Nomic</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bartok\">Bartok</link></style>. Games with persistent game worlds, ranging from <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia%20Wars\">Mafia Wars</link></style>, need to change rules while they are being played even though this can cause friction with players that feel disadvantaged by the changes. The same applied to campaign in roleplaying games.",
+            "When games become organized with international committees overseeing what the official rules are (part of the formal definition of ''sports'' but not the one used in this wiki), they stop having <style=\"CurrentLink\">Evolving Rule Sets</style>, or at least change much slower since these changes need to be negotiated. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> are examples of this.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Evolving Rule Sets</style> do not have to be explicitly design for in <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> or those with human <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> since the players or <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can change the rules regardless of any designer's intention. Supporting <style=\"CurrentLink\">Evolving Rule Sets</style> for games with <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> (excluding human <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>) requires other approaches. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style> and patches are one way of having <style=\"CurrentLink\">Evolving Rule Sets</style> after the fact - they allow game designers to add, modify, and remove rules and game components after a game has been publicly released. The small genre of <style=\"Link\"><link=\"legacy-games\">Legacy Games</link></style> shows another approach; here the rule sets can evolve between game instances due to gameplay events during game instances. Another, less common, way is found in the games where players have the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> to program <style=\"Link\"><link=\"ai-players\">AI Players</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crobots\">Crobots</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>) since the code can be seen as part of the rule set.",
+            "When game designers introduce new rules to create <style=\"CurrentLink\">Evolving Rule Sets</style> they must of course decide on what rules to change and why. Typical approaches are to introduce <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> or <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> either to provide <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> or to provide <style=\"Link\"><link=\"player-balance\">Player</link></style> or <style=\"Link\"><link=\"team-balance\">Team Balance</link></style> in <style=\"Link\"><link=\"pvp\">PvP</link></style> and games with <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay respectively. This may be especially useful for games with <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style> since these easily can have unexpected <style=\"Link\"><link=\"combos\">Combos</link></style>. Handling <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> and providing new content can be reasons when <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style> need <style=\"CurrentLink\">Evolving Rule Sets</style>, but they can also be introduced to give <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>.",
+            "<style=\"CurrentLink\">Evolving Rule Sets</style> differ from <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style> in that latter does not need rules to be made during gameplay, they can all exist before game instances begin but not be active. <style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style> can be seen as holding the middle ground - they can exist before gameplay begins and can be added during gameplay but are not seen as part of the core rule set (but are rarely removed once introduced).",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Rules changes in tabletop <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> games are often introduced to better provide what the <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> or players feel is needed to provide <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> (which in fact typically depends on their impressions on how things work in the real world). This can also occur in games that try to simulate historical events, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts%20of%20Iron%20series\">Hearts of Iron series</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "It may be necessary to provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style> to players to let them become aware of the rule changes due to <style=\"CurrentLink\">Evolving Rule Sets</style>",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Evolving Rule Sets</style> automatically provide <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style> since the rules changes over time - but the opposite does not hold since rules can switch back and forth without evolving. If <style=\"CurrentLink\">Evolving Rule Sets</style> provides <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> mainly depends on if the rule changes try to achieve <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> or modify gameplay more radically by <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> or <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>. When the rules only exist for a certain time this is a form of <style=\"Link\"><link=\"ephemeral-events\">Ephemeral Events</link></style>, and when this is also tied to real world events this gives rise to <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>. Since the <style=\"Link\"><link=\"ephemeral-events\">Ephemeral Events</link></style> may have goals linked to them, it is quite natural that <style=\"CurrentLink\">Evolving Rule Sets</style> also can have <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style>. While rule changes may reestablish <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> it also modifies what <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> means - keeping oneself updated on what actually is the <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> can be seen as a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>. For games with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, the changing rules can <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style> and the <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> of what the rule changes are and how they affect gameplay, as well as allow for <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>. Overall, <style=\"CurrentLink\">Evolving Rule Sets</style> tend to give rise to <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> and long as the rule set is sufficiently large; it does this either through forcing players to continuously to learn how the new rules interact with old rules or by simply having the set of rules grow. It also ensures that <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style> can exist since as soon as the rules have changed players need to improve their gameplay skills or knowledge to adjust to these changes.",
+            "For games where players (or human <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>) can change the rules, this is one way games can give them <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>.",
+            "When the changes in rules to not come from either the game system itself (as in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fluxx%20series\">Fluxx series</link></style>) nor from players (as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Nomic\">Nomic</link></style>), the changes are examples of <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>. The most common example of this is when <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> or <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> change rules during ongoing game instances.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"ephemeral-events\">Ephemeral Events</link></style>, <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style>, <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>, <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>, <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>, <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style></style>",
+            "<style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"pvp\">PvP</link></style></style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"tvt\">TvT</link></style></style>",
+            "<style=\"Link\"><link=\"team-balance\">Team Balance</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style>, <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"Link\"><link=\"pvp\">PvP</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"legacy-games\">Legacy Games</link></style>, <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, <style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "ability-losses",
+            "complex-gameplay",
+            "creative-control",
+            "ephemeral-events",
+            "ephemeral-goals",
+            "events-timed-real-world",
+            "extra-game-input",
+            "further-player-improvement-potential",
+            "new-abilities",
+            "thematic-consistency",
+            "varied-gameplay",
+            "encouraged-return-visits",
+            "game-world-exploration",
+            "player-balance",
+            "red-queen-dilemmas",
+            "team-balance"
+        ],
+        "modulates" : [
+            "heterogeneous-game-element-ownership",
+            "pvp",
+            "strategic-knowledge",
+            "tvt"
+        ],
+        "instantiated_by" : [
+            "dedicated-game-facilitators",
+            "expansions",
+            "game-masters",
+            "legacy-games",
+            "massively-multiplayer-online-games",
+            "optional-rules",
+            "self-facilitated-games",
+            "ai-players"
+        ],
+        "modulated_by" : [
+            "extra-game-information"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

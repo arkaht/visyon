@@ -1,0 +1,63 @@
+{
+    "name" : "Extermination",
+    "categories" : [
+        "Patterns",
+        "Gameplay Arc Patterns",
+        "Aesthetic Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "A phase in a gameplay instance where eliminate goals, typically directed at other players, are predominant.",
+        "markups" : [
+            "<style=\"Definition\">A phase in a gameplay instance where eliminate goals, typically directed at other players, are predominant.</style>",
+            "Some games have distinct phases in their gameplay. <style=\"CurrentLink\">Extermination</style> is the one where the focus is upon eliminating, in most cases other players.",
+            "<style=\"H3\">Examples</style>",
+            "The concept of an <style=\"CurrentLink\">Extermination</style> phase way coined to describe the final gameplay phase of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Master%20of%20Orion\">Master of Orion</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> provides a weaker example since eliminating other players is only one of several end strategy one can have to win those games.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main challenges of designing <style=\"CurrentLink\">Extermination</style> phases is to make sure that the gameplay has several distinct gameplay phases in which different actions and goals dominate. Not too surprising, <style=\"CurrentLink\">Extermination</style> requires the strong presence of <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals, typically made possible by <style=\"Link\"><link=\"combat\">Combat</link></style> or players' experiencing <style=\"Link\"><link=\"game-over\">Game Over</link></style> events. Delaying the most powerful <style=\"Link\"><link=\"units\">Units</link></style> related to <style=\"Link\"><link=\"combat\">Combat</link></style> until the appropriate time is a typically strategy for controlling when <style=\"CurrentLink\">Extermination</style> is to begin.",
+            "<style=\"CurrentLink\">Extermination</style> is, often voluntary, the last phase in several games, especially X4 games<ref name=\"4X\"/> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Master%20of%20Orion\">Master of Orion</link></style>. The name for this category of games comes from the typical phases of <style=\"Link\"><link=\"game-world-exploration\">(Game World) Exploration</link></style>, <style=\"Link\"><link=\"expansion\">Expansion</link></style>, <style=\"Link\"><link=\"exploitation\">Exploitation</link></style>, and <style=\"CurrentLink\">Extermination</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Extermination</style> intensified or provokes <style=\"Link\"><link=\"pvp\">PvP</link></style> gameplay and can increase the likelihood of <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> if it is possible at all. For this reason, it is often used as <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases, and quite likely creates <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style> - especially if <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> is possible. ",
+            "By placing <style=\"CurrentLink\">Extermination</style> as an <style=\"Link\"><link=\"endgame\">Endgame</link></style> phase, it works against <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style> of players. By being a phase during game instances, <style=\"CurrentLink\">Extermination</style> is difficult to combine with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quick%20Games\">Quick Games</link></style> as these seldom are long enough to contain phases.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"pvp\">PvP</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"game-over\">Game Over</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quick%20Games\">Quick Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "endgame",
+            "higher-level-closures-gameplay-progresses",
+            "player-elimination",
+            "pvp"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "combat",
+            "eliminate",
+            "game-over"
+        ],
+        "modulated_by" : [
+            "units"
+        ],
+        "conflicts" : [
+            "early-elimination",
+            "quick-games"
+        ]
+    }
+}

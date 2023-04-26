@@ -1,0 +1,85 @@
+{
+    "name" : "Minigames",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Meta Patterns",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "A small game played through another game.",
+        "markups" : [
+            "<style=\"Definition\">A small game played through another game.</style>",
+            "Many games simulate a part of reality and one possibility of this is to simulate other games. Another possibility for games is to have the result of other games be the primary input for what happens in the main game. Since in both these cases the inner games are smaller than the game containing them, or at least are subordinate to the outer game for the outcome of the activity, they inner games are referred to as <style=\"CurrentLink\">Minigames</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "Games that try to enact whole worlds in great detail, like tabletop roleplaying such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> as well as lice-action roleplaying games, can easily end up in situations where games are played. Typically these are small gambling game similar or exact instances of existing games, such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Craps\">Craps</link></style>.",
+            "Computer games make it quite easy to contain other games in themselves. The graphical adventure game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Day%20of%20the%20Tentacle\">Day of the Tentacle</link></style> included its prequel, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maniac%20Mansion\">Maniac Mansion</link></style>, as a playable <style=\"CurrentLink\">Minigame</style> on a computer inside the game. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Collectible%20Card%20Games\">Collectible Card Game</link></style> ''Caravan'' and several traditional gambling games (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blackjack\">Blackjack</link></style> are implemented as <style=\"CurrentLink\">Minigames</style>. The pinball game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Trek:%20The%20Next%20Generation\">Star Trek: The Next Generation</link></style> included a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Breakout\">Breakout</link></style>-like game as a hidden component.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Party%20Games\">Party games</link></style> mainly consist of smaller games. Examples of this includes the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Party%20series\">Mario Party series</link></style> and the whimsical <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/WarioWare%20series\">WarioWare series</link></style>. Single-player versions of games simulating matches and including training and other inter-match activities, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl_(computer_game)\">Bloodbowl</link></style>, are borderline cases of having <style=\"CurrentLink\">Minigames</style>.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20series\">Tekken series</link></style> have <style=\"CurrentLink\">Minigames</style> to entertain players while the main games are loading.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The design of <style=\"CurrentLink\">Minigames</style> quite obviously required the creation of small games that are supposed to be able to function in a large game. This may be just one game as in the case of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Day%20of%20the%20Tentacle\">Day of the Tentacle</link></style>, or many ranging from a few in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> to the very many in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/WarioWare%20series\">WarioWare series</link></style>. In addition, one has consider how the outcome of these <style=\"CurrentLink\">Minigames</style> translate into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> for use in the outer games, if the inner games should have some effect at all. Typical effect are direct <style=\"Link\"><link=\"rewards\">Rewards</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Punishments\">Punishments</link></style> or the completion of specific goals in a <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>. While the unspecified nature of the gameplay required of <style=\"CurrentLink\">Minigames</style> make few other patterns create <style=\"CurrentLink\">Minigames</style>; exceptions to this are <style=\"Link\"><link=\"quick-time-events\">Quick Time Events</link></style> and <style=\"Link\"><link=\"quizzes\">Quizzes</link></style>.",
+            "<style=\"CurrentLink\">Minigames</style> can be used to create both <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style> and single-game <style=\"Link\"><link=\"tournaments\">Tournaments</link></style> but unless there are gameplay components outside the inner games, the outer game will fail to be perceived as a separate entity. Playing <style=\"Link\"><link=\"single-player-games\">Single-Player</link></style> campaigns in the computer game version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl_(computer_game)\">Bloodbowl</link></style> is an example of how this can function since the training and recruiting of individual players and other team related activities provide additional gameplay opportunities. In contrast, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/WarioWare%20series\">WarioWare series</link></style> mainly have <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style> and <style=\"Link\"><link=\"unlocking\">Unlocking</link></style> new <style=\"Link\"><link=\"levels\">Levels</link></style> as gameplay components outside the <style=\"CurrentLink\">Minigames</style> and may therefore be seen more as a collection of separate games. A less common use of <style=\"CurrentLink\">Minigames</style> is to let players be able to do something while a \"main\" game is loading; this is done in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20series\">Tekken series</link></style> but is not so common generally, possibly because there is a patent based around this concept<ref name=\"patent\"/> (the site GiantBomb<ref name=\"giantbomb\"/> has a page describing  such games and other interactive possibilities during loading screens).",
+            "Their nature as <style=\"CurrentLink\">Minigames</style> may make some specific design goals more easy to achieve. One of these is to enforce <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Gameplay%20Time\">Limited Gameplay Time</link></style> to ensure that the main game doesn't take too long time or that the <style=\"CurrentLink\">Minigames</style> don't take too much proportionally of the time spend on complete game sessions.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "The inclusion of <style=\"CurrentLink\">Minigames</style> allows other types of gameplay and themes without breaking <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. That is, as long as the themes of the <style=\"CurrentLink\">Minigames</style> match the main game or explicitly having <style=\"CurrentLink\">Minigames</style> fits <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistent</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style> may be more appropriate for collection of <style=\"CurrentLink\">Minigames</style> that many other types of games since this can both provide <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> and avoid being too repetitious.",
+            "<style=\"H2\">Consequences</style>",
+            "Depending on if the <style=\"CurrentLink\">Minigames</style> transmit any <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> they either make them have <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> and the main game be a <style=\"Link\"><link=\"coupled-games\">Coupled Game</link></style> or a <style=\"Link\"><link=\"meta-games\">Meta Game</link></style> of sorts, or simply be <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style> motivating <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>. Since the gameplay in the <style=\"CurrentLink\">Minigames</style> can differ from the main game, and from each other when many exist, they can offer <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>. While nothing forces <style=\"CurrentLink\">Minigames</style> to be short (as the example of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Day%20of%20the%20Tentacle\">Day of the Tentacle</link></style> included its prequel shows), they do tend to be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quick%20Games\">Quick Games</link></style> to not distract too much from the main game. When used repeatedly, they create <style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style> and may do so also by players electing to play the same <style=\"CurrentLink\">Minigames</style> over and over again if players can choose to do so.",
+            "Games consisting primarily of <style=\"CurrentLink\">Minigames</style> help create <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style> in that gameplay is chunked into small units that provide many possibilities to interrupt gameplay for social interaction. When <style=\"CurrentLink\">Minigames</style> have not been clearly advertised as part of the gameplay, e.g. when they are contained with <style=\"Link\"><link=\"installations\">Installations</link></style> or require <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> to find, they are examples of <style=\"Link\"><link=\"easter-eggs\">Easter Eggs</link></style>. The end of <style=\"CurrentLink\">Minigames</style> can make natural points for players switching place in games with <style=\"Link\"><link=\"hotseating\">Hotseating</link></style>.",
+            "<style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style> is encouraged by games that provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mini%20Games\">Mini Games</link></style> in which players can perform <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oblivion\">Oblivion</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"coupled-games\">Coupled Games</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>, <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Punishments\">Punishments</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quick%20Games\">Quick Games</link></style>, <style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> or <style=\"Link\"><link=\"installations\">Installations</link></style></style>",
+            "<style=\"Link\"><link=\"easter-eggs\">Easter Eggs</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style></style>",
+            "<style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style></style>",
+            "<style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"hotseating\">Hotseating</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"quizzes\">Quizzes</link></style>, <style=\"Link\"><link=\"quick-time-events\">Quick Time Events</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "coupled-games",
+            "extra-game-actions",
+            "minimalized-social-weight",
+            "optional-goals",
+            "polyathlons",
+            "punishments",
+            "quick-games",
+            "repetitive-gameplay",
+            "rewards",
+            "tournaments",
+            "varied-gameplay",
+            "easter-eggs",
+            "extra-game-consequences",
+            "save-scumming"
+        ],
+        "modulates" : [
+            "hotseating",
+            "thematic-consistency"
+        ],
+        "instantiated_by" : [
+            "quizzes",
+            "quick-time-events"
+        ],
+        "modulated_by" : [
+            "mimetic-interfaces"
+        ],
+        "conflicts" : [
+            "thematic-consistency"
+        ]
+    }
+}

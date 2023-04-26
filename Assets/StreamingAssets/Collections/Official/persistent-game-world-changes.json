@@ -1,0 +1,64 @@
+{
+    "name" : "Persistent Game World Changes",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Changes to game worlds that do not automatically revert.",
+        "markups" : [
+            "<style=\"Definition\">Changes to game worlds that do not automatically revert.</style>",
+            "Although many games let players affect the game worlds in which gameplay takes place, this may not affect the worlds significantly. This may be because one is only manipulating specific elements within it, that the effects disappear after a while, or that things reset to let other players have the possibility of experiencing the same gameplay. When instead player actions leave lasting effects in game worlds beyond those related only to their own gameplay statistics, this shows that games support <style=\"CurrentLink\">Persistent Game World Changes</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Given that the worlds of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Darkness\">World of Darkness</link></style> mainly exists as a social agreement between the players and the game master, making persistent changes to these is simply an agreement that they should be changed. In contrast, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> need to implement every possible change and therefore tend to have less of these possibilities; this is most often done through changing relations to non-player characters and faction, see <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20II\">Dragon Age II</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> for two examples which allow several game end permutations based on this.",
+            "All actions done that affects the worlds in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Slaves to Armok II: Dwarf Fortress</link></style> persist until the game is ended. In the case of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>, dying leaves all the equipment one has carried at the place of death.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Although it may seem trivial to implement <style=\"CurrentLink\">Persistent Game World Changes</style> - one only have to let consequences of events remain - it is not always done since this can create <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>. Simply being able to move game items can be one way to create the pattern, it is more easily discerned by players when <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, or <style=\"Link\"><link=\"switches\">Switches</link></style> are present. <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style> can also be used.",
+            "<style=\"CurrentLink\">Persistent Game World Changes</style> concerns changes in the \"external\" <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> rather than \"internal\" one that relates to players' attributes. However, since both concern how players perceive <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> in games, it may be worthwhile to consider <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style> in conjunction to <style=\"CurrentLink\">Persistent Game World Changes</style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Persistent Game World Changes</style> can quite easily support or enforce <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Persistent Game World Changes</style> is one way of letting players experience a <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> since what they do have more than temporary effect on the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> in which they act while playing. This is even more profound in <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> even if the use of the word persistent differs between the two patterns.",
+            "<style=\"Link\"><link=\"instances\">Instances</link></style> do not work well together with <style=\"CurrentLink\">Persistent Game World Changes</style> since they are temporary constructs and any changes within them can only last as long as the <style=\"Link\"><link=\"instances\">Instances</link></style> itself.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style>, <style=\"Link\"><link=\"switches\">Switches</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"instances\">Instances</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "predetermined-story-structures",
+            "value-effort"
+        ],
+        "modulates" : [
+            "game-worlds",
+            "persistent-game-worlds"
+        ],
+        "instantiated_by" : [
+            "construction",
+            "destructible-objects",
+            "factions",
+            "irreversible-events",
+            "reconfigurable-game-worlds",
+            "switches"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "instances"
+        ]
+    }
+}

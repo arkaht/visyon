@@ -1,0 +1,62 @@
+{
+    "name" : "Complete Resource Depletion",
+    "categories" : [
+        "Gameplay Arc Patterns",
+        "Dynamic Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The temporary or permanent absence of a type of resource in a game.",
+        "markups" : [
+            "<style=\"Definition\">The temporary or permanent absence of a type of resource in a game.</style>",
+            "Resources of various kinds are used in most games. In some games, such resources can be created or consumed and when all resources of a type have been consumed so none are available to players they experience <style=\"CurrentLink\">Complete Resource Depletion</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> can experience <style=\"CurrentLink\">Complete Resource Depletion</style> since they may lose all their pieces except for the king.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warcraft%20series\">Warcraft series</link></style> provides a weaker example of <style=\"CurrentLink\">Complete Resource Depletion</style> since all gold mines may be emptied in prolonged games, but players still have other ways of gaining more gold.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Complete Resource Depletion</style> is a way of designing games so specific <style=\"Link\"><link=\"resources\">Resources</link></style> while not be available for use. However, it can be set up so it only lasts for certain periods of time. ",
+            "Ensuring <style=\"CurrentLink\">Complete Resource Depletion</style> consist of making sure existing <style=\"Link\"><link=\"resources\">Resources</link></style> are used up quicker than new ones are acquired. This can be most surely be achieved through having <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style> together with requiring the use of <style=\"Link\"><link=\"consumers\">Consumers</link></style> (or having <style=\"Link\"><link=\"consumers\">Consumers</link></style> that players don't control that continuously use up the <style=\"Link\"><link=\"resources\">Resources</link></style>). Just having <style=\"Link\"><link=\"consumers\">Consumers</link></style> and less productive <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style> can also work as long as the consumption can be guaranteed to be higher than the production.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Complete Resource Depletion</style> can create <style=\"Link\"><link=\"entrenching-gameplay\">Entrenching Gameplay</link></style> or initiate <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases due to the different circumstances for gameplay when specific <style=\"Link\"><link=\"resources\">Resources</link></style> have been exhausted. When the lack of <style=\"Link\"><link=\"resources\">Resources</link></style> make certain actions available, this may hinder competition between players and thereby force <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>. ",
+            "When the lack of certain <style=\"Link\"><link=\"resources\">Resources</link></style> signify the end of game instances, players can use <style=\"CurrentLink\">Complete Resource Depletion</style> as a means of causing <style=\"Link\"><link=\"speedending\">Speedending</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"entrenching-gameplay\">Entrenching Gameplay</link></style>, <style=\"Link\"><link=\"speedending\">Speedending</link></style>, <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"resources\">Resources</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"consumers\">Consumers</link></style> together with <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style>",
+            "<style=\"Link\"><link=\"consumers\">Consumers</link></style> together with less productive <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "endgame",
+            "entrenching-gameplay",
+            "speedending",
+            "tied-results"
+        ],
+        "modulates" : [
+            "resources"
+        ],
+        "instantiated_by" : [
+            "consumers",
+            "consumers"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

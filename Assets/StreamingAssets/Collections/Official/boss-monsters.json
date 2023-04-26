@@ -1,0 +1,99 @@
+{
+    "name" : "Boss Monsters",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns",
+        "Narration Patterns",
+        "Level Design Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Powerful enemies players have to overcome to reach goals in games.",
+        "markups" : [
+            "<style=\"Definition\">Powerful enemies players have to overcome to reach goals in games.</style>",
+            "While many games where players have to fight enemies, usually some of these are made to be more powerful or require special tricks to defeat. These <style=\"CurrentLink\">Boss Monsters</style> allow players to have more challenging fights to mark out the end of levels, quests, or the game itself. Besides allowing players to experience that they have reached closure points in the games, the abilities of <style=\"CurrentLink\">Boss Monsters</style> often also requires them to play differently than they can against \"ordinary\" enemies.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> quite often have <style=\"CurrentLink\">Boss Monsters</style> during the final part of a dungeon, adventure, or campaign. Not too surprising, in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> this is often some form of dragon but other unique monsters that appear as <style=\"CurrentLink\">Boss Monsters</style> are the devil ''Asmodeus'', the demons ''Orcus'' and  ''Demogorgon'', and the evil goddess ''Lloth''. The computer-based game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style> has <style=\"CurrentLink\">Boss Monsters</style> at the end of each of its eight levels, including ''Brink the Corrupted'', ''Krag'', ''Medea'', and the final enemy ''Ordrak''.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> make regular use of <style=\"CurrentLink\">Boss Monsters</style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style> have various forms of demons, including ''Sabaoth'', ''Spiderdemons'', and ''Cyberdemons''. Of the special infected in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> the ''Tank'' best fits as a <style=\"CurrentLink\">Boss Monster</style>. Although it is met randomly in some levels it is specifically used as a final challenge in the ''Rooftop Finale'' of the first campaign (''Mercy Hospital'') of the first game in the series. The immense final enemy players have to defeat in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crysis\">Crysis</link></style> can also count as a <style=\"CurrentLink\">Boss Monster</style>.",
+            "''Bowser''  is used as a <style=\"CurrentLink\">Boss Monster</style> in many of the games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style>, and often met at the end of several different levels of the same game. Although the ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style> has many different <style=\"CurrentLink\">Boss Monsters</style>, in the first three games it uses a Tyrannosaurus Rex as Lara Croft's opponent at various points.",
+            "Side-scrolling games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zaxxon\">Zaxxon</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/1942\">1942</link></style> also use of <style=\"CurrentLink\">Boss Monsters</style> at the end of levels. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/God%20of%20War%20series\">God of War series</link></style> is noteworthy in the huge size differences between the players' avatars and the <style=\"CurrentLink\">Boss Monsters</style> in the games; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shadow%20of%20the%20Colossus\">Shadow of the Colossus</link></style> has the same characteristic but here the <style=\"CurrentLink\">Boss Monsters</style> are the only type of enemies encountered.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A primary design choice for <style=\"CurrentLink\">Boss Monsters</style> is if they should be based on types of <style=\"Link\"><link=\"enemies\">Enemies</link></style> that can be encountered or if they should be unique <style=\"Link\"><link=\"enemies\">Enemies</link></style>. Basing <style=\"CurrentLink\">Boss Monsters</style> on other <style=\"Link\"><link=\"enemies\">Enemies</link></style> and then making them more difficult is done through adding specific <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style> or abilities that are either <style=\"Link\"><link=\"improved-abilities\">Improved</link></style> or <style=\"Link\"><link=\"privileged-abilities\">Privileged</link></style> (simply adding more <style=\"Link\"><link=\"health\">Health</link></style> does rarely change gameplay enough to make the encounter qualitatively distinctive). These are often then somewhat balanced by adding <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> or <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> although the overall difficulty should be increased to distinguish the <style=\"Link\"><link=\"enemies\">Enemies</link></style> as <style=\"CurrentLink\">Boss Monsters</style>. Unique <style=\"CurrentLink\">Boss Monsters</style> are typically designed as some form of <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>. ",
+            "One pattern which rarely are used with ordinary <style=\"Link\"><link=\"enemies\">Enemies</link></style> but may work with <style=\"CurrentLink\">Boss Monsters</style> is <style=\"Link\"><link=\"lives\">Lives</link></style>. Used for example in some fights between Mario and Bowser in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20Series\">Super Mario Series</link></style>, basically this means that players have to defeat the <style=\"CurrentLink\">Boss Monsters</style> several times either through depleting their <style=\"Link\"><link=\"health\">Health</link></style> or through exploiting <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style>. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Given that <style=\"CurrentLink\">Boss Monsters</style> are either \"better\" or unique types of <style=\"Link\"><link=\"enemies\">Enemies</link></style>, they often also have <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, typically restricted to not break the game's <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, ",
+            "so that players can realize this difference.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Although <style=\"CurrentLink\">Boss Monsters</style> may be randomly encountered in games - the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> is an example - they can be, and often are, used as integral parts of <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> by providing finales to <style=\"Link\"><link=\"instances\">Instances</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, and <style=\"Link\"><link=\"quests\">Quests</link></style> (as less often <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>) . When used for this purpose, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Automated%20Responses\">Automated Responses</link></style> such as <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> can be added right before they are confronted through <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style> and right after <style=\"Link\"><link=\"combat\">Combat</link></style> has ended to frame the encounter within the <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> of the games. Due to these confrontations being specifically planned and the <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> surrounding them being produced, <style=\"CurrentLink\">Boss Monsters</style> are more likely to enforce that the goals to <style=\"Link\"><link=\"overcome\">Overcome</link></style> or <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> them are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Enforced%20Goals\">Enforced Goals</link></style> (ordinary <style=\"Link\"><link=\"enemies\">Enemies</link></style> can often be avoided without negatively affecting any <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>). This is especially true when the goals are part of <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> linked to games' <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>.",
+            "When the <style=\"CurrentLink\">Boss Monsters</style> are also the driving forces for causing the events in <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, there is often a need to create them as <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> to define their nature, history, abilities, and even appearance so that their behavior is part of the games' <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>.",
+            "While <style=\"CurrentLink\">Boss Monsters</style> may be placed in <style=\"Link\"><link=\"levels\">Levels</link></style>, they typically define <style=\"Link\"><link=\"scenes\">Scenes</link></style> so the latter pattern modulates <style=\"CurrentLink\">Boss Monsters</style> by allowing narrative focus to be placed on them. <style=\"Link\"><link=\"levels\">Levels</link></style> can center upon specific <style=\"CurrentLink\">Boss Monsters</style> when they are <style=\"Link\"><link=\"finale-levels\">Finale Levels</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Boss Monsters</style> are a form of <style=\"Link\"><link=\"enemies\">Enemies</link></style>, and given that they differ from these encountering them may be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> to players. When placed at closure points, e.g. the end of <style=\"Link\"><link=\"instances\">Instances</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"CurrentLink\">Boss Monsters</style> ensure <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. They are quite likely to be used in conjunction to possible resolutions of <style=\"Link\"><link=\"rescue\">Rescue</link></style> goals since they can balance the diegetic importance of those that are to be rescued. Regardless of where they are placed in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"instances\">Instances</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style>, the presence of <style=\"CurrentLink\">Boss Monsters</style> can cause <style=\"Link\"><link=\"tension\">Tension</link></style> to a higher degree than other <style=\"Link\"><link=\"enemies\">Enemies</link></style> and also <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> if foreshadowed by <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> or other narrative means.",
+            "<style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> can emerge from <style=\"CurrentLink\">Boss Monsters</style> with <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> if this is the only way to defeat them, or if players are made aware that the <style=\"CurrentLink\">Boss Monsters</style> have <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> but have not been told exactly what they are. Somewhat paradoxically, the use of <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> or <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style> may make <style=\"Link\"><link=\"combat\">Combat</link></style> less likely to be solutions to <style=\"CurrentLink\">Boss Monsters</style> than for other types of <style=\"Link\"><link=\"enemies\">Enemies</link></style>. Due to this, trying to <style=\"Link\"><link=\"overcome\">Overcome</link></style> them are likely to result in <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> for players, as is coping with any <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> the <style=\"CurrentLink\">Boss Monsters</style> may have. This possible variation, and the simple fact that <style=\"CurrentLink\">Boss Monsters</style> are more difficult <style=\"Link\"><link=\"enemies\">Enemies</link></style>, make them suitable devices for creating <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> - at least for specific parts of games.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Enforced%20Goals\">Enforced Goals</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> or <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style></style>",
+            "<style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style></style>",
+            "<style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"instances\">Instances</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"rescue\">Rescue</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style> together with <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, or <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Automated%20Responses\">Automated Responses</link></style>, <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"finale-levels\">Finale Levels</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"scenes\">Scenes</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"combat\">Combat</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "challenging-gameplay",
+            "eliminate",
+            "enforced-goals",
+            "higher-level-closures-gameplay-progresses",
+            "overcome",
+            "predetermined-story-structures",
+            "surprises",
+            "tension",
+            "thematic-consistency",
+            "anticipation",
+            "puzzle-solving",
+            "varied-gameplay"
+        ],
+        "modulates" : [
+            "game-boards",
+            "instances",
+            "levels",
+            "quests",
+            "rescue"
+        ],
+        "instantiated_by" : [
+            "enemies"
+        ],
+        "modulated_by" : [
+            "achilles-heels",
+            "automated-responses",
+            "cutscenes",
+            "diegetically-outstanding-features",
+            "finale-levels",
+            "game-element-insertion",
+            "invulnerabilities",
+            "lives",
+            "predetermined-story-structures",
+            "scenes",
+            "thematic-consistency",
+            "vulnerabilities"
+        ],
+        "conflicts" : [
+            "combat"
+        ]
+    }
+}

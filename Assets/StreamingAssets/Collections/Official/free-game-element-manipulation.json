@@ -1,0 +1,69 @@
+{
+    "name" : "Free Game Element Manipulation",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns",
+        "Interface Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "The possibility for  players to manipulate game elements regardless of game rules.",
+        "markups" : [
+            "<style=\"Definition\">The possibility for  players to manipulate game elements regardless of game rules.</style>",
+            "Some games are designed so they allow players to freely interact with the game element regardless of if this complies with its rules. While this can make gaming activities 'degenerate' into other more playful activities, it can also let players fine tune the experience to maximize their mutual enjoyment.",
+            "<style=\"H3\">Examples</style>",
+            "Basically all traditional <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style> that are not mediated through a computer system support <style=\"CurrentLink\">Free Game Element Manipulation</style>. Several of those played on computers do allow this as well, especially in single-player mode, but this depends on the implementation. An example of a more modern game that allows <style=\"CurrentLink\">Free Game Element Manipulation</style> even in computerized form is the iPhone version of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/M.I.G.\">M.I.G.</link></style> quiz game.",
+            "Some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzles\">Puzzles</link></style> allow for full <style=\"CurrentLink\">Free Game Element Manipulation</style> as part of the rules. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tangram\">Tangram</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ostomachion\">Ostomachion</link></style>, and all <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Jigsaw%20Puzzles\">Jigsaw Puzzles</link></style> are examples of this, and the computer-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Incredible%20Machine%20game%20series\">Incredible Machine game series</link></style> can be seen as a weak example of this since it allows free manipulation before the game world is activated.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> let players move representations of themselves freely, although game masters may overrule their actions for various reasons.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> are by their nature open to <style=\"CurrentLink\">Free Game Element Manipulation</style> even if it may cause discussions among players. Human <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> can allow the free manipulation of game elements also but for mechanical or computerized need to be constructed to do so or will actively work against the pattern. <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> are a special case here - they can both allow it within certain boundaries and limit it after the fact by forcing players to retract how they moved or changed the game elements.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Free Game Element Manipulation</style> is more of an interface pattern than a gameplay pattern but has considerable consequences on gameplay.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Free Game Element Manipulation</style> allow players the <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to ignore or modify rules as they please. While this may turn a gaming activity into one of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Playful%20Interaction\">Playful Interaction</link></style>, when used with moderation it can give players the power of making <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Results\">Player Decided Results</link></style>, and performing <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style> while still gaming. One aspect of this is that players can themselves modify the setup of a game, or the game state of an ongoing game, to provide <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>. By doing this, as well as setting up examples when describing the game rules, <style=\"CurrentLink\">Free Game Element Manipulation</style> can support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>. All these contribute to letting players change the gameplay to what they want it to be, so the pattern supports <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>. ",
+            "Given the power <style=\"CurrentLink\">Free Game Element Manipulation</style> provides to players, it makes it difficult for games to also contain <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style>, and <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Decided%20Results\">Player Decided Results</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Playful%20Interaction\">Playful Interaction</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"game-masters\">Game Masters</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "fudged-results",
+            "game-element-insertion",
+            "player-balance",
+            "player-decided-results",
+            "playful-interaction",
+            "smooth-learning-curves",
+            "social-adaptability"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "self-facilitated-games"
+        ],
+        "modulated_by" : [
+            "game-masters"
+        ],
+        "conflicts" : [
+            "dedicated-game-facilitators",
+            "game-masters",
+            "irreversible-events",
+            "no-direct-player-influence",
+            "ultra-powerful-events"
+        ]
+    }
+}

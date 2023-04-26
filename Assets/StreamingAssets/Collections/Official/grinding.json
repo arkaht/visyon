@@ -1,0 +1,97 @@
+{
+    "name" : "Grinding",
+    "categories" : [
+        "Patterns",
+        "Subjective Patterns",
+        "Negative Patterns",
+        "Action Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "The repeating of simple actions many times to collect resources or complete goals.",
+        "markups" : [
+            "<style=\"Definition\">The repeating of simple actions many times to collect resources or complete goals.</style>",
+            "Games often only let players choose what to do from a small set of possible actions. Even so, the choice of which action to perform can make the gameplay interesting or can the challenge of succeeding in performing the action. However, some games require players to, at least some of the time, repeatedly perform actions that are trivial to do so many times that the primary challenge becomes to endure. This type of gameplay is called <style=\"CurrentLink\">Grinding</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Games that require players to collect resources for later use, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style>, often exhibit <style=\"CurrentLink\">Grinding</style> since the actual looking for the resources and collecting of them is rather easy to do but is something that needs to be done a lot. The satirical game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Progress%20Quest\">Progress Quest</link></style> critiques these kinds of design by being a game where the computer does the <style=\"CurrentLink\">Grinding</style> for the players, leaving only the minimal character creation in the beginning of the game in the hands of the player.",
+            "Games with a high level of granularity in the variables and elements in the game world, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts%20of%20Iron%20series\">Hearts of Iron</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style>, can easily force players into <style=\"CurrentLink\">Grinding</style> just to set all parameters correctly or move all their units.",
+            "Some games keep count of simple actions performed by players and reward them with achievements when certain levels have been reached, e.g. ''Pharm-Assist'' for giving a total of 10 pain pills to other players in the first installment of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> and ''Master Smasher'' for breaking 1500 containers in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style>. Although these would have been repetitious if they had to be done consecutively, they are typically spread out over the gameplay and only become <style=\"CurrentLink\">Grinding</style> when players focus their gameplay on getting the achievements.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Grinding</style> may not be a pattern that players necessarily wish to have in a game, but it can be needed to provide actions to do in <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> or in games with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> that should not evolve over time. The main challenge with designing <style=\"CurrentLink\">Grinding</style> is providing <style=\"Link\"><link=\"rewards\">Rewards</link></style> that do not advance players position in the game globally, which typically leads to the <style=\"Link\"><link=\"rewards\">Rewards</link></style> being either <style=\"Link\"><link=\"illusionary-rewards\">Illusionary Rewards</link></style> or <style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style>. A case where the possibility of <style=\"CurrentLink\">Grinding</style> can be seen as positive is for games which wish to offer or encourage players to engage in <style=\"Link\"><link=\"pottering\">Pottering</link></style>.",
+            "A concrete way of creating <style=\"CurrentLink\">Grinding</style> in a game is to require the <style=\"Link\"><link=\"collecting\">Collecting</link></style> of <style=\"Link\"><link=\"resources\">Resources</link></style>, as for example done in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Slaves to Armok II: Dwarf Fortress</link></style>. To avoid them having too much impact on the game progression, these resources can either be worthless or have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diminishing%20Returns\">Diminishing Returns</link></style> when changed into something else through <style=\"Link\"><link=\"converters\">Converters</link></style> or <style=\"Link\"><link=\"crafting\">Crafting</link></style>, but engaging in the latter can become a form of <style=\"CurrentLink\">Grinding</style> in itself. If there are many types of <style=\"Link\"><link=\"resources\">Resources</link></style> or many individual <style=\"Link\"><link=\"resources\">Resources</link></style> that have to be interacted with, <style=\"CurrentLink\">Grinding</style> can occur through the combination of <style=\"Link\"><link=\"resource-management\">Resource Management</link></style> and <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>. This second option may be combined with the first it players can amass large number of <style=\"Link\"><link=\"resources\">Resources</link></style> or can be present simply by the game giving the <style=\"Link\"><link=\"resources\">Resources</link></style> to the players. <style=\"Link\"><link=\"combat\">Combat</link></style> against great numbers of <style=\"Link\"><link=\"generic-adversaries\">Generic Adversaries</link></style> is yet another way to create <style=\"CurrentLink\">Grinding</style>. <style=\"Link\"><link=\"reward-widgets\">Reward Widgets</link></style> are a way of introducing <style=\"CurrentLink\">Grinding</style> without necessarily adding more <style=\"Link\"><link=\"rewards\">Rewards</link></style> since collecting <style=\"Link\"><link=\"rewards\">Rewards</link></style> after they are given becomes a task when this pattern is used. Modulating <style=\"Link\"><link=\"reward-widgets\">Reward Widgets</link></style> with <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> before they are automatically collected makes the <style=\"CurrentLink\">Grinding</style> optional.",
+            "<style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style> can create <style=\"CurrentLink\">Grinding</style> since it offers players the opportunity to spend effort on getting better <style=\"Link\"><link=\"tools\">Tools</link></style> and <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style> or <style=\"Link\"><link=\"character-development\">Character Development</link></style> rather than developing <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>. This is of course even more likely to occur if little actual player skill is required. ",
+            "On a higher level of abstraction, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style> can provide <style=\"CurrentLink\">Grinding</style> by mitigating players' progress by matching it with <style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style>, a design solution found in both the fourth edition of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>. <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style> allow <style=\"CurrentLink\">Grinding</style> to occur between play sessions when players need to return to the game simply to perform trivial actions. Promises of <style=\"Link\"><link=\"unlocking\">Unlocking</link></style> future game content is often an explicit motivation for players to keep <style=\"CurrentLink\">Grinding</style>. On a meta level, <style=\"Link\"><link=\"grind-achievements\">Grind Achievements</link></style> can encourage players do perform <style=\"CurrentLink\">Grinding</style> due to the promise of receiving specific <style=\"Link\"><link=\"achievements\">Achievements</link></style> if they do so.",
+            "Given that <style=\"CurrentLink\">Grinding</style> is often undesired there are many design solutions that remove or mitigate them without removing the actions underlying them, e.g. supporting <style=\"Link\"><link=\"clickability\">Clickability</link></style> or <style=\"Link\"><link=\"repeat-combos\">Repeat Combos</link></style>, having <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, or injecting <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style> throughout game sessions. However, sometimes it is also desired to make these underlying actions optional. <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style> and <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style> are one example of such solutions used to avoid the <style=\"CurrentLink\">Grinding</style> of travelling through already explored parts of the <style=\"Link\"><link=\"game-worlds\">Game World</link></style>. <style=\"Link\"><link=\"mules\">Mules</link></style> are <style=\"Link\"><link=\"ai-players\">AI Players</link></style> specifically designed to avoid people having to do the <style=\"CurrentLink\">Grinding</style> by letting them do it instead. Related, <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style> lets others than the players perform actions that influence the game and thereby lessen any potential <style=\"CurrentLink\">Grinding</style>. On a meta level, <style=\"Link\"><link=\"testing-achievements\">Testing Achievements</link></style> can be used to encourage players to test other parts of the gameplay in a game and thereby get an (at least temporary) break from the <style=\"CurrentLink\">Grinding</style>.",
+            "Some <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> can give rise to <style=\"CurrentLink\">Grinding</style>. Specifically, saving and loading game states as a way of min-maxing gameplay can become a form of <style=\"CurrentLink\">Grinding</style>, so as one particular example <style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style> can give rise to <style=\"CurrentLink\">Grinding</style>. These types of <style=\"CurrentLink\">Grinding</style> cannot be addressed in the same way as other types if deemed a problem; designer instead need to consider how to reduce the benefits of the <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grinding%20Achievements\">Grinding Achievements</link></style> explicitly encourages <style=\"CurrentLink\">Grinding</style> and can be used when <style=\"CurrentLink\">Grinding</style> is not seen as a problem. Similarly, <style=\"Link\"><link=\"collections\">Collections</link></style> together with <style=\"Link\"><link=\"testing-achievements\">Testing Achievements</link></style> can create <style=\"CurrentLink\">Grinding</style> (and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grinding%20Achievements\">Grinding Achievements</link></style>).",
+            "<style=\"H2\">Consequences</style>",
+            "The main consequence of <style=\"CurrentLink\">Grinding</style> is to create <style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style>. Give that <style=\"CurrentLink\">Grinding</style> typically is experienced as a form of labor, it also adds <style=\"Link\"><link=\"excise\">Excise</link></style> to a game. Even if <style=\"CurrentLink\">Grinding</style> is not perceived as enjoyable by players, having completed a goal based on it (e.g. <style=\"Link\"><link=\"grind-achievements\">Grind Achievements</link></style>) does provide a basis for a sort of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>.",
+            "<style=\"CurrentLink\">Grinding</style> undercuts players' <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> if they realize that they are performing actions with little effect on the gameplay progression (they may of course consider the social or other extra-game consequences justifying this). If they do not perceive that the actions do not further their progress, <style=\"CurrentLink\">Grinding</style> instead supports an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>.",
+            "Given the nature of the <style=\"CurrentLink\">Grinding</style> activity, it can support <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style> but works less well with <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, <style=\"Link\"><link=\"pottering\">Pottering</link></style>, <style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>, <style=\"Link\"><link=\"character-development\">Character Development</link></style>, <style=\"Link\"><link=\"collecting\">Collecting</link></style>, <style=\"Link\"><link=\"crafting\">Crafting</link></style>, <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"generic-adversaries\">Generic Adversaries</link></style>, <style=\"Link\"><link=\"grind-achievements\">Grind Achievements</link></style>, <style=\"Link\"><link=\"illusionary-rewards\">Illusionary Rewards</link></style>, <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>, <style=\"Link\"><link=\"reward-widgets\">Reward Widgets</link></style>, <style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style>, <style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style>, <style=\"Link\"><link=\"unlocking\">Unlocking</link></style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> together with <style=\"Link\"><link=\"resource-management\">Resource Management</link></style>",
+            "<style=\"Link\"><link=\"collections\">Collections</link></style> together with <style=\"Link\"><link=\"testing-achievements\">Testing Achievements</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"converters\">Converters</link></style>, <style=\"Link\"><link=\"crafting\">Crafting</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diminishing%20Returns\">Diminishing Returns</link></style>, <style=\"Link\"><link=\"repeat-combos\">Repeat Combos</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"clickability\">Clickability</link></style>, <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style>, <style=\"Link\"><link=\"mules\">Mules</link></style>, <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>, <style=\"Link\"><link=\"testing-achievements\">Testing Achievements</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "casual-gameplay",
+            "exaggerated-perception-influence",
+            "excise",
+            "game-based-social-statuses",
+            "pottering",
+            "repetitive-gameplay",
+            "rewards",
+            "unwinnable-games"
+        ],
+        "modulates" : [
+            "persistent-game-worlds"
+        ],
+        "instantiated_by" : [
+            "abstract-player-construct-development",
+            "character-development",
+            "collecting",
+            "crafting",
+            "encouraged-return-visits",
+            "extra-game-actions",
+            "generic-adversaries",
+            "grind-achievements",
+            "illusionary-rewards",
+            "player-character-skill-composites",
+            "red-queen-dilemmas",
+            "reward-widgets",
+            "save-scumming",
+            "social-rewards",
+            "unlocking",
+            "complex-gameplay",
+            "collections"
+        ],
+        "modulated_by" : [
+            "converters",
+            "repeat-combos"
+        ],
+        "conflicts" : [
+            "challenging-gameplay",
+            "clickability",
+            "ephemeral-goals",
+            "mules",
+            "non-player-help",
+            "testing-achievements",
+            "time-limits",
+            "value-effort"
+        ]
+    }
+}

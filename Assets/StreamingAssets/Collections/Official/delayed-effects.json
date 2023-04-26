@@ -1,0 +1,107 @@
+{
+    "name" : "Delayed Effects",
+    "categories" : [
+        "Patterns",
+        "Action Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "The effects of actions and events in games do not occur directly after the actions or events have started.",
+        "markups" : [
+            "<style=\"Definition\">The effects of actions and events in games do not occur directly after the actions or events have started.</style>",
+            "<style=\"CurrentLink\">Delayed Effects</style> are those effects that are explicitly dictated by the rules in the game but take place some noticeable time after the actions and events that caused them; effects that are the results of combined actions or are unexpected or unplanned do not qualify as <style=\"CurrentLink\">Delayed Effects</style>, even if the effects take place after some actions or events have taken place.",
+            "<style=\"H3\">Examples</style>",
+            "The effect of placing bets in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> does not become apparent until a player folds or players show their card hands. The activation of the most powerful weapons in first-person shooters such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> often takes some time from activation to the time it fires, usually to balance them somewhat against the other weapons in the game.",
+            "Building manufactories in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style> take five years in game time where each turn or tick represents a day; in contrast, the amount of time between planting seeds in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> until they can be harvested can take several real world days.",
+            "It is believed that there was a <style=\"CurrentLink\">Delayed Effect</style> before one could capture pieces in the ancient Roman game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ludus%20Latrunculorum\">Ludus Latrunculorum</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A simple way to create <style=\"CurrentLink\">Delayed Effects</style> with <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> is to require <style=\"Link\"><link=\"development-time\">Development Time</link></style> for initiated actions or simply make them <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>. Others ways to introduce <style=\"CurrentLink\">Delayed Effects</style> into games include <style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"betting\">Betting</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, or modulating how <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style> or <style=\"Link\"><link=\"traps\">Traps</link></style> function. While <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style> are usually done immediately they can be modulated to make use of <style=\"CurrentLink\">Delayed Effects</style>.",
+            "Besides the actual cause for the delay, primary design choices for <style=\"CurrentLink\">Delayed Effects</style> are if players should be aware of when the effects will occur and how the period of delay is determined. Showing when effects will take place is usually done through <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, even when they are predetermined through <style=\"Link\"><link=\"development-time\">Development Time</link></style>. <style=\"Link\"><link=\"randomness\">Randomness</link></style> can be used to make information about when the <style=\"CurrentLink\">Delayed Effects</style> occur unknown, but so can other ways involving <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>. ",
+            "Making actions have <style=\"CurrentLink\">Delayed Effects</style> opens up some additional design possibilities. One is to create <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> between different actions by having the more powerful actions take a longer time to perform. Another is to make them possible interrupt, that is making the actions into <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>, or make it possible to avoid the effects - this is quite often applied to <style=\"Link\"><link=\"traps\">Traps</link></style>. This is done in some cases of <style=\"Link\"><link=\"capture\">Capture</link></style>, e.g. this is believed to be the case for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ludus%20Latrunculorum\">Ludus Latrunculorum</link></style>, to allow the other player a chance to respond. A third, which can be used to increase <style=\"Link\"><link=\"tension\">Tension</link></style>, is to combine them to the structures of <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>.",
+            "<style=\"CurrentLink\">Delayed Effects</style> can make people have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> and feel that they have <style=\"Link\"><link=\"luck\">Luck</link></style> without requiring any other aspects of the game, this makes the pattern useful for modulate <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quick%20Games\">Quick Games</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Delayed Effects</style> often produce <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> for those aware of them, especially if they are part of <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>. The more precise information about the <style=\"CurrentLink\">Delayed Effects</style> players have, e.g. by knowing when they take place due to being created through <style=\"Link\"><link=\"development-time\">Development Time</link></style>, the more <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> they provide, and this encouraged <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>. When <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> are absent, it instead provides players the possibility to start feeling <style=\"Link\"><link=\"luck\">Luck</link></style> before the outcome is shown. Although <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> can influence <style=\"CurrentLink\">Delayed Effects</style> in these ways, having sufficiently long <style=\"CurrentLink\">Delayed Effects</style> may in return make <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> be harder to have since the context for the outcome can have changed. Even so, understanding how <style=\"CurrentLink\">Delayed Effects</style> work is a form of <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>.",
+            "The wait for the effects to take place is a form of <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style> once the events or actions that cause the <style=\"CurrentLink\">Delayed Effects</style> have been done, and waiting for them can create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> or <style=\"Link\"><link=\"tension\">Tension</link></style>, especially when combined with <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> or <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>. Players may also be able to use <style=\"CurrentLink\">Delayed Effects</style> to create <style=\"Link\"><link=\"combos\">Combos</link></style> by efficiently <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style> actions. Fixed periods of delay give players the chance to use <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> to do better <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>. If the periods of delay are random, or if players do not have knowledge of the periods of delay, this can turn the use of other actions into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> choices if their success depends on the <style=\"CurrentLink\">Delayed Effects</style>. <style=\"CurrentLink\">Delayed Effects</style> that can be interrupted also give rise to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> situations.",
+            "When a part of the <style=\"CurrentLink\">Delayed Effects</style> is waiting for other players to do actions, as is the case when the pattern is use to change <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style> or <style=\"Link\"><link=\"trading\">Trading</link></style>, it gives rise <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> and <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style> (with <style=\"Link\"><link=\"individual-rewards\">Individual Rewards</link></style> in the case of <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>) and the possibility of <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>.  For games with long enough waiting times and <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay or <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"CurrentLink\">Delayed Effects</style> gives <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>.",
+            "<style=\"CurrentLink\">Delayed Effects</style> can somewhat mitigate that <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style> make <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> impossible. However, the <style=\"CurrentLink\">Delayed Effects</style> make any potential <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> of the <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> difficult to be aware of.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style>, <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"luck\">Luck</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style></style>",
+            "<style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style> and <style=\"Link\"><link=\"individual-rewards\">Individual Rewards</link></style></style>",
+            "<style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> or <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style></style>",
+            "<style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style></style>",
+            "<style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style></style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"trading\">Trading</link></style></style>",
+            "<style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quick%20Games\">Quick Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"betting\">Betting</link></style>, <style=\"Link\"><link=\"development-time\">Development Time</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "balancing-effects",
+            "hovering-closures",
+            "interruptible-actions",
+            "irreversible-events",
+            "luck",
+            "memorizing",
+            "risk-reward",
+            "strategic-knowledge",
+            "tactical-planning",
+            "tension",
+            "time-limits",
+            "betrayal",
+            "complex-gameplay",
+            "delayed-reciprocity",
+            "delayed-reciprocity",
+            "encouraged-return-visits",
+            "stimulated-planning",
+            "combos",
+            "betrayal",
+            "complex-gameplay",
+            "delayed-reciprocity"
+        ],
+        "modulates" : [
+            "capture",
+            "collaborative-actions",
+            "destructible-objects",
+            "quick-games",
+            "risk-reward",
+            "social-dilemmas",
+            "traps"
+        ],
+        "instantiated_by" : [
+            "action-programming",
+            "betting",
+            "development-time",
+            "extended-actions",
+            "investments",
+            "ultra-powerful-events"
+        ],
+        "modulated_by" : [
+            "predictable-consequences",
+            "progress-indicators",
+            "randomness",
+            "uncertainty-information"
+        ],
+        "conflicts" : [
+            "predictable-consequences"
+        ]
+    }
+}

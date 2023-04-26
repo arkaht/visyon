@@ -1,0 +1,67 @@
+{
+    "name" : "Construction/Scoring Phase Shift",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Gameplay Arc Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "A shift in one or all players focus from improving their abilities to act within the game to gather points.",
+        "markups" : [
+            "<style=\"Definition\">A shift in one or all players focus from improving their abilities to act within the game to gather points.</style>",
+            "Some game allow players to not only perform actions that directly increase their chances of winning a game but also actions that make it easier or more efficient for them to do so later. A <style=\"CurrentLink\">Construction/Scoring Phase Shift</style> occurs when one player &mdash; which is typically then followed by the other players &mdash;  moves from the latter types of actions to the former.",
+            "<style=\"H3\">Examples</style>",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style>, a sign of a <style=\"CurrentLink\">Construction/Scoring Phase Shift</style> is that players begin investing in \"province\" score cards rather than other cards. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style>, consistent use by a player of the \"Consume: 2x VPs\" action can be a sign of a shift in building an efficient deck to focusing on gathering points. Another sign in this game can be players that build in both the \"develop\" and \"settle\" phases when possible to gain the points on the placed cards.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Construction/Scoring Phase Shift</style> typically occur in games with <style=\"Link\"><link=\"scores\">Scores</link></style> where players can create <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style>, but can occur in other gamers with make use of the pattern <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>. The two phases typically match <style=\"Link\"><link=\"expansion\">Expansion</link></style> and <style=\"Link\"><link=\"exploitation\">Exploitation</link></style> so the behavior of this pattern affects both those two. ",
+            "The possibility of <style=\"Link\"><link=\"speedending\">Speedending</link></style> heavily affects <style=\"CurrentLink\">Construction/Scoring Phase Shift</style>, both in that beginning <style=\"Link\"><link=\"speedending\">Speedending</link></style> can constitute the phase shift between <style=\"Link\"><link=\"construction\">Construction</link></style> of <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> and gathering <style=\"Link\"><link=\"scores\">Scores</link></style> and that players can use <style=\"Link\"><link=\"speedending\">Speedending</link></style> to shorten the scoring phase.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Construction/Scoring Phase Shift</style> affect how <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> and <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style> work in games by creating transitions points from when building <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> are beneficial to when maximizing <style=\"Link\"><link=\"scores\">Scores</link></style> are important. Since this in practice is one type of <style=\"Link\"><link=\"endgame\">Endgame</link></style>, the pattern also modulates when a <style=\"Link\"><link=\"middlegame\">Middlegame</link></style> end and an <style=\"Link\"><link=\"endgame\">Endgame</link></style> begins. That games have a <style=\"CurrentLink\">Construction/Scoring Phase Shift</style> guarantees a minimal level of <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> in that there are at least two distinct phases in them, not necessarily in what actions are possible to perform but what goals players have (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> being an example of this). ",
+            "Noticing when <style=\"CurrentLink\">Construction/Scoring Phase Shift</style> happen, or causing them to happen when it's beneficial for oneself, is one way to have <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, ",
+            "conflict <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"expansion\">Expansion</link></style>, <style=\"Link\"><link=\"exploitation\">Exploitation</link></style>, <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style>, <style=\"Link\"><link=\"middlegame\">Middlegame</link></style>, <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>",
+            "<style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> together with <style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"speedending\">Speedending</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "gameplay-mastery",
+            "varied-gameplay"
+        ],
+        "modulates" : [
+            "endgame",
+            "expansion",
+            "exploitation",
+            "gameplay-engines",
+            "middlegame",
+            "positive-feedback-loops"
+        ],
+        "instantiated_by" : [
+            "winner-gameplay-ends",
+            "gameplay-engines"
+        ],
+        "modulated_by" : [
+            "speedending"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "name" : "Resource Sources",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Abstract or diegetic places where resources can be found or acquired.",
+        "markups" : [
+            "<style=\"Definition\">Abstract or diegetic places where resources can be found or acquired.</style>",
+            "Resources are a typical component of games. <style=\"CurrentLink\">Resource Sources</style> are places in game worlds or abstract repositories for resources that allow players to gather, manipulate, or otherwise access them through actions. ",
+            "<style=\"H3\">Examples</style>",
+            "The place where fruits appear in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> is a <style=\"CurrentLink\">Resource Source</style> to the degree that these fruits are resources. In many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style>, both tabletop and computerized, killed enemies are <style=\"CurrentLink\">Resource Sources</style> for experience points and various types of loot. The squares or hexes in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> can contain resources that are either strategic (e.g. iron, coal, horses) or luxury (e.g. gold, spices, silk) in nature. Similarly, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Starcraft%20series\">Starcraft series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warcraft%20series\">Warcraft series</link></style> have locations where resources can be harvested from the game world. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Resource Sources</style> provide players with ways of gaining <style=\"Link\"><link=\"resources\">Resources</link></style>. Examples of <style=\"CurrentLink\">Resource Sources</style> include <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, and other players when <style=\"Link\"><link=\"trading\">Trading</link></style> with them is possible. <style=\"Link\"><link=\"loot\">Loot</link></style> provided from <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inhabitants\">Inhabitants</link></style>, or <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> are also typical <style=\"CurrentLink\">Resource Sources</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The presence of <style=\"CurrentLink\">Resource Sources</style> in games encourage <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> for players to the degree that they have need for those <style=\"Link\"><link=\"resources\">Resources</link></style>. They can also lead to <style=\"Link\"><link=\"resource-management\">Resource Management</link></style> if the sources can be manipulated, protected from other agents, or be created by the players themselves.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"resource-management\">Resource Management</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"resources\">Resources</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>",
+            "<style=\"Link\"><link=\"loot\">Loot</link></style> together with <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inhabitants\">Inhabitants</link></style>, or <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "resource-management",
+            "stimulated-planning"
+        ],
+        "modulates" : [
+            "resources"
+        ],
+        "instantiated_by" : [
+            "pick-ups",
+            "resource-locations",
+            "trading",
+            "loot"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

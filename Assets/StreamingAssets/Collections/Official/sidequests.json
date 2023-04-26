@@ -1,0 +1,73 @@
+{
+    "name" : "Sidequests",
+    "categories" : [
+        "Patterns",
+        "Narration Patterns",
+        "Goal Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "main quest",
+        "markups" : [
+            "''Quests which are optional to a game's main quest structure.''",
+            "<style=\"Definition\">main quest</style>",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Sidequests</style> are most commonly found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> since they usually have extensive worlds and storylines. Examples of such games include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/S.T.A.L.K.E.R.%20series\">S.T.A.L.K.E.R. series</link></style> is an example of a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooter</link></style> using <style=\"CurrentLink\">Sidequests</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Sidequests</style> are quite similar to designing <style=\"Link\"><link=\"quests\">Quests</link></style> in general. However, <style=\"CurrentLink\">Sidequests</style> assumes the presence of <style=\"Link\"><link=\"main-quests\">Main Quests</link></style> since they would otherwise be ordinary <style=\"Link\"><link=\"quests\">Quests</link></style>.",
+            "Although not part of the main series of <style=\"Link\"><link=\"quests\">Quests</link></style> in a game, <style=\"CurrentLink\">Sidequests</style> can be linked together to provide their own <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hierarchy%20of%20Goals\">Hierarchy of Goals</link></style> and they can be incompatible with each other by making their goals be <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>. One such example is <style=\"Link\"><link=\"companion-quests\">Companion Quests</link></style> that can be used to progress story arcs of <style=\"Link\"><link=\"companions\">Companions</link></style>.",
+            "<style=\"CurrentLink\">Sidequests</style> functionally differ from <style=\"Link\"><link=\"achievements\">Achievements</link></style> by having <style=\"Link\"><link=\"rewards\">Rewards</link></style> but also differ through often being integrated in the <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> of a game. Even so, <style=\"Link\"><link=\"achievements\">Achievements</link></style> may be considered an alternative to <style=\"CurrentLink\">Sidequests</style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Sidequests</style> can add significantly to the amount of active <style=\"Link\"><link=\"quests\">Quests</link></style> in a game. For this reason, games using them often provide the information about them in <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Sidequests</style>, like <style=\"Link\"><link=\"quests\">Quests</link></style>, are narration patterns. They can specifically be used to offer depth or detail to the <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> related to <style=\"Link\"><link=\"companions\">Companions</link></style> and <style=\"Link\"><link=\"factions\">Factions</link></style> without forcing players to have to ally themselves with them.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Sidequests</style> are <style=\"Link\"><link=\"quests\">Quests</link></style> that allow the <style=\"Link\"><link=\"main-quests\">Main Quests</link></style> of games to be complemented with <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>. These can be <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style> since they can provide <style=\"Link\"><link=\"rewards\">Rewards</link></style> and <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style> or <style=\"Link\"><link=\"character-development\">Character Development</link></style> like other <style=\"Link\"><link=\"quests\">Quests</link></style>, and provide players with a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> on how much of the game to explore. ",
+            "When games have <style=\"CurrentLink\">Sidequests</style> that are incompatible with each other, or have more <style=\"CurrentLink\">Sidequests</style> than can reasonably be completed in one game session, their existence supports <style=\"Link\"><link=\"replayability\">Replayability</link></style> of the games.  <style=\"CurrentLink\">Sidequests</style> that have <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style> to each other allows players to perform <style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style> for <style=\"Link\"><link=\"characters\">Characters</link></style> by choosing between these incompatible <style=\"CurrentLink\">Sidequests</style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"characters\">Characters</link></style></style>",
+            "<style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"companions\">Companions</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"main-quests\">Main Quests</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"companion-quests\">Companion Quests</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hierarchy%20of%20Goals\">Hierarchy of Goals</link></style>, <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "optional-goals",
+            "predetermined-story-structures",
+            "quests",
+            "replayability",
+            "supporting-goals",
+            "character-defining-actions"
+        ],
+        "modulates" : [
+            "companions",
+            "factions",
+            "main-quests"
+        ],
+        "instantiated_by" : [
+            "companion-quests"
+        ],
+        "modulated_by" : [
+            "hierarchy-goals",
+            "incompatible-goals",
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

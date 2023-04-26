@@ -1,0 +1,97 @@
+{
+    "name" : "Heterogeneous Game Element Ownership",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "Collectable Dice Games|Collectable Dice Games"
+    ],
+    "texts" : {
+        "definition" : "Game designs that require players to contribute with the game elements anew for each game instance.",
+        "markups" : [
+            "<style=\"Definition\">Game designs that require players to contribute with the game elements anew for each game instance.</style>",
+            "Most games come with all components together so that playing the game only requires that one person owns the game or that it exists as a service. However, other games require players to each bring some the components to each new game instance. By doing so, each game instance has different starting points and players have direct influence over how the game evolve besides be able to spend time between games planning on how to use the game elements they own. Players who know what they want can of course also engage in trading with others to get hold of these.",
+            "<style=\"H3\">Examples</style>",
+            "Probably the oldest example of <style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Marble%20Games\">Marble Games</link></style>, in which players have to bring the players they want to play with and possibly bet with. Other examples include miniatures games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Battle\">Warhammer Fantasy Battle</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%2040K\">Warhammer 40K</link></style> which let players build their own armies for a certain amount of points before the game begins. They can buy any from the lists contained in the various rule books but must own the actual miniatures, and for competitions they must be painted as well. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> set in fantasy or historical setting go a step further, requiring people participating in them to prepare beforehand by making the clothes and equipment they will be using. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Trek%20Customizable%20Card%20Game\">Star Trek Customizable Card Game</link></style>, and other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Collectible%20Card%20Games\">Collectible Card Games</link></style> let players challenge each other with decks they have built. The cards available to them are those bought in randomized sets and the ones they have acquired through trading. When people play <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> using their own money to place bets this can also be seen as an example of <style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> but not when play is done with specialized markers since these game elements do not change between game instances (for casinos all the markers in use can be seen as a part of all game instances going on).",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> the ownership of particular game items is tied to individual players, and the items typically do not exist in the game unless the player is logged in.",
+            "Writing piece of code that compete against other pieces of code is another way of having <style=\"CurrentLink\">Heterogeneous Game Element Ownership</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crobots\">Crobots</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/P-Robots\">P-Robots</link></style> are examples of games using this design.",
+            "<style=\"H2\">Using the pattern</style>",
+            "By definition, <style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> is only meaningful for <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. The main design choice when using the pattern is deciding what parts of the game are available for players to reassemble to a whole for each game instance, e.g. through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style>. Typical game elements used are <style=\"Link\"><link=\"cards\">Cards</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style>) or <style=\"Link\"><link=\"units\">Units</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Battle\">Warhammer Fantasy Battle</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%2040K\">Warhammer 40K</link></style>). Less common are those that use <style=\"Link\"><link=\"dice\">Dice</link></style> or let players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> involving the <style=\"Link\"><link=\"construction\">Construction</link></style> of <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crobots\">Crobots</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/P-Robots\">P-Robots</link></style>). [Game Items]] can also owner by individual players, this is most common in online games where the server can keep track of whom owns what. A case of <style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> that is easy to overlook is that when players are the members of <style=\"Link\"><link=\"teams\">Teams</link></style>; this since one normally does not consider players game elements.",
+            "Game designers need to consider the possible <style=\"Link\"><link=\"combos\">Combos</link></style> when designing <style=\"CurrentLink\">Heterogeneous Game Element Ownership</style>, and these are likely to occur as soon as not all game elements have the same functionality. Considering the <style=\"Link\"><link=\"combos\">Combos</link></style> are important since players will look for them as part of achieving <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> and if the types of combos are not balanced this may easily destroy <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>. This may be mitigated partly through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style> that can introduce new rules with the new game elements that balance the game using a <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Set</link></style>, although this may also require that old elements are passed out as well.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> makes games have an indirect <style=\"Link\"><link=\"pay-play\">Pay to Play</link></style> requirement. Acquiring game element pieces are <style=\"Link\"><link=\"investments\">Investments</link></style>, and since these are real world <style=\"Link\"><link=\"investments\">Investments</link></style> the pattern gives rise to <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> and <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>. Losing game elements pieces are likewise <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>. Most games with <style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> create <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> consisting of <style=\"Link\"><link=\"construction\">Construction</link></style> where the game elements are <style=\"Link\"><link=\"resources\">Resources</link></style>, and this quite commonly also leads to <style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style> and <style=\"Link\"><link=\"betting\">Betting</link></style> concerning the game elements. When a goal of the <style=\"Link\"><link=\"construction\">Construction</link></style> of game elements is to achieve different <style=\"Link\"><link=\"combos\">Combos</link></style>, the pattern supports <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style> and the <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> underlying this may be shared as a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>. This also supports the activity of <style=\"Link\"><link=\"pottering\">Pottering</link></style>, but this may occur for aesthetic reasons as well.",
+            "<style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> lets players have <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to construct their parts of a game through <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style> or by building their own <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>. Specifically for the latter, <style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> lets players create their own <style=\"Link\"><link=\"fixed-distributions\">Fixed Distributions</link></style>. Being able to bring their own game elements means that players can also customize them in different ways, be it painting miniatures, creating equipment and armor for live-action roleplaying games, or writing code to control agents. In all these cases <style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> provide players with ways of having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>. When rules exist to balance or control the number of game elements each player may bring to them game, this forces players to make <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> based on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> calculations between which game elements to use. The pattern is also likely to ensure <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> since the number of combinations of game element sets players can bring to a game easily becomes very large. ",
+            "<style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> can lead to individual game elements becoming <style=\"Link\"><link=\"memorabilia\">Memorabilia</link></style>. This since any given game elements is not assured to be part of a game using the pattern and its introduction can be a significant event, either because a player created or acquired it before the game began or from winning it during the gameplay. <style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> has a volatile relation with <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>. This since the pattern typically makes each player only need to have part of the required game elements (e.g. having one's own deck for playing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pok%C3%A9mon%20Trading%20Card%20Game\">Pokémon Trading Card Game</link></style>) which lowers the general requirements for playing, but at the same time it requires that players have the game elements ( or that players carry extra game elements for other players to borrow).",
+            "When the <style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> takes the form of <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> contributed by players, the patterns allows for games with <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style>.",
+            "<style=\"CurrentLink\">Heterogeneous Game Element Ownership</style> can affect <style=\"Link\"><link=\"tension\">Tension</link></style> significantly if the game elements can change ownership as a result of gameplay.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"betting\">Betting</link></style>, <style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"memorabilia\">Memorabilia</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"pottering\">Pottering</link></style>, <style=\"Link\"><link=\"pay-play\">Pay to Play</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style>, <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style></style>",
+            "<style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"combos\">Combos</link></style></style>",
+            "<style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"Link\"><link=\"fixed-distributions\">Fixed Distributions</link></style> if  <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> are present",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"dice\">Dice</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Miniatures\">Miniatures</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style> in games with <style=\"Link\"><link=\"combos\">Combos</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "betting",
+            "combos",
+            "construction",
+            "creative-control",
+            "extra-game-consequences",
+            "freedom-choice",
+            "game-element-insertion",
+            "game-element-trading",
+            "investments",
+            "memorabilia",
+            "meta-games",
+            "pay-play",
+            "pre-customized-decks",
+            "purchasable-game-advantages",
+            "resources",
+            "risk-reward",
+            "teams",
+            "trade-offs",
+            "ubiquitous-gameplay",
+            "varied-gameplay",
+            "no-direct-player-influence",
+            "strategic-knowledge",
+            "strategic-planning",
+            "trans-game-information"
+        ],
+        "modulates" : [
+            "drawing-stacks",
+            "multiplayer-games",
+            "tension",
+            "fixed-distributions"
+        ],
+        "instantiated_by" : [
+            "cards",
+            "dice",
+            "game-items",
+            "miniatures"
+        ],
+        "modulated_by" : [
+            "evolving-rule-sets"
+        ],
+        "conflicts" : [
+            "ubiquitous-gameplay",
+            "player-balance"
+        ]
+    }
+}

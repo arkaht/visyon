@@ -1,0 +1,58 @@
+{
+    "name" : "Bag Management",
+    "categories" : [
+        "Dynamic Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Actions that allow tokens to be removed or replaced from bags without playing them.",
+        "markups" : [
+            "<style=\"Definition\">Actions that allow tokens to be removed or replaced from bags without playing them.</style>",
+            "Some games make use of bags with various tokens in them to create randomness, this by letting players draw tokens blindly. However, some of these use <style=\"CurrentLink\">Bag Management</style> to let players manipulate these bags through removing or replacing tokens to get better distributions.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Yggdrasil\">Yggdrasil</link></style> provides actions to improve the distribution of tokens in a bag by randomly drawing tokens and only replacing the wanted ones.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hyperborea\">Hyperborea</link></style> has bag building as a core mechanic, it does not provide actions to view the contents of bags and replace or remove tokens in it. Therefore, it doesn't support <style=\"CurrentLink\">Bag Management</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Bag Management</style> is a way to modify how <style=\"Link\"><link=\"bag-building\">Bag Building</link></style> works. Designing it consists of which actions to manipulate the bag besides the basic ones of putting <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> into bags and removing them later. The basic move to support <style=\"CurrentLink\">Bag Management</style> is removing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> without \"playing\" them. Options include replacing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> with other ones instead of removing, removing (or replacing) several, and blindly taking several but only removing (or replacing) certain (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Yggdrasil\">Yggdrasil</link></style> makes use of the last of these). ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Bag Management</style> adds <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to <style=\"Link\"><link=\"bag-building\">Bag Building</link></style> and can let players create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>. This can provide a time-limited form of <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style> for games with <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style></style>",
+            "<style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"bag-building\">Bag Building</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "player-decided-distributions",
+            "abstract-player-construct-development"
+        ],
+        "modulates" : [
+            "bag-building"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

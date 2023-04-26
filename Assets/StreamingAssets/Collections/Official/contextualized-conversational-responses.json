@@ -1,0 +1,61 @@
+{
+    "name" : "Contextualized Conversational Responses",
+    "categories" : [
+        "Patterns",
+        "Agent Patterns",
+        "Dialogue Patterns",
+        "Needs references",
+        "Needs examples",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "The ability of agent to gives responses in a conversation depending on all relevant game states.",
+        "markups" : [
+            "<style=\"Definition\">The ability of agent to gives responses in a conversation depending on all relevant game states.</style>",
+            "Conversations in games may be constructed so they are generic and function in many different settings. When they instead are specific for the current context in which they are taking place, they provide <style=\"CurrentLink\">Contextualized Conversational Responses</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Although only being weak examples of the pattern, non-player characters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20New%20Vegas\">Fallout New Vegas</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Skyrim\">Skyrim</link></style> have different dialogues when they have moved between places as part of player's progress in quests. While this is really because the players have gotten further in the quests, referencing to the current locations can provide an illusion that the non-player characters say different things depending on the context.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "Although not much of a conversation, the quotes when selecting individual units in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warcraft%20series\">Warcraft III</link></style> are the same for all units of the same type. The default response when talking to any guard in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Skyrim\">Skyrim</link></style> is \"I was an adventurer like you, then I took an arrow in the knee\".",
+            "<style=\"H2\">Using the pattern</style>",
+            "The primary choice when creating <style=\"CurrentLink\">Contextualized Conversational Responses</style> is whether to do it through creating rules in <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> or providing specific <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>. In the latter case, the pattern can emerge through the use of either <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character-Specific%20Dialogues\">Character-Specific Dialogues</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Location-Specific%20Dialogues\">Location-Specific Dialogues</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Since the use of the pattern makes <style=\"Link\"><link=\"dialogues\">Dialogues</link></style> fit not a specific context of a game's diegesis, it naturally follows that it also creates ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thematically%20Consistent%20Dialogues\">Thematically Consistent Dialogues</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Using <style=\"CurrentLink\">Contextualized Conversational Responses</style> provides <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Context%20Dependent%20Dialogues\">Context Dependent Dialogues</link></style> and in turn <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thematically%20Consistent%20Dialogues\">Thematically Consistent Dialogues</link></style>. By providing <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> with the possibility of expressing the proper emotions regarding a specific context, the pattern can also help show that they have their <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Context%20Dependent%20Dialogues\">Context Dependent Dialogues</link></style>, <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thematically%20Consistent%20Dialogues\">Thematically Consistent Dialogues</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character-Specific%20Dialogues\">Character-Specific Dialogues</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Location-Specific%20Dialogues\">Location-Specific Dialogues</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "context-dependent-dialogues",
+            "own-agenda",
+            "thematically-consistent-dialogues"
+        ],
+        "modulates" : [
+            "algorithmic-agents",
+            "dialogues"
+        ],
+        "instantiated_by" : [
+            "character-specific-dialogues",
+            "location-specific-dialogues"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

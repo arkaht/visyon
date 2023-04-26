@@ -1,0 +1,84 @@
+{
+    "name" : "Spawn Points",
+    "categories" : [
+        "Patterns",
+        "Level Design Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Locations in game worlds where avatars, units, or enemies appear.",
+        "markups" : [
+            "<style=\"Definition\">Locations in game worlds where avatars, units, or enemies appear.</style>",
+            "Many games have game elements appear in their game worlds. <style=\"CurrentLink\">Spawn Points</style> are locations in the game worlds which are distinguishable by these appearances, and they are often very influential over gameplay since they can both determine where players begin playing and be the source of vital resources for winning the games. ",
+            "<style=\"H3\">Examples</style>",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ludo\">Ludo</link></style> do not start with all their pieces on the game track. Instead they have to introduce them at their own specific <style=\"CurrentLink\">Spawn Points</style>.",
+            "The classic arcade game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gauntlet\">Gauntlet</link></style> has ''monster generators'' from which monsters pour out until the players destroy the generators (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> does as well even if monster can spawn in other areas also). This makes these game elements into <style=\"CurrentLink\">Spawn Points</style>.",
+            "<style=\"CurrentLink\">Spawn Points</style> are heavily used in multiplayer first-person shooters such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style>. Some of these games offer additional variations on Spawn Points: <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%202\">Battlefield 2</link></style> lets players spawn on their squad leaders while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20Vietnam\">Battlefield Vietnam</link></style> lets players spawn in vehicles that can be steered around the game area and players can create ''tunnel exits'' that function as mobile <style=\"CurrentLink\">Spawn Points</style>. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "Almost all games that use <style=\"Link\"><link=\"spawning\">Spawning</link></style> in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style> make use of <style=\"CurrentLink\">Spawn Points</style> although <style=\"Link\"><link=\"converters\">Converters</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> in general can be seen as making use of <style=\"CurrentLink\">Spawn Points</style> as well. The main design choice to be made about <style=\"CurrentLink\">Spawn Points</style> is where to locate them (<style=\"Link\"><link=\"spawning\">Spawning</link></style> concerns what spawns in them). The suitable locations are usually restricted by if the game should have <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> and what they chances for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> should be. Introducing whatever game elements are spawned into an unprotected environment makes both likely to occur; <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style> are quite often used as <style=\"CurrentLink\">Spawn Points</style>, or <style=\"CurrentLink\">Spawn Points</style> are surrounded by <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, to avoid this. Other factors that may influence the location of <style=\"CurrentLink\">Spawn Points</style> include if the <style=\"Link\"><link=\"spawning\">Spawning</link></style> taking place there is part of <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, how suitable the surrounding environment is to <style=\"Link\"><link=\"camping\">Camping</link></style>, and if the game makes use of <style=\"Link\"><link=\"lives\">Lives</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%202\">Battlefield 2</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20Vietnam\">Battlefield Vietnam</link></style> show how <style=\"CurrentLink\">Spawn Points</style> do not have to be stationary points, instead respectively linking the <style=\"CurrentLink\">Spawn Points</style> to the position of <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>, and this is in the former case a <style=\"Link\"><link=\"privileged-abilities\">Privileged Ability</link></style> to certain <style=\"Link\"><link=\"avatars\">Avatars</link></style>.",
+            "In <style=\"Link\"><link=\"teams\">Team-based</link></style> games the placement of static <style=\"CurrentLink\">Spawn Points</style> is often done so <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style> between the <style=\"Link\"><link=\"teams\">Teams</link></style> are achieved, this as a <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Spawn Points</style> can challenge <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> since there may be no real world equivalents for such locations (magic or technology that supports teleportation is the most common explanation). An exception to this is <style=\"CurrentLink\">Spawn Points</style> located near the edge of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. This since they can represent access points to other parts of the worlds - even if gameplay cannot occur there - and thereby can give an <style=\"Link\"><link=\"illusion-open-space\">Illusion of Open Space</link></style>.",
+            "While <style=\"CurrentLink\">Spawn Points</style> can simply be locations in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, they can also be represented through game elements. <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> have been mentioned above, but <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gauntlet\">Gauntlet</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> gives another example where <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Generators\">Generators</link></style> are <style=\"CurrentLink\">Spawn Points</style>. Having <style=\"CurrentLink\">Spawn Points</style> as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Generators\">Generators</link></style> opens up the suggestion that these can be interacted with to activate <style=\"Link\"><link=\"spawning\">Spawning</link></style> - this may be possible for players to do or may happen independently of their presence (in <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> there does not even have to be any players logged on).",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Spawn Points</style> are a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style> that define where <style=\"Link\"><link=\"spawning\">Spawning</link></style> occurs in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style>. <style=\"CurrentLink\">Spawn Points</style> are in themselves <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> as the introduction of new game elements appears there. When they produce the targets for <style=\"Link\"><link=\"collecting\">Collecting</link></style> goals, <style=\"CurrentLink\">Spawn Points</style> can encourage <style=\"Link\"><link=\"camping\">Camping</link></style> or <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style> while they can provide <style=\"Link\"><link=\"tension\">Tension</link></style> to players whose <style=\"Link\"><link=\"avatars\">Avatars</link></style> spawn there if they are under immediate threat there. <style=\"CurrentLink\">Spawn Points</style> can also promote \"spawn\" <style=\"Link\"><link=\"camping\">Camping</link></style> in other players if players' <style=\"Link\"><link=\"avatars\">Avatars</link></style> appear unprotected at the <style=\"CurrentLink\">Spawn Points</style>. They quite naturally affect <style=\"Link\"><link=\"enemies\">Enemies</link></style> when these are spawned during gameplay.",
+            "<style=\"CurrentLink\">Spawn Points</style> that can be placed by players provide opportunities for them to try and create <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"illusion-open-space\">Illusion of Open Space</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"collecting\">Collecting</link></style></style>",
+            "<style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"converters\">Converters</link></style>, <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"converters\">Converters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Generators\">Generators</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "camping",
+            "challenging-gameplay",
+            "flanking-routes",
+            "illusion-open-space",
+            "producers",
+            "strategic-locations",
+            "surprises",
+            "tension",
+            "encouraged-return-visits"
+        ],
+        "modulates" : [
+            "converters",
+            "death-consequences",
+            "enemies",
+            "game-boards",
+            "game-worlds",
+            "levels",
+            "safe-havens",
+            "spawning"
+        ],
+        "instantiated_by" : [
+            "avatars",
+            "converters",
+            "generators",
+            "privileged-abilities",
+            "resource-generators",
+            "spawning",
+            "vehicles"
+        ],
+        "modulated_by" : [
+            "persistent-game-worlds",
+            "safe-havens"
+        ],
+        "conflicts" : [
+            "thematic-consistency"
+        ]
+    }
+}

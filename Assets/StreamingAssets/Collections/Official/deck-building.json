@@ -1,0 +1,97 @@
+{
+    "name" : "Deck Building",
+    "categories" : [
+        "Mechanical Patterns",
+        "Card Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where players acquire cards to their decks during gameplay in order for these to be used later in the same game instance.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where players acquire cards to their decks during gameplay in order for these to be used later in the same game instance.</style>",
+            "Some games allow players to have their own decks of cards. Those that allow players to increase the size of their deck through gameplay actions have <style=\"CurrentLink\">Deck Building</style> as a mechanic. ",
+            "Note: ''This pattern follows the distinction made in [https://boardgamegeek.com/boardgamemechanic/2664/deck-pool-building BoardGameGeek] that <style=\"CurrentLink\">Deck Building</style> refers to constructions of decks during gameplay. See ''<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style>'' for constructions of decks before gameplay.''",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/A%20Few%20Acres%20of%20Snow\">A Few Acres of Snow</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style> are all games with <style=\"CurrentLink\">Deck Building</style> as a core mechanic. So is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Legendary:%20A%20Marvel%20Deck%20Building%20Game\">Legendary: A Marvel Deck Building Game</link></style> but this show that <style=\"CurrentLink\">Deck Building</style> games can be co-operative. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/A%20Study%20in%20Emerald\">A Study in Emerald</link></style> provides a team-based example even if players initially do not know which other players are on their team while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Airborne%20Commander\">Airborne Commander</link></style> shows that <style=\"CurrentLink\">Deck Building</style> games can be solitaire games.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Lord%20of%20the%20Rings:%20The%20Fellowship%20of%20the%20Ring%20Deck-Building%20Game\">The Lord of the Rings: The Fellowship of the Ring Deck-Building Game</link></style> have players build their decks ''before'' gameplay begins, so these games use the pattern <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style> rather than <style=\"CurrentLink\">Deck Building</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mystic%20Vale\">Mystic Vale</link></style> provides an alternative to <style=\"CurrentLink\">Deck Building</style> in that players of this game build ''Cards'' through inserting transparent upgrades to sleeved cards.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Normally, <style=\"CurrentLink\">Deck Building</style> is used in games to let players have agency on which <style=\"Link\"><link=\"cards\">Cards</link></style> should be in <style=\"Link\"><link=\"decks\">Decks</link></style>. Players typically use this to affect the <style=\"Link\"><link=\"randomness\">Randomness</link></style> of their potential <style=\"Link\"><link=\"hands\">Hands</link></style> by getting <style=\"Link\"><link=\"cards\">Cards</link></style> that increase their chances of <style=\"Link\"><link=\"combos\">Combos</link></style> and <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style>. One specific example possible through the combination of <style=\"Link\"><link=\"cards\">Cards</link></style> and <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> are <style=\"Link\"><link=\"cycle-deck-engines\">Cycle Deck Engines</link></style>. Most games using <style=\"CurrentLink\">Deck Building</style> have new <style=\"Link\"><link=\"cards\">Cards</link></style> put in <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style>, which create a form of <style=\"Link\"><link=\"cooldown\">Cooldown</link></style> for new <style=\"Link\"><link=\"cards\">Cards</link></style>. ",
+            "The design choices related to <style=\"CurrentLink\">Deck Building</style> mostly concern which actions should be available for getting new <style=\"Link\"><link=\"cards\">Cards</link></style>, what effects these <style=\"Link\"><link=\"cards\">Cards</link></style> have, and from where the <style=\"Link\"><link=\"cards\">Cards</link></style> can be gotten. Typically this also means determining price for <style=\"Link\"><link=\"cards\">Cards</link></style> to make more powerful <style=\"Link\"><link=\"cards\">Cards</link></style> more difficult to get into one's <style=\"Link\"><link=\"decks\">Deck</link></style>. These effect of new <style=\"Link\"><link=\"cards\">Cards</link></style> tend to be ",
+            "either <style=\"Link\"><link=\"improved-abilities\">Improved</link></style> or <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> lets players see all <style=\"Link\"><link=\"cards\">Cards</link></style> that are purchasable from the beginning while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Legendary:%20A%20Marvel%20Deck%20Building%20Game\">Legendary: A Marvel Deck Building Game</link></style> provides a limited number of <style=\"Link\"><link=\"cards\">Cards</link></style> at any time through the use of a <style=\"Link\"><link=\"drafting-spreads\">Drafting Spread</link></style>. While most design choices may relate to how new <style=\"Link\"><link=\"cards\">Cards</link></style> are provided there are also design possibilities concerning how <style=\"Link\"><link=\"cards\">Cards</link></style> can be modified or removed from <style=\"Link\"><link=\"decks\">Decks</link></style>. Modifying <style=\"Link\"><link=\"cards\">Cards</link></style> typically means making use of <style=\"Link\"><link=\"card-building\">Card Building</link></style> while providing means for players to remove <style=\"Link\"><link=\"cards\">Cards</link></style> (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> does this through <style=\"Link\"><link=\"cards\">Cards</link></style> players need to acquire) leads to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Deck%20Slimming\">Deck Slimming</link></style>. Letting <style=\"Link\"><link=\"decks\">Decks</link></style> be modified between game instances create <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> while performing permanent changes in the form of physically modifying or destroying cards create <style=\"Link\"><link=\"legacy-games\">Legacy Games</link></style>.",
+            "In many cases, <style=\"CurrentLink\">Deck Building</style> games use <style=\"Link\"><link=\"cards\">Cards</link></style> to provide actions. This means that players typically need a starting deck which allows them to perform the actions of acquiring other cards through <style=\"CurrentLink\">Deck Building</style>.",
+            "Players' <style=\"CurrentLink\">Deck Building</style> is typically helped by <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, so the possibility of having this (about <style=\"Link\"><link=\"cards\">Cards</link></style> and their <style=\"Link\"><link=\"combos\">Combos</link></style>) in a game is likely to affect this pattern. <style=\"Link\"><link=\"bag-building\">Bag Building</link></style> can be an alternative to <style=\"CurrentLink\">Deck Building</style> if not the design possibilities of <style=\"Link\"><link=\"cards\">Cards</link></style> (compared to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style>) are need. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style> is another alternative where players build their decks before gameplay begins.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Deck Building</style> modulates how <style=\"Link\"><link=\"decks\">Decks</link></style> are constructed by letting individual <style=\"Link\"><link=\"cards\">Cards</link></style> be added to them over time through <style=\"Link\"><link=\"drafting\">Drafting</link></style>. <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style> is a consequence of using <style=\"CurrentLink\">Deck Building</style> since the <style=\"Link\"><link=\"cards\">Cards</link></style> introduce into <style=\"Link\"><link=\"decks\">Decks</link></style> by <style=\"CurrentLink\">Deck Building</style> are typically not in play before this happens. However, this is not a strong case of <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style> as the <style=\"Link\"><link=\"cards\">Cards</link></style> typically already play a role as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style> before being part of a <style=\"Link\"><link=\"decks\">Deck</link></style>.",
+            "Further, <style=\"CurrentLink\">Deck Building</style> allows for <style=\"Link\"><link=\"construction\">Construction</link></style> and <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>, and by doing so gives players a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> of what should be in their <style=\"Link\"><link=\"decks\">Decks</link></style>. These new <style=\"Link\"><link=\"cards\">Cards</link></style> are <style=\"Link\"><link=\"investments\">Investments</link></style> and often associated with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> speculations since uncertainty exist both in <style=\"Link\"><link=\"cards\">Cards</link></style> will be gotten into players' <style=\"Link\"><link=\"hands\">Hands</link></style> at the right times and if other <style=\"Link\"><link=\"cards\">Cards</link></style> which work well together with the ones gotten will be available to get in the future. The patterns supports <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> since players are unlikely to get the same <style=\"Link\"><link=\"decks\">Deck</link></style> in different game instances if there is a big enough variety of <style=\"Link\"><link=\"cards\">Cards</link></style>.",
+            "Building <style=\"Link\"><link=\"decks\">Decks</link></style> often result in players having <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> goals and achieving these cause <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> and <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>. <style=\"CurrentLink\">Deck Building</style> games often have <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> since they make use of many different types of <style=\"Link\"><link=\"cards\">Cards</link></style> whose effects combine in different ways, and being able to handle this is a way to show <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>.",
+            "<style=\"CurrentLink\">Deck Building</style> does not support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style> since it introduces new <style=\"Link\"><link=\"cards\">Cards</link></style> into <style=\"Link\"><link=\"decks\">Decks</link></style>. It can support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Faucet/Drain\">Faucet/Drain</link></style> system although removing <style=\"Link\"><link=\"cards\">Cards</link></style> tends to be less available as actions than introducing new ones. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Deck%20Slimming\">Deck Slimming</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Faucet/Drain\">Faucet/Drain</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"legacy-games\">Legacy Games</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style></style>",
+            "<style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"cards\">Cards</link></style> and <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style></style>",
+            "<style=\"Link\"><link=\"cycle-deck-engines\">Cycle Deck Engines</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style></style>",
+            "<style=\"Link\"><link=\"cooldown\">Cooldown</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"decks\">Decks</link></style>, <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style>, <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style>, <style=\"Link\"><link=\"hands\">Hands</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"card-building\">Card Building</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"drafting-spreads\">Drafting Spreads</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "complex-gameplay",
+            "construction",
+            "deck-slimming",
+            "drafting",
+            "faucet-drain",
+            "freedom-choice",
+            "gain-competence",
+            "game-element-insertion",
+            "gameplay-mastery",
+            "improved-abilities",
+            "investments",
+            "legacy-games",
+            "meta-games",
+            "new-abilities",
+            "risk-reward",
+            "stimulated-planning",
+            "strategic-planning",
+            "varied-gameplay",
+            "abstract-player-construct-development",
+            "cycle-deck-engines",
+            "cooldown"
+        ],
+        "modulates" : [
+            "combos",
+            "decks",
+            "discard-piles",
+            "gameplay-engines",
+            "hands",
+            "randomness"
+        ],
+        "instantiated_by" : [
+            "card-building"
+        ],
+        "modulated_by" : [
+            "drafting-spreads",
+            "strategic-knowledge"
+        ],
+        "conflicts" : [
+            "closed-economies"
+        ]
+    }
+}

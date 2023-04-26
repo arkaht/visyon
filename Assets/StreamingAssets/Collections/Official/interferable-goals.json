@@ -1,0 +1,69 @@
+{
+    "name" : "Interferable Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Goals whose progress or completion can be directly influenced by other players or the game system.",
+        "markups" : [
+            "<style=\"Definition\">Goals whose progress or completion can be directly influenced by other players or the game system.</style>",
+            "Games typically provide players with goals or let them set up their own goals. While these goals may be interesting and challenging because players may simply not succeed in performing the actions required to fulfill them, they may also become more difficult &mdash; and potentially more interesting &mdash; if other agents in the game or events by the game system can affect the progress negatively. Such goals are <style=\"CurrentLink\">Interferable Goals</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "Games where players directly are in conflict with each other, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tennis\">Tennis</link></style>, or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style>, always have <style=\"CurrentLink\">Interferable Goals</style>. As a more specific example, players can interfere with each other in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Backgammon\">Backgammon</link></style> by \"ousting\" vulnerable pieces to the inner table.",
+            "A weaker example of <style=\"CurrentLink\">Interferable Goals</style> can be found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style>. Here players often are set on quests in campaigns to stop the plans of non-player characters. Although these non-player characters may be run and enacted by game masters, their progress with their goals are typically prescripted making the target goals not true goals of agents in the game. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "The two main requirements for <style=\"CurrentLink\">Interferable Goals</style> is that there are game actions that make the interference possible and that there are <style=\"Link\"><link=\"agents\">Agents</link></style> that can do the interference. <style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, and <style=\"Link\"><link=\"races\">Races</link></style> are goals that naturally can be interfered with by others, and any goals depending on <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style> can likewise be interfered with. However, in general any goals defined by a part of the game state which can be manipulated by somebody else than those having the goals are <style=\"CurrentLink\">Interferable Goals</style>, so any goals can be made into these by providing actions that allows such manipulation. Making other <style=\"Link\"><link=\"agents\">Agents</link></style> want to interfere with <style=\"CurrentLink\">Interferable Goals</style> can be done by giving them <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> (that is, <style=\"CurrentLink\">Interferable Goals</style> can be the basis for defining <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>) but any <style=\"Link\"><link=\"enemies\">Enemies</link></style> to someone with <style=\"CurrentLink\">Interferable Goals</style> typically have reasons to try and interfere.",
+            "<style=\"CurrentLink\">Interferable Goals</style> can be modified through providing players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetric%20Information\">Symmetric Information</link></style> about them or having <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> regarding them. Both options can increase <style=\"Link\"><link=\"tension\">Tension</link></style> but the former clarifies which other <style=\"Link\"><link=\"agents\">Agents</link></style> need to be considered as being able to interfere with one's goals. This is under the assumption that the <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> relates to who has the <style=\"CurrentLink\">Interferable Goals</style> but that pattern can also be used to make any or both parties uncertain about what is required to fulfill the <style=\"CurrentLink\">Interferable Goals</style>. The <style=\"CurrentLink\">Interferable Goals</style> may become more difficult or even impossible if players are given <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> about who has the target goals or what needs to be done to interfere with them. ",
+            "As a specific option, <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style> can be made into <style=\"CurrentLink\">Interferable Goals</style> but still maintain their symmetry since all goals can be interferable.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Interferable Goals</style> lets players have <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> and can lead to <style=\"Link\"><link=\"betrayal\">Betrayal</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> if the goals are actually interfered with. When the goals can be interfered by those in the same <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alliances\">Alliances</link></style> as those that have the goals, it makes the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alliances\">Alliances</link></style> into a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style> since they can be compromised or betrayed.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alliances\">Alliances</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alliances\">Alliances</link></style>, <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetric%20Information\">Symmetric Information</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "betrayal",
+            "conflicts",
+            "preventing-goals",
+            "uncommitted-alliances"
+        ],
+        "modulates" : [
+            "alliances",
+            "symmetric-goals"
+        ],
+        "instantiated_by" : [
+            "area-control",
+            "enemies",
+            "interruptible-actions",
+            "king-hill",
+            "last-man-standing",
+            "races"
+        ],
+        "modulated_by" : [
+            "symmetric-information",
+            "uncertainty-information"
+        ],
+        "conflicts" : [
+            "imperfect-information"
+        ]
+    }
+}

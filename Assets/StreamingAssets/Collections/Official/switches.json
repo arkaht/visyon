@@ -1,0 +1,83 @@
+{
+    "name" : "Switches",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Game elements that players can use to activate events or actions in game worlds.",
+        "markups" : [
+            "<style=\"Definition\">Game elements that players can use to activate events or actions in game worlds.</style>",
+            "<style=\"H3\">Examples</style>",
+            "Buttons and levers on the walls are <style=\"CurrentLink\">Switches</style> used to open doors, walls, and sections of the floor in the early first-person <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer Roleplaying</link></style> game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeon%20Master\">Dungeon Master</link></style>. The early installments in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style> had <style=\"CurrentLink\">Switches</style> that temporarily opened secret doors that could only be reached by quickly moving some distances within the games. Both the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style> and makes use of <style=\"CurrentLink\">Switches</style> in the form of pressure plates to activate physics-based \"swing object\" traps. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> uses pressure plates in the same fashion, although some of them are linked to \"grenade bouquets\".",
+            "The activation of various types of machinery in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> let players proceed in the levels of the game, but also attract the attention of infected humans wanting to kill the players.",
+            "The puzzles in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%20series\">Portal series</link></style> often consist of accessible boxes than can then be put on <style=\"CurrentLink\">Switches</style> to activate various elements on levels. In the co-op mode of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%202\">Portal 2</link></style> one player can sometimes fill this role while the other player performs some necessary action. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "Creating <style=\"CurrentLink\">Switches</style> mainly consist of considering what happens when they are activated and what their appearances and positions are like. <style=\"CurrentLink\">Switches</style> may be stateless in that activating them has an immediate effect but they can then be activated again but it is quite common <style=\"CurrentLink\">Switches</style> two states, e.g. on/off or pressed/released, or cycle through a series of states. Activating <style=\"CurrentLink\">Switches</style> can easily be made into <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> but not allowing them to change states again afterwards; stateless <style=\"CurrentLink\">Switches</style> can also cause <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> if the effects of them can only occur once. An additional option for <style=\"CurrentLink\">Switches</style> with states is to have <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> after which the <style=\"CurrentLink\">Switches</style> change to another state.",
+            "Two common reasons for having <style=\"CurrentLink\">Switches</style> in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style> are to let players modify <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> or <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, which in both cases may make <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style> accessible. Opening new gameplay areas may through this reveal <style=\"Link\"><link=\"secret-areas\">Secret Areas</link></style> and make normally <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> possible to enter. Other reasons for providing <style=\"CurrentLink\">Switches</style> is to allow players to be able to activate <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style> (typically only in <style=\"Link\"><link=\"levels\">Levels</link></style>), to end <style=\"Link\"><link=\"levels\">Levels</link></style>, or to initiate <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>. <style=\"Link\"><link=\"alarms\">Alarms</link></style> can simply be <style=\"CurrentLink\">Switches</style> activated by <style=\"Link\"><link=\"agents\">Agents</link></style> when they detect certain events or presences. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "An option for <style=\"CurrentLink\">Switches</style> that have states is to make their visual presentations \"sticky\", i.e. they change appearance depending on their state. When used like this, they make the use of <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> related to them unnecessary and can thereby help maintain <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Switches</style> can game designer precise ways of knowing when players perform specific actions in games, especially when they can only be used once. This can be used to know when to forward <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> through initiating <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> or <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>, changing <style=\"Link\"><link=\"game-boards\">Game Boards</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style>, opening <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, etc.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Switches</style> are simple <style=\"Link\"><link=\"controllers\">Controllers</link></style> that allow for a limited range of actions, most often turning on or off an effect in the game. Being located at specific points in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style>, they modulate these. Their use is often trivial to understand, although the effect of activating them  can activate new rules, thereby instantiating <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style>, or may have complex and have long-term consequences on gameplay. Depending on how the <style=\"CurrentLink\">Switches</style> handle states or have repeatable effect, they can instantiate <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style>. Regardless, the actual development of the events started by activating specific <style=\"CurrentLink\">Switches</style> can be <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style> or cause <style=\"Link\"><link=\"persistent-game-world-changes\">Persistent Game World Changes</link></style>.",
+            "Their mere presence create <style=\"Link\"><link=\"clickability\">Clickability</link></style> in games but when players know what effect activating <style=\"CurrentLink\">Switches</style> have; this not only gives <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> but also promotes <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>. Those have <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> associated to certain states add <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style> to players' gameplay experiences. When players can notice that the state of <style=\"CurrentLink\">Switches</style> have changed from since last they saw them, or from what should be their normal state, this provides them with <style=\"Link\"><link=\"traces\">Traces</link></style> of previous gameplay events. ",
+            "<style=\"CurrentLink\">Switches</style> often affect <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, by causing them to exist or disappear, or <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, by making them accessible or not. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"alarms\">Alarms</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"clickability\">Clickability</link></style>, <style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"persistent-game-world-changes\">Persistent Game World Changes</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"traces\">Traces</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>, <style=\"Link\"><link=\"varying-rule-sets\">Varying Rule Sets</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"obstacles\">Obstacles</link></style></style>",
+            "<style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"time-limits\">Time Limits</link></style></style>",
+            "<style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style>",
+            "<style=\"H4\"><style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> or <style=\"Link\"><link=\"obstacles\">Obstacles</link></style></style>",
+            "<style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "alarms",
+            "anticipation",
+            "clickability",
+            "controllers",
+            "diegetic-consistency",
+            "irreversible-events",
+            "persistent-game-world-changes",
+            "predetermined-story-structures",
+            "reversibility",
+            "stimulated-planning",
+            "traces",
+            "ultra-powerful-events",
+            "varying-rule-sets",
+            "quick-returns",
+            "time-pressure",
+            "conditional-passageways"
+        ],
+        "modulates" : [
+            "environmental-effects",
+            "game-boards",
+            "game-worlds",
+            "levels",
+            "quick-travel"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "time-limits"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

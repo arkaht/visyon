@@ -1,0 +1,95 @@
+{
+    "name" : "Pick-Ups",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns",
+        "Needs revision",
+        "Needs references"
+    ],
+    "texts" : {
+        "definition" : "Game items that exist in game worlds and can be collected, usually by moving avatars or units so that they are in contacts with the game items.",
+        "markups" : [
+            "<style=\"Definition\">Game items that exist in game worlds and can be collected, usually by moving avatars or units so that they are in contacts with the game items.</style>",
+            "Many games contain various game items that players can make use of. When these exist as individually discernible objects in the game worlds that can be taken, they are <style=\"CurrentLink\">Pick-Ups</style>. Common examples of <style=\"CurrentLink\">Pick-Ups</style> include both \"concrete\" objects, e.g. weapons, ammunition, and health packs, and \"abstract ones\", e.g. units of money, energy, and experience.",
+            "<style=\"H3\">Examples</style>",
+            "The ''pills'', ''power-pills'', and various bonus items found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> are all examples of <style=\"CurrentLink\">Pick-Ups</style>. The various power-ups found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> are also examples of <style=\"CurrentLink\">Pick-Ups</style>. The loot dropped by vanquished enemies in role-playing games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style> are further examples of <style=\"CurrentLink\">Pick-Ups</style>.",
+            "In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> the many weapons that can be found are <style=\"CurrentLink\">Pick-Ups</style>, as are the ''Quad Damage'' power-ups and ammunition packs that replenish the players' ammunition. The piles of different types of ammunition found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> are actually not <style=\"CurrentLink\">Pick-Ups</style> since they remain for other players, but the weapons, pain pills, and medikits that one can find are. To help players find these in the often dark and stressful environment of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, the <style=\"CurrentLink\">Pick-Ups</style> are giving a glowing outline that can be seen through walls.",
+            "<style=\"H2\">Using the pattern</style>",
+            "While <style=\"CurrentLink\">Pick-Ups</style> are typically created by modifying <style=\"Link\"><link=\"game-items\">Game Items</link></style>, they can be created specifically as <style=\"CurrentLink\">Pick-Ups</style> through being <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style> which gives players instantaneous advantages often consisting of <style=\"Link\"><link=\"improved-abilities\">Improved</link></style> or <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>. Other specific <style=\"CurrentLink\">Pick-Ups</style> are those whose only function is to increase players' <style=\"Link\"><link=\"scores\">Scores</link></style>, as e.g. the ordinary ''pills'' in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> does, or to give extra <style=\"Link\"><link=\"lives\">Lives</link></style>. For those that are <style=\"Link\"><link=\"game-items\">Game Items</link></style> however, it is even more motivated to consider the use of <style=\"Link\"><link=\"inventories\">Inventories</link></style> than for other types of <style=\"Link\"><link=\"game-items\">Game Items</link></style> since <style=\"CurrentLink\">Pick-Ups</style> inherently imply that they will be taken and collected.",
+            "An option for <style=\"CurrentLink\">Pick-Ups</style> is to only have them appear as <style=\"Link\"><link=\"game-items\">Game Items</link></style> until they are retrieved, after which they lose their identity as individual objects and increase some numerical representation in <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"inventories\">Inventories</link></style> (for the last case, this means that <style=\"CurrentLink\">Pick-Ups</style> modulates <style=\"Link\"><link=\"inventories\">Inventories</link></style> rather than the other way around). When used as such, <style=\"CurrentLink\">Pick-Ups</style> are in essence localized sources for <style=\"Link\"><link=\"non-localized-resources\">Non-Localized Resources</link></style> and common examples of <style=\"Link\"><link=\"resources\">Resources</link></style> available through this design solution include <style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"armor\">Armor</link></style>, and <style=\"Link\"><link=\"health\">Health</link></style> (energy and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Experience%20Points\">Experience Points</link></style> are less common but found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zombie%20Lane\">Zombie Lane</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ravenwood%20Fair\">Ravenwood Fair</link></style>). Similarly, even though any type of <style=\"Link\"><link=\"game-items\">Game Items</link></style> may have new instances introduced into games through <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, this is more often used for non-unique <style=\"CurrentLink\">Pick-Ups</style>.",
+            "<style=\"CurrentLink\">Pick-Ups</style> can modify <style=\"Link\"><link=\"deliver\">Deliver</link></style> goals in the sense that they can put a requirement on players to first need to get <style=\"Link\"><link=\"game-items\">Game Items</link></style> before delivering them.",
+            "While <style=\"CurrentLink\">Pick-Ups</style> are likely to give players intrinsic motivation of engaging in <style=\"Link\"><link=\"collecting\">Collecting</link></style> through <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>, this can be formalized into explicit <style=\"Link\"><link=\"collections\">Collections</link></style> goals, e.g. having to get all the ''pills'' in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> to complete a <style=\"Link\"><link=\"levels\">Level</link></style>.",
+            "<style=\"CurrentLink\">Pick-Ups</style> are usually designed so players acquire them through gameplay, but an additional option is to let them be acquired through <style=\"Link\"><link=\"pay-play\">Pay to Play</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "As <style=\"Link\"><link=\"game-items\">Game Items</link></style> that nearly always have direct gameplay use, <style=\"CurrentLink\">Pick-Ups</style> are often distinguished from the rest of the game environment by having <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> or by augmenting them through <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Pick-Ups</style> are quite often automatically taken when <style=\"Link\"><link=\"avatars\">Avatars</link></style> are moved into contact with them to avoid having to provide a specific interface action for this action. For cases where the <style=\"CurrentLink\">Pick-Ups</style> are supposed to be placed in <style=\"Link\"><link=\"inventories\">Inventories</link></style> but these are already filled, this may result in them then directly being dropped.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Pick-Ups</style> are either <style=\"Link\"><link=\"resources\">Resources</link></style> and then provide <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, or they are <style=\"Link\"><link=\"resource-sources\">Resource Sources</link></style> which provide opportunities to get the <style=\"Link\"><link=\"resources\">Resources</link></style> without actually being them themselves. <style=\"CurrentLink\">Pick-Ups</style> are typically very limited in whatever sense they are used since they often only represent one or a few instances of something. <style=\"CurrentLink\">Pick-Ups</style> are a common way to provide <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style> to players in the form of <style=\"Link\"><link=\"game-items\">Game Items</link></style>, e.g. to let them acquire <style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"armor\">Armor</link></style>, or <style=\"Link\"><link=\"health\">Health</link></style>. When the <style=\"Link\"><link=\"resources\">Resources</link></style> collected in this way are needed for completing goals, the <style=\"Link\"><link=\"collecting\">Collecting</link></style> through <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style> of the <style=\"CurrentLink\">Pick-Ups</style> become <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style> which encourages <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> and <style=\"Link\"><link=\"movement\">Movement</link></style>, in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and <style=\"Link\"><link=\"levels\">Levels</link></style>. When <style=\"CurrentLink\">Pick-Ups</style> require extra time or resources - and especially if their content is not known in advantage - the decision to try and acquire one is one of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>. <style=\"CurrentLink\">Pick-Ups</style> do often have high levels of <style=\"Link\"><link=\"clickability\">Clickability</link></style> if they need to be activated to be picked up.",
+            "As <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> shows, <style=\"CurrentLink\">Pick-Ups</style> make clear goal objectives for <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals since they are usually easy to distinguish by having <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> and successfully <style=\"Link\"><link=\"collecting\">Collecting</link></style> them have clear effects on <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and <style=\"Link\"><link=\"levels\">Levels</link></style>. For this reason also, the absence of <style=\"CurrentLink\">Pick-Ups</style> from a location can form <style=\"Link\"><link=\"traces\">Traces</link></style> that players can use to infer previous activities in the game.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"clickability\">Clickability</link></style>, <style=\"Link\"><link=\"collections\">Collections</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, <style=\"Link\"><link=\"resource-sources\">Resource Sources</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style>, <style=\"Link\"><link=\"traces\">Traces</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style></style>",
+            "<style=\"Link\"><link=\"collecting\">Collecting</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"deliver\">Deliver</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Experience%20Points\">Experience Points</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"non-localized-resources\">Non-Localized Resources</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"power-ups\">Power-Ups</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"pay-play\">Pay to Play</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "ammunition",
+            "clickability",
+            "collections",
+            "game-world-exploration",
+            "gain-ownership",
+            "resource-locations",
+            "resource-sources",
+            "resources",
+            "renewable-resources",
+            "risk-reward",
+            "supporting-goals",
+            "traces",
+            "collecting"
+        ],
+        "modulates" : [
+            "abstract-player-constructs",
+            "armor",
+            "characters",
+            "deliver",
+            "experience-points",
+            "game-boards",
+            "game-items",
+            "game-worlds",
+            "health",
+            "inventories",
+            "levels",
+            "lives",
+            "maneuvering",
+            "movement",
+            "non-localized-resources",
+            "resources",
+            "scores"
+        ],
+        "instantiated_by" : [
+            "power-ups"
+        ],
+        "modulated_by" : [
+            "diegetically-outstanding-features",
+            "game-element-insertion",
+            "geospatial-game-widgets",
+            "inventories",
+            "pay-play"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

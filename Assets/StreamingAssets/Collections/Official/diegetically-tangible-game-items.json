@@ -1,0 +1,79 @@
+{
+    "name" : "Diegetically Tangible Game Items",
+    "categories" : [
+        "Patterns",
+        "Diegetic Patterns",
+        "Game Element Patterns",
+        "Atomic Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Game items that have tangible presences in game worlds.",
+        "markups" : [
+            "<style=\"Definition\">Game items that have tangible presences in game worlds.</style>",
+            "Many games have game worlds, and these often contain various items or things to make these more interesting and believable. While the most basic attribute required of these things are that they can be noticed, and they can provide gameplay functionality by simply reacting to players moving over them, another basic attribute of thing in the real world is that they have tangible presence. Things in games that have this within their games worlds are <style=\"CurrentLink\">Diegetically Tangible Game Items</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Diegetically Tangible Game Items</style> can let players reach places otherwise inaccessible to them. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style> uses this to create puzzles but sometimes this effect is unintentional; that players' avatars could stand on limpet mines in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Deus%20Ex\">Deus Ex</link></style> let them circumvent the level designs, and that players' avatars could stand on each other in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20Classic\">Team Fortress Classic</link></style> made it possible for them to reach ledges they weren't supposed to.",
+            "The blocks in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> are <style=\"CurrentLink\">Diegetically Tangible Game Items</style> that can be \"mined\" to be used as building material or the raw materials for tools, equipment, and other items.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Creating <style=\"CurrentLink\">Diegetically Tangible Game Items</style> consists of creating <style=\"Link\"><link=\"game-items\">Game Items</link></style> or <style=\"Link\"><link=\"props\">Props</link></style> with all the choices this confers, but also requires considering how they affect, and are affected by, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. They are rarely combined with <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style>, probably since there is little reason to make these tangible if players' direct contact with them through <style=\"Link\"><link=\"avatars\">Avatars</link></style> makes them disappear.",
+            "Existing in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"CurrentLink\">Diegetically Tangible Game Items</style> can affect both <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> and <style=\"Link\"><link=\"movement\">Movement</link></style>. They can also be <style=\"Link\"><link=\"traps\">Traps</link></style> through being <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, or, if they are movable, causing <style=\"Link\"><link=\"damage\">Damage</link></style> when colliding with other things. The latter can also make it possible to reach <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> by placing them appropriately (e.g. stacking them) and this can be used to require player to engage in <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>. However, <style=\"CurrentLink\">Diegetically Tangible Game Items</style> can also allow players to create <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, and <style=\"Link\"><link=\"traps\">Traps</link></style>.",
+            "The most common way to make <style=\"CurrentLink\">Diegetically Tangible Game Items</style> be affected by <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> is to let them be affected by <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>. More generally, they can be <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style> affected by <style=\"Link\"><link=\"damage\">Damage</link></style>. Since the <style=\"CurrentLink\">Diegetically Tangible Game Items</style> can be <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> themselves these means that they can affect each other, e.g. when water and lava blocks in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> come in contact with each other they turn into obsidian. ",
+            "While <style=\"CurrentLink\">Diegetically Tangible Game Items</style> change how <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"units\">Units</link></style> need to relate to <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, the <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"units\">Units</link></style> themselves can be <style=\"CurrentLink\">Diegetically Tangible Game Items</style>. This means that they can become their own <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> and require <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> simply to organize their positions in relation to each other, but can also lead to emergent effects such as the possibility in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20Classic\">Team Fortress Classic</link></style> to build human pyramids to reach otherwise <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "As the name indicates, <style=\"CurrentLink\">Diegetically Tangible Game Items</style> is a diegetic pattern whose defined by making <style=\"Link\"><link=\"game-items\">Game Items</link></style> have a tangible present in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. This do not however support <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> (since it is sufficient that the items are part of the game worlds) but instead <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> since players in many cases assume that <style=\"Link\"><link=\"game-items\">Game Items</link></style> have physical presences.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Diegetically Tangible Game Items</style> are <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. Since they can affect both <style=\"Link\"><link=\"movement\">Movement</link></style> and <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> for <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"units\">Units</link></style>, they affect these also. However, when they are removable these are temporary effects, and using them in <style=\"Link\"><link=\"construction\">Construction</link></style> activities can let players create <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, and possibly <style=\"Link\"><link=\"traps\">Traps</link></style>. These effects give players <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> when they have the possibilities to manipulate the <style=\"CurrentLink\">Diegetically Tangible Game Items</style>.",
+            "Giving <style=\"Link\"><link=\"game-items\">Game Items</link></style> an attribute that objects in the real world have, the pattern <style=\"CurrentLink\">Diegetically Tangible Game Items</style> helps provide <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> in games.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"props\">Props</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"power-ups\">Power-Ups</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "construction",
+            "creative-control",
+            "damage",
+            "inaccessible-areas",
+            "obstacles",
+            "puzzle-solving",
+            "safe-havens",
+            "thematic-consistency",
+            "traps"
+        ],
+        "modulates" : [
+            "avatars",
+            "game-items",
+            "game-worlds",
+            "inaccessible-areas",
+            "line-sight",
+            "movement",
+            "props",
+            "units"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "damage",
+            "destructible-objects",
+            "environmental-effects"
+        ],
+        "conflicts" : [
+            "power-ups"
+        ]
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "name" : "Conditional Passageways",
+    "categories" : [
+        "Level Design Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Passageways in games that can only be moved through if certain conditions are met.",
+        "markups" : [
+            "<style=\"Definition\">Passageways in games that can only be moved through if certain conditions are met.</style>",
+            "Many games have areas that players cannot access before fulfilling certain objectives or goals. <style=\"CurrentLink\">Conditional Passageways</style> are the places in the game worlds that provide the blockage and these may be literal blockages, like a pile of rocks blocking a tunnel, or be more abstract reasons why movement is not possible, e.g. a rocket that will not take off before it is repaired.",
+            "<style=\"H3\">Examples</style>",
+            "Many doors in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Far%20Cry%20series\">Far Cry</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> cannot be opened before players have accessed the proper security cards. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda%20series\">The Legend of Zelda series</link></style> requires players to collect keys, defeat boss monsters or manipulate the environment in different ways to open doors. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style> requires players to collect stars to be able to enter levels that are more difficult and thereby guarantee that players have completed easier challenges before ones that are more difficult.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Adventure%20Games\">Adventure Games</link></style> like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Day%20of%20the%20Tentacle\">Day of the Tentacle</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leisure%20Suit%20Larry%20series\">Leisure Suit Larry series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20series\">Zork series</link></style> have meeting the requirements of <style=\"CurrentLink\">Conditional Passageways</style> as major part of their gameplay, although in many cases figuring out what the requirements are is the most difficult part.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Conditional Passageways</style> consist of first making travel between two points in a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> possible - for example through creating a <style=\"Link\"><link=\"transport-routes\">Transport Route</link></style> - and then preventing this <style=\"Link\"><link=\"movement\">Movement</link></style>, and one of the most common reasons for this is to make it possible to open up otherwise <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>. One way of doing this is by inserting <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> together with <style=\"Link\"><link=\"enemies\">Enemies</link></style> or <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> - making the removal of the <style=\"Link\"><link=\"enemies\">Enemies</link></style> or <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> the requirement for opening up the passages. Another is to have <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> or <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> that block <style=\"Link\"><link=\"movement\">Movement</link></style> but having <style=\"Link\"><link=\"switches\">Switches</link></style> (or <style=\"Link\"><link=\"controllers\">Controllers</link></style>) that can remove these. In the case of <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, having <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style> or <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> that allow players to ignore them is another option. A third is having <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style> that only can be activated under certain circumstances. Places with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style> provide <style=\"CurrentLink\">Conditional Passageways</style> that only depend on from which direction one is approaching them; related to these are <style=\"CurrentLink\">Conditional Passageways</style> that support <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style> by making returns easy once one as gotten to a specific point. More generally, <style=\"Link\"><link=\"tools\">Tools</link></style> can allow passage through <style=\"CurrentLink\">Conditional Passageways</style>. ",
+            "Besides the above options to creating <style=\"CurrentLink\">Conditional Passageways</style>, these can be modulated by only applying to certain players, require <style=\"Link\"><link=\"teams\">Teams</link></style> to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style> to use them. They may also require the use of a <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> or not; the latter is often an effect of some <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> being larger than opening or passages. <style=\"CurrentLink\">Conditional Passageways</style> can also be combined or co-located with <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style> to let players see what is one the other side of the passageway, possible to motivate them to try and get passed it.",
+            "<style=\"CurrentLink\">Conditional Passageways</style> may be between parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> that cannot be moved between through continuously <style=\"Link\"><link=\"movement\">Movement</link></style>. The most usual case of this is <style=\"Link\"><link=\"movement\">Movement</link></style> between <style=\"Link\"><link=\"levels\">Levels</link></style> and for games with <style=\"Link\"><link=\"levels\">Levels</link></style> it is very common - in most cases one has to \"complete the level\" before being able to go on to the next <style=\"Link\"><link=\"levels\">Level</link></style>.",
+            "Not all <style=\"CurrentLink\">Conditional Passageways</style> need to be apparent as potential routes to new areas; the most common reason for this is to create <style=\"Link\"><link=\"secret-areas\">Secret Areas</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Many games tell stories as a consequence of how players have been able to move to different areas in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. For games designed in this fashion, <style=\"CurrentLink\">Conditional Passageways</style> can be used to ensure that the order in which <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> are unfolded is the one intended.",
+            "<style=\"H2\">Consequences</style>",
+            "Meeting the criteria of <style=\"CurrentLink\">Conditional Passageways</style> are <style=\"Link\"><link=\"access-rewards\">Access Rewards</link></style> and <style=\"CurrentLink\">Conditional Passageways</style> are ways of controlling and directing <style=\"Link\"><link=\"movement\">Movement</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> - as a specific example, they can control access between <style=\"Link\"><link=\"levels\">Levels</link></style>, and those that can pass through them have a certain type of <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>. Two effects of using <style=\"CurrentLink\">Conditional Passageways</style> is that they can ensure that <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> are unfolded in a specific order and that players receive both <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> by having to complete easier challenges before trying harder ones. In these ways they can modulate who and when <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals can be completed - if the goal locations are inside (temporarily) <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> these two can create <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals simply because the challenge to get there exists.",
+            "<style=\"CurrentLink\">Conditional Passageways</style> that are unknown to players help define <style=\"Link\"><link=\"secret-areas\">Secret Areas</link></style>. Those that are known, and where the requirements to go through them are also known, typically lead to goals of <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> or <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> depending on what the specific requirements are.",
+            "When <style=\"CurrentLink\">Conditional Passageways</style> limit travel to those that use <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> (as for example the impossibility of tanks to enter most buildings in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>), this provides <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> by requiring that all combatants are pedestrians inside buildings. In contrast, when the condition instead is that only specific players or <style=\"Link\"><link=\"teams\">Teams</link></style> can pass through this can create <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"access-rewards\">Access Rewards</link></style>, <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>, <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"secret-areas\">Secret Areas</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"vehicles\">Vehicles</link></style></style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>, <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style>",
+            "<style=\"Link\"><link=\"choke-points\">Choke Points</link></style> together with <style=\"Link\"><link=\"enemies\">Enemies</link></style> or <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>",
+            "<style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> together with <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, or <style=\"Link\"><link=\"switches\">Switches</link></style>",
+            "<style=\"Link\"><link=\"obstacles\">Obstacles</link></style> together with <style=\"Link\"><link=\"switches\">Switches</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "access-rewards",
+            "gain-competence",
+            "gain-ownership",
+            "higher-level-closures-gameplay-progresses",
+            "predetermined-story-structures",
+            "privileged-movement",
+            "quick-returns",
+            "safe-havens",
+            "secret-areas",
+            "smooth-learning-curves",
+            "balancing-effects"
+        ],
+        "modulates" : [
+            "game-worlds",
+            "inaccessible-areas",
+            "levels",
+            "movement",
+            "teams",
+            "transport-routes",
+            "traverse",
+            "vehicles",
+            "warp-zones"
+        ],
+        "instantiated_by" : [
+            "one-way-travel",
+            "choke-points",
+            "environmental-effects",
+            "obstacles"
+        ],
+        "modulated_by" : [
+            "controllers",
+            "invisible-walls",
+            "tools",
+            "vehicles"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "name" : "Drafting",
+    "categories" : [
+        "Patterns",
+        "Action Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Incremental selection of game elements by players.",
+        "markups" : [
+            "<style=\"Definition\">Incremental selection of game elements by players.</style>",
+            "Many games revolve around players being provided with game elements, most commonly cards or tiles, that they later use to perform gameplay actions. The gaining of these are called <style=\"CurrentLink\">Drafting</style> when not all of them are provided at the same time but when they rather are provided one at a time, possibly with choices of which one to pick and possibly with other gameplay in-between.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Drafting</style> is also used in some countries for leagues in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/American%20Football\">American Football</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Basketball\">Basketball</link></style>, and other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style><ref name=\"wiki\"/>. The computer game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl%20(computer%20game)\">Bloodbowl</link></style> has a similar feature and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style> have a form of <style=\"CurrentLink\">Drafting</style> where players create their future drawing stacks by buying new cards.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Citadels\">Citadels</link></style> provides players with <style=\"CurrentLink\">Drafting</style> choices of which role to take for the current round, openly in the former and secretly in the latter. Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/7%20Wonders\">7 Wonders</link></style> pass cards between each other every turn after having selecting which to play. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Small%20World\">Small World</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Showmanager\">Showmanager</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ticket%20to%20Ride\">Ticket to Ride</link></style> players have a spread of new races, performers, and \"railroad colors\" to select.",
+            "<style=\"CurrentLink\">Drafting</style> is also exists as official options when playing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Drafting</style> consists of the incremental selection of game elements so the pattern requires the presence of something that can be selected. This is typically <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style>, but, as several <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sport</link></style> leagues have shown, this can also be the players themselves. An alternative is <style=\"Link\"><link=\"role-selection\">Role Selection</link></style> which is <style=\"CurrentLink\">Drafting</style> of actions (although often represent through <style=\"Link\"><link=\"cards\">Cards</link></style>) which is found for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Citadels\">Citadels</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style>. Regardless, the two main choices designing <style=\"CurrentLink\">Drafting</style> concern which options of game elements (or players) should be possible and what types of actions players can do between each draft action (how many times <style=\"CurrentLink\">Drafting</style> should be done is typically given by other design choices). <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> is nearly always used in combination with <style=\"CurrentLink\">Drafting</style>, either so players can in turn draft or so that other actions or game events can occur between each draft. ",
+            "Players may have no influence over <style=\"CurrentLink\">Drafting</style> by simply having to take new game elements from <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>. Ways of providing players with a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> regarding which elements to choice range from supporting <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> to simply including several different <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> (this mainly supports players to be able to feel <style=\"Link\"><link=\"luck\">Luck</link></style>) and having <style=\"Link\"><link=\"drafting-spreads\">Drafting Spreads</link></style> in which one or several game elements may be displayed and possible to pick. <style=\"Link\"><link=\"drafting-spreads\">Drafting Spreads</link></style> may be combined with <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> to support <style=\"CurrentLink\">Drafting</style>; this is used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ticket%20to%20Ride\">Ticket to Ride</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Showmanager\">Showmanager</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Species\">Dominant Species</link></style> combines several <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> with turning over one <style=\"Link\"><link=\"cards\">Card</link></style> on each to create a <style=\"Link\"><link=\"drafting-spreads\">Drafting Spread</link></style> that is only refilled after each <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rounds\">Round</link></style>. Another way of providing <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> in <style=\"CurrentLink\">Drafting</style> is giving a player several choices and then handing them over to another player after choosing one. This can be done for just one set of game elements (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Citadels\">Citadels</link></style>) or with the same number of sets as players (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/7%20Wonders\">7 Wonders</link></style>) so every player does drafting at the same time. Yet another way of providing <style=\"CurrentLink\">Drafting</style> is letting players purchase the new game elements as <style=\"Link\"><link=\"investments\">Investments</link></style> (this occurs in some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sport</link></style> leagues and in the computer version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl%20(computer%20game)\">Bloodbowl</link></style>).",
+            "<style=\"CurrentLink\">Drafting</style> can occur as a separate phase in the beginning of game instances - something necessary for use in <style=\"Link\"><link=\"collectible-card-games\">Collectible Card Games</link></style> and games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style> as a way to divide <style=\"Link\"><link=\"cards\">Cards</link></style> to players - as part of providing players with their <style=\"Link\"><link=\"hands\">Hands</link></style> or <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>. Examples of games with this structure include some versions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style> games. The alternative is to do <style=\"CurrentLink\">Drafting</style> during gameplay and this can be done to let players incrementally build their decks (i.e. <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>) or to let players choose from a set of actions or roles but then let those not chosen be the choices for the next player in a game with <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style> are examples of the former while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/7%20Wonders\">7 Wonders</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Citadels\">Citadels</link></style> are examples of the latter.",
+            "Avoiding that players have a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> during the <style=\"CurrentLink\">Drafting</style> and also avoiding that they can do actions between the drafts a very trivial instance of the pattern. This is however present in many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Whist\">Whist</link></style>, where it is used to create all players' <style=\"Link\"><link=\"hands\">Hands</link></style>.",
+            "<style=\"CurrentLink\">Drafting</style> share commonality with <style=\"Link\"><link=\"token-placement\">Token Placement</link></style> when players compete with each other over places in the latter since this is a case of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competitions\">Competition</link></style> concerning <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>. They can in these cases be seen as each other's inverses - one consists of removing elements from a collection while the other consists of filled empty slots. For this reason, game designers considering <style=\"CurrentLink\">Drafting</style> may be well-advised to also consider the effects of <style=\"Link\"><link=\"token-placement\">Token Placement</link></style>. <style=\"Link\"><link=\"bidding\">Bidding</link></style> is another alternative to <style=\"CurrentLink\">Drafting</style> and may be considered as well.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Drafting</style> is <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style> often used to construct <style=\"Link\"><link=\"hands\">Hands</link></style> or <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> in a fashion which provides a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to players. When players have this <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, it affects how <style=\"Link\"><link=\"randomness\">Randomness</link></style> has created initial game states. When several players are involved in <style=\"CurrentLink\">Drafting</style> of the same elements, this is a <style=\"Link\"><link=\"resource-competition\">Resource Competition</link></style> since it a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competitions\">Competition</link></style> over <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style> but can provide <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>. When these elements are in fact members of <style=\"Link\"><link=\"teams\">Teams</link></style> in games with <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay, <style=\"CurrentLink\">Drafting</style> can help support <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>.",
+            "Having <style=\"CurrentLink\">Drafting</style> but without gameplay actions between the draft and without any <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> of what to draft gives <style=\"Link\"><link=\"excise\">Excise</link></style> to a game. This may however be necessary to set up initial game states. A small amount of <style=\"Link\"><link=\"excise\">Excise</link></style> is likely to be caused by any type of <style=\"CurrentLink\">Drafting</style> where the game elements need to be passed between players (for example the sending of <style=\"Link\"><link=\"cards\">Cards</link></style> between players in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/7%20Wonders\">7 Wonders</link></style>).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competitions\">Competitions</link></style>, <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"pvp\">PvP</link></style></style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"tvt\">TvT</link></style></style>",
+            "<style=\"Link\"><link=\"team-balance\">Team Balance</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"collectible-card-games\">Collectible Card Games</link></style>, <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"hands\">Hands</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style>, <style=\"Link\"><link=\"pvp\">PvP</link></style>, <style=\"Link\"><link=\"resource-competition\">Resource Competition</link></style>, <style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style></style>",
+            "<style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>, <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, players, <style=\"Link\"><link=\"role-selection\">Role Selection</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"drafting-spreads\">Drafting Spreads</link></style>, <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "competitions",
+            "collaborative-actions",
+            "excise",
+            "freedom-choice",
+            "player-balance",
+            "team-balance"
+        ],
+        "modulates" : [
+            "collectible-card-games",
+            "drawing-stacks",
+            "hands",
+            "limited-resources",
+            "pre-customized-decks",
+            "pvp",
+            "resource-competition",
+            "tvt",
+            "randomness"
+        ],
+        "instantiated_by" : [
+            "cards",
+            "deck-building",
+            "drawing-stacks",
+            "investments",
+            "",
+            "role-selection",
+            "tiles"
+        ],
+        "modulated_by" : [
+            "drafting-spreads",
+            "turn-taking"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

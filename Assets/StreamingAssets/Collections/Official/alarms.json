@@ -1,0 +1,76 @@
+{
+    "name" : "Alarms",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Needs references",
+        "Needs revisions",
+        "Needs examples",
+        "Game Element Patterns"
+    ],
+    "texts" : {
+        "definition" : "Alarms are abstract game elements that provide information about particular game state changes.",
+        "markups" : [
+            "<style=\"Definition\">Alarms are abstract game elements that provide information about particular game state changes.</style>",
+            "<style=\"CurrentLink\">Alarms</style> are indicators that can show that important changes in the game state has occurred. This can be that fuel is nearly depleted in a race, a self-destruct has activated, that guards have detected the player's avatar or that an illegal activity has been observed. The activation of an <style=\"CurrentLink\">Alarm</style> lets players know that a problem has occurred which likely needs to be dealt with while the de-activation lets them know that they are safer.",
+            "<style=\"H3\">Examples</style>",
+            "Some team-based first-person shooters, such as Return to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style>, include <style=\"CurrentLink\">Alarms</style> to inform the players about events that are relevant on a team level, e. g., that a particular goal has been completed or that a certain activity has been initiated by the other team.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main design choices for <style=\"CurrentLink\">Alarms</style> are how they are activated, what <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> they set off, and if they indicate <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> or if they can be turned off. <style=\"CurrentLink\">Alarms</style> may have diegetic counterparts through <style=\"Link\"><link=\"switches\">Switches</link></style> but for gameplay <style=\"CurrentLink\">Alarms</style> need only be intangible constructs or simply reactions in <style=\"Link\"><link=\"agents\">Agents</link></style>.",
+            "Further, designers may choose either explicit <style=\"Link\"><link=\"tools\">Tools</link></style> or <style=\"Link\"><link=\"controllers\">Controllers</link></style> to manipulate the <style=\"CurrentLink\">Alarms</style> or to have the manipulation of the <style=\"CurrentLink\">Alarms</style> as <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> for certain types of <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style>. Using <style=\"Link\"><link=\"tools\">Tools</link></style> or <style=\"Link\"><link=\"controllers\">Controllers</link></style> increases the complexity of the game by allowing such possibilities as deactivating the <style=\"CurrentLink\">Alarm</style> when it should not be deactivated, <style=\"Link\"><link=\"bluffing\">Bluffing</link></style> by raising erroneous <style=\"CurrentLink\">Alarms</style>, and preventing the raising of <style=\"CurrentLink\">Alarms</style> by destroying the means to activate them. All these actions increase the player's <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> but may make it more difficult to guarantee specific <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> to occur. Having <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> with <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> to raise <style=\"CurrentLink\">Alarms</style> may avoid this problem but may break the <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "The activation of the <style=\"CurrentLink\">Alarm</style> can signify the failure of a <style=\"Link\"><link=\"stealth\">Stealth</link></style> or <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> goal but can also make the completion of it more difficult by imposing a <style=\"Link\"><link=\"penalties\">Penalty</link></style>. This <style=\"Link\"><link=\"penalties\">Penalty</link></style> is often a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Time%20Limit\">Time Limit</link></style>, the introduction of new <style=\"Link\"><link=\"enemies\">Enemies</link></style>, or directing existing <style=\"Link\"><link=\"enemies\">Enemies</link></style> to the area where the <style=\"CurrentLink\">Alarm</style> was raised.",
+            "By their nature of trying to get attention to some problematic state, <style=\"CurrentLink\">Alarms</style> can cause <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style> as they often imply a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Time%20Limit\">Time Limit</link></style>. An alternative to this is to let the de-activation of an <style=\"CurrentLink\">Alarm</style> be a goal.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Of course, the pattern can most easily be deigetically be presented in a game as an alarm is some form or other.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Alarms</style> are ways to pass information about activities and states within a game, and as such provide <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>. When activated by players, an <style=\"CurrentLink\">Alarm</style> notifies the players that they have been detected, and this can explain changes in the behavior of <style=\"Link\"><link=\"enemies\">Enemies</link></style> or the introduction of new <style=\"Link\"><link=\"enemies\">Enemies</link></style> within the <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> of the game. When activated by others, <style=\"CurrentLink\">Alarms</style> can notify players of <style=\"Link\"><link=\"enemies\">Enemies</link></style> activities. In both cases, they make <style=\"Link\"><link=\"guard\">Guard</link></style> goals easier. Raised <style=\"CurrentLink\">Alarms</style> cause <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disruption%20of%20Focused%20Attention\">Disruption of Focused Attention</link></style> and change how players have to relate to <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and <style=\"Link\"><link=\"levels\">Levels</link></style>.",
+            "<style=\"CurrentLink\">Alarms</style> can both help create a <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> and be restricted in how they work by this.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disruption%20of%20Focused%20Attention\">Disruption of Focused Attention</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"rescue\">Rescue</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"switches\">Switches</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"Link\"><link=\"penalties\">Penalties</link></style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "bluffing",
+            "disruption-focused-attention",
+            "predetermined-story-structures"
+        ],
+        "modulates" : [
+            "enemies",
+            "game-boards",
+            "game-worlds",
+            "game-state-overviews",
+            "guard",
+            "levels",
+            "rescue",
+            "reconnaissance",
+            "thematic-consistency"
+        ],
+        "instantiated_by" : [
+            "switches"
+        ],
+        "modulated_by" : [
+            "bluffing",
+            "controllers",
+            "diegetically-outstanding-features",
+            "irreversible-events",
+            "privileged-abilities",
+            "thematic-consistency",
+            "tools"
+        ],
+        "conflicts" : [
+            "diegetic-consistency"
+        ]
+    }
+}

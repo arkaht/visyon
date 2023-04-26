@@ -1,0 +1,66 @@
+{
+    "name" : "Critical Misses",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Predetermined random effects in combat that are negative to the attacker.",
+        "markups" : [
+            "<style=\"Definition\">Predetermined random effects in combat that are negative to the attacker.</style>",
+            "Combat is a common feature in many games, and in some of these the successes of actions performed during combat is determined by combinations of the combatants' skills and randomness. In such systems, there sometimes exist specific rules for unlikely events that will cause additional effect which the combat system normally does not produce. Such negative events &ndash; from the perspective of the attacker &ndash; are called <style=\"CurrentLink\">Critical Misses</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Critical Misses</style> are often mandatory or optional parts of the combat rules of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>. The various editions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20and%20Dragons\">Dungeons and Dragons</link></style> typically have optional rules for these misses, while games like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mutant\">Mutant</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rolemaster\">Rolemaster</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/RuneQuest\">RuneQuest</link></style> have them as part of the core rules in most editions.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Creating <style=\"CurrentLink\">Critical Misses</style> depend on determining when attempts to perform actions can fail with disastrous effects, and what the risk for these failure are. The latter requires the presence of <style=\"Link\"><link=\"randomness\">Randomness</link></style> in a game while <style=\"Link\"><link=\"skills\">Skills</link></style> levels typically help determine the risk and each individual <style=\"Link\"><link=\"skills\">Skill</link></style> relates to actions that can fail. <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> and <style=\"Link\"><link=\"weapons\">Weapons</link></style> can in turn affect the risks, and open up to new types of <style=\"CurrentLink\">Critical Misses</style>; <style=\"Link\"><link=\"weapons\">Weapons</link></style> might for example be dropped or firearms may misfire or even hit the wrong targets.",
+            "<style=\"CurrentLink\">Critical Misses</style> are not caused by <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> since they are instead the causes of algorithmically determined risks.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Critical Misses</style> are a type of <style=\"Link\"><link=\"critical-failures\">Critical Failures</link></style> applied to <style=\"Link\"><link=\"combat\">Combat</link></style>, and as such are a type of <style=\"Link\"><link=\"critical-results\">Critical Results</link></style>. They typically give the affected players <style=\"Link\"><link=\"penalties\">Penalties</link></style>. ",
+            "<style=\"CurrentLink\">Critical Misses</style> work against players being able to have <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> for their actions, and may qualify as <style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style> unless they are too common. While not sought after by players, experiencing them may lead to <style=\"Link\"><link=\"spectacular-failure-enjoyment\">Spectacular Failure Enjoyment</link></style>. They naturally are opposites of <style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"critical-failures\">Critical Failures</link></style>, <style=\"Link\"><link=\"critical-results\">Critical Results</link></style>, <style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"spectacular-failure-enjoyment\">Spectacular Failure Enjoyment</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"combat\">Combat</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "critical-failures",
+            "critical-results",
+            "exceptional-events",
+            "penalties",
+            "spectacular-failure-enjoyment"
+        ],
+        "modulates" : [
+            "combat"
+        ],
+        "instantiated_by" : [
+            "randomness"
+        ],
+        "modulated_by" : [
+            "skills",
+            "tools",
+            "upgrades",
+            "weapons"
+        ],
+        "conflicts" : [
+            "critical-hits",
+            "performance-uncertainty",
+            "predictable-consequences"
+        ]
+    }
+}

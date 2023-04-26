@@ -1,0 +1,63 @@
+{
+    "name" : "Setback Penalties",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Penalties that make players have to redo actions or routes in a game.",
+        "markups" : [
+            "<style=\"Definition\">Penalties that make players have to redo actions or routes in a game.</style>",
+            "Players often have to repeat challenges in games until they succeed with them. However, failing some challenges can not only require that these need to be done again but also that other challenges that have already been completed need to be done again. The consequences of such challenges are called <style=\"CurrentLink\">Setback Penalties</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Common examples of <style=\"CurrentLink\">Setback Penalties</style> are having one's game tokens moved backwards on a game board. Landing on the wrong spaces in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Snakes%20and%20Ladders\">Snakes and Ladders</link></style> activates such penalties, while being \"captured\" by another player's token does it in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pachisi\">Pachisi</link></style>. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> it can happen due to the effects of drawn cards. These types of penalties exist also in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style>, e.g. failing to make jumps in either the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style> doesn't necessarily kill players' characters but can instead force them to have to navigate certain parts of the game worlds again.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and some other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> provide another type of <style=\"CurrentLink\">Setback Penalties</style>. In these, players often have the goal of raising the levels of their characters and game masters can apply <style=\"CurrentLink\">Setback Penalties</style> that undo progress that has been made concerning this.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Setback Penalties</style> are <style=\"Link\"><link=\"penalties\">Penalties</link></style> that undo progress players have made. This is in contrast with <style=\"Link\"><link=\"energy-penalties\">Energy Penalties</link></style> and <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style> which can lead to <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style> and <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, so <style=\"CurrentLink\">Setback Penalties</style> can be used when <style=\"Link\"><link=\"penalties\">Penalties</link></style> are wanted but without the risk of removing players from gameplay before game instances are ended.",
+            "The design of <style=\"CurrentLink\">Setback Penalties</style> typically relates to how the <style=\"Link\"><link=\"penalties\">Penalties</link></style> should relate to <style=\"Link\"><link=\"levels\">Levels</link></style> and <style=\"Link\"><link=\"movement\">Movement</link></style> that needs to be redone, as for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Snakes%20and%20Ladders\">Snakes and Ladders</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pachisi\">Pachisi</link></style> shows. However, <style=\"CurrentLink\">Setback Penalties</style> can also be applies to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Experience%20Points\">Experience Points</link></style> to remove progress made towards increasing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20levels\">Character levels</link></style>. In most cases, the movement is simply done through <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>.",
+            "<style=\"H3\">Diegetic and Narration Aspects</style>",
+            "<style=\"CurrentLink\">Setback Penalties</style> can break <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> since players may end up repeating certain actions or routes unreasonable amounts of time. If the setbacks aren't properly explained diegetically and a game's narration ignores the <style=\"CurrentLink\">Setback Penalties</style> (typically by assuming all challenges were succeeded on the first try), the pattern also breaks <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Since <style=\"CurrentLink\">Setback Penalties</style> effectively make goals more difficult (e.g. having to redo actions) it gives the goals if affects <style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style>. While <style=\"CurrentLink\">Setback Penalties</style> can provide <style=\"Link\"><link=\"penalties\">Penalties</link></style> while still avoiding <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, they instead can ruin players' <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>. <style=\"CurrentLink\">Setback Penalties</style> can provide <style=\"Link\"><link=\"tension\">Tension</link></style>, and more the greater the setback, but typically less so than other types of penalty categories, e.g. <style=\"Link\"><link=\"energy-penalties\">Energy Penalties</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20levels\">Character levels</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Experience%20Points\">Experience Points</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "dynamic-goal-characteristics",
+            "penalties",
+            "tension"
+        ],
+        "modulates" : [
+            "character",
+            "experience-points",
+            "levels",
+            "movement"
+        ],
+        "instantiated_by" : [
+            "quick-travel"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "diegetic-consistency",
+            "temporal-consistency",
+            "value-effort"
+        ]
+    }
+}

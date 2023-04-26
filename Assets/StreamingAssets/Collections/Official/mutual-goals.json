@@ -1,0 +1,96 @@
+{
+    "name" : "Mutual Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Goals that are shared by two or more agents in a game.",
+        "markups" : [
+            "<style=\"Definition\">Goals that are shared by two or more agents in a game.</style>",
+            "Players or agents in games nearly always have goals that they try to reach. When two or more share goals for some reason these goals are <style=\"CurrentLink\">Mutual Goals</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "Members of teams in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> have the <style=\"CurrentLink\">Mutual Goals</style> of beating the other team. Likewise, players in computer-based games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients\">Defense of the Ancients</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike series</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style> try to work together to beat another team. ",
+            "Explicit <style=\"CurrentLink\">Mutual Goals</style> are found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Co-Op%20Games\">Co-Op Games</link></style>. Examples of such games are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Forbidden%20Island\">Forbidden Island</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ghost%20Stories\">Ghost Stories</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Legendary:%20A%20Marvel%20Deck%20Building%20Game\">Legendary: A Marvel Deck Building Game</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Yggdrasil\">Yggdrasil</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Mutual Goals</style> are typically used to provide players with <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style> and/or <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style> for some activity, and if <style=\"Link\"><link=\"agents\">Agents</link></style> shared those goals create <style=\"Link\"><link=\"teams\">Teams</link></style>. Another reason is to make <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> into <style=\"Link\"><link=\"companions\">Companions</link></style> by giving them <style=\"CurrentLink\">Mutual Goals</style> with a player. A third, diegetic or narrative, reason is that the goals of some in a <style=\"Link\"><link=\"factions\">Faction</link></style> logically make them <style=\"CurrentLink\">Mutual Goals</style> for the <style=\"Link\"><link=\"factions\">Faction</link></style> as a whole. Related to this, <style=\"CurrentLink\">Mutual Goals</style> can be used to create <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> when combined with <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>. The goal of <style=\"Link\"><link=\"team-elimination\">Team Elimination</link></style> for another team is a <style=\"CurrentLink\">Mutual Goal</style> for members of that other team, and <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style> is a <style=\"CurrentLink\">Mutual Goal</style> for all players of a game instance except the (perceived) leader. However, providing players with <style=\"CurrentLink\">Mutual Goals</style> can be a way to temper what would otherwise be a harsh <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>. A special case of <style=\"CurrentLink\">Mutual Goals</style> is those that players together decide upon, i.e. the ones that are <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style>; these can occur spontaneously within game instances whenever players can identify some form of <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style> (or <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style> they want to avoid). <style=\"CurrentLink\">Mutual Goals</style> which players are forced to chose but they still have possibilities to affect the specifics of, that is they are <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style> bound by rules, can require or demand that the players engage in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>. ",
+            "<style=\"CurrentLink\">Mutual Goals</style> can be modified in several different ways. <style=\"Link\"><link=\"individual-penalties\">Individual Penalties</link></style> or <style=\"Link\"><link=\"individual-rewards\">Individual Rewards</link></style> can be added, as can <style=\"Link\"><link=\"asymmetric-resource-distribution\">Asymmetric Resource Distribution</link></style> in general, to make the incentives for players to reach the <style=\"CurrentLink\">Mutual Goals</style> differ. Having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Secret%20Alliances\">Secret Alliances</link></style> make <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Collaboration\">Collaboration</link></style> or <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> regarding the goals much more difficult. Be able to, or having to, engage in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> adds a social or diplomatic dimension to <style=\"CurrentLink\">Mutual Goals</style>. This can either be in relation to completing the goals - for example by being given <style=\"Link\"><link=\"shared-resources\">Shared Resources</link></style> when being given the <style=\"CurrentLink\">Mutual Goals</style> - or due to the fact that the <style=\"Link\"><link=\"rewards\">Rewards</link></style> or <style=\"Link\"><link=\"penalties\">Penalties</link></style> are given out according to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>. <style=\"Link\"><link=\"betrayal\">Betrayal</link></style> introduces uncertainty of how much players can rely on each other in wanting to actually reach the now-not-completely <style=\"CurrentLink\">Mutual Goals</style>.",
+            "Quite naturally, the <style=\"CurrentLink\">Mutual Goals</style> players have with each other cannot be <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>. It is also difficult to have <style=\"CurrentLink\">Mutual Goals</style> over that which one has <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> regarding.",
+            "<style=\"H2\">Consequences</style>",
+            "That <style=\"CurrentLink\">Mutual Goals</style> most often provide <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style> can give rise to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alliances\">Alliances</link></style> if those sharing the goals are not already in <style=\"Link\"><link=\"teams\">Teams</link></style>, and <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> as well as <style=\"Link\"><link=\"symbiotic-player-relations\">Symbiotic Player Relations</link></style> in both cases. This also modifies how players view the <style=\"Link\"><link=\"penalties\">Penalties</link></style> and <style=\"Link\"><link=\"rewards\">Rewards</link></style> they would each get compared to receiving them but knowing that nobody else receive any. <style=\"CurrentLink\">Mutual Goals</style> are by definition <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style> and succeeding with them are often <style=\"Link\"><link=\"team-accomplishments\">Team Accomplishments</link></style>. In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> where <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style> is possible, the presence of <style=\"CurrentLink\">Mutual Goals</style> can make this turn into <style=\"Link\"><link=\"mutual-fubar-enjoyment\">Mutual FUBAR Enjoyment</link></style>.  ",
+            "While giving players <style=\"Link\"><link=\"shared-resources\">Shared Resources</link></style> to handle <style=\"CurrentLink\">Mutual Goals</style> affect who players try to do this, giving <style=\"CurrentLink\">Mutual Goals</style> to players that already have <style=\"Link\"><link=\"shared-resources\">Shared Resources</link></style> naturally affect how they treat these <style=\"Link\"><link=\"resources\">Resources</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alliances\">Alliances</link></style>, <style=\"Link\"><link=\"symbiotic-player-relations\">Symbiotic Player Relations</link></style>, <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style>, <style=\"Link\"><link=\"team-accomplishments\">Team Accomplishments</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"agents\">Agents</link></style></style>",
+            "<style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style></style>",
+            "<style=\"Link\"><link=\"companions\">Companions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style> and <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"mutual-fubar-enjoyment\">Mutual FUBAR Enjoyment</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style></style>",
+            "<style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style></style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>, <style=\"Link\"><link=\"mutual-fubar-enjoyment\">Mutual FUBAR Enjoyment</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"shared-resources\">Shared Resources</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>, <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style>, <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style>, <style=\"Link\"><link=\"team-elimination\">Team Elimination</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"asymmetric-resource-distribution\">Asymmetric Resource Distribution</link></style>, <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"individual-penalties\">Individual Penalties</link></style>, <style=\"Link\"><link=\"individual-rewards\">Individual Rewards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Secret%20Alliances\">Secret Alliances</link></style>, <style=\"Link\"><link=\"shared-resources\">Shared Resources</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "alliances",
+            "symbiotic-player-relations",
+            "symmetric-goals",
+            "team-accomplishments",
+            "teams",
+            "companions",
+            "mutual-fubar-enjoyment",
+            "social-dilemmas",
+            "negotiation",
+            "cooperation"
+        ],
+        "modulates" : [
+            "factions",
+            "competition",
+            "mutual-fubar-enjoyment",
+            "penalties",
+            "rewards",
+            "shared-resources"
+        ],
+        "instantiated_by" : [
+            "beat-leader",
+            "shared-penalties",
+            "shared-rewards",
+            "team-elimination"
+        ],
+        "modulated_by" : [
+            "asymmetric-resource-distribution",
+            "betrayal",
+            "individual-penalties",
+            "individual-rewards",
+            "negotiation",
+            "player-defined-goals",
+            "player-decided-distributions",
+            "secret-alliances",
+            "shared-resources"
+        ],
+        "conflicts" : [
+            "conflicts",
+            "incompatible-goals"
+        ]
+    }
+}

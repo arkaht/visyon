@@ -1,0 +1,79 @@
+{
+    "name" : "Last Man Standing",
+    "categories" : [
+        "Mechanical Patterns",
+        "Goal Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where players or teams are actively trying to eliminate each other to be the last survivor.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where players or teams are actively trying to eliminate each other to be the last survivor.</style>",
+            "Many games, or parts of games, pitch players against each other. When the competition between them is resolved by eliminating the others, the games have a <style=\"CurrentLink\">Last Man Standing</style> pattern. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diplomacy\">Diplomacy</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/King%20of%20Tokyo\">King of Tokyo</link></style> are all examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> with gameplay focused upon <style=\"CurrentLink\">Last Man Standing</style>. Likewise, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearthstone\">Hearthstone</link></style> use the pattern.",
+            "Death-match instances in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style> provide a computer-based example. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike series</link></style> is this also, but in addition an example of Team-based <style=\"CurrentLink\">Last Man Standing</style> situations, except that it is a weak example since teams can also win by detonating or defusing the bomb.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Last Man Standing</style> requires that players can <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> each other in game instances or particular phases of gameplay, i.e. that they have <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style> regarding this. <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> or <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> together with <style=\"Link\"><link=\"lives\">Lives</link></style> is one design solution for the former while making nearly any type of goals for players into <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style> vis-à-vis all other players work for the latter. <style=\"CurrentLink\">Last Man Standing</style> is a simple structure for creating <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>. ",
+            "<style=\"CurrentLink\">Last Man Standing</style> can be modulated by <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>, and game designer may want to support the <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style>. While the elimination in <style=\"CurrentLink\">Last Man Standing</style> is typically focused upon individual players, it can also be applied to <style=\"Link\"><link=\"teams\">Teams</link></style>, making it cause <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay. ",
+            "<style=\"H2\">Consequences</style>",
+            "The primary effects of <style=\"CurrentLink\">Last Man Standing</style> is to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> among players as they try to both <style=\"Link\"><link=\"survive\">Survive</link></style> and <style=\"Link\"><link=\"overcome\">Overcome</link></style> the others. These goals are <style=\"Link\"><link=\"symmetric-goals\">Symmetric</link></style> and <style=\"Link\"><link=\"interferable-goals\">Interferable Goals</link></style> since all players are trying to <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> each other and doing so affects each others' goals. <style=\"CurrentLink\">Last Man Standing</style> can cause players may create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Temporary%20Alliances\">Temporary Alliances</link></style> to get local benefits in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> between themselves, specifically including engaging in <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style> actions. Players' efforts to <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> other players can be seen as they trying to create <style=\"Link\"><link=\"collections\">Collections</link></style> of beaten opponents. ",
+            "<style=\"CurrentLink\">Last Man Standing</style> provides a form of <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style> since at least the type of actions that remove other players from the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> becomes irrelevant for that purpose when there is a sole player left. Since each player removed from the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> clearly is a closure and points towards the next closure being more important, the pattern supports <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>. Since players are incrementally excluded from <style=\"CurrentLink\">Last Man Standing</style> struggles, the pattern causes <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style> among the players. This, and that the pattern causes <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style> tends to make gameplay phases with it into <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>, <style=\"Link\"><link=\"collections\">Collections</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style>, <style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"interferable-goals\">Interferable Goals</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>, <style=\"Link\"><link=\"survive\">Survive</link></style>, <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Temporary%20Alliances\">Temporary Alliances</link></style>, <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>, <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"teams\">Teams</link></style></style>",
+            "<style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>",
+            "<style=\"Link\"><link=\"eliminate\">Eliminate</link></style> together with <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> together with <style=\"Link\"><link=\"lives\">Lives</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style>, <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "beat-leader",
+            "collections",
+            "competition",
+            "conflicts",
+            "early-elimination",
+            "endgame",
+            "higher-level-closures-gameplay-progresses",
+            "interferable-goals",
+            "overcome",
+            "survive",
+            "symmetric-goals",
+            "temporary-alliances",
+            "tournaments",
+            "winning-ending-gameplay",
+            "tvt"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "incompatible-goals",
+            "player-elimination",
+            "eliminate",
+            "multiplayer-games"
+        ],
+        "modulated_by" : [
+            "possibility-graceful-surrender",
+            "surrendering",
+            "teams"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

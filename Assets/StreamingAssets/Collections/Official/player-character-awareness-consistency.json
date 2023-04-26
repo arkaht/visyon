@@ -1,0 +1,86 @@
+{
+    "name" : "Player/Character Awareness Consistency",
+    "categories" : [
+        "Information Patterns",
+        "Player Patterns",
+        "Consistency Patterns",
+        "Patterns",
+        "Needs work",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "Stub",
+        "To be Published",
+        "Staffan's current workpage"
+    ],
+    "texts" : {
+        "definition" : null,
+        "markups" : [
+            "''Games that ensure that what a player's character knows about the game world is the same as what the player knows.''",
+            "This pattern is a still a stub.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style>, <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character/Player%20Cognitive%20Imbalance\">Character/Player Cognitive Imbalance</link></style>, <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>, <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"god-views\">God Views</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Engrossment\">Character Engrossment</link></style>",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Engrossment\">Character Engrossment</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style>, <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character/Player%20Cognitive%20Imbalance\">Character/Player Cognitive Imbalance</link></style>, <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>, <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"god-views\">God Views</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "character-engrossment",
+            "character-engrossment"
+        ],
+        "modulates" : [
+            "hiding-places",
+            "player-characters",
+            "hiding-places",
+            "player-characters"
+        ],
+        "instantiated_by" : [
+            "first-person-views",
+            "first-person-views"
+        ],
+        "modulated_by" : [
+            "character-player-cognitive-imbalance",
+            "live-action-roleplaying",
+            "non-diegetic-features",
+            "character-player-cognitive-imbalance",
+            "live-action-roleplaying",
+            "non-diegetic-features"
+        ],
+        "conflicts" : [
+            "diegetic-consistency",
+            "god-views",
+            "third-person-views",
+            "diegetic-consistency",
+            "god-views",
+            "third-person-views"
+        ]
+    }
+}

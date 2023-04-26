@@ -1,0 +1,73 @@
+{
+    "name" : "Repetitive Gameplay",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Negative Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Gameplay that requires the same type of actions or choice repeatedly to a player.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay that requires the same type of actions or choice repeatedly to a player.</style>",
+            "Games provide possible actions to players, and these have to be related to each other in some way for players to judge a game as being one game. However, when the actions are the same or very similar and players need to perform them repeatedly the game can be said to have <style=\"CurrentLink\">Repetitive Gameplay</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "Many ''roll and move'' <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pachisi\">Pachisi</link></style>, require players to do the same game action every time it is their turn. Even if they can have some freedom of choice, for example to buy or not buy land or choose which token to move, they will be doing the same gameplay action the next time it is their turn. ",
+            "Many early <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> by necessity had <style=\"CurrentLink\">Repetitive Gameplay</style>. Examples include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Kong\">Donkey Kong</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pong\">Pong</link></style>.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dance%20Dance%20Revolution%20series\">Dance Dance Revolution series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rock%20Band%20series\">Rock Band series</link></style> has <style=\"CurrentLink\">Repetitive Gameplay</style> in that players only have a very limited number of actions that they need to perform the same way every time a particular track is played.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Repetitive Gameplay</style> is often seen as something bad in a game, if for nothing else that it will limit the novelty and potential for <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> when the gameplay provided has been mastered. However, <style=\"CurrentLink\">Repetitive Gameplay</style> also lets players train on that gameplay (which can support learning <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> and support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cognitive%20Engrossment\">Cognitive</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sensory-Motoric%20Engrossment\">Sensory-Motoric</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>. It should be noted that <style=\"CurrentLink\">Repetitive Gameplay</style> can be viewed as applying to the whole gameplay &mdash; like in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> &mdash; or more localized by for example having certain <style=\"Link\"><link=\"levels\">Levels</link></style> require a certain type of actions.",
+            "<style=\"Link\"><link=\"generic-adversaries\">Generic Adversaries</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Micromanagement\">Micromanagement</link></style>, <style=\"Link\"><link=\"pottering\">Pottering</link></style>, and <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style> are general ways of enticing <style=\"CurrentLink\">Repetitive Gameplay</style>. However, <style=\"CurrentLink\">Repetitive Gameplay</style> can occur in any game so those wishing to avoid it while creating a game need to test if this occurs with play tests. In some games <style=\"CurrentLink\">Repetitive Gameplay</style> can occur due to the best possible actions for players make them recreate previous game states. One way of handle this is to use <style=\"Link\"><link=\"repetition-position-draws\">Repetition of Position Draws</link></style>, i.e. making a game end in a draw if the same game state is repeated enough times. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> does if a position occurs three times while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shogi\">Shogi</link></style> does it if a position occurs four times. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> instead has the 'rule of ko' to prohibit immediate recreation of the previous position after an opponent's move. This does however not avoid <style=\"CurrentLink\">Repetitive Gameplay</style> overall since several ''ko'' positions can together create endless cycles. This occurs rarely enough that few players need to care about this, but several <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> organizations have ''superko'' rules forbidding the recreation of any previous game state.",
+            "<style=\"CurrentLink\">Repetitive Gameplay</style> can also occur due to games being used in other games. That is, any game used in a <style=\"Link\"><link=\"tournaments\">Tournament</link></style> while have <style=\"CurrentLink\">Repetitive Gameplay</style> in the meaning that the same game will be played multiple times (depending on how many times every player gets to play). Also, the use of <style=\"Link\"><link=\"minigames\">Minigames</link></style> can make for <style=\"CurrentLink\">Repetitive Gameplay</style> as the \"outer\" game may force players to play the <style=\"Link\"><link=\"minigames\">Minigames</link></style> many times or players may choose to do so themselves.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Repetitive Gameplay</style> can be difficult to combine with <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> unless they are also based upon cyclic repetition, e.g. the story structures in the movies ''Groundhog Day'' or ''Edge of Tomorrow''. While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda:%20Majora's%20Mask\">The Legend of Zelda: Majora's Mask</link></style> does have such as structure, the amount of gameplay available in each cycle makes this game not have <style=\"CurrentLink\">Repetitive Gameplay</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Repetitive Gameplay</style> has a volatile relation with <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>; it can both cause players to feel that there is little <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> in a game and cause players to feel they have achieved something because they have endured or handled it. Games with <style=\"Link\"><link=\"grinding\">Grinding</link></style> shows this most clearly since the <style=\"CurrentLink\">Repetitive Gameplay</style> that <style=\"Link\"><link=\"grinding\">Grinding</link></style> offers or requires can provoke both these types of experiences. <style=\"CurrentLink\">Repetitive Gameplay</style> can also work against <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> and <style=\"Link\"><link=\"player-agency\">Player Agency</link></style> since it by definition forces players to have a particular type of gameplay, and this gameplay may have few possibilities for players to choose how to play.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cognitive%20Engrossment\">Cognitive Engrossment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sensory-Motoric%20Engrossment\">Sensory-Motoric Engrossment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"generic-adversaries\">Generic Adversaries</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Micromanagement\">Micromanagement</link></style>, <style=\"Link\"><link=\"minigames\">Minigames</link></style>, <style=\"Link\"><link=\"pottering\">Pottering</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>, <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"repetition-position-draws\">Repetition of Position Draws</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "cognitive-engrossment",
+            "sensory-motoric-engrossment",
+            "spatial-engrossment",
+            "value-effort"
+        ],
+        "modulates" : [
+            "gameplay-mastery"
+        ],
+        "instantiated_by" : [
+            "generic-adversaries",
+            "grinding",
+            "micromanagement",
+            "minigames",
+            "pottering",
+            "rhythm-based-actions",
+            "tournaments"
+        ],
+        "modulated_by" : [
+            "repetition-position-draws"
+        ],
+        "conflicts" : [
+            "freedom-choice",
+            "player-agency",
+            "value-effort"
+        ]
+    }
+}

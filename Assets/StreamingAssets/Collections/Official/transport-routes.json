@@ -1,0 +1,81 @@
+{
+    "name" : "Transport Routes",
+    "categories" : [
+        "Level Design Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "A route in a game world that players need to traverse to get to certain locations.",
+        "markups" : [
+            "<style=\"Definition\">A route in a game world that players need to traverse to get to certain locations.</style>",
+            "Games with game worlds typically have several areas where interesting gameplay can occur. Although interesting gameplay can occur in them, <style=\"CurrentLink\">Transport Routes</style> are the areas in-between the areas explicitly designed to provide interesting gameplay (or narration).",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Snakes%20&%20Ladders\">Snakes & Ladders</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Afrikan%20T%C3%A4hti\">Afrikan Tähti</link></style> are examples of old <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> where only some of the location spaces cause gameplay events to occur, making the others <style=\"CurrentLink\">Transport Routes</style> between these. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Wizard's%20Apprentice\">Wizard's Apprentice</link></style> is an experimental <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-Augmented%20Board%20Games\">Computer-Augmented Board Game</link></style> with the same design structure.",
+            "Both \"old-school\" <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">FPS Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> contain <style=\"CurrentLink\">Transport Routes</style> in the form of corridors. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life series</link></style> have these also but also provide a section in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%202\">Half-Life 2</link></style> where one uses a car to move over longer distances.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The basic purpose of <style=\"CurrentLink\">Transport Routes</style> is to require <style=\"Link\"><link=\"movement\">Movement</link></style> between two points in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style>. Alternatives to using <style=\"CurrentLink\">Transport Routes</style> include <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style> and <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style>. One way of creating <style=\"CurrentLink\">Transport Routes</style> is \"cutting\" or \"spanning\" through otherwise impassable game world materials, and here <style=\"Link\"><link=\"vehicle-sections\">Vehicle Sections</link></style> is a special case which requires or strongly promotes the use of <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>. Another way it to limit <style=\"Link\"><link=\"movement\">Movement</link></style> possibilities through <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style>, or <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> so that the remaining routes are the only <style=\"CurrentLink\">Transport Routes</style>. A third option is simply to use <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cut%20Scenes\">Cut Scenes</link></style>. ",
+            "As a pattern relating to connecting locations together, it has relations to many such patterns relating to connections. <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style> can be used to only make the <style=\"CurrentLink\">Transport Routes</style> accessible at some point during gameplay while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style> limits access to one direction. <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style> makes travelling in one direction optional while <style=\"Link\"><link=\"backtracking-levels\">Backtracking Levels</link></style> makes it a requirement. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Unlike <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style>, <style=\"CurrentLink\">Transport Routes</style> maintain <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> since the pattern make <style=\"Link\"><link=\"movement\">Movement</link></style> possible between places in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style> that should or could be diegetically possible. <style=\"Link\"><link=\"illusion-open-space\">Illusion of Open Space</link></style> can be necessary to include in <style=\"CurrentLink\">Transport Routes</style> when striving for <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> if the diegesis implies that one would be able to perceive more of the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> from the <style=\"CurrentLink\">Transport Route</style> than the route itself.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Transport Routes</style> is not a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Narration%20Patterns\">Narration Pattern</link></style> in itself but narration can be provided in <style=\"CurrentLink\">Transport Routes</style> to make them more interesting. The most natural way to do this is through <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style> since it is an environment, and examples of patterns that can be used for this reason (or to just make the routes more varied) include <style=\"Link\"><link=\"big-dumb-objects\">Big Dumb Objects</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, and <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Transport Routes</style> give rise to basic <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals of moving from one end of it to the other. They can create <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> if opposing exists or the transport capacity is limited, and <style=\"Link\"><link=\"laning\">Laning</link></style> if several different <style=\"CurrentLink\">Transport Routes</style> between the same start and end area exists. <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> can be necessary when players have several <style=\"CurrentLink\">Transport Routes</style> to choose from and <style=\"Link\"><link=\"lull-periods\">Lull Periods</link></style> can occur if they are sufficiently long and do not require much attention from players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, <style=\"Link\"><link=\"laning\">Laning</link></style>, <style=\"Link\"><link=\"lull-periods\">Lull Periods</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cut%20Scenes\">Cut Scenes</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"vehicle-sections\">Vehicle Sections</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"backtracking-levels\">Backtracking Levels</link></style>, <style=\"Link\"><link=\"big-dumb-objects\">Big Dumb Objects</link></style>, <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"illusion-open-space\">Illusion of Open Space</link></style>, <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style>, <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>, <style=\"Link\"><link=\"warp-zones\">Warp Zones</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "choke-points",
+            "diegetic-consistency",
+            "game-world-navigation",
+            "laning",
+            "lull-periods",
+            "traverse"
+        ],
+        "modulates" : [
+            "game-boards",
+            "game-worlds",
+            "levels",
+            "movement"
+        ],
+        "instantiated_by" : [
+            "cut-scenes",
+            "inaccessible-areas",
+            "invisible-walls",
+            "obstacles",
+            "vehicle-sections"
+        ],
+        "modulated_by" : [
+            "backtracking-levels",
+            "big-dumb-objects",
+            "conditional-passageways",
+            "environmental-storytelling",
+            "inaccessible-areas",
+            "illusion-open-space",
+            "landmarks",
+            "one-way-travel",
+            "quick-returns"
+        ],
+        "conflicts" : [
+            "quick-travel",
+            "warp-zones"
+        ]
+    }
+}

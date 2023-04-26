@@ -1,0 +1,101 @@
+{
+    "name" : "Continuous Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Goals that require the player to maintain a subset of a certain game state within certain limits.",
+        "markups" : [
+            "<style=\"Definition\">Goals that require the player to maintain a subset of a certain game state within certain limits.</style>",
+            "Goals in games are defined by what goal states players need to achieve. However, some goals require this state (which may not need to be one exact state but rather a small subset of the possible states of the game) for some time. Those that do are <style=\"CurrentLink\">Continuous Goals</style> since players not only need to reach an acceptable game state but also continue keeping the game state in an acceptable state until sufficient time has passed.",
+            "<style=\"H3\">Examples</style>",
+            "Multiplayer <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%201942\">Battlefield 1942</link></style> have modes where teams score points (or reduce ticks from the opposing team) by controlling strategic locations.",
+            "The goal for the king in <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style> is to maintain the game state of being the king while the other players have the goal of changing that game state. The same situation appears in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tag\">Tag</link></style>, but reversed; the chasing player, \"it\", has a goal to change the game state by role reversal while the other players try to maintain the state.",
+            "Games where players try to avoid detection, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thief%20series\">Thief series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style>, provide <style=\"CurrentLink\">Continuous Goals</style> in the form of sneaking and stealth.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Continuous Goals</style> are often used to give players gameplay tasks or requirements that they need to pay attention to while doing other things. This means that <style=\"CurrentLink\">Continuous Goals</style> can be used to require <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style> from players and create <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>. <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> can be constructed around <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Continuous%20Goal\">Continuous Goal</link></style> whose failure mean that the game ends for the player.",
+            "There are several ways of creating <style=\"CurrentLink\">Continuous Goals</style>. Many other types of goals are by their nature normally continuous, e.g. <style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"conceal\">Conceal</link></style>, <style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"loyalty\">Loyalty</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"repeat-combos\">Repeat Combos</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, and <style=\"Link\"><link=\"survive\">Survive</link></style>. Other emerge from the presence of game elements, e.g. <style=\"Link\"><link=\"lives\">Lives</link></style> and <style=\"Link\"><link=\"units\">Units</link></style> gives players <style=\"CurrentLink\">Continuous Goals</style> of not losing these. Games with <style=\"Link\"><link=\"scores\">Scores</link></style> similarly create a goal for players as long as they play to increase their <style=\"Link\"><link=\"scores\">Scores</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Control\">Indirect Control</link></style> of game elements can also give rise to <style=\"CurrentLink\">Continuous Goals</style> if several players or <style=\"Link\"><link=\"agents\">Agents</link></style> compete for the control (that is, they all have the potential for indirectly controlling the game elements). The combination of <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> and <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style> show how actions in themselves can become <style=\"CurrentLink\">Continuous Goals</style>, in this case simply the goals to complete an action. Games with <style=\"Link\"><link=\"sustenance-rewards\">Sustenance Rewards</link></style> imply a continued need to what the <style=\"Link\"><link=\"rewards\">Rewards</link></style> provides, and this is likely to be the source of a <style=\"CurrentLink\">Continuous Goal</style>. <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style> lets players set goals for themselves and these can be <style=\"CurrentLink\">Continuous Goals</style> if they depend on the players not failing with certain things. Diegetic structures in a game can also provide the starting point for <style=\"CurrentLink\">Continuous Goals</style>, e.g. that <style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style> or that players belong to, or have relations to, <style=\"Link\"><link=\"factions\">Factions</link></style>. ",
+            "There are two categories of <style=\"CurrentLink\">Continuous Goals</style>: those that have a predetermined length of time that they need to be maintained and those that depend on other facts. Members of the first category can be created simply by adding explicit <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> to a <style=\"CurrentLink\">Continuous Goal</style> but also occur naturally when the length of the current part of gameplay for which the goal is relevant is known. Examples of the latter include <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> and <style=\"Link\"><link=\"survive\">Survive</link></style> (as long as there are no <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> to the gameplay where the goals are relevant). ",
+            "<style=\"CurrentLink\">Continuous Goals</style> can also be used as building blocks for certain other patterns. For example, <style=\"Link\"><link=\"companions\">Companions</link></style> are basically <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> that have <style=\"CurrentLink\">Continuous</style> <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style> to players' <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"characters\">Characters</link></style>. As another case, <style=\"CurrentLink\">Continuous Goals</style> that relate to <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> and require <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> can create <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dynamic%20Alliances\">Dynamic Alliances</link></style>, and even <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Organizations\">Social Organizations</link></style>.",
+            "<style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style> can be used to make <style=\"CurrentLink\">Continuous Goals</style> have to stretch over several game sessions. This is likely to create more <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>. <style=\"Link\"><link=\"rewards\">Rewards</link></style> and <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> can both be modified by linking them to <style=\"CurrentLink\">Continuous Goals</style>. In the first case, one way it to provide more or better <style=\"Link\"><link=\"rewards\">Rewards</link></style> the longer the goal has been maintained (typically beyond a certain minimum). In the second case, players may not be able to resolve the dilemma in any definite way but have to handle the dilemma over a longer period of gameplay time. ",
+            "<style=\"Link\"><link=\"check-points\">Check Points</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Goal%20Points\">Goal Points</link></style> can both be added to some <style=\"CurrentLink\">Continuous Goals</style> to let players have indications of their progress as well as allowing partial successes of the goals.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Continuous Goals</style> makes goal have <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style> and add <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style> to a game. Through this, the pattern also adds <style=\"Link\"><link=\"tension\">Tension</link></style>. The existence of <style=\"CurrentLink\">Continuous Goals</style> may also make players consider <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>, <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> and <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style></style>",
+            "<style=\"Link\"><link=\"companions\">Companions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> and <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style></style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dynamic%20Alliances\">Dynamic Alliances</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Organizations\">Social Organizations</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style></style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>, <style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"conceal\">Conceal</link></style>, <style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Control\">Indirect Control</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"loyalty\">Loyalty</link></style>, <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"repeat-combos\">Repeat Combos</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"survive\">Survive</link></style>, <style=\"Link\"><link=\"sustenance-rewards\">Sustenance Rewards</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> together with <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Goal%20Points\">Goal Points</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "attention-demanding-gameplay",
+            "attention-swapping",
+            "hovering-closures",
+            "tension",
+            "time-limits",
+            "time-pressure",
+            "unwinnable-games",
+            "companions",
+            "cooperation",
+            "challenging-gameplay"
+        ],
+        "modulates" : [
+            "rewards",
+            "social-dilemmas"
+        ],
+        "instantiated_by" : [
+            "actions-have-diegetically-social-consequences",
+            "area-control",
+            "conceal",
+            "evade",
+            "factions",
+            "guard",
+            "king-hill",
+            "indirect-control",
+            "lives",
+            "loyalty",
+            "player-planned-development",
+            "preventing-goals",
+            "races",
+            "reconnaissance",
+            "repeat-combos",
+            "scores",
+            "stealth",
+            "survive",
+            "sustenance-rewards",
+            "units",
+            "extended-actions"
+        ],
+        "modulated_by" : [
+            "check-points",
+            "encouraged-return-visits",
+            "goal-points",
+            "time-limits"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

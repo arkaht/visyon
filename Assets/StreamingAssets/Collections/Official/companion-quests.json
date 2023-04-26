@@ -1,0 +1,63 @@
+{
+    "name" : "Companion Quests",
+    "categories" : [
+        "Narration Patterns",
+        "Goal Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Quests that are based around a companion to a player.",
+        "markups" : [
+            "<style=\"Definition\">Quests that are based around a companion to a player.</style>",
+            "The goals of some game are expressed as diegetic missions and called quests. A special case of these are <style=\"CurrentLink\">Companion Quests</style> which focus not on players but on the NPCs that are followers to the player.",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> are examples of games that have <style=\"CurrentLink\">Companion Quests</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main reason for introducing <style=\"CurrentLink\">Companion Quests</style> in games is to provide <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> for <style=\"Link\"><link=\"companions\">Companions</link></style> that players can explore. The actual design simply relies on creating <style=\"Link\"><link=\"quests\">Quests</link></style> for <style=\"Link\"><link=\"companions\">Companions</link></style>. Specific for them is how players should become aware of the quest opportunities since the <style=\"Link\"><link=\"companions\">Companions</link></style> typically already are following the players when the <style=\"CurrentLink\">Companion Quests</style> should become possible. Specific events or coming to locations are examples of what can trigger the start of <style=\"CurrentLink\">Companion Quests</style>. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "As stated above, <style=\"CurrentLink\">Companion Quests</style> are used to create <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>. As such, the pattern is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Narration%20Patterns\">Narration Pattern</link></style> besides a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Goal%20Patterns\">Goal Pattern</link></style>. <style=\"CurrentLink\">Companion Quests</style> often consist of <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> that tie together several individual <style=\"Link\"><link=\"quests\">Quests</link></style>. This either to pace the <style=\"Link\"><link=\"quests\">Quests</link></style> with other <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> in a game or because the whole story arc for the <style=\"Link\"><link=\"companions\">Companions</link></style> would become too long for one <style=\"Link\"><link=\"quests\">Quest</link></style>. ",
+            "The outcome of <style=\"CurrentLink\">Companion Quests</style> can be used to influence which particular ending players should get. In doing so, the pattern can affect <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Multiple%20Endings\">Multiple Endings</link></style> and can stress that gameplay <style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Companion Quests</style> are <style=\"Link\"><link=\"quests\">Quests</link></style>, or more specifically <style=\"Link\"><link=\"sidequests\">Sidequests</link></style> which makes them into <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>. It can give the <style=\"Link\"><link=\"companions\">Companions</link></style> they focus on an <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>, <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>, <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"sidequests\">Sidequests</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"companions\">Companions</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Multiple%20Endings\">Multiple Endings</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "actions-have-diegetically-social-consequences",
+            "open-destiny",
+            "optional-goals",
+            "predetermined-story-structures",
+            "quests",
+            "sidequests"
+        ],
+        "modulates" : [
+            "companions"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "goal-hierarchies",
+            "multiple-endings"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

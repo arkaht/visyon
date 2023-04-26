@@ -1,0 +1,62 @@
+{
+    "name" : "Memorabilia",
+    "categories" : [
+        "Patterns",
+        "Needs revision",
+        "Needs references",
+        "Pervasive Patterns",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Content or artifacts gained during gameplay that are accessible after game instances end.",
+        "markups" : [
+            "<style=\"Definition\">Content or artifacts gained during gameplay that are accessible after game instances end.</style>",
+            "Components used to play a game are typically kept together between games so that the game can be played again. However, some games have rules for letting players gain ownership of components before, during, or after gameplay. These components may be ones actually used for gameplay or additional ones for recording the gameplay planned or occurred, but can in both cases serve as <style=\"CurrentLink\">Memorabilia</style> of specific game instances.",
+            "<style=\"H3\">Examples</style>",
+            "Winning specific marbles in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Marble%20Games\">Marble Games</link></style> is an archetypical example of <style=\"CurrentLink\">Memorabilia</style> in games, and a similar case can be found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style> when one plays for cards. To a lesser degree, <style=\"CurrentLink\">Memorabilia</style> exists in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%2040K\">Warhammer 40K</link></style> as players have to assemble and paint their miniatures before the can be used and this makes the introduction of each one a potentially memorable occurrence.",
+            "Games that provide possibilities to take screenshots of ongoing gameplay also allow players to create <style=\"CurrentLink\">Memorabilia</style>. Examples of games that do this are numerous and include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style> as well as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/1942%20%E2%80%93%20Noen%20%C3%A5%20stole%20p%C3%A5\">1942 – Noen å stole på</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragonbane\">Dragonbane</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trenne%20Byar\">Trenne Byar</link></style> often result in many types of <style=\"CurrentLink\">Memorabilia</style> since players and facilitators need to create all props for these games.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Memorabilia</style> requires that items linked to game instances can be kept by players after gameplay. This can be achieved in two main ways. The first way is simply to use the actual gameplay components. While this may be unproblematic in games that are only played once (as for example many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> are), those that are supposed to be playable several times can make use of <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style> and here <style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style> can effectively be used to create the <style=\"CurrentLink\">Memorabilia</style> pattern. The second way of making <style=\"CurrentLink\">Memorabilia</style> possible is to create artifacts specifically for this purpose during or after gameplay.  <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style> are probably the easiest sources for creating these artifacts, but the chronicles kept by some players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> show how players can create their own <style=\"CurrentLink\">Memorabilia</style>.",
+            "An indirect way of creating <style=\"CurrentLink\">Memorabilia</style> is to document, and possible embellish, gameplay events in the form of <style=\"Link\"><link=\"game-instance-stories\">Game Instance Stories</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "While <style=\"CurrentLink\">Memorabilia</style> help players remember and retell gameplay events, this aspect of narratives is on a meta-game level since at least the retelling of it occurs outside gameplay.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Memorabilia</style> can support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> since they can contain information that is usable in other game instances, especially if they are actually used within the other game instances. They can also serve as <style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style> and causes for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style> - especially if they have been won from other players.",
+            "Physical <style=\"CurrentLink\">Memorabilia</style> can work against <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style> since they imply the need to have <style=\"CurrentLink\">Memorabilia</style> to be able to give to players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bragging\">Bragging</link></style>, <style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style>, <style=\"Link\"><link=\"game-instance-stories\">Game Instance Stories</link></style>, <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>, <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "bragging",
+            "social-rewards",
+            "trans-game-information"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "game-element-trading",
+            "game-instance-stories",
+            "gameplay-statistics",
+            "heterogeneous-game-element-ownership"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "ubiquitous-gameplay"
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name" : "Non-Localized Resources",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki",
+        "To be Published"
+    ],
+    "texts" : {
+        "definition" : "Resources in games that at least partly do not have physical locations.",
+        "markups" : [
+            "<style=\"Definition\">Resources in games that at least partly do not have physical locations.</style>",
+            "Resources are a common component in many games. Those that are <style=\"CurrentLink\">Non-Localized Resources</style> have no spatial location in a game world.",
+            "<style=\"H3\">Examples</style>",
+            "The lives players have in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style> are examples of <style=\"CurrentLink\">Non-Localized Resources</style>. Likewise, experience points in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> may be characteristics of characters but have no or little connection to the locations of those characters are and are not located specifically in any part of them.",
+            "<style=\"H2\">Using the pattern</style>",
+            "While all <style=\"Link\"><link=\"resources\">Resources</link></style> in games without <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> by definition are <style=\"CurrentLink\">Non-Localized Resources</style>, it is mainly interesting to consider this pattern in contrasts to what exists in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, so they pattern is rarely interesting to consider unless a game does in fact have a <style=\"Link\"><link=\"game-worlds\">Game World</link></style>. <style=\"CurrentLink\">Non-Localized Resources</style> exists in two variants, strong or weak. In the strong variant, all instances of the <style=\"Link\"><link=\"resources\">Resources</link></style> are non-localized while in the weak only some instances - typically those acquired by players - are non-localized. ",
+            "Typical examples of <style=\"Link\"><link=\"resources\">Resources</link></style> that are candidates to be used as <style=\"CurrentLink\">Non-Localized Resources</style> include <style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style>, and <style=\"Link\"><link=\"scores\">Scores</link></style>. While <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style> may provide <style=\"Link\"><link=\"resources\">Resources</link></style> they typically are not movable and can thereby be seen as a source for <style=\"CurrentLink\">Non-Localized Resources</style> without being these themselves. In games using <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"CurrentLink\">Non-Localized Resources</style> can be applied to some parts of these so particular <style=\"Link\"><link=\"resources\">Resources</link></style> are treated separately from the rest.",
+            "<style=\"H2\">Consequences</style>",
+            "As its name indicates, <style=\"CurrentLink\">Non-Localized Resources</style> are <style=\"Link\"><link=\"resources\">Resources</link></style> and they modify <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> by their full or partial absence in these. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, ",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"resources\">Resources</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "resources"
+        ],
+        "modulates" : [
+            "game-worlds",
+            "inventories"
+        ],
+        "instantiated_by" : [
+            "ammunition",
+            "health",
+            "lives",
+            "money",
+            "scores"
+        ],
+        "modulated_by" : [
+            "pick-ups"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

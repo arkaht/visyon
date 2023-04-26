@@ -1,0 +1,66 @@
+{
+    "name" : "Auto-Aim",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Interface Patterns",
+        "Platform Patterns",
+        "Needs revision",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "Mechanics that make aiming easier for players in games by automating the activity to some extent.",
+        "markups" : [
+            "<style=\"Definition\">Mechanics that make aiming easier for players in games by automating the activity to some extent.</style>",
+            "Many computed-based games contain situations where players need to aim at something and then fire at that thing (while most common for combat some games requires the same for taking photos). When this is deemed too challenging by the game designers to do unaided - something more likely in games with third-person views - this can be addressed by adding support from the game system. This game design feature is called <style=\"CurrentLink\">Auto-Aim</style> although the actual way that players are helped in aiming and shooting can vary.",
+            "<style=\"H3\">Examples</style>",
+            "Examples of games that provide <style=\"CurrentLink\">Auto-Aim</style> functionality include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Just%20Cause%20series\">Just Cause</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mass%20Effect%20series\">Mass Effect</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style>. The site GiantBomb has an extensive [http://www.giantbomb.com/auto-aim/92-145/ list] of more games using various forms of <style=\"CurrentLink\">Auto-Aim</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Auto-Aim</style> is added to games to make <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> actions easier, most often in <style=\"Link\"><link=\"combat\">Combat</link></style> situations and more often in games with <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style> than <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> since these types of actions  are more difficult in these. ",
+            "The site GiantBomb describes three different types of <style=\"CurrentLink\">Auto-Aim</style><ref name=\"gb\"/>: ''Reticule Magnetism'', ''Bullet Magnetism'', and ''Lock-on''. The first works by moving players' <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> towards <style=\"Link\"><link=\"enemies\">Enemies</link></style> while the other modifies the trajectories of shots so that those aimed slightly wrong can hit anyway. Lock-on indicates <style=\"Link\"><link=\"enemies\">Enemies</link></style> with clearly distinguishable marker, often <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> or design solutions functionality the same as these, which players can traverse through by simple button presses and by doing so move their <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> between the <style=\"Link\"><link=\"enemies\">Enemies</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Auto-Aim</style> can be considered an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style> since it affects how players need to do <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> maneuvers in games.",
+            "<style=\"H2\">Consequences</style>",
+            "As stated above, <style=\"CurrentLink\">Auto-Aim</style> is a way of making <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> actions easier in games. By doing so, they create <style=\"Link\"><link=\"player-augmentations\">Player Augmentations</link></style> and <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>. As such, they can both support and work against <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. Since they increase players' effectiveness, the pattern supports an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, at least regarding the players' own contribution to the successes of the actions. Those instances of <style=\"CurrentLink\">Auto-Aim</style> that use lock-on add <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style> to games.",
+            "<style=\"CurrentLink\">Auto-Aim</style> can be said to work against the <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> pattern since it removes the need to become skilled in one area of competence from a game design. It also works against <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style> because it can actually become impossible to notice near misses, something which also makes the pattern incompatible with <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"player-augmentations\">Player Augmentations</link></style>, <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>, <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "balancing-effects",
+            "exaggerated-perception-influence",
+            "player-augmentations",
+            "player-character-skill-composites",
+            "point-interest-indicators"
+        ],
+        "modulates" : [
+            "aim-shoot",
+            "crosshairs"
+        ],
+        "instantiated_by" : [
+            "geospatial-game-widgets"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "balancing-effects",
+            "gameplay-mastery",
+            "near-miss-indicators",
+            "perceivable-margins"
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "name" : "Possibility of Anonymity",
+    "categories" : [
+        "Gameplay Adaptability Patterns",
+        "Patterns",
+        "Information Patterns",
+        "Player Patterns",
+        "Needs revision",
+        "Needs examples",
+        "Needs references",
+        "Patterns created on the Wiki"
+    ],
+    "texts" : {
+        "definition" : "That players have the possibility to not reveal their identities while playing a game.",
+        "markups" : [
+            "<style=\"Definition\">That players have the possibility to not reveal their identities while playing a game.</style>",
+            "Games are often a way to have social activities with others. This does not however always mean that players wish to let other players know much about themselves, e.g. because they are worried about their performance or wish to avoid developing any kind of social relation. To do this, games may give players a <style=\"CurrentLink\">Possibility of Anonymity</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Players of online games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> can choose what names they want to be identified by, and by not chatting or using voice communications they can keep other players from knowing who they are. The characters created by players of computer-mediated roleplaying games such <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> can protect identities in the same fashion, but the effort of maintaining the same alter ego for prolonged period of times usually means that long-time players show their normal selves.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The trivial solution to providing players with a <style=\"CurrentLink\">Possibility of Anonymity</style> is to make <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>. <style=\"Link\"><link=\"asynchronous-collaborative-actions\">Asynchronous Collaborative Actions</link></style> is also a rather simple solution since players do not need to interact directly. In other cases, the players need to have their contact with each other mediated through <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>, or <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> and this requires either <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> that can enforce anonymity - one such possible <style=\"Link\"><link=\"communication-channels\">Communication Channel</link></style> is <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>. Quite obviously, this makes the pattern difficult to combine with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>. Even when this is avoided, games with mediated <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> may require players to engage in <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> to appear to be somebody they are not if they wish to be anonymous.",
+            "Even though it cannot instantiate <style=\"CurrentLink\">Possibility of Anonymity</style> on its own, having support for <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> in games can make it easier since these games cannot rely on all players knowing each others identity.",
+            "Since <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style> can provide information about players spanning beyond game instances this may ruin players <style=\"CurrentLink\">Possibility of Anonymity</style>. Removing the possibility of players to ''choose'' to be anonymous, the use of <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style> works against this pattern while providing some of the same consequences. Rather obviously, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> work against <style=\"CurrentLink\">Possibility of Anonymity</style> in games.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Supporting a <style=\"CurrentLink\">Possibility of Anonymity</style> often requires interfaces that can mediate their interactions and gameplay, and this in turn often requires <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Possibility of Anonymity</style> empowers players to control if they themselves should have <style=\"Link\"><link=\"player-anonymity\">Player Anonymity</link></style>. The option of being oneself or hiding who one is while playing is a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, and may be used by players to help other have <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style> towards them.",
+            "As mentioned before, games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> may force players to <style=\"Link\"><link=\"roleplaying\">Roleplay</link></style> to make use of a <style=\"CurrentLink\">Possibility of Anonymity</style>. It can also help them avoid having to take on <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"player-anonymity\">Player Anonymity</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style></style>",
+            "<style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"asynchronous-collaborative-actions\">Asynchronous Collaborative Actions</link></style>, <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>",
+            "<style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> together with <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>, or <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style>, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "actor-detachment",
+            "freedom-choice",
+            "player-anonymity",
+            "roleplaying"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "asynchronous-collaborative-actions",
+            "communication-channels",
+            "single-player-games",
+            "mediated-gameplay"
+        ],
+        "modulated_by" : [
+            "late-arriving-players"
+        ],
+        "conflicts" : [
+            "enforced-player-anonymity",
+            "friend-lists",
+            "public-player-statistics",
+            "social-roles",
+            "unmediated-social-interaction"
+        ]
+    }
+}
