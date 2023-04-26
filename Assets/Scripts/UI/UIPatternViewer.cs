@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 using Utils;
+using Visyon.Wiki;
 
 public class UIPatternViewer : MonoBehaviour
 {
@@ -55,6 +56,12 @@ public class UIPatternViewer : MonoBehaviour
 		Vector3 position = Blueprinter.Instance.Camera.transform.position;
 		position.z = 0.0f;
 		pattern.transform.position = position;
+	}
+
+	public void UpdatePattern()
+	{
+		if ( Data == null ) return;
+		WikiCollectionUpdater.AsyncUpdate( Uri.EscapeDataString( Data.Name ) );
 	}
 
 	public void ApplyPatternData( PatternData data, bool no_history = false )
