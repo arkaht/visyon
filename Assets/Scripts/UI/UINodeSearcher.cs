@@ -53,7 +53,7 @@ public class UINodeSearcher : MonoBehaviour
 	{
 		if ( !PatternRegistery.TryGet( id, out PatternData pattern ) )
 		{
-			Debug.LogError( "UINodeSearcher: failed to find pattern '" + id + "'" );
+			Debug.LogWarning( "UINodeSearcher: failed to find pattern '" + id + "'" );
 			return;
 		}
 

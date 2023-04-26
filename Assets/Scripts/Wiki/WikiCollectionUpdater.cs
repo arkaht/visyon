@@ -151,7 +151,6 @@ namespace Visyon.Wiki
 			Debug.Log( $"WikiCollectionUpdater: retrieved {patternsIDs.Count} patterns IDs" );
 		}
 
-		public static void Update( string pattern_name ) => AsyncUpdate( pattern_name );  //  TODO: remove
 		public static async Task AsyncUpdate( string page_name )
 		{
 			//  ensure patterns IDs are retrieved
