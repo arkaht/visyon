@@ -33,11 +33,13 @@ namespace Visyon.Wiki
 		internal const string REG_MARK_CATEGORY = @"\[\[Category:([^\]]+)\]\]";
 		internal const string REG_DEFINITION = @"''([^']+)''";
 		internal const string REG_HEADER = @"=+\s([^=]*)\s=+";
-		internal const string REG_SMALL_REF = @"(?:'{2}|"")([^']*)(?:'{2}|"")<ref[^>]*\/>";
+		internal const string REG_SMALL_REF = @"<ref[^>]*\/>";
+		internal const string REG_ITALIC = @"''([^']*)''";
 
-		public static async void AsyncUpdateAll() 
+		public static async void ScheduleUpdateAll() => await ScheduleUpdate( "Wiki Collection Update", () => patternsPages.ToArray() );
+		public static async Task ScheduleUpdate( string title, Func<string[]> get_patterns )
 		{
-			using Tasker tasker = UITaskViewer.Instance.Use( "Wiki Collection Update" );
+			using Tasker tasker = UITaskViewer.Instance.Use( title );
 			if ( tasker == null )
 			{
 				Debug.LogWarning( "WikiCollectionUpdater: a tasker is already reserved, unable to update!" );
@@ -45,18 +47,21 @@ namespace Visyon.Wiki
 			}
 
 			//  retrieving
-			await tasker.Task( "Retrieving Patterns IDs", AsyncRetrievePatternsIDs() );
-			tasker.AddProgress();
-			tasker.SetMaximumProgress( patternsPages.Count + 1 );
+			bool should_retrieve = patternsPages.Count == 0;
+			if ( should_retrieve )
+			{
+				await tasker.Task( "Retrieving Patterns IDs", AsyncRetrievePatternsIDs() );
+				tasker.AddProgress();
+			}
+
+			string[] patterns = get_patterns();
+			tasker.SetMaximumProgress( patterns.Length + ( should_retrieve ? 1 : 0 ) );
 
 			//  downloading
-			int i = 0;
 			int successes = 0;
 			bool has_error = false;
-			foreach ( string page in patternsPages )
+			foreach ( string page in patterns )
 			{
-				if ( ++i > 25 ) break;
-
 				await tasker.Task( 
 					"Downloading: " + page, 
 					Task.Run( 
@@ -91,8 +96,8 @@ namespace Visyon.Wiki
 			if ( !has_error )
 			{
 				//  success
-				tasker.State = $"Succesfully updated {successes}/{patternsIDs.Count} patterns";
-				Debug.Log( $"WikiCollectionUpdater: successfully updated {successes}/{patternsIDs.Count}" );
+				tasker.State = $"Succesfully updated {successes}/{patterns.Length} patterns";
+				Debug.Log( $"WikiCollectionUpdater: successfully updated {successes}/{patterns.Length}" );
 
 				//  reload registery
 				PatternRegistery.RegisterCollection( "Official" );
@@ -341,9 +346,15 @@ namespace Visyon.Wiki
 
 		public static string ReplaceReferences( string input, string current_pattern_id = "" )
 		{
-			input = Regex.Replace( input, REG_SMALL_REF, match => {
+			//  remove "small" references
+			input = Regex.Replace( input, REG_SMALL_REF, "" );
+
+			//  italic
+			input = Regex.Replace( input, REG_ITALIC, match => {
 				return TextMarkup.AsItalic( match.Groups[1].Value );
 			} );
+
+			//  replace "special" references
 			return 
 				Regex.Replace( input, REG_SPECIAL_REF, match => {
 					string reference = match.Groups[1].Value;

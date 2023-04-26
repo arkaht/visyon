@@ -6,6 +6,6 @@ public class UpdateOfficialCollectionMenuAction : MenuAction
 {
 	public override void Execute( Blueprinter blueprint ) 
 	{
-		WikiCollectionUpdater.AsyncUpdateAll();
+		WikiCollectionUpdater.ScheduleUpdateAll();
 	}
 }

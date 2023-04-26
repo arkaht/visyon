@@ -61,7 +61,7 @@ public class UIPatternViewer : MonoBehaviour
 	public void UpdatePattern()
 	{
 		if ( Data == null ) return;
-		WikiCollectionUpdater.AsyncUpdate( Uri.EscapeDataString( Data.Name ) );
+		WikiCollectionUpdater.ScheduleUpdate( $"'{Data.Name}' Update", () => new string[] { Data.Name } );
 	}
 
 	public void ApplyPatternData( PatternData data, bool no_history = false )
