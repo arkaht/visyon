@@ -28,13 +28,16 @@ public class UIPattern : MonoBehaviour,
 
 	public bool SetPattern( string id )
 	{
+		ID = id;
 		if ( !PatternRegistery.TryGet( id, out PatternData pattern ) ) 
 		{
+			tmpName.text = id;
+			tmpDefinition.text = "This pattern couldn't be found in the registery!";
+
 			Debug.LogWarning( $"UIPattern: pattern '{id}' couldn't be found!" );
 			return false;
 		}
 
-		ID = id;
 		PatternData = pattern;
 
 		ApplyPatternData();
