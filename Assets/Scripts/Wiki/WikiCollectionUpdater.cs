@@ -31,7 +31,7 @@ namespace Visyon.Wiki
 		internal const string REG_REF = @"\[\[([^\]]+)\]\]";
 		internal const string REG_SPECIAL_REF = @"\[\[([^|\]]*)\|?([^\]]*)\]\]";
 		internal const string REG_MARK_CATEGORY = @"\[\[Category:([^\]]+)\]\]";
-		internal const string REG_DEFINITION = @"''([^']+)''";
+		internal const string REG_DEFINITION = @"^''(.+)''$";
 		internal const string REG_HEADER = @"=+\s([^=]*)\s=+";
 		internal const string REG_SMALL_REF = @"<ref[^>]*\/>";
 		internal const string REG_ITALIC = @"''([^']*)''";
