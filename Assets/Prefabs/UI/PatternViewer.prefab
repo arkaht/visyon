@@ -791,6 +791,7 @@ MonoBehaviour:
   textPrefab: {fileID: 8551253906739256427, guid: 2731f3f26b7e2e245b5437916052ea25, type: 3}
   previousButton: {fileID: 8988422135429647823}
   nextButton: {fileID: 3610345841091198498}
+  updateButton: {fileID: 6501197345140713305}
   patternID: 
 --- !u!1 &235061683199779005
 GameObject:
@@ -1005,6 +1006,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
+--- !u!114 &6501197345140713305 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6292922092586655280, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
+  m_PrefabInstance: {fileID: 967174164048181609}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3164263633565717503
 PrefabInstance:
   m_ObjectHideFlags: 0

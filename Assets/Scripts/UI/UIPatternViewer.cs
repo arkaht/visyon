@@ -22,7 +22,7 @@ public class UIPatternViewer : MonoBehaviour
 	[SerializeField]
 	private GameObject textPrefab;
 	[SerializeField]
-	private Button previousButton, nextButton;
+	private Button previousButton, nextButton, updateButton;
 	[SerializeField]
 	private string patternID;
 
@@ -113,12 +113,16 @@ public class UIPatternViewer : MonoBehaviour
 		viewer_text.Text = text;
 	}
 
-	void Awake()
+	void Start()
 	{
 		if ( patternID == string.Empty )
 			Reset();
 		else
 			Reload();
+
+		//  bind to events
+		UITaskViewer.Instance.OnBegin.AddListener( () => updateButton.interactable = false );
+		UITaskViewer.Instance.OnEnd.AddListener( () => updateButton.interactable = true );
 	}
 
 	void OnEnable()
@@ -128,6 +132,7 @@ public class UIPatternViewer : MonoBehaviour
 		//  bind to event
 		PatternRegistery.OnReload.AddListener( Reload );
 	}
+
 	void OnDisable()
 	{
 		//  unbind to event

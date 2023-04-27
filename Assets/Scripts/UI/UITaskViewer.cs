@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using Visyon.Core;
 
@@ -21,6 +22,8 @@ public class UITaskViewer : MonoBehaviour
 	}
 	public Tasker Tasker { get; private set; }
 	public bool IsRunning { get; private set; }
+
+	public UnityEvent OnBegin, OnEnd;
 
 	[SerializeField]
 	private TMP_Text titleTMP, stateTMP, timerTMP;
@@ -46,6 +49,8 @@ public class UITaskViewer : MonoBehaviour
 
 		hideButton.interactable = false;
 		IsRunning = true;
+
+		OnBegin.Invoke();
 	}
 
 	public void End()
@@ -58,6 +63,8 @@ public class UITaskViewer : MonoBehaviour
 
 		IsRunning = false;
 		Tasker = null;
+
+		OnEnd.Invoke();
 	}
 
 	public Tasker Use( string title, int count = 1 )
