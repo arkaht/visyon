@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 using Visyon.Core;
@@ -46,6 +47,8 @@ namespace Visyon.Wiki
 				return;
 			}
 
+			CancellationTokenSource token = tasker.UseCancelToken();
+
 			//  retrieving
 			bool should_retrieve = patternsPages.Count == 0;
 			if ( should_retrieve )
@@ -62,6 +65,13 @@ namespace Visyon.Wiki
 			bool has_error = false;
 			foreach ( string page in patterns )
 			{
+				if ( token.IsCancellationRequested )
+				{
+					tasker.State = "User canceled";
+					Debug.Log( $"WikiCollectionUpdater: cancelled by token, successfully updated {successes}/{patterns.Length}" );
+					return;
+				}
+
 				await tasker.Task( 
 					"Downloading: " + page, 
 					Task.Run( 
@@ -105,6 +115,7 @@ namespace Visyon.Wiki
 			else
 			{
 				tasker.State = $"An error has occured!";
+				Debug.Log( $"WikiCollectionUpdater: cancelled due to error, successfully updated {successes}/{patterns.Length}" );
 			}
 		}
 

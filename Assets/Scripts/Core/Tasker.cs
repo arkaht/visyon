@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Visyon.Core
@@ -11,6 +12,7 @@ namespace Visyon.Core
 			get => Viewer.State;
 			set => Viewer.State = value;
 		}
+		public CancellationTokenSource CancelToken { get; private set; }
 
 		public Tasker( UITaskViewer viewer, string title, int count = 1 )
 		{
@@ -27,6 +29,12 @@ namespace Visyon.Core
 		{
 			State = state;
 			return task;
+		}
+
+		public CancellationTokenSource UseCancelToken()
+		{
+			CancelToken = new();
+			return CancelToken;
 		}
 
 		public void AddProgress() => Viewer.Progress.SetCurrent( Viewer.Progress.Current + 1 );

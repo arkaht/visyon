@@ -19,6 +19,7 @@ public class UITaskViewer : MonoBehaviour
 		get => stateTMP.text;
 		set => stateTMP.text = value;
 	}
+	public Tasker Tasker { get; private set; }
 	public bool IsRunning { get; private set; }
 
 	[SerializeField]
@@ -26,7 +27,7 @@ public class UITaskViewer : MonoBehaviour
 	[SerializeField]
 	private UIProgressBar progress;
 	[SerializeField]
-	private Button hideButton;
+	private Button hideButton, stopButton;
 
 	private readonly Stopwatch stopwatch = new();
 
@@ -52,14 +53,27 @@ public class UITaskViewer : MonoBehaviour
 		stopwatch.Stop();
 		print( "UITaskViewer: finished tasks in " + stopwatch.Elapsed );
 
-		hideButton.interactable = true;
+		if ( hideButton )
+			hideButton.interactable = true;
+
 		IsRunning = false;
+		Tasker = null;
 	}
 
 	public Tasker Use( string title, int count = 1 )
 	{
 		if ( IsRunning ) return null;
-		return new( this, title, count );
+
+		Tasker = new( this, title, count );
+		return Tasker;
+	}
+
+	public void CancelToken()
+	{
+		if ( Tasker?.CancelToken == null ) return;
+		Tasker.CancelToken.Cancel();
+
+		print( "UITaskViewer: cancel token" );
 	}
 
 	void Update()
@@ -69,6 +83,8 @@ public class UITaskViewer : MonoBehaviour
 			TimeSpan span = stopwatch.Elapsed;
 			timerTMP.text = $"{span.Hours:D2}:{span.Minutes:D2}:{span.Seconds:D2}";
 		}
+
+		stopButton.interactable = Tasker?.CancelToken != null && !Tasker.CancelToken.IsCancellationRequested;
 	}
 
 	void OnEnable()
@@ -79,5 +95,10 @@ public class UITaskViewer : MonoBehaviour
 	void Start()
 	{
 		gameObject.SetActive( false );
+	}
+
+	void OnDisable()
+	{
+		CancelToken();
 	}
 }
