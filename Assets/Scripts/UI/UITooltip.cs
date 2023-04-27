@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Visyon.Core;
 
+[RequireComponent( typeof( RectTransform ) )]
 public class UITooltip : MonoBehaviour
 {
 	public static UITooltip Instance { get; private set; }
@@ -12,17 +13,24 @@ public class UITooltip : MonoBehaviour
 	private Image highlightImage;
 	[SerializeField]
 	private TMP_Text textTMP;
-
+	[SerializeField]
+	private Canvas canvas;
 	[SerializeField]
 	private Color highlightColor, disabledColor;
 
+	private RectTransform rectTransform;
+
 	void Awake()
 	{
-		Instance = this;
+		rectTransform = GetComponent<RectTransform>();
 	}
 	void Start()
 	{
 		Hide();
+	}
+	void OnEnable()
+	{
+		Instance = this;
 	}
 
 	public void Show( Vector2 pos, string name, string text = "" )
@@ -50,6 +58,11 @@ public class UITooltip : MonoBehaviour
 
 	public void Move( Vector2 pos )
 	{
-		transform.position = pos;
+		Vector2 pivot = Vector2.zero;
+		if ( pos.x + rectTransform.sizeDelta.x * canvas.scaleFactor >= canvas.pixelRect.size.x )
+			pivot.x = 1.0f;
+		rectTransform.pivot = pivot;
+
+		rectTransform.position = pos;
 	}
 }
