@@ -828,6 +828,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8968430874049647250}
     m_Modifications:
+    - target: {fileID: 4267342189091716703, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
+      propertyPath: Name
+      value: Close
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267342189091716703, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
+      propertyPath: Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6292922092586655280, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1146,6 +1154,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8968430874049647250}
     m_Modifications:
+    - target: {fileID: 4267342189091716703, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
+      propertyPath: Name
+      value: Stop Tasks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267342189091716703, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
+      propertyPath: Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6292922092586655280, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
