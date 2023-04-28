@@ -177,6 +177,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39540259b78c50429b3b52215efe8fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEnd:
+    m_PersistentCalls:
+      m_Calls: []
   titleTMP: {fileID: 8968430873402585598}
   stateTMP: {fileID: 7057335683831926563}
   timerTMP: {fileID: 7057335684216810192}

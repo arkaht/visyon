@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,6 +16,10 @@ public class UITooltip : MonoBehaviour
 	private TMP_Text textTMP;
 	[SerializeField]
 	private Canvas canvas;
+	[SerializeField]
+	private CanvasGroup canvasGroup;
+	[SerializeField]
+	private LayoutGroup layoutGroup;
 	[SerializeField]
 	private Color highlightColor, disabledColor;
 
@@ -33,17 +38,35 @@ public class UITooltip : MonoBehaviour
 		Instance = this;
 	}
 
+	private IEnumerator DoInvalidate()
+	{
+		canvasGroup.alpha = 0.0f;
+
+		//  update layout group
+		layoutGroup.enabled = false;
+		yield return new WaitForEndOfFrame();
+		layoutGroup.enabled = true;
+
+		yield return new WaitForEndOfFrame();
+
+		canvasGroup.alpha = 1.0f;
+
+		//  update position
+		Move( rectTransform.position );
+	}
+
 	public void Show( Vector2 pos, string name, string text = "" )
 	{
-		gameObject.SetActive( true );
-
-		Move( pos );
-
 		//  change text
 		if ( text == string.Empty )
 			textTMP.text = TextMarkup.AsHeader( 4, name );
 		else
 			textTMP.text = $"{TextMarkup.AsHeader( 4, name )}\n{TextMarkup.AsItalic( text )}";
+
+		rectTransform.position = pos;
+
+		gameObject.SetActive( true );
+		StartCoroutine( DoInvalidate() );  //  rebuild layout group
 	}
 	public void Hide()
 	{
