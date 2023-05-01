@@ -103,7 +103,7 @@ public class UINodeSearcher : MonoBehaviour
 		pattern.transform.position = Blueprinter.Instance.ScreenToWorld( SpawnPosition );
 		OnSpawnPattern.Invoke( pattern );
 
-		Hide();
+		this.Hide();
 	}
 
 	public static UINodeSearcher Spawn( Vector2 pos )
@@ -121,8 +121,10 @@ public class UINodeSearcher : MonoBehaviour
 		return searcher;
 	}
 
-	public void Hide() => gameObject.SetActive( false );
-	public void Show() => gameObject.SetActive( true );
+	void Start()
+	{
+		this.Hide();
+	}
 
 	void OnDisable()
 	{

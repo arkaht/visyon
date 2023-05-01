@@ -31,7 +31,7 @@ public class UITooltip : MonoBehaviour
 	}
 	void Start()
 	{
-		Hide();
+		this.Hide();
 	}
 	void OnEnable()
 	{
@@ -67,10 +67,6 @@ public class UITooltip : MonoBehaviour
 
 		gameObject.SetActive( true );
 		StartCoroutine( DoInvalidate() );  //  rebuild layout group
-	}
-	public void Hide()
-	{
-		gameObject.SetActive( false );
 	}
 	public void SetHighlight( bool is_highlight )
 	{

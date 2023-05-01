@@ -130,8 +130,9 @@ public class UIPatternViewer : MonoBehaviour
 
 	public void Reset()
 	{
+		this.Hide();
+
 		Data = null;
-		gameObject.SetActive( false );
 		history.Clear();
 	}
 

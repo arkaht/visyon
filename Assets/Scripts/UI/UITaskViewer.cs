@@ -94,14 +94,14 @@ public class UITaskViewer : MonoBehaviour
 		stopButton.interactable = Tasker?.CancelToken != null && !Tasker.CancelToken.IsCancellationRequested;
 	}
 
+	void Start()
+	{
+		this.Hide();
+	}
+
 	void OnEnable()
 	{
 		instance = this;
-	}
-
-	void Start()
-	{
-		gameObject.SetActive( false );
 	}
 
 	void OnDisable()
