@@ -103,7 +103,8 @@ public class UIPatternViewer : MonoBehaviour
 		tmpName.text = data.Name;
 		AddTextsTo( data.Texts.Markups, contentTransform );
 
-		StartCoroutine( DoScrollVertically( scroll_y ) );
+		StartCoroutine( DoScrollVertically( scroll_y ) );  //  delay scroll to let transform be updated correctly
+														   //  and avoid clamping to previous height
 	}
 
 	private void UpdateCurrentInHistory()
