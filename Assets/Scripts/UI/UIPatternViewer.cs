@@ -1,12 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 using TMPro;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 using Utils;
 using Visyon.Wiki;
+
+public class PatternViewerData
+{
+	public PatternData Data;
+	public float ScrollY;
+}
 
 public class UIPatternViewer : MonoBehaviour
 {
@@ -26,7 +30,7 @@ public class UIPatternViewer : MonoBehaviour
 	[SerializeField]
 	private string patternID;
 
-	private readonly History<PatternData> history = new();
+	private readonly History<PatternViewerData> history = new();
 
 	public void Clear()
 	{
@@ -35,19 +39,24 @@ public class UIPatternViewer : MonoBehaviour
 
 	public void NavigateHistory( int offset )
 	{
-		PatternData data = history.Navigate( offset );
+		UpdateCurrentInHistory();
+
+		PatternViewerData data = history.Navigate( offset );
 
 		//  update buttons
 		UpdateHistoryButtons();
 
+		if ( data == null )
+			return;
+
 		//  apply data
-		if ( data == null ) return;
-		ApplyPatternData( data, true );
+		ApplyPatternData( data.Data, true, data.ScrollY );
 	}
 
 	public void PlacePattern()
 	{
-		if ( Data == null ) return;
+		if ( Data == null )
+			return;
 
 		//  spawn
 		UIPattern pattern = UIPattern.Spawn( Data.ID );
@@ -60,32 +69,64 @@ public class UIPatternViewer : MonoBehaviour
 
 	public void UpdatePattern()
 	{
-		if ( Data == null ) return;
+		if ( Data == null )
+			return;
 		WikiCollectionUpdater.ScheduleUpdate( $"'{Data.Name}' Update", () => new string[] { Data.Name } );
 	}
 
-	public void ApplyPatternData( PatternData data, bool no_history = false )
+	public void ApplyPatternData( PatternData data, bool no_history = false, float scroll_y = 0.0f )
 	{
 		gameObject.SetActive( true );
 
-		//  insert previous into history
 		if ( !no_history )
 		{
-			history.Add( data );
+			UpdateCurrentInHistory();
+
+			//  insert previous into history
+			history.Add(
+				new()
+				{
+					Data = data,
+					ScrollY = 0.0f
+				}
+			);
 			UpdateHistoryButtons();
 		}
 
 		//  set new data
 		Data = data;
 		patternID = data == null ? string.Empty : data.ID;
-		
+
 		Clear();
 
 		//  set content
 		tmpName.text = data.Name;
 		AddTextsTo( data.Texts.Markups, contentTransform );
+
+		StartCoroutine( DoScrollVertically( scroll_y ) );
 	}
-	
+
+	private void UpdateCurrentInHistory()
+	{
+		PatternViewerData vdata = history.Current;
+		if ( vdata == null ) return;
+
+		vdata.ScrollY = contentTransform.position.y;
+	}
+
+	private IEnumerator DoScrollVertically( float y )
+	{
+		yield return new WaitForEndOfFrame();
+		ScrollVertically( y );
+	}
+
+	public void ScrollVertically( float y )
+	{
+		Vector3 pos = contentTransform.position;
+		pos.y = y;
+		contentTransform.position = pos;
+	}
+
 	public void Reset()
 	{
 		Data = null;
@@ -141,8 +182,10 @@ public class UIPatternViewer : MonoBehaviour
 
 	private void Reload()
 	{
-		if ( patternID == string.Empty ) return;
-		if ( !PatternRegistery.TryGet( patternID, out PatternData new_data ) ) return;
+		if ( patternID == string.Empty )
+			return;
+		if ( !PatternRegistery.TryGet( patternID, out PatternData new_data ) )
+			return;
 
 		Debug.Log( "UIPatternViewer: reloading.." );
 
