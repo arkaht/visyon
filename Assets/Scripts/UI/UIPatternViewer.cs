@@ -15,6 +15,7 @@ public class PatternViewerData
 public class UIPatternViewer : MonoBehaviour
 {
 	public PatternData Data { get; private set; }
+	public History<PatternViewerData> History { get; private set; } = new();
 
 	[Header( "References" )]
 	[SerializeField]
@@ -30,8 +31,6 @@ public class UIPatternViewer : MonoBehaviour
 	[SerializeField]
 	private string patternID;
 
-	private readonly History<PatternViewerData> history = new();
-
 	public void Clear()
 	{
 		TransformUtils.Clear( contentTransform );
@@ -41,7 +40,7 @@ public class UIPatternViewer : MonoBehaviour
 	{
 		UpdateCurrentInHistory();
 
-		PatternViewerData data = history.Navigate( offset );
+		PatternViewerData data = History.Navigate( offset );
 
 		//  update buttons
 		UpdateHistoryButtons();
@@ -83,7 +82,7 @@ public class UIPatternViewer : MonoBehaviour
 			UpdateCurrentInHistory();
 
 			//  insert previous into history
-			history.Add(
+			History.Add(
 				new()
 				{
 					Data = data,
@@ -109,7 +108,7 @@ public class UIPatternViewer : MonoBehaviour
 
 	private void UpdateCurrentInHistory()
 	{
-		PatternViewerData vdata = history.Current;
+		PatternViewerData vdata = History.Current;
 		if ( vdata == null ) return;
 
 		vdata.ScrollY = contentTransform.position.y;
@@ -133,13 +132,13 @@ public class UIPatternViewer : MonoBehaviour
 		this.Hide();
 
 		Data = null;
-		history.Clear();
+		History.Clear();
 	}
 
 	private void UpdateHistoryButtons()
 	{
-		previousButton.interactable = history.Previous != null;
-		nextButton.interactable = history.Next != null;
+		previousButton.interactable = History.Previous != null;
+		nextButton.interactable = History.Next != null;
 	}
 
 	private void AddTextsTo( string[] texts, Transform parent, Func<string, string> modifier = null )
@@ -184,14 +183,12 @@ public class UIPatternViewer : MonoBehaviour
 
 	private void Reload()
 	{
-		if ( patternID == string.Empty )
-			return;
-		if ( !PatternRegistery.TryGet( patternID, out PatternData new_data ) )
-			return;
+		if ( patternID == string.Empty ) return;
+		if ( !PatternRegistery.TryGet( patternID, out PatternData new_data ) ) return;
 
 		Debug.Log( "UIPatternViewer: reloading.." );
 
-		history.Remove( history.Current );
+		History.Remove( History.Current );  //  TODO: fix history on reload, may be the source of errors
 		ApplyPatternData( new_data );
 	}
 }
