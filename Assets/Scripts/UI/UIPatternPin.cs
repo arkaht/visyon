@@ -153,10 +153,11 @@ public class UIPatternPin : MonoBehaviour,
 			}
 
 		//  spawn searcher
-		UINodeSearcher searcher = Blueprinter.Instance.ShowSearcherAtMousePosition();
+		UIPatternSearcher searcher = Blueprinter.Instance.ShowSearcherAtMousePosition();
 
 		//  add related patterns
-		searcher.AddPatterns( GetPossibleRelations(), GetRelationName() );
+		string category_name = GetRelationName();
+		searcher.SetActivePatterns( GetPossibleRelations().ToList(), category_name );
 
 		//  listen to events
 		searcher.OnSpawnPattern.AddListener( pattern => Connect( pattern ) );

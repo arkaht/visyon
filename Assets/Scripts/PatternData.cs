@@ -9,7 +9,7 @@ public record PatternData( string ID, string Name, string[] Categories, PatternT
 			new PatternData( 
 				id,
 				data["name"].Value,
-				null,
+				data["categories"].AsArray.ToStringArray(),
 				PatternTexts.FromJSON( data["texts"] ),
 				PatternRelations.FromJSON( data["relations"] )
 			);

@@ -40,16 +40,7 @@ public class UITooltip : MonoBehaviour
 
 	private IEnumerator DoInvalidate()
 	{
-		canvasGroup.alpha = 0.0f;
-
-		//  update layout group
-		layoutGroup.enabled = false;
-		yield return new WaitForEndOfFrame();
-		layoutGroup.enabled = true;
-
-		yield return new WaitForEndOfFrame();
-
-		canvasGroup.alpha = 1.0f;
+		yield return GameObjectUtils.DoInvalidate( layoutGroup, canvasGroup );
 
 		//  update position
 		Move( rectTransform.position );

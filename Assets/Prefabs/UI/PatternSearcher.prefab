@@ -310,7 +310,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3932346806464183298}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UINodeSearcher, Assembly-CSharp
         m_MethodName: UpdateSearchFilter
         m_Mode: 1
@@ -505,9 +505,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3932346806464183297}
-  - component: {fileID: 3932346806464183298}
+  - component: {fileID: 484044014120033122}
   m_Layer: 5
-  m_Name: NodeSearcher
+  m_Name: PatternSearcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -535,7 +535,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 400, y: 500}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &3932346806464183298
+--- !u!114 &484044014120033122
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -544,15 +544,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3932346806464183296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9230e778d08be148be7dfa8639c44a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 92b980475b79d8d4483f3ba544f3a146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnSpawnPattern:
-    m_PersistentCalls:
-      m_Calls: []
-  OnRemove:
-    m_PersistentCalls:
-      m_Calls: []
   content: {fileID: 3932346806609932142}
   searchField: {fileID: 4507141645591239680}
   categoryPrefab: {fileID: 893594037163236851, guid: e6897b1df55d43948911e087e317bbc0, type: 3}
@@ -1256,7 +1250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 340, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838908401832956165
@@ -1570,6 +1564,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5672709556381227284}
     m_Modifications:
+    - target: {fileID: 4267342189091716703, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
+      propertyPath: Name
+      value: Toggle Categories
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267342189091716703, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
+      propertyPath: Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6292922092586655280, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1581,18 +1583,18 @@ PrefabInstance:
     - target: {fileID: 6292922092586655280, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 3932346806464183296}
+      objectReference: {fileID: 484044014120033122}
     - target: {fileID: 6292922092586655280, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6292922092586655280, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: ToggleCategories
       objectReference: {fileID: 0}
     - target: {fileID: 6292922092586655280, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UIPatternViewer, Assembly-CSharp
+      value: UIPatternSearcher, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6292922092586655280, guid: e82ccbd265cc584459a62d0ba2a43821, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

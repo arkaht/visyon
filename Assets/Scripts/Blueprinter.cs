@@ -5,6 +5,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Utils;
+using Visyon.Wiki;
 
 public class Blueprinter : MonoBehaviour, 
 						   IBeginDragHandler, IDragHandler, IEndDragHandler, IScrollHandler, IPointerClickHandler
@@ -29,7 +30,7 @@ public class Blueprinter : MonoBehaviour,
 	public RectTransform OverlayTransform => overlayTransform;
 	public RectTransform ConnectionsTransform => connectionsTransform;
 	public RectTransform PatternsTransform => patternsTransform;
-	public UINodeSearcher Searcher => searcher;
+	public UIPatternSearcher Searcher => searcher;
 	public UIPatternViewer Viewer => viewer;
 	
 	public Camera Camera => camera;
@@ -50,7 +51,7 @@ public class Blueprinter : MonoBehaviour,
 	[SerializeField]
 	private UISelectionRect selectionRect;
 	[SerializeField]
-	private UINodeSearcher searcher;
+	private UIPatternSearcher searcher;
 	[SerializeField]
 	private UIPatternViewer viewer;
 
@@ -150,7 +151,7 @@ public class Blueprinter : MonoBehaviour,
 		selection.Clear();
 	}
 
-	public UINodeSearcher ShowSearcherAtMousePosition()
+	public UIPatternSearcher ShowSearcherAtMousePosition()
 	{
 		searcher.Clear();
 		searcher.Show();
@@ -234,7 +235,7 @@ public class Blueprinter : MonoBehaviour,
 
 	void Awake()
 	{
-		PatternRegistery.RegisterCollection( "Official" );
+		PatternRegistery.RegisterCollection( WikiCollectionUpdater.CollectionName );
 
 		instance = this;
 	}
@@ -249,7 +250,7 @@ public class Blueprinter : MonoBehaviour,
 		//  spawn searcher
 		if ( shouldSpawnSearcher )
 		{
-			ShowSearcherAtMousePosition().AddAllPatterns();
+			ShowSearcherAtMousePosition().SetActivePatterns( PatternRegistery.AllKeys.ToList() );
 			shouldSpawnSearcher = false;
 		}
 

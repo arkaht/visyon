@@ -19,7 +19,8 @@ namespace Visyon.Wiki
 
 	public static class WikiCollectionUpdater
 	{
-		public static string DirectoryPath => Application.streamingAssetsPath + "/Collections/Official/";
+		public const string CollectionName = "Official";
+		public static string DirectoryPath => Application.streamingAssetsPath + "/Collections/" + CollectionName + "/";
 
 		public const string BaseLink = "http://virt10.itu.chalmers.se/";
 		public static string IndexLink => BaseLink + "index.php";
@@ -36,6 +37,7 @@ namespace Visyon.Wiki
 		internal const string REG_HEADER = @"=+\s([^=]*)\s=+";
 		internal const string REG_SMALL_REF = @"<ref[^>]*\/>";
 		internal const string REG_ITALIC = @"''([^']*)''";
+		internal const string REG_PATTERN_CATEGORY = @"^([^|]*Patterns)\|?";
 
 		public static async void ScheduleUpdateAll() => await ScheduleUpdate( "Wiki Collection Update", () => patternsPages.ToArray() );
 		public static async Task ScheduleUpdate( string title, Func<string[]> get_patterns )
@@ -110,7 +112,7 @@ namespace Visyon.Wiki
 				Debug.Log( $"WikiCollectionUpdater: successfully updated {successes}/{patterns.Length}" );
 
 				//  reload registery
-				PatternRegistery.RegisterCollection( "Official" );
+				PatternRegistery.RegisterCollection( CollectionName );
 			}
 			else
 			{
@@ -236,6 +238,18 @@ namespace Visyon.Wiki
 				if ( ( match = Regex.Match( line, REG_MARK_CATEGORY ) ).Success )
 				{
 					string category = match.Groups[1].ToString();
+
+					//  filter category
+					if ( !( match = Regex.Match( category, REG_PATTERN_CATEGORY ) ).Success ) continue;
+					category = match.Groups[1].ToString();
+
+					//  more elegant category names
+					category = category.Replace( "_", " " )  //  specially for "Aesthetic_Patterns"
+									   .Replace( "pattern", "Patterns" );  //  specially for "Long pattern"
+
+					//  avoid duplicates
+					if ( categories.Contains( category ) ) continue;
+
 					categories.Add( category );
 					continue;
 				}

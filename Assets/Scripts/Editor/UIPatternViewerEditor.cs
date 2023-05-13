@@ -26,8 +26,8 @@ public class UIPatternViewerEditor : Editor
 
 			if ( history.Content.Count > 0 )
 			{
-				EditorGUILayout.TextField( "Current", history.Current == null ? "null" : history.Current.ToString() );
 				EditorGUILayout.TextField( "Previous", history.Previous == null ? "null" : history.Previous.ToString() );
+				EditorGUILayout.TextField( "Current", history.Current == null ? "null" : history.Current.ToString() );
 				EditorGUILayout.TextField( "Next", history.Next == null ? "null" : history.Next.ToString() );
 
 				EditorGUILayout.LabelField( "Content:" );
