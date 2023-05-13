@@ -1,18 +1,15 @@
 {
     "name" : "Ephemeral Events",
     "categories" : [
-        "Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Patterns"
     ],
     "texts" : {
-        "definition" : "Atari",
+        "definition" : "Game events that only exist for a limit period of time within the game's way of measuring time.",
         "markups" : [
-            "''Game events that only exist for a limit period of time within the game's way of measuring time.''",
+            "<style=\"Definition\">Game events that only exist for a limit period of time within the game's way of measuring time.</style>",
             "While some parts of game states or game worlds may stay the same throughout game instances, others change to have events that are either planned or occur due to chance. When these events only last for a short period of time (in the game's way of measuring the progress of time), these are <style=\"CurrentLink\">Ephemeral Events</style> that may offer specific actions, challenges, and rewards.",
             "<style=\"H3\">Examples</style>",
-            "<style=\"Definition\">Atari</style>",
+            "Checking in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and announcing <i>Atari</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> are both examples of events that only occur for a short period of time, although an <i>Atari</i> may persist as long as both players leave it.",
             "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia%20Wars\">Mafia Wars</link></style> make in-game events related to various holidays in the real world, and these events only exist in conjunction to when those holidays occur. These reoccur as the holidays do but other types of events can add variety, e.g. the challenge mission in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia%20Wars\">Mafia Wars</link></style> that was linked to the world championship in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> 2010. Persistent game worlds such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> often do similar things with events such as ''New Year's Eve<i>, </i>Oktoberfest<i>, and the </i>Day of the Dead''.",
             "<style=\"H2\">Using the pattern</style>",
             "<style=\"CurrentLink\">Ephemeral Events</style> can easily be created through somehow limiting how long an event can take place. <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> may be the most obvious choice and can set hard limits which can be broadcast through <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> if <style=\"Link\"><link=\"tension\">Tension</link></style> wanted. <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style> can help remind players of the upcoming events even if they are not playing.",

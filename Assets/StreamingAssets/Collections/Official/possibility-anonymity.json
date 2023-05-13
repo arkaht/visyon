@@ -4,11 +4,7 @@
         "Gameplay Adaptability Patterns",
         "Patterns",
         "Information Patterns",
-        "Player Patterns",
-        "Needs revision",
-        "Needs examples",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Player Patterns"
     ],
     "texts" : {
         "definition" : "That players have the possibility to not reveal their identities while playing a game.",
@@ -20,7 +16,7 @@
             "<style=\"H2\">Using the pattern</style>",
             "The trivial solution to providing players with a <style=\"CurrentLink\">Possibility of Anonymity</style> is to make <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>. <style=\"Link\"><link=\"asynchronous-collaborative-actions\">Asynchronous Collaborative Actions</link></style> is also a rather simple solution since players do not need to interact directly. In other cases, the players need to have their contact with each other mediated through <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>, or <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> and this requires either <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> that can enforce anonymity - one such possible <style=\"Link\"><link=\"communication-channels\">Communication Channel</link></style> is <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>. Quite obviously, this makes the pattern difficult to combine with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>. Even when this is avoided, games with mediated <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> may require players to engage in <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> to appear to be somebody they are not if they wish to be anonymous.",
             "Even though it cannot instantiate <style=\"CurrentLink\">Possibility of Anonymity</style> on its own, having support for <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> in games can make it easier since these games cannot rely on all players knowing each others identity.",
-            "Since <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style> can provide information about players spanning beyond game instances this may ruin players <style=\"CurrentLink\">Possibility of Anonymity</style>. Removing the possibility of players to ''choose'' to be anonymous, the use of <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style> works against this pattern while providing some of the same consequences. Rather obviously, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> work against <style=\"CurrentLink\">Possibility of Anonymity</style> in games.",
+            "Since <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style> can provide information about players spanning beyond game instances this may ruin players <style=\"CurrentLink\">Possibility of Anonymity</style>. Removing the possibility of players to <i>choose</i> to be anonymous, the use of <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style> works against this pattern while providing some of the same consequences. Rather obviously, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> work against <style=\"CurrentLink\">Possibility of Anonymity</style> in games.",
             "<style=\"H3\">Interface Aspects</style>",
             "Supporting a <style=\"CurrentLink\">Possibility of Anonymity</style> often requires interfaces that can mediate their interactions and gameplay, and this in turn often requires <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>.",
             "<style=\"H2\">Consequences</style>",

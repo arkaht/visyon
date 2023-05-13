@@ -3,18 +3,14 @@
     "categories" : [
         "Patterns",
         "Mechanical Patterns",
-        "Interface Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki",
-        "To be Published"
+        "Interface Patterns"
     ],
     "texts" : {
         "definition" : "Information and access to game actions that are presented in computer games as if they were on a plane in front of the presentation of the game world.",
         "markups" : [
             "<style=\"Definition\">Information and access to game actions that are presented in computer games as if they were on a plane in front of the presentation of the game world.</style>",
             "Computer games that have game worlds present these to players through user interfaces. However, often additional information is presented to players as on a plane right before the actual presentation of the game world. Such presentations of information and access to gameplay actions are called <style=\"CurrentLink\">HUD Interfaces</style>. ",
-            "Note: ''this pattern describes a more generic design solution that a true HUD interface. It is more aligned to the ''Overlay'' part in Fagerholt & Lorentzon's conceptual view of visual UI conventions in FPS games<ref name=\"fagerholt\"/>.",
+            "Note: <i>this pattern describes a more generic design solution that a true HUD interface. It is more aligned to the </i>Overlay'' part in Fagerholt & Lorentzon's conceptual view of visual UI conventions in FPS games.",
             "<style=\"H3\">Examples</style>",
             "True <style=\"CurrentLink\">HUD Interfaces</style> are used in games with first person views, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>. However, the idea of overlaying information in a plane in front of a game world presentation exists also in computer-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Strategy%20Games\">Strategy Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> shows how game series that first used third-person views and later first-person views can continuously make use of <style=\"CurrentLink\">HUD Interfaces</style>.",
             "<style=\"H2\">Using the pattern</style>",

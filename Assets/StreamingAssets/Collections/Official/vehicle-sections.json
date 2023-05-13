@@ -3,10 +3,7 @@
     "categories" : [
         "Level Design Patterns",
         "Mechanical Patterns",
-        "Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Patterns"
     ],
     "texts" : {
         "definition" : "Gameplay areas created for vehicular movement.",
@@ -14,7 +11,7 @@
             "<style=\"Definition\">Gameplay areas created for vehicular movement.</style>",
             "Some games let players alternate between self-propelled movement and using vehicles. <style=\"CurrentLink\">Vehicle Sections</style> are parts of game worlds specifically designed for the latter.",
             "<style=\"H3\">Examples</style>",
-            "''The coast'' region in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%202\">Half-Life 2</link></style> in mainly an area meant to be traversed using a buggy. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crysis\">Crysis</link></style> has two parts of the game specifically designed to support travelling in vehicles - in one case in a main battle tank and in another a vertical takeoffs and landing aircraft. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo:%20Combat%20Evolved\">Halo: Combat Evolved</link></style> and the other games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo series</link></style> have several areas designed to using the ''Warthog'' and other vehicles.",
+            "<i>The coast</i> region in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%202\">Half-Life 2</link></style> in mainly an area meant to be traversed using a buggy. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crysis\">Crysis</link></style> has two parts of the game specifically designed to support travelling in vehicles - in one case in a main battle tank and in another a vertical takeoffs and landing aircraft. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo:%20Combat%20Evolved\">Halo: Combat Evolved</link></style> and the other games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo series</link></style> have several areas designed to using the <i>Warthog</i> and other vehicles.",
             "Games with huge open worlds, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> but also multiplayer maps in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo series</link></style>, can arguably be said to consist mainly of <style=\"CurrentLink\">Vehicle Sections</style>. Building and narrow passages are here the exceptions the <style=\"CurrentLink\">Vehicle Sections</style> and make pedestrian gameplay feasible.",
             "<style=\"H2\">Using the pattern</style>",
             "Designing <style=\"CurrentLink\">Vehicle Sections</style> is concerned with presenting players with a different scale between moving in <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> and moving without them - games where one always is inside vehicles with the same capacities could be said to consist entirely of <style=\"CurrentLink\">Vehicle Sections</style> but this also makes talking about the pattern superfluous. ",

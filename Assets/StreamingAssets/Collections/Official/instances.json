@@ -3,11 +3,7 @@
     "categories" : [
         "Patterns",
         "Platform Patterns",
-        "Mechanical Patterns",
-        "Needs revision",
-        "Needs examples",
-        "Patterns created on the Wiki",
-        "To be Published"
+        "Mechanical Patterns"
     ],
     "texts" : {
         "definition" : "Subparts of game worlds created specifically for groups of players as these parts are needed.",
@@ -15,7 +11,7 @@
             "<style=\"Definition\">Subparts of game worlds created specifically for groups of players as these parts are needed.</style>",
             "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> that support multiplayer games can have problems with too many players in the same place. This can both cause technical issues with too much communication needed between a server and many clients and cause gameplay balance issues. <style=\"CurrentLink\">Instances</style> is one way of solving this issue by creating isolated gameplay areas where a limited number of players may be. This can also ensure that players are guaranteed to interact with each other, something that may not occur if the game world is too large in comparison with the number of players.",
             "Wikipedia has an entry for <i>Dungeon Instances</i> which discusses the same topic.",
-            "Note: ''The use of <style=\"CurrentLink\">Instances</style> here is different from the concept of ''game instances'' in the component framework.''",
+            "Note: <i>The use of <style=\"CurrentLink\">Instances</style> here is different from the concept of </i>game instances<i> in the component framework.</i>",
             "<style=\"H3\">Examples</style>",
             "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Everquest%20series\">Everquest series</link></style> make use of <style=\"CurrentLink\">Instances</style> to allow small groups of players to enter specific areas in attempt to complete quests.",
             "<style=\"H2\">Using the pattern</style>",

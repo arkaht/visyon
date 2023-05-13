@@ -3,10 +3,7 @@
     "categories" : [
         "Patterns",
         "Gameplay Arc Patterns",
-        "Aesthetic Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Aesthetic Patterns"
     ],
     "texts" : {
         "definition" : "Games that by their design limit the time of any given game instance.",
@@ -16,7 +13,7 @@
             "<style=\"H3\">Examples</style>",
             "Tournaments in board games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> often have fixed amount of time each individual game can take in order to be able to guarantee an end time for the whole event.",
             "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Alert\">Space Alert</link></style> is a weak example of a board game having <style=\"CurrentLink\">Time Limited Game Instances</style>. This since the first phase of the game has a strictly limited duration through the use of an audio track to dictate gameplay. The time needed to complete the second, evaluation, phase can differ but this is pretty much up to the players and they cannot affect the outcome by varying this. Stronger examples are found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Atmosfear%20series\">Atmosfear series</link></style> which uses VHS cassettes and DVDs to time the gameplay.",
-            "''Deathmatch'' modes in first-person shooters such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> typically let the game facilitators to choose a time limit or frag (kill) limit to determine the winner. Those using the former of these are examples of <style=\"CurrentLink\">Time Limited Game Instances</style>.",
+            "<i>Deathmatch</i> modes in first-person shooters such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> typically let the game facilitators to choose a time limit or frag (kill) limit to determine the winner. Those using the former of these are examples of <style=\"CurrentLink\">Time Limited Game Instances</style>.",
             "The experimental game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/4%20Minutes%20and%2033%20Seconds%20of%20Uniqueness\">4 Minutes and 33 Seconds of Uniqueness</link></style> is won and finished by being the sole player running the game for 4 minutes and 33 seconds.",
             "<style=\"H2\">Using the pattern</style>",
             "The basic requirement for <style=\"CurrentLink\">Time Limited Game Instances</style> is quite easy to achieve, one must simply decide upon a <style=\"Link\"><link=\"time-limits\">Time Limit</link></style> for a game instance. If one wishes to provide players with <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, a simple modification is to allow the players to set the <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> before gameplay starts. Another alternative is to make use of <style=\"Link\"><link=\"speedruns\">Speedruns</link></style> which encompass the whole game instance.",

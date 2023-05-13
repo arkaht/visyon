@@ -1,11 +1,7 @@
 {
     "name" : "Repeat Combos",
     "categories" : [
-        "Patterns",
-        "Needs work",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Patterns"
     ],
     "texts" : {
         "definition" : "Combos that consist of performing the same kind of action repeatedly a certain number of times within a certain time limit.",
@@ -15,7 +11,7 @@
             "<style=\"H3\">Examples</style>",
             "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CityVille\">CityVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Little%20Cave%20Hero\">Little Cave Hero</link></style> all begin counting towards a <style=\"CurrentLink\">Repeat Combo</style> when players pick up rewards given for completing actions or goals. Meeting the requirement for the <style=\"CurrentLink\">Repeat Combos</style> result in more rewards.",
             "Making high jumps repeatedly in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Icy%20Tower\">Icy Tower</link></style> begins combo counts that when continued result in both individual rewards for each additional jump and a final extra reward.",
-            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style> have several <style=\"CurrentLink\">Repeat Combos</style>, including the spy achievement ''You Only Shiv Twice'' (for backstabbing 3 enemies within 10 seconds), the engineer achievement ''Quick Draw'' (for killing a spy and two sappers within 10 seconds), the demo achievement ''Tam O'Shatter'' (for destroying 5 enemy engineer buildings during a single ''ÜberCharge'' from a Medic), and the general achievement ''Flamethrower'' (for setting five enemies on fire within 30 seconds).",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style> have several <style=\"CurrentLink\">Repeat Combos</style>, including the spy achievement <i>You Only Shiv Twice</i> (for backstabbing 3 enemies within 10 seconds), the engineer achievement <i>Quick Draw</i> (for killing a spy and two sappers within 10 seconds), the demo achievement ''Tam O'Shatter<i> (for destroying 5 enemy engineer buildings during a single </i>ÜberCharge<i> from a Medic), and the general achievement </i>Flamethrower'' (for setting five enemies on fire within 30 seconds).",
             "<style=\"H2\">Using the pattern</style>",
             "<style=\"CurrentLink\">Repeat Combos</style> basically consist of choosing a type of action, a number of times it needs to be done, a <style=\"Link\"><link=\"time-limits\">Time Limit</link></style> for doing these actions, and what <style=\"Link\"><link=\"rewards\">Rewards</link></style> should be given for succeeding. Acquiring <style=\"Link\"><link=\"reward-widgets\">Reward Widgets</link></style> is a common example of the action needed, and is used in both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CityVille\">CityVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ravenwood%20Fair\">Ravenwood Fair</link></style> but <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Icy%20Tower\">Icy Tower</link></style> shows an example of using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Jumping\">Jumping</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style> shows others still. While the first example is trivial and more an effect of having succeeded with previous actions, the two latter examples show that <style=\"CurrentLink\">Repeat Combos</style> can require skill.",
             "Succeeding with <style=\"CurrentLink\">Repeat Combos</style> typically initiates new ones, creating <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style> with an <style=\"Link\"><link=\"arithmetic-progression\">Arithmetic Progression</link></style>.",

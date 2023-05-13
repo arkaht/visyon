@@ -1,20 +1,16 @@
 {
     "name" : "Negotiable Game Sessions",
     "categories" : [
-        "To be Published",
         "Gameplay Adaptability Patterns",
         "Subjective Patterns",
-        "Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Patterns"
     ],
     "texts" : {
-        "definition" : "Note: This pattern is based upon the [[Underlying_Assumptions_and_Concepts#Game Sessions|Game Sessions]] concept from the activity-based framework used for developing the original gameplay design patterns collection.",
+        "definition" : "Support for players to have complete gameplay experiences while having influence over the time need and without negatively affecting other players' gameplay experience.",
         "markups" : [
-            "''Support for players to have complete gameplay experiences while having influence over the time need and without negatively affecting other players' gameplay experience.''",
+            "<style=\"Definition\">Support for players to have complete gameplay experiences while having influence over the time need and without negatively affecting other players' gameplay experience.</style>",
             "Players of any game may have preferences on how long the game should take to complete, and this may change between each time the game is played. Games that allow players to influence the time taken to play through them can be said to have <style=\"CurrentLink\">Negotiable Game Sessions</style>.",
-            "<style=\"Definition\">Note: This pattern is based upon the [[Underlying_Assumptions_and_Concepts#Game Sessions|Game Sessions]] concept from the activity-based framework used for developing the original gameplay design patterns collection.</style>",
+            "<i>Note: This pattern is based upon the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Underlying_Assumptions_and_Concepts#Game%20Sessions\">Game Sessions</link></style> concept from the activity-based framework used for developing the original gameplay design patterns collection.</i>",
             "<style=\"H3\">Examples</style>",
             "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sandbox%20Games\">Sandbox Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Dwarf Fortress</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style> does not force players to strive towards winning conditions and can for this reason continue to be played for as long as players find them interesting. Even those that have more explicit winning conditions, as for the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Elder%20Scrolls%20series\">Elder Scrolls series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style>, have <style=\"CurrentLink\">Negotiable Game Sessions</style> when they let players continue playing after the game is won.",
             "There is no natural ending point for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Call%20of%20Cthulhu\">Call of Cthulhu</link></style> as long as the game master and enough players are willing to continue. This gives these games a weak form of <style=\"CurrentLink\">Negotiable Game Sessions</style>.",

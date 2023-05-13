@@ -2,16 +2,12 @@
     "name" : "Chargers",
     "categories" : [
         "Patterns",
-        "Level Design Patterns",
-        "Needs revision",
-        "Needs examples",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Level Design Patterns"
     ],
     "texts" : {
-        "definition" : null,
+        "definition" : "Chargers are locations in game worlds that affect the players' resources when they are in the location.",
         "markups" : [
-            "''Chargers are locations in game worlds that affect the players' resources when they are in the location.''",
+            "<style=\"Definition\">Chargers are locations in game worlds that affect the players' resources when they are in the location.</style>",
             "Some games with game worlds have places that provide benefits to players as long as they are in them. When these benefits consist of recharging resources or adding speed these game world areas are <style=\"CurrentLink\">Chargers</style>.",
             "<style=\"H3\">Examples</style>",
             "Speed boosters in race games of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%20series\">Super Monkey Ball series</link></style> give, as their names imply, more speed to the player driving on top of the charger.",

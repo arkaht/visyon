@@ -2,20 +2,17 @@
     "name" : "Vehicles",
     "categories" : [
         "Patterns",
-        "Game Element Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Game Element Patterns"
     ],
     "texts" : {
         "definition" : "Game elements that allows for faster movement, or different types of movement, than that normally available.",
         "markups" : [
             "<style=\"Definition\">Game elements that allows for faster movement, or different types of movement, than that normally available.</style>",
             "Game worlds can be difficult to move through, either because the terrain is hazardous, one cannot traverse it because one does not have the right abilities, or simply because they are very large. To solve one or all of these issues games can, like in the real world, offer <style=\"CurrentLink\">Vehicles</style> as a solution. ",
-            "''Note: this pattern describes diegetic vehicles that can be entered or mounted to ease travel. Those vehicles that players control directly are in fact either <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style>.''",
+            "<i>Note: this pattern describes diegetic vehicles that can be entered or mounted to ease travel. Those vehicles that players control directly are in fact either <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style>.</i>",
             "<style=\"H3\">Examples</style>",
             "In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style> much of the gameplay revolves around using <style=\"CurrentLink\">Vehicles</style> that have been obtained by illegal means to solve various challenges.",
-            "Players of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Metal%20Slug%20series\">Metal Slug series</link></style> can find and start using the SV-001 or ''Metal Slug'' tank. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo series</link></style> lets players access a variety of military vehicles to gain air power, water maneuverability, increased fire power, as well as protection from small arms. Many of the <style=\"CurrentLink\">Vehicles</style> can in addition carry extra players than can either be gunners or simply passengers.",
+            "Players of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Metal%20Slug%20series\">Metal Slug series</link></style> can find and start using the SV-001 or <i>Metal Slug</i> tank. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo series</link></style> lets players access a variety of military vehicles to gain air power, water maneuverability, increased fire power, as well as protection from small arms. Many of the <style=\"CurrentLink\">Vehicles</style> can in addition carry extra players than can either be gunners or simply passengers.",
             "While its predecessor <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Morrowind\">Morrowind</link></style> allowed various forms of instantaneous travel between parts of the game world (including riding giant insects), <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oblivion\">Oblivion</link></style> lets players ride horses between the various adventure locations.",
             "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> that wish to simplify travel can build boats or lay railroads after having crafted the necessary game elements.",
             "<style=\"H2\">Using the pattern</style>",

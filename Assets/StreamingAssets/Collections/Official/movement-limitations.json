@@ -2,9 +2,7 @@
     "name" : "Movement Limitations",
     "categories" : [
         "Action Patterns",
-        "Patterns",
-        "Needs revision",
-        "Needs references"
+        "Patterns"
     ],
     "texts" : {
         "definition" : "Negative changes in how movement is done.",
@@ -12,7 +10,7 @@
             "<style=\"Definition\">Negative changes in how movement is done.</style>",
             "In games where movement is an important aspect of game play, limitations to movement abilities are common. These <style=\"CurrentLink\">Movement Limitations</style> may be part of the game environment and effect all players that enter an area, part of what defines specific game elements, or negative effects of hostile actions or dangerous events.",
             "<style=\"H3\">Examples</style>",
-            "Icy areas in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%2064\">Super Mario 64</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style> make steering difficult and affect acceleration and deceleration. The ''banana peel'', ''polygon ball'', and ''ice cube'' power-ups in the ''Monkey Race 2 party game'' in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%202\">Super Monkey Ball 2</link></style> all let players shoot or drop objects that negatively affect other players movement if hit.",
+            "Icy areas in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%2064\">Super Mario 64</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style> make steering difficult and affect acceleration and deceleration. The <i>banana peel</i>, <i>polygon ball</i>, and <i>ice cube</i> power-ups in the <i>Monkey Race 2 party game</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%202\">Super Monkey Ball 2</link></style> all let players shoot or drop objects that negatively affect other players movement if hit.",
             "Many racing games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%20series\">Super Monkey Ball series</link></style>, make the leading vehicle have a little lower maximum speed than the others vehicles in order to increase the chance of the other vehicles catching up, or have this as an balancing option.",
             "The boxes that have to be moved to specific spots in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style> also limit how players can move in the game, potentially trapping them and make levels impossible to solve. Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hey!%20That's%20My%20Fish!\">Hey! That's My Fish!</link></style> cause <style=\"CurrentLink\">Movement Limitations</style> to themselves and others during gameplay through the removal of ice blocks.",
             "<style=\"H2\">Using the pattern</style>",

@@ -2,15 +2,14 @@
     "name" : "Experimenting",
     "categories" : [
         "Patterns",
-        "Action Patterns",
-        "Needs revision"
+        "Action Patterns"
     ],
     "texts" : {
-        "definition" : "exploratory",
+        "definition" : "Exploratory actions done to learn the rules or state of a game, or to practice one's skills or strategies.",
         "markups" : [
-            "''Exploratory actions done to learn the rules or state of a game, or to practice one's skills or strategies.''",
+            "<style=\"Definition\">Exploratory actions done to learn the rules or state of a game, or to practice one's skills or strategies.</style>",
             "In all but the most simple of games, the complete consequences from actions performed are difficult to understand, but <style=\"CurrentLink\">Experimenting</style> can aid in understanding them. Actions may be tested for this reason simply because they have not been tested before if a player is willing to see a game session primarily as a learning period, but in other cases they may be necessary to do in all game sessions. Some games explicitly build <style=\"CurrentLink\">Experimenting</style> into gameplay as puzzles. In these cases, the actions used to test possible solutions are usually reversible.",
-            "<style=\"Definition\">exploratory</style>",
+            "Linderoth points out that actions in games are either <i>exploratory</i> or <i>performatory</i>, where the former can be seen as a form of <style=\"CurrentLink\">Experimenting</style>.",
             "<style=\"H3\">Examples</style>",
             "Gameplay in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mastermind\">Mastermind</link></style> consists of one player guessing the correct combination of colored pegs. As the chance for guessing correctly based only on luck is very small, successful gameplay requires that the player combines the results from different guesses to draw conclusions and uses the guesses as experiments. The abstract game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zendo\">Zendo</link></style> require players to set up arrangements of different colored pyramids to extrapolate the correct arrangement rules that a game master has decided to use for that particular game instance. Puzzle-solving in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style> can take the form of <style=\"CurrentLink\">Experimenting</style> since failures only require players to replay levels.",
             "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Incredible%20Machine%20game%20series\">Incredible Machine game series</link></style> lets players use a limit set of objects such as pipes, bowling balls, cats, candles, ropes, and balloons to try to reach goal states by making the objects interact with each other in certain ways. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pontifex\">Pontifex</link></style>, players' goals are to build bridges and to learn how the physics model works. The players' have to experiment with how cable, joints, and metal beams interact.",

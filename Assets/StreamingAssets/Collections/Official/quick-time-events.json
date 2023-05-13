@@ -2,10 +2,7 @@
     "name" : "Quick Time Events",
     "categories" : [
         "Patterns",
-        "Mechanical Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Mechanical Patterns"
     ],
     "texts" : {
         "definition" : "Sequences of interface actions given by games that players need to perform at once.",
@@ -15,12 +12,12 @@
             "<style=\"H3\">Examples</style>",
             "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon's%20Lair%20series\">Dragon's Lair series</link></style> was an early example of games that used <style=\"CurrentLink\">Quick Time Events</style> to let players avoid having their characters dying while trying to free a princess kidnapped by a dragon. While in this game all the actual gameplay was in form of <style=\"CurrentLink\">Quick Time Events</style>, later games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shenmue%20series\">Shenmue series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fahrenheit\">Fahrenheit</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Heavy%20Rain\">Heavy Rain</link></style> uses <style=\"CurrentLink\">Quick Time Events</style> interjected with other types of gameplay. ",
             "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/WarioWare%20series\">WarioWare series</link></style> can be said to consist of a large collection of mini games that are actually <style=\"CurrentLink\">Quick Time Events</style>. Likewise, the main interaction provided by the toy <i>Simon</i> can be said to be <style=\"CurrentLink\">Quick Time Events</style>.",
-            "Wikipedia has an entry about <style=\"CurrentLink\">Quick Time Events</style> including several examples<ref name=\"wiki\"/>",
+            "Wikipedia has an entry about <style=\"CurrentLink\">Quick Time Events</style> including several examples",
             "<style=\"H2\">Using the pattern</style>",
             "The gameplay aspects of design <style=\"CurrentLink\">Quick Time Events</style> are rather straight forward: what sequences of actions players need perform and when the events should occur. While some games (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon's%20Lair%20series\">Dragon's Lair series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/WarioWare%20series\">WarioWare series</link></style>) consist only of <style=\"CurrentLink\">Quick Time Events</style>, others use them to handle situations that are not covered by the main gameplay actions (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fahrenheit\">Fahrenheit</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resident%20Evil%204\">Resident Evil 4</link></style>). Obviously, they require that the games are <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>. Succeeding with <style=\"CurrentLink\">Quick Time Events</style> does not often provide <style=\"Link\"><link=\"rewards\">Rewards</link></style> to players; it is more common that <style=\"Link\"><link=\"penalties\">Penalties</link></style> are handed out for failing to follow the instructions and these <style=\"Link\"><link=\"penalties\">Penalties</link></style> are often harsh, e.g. the death of player's <style=\"Link\"><link=\"avatars\">Avatars</link></style>.",
             "Although not that common, <style=\"CurrentLink\">Quick Time Events</style> can let players choose from several actions to perform to let them have a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>. ",
             "<style=\"H3\">Diegetic Aspects</style>",
-            "As a form of <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"CurrentLink\">Quick Time Events</style> can provide specific presentations of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> but - as the ''Simon'' toy shows - this is not always the case since some <style=\"CurrentLink\">Quick Time Events</style> are abstract.",
+            "As a form of <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"CurrentLink\">Quick Time Events</style> can provide specific presentations of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> but - as the <i>Simon</i> toy shows - this is not always the case since some <style=\"CurrentLink\">Quick Time Events</style> are abstract.",
             "<style=\"H3\">Narrative Aspects</style>",
             "<style=\"CurrentLink\">Quick Time Events</style> can, like <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, be used to convey parts of <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>.",
             "<style=\"H2\">Consequences</style>",

@@ -1,18 +1,14 @@
 {
     "name" : "Always Vulnerable",
     "categories" : [
-        "Patterns",
-        "Needs revision",
-        "Needs examples",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Patterns"
     ],
     "texts" : {
-        "definition" : "This pattern is not about players always being vulnerable when they are playing; it is about players being vulnerable even when they are not even aware of gameplay events.",
+        "definition" : "The situation where players' resources in game instances can be threatened even when they are not playing.",
         "markups" : [
-            "''The situation where players' resources in game instances can be threatened even when they are not playing.''",
+            "<style=\"Definition\">The situation where players' resources in game instances can be threatened even when they are not playing.</style>",
             "Some game progress regardless of whether a player is playing. When this makes players' efforts or resources be at risk even when he or she is not playing, those players are <style=\"CurrentLink\">Always Vulnerable</style>.",
-            "<style=\"Definition\">This pattern is not about players always being vulnerable when they are playing; it is about players being vulnerable even when they are not even aware of gameplay events.</style>",
+            "Note: <i>This pattern is not about players always being vulnerable when they are playing; it is about players being vulnerable even when they are not even aware of gameplay events.</i>",
             "<style=\"H3\">Examples</style>",
             "Players' resource in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> and their villages in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Travian\">Travian</link></style> can be attacked even if the players themselves are not logged onto these games. This can also happen in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empires%20&%20Allies\">Empires & Allies</link></style> but the effects are less severe and can be avoided through having declared \"neutrality.\"",
             "<style=\"CurrentLink\">Always Vulnerable</style> may occur in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>. This is however not so much a question of which particular game system is being used as how game masters handle ",

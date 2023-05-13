@@ -1,26 +1,22 @@
 {
     "name" : "Self-Reported Positioning",
     "categories" : [
-        "To be Published",
         "Patterns",
         "Gameplay Adaptability Patterns",
         "Interface Patterns",
         "Platform Patterns",
-        "Pervasive Patterns",
-        "Needs revision",
-        "Needs examples",
-        "Patterns created on the Wiki"
+        "Pervasive Patterns"
     ],
     "texts" : {
-        "definition" : "Note: this pattern complies with the original definition of the concept of [[Self-Reported Positioning]] in that players choose what location to report and can thereby report locations far from where they actually are.",
+        "definition" : "Games where variations in players' physical locations are part of the gameplay but where the current locations are reported to the game by the players.",
         "markups" : [
-            "''Games where variations in players' physical locations are part of the gameplay but where the current locations are reported to the game by the players.''",
+            "<style=\"Definition\">Games where variations in players' physical locations are part of the gameplay but where the current locations are reported to the game by the players.</style>",
             "Some games use the location of players as input of the game state but need this information to be reported to where the game state is stored. Games have <style=\"CurrentLink\">Self-Reported Positioning</style> when this is done by the explicit actions of players",
-            "<style=\"Definition\">Note: this pattern complies with the original definition of the concept of [[Self-Reported Positioning]] in that players choose what location to report and can thereby report locations far from where they actually are.</style>",
+            "<i>Note: this pattern complies with the original definition of the concept of <style=\"CurrentLink\">Self-Reported Positioning</style> in that players choose what location to report and can thereby report locations far from where they actually are.</i>",
             "<style=\"H3\">Examples</style>",
-            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncle%20Roy%20All%20Around%20You\">Uncle Roy All Around You</link></style> is the game that originated the concept of <style=\"CurrentLink\">Self-Reported Positioning</style><ref name=\"benford\"/>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncle%20Roy%20All%20Around%20You\">Uncle Roy All Around You</link></style> is the game that originated the concept of <style=\"CurrentLink\">Self-Reported Positioning</style>.",
             "<style=\"H4\">Anti-Examples</style>",
-            "Location-based social network such as Foursquare<ref name=\"foursquare\"/> and Gowalla<ref name=\"gowalla\"/> let players check-in whenever they wish but the systems provide the actual information, so players cannot report other locations that ones where they actually are.",
+            "Location-based social network such as Foursquare and Gowalla let players check-in whenever they wish but the systems provide the actual information, so players cannot report other locations that ones where they actually are.",
             "<style=\"H2\">Using the pattern</style>",
             "<style=\"CurrentLink\">Self-Reported Positioning</style> requires that a game makes use of <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, but it is the easiest way to support this pattern since one only needs to make use of a communication system, not a sensing technology and a communication system.",
             "<style=\"H3\">Interface Aspects</style>",

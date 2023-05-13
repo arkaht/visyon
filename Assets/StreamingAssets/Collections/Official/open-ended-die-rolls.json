@@ -4,11 +4,6 @@
         "Mechanical Patterns",
         "Dice Patterns",
         "Patterns",
-        "Needs revision",
-        "Needs examples",
-        "Needs references",
-        "Patterns created on the Wiki",
-        "To be Published",
         "Randomness Patterns"
     ],
     "texts" : {
@@ -17,8 +12,8 @@
             "<style=\"Definition\">Die rolls where some results indicate making more die rolls to achieve the final result.</style>",
             "Dice are used in many games to create randomness. The range provided by the dice does however give a fixed interval of which results can be achieved before the roll is made. This can be avoided by letting certain results, e.g. a 6 on a 6-sided die, signify that additional dice should be rolled to create the random value. This makes the upper bound (since added dice are typically used to increase the result) of the die roll open-ended.",
             "<style=\"H3\">Examples</style>",
-            "The D6 System by West End Games<ref name=\"weg\"/> has one ''wild'' die for damage rolls and checks against skills or attributes. When a 6 is rolled on the ''wild'' die, another ''wild'' die is rolled to generate the result, and this can potentially continue forever.",
-            "The first edition of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> used <style=\"CurrentLink\">Open-Ended Die Rolls</style> for damage but required an additional success with a character's weapon skill to unlock the ''open-endedness'' if a 6 was rolled. This made it more probably for skilled fighters to do exceptional damage than unskilled ones.",
+            "The D6 System by West End Games has one <i>wild</i> die for damage rolls and checks against skills or attributes. When a 6 is rolled on the <i>wild</i> die, another <i>wild</i> die is rolled to generate the result, and this can potentially continue forever.",
+            "The first edition of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> used <style=\"CurrentLink\">Open-Ended Die Rolls</style> for damage but required an additional success with a character's weapon skill to unlock the <i>open-endedness</i> if a 6 was rolled. This made it more probably for skilled fighters to do exceptional damage than unskilled ones.",
             "<style=\"H2\">Using the pattern</style>",
             "The two main design choices regarding <style=\"CurrentLink\">Open-Ended Die Rolls</style> is what results trigger additional dice rolls and which rolls and dice the mechanic affects. The most common solution is that the highest result, i.e. a 6 on a D6 and a 20 on a D20, activates new rolls but adding more result increase the frequency with which the pattern manifests itself and the minimum can be used to create fumbles or critical failures. For cases where many dice are rolled initially, limiting the open-ended mechanic to one die is a way to not make the pattern occur too often (e.g. allowing additional die on any 6 on a 3D6 roll gives a 42% chance that at least one more die will need to be rolled). <style=\"CurrentLink\">Open-Ended Die Rolls</style> are most typically used for rolls against <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style> or <style=\"Link\"><link=\"skills\">Skills</link></style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>, and can be limited to <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> to make them exceptional compared to other <style=\"Link\"><link=\"characters\">Characters</link></style>.",
             "A specific issue with <style=\"CurrentLink\">Open-Ended Die Rolls</style> is that simple additions of extra dice have the effect that some values may not be possible to generate. For example, an <style=\"CurrentLink\">Open-Ended Die Roll</style> with a single D6 that triggers on a 6 can produce values between 1 and 5, 7 and 11, etc. but not 6, 12, 18, etc. This can be mitigated by modifying the result of each extra die with a -1 but this does make calculations more cumbersome to do mentally.",

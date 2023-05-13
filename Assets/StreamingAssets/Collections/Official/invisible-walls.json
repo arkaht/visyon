@@ -2,14 +2,12 @@
     "name" : "Invisible Walls",
     "categories" : [
         "Patterns",
-        "Needs revision",
-        "Needs references",
         "Level Design Patterns"
     ],
     "texts" : {
-        "definition" : null,
+        "definition" : "Obstacles in game worlds that limit the players' movement, but not vision.",
         "markups" : [
-            "''Obstacles in game worlds that limit the players' movement, but not vision.''",
+            "<style=\"Definition\">Obstacles in game worlds that limit the players' movement, but not vision.</style>",
             "It is not practical for all types of games to make their entire game worlds possible to visit for players since this would require either extensive production costs or similar gameplay everywhere. Even so, game designers may wish to show players somewhat more of the game worlds than is playable. One way of achieving this is to put up <style=\"CurrentLink\">Invisible Walls</style> that separate the gameplay areas from other, often less detailed, areas, so that an illusion of a greater game world can be created. Typically game designs try to steer players so that they do not become too interested in what is beyond the <style=\"CurrentLink\">Invisible Walls</style> since trying to get there will make players aware of their presence.",
             "<style=\"H3\">Examples</style>",
             "Some of the early flight simulators, e.g. the first installments of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Microsoft%20Flight%20Simulator%20series\">Microsoft Flight Simulator series</link></style>, used <style=\"CurrentLink\">Invisible Walls</style> to limit the area the player can enter. When encountering <style=\"CurrentLink\">Invisible Walls</style> planes essentially remained in the same location, even though it still seemed to fly over the terrain. However many much more recent games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20Sunshine\">Super Mario Sunshine</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style>, that also wish to portray large game worlds make use of <style=\"CurrentLink\">Invisible Walls</style> at certain places. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%202\">Portal 2</link></style> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%20series\">Portal series</link></style> does this as well to give an illusion of a larger world than the players can actual enter.",

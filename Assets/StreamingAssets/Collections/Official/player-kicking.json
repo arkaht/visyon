@@ -4,16 +4,13 @@
         "Patterns",
         "Action Patterns",
         "Interface Patterns",
-        "Gameplay Adaptability Patterns",
-        "Needs revision",
-        "Needs examples",
-        "Patterns created on the Wiki"
+        "Gameplay Adaptability Patterns"
     ],
     "texts" : {
         "definition" : "The extra-game action of removing a player from game instances.",
         "markups" : [
             "<style=\"Definition\">The extra-game action of removing a player from game instances.</style>",
-            "Even if all games have explicit or formalized rules at their core, additional rules govern the actual activities they support. These rules, called gaming rules<ref name=\"sjöblom\"/> or implicit rules<ref name=\"Salen&Zimmerman\"/>, also need to be followed and can in fact be more important to follow as long as failure to follow the formalized rules are unintentional (see Myers 2008 for an example of how following the official rules but not the social rules of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/City%20of%20Heroes\">City of Heroes</link></style> can result in a player being hated <ref name=\"myers\"/>). When players do not follow these more important set of rules, either the other players or the game facilitators can enforce that offending players do not play anymore, <style=\"CurrentLink\">Player Kicking</style> them, in order to be able to continue with the gaming activity.",
+            "Even if all games have explicit or formalized rules at their core, additional rules govern the actual activities they support. These rules, called gaming rules or implicit rules, also need to be followed and can in fact be more important to follow as long as failure to follow the formalized rules are unintentional (see Myers 2008 for an example of how following the official rules but not the social rules of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/City%20of%20Heroes\">City of Heroes</link></style> can result in a player being hated ). When players do not follow these more important set of rules, either the other players or the game facilitators can enforce that offending players do not play anymore, <style=\"CurrentLink\">Player Kicking</style> them, in order to be able to continue with the gaming activity.",
             "<style=\"H3\">Examples</style>",
             "Many team-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> have rules for banning players from the current match or future ones if they commit various fouls. Similarly, moderators of team-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>,  and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style>, , can ban players but here players can also ban each other through majority votes. This functionality is needed since not all games are supervised and since the players typically do not know each other and are distributed spatially.",
             "<style=\"H2\">Using the pattern</style>",

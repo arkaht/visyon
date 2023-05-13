@@ -2,19 +2,14 @@
     "name" : "Negative Feedback Loops",
     "categories" : [
         "Patterns",
-        "Dynamic Patterns",
-        "Needs revision",
-        "Needs examples",
-        "Needs references",
-        "Patterns created on the Wiki",
-        "To be Published"
+        "Dynamic Patterns"
     ],
     "texts" : {
         "definition" : "Rule systems that affect the game state to move a specific part of the game state towards a preset value.",
         "markups" : [
             "<style=\"Definition\">Rule systems that affect the game state to move a specific part of the game state towards a preset value.</style>",
             "Players try to use actions in games to manipulate the game state towards values conforming to their goals. However, this may ruin a planned experienced by designers or unbalance a game with many players. One way to work against this happening is to have rules in place that check the game state and when they defect values outside certain boundaries modify the game state in ways to nudge it back towards being inside the boundaries. Such design constructs are called <style=\"CurrentLink\">Negative Feedback Loops</style>. ",
-            "Wikipedia has an entry on [https://en.wikipedia.org/wiki/Negative_feedback Negative Feedback]. The chapter ''Games as Cybernetic Systems'' in Rules of Play<ref name=\"rop\"/> look extensively at positive and negative feedback loops and their use in games.",
+            "Wikipedia has an entry on [https://en.wikipedia.org/wiki/Negative_feedback Negative Feedback]. The chapter <i>Games as Cybernetic Systems</i> in Rules of Play look extensively at positive and negative feedback loops and their use in games.",
             "<style=\"H3\">Examples</style>",
             "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%20series\">Super Monkey Ball series</link></style> are two <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Game series</link></style> that make use of <style=\"CurrentLink\">Negative Feedback Loops</style>.",
             "<style=\"H2\">Using the pattern</style>",

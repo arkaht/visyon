@@ -3,14 +3,12 @@
     "categories" : [
         "Patterns",
         "Mechanical Patterns",
-        "Card Patterns",
-        "Needs revision",
-        "Needs references"
+        "Card Patterns"
     ],
     "texts" : {
-        "definition" : null,
+        "definition" : "Collection representing players' current resources of a certain type of game elements.",
         "markups" : [
-            "''Collection representing players' current resources of a certain type of game elements.''",
+            "<style=\"Definition\">Collection representing players' current resources of a certain type of game elements.</style>",
             "Games where players have several different game elements of the same hand in their possession but not in actual play have <style=\"CurrentLink\">Hands</style>. While some games have as winning conditions that players should have emptied these <style=\"CurrentLink\">Hands</style>, others use them for temporary storage or for places to collect valuable collections.",
             "<style=\"H3\">Examples</style>",
             "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Whist\">Whist</link></style> are all traditional <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style> that all use <style=\"CurrentLink\">Hands</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mahjong\">Mahjong</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Scrabble\">Scrabble</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tien%20Gow\">Tien Gow</link></style> are similar examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tile-Based%20Games\">Tile-Based Games</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bohnanza\">Bohnanza</link></style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Game</link></style> where the order of cards in a player's hand is important, as the players have to play the cards in a specific sequence. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/San%20Juan\">San Juan</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style> make use of <style=\"CurrentLink\">Hands</style> not only as storages of possible actions for players but also as their money resource. Players draw new <style=\"CurrentLink\">Hands</style> for each turn in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/RoboRally\">RoboRally</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style> and can in the two latter influence the contents of future <style=\"CurrentLink\">Hands</style> by purchasing new cards.",

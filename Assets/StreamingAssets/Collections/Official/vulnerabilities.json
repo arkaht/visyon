@@ -1,10 +1,7 @@
 {
     "name" : "Vulnerabilities",
     "categories" : [
-        "Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Patterns"
     ],
     "texts" : {
         "definition" : "Weaknesses that can be exploited by others.",
@@ -12,9 +9,9 @@
             "<style=\"Definition\">Weaknesses that can be exploited by others.</style>",
             "In games where one can suffer damage or other adverse effects, entities may be more vulnerable to some attacks than others may be. Having such <style=\"CurrentLink\">Vulnerabilities</style> mean that player have to adjust their gameplay to minimize the likelihood of these being exploited, but when others have them it can instead provide opportunities. If enemies are suspected of having <style=\"CurrentLink\">Vulnerabilities</style> this can lead to gameplay aimed at confirming the presence or absence of these. ",
             "<style=\"H3\">Examples</style>",
-            "In the fourth edition of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>, monsters that are ''vulnerable'' to a specific form of attack simply take a predetermined extra amount of damage each time such an attack hits them. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> has the disadvantage ''Vulnerability'' that multiplies damages from certain types of attack depending on how vulnerable one is.",
-            "The design of weapons and monsters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake\">Quake</link></style> have been described as having chains of vulnerabilities where one monster is vulnerable to one type of weapon, but that weapon makes the player vulnerable to another type of monster<ref name=\"Rollings\"/>.",
-            "The vampires in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> take damages if they are outdoors when the sun is up. The werewolves found in the ''Bloodmoon'' expansion of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Morrowind\">Morrowind</link></style> take double damage from silver weapons.",
+            "In the fourth edition of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>, monsters that are <i>vulnerable</i> to a specific form of attack simply take a predetermined extra amount of damage each time such an attack hits them. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> has the disadvantage <i>Vulnerability</i> that multiplies damages from certain types of attack depending on how vulnerable one is.",
+            "The design of weapons and monsters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake\">Quake</link></style> have been described as having chains of vulnerabilities where one monster is vulnerable to one type of weapon, but that weapon makes the player vulnerable to another type of monster.",
+            "The vampires in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> take damages if they are outdoors when the sun is up. The werewolves found in the <i>Bloodmoon</i> expansion of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Morrowind\">Morrowind</link></style> take double damage from silver weapons.",
             "<style=\"H2\">Using the pattern</style>",
             "The design of a <style=\"CurrentLink\">Vulnerability</style> consists of deciding which have it, what causes it, and what the effect is.",
             "<style=\"CurrentLink\">Vulnerabilities</style> can be applied equally well to <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, and <style=\"Link\"><link=\"units\">Units</link></style> and this may be those under players' control or their <style=\"Link\"><link=\"enemies\">Enemies</link></style> (including <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>). While this modulates how these entities work in games, <style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style> and <style=\"Link\"><link=\"weapons\">Weapons</link></style> can also be modulated by <style=\"CurrentLink\">Vulnerabilities</style> through being able to activate the <style=\"CurrentLink\">Vulnerabilities</style> (e.g. the possibility of having silver bullets to fight werewolves or vampires). <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style> can be seen as \"ordinary\" game objects that have <style=\"CurrentLink\">Vulnerabilities</style> that let them be destroyed. ",

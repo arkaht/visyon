@@ -3,17 +3,14 @@
     "categories" : [
         "Patterns",
         "Gameplay Adaptability Patterns",
-        "Needs revision",
-        "Needs references",
-        "Subjective Patterns",
-        "Patterns created on the Wiki"
+        "Subjective Patterns"
     ],
     "texts" : {
         "definition" : "Support for individual players to be able to decide how long their play sessions should be without negatively affecting the outcome or gameplay for all players.",
         "markups" : [
             "<style=\"Definition\">Support for individual players to be able to decide how long their play sessions should be without negatively affecting the outcome or gameplay for all players.</style>",
             "Many times playing a game is done over several play sessions. Players may have different preferences on how long these should be, and individual players may change their preferences from play session to play session. Games that include design options to let players have varying lengths of their play sessions without disrupting the gameplay progression (but not necessarily the gameplay experience) can be said to have <style=\"CurrentLink\">Negotiable Play Sessions</style>.",
-            "''Note: This pattern is based upon the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Underlying_Assumptions_and_Concepts#Play%20Sessions\">Play Sessions</link></style> concept from the activity-based framework used for developing the original gameplay design patterns collection.''",
+            "<i>Note: This pattern is based upon the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Underlying_Assumptions_and_Concepts#Play%20Sessions\">Play Sessions</link></style> concept from the activity-based framework used for developing the original gameplay design patterns collection.</i>",
             "<style=\"H3\">Examples</style>",
             "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzle%20Games\">Puzzle Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Angry%20Birds\">Angry Birds</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%20series\">Portal series</link></style> don't require the presence of other players (except the co-op variant of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%202\">Portal 2</link></style>) and players can retry individual levels without any penalties. This allows players to stop their current play sessions whenever they want with the only penalty being the possibly wasted time on one level.",
             "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style> can whenever they wish choose to start looking for nearby caches and suffer no penalty for stopping. Equipped with a GPS and access to the internet, the only potential problem for not being able to play whenever one wants to - besides other obligations one may have - is that there may be no caches nearby. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Insectopia\">Insectopia</link></style> functions rather similarly but uses Bluetooth device to generate game content. ",

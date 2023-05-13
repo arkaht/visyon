@@ -2,11 +2,7 @@
     "name" : "Repetition of Position Draws",
     "categories" : [
         "Patterns",
-        "Mechanical Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki",
-        "To be Published"
+        "Mechanical Patterns"
     ],
     "texts" : {
         "definition" : "Rules that make games end in draws if players make position or game states repeat themselves in a game instance.",
@@ -19,7 +15,7 @@
             "<style=\"H4\">Anti-Examples</style>",
             "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> forbids the direct repetition of an existing game state, and may forbid any repetition depending on which rule set is used.",
             "<style=\"H2\">Using the pattern</style>",
-            "The main reason for including <style=\"CurrentLink\">Repetition of Position Draws</style> in a game is to avoid a certain type of <style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style>. The main choices is how many repetitions are allowed and if only directly repetitions are counted. Unless computer or referee support exists, keeping track of all previous positions or game states can be problematic for players. As direct repetition often suffices, but as a parallel one can consider the issues with ''ko'' and ''superko'' situations in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>.",
+            "The main reason for including <style=\"CurrentLink\">Repetition of Position Draws</style> in a game is to avoid a certain type of <style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style>. The main choices is how many repetitions are allowed and if only directly repetitions are counted. Unless computer or referee support exists, keeping track of all previous positions or game states can be problematic for players. As direct repetition often suffices, but as a parallel one can consider the issues with <i>ko</i> and <i>superko</i> situations in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>.",
             "<style=\"H2\">Consequences</style>",
             "<style=\"CurrentLink\">Repetition of Position Draws</style> provides one way of achieving <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> in a game, and this may provide a tactic for disadvantaged players.",
             "<style=\"H2\">Relations</style>",

@@ -3,11 +3,7 @@
     "categories" : [
         "Patterns",
         "Interface Patterns",
-        "Platform Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki",
-        "To be Published"
+        "Platform Patterns"
     ],
     "texts" : {
         "definition" : "Gameplay where the players interaction with the game state and/or each other is done through a system.",
@@ -24,7 +20,7 @@
             "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style> also create <style=\"CurrentLink\">Mediated Gameplay</style>, but this is most often a natural consequence of using that pattern (and most often in games that have <style=\"CurrentLink\">Mediated Gameplay</style> anyway) than a motivation for using the pattern.",
             "<style=\"H3\">Interface Aspects</style>",
             "<style=\"CurrentLink\">Mediated Gameplay</style> assumes the presence of an interface that controls at least parts of how players can interact with the game system and each other. For this reason, it is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. This makes decisions on what information is presented to players a central part of designing <style=\"CurrentLink\">Mediated Gameplay</style>, with options on giving <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> on both local and global levels of the game state.",
-            "While many other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Patterns</link></style> can be part of <style=\"CurrentLink\">Mediated Gameplay</style>, they do not necessarily need to be so since the gameplay may primarily be done unmediated with only some presentations being mediated. Patterns which are difficult to support ''without'' <style=\"CurrentLink\">Mediated Gameplay</style> include <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>, <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>, and <style=\"Link\"><link=\"vision-modes\">Vision Modes</link></style>. While <style=\"Link\"><link=\"self-reported-positioning\">Self-Reported Positioning</link></style> also requires <style=\"CurrentLink\">Mediated Gameplay</style>, it modulates the pattern rather than is created by it.",
+            "While many other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Patterns</link></style> can be part of <style=\"CurrentLink\">Mediated Gameplay</style>, they do not necessarily need to be so since the gameplay may primarily be done unmediated with only some presentations being mediated. Patterns which are difficult to support <i>without</i> <style=\"CurrentLink\">Mediated Gameplay</style> include <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>, <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>, and <style=\"Link\"><link=\"vision-modes\">Vision Modes</link></style>. While <style=\"Link\"><link=\"self-reported-positioning\">Self-Reported Positioning</link></style> also requires <style=\"CurrentLink\">Mediated Gameplay</style>, it modulates the pattern rather than is created by it.",
             "<style=\"H3\">Narration Aspects</style>",
             "Since <style=\"CurrentLink\">Mediated Gameplay</style> gives the design a possibility to control how players experience the gameplay and <style=\"Link\"><link=\"game-worlds\">Game World</link></style>, it is a powerful tool in enforcing <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> and providing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>.",
             "<style=\"H2\">Consequences</style>",

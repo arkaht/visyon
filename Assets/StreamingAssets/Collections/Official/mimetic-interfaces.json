@@ -2,11 +2,7 @@
     "name" : "Mimetic Interfaces",
     "categories" : [
         "Interface Patterns",
-        "Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki",
-        "To be Published"
+        "Patterns"
     ],
     "texts" : {
         "definition" : "Gameplay where sensors measures how well a player performs actions in the game.",
@@ -23,7 +19,7 @@
             "<style=\"CurrentLink\">Mimetic Interfaces</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
             "<style=\"H2\">Consequences</style>",
             "<style=\"CurrentLink\">Mimetic Interfaces</style> require the <style=\"Link\"><link=\"enactment\">Enactment</link></style> of actions by players, and may depend on <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style> if these actions closely relate to skill sets in the real world. Since the action to be performed are typically based on those some type of role (e.g. athlete, musician, etc.), <style=\"CurrentLink\">Mimetic Interfaces</style> open up for <style=\"Link\"><link=\"role-fulfillment\">Role Fulfillment</link></style> goals. However, since they tend to attract attention, they are often <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competing%20for%20Attention\">Competing for Attention</link></style> and work against a game having <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>.",
-            "<style=\"CurrentLink\">Mimetic Interfaces</style> can provide players with <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> in several ways: they can be playing the actual music the players can trick themselves into feeling that they are playing, they can be tolerant in how they judge, and by letting players continue to perform they can make players believe that they are performing well regardless of how well they are doing the actual actions. Juul discusses part of these effects through the concept of the <i>Magic Crayon\" in his book \"A Casual Revolution</i>.",
+            "<style=\"CurrentLink\">Mimetic Interfaces</style> can provide players with <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> in several ways: they can be playing the actual music the players can trick themselves into feeling that they are playing, they can be tolerant in how they judge, and by letting players continue to perform they can make players believe that they are performing well regardless of how well they are doing the actual actions. Juul discusses part of these effects through the concept of the \"Magic Crayon\" in his book \"A Casual Revolution\".",
             "<style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style> and <style=\"CurrentLink\">Mimetic Interfaces</style> deal with similar aspects of gameplay but are not compatible since the former uses non-game actions and activities as input to a game while the latter has activities within the game that are similar to non-game activities. ",
             "Since <style=\"Link\"><link=\"ai-players\">AI Players</link></style> typically work within the software part of a game, such players are difficult to use with <style=\"CurrentLink\">Mimetic Interfaces</style> (<style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style> can be used with <style=\"Link\"><link=\"ai-players\">AI Players</link></style> to overcome this issue). ",
             "<style=\"H2\">Relations</style>",

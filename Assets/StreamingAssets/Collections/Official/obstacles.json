@@ -3,15 +3,13 @@
     "categories" : [
         "Patterns",
         "Level Design Patterns",
-        "Game Element Patterns",
-        "Needs revision",
-        "Needs references"
+        "Game Element Patterns"
     ],
     "texts" : {
         "definition" : "Game elements that hinder players from taking the shortest route between two places in game worlds.",
         "markups" : [
             "<style=\"Definition\">Game elements that hinder players from taking the shortest route between two places in game worlds.</style>",
-            "One definition of playing a game is <i>the voluntary attempt to overcome unnecessary obstacles</i>. This can be applied literally by requiring that navigation in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> take into consideration diegetically present physical <style=\"CurrentLink\">Obstacles</style>. Often the <style=\"CurrentLink\">Obstacles</style> may be moved, destroyed, or avoided by specific actions but until this has been done (and it has become possible to do so), the Obstacles slow or block the players' progress in the game.",
+            "One definition of playing a game is \"the voluntary attempt to overcome unnecessary obstacles\". This can be applied literally by requiring that navigation in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> take into consideration diegetically present physical <style=\"CurrentLink\">Obstacles</style>. Often the <style=\"CurrentLink\">Obstacles</style> may be moved, destroyed, or avoided by specific actions but until this has been done (and it has become possible to do so), the Obstacles slow or block the players' progress in the game.",
             "<style=\"H3\">Examples</style>",
             "A typical kind of <style=\"CurrentLink\">Obstacles</style> are locked doors that require keys of various kinds. Examples of games that have this include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda%20series\">The Legend of Zelda series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leisure%20Suit%20Larry%20series\">Leisure Suit Larry series</link></style>.",
             "Walls are <style=\"CurrentLink\">Obstacles</style> to both movement and laser firing in the board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/RoboRally\">RoboRally</link></style>. It also stops movement in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ricochet%20Robots\">Ricochet Robots</link></style> but here this can be advantageous since the robots cannot stop in any other way, and choosing the right walls (and other robots) to collide with is the only way to reach the goal destinations.",

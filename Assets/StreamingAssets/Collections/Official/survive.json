@@ -2,11 +2,7 @@
     "name" : "Survive",
     "categories" : [
         "Patterns",
-        "Goal Patterns",
-        "Needs work",
-        "Needs revision",
-        "Needs references",
-        "To be Published"
+        "Goal Patterns"
     ],
     "texts" : {
         "definition" : "The goal of trying to avoid having game elements being eliminated, killed, or otherwise removed from gameplay.",
@@ -27,7 +23,7 @@
             "<style=\"H3\">Narration Aspects</style>",
             "<style=\"CurrentLink\">Survive</style> goals tied to other entities than those controlled by players, i.e., <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style>, offer the possibility of <style=\"Link\"><link=\"quests\">Quests</link></style> that can readily be tied to a game's narration.",
             "<style=\"H2\">Consequences</style>",
-            "<style=\"CurrentLink\">Survive</style> is an example of a <style=\"Link\"><link=\"continuous-goals\">Continuous Goal</link></style> in that succeeding with it requires maintaining a state (i.e., being ''alive'') over time. It often functions as a <style=\"Link\"><link=\"preventing-goals\">Preventing Goal</link></style> also whenever there is some player of <style=\"Link\"><link=\"agents\">Agent</link></style> that has a relevant <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goal. That is, <style=\"CurrentLink\">Survive</style> and <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> often function as <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> to each other.",
+            "<style=\"CurrentLink\">Survive</style> is an example of a <style=\"Link\"><link=\"continuous-goals\">Continuous Goal</link></style> in that succeeding with it requires maintaining a state (i.e., being <i>alive</i>) over time. It often functions as a <style=\"Link\"><link=\"preventing-goals\">Preventing Goal</link></style> also whenever there is some player of <style=\"Link\"><link=\"agents\">Agent</link></style> that has a relevant <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goal. That is, <style=\"CurrentLink\">Survive</style> and <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> often function as <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> to each other.",
             "<style=\"H2\">Relations</style>",
             "<style=\"H3\">Can Instantiate</style>",
             "<style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",

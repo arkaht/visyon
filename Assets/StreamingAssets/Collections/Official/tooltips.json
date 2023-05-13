@@ -3,10 +3,7 @@
     "categories" : [
         "Patterns",
         "Interface Patterns",
-        "Information Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki"
+        "Information Patterns"
     ],
     "texts" : {
         "definition" : "Additional information presented when players have focused on a game element.",
@@ -14,11 +11,11 @@
             "<style=\"Definition\">Additional information presented when players have focused on a game element.</style>",
             "Providing players with the right amount of information can be problematic in games, since giving either too much or too little can work against an optimal gameplay experience. Computer-based games have an opportunity regarding this that other game forms do not have; they can ",
             "This pattern is a still a stub.",
-            "''Note:'' this pattern exists in many design pattern collections for interaction design. However, being related quite specifically to information it can affect gameplay more directly than other interaction design patterns.",
+            "<i>Note:</i> this pattern exists in many design pattern collections for interaction design. However, being related quite specifically to information it can affect gameplay more directly than other interaction design patterns.",
             "<style=\"H3\">Examples</style>",
             "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> provide <style=\"CurrentLink\">Tooltips</style> regarding the resource generator of terrain when players let mouse pointers hover over them.",
             "Most of the game elements in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts%20of%20Iron%20series\">Hearts of Iron series</link></style> show some <style=\"CurrentLink\">Tooltips</style> when focused upon.",
-            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> makes use of <style=\"CurrentLink\">Tooltips</style> as well, but allows players to choose from having ''beginner'' <style=\"CurrentLink\">Tooltips</style> or ordinary ones.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> makes use of <style=\"CurrentLink\">Tooltips</style> as well, but allows players to choose from having <i>beginner</i> <style=\"CurrentLink\">Tooltips</style> or ordinary ones.",
             "<style=\"H2\">Using the pattern</style>",
             "<style=\"CurrentLink\">Tooltips</style> are a way of providing information to players in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> by adding text overlays on things they focus upon, so they imply a use of <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>. Besides deciding what game elements should have <style=\"CurrentLink\">Tooltips</style> and what information should be provided, the main design choice in implementing the pattern is how long time one has to focus before the <style=\"CurrentLink\">Tooltips</style> are shown. What players are focused upon is usually a simple case of checking what their <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> or <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> are pointing at.",
             "While <style=\"CurrentLink\">Tooltips</style> in games typically provide information about the gameplay, they may also provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style> regarding the game interface or other ways of playing the game.",

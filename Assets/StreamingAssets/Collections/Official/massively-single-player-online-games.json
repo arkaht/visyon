@@ -2,15 +2,13 @@
     "name" : "Massively Single-Player Online Games",
     "categories" : [
         "Patterns",
-        "Needs revision",
-        "Player Patterns",
-        "Patterns created on the Wiki"
+        "Player Patterns"
     ],
     "texts" : {
-        "definition" : null,
+        "definition" : "Games that make use of other players' game instances to provide input to the game state.",
         "markups" : [
-            "''Games that make use of other players' game instances to provide input to the game state.''",
-            "Many games, ranging from <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Solitaire\">Solitaire</link></style> to computer games where one players against the computer, are single-player games. These can however have some aspects of multiplayer games by letting the actions of other players in other games somehow influence the gameplay. These games are called <style=\"CurrentLink\">Massively Single-Player Online Games</style> due to the fact that they have become feasible mainly through automation computers offers and the connectivity the internet provides. They let designers provide players with a middle option between the socially loaded gameplay of multiplayer games and the isolated gameplay of single-player games - single-player games can of course provide or encourage social interaction outside gameplay and play sessions (c.f. Stenros 2009<ref name=\"Stenros\"/>).",
+            "<style=\"Definition\">Games that make use of other players' game instances to provide input to the game state.</style>",
+            "Many games, ranging from <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Solitaire\">Solitaire</link></style> to computer games where one players against the computer, are single-player games. These can however have some aspects of multiplayer games by letting the actions of other players in other games somehow influence the gameplay. These games are called <style=\"CurrentLink\">Massively Single-Player Online Games</style> due to the fact that they have become feasible mainly through automation computers offers and the connectivity the internet provides. They let designers provide players with a middle option between the socially loaded gameplay of multiplayer games and the isolated gameplay of single-player games - single-player games can of course provide or encourage social interaction outside gameplay and play sessions (c.f. Stenros 2009).",
             "<style=\"H3\">Examples</style>",
             "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crobots\">Crobots</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style> are less obvious examples of <style=\"CurrentLink\">Massively Single-Player Online Games</style> that precede online gaming. The code and messages created by players of the games are stored locally on the computers they are played on and can only affect the game instances that follow on that computer, or on computer that have been installed with all the files from those game installations.",
             "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spore\">Spore</link></style> can create their own species, vehicles and buildings as part of following a species development from single cell life-form to interstellar society. The other life-forms encountered during the gameplay are a mix of those created by the game developers and those created by other players are downloaded from online sources.",

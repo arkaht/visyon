@@ -1,18 +1,14 @@
 {
     "name" : "Game Termination Penalties",
     "categories" : [
-        "Patterns",
-        "Needs revision",
-        "Needs references",
-        "Patterns created on the Wiki",
-        "To be Published"
+        "Patterns"
     ],
     "texts" : {
-        "definition" : "this pattern is based on the concept \"Game termination punishment\" by Juul<ref name=\"juul\"/>.",
+        "definition" : "The penalty of having one's game session terminated while the game instance continues.",
         "markups" : [
-            "''The penalty of having one's game session terminated while the game instance continues.''",
+            "<style=\"Definition\">The penalty of having one's game session terminated while the game instance continues.</style>",
             "Some games don't let all players continue playing until the game instance is ended, but instead cancel their personal game sessions earlier. These cancellations are <style=\"CurrentLink\">Game Termination Penalties</style> when done as penalties for failing some action or due to being the target of certain actions.",
-            "<style=\"Definition\">this pattern is based on the concept \"Game termination punishment\" by Juul<ref name=\"juul\"/>.</style>",
+            "Note: <i>this pattern is based on the concept \"Game termination punishment\" by Juul.</i> ",
             "<style=\"H3\">Examples</style>",
             "Players who can't afford to pay the rent they owe in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> are not allowed to play anymore. The same goes for players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coup\">Coup</link></style> that lose their last role card.",
             "Losing all one's lives or running out of time in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Missile%20Command\">Missile Command</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sega%20Rally\">Sega Rally</link></style> cannot continue to play. However, some (including <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sega%20Rally\">Sega Rally</link></style> but also <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gauntlet\">Gauntlet</link></style>) let players insert more coins to continue playing.",

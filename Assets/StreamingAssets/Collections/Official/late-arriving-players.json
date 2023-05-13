@@ -2,16 +2,13 @@
     "name" : "Late Arriving Players",
     "categories" : [
         "Patterns",
-        "Needs revision",
-        "Needs references",
         "Player Patterns",
-        "Patterns created on the Wiki",
         "Gameplay Adaptability Patterns"
     ],
     "texts" : {
-        "definition" : "before",
+        "definition" : "The designed support to allow players to join play sessions of a game independently of when other players' play sessions start.",
         "markups" : [
-            "''The designed support to allow players to join play sessions of a game independently of when other players' play sessions start.''",
+            "<style=\"Definition\">The designed support to allow players to join play sessions of a game independently of when other players' play sessions start.</style>",
             "It is not always possible to synchronize so that all players wishing to play a game can start simultaneously, most often because people are not willing to wait long enough. To avoid this problem, games can support <style=\"CurrentLink\">Late Arriving Players</style> to give players more flexibility in when they have to be present to be part of a game. For asynchronous games or games where you don't know all the people that are playing, it this may be necessary for gameplay to be able to begin at all.",
             "<style=\"H3\">Examples</style>",
             "Gambling games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style> can quite easily accommodate <style=\"CurrentLink\">Late Arriving Players</style> since these consists of many rounds with only one resource changing between them. Similar games but with more complex structures, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style> have difficulties doing so since the gameplay is designed to structure the flow of resources more precisely. ",
@@ -33,7 +30,7 @@
             "<style=\"H2\">Consequences</style>",
             "Allowing <style=\"CurrentLink\">Late Arriving Players</style> causes <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style> to occur and typically affects <style=\"Link\"><link=\"startgame\">Startgame</link></style> phases. Supporting <style=\"CurrentLink\">Late Arriving Players</style> provides one half of the necessary functionality to have <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> in a game, the other being <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style>, or <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>. As mentioned in the previous section, the support of <style=\"CurrentLink\">Late Arriving Players</style> may cause problems concerning <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>, and <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> unless countered by other means. The kicking of any player except <style=\"Link\"><link=\"ai-players\">AI Players</link></style> to make room for <style=\"CurrentLink\">Late Arriving Players</style> are an example of <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>.",
             "Since the new players are most likely to not have the exact same conditions as the already present players, the pattern provides <style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>. If the introduction of a new player adds new game elements, <style=\"CurrentLink\">Late Arriving Players</style> instantiates <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>.",
-            "<style=\"Definition\">before</style>",
+            "<style=\"CurrentLink\">Late Arriving Players</style> gives players a greater <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> of when to start play sessions (e.g. players in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%202\">Left 4 Dead 2</link></style> can vote when to begin a game and the game system automatically adds <style=\"Link\"><link=\"ai-players\">AI Players</link></style> to fill the empty player slots). Letting players start play session before all players have arrived, <style=\"CurrentLink\">Late Arriving Players</style> thereby hinders <style=\"Link\"><link=\"downtime\">Downtime</link></style> <i>before</i> game instances have started. Removing the need to have all players present when play sessions should begin also makes it easier for game design to support <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>.",
             "<style=\"H2\">Relations</style>",
             "<style=\"H3\">Can Instantiate</style>",
             "<style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style>",
