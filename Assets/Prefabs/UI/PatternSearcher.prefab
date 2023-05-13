@@ -310,8 +310,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UINodeSearcher, Assembly-CSharp
+      - m_Target: {fileID: 484044014120033122}
+        m_TargetAssemblyTypeName: UIPatternSearcher, Assembly-CSharp
         m_MethodName: UpdateSearchFilter
         m_Mode: 1
         m_Arguments:

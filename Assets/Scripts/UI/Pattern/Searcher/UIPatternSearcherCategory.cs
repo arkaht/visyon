@@ -72,16 +72,25 @@ public class UIPatternSearcherCategory : MonoBehaviour
 		);
 	}
 
-	public void FilterByName( string search_text )
+	public int FilterByName( string search_text )
 	{
+		int count = 0;
+
 		//  filter active choices
 		choices.ForEach( 
 			choice =>
 			{
 				string lower_name = choice.Name.ToLower();
-				choice.gameObject.SetActive( lower_name.Contains( search_text ) );
+				bool is_active = lower_name.Contains( search_text );
+				choice.gameObject.SetActive( is_active );
+
+				if ( is_active )
+					count++;
 			}
 		);
+
+		if ( count > 0 )
+			InvalidateLayout();
 		
 		//  filter cached choices
 		for ( int i = 0; i < cachedChoices.Count; i++ )
@@ -89,9 +98,12 @@ public class UIPatternSearcherCategory : MonoBehaviour
 			CachedChoice choice = cachedChoices[i];
 			choice.IsFilteredOut = !choice.Name.ToLower().Contains( search_text );
 			cachedChoices[i] = choice;
+
+			if ( !choice.IsFilteredOut )
+				count++;
 		}
 
-		InvalidateLayout();
+		return count;
 	}
 
 	public void Clear()

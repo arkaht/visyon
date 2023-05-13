@@ -25,6 +25,7 @@ public class UIPatternSearcher : MonoBehaviour
 	private GameObject categoryPrefab;
 
 	private readonly Dictionary<string, UIPatternSearcherCategory> categories = new();
+	private readonly HashSet<string> currentCategories = new();
 	private bool isRemoveCalled = false;
 	private string globalCategory = ALL_PATTERNS_CATEGORY;
 
@@ -50,6 +51,22 @@ public class UIPatternSearcher : MonoBehaviour
 
 		Clear();
 		Populate();
+	}
+
+	public void UpdateSearchFilter()
+	{
+		string search_text = searchField.text.ToLower();
+		foreach ( string id in categories.Keys )
+		{
+			if ( !currentCategories.Contains( id ) ) continue;
+
+			UIPatternSearcherCategory category = categories[id];
+			int count = category.FilterByName( search_text );
+			if ( count > 0 )
+				category.Show();
+			else
+				category.Hide();
+		}
 	}
 
 	public void OnChoiceClicked()
@@ -119,6 +136,7 @@ public class UIPatternSearcher : MonoBehaviour
 		}
 
 		//  update categories visibility
+		currentCategories.Clear();
 		foreach ( string id in categories.Keys )
 		{
 			UIPatternSearcherCategory category = categories[id];
@@ -127,21 +145,30 @@ public class UIPatternSearcher : MonoBehaviour
 				if ( IsCategorizing )
 					category.Hide();
 				else
+				{
 					category.Show();
+					currentCategories.Add( id );
+				}
 			}
 			else
 			{
 				if ( IsCategorizing )
+				{
 					category.Show();
+					currentCategories.Add( id );
+				}
 				else
 					category.Hide();
 			}
 		}
+
+		UpdateSearchFilter();
 	}
 
 	public void Clear()
 	{
 		IsCategorizing = false;
+		searchField.text = "";
 
 		TransformUtils.Clear( content );
 		categories.Clear();
