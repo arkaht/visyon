@@ -255,7 +255,7 @@ namespace Visyon.Wiki
 				}
 
 				//  search: definition
-				if ( definition == null && ( match = Regex.Match( line, REG_DEFINITION ) ).Success )
+				if ( definition == null && ( match = Regex.Match( line.Trim(), REG_DEFINITION ) ).Success )
 				{
 					definition = match.Groups[1].ToString();
 					markups.Add( TextMarkup.AsDefinition( definition ) );
