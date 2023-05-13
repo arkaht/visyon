@@ -362,7 +362,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3431269408762110400}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d37116fa09d90334aa524eb42b8404ed, type: 3}
+  m_Script: {fileID: 11500000, guid: e74d0699f4aafb24baa3987333ac6ca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Data: {fileID: 11400000, guid: f8925b4499d0a044196e3a0d4feabe03, type: 2}
@@ -621,10 +621,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8785430748586347147}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1338b7f88f31f5c4786b60f3035d6dea, type: 3}
+  m_Script: {fileID: 11500000, guid: 03123105a57b53d48b05c94ecee8e993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: tools
+  ID: ability-losses
   tmpName: {fileID: 8785430747617202972}
   tmpDefinition: {fileID: 663335982579609206}
   pins:
@@ -931,7 +931,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cddce452d10081f438013df23567278d, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e96ed9ef560404dac3f613df54c023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1872020267167642237
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cddce452d10081f438013df23567278d, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e96ed9ef560404dac3f613df54c023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &5646743794739494645
@@ -1224,7 +1224,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5971041994387634432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cddce452d10081f438013df23567278d, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e96ed9ef560404dac3f613df54c023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &4656173814513777410 stripped
@@ -1374,7 +1374,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cddce452d10081f438013df23567278d, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e96ed9ef560404dac3f613df54c023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &6277517074678294539 stripped
