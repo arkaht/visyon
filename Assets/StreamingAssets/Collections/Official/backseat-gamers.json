@@ -1,0 +1,59 @@
+{
+    "name" : "Backseat Gamers",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "People not playing a game that are trying to influence gameplay of a game by influencing the actions and opinions of the players.",
+        "markups" : [
+            "<style=\"Definition\">People not playing a game that are trying to influence gameplay of a game by influencing the actions and opinions of the players.</style>",
+            "In many cases when games are being played, people not playing the game are able to observe it. Those people that also try to affect the outcome of the game through communicating with the actual players are <style=\"CurrentLink\">Backseat Gamers</style>.",
+            "<i>Note: Although players rather than gamers are used in this pattern to describe those engaged in gameplay, those trying to affect the gameplay are described as gamers. This since the influence they are trying to achieve typically relates to manipulating the game state, i.e. gaming, rather than the other types of activities a game can support.</i>",
+            "<style=\"H3\">Examples</style>",
+            "Cheering crowds in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style> are <style=\"CurrentLink\">Backseat Gamers</style>. So are the coaches of sport teams although they typically have more explicit abilities (and power) to control the players' actions.",
+            "Single-player <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> are typically games that easily accommodate <style=\"CurrentLink\">Backseat Gamers</style> since several people can simultaneously view the display showing the game. While fast-paced games can make giving advice hard, game focusing on open world exploration (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>) or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Turn-Based%20Games\">Turn-Based Games</link></style> (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/X-COM%20series\">X-COM series</link></style>) typically allow players to take in comments from those nearby while still being able to play without being handicapped. ",
+            "While the game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Backseat%20Gaming\">Backseat Gaming</link></style> may seem to directly point towards supporting <style=\"CurrentLink\">Backseat Gamers</style>, it actually refers to the fact that the players of the game sit in the backseat of cars. This does however not stop the other passengers, including those sitting in the front seats from being <style=\"CurrentLink\">Backseat Gamers</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The primary requirement for <style=\"CurrentLink\">Backseat Gamers</style> to be possible is only that the game can have <style=\"Link\"><link=\"spectators\">Spectators</link></style>. One way of modulating the pattern is to allow <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay - this way people can move between being <style=\"CurrentLink\">Backseat Gamers</style> and being actual players (which is a way to support <style=\"Link\"><link=\"tiered-participation\">Tiered Participation</link></style> in a game).",
+            "The difference between <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style> and <style=\"CurrentLink\">Backseat Gamers</style> is mainly in the awareness of \"non-players\" if they are affecting a game.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Supporting <style=\"CurrentLink\">Backseat Gamers</style> does require some way for people besides the players observing the gameplay. This is typically not a problem with traditional <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> or those co-located with players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style>. Although not common, hypothetically <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> could support <style=\"CurrentLink\">Backseat Gamers</style> not near the actual players by having specific <style=\"Link\"><link=\"spectators\">Spectator</link></style> views and <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> between the <style=\"Link\"><link=\"spectators\">Spectators</link></style> and the players.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Backseat Gamers</style> allow those not playing a game to influence it anyway. This is a form of <style=\"Link\"><link=\"tiered-participation\">Tiered Participation</link></style> and can support a sense of <style=\"Link\"><link=\"togetherness\">Togetherness</link></style> between those playing and those not playing.",
+            "<style=\"CurrentLink\">Backseat Gamers</style> may disrupt the social agreement a game instance is based on. This since the extra help may be perceived as cheating. While not necessarily noticeable in <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, this makes the pattern easily come in conflict with <style=\"Link\"><link=\"pvp\">PvP</link></style> for games that have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>.",
+            "Regardless of if it takes place in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> or <style=\"Link\"><link=\"multiplayer-games\">Multiplayer ones</link></style>, <style=\"CurrentLink\">Backseat Gamers</style> can make the ordinary players into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Proxy%20Players\">Proxy Players</link></style> if they are allowed to influence them too much.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Proxy%20Players\">Proxy Players</link></style>, <style=\"Link\"><link=\"tiered-participation\">Tiered Participation</link></style>, <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"hotseating\">Hotseating</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style> in <style=\"Link\"><link=\"pvp\">PvP</link></style> games"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "proxy-players",
+            "tiered-participation",
+            "togetherness"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "hotseating",
+            "spectators"
+        ],
+        "modulated_by" : [
+            "drop-in-drop-out"
+        ],
+        "conflicts" : [
+            "unmediated-social-interaction"
+        ]
+    }
+}

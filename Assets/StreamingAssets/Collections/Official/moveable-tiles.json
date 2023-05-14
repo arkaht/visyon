@@ -1,0 +1,75 @@
+{
+    "name" : "Moveable Tiles",
+    "categories" : [
+        "Patterns",
+        "Level Design Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game elements that move in diegetic game world but not by their own agency.",
+        "markups" : [
+            "<style=\"Definition\">Game elements that move in diegetic game world but not by their own agency.</style>",
+            "While players often control game elements that have more or less free movement in games, and encounter enemies that can do likewise, some games are other game elements that either have predetermined movement or only move when pushed or pulled. These other types of moving game elements are <style=\"CurrentLink\">Moveable Tiles</style> even if they may represent diegetic individuals or vehicles.",
+            "<style=\"H3\">Examples</style>",
+            "Although <style=\"CurrentLink\">Moveable Tiles</style> require the presence of tiles, these can diegetically present actual tiles which can block movement or be stood upon, or even opponents with trivial behaviors. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style> is a puzzle game where the goal is to push individual <style=\"CurrentLink\">Moveable Tiles</style> representing boxes to designated areas. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style> also lets players push and pull boxes to open up areas or be able to reach otherwise unreachable ledges. Levels in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Frogger\">Frogger</link></style> consist of two parts where in the first one has to avoid moving vehicles while crossing a road and in the second jump between turtles and stocks to cross a river; functionally all these game elements are <style=\"CurrentLink\">Moveable Tiles</style>.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%20series\">Portal series</link></style> have platforms that players need to make us of the finish levels. These <style=\"CurrentLink\">Moveable Tiles</style> have predetermined circuits but in some cases they continuous move while in other cases they only move in response to player actions. A few of the levels in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball\">Super Monkey Ball</link></style> consist almost exclusively of moving tiles, where each tile contains bananas for bonus scores. The tiles move in a very predictable pattern by first contracting to the center of the level and then again spreading out.",
+            "<style=\"H2\">Using the pattern</style>",
+            "As its name implied, the design of <style=\"CurrentLink\">Moveable Tiles</style> requires the presence of <style=\"Link\"><link=\"tiles\">Tiles</link></style>. However, unlike many other cases regarding <style=\"Link\"><link=\"tiles\">Tiles</link></style> the design of <style=\"CurrentLink\">Moveable Tiles</style> cannot as easily be replaced with <style=\"Link\"><link=\"cards\">Cards</link></style>. This since <style=\"CurrentLink\">Moveable Tiles</style> deals with diegetic <style=\"Link\"><link=\"movement\">Movement</link></style> and <style=\"Link\"><link=\"cards\">Cards</link></style> are less likely to represent moveable game elements <i>inside</i> <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>.",
+            "Besides the considerations that need to be made for <style=\"Link\"><link=\"tiles\">Tiles</link></style>, the design of <style=\"CurrentLink\">Moveable Tiles</style> requires decisions regarding their movement patterns including if this need to be activated and is possible to be stopped. Movement patterns can either be predetermined, be decided on the fly using <style=\"Link\"><link=\"randomness\">Randomness</link></style>, or be determined by the actions made either by game elements on the tile or through <style=\"Link\"><link=\"controllers\">Controllers</link></style>. The activation of their <style=\"Link\"><link=\"movement\">Movement</link></style> may be due to certain events or actions (maybe requiring some form of <style=\"Link\"><link=\"resources\">Resources</link></style>) and may only continue for a limited amount of time, or their movement may be constant so that activation is not required. The <style=\"Link\"><link=\"movement\">Movement</link></style> of these <style=\"Link\"><link=\"tiles\">Tiles</link></style> may also end or change direction when blocked by <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>. ",
+            "<style=\"CurrentLink\">Moveable Tiles</style> may be <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> and like these, they can make parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> into <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>. However, since they are by definition moveable, these offer ready-made ways of opening up these areas. They can also modulate already existing <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> by offering alternative routes that can make it possible to get to them. Another design options opens up when other game elements can be on the <style=\"CurrentLink\">Moveable Tiles</style>. This is whether they also need to move in order to stay on the <style=\"Link\"><link=\"tiles\">Tiles</link></style> or if they are automatically moved as the <style=\"Link\"><link=\"tiles\">Tiles</link></style> move. For example, platforms in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%202\">Portal 2</link></style> move that which is on them while players explicitly need to move their monkeys to stay on the <style=\"CurrentLink\">Moveable Tiles</style> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%20series\">Super Monkey Ball series</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Moveable Tiles</style> are - quite obviously - ways of modulating <style=\"Link\"><link=\"tiles\">Tiles</link></style> so that have <style=\"Link\"><link=\"movement\">Movement</link></style>. Depending on their size and positioning in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, this may let them provide <style=\"Link\"><link=\"movement\">Movement</link></style> for <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"units\">Units</link></style> or be <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> preventing <style=\"Link\"><link=\"movement\">Movement</link></style>. If they can crush game elements against walls or other game elements, they can also be a source of <style=\"Link\"><link=\"damage\">Damage</link></style>.",
+            "<style=\"CurrentLink\">Moveable Tiles</style> that move for some time after being set in motion are examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>, as the players usually cannot affect the movement of the tiles once set in motion, especially if this motion is continuous. Those that <style=\"Link\"><link=\"damage\">Damage</link></style> or <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> what they crush against something are also examples of <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>; they do however not need to make players lose control over game elements; rather, <style=\"CurrentLink\">Moveable Tiles</style> can in this case bring in more complexity and variation to the game system. <style=\"CurrentLink\">Moveable Tiles</style> also make <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> actions more difficult, as the movement of the tiles need to be taken into consideration if the shooters or their targets are on these or if the <style=\"CurrentLink\">Moveable Tiles</style> are <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>.",
+            "When the <style=\"Link\"><link=\"movement\">Movement</link></style> of these tiles is caused by player actions, this provides a form of <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game World</link></style>. When their direction can only be controlled by placing <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, this makes players only have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Control\">Indirect Control</link></style> over them. <style=\"CurrentLink\">Moveable Tiles</style> that are not under players' control due to being part of <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style> can create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style> challenges that require <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style> as well as <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> when players need to learn how to pass by obstacle courses consisting of several <style=\"CurrentLink\">Moveable Tiles</style> or other challenges. ",
+            "Since <style=\"CurrentLink\">Moveable Tiles</style> are game elements that do not move due to their own volition, they are not compatible with <style=\"Link\"><link=\"agents\">Agents</link></style> (<style=\"Link\"><link=\"randomness\">Randomness</link></style> used to determine the <style=\"Link\"><link=\"movement\">Movement</link></style> of <style=\"CurrentLink\">Moveable Tiles</style> may temporary give the impression of them being <style=\"Link\"><link=\"agents\">Agents</link></style>).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"damage\">Damage</link></style></style>",
+            "<style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"obstacles\">Obstacles</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Control\">Indirect Control</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style></style>",
+            "<style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "damage",
+            "inaccessible-areas",
+            "movement",
+            "obstacles",
+            "reconfigurable-game-worlds",
+            "the-show-must-go-on",
+            "ultra-powerful-events",
+            "indirect-control",
+            "strategic-knowledge",
+            "rhythm-based-actions",
+            "timing"
+        ],
+        "modulates" : [
+            "aim-shoot",
+            "inaccessible-areas",
+            "tiles"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "controllers",
+            "obstacles",
+            "randomness"
+        ],
+        "conflicts" : [
+            "agents"
+        ]
+    }
+}

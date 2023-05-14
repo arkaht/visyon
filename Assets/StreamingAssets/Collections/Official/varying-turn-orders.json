@@ -1,0 +1,60 @@
+{
+    "name" : "Varying Turn Orders",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Turn taking sequences that change, or can be changed, during gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Turn taking sequences that change, or can be changed, during gameplay.</style>",
+            "Many traditional games are played by players making their actions according to a turn sequence. When this turn sequence is not static, i.e. players do not always play in the same order throughout the entire game, this means that a game has <style=\"CurrentLink\">Varying Turn Orders</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Systems for <style=\"CurrentLink\">Varying Turn Orders</style> are found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style>, much likely because they most often use turn taking. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/San%20Juan\">San Juan</link></style> use a <i>round-robin</i> system for who starts a turn, which can be seen as turn taking sequence on its own on a higher level. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Agricola\">Agricola</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Caylus\">Caylus</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Species\">Dominant Species</link></style> have a fixed turn order but players can change this through explicit actions; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carolus%20Magnus\">Carolus Magnus</link></style> requires players to play tokens that determine the next turn order for the next turn. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Egizia\">Egizia</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Golf\">Golf</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ursuppe\">Ursuppe</link></style> determine the turn order for each turn based on the players' current positions in the game. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts\">Hearts</link></style>, and many other trick-taking <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style> let the player who takes a trick begin the next round.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are three main ways of creating <style=\"CurrentLink\">Varying Turn Orders</style>. The first way is to have a fixed structure of how the turn order is varied between <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rounds\">Rounds</link></style>. The simplest of these, found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/San%20Juan\">San Juan</link></style>, is to have regular turn orders but let the player that was the second player in the previous <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rounds\">Round</link></style> become the first in the next one. This means that <style=\"Link\"><link=\"first-player-advantages\">First Player Advantages</link></style> are modified by letting those having this advantage become the last player the next <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rounds\">Round</link></style>. The second way to create <style=\"CurrentLink\">Varying Turn Orders</style> is to have a function that after each <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rounds\">Round</link></style> determines what the order should be for the next <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rounds\">Round</link></style>. One example of this solution is to read the order from a <style=\"Link\"><link=\"score-tracks\">Score Track</link></style> and letting the player with the lowest <style=\"Link\"><link=\"scores\">Score</link></style> begin (this is done for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Egizia\">Egizia</link></style>). This is an example of how <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style> can affect <style=\"CurrentLink\">Varying Turn Orders</style>. The third way is to have a turn order that does not change by itself but let players have a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to change it by actions, typically through <style=\"Link\"><link=\"token-placement\">Token Placement</link></style>. To avoid too much affects on each other's actions this last solution is usually restricted so that either only one change can be done or that players can take specified positions (see <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Agricola\">Agricola</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carolus%20Magnus\">Carolus Magnus</link></style> respectively).",
+            "Not that <style=\"CurrentLink\">Varying Turn Orders</style> can be applied on both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planning%20Phases\">Planning</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Execution%20Phases\">Execution Phases</link></style>, and can be applied in different ways to the two. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Species\">Dominant Species</link></style> is an example of this: the turn order to place action tokens in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planning%20Phases\">Planning Phases</link></style> is determined by a linear sequence where two neighboring positions can change each turn due to a player action while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Execution%20Phases\">Execution Phases</link></style> are done in a sequence of action categories.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Unless the current or upcoming sequence can be readily read from the position of other game elements, the use of <style=\"Link\"><link=\"first-player-tokens\">First Player Tokens</link></style> may be appropriate for games with <style=\"CurrentLink\">Varying Turn Orders</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Varying Turn Orders</style> modify <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> in games. By removing, or at least lessening, the <style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style> that <style=\"Link\"><link=\"first-player-advantages\">First Player Advantages</link></style> give they can have <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> on games.  They can however set up <style=\"Link\"><link=\"flip-flop-events\">Flip-Flop Events</link></style> so that the last player of one turn may be the first of the next, in practice having two turns in a row.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"flip-flop-events\">Flip-Flop Events</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Execution%20Phases\">Execution Phases</link></style>, <style=\"Link\"><link=\"first-player-advantages\">First Player Advantages</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planning%20Phases\">Planning Phases</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rounds\">Rounds</link></style>, <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style>, <style=\"Link\"><link=\"token-placement\">Token Placement</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"first-player-tokens\">First Player Tokens</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "balancing-effects",
+            "flip-flop-events"
+        ],
+        "modulates" : [
+            "asymmetric-starting-conditions",
+            "execution-phases",
+            "first-player-advantages",
+            "planning-phases",
+            "rounds",
+            "turn-taking"
+        ],
+        "instantiated_by" : [
+            "score-tracks",
+            "token-placement"
+        ],
+        "modulated_by" : [
+            "first-player-tokens",
+            "freedom-choice",
+            "negative-feedback-loops"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

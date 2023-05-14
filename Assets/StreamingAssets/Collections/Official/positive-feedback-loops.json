@@ -1,0 +1,77 @@
+{
+    "name" : "Positive Feedback Loops",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns"
+    ],
+    "texts" : {
+        "definition" : "Rule systems that affect the game state so that future similar affects will have greater impact on the game state.",
+        "markups" : [
+            "<style=\"Definition\">Rule systems that affect the game state so that future similar affects will have greater impact on the game state.</style>",
+            "Players that perform well in a game typically receive some form of reward. When the reward makes performing the same action again easier, this creates a <style=\"CurrentLink\">Positive Feedback Loop</style>. However, the \"positive\" aspect simply denotes an increase and not a positive effect for the player; another type of <style=\"CurrentLink\">Positive Feedback Loop</style> in a game is to provide harder challenges to players that succeed with the existing ones.",
+            "Wikipedia has a [https://en.wikipedia.org/wiki/Positive_feedback page] on <style=\"CurrentLink\">Positive Feedback Loops</style>. The chapter <i>Games as Cybernetic Systems</i> in Rules of Play look extensively at positive and negative feedback loops and their use in games.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> both exhibit <style=\"CurrentLink\">Positive Feedback Loops</style> in that players that have a lead in number of pieces or money (respectively) tend to expand that lead more and more until they have won the games. Managing to build effective decks in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mystic%20Vale\">Mystic Vale</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style> lets players get better cards that further improves the effectiveness of those decks. ",
+            "Games that are built very strictly around one <style=\"CurrentLink\">Positive Feedback Loop</style> include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cookie%20Clicker\">Cookie Clicker</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cow%20Clicker\">Cow Clicker</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Progress%20Quest\">Progress Quest</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Providing players with the possibility to create <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> is a typical reason to have <style=\"CurrentLink\">Positive Feedback Loops</style> in games. Another is to the wish that the game should have certain systemic properties as part of a ",
+            "<style=\"Link\"><link=\"critical-gameplay-design\">Critical Gameplay Design</link></style>. ",
+            "A general approach to creating <style=\"CurrentLink\">Positive Feedback Loops</style> is to make use of <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style> for <style=\"Link\"><link=\"rewards\">Rewards</link></style> or effects of player actions where the <style=\"Link\"><link=\"rewards\">Rewards</link></style> and effects also make the actions easier to do in the future. Since such <style=\"Link\"><link=\"rewards\">Rewards</link></style> often take the form of <style=\"Link\"><link=\"resources\">Resources</link></style> (or access to <style=\"Link\"><link=\"units\">Units</link></style>), the use of <style=\"CurrentLink\">Positive Feedback Loops</style> heavily affect how these work in a game. ",
+            "Quite naturally, <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style> work against the pattern if applied to <style=\"Link\"><link=\"resources\">Resources</link></style> affecting the relevant player actions (by definition <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style> related to the same parts of the game state also work against the pattern).",
+            "Several different <style=\"CurrentLink\">Positive Feedback Loops</style> can exist in a game. For example, in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> players can have <style=\"CurrentLink\">Positive Feedback Loops</style> related to gaining <style=\"Link\"><link=\"cards\">Cards</link></style> with actions or purchase ability or those related to gaining <style=\"Link\"><link=\"cards\">Cards</link></style> that increase their <style=\"Link\"><link=\"scores\">Scores</link></style>. Knowing when to start focusing on the latter due to the game being about to end is a skill in this game, and shows how the presence of the <style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style>",
+            "pattern can affect <style=\"CurrentLink\">Positive Feedback Loops</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Positive Feedback Loops</style> can create a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Runaway%20Leader\">Runaway Leader</link></style> and thereby also <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>. For this reason, <style=\"CurrentLink\">Positive Feedback Loops</style> work against <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> and <style=\"Link\"><link=\"team-balance\">Team Balance</link></style> (while <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style> can work for them). However, such situations also promote <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predictable%20Gameplay%20Time\">Predictable Gameplay Time</link></style> since one of the players may be likely to be able to exploit the  <style=\"CurrentLink\">Positive Feedback Loop</style> before certain amount of gameplay time has occurred. ",
+            "When the <style=\"CurrentLink\">Positive Feedback Loops</style> are focused upon the challenges players met (rather than players' <style=\"Link\"><link=\"abilities\">Abilities</link></style>, <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, etc. that lead to a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Runaway%20Leader\">Runaway Leader</link></style>), the pattern can create ",
+            "<style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style> in a game. Using <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style> to create <style=\"CurrentLink\">Positive Feedback Loops</style> often makes <style=\"Link\"><link=\"combos\">Combos</link></style> exist in games as well as offering players <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style> and <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> when that effort is connected to making the <style=\"CurrentLink\">Positive Feedback Loops</style> occur. When the <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style> occurs through <style=\"Link\"><link=\"investments\">Investments</link></style>, the <style=\"CurrentLink\">Positive Feedback Loops</style> that occur can also give rise to <style=\"Link\"><link=\"tension\">Tension</link></style> (if they can be lost) and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style> (in that one may need to know when to collect on one's <style=\"Link\"><link=\"investments\">Investments</link></style>).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"critical-gameplay-design\">Critical Gameplay Design</link></style>, <style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style>, <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predictable%20Gameplay%20Time\">Predictable Gameplay Time</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Runaway%20Leader\">Runaway Leader</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style></style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style> and <style=\"Link\"><link=\"investments\">Investments</link></style></style>",
+            "<style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style>, <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "critical-gameplay-design",
+            "ever-increasing-difficulty",
+            "gameplay-engines",
+            "predictable-gameplay-time",
+            "predictable-winner",
+            "runaway-leader",
+            "combos",
+            "higher-level-closures-gameplay-progresses",
+            "value-effort",
+            "tension",
+            "timing"
+        ],
+        "modulates" : [
+            "resources",
+            "units"
+        ],
+        "instantiated_by" : [
+            "geometric-progression"
+        ],
+        "modulated_by" : [
+            "construction-scoring-phase-shift"
+        ],
+        "conflicts" : [
+            "negative-feedback-loops",
+            "player-balance",
+            "resource-caps",
+            "team-balance"
+        ]
+    }
+}

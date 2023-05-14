@@ -1,0 +1,73 @@
+{
+    "name" : "Game Over",
+    "categories" : [
+        "Gameplay Arc Patterns",
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The event which makes a player no long able to participate in the gameplay of a game instance.",
+        "markups" : [
+            "<style=\"Definition\">The event which makes a player no long able to participate in the gameplay of a game instance.</style>",
+            "Most games are design to end at some point, and some are designed to make some players stop playing before all other do. A <style=\"CurrentLink\">Game Over</style> event is when a player is locked out from gameplay due to some rule in the game. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Kong\">Donkey Kong</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Out%20Run\">Out Run</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pong\">Pong</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> are all games where players experience <style=\"CurrentLink\">Game Over</style> when they run out of lives. However, in original <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade</link></style> version it was possible to pay for more lives. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gauntlet\">Gauntlet</link></style> is a latter example.",
+            "Getting killed in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike series</link></style> or losing one's last card in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coup\">Coup</link></style> results in players being thrown out of the game. However, since each game round is so short and one typically play many rounds back-to-back, the effects of <style=\"CurrentLink\">Game Over</style> are not too severe.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Game Over</style> events in a game consists of choosing what causes them. A typical cause is simple that it is a <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalty</link></style> or the logical conclusion of <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style> when a players have lost all <style=\"Link\"><link=\"lives\">Lives</link></style> or suffers from a <style=\"Link\"><link=\"permadeath\">Permadeath</link></style> event. However, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> (and <style=\"Link\"><link=\"team-elimination\">Team Elimination</link></style>) or <style=\"Link\"><link=\"player-kicking\">Player Kicking</link></style> can also function as can <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> that create <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style>. Of course, winning a game also causes a <style=\"CurrentLink\">Game Over</style> but the pattern can also be applied to <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> since <style=\"CurrentLink\">Game Over</style> events can be penalties.",
+            "<style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style> is an option to add some <style=\"Link\"><link=\"tension\">Tension</link></style> after gameplay has ended and can be used to support <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>. Related to this, players are encouraged to create <style=\"CurrentLink\">Game Over</style> events for everyone when <style=\"Link\"><link=\"speedending\">Speedending</link></style> is perceived as a good strategy. ",
+            "Another, which adds a consequence and possible goal to want to reach a <style=\"CurrentLink\">Game Over</style> event, is to use <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>. <style=\"Link\"><link=\"pay-play\">Pay to Play</link></style> is an option to let players begin playing again if they are willing to play.",
+            "While <style=\"Link\"><link=\"fake-game-overs\">Fake Game Overs</link></style> quite clearly aren't <style=\"CurrentLink\">Game Over</style> events, they can be used to trick players into believing they're experience such for some time.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Game Over</style> causes players to not be able to play. In practice this becomes <style=\"Link\"><link=\"downtime\">Downtime</link></style> if another game instance will start soon, as is the structure of quick games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coup\">Coup</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Resistance\">The Resistance</link></style> but otherwise can force the former players to start doing something else. Unless <style=\"CurrentLink\">Game Over</style> occurs to all players at the same time in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, it can create <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style>.",
+            "The introduction of <style=\"CurrentLink\">Game Over</style> events being possible is likely to create <style=\"Link\"><link=\"extermination\">Extermination</link></style> phases. Likewise, identifiable points in gameplay time when the risk of <style=\"CurrentLink\">Game Over</style> events increase markedly can also signify the beginning of <style=\"Link\"><link=\"extermination\">Extermination</link></style> phases. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"extermination\">Extermination</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>, <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"player-kicking\">Player Kicking</link></style>, <style=\"Link\"><link=\"speedending\">Speedending</link></style>, <style=\"Link\"><link=\"team-elimination\">Team Elimination</link></style>, <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>, Winning the game",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style>, <style=\"Link\"><link=\"pay-play\">Pay to Play</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"fake-game-overs\">Fake Game Overs</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "downtime",
+            "extermination",
+            "unsynchronized-game-sessions"
+        ],
+        "modulates" : [
+            "unwinnable-games",
+            "winner-gameplay-ends"
+        ],
+        "instantiated_by" : [
+            "death-consequences",
+            "game-termination-penalties",
+            "lives",
+            "permadeath",
+            "player-elimination",
+            "player-kicking",
+            "speedending",
+            "team-elimination",
+            "time-limited-game-instances",
+            "time-limits",
+            "winning-ending-gameplay",
+            ""
+        ],
+        "modulated_by" : [
+            "end-state-scoring",
+            "pay-play"
+        ],
+        "conflicts" : [
+            "fake-game-overs"
+        ]
+    }
+}

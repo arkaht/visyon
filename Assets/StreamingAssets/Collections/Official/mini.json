@@ -1,0 +1,81 @@
+{
+    "name" : "Mini-maps",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns",
+        "Platform Patterns"
+    ],
+    "texts" : {
+        "definition" : "Maps that provide overviews of the game world.",
+        "markups" : [
+            "<style=\"Definition\">Maps that provide overviews of the game world.</style>",
+            "Many games provide game worlds that are so large that players cannot see all of them at once. When this makes it difficult for players to know where they or other friendly players are, or where they should be going games can alleviate this through the use of <style=\"CurrentLink\">Mini-maps</style>. These are interface components that provide an overview of the game world independent of the main presentation and can thereby show both a larger area and one that is not necessary the one where players are.",
+            "<style=\"H3\">Examples</style>",
+            "In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20series\">Civilization series</link></style>, players can use <style=\"CurrentLink\">Mini-maps</style> to quickly move between different parts of the game world, seeing the contours landmasses as well as civilizations and individual cities. ",
+            "The <style=\"CurrentLink\">Mini-maps</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> does not only show players where their characters are, but also their objectives, party members, raid members, and possibly their corpses from the previous time they died.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Mini-maps</style> are typically introduced in games to help <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> or provide awareness in <style=\"Link\"><link=\"races\">Races</link></style>, or both. They are designed by choosing how to present <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style> in a small and compact fashion (whenever <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> are mentioned in the following this applies to <style=\"Link\"><link=\"levels\">Levels</link></style> as well). While they typically always show the main differences in the environment (e.g. land, sea, and important <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>) and where players' <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> are located, not all allow players to change what part of the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> they can see through the use of zooming and panning. <style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style> and other <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, as well as other players' <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> are game elements in the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> that can be interesting to shown on <style=\"CurrentLink\">Mini-maps</style>. The same goes for the locations of <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> and <style=\"Link\"><link=\"check-points\">Check Points</link></style>. To make them more subtle, <style=\"Link\"><link=\"clues\">Clues</link></style> may only exist in <style=\"CurrentLink\">Mini-maps</style> to indicate generally where something interesting may be found but still force players to perceive <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> directly to pinpoint things.",
+            "<style=\"CurrentLink\">Mini-maps</style> can be modulated by <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, although this typically a logical consequence of applying it to <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> first. An exception can be games with <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> where players can see everything in their <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> - here the main interface may not have <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> but the <style=\"CurrentLink\">Mini-maps</style> do. <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> and <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style> are other examples of patterns that can be applied to <style=\"CurrentLink\">Mini-maps</style> instead of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>: a common use of this is to allow players to point out interesting places to each other by drawing attentions to certain parts of the <style=\"CurrentLink\">Mini-maps</style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "As an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>, all aspects of <style=\"CurrentLink\">Mini-maps</style> are related to a game's interface.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Mini-maps</style> are a form of <style=\"Link\"><link=\"picture-picture-views\">Picture-in-Picture Views</link></style> that provide <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> about the relation between players' <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> and the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and often also <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> about other information besides that of where the <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> is. This information may be done before players perceive it through their <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> or only afterwards as help in <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> the layout of the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. By doing so, <style=\"CurrentLink\">Mini-maps</style> can make <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, and <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals in general easier, or for the two first challenges even make them so trivial that they cease to be gameplay challenges. ",
+            "For <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> with <style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"CurrentLink\">Mini-maps</style> can be instrumental in achieving <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style> and through that <style=\"Link\"><link=\"team-combos\">Team Combos</link></style> and <style=\"Link\"><link=\"team-strategy-identification\">Team Strategy Identification</link></style>,",
+            "<style=\"CurrentLink\">Mini-maps</style> may disrupt <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style> if they are consulted since they present a different perspective of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> than the main interface.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"picture-picture-views\">Picture-in-Picture Views</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"teams\">Teams</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style>, <style=\"Link\"><link=\"team-combos\">Team Combos</link></style>, <style=\"Link\"><link=\"team-strategy-identification\">Team Strategy Identification</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "clues",
+            "game-state-indicators",
+            "game-state-overviews",
+            "picture-picture-views",
+            "coordination",
+            "team-combos",
+            "team-strategy-identification"
+        ],
+        "modulates" : [
+            "check-points",
+            "clues",
+            "environmental-effects",
+            "focus-loci",
+            "game-world-exploration",
+            "game-world-navigation",
+            "game-worlds",
+            "installations",
+            "levels",
+            "multiplayer-games",
+            "races",
+            "strategic-locations",
+            "teams",
+            "traverse"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "fog-war",
+            "point-interest-indicators",
+            "geospatial-game-widgets"
+        ],
+        "conflicts" : [
+            "game-world-exploration",
+            "game-world-navigation",
+            "spatial-engrossment"
+        ]
+    }
+}

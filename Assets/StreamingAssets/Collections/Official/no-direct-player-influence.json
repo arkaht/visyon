@@ -1,0 +1,77 @@
+{
+    "name" : "No Direct Player Influence",
+    "categories" : [
+        "Patterns",
+        "Negative Patterns",
+        "Player Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games where players direct influence on the actual gameplay is non-existent or close to non-existent.",
+        "markups" : [
+            "<style=\"Definition\">Games where players direct influence on the actual gameplay is non-existent or close to non-existent.</style>",
+            "It may seem strange to consider games where players cannot influence the outcome directly since this seems to state there would be no <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Underlying_Assumptions_and_Concepts#gameplay\">gameplay</link></style>. However, the first games of chance seem to have come to being from the use of dice and lots as divination methods , i.e. one let the gods decide who should have the ante. For these, it is enough for players to be 'emotionally attached' (as noted by Juul as begin one part of his definition of games) and believing that they are exerting effort to influence the outcome (another of Juul's characteristics of games) however illusionary that latter part may be. Later examples show that another solution it to make players exert effort before the system is activated.",
+            "Note: <i>This pattern uses players varyingly to signify those participating in a game or a meta game</i>.",
+            "<style=\"H3\">Examples</style>",
+            "Gambling games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Baccarat\">Baccarat</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Craps\">Craps</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style> can be seen as examples of <style=\"CurrentLink\">No Direct Player Influence</style> since they are pure games of chance when players are actually only betting on an outcome, not affecting it themselves. ",
+            "The board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ricochet%20Robots\">Ricochet Robots</link></style>, being a form of puzzle game, consists solely of players figuring out the most efficient way to move robots and then proving if they had a correct solution. Programming games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crobots\">Crobots</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/P-Robots\">P-Robots</link></style> let players create code to control robots that battle other similar robots but don't let the them directly affect the gameplay when battles have started. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conway's%20Game%20of%20Life\">Conway's Game of Life</link></style> is actually an cellular automaton but can be seen as a game when users set up goals for how it should evolve based upon an initial state and are not allowed to interfere with after it is started.",
+            "The game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Progress%20Quest\">Progress Quest</link></style>, which can be seen as a critique of the need for grinding in massively multiplayer games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, allows players to do some initial setup but then the only effect players can have on the game is to let it continue to run. In contrast, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/4%20Minutes%20and%2033%20Seconds%20of%20Uniqueness\">4 Minutes and 33 Seconds of Uniqueness</link></style> doesn't need any setup and is successfully completed by being the only person playing the game in the whole world for the time period stated in the game's name.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Making games have <style=\"CurrentLink\">No Direct Player Influence</style> is easy in one fashion and difficult in another. Easy since instantiating the pattern simply consists of not letting players be able to interact with the systems - in principle enforcing them to continuously making <style=\"Link\"><link=\"no-ops\">No-Ops</link></style>. It may however be difficult since players still need to be interesting and have some type of interaction possible (or else the pattern truly becomes a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Negative%20Patterns\">Negative Pattern</link></style>). Typical solutions include the use of <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, or <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, in often combined with with use of <style=\"Link\"><link=\"spectators\">Spectators</link></style>. Basically all of these rely on the design providing <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> to \"players\".",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> can for the purpose of this pattern most easily be achieved with <style=\"Link\"><link=\"randomness\">Randomness</link></style> process which players can initiate but any way allowing player to feel <style=\"Link\"><link=\"luck\">Luck</link></style> can work. Many ways work, <style=\"Link\"><link=\"cards\">Cards</link></style> for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Baccarat\">Baccarat</link></style>, and spinning a wheel and ball for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style>, but the use of <style=\"Link\"><link=\"dice\">Dice</link></style> (as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Craps\">Craps</link></style>) may be more efficient since it offers close tangible interaction through shaking.",
+            "<style=\"Link\"><link=\"meta-games\">Meta Games</link></style> in turn typically consists of providing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> in the design of <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> (as for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crobots\">Crobots</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/P-Robots\">P-Robots</link></style>) or the system's initial state (as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conway's%20Game%20of%20Life\">Conway's Game of Life</link></style> does) but can simply be when to play (as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/4%20Minutes%20and%2033%20Seconds%20of%20Uniqueness\">4 Minutes and 33 Seconds of Uniqueness</link></style>). <style=\"Link\"><link=\"action-programming\">Action Programming</link></style> can also be used to support this kind of indirect player influence. They can typically also be made into <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style> easily since previously created <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> can be made available independent of the presence of their creators.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Interfaces may seem unnecessary in games that don't allow player influence. However, they may be necessary for controlling the viewpoint of <style=\"Link\"><link=\"spectators\">Spectators</link></style>, allowing the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> in creating the initial state or <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> before gameplay begins, or connecting the games with their <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Games with <style=\"CurrentLink\">No Direct Player Influence</style> limit <style=\"Link\"><link=\"player-agency\">Player Agency</link></style> to the level that they are always <style=\"Link\"><link=\"zero-player-games\">Zero-Player Games</link></style> in some fashion and predetermined <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style> if there are any <style=\"Link\"><link=\"agents\">Agents</link></style> present. They also always limits players' <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> in some aspect, although it may still exist as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> before gameplay begins or through the delusion created by an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> of effects that are really based upon <style=\"Link\"><link=\"randomness\">Randomness</link></style>. <style=\"CurrentLink\">No Direct Player Influence</style> games based upon creating <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> can also be seen as an example of <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style>.",
+            "As long as players' instruction can be given to without requiring the other players to be there, and that the results of them can likewise be given individually, games with <style=\"CurrentLink\">No Direct Player Influence</style> naturally provide a basis for <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style>. This may however not result in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Common%20Experiences\">Common Experiences</link></style> depending on how much the players identify with the actions of their agents.",
+            "Quite naturally, <style=\"CurrentLink\">No Direct Player Influence</style> is incompatible with <style=\"Link\"><link=\"free-game-element-manipulation\">Free Game Element Manipulation</link></style>.",
+            "<style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> and <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style> are affected by <style=\"CurrentLink\">No Direct Player Influence</style> in that the consequences of how players decide to affect the game state is revealed later. Games with <style=\"CurrentLink\">No Direct Player Influence</style> can have <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>",
+            "if they depend on skills or abilities that come into play before gameplay begins; otherwise the pattern works against <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style>, <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style>, <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style>, <style=\"Link\"><link=\"zero-player-games\">Zero-Player Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"no-ops\">No-Ops</link></style>, <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style>",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> together with <style=\"Link\"><link=\"luck\">Luck</link></style> or <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"Link\"><link=\"meta-games\">Meta Games</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> and <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"free-game-element-manipulation\">Free Game Element Manipulation</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>, <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "asynchronous-gameplay",
+            "enforced-agent-behavior",
+            "heterogeneous-game-element-ownership",
+            "zero-player-games"
+        ],
+        "modulates" : [
+            "performance-uncertainty",
+            "player-unpredictability"
+        ],
+        "instantiated_by" : [
+            "algorithmic-agents",
+            "extra-game-actions",
+            "no-ops",
+            "solution-uncertainty",
+            "exaggerated-perception-influence",
+            "meta-games"
+        ],
+        "modulated_by" : [
+            "action-programming",
+            "spectators"
+        ],
+        "conflicts" : [
+            "free-game-element-manipulation",
+            "freedom-choice",
+            "further-player-improvement-potential",
+            "player-agency"
+        ]
+    }
+}

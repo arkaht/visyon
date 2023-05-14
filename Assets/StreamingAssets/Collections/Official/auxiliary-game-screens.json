@@ -1,0 +1,56 @@
+{
+    "name" : "Auxiliary Game Screens",
+    "categories" : [
+        "Patterns",
+        "Information Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games making use of several different physical screens for gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Games making use of several different physical screens for gameplay.</style>",
+            "Sometimes one screen is not enough to provide players with the information they could make use of in a game. One solution to this when simply using several screens in several separated locations does not work is to introduce <style=\"CurrentLink\">Auxiliary Game Screens</style>, smaller or subordinate screens that provide information related to that shown on the primary screen.",
+            "<style=\"H3\">Examples</style>",
+            "One of the simplest examples of <style=\"CurrentLink\">Auxiliary Game Screens</style> are computer games that run on operating systems supporting several screens and that themselves support this as well. Two examples of games that do this are the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20Island\">Dead Island</link></style> game.",
+            "The <i>Visual Memory Units</i> for the Dreamcast console could work as an independent gaming device or provide players with an additional screen while playing on the Dreamcast by connecting the units to game controllers. In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resident%20Evil%20series\">Resident Evil series</link></style>, this allowed players to view their health without switching away from the main game screen, in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soul%20Calibur%20series\">Soul Calibur series</link></style> players could see versions of characters enact attacks, and in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sega%20Rally%20series\">Sega Rally series</link></style> players could access the lap times without having the console on.",
+            "Wikipedia has a page for games on the GameCube that can make use of Game Boy Advance units as extra controls. Examples include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Animal%20Crossing\">Animal Crossing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda:%20The%20Wind%20Waker\">The Legend of Zelda: The Wind Waker</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Splinter%20Cell%20series\">Splinter Cell series</link></style>; for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda:%20Four%20Swords%20Adventures\">The Legend of Zelda: Four Swords Adventures</link></style> it supported an essential game mechanic. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FIFA%20series\">FIFA</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Madden%20NFL%20series\">Madden NFL series</link></style> uses these <style=\"CurrentLink\">Auxiliary Game Screens</style> more passively as scoreboards.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Padracer\">Padracer</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Scrabble%E2%84%A2%20Tile%20Rack\">Scrabble™ Tile Rack</link></style> are games that use iPhones as controllers for games whose primary displays are an iPad.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Auxiliary Game Screens</style> is as much a question of software design as gameplay design, and sometimes may also require hardware design. The gameplay issues related to the <style=\"CurrentLink\">Auxiliary Game Screens</style> primarily concern if they should contain <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> or if they should be used to support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style> or not. Many times the devices that provide these screens also provide input possibilities but this is outside the scope of this pattern.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Auxiliary Game Screens</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. It can be treated as an alternative to <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style> and <style=\"Link\"><link=\"picture-picture-views\">Picture-in-Picture Views</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Auxiliary Game Screens</style> can give players individual presentations of game states and <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. By doing so they can not only provide <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> but also allow for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style> between players. This in turn allows for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> and a possibility to design <style=\"Link\"><link=\"conceal\">Conceal</link></style> goals for players.",
+            "Given that <style=\"CurrentLink\">Auxiliary Game Screens</style> make it possible to provide a gameplay experience over several different types of displays, it can be seen as a weak form of <style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, <style=\"Link\"><link=\"conceal\">Conceal</link></style>, <style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "asymmetric-information",
+            "conceal",
+            "crossmedia-gameplay",
+            "game-state-overviews",
+            "imperfect-information"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

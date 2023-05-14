@@ -1,0 +1,54 @@
+{
+    "name" : "Enclosure",
+    "categories" : [
+        "Patterns",
+        "Goal Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "The goal of surrounding game elements by a continuous line or wall of other game elements.",
+        "markups" : [
+            "<style=\"Definition\">The goal of surrounding game elements by a continuous line or wall of other game elements.</style>",
+            "<style=\"CurrentLink\">Enclosure</style> is the goal of surrounding some type of game elements with some other type of game elements.",
+            "<style=\"H3\">Examples</style>",
+            "The oldest, and perhaps best known, example of <style=\"CurrentLink\">Enclosure</style> is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> in which completely enclosing the opponent's group when it has no empty space inside it causes it to be removed from the board. The board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carcassonne\">Carcassonne</link></style> uses <style=\"CurrentLink\">Enclosure</style> in a couple of different ways: the building of towns where rewards are not given until the town walls enclose the area inside; cloisters that have to be surrounding by tiles to give points; and fields that may be enclosed to guarantee control.",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Qix\">Qix</link></style> game elements are captured and removed from play by enclosing them in the smaller of the two subdivisions that are created whenever the player completes a line between two parts of the game edge. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Nibbler\">Nibbler</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Snake\">Snake</link></style> are examples where avoiding an <style=\"CurrentLink\">Enclosure</style> lets players survive to pursue the primary goal of eating.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing for <style=\"CurrentLink\">Enclosure</style> goals are primarily concerns with what should be enclosed and what can be used to enclose. Typically in both cases these are (different types of) game elements but for the latter the goal of <style=\"CurrentLink\">Enclosure</style> influences the <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style> or <style=\"Link\"><link=\"movement\">Movement</link></style> of these. Another concern is whether players should <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> of what is enclosed or if they should be removed through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Element%20Removal\">Game Element Removal</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Enclosure</style> is a type of <style=\"Link\"><link=\"configuration\">Configuration</link></style> which typically requires <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style> between what is enclosed and what encloses it or between enclosing game elements. Succeeding with an <style=\"CurrentLink\">Enclosure</style> typically leads to a <style=\"Link\"><link=\"capture\">Capture</link></style> or succeeding with a <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goal.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style>, <style=\"Link\"><link=\"configuration\">Configuration</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Element%20Removal\">Game Element Removal</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "capture",
+            "connection",
+            "configuration",
+            "game-element-removal",
+            "gain-ownership"
+        ],
+        "modulates" : [
+            "game-element-insertion",
+            "movement"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

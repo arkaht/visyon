@@ -1,0 +1,58 @@
+{
+    "name" : "Visits",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Temporary being in a part of a game world that is controlled by another player.",
+        "markups" : [
+            "<style=\"Definition\">Temporary being in a part of a game world that is controlled by another player.</style>",
+            "Several games let players have their own parts of the game world where they solely affect what happens. Although this can let them have privacy and creative control, to avoid these areas become to lonely games can support restricted <style=\"CurrentLink\">Visits</style> from other players.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CityVille\">CityVille</link></style> allow players to go to the farms of other players to whom they are neighbors, and while there they can help with harvesting crops.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style> allows a form of visit in that players can join other players' campaigns and help them solve individual quests without it affecting their own storyline.",
+            "<style=\"H2\">Using the pattern</style>",
+            "For <style=\"CurrentLink\">Visits</style> to be possible, a game must provide some sort of area that is the domain of another players, i.e. a <style=\"Link\"><link=\"private-game-spaces\">Private Game Space</link></style>. <style=\"CurrentLink\">Visits</style> are simply a form of <style=\"Link\"><link=\"movement\">Movement</link></style> in games to other players' areas where they have a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> compared to other parts of the <style=\"Link\"><link=\"game-worlds\">Game World</link></style>. <style=\"Link\"><link=\"action-caps\">Action Caps</link></style> is typically also applied so that the players themselves do need to do most of the actions affecting their games (i.e. maintaining a <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> for them). Being <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>, or at least one each others <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, is typically a requirement for being allowed to make <style=\"CurrentLink\">Visits</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Massively%20Single-Player%20Games\">Massively Single-Player Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CityVille\">CityVille</link></style>; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tutorial%20Neighbors\">Tutorial Neighbors</link></style> can be provide to let players be able to make <style=\"CurrentLink\">Visits</style> before having any player <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>.",
+            "Making <style=\"CurrentLink\">Visits</style> possible is usually done to provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> in a way that limits the risks of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> simply because of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> possible. One way of guaranteeing this is to make the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> only consists of <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style>. By doing so, they can add <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> to <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style> while maintaining <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Visits</style> are in themselves a form of social activity, and by being so they provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> in games. Since they allow players to notice what other players (often those that are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>) have achieved during gameplay, they provide a limit form of <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>, <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"action-caps\">Action Caps</link></style>, <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style>, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tutorial%20Neighbors\">Tutorial Neighbors</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "limited-set-actions",
+            "movement",
+            "public-player-statistics",
+            "social-interaction"
+        ],
+        "modulates" : [
+            "game-worlds",
+            "massively-single-player-online-games",
+            "private-game-spaces"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "action-caps",
+            "altruistic-actions",
+            "friend-lists",
+            "neighbors",
+            "tutorial-neighbors"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "name" : "Turnovers",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "The immediate ending of one player's turn due to a game event to start another player's turn.",
+        "markups" : [
+            "<style=\"Definition\">The immediate ending of one player's turn due to a game event to start another player's turn.</style>",
+            "Many games divide the gameplay into turns in which one player can do actions. While many different ways of determining when a turn should end for one player and start for another, <style=\"CurrentLink\">Turnovers</style> describe the cases when failing specific actions immediately end the turn.",
+            "<style=\"H3\">Examples</style>",
+            "Rules for <style=\"CurrentLink\">Turnovers</style> exist in both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/American%20Football\">American Football</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Basketball\">Basketball</link></style> to regulate cases where possession of the ball changes. Although <style=\"CurrentLink\">Turnovers</style> happen when one team scores this is typically not referred to as a <style=\"CurrentLink\">Turnover</style>. Being a fantasy version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/American%20Football\">American Football</link></style>, it may not be surprising that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style> (both in its original form and as a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl%20(computer%20game)\">computer game</link></style>) also have rules for <style=\"CurrentLink\">Turnovers</style>. A difference here is however that several additional failure, e.g. failing tackles or falling when sprinting, causes <style=\"CurrentLink\">Turnovers</style>. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CrossFire:%20Rules%20&%20Organizations%20for%20Company%20Level%20WW2%20Gaming\">CrossFire: Rules & Organizations for Company Level WW2 Gaming</link></style> is example of a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Strategy%20Games\">Strategy Game</link></style> with a <style=\"CurrentLink\">Turnover</style> game mechanic.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Turnovers</style> is one way of enacting <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> in games but one that occur as <style=\"Link\"><link=\"penalties\">Penalties</link></style> for failed actions rather than due to a deterministic process. The actual implementation of a <style=\"CurrentLink\">Turnover</style> can be seen as forcing <style=\"Link\"><link=\"no-ops\">No-Ops</link></style> on actions that remained to be done.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Turnovers</style> are a form of <style=\"Link\"><link=\"penalties\">Penalties</link></style> in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> with <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>. Since players are aware that failed actions can lead to <style=\"CurrentLink\">Turnovers</style> in games with this pattern, it forces them to do <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> considerations and quite likely also <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> in which order to do actions.",
+            "Given that <style=\"CurrentLink\">Turnovers</style> become more or less certainties if players do enough actions that can fail and have this as a <style=\"Link\"><link=\"penalties\">Penalty</link></style>, the pattern gives rise to a soft version of <style=\"Link\"><link=\"action-caps\">Action Caps</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"action-caps\">Action Caps</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"no-ops\">No-Ops</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "action-caps",
+            "penalties",
+            "risk-reward",
+            "tactical-planning"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "no-ops"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

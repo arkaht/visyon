@@ -1,0 +1,85 @@
+{
+    "name" : "Game Element Trading",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Real world trading between players of the game elements used to play a game.",
+        "markups" : [
+            "<style=\"Definition\">Real world trading between players of the game elements used to play a game.</style>",
+            "While the items and resources in many games can change ownership during gameplay, some games make it part of the game design that game elements can be traded between players (and others) between game instances and game sessions. Such games have <style=\"CurrentLink\">Game Element Trading</style>.",
+            "<i>Note: this pattern describes exchanges between people of the items used to play games. See <style=\"Link\"><link=\"trading\">Trading</link></style> for exchanges of resources as part of the gameplay.</i>",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illuminati:%20New%20World%20Order\">Illuminati: New World Order</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pok%C3%A9mon%20Trading%20Card%20Game\">Pokémon Trading Card Game</link></style> are examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Collectible%20Card%20Games\">Collectible Card Games</link></style> where players can trade cards with each other as well as buy them from professional traders. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Dice\">Dragon Dice</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Trek:%20The%20Next%20Generation%20Collectible%20Dice%20Game\">Star Trek: The Next Generation Collectible Dice Game</link></style> are similar examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Collectable%20Dice%20Games\">Collectable Dice Games</link></style>.",
+            "The miniatures used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%2040K\">Warhammer 40K</link></style> and other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Miniature%20Games\">Miniature Games</link></style> are not traded as often as the games mentioned above, but players switching armies or wanting to get rid of unused parts of starter sets are motivated to trade them with other players.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> have various stances towards <style=\"CurrentLink\">Game Element Trading</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> allows trading but tries to avoid making this involve real world currencies, while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Entropia%20Universe\">Entropia Universe</link></style> has this as a main feature through having a fixed exchange rate between its in-game currency and the US dollar.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Game Element Trading</style> requires <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style> and a <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Game</link></style> so that different players can own different parts of a game, with typical examples of tradable parts being <style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"dice\">Dice</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Miniatures\">Miniatures</link></style>, and the marbles of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Marble%20Games\">Marble Games</link></style>. For games with <style=\"Link\"><link=\"character-development\">Character Development</link></style>, the characters players control can be the items traded as well. Less common, games using players' positions and the positions of physical artifacts as input to the game, i.e. those using <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style>, can use these artifacts as the items traded. Regarding <style=\"Link\"><link=\"game-items\">Game Items</link></style>, for these to be meaningful to trade outside the context of a given play session, they need to have some value beyond that play session. For <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> this may be any type of <style=\"Link\"><link=\"game-items\">Game Items</link></style>, but <style=\"Link\"><link=\"cosmetic-game-items\">Cosmetic Game Items</link></style> and <style=\"Link\"><link=\"tools\">Tools</link></style> can be useful for players even without <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> to revisit. Although typically not seen as game elements per se, <style=\"Link\"><link=\"save-files\">Save Files</link></style> can be traded or shared between players and this is even easier for <style=\"Link\"><link=\"password-save-files\">Password Save Files</link></style>. ",
+            "While the type of game element is a first design choice regarding this pattern, where these game elements come from is a second design choice. Game systems can provide them during gameplay through <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style> (e.g. through <style=\"Link\"><link=\"loot\">Loot</link></style>) but <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style> is another solution (seen for example in the booster packs available for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style>). <style=\"Link\"><link=\"player-created-game-elements\">Player Created Game Elements</link></style> can also be used but risks crashing markets as the values of game elements can become very low if players create too large numbers of some type of game element.",
+            "The actual exchange of game elements in <style=\"CurrentLink\">Game Element Trading</style> can either be done as <style=\"Link\"><link=\"trading\">Trading</link></style> inside the game or as <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>. ",
+            "Games that make <style=\"CurrentLink\">Game Element Trading</style> a central part of the gameplay may have difficulties combining this with <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style> since this combination either assumes that there are players everywhere of that they can be connected to each other and that the game elements can be traded electronically.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Unless <style=\"CurrentLink\">Game Element Trading</style> is a primary activity of the actual gameplay or something done through face-to-face, the use of <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> to support the trading may be a good option. An example of this is the auction houses in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "While <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style> may simply mean that players need to bring game elements together to be able to play a game instance, <style=\"CurrentLink\">Game Element Trading</style> create <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> of acquiring collections of game elements. Rather obviously, <style=\"CurrentLink\">Game Element Trading</style> creates a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style> of game elements, which may affect the ease of succeeding with <style=\"Link\"><link=\"collecting\">Collecting</link></style> and <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals. If the game elements traded are significantly rare or important for the gameplay at the point of time of the trade, they may become <style=\"Link\"><link=\"memorabilia\">Memorabilia</link></style>. By making people used to transferring game elements, <style=\"CurrentLink\">Game Element Trading</style> can make it more likely for players to start engaging in <style=\"Link\"><link=\"betting\">Betting</link></style> concerning the game elements.",
+            "While <style=\"Link\"><link=\"character-development\">Character Development</link></style> and <style=\"Link\"><link=\"cosmetic-game-items\">Cosmetic Game Items</link></style> can create <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> by themselves, the possibility of <style=\"CurrentLink\">Game Element Trading</style> adds more types of possible consequences. In contrast, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> and <style=\"Link\"><link=\"tools\">Tools</link></style> only produce <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> when combined with <style=\"CurrentLink\">Game Element Trading</style>.",
+            "For games where the game elements are physical artifacts whose location is detected by the game system, i.e. games that make use of <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style>, the use of <style=\"CurrentLink\">Game Element Trading</style> motivate players to meet and the games thereby make <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style> likely.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"betting\">Betting</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"memorabilia\">Memorabilia</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style></style>",
+            "<style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"character-development\">Character Development</link></style>, <style=\"Link\"><link=\"cosmetic-game-items\">Cosmetic Game Items</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, or <style=\"Link\"><link=\"tools\">Tools</link></style></style>",
+            "<style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"collecting\">Collecting</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"character-development\">Character Development</link></style>, <style=\"Link\"><link=\"password-save-files\">Password Save Files</link></style>, <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style>, <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style>, <style=\"Link\"><link=\"player-created-game-elements\">Player Created Game Elements</link></style>, <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>, <style=\"Link\"><link=\"save-files\">Save Files</link></style>",
+            "<style=\"Link\"><link=\"cosmetic-game-items\">Cosmetic Game Items</link></style> together with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"Link\"><link=\"game-items\">Game Items</link></style> together with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>",
+            "<style=\"Link\"><link=\"tools\">Tools</link></style> together with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"player-created-game-elements\">Player Created Game Elements</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "betting",
+            "extra-game-actions",
+            "memorabilia",
+            "meta-games",
+            "trading",
+            "transfer-control",
+            "player-player-proximity",
+            "extra-game-consequences"
+        ],
+        "modulates" : [
+            "collecting",
+            "gain-ownership"
+        ],
+        "instantiated_by" : [
+            "character-development",
+            "password-save-files",
+            "heterogeneous-game-element-ownership",
+            "player-artifact-proximity",
+            "player-created-game-elements",
+            "purchasable-game-advantages",
+            "save-files",
+            "cosmetic-game-items",
+            "game-items",
+            "tools"
+        ],
+        "modulated_by" : [
+            "game-element-insertion",
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+            "player-created-game-elements",
+            "ubiquitous-gameplay"
+        ]
+    }
+}

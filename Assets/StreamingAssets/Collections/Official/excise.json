@@ -1,0 +1,108 @@
+{
+    "name" : "Excise",
+    "categories" : [
+        "Patterns",
+        "Negative Patterns",
+        "Subjective Patterns"
+    ],
+    "texts" : {
+        "definition" : "Ancillary actions necessary for gameplay but that do not contribute directly to gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Ancillary actions necessary for gameplay but that do not contribute directly to gameplay.</style>",
+            "Games have game states that need to be updated during gameplay. This can feel like an unwanted workload when this needs to be done by players for reasons that are not directly ties to actions they have performed. This kind of unwanted work or maintenance is called <style=\"CurrentLink\">Excise</style>. It can also occur when the gameplay actions one takes feel like unwanted burdens that are needs to be able to perform the interesting ones. ",
+            "Note: <i>the concept of </i><style=\"CurrentLink\">Excise</style> ''comes from the field of Human-Computer Interaction.",
+            "Note: <i>see <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> for actions that do not affect the game state of ongoing game instances.</i>",
+            "<style=\"H3\">Examples</style>",
+            "Most <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> require <style=\"CurrentLink\">Excise</style> since players need to manually keep track of the game state and update it as necessary. For <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style>, the game masters also have the task of describing the game worlds and the actions that take place within them. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> often require players to do repetitive tasks for long times to gain certain resources. The same can be seen in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Farmville\">Farmville</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>. <style=\"CurrentLink\">Excise</style> can also be found when in games where players need to kill large numbers of monsters to acquire the right kind of loot; this can be found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo series</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Excise</style> is usually seen as a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Negative%20Patterns\">Negative Pattern</link></style> which although unwanted occurs as a consequence of wanted design features. Thus, designing for <style=\"CurrentLink\">Excise</style> is typically aimed at minimizing the effects of it. The need for <style=\"CurrentLink\">Excise</style> can depend on many different design features. On the most general level, <style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style> can introduce new <style=\"CurrentLink\">Excise</style> but also introduces it by making players need to choose which <style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style> to use and keep track of this during gameplay. Also generally, the issue of <style=\"CurrentLink\">Excise</style> in games can be mitigated by having it interwoven with choices (i.e. <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>) or allowing players to interaction socially while performing them (i.e. ensuring that the <style=\"CurrentLink\">Excise</style> has <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>). ",
+            "The first reason for <style=\"CurrentLink\">Excise</style> comes from having to manipulate game states for other reasons than actual gameplay actions. Handling complex or detailed <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, groups of <style=\"Link\"><link=\"units\">Units</link></style>, or <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> does so because specifics about them need to be found, described, or updated. <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, and <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can remove this, but of course the latter requires <style=\"CurrentLink\">Excise</style> from the <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> themselves (<style=\"Link\"><link=\"entitled-players\">Entitled Players</link></style> can spread the burden somewhat). Similarly <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> can give rise to <style=\"CurrentLink\">Excise</style> because many game elements need to be manipulated (e.g. through <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style> or updating <style=\"Link\"><link=\"no-use-bonus\">No-Use Bonuses</link></style>). More generally, any game with significant about of <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style> that needs to be manually updated can cause <style=\"CurrentLink\">Excise</style>.  For this reason, any game needing <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> can be said to have some <style=\"CurrentLink\">Excise</style> but having <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style> can limit this. While <style=\"Link\"><link=\"current-player-tokens\">Current Player Tokens</link></style> and <style=\"Link\"><link=\"first-player-tokens\">First Player Tokens</link></style> are examples of <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style>, they help players remember things they need to keep track of anyway and can thereby be seen to modulate rather than create <style=\"CurrentLink\">Excise</style>. The same goes for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Sheets\">Character Sheets</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, and <style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style>. Loading and saving game states in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> does produce some <style=\"CurrentLink\">Excise</style> related to manipulating game states but this is often not a problem unless players engage in <style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style>.",
+            "Another reason for <style=\"CurrentLink\">Excise</style> comes from actions that are gameplay actions but can be perceived as meaningless or uninteresting to players. Given that <style=\"Link\"><link=\"grinding\">Grinding</link></style> is performing repetitive actions without significant challenges, any actions perceived as these can easily be perceived as <style=\"CurrentLink\">Excise</style>; this type of <style=\"CurrentLink\">Excise</style> can be removed through offering <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style> or allowing <style=\"Link\"><link=\"mules\">Mules</link></style> or <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>. More specifically applying brute force methods to find solutions to <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> can be <style=\"CurrentLink\">Excise</style>, as can conducting <style=\"Link\"><link=\"movement\">Movement</link></style> across uneventful terrains. Having to move without <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> in <style=\"Link\"><link=\"vehicle-sections\">Vehicle Sections</link></style> being a prime example of this while introducing <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> can be a way of removing <style=\"CurrentLink\">Excise</style> for \"normal\" <style=\"Link\"><link=\"movement\">Movement</link></style> (which can be noticed in games like the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>). <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style> and <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style> are other design patterns that can mitigate <style=\"CurrentLink\">Excise</style> related to <style=\"Link\"><link=\"movement\">Movement</link></style>. While acquiring <style=\"Link\"><link=\"loot\">Loot</link></style> in itself isn't necessarily <style=\"CurrentLink\">Excise</style> it can easily become this if players go through the motions of acquiring a lot of <style=\"Link\"><link=\"loot\">Loot</link></style> simply to find some specific rare <style=\"Link\"><link=\"loot\">Loot</link></style>. <style=\"Link\"><link=\"drafting\">Drafting</link></style> requires some <style=\"CurrentLink\">Excise</style> to swap game elements in synchronicity, and this becomes pronounced when there is no gameplay or choices involved (as for example occurs when dealing hands of <style=\"Link\"><link=\"cards\">Cards</link></style> in many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style>. Rolling <style=\"Link\"><link=\"dice\">Dice</link></style> is often not seen as <style=\"CurrentLink\">Excise</style> (since players' can have a sense of agency through shaking and rolling them) but <style=\"Link\"><link=\"open-ended-die-rolls\">Open-Ended Die Rolls</link></style> can because they may make the creation of a result take several steps with evaluation between each step.",
+            "<style=\"Link\"><link=\"zero-player-games\">Zero-Player Games</link></style> can be said to have made all gameplay into <style=\"CurrentLink\">Excise</style> but can still offer meaningful play to players through the <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> they can provide. Similarly, games with <style=\"Link\"><link=\"action-programming\">Action Programming</link></style> but no actual choices for players when the <i>inner</i> gameplay occurs (as is for example the case in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/C-Robots\">C-Robots</link></style>) consist purely of <style=\"CurrentLink\">Excise</style> (although interesting choices exist outside the <i>inner</i> gameplay).",
+            "A final reason for <style=\"CurrentLink\">Excise</style> occurs easily in <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, especially if these make use of <style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style>, detailed <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or large numbers of <style=\"Link\"><link=\"units\">Units</link></style>. ",
+            "<style=\"CurrentLink\">Excise</style> and <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> are mutually exclusive; an action cannot be both.  ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "As mentioned above, having to describe <style=\"Link\"><link=\"characters\">Characters</link></style> or <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> can be <style=\"CurrentLink\">Excise</style> when players need to do it. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "As also mentioned above, <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> are necessary design solutions that cause <style=\"CurrentLink\">Excise</style> in significantly complex games. However, they may be justified on their own for helping players keep track of things they anyway need to keep track of. Examples of this include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Sheets\">Character Sheets</link></style>, <style=\"Link\"><link=\"current-player-tokens\">Current Player Tokens</link></style>, <style=\"Link\"><link=\"first-player-tokens\">First Player Tokens</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, and <style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Often, performing <style=\"CurrentLink\">Excise</style> can be seen as a form of forced <style=\"Link\"><link=\"no-ops\">No-Ops</link></style>. Since <style=\"CurrentLink\">Excise</style> can distract from both the gameplay and the narration, it can negatively affect any type of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Engrossment\">Engrossment</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"no-ops\">No-Ops</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, <style=\"Link\"><link=\"open-ended-die-rolls\">Open-Ended Die Rolls</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>, <style=\"Link\"><link=\"loot\">Loot</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"no-use-bonus\">No-Use Bonus</link></style>, <style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>, <style=\"Link\"><link=\"vehicle-sections\">Vehicle Sections</link></style>, <style=\"Link\"><link=\"zero-player-games\">Zero-Player Games</link></style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or, <style=\"Link\"><link=\"units\">Units</link></style>, in <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Sheets\">Character Sheets</link></style>, <style=\"Link\"><link=\"current-player-tokens\">Current Player Tokens</link></style>, <style=\"Link\"><link=\"entitled-players\">Entitled Players</link></style>, <style=\"Link\"><link=\"first-player-tokens\">First Player Tokens</link></style>, <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Engrossment\">Engrossment</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>, <style=\"Link\"><link=\"mules\">Mules</link></style>, <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>, <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>, <style=\"Link\"><link=\"quick-returns\">Quick Returns</link></style>, <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>",
+            "<style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style> when <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> are used"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "no-ops"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "abstract-player-constructs",
+            "action-programming",
+            "bookkeeping-tokens",
+            "characters",
+            "complex-gameplay",
+            "drafting",
+            "open-ended-die-rolls",
+            "game-element-insertion",
+            "game-masters",
+            "gameplay-statistics",
+            "grinding",
+            "loot",
+            "movement",
+            "no-use-bonus",
+            "optional-rules",
+            "persistent-game-worlds",
+            "puzzle-solving",
+            "save-scumming",
+            "self-facilitated-games",
+            "units",
+            "vehicle-sections",
+            "zero-player-games",
+            "ai-players",
+            "game-system-player",
+            "game-worlds",
+            "units",
+            "self-facilitated-games"
+        ],
+        "modulated_by" : [
+            "character-sheets",
+            "current-player-tokens",
+            "entitled-players",
+            "first-player-tokens",
+            "game-servers",
+            "inventories",
+            "score-tracks"
+        ],
+        "conflicts" : [
+            "dedicated-game-facilitators",
+            "engrossment",
+            "extra-game-actions",
+            "freedom-choice",
+            "game-masters",
+            "minimalized-social-weight",
+            "mules",
+            "non-player-help",
+            "purchasable-game-advantages",
+            "quick-returns",
+            "quick-travel",
+            "vehicles",
+            "resource-caps"
+        ]
+    }
+}

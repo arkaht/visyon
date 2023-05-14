@@ -1,0 +1,89 @@
+{
+    "name" : "Variable Accuracy",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game mechanics to simulate differences in the difficulty to hit what one aims at.",
+        "markups" : [
+            "<style=\"Definition\">Game mechanics to simulate differences in the difficulty to hit what one aims at.</style>",
+            "In real life, hitting what one aims at is quite difficult. This is however not the case in games since the granularity of game worlds and the rather simple physics needed to create a basic combat system can result in players always hitting what they aim at. When this is seen as a problem, <style=\"CurrentLink\">Variable Accuracy</style> can introduce to make hitting what one aims at depend on more gameplay factors.",
+            "<style=\"H3\">Examples</style>",
+            "Perhaps not too surprising, <style=\"CurrentLink\">Variable Accuracy</style> is often found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> focused heavily on combat, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/America's%20Army\">America's Army</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Far%20Cry%20series\">Far Cry</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Orchestra%20series\">Red Orchestra series</link></style>. However, they are found in games which combine this with roleplaying elements, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Deus%20Ex%20series\">Deus Ex</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>. ",
+            "More restrictive version of <style=\"CurrentLink\">Variable Accuracy</style> - for example those that limit movement or perception - can be found in horror-oriented games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resident%20Evil%20series\">Resident Evil series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Silent%20Hill%20series\">Silent Hill series</link></style>. This also occurs in games rewarding stealth (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Metal%20Gear%20Solid%20series\">Metal Gear Solid series</link></style>).",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Variable Accuracy</style> requires the presence of <style=\"Link\"><link=\"weapons\">Weapons</link></style> (conceivably other devices such as cameras could use the pattern as well). That given, three main ways of creating <style=\"CurrentLink\">Variable Accuracy</style> has been identified: <i>Wobble Aiming</i>, <i>Iron Sights</i>, and <i>Stationary Aiming</i>. ",
+            "Wobble Aiming, found for example in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Deus%20Ex%20series\">Deus Ex series</link></style>, and the latter installments of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, is simply that the <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> either move slightly or that players are presented with a circle showing the potential hit area of a shot. While the latter makes use of <style=\"Link\"><link=\"randomness\">Randomness</link></style>, players are often able to lessen the movement or circles through doing <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> (aiming) or acquiring better <style=\"Link\"><link=\"skills\">Skills</link></style> or <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> for their <style=\"Link\"><link=\"weapons\">Weapons</link></style>. Wobble aiming is very often affected negatively by player <style=\"Link\"><link=\"movement\">Movement</link></style>, but can also be affected by taking <style=\"Link\"><link=\"damage\">Damage</link></style> (either in itself or as extra consequences of <style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style> besides taking <style=\"Link\"><link=\"health\">Health</link></style> reductions) or as part of <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style>.",
+            "<i>Iron Sights</i>, used in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Far%20Cry%20series\">Far Cry series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Orchestra%20series\">Red Orchestra series</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/America's%20Army\">America's Army</link></style> among others, is support of aiming by letting players use the actual diegetic aims and scopes of the <style=\"Link\"><link=\"weapons\">Weapons</link></style>. What this means typically is that players have an additional action letting them look through their sights, and if they do not do this they may not have <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> or may have significantly less chance of hitting targets.",
+            "The previous option for <style=\"CurrentLink\">Variable Accuracy</style> typically affects <style=\"Link\"><link=\"movement\">Movement</link></style>, but <i>Stationary Aiming</i> takes this a step further. Found for examples in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Metal%20Gear%20Solid%20series\">Metal Gear Solid</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Metroid%20series\">Metroid</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resident%20Evil%20series\">Resident Evil</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Silent%20Hill%20series\">Silent Hill series</link></style>, this only allows aiming when players are stationary and may even hinder unaimed firing while moving. ",
+            "These techniques can be combined, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> uses both wobble aiming and iron sights.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Variable Accuracy</style> is often introduced to increase <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, and as such, it is typically also important that the ways players can affect the <style=\"CurrentLink\">Variable Accuracy</style>, e.g. the <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>, and <style=\"Link\"><link=\"weapons\">Weapons</link></style> available fit the setting.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Variable Accuracy</style> typically requires some work on the game interface, especially concerning how <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> can be used to indicate the level of accuracy one currently has.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Variable Accuracy</style> is a way of modifying <style=\"Link\"><link=\"weapons\">Weapons</link></style> so that <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> action, and thereby <style=\"Link\"><link=\"combat\">Combat</link></style>, becomes more difficult. The level of accuracy attained in games using the <style=\"CurrentLink\">Variable Accuracy</style> is often displayed through a visual change in the <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> presented to the player. When the <style=\"CurrentLink\">Variable Accuracy</style> depends on <style=\"Link\"><link=\"skills\">Skills</link></style> or <style=\"Link\"><link=\"weapons\">Weapons</link></style> the players has, this creates <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>, and these can be further modified by <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>. The use of sights that have to be activated (i.e. the iron sights option mentioned above) make players limit their perception. This may cause both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disruption%20of%20Focused%20Attention\">Disruption of Focused Attention</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> if this means that other events are unnoticed and then require them to react quickly. The Stationary aiming option for <style=\"CurrentLink\">Variable Accuracy</style> imposes <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style> as well as making <style=\"Link\"><link=\"movement\">Movement</link></style> and aiming into <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>.",
+            "The introduction of <style=\"CurrentLink\">Variable Accuracy</style>, and potentially the addition of <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>, and actions that affect this can make for both <style=\"Link\"><link=\"challenging-gameplay\">Challenging</link></style> and <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>. This is however often a side effect of trying to create <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> by balancing the different <style=\"Link\"><link=\"weapons\">Weapons</link></style> against each other, most often trying to reduce the effectiveness of sniper weapons. Indirectly, this means that the presence of <style=\"CurrentLink\">Variable Accuracy</style> in games reduces the usefulness of <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>.",
+            "By making it less certain that one will hit what one aims at, the pattern works against <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>, <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"damage\">Damage</link></style> and <style=\"Link\"><link=\"health\">Health</link></style></style>",
+            "<style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"skills\">Skills</link></style> or <style=\"Link\"><link=\"weapons\">Weapons</link></style></style>",
+            "<style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disruption%20of%20Focused%20Attention\">Disruption of Focused Attention</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"upgrades\">Upgrades</link></style></style>",
+            "<style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "challenging-gameplay",
+            "complex-gameplay",
+            "incompatible-goals",
+            "movement-limitations",
+            "player-balance",
+            "thematic-consistency",
+            "critical-hits",
+            "player-character-skill-composites"
+        ],
+        "modulates" : [
+            "aim-shoot",
+            "combat",
+            "crosshairs",
+            "disruption-focused-attention",
+            "movement",
+            "sniper-locations",
+            "surprises",
+            "weapons",
+            "player-character-skill-composites"
+        ],
+        "instantiated_by" : [
+            "extended-actions",
+            "randomness",
+            "weapons"
+        ],
+        "modulated_by" : [
+            "damage",
+            "movement",
+            "near-miss-indicators",
+            "skills",
+            "upgrades"
+        ],
+        "conflicts" : [
+            "predictable-consequences"
+        ]
+    }
+}

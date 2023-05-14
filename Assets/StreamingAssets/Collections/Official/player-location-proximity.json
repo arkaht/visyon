@@ -1,0 +1,62 @@
+{
+    "name" : "Player-Location Proximity",
+    "categories" : [
+        "Patterns",
+        "Pervasive Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game rules that depend on players being physically close to places.",
+        "markups" : [
+            "<style=\"Definition\">Game rules that depend on players being physically close to places.</style>",
+            "While many games make the position of players' tokens and characters in the game worlds into important part of the gameplay, few make the actual position of the players themselves part of the game. The main exception to this is traditional sports. Those that make physical location has specific gameplay meaning when players approach or enter them make use of a <style=\"CurrentLink\">Player-Location Proximity</style> relation.",
+            "<style=\"H3\">Examples</style>",
+            "While many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> inherently make use of <style=\"CurrentLink\">Player-Location Proximity</style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Orienteering\">Orienteering</link></style> explicitly sets goals for players to position themselves at specific locations. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Human%20PacMan\">Human PacMan</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pirates!\">Pirates!</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/SCVNGR\">SCVNGR</link></style> rely on player movement and use technology to let people report in their locations to the game systems. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Backseat%20Gaming\">Backseat Gaming</link></style> also uses technology to locate players but is designed to work for the passengers of a car. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncle%20Roy%20All%20Around%20You\">Uncle Roy All Around You</link></style> also depends on players' location in the physical world, but let the players report their locations freely regardless of where they actually are.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Implementation of <style=\"CurrentLink\">Player-Location Proximity</style> is rather straightforward - one simply designs location-dependent gameplay (e.g. regarding <style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, or <style=\"Link\"><link=\"traverse\">Traverse</link></style>) as usually but for players instead of <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style>. Specific details that need to be addressed (and which may be more difficult due to real world measuring) include what distance should trigger gameplay events, and if <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> are need for the triggering to take place or the triggered events to continue. Besides this, considerations need to be made are due to the possible consequences of player movement such as <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style> and <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>, since these can imbalance gameplay.",
+            "A specific alternative for games with <style=\"CurrentLink\">Player-Location Proximity</style>, first reported for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncle%20Roy%20All%20Around%20You\">Uncle Roy All Around You</link></style>, is to let players do <style=\"Link\"><link=\"self-reported-positioning\">Self-Reported Positioning</link></style> rather than rely on technology or <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> to do this. While this can remove problems with the reliability of the technology to locate players, it can also let players have a more play-like approach to the games (since the games support <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>). Another pattern that specifically can modulate <style=\"CurrentLink\">Player-Location Proximity</style> is <style=\"Link\"><link=\"seamful-gameplay\">Seamful Gameplay</link></style>; this allows players to make use of their knowledge of the detection capabilities of the underlying positioning system to appear and disappear from the game state intentionally.",
+            "<style=\"Link\"><link=\"deliver\">Deliver</link></style> goals typically requires that players' <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> carry or move a specific game element to a specific location. This makes games using <style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style> likely to force the players themselves to go to the locations, and thereby the combination of <style=\"Link\"><link=\"deliver\">Deliver</link></style> and <style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style> can be used to create <style=\"CurrentLink\">Player-Location Proximity</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Gameplay depending on <style=\"CurrentLink\">Player-Location Proximity</style> is likely to create <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals, and <style=\"Link\"><link=\"races\">Races</link></style> if <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> exist or other players may block effects by arriving to the place first. Since moving to physical locations requires <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, the pattern may also make <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style> and <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style> part of the gameplay. If the locations are not well-known to the players, <style=\"CurrentLink\">Player-Location Proximity</style> dependent gameplay can also give rise to <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> and <style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>. The locations that players' positions are compared are <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> unless very many of them exist.",
+            "While <style=\"CurrentLink\">Player-Location Proximity</style> always creates <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>, it can also create <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> if the gameplay area is not explicitly stated and separated from other activities. When the gameplay area in the latter case becomes large enough, as is the case for example with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Insectopia\">Insectopia</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/SCVNGR\">SCVNGR</link></style>, the pattern also promotes <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>.",
+            "When used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pervasive%20Games\">Pervasive Games</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">LARPs</link></style>, <style=\"CurrentLink\">Player-Location Proximity</style> gives <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> information about players' locations and thereby let them instantiate gameplay events based upon where the players are.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>, <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"self-reported-positioning\">Self-Reported Positioning</link></style></style>",
+            "<style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style> together with <style=\"Link\"><link=\"deliver\">Deliver</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"seamful-gameplay\">Seamful Gameplay</link></style>, <style=\"Link\"><link=\"self-reported-positioning\">Self-Reported Positioning</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "changes-perception-real-world-phenomena-gameplay",
+            "encouraged-return-visits",
+            "pervasive-gameplay",
+            "casual-gameplay"
+        ],
+        "modulates" : [
+            "game-masters",
+            "real-world-gameplay-spaces"
+        ],
+        "instantiated_by" : [
+            "player-artifact-proximity"
+        ],
+        "modulated_by" : [
+            "extended-actions",
+            "seamful-gameplay",
+            "self-reported-positioning"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

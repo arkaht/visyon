@@ -1,0 +1,75 @@
+{
+    "name" : "Functional Roles",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where responsibility for different types of game actions can be divided between participants.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where responsibility for different types of game actions can be divided between participants.</style>",
+            "Games where not all actions can be done by one game entity have <style=\"CurrentLink\">Functional Roles</style> - a division of who can do what according to their functional capabilities. These <style=\"CurrentLink\">Functional Roles</style> can be present from the beginning of game instances or develop over time, and can be voluntary or forced upon players.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> have <style=\"CurrentLink\">Functional Roles</style> defined both by rules - goalies - and by tactics, e.g. forwards and defense players.",
+            "Class-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> provide different sets of abilities for each class and thereby have <style=\"CurrentLink\">Functional Roles</style>. This has carried over to computer-based version such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neverwinter%20Nights%20series\">Neverwinter Nights series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>. Similarly, class-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style> force teams into various classes so all needed <style=\"CurrentLink\">Functional Roles</style> are filled; the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooter</link></style> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> accomplishes <style=\"CurrentLink\">Functional Roles</style> by only letting players have one type of main weapon so the four-player teams need to diversify themselves to have a good mix of firepower.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Supporting <style=\"CurrentLink\">Functional Roles</style> requires both that entities can <i>or</i> need to specialize into different roles, and that several entities exist to fill these roles. In practice this means making entities have different <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style> and having to engage in <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>. <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> is the simplest solution to provide different <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style> but these can also emerge organically through games that have provide <style=\"Link\"><link=\"new-abilities\">New</link></style> or <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> during gameplay. <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> can also enforce <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> but <style=\"Link\"><link=\"teams\">Teams</link></style> is another options. Beyond that, specific ways of allowing <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style> include <style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, and <style=\"Link\"><link=\"weapons\">Weapons</link></style> while <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style> can force specialization since each entity cannot carry <style=\"Link\"><link=\"tools\">Tools</link></style> or <style=\"Link\"><link=\"weapons\">Weapons</link></style> for each situation (the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> is an example where <style=\"Link\"><link=\"equipment-slots\">Equipment Slots</link></style> has this consequence). <style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> can force players to specialize into different roles simply because they have access to different gameplay devices or mediums. Similarly, <style=\"Link\"><link=\"asynchronous-collaborative-actions\">Asynchronous Collaborative Actions</link></style> can force players to specialize into different roles based on <i>when</i> they need to play.",
+            "<style=\"CurrentLink\">Functional Roles</style> are typically split between players and in this fashion motivates the existence of for example <style=\"Link\"><link=\"parties\">Parties</link></style>, but this can be complemented by use of <style=\"Link\"><link=\"companions\">Companions</link></style> and the pattern can be used in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> if the player has control over many <style=\"Link\"><link=\"characters\">Characters</link></style> or <style=\"Link\"><link=\"units\">Units</link></style>. Beyond all other ways of supporting <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style> that exist, one way appropriate in conjunction with <style=\"CurrentLink\">Functional Roles</style> is to let players distinguish themselves with <style=\"Link\"><link=\"cosmetic-game-items\">Cosmetic Game Items</link></style> according to their roles.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"Link\"><link=\"role-selection\">Role Selection</link></style> is a typical consequence <style=\"CurrentLink\">Functional Roles</style> and besides the gameplay possibilities offered by <style=\"CurrentLink\">Functional Roles</style>, they typically also give or suggest <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>. Novice players can ease into a game when <style=\"CurrentLink\">Functional Roles</style> require different levels of expertise in <style=\"Link\"><link=\"teams\">Teams</link></style>, so the pattern can support <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> in these types of games; an example of this is playing engineers or medics in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style>. The pattern can create <style=\"Link\"><link=\"tiered-participation\">Tiered Participation</link></style> when the requirements on engagement in the gameplay differs considerably between the different roles.",
+            "In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"CurrentLink\">Functional Roles</style> let players have <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> and thereby provides <style=\"Link\"><link=\"replayability\">Replayability</link></style> in that players can have different gameplay experiences by testing different roles. When number of players that can have specific roles are limited, this can lead to <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style> between the players - especially in games with persistent social organizations such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style>. These <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalries</link></style> can in turn lead to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversals</link></style> during gameplay.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>, <style=\"Link\"><link=\"role-selection\">Role Selection</link></style>, <style=\"Link\"><link=\"tiered-participation\">Tiered Participation</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"teams\">Teams</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"cosmetic-game-items\">Cosmetic Game Items</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversal</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"parties\">Parties</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"asynchronous-collaborative-actions\">Asynchronous Collaborative Actions</link></style>, <style=\"Link\"><link=\"companions\">Companions</link></style>",
+            "<style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style> together with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>",
+            "<style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style> together with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "actor-detachment",
+            "social-roles",
+            "role-selection",
+            "tiered-participation",
+            "smooth-learning-curves",
+            "coordination",
+            "role-reversal",
+            "internal-rivalry",
+            "replayability",
+            "varied-gameplay"
+        ],
+        "modulates" : [
+            "multiplayer-games",
+            "parties",
+            "teams"
+        ],
+        "instantiated_by" : [
+            "asynchronous-collaborative-actions",
+            "companions",
+            "competence-areas",
+            "crossmedia-gameplay"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name" : "Negotiable Game Instance Duration",
+    "categories" : [
+        "Patterns",
+        "Gameplay Adaptability Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games where the time duration of the entire game instance is negotiable.",
+        "markups" : [
+            "<style=\"Definition\">Games where the time duration of the entire game instance is negotiable.</style>",
+            "One of the characteristics that affect is people are willing to play a game is how long time they will have to commit to for its gameplay. Games where the players can decide upon the time limits for the entire game instance have <style=\"CurrentLink\">Negotiable Game Instance Duration</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Games of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blackjack\">Blackjack</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> among friends can easily have <style=\"CurrentLink\">Negotiable Game Instance Duration</style> since each round does not take too much time and the game can be stopped with problems after each round.",
+            "Although the rules for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ricochet%20Robots\">Ricochet Robots</link></style> suggest a number of rounds to play, they also explicitly state that players can change this as long as all players agree upon this before the game starts.",
+            "Games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ghost%20Stories\">Ghost Stories</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inca%20Empire\">Inca Empire</link></style> let players choose variants which either make it more likely for them to lose earlier or introduces ",
+            "randomness to when the game ends. As such, they are weak examples of <style=\"CurrentLink\">Negotiable Game Instance Duration</style> since they let players have some influence over how long a game instance should be but without good precision.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Negotiable Game Instance Duration</style> can be supported by letting players set <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> for the game instances. This may be time measured by clocks (as in some variants of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>) and may also be number of numbers of turns in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> (the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization</link></style> computer game series supports this for example). ",
+            "A concrete but more specific way of creating <style=\"CurrentLink\">Negotiable Game Instance Duration</style> is to have <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated</link></style> <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> that consist of games with <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style>. If the reason for considering <style=\"CurrentLink\">Negotiable Game Instance Duration</style> is primarily to let individual players have control over how much time their game sessions should take, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay is an alternative. This does however work against a feeling of <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>.",
+            "<style=\"Link\"><link=\"negotiable-play-sessions\">Negotiable Play Sessions</link></style> and <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable Game Sessions</link></style> can indirectly support the pattern since if the players all agree on upper boundaries for the time spent (or when it is spent), this will lead to an upper boundary for the game instance also.",
+            "<style=\"Link\"><link=\"configurable-gameplay-areas\">Configurable Gameplay Areas</link></style> can also indirectly support this pattern since changing the distances players, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style> need to move is also likely to change the time it takes to play through the game.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "The pattern can work against <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> unless these structures can scale for varying lengths of gameplay.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Negotiable Game Instance Duration</style> create <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> since it makes players negotiate. Given that <style=\"CurrentLink\">Negotiable Game Instance Duration</style> lets players have control over how long a game instance should take and thereby lets them fit the gameplay time with other activities, it provides <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> and lessens the occurrence of <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>. It may not provide <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> to the same level as <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay, but it does ensure that players can perceive the whole gameplay and have a greater sense of <style=\"Link\"><link=\"togetherness\">Togetherness</link></style> with the other players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>, <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"configurable-gameplay-areas\">Configurable Gameplay Areas</link></style>, <style=\"Link\"><link=\"negotiable-game-sessions\">Negotiable Game Sessions</link></style>, <style=\"Link\"><link=\"negotiable-play-sessions\">Negotiable Play Sessions</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"Link\"><link=\"meta-games\">Meta Games</link></style> together with <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> and <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "extra-game-actions",
+            "social-adaptability",
+            "togetherness"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "configurable-gameplay-areas",
+            "negotiable-game-sessions",
+            "negotiable-play-sessions",
+            "time-limits",
+            "meta-games"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "early-leaving-players",
+            "predetermined-story-structures"
+        ]
+    }
+}

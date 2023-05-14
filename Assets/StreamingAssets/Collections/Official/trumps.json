@@ -1,0 +1,51 @@
+{
+    "name" : "Trumps",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "A suit of card that beat other suits in trick taking.",
+        "markups" : [
+            "<style=\"Definition\">A suit of card that beat other suits in trick taking.</style>",
+            "Card games that use trick taking usually lets the player who played the highest card of the active suit take the trick. However, some games let this is superseded by another suit, the <style=\"CurrentLink\">Trump</style>, where any card in this suit beats all other cards. Other cards in the <style=\"CurrentLink\">Trump</style> suit may however beat the ones played previously. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Trumps</style> are used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style> using tricks. Examples include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oh,%20hell\">Oh, hell</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spades\">Spades</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Whist\">Whist</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Trumps</style> is a way of modulating <style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style>. The main design choice is whether one suit of <style=\"Link\"><link=\"cards\">Cards</link></style> (or <style=\"Link\"><link=\"tiles\">Tiles</link></style>) should always be the <style=\"CurrentLink\">Trump</style> (as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spades\">Spades</link></style>) or this should change between game instances or game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rounds\">Rounds</link></style>. When the <style=\"CurrentLink\">Trump</style> is not fixed, <style=\"Link\"><link=\"randomness\">Randomness</link></style> can be used (as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oh,%20hell\">Oh, hell</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Whist\">Whist</link></style>) or be part of <style=\"Link\"><link=\"bidding\">Bidding</link></style> (here <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style> is probably the most well-known example).",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style> games that have <style=\"CurrentLink\">Trumps</style> are somewhat more likely to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> than those without <style=\"CurrentLink\">Trumps</style>, and have somewhat more <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> and somewhat less <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>. Being able to trump is a <style=\"Link\"><link=\"privileged-abilities\">Privileged Ability</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"bidding\">Bidding</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "complex-gameplay",
+            "privileged-abilities",
+            "surprises"
+        ],
+        "modulates" : [
+            "trick-taking"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "bidding",
+            "randomness"
+        ],
+        "conflicts" : [
+            "predictable-consequences"
+        ]
+    }
+}

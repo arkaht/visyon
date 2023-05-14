@@ -1,0 +1,83 @@
+{
+    "name" : "Hovering Closures",
+    "categories" : [
+        "Patterns",
+        "Aesthetic Patterns"
+    ],
+    "texts" : {
+        "definition" : "Events that are about to occur and can clearly be observed by players.",
+        "markups" : [
+            "<style=\"Definition\">Events that are about to occur and can clearly be observed by players.</style>",
+            "Most games put players in situation where they can clearly see that a future or ongoing activity can have a specific outcomes, either good or bad. Being able to perceive these outcomes, or closures, make them into <style=\"CurrentLink\">Hovering Closures</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "Both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> allow players to experience <style=\"CurrentLink\">Hovering Closures</style> by deducting series of future moves. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> is noteworthy in that if both players perceive situations the same they may ignore or wait resolving the sequences of game actions in order to focus on other parts of the game board.",
+            "Auctions in games are examples of <style=\"CurrentLink\">Hovering Closures</style> where one outcome is clearly perceived by the players, but this outcome can be changed by additional bids. Examples of games in which these can be found include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Amun-Re\">Amun-Re</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Homesteaders\">Homesteaders</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Power%20Grid\">Power Grid</link></style>. ",
+            "Leaving an opening for specific blocks in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tetris\">Tetris</link></style> create strong <style=\"CurrentLink\">Hovering Closures</style>.",
+            "Races with finishing lines, for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Formula%20D\">Formula D</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hare%20and%20Tortoise\">Hare and Tortoise</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style>, provide strong <style=\"CurrentLink\">Hovering Closures</style> as players near these finishing lines.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Hovering Closures</style> are used to create or intensify <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> or <style=\"Link\"><link=\"tension\">Tension</link></style> in games. While the pattern is used in some form in most games, it may be essential in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quick%20Games\">Quick Games</link></style> to make them enjoyable at all.",
+            "There are many specific ways of creating <style=\"CurrentLink\">Hovering Closures</style>. <style=\"Link\"><link=\"alignment\">Alignment</link></style>, <style=\"Link\"><link=\"bidding\">Bidding</link></style>, <style=\"Link\"><link=\"betting\">Betting</link></style>, <style=\"Link\"><link=\"configuration\">Configuration</link></style>, <style=\"Link\"><link=\"cooldown\">Cooldown</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>, and <style=\"Link\"><link=\"quests\">Quests</link></style> all by their nature set up for a clear potential closure. More generally <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style>, <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, and <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> set up situations when players are aware of a future closure that can occur. <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style> do likewise but here the closures are generally negative ones. <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> typically can be guaranteed to create many <style=\"CurrentLink\">Hovering Closures</style> at any given point in time. While <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style>, <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style> can set up closures that take quite some time before the occur, <style=\"Link\"><link=\"levels\">Levels</link></style> and <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> can do so even more strongly. <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style> can do this also if clearly advertised in advance. ",
+            "<style=\"CurrentLink\">Hovering Closures</style> that are clearly quantified by the game system itself can be given <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> to increase <style=\"Link\"><link=\"tension\">Tension</link></style>. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> can be provided to any type of goals in a game to create or make more explicit a <style=\"CurrentLink\">Hovering Closure</style>. This is especially true when combined with <style=\"Link\"><link=\"combos\">Combos</link></style> or <style=\"Link\"><link=\"development-time\">Development Time</link></style>. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "As started above, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> can be used to set up <style=\"CurrentLink\">Hovering Closures</style> related to the narration.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Hovering Closures</style> can create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style> in games. This in turn can create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quick%20Games\">Quick Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"alignment\">Alignment</link></style>, <style=\"Link\"><link=\"betting\">Betting</link></style>, <style=\"Link\"><link=\"bidding\">Bidding</link></style>, <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"configuration\">Configuration</link></style>, <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"cooldown\">Cooldown</link></style>, <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style>, <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style> or <style=\"Link\"><link=\"development-time\">Development Time</link></style> together with <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "emotional-engrossment",
+            "tension"
+        ],
+        "modulates" : [
+            "quick-games"
+        ],
+        "instantiated_by" : [
+            "alignment",
+            "betting",
+            "bidding",
+            "complex-gameplay",
+            "configuration",
+            "continuous-goals",
+            "cooldown",
+            "delayed-effects",
+            "delayed-reciprocity",
+            "extended-actions",
+            "fubar-enjoyment",
+            "narration-structures",
+            "levels",
+            "predictable-consequences",
+            "progress-indicators",
+            "quests",
+            "rhythm-based-actions",
+            "symmetry",
+            "the-show-must-go-on",
+            "uncommitted-alliances",
+            "ultra-powerful-events",
+            "combos"
+        ],
+        "modulated_by" : [
+            "time-limits"
+        ],
+        "conflicts" : [
+            "surprises"
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name" : "Startgame",
+    "categories" : [
+        "Gameplay Arc Patterns",
+        "Aesthetic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The initial phase in games with clear gameplay phases.",
+        "markups" : [
+            "<style=\"Definition\">The initial phase in games with clear gameplay phases.</style>",
+            "Some games have phases of gameplay time when different goals and actions are in focus. The <style=\"CurrentLink\">Startgame</style> is the first of these phases in the games that have them. ",
+            "<style=\"H3\">Examples</style>",
+            "The opening moves in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> have been studied in great detail and are classical examples of <style=\"CurrentLink\">Startgame</style> analyses.",
+            "Game instances in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Master%20of%20Orion\">Master of Orion</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> start with distinct phases were players need to explore their immediate surroundings and start planning where to place their first outposts.",
+            "In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Starcraft%20series\">Starcraft series</link></style> the <style=\"CurrentLink\">Startgame</style> is typically called \"Opening\". With more symmetrical maps, the first phase in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style> is called \"Laning\" and relates to which lanes to the enemies base the players should focus on. This lane-centered opening of game instances is also found in the game's predecessor <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients\">Defense of the Ancients</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The design of <style=\"CurrentLink\">Startgame</style> phases depends much on the design vision for how the game should start and what other phases should exist. In general, only a few actions and goals are available and players typically have what is functionally temporary <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style> (In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Master%20of%20Orion\">Master of Orion</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style>",
+            "Examples of <style=\"CurrentLink\">Startgame</style> phases include <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> and <style=\"Link\"><link=\"laning\">Laning</link></style>; <style=\"Link\"><link=\"expansion\">Expansion</link></style> may also be a <style=\"CurrentLink\">Startgame</style> phase if <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> is not present. The design of any phase which is intended to be the <style=\"CurrentLink\">Startgame</style> phase typically needs to consider a couple of patterns that can cause problems. <style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style> and <style=\"Link\"><link=\"first-player-advantages\">First Player Advantages</link></style> may unbalance the game while <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> may cause delays or exclude these players unless the rules support their inclusion.",
+            "As a corollary to designing a <style=\"CurrentLink\">Startgame</style> phase in a game, the game needs other phases. A \"classical\" structure from <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> is to continue to a more complex <style=\"Link\"><link=\"middlegame\">Middlegame</link></style> and then a decisive <style=\"Link\"><link=\"endgame\">Endgame</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Games with clear and known <style=\"CurrentLink\">Startgame</style> phases can encourage <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> and development of <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> regarding different starting strategies. This means that <style=\"CurrentLink\">Startgame</style> phases support <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style> rather than <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> in most cases since plans do not have to depend too much on the specific game state of a game instance (due to the limited variation and common patterns which define the <style=\"CurrentLink\">Startgame</style>). Since <style=\"CurrentLink\">Startgame</style> phases tend to have relatively low complexity and available actions, they can support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"expansion\">Expansion</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"laning\">Laning</link></style>, <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>, <style=\"Link\"><link=\"first-player-advantages\">First Player Advantages</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "smooth-learning-curves",
+            "stimulated-planning",
+            "strategic-planning",
+            "strategic-knowledge"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "expansion",
+            "game-world-exploration",
+            "laning",
+            "private-game-spaces"
+        ],
+        "modulated_by" : [
+            "asymmetric-starting-conditions",
+            "first-player-advantages",
+            "late-arriving-players"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

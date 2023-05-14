@@ -1,0 +1,59 @@
+{
+    "name" : "Sustenance Rewards",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Rewards consisting of replenishing resources that are constantly consumed.",
+        "markups" : [
+            "<style=\"Definition\">Rewards consisting of replenishing resources that are constantly consumed.</style>",
+            "Many games require players to constantly consume some type of resource or otherwise drive a game system towards a bad game state. <style=\"CurrentLink\">Sustenance Rewards</style> are those rewards that provide players with more of this resource or move the system away from the bad game state, thereby prolonging the time until negative consequences occur. ",
+            "<style=\"H3\">Examples</style>",
+            "Players of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sega%20Rally%20series\">Sega Rally series</link></style> need <style=\"CurrentLink\">Sustenance Rewards</style> in the form of more time to be able to play beyond the initial limit set by the game.",
+            "Ammunition are <style=\"CurrentLink\">Sustenance Rewards</style> in games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life series</link></style> since using various forms of firearms in a necessity in these.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Sustenance Rewards</style> consists of two main aspects. First, what should the <style=\"Link\"><link=\"rewards\">Rewards</link></style> consist of which players more or less continuously need. Second, and most likely more challenging to design, when should these be able to get to fit the speed with which players need the sustenance provided by the <style=\"Link\"><link=\"rewards\">Rewards</link></style>. Typical examples of <style=\"CurrentLink\">Sustenance Rewards</style> are <style=\"Link\"><link=\"ammunition\">Ammunition</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style>, which is not too surprising since they both are <style=\"Link\"><link=\"resources\">Resources</link></style> that players typically use and may run out of. In games with <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, receiving more time can be seen as a <style=\"CurrentLink\">Sustenance Reward</style> (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sega%20Rally\">Sega Rally</link></style> is an example of this). However, any <style=\"Link\"><link=\"resources\">Resource</link></style> that can run out can serve as the basis for <style=\"CurrentLink\">Sustenance Rewards</style>.",
+            "The need for <style=\"CurrentLink\">Sustenance Rewards</style> can be created through the presence of some patterns. Most generally, any type of <style=\"Link\"><link=\"consumers\">Consumers</link></style> can create the need for whatever <style=\"Link\"><link=\"resources\">Resource</link></style> or other things they consume. Less generally, the presence of <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> can require <style=\"CurrentLink\">Sustenance Rewards</style> in the form of fuel if players are supposed to be able to continue using them.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Sustenance Rewards</style> is one of the types of <style=\"Link\"><link=\"rewards\">Rewards</link></style> possible in games. The can create <style=\"Link\"><link=\"collecting\">Collecting</link></style> activities and <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style> in the sense that players may need to continue getting them to avoid <style=\"Link\"><link=\"penalties\">Penalties</link></style>, and provide one part of what is needed in creating <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Faucet/Drain\">Faucet/Drain</link></style> systems that players cannot ignore. In games where players have an awareness of when and how they can get access to <style=\"CurrentLink\">Sustenance Rewards</style>, timing when to get them can be part of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> calculations.",
+            "<style=\"Link\"><link=\"tension\">Tension</link></style> can both be lessened to a certain degree by <style=\"CurrentLink\">Sustenance Rewards</style> and be prolonged if the sustenance needed continuously depletes.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"collecting\">Collecting</link></style>, <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Faucet/Drain\">Faucet/Drain</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"consumers\">Consumers</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "collecting",
+            "continuous-goals",
+            "faucet-drain",
+            "rewards",
+            "risk-reward"
+        ],
+        "modulates" : [
+            "consumers",
+            "tension",
+            "vehicles"
+        ],
+        "instantiated_by" : [
+            "ammunition",
+            "money",
+            "resources",
+            "time-limits"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

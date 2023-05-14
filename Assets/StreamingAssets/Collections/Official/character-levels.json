@@ -1,0 +1,72 @@
+{
+    "name" : "Character Levels",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "An enumeration of states characters can progress through, gaining and improving abilities as they are reached.",
+        "markups" : [
+            "<style=\"Definition\">An enumeration of states characters can progress through, gaining and improving abilities as they are reached.</style>",
+            "Many games support players feeling they have achieved something through letting them have clear gameplay indications of this. For games with characters, one way of doing this is through <style=\"CurrentLink\">Character Levels</style> which simply can be a numerical scale that character can increase in to signify that players have reached certain goals. ",
+            "<i>Note: this pattern is not about the concept of parts of a game that players are confined to until certain goals or end condition has been fulfilled. That concept is described in the pattern </i><style=\"Link\"><link=\"levels\">Levels</link></style><i>.</i>",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> make use of <style=\"CurrentLink\">Character Levels</style>. However, it is common in many other types of games, for examples see the list at Giant Bomb for the concept of [http://www.giantbomb.com/leveling-up/3015-475/ Leveling Up].",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> does have some <style=\"CurrentLink\">Character Levels</style> for some career classes but this is in fact a special case. The normal one is that after a character has learned sufficiently from one career one changes career instead. While in many cases new careers can be more powerful, players often have options on which career to choose and sometimes may be force to choose unrelated ones due to circumstances.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are a number of design choices related to creating a system of <style=\"CurrentLink\">Character Levels</style>. First, how many <style=\"CurrentLink\">Character Levels</style> should exist. In <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, attention typically needs to be given to supporting <style=\"Link\"><link=\"endgame\">Endgame</link></style> gameplay for all players that have reached the maximum level (this can be important in other games as well, but the number of players and their possibility to interact with other players makes it vital in <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>). Second, what specific requirements needs to be met to reach each level. Having a specific amount of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Experience%20Points\">Experience Points</link></style> is one option (found for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>) but the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> shows another way through requiring a certain number of points in <style=\"Link\"><link=\"skills\">Skills</link></style> to have been gained. Third, and perhaps most complex, what effects should take place when a <style=\"CurrentLink\">Character Level</style> is met. Common ones are <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> and increases in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style> (or more simply: <style=\"Link\"><link=\"characteristics\">Characteristics</link></style>), but reaching new <style=\"CurrentLink\">Character Levels</style> can also work as <style=\"Link\"><link=\"unlocking\">Unlocking</link></style> either <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style> (in which case this pattern modulates those rather than the other way around). A more uncommon effect is to increase the number of <style=\"Link\"><link=\"helpers\">Helpers</link></style> a player can have. In addition, games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Classes\">Character Classes</link></style> can have individual design choices for each class.",
+            "The presence of some other patterns make them potential interact points with <style=\"CurrentLink\">Character Levels</style>. For example, games with <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style> can have reductions in <style=\"CurrentLink\">Character Levels</style> as one of those consequences. In games using the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style> pattern, <style=\"CurrentLink\">Character Levels</style> can be connected to these as requirements for reaching levels.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Character Levels</style> are part of the <style=\"Link\"><link=\"characteristics\">Characteristics</link></style> of <style=\"Link\"><link=\"characters\">Characters</link></style> tied to a <style=\"Link\"><link=\"characters\">Character</link></style> or player. As such it can signify a <style=\"Link\"><link=\"scores\">Score</link></style> and each increase in <style=\"CurrentLink\">Character Level</style> can be seen as reaching a <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> goal leading to <style=\"Link\"><link=\"unlocking\">Unlocking</link></style> of <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>. Reaching a new <style=\"CurrentLink\">Character Levels</style> represents <style=\"Link\"><link=\"character-development\">Character Development</link></style> for <style=\"Link\"><link=\"characters\">Characters</link></style> and can be either the result of <style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style> or result in these when choices are made about how to develop.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"characteristics\">Characteristics</link></style>, <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"unlocking\">Unlocking</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"characters\">Characters</link></style></style>",
+            "<style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style>, <style=\"Link\"><link=\"character-development\">Character Development</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style></style>",
+            "<style=\"Link\"><link=\"endgame\">Endgame</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"helpers\">Helpers</link></style>, <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Classes\">Character Classes</link></style>, <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Experience%20Points\">Experience Points</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "characteristics",
+            "gain-competence",
+            "scores",
+            "unlocking",
+            "character-defining-actions",
+            "character-development",
+            "endgame"
+        ],
+        "modulates" : [
+            "characters",
+            "helpers",
+            "massively-multiplayer-online-games",
+            "new-abilities"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "attributes",
+            "character-classes",
+            "death-consequences",
+            "experience-points",
+            "improved-abilities",
+            "neighbors",
+            "powers",
+            "skills"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

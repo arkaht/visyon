@@ -1,0 +1,66 @@
+{
+    "name" : "High Score Lists",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The storing of scores after games have finished so the they can be compared.",
+        "markups" : [
+            "<style=\"Definition\">The storing of scores after games have finished so the they can be compared.</style>",
+            "<style=\"CurrentLink\">High Score Lists</style> are simply records of the results obtained by players during game sessions that are accessible later. This allows players to easily compare how well they did in relation to others or previous times they played. Depending on the gaming platform and the game design, <style=\"CurrentLink\">High Score Lists</style> may be be shared and/or public.",
+            "<style=\"H3\">Examples</style>",
+            "The first arcade game to have <style=\"CurrentLink\">High Score Lists</style> was <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>. The player who achieves a high enough score compared to the other players of the same machine is allowed to enter his initials to be displayed in the High Score List.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal\">Portal's</link></style> challenge mode can be seen as a <style=\"CurrentLink\">High Score List</style> for a single player that allows him or her to try to complete levels using less time, portals, or steps to solve a problem.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Staries\">Staries</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Icy%20Tower\">Icy Tower</link></style> are examples of casual games that have <style=\"CurrentLink\">High Score Lists</style> to let gamers compare their current results with previous one, and with ones of others.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The use of <style=\"CurrentLink\">High Score Lists</style> is fairly standardized, with the main design choices being the number of <style=\"Link\"><link=\"scores\">Scores</link></style> saved in the <style=\"CurrentLink\">High Score List</style> and how <style=\"Link\"><link=\"handles\">Handles</link></style> are supported. Most <style=\"CurrentLink\">High Score Lists</style> make use of <style=\"Link\"><link=\"handles\">Handles</link></style> so that the players can identify their own scores and know that other players can recognize them. Since <style=\"CurrentLink\">High Score Lists</style> typically are ordered, they need <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> or have to be explicitly designed to allow several players with <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> to be displayed as completely equal. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style> modify <style=\"CurrentLink\">High Score Lists</style> to be independent of where gameplay takes place.",
+            "Although many <style=\"CurrentLink\">High Score Lists</style> use <style=\"Link\"><link=\"scores\">Scores</link></style> there are other options. Any type of statistic from gameplay (e.g. hit percentage, time) provide quantifiable values which can be used in place of <style=\"Link\"><link=\"scores\">Scores</link></style> - the use of time, portals, and footsteps to measure efficiency in the challenge mode of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal\">Portal</link></style> can be seen as an example of this. Individual <style=\"Link\"><link=\"achievements\">Achievements</link></style> cannot be the basis of <style=\"CurrentLink\">High Score Lists</style> due to their boolean nature but collections of them can play the same role as <style=\"Link\"><link=\"scores\">Scores</link></style>. Several game delivery platforms, e.g. Steam and Xbox Live, provide support for such <style=\"Link\"><link=\"achievements\">Achievements</link></style>-based lists and may even require them for game to be on the platform.",
+            "<style=\"CurrentLink\">High Score Lists</style> may be designed to remove old values after a certain time period. This can be motivated if large numbers of players use the same list, e.g. in games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style>, since very few players will have a chance of making it into the list. Although this can seem to remove the reward for achieving the all-time best score in the game one can avoid this by having an all-time <style=\"CurrentLink\">High Score List</style> and a temporary one. ",
+            "<style=\"H3\">Diegetic  Aspects</style>",
+            "<style=\"CurrentLink\">High Score Lists</style> are typically presented outside the gameplay and game world. This does not imply that they cannot be accessible during gameplay since they can be presented in a different section of the game interface or be accessible through <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>. There are however some example of how to place <style=\"CurrentLink\">High Score Lists</style> within the game world. The use of <style=\"Link\"><link=\"ghosts\">Ghosts</link></style> in racing games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gran%20Turismo%203\">Gran Turismo 3</link></style> can be seen as a form of <style=\"CurrentLink\">High Score Lists</style> that allows players to judge their progress against other performances, as well as their own individual performances, in previous game sessions while playing the game. Another example can be found in the Facebook version of the game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Icy%20Tower\">Icy Tower</link></style>, where the highest level a players' friends have reached is indicated by placing the friends <style=\"Link\"><link=\"avatars\">Avatars</link></style> on that level in the player's game.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">High Score Lists</style> are a form of <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style> created from <style=\"Link\"><link=\"scores\">Scores</link></style> that persist after game instances have finished. Since gaining a position in a <style=\"CurrentLink\">High Score Lists</style> is an example of an <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequence</link></style>, <style=\"CurrentLink\">High Score Lists</style> allows players to use them to create <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> out of games by using the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> they provide to have the <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style> of beating their own previous [Scores]] or that of friends - allowing <style=\"CurrentLink\">High Score Lists</style> to also provide <style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style>. This is a simply way of encouraging <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> and providing goals to <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>. Doing so adds <style=\"Link\"><link=\"replayability\">Replayability</link></style> to the game, as the players have the additional goal of simply performing slightly better than in the previous game sessions. <style=\"CurrentLink\">High Score Lists</style> (and especially <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style>) also introduce <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competitions\">Competitions</link></style> to otherwise <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> and are also a way for players to compare and display their results to affect their <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style> (and a form of <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>).",
+            "<style=\"CurrentLink\">High Score Lists</style> allow a weak form of <style=\"Link\"><link=\"spectators\">Spectators</link></style> to exist in games, since people can after game instances are finished notice how well players have played.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>, <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style></style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H3\">Can be Instantiated By</style>",
+            "<style=\"Link\"><link=\"achievements\">Achievements</link></style>, ",
+            "<style=\"Link\"><link=\"ghosts\">Ghosts</link></style>, ",
+            "<style=\"Link\"><link=\"handles\">Handles</link></style>, ",
+            "<style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H3\">Can be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Can Potentially Conflict With</style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "extra-game-consequences",
+            "gameplay-statistics",
+            "player-defined-goals",
+            "social-rewards",
+            "spectators",
+            "trans-game-information",
+            "multiplayer-games"
+        ],
+        "modulates" : [
+            "gameplay-mastery",
+            "single-player-games",
+            "unwinnable-games"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

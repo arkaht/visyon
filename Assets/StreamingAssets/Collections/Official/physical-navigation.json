@@ -1,0 +1,68 @@
+{
+    "name" : "Physical Navigation",
+    "categories" : [
+        "Patterns",
+        "Pervasive Patterns"
+    ],
+    "texts" : {
+        "definition" : "Navigation through gameplay environments through bodily movement.",
+        "markups" : [
+            "<style=\"Definition\">Navigation through gameplay environments through bodily movement.</style>",
+            "Movement and navigation are common occurrences in games. While they in many games are done symbolically through moving characters through fictive environments, some games instead have players do <style=\"CurrentLink\">Physical Navigation</style> through requiring them to move their own bodies through a physical environment as part of the gameplay.",
+            "<style=\"H3\">Examples</style>",
+            "While many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> include physical movement, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Orienteering\">Orienteering</link></style> is the prime example of one that also requires navigation. The navigation required in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style> relatively easy in contrast since GPS use is part of the activity. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/BotFighters\">BotFighters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pirates!\">Pirates!</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Treasure\">Treasure</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncle%20Roy%20All%20Around%20You\">Uncle Roy All Around You</link></style> are all games that rely less on making players move to specific locations but nevertheless require players to navigate in physical environments. ",
+            "Quite naturally, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin\">Assassin</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragonbane\">Dragonbane</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trenne%20Byar\">Trenne Byar</link></style> require some level of <style=\"CurrentLink\">Physical Navigation</style> since they are played in large areas that players need to traverse.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Human%20PacMan\">Human PacMan</link></style> re-interprets <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> by making players embody all the characters and thereby force them to do <style=\"CurrentLink\">Physical Navigation</style> to play the game. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ConQwest\">ConQwest</link></style> also makes players do <style=\"CurrentLink\">Physical Navigation</style>, but in this case teams of players need to more huge game pieces around a city. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pok%C3%A9mon%20Go\">Pokémon Go</link></style> requires players to move around to find gyms, Pokéballs, and Pokémons.",
+            "<style=\"H2\">Using the pattern</style>",
+            "On a general level, <style=\"CurrentLink\">Physical Navigation</style> in a game is the combination of <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> and <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>. More specifically, it also requires goal locations and challenges to reaching these. While the challenges are more or less the same as for any <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style> may become a gameplay feature unless explicitly design against (through for example avoiding <style=\"Link\"><link=\"races\">Races</link></style> or <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>). In contrast, the goal locations nearly always have additional characteristics due to the real world consequences of using <style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style>, <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style>, <style=\"Link\"><link=\"player-avatar-proximity\">Player-Avatar Proximity</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, or <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style>. ",
+            "<style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style> provide the possibility for <style=\"Link\"><link=\"ai-players\">AI Players</link></style> to engage in <style=\"CurrentLink\">Physical Navigation</style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Physical Navigation</style> is a primary example of where players use their own bodies as interfaces for the game. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Physical Navigation</style> is a form of <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> and changes the way <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, and <style=\"Link\"><link=\"stealth\">Stealth</link></style> function since players can use all their sensory abilities and are limited by their own physical abilities. Having previous knowledge of the area to be navigated is an example of <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>, and one that is likely to appear in games using <style=\"CurrentLink\">Physical Navigation</style>.",
+            "Since it is a real world activity to move and navigate, <style=\"CurrentLink\">Physical Navigation</style> instantiates the pattern <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style> when present. Since the reason why someone moves in an environment can be difficult to perceive, <style=\"CurrentLink\">Physical Navigation</style> is one of the most accessible ways of creating <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> as long as the speed of moving can fit within what is socially acceptable.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>, <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style>, <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style>, <style=\"Link\"><link=\"player-avatar-proximity\">Player-Avatar Proximity</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style>, <style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style>",
+            "<style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> together with <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "pervasive-gameplay",
+            "physical-enactment",
+            "real-life-activities-affect-game-state",
+            "real-world-knowledge-advantages"
+        ],
+        "modulates" : [
+            "game-world-exploration",
+            "movement",
+            "races",
+            "stealth"
+        ],
+        "instantiated_by" : [
+            "artifact-location-proximity",
+            "player-artifact-proximity",
+            "player-avatar-proximity",
+            "player-location-proximity",
+            "player-player-proximity",
+            "robotic-players",
+            "game-world-navigation"
+        ],
+        "modulated_by" : [
+            "player-physical-prowess"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

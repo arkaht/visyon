@@ -1,0 +1,87 @@
+{
+    "name" : "Line of Sight",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The requirement of having direct view from one game element to another.",
+        "markups" : [
+            "<style=\"Definition\">The requirement of having direct view from one game element to another.</style>",
+            "Many of the actions done in games are done through avatars or units, and these may diegetically not be able to perceived the game state in the same way as the players controlling them. When the avatars and units can only act on things they themselves can perceive this is most often determined if they have a clear <style=\"CurrentLink\">Line of Sight</style> to that which they wish to interact with.",
+            "<style=\"H3\">Examples</style>",
+            "Most <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Miniature%20Games\">Miniature Games</link></style> and tactical <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Wargames\">Wargames</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%2040K\">Warhammer 40K</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advanced%20Squad%20Leader\">Advanced Squad Leader</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Memoir%20'44\">Memoir '44</link></style>, require that firing units have clear <style=\"CurrentLink\">Line of Sight</style> to their targets. This is in many cases not only dependent on the absence of buildings, rubble, and blocking vegetation but also the ground itself when the battlefield has height differences. Units excepted from having to have <style=\"CurrentLink\">Line of Sight</style> include artillery and other units capable of indirect fire, but these may require having other units spotting for them.",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Frag\">Frag</link></style> avatars can only shoot at the other avatars which are not hidden behind walls.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Just%20Cause%202\">Just Cause 2</link></style> lets players shoot with grappling hooks at anything they can aim at in order to move there, or draw items and people towards the players' avatars. Several mods to the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> include similar grappling hooks to make movement easier. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda%20series\">The Legend of Zelda series</link></style> also contains grappling hooks but only lets players hook onto specific parts of the game world with them. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%20series\">Portal series</link></style> lets players shoot <i>portals</i> to whatever part of a level they can see (except through some types of glass), and can then move there by entering the matching portals.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Line of Sight</style> is typically used as an requirement to perform actions. A basic requirement for <style=\"CurrentLink\">Line of Sight</style> is that there are things can see, typically <style=\"Link\"><link=\"agents\">Agents</link></style> such as <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style>, so making use of the pattern requires choosing how each of these are affected by it. Typically all makes use of it in some sense but varying how it is applied, e.g. that some <style=\"Link\"><link=\"units\">Units</link></style> can ignore some <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, is a way of providing <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> to these.",
+            "<style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> is an easy way of introducing <style=\"CurrentLink\">Line of Sight</style> for what can be visually perceived, but it can also be used to affect gameplay actions. The action of <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> is probably the most obvious example of this; it should be noted that in addition to <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> instantiates <style=\"CurrentLink\">Line of Sight</style>, <style=\"CurrentLink\">Line of Sight</style> can modulate <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> since being able to aim requires being able to have <style=\"CurrentLink\">Line of Sight</style>. While this may seem redundant, <style=\"Link\"><link=\"vision-modes\">Vision Modes</link></style> may modulate how <style=\"CurrentLink\">Line of Sight</style> works and in turn affect if <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> is possible or not.",
+            "As the <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> case shows, <style=\"CurrentLink\">Line of Sight</style> can be used to modulate <style=\"Link\"><link=\"combat\">Combat</link></style>, but it can also be used as a part of <style=\"Link\"><link=\"movement\">Movement</link></style> (e.g. the use of grappling hooks in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Just%20Cause%202\">Just Cause 2</link></style> or the <i>portals</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal\">Portal</link></style>). For <style=\"Link\"><link=\"combat\">Combat</link></style>, the use of <style=\"CurrentLink\">Line of Sight</style> opens up for the possibility of having indirect fire as <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, although they may still require <style=\"CurrentLink\">Line of Sight</style> from others. All these examples are also examples of modulating <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, but <style=\"CurrentLink\">Line of Sight</style> may also be used to trigger <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Automated%20Responses\">Automated Responses</link></style> from <style=\"Link\"><link=\"traps\">Traps</link></style> or waiting <style=\"Link\"><link=\"agents\">Agents</link></style> and this can be used to modify <style=\"Link\"><link=\"evade\">Evade</link></style> and <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals.",
+            "<style=\"CurrentLink\">Line of Sight</style> requires that there is something that can block it in the <style=\"Link\"><link=\"levels\">Levels</link></style> or <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and this is typically <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"diegetically-tangible-game-items\">Diegetically Tangible Game Items</link></style>, or simply walls. <style=\"Link\"><link=\"big-dumb-objects\">Big Dumb Objects</link></style> can be said to instantiate <style=\"CurrentLink\">Line of Sight</style> since they usually can be seen from large parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. Providing good <style=\"CurrentLink\">Line of Sight</style> from some parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> but not others are part of creating <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style>. <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"units\">Units</link></style> may also block <style=\"CurrentLink\">Line of Sight</style> but only do so temporarily.",
+            "As a contrast to using <style=\"CurrentLink\">Line of Sight</style> to affect information or actions, the presence of <style=\"CurrentLink\">Line of Sight</style> in a game can also be used to create <style=\"Link\"><link=\"alignment\">Alignment</link></style> goals. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Although <style=\"CurrentLink\">Line of Sight</style> does not usually need to be visualized in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> since it represents seeing rather than something than can be seen, some <style=\"Link\"><link=\"traps\">Traps</link></style> than make use of <style=\"CurrentLink\">Line of Sight</style> can be diegetically motivate, e.g. laser beams or even trip wires.",
+            "<style=\"H2\">Consequences</style>",
+            "When applied to <style=\"Link\"><link=\"units\">Units</link></style> or <style=\"Link\"><link=\"avatars\">Avatars</link></style> under players' control, <style=\"CurrentLink\">Line of Sight</style> changes their <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> and thereby how they have to relate to <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and <style=\"Link\"><link=\"levels\">Levels</link></style>, and what is in them. Since it requires players to consider spatial relations from specific point of view in the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"CurrentLink\">Line of Sight</style> can encourage <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>. It is more or less a requirement for <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> to be necessary at all but how difficult this activity is depend heavily on how often players can have <style=\"CurrentLink\">Line of Sight</style> to game elements, where <style=\"Link\"><link=\"landmarks\">Landmarks</link></style> are the most important. It is very often used to control the extent of <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>.",
+            "When <style=\"CurrentLink\">Line of Sight</style> is used to create ways of failing with <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals, it leads to <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> since players have to consider which <style=\"Link\"><link=\"agents\">Agents</link></style> or <style=\"Link\"><link=\"traps\">Traps</link></style> can detect them from all locations that need to be entered. The same applies to ways of succeeding with <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> goals.",
+            "The presence of <style=\"CurrentLink\">Line of Sight</style> rules in a game are likely to affect how important it is to have <style=\"Link\"><link=\"area-control\">Area Control</link></style> of various parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"alignment\">Alignment</link></style>, <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"stealth\">Stealth</link></style></style>",
+            "<style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Automated%20Responses\">Automated Responses</link></style>, <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>, <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"landmarks\">Landmarks</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"big-dumb-objects\">Big Dumb Objects</link></style>, <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"diegetically-tangible-game-items\">Diegetically Tangible Game Items</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>, <style=\"Link\"><link=\"vision-modes\">Vision Modes</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"H3\">Potentially Conflicting With</style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "alignment",
+            "fog-war",
+            "spatial-engrossment",
+            "stimulated-planning"
+        ],
+        "modulates" : [
+            "agents",
+            "aim-shoot",
+            "area-control",
+            "automated-responses",
+            "avatars",
+            "combat",
+            "evade",
+            "focus-loci",
+            "game-world-navigation",
+            "game-worlds",
+            "landmarks",
+            "levels",
+            "movement",
+            "reconnaissance",
+            "sniper-locations",
+            "stealth",
+            "strongholds",
+            "traps",
+            "units"
+        ],
+        "instantiated_by" : [
+            "aim-shoot",
+            "big-dumb-objects",
+            "first-person-views"
+        ],
+        "modulated_by" : [
+            "avatars",
+            "diegetically-tangible-game-items",
+            "environmental-effects",
+            "obstacles",
+            "privileged-abilities",
+            "units",
+            "vision-modes"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

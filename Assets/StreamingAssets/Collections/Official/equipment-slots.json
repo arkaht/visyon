@@ -1,0 +1,63 @@
+{
+    "name" : "Equipment Slots",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "Slots used to indicate which game items players wish to use.",
+        "markups" : [
+            "<style=\"Definition\">Slots used to indicate which game items players wish to use.</style>",
+            "Games that let players find armor, weapons, or other types of equipment often let them find many different kinds of each to let players have the choice of selecting wish they prefer. Having <style=\"CurrentLink\">Equipment Slots</style> lets players show this choice simply by placing the selected items in slots. Depending on if they are combined with a general inventory or not, these slots can represent everything one can carry.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Equipment Slots</style> are common in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Arcanum:%20Of%20Steamworks%20and%20Magick%20Obscura\">Arcanum: Of Steamworks and Magick Obscura</link></style> and the first games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> make use of them, as does <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20series\">Ultima series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Baldur's%20Gate%20series\">Baldur's Gate series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style>. In these games, players have general inventories and can from these select the specific items they wish to use at any particular moment. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> uses the same design structures as the above roleplaying games but in a sandbox game and has game time progress while players are accessing the inventory and <style=\"CurrentLink\">Equipment Slots</style>. ",
+            "Some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> also make use of <style=\"CurrentLink\">Equipment Slots</style> but then without having inventories. This is used, e.g. in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Far%20Cry%20series\">Far Cry series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, to force players to commit to using a particular set of weapons and changes can only be done when new weapons are found or by backtracking to where old weapons were left. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style> is an example of an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">FPS</link></style> that retains the combination of <style=\"CurrentLink\">Equipment Slots</style> and inventories that roleplaying games use.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are two main uses for <style=\"CurrentLink\">Equipment Slots</style> and this influences the specific options available when inserting them into game designs. The first is as an addition to <style=\"Link\"><link=\"inventories\">Inventories</link></style> to allow players to select what <style=\"Link\"><link=\"equipment\">Equipment</link></style> from what they are carrying they wish to use (note that there are other ways of doing this: in later installments of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> one marks items in a list and in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rogue\">Rogue</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20series\">Zork series</link></style> one commands such as \"wear\", \"wield\" and \"equip\"). The second use of <style=\"CurrentLink\">Equipment Slots</style> is instead of <style=\"Link\"><link=\"inventories\">Inventories</link></style>, or, more correctly, as a way to create <style=\"Link\"><link=\"inventories\">Inventories</link></style> with strict limitations on what can be carried. In this case, players that find a new piece of <style=\"Link\"><link=\"equipment\">Equipment</link></style> but have no free slots for it need to either leave it or drop some other piece of <style=\"Link\"><link=\"equipment\">Equipment</link></style> of the same type.",
+            "<style=\"CurrentLink\">Equipment Slots</style> used together with <style=\"Link\"><link=\"inventories\">Inventories</link></style> is a way of modifying how players can manipulate the performance of <style=\"Link\"><link=\"characters\">Characters</link></style>, and this can apply not only to <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> but also to <style=\"Link\"><link=\"companions\">Companions</link></style>. The stand alone use of <style=\"CurrentLink\">Equipment Slots</style> is most typically used with <style=\"Link\"><link=\"avatars\">Avatars</link></style> (they are a way of reducing the complexity of handling <style=\"Link\"><link=\"equipment\">Equipment</link></style> so that one can focus upon one mode of interaction).",
+            "<style=\"CurrentLink\">Equipment Slots</style> are specialized. This means that each <style=\"CurrentLink\">Equipment Slot</style> is dedicated to a particular type of <style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>, or some other category of <style=\"Link\"><link=\"equipment\">Equipment</link></style> (if they are not they would instead be a form of generic <style=\"Link\"><link=\"inventories\">Inventory</link></style> and might not be able to tell the system how the <style=\"Link\"><link=\"equipment\">Equipment</link></style> should be used). This also means that it is rather common to have one <style=\"CurrentLink\">Equipment Slot</style> for each type of <style=\"Link\"><link=\"equipment\">Equipment</link></style>. There are some exceptions to this. First, it is more or less an established tradition in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> that one can wear one magical ring on each hand so the games typically have two slots for rings. Second, since one can hold things in both hands there is typically one <style=\"CurrentLink\">Equipment Slot</style> for each hand, although <style=\"Link\"><link=\"equipment\">Equipment</link></style> that requires two hands (e.g. rifles or two-handed swords) occupies both of these when used. Third, when <style=\"CurrentLink\">Equipment Slots</style> are used instead of <style=\"Link\"><link=\"inventories\">Inventories</link></style>, players can be given some <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> by providing two or three slots for the most commonly used type of <style=\"Link\"><link=\"equipment\">Equipment</link></style> (typically the primary type of <style=\"Link\"><link=\"weapons\">Weapon</link></style> in the game).",
+            "<style=\"H3\">Interface Aspects</style>",
+            "When used together with <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"CurrentLink\">Equipment Slots</style> are typically part of the same <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> as the <style=\"Link\"><link=\"inventories\">Inventories</link></style>. When used instead of <style=\"Link\"><link=\"inventories\">Inventories</link></style> they are typically sufficiently limited in functionality that they can be fitted into <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Equipment Slots</style> mainly offers ways to make interfaces clearer when used together with <style=\"Link\"><link=\"inventories\">Inventories</link></style>. When used instead of <style=\"Link\"><link=\"inventories\">Inventories</link></style> they have more impact on gameplay: players need to do <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between the different pros and cons of what can be placed in each slot since the slots represent a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>, and picking a certain combination can be akin to selecting <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"equipment\">Equipment</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "competence-areas",
+            "inventories",
+            "limited-set-actions",
+            "trade-offs"
+        ],
+        "modulates" : [
+            "armor",
+            "avatars",
+            "characters",
+            "equipment",
+            "inventories",
+            "tools",
+            "weapons"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "hud-interfaces",
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

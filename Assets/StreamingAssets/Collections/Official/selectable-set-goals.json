@@ -1,0 +1,96 @@
+{
+    "name" : "Selectable Set of Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Goals which players can choose a subset to strive towards.",
+        "markups" : [
+            "<style=\"Definition\">Goals which players can choose a subset to strive towards.</style>",
+            "Games typically provide players with many goals that they can try to complete. In some cases this means that players can choose one or several goals from a larger set of goals. The <style=\"CurrentLink\">Selectable Set of Goals</style> can be defined so that players must select goals first and then can try to achieve them or that they have all goals accessible all the time but only need to complete some of them to complete a larger goal.",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ticket%20to%20Ride\">Ticket to Ride</link></style> series of board games provides each player with a number of <i>destination tickets</i> which provides goals. Players have to keep some or all of them (types of tickets and numbers varies between the versions). Fulfilled goals provide bonus points while unfulfilled ones cause point penalties, so the selection is binding although players can acquire more tickets during play.",
+            "The board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style> provides several goals to players which gives them points, constructing buildings, having the longest road, having the largest army, and having point cards. These create <style=\"CurrentLink\">Selectable Set of Goals</style> to each player since it is not important which goals are achieved; the player who reaches a certain total (typically 10) wins the game. ",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization</link></style> series of computer games provide several winning goals that players can strive for, e.g. military dominance, cultural victory, or winning a space race (the exact goals vary between versions of the game). All the goals are available to all players all the time but the first player to reach any of the goals wins the game, making the set of winning goals into a selectable one. A weaker example regards technology trees in these games. Players can choose to research a technology from a number of technologies, but the example is weaker since players often can - and are motivated from a gameplay perspective - to research all possible technologies. The choose is therefore more related to which order players wish to research the technologies. ",
+            "The different worlds in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%2064\">Super Mario 64</link></style> offer a <style=\"CurrentLink\">Selectable Set of Goals</style> through the stars placed in them. While players can collect all stars in a world, the typically only need to collect a certain amount to unlock another world and thereby progress in the game. In fact, since unlocking new worlds often depend on a total number of stars collected all the stars placed in all the currently unlocked worlds together build a <style=\"CurrentLink\">Selectable Set of Goals</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are a couple of main design choices regarding the creation of <style=\"CurrentLink\">Selectable Set of Goals</style>. The first is what goals should be part of the set, and if this set is fixed or changes during gameplay through addition or removal of goals. The second is if players should be presented by an explicit choice of which goals to choose at some point or not. A third is if choosing or fulfilling some goals disallow the completion of other goals. Any use of <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style> creates a <style=\"CurrentLink\">Selectable Set of Goals</style>, but this is implicit and players may not be aware of that they are making a choice to not be able to work towards a goal because they chose or completed another goal. However, the pattern <style=\"CurrentLink\">Selectable Set of Goals</style> can modify <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style> by making this choice explicit (possibly together with other non-excluding goals). ",
+            "The main building blocks of a <style=\"CurrentLink\">Selectable Set of Goals</style> are <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style> and <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, although the <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style> may no longer be optional after being chosen. While games can create goals on the fly to populate a set for the pattern instead of using <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style>, this is less common (a hybrid is to have <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style> but randomly select which goals should be part of the set when players become of the set or need to choose). <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style> can provide temporary goals in a <style=\"CurrentLink\">Selectable Set of Goals</style> while <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style> can make players have to reconsider what goals they wish to pursue from the set as new goals are revealed to be part of the set. When these temporary or unknown goals repeat between game instances, i.e. players can have knowledge about them before the game starts, they are <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> and this knowledge affects how players relate to the <style=\"CurrentLink\">Selectable Set of Goals</style>.",
+            "Some patterns provide a basis for which goals can or should be part of a <style=\"CurrentLink\">Selectable Set of Goals</style>. Multiple <style=\"Link\"><link=\"configuration\">Configuration</link></style> goals which are <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style> explicitly define a <style=\"CurrentLink\">Selectable Set of Goals</style>. Games with <style=\"Link\"><link=\"area-control\">Area Control</link></style> do this by suggesting a number of areas as goals as long as there is more than one area that players are trying to control. <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> suggest that players can have a goal to control the point or move away from it in pursuit of some other goal. <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style> quite explicitly offer another route to a place and thereby provide players with at least two different goals to choose from. <style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style> implies that players can either adhere to the social norms of a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> while trying to reach some goal or can take the risk of suffering the consequences breaking those norms in other to have other benefits. As long as a game with <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style> provides clear types of different destinies it provides players with a <style=\"CurrentLink\">Selectable Set of Goals</style>. ",
+            "A <style=\"CurrentLink\">Selectable Set of Goals</style> can be inserted into game designs to create some variety. One example of this is that a set can replace a specific goal in a <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchy</link></style> or can allow players some freedom in <style=\"Link\"><link=\"grind-achievements\">Grind Achievements</link></style> but letting them not have to be restricted to only one specific goal. Such increases of variety in turn modified <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> is a game in that players (and <style=\"Link\"><link=\"spectators\">Spectators</link></style>) can know which types of outcomes can be possible or approximately what will happen but not as precisely as when players only had one choice.",
+            "How the goals are selected from the set of goals can affect gameplay in different ways. For example, <style=\"CurrentLink\">Selectable Set of Goals</style> can be used to give <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> or games where a player competes against <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style> in the goals that are part of the selectable set. This by allowing an otherwise disadvantaged player to be the one that can choose which goals should be completed from those in the set. They can also be used to let players give themselves <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> if the goals vary in difficulty and players have a possibility of knowing these differences.",
+            "A particular variation of <style=\"CurrentLink\">Selectable Set of Goals</style> occurs in games with <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style>. Here players can be allowed to choose what events are part of the <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style> and this causes the outcomes of the various events to be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style> to the <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "A <style=\"CurrentLink\">Selectable Set of Goals</style> can offer choices into an otherwise <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structure</link></style>. While this can present players with an impression of <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>, the pattern can also work as a way of modulating an <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style> by forcing players to make some choices of what goals they have in a game for their <style=\"Link\"><link=\"characters\">Characters</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Allowing players to select one or more goals from a larger set of goals naturally provides these players with a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> (and even an <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>), but since the choices are set the use of <style=\"CurrentLink\">Selectable Set of Goals</style> can simultaneously provide <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style> and present players with the options of an <style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style>. One example of where the <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> can be particularly obvious is when the <style=\"CurrentLink\">Selectable Set of Goals</style> relate to <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals (choosing which quest location in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Skyrim\">Skyrim</link></style> to move to for example).",
+            "Making the choice what goals to pursue allows players to engage in considerations regarding both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> and <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>, and being aware of the difference choices promote <style=\"Link\"><link=\"replayability\">Replayability</link></style> with <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> as long as the choices actually do lead to variations. <style=\"Link\"><link=\"replayability\">Replayability</link></style> is further encouraged if the goals within the set are <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style> to each other. Finally, having to choose between these options can lead to <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style>, <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style></style>",
+            "<style=\"Link\"><link=\"replayability\">Replayability</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"traverse\">Traverse</link></style></style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"grind-achievements\">Grind Achievements</link></style>, <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>, <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>, <style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>, <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style>",
+            "<style=\"Link\"><link=\"configuration\">Configuration</link></style> together with <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "analysis-paralysis",
+            "balancing-effects",
+            "challenging-gameplay",
+            "enforced-agent-behavior",
+            "freedom-choice",
+            "internal-conflicts",
+            "open-destiny",
+            "replayability",
+            "risk-reward",
+            "trade-offs",
+            "varied-gameplay",
+            "replayability",
+            "extra-game-information",
+            "freedom-choice"
+        ],
+        "modulates" : [
+            "excluding-goals",
+            "goal-hierarchies",
+            "grind-achievements",
+            "open-destiny",
+            "polyathlons",
+            "predetermined-story-structures",
+            "predictable-consequences"
+        ],
+        "instantiated_by" : [
+            "actions-have-diegetically-social-consequences",
+            "area-control",
+            "choke-points",
+            "excluding-goals",
+            "flanking-routes",
+            "open-destiny",
+            "optional-goals",
+            "predefined-goals",
+            "configuration"
+        ],
+        "modulated_by" : [
+            "ephemeral-goals",
+            "strategic-knowledge",
+            "unknown-goals"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

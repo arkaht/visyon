@@ -1,0 +1,59 @@
+{
+    "name" : "Laning",
+    "categories" : [
+        "Level Design Patterns",
+        "Dynamic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Routes that focus and guide movement in a game.",
+        "markups" : [
+            "<style=\"Definition\">Routes that focus and guide movement in a game.</style>",
+            "Movement in games often provide players with choices of where to move. <style=\"CurrentLink\">Laning</style> occurs when players and other agents in a game need to, or are strongly encourage to, move in a pre-set limited number of routes than make gameplay more predictable. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Laning</style> as a concept was developed in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:%20Multiplayer%20Online%20Battle%20Arena%20Games\">MOBA Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients\">Defense of the Ancients</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Laning</style> is a way of restricting <style=\"Link\"><link=\"movement\">Movement</link></style> in games, especially in the designs of <style=\"Link\"><link=\"levels\">Levels</link></style>, which primarily tends to affect a game's <style=\"Link\"><link=\"startgame\">Startgame</link></style>. The typical use of <style=\"CurrentLink\">Laning</style> assumes movement from both direction from opposed forces which, with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Multiplayer%20Online%20Battle%20Arena%20Games\">MOBA Games</link></style> as the originating example, which modifies how <style=\"Link\"><link=\"enemies\">Enemies</link></style> need to be considered and may motivate the use of <style=\"Link\"><link=\"scouting\">Scouting</link></style>. Designing for <style=\"CurrentLink\">Laning</style> in a game consists of making several routes to one area, in practice by either making several routes that are <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style> between the same areas or making several routes that are <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style> to each other. The design of <style=\"CurrentLink\">Laning</style> is heavily influenced by the presence of <style=\"Link\"><link=\"bases\">Bases</link></style> at the beginning and end of lanes as well as if the lanes are the only ways to move between them (i.e. the design can be influenced by <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>). ",
+            "While <style=\"CurrentLink\">Laning</style> can be considered without use of <style=\"Link\"><link=\"units\">Units</link></style>, the pattern is very often used to not only provide various routes for the <style=\"Link\"><link=\"avatars\">Avatars</link></style> controlled by players but also for <style=\"Link\"><link=\"units\">Units</link></style> (under the players' control or not). Likewise, the lanes may the only or normal routes to use for some game elements (typically <style=\"Link\"><link=\"units\">Units</link></style>) while others (typically <style=\"Link\"><link=\"avatars\">Avatars</link></style>) may take other routes although these may be slower or contain challenges.",
+            "<style=\"H2\">Consequences</style>",
+            "The existence of <style=\"CurrentLink\">Laning</style> typically creates <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, either in the lanes themselves or where they end. How players act upon the designs of <style=\"CurrentLink\">Laning</style> typically constitutes the <style=\"Link\"><link=\"startgame\">Startgame</link></style> phase of a game instance. How to handle the choices presented in games with <style=\"CurrentLink\">Laning</style> motivate both <style=\"Link\"><link=\"tactical-planning\">Tactical</link></style> and <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"scouting\">Scouting</link></style>, <style=\"Link\"><link=\"startgame\">Startgame</link></style>, <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"bases\">Bases</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "choke-points",
+            "scouting",
+            "startgame",
+            "strategic-planning",
+            "tactical-planning"
+        ],
+        "modulates" : [
+            "levels",
+            "movement",
+            "units"
+        ],
+        "instantiated_by" : [
+            "flanking-routes",
+            "transport-routes"
+        ],
+        "modulated_by" : [
+            "bases",
+            "inaccessible-areas"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

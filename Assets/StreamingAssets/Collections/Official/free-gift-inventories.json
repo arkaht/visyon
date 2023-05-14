@@ -1,0 +1,54 @@
+{
+    "name" : "Free Gift Inventories",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Sets of game elements given to a player to be given to other players.",
+        "markups" : [
+            "<style=\"Definition\">Sets of game elements given to a player to be given to other players.</style>",
+            "In games where players need resources, one way of encouraging social interaction between them is to allow them to give each other gifts. If they are given freely to players to distribute, they form <style=\"CurrentLink\">Free Gift Inventories</style> which players can use to help those other players which they feel are worthy of the presents.",
+            "<style=\"H3\">Examples</style>",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> are often presented with lost animals that they may offer to other players. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "Creating <style=\"CurrentLink\">Free Gift Inventories</style> consist primarily of deciding when players should be provided with them and what <style=\"Link\"><link=\"resources\">Resources</link></style> they should contain. They are typically some form of <style=\"Link\"><link=\"rewards\">Reward</link></style> but with some level of <style=\"Link\"><link=\"randomness\">Randomness</link></style> to avoid making other players being able to predict too easily when they should be possible receivers. Likewise, <style=\"Link\"><link=\"randomness\">Randomness</link></style> is often used so no players can predict what <style=\"Link\"><link=\"resources\">Resources</link></style> will be the next possible gift. Often things from <style=\"CurrentLink\">Free Gift Inventories</style> may only be given to the players which are on one's <style=\"Link\"><link=\"friend-lists\">Friend List</link></style>.",
+            "Given that <style=\"CurrentLink\">Free Gift Inventories</style> provide a way for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> with no direct negative consequences and no need real-time interaction, they are well-suited for <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>, <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style>, and any games with <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>. Who can give gifts to whom is often regulated through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Managing <style=\"CurrentLink\">Free Gift Inventories</style> is likely to best done through <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> unless they are a very common part of a game's gameplay.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Free Gift Inventories</style> is an example of <style=\"Link\"><link=\"inventories\">Inventories</link></style> used for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style> of <style=\"Link\"><link=\"rewards\">Rewards</link></style>. They make players into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style>, and by giving them <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empowerment\">Empowerment</link></style> in who should be the beneficiaries they may also provide them with an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>. As long as the gifts are being given to other players, they are a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>. Although on the surface they allow players to perform <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style> and <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> they may carry the consequences of an implied <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style> and indirect <style=\"Link\"><link=\"trading\">Trading</link></style>. This may even include <style=\"Link\"><link=\"guilting\">Guilting</link></style>.",
+            "From the players perspective, <style=\"CurrentLink\">Free Gift Inventories</style> make the <style=\"Link\"><link=\"resources\">Resources</link></style> into <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style> unless the <style=\"Link\"><link=\"resources\">Resources</link></style> actually are limited and there is some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Status%20Indicators\">Game Status Indicators</link></style> revealing the numbers left.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empowerment\">Empowerment</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"guilting\">Guilting</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style>, <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "altruistic-actions"
+        ],
+        "modulates" : [
+            "asynchronous-gameplay"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "friend-lists",
+            "neighbors",
+            "randomness",
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

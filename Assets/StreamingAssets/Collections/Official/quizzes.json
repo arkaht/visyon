@@ -1,0 +1,55 @@
+{
+    "name" : "Quizzes",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Collections of questions asked to players as part of gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Collections of questions asked to players as part of gameplay.</style>",
+            "Some games challenges players by asking them questions that they need to answer correctly. When several questions are used and the questions are about checking if players know facts, this makes the games be <style=\"CurrentLink\">Quizzes</style> or have <style=\"CurrentLink\">Quizzes</style> as part of them.",
+            "<style=\"H3\">Examples</style>",
+            "Two well-known examples of <style=\"CurrentLink\">Quizzes</style> are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trivial%20Pursuit\">Trivial Pursuit</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Who%20Wants%20to%20Be%20a%20Millionaire?\">Who Wants to Be a Millionaire?</link></style> ",
+            "<style=\"H2\">Using the pattern</style>",
+            "Constructing <style=\"CurrentLink\">Quizzes</style> mainly concerns deciding on how many questions are needed and coming up with those questions. The number of questions often depends on what <style=\"CurrentLink\">Quizzes</style> are used for in the game - are they the main gameplay or <style=\"Link\"><link=\"minigames\">Minigames</link></style>? - while the nature of the questions depends very much who is intended to play the game. One main choice for <style=\"CurrentLink\">Quizzes</style> is if players should have explicit options to choose from, i.e. if they should have multiple choice questions, which requires the construction of several wrong - but plausible - answers to each question.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Quizzes</style> are quite likely to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> unless all players know all answers since earlier. Having this opens up for <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> and <style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style>. When they are of the multiple choice variety, <style=\"CurrentLink\">Quizzes</style> allow <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style> if players have multiple attempt to provide the right answer. ",
+            "That knowing the right answer to a question is an advantages in <style=\"CurrentLink\">Quizzes</style> is quite obvious, and through this <style=\"CurrentLink\">Quizzes</style> support <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>. <style=\"CurrentLink\">Quizzes</style> can arguably be said to have low <style=\"Link\"><link=\"replayability\">Replayability</link></style> since once one has gotten the right answer to a question the gameplay regarding that question become mute. However, one can also argue that this is one was to get <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style> by players <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> the answers in a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"minigames\">Minigames</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>, <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"replayability\">Replayability</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "imperfect-information",
+            "lucky-guess-solutions",
+            "memorizing",
+            "minigames",
+            "puzzle-solving",
+            "real-world-knowledge-advantages",
+            "trans-game-information",
+            "trial-error-solutions"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "replayability"
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name" : "Save Files",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Files that contain information to recreate game states.",
+        "markups" : [
+            "<style=\"Definition\">Files that contain information to recreate game states.</style>",
+            "For various reasons, players may wish to take extended breaks from computer games and during this time turn off the computer. This causes a problem of how to recreate the game state at a later point in time which having <style=\"CurrentLink\">Save Files</style> containing a game state can solve. A consequence of this is that players may return to that game state after failing instead of restarting a game, and this can in itself become a reason for creating <style=\"CurrentLink\">Save Files</style> if the possibility exists. Likewise, if <style=\"CurrentLink\">Save Files</style> are possible, players may create ones to have a freedom of testing things they would otherwise not test. ",
+            "Wikipedia has an entry <i>Saved Game</i> that related to <style=\"CurrentLink\">Save Files</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Most <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> provide support for <style=\"CurrentLink\">Save Files</style>, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mass%20Effect%20series\">Mass Effect series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Supporting <style=\"CurrentLink\">Save Files</style> in games consist creating the technical infrastructure that stores the game states and allows the game to take previously created <style=\"CurrentLink\">Save Files</style> and load these game states into games. Handling them are typically support through <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>.",
+            "From considering players' experiences, creating <style=\"CurrentLink\">Save Files</style> mainly consist of if they are created through <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"save-points\">Save Points</link></style>, automatic saving, or all three. Care also needs to be taken supporting the <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> related to destroy and loading <style=\"CurrentLink\">Save Files</style>. <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style> can be put on <style=\"CurrentLink\">Save Files</style> to limit either the number of simultaneous files that can be used, making them into a form of <style=\"Link\"><link=\"resources\">Resource</link></style> (and working against <style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style> when the limit is one <style=\"CurrentLink\">Save File</style>).",
+            "While there is typically a need or wish to have <style=\"CurrentLink\">Save Files</style> store complete game states, these can sometimes be quite small due to gameplay being partitioned into <style=\"Link\"><link=\"levels\">Levels</link></style> or other smaller units. A special case of this is when the only information that needs to be saved is how long players have progressed and in this case <style=\"Link\"><link=\"password-save-files\">Password Save Files</link></style> can be sufficient.",
+            "The presence of <style=\"Link\"><link=\"unwinnable-game-states\">Unwinnable Game States</link></style> can cause players to create <style=\"CurrentLink\">Save Files</style> from which they will always lose <style=\"Link\"><link=\"lives\">Lives</link></style>, fail <style=\"Link\"><link=\"quests\">Quests</link></style>, or lose entire game instances.",
+            "<style=\"H2\">Consequences</style>",
+            "When players know that they can return to stored game states, <style=\"CurrentLink\">Save Files</style> can encourage them to engage in <style=\"Link\"><link=\"experimenting\">Experimenting</link></style> with gameplay actions they would otherwise not do. More negatively, the possibility of creating <style=\"CurrentLink\">Save Files</style> can lead to <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style> and <style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style>, which both lead to gameplay when intended <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> no longer work. While creating and loading <style=\"CurrentLink\">Save Files</style> are <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, the presence of <style=\"CurrentLink\">Save Files</style> can give rise to additional <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> in the form of <style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20State%20Editing\">Game State Editing</link></style>. ",
+            "When the number of <style=\"CurrentLink\">Save Files</style> are limited, i.e. when <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style> are applied on them, they become <style=\"Link\"><link=\"resources\">Resources</link></style> that players need to consider for gameplay reasons.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"experimenting\">Experimenting</link></style>, <style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20State%20Editing\">Game State Editing</link></style>, <style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style></style>",
+            "<style=\"Link\"><link=\"resources\">Resources</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"password-save-files\">Password Save Files</link></style>, <style=\"Link\"><link=\"save-points\">Save Points</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, <style=\"Link\"><link=\"unwinnable-game-states\">Unwinnable Game States</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>",
+            "<style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style> when used together with <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "extra-game-actions",
+            "experimenting",
+            "game-element-trading",
+            "game-state-editing",
+            "save-scumming",
+            "save-load-cycles",
+            "resources"
+        ],
+        "modulates" : [
+            "game-pauses"
+        ],
+        "instantiated_by" : [
+            "password-save-files",
+            "save-points"
+        ],
+        "modulated_by" : [
+            "resource-caps",
+            "secondary-interface-screens",
+            "unwinnable-game-states"
+        ],
+        "conflicts" : [
+            "surprises",
+            "save-scumming"
+        ]
+    }
+}

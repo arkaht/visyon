@@ -1,0 +1,52 @@
+{
+    "name" : "Stack Seeding",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Manipulating the randomness of drawing stacks by ensure the presence of certain elements in certain parts of the stacks.",
+        "markups" : [
+            "<style=\"Definition\">Manipulating the randomness of drawing stacks by ensure the presence of certain elements in certain parts of the stacks.</style>",
+            "Drawing stacks are used to create randomness in games but sometimes games need some more structure to ensure that gameplay develops as the game designers intended. One way of doing this is manipulate where specific tiles or cards are in the stacks. This <style=\"CurrentLink\">Stack Seeding</style> can either be done when the stack is created or during gameplay.",
+            "<style=\"H3\">Examples</style>",
+            "To begin the final boss fight at a specific point during the gameplay, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ghost%20Stories\">Ghost Stories</link></style> places a random <i>boss monster</i> card at the bottom of the the stack of ghosts, specifically with only ten regular cards below it.",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style> the deck with monsters is created from first randomizing monster cards, then creating several separate decks by dividing these and adding a thunderstone or guardian cards. These separate decks are then stacked on each other to create one deck where the thunderstone and guardian cards are guaranteed to be within certain intervals of the deck but their specific places are still unknown. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style> uses a similar method to create a <i>player</i> deck with <i>epidemic</i> cards, and drawing these initiates another type of <style=\"CurrentLink\">Stack Seeding</style> - reshuffling drawn <i>infection</i> cards and placing these on top of those <i>infection</i> cards not yet drawn. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Forbidden%20Island\">Forbidden Island</link></style> uses the same structure for tiles.",
+            "A weak example of <style=\"CurrentLink\">Stack Seeding</style> can be found in games where players can look at a card at the top of the deck and choose if it should remain there or be placed at the bottom instead. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> is an example of games that provide this type of mechanism.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Quite obviously, <style=\"CurrentLink\">Stack Seeding</style> requires the presence of <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>. One way of using <style=\"CurrentLink\">Stack Seeding</style> is to apply it when <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> are created to ensure control of the distribution in any part of them (as done for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style>). Another way is to manipulate existing <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> - either by using <style=\"Link\"><link=\"cards\">Cards</link></style> from <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style> to add on the top of remaining <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style>) or to take <style=\"Link\"><link=\"cards\">Cards</link></style> from the top to the bottom to avoid making them being drawn (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style>). The latter may make <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> never be drawn, but then again this may be the purpose of this use of <style=\"CurrentLink\">Stack Seeding</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Stack Seeding</style> are a way of steering the <style=\"Link\"><link=\"randomness\">Randomness</link></style> of <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, letting game designs control with better precision when specific <style=\"Link\"><link=\"cards\">Cards</link></style> and <style=\"Link\"><link=\"tiles\">Tiles</link></style> while be drawn. By doing so, <style=\"CurrentLink\">Stack Seeding</style> provides games with more <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> and can, depending on what <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> are used to seed the stacks, ensure <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, e.g. making thunderstones being found after guardians have appeared in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "higher-level-closures-gameplay-progresses",
+            "predictable-consequences"
+        ],
+        "modulates" : [
+            "cards",
+            "drawing-stacks",
+            "randomness",
+            "tiles"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

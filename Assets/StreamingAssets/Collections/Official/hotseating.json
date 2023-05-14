@@ -1,0 +1,67 @@
+{
+    "name" : "Hotseating",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where players take turns using an interface to interact with the game system.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where players take turns using an interface to interact with the game system.</style>",
+            "A limitation with computer-based games is that unless they are networked there only exists one screen and perhaps only one set of input devices. In cases where players cannot share the screen - for example due to a need of secrecy - an alternative is to use <style=\"CurrentLink\">Hotseating</style>. This is simply that players have to take turns using the device or interface that allows them to affect the gameplay.",
+            "Wikipedia has an entry for the concept of <style=\"CurrentLink\">Hotseating</style> in games.",
+            "<style=\"H3\">Examples</style>",
+            "Although the term <style=\"CurrentLink\">Hotseating</style> arose with the introduction of turn-based video games, the concept of taking turns using the device (or more generally the interface) of a game can be traced back much further. Track and field events such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Long%20Jump\">Long Jump</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shot%20Put\">Shot Put</link></style> requires players to take turns \"interacting\" with the gameplay area, as does games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bowling\">Bowling</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Darts\">Darts</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eight-ball\">Eight-ball</link></style> and sports such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Golf\">Golf</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slalom%20Skiing\">Slalom Skiing</link></style>.",
+            "Similarly, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pinball%20Games\">Pinball Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Trek:%20The%20Next%20Generation\">Star Trek: The Next Generation</link></style> need to make use of <style=\"CurrentLink\">Hotseating</style>, and this has continued in computer-based versions such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pinball%20Dreams\">Pinball Dreams</link></style>.",
+            "Their offspring, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> also provide support for <style=\"CurrentLink\">Hotseating</style> to let many players play against each other; examples of such games include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Invaders\">Space Invaders</link></style>.",
+            "More recent examples of games using <style=\"CurrentLink\">Hotseating</style> include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Peggle\">Peggle</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Heroes%20of%20Might%20and%20Magic%20series\">Heroes of Might and Magic</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/WarioWare%20series\">WarioWare</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Worms%20series\">Worms series</link></style>. Many other computer games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl%20(computer%20game)\">Bloodbowl</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advance%20Wars%20series\">Advance Wars series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> support network gameplay as well as <style=\"CurrentLink\">Hotseating</style>. ",
+            "The site GiantBomb has a long list of games supporting <style=\"CurrentLink\">Hotseating</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main gameplay design issue with <style=\"CurrentLink\">Hotseating</style> is to determine when the game should make players hand over control to other players, i.e. how <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> should be enforced. In <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> this is trivial although <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> may be of more interest than usual since one can assume that there are players with <style=\"Link\"><link=\"downtime\">Downtime</link></style> waiting for their turn. In fact, one could argue that all most non-digital <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>) use <style=\"CurrentLink\">Hotseating</style> as only one player can interact with the game system at a time. This does however rarely mean that game designers of those games need to consider the design options described in this pattern. This since no effort from designers need to be exerted for it to exist and also since players can for efficiency reasons ignore this and simultaneously interact with the games if everybody agrees that this is okay. Other ways of determining the switch over between players include <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, or finishing <style=\"Link\"><link=\"minigames\">Minigames</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style>. ",
+            "That <style=\"CurrentLink\">Hotseating</style> requires a form of <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> does not automatically make <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> impossible to combine with <style=\"CurrentLink\">Hotseating</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pinball%20Games\">Pinball Games</link></style> are for example games where players take turns playing but each player's turn contain real-time gameplay.",
+            "<style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style> is an alternative to using <style=\"CurrentLink\">Hotseating</style> which allows for multiplayer <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> while only using one screen.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Hotseating</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style> and all aspects of it concern this.",
+            "<style=\"H2\">Consequences</style>",
+            "Given that <style=\"CurrentLink\">Hotseating</style> requires players to take turns playing, it can be seen as enforcing <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> to make <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> possible with only an interface for one player at a time. Since most <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> already have <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>, adding <style=\"CurrentLink\">Hotseating</style> to these can be seen as a modification to them. While adding <style=\"CurrentLink\">Hotseating</style> to a game can let more players play, it also makes them have <style=\"Link\"><link=\"downtime\">Downtime</link></style> while waiting - this may not be that much of a problem since they can be <style=\"Link\"><link=\"spectators\">Spectators</link></style> to each other.",
+            "<style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style> can be said to be incompatible with <style=\"CurrentLink\">Hotseating</style> since they address the same design problem and it is superfluous to use both. Games with <style=\"CurrentLink\">Hotseating</style> can, unlike those with <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style>, make use of gameplay which requires <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style> as long as the players can be assumed to facilitate that they do not look at each other's game views.",
+            "As long as players are not supposed to view each others moves, <style=\"CurrentLink\">Hotseating</style> is likely to make those not currently playing into <style=\"Link\"><link=\"backseat-gamers\">Backseat Gamers</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"backseat-gamers\">Backseat Gamers</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>, <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"minigames\">Minigames</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "backseat-gamers",
+            "downtime",
+            "spectators",
+            "turn-taking"
+        ],
+        "modulates" : [
+            "multiplayer-games",
+            "turn-based-games"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "death-consequences",
+            "levels",
+            "minigames",
+            "time-limits"
+        ],
+        "conflicts" : [
+            "split-screen-views"
+        ]
+    }
+}

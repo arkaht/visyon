@@ -1,0 +1,107 @@
+{
+    "name" : "Vehicles",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game elements that allows for faster movement, or different types of movement, than that normally available.",
+        "markups" : [
+            "<style=\"Definition\">Game elements that allows for faster movement, or different types of movement, than that normally available.</style>",
+            "Game worlds can be difficult to move through, either because the terrain is hazardous, one cannot traverse it because one does not have the right abilities, or simply because they are very large. To solve one or all of these issues games can, like in the real world, offer <style=\"CurrentLink\">Vehicles</style> as a solution. ",
+            "<i>Note: this pattern describes diegetic vehicles that can be entered or mounted to ease travel. Those vehicles that players control directly are in fact either <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style>.</i>",
+            "<style=\"H3\">Examples</style>",
+            "In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style> much of the gameplay revolves around using <style=\"CurrentLink\">Vehicles</style> that have been obtained by illegal means to solve various challenges.",
+            "Players of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Metal%20Slug%20series\">Metal Slug series</link></style> can find and start using the SV-001 or <i>Metal Slug</i> tank. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo series</link></style> lets players access a variety of military vehicles to gain air power, water maneuverability, increased fire power, as well as protection from small arms. Many of the <style=\"CurrentLink\">Vehicles</style> can in addition carry extra players than can either be gunners or simply passengers.",
+            "While its predecessor <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Morrowind\">Morrowind</link></style> allowed various forms of instantaneous travel between parts of the game world (including riding giant insects), <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oblivion\">Oblivion</link></style> lets players ride horses between the various adventure locations.",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> that wish to simplify travel can build boats or lay railroads after having crafted the necessary game elements.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Vehicles</style> consist of deciding how they should provide <style=\"Link\"><link=\"movement\">Movement</link></style> within <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style> for <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style>, and where the <style=\"CurrentLink\">Vehicles</style> should be available. It may also consist of thinking about creating dedicated <style=\"Link\"><link=\"vehicle-sections\">Vehicle Sections</link></style>. The simplest way of offering some other form of <style=\"Link\"><link=\"movement\">Movement</link></style> through using <style=\"CurrentLink\">Vehicles</style> is to let players move their <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> quicker, in effect providing <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>; Moving slower is another option that can make sense if the <style=\"CurrentLink\">Vehicles</style> provide some other form <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, e.g. protection against attacks through being <style=\"Link\"><link=\"armor\">Armor</link></style>. Another way of providing other <style=\"Link\"><link=\"movement\">Movement</link></style> is to make otherwise impossible <style=\"Link\"><link=\"movement\">Movement</link></style> possible, that is provide <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style> such as for example flying or moving over water or lava.",
+            "<style=\"CurrentLink\">Vehicles</style> can also be constructed to include <style=\"Link\"><link=\"weapons\">Weapons</link></style> in which case they can function as <style=\"Link\"><link=\"installations\">Installations</link></style> independent of their ability to move, and the attacks provided by the <style=\"Link\"><link=\"weapons\">Weapons</link></style> can provide <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>. In fact, <style=\"CurrentLink\">Vehicles</style> can in themselves be considered <style=\"Link\"><link=\"weapons\">Weapons</link></style> regardless of if they contain the actual functionality of <style=\"Link\"><link=\"weapons\">Weapons</link></style> as long as they can cause <style=\"Link\"><link=\"damage\">Damage</link></style> through running into other game elements. A few games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20Vietnam\">Battlefield Vietnam</link></style> uses some <style=\"CurrentLink\">Vehicles</style> as <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style>.",
+            "The places where <style=\"CurrentLink\">Vehicles</style> can be found in the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> will becomes <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, and may spawn <style=\"Link\"><link=\"races\">Races</link></style> to get to them first. These places may simply contain the <style=\"CurrentLink\">Vehicles</style>, or if they are created during gameplay by <style=\"Link\"><link=\"spawning\">Spawning</link></style>, be <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style> for them. An alternative, exemplified by <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>, is to let players create their own <style=\"CurrentLink\">Vehicles</style> through <style=\"Link\"><link=\"construction\">Construction</link></style>. Another, found often in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style> is to make <style=\"CurrentLink\">Vehicles</style> available through <style=\"Link\"><link=\"unlocking\">Unlocking</link></style> mechanisms. If players need <style=\"Link\"><link=\"resources\">Resources</link></style> as fuel for their <style=\"CurrentLink\">Vehicles</style>, providing players with such provide them with <style=\"Link\"><link=\"sustenance-rewards\">Sustenance Rewards</link></style>.",
+            "<style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style> can be linked to <style=\"CurrentLink\">Vehicles</style> in several ways. First, using certain <style=\"CurrentLink\">Vehicles</style> can be the requirement for using them. Second, those using <style=\"CurrentLink\">Vehicles</style> may be denied the use of <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style> as a way of providing <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> (through forcing the <style=\"CurrentLink\">Vehicles</style> to be abandoned if they wish to confront those on the other side of the passageways).",
+            "If not all players in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> are likely to be able to access <style=\"CurrentLink\">Vehicles</style> often, this may cause problems with <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>. This can be mitigated through making the <style=\"CurrentLink\">Vehicles</style> into <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, letting them have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style> or <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style> regarding things such as fuel or ammunition, and providing possibilities for other players to gain <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> specifically aimed at attacking the <style=\"CurrentLink\">Vehicles</style>. The destruction of the <style=\"CurrentLink\">Vehicles</style> can also be linked to the loss of <style=\"Link\"><link=\"lives\">Lives</link></style> if these are used in games. Another way of balancing the effects of <style=\"CurrentLink\">Vehicles</style> in gameplay, which also can be used to promote <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>, is to construct <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> that only apply to <style=\"CurrentLink\">Vehicles</style> or <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style> that can only be used when not using the <style=\"CurrentLink\">Vehicles</style>. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "This pattern describes all game elements that can provide transportation for <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"units\">Units</link></style>, so diegetically the <style=\"CurrentLink\">Vehicles</style> do not have to be device but can be living creatures such as horses, elephants, and magical birds. Due to the typical difference in size between <style=\"CurrentLink\">Vehicles</style> and <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style>, they tend to be <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> but can also be designed to be so even more by visual effects.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "In <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> it may not be easy to map the normal interface players use for <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style> to that use for the available <style=\"CurrentLink\">Vehicles</style>, e.g. the movement of a human translates bad to that of a helicopter. To solve this games may need to provide different control schemes for each types of vehicles depending on their form of locomotion, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Option%20Interfaces\">Option Interfaces</link></style> for each of them so players can customize them.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Vehicles</style> are a form of <style=\"Link\"><link=\"tools\">Tools</link></style> in that they modify how players can perform <style=\"Link\"><link=\"movement\">Movement</link></style>, and <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style> for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Real-Times%20Games\">Real-Times Games</link></style>, in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style>. This naturally also changes how easily <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals can be completed and affects <style=\"Link\"><link=\"races\">Races</link></style>. When it allows players to more quickly move through the environment where no specific challenges exist, this counters the <style=\"Link\"><link=\"excise\">Excise</link></style> this can also be seen as having created explicit <style=\"Link\"><link=\"vehicle-sections\">Vehicle Sections</link></style>. When they provide ways of travelling through otherwise impossible mediums, e.g. air or water, they give players a form of <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> through <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style> that can open up <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> - but if <style=\"CurrentLink\">Vehicles</style> allowing this are too easy to access the areas stop being treated as <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> and only ones cumbersome to enter. All these consequences are motives for <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals related to them and gaining access to them are <style=\"Link\"><link=\"facilitating-rewards\">Facilitating Rewards</link></style>. Visiting these new areas can provide <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> but so can the actual controlling of the <style=\"CurrentLink\">Vehicles</style> themselves be. ",
+            "Learning how to control <style=\"CurrentLink\">Vehicles</style>, especially if they have different control schemes than ordinary <style=\"Link\"><link=\"movement\">Movement</link></style>, is one way in which players can develop <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>. As mentioned above, letting some players in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> have <style=\"CurrentLink\">Vehicles</style> and others not have them may upset <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"facilitating-rewards\">Facilitating Rewards</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style></style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"weapons\">Weapons</link></style></style>",
+            "<style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Option%20Interfaces\">Option Interfaces</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>, <style=\"Link\"><link=\"sustenance-rewards\">Sustenance Rewards</link></style>, <style=\"Link\"><link=\"unlocking\">Unlocking</link></style>, <style=\"Link\"><link=\"vehicle-sections\">Vehicle Sections</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "armor",
+            "damage",
+            "diegetically-outstanding-features",
+            "facilitating-rewards",
+            "gain-ownership",
+            "gameplay-mastery",
+            "improved-abilities",
+            "privileged-abilities",
+            "privileged-movement",
+            "races",
+            "resource-locations",
+            "spawn-points",
+            "tools",
+            "varied-gameplay",
+            "weapons",
+            "balancing-effects",
+            "installations",
+            "privileged-abilities"
+        ],
+        "modulates" : [
+            "avatars",
+            "conditional-passageways",
+            "game-boards",
+            "game-worlds",
+            "levels",
+            "lives",
+            "maneuvering",
+            "movement",
+            "races",
+            "traverse",
+            "units"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "choke-points",
+            "conditional-passageways",
+            "diegetically-outstanding-features",
+            "destructible-objects",
+            "flanking-routes",
+            "option-interfaces",
+            "spawning",
+            "sustenance-rewards",
+            "unlocking",
+            "vehicle-sections",
+            "weapons"
+        ],
+        "conflicts" : [
+            "excise",
+            "inaccessible-areas",
+            "player-balance"
+        ]
+    }
+}

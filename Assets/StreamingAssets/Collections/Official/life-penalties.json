@@ -1,0 +1,56 @@
+{
+    "name" : "Life Penalties",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The penalty in a game of losing a life.",
+        "markups" : [
+            "<style=\"Definition\">The penalty in a game of losing a life.</style>",
+            "Lives are used in some games to allow players to fail a couple of times before the game session or game instance terminates, i.e. they can fail as long as they have lives left. <style=\"CurrentLink\">Life Penalties</style> are penalties given to players that remove one of these lives and thereby move players closer to having their gameplay end.",
+            "<style=\"H3\">Examples</style>",
+            "Getting caught by ghosts in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> makes players lose lives. Likewise, getting hit in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style> or having all ones cities destroyed in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Missile%20Command\">Missile Command</link></style> removes lives from the players.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Life Penalties</style> is a specific type of <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style> that is typically used in games with <style=\"Link\"><link=\"lives\">Lives</link></style>. <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style> can be used to allow players or others (such as <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>) to remove individual cases of <style=\"CurrentLink\">Life Penalties</style>; if this can be done too often the pattern however in practice removes the possibility of <style=\"CurrentLink\">Life Penalties</style>. ",
+            "The main design issue with <style=\"CurrentLink\">Life Penalties</style> is if they should be handed out directly as effects of <style=\"Link\"><link=\"damage\">Damage</link></style> or if they are the cumulative effects of <style=\"Link\"><link=\"energy-penalties\">Energy Penalties</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Life Penalties</style> are <style=\"Link\"><link=\"penalties\">Penalties</link></style>. As long as players still have <style=\"Link\"><link=\"lives\">Lives</link></style> left, they need to be followed by <style=\"Link\"><link=\"spawning\">Spawning</link></style> to replace players' <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> into <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> (unless the <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> are non-diegetic of course). Whenever they trigger and players have no more <style=\"Link\"><link=\"lives\">Lives</link></style> to lose, they also instantiate <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style> (or else the <style=\"Link\"><link=\"lives\">Lives</link></style> pattern do not have its traditional meaning). This also means that <style=\"CurrentLink\">Life Penalties</style> indirectly can cause <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>. Risking to lose <style=\"Link\"><link=\"lives\">Lives</link></style> makes players feel <style=\"Link\"><link=\"tension\">Tension</link></style> and even more so when one only has one <style=\"Link\"><link=\"lives\">Life</link></style> left.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"energy-penalties\">Energy Penalties</link></style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style> together with <style=\"Link\"><link=\"lives\">Lives</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-termination-penalties",
+            "penalties",
+            "spawning",
+            "tension"
+        ],
+        "modulates" : [
+            "death-consequences",
+            "lives"
+        ],
+        "instantiated_by" : [
+            "energy-penalties",
+            "damage"
+        ],
+        "modulated_by" : [
+            "fudged-results"
+        ],
+        "conflicts" : [
+            "fudged-results"
+        ]
+    }
+}

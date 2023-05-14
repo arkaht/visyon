@@ -1,0 +1,69 @@
+{
+    "name" : "Player Physical Prowess",
+    "categories" : [
+        "Patterns",
+        "Pervasive Patterns"
+    ],
+    "texts" : {
+        "definition" : "Players' abilities to perform physical activities are used to determine the outcome of a game.",
+        "markups" : [
+            "<style=\"Definition\">Players' abilities to perform physical activities are used to determine the outcome of a game.</style>",
+            "Games can provide both mental and physical challenges to players. Those that do the latter benefit <style=\"CurrentLink\">Player Physical Prowess</style>, but this can be done in several different ways. Common examples include testing players' strength, their endurance, their precision, their reflexes, or a combination of these. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Decathlon\">Decathlon</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Marathons\">Marathons</link></style> are examples of games where different types of <style=\"CurrentLink\">Player Physical Prowess</style> are critical to how well one can participate. Games which make players mimic the activities of physical activities, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Wii%20Sports\">Wii Sports</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dance%20Dance%20Revolution%20series\">Dance Dance Revolution series</link></style>, also tend to make the mimicking activities in physically demanding ones. Games that require quick eye-hand coordination, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20series\">Tekken series</link></style>, also require <style=\"CurrentLink\">Player Physical Prowess</style> even if they may not be as physically exhausting.",
+            "The performance of runners in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Can%20You%20See%20Me%20Now?\">Can You See Me Now?</link></style> is dependent on <style=\"CurrentLink\">Player Physical Prowess</style> since they need to quickly move around in a real world city.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Specific ways of requiring <style=\"CurrentLink\">Player Physical Prowess</style> in games include using <style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style> (which are important in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style>), strength tests (as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Weightlifting\">Weightlifting</link></style>), and endurance tests (as in for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Marathons\">Marathons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ironman%20Triathlons\">Ironman Triathlons</link></style>). <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style> that copy activities that require physical skills is another apparent way to insert the pattern in a game. <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> can be used to restrict for how long players have to be able to maintain a certain activity and thereby the requirements of <style=\"CurrentLink\">Player Physical Prowess</style>. ",
+            "Simply having <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style> as part of a game may introduce requirements of <style=\"CurrentLink\">Player Physical Prowess</style> into a game if it is important who reaches the location first or it is important in which order players arrive there. ",
+            "The presence of <style=\"CurrentLink\">Player Physical Prowess</style> in games with <style=\"Link\"><link=\"teams\">Teams</link></style> suggests the option of using <style=\"Link\"><link=\"reserves\">Reserves</link></style> so that players can rest in between periods of physically exhausting gameplay.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Quite obviously, games using <style=\"CurrentLink\">Player Physical Prowess</style> needs some way of measuring the players' physical activities. This can be either through letting the players physical interact with the game system or through having sensors that measure their activities.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Player Physical Prowess</style> bring <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> to a game design. Since the physical abilities are often ones that can be improved, <style=\"CurrentLink\">Player Physical Prowess</style> offers one route for players to develop <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>. However, the pattern may work against <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style> and <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> since both players' abilities and their possibilities to improve depends quite heavily their inclination. It also makes the use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Proxy%20Players\">Proxy Players</link></style> problematic since it is no longer the players' physical skills that are tested during gameplay.",
+            "Since <style=\"CurrentLink\">Player Physical Prowess</style> makes players perform physical activities, it is likely to lead to the <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> of training of these, which may include physical exercise. Taking another perspective, the pattern can be seen as instantiating <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style> since players actually need to do specific physical activities themselves to affect the game.",
+            "In games with <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, the presence of <style=\"CurrentLink\">Player Physical Prowess</style> affects players' ability to be the first to reach the goal locations. This also put skill requirements on <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>.",
+            "The presence of any type of <style=\"CurrentLink\">Player Physical Prowess</style> greatly affects the design of <style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style>, both in putting requirements on what they need to do and how to balance these abilities against human players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, <style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style>, <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"Link\"><link=\"reserves\">Reserves</link></style> in games with <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Proxy%20Players\">Proxy Players</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "extra-game-consequences",
+            "gameplay-mastery",
+            "performance-uncertainty",
+            "real-life-activities-affect-game-state"
+        ],
+        "modulates" : [
+            "physical-enactment",
+            "physical-navigation",
+            "robotic-players"
+        ],
+        "instantiated_by" : [
+            "dexterity-based-actions",
+            "mimetic-interfaces",
+            "player-location-proximity"
+        ],
+        "modulated_by" : [
+            "time-limits",
+            "reserves"
+        ],
+        "conflicts" : [
+            "actor-detachment",
+            "proxy-players",
+            "social-adaptability"
+        ]
+    }
+}

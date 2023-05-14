@@ -1,0 +1,108 @@
+{
+    "name" : "Abilities",
+    "categories" : [
+        "Patterns",
+        "Action Patterns"
+    ],
+    "texts" : {
+        "definition" : "Actions that agents can do which allow players to affect game states.",
+        "markups" : [
+            "<style=\"Definition\">Actions that agents can do which allow players to affect game states.</style>",
+            "Players need to be able to perform actions in order for them to have gameplay. The actions that are coupled to specific agents in the game worlds are called the <style=\"CurrentLink\">Abilities</style> of those agents.",
+            "<style=\"H3\">Examples</style>",
+            "The various pieces used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> all have the <style=\"CurrentLink\">Ability</style> to move, and capture the pieces in the square they move to; The <i>en passant</i> move is a special <style=\"CurrentLink\">Ability</style> of pawns to capture other pawns that just moved two squares.",
+            "In one sense <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> only has movement <style=\"CurrentLink\">Abilities</style>, but a more inclusive view would add the <style=\"CurrentLink\">Ability</style> to eat pills, power pills, bonus fruits, and ghosts while under the influence of a power pill. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Invaders\">Space Invaders</link></style> only lets players move their ship left and right and shoot.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Fighting%20Games\">Fighting Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Street%20Fighter%20series\">Street Fighter</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20series\">Tekken series</link></style> have many characters with <style=\"CurrentLink\">Abilities</style> related both to movement and combat. In many cases these <style=\"CurrentLink\">Abilities</style> can be combined into various combos.",
+            "It is difficult to judge exactly how many <style=\"CurrentLink\">Abilities</style> players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fiasco\">Fiasco</link></style> have. This since while there may be specific rules for certain actions, game masters can allow anything the players want to do based on how well they feel it works with the gameplay style they wish the game to have. ",
+            "<style=\"H4\">Anti-Examples</style>",
+            "Seeing the stones used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> as having <style=\"CurrentLink\">Abilities</style> is somewhat difficult to do since players but only use them to mark places on the game board. The capturing of surrounded enemy stones could be argued to be an <style=\"CurrentLink\">Ability</style> but since several stones need to be used to achieve this, it is difficult to see this as an individual accomplishment.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Abilities</style> can modify <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"companions\">Companions</link></style>, and <style=\"Link\"><link=\"units\">Units</link></style> by giving players means of affecting the game state through using these game elements. <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>, <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, and <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> can all be created by only providing certain <style=\"CurrentLink\">Abilities</style> to certain game elements. <style=\"Link\"><link=\"skills\">Skills</link></style> can be used to differentiate how powerful <style=\"CurrentLink\">Abilities</style> are for different game elements.",
+            "Many games have rules regarding changing which <style=\"CurrentLink\">Abilities</style> players have access to, typically ass part of <style=\"Link\"><link=\"penalties\">Penalties</link></style> or <style=\"Link\"><link=\"rewards\">Rewards</link></style>, or related to <style=\"Link\"><link=\"character-development\">Character</link></style> or <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>. <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"cooldown\">Cooldown</link></style>, <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style>, and <style=\"Link\"><link=\"unlocking\">Unlocking</link></style> are all general patterns related to this, in many cases making <style=\"CurrentLink\">Abilities</style> into <style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style> or attaching <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> goals to the <style=\"CurrentLink\">Abilities</style>. <style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>, and <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style> are ways of relating access to <style=\"CurrentLink\">Abilities</style> to other parts of the game system. Requiring two or more players or <style=\"Link\"><link=\"agents\">Agents</link></style> to perform actions, i.e. <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>, is generic category of <style=\"CurrentLink\">Abilities</style> that requires <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style>.",
+            "There are many common actions in games that can be <style=\"CurrentLink\">Abilities</style>. <style=\"Link\"><link=\"movement\">Movement</link></style> is a one (sometimes in the form of <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>), and <style=\"Link\"><link=\"capture\">Capture</link></style> is another which can be expanded to also provide <style=\"Link\"><link=\"combat\">Combat</link></style> or make the game elements into <style=\"Link\"><link=\"consumers\">Consumers</link></style>. <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> is the primary option to make <style=\"Link\"><link=\"combat\">Combat</link></style> possible at a distance through <style=\"CurrentLink\">Abilities</style>. Two other common actions that can be <style=\"CurrentLink\">Abilities</style> are <style=\"Link\"><link=\"construction\">Construction</link></style> and (somewhat paradoxically) <style=\"Link\"><link=\"no-ops\">No-Ops</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style> is perhaps not as common but found in many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Real-Time%20Strategy%20Games\">Real-Time Strategy Games</link></style> and all <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">FPS Games</link></style> where shots actually need to traverse the space between shooter and target. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style> is a specific type of <style=\"CurrentLink\">Abilities</style>. <style=\"Link\"><link=\"ammunition\">Ammunition</link></style> can be this also when different types of <style=\"Link\"><link=\"ammunition\">Ammunition</link></style> provide different types of <style=\"CurrentLink\">Abilities</style>. <style=\"Link\"><link=\"combos\">Combos</link></style> can be seen as higher order <style=\"CurrentLink\">Abilities</style> that are created by offering sequences of more basic <style=\"CurrentLink\">Abilities</style> as a possible action for players. These <style=\"Link\"><link=\"combos\">Combos</link></style> may provide additional effects or simply be <style=\"Link\"><link=\"combos\">Combos</link></style> because they basic <style=\"CurrentLink\">Abilities</style> could not be performed otherwise (or performed as quickly). While <style=\"Link\"><link=\"action-programming\">Action Programming</link></style> is often built by providing players with <style=\"CurrentLink\">Abilities</style> that need to be placed in a sequence, it does not create <style=\"CurrentLink\">Abilities</style> like <style=\"Link\"><link=\"combos\">Combos</link></style> do because the resulting programming cannot be said to be done by the game element itself.",
+            "<style=\"CurrentLink\">Abilities</style> that have been design can be modified in a number of ways. <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> can make them take longer time and add <style=\"Link\"><link=\"tension\">Tension</link></style> if they are also <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>. If they cause <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, this can require more consideration before they are done and also increase <style=\"Link\"><link=\"tension\">Tension</link></style> (and work against the presence of <style=\"Link\"><link=\"experimenting\">Experimenting</link></style> or <style=\"Link\"><link=\"pottering\">Pottering</link></style>). <style=\"Link\"><link=\"anonymous-actions\">Anonymous Actions</link></style> can be used to let players not only have secret plans, but keep (at least part) of the execution of these plans secret as well. Linking the use of <style=\"Link\"><link=\"resources\">Resources</link></style> to the use of <style=\"CurrentLink\">Abilities</style> (which <style=\"Link\"><link=\"ammunition\">Ammunition</link></style> is an example of) introduces <style=\"Link\"><link=\"resource-management\">Resource Management</link></style> as part of using one's <style=\"CurrentLink\">Abilities</style> well. ",
+            "In many cases, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can both provide players with new <style=\"CurrentLink\">Abilities</style> or modify existing ones based simply on the players stating that they want to do something. <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can also modify their own and players <style=\"CurrentLink\">Abilities</style> through <style=\"Link\"><link=\"feigned-die-rolls\">Feigned Die Rolls</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Providing game elements with <style=\"CurrentLink\">Abilities</style> make it possible for players to interpret them as <style=\"Link\"><link=\"agents\">Agents</link></style>. They case provide a basis for <style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style> in games with <style=\"Link\"><link=\"characters\">Characters</link></style>, especially those that result in <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>.",
+            "Since <style=\"CurrentLink\">Abilities</style> can give players possibilities to try and affect the game state of a game, the pattern typically gives players a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> of what to do and may cause them to have an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>. While <style=\"CurrentLink\">Abilities</style> do affect the game state of a game, it does not necessarily need to cause player to focus on facing particular challenges, they can also make <style=\"Link\"><link=\"pottering\">Pottering</link></style> possible. Limiting the number of <style=\"CurrentLink\">Abilities</style> is one way of guaranteeing that players have a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> while providing many <style=\"CurrentLink\">Abilities</style> can create <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>, <style=\"Link\"><link=\"pottering\">Pottering</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"characters\">Characters</link></style></style>",
+            "<style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"companions\">Companions</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"consumers\">Consumers</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"no-ops\">No-Ops</link></style>., <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Producers\">Producers</link></style>, <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"anonymous-actions\">Anonymous Actions</link></style>, <style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>, <style=\"Link\"><link=\"cooldown\">Cooldown</link></style>, <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"feigned-die-rolls\">Feigned Die Rolls</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style>, <style=\"Link\"><link=\"unlocking\">Unlocking</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "action-programming",
+            "agents",
+            "complex-gameplay",
+            "combos",
+            "exaggerated-perception-influence",
+            "freedom-choice",
+            "limited-set-actions",
+            "pottering",
+            "character-defining-actions"
+        ],
+        "modulates" : [
+            "avatars",
+            "characters",
+            "companions",
+            "units"
+        ],
+        "instantiated_by" : [
+            "aim-shoot",
+            "ammunition",
+            "capture",
+            "collaborative-actions",
+            "combat",
+            "combos",
+            "consumers",
+            "construction",
+            "movement",
+            "no-ops",
+            "game-masters",
+            "powers",
+            "producers",
+            "quick-travel"
+        ],
+        "modulated_by" : [
+            "ability-losses",
+            "anonymous-actions",
+            "area-control",
+            "competence-areas",
+            "cooldown",
+            "decreased-abilities",
+            "deterioration",
+            "extended-actions",
+            "feigned-die-rolls",
+            "game-masters",
+            "gain-competence",
+            "improved-abilities",
+            "interruptible-actions",
+            "irreversible-events",
+            "location-fixed-abilities",
+            "new-abilities",
+            "orthogonal-differentiation",
+            "power-ups",
+            "privileged-abilities",
+            "resources",
+            "skills",
+            "temporary-abilities",
+            "unlocking"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

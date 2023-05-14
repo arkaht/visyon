@@ -1,0 +1,80 @@
+{
+    "name" : "Detective Structures",
+    "categories" : [
+        "Patterns",
+        "Information Patterns",
+        "Narration Patterns",
+        "Character Patterns"
+    ],
+    "texts" : {
+        "definition" : "Information available to a player is limited to the information available to one single character.",
+        "markups" : [
+            "<style=\"Definition\">Information available to a player is limited to the information available to one single character.</style>",
+            "Narration in games (and other media) can be done in two ways to align players with the events that unfold. In <style=\"CurrentLink\">Detective Structures</style> knowledge is restricted to a protagonist, so players experience game events aligned with a single character. This means that all surprises and revelations occur at the same time for the players and their characters although they may make different conclusions. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Detective Structures</style> is a typical pattern used in many First-Person Shooters, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Deus%20Ex%20series\">Deus Ex series</link></style>. This come pretty natural for the genre since it is defined by how one perceives the game world from the view of one character.",
+            "However, games using third-person views can also make use of the pattern, with the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Silent%20Hill%20series\">Silent Hill series</link></style> as one example. Although this may allow players to perceive things that their characters do not perceive (or vice versa) due to looking in different directions, this only concerns what happens in the very proximity of the characters and does not have to affect narrative structures.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Creating games with <style=\"CurrentLink\">Detective Structures</style> at a minimum require the design of an <style=\"Link\"><link=\"avatars\">Avatar</link></style> for each player, and then limiting each  players' availability of information to their <style=\"Link\"><link=\"avatars\">Avatars</link></style>. When doing so the range of possibilities to present information is limited compared to other games given that <style=\"CurrentLink\">Detective Structures</style> can mainly provide information through their <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> such as <style=\"Link\"><link=\"clues\">Clues</link></style> and <style=\"Link\"><link=\"traces\">Traces</link></style> is one alternative to do so as long as they follow a game's <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, while <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> with potentially accompanying <style=\"Link\"><link=\"dialogues\">Dialogues</link></style> provides another one. ",
+            "The information provided through the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> can be complimented with those related to the players' <style=\"Link\"><link=\"characters\">Characters</link></style>. This includes diegetic interpretations of events by the <style=\"Link\"><link=\"characters\">Characters</link></style>, including <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Prophecies\">Game Prophecies</link></style>, but can also be internal cognitive processes such dream, hallucinations, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Memories\">Character Memories</link></style>. ",
+            "Although <style=\"CurrentLink\">Detective Structures</style> do not by themselves create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, the wish to provide players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> is one of the main reasons to make use of the structure.",
+            "<style=\"CurrentLink\">Detective Structures</style> make more sense in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> than in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. This since forcing several players to all get information from one <style=\"Link\"><link=\"characters\">Character</link></style> is more akin to a <style=\"Link\"><link=\"single-player-games\">Single-Player Game</link></style> with a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Interfaces\">Public Interface</link></style> than a <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Game</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Although limiting information of players to that of specific <style=\"Link\"><link=\"characters\">Characters</link></style> may seem to imply that the information presented should be that perceivable by those <style=\"Link\"><link=\"characters\">Characters</link></style>, this does not need to be the case. For instance, when a player makes his or her <style=\"Link\"><link=\"characters\">Character</link></style> look at a certain object in the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> additional <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> may be shown (e.g. floating <style=\"Link\"><link=\"handles\">Handles</link></style>) which the <style=\"Link\"><link=\"characters\">Character</link></style> cannot detect. Thus, the presence of <style=\"CurrentLink\">Detective Structures</style> in games does not need to imply <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "If <style=\"CurrentLink\">Detective Structures</style> are to be used in conjunction with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Open%20Worlds\">Open Worlds</link></style>, they need to make use <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> or <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style> that are tied to specific <style=\"Link\"><link=\"avatars\">Avatars</link></style>. This since <style=\"Link\"><link=\"units\">Units</link></style> by their nature provide several viewpoints and <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> in this case allows players to explore away from a specific <style=\"Link\"><link=\"characters\">Character</link></style>; <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> have however been used extensively in <i>Point-and-Click</i> adventure games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Police%20Quest%20series\">Police Quest series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Myst%20series\">Myst series</link></style>) where exploration is limited to the \"room\" the <style=\"Link\"><link=\"characters\">Character</link></style> is currently in.",
+            "<style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style> provide problems with <style=\"CurrentLink\">Detective Structures</style> since a player can then see other players' view of the gameplay.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "The use of <style=\"CurrentLink\">Detective Structures</style> makes it easier to control how players receive information, and which order they receive it in. Through this, <style=\"CurrentLink\">Detective Structures</style> can be used to ensure that <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> are presented in the intended order.",
+            "<style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style> helps create <style=\"CurrentLink\">Detective Structures</style> since it does not allow for multiple perspectives of the same event and helps ensure that intended <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> are experienced as such.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Detective Structures</style> is one way of presenting <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> to players. <style=\"CurrentLink\">Detective Structures</style> provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> since it limits the player’s information to a certain point-of-view at any given point in time; the player does not need to have unlimited access to what <style=\"Link\"><link=\"characters\">Characters</link></style> know, feel, and perceive. This provides an <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> at the beginning of gameplay which can be maintained through updating <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unobserved%20Game%20Events\">Unobserved Game Events</link></style>. Although initially incompatible with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> (unless a player's <style=\"Link\"><link=\"avatars\">Avatar</link></style> can perceive the whole <style=\"Link\"><link=\"game-worlds\">Game World</link></style>, which makes the pattern irrelevant), if these additional patterns are not used the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> will gradually turn into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> as players can merge the different set of information into one complete view. Similarly, the <style=\"CurrentLink\">Detective Structures</style> pattern is initially incompatible with a <style=\"Link\"><link=\"melodramatic-structures\">Melodramatic Structures</link></style> but unlike <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> this needs to be maintained throughout the gameplay.",
+            "Through providing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> and the possibilities of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"CurrentLink\">Detective Structures</style> can cause <style=\"Link\"><link=\"tension\">Tension</link></style>. This is especially true when players' have been given <style=\"Link\"><link=\"clues\">Clues</link></style> that certain events may occur. It is also likely that players will adopt <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals, either related to <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> or simply related to <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> (that may be possible to solve simply by <style=\"Link\"><link=\"movement\">Movement</link></style>).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> together with <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> or <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"dialogues\">Dialogues</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Memories\">Character Memories</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Prophecies\">Game Prophecies</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"traces\">Traces</link></style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style> when used together with <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"melodramatic-structures\">Melodramatic Structures</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, <style=\"Link\"><link=\"split-screen-views\">Split-Screen Views</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Open%20Worlds\">Open Worlds</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "gain-information",
+            "game-world-exploration",
+            "imperfect-information"
+        ],
+        "modulates" : [
+            "narration-structures",
+            "predetermined-story-structures"
+        ],
+        "instantiated_by" : [
+            "avatars",
+            "characters",
+            "single-player-games",
+            "temporal-consistency",
+            "game-worlds"
+        ],
+        "modulated_by" : [
+            "dialogues",
+            "clues"
+        ],
+        "conflicts" : [
+            "melodramatic-structures",
+            "perfect-information",
+            "split-screen-views",
+            "units",
+            "god-fingers"
+        ]
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "name" : "Lives",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The number of chances players has before game instances are terminated.",
+        "markups" : [
+            "<style=\"Definition\">The number of chances players has before game instances are terminated.</style>",
+            "Many games include dangers that can \"kill\" the game elements controlled by players. <style=\"CurrentLink\">Lives</style> is a design feature in games where such a \"death\" does not automatically result in their game sessions ending and instead players are allowed to play until one has run out of these <style=\"CurrentLink\">Lives</style>.",
+            "<style=\"H3\">Examples</style>",
+            "The original arcade version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> gave players a single extra life at 10,000 points but other implementations give this at numerous occasions. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, the player initially has three <style=\"CurrentLink\">Lives</style> which are lost either when the player's ship is shot by a UFO or when the ship collides with an asteroid. When all <style=\"CurrentLink\">Lives</style> have been lost, the game session ends.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> can be regarded as a multiplayer <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooter</link></style> that makes explicit use of <style=\"CurrentLink\">Lives</style>. Here, players' avatars do not respawn when killed, instead forcing players to observe the rest of a match as spectators. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> allow players to spawn again as long as their teams have \"tickets\" left, making teams share the amount of <style=\"CurrentLink\">Lives</style> available (although these amount also decreases if enemy teams have control over goal locations).",
+            "Platform games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda%20series\">The Legend of Zelda series</link></style> can be said to be weak examples of games making use of <style=\"CurrentLink\">Lives</style>. This since the only consequence of losing all <style=\"CurrentLink\">Lives</style> is that players have to restart from the latest saved location.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The loss of <style=\"CurrentLink\">Lives</style> is a <style=\"Link\"><link=\"life-penalties\">Life Penalty</link></style> that can have additional effects since losing all <style=\"CurrentLink\">Lives</style> can end game sessions. In addition, what caused the lose of individual <style=\"CurrentLink\">Lives</style> also can trigger other <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style> so games using <style=\"CurrentLink\">Lives</style> can consider the use of that pattern as well. ",
+            "The prime characteristic of <style=\"CurrentLink\">Lives</style> is that they can be lost, so deciding how this can happen is the primary design consideration when using the pattern. However, what the consequences of losing <style=\"CurrentLink\">Lives</style> are, and how many <style=\"CurrentLink\">Lives</style> are available is also important. <style=\"CurrentLink\">Lives</style> are typically associated with <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"characters\">Characters</link></style>, but games using <style=\"Link\"><link=\"units\">Units</link></style> or even <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style> can use <style=\"CurrentLink\">Lives</style> through the use of <style=\"Link\"><link=\"parallel-lives\">Parallel Lives</link></style>. They are typically not used together with <style=\"Link\"><link=\"enemies\">Enemies</link></style> but are sometimes used together with <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>. Games with <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> do quite often link the <style=\"CurrentLink\">Lives</style> of <style=\"Link\"><link=\"avatars\">Avatars</link></style> with the entered <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>; <style=\"CurrentLink\">Lives</style> are lost if the <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> are destroyed.",
+            "Losses of <style=\"CurrentLink\">Lives</style> are typically the effects of failing to <style=\"Link\"><link=\"evade\">Evade</link></style> attacks by <style=\"Link\"><link=\"enemies\">Enemies</link></style> or other players in <style=\"Link\"><link=\"combat\">Combat</link></style>, being the target of deadly <style=\"Link\"><link=\"traps\">Traps</link></style> or <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> (possible after failing to <style=\"Link\"><link=\"evade\">Evade</link></style> them), colliding with object due to failing with <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>, or failing to replenish <style=\"Link\"><link=\"resources\">Resources</link></style> within <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>. Typically, only one <style=\"CurrentLink\">Life</style> is at stake at a time, but games using <style=\"Link\"><link=\"parallel-lives\">Parallel Lives</link></style> are an exception. The loss of <style=\"CurrentLink\">Lives</style> can be instantaneous when one is affected or can be the effect of cumulative <style=\"Link\"><link=\"damage\">Damage</link></style> to a <style=\"Link\"><link=\"health\">Health</link></style> value; the former being a way <style=\"Link\"><link=\"damage\">Damage</link></style> can directly cause <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style> while the latter being the consequence of <style=\"Link\"><link=\"energy-penalties\">Energy Penalties</link></style>.",
+            "The number of <style=\"CurrentLink\">Lives</style> players have are <style=\"Link\"><link=\"resources\">Resources</link></style> and these are either <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style> that can only be lost as gameplay progresses or <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style> that can be regained through various means (some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzle%20Games\">Puzzle Games</link></style> have <style=\"CurrentLink\">Lives</style> as <style=\"Link\"><link=\"regenerating-resources\">Regenerating Resources</link></style>). Some game modes in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> allow players to spawn again as long as their teams have \"tickets\" left, making the numbers of <style=\"CurrentLink\">Lives</style> a <style=\"Link\"><link=\"shared-resources\">Shared Resource</link></style>. Examples of ways <style=\"CurrentLink\">Lives</style> are replenished include reaching certain <style=\"Link\"><link=\"scores\">Scores</link></style> (found for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style>) and collecting <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style> but as <style=\"Link\"><link=\"resources\">Resources</link></style> they can be part of most types of <style=\"Link\"><link=\"rewards\">Rewards</link></style>. They can also be provided through <style=\"Link\"><link=\"pay-play\">Pay to Play</link></style> (as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> and physical <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pinball%20Games\">Pinball Games</link></style> are examples of).",
+            "<style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> goals in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> are closely related to the use of <style=\"CurrentLink\">Lives</style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "The amount of <style=\"CurrentLink\">Lives</style> available are typically presented continuously through <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, e.g. <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style>, since they are typically a central aspect of how well gameplay in evolving in game sessions.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Lives</style> are almost always part of <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>. <style=\"CurrentLink\">Lives</style> are a form of (<style=\"Link\"><link=\"non-localized-resources\">Non-Localized</link></style>) <style=\"Link\"><link=\"resources\">Resources</link></style> that allow players to have <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style> and be able to participate in games as long as players have at least one life left. This means that games with <style=\"CurrentLink\">Lives</style> must also make use of <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> and <style=\"Link\"><link=\"game-over\">Game Over</link></style> since otherwise the loss of the last <style=\"CurrentLink\">Life</style> would not differ from any other loss of <style=\"CurrentLink\">Lives</style>. While other <style=\"Link\"><link=\"penalties\">Penalties</link></style> may be attached to losing <style=\"CurrentLink\">Lives</style>, the loss itself may be a <style=\"Link\"><link=\"penalties\">Penalty</link></style> since it reduces the number of chance left and the probable gameplay time players have left. The presence of <style=\"CurrentLink\">Lives</style> give players clear <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>: to <style=\"Link\"><link=\"survive\">Survive</link></style> as long as possible with each life in a game environment that may include <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, and other players trying to succeed with <style=\"Link\"><link=\"player-killing\">Player Killing</link></style> or <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> - it also modulates <style=\"Link\"><link=\"player-killing\">Player Killing</link></style> since it gives definite advantages of removing all of a player's <style=\"CurrentLink\">Lives</style>.",
+            "As <style=\"CurrentLink\">Lives</style> are typically linked to <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"characters\">Characters</link></style>, they are a way to link players' successes and failures in the game to those of their <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"characters\">Characters</link></style>. If players have developed emotional links to them, the risk of losing <style=\"CurrentLink\">Lives</style> is thereby a way of increasing their <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>. Regardless of this, the presence of <style=\"CurrentLink\">Lives</style> can increase <style=\"Link\"><link=\"tension\">Tension</link></style>, as players have something easy to relate to that can be lost in the game. For all cases except <style=\"Link\"><link=\"parallel-lives\">Parallel Lives</link></style>, the use of <style=\"CurrentLink\">Lives</style> implies that <style=\"Link\"><link=\"spawning\">Spawning</link></style> will be present in a game design (even if this would be that a dead <style=\"Link\"><link=\"avatars\">Avatar</link></style> or <style=\"Link\"><link=\"characters\">Character</link></style> would rise in exactly the same place it died).",
+            "The use of the pattern implies that players have at least more than one <style=\"CurrentLink\">Life</style>. This makes the pattern incompatible with <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>. As multiple <style=\"CurrentLink\">Lives</style> do not exist in reality, the use of them in games can break <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, not only by players having several lives but also through the process of <style=\"Link\"><link=\"spawning\">Spawning</link></style>. <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> can also suffer from the use of <style=\"CurrentLink\">Lives</style> since these are so important to gameplay that they are typically always displayed in players' interfaces. When used with <style=\"Link\"><link=\"regenerating-resources\">Regenerating Resources</link></style>, <style=\"CurrentLink\">Lives</style> create a form of <style=\"Link\"><link=\"tick-based-games\">Tick-Based Game</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>, <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"non-localized-resources\">Non-Localized Resources</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>, <style=\"Link\"><link=\"survive\">Survive</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"damage\">Damage</link></style></style>",
+            "<style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"regenerating-resources\">Regenerating Resources</link></style></style>",
+            "<style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, <style=\"Link\"><link=\"player-killing\">Player Killing</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"energy-penalties\">Energy Penalties</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style>, <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style>, <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style>, <style=\"Link\"><link=\"parallel-lives\">Parallel Lives</link></style>, <style=\"Link\"><link=\"pay-play\">Pay to Play</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"regenerating-resources\">Regenerating Resources</link></style>, <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"shared-resources\">Shared Resources</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "abstract-player-constructs",
+            "continuous-goals",
+            "emotional-engrossment",
+            "extra-chances",
+            "game-over",
+            "non-localized-resources",
+            "player-elimination",
+            "resources",
+            "spawning",
+            "survive",
+            "tension",
+            "life-penalties",
+            "last-man-standing",
+            "tick-based-games"
+        ],
+        "modulates" : [
+            "avatars",
+            "boss-monsters",
+            "characters",
+            "combat",
+            "destructible-objects",
+            "player-killing"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "damage",
+            "energy-penalties",
+            "environmental-effects",
+            "game-state-indicators",
+            "health",
+            "hud-interfaces",
+            "life-penalties",
+            "non-renewable-resources",
+            "parallel-lives",
+            "pay-play",
+            "pick-ups",
+            "regenerating-resources",
+            "renewable-resources",
+            "scores",
+            "shared-resources",
+            "traps",
+            "vehicles"
+        ],
+        "conflicts" : [
+            "diegetic-consistency",
+            "permadeath",
+            "thematic-consistency"
+        ]
+    }
+}

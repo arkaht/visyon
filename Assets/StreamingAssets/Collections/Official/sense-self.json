@@ -1,0 +1,53 @@
+{
+    "name" : "Sense of Self",
+    "categories" : [
+        "Patterns",
+        "Subjective Patterns",
+        "Agent Patterns"
+    ],
+    "texts" : {
+        "definition" : "Algorithmic Agents that consistently react appropriate to events concerning it or to its internal states.",
+        "markups" : [
+            "<style=\"Definition\">Algorithmic Agents that consistently react appropriate to events concerning it or to its internal states.</style>",
+            "Agents controlled by game system can affect game instances in much the same way as players can. However, they do not just because of this seem to have any self-awareness. One ability that can help give this appearance is that these agents have a <style=\"CurrentLink\">Sense of Self</style> in that they show that they care about their own situation in a consistent fashion.",
+            "<style=\"H3\">Examples</style>",
+            "In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style>, opponent fight or flee depending on the odds, showing a limited <style=\"CurrentLink\">Sense of Self</style>. Enemies that players are fighting in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> behave in the same fashion.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Sense of Self</style> is a way to modulate <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> by implementing this pattern in its algorithms. Typically all games with <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> have some level of the pattern since these <style=\"Link\"><link=\"agents\">Agents</link></style> need to be able to react to its environment with actions to have any agency, but players' will disregard a perceived <style=\"CurrentLink\">Sense of Self</style> as soon as some failure to show this has been noticed. This means that providing <style=\"CurrentLink\">Sense of Self</style> can require reacting to threats or what could potentially be threats, as well as showing memory of earlier events. <style=\"Link\"><link=\"awareness-surroundings\">Awareness of Surroundings</link></style> and <style=\"Link\"><link=\"memory-important-events\">Memory of Important Events</link></style> can help create these abilities.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Sense of Self</style> makes <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> have one particular type of <style=\"Link\"><link=\"emotional-attachment\">Emotional Attachment</link></style>, namely that related to themselves. This can help make them show that they have <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style> and in many cases help create <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"emotional-attachment\">Emotional Attachment</link></style>, <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"awareness-surroundings\">Awareness of Surroundings</link></style>, <style=\"Link\"><link=\"memory-important-events\">Memory of Important Events</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "emotional-attachment",
+            "own-agenda",
+            "thematic-consistency"
+        ],
+        "modulates" : [
+            "algorithmic-agents"
+        ],
+        "instantiated_by" : [
+            "algorithmic-agents",
+            "awareness-surroundings",
+            "memory-important-events"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

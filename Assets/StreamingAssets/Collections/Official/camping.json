@@ -1,0 +1,86 @@
+{
+    "name" : "Camping",
+    "categories" : [
+        "Patterns",
+        "Action Patterns",
+        "Dynamic Patterns"
+    ],
+    "texts" : {
+        "definition" : "The \"activity\" of staying in one location of a game world for extended periods of time waiting for opportunities to appear there.",
+        "markups" : [
+            "<style=\"Definition\">The \"activity\" of staying in one location of a game world for extended periods of time waiting for opportunities to appear there.</style>",
+            "Some areas in games are so advantageous to players that they can form the game tactics on being in these areas and letting players and game events come to them. This <style=\"CurrentLink\">Camping</style> is usually done in a combination of  performing a small range of actions and waiting for the opportunity to do these actions.",
+            "<style=\"H3\">Examples</style>",
+            "Many multiplayer <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> have <style=\"CurrentLink\">Camping</style> as part of their gameplay regardless of if this is explicitly design for or not. ",
+            "Especially the presence of sniping weapons and locations that are difficult to reach but provide good overviews can make Camping common. To counter this, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%202\">Battlefield 2</link></style> and later games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> allows commanders to locate players on overview maps and can effectively direct airstrikes against those <style=\"CurrentLink\">Camping</style>. While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style> have levels designed for <style=\"CurrentLink\">Camping</style>, e.g. <i>seawall battery</i>, the game also has mortars which can be used for dislodging \"campers\".",
+            "<style=\"CurrentLink\">Camping</style> occurs in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> and other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> when they contain <style=\"Link\"><link=\"quests\">Quests</link></style> or instances that only can be accessed at certain intervals or when enough players are co-located.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Camping</style> can take two main forms in games: being related to <style=\"Link\"><link=\"combat\">Combat</link></style> or being related to <style=\"Link\"><link=\"collecting\">Collecting</link></style>. Both require players to be able to do <style=\"Link\"><link=\"no-ops\">No-Ops</link></style> without strong direct negative gameplay effects since otherwise players would prefer performing other activities.",
+            "For <style=\"Link\"><link=\"combat\">Combat</link></style> aspects, creating the possibility of <style=\"CurrentLink\">Camping</style> consists of designing weapons and locations that support the activity. The weapons typically need to be powerful and able to work at a long range but do not have to be fast as \"campers\" are usual well-prepared. The locations should be difficult to reach, e.g. <style=\"Link\"><link=\"galleries\">Galleries</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style>. However, <style=\"CurrentLink\">Camping</style> can also be interesting to do because of the nature of the areas observed. This may make areas near any <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> potential areas for <style=\"CurrentLink\">Camping</style>, but <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style> are probably extra interesting since they give a chance at attacking newly inserted <style=\"Link\"><link=\"avatars\">Avatars</link></style>. This form of <i>Spawn Camping</i> can however be disliked since it can give rise to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Repeated%20Domination\">Repeated Domination</link></style> (sometimes this is called base raping). However, some games (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style>) require <style=\"Link\"><link=\"teams\">Teams</link></style> to camp at <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style> to change ownership of <style=\"Link\"><link=\"territories\">Territories</link></style>. <style=\"Link\"><link=\"combat\">Combat</link></style>-related <style=\"CurrentLink\">Camping</style> can be discouraged by making otherwise nice areas to watch into <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>. Another way to counter <style=\"CurrentLink\">Camping</style> or even make it pointless, this time based upon the nature of the <style=\"CurrentLink\">Camping</style> locations, is to provide <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>.",
+            "<style=\"CurrentLink\">Camping</style> related to <style=\"Link\"><link=\"collecting\">Collecting</link></style> is mainly regulated by how often <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style> produce the game elements that are to be collected. It can be made more difficult by the presence of <style=\"Link\"><link=\"enemies\">Enemies</link></style>.",
+            "<style=\"CurrentLink\">Camping</style> often requires the same kind of actions that are required to succeed with <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals and can easily be designed to be part of such goals. When related to <style=\"Link\"><link=\"combat\">Combat</link></style> it can also be designed as being part of <style=\"Link\"><link=\"guard\">Guard</link></style> goals when the guarding does not require movement.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "One of the prerequisites for countering <style=\"CurrentLink\">Camping</style> is knowing where the \"campers\" are. This can be supported through giving players means of having <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>. If giving all players this does work too greatly against the pattern, it can be given only to some players as privileged abilities (as is done for commanders in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%202\">Battlefield 2</link></style>).",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Camping</style> encourages or even requires players to perform <style=\"Link\"><link=\"no-ops\">No-Ops</link></style>. It can provide both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style> since players are waiting for game events they believe will happen but if players also have sufficiently good <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> it may instead be <style=\"Link\"><link=\"downtime\">Downtime</link></style>. In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, this can in turn lead to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> as players try to entertain themselves (this is found for example when waiting for <style=\"Link\"><link=\"instances\">Instances</link></style> to open in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> or waiting for <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style> to spawn in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Everquest\">Everquest</link></style>).",
+            "<style=\"CurrentLink\">Camping</style> is done better if players have <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> of suitable locations, so the possibility of <style=\"CurrentLink\">Camping</style> in games encourages players to gain this type of knowledge and then engage in <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style> for how to do it best. ",
+            "The possibility for <style=\"CurrentLink\">Camping</style> in games lessen the incentives for <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> and may disrupt <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, e.g. from <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Repeated%20Domination\">Repeated Domination</link></style>, if other players have no or little chance of disrupting the <style=\"CurrentLink\">Camping</style> activity. <style=\"CurrentLink\">Camping</style> is especially prone to disrupt game balance when the areas watched are <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style> as <style=\"Link\"><link=\"spawning\">Spawning</link></style> players have little possibilities to organize. ",
+            "While <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style> can encourage <style=\"CurrentLink\">Camping</style> in those locations since one is protected from harmful events, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style> for the same reason discourage others to camp in proximity of these.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Repeated%20Domination\">Repeated Domination</link></style>, <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"collecting\">Collecting</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"territories\">Territories</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"no-ops\">No-Ops</link></style>, <style=\"Link\"><link=\"galleries\">Galleries</link></style>, <style=\"Link\"><link=\"instances\">Instances</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "downtime",
+            "repeated-domination",
+            "strategic-planning",
+            "tension",
+            "social-interaction"
+        ],
+        "modulates" : [
+            "combat",
+            "collecting",
+            "guard",
+            "stealth",
+            "territories"
+        ],
+        "instantiated_by" : [
+            "no-ops",
+            "galleries",
+            "instances",
+            "safe-havens",
+            "sniper-locations",
+            "spawn-points",
+            "strategic-locations",
+            "strongholds"
+        ],
+        "modulated_by" : [
+            "enemies",
+            "flanking-routes",
+            "game-state-overviews",
+            "strategic-knowledge"
+        ],
+        "conflicts" : [
+            "enemies",
+            "flanking-routes",
+            "player-balance",
+            "safe-havens",
+            "varied-gameplay"
+        ]
+    }
+}

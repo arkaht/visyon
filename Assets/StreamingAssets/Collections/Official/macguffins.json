@@ -1,0 +1,69 @@
+{
+    "name" : "MacGuffins",
+    "categories" : [
+        "Narration Patterns",
+        "Game Element Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game elements specifically used to drive the narration in games.",
+        "markups" : [
+            "<style=\"Definition\">Game elements specifically used to drive the narration in games.</style>",
+            "Like movies, many games include storylines that drive the characters actions. One common design structure for both cases are to make use of game elements or characters that all agents goals resolve around, be it to rescue, destroy or protect. Such narrative devices are called <style=\"CurrentLink\">MacGuffins</style> and do not themselves need to be active or even present in games for them to function.",
+            "See also the Wikipedia entry for the concept.",
+            "<style=\"H3\">Examples</style>",
+            "Princess Peach Toadstool is kidnapped in many of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style> of games, and players main goal as Mario is to rescue her. There are however exceptions to this structure, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20Bros.%202\">Super Mario Bros. 2</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style>, and in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Princess%20Peach\">Super Princess Peach</link></style> the roles are reversed.",
+            "<i>Capture the Flag</i> game modes are examples of using <style=\"CurrentLink\">MacGuffins</style> in games very close to the original usage in movies. This can quite easily be noticed from the flags in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> having no effect on gameplay except where they are, and the content of the briefcases that teams fights over in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style> are never revealed.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The exact nature and attributes of <style=\"CurrentLink\">MacGuffins</style> are not the most important parts of creating them. In fact, <style=\"CurrentLink\">MacGuffins</style> do not need to exist even as game elements, they can be shown only through <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> or only be referred to and never be shown (and these two can be combined). When they do exist, they may be <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"props\">Props</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>, or <style=\"Link\"><link=\"characters\">Characters</link></style>, and their importance can be pointed out through <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>.",
+            "More important is what goals the <style=\"CurrentLink\">MacGuffins</style> help define; this may be the primary goal of the game or more localized <style=\"Link\"><link=\"quests\">Quests</link></style>. Specific examples of goals suitable for use with <style=\"CurrentLink\">MacGuffins</style> since they require game elements but not any specific characteristics include <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"deliver\">Deliver</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, and simply <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">MacGuffins</style> need to comply with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alternative%20Realities\">Alternative Realities</link></style> of a game, that is not break <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, it they are not to become <style=\"Link\"><link=\"alien-space-bats\">Alien Space Bats</link></style>. This does not however need to make it difficult to combine <style=\"CurrentLink\">MacGuffins</style> with <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> - in fact this may make sense since they often are diegetically special.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">MacGuffins</style> are devices for creating <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, and as such primarily narrative in aspect.",
+            "<style=\"H2\">Consequences</style>",
+            "The main purpose of <style=\"CurrentLink\">MacGuffins</style> is to provide <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> and thereby <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> in games. While their appearance are usually not restricted by needs to maintain <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, their presence may be required for the same reason. However, they do not have to predetermine how a story unfolds in a game but can instead work by providing the goals for the gameplay, examples of how they can do this is by being the focal game elements in <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"deliver\">Deliver</link></style>, and <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals. In these cases, unlike most other, <style=\"CurrentLink\">MacGuffins</style> tend to be <style=\"Link\"><link=\"game-items\">Game Items</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"alien-space-bats\">Alien Space Bats</link></style>, <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"deliver\">Deliver</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"props\">Props</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "alien-space-bats",
+            "capture",
+            "deliver",
+            "eliminate",
+            "game-items",
+            "gain-ownership",
+            "narration-structures",
+            "predetermined-story-structures",
+            "quests",
+            "thematic-consistency"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "cutscenes",
+            "game-items",
+            "props",
+            "weapons"
+        ],
+        "modulated_by" : [
+            "cutscenes",
+            "diegetically-outstanding-features"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name" : "Goal Indicators",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "Information presented to players about their current goals in a game.",
+        "markups" : [
+            "<style=\"Definition\">Information presented to players about their current goals in a game.</style>",
+            "Goals help direct players attention and efforts in a game, and accepting them is part of what brings meaning to playing games. However, some goals can be difficult to keep track of or it can be difficult to keep track of how close to reaching them one is. <style=\"CurrentLink\">Goal Indicators</style> help players with this through providing information about the goals they (or other players) have.",
+            "<style=\"H3\">Examples</style>",
+            "In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style> the subgoals in the game are indicated with floating arrows which point out where the goal objects are located. The nature of these goals are revealed to players in cutscenes before start they start.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Backgammon\">Backgammon</link></style> and other classical <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> state the goals of players directly in the rules (check-mate the opponent's king, move all the pieces off the board). The position of the opponent's king in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and the location of the home base in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Backgammon\">Backgammon</link></style> are <style=\"CurrentLink\">Goal Indicators</style> that guide players' actions during gameplay.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Goal Indicators</style> can be created using <style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"closure-points\">Closure Points</link></style>, and <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>.  <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> and <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> in general can also be used. They can be modulated by using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style> or not.",
+            "Since <style=\"CurrentLink\">Goal Indicators</style> provide information to players they work against them having <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>. It also works against <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style> in the sense that it draws attention to goal created by game designers.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Goal Indicators</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "As stated above, <style=\"CurrentLink\">Goal Indicators</style> can be expressed through <style=\"Link\"><link=\"closure-points\">Closure Points</link></style> and <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Using <style=\"CurrentLink\">Goal Indicators</style> typically changes how <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style> is displayed to players, often affecting <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style> and <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> whenever they are part of a goal definition. They often help provide <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style>, <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"closure-points\">Closure Points</link></style>, <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-state-overviews"
+        ],
+        "modulates" : [
+            "public-information",
+            "time-pressure",
+            "time-limits"
+        ],
+        "instantiated_by" : [
+            "check-points",
+            "closure-points",
+            "cutscenes",
+            "narration-structures",
+            "progress-indicators"
+        ],
+        "modulated_by" : [
+            "direct-information"
+        ],
+        "conflicts" : [
+            "player-defined-goals",
+            "uncertainty-information"
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "name" : "Movement Limitations",
+    "categories" : [
+        "Action Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Negative changes in how movement is done.",
+        "markups" : [
+            "<style=\"Definition\">Negative changes in how movement is done.</style>",
+            "In games where movement is an important aspect of game play, limitations to movement abilities are common. These <style=\"CurrentLink\">Movement Limitations</style> may be part of the game environment and effect all players that enter an area, part of what defines specific game elements, or negative effects of hostile actions or dangerous events.",
+            "<style=\"H3\">Examples</style>",
+            "Icy areas in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%2064\">Super Mario 64</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style> make steering difficult and affect acceleration and deceleration. The <i>banana peel</i>, <i>polygon ball</i>, and <i>ice cube</i> power-ups in the <i>Monkey Race 2 party game</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%202\">Super Monkey Ball 2</link></style> all let players shoot or drop objects that negatively affect other players movement if hit.",
+            "Many racing games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%20series\">Super Monkey Ball series</link></style>, make the leading vehicle have a little lower maximum speed than the others vehicles in order to increase the chance of the other vehicles catching up, or have this as an balancing option.",
+            "The boxes that have to be moved to specific spots in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style> also limit how players can move in the game, potentially trapping them and make levels impossible to solve. Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hey!%20That's%20My%20Fish!\">Hey! That's My Fish!</link></style> cause <style=\"CurrentLink\">Movement Limitations</style> to themselves and others during gameplay through the removal of ice blocks.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Movement Limitations</style> consist on deciding how to negatively modify <style=\"Link\"><link=\"movement\">Movement</link></style>, and can be applied to both <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> and <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>. In <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> they typically take the form of making <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style> more difficult or decreasing speeds. In <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> one can create <style=\"CurrentLink\">Movement Limitations</style> through the using <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style> and having different costs for different players and for moving over different types of terrains. For both cases, <style=\"CurrentLink\">Movement Limitations</style> can also be constructed through introducing <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, or <style=\"Link\"><link=\"traps\">Traps</link></style> into <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> (and one possible effect of <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> is to increase the action point cost to move through them). <style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style> are an example of providing <style=\"CurrentLink\">Movement Limitations</style> by slowly but surely making more of the game area into <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>.",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style> by other players and <style=\"Link\"><link=\"zone-control\">Zone of Control</link></style> effects caused by these can also cause <style=\"CurrentLink\">Movement Limitations</style>. In <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> this is typically governed by rules forbidding movement, increasing movement costs, or making <style=\"Link\"><link=\"units\">Units</link></style> moving into the area under control stop their movement. In <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> the <style=\"CurrentLink\">Movement Limitations</style> are instead often implicit and enforced by threats of <style=\"Link\"><link=\"combat\">Combat</link></style>. An exception to this is when the aiming possibilities associated with a game's <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style> require players to be stationary to be able to aim (and in some cases fire) at all.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Movement Limitations</style> modulates <style=\"Link\"><link=\"movement\">Movement</link></style> or <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style> and often makes <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> more difficult, and can be important components of <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> and <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style> in <style=\"Link\"><link=\"races\">Races</link></style>. They also make <style=\"Link\"><link=\"evade\">Evade</link></style> goals more difficult.",
+            "The pattern can replace or be combined with reduced <style=\"Link\"><link=\"health\">Health</link></style> as <style=\"Link\"><link=\"penalties\">Penalties</link></style> or the effects of <style=\"Link\"><link=\"damage\">Damage</link></style> as a way of instantiating <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> and creating <style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style>. <style=\"Link\"><link=\"tension\">Tension</link></style> and limited <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> can be the consequence of <style=\"CurrentLink\">Movement Limitations</style> while <style=\"Link\"><link=\"downtime\">Downtime</link></style> are can be created by temporary but complete losses of movement abilities. If sufficiently negative limitations are imposed by the pattern, it can give rise to <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"damage\">Damage</link></style> and <style=\"Link\"><link=\"health\">Health</link></style></style>",
+            "<style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"races\">Races</link></style></style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style></style>",
+            "<style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style>, <style=\"Link\"><link=\"zone-control\">Zone of Control</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "competence-areas",
+            "damage",
+            "decreased-abilities",
+            "downtime",
+            "penalties",
+            "tension",
+            "critical-hits",
+            "balancing-effects",
+            "handicap-systems"
+        ],
+        "modulates" : [
+            "evade",
+            "freedom-choice",
+            "game-world-navigation",
+            "movement",
+            "races",
+            "maneuvering"
+        ],
+        "instantiated_by" : [
+            "area-control",
+            "budgeted-action-points",
+            "diegetically-outstanding-features",
+            "environmental-effects",
+            "inaccessible-areas",
+            "obstacles",
+            "shrinking-game-worlds",
+            "traps",
+            "variable-accuracy",
+            "zone-control"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "name" : "Upgrades",
+    "categories" : [
+        "Game Element Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Modifications to game items to make them more effective.",
+        "markups" : [
+            "<style=\"Definition\">Modifications to game items to make them more effective.</style>",
+            "Equipment in game worlds provides benefits to those using them. <style=\"CurrentLink\">Upgrades</style> are ways for players to make these benefits greater by modifying the equipment.",
+            "<style=\"H3\">Examples</style>",
+            "Taking place in worlds where magic works, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style> make use of gems that can be set in equipment sockets and provide various bonuses. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Morrowind\">Morrowind</link></style> have rules for players to use their skills in spells to enchant items, providing gameplay benefits to how these items work.",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> can improve the functionality of weapons in the game by installing items, e.g. scopes, silencers, and extended magazines.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Upgrades</style> are basically ways of giving players <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> so deciding on what <style=\"Link\"><link=\"abilities\">Abilities</link></style> should be possible to improve through them; common examples include those related to <style=\"Link\"><link=\"damage\">Damage</link></style> with <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style> or modifying the chance of <style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style> or <style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style> as special cases of this. Although <style=\"CurrentLink\">Upgrades</style> often are <style=\"Link\"><link=\"equipment\">Equipment</link></style> - they are to be equip other <style=\"Link\"><link=\"equipment\">Equipment</link></style> - they do not need to be <style=\"Link\"><link=\"diegetically-tangible-game-items\">Diegetically Tangible Game Items</link></style>. However, giving <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> by modifying <style=\"Link\"><link=\"equipment\">Equipment</link></style> is typically handled by <style=\"Link\"><link=\"crafting\">Crafting</link></style> since this is not a question of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Upgrading\">Upgrading</link></style>.  Given that they are <style=\"Link\"><link=\"equipment\">Equipment</link></style>, e.g. gems, silencers, and scopes, most of the design decisions related to <style=\"CurrentLink\">Upgrades</style> are the same as for <style=\"Link\"><link=\"equipment\">Equipment</link></style> or <style=\"Link\"><link=\"game-items\">Game Items</link></style> in general. This includes who can use them, how they are acquired, etc. An exception when <style=\"CurrentLink\">Upgrades</style> do not function as <style=\"Link\"><link=\"equipment\">Equipment</link></style> is when they are made possible through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>, e.g. enchantment spells in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Morrowind\">Morrowind</link></style> (although since <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Morrowind\">Morrowind</link></style> requires <i>soul gems</i> and can thereby be seen as a combination of using a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Power</link></style> and a piece of <style=\"Link\"><link=\"equipment\">Equipment</link></style>).",
+            "Common types of <style=\"Link\"><link=\"equipment\">Equipment</link></style> which can be affected by <style=\"CurrentLink\">Upgrades</style> are <style=\"Link\"><link=\"armor\">Armor</link></style> and <style=\"Link\"><link=\"weapons\">Weapons</link></style>. While <style=\"Link\"><link=\"sockets\">Sockets</link></style> are receptacles for <style=\"CurrentLink\">Upgrades</style>, they can also be affected by <style=\"CurrentLink\">Upgrades</style>, e.g. by them providing adding additional slots.",
+            "The action of installing <style=\"CurrentLink\">Upgrades</style> either can be one generally available to players or can be one governed by how <style=\"Link\"><link=\"crafting\">Crafting</link></style> works in a game.",
+            "<style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style> are a specific type of <style=\"CurrentLink\">Upgrades</style> that rather than generally provide better <style=\"Link\"><link=\"abilities\">Abilities</link></style> instead provide more specialized ones (in practice this means that they usually balance some type of <style=\"Link\"><link=\"improved-abilities\">Improved Ability</link></style> that an <style=\"CurrentLink\">Upgrade</style> could provide with some other type of <style=\"Link\"><link=\"decreased-abilities\">Decreased Ability</link></style>).",
+            "While <style=\"CurrentLink\">Upgrades</style> typically are possible to acquire through gameplay, letting players get them through paying can be seen as a form of <style=\"Link\"><link=\"pay-play\">Pay to Play</link></style>. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Applying <style=\"CurrentLink\">Upgrades</style> are usually done in <style=\"Link\"><link=\"inventories\">Inventories</link></style> since it is there the <style=\"CurrentLink\">Upgrades</style>, and <style=\"Link\"><link=\"equipment\">Equipment</link></style> in general, are interacted with for most other purposes.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Upgrades</style> are a type of <style=\"Link\"><link=\"equipment\">Equipment</link></style> that can provide additional <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> to other pieces of <style=\"Link\"><link=\"equipment\">Equipment</link></style> through allowing the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Upgrading\">Upgrading</link></style> of them. They provide players with a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> since the improvements can be done whenever they wish, but doing them are often <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> and thereby force players to make <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> decisions between different types of <style=\"CurrentLink\">Upgrades</style>.",
+            "<style=\"CurrentLink\">Upgrades</style> modulate <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>, e.g. <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style>, when these exist and the <style=\"CurrentLink\">Upgrades</style> relate to the relevant skills.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"equipment\">Equipment</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Upgrading\">Upgrading</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"crafting\">Crafting</link></style>, <style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style>, <style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"equipment\">Equipment</link></style>, <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>, <style=\"Link\"><link=\"sockets\">Sockets</link></style>, <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>",
+            "<style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style> with <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"pay-play\">Pay to Play</link></style>, <style=\"Link\"><link=\"sockets\">Sockets</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "equipment",
+            "freedom-choice",
+            "improved-abilities",
+            "irreversible-events",
+            "trade-offs",
+            "upgrading"
+        ],
+        "modulates" : [
+            "armor",
+            "crafting",
+            "critical-hits",
+            "critical-misses",
+            "damage",
+            "equipment",
+            "player-character-skill-composites",
+            "sockets",
+            "variable-accuracy",
+            "weapons"
+        ],
+        "instantiated_by" : [
+            "powers",
+            "sidegrades"
+        ],
+        "modulated_by" : [
+            "inventories",
+            "pay-play",
+            "sockets"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name" : "Increasing Rewards",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Reward structures that increase the size or quality of the specific rewards as gameplay progress.",
+        "markups" : [
+            "<style=\"Definition\">Reward structures that increase the size or quality of the specific rewards as gameplay progress.</style>",
+            "Rewards tied are common in games as ways of acknowledging player successes, and many of these provide gameplay advantages. When these become larger in quantity or more powerful as gameplay progresses, these specific types of rewards can be classified as <style=\"CurrentLink\">Increasing Rewards</style> and can either be used to balance increased challenges or demands on resource consumption or be used to clearly indicate to players that they are in other parts of the overall gameplay arc of the games.",
+            "<style=\"H3\">Examples</style>",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo series</link></style>, provide <style=\"CurrentLink\">Increasing Rewards</style> in the form of larger amounts of money and more powerful magic items the further along players get into the games with specific characters.",
+            "The abilities and units unlocked by new technologies in strategy games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization</link></style> are <style=\"CurrentLink\">Increasing Rewards</style> since they do not only offer variety but also offer functionally better gameplay abilities.",
+            "The reward for having military superiority over one's neighbor in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/7%20Wonders\">7 Wonders</link></style> is increased for each age of the game. This provides a motivation for trying to win this competition in the last age even if one has lost all previous competitions since the last one is worth more than the previous two together.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Increasing Rewards</style> is somewhat unsurprisingly a way to modify <style=\"Link\"><link=\"rewards\">Rewards</link></style>. The reason for using them is typically to balance challenges provided by <style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style> or to avoid or lessen the probability that players will notice <style=\"Link\"><link=\"predictable-winner\">Predictable Winners</link></style>. <style=\"CurrentLink\">Increasing Rewards</style> can be created in games either by providing more <style=\"Link\"><link=\"resources\">Resources</link></style> as <style=\"Link\"><link=\"rewards\">Rewards</link></style> over time - which modulates how <style=\"Link\"><link=\"resources\">Resources</link></style> function in the game - or by <style=\"Link\"><link=\"improved-abilities\">Improving</link></style> or introducing <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>.",
+            "<style=\"CurrentLink\">Increasing Rewards</style> are incompatible with <style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style> since one assumes an improvement in quantity or quality while the other is defined by providing variation but not increase in power.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Increasing Rewards</style> may well be motivated by <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> since many stories contain aspects of improvement in abilities of the main characters, and using the pattern is a way to let gameplay and narration move in tandem.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Increasing Rewards</style> is a straight forward way of having <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>. They are also a form of delocalized <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> since they provide players with a degree of awareness of how far into the gameplay of a game they have reached. They can be one factor which avoids the possibility of a <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style> but only in the cases where it is already an uncertainty who will receive those <style=\"Link\"><link=\"rewards\">Rewards</link></style>. ",
+            "When <style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style> is balanced with <style=\"CurrentLink\">Increasing Rewards</style>, the net result can be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style> since efforts to become better in the game is countered by harder challenges.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "higher-level-closures-gameplay-progresses",
+            "progress-indicators",
+            "red-queen-dilemmas"
+        ],
+        "modulates" : [
+            "ever-increasing-difficulty",
+            "predetermined-story-structures",
+            "resources",
+            "rewards"
+        ],
+        "instantiated_by" : [
+            "improved-abilities",
+            "new-abilities"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "sidegrades",
+            "predictable-winner"
+        ]
+    }
+}

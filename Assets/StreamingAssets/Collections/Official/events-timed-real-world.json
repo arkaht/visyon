@@ -1,0 +1,61 @@
+{
+    "name" : "Events Timed to the Real World",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay events are initiated by specific real time events occurring.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay events are initiated by specific real time events occurring.</style>",
+            "Games that update in direct relation to the passage of time can use this to start and stop specific events so there is a clear relation to identifiable events in the real world. By having the game <style=\"CurrentLink\">Events Timed to the Real World</style> in this way, players can have reminders of when extra-ordinary events happen in the game and thereby be encouraged to play then.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> has quests and items that are only available at times matching well-known real world events, e.g. New Year's Eve, Oktoberfest, and the Day of the Dead. This encourages players play during those times and it is easy for them to keep track of when this is. While these are re-occurring events, it can also be done for specific cases - <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia%20Wars\">Mafia Wars</link></style> had a special challenge mission during the world championship in Soccer 2010. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Animal%20Crossing\">Animal Crossing</link></style> series and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Boktai%20series\">Boktai series</link></style> make use of system clocks to make events in the games matches the passing of days and seasons; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Animal%20Crossing\">Animal Crossing</link></style> also link gameplay to seasonal holidays.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> that take place at least outdoors over several days (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/1942%20%E2%80%93%20Noen%20%C3%A5%20stole%20p%C3%A5\">1942 – Noen å stole på</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragonbane\">Dragonbane</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Prosopopeia\">Prosopopeia</link></style>) must of course consider the change between day and night during the game. In addition, the organizers must consider when to set up the events so the season fits the thematic and practical requirements (it is not too surprising that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> taking place outdoors typically do not do so during the winter).",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main requirement for having <style=\"CurrentLink\">Events Timed to the Real World</style> is that the game is either <style=\"Link\"><link=\"tick-based-games\">Tick-Based</link></style> or takes place in <style=\"Link\"><link=\"real-time-games\">Real Time</link></style>. The other is that the game knows when the real world event occur. This can of course be hard-coded into the design but this makes it impossible to change after the game has been released; if this is problematic <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style> or <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style> under the guidance of <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> can be used. The use of <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style> are likely to make some real world events affecting gameplay, which can be seen as a version of this pattern. Games with <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> similarly more or less guarantee that many events affecting gameplay are grounded in real world activities, processes, or cycles.",
+            "While the real world event can make it easy for players to be reminded of the game event, <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style> can be necessary for players to first become aware of the link. Since the events provide a way for players to synchronize when they play without needing to communicate within the game, the pattern can be especially suitable for <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "For games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alternative%20Realities\">Alternative Realities</link></style> it may difficult to have <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> if real world events are introduced (as for example motivating why the citizens of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> celebrate Valentine's Day).",
+            "<style=\"H2\">Consequences</style>",
+            "Having <style=\"CurrentLink\">Events Timed to the Real World</style> is an easy way to have <style=\"Link\"><link=\"ephemeral-events\">Ephemeral Events</link></style> since they easily can start and stop as the real world event does. They can easily also provide <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style> since as long as the events are well-known and when they occur decided well in advance, as is the case for example for holidays and major sports events, players can have easy-to-remember times when they should be play and they can be reminded of this by various sources not related to the game.",
+            "The pattern can be seen as a way of modulating <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style> since it requires that there is a mapping between progress of time in the real world and progress in game time.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"ephemeral-events\">Ephemeral Events</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>, <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> if <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alternative%20Realities\">Alternative Realities</link></style> is also present"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "encouraged-return-visits"
+        ],
+        "modulates" : [
+            "massively-multiplayer-online-games",
+            "temporal-consistency"
+        ],
+        "instantiated_by" : [
+            "dedicated-game-facilitators",
+            "evolving-rule-sets",
+            "extra-game-input",
+            "pervasive-gameplay",
+            "real-world-gameplay-spaces",
+            "real-time-games",
+            "tick-based-games"
+        ],
+        "modulated_by" : [
+            "extra-game-broadcasting"
+        ],
+        "conflicts" : [
+            "thematic-consistency"
+        ]
+    }
+}

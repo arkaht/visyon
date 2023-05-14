@@ -1,0 +1,77 @@
+{
+    "name" : "Attention Demanding Gameplay",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where players can easily suffer bad consequences for being inattentive at any given point.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where players can easily suffer bad consequences for being inattentive at any given point.</style>",
+            "Many games are designed with the intent to make people be interesting in them while playing but this can take different forms. They can be said to have <style=\"CurrentLink\">Attention Demanding Gameplay</style> when they put players in risk of losing or being penalized for being inattentive at any time, something that also often occurs in naturally evolve games. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> which are playing against other people, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tennis\">Tennis</link></style>, have <style=\"CurrentLink\">Attention Demanding Gameplay</style> since players need to keep continuous track of what other players are doing at all time (besides the ball or puck).",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pinball%20Games\">Pinball Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pinball%20Dreams\">Pinball Dreams</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Trek:%20The%20Next%20Generation\">Star Trek: The Next Generation</link></style> show how mechanical or computer-based games can have <style=\"CurrentLink\">Attention Demanding Gameplay</style>, and this was all-prevailing in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Invaders\">Space Invaders</link></style>). More recent examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> having <style=\"CurrentLink\">Attention Demanding Gameplay</style> include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">FPS Games</link></style> (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>) and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Multiplayer%20Online%20Battle%20Arena%20Games\">Multiplayer Online Battle Arena Games</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/StarCraft%20series\">StarCraft series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients%20series\">Defense of the Ancients series</link></style>) since they require people to pay close attention to the actions of their opponents or enemies.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The primary ways of creating <style=\"CurrentLink\">Attention Demanding Gameplay</style> revolve around time and attention. While <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> quite easily can require players to pay attention to what is happening in the game, <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> can also have <style=\"CurrentLink\">Attention Demanding Gameplay</style> in that players need to spread their attention between several different things in the game. <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style> is an example of a design solution that can be apply both to <style=\"Link\"><link=\"turn-based-games\">Turn-Based</link></style> and <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> to create <style=\"CurrentLink\">Attention Demanding Gameplay</style>.",
+            "<style=\"Link\"><link=\"time-limits\">Time Limits</link></style> to perform certain actions can force players to have to pay attention to these while they last (an archetypical use of <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> is together with <style=\"Link\"><link=\"traps\">Traps</link></style>) and <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> form a solid foundation for the pattern since this allows events to occur independently of players' actions. However, neither <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style> nor <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> do necessarily create <style=\"CurrentLink\">Attention Demanding Gameplay</style> as the game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/4%20Minutes%20and%2033%20Seconds%20of%20Uniqueness\">4 Minutes and 33 Seconds of Uniqueness</link></style> shows. The pattern <style=\"Link\"><link=\"always-vulnerable\">Always Vulnerable</link></style> covers the \"extreme\" version of <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> where assets in a game can be in danger even when players are not playing. ",
+            "Given <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"CurrentLink\">Attention Demanding Gameplay</style> can easily be created using common patterns such as <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, and <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>. More specialized instances can be created locally through <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, or <style=\"Link\"><link=\"game-items\">Game Items</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stealing\">Stealing</link></style>. <style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style> naturally draw players' attention and can create <style=\"CurrentLink\">Attention Demanding Gameplay</style> when used together with <style=\"Link\"><link=\"traps\">Traps</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>. ",
+            "Various ways can modify <style=\"CurrentLink\">Attention Demanding Gameplay</style> once a design with it has been created. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disruption%20of%20Focused%20Attention\">Disruption of Focused Attention</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style> (e.g. through providing multiple <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>) makes it more difficult to maintain. <i>Required</i> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style> can create <style=\"CurrentLink\">Attention Demanding Gameplay</style> on its own. In contrast, letting players interact with <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> as <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> can make it easier for players to quickly move between various actions they need to perform. Finally, simply modifying the <style=\"Link\"><link=\"penalties\">Penalties</link></style> associated with the failure of having attention modifies the demand of being attentive. ",
+            "<style=\"CurrentLink\">Attention Demanding Gameplay</style> can be difficult to use together with <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>, <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>, or <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Attention Demanding Gameplay</style> gives rise to, or increases, <style=\"Link\"><link=\"tension\">Tension</link></style> in games since players must keep their focus on the gameplay at all times. Failure to do so and the resulting effects can create <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style>. Not surprisingly, the pattern is not compatible with <style=\"Link\"><link=\"lull-periods\">Lull Periods</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"always-vulnerable\">Always Vulnerable</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>, <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"Link\"><link=\"game-items\">Game Items</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stealing\">Stealing</link></style>",
+            "<style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style> together with <style=\"Link\"><link=\"traps\">Traps</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>",
+            "<style=\"Link\"><link=\"time-limits\">Time Limits</link></style> together with <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disruption%20of%20Focused%20Attention\">Disruption of Focused Attention</link></style>, <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>, <style=\"Link\"><link=\"lull-periods\">Lull Periods</link></style>, <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "fubar-enjoyment",
+            "tension"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "always-vulnerable",
+            "attention-swapping",
+            "combat",
+            "continuous-goals",
+            "enemies",
+            "flanking-routes",
+            "focus-loci",
+            "guard",
+            "maneuvering",
+            "real-time-games",
+            "time-limits",
+            "game-items",
+            "scripted-information-sequences",
+            "time-limits"
+        ],
+        "modulated_by" : [
+            "attention-swapping",
+            "disruption-focused-attention",
+            "god-fingers",
+            "penalties"
+        ],
+        "conflicts" : [
+            "game-pauses",
+            "lull-periods",
+            "minimalized-social-weight",
+            "ubiquitous-gameplay"
+        ]
+    }
+}

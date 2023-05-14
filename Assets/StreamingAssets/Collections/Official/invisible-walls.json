@@ -1,0 +1,75 @@
+{
+    "name" : "Invisible Walls",
+    "categories" : [
+        "Patterns",
+        "Level Design Patterns"
+    ],
+    "texts" : {
+        "definition" : "Obstacles in game worlds that limit the players' movement, but not vision.",
+        "markups" : [
+            "<style=\"Definition\">Obstacles in game worlds that limit the players' movement, but not vision.</style>",
+            "It is not practical for all types of games to make their entire game worlds possible to visit for players since this would require either extensive production costs or similar gameplay everywhere. Even so, game designers may wish to show players somewhat more of the game worlds than is playable. One way of achieving this is to put up <style=\"CurrentLink\">Invisible Walls</style> that separate the gameplay areas from other, often less detailed, areas, so that an illusion of a greater game world can be created. Typically game designs try to steer players so that they do not become too interested in what is beyond the <style=\"CurrentLink\">Invisible Walls</style> since trying to get there will make players aware of their presence.",
+            "<style=\"H3\">Examples</style>",
+            "Some of the early flight simulators, e.g. the first installments of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Microsoft%20Flight%20Simulator%20series\">Microsoft Flight Simulator series</link></style>, used <style=\"CurrentLink\">Invisible Walls</style> to limit the area the player can enter. When encountering <style=\"CurrentLink\">Invisible Walls</style> planes essentially remained in the same location, even though it still seemed to fly over the terrain. However many much more recent games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20Sunshine\">Super Mario Sunshine</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style>, that also wish to portray large game worlds make use of <style=\"CurrentLink\">Invisible Walls</style> at certain places. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%202\">Portal 2</link></style> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%20series\">Portal series</link></style> does this as well to give an illusion of a larger world than the players can actual enter.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Invisible Walls</style> are typically used for production or gameplay reasons - in the first case to avoid having to develop too much content and in the second case to ensure that gameplay stays located with a designed part of a <style=\"Link\"><link=\"game-worlds\">Game World</link></style>. Although <style=\"CurrentLink\">Invisible Walls</style> may break <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style> they can be preferable to using <style=\"Link\"><link=\"traps\">Traps</link></style>, such as bottomless chasms or a sea of lava, if deaths by environmental causes are not meant to be part of a gameplay concept. They may be used together with <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, either as part of the same diegetic game element (e.g. a force field) or just co-located, to motivate players to try and fulfill the requirements to be allowed to use the passageways. By making certain ways impassable, <style=\"CurrentLink\">Invisible Walls</style> may make the remaining ones into <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Not all <style=\"CurrentLink\">Invisible Walls</style> are invisible, they may be windows or force fields. When they can be fitted within the <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> using pseudo-scientific explanations, e.g. transparent aluminum or force fields, or magical ones, e.g. hexes and pentagrams, this may help maintain <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> better than simply having walls not being possible to see.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Since <style=\"CurrentLink\">Invisible Walls</style> can show parts of game worlds that players cannot affect (at least at some points in time), this can be used to provide diegetic reasons why <style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style> cannot be affected. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Invisible Walls</style> limit how players can move in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style>, either by being <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> or creating <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>. By showing larger areas than are actually possible to enter, <style=\"CurrentLink\">Invisible Walls</style> can allow both <style=\"Link\"><link=\"diegetic-consistency\">Diegetic</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> through an <style=\"Link\"><link=\"illusion-open-space\">Illusion of Open Space</link></style>, and this can be done with limited production means. While this can give players a sense of <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, if players reach or notice the <style=\"CurrentLink\">Invisible Walls</style> they can easily lose this as well as their sense of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style> as the <style=\"CurrentLink\">Invisible Walls</style> typically breaks the <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> of the game. This means that <style=\"CurrentLink\">Invisible Walls</style> can provide <style=\"Link\"><link=\"framed-freedom\">Framed Freedom</link></style> for players and that this is either unknown or known to them depending on their own actions.",
+            "<style=\"CurrentLink\">Invisible Walls</style> can be used to create mazes that require <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> to a greater extent to navigate and <style=\"Link\"><link=\"traverse\">Traverse</link></style> than other mazes. However, they can also be used to simply let players be able to see the spatial location of the goal point of the <style=\"Link\"><link=\"traverse\">Traverse</link></style> goal but require <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> to get there.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life series</link></style> as shown how one can use <style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style> together with <style=\"CurrentLink\">Invisible Walls</style> to encourage both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style> during gameplay. This by playing out small story snippets in the immediate environment of players while they still allowing them to act.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"framed-freedom\">Framed Freedom</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"illusion-open-space\">Illusion of Open Space</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"traverse\">Traverse</link></style></style>",
+            "<style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "diegetic-consistency",
+            "framed-freedom",
+            "freedom-choice",
+            "illusion-open-space",
+            "inaccessible-areas",
+            "obstacles",
+            "memorizing",
+            "thematic-consistency",
+            "transport-routes",
+            "narrative-engrossment",
+            "spatial-engrossment",
+            "game-world-navigation"
+        ],
+        "modulates" : [
+            "conditional-passageways",
+            "game-worlds",
+            "levels",
+            "scripted-information-sequences",
+            "traverse"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "freedom-choice",
+            "spatial-engrossment",
+            "thematic-consistency"
+        ]
+    }
+}

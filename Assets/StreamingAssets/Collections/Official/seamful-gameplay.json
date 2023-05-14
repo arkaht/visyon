@@ -1,0 +1,62 @@
+{
+    "name" : "Seamful Gameplay",
+    "categories" : [
+        "Patterns",
+        "Pervasive Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games where explicit knowledge of the coverage areas of underlying sensing technologies provide gameplay advantages.",
+        "markups" : [
+            "<style=\"Definition\">Games where explicit knowledge of the coverage areas of underlying sensing technologies provide gameplay advantages.</style>",
+            "Technologies can be used to allow the location of players to be input to the game state. While lack of coverage by these technologies are easily seen as problems for game designs, <style=\"CurrentLink\">Seamful Gameplay</style> makes use of the unreliability and dead spots as features that can be exploited by players.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Treasure\">Treasure</link></style> makes use of GPS and WiFi to require players to move in and out of the detection areas of the two technologies are part of a treasure collecting game.",
+            "The runners (professional players) of the GPS-based game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Can%20You%20See%20Me%20Now?\">Can You See Me Now?</link></style> developed tactics where they could use dead spots to temporarily disappear from the game world in order to set up ambushes.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The prime use of <style=\"CurrentLink\">Seamful Gameplay</style> is to make a virtue out of dead spots arising from supporting <style=\"Link\"><link=\"player-location-proximity\">Player-Location</link></style> or <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style> with technologies that do not work everywhere. This means that the pattern is difficult to apply on games that have <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Since <style=\"CurrentLink\">Seamful Gameplay</style> can abruptly remove or insert players' <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, the pattern poses a problem for <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Seamful Gameplay</style> can be seen as an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style> since it makes the coverage spaces of technologies into areas where gameplay actions can or cannot be done.",
+            "<style=\"H2\">Consequences</style>",
+            "The most typical effect of <style=\"CurrentLink\">Seamful Gameplay</style> is to allow <style=\"Link\"><link=\"stealth\">Stealth</link></style> by dropping out of coverage areas. Since the <i>seams</i> of the underlying technologies are typically not obvious to players, developing knowledge about these constitutes a form of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> and getting this knowledge can lead to <style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>.",
+            "Somewhat paradoxically, even if <style=\"CurrentLink\">Seamful Gameplay</style> cannot be added to games with <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style> it can make games have <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style> when they did not otherwise.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style> or <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style></style>",
+            "<style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "changes-perception-real-world-phenomena-gameplay",
+            "gameplay-mastery",
+            "ubiquitous-gameplay",
+            "stealth"
+        ],
+        "modulates" : [
+            "player-location-proximity",
+            "player-location-proximity"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "diegetic-consistency",
+            "ubiquitous-gameplay"
+        ]
+    }
+}

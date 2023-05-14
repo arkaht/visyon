@@ -1,0 +1,78 @@
+{
+    "name" : "Team Balance",
+    "categories" : [
+        "Dynamic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The state that competing teams have somewhat equal chances of succeeding with actions in a game or winning a game.",
+        "markups" : [
+            "<style=\"Definition\">The state that competing teams have somewhat equal chances of succeeding with actions in a game or winning a game.</style>",
+            "Games often categories players or game elements into teams that compete with each other. It is often in everybody's interest to ensure relative <style=\"CurrentLink\">Team Balance</style> between the teams make the gameplay interesting for all players. This can occur both through how the teams are constructed and through game rules that give benefits to teams that have problems and disadvantages to those that are in good positions.",
+            "<style=\"H3\">Examples</style>",
+            "Recreational play of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> often let team leaders take turns picking members for the team to at least somewhat balance the teams. In professional leagues of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/American%20Football\">American Football</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Basketball\">Basketball</link></style>, and some other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> the teams that faired worst the previous year gets to begin bidding for players to hire. <style=\"Link\"><link=\"drafting\">Drafting</link></style> is also exists as official options when playing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Online%20Games\">Online Games</link></style> where teams plays against other teams, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> have ranking system that can be used to help balance teams.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Team Balance</style> is used to balance <style=\"Link\"><link=\"teams\">Teams</link></style> in games that have <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay. Motivations for trying to have the pattern in games range from knowing it is unbalanced due to design specifics to considering the local variations during gameplay can cause imbalances. Then again, a design might have certain patterns already that nearly guarantee that <style=\"CurrentLink\">Team Balance</style> will not be present until supported. The list of such patterns include: <style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empowerment\">Empowerment</link></style>, <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"player-killing\">Player Killing</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Results\">Player-Decided Results</link></style>, <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>, and <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>. ",
+            "<style=\"CurrentLink\">Team Balance</style> isn't typically created by <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> since the advantages which individual members provide to a <style=\"Link\"><link=\"teams\">Team</link></style> can be offset by disadvantages that member of other members have in the same <style=\"Link\"><link=\"teams\">Team</link></style>, advantages that members in other <style=\"Link\"><link=\"teams\">Teams</link></style> provide, or external modifications applied to other <style=\"Link\"><link=\"teams\">Teams</link></style> to balance out said advantages.",
+            "Patterns which can effectively be used to create <style=\"CurrentLink\">Team Balance</style> during or just before gameplay begins include <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>, <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style>, ",
+            "and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>. <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style> and <style=\"Link\"><link=\"team-development\">Team Development</link></style> can be designed to make <style=\"Link\"><link=\"teams\">Teams</link></style> balanced, but this is a fragile solution since even small inequalities may work directly against <style=\"CurrentLink\">Team Balance</style> instead; the use of <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style> can smoothen out problems over time. In games where creating the <style=\"Link\"><link=\"teams\">Teams</link></style> are part of the gameplay, <style=\"Link\"><link=\"drafting\">Drafting</link></style> can also help create <style=\"CurrentLink\">Team Balance</style>. In general, any games which are <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> can have <style=\"CurrentLink\">Team Balance</style> if the players agree on changing rules or the game state to make this happen.",
+            "The possibility of <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style> in a game works directly against <style=\"CurrentLink\">Team Balance</style> since as soon as a player leaves it is likely that the <style=\"CurrentLink\">Team Balance</style> is upset.",
+            "<style=\"H2\">Consequences</style>",
+            "The presence of <style=\"CurrentLink\">Team Balance</style> gives players a <style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style> roughly dependent on the number of <style=\"Link\"><link=\"teams\">Teams</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"tvt\">TvT</link></style> and either <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>, <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>, or, <style=\"Link\"><link=\"team-development\">Team Development</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empowerment\">Empowerment</link></style>, <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"player-killing\">Player Killing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Results\">Player-Decided Results</link></style>, <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"team-development\">Team Development</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "determinable-chance-succeed"
+        ],
+        "modulates" : [
+            "teams",
+            "tvt"
+        ],
+        "instantiated_by" : [
+            "tvt",
+            "evolving-rule-sets",
+            "dynamic-difficulty-adjustment",
+            "handicap-systems",
+            "orthogonal-differentiation",
+            "negative-feedback-loops",
+            "self-facilitated-games",
+            "symmetry",
+            "",
+            "team-development"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "ai-players",
+            "death-consequences",
+            "drop-in-drop-out",
+            "early-leaving-players",
+            "empowerment",
+            "invulnerabilities",
+            "late-arriving-players",
+            "new-abilities",
+            "orthogonal-differentiation",
+            "player-elimination",
+            "player-killing",
+            "player-decided-results",
+            "positive-feedback-loops",
+            "privileged-abilities",
+            "team-development"
+        ]
+    }
+}

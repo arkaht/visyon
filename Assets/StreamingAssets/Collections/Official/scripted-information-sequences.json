@@ -1,0 +1,76 @@
+{
+    "name" : "Scripted Information Sequences",
+    "categories" : [
+        "Patterns",
+        "Narration Patterns"
+    ],
+    "texts" : {
+        "definition" : "Preset sequences of events that take place while players can still affect gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Preset sequences of events that take place while players can still affect gameplay.</style>",
+            "Storytelling can be difficult to use in games since the telling can come in conflict with the possibility for players to do things. <style=\"CurrentLink\">Scripted Information Sequences</style> is one way to try and combine these by have small localized series of events be presented in the game world simultaneously as players can interact with that world. The sequences may be able to interrupt but in many cases cannot be this but this does not have to rob players of gameplay agency if the sequences are placed so there are diegetic reasons for this, e.g. the events taking place on the other side of a chasm or bulletproof glass window.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life\">Half-Life</link></style> pioneered the use of <style=\"CurrentLink\">Scripted Information Sequences</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncharted%20series\">Uncharted series</link></style> has shown that it can effectively be used also in games played through third-person views.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Scripted Information Sequences</style> is an alternative to <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> that lets computer-based games present <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> while still letting gameplay continue. Besides the narrative aspect that wish to be told through the sequences, the main design issues with instantiating the pattern lies in how to handle the case where players may wish to either affect the <style=\"CurrentLink\">Scripted Information Sequences</style> or ignore them. Letting players affect the sequences can be done by designing them as <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style> but this may ruin the possibility to convey <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>. For this reason, while at the same time not making it too obvious that players cannot affect the <style=\"CurrentLink\">Scripted Information Sequences</style>, it is quite common to place them within perceivable but <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, e.g. through using <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style>. ",
+            "<style=\"CurrentLink\">Scripted Information Sequences</style> can be <style=\"Link\"><link=\"traps\">Traps</link></style> when they threaten to make players lose <style=\"Link\"><link=\"health\">Health</link></style> or <style=\"Link\"><link=\"lives\">Lives</link></style> unless they move out of the way for the events in the sequences, and this is a way to make it unlikely that players ignore the sequences. While players cannot be force to have their attention focused upon <style=\"CurrentLink\">Scripted Information Sequences</style> without it being part of gameplay - a design solution doing this is a <style=\"Link\"><link=\"cutscenes\">Cutscene</link></style> instead - they can be encourage to view it for gameplay reasons besides the narrative reasons by placing <style=\"Link\"><link=\"clues\">Clues</link></style> in them.",
+            "<style=\"Link\"><link=\"quick-time-events\">Quick Time Events</link></style> have similarities to <style=\"CurrentLink\">Scripted Information Sequences</style> in that both are preset sequences of events. However, in <style=\"Link\"><link=\"quick-time-events\">Quick Time Events</link></style> players need to react to these events or fail gameplay challenges.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Scripted Information Sequences</style> is a narration pattern so it directly relates to narrative aspects. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Scripted Information Sequences</style> is a way to present <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> during gameplay, but which are even so typically <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style> once they have been started. Even if this means that players may not be able to interrupt or influence the <style=\"CurrentLink\">Scripted Information Sequences</style> it still gives an amount of <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> compared to <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> in that one either can choose to at least explore other parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> while the animations are shown (if the sequences does not force players to react to it) or is part of gameplay. Given this <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> and the fact that the <style=\"CurrentLink\">Scripted Information Sequences</style> are located at specific points in the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> when they are enacted makes them a form of active <style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>.",
+            "If players can note that the sequences are scripted, this can hurt any <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> they may have. Also, while <style=\"CurrentLink\">Scripted Information Sequences</style> can be used to make <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> express their <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>, this display of <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style> by <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> can be compromised if the game has <style=\"Link\"><link=\"replayability\">Replayability</link></style>; this since seeing a <style=\"CurrentLink\">Scripted Information Sequence</style> several time reveals the artificial nature of the <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>.",
+            "When combined with as-of-yet not detected <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style>, <style=\"CurrentLink\">Scripted Information Sequences</style> can simultaneously support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style> since they can place player spatially in the immediate proximity of unfolding events. Although <style=\"CurrentLink\">Scripted Information Sequences</style> typically take place where players can give them their full attention, the pattern can be used to modulate <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style> by requiring <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style> and thereby require players to engage in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>. The <style=\"CurrentLink\">Scripted Information Sequences</style> that are <style=\"Link\"><link=\"traps\">Traps</link></style> have <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style> by themselves.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"environmental-storytelling\">Environmental Storytelling</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style></style>",
+            "<style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"traps\">Traps</link></style></style>",
+            "<style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>, <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>",
+            "<style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style> in games that are also intended to have <style=\"Link\"><link=\"replayability\">Replayability</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "environmental-storytelling",
+            "freedom-choice",
+            "own-agenda",
+            "predetermined-story-structures",
+            "traps",
+            "ultra-powerful-events",
+            "narrative-engrossment",
+            "spatial-engrossment",
+            "attention-demanding-gameplay",
+            "attention-swapping",
+            "attention-demanding-gameplay"
+        ],
+        "modulates" : [
+            "the-show-must-go-on"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "clues",
+            "inaccessible-areas",
+            "interruptible-actions",
+            "invisible-walls"
+        ],
+        "conflicts" : [
+            "exaggerated-perception-influence",
+            "own-agenda"
+        ]
+    }
+}

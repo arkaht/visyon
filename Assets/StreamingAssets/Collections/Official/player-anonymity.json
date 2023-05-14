@@ -1,0 +1,57 @@
+{
+    "name" : "Player Anonymity",
+    "categories" : [
+        "Patterns",
+        "Player Patterns"
+    ],
+    "texts" : {
+        "definition" : "The case where the identity of a player of a game is not known to other players.",
+        "markups" : [
+            "<style=\"Definition\">The case where the identity of a player of a game is not known to other players.</style>",
+            "<style=\"CurrentLink\">Player Anonymity</style> occurs in games when the identity of a player is not known by the other players participating in a specific game instance.",
+            "Note: ''This patterns focuses on how players may be unaware of other players' identities. It does not focus on if <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, and even <style=\"Link\"><link=\"spectators\">Spectators</link></style> know the identities of the players.",
+            "<style=\"H3\">Examples</style>",
+            "Most online games let players create accounts with user names that have no connection to their real world identities. This lets players of games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> have rich interactions with each other without knowing who the others are outside the game.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ESP%20Game\">ESP Game</link></style> relies on players not being able to communicate with each other to force them into finding as good as possible one word descriptions of images. For this reason, the game enforces <style=\"CurrentLink\">Player Anonymity</style> on the players.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A primary design decision regarding <style=\"CurrentLink\">Player Anonymity</style> is if players should have a say in this. Providing players with a <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style> puts this power in players hand but for some types of gameplay anonymity may be required for the design to work and in these case <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style> may be motivated (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ESP%20Game\">ESP Game</link></style>). Patterns that directly can help in designing <style=\"CurrentLink\">Player Anonymity</style> include <style=\"Link\"><link=\"anonymous-actions\">Anonymous Actions</link></style> and <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>. <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> works against the pattern since the central idea of that pattern is to help players identify each other.",
+            "Combining <style=\"CurrentLink\">Player Anonymity</style> with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style> poses significant design challenges without at least limiting the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> in some way. <style=\"Link\"><link=\"social-roles\">Social Roles</link></style> are more difficult to have in games with <style=\"CurrentLink\">Player Anonymity</style>, but <style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style> provides one avenue for overcoming this through basing the roles on gameplay functionality.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Player Anonymity</style> can help (other) players have <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style> since it is difficult to connect real world characteristics of the players with what happens in the game. However, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> between players can become harsher since the sense of social responsibility and wish to present a socially acceptable presence may be lessened.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"anonymous-actions\">Anonymous Actions</link></style>, <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style>, <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "actor-detachment"
+        ],
+        "modulates" : [
+            "social-interaction"
+        ],
+        "instantiated_by" : [
+            "anonymous-actions",
+            "enforced-player-anonymity",
+            "mediated-gameplay",
+            "possibility-anonymity"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "friend-lists",
+            "social-roles",
+            "unmediated-social-interaction"
+        ]
+    }
+}

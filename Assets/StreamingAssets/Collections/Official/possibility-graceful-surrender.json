@@ -1,0 +1,58 @@
+{
+    "name" : "Possibility of Graceful Surrender",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The ability for players to leave gameplay or surrender to other players without negatively affecting the gameplay for all other players of a game instance.",
+        "markups" : [
+            "<style=\"Definition\">The ability for players to leave gameplay or surrender to other players without negatively affecting the gameplay for all other players of a game instance.</style>",
+            "Players are most often motivated to play a game because they feel that they can influence the game or gameplay in directions that are meaningful for them. When they do not feel this anymore they are likely to not want to participate in gameplay anymore but may do so anyway to not ruin gameplay for others. Giving such players a <style=\"CurrentLink\">Possibility of Graceful Surrender</style> provides an option for them to leave gameplay while not negatively affecting gameplay for others.",
+            "<style=\"H3\">Examples</style>",
+            "Although surrendering in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> ends a game instance, it gives victory directly to the other player so it doesn't necessarily ruin the gameplay experience for the other player. In contrast, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Gambling%20Games\">Gambling Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blackjack\">Blackjack</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style> can be left after each round without affecting the gameplay of other players. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> shows another alternative, players who leave the game are replaced are replayed by AI players.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Possibility of Graceful Surrender</style> is a form of <style=\"Link\"><link=\"surrendering\">Surrender</link></style> so it does require that players are in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflict</link></style> with somebody, even if it is the game system through <style=\"Link\"><link=\"pve\">PvE</link></style> gameplay. This means for example that a <style=\"CurrentLink\">Possibility of Graceful Surrender</style> is not an issue for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> except during <style=\"Link\"><link=\"instances\">Instances</link></style>.",
+            "A <style=\"CurrentLink\">Possibility of Graceful Surrender</style> is typically added to a game to let players handle situations where they feel they cannot win <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> competitions or where they perceive a <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>. An alternative reason is to allow for <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> by combining <style=\"CurrentLink\">Possibility of Graceful Surrender</style> with <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>. The exact ways of letting a player leave a game without disturbing other players' gameplay experience or game balance depends heavily on the specific of each game, but avoiding <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style> effects is a primary concern. <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> may be used to compensate for imbalanced that may occur when a player leave a game so this may help support a game to have a <style=\"CurrentLink\">Possibility of Graceful Surrender</style>. <style=\"Link\"><link=\"ai-players\">AI Players</link></style> are an uncommon alternative (the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> being the prime example), most likely because of the difficulty in implementing good substitutes for human players, that can make humans have a <style=\"CurrentLink\">Possibility of Graceful Surrender</style> by replacing them with AIs. ",
+            "<style=\"H2\">Consequences</style>",
+            "A <style=\"CurrentLink\">Possibility of Graceful Surrender</style> is a form of <style=\"Link\"><link=\"surrendering\">Surrendering</link></style> and leaving a game, so it supports <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>. In this way it can let player that consider themselves having no chance to win to quit competing in <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> challenges or when they perceive there is a <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>. It causes <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style>. It is more likely to affect <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases than other gameplay phases since the final positions of players tends to become easier to perceive in these. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style>, <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>, <style=\"Link\"><link=\"unsynchronized-game-sessions\">Unsynchronized Game Sessions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style></style>",
+            "<style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "early-leaving-players",
+            "kingmaker",
+            "surrendering",
+            "unsynchronized-game-sessions",
+            "drop-in-drop-out"
+        ],
+        "modulates" : [
+            "endgame",
+            "last-man-standing",
+            "predictable-winner"
+        ],
+        "instantiated_by" : [
+            "ai-players",
+            "balancing-effects"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "name" : "Individual Penalties",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Penalties given in games that only directly apply to one of the players.",
+        "markups" : [
+            "<style=\"Definition\">Penalties given in games that only directly apply to one of the players.</style>",
+            "Specific penalties in games can affect either one or several players. Those that affect single players are <style=\"CurrentLink\">Individual Penalties</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Penalties in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> are directed towards individual players. However, if this disqualifies them from participating in the game this of course affects the team as a whole also.",
+            "While players play together in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, damage and being incapacitated affect individual players and some players may not complete a level while others do.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Individual Penalties</style> largely resembles designing <style=\"Link\"><link=\"penalties\">Penalties</link></style> in general but avoiding directly affecting other players (i.e. avoiding making them into <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style>). This can however become a somewhat blurred when affected players belong to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alliances\">Alliances</link></style> or <style=\"Link\"><link=\"teams\">Teams</link></style>. In <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> they are the only type of <style=\"Link\"><link=\"penalties\">Penalties</link></style>.",
+            "The specific effects of <style=\"CurrentLink\">Individual Penalties</style> can be the same as for <style=\"Link\"><link=\"penalties\">Penalties</link></style> in general. However, <style=\"Link\"><link=\"downtime\">Downtime</link></style> and <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> directly affect specific players and thereby are individual in their nature. While the effects of <style=\"CurrentLink\">Individual Penalties</style> apply only to one players, other players can become involved in it by using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>, either to decide which player should receive the <style=\"CurrentLink\">Individual Penalties</style> or to decide the specific effects of the <style=\"CurrentLink\">Individual Penalties</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "While <style=\"CurrentLink\">Individual Penalties</style> can be seen as the basic form of <style=\"Link\"><link=\"penalties\">Penalties</link></style>, it instead becomes a modification if one instead starts with the type of effect as a basis for <style=\"Link\"><link=\"penalties\">Penalties</link></style>.",
+            "<style=\"CurrentLink\">Individual Penalties</style> can be used to form <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> when used together with <style=\"Link\"><link=\"individual-rewards\">Individual</link></style> or <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style> (although the <style=\"Link\"><link=\"individual-rewards\">Individual Rewards</link></style> do not necessarily need to be directed towards the same player as the <style=\"CurrentLink\">Individual Penalties</style>). ",
+            "The presence of <style=\"CurrentLink\">Individual Penalties</style> affect players willingness to commit to <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style> (compared to <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style>). It also affects players' perceptions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> situations. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alliances\">Alliances</link></style>, <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "penalties",
+            "social-dilemmas"
+        ],
+        "modulates" : [
+            "alliances",
+            "mutual-goals",
+            "risk-reward",
+            "single-player-games",
+            "teams"
+        ],
+        "instantiated_by" : [
+            "downtime",
+            "player-elimination"
+        ],
+        "modulated_by" : [
+            "player-decided-distributions"
+        ],
+        "conflicts" : [
+            "shared-penalties"
+        ]
+    }
+}

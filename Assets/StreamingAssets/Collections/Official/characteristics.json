@@ -1,0 +1,81 @@
+{
+    "name" : "Characteristics",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Data and facts specific to individual entities in a game.",
+        "markups" : [
+            "<style=\"Definition\">Data and facts specific to individual entities in a game.</style>",
+            "While most games have many different game components, not all of them have several different types of data connected to them. Those that do, and where these can change during gameplay have <style=\"CurrentLink\">Characteristics</style>.",
+            "Wikipedia describes the same concept under the entry \"Statistic\" (which is not used in this collection because the plural form would be misleading).",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style>, are prime examples of games having many <style=\"CurrentLink\">Characteristics</style> attached to the characters that people play. These <style=\"CurrentLink\">Characteristics</style> typically represent both physical and mental attributes as well as skills and powers that may have been learned. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style> work in a similar fashion. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">FPS Games</link></style> that have roleplaying elements in them also make heavy use of <style=\"CurrentLink\">Characteristics</style>, but even other ones (such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style>) can be said to have them through having health and armor attributes.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Strategy%20Games\">Strategy Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> show how <style=\"CurrentLink\">Characteristics</style> can be tied to abstract concepts such as civilizations and countries rather than characters.",
+            "<style=\"H2\">Using the pattern</style>",
+            "While <style=\"CurrentLink\">Characteristics</style> naturally is part of <style=\"Link\"><link=\"characters\">Characters</link></style>, the pattern can also be used to characterize <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style> or more specifically, <style=\"Link\"><link=\"bases\">Bases</link></style> or <style=\"Link\"><link=\"teams\">Teams</link></style>. Typical parts of <style=\"CurrentLink\">Characteristics</style> is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advantages\">Advantages</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disadvantages\">Disadvantages</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>. As their names imply, <style=\"Link\"><link=\"character-alignments\">Character Alignments</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Classes\">Character Classes</link></style>, and <style=\"Link\"><link=\"character-levels\">Character Levels</link></style> are more applicable on <style=\"Link\"><link=\"characters\">Characters</link></style> as is <style=\"Link\"><link=\"skills\">Skills</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Technologies\">Technologies</link></style> in contrast are more often suitable for <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style> such as countries or civilizations (individual cities can also have <style=\"CurrentLink\">Characteristics</style> in games with countries and civilizations such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style>).",
+            "<style=\"Link\"><link=\"equipment\">Equipment</link></style> is typically not seen as part of <style=\"CurrentLink\">Characteristics</style> but this can vary, even within one game. For example, \"Signature Gear\" is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advantages\">Advantage</link></style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> that allows players to have items (including <style=\"Link\"><link=\"tools\">Tools</link></style> and <style=\"Link\"><link=\"weapons\">Weapons</link></style>) that are more coupled to a <style=\"Link\"><link=\"characters\">Character</link></style> concept, and thereby have some protection against being lost compared to other <style=\"Link\"><link=\"equipment\">Equipment</link></style>. ",
+            "Changes in <style=\"CurrentLink\">Characteristics</style> are often regulated individually for each type of <style=\"CurrentLink\">Characteristic</style> but can also be changed more generally, e.g. when reaching new <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "The diegesis of a game typically provides the inspiration for which <style=\"CurrentLink\">Characteristics</style> are possible and relevant. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "The introduction of many <style=\"CurrentLink\">Characteristics</style> can required the need for <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>; for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> any amount of <style=\"CurrentLink\">Characteristics</style> can require <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Sheets\">Character Sheets</link></style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Persistent changes in <style=\"CurrentLink\">Characteristics</style> can be examples of <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style> or <style=\"Link\"><link=\"character-development\">Character Development</link></style> depending on if they are applied on <style=\"Link\"><link=\"characters\">Characters</link></style> and [Abstract Player Constructs]], and these can be important parts of a game narration.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Characteristics</style> heavily influence how <style=\"Link\"><link=\"characters\">Characters</link></style> and <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style> work in games. <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style> often arise when different agents have different <style=\"CurrentLink\">Characteristics</style>. Changes in them can been seen as <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>, <style=\"Link\"><link=\"character-development\">Character Development</link></style> or <style=\"Link\"><link=\"team-development\">Team Development</link></style> depending on what the <style=\"CurrentLink\">Characteristics</style> are attached to.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style></style>",
+            "<style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"characters\">Characters</link></style></style>",
+            "<style=\"Link\"><link=\"character-development\">Character Development</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"teams\">Teams</link></style></style>",
+            "<style=\"Link\"><link=\"team-development\">Team Development</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"bases\">Bases</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advantages\">Advantages</link></style>, <style=\"Link\"><link=\"character-alignments\">Character Alignments</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Classes\">Character Classes</link></style>, <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disadvantages\">Disadvantages</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Technologies\">Technologies</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"character-levels\">Character Levels</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Sheets\">Character Sheets</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "competence-areas",
+            "abstract-player-construct-development",
+            "character-development",
+            "team-development"
+        ],
+        "modulates" : [
+            "abstract-player-constructs",
+            "characters",
+            "bases",
+            "teams"
+        ],
+        "instantiated_by" : [
+            "attributes",
+            "advantages",
+            "character-alignments",
+            "character-classes",
+            "character-levels",
+            "disadvantages",
+            "factions",
+            "powers",
+            "skills",
+            "technologies"
+        ],
+        "modulated_by" : [
+            "character-levels",
+            "character-sheets",
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

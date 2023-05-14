@@ -1,0 +1,54 @@
+{
+    "name" : "Rabbit Hole Invitations",
+    "categories" : [
+        "Interface Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Cryptic invitations to start playing specific game instances.",
+        "markups" : [
+            "<style=\"Definition\">Cryptic invitations to start playing specific game instances.</style>",
+            "While most games are easy to note as being games, some games deliberately try to hide their existence, at least to those not playing them. This can cause a problem with recruiting players, especially for those games that are staged professionally and intended to get the general public to participate in them. <style=\"CurrentLink\">Rabbit Hole Invitations</style> is a solution to this which posts cryptic messages in various types of media, and draws those that investigate these into the game.",
+            "See the paper <i>Participant Roles in Socially Expanded Games</i> and the book <i>Pervasive Games - Theory and Design</i> for more information on this and other types of invitations to games not clearly broadcasting themselves as games.",
+            "<style=\"H3\">Examples</style>",
+            "The initial invitation to play the Alternate Reality Game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Beast\">The Beast</link></style> was three types of clues contained in trailers and posters related to the movie <i>A.I.</i> Likewise, the invitations to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/I%20Love%20Bees\">I Love Bees</link></style> first came as hidden parts of trailers for the game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%202\">Halo 2</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Given its definition, <style=\"CurrentLink\">Rabbit Hole Invitations</style> make most sense to use for games with <style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style>. In essence, they are <style=\"Link\"><link=\"clues\">Clues</link></style> although ones that relates more to being able to start playing than on how to play. Since the success of a single <style=\"CurrentLink\">Rabbit Hole Invitation</style> can be difficult to judge in advance, they are typically used in groups spread out over time and types of media.",
+            "An alternative to <style=\"CurrentLink\">Rabbit Hole Invitations</style> is <style=\"Link\"><link=\"fake-game-cancellations\">Fake Game Cancellations</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Rabbit Hole Invitations</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Rabbit Hole Invitations</style> is a way of inviting players to games with <style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style> but these invitations typically require players to do some <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> before actually being part of the gameplay. They are examples of <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style> and create <style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style> since they often make use of other mediums than the actual gameplay uses.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"crossmedia-gameplay\">Crossmedia Gameplay</link></style>, <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "crossmedia-gameplay",
+            "extra-game-broadcasting",
+            "puzzle-solving"
+        ],
+        "modulates" : [
+            "alternate-reality-gameplay"
+        ],
+        "instantiated_by" : [
+            "clues"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

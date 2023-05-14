@@ -1,0 +1,58 @@
+{
+    "name" : "Robotic Players",
+    "categories" : [
+        "Interface Patterns",
+        "Speculative Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Physical robots created or appropriated to take part as players of a game.",
+        "markups" : [
+            "<style=\"Definition\">Physical robots created or appropriated to take part as players of a game.</style>",
+            "Already the first computers where used to emulate players of games. However, these were games that did not need interaction with the physical world or require complex social interaction either due to the nature of the game or by being possible to implement and mediate completely within the computer system. Although an uncommon phenomena currently, <style=\"CurrentLink\">Robotic Players</style> are the use of computer programs controlling physical robots to play games.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/RoboCup\">RoboCup</link></style>, which is actually versions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> players by robots, is the prime example of using <style=\"CurrentLink\">Robotic Players</style>. ",
+            "<style=\"H4\">Anti-Examples</style>",
+            "While the mechanical turk was claimed to be a machine that could play <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, it was in fact a machine in which a human could hide and play the game pretending to be the machine.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Robotic Players</style> are created by giving <style=\"Link\"><link=\"ai-players\">AI Players</link></style> control over robots, typically with the intent of letting those <style=\"Link\"><link=\"ai-players\">AI Players</link></style> engage in <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> or <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>. ",
+            "There are several patterns that put specific requirements on what <style=\"CurrentLink\">Robotic Players</style> need to be able to do. These include most clearly <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style> but any patterns related to social interaction between players are also relevant.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Robotic Players</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "As said above, <style=\"CurrentLink\">Robotic Players</style> can give <style=\"Link\"><link=\"ai-players\">AI Players</link></style> the abilities to perform both <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> and <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "physical-enactment",
+            "physical-navigation"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "ai-players"
+        ],
+        "modulated_by" : [
+            "player-physical-prowess",
+            "pervasive-gameplay",
+            "real-life-activities-affect-game-state",
+            "unmediated-social-interaction"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

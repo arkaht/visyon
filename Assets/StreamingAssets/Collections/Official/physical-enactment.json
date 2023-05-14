@@ -1,0 +1,71 @@
+{
+    "name" : "Physical Enactment",
+    "categories" : [
+        "Interface Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Enactment of physical actions in games by players doing the actions themselves.",
+        "markups" : [
+            "<style=\"Definition\">Enactment of physical actions in games by players doing the actions themselves.</style>",
+            "Some games make players enact the actions they want to happen in these games. <style=\"CurrentLink\">Physical Enactment</style> is a sub category of this type of action that occurs when players need to do larger, more physically demanding, or dexterity-requiring actions.",
+            "<style=\"H3\">Examples</style>",
+            "There are two main groups of games using <style=\"CurrentLink\">Physical Enactment</style>: <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> that use sensors to track players' actions. The former, with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/1942%20%E2%80%93%20Noen%20%C3%A5%20stole%20p%C3%A5\">1942 – Noen å stole på</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mind's%20Eye%20Theatre\">Mind's Eye Theatre</link></style> as two examples, require players to together act out what their characters are doing and respond to each other actions. Examples of the latter are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guitar%20Hero%20series\">Guitar Hero</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rock%20Band%20series\">Rock Band</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/SingStar%20series\">SingStar series</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Unless creating <style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style>, designing for <style=\"CurrentLink\">Physical Enactment</style> in games consist mainly of identifying which actions should be enacted in this way and how the game state should be able to be updated by these actions. One potential reason to limit certain actions is to avoid or require <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, another is the appropriateness of players actually doing these actions. <style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style> and <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style> are to examples of action categories that can be used as the basis for <style=\"CurrentLink\">Physical Enactment</style>. Combining <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> with <style=\"CurrentLink\">Physical Enactment</style> as for example Kinect-based games and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rock%20Band%20series\">Rock Band series</link></style> do requires the use of some kind of sensors, and give rise to <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style>. While perhaps most appropriate for games with <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, <style=\"Link\"><link=\"reserves\">Reserves</link></style> can be used for any type of <style=\"CurrentLink\">Physical Enactment</style> in games with <style=\"Link\"><link=\"teams\">Teams</link></style> to let players or <style=\"Link\"><link=\"coaches\">Coaches</link></style> decide which players should try to perform what actions. ",
+            "<style=\"CurrentLink\">Physical Enactment</style> can be augmented in various ways since these games many times want to be able to convey information between players while they are enacting actions. Examples include using <style=\"Link\"><link=\"meta-postures\">Meta-Postures</link></style> and <style=\"Link\"><link=\"prompting-techniques\">Prompting Techniques</link></style>. ",
+            "One reason for using <style=\"CurrentLink\">Physical Enactment</style> is to make <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> into <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>. While weakening <style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"Link\"><link=\"substitute-actions\">Substitute Actions</link></style> can make otherwise unsuitable categories of actions (e.g. violence or sex) possible to be present in games.",
+            "The presence of <style=\"CurrentLink\">Physical Enactment</style> as part of gameplay promotes the recording of the players' performances, i.e. the creation of <style=\"Link\"><link=\"replays\">Replays</link></style>. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "All players need to engage in <style=\"CurrentLink\">Physical Enactment</style> for <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style> to have <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>. This means that <style=\"CurrentLink\">Physical Enactment</style> can instantiate that pattern but it is a fragile solution since it requires the cooperation and successful performance of all players.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"Link\"><link=\"enactment\">Enactment</link></style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Rather obviously, <style=\"CurrentLink\">Physical Enactment</style> is a form of <style=\"Link\"><link=\"enactment\">Enactment</link></style> and can like it cause <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"enactment\">Enactment</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style></style>",
+            "<style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style></style>",
+            "<style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, <style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, <style=\"Link\"><link=\"meta-postures\">Meta-Postures</link></style>, <style=\"Link\"><link=\"prompting-techniques\">Prompting Techniques</link></style>, <style=\"Link\"><link=\"replays\">Replays</link></style>, <style=\"Link\"><link=\"substitute-actions\">Substitute Actions</link></style>",
+            "<style=\"Link\"><link=\"reserves\">Reserves</link></style> in games with <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "diegetic-consistency",
+            "enactment",
+            "live-action-roleplaying",
+            "mimetic-interfaces"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "dexterity-based-actions",
+            "performance-uncertainty",
+            "physical-navigation",
+            "robotic-players"
+        ],
+        "modulated_by" : [
+            "player-physical-prowess",
+            "meta-postures",
+            "prompting-techniques",
+            "replays",
+            "substitute-actions",
+            "reserves"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

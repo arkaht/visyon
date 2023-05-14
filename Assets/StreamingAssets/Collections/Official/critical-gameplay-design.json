@@ -1,0 +1,54 @@
+{
+    "name" : "Critical Gameplay Design",
+    "categories" : [
+        "Gameplay Arc Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game designs where the game system is intended to cause critical reflection.",
+        "markups" : [
+            "<style=\"Definition\">Game designs where the game system is intended to cause critical reflection.</style>",
+            "Games can easily highlight real world aspects with critical perspectives. While this is most easily done through the diegesis and presentation of the game, the dynamics embedded in the game system can also model systems in the real world that designers may wish to make players' aware of. Games with the latter approach have <style=\"CurrentLink\">Critical Gameplay Design</style>.",
+            "The online exhibition <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/http://www.criticalgameplay.com/thegames.html%20Critical%20Gameplay\">http://www.criticalgameplay.com/thegames.html Critical Gameplay</link></style> hosts several games that highlight features of games often overlooked by designing counter-examples. While the pattern described here is broader in context, the examples show how gameplay can be designed to stimulate critical reflection.",
+            "<style=\"H3\">Examples</style>",
+            "Both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/September%2012th\">September 12th</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Train\">Train</link></style> make players perform in certain ways as part of their gameplay based on an initial description. However, the designs are intended to make players reconsider their actions when they notice the underlying structure of the game system (in the case of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/September%2012th\">September 12th</link></style>) or identifying the actual theme of the game (in the case of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Train\">Train</link></style>). ",
+            "Chapter 12 of <i>Game Mechanics</i>, focuses upon <i>meaningful mechanics</i> and that description shared much commonality with <style=\"CurrentLink\">Critical Gameplay Design</style> (including using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/September%2012th\">September 12th</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Train\">Train</link></style> as examples).",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Critical Gameplay Design</style> is intended to make players' reflect critically on some phenomena in the real world. This means that the pattern gives rise to <style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"entrenching-gameplay\">Entrenching Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inherent%20Mistrust\">Inherent Mistrust</link></style>, <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style>, <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tragedy%20of%20the%20Commons\">Tragedy of the Commons</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "changes-perception-real-world-phenomena-gameplay"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "entrenching-gameplay",
+            "inherent-mistrust",
+            "negative-feedback-loops",
+            "positive-feedback-loops",
+            "red-queen-dilemmas",
+            "social-dilemmas",
+            "tragedy-commons"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

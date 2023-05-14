@@ -1,0 +1,91 @@
+{
+    "name" : "Enactment",
+    "categories" : [
+        "Interface Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The performance of actions or utterances of one's character.",
+        "markups" : [
+            "<style=\"Definition\">The performance of actions or utterances of one's character.</style>",
+            "Players in games are often given characters to control and can through these perform actions in the game. <style=\"CurrentLink\">Enactment</style> occurs when players are actually performing the actions that their characters are doing.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Enactment</style> is one of the sought after player activities in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fiasco\">Fiasco</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Paranoia\">Paranoia</link></style>. It occurs less frequently in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> but some servers for games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> are dedicated to roleplaying and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">MUDs</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style> focus upon it. ",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guitar%20Hero%20series\">Guitar Hero</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rock%20Band%20series\">Rock Band series</link></style> let players enact playing musical instruments.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "While a player that pressed the jump button in a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario</link></style> game can make Mario jump, that player is activating and not performing a jump.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Unless using <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style>, <style=\"CurrentLink\">Enactment</style> requires the presence of <style=\"Link\"><link=\"characters\">Characters</link></style> - either those controlled by players or by <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> - and players may be inspired to perform <style=\"CurrentLink\">Enactment</style> simply because these <style=\"Link\"><link=\"characters\">Characters</link></style> exist or because they are engaging in <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>. However, <style=\"CurrentLink\">Enactment</style> is not something required in most games with <style=\"Link\"><link=\"characters\">Characters</link></style>, with the exception of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style>. It is something typically strived for by players and game masters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>. <style=\"Link\"><link=\"warming-up-roleplay-exercises\">Warming-Up Roleplay Exercises</link></style> are various activities developed for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> that help players prepare and train for <style=\"CurrentLink\">Enactment</style>.",
+            "<style=\"CurrentLink\">Enactment</style> can be done by small means. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>, players can say what their <style=\"Link\"><link=\"characters\">Characters</link></style> say and look, point, etc. at the other players to indicate that their <style=\"Link\"><link=\"characters\">Characters</link></style> are doing these actions. <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> is the <style=\"CurrentLink\">Enactment</style> of actions that require larger movement or more demanding skills (one common difference is that non-physical <style=\"CurrentLink\">Enactment</style> does not require <style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style>), and when combined with <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> this gives rise to <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>. ",
+            "A weak form of <style=\"CurrentLink\">Enactment</style> is when players describe what their <style=\"Link\"><link=\"characters\">Characters</link></style> do. This is often interwoven with the previous form of <style=\"CurrentLink\">Enactment</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> but in games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illocutionary%20Interfaces\">Illocutionary Interfaces</link></style> or <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> this may be the only way actions are presented, i.e. <style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style> or <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> are the media through which these actions are presented. <style=\"Link\"><link=\"emotes\">Emotes</link></style> can be an important tool in these situations and blurs the lines of what is <style=\"CurrentLink\">Enactment</style> since some of these activate animated sequences for <style=\"Link\"><link=\"avatars\">Avatars</link></style>. ",
+            "<style=\"Link\"><link=\"contextualization\">Contextualization</link></style> is an option for games with <style=\"CurrentLink\">Enactment</style> so that <style=\"Link\"><link=\"scenes\">Scenes</link></style> can be inserted where players can enact backstories or glimpses of futures. <style=\"Link\"><link=\"prompting-techniques\">Prompting Techniques</link></style> can be used in <style=\"CurrentLink\">Enactment</style> to help players negotiate or signal changes in <style=\"Link\"><link=\"scenes\">Scenes</link></style> but is primarily used in games with <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> can be created from having players enact their <style=\"Link\"><link=\"characters\">Characters</link></style> actions. However, there is a risk of breaking <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> whenever players have the chance of including non-diegetic concepts into <style=\"CurrentLink\">Enactment</style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Enactment</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "The combination of <style=\"CurrentLink\">Enactment</style> and <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> typically gives rise to <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>. As gameplay based on <style=\"CurrentLink\">Enactment</style> provides performances by players, the use of it motivates the presence of ways to make recordings of these, i.e. <style=\"Link\"><link=\"replays\">Replays</link></style>, to view or present later; this is however most likely the case if the <style=\"CurrentLink\">Enactment</style> is actually <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Enactment</style> allows actions to be slightly different from each other, and since this can depend on the surroundings in which the actions are performed, the pattern allows for <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> and <style=\"Link\"><link=\"context-dependent-reactions\">Context Dependent Reactions</link></style>. Successfully performing the required actions can provide players with a sense of <style=\"Link\"><link=\"role-fulfillment\">Role Fulfillment</link></style>. While not all <style=\"CurrentLink\">Enactment</style> requires <style=\"Link\"><link=\"social-skills\">Social Skills</link></style>, those that include interacting with other people typically do.",
+            "All effects of <style=\"CurrentLink\">Enactment</style> which does not affect the game state is <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> that in many cases also can provide <style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style> as others can appreciate the performances. However, <style=\"CurrentLink\">Enactment</style> can give rise to <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style> when the <style=\"CurrentLink\">Enactment</style> of players can affect other players' behavior or the opinion of <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>. That said, players may identify more with their <style=\"Link\"><link=\"characters\">Characters</link></style> by having performed their actions themselves, and through this gain an <style=\"Link\"><link=\"emotional-attachment\">Emotional Attachment</link></style> to them. ",
+            "<style=\"CurrentLink\">Enactment</style> is often a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, especially when two or more players are engaged in it at the same time. This can lead to players <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competing%20for%20Attention\">Competing for Attention</link></style>, especially in games with <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>. Further, <style=\"CurrentLink\">Enactment</style> is a skill and becoming good at it is a form of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>. The two points, and the fact that <style=\"CurrentLink\">Enactment</style> draws attention argues why <style=\"CurrentLink\">Enactment</style> support the \"exhibitionist\" <style=\"Link\"><link=\"social-roles\">Social Role</link></style>.",
+            "As has been mentioned above, <style=\"CurrentLink\">Enactment</style> risks breaking <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> and is likely to produce <style=\"Link\"><link=\"storytelling\">Storytelling</link></style> when used together with <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competing%20for%20Attention\">Competing for Attention</link></style>, <style=\"Link\"><link=\"context-dependent-reactions\">Context Dependent Reactions</link></style>, <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"emotional-attachment\">Emotional Attachment</link></style>, <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>, <style=\"Link\"><link=\"role-fulfillment\">Role Fulfillment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>, <style=\"Link\"><link=\"social-skills\">Social Skills</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style></style>",
+            "<style=\"Link\"><link=\"storytelling\">Storytelling</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"emotes\">Emotes</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illocutionary%20Interfaces\">Illocutionary Interfaces</link></style>, <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style>, <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"contextualization\">Contextualization</link></style>, <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"prompting-techniques\">Prompting Techniques</link></style>, <style=\"Link\"><link=\"replays\">Replays</link></style>, <style=\"Link\"><link=\"warming-up-roleplay-exercises\">Warming-Up Roleplay Exercises</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "competing-attention",
+            "context-dependent-reactions",
+            "diegetic-consistency",
+            "emotional-attachment",
+            "extra-game-consequences",
+            "gameplay-mastery",
+            "performance-uncertainty",
+            "player-character-skill-composites",
+            "role-fulfillment",
+            "social-interaction",
+            "social-rewards",
+            "social-roles",
+            "social-skills",
+            "storytelling"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "chat-channels",
+            "characters",
+            "communication-channels",
+            "emotes",
+            "game-masters",
+            "illocutionary-interfaces",
+            "mimetic-interfaces",
+            "physical-enactment",
+            "roleplaying"
+        ],
+        "modulated_by" : [
+            "contextualization",
+            "mediated-gameplay",
+            "prompting-techniques",
+            "replays",
+            "warming-up-roleplay-exercises"
+        ],
+        "conflicts" : [
+            "diegetic-consistency"
+        ]
+    }
+}

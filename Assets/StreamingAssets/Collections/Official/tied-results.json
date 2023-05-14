@@ -1,0 +1,79 @@
+{
+    "name" : "Tied Results",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Two or more results calculated during game that are treated as equal, and produce equal consequences for those with the results.",
+        "markups" : [
+            "<style=\"Definition\">Two or more results calculated during game that are treated as equal, and produce equal consequences for those with the results.</style>",
+            "Games often evaluate players against each other during gameplay and to determine their final positions after gameplay have finished. <style=\"CurrentLink\">Tied Results</style> occur when players are evaluated as equal according to some criteria and due to this receive the same rewards or penalties.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> can end in a draw in several ways, including players agreeing on it, repetition of positions three times, or by logical deduction that checkmate is not possible. Similarly <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Boxing\">Boxing</link></style> can end in a draw (and thereby so can <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess%20Boxing\">Chess Boxing</link></style>).",
+            "Some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Fighting%20Games\">Fighting Games</link></style> allow draws in individual rounds due to the presence of \"double knockouts\", i.e. players being able to knockout each other at the same time. Examples of games with this feature include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Street%20Fighter%20series\">Street Fighter</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20series\">Tekken series</link></style>. ",
+            "<style=\"H4\">Anti-Examples</style>",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> have tiebreaker rules to ensure that <style=\"CurrentLink\">Tied Results</style> do not occur. Examples of such games are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Amun-Re\">Amun-Re</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style>. However, the tiebreakers may become tied themselves so some games can result in <style=\"CurrentLink\">Tied Results</style> even after going through two or three tiebreaking rules.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> also tend to avoid <style=\"CurrentLink\">Tied Results</style> but in this case through \"sudden death\" extensions to gameplay. This is among other cases used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Basketball\">Basketball</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Tied Results</style> depend on games evaluating situations, <style=\"Link\"><link=\"races\">Races</link></style>, etc. by some means that allow two or more players to have the same evaluation. This is typically most easily done through using numerical values add providing many possibilities for small changes so that there are many possible ways to achieve the same values. Further, <style=\"CurrentLink\">Tied Results</style> require somebody to be tied with, so they normal situation is that <style=\"CurrentLink\">Tied Results</style> require <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> can be seen as an alternative to <style=\"CurrentLink\">Tied Results</style>, here players will have the same consequences but without having been evaluated as having performed equally well (or bad).",
+            "While <style=\"Link\"><link=\"scores\">Scores</link></style> are obvious candidates for having <style=\"CurrentLink\">Tied Results</style>, others include <style=\"Link\"><link=\"races\">Races</link></style> as well as games where <style=\"Link\"><link=\"complete-resource-depletion\">Complete Resource Depletion</link></style> or <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> that run out trigger <style=\"CurrentLink\">Tied Results</style>; the use of <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> together with <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style> can be seen as a specific instance of the latter. <style=\"Link\"><link=\"repetition-position-draws\">Repetition of Position Draws</link></style> are rules that make games end in a draw if players perform actions that make positions or game state repeat themselves; this can either be a threat or a goal depending on the players' goals. <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style> allow <style=\"CurrentLink\">Tied Results</style> between game instances instead of within game instances and thereby show a way of designing around the normal requirement of <style=\"CurrentLink\">Tied Results</style> only being possible in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. ",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style> all steer results towards becoming <style=\"CurrentLink\">Tied Results</style> but do not in themselves allow for the presence of <style=\"CurrentLink\">Tied Results</style>. In addition, their ability to do this typically lessens the closer to a tie players are.",
+            "<style=\"CurrentLink\">Tied Results</style> can be used in <style=\"Link\"><link=\"tournaments\">Tournaments</link></style> to actually add more granularity to them by allowing more types of outcomes to be transferred to the <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> the <style=\"Link\"><link=\"tournaments\">Tournaments</link></style> represent.",
+            "<style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> is the most obvious way to design against the presences of <style=\"CurrentLink\">Tied Results</style> (but since this pattern can only be added if <style=\"CurrentLink\">Tied Results</style> would be possible, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> both modulates and works against <style=\"CurrentLink\">Tied Results</style>). However, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> may in themselves provide new <style=\"CurrentLink\">Tied Results</style>, so multiple levels of <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> can be found in some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style>. Other ways to avoid having <style=\"CurrentLink\">Tied Results</style> in games include using <style=\"Link\"><link=\"excluding-goals\">Excluding</link></style> or <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Tied Results</style> allow games to provide both <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style> and <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style> without designing players to be in <style=\"Link\"><link=\"teams\">Teams</link></style> or other formal constellations. This can results in players agreeing to be in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style> to share the <style=\"Link\"><link=\"penalties\">Penalties</link></style> or <style=\"Link\"><link=\"rewards\">Rewards</link></style>. When this happens among players, a combined consequences of this is a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>. However, <style=\"CurrentLink\">Tied Results</style> work against the presence of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style> since a <style=\"CurrentLink\">Tied Result</style> has no margin between those that are tied.",
+            "<style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> can emerged from <style=\"CurrentLink\">Tied Results</style> in that players may be in the positions to let others share <style=\"Link\"><link=\"rewards\">Rewards</link></style> with them but with a reduced benefit for themselves.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style>, <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"tournaments\">Tournaments</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"complete-resource-depletion\">Complete Resource Depletion</link></style>, <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"repetition-position-draws\">Repetition of Position Draws</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> together with <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style>, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "shared-penalties",
+            "shared-rewards",
+            "social-dilemmas",
+            "uncommitted-alliances",
+            "player-decided-distributions"
+        ],
+        "modulates" : [
+            "tournaments"
+        ],
+        "instantiated_by" : [
+            "complete-resource-depletion",
+            "high-score-lists",
+            "multiplayer-games",
+            "races",
+            "repetition-position-draws",
+            "scores",
+            "tiebreakers",
+            "time-limits",
+            "time-limited-game-instances"
+        ],
+        "modulated_by" : [
+            "balancing-effects",
+            "beat-leader",
+            "player-decided-distributions",
+            "tiebreakers"
+        ],
+        "conflicts" : [
+            "excluding-goals",
+            "incompatible-goals",
+            "perceivable-margins",
+            "tiebreakers"
+        ]
+    }
+}

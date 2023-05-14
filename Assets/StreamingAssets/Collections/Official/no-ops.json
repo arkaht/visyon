@@ -1,0 +1,79 @@
+{
+    "name" : "No-Ops",
+    "categories" : [
+        "Patterns",
+        "Action Patterns"
+    ],
+    "texts" : {
+        "definition" : "Player actions that perform no change on the game state.",
+        "markups" : [
+            "<style=\"Definition\">Player actions that perform no change on the game state.</style>",
+            "Even if players usually need to perform various actions to reach their goals in games, sometimes the best action may be to do nothing and wait for the environment to change. These actions are called <style=\"CurrentLink\">No-Ops</style> (from the instructions from programming with the same name) but do not also be chosen by the players - they can also be forced on them as punishments for other players or as effects of the player's own actions.",
+            "<style=\"H3\">Examples</style>",
+            "Missing one or several turns in turn-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> are examples of <style=\"CurrentLink\">No-Ops</style>. This may end a turn prematurely as a penalty, as found in the <i>turnover</i> rules of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style> but may also refer to the next turn for the player (e.g. the effect of the <i>Chivalric Knight</i> card in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Talisman\">Talisman</link></style> or becoming <i>Arrested</i> or <i>Lost in Time and Space</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Arkham%20Horror\">Arkham Horror</link></style>). In contrast, powering down in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/RoboRally\">RoboRally</link></style> to repair damage is a voluntary action chosen by players.",
+            "Sneaking in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> requires periods of being still. This can for example be found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thief%20series\">Thief series</link></style> where one needs to combines silent and careful movement with periods of inactivity to avoid detection.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The prime design choice for <style=\"CurrentLink\">No-Ops</style> is if they are involuntary or not. When they are forced upon players, they are typically done so as <style=\"Link\"><link=\"penalties\">Penalties</link></style> (as in becoming <i>Lost in Time and Space</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Arkham%20Horror\">Arkham Horror</link></style>) or as <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> unfolding a storyline, but they may also be effects of the actions players chose. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> are examples of voluntary <style=\"CurrentLink\">No-Op</style> actions since they do not directly change the game state. For <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>, <style=\"CurrentLink\">No-Ops</style> used as <style=\"Link\"><link=\"penalties\">Penalties</link></style> are often applied on the next turn but <style=\"Link\"><link=\"turnovers\">Turnovers</link></style> show how they can be used to end turns prematurely. <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style> and <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> cannot require players to do actions all the time so they per default support voluntary <style=\"CurrentLink\">No-Ops</style>. This is however a matter of perspective, in <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> where the players' <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> move continuously (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zaxxon\">Zaxxon</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lemmings%20series\">Lemmings series</link></style>) this can also be described as applying <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style> on players' game elements - this movement can be seen as the default action and players have the choice between doing that action or some other. <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> that do not have an effect on the game state before they are completed can be seen as consisting of an initiating action, several <style=\"CurrentLink\">No-Ops</style>, and a finishing action where the game state is updated.",
+            "While <style=\"CurrentLink\">No-Ops</style> are usually passive actions, they can be <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style> if part of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> where all other actions have bad consequences for the other players. A typical case for this can be found in <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>.",
+            "The possibility of doing <style=\"CurrentLink\">No-Ops</style>, or actions with little consequence to the overall game state, is a requirement for <style=\"Link\"><link=\"camping\">Camping</link></style> and often beneficial for doing <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>. Similarly, it is often used to allow the completion of <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals. However, sometimes <style=\"CurrentLink\">No-Ops</style> need to be included in games as part of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> available simply because players cannot do anything due to lack of the proper resources. One such example can be found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> when one draws a deck consisting entirely of victory point cards since one cannot then play any action card or when one has no legal <style=\"Link\"><link=\"capture\">Captures</link></style> to make in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Othello\">Othello</link></style>.",
+            "Performing <style=\"Link\"><link=\"excise\">Excise</link></style> can be a form of enforced <style=\"CurrentLink\">No-Ops</style>. Taken to an extreme, enforced <style=\"CurrentLink\">No-Ops</style> can be used to create <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style> by simply making it the only possible 'action' in a game.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Enforced <style=\"CurrentLink\">No-Ops</style> are nearly always shown clearly to players through <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> to avoid players misplacing any frustration on a game's interface.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">No-Ops</style> indirectly can provide <style=\"Link\"><link=\"abilities\">Abilities</link></style> since players may used them to wait until the game reaches a game state when they wish to take another more active action. However, <style=\"CurrentLink\">No-Ops</style> quite obviously create <style=\"Link\"><link=\"downtime\">Downtime</link></style> for players. When they are voluntary, they widen players' <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> and better allow the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style> of actions, for example to wait for other players to do something before acting themselves. If they automatically occur if players do not chose actions, they allow players to do other, non-gameplay related, activities and thereby support a basic level of <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>. The <style=\"CurrentLink\">No-Ops</style> that are forced upon players instead work against their <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> and any <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> they might have, and having many of them consecutively may hinder reasonable waiting times. ",
+            "Forcing players to do <style=\"CurrentLink\">No-Ops</style> remove <style=\"Link\"><link=\"player-agency\">Player Agency</link></style> and can increase <style=\"Link\"><link=\"tension\">Tension</link></style>, for example while noticing the action of <style=\"Link\"><link=\"enemies\">Enemies</link></style> but so can doing voluntary <style=\"CurrentLink\">No-Ops</style> to wait for <style=\"Link\"><link=\"enemies\">Enemies</link></style> to appear, be in the right position, or until one's <style=\"Link\"><link=\"aim-shoot\">Aim</link></style> has steadied. Having excessive amounts of <style=\"CurrentLink\">No-Ops</style> in a game does like any other type activity done too often negatively affect <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> as well as <style=\"Link\"><link=\"tension\">Tension</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"abilities\">Abilities</link></style>, <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style>, <style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style>, <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style>, <style=\"Link\"><link=\"turnovers\">Turnovers</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> or <style=\"Link\"><link=\"enemies\">Enemies</link></style></style>",
+            "<style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "abilities",
+            "altruistic-actions",
+            "camping",
+            "downtime",
+            "freedom-choice",
+            "no-direct-player-influence",
+            "interruptibility",
+            "penalties",
+            "tension",
+            "timing",
+            "turnovers",
+            "tension"
+        ],
+        "modulates" : [
+            "aim-shoot",
+            "limited-set-actions",
+            "social-dilemmas"
+        ],
+        "instantiated_by" : [
+            "cutscenes",
+            "excise",
+            "negotiation",
+            "real-time-games",
+            "tick-based-games"
+        ],
+        "modulated_by" : [
+            "game-state-indicators"
+        ],
+        "conflicts" : [
+            "exaggerated-perception-influence",
+            "freedom-choice",
+            "player-agency",
+            "varied-gameplay",
+            "tension"
+        ]
+    }
+}

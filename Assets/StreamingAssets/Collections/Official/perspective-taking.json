@@ -1,0 +1,81 @@
+{
+    "name" : "Perspective Taking",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The one-sentence \"definition\" that should be in italics.",
+        "markups" : [
+            "<style=\"Definition\">The one-sentence \"definition\" that should be in italics.</style>",
+            "This pattern is a still a stub.",
+            "<style=\"CurrentLink\">Perspective Taking</style> can be in relation to other players but also to fictional characters in a game world.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"H4\">Anti-Examples</style>",
+            "optional",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alpha%20Player\">Alpha Player</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Results\">Player-Decided Results</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>",
+            "Another way to include <style=\"CurrentLink\">Perspective Taking</style> in a game is to have <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> that enact <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> since these <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> need to consider the game world from the view of the <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> in order to make them do diegetically realistic actions.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style></style>",
+            "<style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style></style>",
+            "<style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alpha%20Player\">Alpha Player</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Results\">Player-Decided Results</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "emotional-engrossment",
+            "reflective-communication",
+            "emotional-engrossment",
+            "reflective-communication"
+        ],
+        "modulates" : [
+            "cooperation",
+            "negotiation",
+            "social-dilemmas",
+            "cooperation",
+            "negotiation",
+            "social-dilemmas"
+        ],
+        "instantiated_by" : [
+            "alpha-player",
+            "characters",
+            "game-masters",
+            "player-decided-distributions",
+            "player-decided-results",
+            "roleplaying",
+            "perspective-taking",
+            "alpha-player",
+            "characters",
+            "game-masters",
+            "player-decided-distributions",
+            "player-decided-results",
+            "roleplaying"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

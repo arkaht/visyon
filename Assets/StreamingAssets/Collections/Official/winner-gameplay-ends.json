@@ -1,0 +1,78 @@
+{
+    "name" : "Winner determined after Gameplay Ends",
+    "categories" : [
+        "Gameplay Arc Patterns",
+        "Winning Patterns",
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games where the winner(s) are determined after gameplay ends.",
+        "markups" : [
+            "<style=\"Definition\">Games where the winner(s) are determined after gameplay ends.</style>",
+            "Many games give players to goal to win them against other players or against the game system. While some do this by giving goals that result in winning and ending games, others make players invest their efforts in various ways and only after some criteria has cause gameplay to end reveal or calculate who actually won (if anybody). The latter type of games make use of the pattern <style=\"CurrentLink\">Winner determined after Gameplay Ends</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bridge\">Bridge</link></style> are two classical games where the winner is formally declared after gameplay ends by calculating each player or teams score; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> is a more modern example. So are the games <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Amun-Re\">Amun-Re</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Concordia\">Concordia</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Egizia\">Egizia</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style> but here some information is hidden so players may not be aware of who the actual winner is. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Gambling%20Games\">Gambling Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style> determine the winner after players have caused gameplay to end as a result of their actions, at least it viewing each round as a separate game instance. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing a game with <style=\"CurrentLink\">Winner determined after Gameplay Ends</style> requires setting one or more criteria for when gameplay ends as well as a way of determining a winner. The most common solution to the latter is the use of <style=\"Link\"><link=\"scores\">Scores</link></style>. Since <style=\"CurrentLink\">Winner determined after Gameplay Ends</style> requires at least two players to be relevant, the pattern isn't compatible with <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>. ",
+            "If winners can be calculated before gameplay ends, i.e. through a <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, the pattern ceases to work. Thus, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> needs to be present although <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> or <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style> can make the calculation difficult enough that for practical concerns it cannot be done with certainty before gameplay ends. <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style> is an even surer solution to this issue, and the use of it together with <style=\"CurrentLink\">Winner determined after Gameplay Ends</style> at least creates <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style> related to the closure of who wins the game. The presence of <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style> can modify <style=\"CurrentLink\">Winner determined after Gameplay Ends</style> heavily since can remove players from being able to influence the game state for some time before the winner is determined. ",
+            "Explicit design to allow the construction of <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> can provide players with <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style> for games with <style=\"CurrentLink\">Winner determined after Gameplay Ends</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Winner determined after Gameplay Ends</style> relies on the presence of <style=\"Link\"><link=\"game-over\">Game Over</link></style>, so it can be said to modulate that pattern and more specifically <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> when these exist in games besides <style=\"CurrentLink\">Winner determined after Gameplay Ends</style>. Not knowing who will win a game until gameplay is over typically causes <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style>; which a player feels most strongly depends on their subjective perceptions of their chances of winning. Quite naturally, it affects <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases in games which have these.",
+            "Players that believe they are in the lead of a game with <style=\"CurrentLink\">Winner determined after Gameplay Ends</style> may try to perform <style=\"Link\"><link=\"speedending\">Speedending</link></style> of that game if other players are perceived as going to take over the lead in the future. Players noticing that gameplay will end soon for this reason or others may do a <style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style> in games where this is possible. Successful <style=\"Link\"><link=\"speedending\">Speedending</link></style> of games with <style=\"CurrentLink\">Winner determined after Gameplay Ends</style> actually causes <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style> to occur even if this is other circumstances is incompatible with <style=\"CurrentLink\">Winner determined after Gameplay Ends</style>. ",
+            "By definition, <style=\"CurrentLink\">Winner determined after Gameplay Ends</style> is incompatible with <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> and <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>. It can also make players not detect <style=\"Link\"><link=\"unwinnable-game-states\">Unwinnable Game States</link></style> (at least if they don't have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> and can understand the complete game state). As stated above, the use of <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style> together with <style=\"CurrentLink\">Winner determined after Gameplay Ends</style> is a way to create <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style>, <style=\"Link\"><link=\"speedending\">Speedending</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style></style>",
+            "<style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"speedending\">Speedending</link></style></style>",
+            "<style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>, <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, <style=\"Link\"><link=\"unwinnable-game-states\">Unwinnable Game States</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>, <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "construction-scoring-phase-shift",
+            "speedending",
+            "tension",
+            "higher-level-closures-gameplay-progresses",
+            "winning-ending-gameplay"
+        ],
+        "modulates" : [
+            "endgame",
+            "game-over",
+            "multiplayer-games",
+            "time-limited-game-instances"
+        ],
+        "instantiated_by" : [
+            "complex-gameplay",
+            "imperfect-information",
+            "solution-uncertainty"
+        ],
+        "modulated_by" : [
+            "game-termination-penalties",
+            "gameplay-engines",
+            "scores",
+            "secret-scoring-mechanisms"
+        ],
+        "conflicts" : [
+            "predictable-winner",
+            "single-player-games",
+            "unwinnable-game-states",
+            "unwinnable-games",
+            "winning-ending-gameplay"
+        ]
+    }
+}

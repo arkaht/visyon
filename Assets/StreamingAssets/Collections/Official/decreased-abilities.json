@@ -1,0 +1,108 @@
+{
+    "name" : "Decreased Abilities",
+    "categories" : [
+        "Patterns",
+        "Event Patterns",
+        "Action Patterns"
+    ],
+    "texts" : {
+        "definition" : "The event of abilities decreasing their effectiveness.",
+        "markups" : [
+            "<style=\"Definition\">The event of abilities decreasing their effectiveness.</style>",
+            "Many games have events that make players' future actions have less effect, or less chance of succeeding, than they originally had. These <style=\"CurrentLink\">Decreased Abilities</style> can be simply penalties, the effects of hostile actions, or various types of balancing effects.",
+            "<style=\"H3\">Examples</style>",
+            "While many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> do not let individual damage affect players' abilities until they reach critical levels, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> has many optional rules regarding this (e.g. crippled limbs). <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style> is an except where all damage received builds incrementally up to players being unable to perform any actions efficiently but even here this is done in steps of 10 to not slow down gameplay too much.",
+            "Each point of damage received in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/RoboRally\">RoboRally</link></style> locks one instruction slot and gives players one card less at the beginning of each turn. As these cards are used to program a robot's movement, the reduction in number of cards effectively reduces the player's ability to control the robot. Being hit by an ice cube or polygon ball weapon in the <i>Monkey Race 2</i> party game in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%202\">Super Monkey Ball 2</link></style> significantly reduces players' top speed and ability to steer.",
+            "In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, becoming damaged lowers one's speed (except in the \"versus\" gameplay mode). Being revived introduced an additional movement restriction until one has been treated with a first aid kit.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Instantiating <style=\"CurrentLink\">Decreased Abilities</style> can easily be done by changing values in game states that are part of the evaluation functions of actions, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style> and <style=\"Link\"><link=\"skills\">Skills</link></style>. Typically, this is thematically motivated by events that have affected <style=\"Link\"><link=\"characters\">Characters</link></style> or <style=\"Link\"><link=\"units\">Units</link></style>, e.g. suffering the effects of <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>",
+            "or <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>. However, several indirect way of achieving <style=\"CurrentLink\">Decreased Abilities</style> also exist. <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> can give <style=\"CurrentLink\">Decreased Abilities</style>, e.g. <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>, in specific parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> while <style=\"Link\"><link=\"game-items\">Game Items</link></style> can be <style=\"Link\"><link=\"traps\">Traps</link></style> or embody risks of <style=\"CurrentLink\">Decreased Abilities</style>. This last possibility is due to the fact that losing <style=\"Link\"><link=\"game-items\">Game Items</link></style>, e.g. because of <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>, thefts, etc., also result in the loss of the <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> they provided. A special case of the latter is <i>cursed</i> <style=\"Link\"><link=\"equipment\">Equipment</link></style> that only reveal their power to cause <style=\"CurrentLink\">Decreased Abilities</style> when they are actually equipped.",
+            "<style=\"CurrentLink\">Decreased Abilities</style> are often used as <style=\"Link\"><link=\"penalties\">Penalties</link></style> to affect <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>. When the effect of this needs to be modulated, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> of the decrease or providing <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> in other areas can be used to achieve <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>. <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> can also be used for this reason together with <style=\"CurrentLink\">Decreased Abilities</style> to require <style=\"Link\"><link=\"cooldown\">Cooldown</link></style> periods between multiple uses of the same <style=\"Link\"><link=\"abilities\">Ability</link></style>. ",
+            "Related to <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> are <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>. <style=\"CurrentLink\">Decreased Abilities</style> can require players to do these by having both <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> and <style=\"CurrentLink\">Decreased Abilities</style> linked to the same <style=\"Link\"><link=\"game-items\">Game Items</link></style>. For example, when several different types of <style=\"Link\"><link=\"ammunition\">Ammunition</link></style> exist in a game, these may require players to do <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between having increased penetration and decreased damage or vice versa. Another example is <style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style>, which are in principle <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> but which have their <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> balanced out by <style=\"CurrentLink\">Decreased Abilities</style> but still can be beneficial to players that can read what <style=\"Link\"><link=\"abilities\">Abilities</link></style> are locally most important. The defining characteristic of <style=\"Link\"><link=\"armor\">Armor</link></style> is to reduce <style=\"Link\"><link=\"damage\">Damage</link></style> which is a form of <style=\"CurrentLink\">Decreased Ability</style> to attackers, but it can also have <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> through providing better protection but making the players slower (i.e. giving <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>) or reducing athletic skills; this is also a <style=\"Link\"><link=\"balancing-effects\">Balancing Effect</link></style> since it affects how well other players can act against the player.",
+            "<style=\"CurrentLink\">Decreased Abilities</style> can also be used more discretely to create <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style> by applying them based upon how well players handle gameplay challenges.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Decreased Abilities</style> are often intended as <style=\"Link\"><link=\"penalties\">Penalties</link></style> related to <style=\"Link\"><link=\"abilities\">Abilities</link></style>, or if not perceived as such most of the time anyway. They may hinder players to feel a <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> and may result in total <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> if the <style=\"Link\"><link=\"abilities\">Abilities</link></style> are decreased so much that the chances of success become zero.  Unlike definite <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"CurrentLink\">Decreased Abilities</style> can be used to modulate the how <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> a game should have without necessarily affecting how <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> it has. While this possibility can be built into the rules of the same to support <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> or <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, it can also instantiate <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> by leaving up to the players to select how much <style=\"CurrentLink\">Decreased Abilities</style> they should have before actual gameplay begin. It can be used in the same way to create <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style> but these may be regulated by <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> just as well as players.",
+            "When sprung upon unaware players, <style=\"CurrentLink\">Decreased Abilities</style> can be <style=\"Link\"><link=\"traps\">Traps</link></style> and lower their possibility to have a <style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style>. Examples of other patterns with can be combined with <style=\"CurrentLink\">Decreased Abilities</style> for this purpose  includes <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"equipment\">Equipment</link></style>, and <style=\"Link\"><link=\"game-items\">Game Items</link></style> when these look harmless. If given a narrative framing, <style=\"CurrentLink\">Decreased Abilities</style> can be part of both <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style> and <style=\"Link\"><link=\"character-development\">Character Development</link></style> depending on if the pattern is used on <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style> and <style=\"Link\"><link=\"characters\">Characters</link></style>. If it is possible to regain previous levels of competence, suffering <style=\"CurrentLink\">Decreased Abilities</style> can be the motivation for <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> goals.",
+            "<style=\"CurrentLink\">Decreased Abilities</style> can be used in to define <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style> in a negative way. This kind of differentiation typical is an emergent feature due to different levels of <style=\"Link\"><link=\"damage\">Damage</link></style> or depletion of <style=\"Link\"><link=\"resources\">Resources</link></style> between <style=\"Link\"><link=\"units\">Units</link></style> or players in a team.",
+            "While not reducing players' <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> per se since it does not remove actions, <style=\"CurrentLink\">Decreased Abilities</style> can make some choices less attractive by making them less effective.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>, <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style>, <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>, <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style></style>",
+            "<style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"ammunition\">Ammunition</link></style> or <style=\"Link\"><link=\"armor\">Armor</link></style></style>",
+            "<style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"characters\">Characters</link></style></style>",
+            "<style=\"Link\"><link=\"character-development\">Character Development</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"equipment\">Equipment</link></style>, or <style=\"Link\"><link=\"game-items\">Game Items</link></style></style>",
+            "<style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style></style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"time-limits\">Time Limits</link></style></style>",
+            "<style=\"Link\"><link=\"cooldown\">Cooldown</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"upgrades\">Upgrades</link></style></style>",
+            "<style=\"Link\"><link=\"sidegrades\">Sidegrades</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"abilities\">Abilities</link></style>, <style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style>, <style=\"Link\"><link=\"equipment\">Equipment</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "ability-losses",
+            "balancing-effects",
+            "competence-areas",
+            "difficulty-levels",
+            "dynamic-difficulty-adjustment",
+            "environmental-effects",
+            "gain-competence",
+            "handicap-systems",
+            "movement-limitations",
+            "penalties",
+            "safe-havens",
+            "traps",
+            "abstract-player-construct-development",
+            "trade-offs",
+            "character-development",
+            "traps",
+            "balancing-effects",
+            "cooldown",
+            "sidegrades"
+        ],
+        "modulates" : [
+            "abilities",
+            "ammunition",
+            "armor",
+            "attributes",
+            "challenging-gameplay",
+            "characters",
+            "death-consequences",
+            "determinable-chance-succeed",
+            "equipment",
+            "freedom-choice",
+            "game-items",
+            "player-balance",
+            "skills",
+            "units"
+        ],
+        "instantiated_by" : [
+            "armor",
+            "deterioration",
+            "resources",
+            "vulnerabilities"
+        ],
+        "modulated_by" : [
+            "time-limits"
+        ],
+        "conflicts" : [
+            "exaggerated-perception-influence"
+        ]
+    }
+}

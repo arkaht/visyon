@@ -1,0 +1,72 @@
+{
+    "name" : "Pervasive Gameplay",
+    "categories" : [
+        "Pervasive Patterns",
+        "Patterns",
+        "Gameplay Adaptability Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay that can co-exist or merge with other activities.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay that can co-exist or merge with other activities.</style>",
+            "The archetypical view of gaming activities are as being separated from other \"ordinary\" activities (which can be seen in the metaphor of the <i>magic circle</i> that has been more extensively in later work of understanding games). This is however not true of all games, in some cases because they can rather easily co-exist with other activities and in other cases because the game design makes \"ordinary\" activities into gameplay actions. Both types of game have <style=\"CurrentLink\">Pervasive Gameplay</style>.",
+            "For more information about <style=\"CurrentLink\">Pervasive Gameplay</style>, although based upon a slightly different usage of pervasive to define pervasive games, see <i>Pervasive Games - Theory and Design</i>. Note also that while ubiquitous and pervasive are used as synonyms, the patterns <style=\"CurrentLink\">Pervasive Gameplay</style> and <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style> are defined to describe different aspects of gameplay in this pattern collection.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Car%20Numberplate%20Games\">Car Numberplate Games</link></style> are examples of games that are specifically made to make car travelling more enjoying. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Insectopia\">Insectopia</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pirates!\">Pirates!</link></style> do the same but can more generally merge with other types of activities. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin\">Assassin</link></style> also does this but since the actual <i>killings</i> can disrupt other activities there are typically safe places and safe hours in the game instances.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Alternate%20Reality%20Games\">Alternate Reality Games</link></style> with roleplaying components, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Prosopopeia\">Prosopopeia</link></style>, need to be designed so that players can combine their roleplaying with their everyday social interactions, or with relative little friction move between social roles. Similarly, the location-based game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pok%C3%A9mon%20Go\">Pokémon Go</link></style> allows players to intermix the capturing of Pokémons and Pokéballs with there everyday life.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Pervasive Gameplay</style> consists of considering what other activities can be used to piggyback gameplay activities and considering how to avoid gameplay activities that disrupt other activities. <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style> makes other activities into gameplay activities and therefore possible to do simultaneously, but the game design may still cause disruptions if it makes the frequency, timing, or location of the activities not fit the surroundings. How disruptive activities are naturally depend on their nature but also on which other activities also take place at any given place; it is however worth noticing that <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style> can easily merge with other activities as long as is done at the same speed as other movement. ",
+            "Generally, having <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style> makes it easier to support <style=\"CurrentLink\">Pervasive Gameplay</style> since limiting the dependency on dedicated places and equipment making it easy for the gameplay activity to be able to co-exist with other activities. Since it may not be possible to make a game work with all types of other activities, one solution is to limit the <style=\"CurrentLink\">Pervasive Gameplay</style> to function with some activities but avoid conflicts with other activities. This can be done through designating <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style> (this is typically done in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin\">Assassin</link></style>) or through supporting <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Prosopopeia\">Prosopopeia</link></style> used this to handle situations where one no longer could roleplay being a ghost that had possessed the player. The fact that other activities may occur together with the <style=\"CurrentLink\">Pervasive Gameplay</style> typically offers easy ways of making the activities affect the gameplay through <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>. While <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style> makes it possible to have pause gameplay when it would disturb other activities, this in itself is only a solution for slow-paced games. <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style> solves the problem of games negatively affecting other social activities, which is often one of the primary challenges to making a game have the pattern of <style=\"CurrentLink\">Pervasive Gameplay</style>.",
+            "For games that rarely require interaction from the players, co-existing with other activities depend more making players be at the locations where these activities take places rather than make the activities possible to occur simultaneously. The prime way of doing this is to use <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style> or <style=\"Link\"><link=\"hybrid-gameplay-spaces\">Hybrid Gameplay Spaces</link></style>, which can easily be constructed through the use of <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, typically through the <style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style>, <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, or <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style> patterns.",
+            "<style=\"H2\">Consequences</style>",
+            "Games with <style=\"CurrentLink\">Pervasive Gameplay</style> are either likely to at least take partially place in public environment or be explicitly designed to do so. For this reason, they are likely to make use of <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>, be viewable by <style=\"Link\"><link=\"spectators\">Spectators</link></style>, and instantiate <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style> simply because real world events will likely affect gameplay. <style=\"CurrentLink\">Pervasive Gameplay</style> is an enabler for <style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style> since they by definition are able to co-exist with other activities and thereby can hide or merge with these activities.",
+            "While some types <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style> may explicitly be designed as part of <style=\"CurrentLink\">Pervasive Gameplay</style>, other types of <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style> may be difficult to avoid because the game design cannot control the gameplay context as well as for other types of games where no other activities are supposed to co-exist with the game activity. Both types of input can however lead to the presence of the pattern <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>.",
+            "<style=\"CurrentLink\">Pervasive Gameplay</style> puts additional requirements on <style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style> since they not only need to be able to handle gameplay but act appropriately with regards to the other activities that overlap in some way with the gameplay.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style>, <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>, <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>, <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style></style>",
+            "<style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style>, <style=\"Link\"><link=\"hybrid-gameplay-spaces\">Hybrid Gameplay Spaces</link></style>, <style=\"Link\"><link=\"interruptibility\">Interruptibility</link></style>, <style=\"Link\"><link=\"minimalized-social-weight\">Minimalized Social Weight</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style>, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>, <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "alternate-reality-gameplay",
+            "events-timed-real-world",
+            "extra-game-input",
+            "real-world-gameplay-spaces",
+            "spectators",
+            "real-life-activities-affect-game-state"
+        ],
+        "modulates" : [
+            "robotic-players"
+        ],
+        "instantiated_by" : [
+            "artifact-location-proximity",
+            "hybrid-gameplay-spaces",
+            "interruptibility",
+            "minimalized-social-weight",
+            "physical-navigation",
+            "player-artifact-proximity",
+            "real-life-activities-affect-game-state",
+            "real-world-gameplay-spaces"
+        ],
+        "modulated_by" : [
+            "drop-in-drop-out",
+            "extra-game-input",
+            "safe-havens"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "name" : "Context Dependent Reactions",
+    "categories" : [
+        "Patterns",
+        "Speculative Patterns",
+        "Subjective Patterns"
+    ],
+    "texts" : {
+        "definition" : "Agents in a game reacts to events and objects (including other agents) depending on their context.",
+        "markups" : [
+            "<style=\"Definition\">Agents in a game reacts to events and objects (including other agents) depending on their context.</style>",
+            "Gameplay takes places through players making actions and responding to other actions they perceive. When the same type of actions are tailored to be different depending on context, games can be said to have <style=\"CurrentLink\">Context Dependent Reactions</style>. This can help create the impression of a richer and more believable game world since it requires more effort to generalize them into their pure gameplay functionality.",
+            "Note: <i>this pattern is tagged as speculative even if it provides some examples. This is because it is a subjective issue if reactions are sufficiently context dependent and most case can be stressed by players so the artificiality of the reactions can be revealed.</i>",
+            "<style=\"H3\">Examples</style>",
+            "A simple example of <style=\"CurrentLink\">Context Dependent Reactions</style> can be found in games where players interact with characters in the game which are guarding certain areas but can also be found in other areas; here meeting these characters in \"ordinary\" areas triggers one response while being discovered in forbidden areas triggers a completely different one. Another way reactions may vary is because to time; some places may be off-limited some of the time (a common case being some commercial and official areas being off-limits during nights). Examples of games where these kinds of variation in reaction can be found include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Splinter%20Cell%20series\">Splinter Cell series</link></style>.",
+            "The characters Grace and Trip in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fa%C3%A7ade\">Façade</link></style> vary their reactions depending on circumstances due to the reactions in part being constructed as they are being performed. However, as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fa%C3%A7ade\">Façade</link></style> takes place in the limited environment of a flat this can be seen as a limited example of <style=\"CurrentLink\">Context Dependent Reactions</style>. A weaker example of <style=\"CurrentLink\">Context Dependent Reactions</style> can be to make observations about things in the game world but otherwise not change one's actions. This can for example be found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style> where <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style> comment on the presence of dead bodies but without necessarily letting this affect what they are doing.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Somewhat paradoxical, <style=\"Link\"><link=\"diegetic-consistency\">Diegetic</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> requires actions to not be exactly the same each time they occur since this is not typically the case in the real world. This is one reason for using <style=\"CurrentLink\">Context Dependent Reactions</style> but other reasons include personalizing responses from different <style=\"Link\"><link=\"agents\">Agents</link></style> or adapting reactions that can relate to many different entities in the game world.",
+            "<style=\"CurrentLink\">Context Dependent Reactions</style> can most easily be made possible by having humans control <style=\"Link\"><link=\"agents\">Agents</link></style> in games; this means that <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> and players that can perform <style=\"Link\"><link=\"enactment\">Enactment</link></style> of actions is the simplest design solution for the pattern but this puts requirements of present facilitators and/or willing players. <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> is an alternative to this but instead creates needs for development of algorithms to handle all possible or reasonable situations they are supposed to handle (see the article <i>Meet The Guy Who Spent Seven Months Killing Everyone In Fallout 3</i> for examples of issues which can occur in games where players have large degrees of freedom on how they can play). However, this may be the only practical solution for having the pattern for large numbers of <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>.",
+            "<style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> can encourage <style=\"CurrentLink\">Context Dependent Reactions</style> since players that perform gameplay actions where they can try to modify details of there performs can do these modifications based on the local context.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Context%20Dependent%20Dialogues\">Context Dependent Dialogues</link></style> is a specific subsection of actions that provide <style=\"CurrentLink\">Context Dependent Reactions</style> in dialogues. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Context%20Dependent%20Actions\">Context Dependent Actions</link></style> provide <style=\"CurrentLink\">Context Dependent Reactions</style> by tying a specific interface action (e.g. pressing a certain button) to different actions in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> depending on what the player is focusing the interaction on.",
+            "<style=\"H2\">Consequences</style>",
+            "As stated above, a common reason for wanting <style=\"CurrentLink\">Context Dependent Reactions</style> is to strengthen <style=\"Link\"><link=\"diegetic-consistency\">Diegetic</link></style> or <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. More specifically, providing <style=\"Link\"><link=\"agents\">Agents</link></style> with the possibility of <style=\"CurrentLink\">Context Dependent Reactions</style> often makes them display an <style=\"Link\"><link=\"awareness-surroundings\">Awareness of Surroundings</link></style> and increase the likelihood that they will be perceived has having their <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"awareness-surroundings\">Awareness of Surroundings</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Context%20Dependent%20Actions\">Context Dependent Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Context%20Dependent%20Dialogues\">Context Dependent Dialogues</link></style>, <style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "diegetic-consistency",
+            "own-agenda",
+            "thematic-consistency"
+        ],
+        "modulates" : [
+            "agents",
+            "awareness-surroundings",
+            "guard",
+            "non-player-characters",
+            "stealth"
+        ],
+        "instantiated_by" : [
+            "algorithmic-agents",
+            "context-dependent-actions",
+            "context-dependent-dialogues",
+            "enactment",
+            "game-masters",
+            "performance-uncertainty"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

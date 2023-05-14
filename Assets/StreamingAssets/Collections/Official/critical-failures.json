@@ -1,0 +1,57 @@
+{
+    "name" : "Critical Failures",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Predetermined negative effects that occur due randomness when trying a game action which don't occur during normal failures.",
+        "markups" : [
+            "<style=\"Definition\">Predetermined negative effects that occur due randomness when trying a game action which don't occur during normal failures.</style>",
+            "Many games require the outcome of player actions to be determined by a combination of randomness and the diegetic skill of the agent the player is using to perform that action. <style=\"CurrentLink\">Critical Failures</style> are specifically bad results that occur randomly which have (bad) effects beyond those possible through ordinary failures.",
+            "TV Tropes have an entry for <i>Critical Failure</i>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Darkness\">World of Darkness</link></style> games are examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> that make use of <style=\"CurrentLink\">Critical Failures</style>. Performing magic in both <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Battle\">Warhammer Fantasy Battle</link></style> has a certain risk of causing supernatural being to take notice to the action and react to it.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Critical Failures</style> in a game have three main components: deciding which actions can result in <style=\"CurrentLink\">Critical Failures</style>, what the effects are of those failures, and what should be the probabilities of such failures. <style=\"Link\"><link=\"combat\">Combat</link></style> is probably the most common case where <style=\"CurrentLink\">Critical Failures</style> are used through the most specific pattern <style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style> but actions requiring the use of <style=\"Link\"><link=\"skills\">Skills</link></style> are also common since these <style=\"Link\"><link=\"skills\">Skills</link></style> allow easy ways to construct algorithms that decide the probabilities of <style=\"CurrentLink\">Critical Failures</style> (meaning that these two patterns modulate each other). The negative effects of <style=\"CurrentLink\">Critical Failures</style> can be described as simply attributing specific <style=\"Link\"><link=\"penalties\">Penalties</link></style> to those suffering from them, but these <style=\"Link\"><link=\"penalties\">Penalties</link></style> are typically ones that one cannot get through ordinary failures. As just mentioned, <style=\"Link\"><link=\"skills\">Skills</link></style> can be used to calculate the probabilities of <style=\"CurrentLink\">Critical Failures</style>, but these can also be modified by <style=\"Link\"><link=\"tools\">Tools</link></style> (<style=\"Link\"><link=\"weapons\">Weapons</link></style> in the case of <style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style>). Regardless of how the probabilities are determined, <style=\"Link\"><link=\"randomness\">Randomness</link></style> needs to be used to create <style=\"CurrentLink\">Critical Failures</style> since by definition the pattern does not depend directly on players' performances.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Critical Failures</style> are a type of <style=\"Link\"><link=\"critical-results\">Critical Results</link></style> and can become <style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style>. Rather obviously, they are in conflict with <style=\"Link\"><link=\"critical-successes\">Critical Successes</link></style>, and make <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> less likely. Since they are based on <style=\"Link\"><link=\"randomness\">Randomness</link></style> rather than how well players' perform, they also work against <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"critical-results\">Critical Results</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"skills\">Skills</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"critical-successes\">Critical Successes</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "critical-results",
+            "penalties",
+            "exceptional-events"
+        ],
+        "modulates" : [
+            "skills"
+        ],
+        "instantiated_by" : [
+            "critical-misses",
+            "randomness"
+        ],
+        "modulated_by" : [
+            "skills",
+            "tools"
+        ],
+        "conflicts" : [
+            "critical-successes",
+            "predictable-consequences",
+            "performance-uncertainty"
+        ]
+    }
+}

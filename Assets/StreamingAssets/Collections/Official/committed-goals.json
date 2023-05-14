@@ -1,0 +1,84 @@
+{
+    "name" : "Committed Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Goals that players have entered a form of contract to try and fulfill.",
+        "markups" : [
+            "<style=\"Definition\">Goals that players have entered a form of contract to try and fulfill.</style>",
+            "Although most games have many goals in them, players do not have to accept or strive to complete all of them. However, there are goals that players need to strive towards. This might be because they are forced to or because they will suffer some form of penalty if the goals are not completed. Such goals are <style=\"CurrentLink\">Committed Goals</style>. Another type of <style=\"CurrentLink\">Committed Goal</style> occurs when players have to choose between a number of goals to try and complete; here the commitment is based on the fact that players have chosen so they cannot succeed with other goals and thereby committed themselves to the chosen goals.",
+            "<style=\"H3\">Examples</style>",
+            "The winning conditions of games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> are <style=\"CurrentLink\">Committed Goals</style> that players have to strive for; if they are not working toward these conditions, they are not playing the game.",
+            "In the board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ticket%20to%20Ride\">Ticket to Ride</link></style>, players can commit to building a railway line between cities. Once committed, the player will at the end of the game either receive a certain amount of points if successful or be penalized by the same amount if the line is not completed. A similar example can be found in the trick-based card game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bridge\">Bridge</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Committed Goals</style> are typically used in games for a number of different reasons. One is to make stronger <style=\"Link\"><link=\"closure-points\">Closure Points</link></style> since both successes and failures are likely to have emotional effects. Another is to evoke more <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style> in players. This can be due to players' being aware of the stronger <style=\"Link\"><link=\"closure-points\">Closure Points</link></style> but also due to players having selected the goals and they thereby are more likely to be felt like <i>their</i> goals. A third reason since to be able to force players to have to choose between several <style=\"CurrentLink\">Committed Goals</style> they have and thereby have <style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style>. A final, more specific, reason may be to set up situations where players can or have to engage in <style=\"Link\"><link=\"betrayal\">Betrayal</link></style> related to a <style=\"CurrentLink\">Committed Goals</style>.",
+            "While many goals can be <style=\"CurrentLink\">Committed Goals</style> or share much with <style=\"CurrentLink\">Committed Goals</style>, the defining feature of <style=\"CurrentLink\">Committed Goals</style> is that players have to commit to the goals and that the commitment brings with it a (potential) penalty. This means that <style=\"CurrentLink\">Committed Goals</style> need to be <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, although it may be that players only have a choice of selecting one goal from a group of two or more goals. Further, a <style=\"Link\"><link=\"penalties\">Penalty</link></style> needs to be related to the goal. The penalty associated with a <style=\"CurrentLink\">Committed Goal</style> can either be that players can suffer a penalty if they fail or that they have forsaken the chance to fulfill other goals by committing to that particular goal. <style=\"CurrentLink\">Committed Goals</style> can be shared between <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Players\">Players</link></style> (or more correctly <style=\"Link\"><link=\"agents\">Agents</link></style>), e.g. if they engage in <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style> where failure leads to <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> can be allowed to give players some freedom regarding the exact <style=\"Link\"><link=\"penalties\">Penalties</link></style> and <style=\"Link\"><link=\"rewards\">Rewards</link></style> of <style=\"CurrentLink\">Committed Goals</style> if the goals are shared or if someone else can offer the goal to the players. ",
+            "Some goals and other design structures in games create <style=\"CurrentLink\">Committed Goals</style>. <style=\"Link\"><link=\"investments\">Investments</link></style> is a clear case where players have voluntary committed some <style=\"Link\"><link=\"resources\">Resource</link></style> with the hopes of having a future <style=\"Link\"><link=\"rewards\">Reward</link></style>. Less explicit is joining <style=\"Link\"><link=\"factions\">Factions</link></style> or declaring <style=\"Link\"><link=\"loyalty\">Loyalty</link></style> to some game entity; here, players choose to be part of some social structure for some gain but typically risk negative consequences if they do not live up to social expectations (an example of <style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>). ",
+            "All <style=\"CurrentLink\">Committed Goals</style> support a weak form of <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> since players can choose between taking on the goal or ignoring it. However, this becomes stronger if players are presented with several <style=\"CurrentLink\">Committed Goals</style> to choose from and especially so if these are <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>. ",
+            "Players can create <style=\"CurrentLink\">Committed Goals</style> whenever they perform actions they helps others (and not directly themselves) for the hopes of those others helping them back in the future. This is a commitment since performing such actions is typically an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Investment\">Investment</link></style> with a cost (if nothing else losing the opportunity of having done another action) as well as a penalty of not receiving help back. Performing such <style=\"CurrentLink\">Committed Goals</style> is therefore a way for players to engage in <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style> situations. Another example of <style=\"CurrentLink\">Committed Goals</style> that players can create is to engage in <style=\"Link\"><link=\"betting\">Betting</link></style> on outcomes of the game. This is outside the rules of the game, i.e. the <style=\"Link\"><link=\"rewards\">Rewards</link></style> and <style=\"Link\"><link=\"penalties\">Penalties</link></style> are <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, so designers cannot hinder this but can try to discourage (or encourage) it how the game is presented. ",
+            "<style=\"Link\"><link=\"pottering\">Pottering</link></style> usually doesn't work together with <style=\"CurrentLink\">Committed Goals</style> since the nature of <style=\"Link\"><link=\"pottering\">Pottering</link></style> is to not pressure players regarding <style=\"Link\"><link=\"penalties\">Penalties</link></style> or <style=\"Link\"><link=\"rewards\">Rewards</link></style> when handling game <style=\"Link\"><link=\"resources\">Resources</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Since <style=\"CurrentLink\">Committed Goals</style> are undertakings chosen by players, they can support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style> and create stronger <style=\"Link\"><link=\"closure-points\">Closure Points</link></style> as they in one sense are more the players' goals than those enforced upon players. Also, since they are chosen given potential <style=\"Link\"><link=\"penalties\">Penalties</link></style> and <style=\"Link\"><link=\"rewards\">Rewards</link></style>, they are also very likely to make players consider <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> ratios. However, having <style=\"CurrentLink\">Committed Goals</style> can make <style=\"Link\"><link=\"agents\">Agents</link></style> in games have what is equal to <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style> when the <style=\"Link\"><link=\"penalties\">Penalties</link></style> of the goals make it paramount to try to succeed with them. ",
+            "<style=\"Link\"><link=\"quests\">Quests</link></style> provide players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> choices since they <style=\"Link\"><link=\"quests\">Quests</link></style> are <style=\"CurrentLink\">Committed Goals</style> that have both <style=\"Link\"><link=\"penalties\">Penalties</link></style> and <style=\"Link\"><link=\"rewards\">Rewards</link></style> associated with them.",
+            "Players gain <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals when they know that other players having <style=\"CurrentLink\">Committed Goals</style> but do not know the details of them (i.e. when they are to a certain extent <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style>).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>, <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style>, <style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style></style>",
+            "<style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"quests\">Quests</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style></style>",
+            "<style=\"Link\"><link=\"gain-information\">Gain Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"closure-points\">Closure Points</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"betting\">Betting</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"loyalty\">Loyalty</link></style>",
+            "<style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style> together with <style=\"Link\"><link=\"penalties\">Penalties</link></style>",
+            "<style=\"Link\"><link=\"betting\">Betting</link></style> together with <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>",
+            "<style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style> together with <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"pottering\">Pottering</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "delayed-reciprocity",
+            "emotional-engrossment",
+            "enforced-agent-behavior",
+            "internal-conflicts",
+            "risk-reward",
+            "trade-offs",
+            "trade-offs",
+            "risk-reward",
+            "gain-information"
+        ],
+        "modulates" : [
+            "closure-points",
+            "player-decided-distributions"
+        ],
+        "instantiated_by" : [
+            "betting",
+            "factions",
+            "investments",
+            "loyalty",
+            "optional-goals",
+            "betting",
+            "collaborative-actions"
+        ],
+        "modulated_by" : [
+            "betrayal",
+            "negotiation"
+        ],
+        "conflicts" : [
+            "pottering"
+        ]
+    }
+}

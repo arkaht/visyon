@@ -1,0 +1,73 @@
+{
+    "name" : "Player Kicking",
+    "categories" : [
+        "Patterns",
+        "Action Patterns",
+        "Interface Patterns",
+        "Gameplay Adaptability Patterns"
+    ],
+    "texts" : {
+        "definition" : "The extra-game action of removing a player from game instances.",
+        "markups" : [
+            "<style=\"Definition\">The extra-game action of removing a player from game instances.</style>",
+            "Even if all games have explicit or formalized rules at their core, additional rules govern the actual activities they support. These rules, called gaming rules or implicit rules, also need to be followed and can in fact be more important to follow as long as failure to follow the formalized rules are unintentional (see Myers 2008 for an example of how following the official rules but not the social rules of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/City%20of%20Heroes\">City of Heroes</link></style> can result in a player being hated ). When players do not follow these more important set of rules, either the other players or the game facilitators can enforce that offending players do not play anymore, <style=\"CurrentLink\">Player Kicking</style> them, in order to be able to continue with the gaming activity.",
+            "<style=\"H3\">Examples</style>",
+            "Many team-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> have rules for banning players from the current match or future ones if they commit various fouls. Similarly, moderators of team-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>,  and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style>, , can ban players but here players can also ban each other through majority votes. This functionality is needed since not all games are supervised and since the players typically do not know each other and are distributed spatially.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Player Kicking</style> is not so much a pattern concerning gameplay as it is one concerning the game activity as a whole. It is added to games that want to give players or <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> the power to police themselves when some player is not behaving. Reasons for these can be cheating, using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Exploits\">Exploits</link></style>, repeatedly engaging in <style=\"Link\"><link=\"friendly-fire\">Friendly Fire</link></style>, or any other activity that is deemed socially unacceptable. <style=\"CurrentLink\">Player Kicking</style> does not directly have to do with gameplay progression, and therefore it does not make sense for game systems to perform this type of kicking. This makes the pattern make most sense in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> since cases where players of <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> - include those with <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> - perform in unacceptable ways and are kicked as a result are difficult to distinguish from other cases of <style=\"Link\"><link=\"game-over\">Game Over</link></style> in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>.",
+            "Implementing the pattern consist either of giving <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> or <style=\"Link\"><link=\"entitled-players\">Entitled Players</link></style> privileges to access functionality to throw players from game servers, or implementing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voting\">Voting</link></style> system so players can initiate and enforce the kicking of other players on their own. It does not need to be supported explicitly through design in <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> since players and <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can there kick players on their own initiative.",
+            "<style=\"CurrentLink\">Player Kicking</style> be limited in both time and scope. For the time aspect, this may simply mean the ongoing game instance, a predefined minutes or hours, a predefined number of game instances, or permanent bans. Regarding scope, <style=\"CurrentLink\">Player Kicking</style> is most often limited to one <style=\"Link\"><link=\"game-servers\">Game Server</link></style> but <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style> may impose bans from playing globally.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "The actual act of kicking a player is often preceded by some type of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>. For games that are not played face-to-face, this can be supported by <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>. When the <style=\"CurrentLink\">Player Kicking</style> is enforced through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voting\">Voting</link></style>, this similarly needs to be supported by <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> if the game is not one played face-to-face.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Player Kicking</style> puts players under a threat that they can suffer <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style> in games due to causes besides those specifically inscribed in game rules. When players can kick each other through a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voting\">Voting</link></style> system, <style=\"CurrentLink\">Player Kicking</style> gives players a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> of whom they need to play with. While this may help create an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, the possibility of being kicked oneself can work against having a feeling <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>.",
+            "The actual act of <style=\"CurrentLink\">Player Kicking</style> is an <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Action</link></style> that leads to <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> and <style=\"Link\"><link=\"game-over\">Game Over</link></style> for the affected players. Since this is usually something contested by these players, <style=\"CurrentLink\">Player Kicking</style> is often preceded by <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>.",
+            "Although not a positive one, those kicked by other players have been given the <style=\"Link\"><link=\"social-roles\">Social Role</link></style> of being banned.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voting\">Voting</link></style></style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"entitled-players\">Entitled Players</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voting\">Voting</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "early-elimination",
+            "exaggerated-perception-influence",
+            "extra-game-actions",
+            "game-over",
+            "negotiation",
+            "player-elimination",
+            "social-roles",
+            "freedom-choice"
+        ],
+        "modulates" : [
+            "game-servers",
+            "meta-servers",
+            "multiplayer-games"
+        ],
+        "instantiated_by" : [
+            "entitled-players",
+            "game-masters",
+            "self-facilitated-games",
+            "voting"
+        ],
+        "modulated_by" : [
+            "communication-channels",
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+            "exaggerated-perception-influence"
+        ]
+    }
+}

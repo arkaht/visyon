@@ -1,0 +1,89 @@
+{
+    "name" : "Progress Indicators",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "Information about players' current progress towards closures in addition to the configuration of game elements involved.",
+        "markups" : [
+            "<style=\"Definition\">Information about players' current progress towards closures in addition to the configuration of game elements involved.</style>",
+            "<style=\"CurrentLink\">Progress Indicators</style> are non-diegetic presentations of specific measurement of the game state that are shown to players to help them understand how the gameplay is progressing.",
+            "<style=\"H3\">Examples</style>",
+            "Some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style>, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Out%20Run\">Out Run</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/F-Zero%20series\">F-Zero series</link></style>, and some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pillars%20of%20Eternity\">Pillars of Eternity</link></style>, have maps which indicate how far the players have traveled. Another example from another genre is the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style>. Note that for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> these maps only work as <style=\"CurrentLink\">Progress Indicators</style> if the gameplay is based around scenes or levels that need to be completed before others can be reached. ",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda%20series\">Zelda: Link to the Past</link></style> a subgoal is to gather nine crystals. Progress in this task is indicated by arranging the crystals in an octagon, where the collected crystals are placed in empty place holders.",
+            "Incapacitated players in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> have negative <style=\"CurrentLink\">Progress Indicators</style> that show how long time other players have to save them before they die.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Progress Indicators</style> are used to help inform players about specific aspects of the game state, so their use is motivated by various needs related to this and the main challenge in designing them is to determine how they show be shown and when. One use of <style=\"CurrentLink\">Progress Indicators</style> is to help players understand how far they have gotten in some <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, e.g. <style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"grind-achievements\">Grind Achievements</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, or <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals. Another is to let players know what they need to do next as part of a series of actions they need to perform, with <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style> as a typical example. Yet another is to let players know how much time is left until some event will occur in the game, i.e. they can help inform players of <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style>, <style=\"Link\"><link=\"development-time\">Development Time</link></style>, and <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> and thereby also modify players experiences of <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style>. For <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>, they may offer a way for players to compare their game instance with that of other game instances.",
+            "Many other specific gameplay design solution for games work as <style=\"CurrentLink\">Progress Indicators</style> and can therefore be considered when <style=\"CurrentLink\">Progress Indicators</style> are needed. <style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style>, or series of <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals do this automatically. <style=\"Link\"><link=\"achievements\">Achievements</link></style>, <style=\"Link\"><link=\"alignment\">Alignment</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style> goals, <style=\"Link\"><link=\"goal-achievements\">Goal Achievements</link></style>, and <style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style> may not explicitly present themselves as <style=\"CurrentLink\">Progress Indicators</style> but can be used as such for players reflecting on the gameplay as it develops over time. More generally, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style> about the game state and <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> can otherwise be used to create <style=\"CurrentLink\">Progress Indicators</style>. ",
+            "Since <style=\"CurrentLink\">Progress Indicators</style> give more information to players they counter <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Progress Indicators</style> tend to create <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style> in games unless the values they show can be given a diegetic representation.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Progress Indicators</style> support players in understanding how their actions help them or not reach certain closures, and since these typically are related to goals <style=\"CurrentLink\">Progress Indicators</style> thereby work as <style=\"Link\"><link=\"goal-indicators\">Goal Indicators</link></style>. As such they can help players have a <style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style> and experience <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style> but if the <style=\"CurrentLink\">Progress Indicators</style> are in complete alignment with the overarching goals of a game they may also provide <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> or <style=\"Link\"><link=\"illusionary-rewards\">Illusionary Rewards</link></style>. <style=\"CurrentLink\">Progress Indicators</style> typically create <style=\"Link\"><link=\"races\">Races</link></style> when players can view <style=\"CurrentLink\">Progress Indicators</style> for other players and themselves.",
+            "<style=\"CurrentLink\">Progress Indicators</style> provide quite different functionality depending on which information about the game state they show. By showing value that are central to the outcome of a game instance, e.g. <style=\"Link\"><link=\"scores\">Scores</link></style>, they can be <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>. By instead showing only after players have just missed reaching a goal they can instead be <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style>.",
+            "<style=\"CurrentLink\">Progress Indicators</style> can create <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style> when combined with either <style=\"Link\"><link=\"combos\">Combos</link></style> or <style=\"Link\"><link=\"development-time\">Development Time</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"goal-indicators\">Goal Indicators</link></style>, <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style>, <style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style>, <style=\"Link\"><link=\"illusionary-rewards\">Illusionary Rewards</link></style>, <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style>, <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"combos\">Combos</link></style> or <style=\"Link\"><link=\"development-time\">Development Time</link></style></style>",
+            "<style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style>, <style=\"Link\"><link=\"development-time\">Development Time</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"grind-achievements\">Grind Achievements</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"achievements\">Achievements</link></style>, <style=\"Link\"><link=\"alignment\">Alignment</link></style>, <style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"goal-achievements\">Goal Achievements</link></style>, <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "determinable-chance-succeed",
+            "exaggerated-perception-influence",
+            "game-state-indicators",
+            "goal-indicators",
+            "hovering-closures",
+            "increasing-rewards",
+            "illusionary-rewards",
+            "near-miss-indicators",
+            "non-diegetic-features",
+            "races",
+            "scores",
+            "tension",
+            "hovering-closures"
+        ],
+        "modulates" : [
+            "combos",
+            "delayed-effects",
+            "development-time",
+            "extended-actions",
+            "grind-achievements",
+            "races",
+            "rhythm-based-actions",
+            "time-limits",
+            "time-pressure",
+            "traverse",
+            "unwinnable-games"
+        ],
+        "instantiated_by" : [
+            "achievements",
+            "alignment",
+            "check-points",
+            "connection",
+            "direct-information",
+            "game-state-overviews",
+            "goal-achievements",
+            "supporting-goals",
+            "traverse"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "uncertainty-information"
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name" : "No-Use Bonus",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The providing of bonuses to unselected actions to make them more like to be used in the future.",
+        "markups" : [
+            "<style=\"Definition\">The providing of bonuses to unselected actions to make them more like to be used in the future.</style>",
+            "Some actions may be underused in games where players can choose between different actions. This may be because of specific races between players or that the game state currently makes some actions less valuable. To balance the use between all actions, those actions selected by no player during a turn may receive additional resources or bonuses as extra incentives for players to chose the actions next turn. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> (and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/San%20Juan\">San Juan</link></style>) have a <style=\"CurrentLink\">No-Use Bonus</style> through the placement of a coin on the actions not chosen during a turn. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Agricola\">Agricola</link></style> has a weak form of <style=\"CurrentLink\">No-Use Bonus</style> in that some of the possible actions produce resources every turn, so those not chosen one turn will have double or more the \"normal\" amount of resources.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">No-Use Bonus</style> is a pattern that can help load balance the use of the actions made possible by <style=\"Link\"><link=\"role-selection\">Role Selection</link></style> or, less commonly, shared systems using <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>. The main design choices when introducing it consists of what <style=\"Link\"><link=\"resources\">Resource</link></style> to add, although <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style> may be the most natural unless the actions already have some other <style=\"Link\"><link=\"resources\">Resources</link></style> associated with them.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">No-Use Bonus</style> introduces a way for <style=\"Link\"><link=\"resources\">Resources</link></style> to be <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style> in a game. It also rebalances the value of the possible options in systems of <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style> and <style=\"Link\"><link=\"role-selection\">Role Selection</link></style> each time it is applied, and this value change is independent of the rest of a game state. By doing so it modulates the possibilities of <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> in a game - some choices may become easier to predict (e.g. an action that has received several <style=\"CurrentLink\">No-Use Bonuses</style> is quite likely to be chosen) but other choices may be more difficult because players are introduced to new <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between actions.",
+            "<style=\"CurrentLink\">No-Use Bonus</style> introduces a slight amount of <style=\"Link\"><link=\"excise\">Excise</link></style> in games each turn, and this is a communal <style=\"Link\"><link=\"excise\">Excise</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"role-selection\">Role Selection</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "excise",
+            "renewable-resources",
+            "trade-offs"
+        ],
+        "modulates" : [
+            "budgeted-action-points",
+            "predictable-consequences",
+            "role-selection"
+        ],
+        "instantiated_by" : [
+            "money",
+            "resources"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

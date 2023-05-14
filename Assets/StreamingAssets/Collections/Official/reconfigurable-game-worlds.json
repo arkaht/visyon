@@ -1,0 +1,78 @@
+{
+    "name" : "Reconfigurable Game Worlds",
+    "categories" : [
+        "Patterns",
+        "Level Design Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game worlds whose fundamental structures can change during gameplay or between game instances.",
+        "markups" : [
+            "<style=\"Definition\">Game worlds whose fundamental structures can change during gameplay or between game instances.</style>",
+            "While many games have game worlds, only some of them allow changes to their structures. These changes can be between game instances to provide players with new gameplay experiences or occur during gameplay as the effect of player actions. Games that have either one of these two types of changes - or both - have <style=\"CurrentLink\">Reconfigurable Game Worlds</style>.",
+            "<i>Note:</i> this pattern describes changes in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> related to gameplay functionality rather than those related to narratives (for this see <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> or <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>). Further, although their difference can sometimes be blurry, this pattern looks at changes to <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> rather that the contents in them. For patterns dealing more with changes in the contents of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, see for example <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, and <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>. ",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Game</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style> contains a number of corridors and rooms that are set up in different configurations before gameplay begins to allow a number of different scenarios to be played. Likewise, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Slaves to Armok II: Dwarf Fortress</link></style> randomize new game worlds each time a new game instance is started. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style> have a balanced scheme for placing the resources tiles used in it, but it is commonly played by randomizing the tiles to provide more variation for experienced players. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%202\">Portal 2</link></style> has a <style=\"CurrentLink\">Reconfigurable Game World</style> both in how the players' current nemesis can remodel the environment and in how players by their actions can activate machinery that lowers barriers, creates bridges and stairs, or otherwise changes the environment.",
+            "Entrusted players of text-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style> can expand or reconfigure game worlds by more or less complex programming.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Reconfigurable Game Worlds</style> quite naturally require the presence of a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> to configure. Beyond this, the primary design choice for using the pattern is to decide whether the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> will be reconfigurable between or within game instances, or in a combination of both. <style=\"Link\"><link=\"configurable-gameplay-areas\">Configurable Gameplay Areas</link></style> details the special case of reconfiguring <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> before gameplay begins.",
+            "Reconfiguration of the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> itself is often done by having it consist of <style=\"Link\"><link=\"tiles\">Tiles</link></style>, and then either use <style=\"Link\"><link=\"randomness\">Randomness</link></style> to create the world (as in e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style>) or by letting players do <style=\"Link\"><link=\"tile-laying\">Tile-Laying</link></style> as part of their actions (as in e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carcassonne\">Carcassonne</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Species\">Dominant Species</link></style>). Variations of this include having <style=\"Link\"><link=\"moveable-tiles\">Moveable Tiles</link></style> (which can represent the changeable environment in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%202\">Portal 2</link></style>) or <style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style> (as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hey!%20That's%20My%20Fish!\">Hey! That's My Fish!</link></style>). <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> can also be used for these solutions to having <style=\"CurrentLink\">Reconfigurable Game Worlds</style> but can handle less mechanically defined <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> as well, e.g. those used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style>, e.g. those available as downloadable content for the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, show one such way that <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> can change <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mods\">Mods</link></style> can in this perspective be seen as the player equivalent. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style> show that players can also perform more complex expansions and reconfigurations of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> if the game systems provided the appropriate tools.",
+            "<style=\"Link\"><link=\"scenes\">Scenes</link></style> provide a way of having <style=\"CurrentLink\">Reconfigurable Game Worlds</style> without having to specify more details than are necessary for gameplay actually taking place.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "As a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Level%20Design%20Patterns\">Level Design Pattern</link></style>, <style=\"CurrentLink\">Reconfigurable Game Worlds</style> have inherent effects on the diegesis of a game. If this breaks the <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> however depends if the changes take during gameplay or not, and if they do so without a sensible thematic explanation.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Reconfigurable Game Worlds</style> allow changes to <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> during gameplay or between game instances. By doing so, they can provide <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> and <style=\"Link\"><link=\"replayability\">Replayability</link></style> - especially so if players do the reconfiguration, e.g. through <style=\"Link\"><link=\"tile-laying\">Tile-Laying</link></style>. This can however come with the cost of making <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style> more difficult since players are likely to act both within and outside any <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> - it can also break the <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> if it takes places during gameplay. Games with <style=\"CurrentLink\">Reconfigurable Game Worlds</style> that also have <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> support <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> beyond that of keeping track of where <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"units\">Units</link></style> can be.",
+            "While changing the layout of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> between game instances supports <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, it can cause problems with having <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> since players may have <style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>.",
+            "<style=\"Link\"><link=\"persistent-game-world-changes\">Persistent Game World Changes</link></style> are possible in that game where reconfiguration last do not automatically revert after some time; this pattern is even more present if these events are <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"asymmetric-starting-conditions\">Asymmetric Starting Conditions</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"persistent-game-world-changes\">Persistent Game World Changes</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"fog-war\">Fog of War</link></style></style>",
+            "<style=\"Link\"><link=\"memorizing\">Memorizing</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"configurable-gameplay-areas\">Configurable Gameplay Areas</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mods\">Mods</link></style>, <style=\"Link\"><link=\"moveable-tiles\">Moveable Tiles</link></style>, <style=\"Link\"><link=\"scenes\">Scenes</link></style>, <style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>, <style=\"Link\"><link=\"tile-laying\">Tile-Laying</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "asymmetric-starting-conditions",
+            "game-world-exploration",
+            "persistent-game-world-changes",
+            "replayability",
+            "varied-gameplay",
+            "memorizing"
+        ],
+        "modulates" : [
+            "game-worlds"
+        ],
+        "instantiated_by" : [
+            "configurable-gameplay-areas",
+            "dedicated-game-facilitators",
+            "expansions",
+            "mods",
+            "moveable-tiles",
+            "scenes",
+            "shrinking-game-worlds",
+            "tiles",
+            "tile-laying"
+        ],
+        "modulated_by" : [
+            "irreversible-events",
+            "randomness"
+        ],
+        "conflicts" : [
+            "diegetic-consistency",
+            "narrative-engrossment",
+            "player-balance"
+        ]
+    }
+}

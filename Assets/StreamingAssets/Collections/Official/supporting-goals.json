@@ -1,0 +1,89 @@
+{
+    "name" : "Supporting Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Goals whose primary effect is to help players achieve other goals of a game.",
+        "markups" : [
+            "<style=\"Definition\">Goals whose primary effect is to help players achieve other goals of a game.</style>",
+            "Games provide players with goals that let them win the games or find meaning in the games. However, other goals may also exist in these games, and the goals that help players succeed with other goals are <style=\"CurrentLink\">Supporting Goals</style> for those goals.",
+            "<style=\"H3\">Examples</style>",
+            "In the case of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, the subgoals of capturing the opponent's pieces can be seen as <style=\"CurrentLink\">Supporting Goals</style> for the higher level goal of checkmating the king. They are not necessary to achieve the checkmate but make it easier to complete.",
+            "Getting the power pill in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> is a <style=\"CurrentLink\">Supporting Goal</style> for the goal of taking all the pills as the ghosts cannot capture <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> during the time he is affected by the power pill.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> all provide many <style=\"CurrentLink\">Supporting Goals</style> to players in the form of weapons and ammunition that can be found and used throughout their game worlds.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Real-Time%20Strategy%20Games\">Real-Time Strategy Games</link></style>, such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Age%20of%20Empires\">Age of Empires</link></style>, have many <style=\"CurrentLink\">Supporting Goals</style> ranging from identifying and collecting resources to building defenses and scouting enemy territory, all of which support the goal of defeating the opponents. Much of the skill in those games lies in balancing the struggle towards the different <style=\"CurrentLink\">Supporting Goals</style> so that the chances of succeeding with the overarching goal are maximized given the particular circumstances of a specific game instance.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The design of <style=\"CurrentLink\">Supporting Goals</style> rely on identifying some other goal &mdash; a <style=\"Link\"><link=\"main-goals\">Main Goal</link></style> &mdash; which can be supported through the <style=\"Link\"><link=\"rewards\">Rewards</link></style> of a <style=\"CurrentLink\">Supporting Goal</style>. This can of course exist in several different layers, so what is the main goal for one <style=\"CurrentLink\">Supporting Goal</style> can be a <style=\"CurrentLink\">Supporting Goal</style> for another (main) goal. The actual challenges of <style=\"CurrentLink\">Supporting Goals</style> do not need to be directly related to their main goals, and this may be desirable since the reason for the <style=\"CurrentLink\">Supporting Goals</style> may be a general difficulty with the type of challenge rather than the difficulty level of the challenge. Another reason why it may be desirable is to provide players with <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>. ",
+            "<style=\"CurrentLink\">Supporting Goals</style> are typically <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style> in that they are designed in relate to other goals and have explicit <style=\"Link\"><link=\"rewards\">Rewards</link></style> linked to supporting the other goals. Exceptions to this can be designed through making sure that the consequences of pursuing certain actions or making certain events happen provide the support anyway, then these actions or events do not have to have explicit <style=\"CurrentLink\">Supporting Goals</style> attached to them and players instead have to figure out that these are possible <style=\"CurrentLink\">Supporting Goals</style> due to the interactions between the game rules.",
+            "Goals that commonly work as <style=\"CurrentLink\">Supporting Goals</style> include <style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, and <style=\"Link\"><link=\"sidequests\">Sidequests</link></style>. Other common <style=\"CurrentLink\">Supporting Goals</style> are those that provide players with <style=\"Link\"><link=\"resources\">Resources</link></style> (for example through <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>) and those that let players have <style=\"Link\"><link=\"new-abilities\">New</link></style> or <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>. The general goal class of <style=\"Link\"><link=\"races\">Races</link></style> can provide any of these and these goals are therefore often <style=\"CurrentLink\">Supporting Goals</style> when they are not the primary goals in a game. The role of <style=\"Link\"><link=\"factions\">Factions</link></style> in games is often to provide players access to <style=\"Link\"><link=\"abilities\">Abilities</link></style> and <style=\"Link\"><link=\"resources\">Resources</link></style> and in therefore also typical to provide players with <style=\"CurrentLink\">Supporting Goals</style> in the form of goals to join them or goals given by them that give such <style=\"Link\"><link=\"abilities\">Abilities</link></style> or <style=\"Link\"><link=\"resources\">Resources</link></style> as <style=\"Link\"><link=\"rewards\">Rewards</link></style>. The main point of <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> is to make other activities of players easier and constructing <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> are for this reason always <style=\"CurrentLink\">Supporting Goals</style>. The only caveat to this is if players get overly focused on continuing building on their <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> instead of the main goals of the game (this is the challenge in mastering a <style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style>). ",
+            "Any goals that do help players have more agency in a game, as the ones providing <style=\"Link\"><link=\"new-abilities\">New</link></style> or <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> or more <style=\"Link\"><link=\"resources\">Resources</link></style>, can work as <style=\"CurrentLink\">Supporting Goals</style> towards other goals that rely on these <style=\"Link\"><link=\"abilities\">Abilities</link></style> or <style=\"Link\"><link=\"resources\">Resources</link></style>. This means that often <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style> tend to be <style=\"CurrentLink\">Supporting Goals</style> as well although in an indirect fashion. <style=\"CurrentLink\">Supporting Goals</style> that are not optional instead help create <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>. ",
+            "Where and when <style=\"CurrentLink\">Supporting Goals</style> can be encountered is another important aspect of their design. One option is of course to always have them present while others is to make them only temporary available. For games with <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, they may be placed in the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> at different places to encourage the exploration as well as providing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> as part of the exploration. They can similarly be placed in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> which have <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals to split the goal into several smaller ones or to provide places where <style=\"Link\"><link=\"chargers\">Chargers</link></style> exist; see the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sega%20Rally%20series\">Sega Rally series</link></style> for an example linked to <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%20series\">Super Monkey Ball series</link></style> for example of speed boosters. In the case of <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals their importance may also be as marking that <style=\"Link\"><link=\"check-points\">Check Points</link></style> have been reached (and these <style=\"Link\"><link=\"check-points\">Check Points</link></style> may in turn be <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> and <style=\"Link\"><link=\"save-points\">Save Points</link></style>).",
+            "Goals based around <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style> are the opposite of <style=\"CurrentLink\">Supporting Goals</style> since they misled players. The exception is when the <style=\"Link\"><link=\"rewards\">Rewards</link></style> for these goals provide improvements in <style=\"Link\"><link=\"abilities\">Abilities</link></style> or <style=\"Link\"><link=\"resources\">Resources</link></style> as this may make them indirectly <style=\"CurrentLink\">Supporting Goals</style> in the same way other goals with these types of <style=\"Link\"><link=\"resources\">Resources</link></style> are.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Supporting Goals</style> that players must do to complete main goals create <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> and function as <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> towards completing the main goals. Optional ones in contrast make players have to do <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between doing the <style=\"CurrentLink\">Supporting Goals</style> can going directly for the main goals. This can require <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> considerations if the <style=\"CurrentLink\">Supporting Goals</style> have bad failure consequences or if they can work against the main goals by making players waste <style=\"Link\"><link=\"resources\">Resources</link></style> or time. In this way <style=\"CurrentLink\">Supporting Goals</style> can modify <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, by letting players either try to take on the main goals directly or make use of <style=\"CurrentLink\">Supporting Goals</style> to (potentially) make the main goals easier to complete. ",
+            "<style=\"CurrentLink\">Supporting Goals</style> can sometimes modify <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> when they let disadvantaged players have a chance to catch up. This of course depends on the <style=\"CurrentLink\">Supporting Goals</style> not being easier for the leading players to complete or win and that the disadvantaged players don't become even more disadvantaged regarding the main area of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflict</link></style> by working towards fulfilling the <style=\"CurrentLink\">Supporting Goals</style>. ",
+            "<style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> with <style=\"CurrentLink\">Supporting Goals</style> to players' goals can create <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> and <style=\"Link\"><link=\"team-combos\">Team Combos</link></style>. They may also make for more <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>. <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> that have <style=\"CurrentLink\">Supporting</style> and <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style> to the goals of players can be <style=\"Link\"><link=\"companions\">Companions</link></style> to those players. A typical example of this is the <style=\"Link\"><link=\"companions\">Companions</link></style> players can acquire in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> and <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style></style>",
+            "<style=\"Link\"><link=\"companions\">Companions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style></style>",
+            "<style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"team-combos\">Team Combos</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"main-goals\">Main Goals</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"chargers\">Chargers</link></style>, <style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"sidequests\">Sidequests</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "goal-hierarchies",
+            "progress-indicators",
+            "varied-gameplay",
+            "companions",
+            "casual-gameplay",
+            "cooperation",
+            "team-combos"
+        ],
+        "modulates" : [
+            "challenging-gameplay",
+            "game-world-exploration",
+            "main-goals",
+            "player-balance",
+            "risk-reward",
+            "trade-offs",
+            "traverse"
+        ],
+        "instantiated_by" : [
+            "area-control",
+            "chargers",
+            "check-points",
+            "evade",
+            "factions",
+            "gain-information",
+            "gameplay-engines",
+            "improved-abilities",
+            "new-abilities",
+            "optional-goals",
+            "pick-ups",
+            "sidequests",
+            "races"
+        ],
+        "modulated_by" : [
+            "predefined-goals"
+        ],
+        "conflicts" : [
+            "conflicts",
+            "red-herrings"
+        ]
+    }
+}

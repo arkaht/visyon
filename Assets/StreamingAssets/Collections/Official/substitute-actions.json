@@ -1,0 +1,66 @@
+{
+    "name" : "Substitute Actions",
+    "categories" : [
+        "Diegetic Patterns",
+        "Interface Patterns",
+        "Narration Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Enactment where one type of action represents another action.",
+        "markups" : [
+            "<style=\"Definition\">Enactment where one type of action represents another action.</style>",
+            "While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> make players enact their characters' actions, not all action are feasible to enact due to physical, social or moral issues. <style=\"CurrentLink\">Substitute Actions</style> is a solution to this where problematic actions are replaced by other actions which have similarities to the problematic ones but are acceptable to use.",
+            "The concept of <style=\"CurrentLink\">Substitute Actions</style> have also been described as <i>Allegoric Play</i>, see Wrigstad.",
+            "<style=\"H3\">Examples</style>",
+            "As a pattern pertaining to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> and especially the <i>Nordic Larp</i> style, example of <style=\"CurrentLink\">Substitute Actions</style> are found in these games. Ars Armandi is one example, a rule system which replaces sex by representing it through touching somebody only on their hands, arms, shoulders, and upper back (for a description of this technique, see Stark). Another, more common, example is that of using padded or foam weapons to substitute real combat with <i>boffer</i> combat.",
+            "<style=\"H2\">Using the pattern</style>",
+            "When designing <style=\"CurrentLink\">Substitute Actions</style>, one needs to considering what are the affordances, consequences, and communication the problematic type of actions has. This being done, candidate types of actions which maintain as much of these as possible need to be identified. These candidates may also be slightly modified (or certain expressions given extra meanings) to fit better. ",
+            "After the <style=\"CurrentLink\">Substitute Actions</style> have been designed, how to inform players of these actions is a vital part of making them work successfully. Giving players the opportunity to train on these may be useful.",
+            "Specific examples of <style=\"CurrentLink\">Substitute Actions</style> include the above mentioned Ars Armandi and boffer combat.",
+            "<style=\"Link\"><link=\"workshopping\">Workshopping</link></style> techniques and especially <style=\"Link\"><link=\"warming-up-roleplay-exercises\">Warming-Up Roleplay Exercises</link></style> can help player familarize with how and when <style=\"CurrentLink\">Substitute Actions</style> should be performed before gameplay begins.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Substitute Actions</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Diegetic%20Patterns\">Diegetic Pattern</link></style> in that it directly affects the diegetic presentation in a game.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "From an interface perspective, <style=\"CurrentLink\">Substitute Actions</style> can be seen as a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style> in that it lets players have access to certain actions that otherwise would not be able to do.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "By providing a way to represent problematic actions and the events they cause, <style=\"CurrentLink\">Substitute Actions</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Narration%20Patterns\">Narration Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Substitute Actions</style> is a <style=\"Link\"><link=\"meta-techniques\">Meta-Technique</link></style> that can be done through <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> in <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>. By not forcing players to break their <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>, it can avoid or lessen the use of <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style> and thereby help maintain <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "<style=\"Link\"><link=\"meta-postures\">Meta-Postures</link></style> and <style=\"CurrentLink\">Substitute Actions</style> are diametrical solutions to the same design problem and thereby work against each other.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"meta-techniques\">Meta-Techniques</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>, <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"workshopping\">Workshopping</link></style>, <style=\"Link\"><link=\"warming-up-roleplay-exercises\">Warming-Up Roleplay Exercises</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"meta-postures\">Meta-Postures</link></style>, <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "diegetic-consistency",
+            "meta-techniques"
+        ],
+        "modulates" : [
+            "physical-enactment",
+            "live-action-roleplaying"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "workshopping",
+            "warming-up-roleplay-exercises"
+        ],
+        "conflicts" : [
+            "meta-postures",
+            "non-diegetic-communication"
+        ]
+    }
+}

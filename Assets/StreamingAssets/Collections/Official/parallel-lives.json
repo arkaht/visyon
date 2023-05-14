@@ -1,0 +1,56 @@
+{
+    "name" : "Parallel Lives",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game elements that when individually lost do not interrupt gameplay, but do so when all or a predefined amount of them are lost.",
+        "markups" : [
+            "<style=\"Definition\">Game elements that when individually lost do not interrupt gameplay, but do so when all or a predefined amount of them are lost.</style>",
+            "The loss of game elements is bad for players for many games. While in some games a player only has one game element and loses the game if this is lost, or as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> one has many but one is of vital importance, other games let players control many that are at risk at once and gameplay continue without too much disturbance at long as some of them still remain. Since each of these can be said to be one of the players' 'lives' and they are all at risk in parallel, these can be called <style=\"CurrentLink\">Parallel Lives</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Missile%20Command\">Missile Command</link></style> is an archetypical example of <style=\"CurrentLink\">Parallel Lives</style>: the player has six cities that all can be destroyed and the player can continue playing without losing a life as long as at least one city is intact. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lemmings%20series\">Lemmings series</link></style> give players the goal to make a certain number of 'lemmings' make it from one point of a level to another. Which make it is not important as long as a sufficient number do.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style> is an example of a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Game</link></style> that uses <style=\"CurrentLink\">Parallel Lives</style>. Here the player controlling the space marines at least has a theoretical chance of completing their mission as long as one space marine is still alive.",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diplomacy\">Diplomacy</link></style> can continue playing as long as the control at least one supply center but it is not important which supply centers are controlled.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Parallel Lives</style> can be seen as a form of <style=\"Link\"><link=\"lives\">Lives</link></style>, and the design choices associated with <style=\"CurrentLink\">Parallel Lives</style> are similar to those of <style=\"Link\"><link=\"lives\">Lives</link></style> with the addition that one needs to decide what game elements represent the individual 'lives'. <style=\"Link\"><link=\"units\">Units</link></style> are a natural option since they are designed to exist in numbers and can typically be lost. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Missile%20Command\">Missile Command</link></style> shows how the available <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style> (in this specific case cities) can be the <style=\"CurrentLink\">Parallel Lives</style>. Games that use <style=\"Link\"><link=\"avatars\">Avatars</link></style> in ways close to that of <style=\"Link\"><link=\"units\">Units</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sleepwalker\">Sleepwalker</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20&%20Luigi:%20Partners%20in%20Time\">Mario & Luigi: Partners in Time</link></style>, show that these can also be used in some circumstances. Even <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> can be used as long as they are all approximately equally important and part of one and the same <style=\"Link\"><link=\"parties\">Party</link></style>.",
+            "The <style=\"Link\"><link=\"penalties\">Penalties</link></style> of losing a parallel 'life' is usually small comparably to that of <style=\"Link\"><link=\"lives\">Lives</link></style>, e.g. only the loss of the actions that a lost <style=\"Link\"><link=\"units\">Unit</link></style> provided. However, not all game elements need to be valued the same, and this can be used in order to create a hierarchy of importance; the lose of some may allow continued gameplay while others must be kept alive, at least until certain events have taken place. <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> is an easy way to create this situation.",
+            "The consequences of losing all <style=\"CurrentLink\">Parallel Lives</style> are typically the same as losing all <style=\"Link\"><link=\"lives\">Lives</link></style> in an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Avatar\">Avatar</link></style>-based game of <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> but <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Missile%20Command\">Missile Command</link></style> shows multi-layered option - that the <style=\"CurrentLink\">Parallel Lives</style> are not the actually <style=\"Link\"><link=\"lives\">Lives</link></style> used in the game and losing all <style=\"CurrentLink\">Parallel Lives</style> only results in losing one of the 'proper' <style=\"Link\"><link=\"lives\">Lives</link></style> of the game.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Parallel Lives</style> require players to make <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> calculations on which game elements to protect and which to risk. The pattern often requires the players to perform <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>, especially in games where players do not have a complete overview of the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. Like <style=\"Link\"><link=\"lives\">Lives</link></style> in general, <style=\"CurrentLink\">Parallel Lives</style> can lead to <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"lives\">Lives</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, <style=\"Link\"><link=\"parties\">Parties</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "attention-swapping",
+            "player-elimination",
+            "risk-reward"
+        ],
+        "modulates" : [
+            "lives"
+        ],
+        "instantiated_by" : [
+            "avatars"
+        ],
+        "modulated_by" : [
+            "penalties",
+            "privileged-abilities"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

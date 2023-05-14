@@ -1,0 +1,60 @@
+{
+    "name" : "Self-Reported Positioning",
+    "categories" : [
+        "Patterns",
+        "Gameplay Adaptability Patterns",
+        "Interface Patterns",
+        "Platform Patterns",
+        "Pervasive Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games where variations in players' physical locations are part of the gameplay but where the current locations are reported to the game by the players.",
+        "markups" : [
+            "<style=\"Definition\">Games where variations in players' physical locations are part of the gameplay but where the current locations are reported to the game by the players.</style>",
+            "Some games use the location of players as input of the game state but need this information to be reported to where the game state is stored. Games have <style=\"CurrentLink\">Self-Reported Positioning</style> when this is done by the explicit actions of players",
+            "<i>Note: this pattern complies with the original definition of the concept of <style=\"CurrentLink\">Self-Reported Positioning</style> in that players choose what location to report and can thereby report locations far from where they actually are.</i>",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncle%20Roy%20All%20Around%20You\">Uncle Roy All Around You</link></style> is the game that originated the concept of <style=\"CurrentLink\">Self-Reported Positioning</style>.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "Location-based social network such as Foursquare and Gowalla let players check-in whenever they wish but the systems provide the actual information, so players cannot report other locations that ones where they actually are.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Self-Reported Positioning</style> requires that a game makes use of <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, but it is the easiest way to support this pattern since one only needs to make use of a communication system, not a sensing technology and a communication system.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Self-Reported Positioning</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface pattern</link></style> since it makes players use an interface to tell the game system their  positions.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Self-Reported Positioning</style> provides a narrow form of <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>. It however does so within a context where players report to some game system so it can also be seen as a way of modulating <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>. Since it loosens the requirements of where players actually are, it makes games with <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style> have <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>. This also helps provide <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> since players do not need to go places if they do not have the time or want, or do not want to disturb those in the locations.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style></style>",
+            "<style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "self-facilitated-games",
+            "social-adaptability",
+            "casual-gameplay"
+        ],
+        "modulates" : [
+            "mediated-gameplay",
+            "player-location-proximity"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

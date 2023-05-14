@@ -1,0 +1,51 @@
+{
+    "name" : "Fake Game Overs",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Cases where games falsely claim games are over to players.",
+        "markups" : [
+            "<style=\"Definition\">Cases where games falsely claim games are over to players.</style>",
+            "Many games make player experience game over events. Those that do have the option to trick players by including <style=\"CurrentLink\">Fake Game Overs</style> to trick players into experiencing that they've failed only to then reveal that gameplay actually continues. TV Tropes discussed this pattern under the name \"Fission Mailed\". It is also discussed in Zagal <i>et al.</i> as part of discussing definitions of dark game design patterns.",
+            "<style=\"H3\">Examples</style>",
+            "Examples of games that use <style=\"CurrentLink\">Fake Game Overs</style> include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Batman:%20Arkham%20Asylum\">Batman: Arkham Asylum</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eternal%20Darkness:%20Sanity's%20Requiem\">Eternal Darkness: Sanity's Requiem</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Metal%20Gear%20Solid%202:%20Sons%20of%20Liberty\">Metal Gear Solid 2: Sons of Liberty</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Fake Game Overs</style> are used to make player believe they are experiencing a <style=\"Link\"><link=\"game-over\">Game Over</link></style> event when they in reality are not. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Fake Game Overs</style> are <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style> and examples of <style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style>. They create <style=\"Link\"><link=\"fake-game-cancellations\">Fake Game Cancellations</link></style> and by doing so, they create <style=\"Link\"><link=\"tension\">Tension</link></style>. <style=\"CurrentLink\">Fake Game Overs</style> are incompatible with <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style> just as they are in reality incompatible with <style=\"Link\"><link=\"game-over\">Game Over</link></style> events.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"fake-game-cancellations\">Fake Game Cancellations</link></style>, <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "fake-game-cancellations",
+            "non-diegetic-features",
+            "tension"
+        ],
+        "modulates" : [
+            "alternate-reality-gameplay"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "game-over",
+            "game-termination-penalties"
+        ]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "name" : "Action Caps",
+    "categories" : [
+        "Action Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Limits on the numbers of actions allowed to be used.",
+        "markups" : [
+            "<style=\"Definition\">Limits on the numbers of actions allowed to be used.</style>",
+            "Games needs to prevent players from being able to do whatever they wish, since otherwise there is no challenge provides by the games - Suits points to this describing playing or gaming as <i>the voluntary attempt to overcome unnecessary obstacles.</i> Games often solve this by letting players choose from several possible actions but an alternative is to allow players to have to plan for using several actions but having some form of <style=\"CurrentLink\">Action Caps</style> so that this is not done without restrictions.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style> allows players to take 4 actions per turn, which can be moving, treating diseases, or developing vaccines. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cartagena\">Cartagena</link></style> the only possible action is to move forward buy playing cards or moving backwards to get cards, and players can do between one and three moves per turn. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Origins:%20How%20We%20Became%20Human\">Origins: How We Became Human</link></style> allow players a number of 'innovation' and 'population' actions each turn depending on how many free slots exist on the respective tracks each player has. The computer-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> uses a similar form of restriction on actions, in the first two installments through action points and in later ones through a system called 'V.A.T.S'.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style> provide the marine player with a number of action points each turn for each marine which can be used for moving, turning, shooting, and activating items such as doors. The naturally creates <style=\"CurrentLink\">Action Caps</style> but the player has some extra flexibility through having between 1 and 6 extra 'command points'. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style> each player have a number of 'players' that each only have one action per turn (move, block, blitz, or pass). The blitz action can only be done by one 'player' per turn so this is a form of <style=\"CurrentLink\">Action Caps</style> but if any action if failed in some way the turn passes to the other play which is also a form of <style=\"CurrentLink\">Action Caps</style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ravenwood%20Fair\">Ravenwood Fair</link></style> provides many types of actions that players can do, but most of these require resources and the 'energy' one most thematically fits as <style=\"CurrentLink\">Action Caps</style>. In addition, players visiting other players' fairs are provided with 5 special energy units per fair per day that can be used to help these other players.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Action Caps</style> in one sense exist in all games since players are limited on what they can do, with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzles\">Puzzles</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Jigsaw%20Puzzles\">Jigsaw Puzzles</link></style> the possible exception. For <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Real-Times%20Games\">Real-Times Games</link></style> this is because players, at least human players, can only perform so many actions during a certain period of time. This leaves few design options for the pattern, and it only becomes interesting to design in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> or <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style> where players have to consider what actions to do when they can't do all.",
+            "<style=\"CurrentLink\">Action Caps</style> can either be applying on the number of actions in total that can be made, or one how many times individual actions can be done. <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style> limits how many actions can be done and give players <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> of how to use these. <style=\"Link\"><link=\"turnovers\">Turnovers</link></style> can add a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> factor to this or be used on its own. For individual actions, the use of <style=\"Link\"><link=\"cooldown\">Cooldown</link></style> can make players have to consider when to use the actions or not. Although <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> force players to choose what to do, they let players choose <i>one</i> action from a set of actions so it does not relate to <style=\"CurrentLink\">Action Caps</style> directly but can be used in combinations with it. While <style=\"CurrentLink\">Action Caps</style> are typically bounded to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Turns\">Turns</link></style> or phases of games, making actions depend on using <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style> can make them bounded for whole game instances.",
+            "<style=\"CurrentLink\">Action Caps</style> can be used locally for actions to actually provide a greater <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>. One case where this occurs in the use of a common pool of <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>, <i>command points</i>, that any marine in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style> can use. Another possibility found in <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ravenwood%20Fair\">Ravenwood Fair</link></style> is to let players perform <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style> during <style=\"Link\"><link=\"visits\">Visits</link></style> but limiting these by <style=\"CurrentLink\">Action Caps</style> to still maintain some <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Since actions become a <style=\"Link\"><link=\"resources\">Resource</link></style>, and quite obviously a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resource</link></style>, if the number of actions possible to do are limited, <style=\"CurrentLink\">Action Caps</style> are a way of creating <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style>. As a natural consequence of this, <style=\"CurrentLink\">Action Caps</style> leads to <style=\"Link\"><link=\"resource-management\">Resource Management</link></style> of the possible actions and considering how to use these provides <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>. Even if <style=\"CurrentLink\">Action Caps</style> make players plan and can thereby create <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multplayer</link></style> <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>, it can also work against this by having the number of actions allowed small enough.",
+            "When <style=\"CurrentLink\">Action Caps</style> are not used to add <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> by providing limited ways of doing extra actions it works against <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>.",
+            "For games where actions done repeatedly provide <style=\"Link\"><link=\"arithmetic-progression\">Arithmetic Progression</link></style>, <style=\"CurrentLink\">Action Caps</style> can modulate this by forcing players to spread out their actions over time.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, <style=\"Link\"><link=\"resource-management\">Resource Management</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> and <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style></style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"arithmetic-progression\">Arithmetic Progression</link></style>, <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>, <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>, <style=\"Link\"><link=\"visits\">Visits</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>, <style=\"Link\"><link=\"cooldown\">Cooldown</link></style>, <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style>, <style=\"Link\"><link=\"turnovers\">Turnovers</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "limited-resources",
+            "resource-management",
+            "resources",
+            "stimulated-planning",
+            "analysis-paralysis"
+        ],
+        "modulates" : [
+            "arithmetic-progression",
+            "turn-based-games",
+            "tick-based-games",
+            "visits"
+        ],
+        "instantiated_by" : [
+            "budgeted-action-points",
+            "cooldown",
+            "non-renewable-resources",
+            "turnovers"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "analysis-paralysis",
+            "freedom-choice"
+        ]
+    }
+}

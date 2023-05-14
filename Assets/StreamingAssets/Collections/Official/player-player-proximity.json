@@ -1,0 +1,61 @@
+{
+    "name" : "Player-Player Proximity",
+    "categories" : [
+        "Patterns",
+        "Pervasive Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game rules that depend on players being physically close to other players.",
+        "markups" : [
+            "<style=\"Definition\">Game rules that depend on players being physically close to other players.</style>",
+            "Spatial proximity is often a core part of game rules. For games where gameplay actions are directly done by players without any mediation the often translates into the case of <style=\"CurrentLink\">Player-Player Proximity</style> being an important factor in what can or cannot be done.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> where several participants compete simultaneously and can affect each other, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Basketball\">Basketball</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Boxing\">Boxing</link></style>, depend on <style=\"CurrentLink\">Player-Player Proximity</style>. Likewise, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/1942%20%E2%80%93%20Noen%20%C3%A5%20stole%20p%C3%A5\">1942 – Noen å stole på</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conspiracy%20for%20Good\">Conspiracy for Good</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Momentum\">Momentum</link></style>, rely on <style=\"CurrentLink\">Player-Player Proximity</style> since players wish to have face-to-face interaction when roleplaying. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin\">Assassin</link></style> and children's games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hide-and-Seek\">Hide-and-Seek</link></style> also make being close to other players a factor of gameplay. ",
+            "Another type of <style=\"CurrentLink\">Player-Player Proximity</style> exists in games where players do not have to have actual physical interaction but technology requires them to be close. Examples of such games include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/BotFighters\">BotFighters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Human%20PacMan\">Human PacMan</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pirates!\">Pirates!</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Treasure\">Treasure</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pacman%20must%20die\">Pacman must die</link></style> provides a variant of this since here multiple mobile devices each contain part of the mediated game and players need to place them appropriately to be able and move through the gameplay area.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main design choices for <style=\"CurrentLink\">Player-Player Proximity</style>, as for the other patterns related to proximity, is what distance is defined as proximity and if it is achieving it, maintaining it, or leaving it that triggers effects (or all of these). Beyond this, designers need to consider the potential effects of unsupervised <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> since this is likely to occur as an effect of the pattern. While gameplay design to hinder players from having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> with each other as soon as <style=\"CurrentLink\">Player-Player Proximity</style> is achieved may be difficult to enforce, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> can be used to trigger mechanical gameplay events based upon entering, maintaining, or breaking proximity. <style=\"Link\"><link=\"seamful-gameplay\">Seamful Gameplay</link></style> incorporates the variations in how well the underlying technology detects players as part of the <style=\"CurrentLink\">Player-Player Proximity</style> mechanic.",
+            "While players can be motivated to come close to other players by gameplay events directly caused by <style=\"CurrentLink\">Player-Player Proximity</style>, the combination of <style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style> and <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style> is likely to make it happen even without other effects.",
+            "<style=\"H2\">Consequences</style>",
+            "The possibility or requirement of <style=\"CurrentLink\">Player-Player Proximity</style> in a game is likely to affect how players relate to each others and the actions they perform. That is, the pattern is likely to enable or cause <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, and this interaction is likely to be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style> unless precautions are taken. This most strongly affects activities that rely on social factors, so activities such as <style=\"Link\"><link=\"bluffing\">Bluffing</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> and more generally <style=\"Link\"><link=\"social-skills\">Social Skills</link></style> are modulated by <style=\"CurrentLink\">Player-Player Proximity</style>.",
+            "<style=\"CurrentLink\">Player-Player Proximity</style> modifies <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style> so that the areas containing players gain additional gameplay values. The pattern is also likely to make <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style> part of gameplay in a game as well as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>. If the gameplay area is not restricted from other areas, the pattern will also create <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>.",
+            "The use of <style=\"CurrentLink\">Player-Player Proximity</style> makes it possible for <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> to have access to a part of the game state even if they are not present themselves. This can be useful in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pervasive%20Games\">Pervasive Games</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">LARPs</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>, <style=\"Link\"><link=\"social-skills\">Social Skills</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"game-element-trading\">Game Element Trading</link></style> together with <style=\"Link\"><link=\"player-artifact-proximity\">Player-Artifact Proximity</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"seamful-gameplay\">Seamful Gameplay</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "pervasive-gameplay",
+            "physical-navigation",
+            "social-interaction",
+            "unmediated-social-interaction"
+        ],
+        "modulates" : [
+            "bluffing",
+            "game-masters",
+            "negotiation",
+            "real-world-gameplay-spaces",
+            "social-skills"
+        ],
+        "instantiated_by" : [
+            "game-element-trading"
+        ],
+        "modulated_by" : [
+            "extended-actions",
+            "seamful-gameplay"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

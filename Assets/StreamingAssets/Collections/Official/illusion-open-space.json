@@ -1,0 +1,64 @@
+{
+    "name" : "Illusion of Open Space",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Level Design Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game worlds that appear to have more playable areas than they do.",
+        "markups" : [
+            "<style=\"Definition\">Game worlds that appear to have more playable areas than they do.</style>",
+            "In games with game world it takes significant effort technically or in providing content if players are not to be able to notice the restrictions in how large (or small) the playable area actually is. When it is not possible to create large enough areas that one can play within but one still wants to give an impression that the game worlds are larger, one option is to create an <style=\"CurrentLink\">Illusion of Open Space</style>. As long as this illusion can be maintained, players can both have a sense that a game world exists as a separate entity that is not just tailored to steer their gameplay and can have the impression that they have a large amount of freedom in where to go to in that game world.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20Sunshine\">Super Mario Sunshine</link></style> lets players controlling Mario explore several \"levels\" on a tropical island. On some of these one can see quite much of the island, including the areas that make up some of the other levels, but trying to reach them by normal movement reveals invisible barriers in the game world. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%202\">Portal 2</link></style> provides glass windows to observation areas and temporary \"behind-the-scenes\" views of how test areas are configured, both which creates an <style=\"CurrentLink\">Illusion of Open Space</style>. This is augmented by players sometimes being able to reach the observation areas or using access route to move around between levels in ways the implied constructors of the tests planned.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Roleplaying Games</link></style> that make up the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> strive towards giving players a large game world to explore relatively unhindered except for hostile inhabitants. While the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Morrowind\">Morrowind</link></style> takes place on an island and only has the ocean as a barrier to exploration, its sequel <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oblivion\">Oblivion</link></style> as well as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> has to limit the possibility of roaming by introducing barrier that are more or less obviously placed there to limit gameplay rather than to fit the game world.",
+            "Games that use computer algorithms to create not only the basic terrain of game worlds but also much of the details in those worlds, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Slaves to Armok II: Dwarf Fortress</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elite%20series\">Elite</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Just%20Cause%20series\">Just Cause series</link></style>, can have such large gameplay areas that players have to spend considerable efforts to be able to either notice the boundaries of the worlds or circumnavigate them.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Illusion of Open Space</style> is used to make <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> that are or seem (depending on your perspective) larger than the actual space where gameplay takes place. It is quite often applied to <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style> for the reason that it might be diegetically motivated that players should be able to perceive more on the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> than the <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style> allows passage to.",
+            "One way of doing this is to model the parts of the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> which players are not supposed to be able to enter, often proportionally large areas compared to the actual gameplay area, at a lower granularity than the playable area and then hinder players from entering these by having <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style>. This can also be achieved through making them into <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> by having natural barriers, e.g. chasms, strong currents, lava flows, etc., block access to them but this can only be done to a certain extent before they seem like <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style> - and this solution may not work with various forms of <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style> such as flying. <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style> can be used to represent people entering the gameplay areas but do not work for exiting them.",
+            "Another way of creating <style=\"CurrentLink\">Illusion of Open Space</style> is to use <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> with maps for choosing <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>. This since the game's interface can show that more of the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> exists than may actually be able to visit.",
+            "A third way, which may not be so much a case of providing an illusion rather than the real thing, is to use <style=\"Link\"><link=\"procedurally-generated-game-worlds\">Procedurally Generated Game Worlds</link></style>. These also have limitations, either concerning size or simulating the entire world, but these may be much more difficult to notice than those presented by <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style> or limited choices of destinations on maps for doing <style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Illusion of Open Space</style> makes <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> seem larger than they would otherwise and can thereby give players a sense of <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> where to travel to. This can help support both <style=\"Link\"><link=\"diegetic-consistency\">Diegetic</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, the first by not making the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> presentation end just because the gameplay environment does and the second because many themes imply that there should be open spaces. <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> can be maintained even if the illusion is revealed, but <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> is likely to suffer.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"transport-routes\">Transport Routes</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style>, <style=\"Link\"><link=\"procedurally-generated-game-worlds\">Procedurally Generated Game Worlds</link></style>, <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style>",
+            "<style=\"Link\"><link=\"quick-travel\">Quick Travel</link></style> together with <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "-",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "-",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "diegetic-consistency",
+            "freedom-choice",
+            "thematic-consistency"
+        ],
+        "modulates" : [
+            "game-worlds",
+            "transport-routes"
+        ],
+        "instantiated_by" : [
+            "inaccessible-areas",
+            "invisible-walls",
+            "procedurally-generated-game-worlds",
+            "spawn-points",
+            "quick-travel"
+        ],
+        "modulated_by" : [
+            ""
+        ],
+        "conflicts" : [
+            "thematic-consistency"
+        ]
+    }
+}

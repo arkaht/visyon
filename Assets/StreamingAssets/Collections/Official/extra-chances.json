@@ -1,0 +1,91 @@
+{
+    "name" : "Extra Chances",
+    "categories" : [
+        "Patterns",
+        "Randomness Patterns"
+    ],
+    "texts" : {
+        "definition" : "The possibility to try again when an action provides an unwanted result.",
+        "markups" : [
+            "<style=\"Definition\">The possibility to try again when an action provides an unwanted result.</style>",
+            "Many games use some for of randomness to determine the outcome of events. This will of course led to unwanted results, and to let players have second (and third etc.) chances some games provide the possibility to try again a limited number of times. This lets players have a greater chance of succeeding when it is deemed most important.",
+            "<style=\"H3\">Examples</style>",
+            "The basic action for players is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Yahtzee\">Yahtzee</link></style> is to choose what dice to reroll, and players may do two rerolls. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roll%20Through%20the%20Ages:%20The%20Bronze%20Age\">Roll Through the Ages: The Bronze Age</link></style> uses the same basic mechanic but does not allow rerolls of <i>disaster</i> results. Rerolls are used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style> to allow players <style=\"CurrentLink\">Extra Chances</style> to try again with certain actions when the first try failed.",
+            "Fortune points in the second edition of the roleplaying game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> gives each player a number of <i>Fortune Points</i> every day in the game world equal to their current number of <i>Fate points</i>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> roleplaying system in contrast lets players that have characters with the <i>Luck</i> advantage reroll a result every hour of gaming (more often with higher levels of the advantage).",
+            "Being able to try the same action again and again is a way to provide <style=\"CurrentLink\">Extra Chances</style>. For example, players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Origins:%20How%20We%20Became%20Human\">Origins: How We Became Human</link></style> populating the right places can continue to try <i>Domestication attempts</i> as long as they occupy the place and can do the <i>Elder Expenditure</i> action.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Two main design areas that need to be considered when implementing <style=\"CurrentLink\">Extra Chances</style> in a game are which events can be effected and, since <style=\"CurrentLink\">Extra Chances</style> can be seen as a <style=\"Link\"><link=\"resources\">Resources</link></style>, how they can be gained and kept. The more types of events that can be effected the more powerful <style=\"CurrentLink\">Extra Chances</style> are, so restricting them is a way to balance player influence. Providing new <style=\"CurrentLink\">Extra Chances</style> as gameplay progresses is a form of <style=\"Link\"><link=\"rewards\">Rewards</link></style> and makes the <style=\"CurrentLink\">Extra Chances</style> into <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>. They can, depending on how often they can be used, modify or cancel <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>.",
+            "Simply being able to try the same action again is a way of supporting <style=\"CurrentLink\">Extra Chances</style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style> is a generic tool for allowing new attempts if previous attempts changed the game state. However, these may not be enough if the game features <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style> since then events caused by other agents or powers may make additional tries impossible. This can be controlled in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> since the system caused all other events but makes the pattern more difficult to provide in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> without resorting to <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, as for example the <i>Luck</i> advantage in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> or the ''Warpriest's Strategy'' feature in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>. If the <style=\"CurrentLink\">Extra Chances</style> are shared in <style=\"Link\"><link=\"teams\">Teams</link></style>, they become <style=\"Link\"><link=\"shared-resources\">Shared Resources</link></style> and may thereby become a source for <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>. An additional consideration is if <style=\"CurrentLink\">Extra Chances</style> can be use consecutively, i.e. if players can use an <style=\"CurrentLink\">Extra Chance</style> to change the result of an <style=\"CurrentLink\">Extra Chance</style>.",
+            "There also exists a decision on if the <style=\"CurrentLink\">Extra Chances</style> should be on exactly the same game state or just within the same game instances. The former is easily naturally applied on <style=\"Link\"><link=\"dice\">Dice</link></style> through rerolls, but can equally well be applied on <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> by letting players draw another <style=\"Link\"><link=\"cards\">Card</link></style> or <style=\"Link\"><link=\"tiles\">Tile</link></style>. However, for computer games this can also be provided to players through <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>. <style=\"Link\"><link=\"extra-turns\">Extra Turns</link></style> is an example of the latter since the game state may have changed after the previous turn and is only really an example if used to retry failed actions. <style=\"Link\"><link=\"lives\">Lives</link></style> is a way of letting players try parts of the game again by respectively letting players continue after failing. While <style=\"Link\"><link=\"lives\">Lives</link></style> are not compatible with <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>, <style=\"CurrentLink\">Extra Chances</style> in general can be so, for example through the use of rerolls. The pattern can be used in the same fashion to modulate <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> so players risk being eliminated but can have some possibility of explicitly avoiding it (taken to far, this removes the pattern however). <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"save-points\">Save Points</link></style> and <style=\"Link\"><link=\"instances\">Instances</link></style> are all ways to chunk the game challenges into smaller sections that can be tried again and again. ",
+            "Being able to play the game again is of course a way to have <style=\"CurrentLink\">Extra Chances</style>, and that is available in nearly all games. However, for many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puzzles\">Puzzles</link></style> the game challenge consists of finding a trick or specific solution and the game instances are all the same except for the player actions, these games can be said to intentionally use <style=\"CurrentLink\">Extra Chances</style> on the game instance level.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style> can be difficult to maintain in a game with <style=\"CurrentLink\">Extra Chances</style>, but can be maintained at least in <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous</link></style> <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> since only the final result needs to be convey to the other players.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Except for when instantiated through <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>, <style=\"CurrentLink\">Extra Chances</style> need to be presented in user interfaces or as <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> but there is also a choice of making the number of <style=\"CurrentLink\">Extra Chances</style> each players' has into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style> or making it secret, creating <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>. Games with <style=\"Link\"><link=\"cards\">Cards</link></style> sometimes have specific <style=\"Link\"><link=\"cards\">Cards</link></style> that provide <style=\"CurrentLink\">Extra Chances</style> - the <i>Get out of Jail Free</i> <style=\"Link\"><link=\"cards\">Card</link></style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> is a well-known example.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Extra Chances</style> can be seen as a form of <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style> or <style=\"Link\"><link=\"game-time-manipulation\">Game Time Manipulation</link></style> since players have a chance to change the outcome of an action (with a bigger chance of changing it the smaller the likelihood that it would occur to begin with). Given that players cannot determine the new result but rather just use the same random process as was just used, it is however a weak form of <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>. Even so, <style=\"CurrentLink\">Extra Chances</style> give players a distinct <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> and possibility to perform <style=\"Link\"><link=\"misfortune-mitigation\">Misfortune Mitigation</link></style> although this is done as a form of <style=\"Link\"><link=\"resource-management\">Resource Management</link></style>. They also increase players' <style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style> since the statistically do so if there is any chance to succeed to begin with, and increase <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> since used <style=\"CurrentLink\">Extra Chances</style> increase any differences in odds, favorable or not. In doing this, it can give them an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> as well.",
+            "If the events affected by <style=\"CurrentLink\">Extra Chances</style> are presented within <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, the pattern conflicts to a certain degree with a game's <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>. The sense of <style=\"Link\"><link=\"luck\">Luck</link></style> may also suffer in games with <style=\"CurrentLink\">Extra Chances</style> since less <style=\"Link\"><link=\"luck\">Luck</link></style> is required on the side of the player gaining a favorable result, and <style=\"Link\"><link=\"luck\">Luck</link></style> due to others misfortune are less likely to occur if they have <style=\"CurrentLink\">Extra Chances</style>.",
+            "Although maybe not good for the chances of finishing in a good position, <style=\"CurrentLink\">Extra Chances</style> can let inexperienced players redo mistakes early in the game and can thereby support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"resource-management\">Resource Management</link></style>, <style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style>, <style=\"Link\"><link=\"game-time-manipulation\">Game Time Manipulation</link></style>, <style=\"Link\"><link=\"misfortune-mitigation\">Misfortune Mitigation</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"teams\">Teams</link></style></style>",
+            "<style=\"Link\"><link=\"shared-resources\">Shared Resources</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"dice\">Dice</link></style>, <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>, <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style>, <style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"extra-turns\">Extra Turns</link></style>, <style=\"Link\"><link=\"instances\">Instances</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puzzles\">Puzzles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>, <style=\"Link\"><link=\"save-points\">Save Points</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style>, <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>, <style=\"Link\"><link=\"luck\">Luck</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "exaggerated-perception-influence",
+            "fudged-results",
+            "game-time-manipulation",
+            "misfortune-mitigation",
+            "predictable-consequences",
+            "privileged-abilities",
+            "rewards",
+            "social-dilemmas",
+            "smooth-learning-curves",
+            "shared-resources"
+        ],
+        "modulates" : [
+            "dice",
+            "game-termination-penalties",
+            "permadeath",
+            "player-elimination"
+        ],
+        "instantiated_by" : [
+            "bookkeeping-tokens",
+            "cards",
+            "extra-turns",
+            "instances",
+            "levels",
+            "lives",
+            "puzzles",
+            "reversibility",
+            "save-load-cycles",
+            "save-points"
+        ],
+        "modulated_by" : [
+            "asymmetric-information",
+            "public-information",
+            "renewable-resources"
+        ],
+        "conflicts" : [
+            "game-termination-penalties",
+            "luck",
+            "multiplayer-games",
+            "player-elimination",
+            "temporal-consistency",
+            "the-show-must-go-on"
+        ]
+    }
+}

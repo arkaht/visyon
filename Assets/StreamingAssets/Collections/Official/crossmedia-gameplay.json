@@ -1,0 +1,63 @@
+{
+    "name" : "Crossmedia Gameplay",
+    "categories" : [
+        "Patterns",
+        "Information Patterns",
+        "Interface Patterns",
+        "Platform Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games that make use of several different media to provide one game instance.",
+        "markups" : [
+            "<style=\"Definition\">Games that make use of several different media to provide one game instance.</style>",
+            "While most games make use of only one medium or platform to make access to them depend only on needing to have access to that medium or platform, a few games make a point of being played through several. This <style=\"CurrentLink\">Crossmedia Gameplay</style> can be used to give specialized gameplay experiences at different points of game instances through varying the mediums used or be used to intertwine gameplay more easily with other activities, sometimes to the point where players can be confused what is part of a game or not.",
+            "See the book <i>Pervasive Games - Theory and Design</i> for more details about how to design games spanning several media, including descriptions of several examples.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Epidemic%20Menace\">Epidemic Menace</link></style> is a game that describes itself as having <style=\"CurrentLink\">Crossmedia Gameplay</style>. In it, teams of players need to make use of a combination of mobile AR systems, traditional laptops, and the AIBO robot dog to solve a mystery. Alternate reality games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conspiracy%20for%20Good\">Conspiracy for Good</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/I%20Love%20Bees\">I Love Bees</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Beast\">The Beast</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Truth%20About%20Marika\">The Truth About Marika</link></style> also typically make use of several different media, often web sites and phone systems.",
+            "To a lesser extent, games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda:%20The%20Wind%20Waker\">The Legend of Zelda: The Wind Waker</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Splinter%20Cell%20series\">Splinter Cell series</link></style> (on the GameCube), and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda:%20Four%20Swords%20Adventures\">The Legend of Zelda: Four Swords Adventures</link></style> provide <style=\"CurrentLink\">Crossmedia Gameplay</style> since these can make use of several different types screens. Similarly, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Padracer\">Padracer</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Scrabble%E2%84%A2%20Tile%20Rack\">Scrabble™ Tile Rack</link></style> can be seen as having some aspects of <style=\"CurrentLink\">Crossmedia Gameplay</style> since they use iPhones as subunits for games hosted on iPads.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Crossmedia Gameplay</style> primarily concerns exploring which mediums are available and what type of gameplay these mediums are best suited for supporting. Patterns related to this include <style=\"Link\"><link=\"auxiliary-game-screens\">Auxiliary Game Screens</link></style>, which makes use of several screens to provide different information to players, and <style=\"Link\"><link=\"coupled-games\">Coupled Games</link></style>, which makes the gameplay outcome of one game affect another one.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Crossmedia Gameplay</style> is both an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Information%20Patterns\">Information</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Although not directly related to gameplay, <style=\"CurrentLink\">Crossmedia Gameplay</style> lends itself well to <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> that wants to unfold a narrative in parts from different perspectives or provide <style=\"Link\"><link=\"clues\">Clues</link></style> from a variety of sources.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Crossmedia Gameplay</style> can provide players with more types of specialized gameplay experience than ordinary games simply because they make use of several different medium. This can also be used to \"hide\" the mediums used among other, non-game, mediums and thereby support <style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style>. A specific case of this concerns <style=\"Link\"><link=\"rabbit-hole-invitations\">Rabbit Hole Invitations</link></style>; <style=\"CurrentLink\">Crossmedia Gameplay</style> can here be used more easily and efficiently than during the main gameplay since non-interactive mediums, e.g. commercials and TV shows, can be used (examples of this can be found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/I%20Love%20Bees\">I Love Bees</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Beast\">The Beast</link></style>).",
+            "In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, the use of several different mediums (or devices) can make natural starting points for players to divide themselves into <style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style> based on the capabilities of the mediums available. <style=\"CurrentLink\">Crossmedia Gameplay</style> can make games have <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style> when the different media needed to play them are spatially separated, or some of them make use of location as input.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style>, <style=\"Link\"><link=\"rabbit-hole-invitations\">Rabbit Hole Invitations</link></style>, <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"auxiliary-game-screens\">Auxiliary Game Screens</link></style>, <style=\"Link\"><link=\"coupled-games\">Coupled Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "alternate-reality-gameplay",
+            "rabbit-hole-invitations",
+            "real-world-gameplay-spaces",
+            "functional-roles"
+        ],
+        "modulates" : [
+            "predetermined-story-structures"
+        ],
+        "instantiated_by" : [
+            "auxiliary-game-screens",
+            "coupled-games"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

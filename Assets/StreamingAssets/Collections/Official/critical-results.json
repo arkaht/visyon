@@ -1,0 +1,58 @@
+{
+    "name" : "Critical Results",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Less common outcomes of actions that are randomly activated and give effects otherwise not possible.",
+        "markups" : [
+            "<style=\"Definition\">Less common outcomes of actions that are randomly activated and give effects otherwise not possible.</style>",
+            "Many games make it easy for players to initiate an action but make the outcome of the action depend on the specific of the game state and randomness rather than on actually player performance (although setting the context for the action can be seen as a form of performance that does affect the chance). When games work like this but have certain, more unlikely, outcomes with effects that the more common results cannot produce, these games have <style=\"CurrentLink\">Critical Results</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> have rolls of 20 (with a 20-sided dice) be automatic successes in most recent versions of the game while having optional rules for rolls of 1 being fumbles. In contrast, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style> have rules that make all rolls against skills have a chance for a critical success and a risk of a critical failure; the exact chances depending on skill levels.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "The critical hits that can affect combatant in early versions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> are not examples of <style=\"CurrentLink\">Critical Results</style> since they occur automatically when hitting those that have taken all wounds they can.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A basic design choice when considering the use of <style=\"CurrentLink\">Critical Results</style> is if one should provide positive results, i.e. <style=\"Link\"><link=\"critical-successes\">Critical Successes</link></style>, or negative results, i.e. <style=\"Link\"><link=\"critical-failures\">Critical Failures</link></style>, or both. The use of such results in <style=\"Link\"><link=\"combat\">Combat</link></style> are done through <style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style> and <style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style> respectively.",
+            "<style=\"Link\"><link=\"skills\">Skills</link></style> are often linked to <style=\"CurrentLink\">Critical Results</style> since they are describe actions in games and have levels that show how good one is in performing that action. While this makes <style=\"CurrentLink\">Critical Results</style> a way to modify how <style=\"Link\"><link=\"skills\">Skills</link></style> are used in a game, <style=\"Link\"><link=\"skills\">Skill</link></style> levels are often used to affect the chance or risk or <style=\"CurrentLink\">Critical Results</style> so they modify each other. While the probability of <style=\"CurrentLink\">Critical Results</style> may be tied directly to <style=\"Link\"><link=\"skills\">Skill</link></style> levels, another option is to attach <style=\"CurrentLink\">Critical Results</style> to <style=\"Link\"><link=\"open-ended-die-rolls\">Open-Ended Die Rolls</link></style> so collecting a certain number of dice with certain values triggers the <style=\"CurrentLink\">Critical Results</style> (e.g. the rule in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Darkness\">World of Darkness</link></style> games that at least one die showing a 1 and the rest being failures created a \"botch\").",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Critical Results</style> are by definition <style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style> and work against <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> (since their presence increases the presence of <style=\"Link\"><link=\"randomness\">Randomness</link></style>). Both due to the use of <style=\"Link\"><link=\"randomness\">Randomness</link></style> and the other types of effects they provide, <style=\"CurrentLink\">Critical Results</style> works against <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"open-ended-die-rolls\">Open-Ended Die Rolls</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"critical-failures\">Critical Failures</link></style>, <style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style>, <style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style>, <style=\"Link\"><link=\"critical-successes\">Critical Successes</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"skills\">Skills</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "exceptional-events"
+        ],
+        "modulates" : [
+            "open-ended-die-rolls",
+            "skills"
+        ],
+        "instantiated_by" : [
+            "critical-failures",
+            "critical-hits",
+            "critical-misses",
+            "critical-successes"
+        ],
+        "modulated_by" : [
+            "skills"
+        ],
+        "conflicts" : [
+            "predictable-consequences",
+            "performance-uncertainty"
+        ]
+    }
+}

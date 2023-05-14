@@ -1,0 +1,82 @@
+{
+    "name" : "TvT",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games where teams compete against teams.",
+        "markups" : [
+            "<style=\"Definition\">Games where teams compete against teams.</style>",
+            "Games typically make players compete with each other. When the designs match players together in <style=\"Link\"><link=\"teams\">Teams</link></style> to compete against other <style=\"Link\"><link=\"teams\">Teams</link></style> they provide \"Team vs. Team\" or <style=\"CurrentLink\">TvT</style> gameplay.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/American%20Football\">American Football</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> are all <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> that have <style=\"CurrentLink\">TvT</style> gameplay. Likewise, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients%20series\">Defense of the Ancients series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style> are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Online%20Games\">Online Games</link></style> built around team play (and perhaps not too surprising most are examples of e-sports).  ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hattrick\">Hattrick</link></style> are examples where teams compete against each other but individual players control whole teams. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/RoboCup\">RoboCup</link></style> the team members are all robots, and people's involvement consists of creating and programming the robots.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">TvT</style> gameplay is introduced in games to make <style=\"Link\"><link=\"teams\">Teams</link></style> compete against each other, which more or less is simply applying the patterns of <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> or <style=\"Link\"><link=\"pvp\">PvP</link></style> on <style=\"Link\"><link=\"teams\">Teams</link></style> instead of on players. Like <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> can be applied to <style=\"Link\"><link=\"pvp\">PvP</link></style> gameplay, <style=\"Link\"><link=\"team-balance\">Team Balance</link></style> can be applied to <style=\"CurrentLink\">TvT</style> gameplay through ",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, ",
+            "<style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, ",
+            "<style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, ",
+            "<style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>,  ",
+            "<style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, ",
+            "<style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style>, ",
+            "<style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>, ",
+            "or ",
+            "<style=\"Link\"><link=\"team-development\">Team Development</link></style>. <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style> and the need for <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> may occur in both cases. The use of <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style> may require not only the players engaging in it to perform <style=\"Link\"><link=\"bluffing\">Bluffing</link></style> and <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> to succeed with the <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals of not letting other players notice what they are doing, but also other members of their <style=\"Link\"><link=\"teams\">Teams</link></style> that are aware of the subterfuge. This can create <style=\"Link\"><link=\"tension\">Tension</link></style> among all involved as well as those suspecting that somebody is cheating.",
+            "Considering how to handle <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style> and <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> are even more likely to be important that in other <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> since the absence of any player can several disrupt other players gameplay; <style=\"Link\"><link=\"ai-players\">AI Players</link></style> can be used to mitigate this problem in some cases (the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> is an example of how this can be done). Supporting players to handle these two patterns and coordinate themselves before gameplay occurs can motivate <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> in games that have <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Like any game with <style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"CurrentLink\">TvT</style> can create <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>. However, what is noteworthy for <style=\"CurrentLink\">TvT</style> is that the experience of <style=\"Link\"><link=\"togetherness\">Togetherness</link></style> can also extend to those in the other teams each if they are competing against each other since they have share the same game sessions or game instances.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"togetherness\">Togetherness</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>, <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>, or <style=\"Link\"><link=\"team-development\">Team Development</link></style></style>",
+            "<style=\"Link\"><link=\"team-balance\">Team Balance</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style></style>",
+            "<style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> or <style=\"Link\"><link=\"pvp\">PvP</link></style> together with <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"dynamic-difficulty-adjustment\">Dynamic Difficulty Adjustment</link></style>, <style=\"Link\"><link=\"handicap-systems\">Handicap Systems</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>, <style=\"Link\"><link=\"orthogonal-differentiation\">Orthogonal Differentiation</link></style>, <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>, <style=\"Link\"><link=\"team-development\">Team Development</link></style>, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>",
+            "<style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> in games that have <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "togetherness",
+            "team-balance",
+            "bluffing",
+            "roleplaying",
+            "stealth",
+            "team-balance",
+            "tension"
+        ],
+        "modulates" : [
+            "teams"
+        ],
+        "instantiated_by" : [
+            "last-man-standing"
+        ],
+        "modulated_by" : [
+            "ai-players",
+            "balancing-effects",
+            "beat-leader",
+            "drafting",
+            "early-leaving-players",
+            "evolving-rule-sets",
+            "late-arriving-players",
+            "orthogonal-differentiation",
+            "team-development",
+            "tiebreakers",
+            "game-lobbies"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "name" : "Melodramatic Structures",
+    "categories" : [
+        "Information Patterns",
+        "Character Patterns",
+        "Narration Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Narration structures in games which allow players or spectators to know more than any individual diegetic person.",
+        "markups" : [
+            "<style=\"Definition\">Narration structures in games which allow players or spectators to know more than any individual diegetic person.</style>",
+            "Some games allow a player to know more about the game world and events than the characters he or she plays. This pattern is call <style=\"CurrentLink\">Melodramatic Structures</style> in this collection. The idea for the pattern (and <style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style> comes from Lankoski. Here, a distinction by Smith between detective narration and melodramatic narration is used to form gameplay design patterns. In Smith's terms, detective narration restricts readers' knowledge to that of a protagonist while in melodramatic narration readers' knows more than any single character.",
+            "<style=\"H3\">Examples</style>",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fahrenheit\">Fahrenheit</link></style> the player switches between characters played, thereby getting a more detailed understanding on the unfolding narration than any individual character in the game has.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Three concrete design patterns exist to create <style=\"CurrentLink\">Melodramatic Structures</style>. <style=\"Link\"><link=\"scenes\">Scenes</link></style> allows a game to switch between <style=\"Link\"><link=\"characters\">Characters</link></style> and therefore give more information to the player than a single <style=\"Link\"><link=\"characters\">Character</link></style>. <style=\"Link\"><link=\"summary-updates\">Summary Updates</link></style> can explain what happens before, between, or after <style=\"Link\"><link=\"scenes\">Scenes</link></style> so that players have the right understanding of the reasons and consequences of events in a <style=\"Link\"><link=\"scenes\">Scene</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voice-overs\">Voice-overs</link></style> can add explanations to the events that are occurring which the players get but not the <style=\"Link\"><link=\"characters\">Characters</link></style>. Per their definitions, <style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style> and <style=\"CurrentLink\">Melodramatic Structures</style> are incompatible.",
+            "<style=\"CurrentLink\">Melodramatic Structures</style> can be used in both <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> and <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. In fact, due to the fact that <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> typically present different view points of the game to different players <i>through</i> <style=\"Link\"><link=\"characters\">Characters</link></style> these types of games nearly always have <style=\"CurrentLink\">Melodramatic Structures</style> of sorts. This does however not in itself affect narration significantly since <style=\"CurrentLink\">Melodramatic Structures</style> often require significant shifts in perspective for individual players to have their intended effects. This typically means that they are easier to plan for in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, e.g. by switching <style=\"Link\"><link=\"characters\">Characters</link></style> as <style=\"Link\"><link=\"scenes\">Scenes</link></style> are changed (see <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fahrenheit\">Fahrenheit</link></style> for an example of this).",
+            "While <style=\"Link\"><link=\"god-views\">God Views</link></style> and <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style> may show players more of the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> than a single <style=\"Link\"><link=\"avatars\">Avatar</link></style> or <style=\"Link\"><link=\"characters\">Character</link></style> may see, this typically does not provide more than ephemeral differences in what a player and a <style=\"Link\"><link=\"characters\">Character</link></style> knows.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Melodramatic Structures</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Narration%20Patterns\">Narration Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Melodramatic Structures</style> is one way to modulate <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> and <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> is a game. While they do use <style=\"Link\"><link=\"characters\">Characters</link></style>, they do not change how these can perform gameplay actions.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "N/A",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voice-overs\">Voice-overs</link></style>",
+            "<style=\"Link\"><link=\"characters\">Characters</link></style> together with <style=\"Link\"><link=\"scenes\">Scenes</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"summary-updates\">Summary Updates</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+        ],
+        "modulates" : [
+            "narration-structures",
+            "predetermined-story-structures"
+        ],
+        "instantiated_by" : [
+            "voice",
+            "characters"
+        ],
+        "modulated_by" : [
+            "summary-updates"
+        ],
+        "conflicts" : [
+            "detective-structures"
+        ]
+    }
+}

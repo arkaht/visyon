@@ -1,0 +1,83 @@
+{
+    "name" : "Sniper Locations",
+    "categories" : [
+        "Level Design Patterns",
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Locations in game worlds suited for snipers.",
+        "markups" : [
+            "<style=\"Definition\">Locations in game worlds suited for snipers.</style>",
+            "The use of ranged weapons is often beneficial in games since enemies may not be able to fight back. This is especially true when the attacks can be done at very long ranges or it is difficult to detect from where the attack came. <style=\"CurrentLink\">Sniper Locations</style> are places in game worlds that provide one or both of these advantages.",
+            "<style=\"H3\">Examples</style>",
+            "For obvious reasons, <style=\"CurrentLink\">Sniper Locations</style> are most common in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> provides many locations where snipers can have good overviews over large parts of the gameplay area. This includes tops of cliffs, roof tops, and scalable cranes. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> has many features in their game worlds that can be used to attack enemies at long distances and in relative safety. This is also encouraged by the presence of specialized sniping weapons in the game. The open and hilly worlds in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crysis%20series\">Crysis series</link></style> also provide many <style=\"CurrentLink\">Sniper Locations</style> and ",
+            "<style=\"H2\">Using the pattern</style>",
+            "Two main design requirements exist for locations to be usable as <style=\"CurrentLink\">Sniper Locations</style>: that it covers an area which is suitable for targeting <style=\"Link\"><link=\"enemies\">Enemies</link></style> and that the location itself is relatively safe.",
+            "<style=\"Link\"><link=\"arenas\">Arenas</link></style>, or any other open area where players can have <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> to large continuous gameplay areas, make good places to observe from <style=\"CurrentLink\">Sniper Locations</style>. If there areas are too open, this can easily be adjusted by providing <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> or <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>. While having <style=\"Link\"><link=\"arenas\">Arenas</link></style> is often a way of indirectly instantiating <style=\"CurrentLink\">Sniper Locations</style> by provide gameplay areas to cover, the pattern is also a way to modulate <style=\"Link\"><link=\"arenas\">Arenas</link></style>.",
+            "Making <style=\"CurrentLink\">Sniper Locations</style> safe can be done in several ways. Height differences and <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> can both make attacking sniper more difficult and require <style=\"Link\"><link=\"enemies\">Enemies</link></style> to take detours to reach the <style=\"CurrentLink\">Sniper Locations</style>. Placing <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> in the <style=\"CurrentLink\">Sniper Locations</style> does typically not cause problems with <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style> to the overlooked areas but does help snipers in providing cover and making it more difficult to spot them. If <style=\"CurrentLink\">Sniper Locations</style> prove to be to powerful in games (or sniping in general), <style=\"Link\"><link=\"killcams\">Killcams</link></style> can be used to reveal these to players that have been sniped.",
+            "<style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style> does not directly modify <style=\"CurrentLink\">Sniper Locations</style>, but since they reduce the usefulness of the <style=\"Link\"><link=\"weapons\">Weapons</link></style> one can use in them it does so indirectly, and this can also be an option to limit the effectiveness of <style=\"CurrentLink\">Sniper Locations</style>.",
+            "While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style> may be obvious locations in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, they can function as <style=\"CurrentLink\">Sniper Locations</style> if players at least have a couple of different places from which to snipe. <style=\"Link\"><link=\"galleries\">Galleries</link></style> can to a certain degree function as <style=\"CurrentLink\">Sniper Locations</style> although they are not optimal for this since the <style=\"Link\"><link=\"enemies\">Enemies</link></style> tend to be quite close when engaged. More generally, <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style> can function as <style=\"CurrentLink\">Sniper Locations</style> if they support long-ranged attacks but it is more common that <style=\"CurrentLink\">Sniper Locations</style> are <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "One of the weaknesses of <style=\"CurrentLink\">Sniper Locations</style> is that their use may be predictable, and this makes snipers want to vary their positions or not be noticed within them. If the <style=\"CurrentLink\">Sniper Locations</style> are too powerful in a game, other players can be helped by <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> that point out player positions and thereby reveal uses of <style=\"CurrentLink\">Sniper Locations</style>. However, since this may instead make <style=\"CurrentLink\">Sniper Locations</style> of little use, this design solution is most relevant in <style=\"Link\"><link=\"teams\">Team-based</link></style> games since it can there be given to a limited number of players.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Sniper Locations</style> affect how <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> specifically, can be done in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style> by offering <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> from which engage in these activities. This makes them potential places for <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style> goals as they provide a natural advantage point.",
+            "While not all attacks made from <style=\"CurrentLink\">Sniper Locations</style> are <style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style>, the pattern supports players in doing such attacks since they can often in relative safety set up slow but powerful attacks that might not be possible otherwise. This promotes <style=\"Link\"><link=\"camping\">Camping</link></style> in these locations and - since not being noticed in them is an advantage - also encourages players to adopt <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals both in getting there and while being there. Getting to these locations and using them effectively thereby requires <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, as does dislocating those that have gotten access to them. Regardless if it is players or <style=\"Link\"><link=\"enemies\">Enemies</link></style> that make use of the <style=\"CurrentLink\">Sniper Locations</style>, the use modulates the difficulty of defeating the <style=\"Link\"><link=\"enemies\">Enemies</link></style>.",
+            "<style=\"CurrentLink\">Sniper Locations</style> occupied by <style=\"Link\"><link=\"enemies\">Enemies</link></style> can effectively become <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> until the <style=\"Link\"><link=\"enemies\">Enemies</link></style> have been removed somehow. It can also let them have <style=\"Link\"><link=\"area-control\">Area Control</link></style> over the areas they can watch. These features, or if victims fail to detect the <style=\"CurrentLink\">Sniper Locations</style>, can make for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Repeated%20Domination\">Repeated Domination</link></style> in games with <style=\"CurrentLink\">Sniper Locations</style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Repeated%20Domination\">Repeated Domination</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"enemies\">Enemies</link></style></style>",
+            "<style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"arenas\">Arenas</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"arenas\">Arenas</link></style>, <style=\"Link\"><link=\"galleries\">Galleries</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"line-sight\">Line of Sight</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"killcams\">Killcams</link></style>, <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "area-control",
+            "camping",
+            "hiding-places",
+            "repeated-domination",
+            "stealth",
+            "strategic-locations",
+            "tactical-planning",
+            "inaccessible-areas"
+        ],
+        "modulates" : [
+            "aim-shoot",
+            "arenas",
+            "combat",
+            "enemies",
+            "game-boards",
+            "game-worlds",
+            "king-hill",
+            "levels",
+            "surprise-attacks",
+            "teams"
+        ],
+        "instantiated_by" : [
+            "arenas",
+            "galleries",
+            "inaccessible-areas",
+            "line-sight",
+            "strongholds"
+        ],
+        "modulated_by" : [
+            "flanking-routes",
+            "game-state-overviews",
+            "killcams",
+            "variable-accuracy"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

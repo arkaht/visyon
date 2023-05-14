@@ -1,0 +1,83 @@
+{
+    "name" : "Permadeath",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Event Patterns"
+    ],
+    "texts" : {
+        "definition" : "Permanent avatar or character deaths.",
+        "markups" : [
+            "<style=\"Definition\">Permanent avatar or character deaths.</style>",
+            "The avatars and characters that players control in games are often at risk of dying. While this makes gameplay risky, many games soften this by letting players have many lives or letting them start at a previous location if they die. A few other games instead have <style=\"CurrentLink\">Permadeath</style>. In these, the death of one's avatar or character ends the game sessions.",
+            "Wikipedia has a entry on <i>Permanent Death</i> in games.",
+            "Note: <i><style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> uses the concept of <style=\"CurrentLink\">Permadeath</style> for other purposes (\"roleplayed deaths\" and removals of characters from servers). These connotations are not included in this pattern but see the entry on the WoWWiki for more information about this alternative use.</i>",
+            "<style=\"H3\">Examples</style>",
+            "Some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> do let player cheat death by reincarnation spells, memory backups, and other devices but these may not be available for players with inexperienced characters. For others, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Call%20of%20Cthulhu\">Call of Cthulhu</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style>,  death is irrevocable because either they try to simulate reality closer or they focus on the frailty of humans.",
+            "The text-based adventure games <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rogue\">Rogue</link></style> uses <style=\"CurrentLink\">Permadeath</style> so making single mistakes can lead to game sessions ending and this feature is a central aspect of this type of games. <style=\"CurrentLink\">Permadeath</style> is considerably rarer in other type of computer-based games; there is a version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/BatMUD\">BatMUD</link></style> where death is permanent and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20II\">Diablo II</link></style> has an option for \"hardcore\" gameplay that includes <style=\"CurrentLink\">Permadeath</style>. ",
+            "Player can restart from earlier positions in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> but selecting <i>hardcore</i> modes in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> means that the deaths of companions are <style=\"CurrentLink\">Permadeaths</style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> can be said to have <style=\"CurrentLink\">Permadeath</style> since players' avatars do not respawn after being killed. This does not hinder them from playing for long however, since matches usually are pretty short and all players spawn when new matches begin.",
+            "<style=\"H2\">Using the pattern</style>",
+            "While <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style> exist in many games that include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> or <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"CurrentLink\">Permadeath</style> for players' <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> are more uncommon since it not only creates <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> but also increased the possibility of <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style> (see Klastrup for a discussion on the role of deaths in games). ",
+            "A primary concern when designing <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style> is how well it functions with the potential <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> that exist, and this of course varies with whom it is that dies. For example, <style=\"Link\"><link=\"units\">Units</link></style> typically have <style=\"CurrentLink\">Permadeath</style> and this is likely to be non-problematic since <style=\"Link\"><link=\"units\">Units</link></style> often can be replaced and have no or little individuality compared to other <style=\"Link\"><link=\"units\">Units</link></style>. Likewise, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> (but not <style=\"Link\"><link=\"companions\">Companions</link></style>) often have <style=\"CurrentLink\">Permadeath</style> if they can be killed at all; if this is possible depends on the types of activities permitted by the game this also depends on how vital the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style> are to <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>. This means that the pattern has most relevance for <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"characters\">Characters</link></style> that are <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>.",
+            "While some games have <style=\"CurrentLink\">Permadeath</style> as an integral part to create <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, it can also be used as an option to support varying <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>. Examples of games using the pattern in this fashion include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20II\">Diablo II</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> (for <style=\"Link\"><link=\"companions\">Companions</link></style> in the latter case). ",
+            "The actual implementation of <style=\"CurrentLink\">Permadeath</style> is trivial; it is in principle avoiding the use of the pattern <style=\"Link\"><link=\"lives\">Lives</link></style>. There are however some more subtle decisions. <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style> can be combined with <style=\"CurrentLink\">Permadeath</style>, as done for example in the roleplaying game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style>. This combination lets players have less risk of actually experiencing <style=\"CurrentLink\">Permadeath</style> but still preserve the consequences of the pattern. Supporting the saving of game state whenever player wants ruins the effect of <style=\"CurrentLink\">Permadeath</style> due to the ability of performing <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style> (or <style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style>) this gives them. <style=\"Link\"><link=\"save-points\">Save Points</link></style> have a lesser version of this effect in that gameplay can be continued from a previous game state but can, depending on their placements and scarcity, still make gameplay challenging.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "In <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"CurrentLink\">Permadeath</style> leads not only to <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> but also to <style=\"Link\"><link=\"downtime\">Downtime</link></style> unless the player leaves the activity completely. Letting these \"dead\" players be <style=\"Link\"><link=\"spectators\">Spectators</link></style> of the continued gameplay is one way of encouraging their continued presences - typically to be participants in the next instance of the game.",
+            "<style=\"H2\">Consequences</style>",
+            "The <style=\"CurrentLink\">Permadeaths</style> of <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"characters\">Characters</link></style> are <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style> that are <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> and lead to <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> and <style=\"Link\"><link=\"game-over\">Game Over</link></style>. As such they are clear <style=\"Link\"><link=\"closure-points\">Closure Points</link></style> for players. Games with the pattern have more <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> for this reason and often also encourage <style=\"Link\"><link=\"replayability\">Replayability</link></style> since players tend to distribute the total time players spend on the games over more game sessions. They also lead to <style=\"Link\"><link=\"downtime\">Downtime</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. The exception when they do not lead to <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> is when they are used together with <style=\"Link\"><link=\"save-points\">Save Points</link></style>. ",
+            "<style=\"CurrentLink\">Permadeath</style> can both encourage and discourage <style=\"Link\"><link=\"player-killing\">Player Killing</link></style>. Encourage due to succeeding with this is an <style=\"Link\"><link=\"irreversible-events\">Irreversible Event</link></style> and the benefits likewise irreversible; Discourage due to the common social experience of playing a game is damaged by <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>.",
+            "Due to their definitions, <style=\"CurrentLink\">Permadeath</style> and <style=\"Link\"><link=\"lives\">Lives</link></style> are not compatible. <style=\"CurrentLink\">Permadeath</style> becomes meaningless in games that allow <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style> (although well-placed <style=\"Link\"><link=\"save-points\">Save Points</link></style> can preserve the <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> effect). Having harsh effects on player mistakes, <style=\"CurrentLink\">Permadeath</style> does not support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> well.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"closure-points\">Closure Points</link></style>, <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style>, <style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>, <style=\"Link\"><link=\"player-killing\">Player Killing</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"save-points\">Save Points</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"save-scumming\">Save Scumming</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "challenging-gameplay",
+            "closure-points",
+            "death-consequences",
+            "early-elimination",
+            "game-over",
+            "irreversible-events",
+            "player-elimination",
+            "replayability",
+            "spectators",
+            "downtime"
+        ],
+        "modulates" : [
+            "avatars",
+            "characters",
+            "multiplayer-games",
+            "player-characters",
+            "player-killing",
+            "predetermined-story-structures"
+        ],
+        "instantiated_by" : [
+            "difficulty-levels"
+        ],
+        "modulated_by" : [
+            "extra-chances",
+            "save-points"
+        ],
+        "conflicts" : [
+            "lives",
+            "save-scumming",
+            "save-load-cycles",
+            "smooth-learning-curves"
+        ]
+    }
+}

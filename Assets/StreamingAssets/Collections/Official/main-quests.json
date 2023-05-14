@@ -1,0 +1,64 @@
+{
+    "name" : "Main Quests",
+    "categories" : [
+        "Patterns",
+        "Narration Patterns",
+        "Goal Patterns"
+    ],
+    "texts" : {
+        "definition" : "Quests whose completion provides the main winning condition of games.",
+        "markups" : [
+            "<style=\"Definition\">Quests whose completion provides the main winning condition of games.</style>",
+            "<style=\"CurrentLink\">Main Quests</style> are the ones that provide overarching goals for players in games structured around the fulfillment of quests. They often tie the main parts of games' stories to gameplay and provide frameworks for smaller quests.",
+            "Note: <i><style=\"CurrentLink\">Main Quests</style> are in some cases used to refer to all quests necessary to complete in a game to finish it, or the one overarching quest that frames gameplay. This pattern adheres to the latter usage.</i>",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Main Quests</style> have most common in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> but not so in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop</link></style> due to the often open-ended narratives. Likewise, overarching quests may be present as story-telling devices in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> and large scale <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">LARPS</link></style> but can often not be completed or do not have rewards on a gameplay level. Examples of <style=\"CurrentLink\">Main Quests</style> include saving the world of Tamriel in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20IV:%20Oblivion\">Elder Scrolls IV: Oblivion</link></style> by stop <i>oblivion portals</i> from opening, saving or diverting the intentions of <i>project purity</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style>, affect the outcome of the struggle between mages and  templars in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20II\">Dragon Age II</link></style>, and choosing the path of non-humans, knights, or declaring neutrality in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Witcher\">Witcher</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The design of <style=\"CurrentLink\">Main Quests</style> is similar to <style=\"Link\"><link=\"quests\">Quests</link></style> in general but may actually not have a gameplay <style=\"Link\"><link=\"rewards\">Reward</link></style> since the games may end by the completion of them. However, they practically always make use of other <style=\"Link\"><link=\"quests\">Quests</link></style> to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hierarchy%20of%20Goals\">Hierarchy of Goals</link></style> and players are often given the option of additional gameplay through <style=\"Link\"><link=\"sidequests\">Sidequests</link></style>. Since the <style=\"CurrentLink\">Main Quests</style> are the main drivers of how players explore and move through <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and interact with <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, it is also common to make all important places, people, and <style=\"Link\"><link=\"factions\">Factions</link></style> part of the <style=\"CurrentLink\">Main Quests</style> so that players have at least become aware of them through playing through the games.",
+            "Note that although completing some <style=\"CurrentLink\">Main Quests</style> may end games (as it does for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20II\">Dragon Age II</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> with the exception of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> with the <i>Broken Steel</i> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Expansions\">Expansion</link></style>), this is not a necessity. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20IV:%20Oblivion\">Elder Scrolls IV: Oblivion</link></style> is an example of this.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Main Quests</style> do not  need to be present in interfaces in the same way as other <style=\"Link\"><link=\"quests\">Quests</link></style> since they frame the whole gameplay and narrative experience.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Main Quests</style> are the main bearer of <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> when they exist in games, so the pattern is an inherently narrative one.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Main Quests</style> are <style=\"Link\"><link=\"quests\">Quests</link></style> overarching the main gameplay structures of games, and as such, they are <style=\"Link\"><link=\"main-goals\">Main Goals</link></style> and typically also the primary <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>. These structures give players <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> of how gameplay and narration will unfold and typically make players aware of all main <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, and important places in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> through the use of subquests.",
+            "<style=\"CurrentLink\">Main Quests</style> are difficult to combine with <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> since completing <style=\"CurrentLink\">Main Quests</style> is a way of winning a game. They are also difficult to combine with <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style> since these games need to support <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> and other places players in opposing <style=\"Link\"><link=\"factions\">Factions</link></style> that do not share <style=\"Link\"><link=\"quests\">Quests</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"main-goals\">Main Goals</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hierarchy%20of%20Goals\">Hierarchy of Goals</link></style>, <style=\"Link\"><link=\"sidequests\">Sidequests</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "main-goals",
+            "predetermined-story-structures",
+            "quests"
+        ],
+        "modulates" : [
+            "factions",
+            "game-worlds",
+            "non-player-characters"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "hierarchy-goals",
+            "sidequests"
+        ],
+        "conflicts" : [
+            "massively-multiplayer-online-games",
+            "unwinnable-games"
+        ]
+    }
+}

@@ -1,48 +1,58 @@
 ﻿using System;
 using System.Collections.Generic;
-using Unity.Burst.CompilerServices;
-using UnityEngine;
 
 namespace Utils
 {
 	public class History<T>
 	{
-		public T Current => cursor == -1 ? default : content[cursor];
-		public T Previous => cursor - 1 <= -1 ? default : content[cursor - 1];
-		public T Next => cursor + 1 >= content.Count ? default : content[cursor + 1];
+		public T Current => ContainerUtils.IsInRange( Cursor, Content.Count ) ? Content[Cursor] : default;
+		public T Previous => ContainerUtils.IsInRange( Cursor - 1, Content.Count ) ? Content[Cursor - 1] : default;
+		public T Next => ContainerUtils.IsInRange( Cursor + 1, Content.Count ) ? Content[Cursor + 1] : default;
 
-		private readonly List<T> content = new();
-		private int cursor = -1;
+		public int Cursor { get; private set; }
+		public List<T> Content { get; init; } = new();
 
 		public T Navigate( int offset )
 		{
-			if ( content.Count == 0 ) return Current;
+			if ( Content.Count == 0 ) return Current;
 
 			//  get new cursor
-			cursor = Math.Clamp( cursor + offset, 0, content.Count - 1 );
-
-			/*Debug.Log( content.Count );
-			for ( int i = 0; i < content.Count; i++ )
-			{
-				T t = content[i];
-				if ( i == cursor )
-					Debug.Log( "(it's me) " + t  );
-				else
-					Debug.Log( t );
-			}*/
+			OffsetCursor( offset );
 
 			return Current;
 		}
 
+		public void OffsetCursor( int pos )
+		{
+			if ( Content.Count == 0 )
+			{
+				Cursor = -1;
+				return;
+			}
+
+			Cursor = Math.Clamp( Cursor + pos, 0, Content.Count - 1 );
+		}
+
 		public void Add( T previous )
 		{
-			content.Insert( ++cursor, previous );
+			Content.Insert( ++Cursor, previous );
+		}
+
+		public void Remove( T target )
+		{
+			Content.Remove( target );
+			OffsetCursor( 0 );
+		}
+		public void RemoveAt( int id )
+		{
+			Content.RemoveAt( id );
+			OffsetCursor( 0 );
 		}
 
 		public void Clear()
 		{
-			cursor = -1;
-			content.Clear();
+			Cursor = -1;
+			Content.Clear();
 		}
 	}
 }

@@ -1,0 +1,58 @@
+{
+    "name" : "Endgame Quests",
+    "categories" : [
+        "Goal Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Quests that can only be taken in the endgame phase of a game, and are designed to provide challenges and rewards relevant to this phase.",
+        "markups" : [
+            "<style=\"Definition\">Quests that can only be taken in the endgame phase of a game, and are designed to provide challenges and rewards relevant to this phase.</style>",
+            "Some games have <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases and some of these can continue as long as players find interesting activities to do in the games. <style=\"CurrentLink\">Endgame Quests</style> are quests specifically designed to support players in having such activities in these phases.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> allows players that have reached the highest character level to continue progressing with that character through completing <style=\"CurrentLink\">Endgame Quests</style> that can give equipment or reputation. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Skyrim\">Skyrim</link></style> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Final%20Fantasy%20VIII\">Final Fantasy VIII</link></style> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Final%20Fantasy%20series\">Final Fantasy series</link></style> are single-player games with <style=\"CurrentLink\">Endgame Quests</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Endgame Quests</style> are like designing other <style=\"Link\"><link=\"quests\">Quests</link></style> except that they should make sense to have in the <style=\"Link\"><link=\"endgame\">Endgame</link></style> phase. This may mean that they should not connect to main story lines in a game since these may already be finished. Further, they may have to take into account that players may already have reached caps for certain types of development since the <style=\"Link\"><link=\"endgame\">Endgame</link></style> might be defined by this, as for example reaching the maximum <style=\"Link\"><link=\"character-levels\">Character Level</link></style> signifies in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>. The two most common ways of addressing the development issue is to allow players <style=\"Link\"><link=\"rewards\">Rewards</link></style> in the form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style> or more powerful <style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, or <style=\"Link\"><link=\"weapons\">Weapons</link></style> that can't be acquired before one has reached the <style=\"Link\"><link=\"endgame\">Endgame</link></style> phase.",
+            "<style=\"CurrentLink\">Endgame Quests</style> are nearly always designed to provide <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> since <style=\"CurrentLink\">Endgame Quests</style> take place when players have had sufficient time to learn a game as well as have been able to develop <style=\"Link\"><link=\"characters\">Characters</link></style> or <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "In games with <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases, they typically occur after the main narration has been told. For this reason, <style=\"CurrentLink\">Endgame Quests</style> are typically not <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Narration%20Patterns\">Narration Patterns</link></style> having effect on the whole story line or the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> as a whole. They may of course have localized narration.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Endgame Quests</style> are <style=\"Link\"><link=\"quests\">Quests</link></style> that provide <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style> for players that have reached <style=\"Link\"><link=\"endgame\">Endgame</link></style> phases or completed <style=\"Link\"><link=\"main-goals\">Main Goals</link></style>. They are examples of gameplay content made available through <style=\"Link\"><link=\"unlocking\">Unlocking</link></style>, in this case due to reaching an <style=\"Link\"><link=\"endgame\">Endgame</link></style> phase. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"unlocking\">Unlocking</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"endgame\">Endgame</link></style>, <style=\"Link\"><link=\"main-goals\">Main Goals</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-based-social-statuses",
+            "optional-goals",
+            "quests",
+            "unlocking"
+        ],
+        "modulates" : [
+            "armor",
+            "endgame",
+            "main-goals",
+            "tools",
+            "weapons"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "challenging-gameplay"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

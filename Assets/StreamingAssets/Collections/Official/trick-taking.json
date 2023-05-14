@@ -1,0 +1,63 @@
+{
+    "name" : "Trick Taking",
+    "categories" : [
+        "Patterns",
+        "Action Patterns"
+    ],
+    "texts" : {
+        "definition" : "A play of cards or tiles by several players which is won by one of them.",
+        "markups" : [
+            "<style=\"Definition\">A play of cards or tiles by several players which is won by one of them.</style>",
+            "<style=\"CurrentLink\">Trick Taking</style> is the action in card games where each player plays a card and all the cards - forming a <i>trick</i> - is won by one of the players. Often winning is determined by playing the highest card in one suit although trumps may beat this.",
+            "<style=\"H3\">Examples</style>",
+            "Many well-known <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style> use <style=\"CurrentLink\">Trick Taking</style>. Examples include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts\">Hearts</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oh,%20hell\">Oh, hell</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Whist\">Whist</link></style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/42\">42</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tien%20Gow\">Tien Gow</link></style> are <style=\"CurrentLink\">Trick Taking</style> games played with dominoes rather than with cards.",
+            "See <i>The Penguin Encyclopedia of Card Games</i> for more examples of <style=\"CurrentLink\">Trick Taking</style> card games. Wikipedia also has a list of <style=\"CurrentLink\">Trick Taking</style> games.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Trick Taking</style> requires the presence of <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, and is nearly always regulated through <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>. Taking a trick is basically trying to achieve an <style=\"Link\"><link=\"overcome\">Overcome</link></style> goal, and the winner is determine by the values of the <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> played; although <style=\"CurrentLink\">Trick Taking</style> is a way to modulate these game elements this pattern may be so central to gameplay that it motivates the actual design of these game elements. Tricks may be collected individually or shared by <style=\"Link\"><link=\"teams\">Teams</link></style> (as for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style>).",
+            "One design choice need to make regarding <style=\"CurrentLink\">Trick Taking</style> is if the goal of taking tricks is to get as many as possible (as for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style>), as few as possible (as for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts\">Hearts</link></style>), or trying to hit an exact number of tricks, possibly determined by <style=\"Link\"><link=\"bidding\">Bidding</link></style> (as found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oh,%20hell\">Oh, hell</link></style>). In games with suits, it is often required that tricks can only be won by playing the highest card in the suit that opened the trick, but an option is that one suit can beat the played suit by being a <style=\"Link\"><link=\"trumps\">Trump</link></style> - this can either be done through having one suit permanently assigned as the <style=\"Link\"><link=\"trumps\">Trump</link></style> or having some mechanism for alternative the <style=\"Link\"><link=\"trumps\">Trump</link></style> between <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rounds\">Rounds</link></style>.",
+            "<style=\"CurrentLink\">Trick Taking</style> often have rules regarding which <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> can be played based on the first one played. That these rules are followed can rarely be judged during the trick and rules violations tend to be revealed several tricks later. <style=\"Link\"><link=\"revoke-rules\">Revoke Rules</link></style> are sets of rules that are designed to handle these cases. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Trick Taking</style> is a type of <style=\"Link\"><link=\"overcome\">Overcome</link></style> action in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> using <style=\"Link\"><link=\"cards\">Cards</link></style> and <style=\"Link\"><link=\"tiles\">Tiles</link></style>. It can be seen as an alternative or special form of <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style>, allowing players to enact <style=\"Link\"><link=\"replays\">Replays</link></style> after gameplay if each trick is saved by itself as a form of <style=\"Link\"><link=\"discard-piles\">Discard Pile</link></style>. Games with <style=\"CurrentLink\">Trick Taking</style> are even more likely than other games with <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> to encourage players to engage in <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style></style>",
+            "<style=\"Link\"><link=\"replays\">Replays</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"bidding\">Bidding</link></style>, <style=\"Link\"><link=\"revoke-rules\">Revoke Rules</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"Link\"><link=\"trumps\">Trumps</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "memorizing",
+            "overcome",
+            "replays"
+        ],
+        "modulates" : [
+            "cards",
+            "discard-piles",
+            "multiplayer-games",
+            "tiles"
+        ],
+        "instantiated_by" : [
+            "turn-taking"
+        ],
+        "modulated_by" : [
+            "bidding",
+            "revoke-rules",
+            "teams",
+            "trumps"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

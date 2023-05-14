@@ -1,0 +1,81 @@
+{
+    "name" : "Actor Detachment",
+    "categories" : [
+        "Player Patterns",
+        "Gameplay Adaptability Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The cognitive and psychological detachment of players between how other players perform in a game and who they are outside the game.",
+        "markups" : [
+            "<style=\"Definition\">The cognitive and psychological detachment of players between how other players perform in a game and who they are outside the game.</style>",
+            "Most game designers probably want that the games they have designed are inviting to as many people as possible. There are however many different reasons why people may not feel that the games are for them. While in some cases this may simply be that they do not like the gameplay offered, in other cases it may be because the narrative content, the theme, or the presentation style of a game may be offensive to them. In yet other cases, the other players of a game may reject players based on characteristics that have nothing to do with the gameplay itself. In the two last cases, players do not feel invited to play the game because of whom they are, not how they play. Designing for <style=\"CurrentLink\">Actor Detachment</style> is designing to remove causes and contexts in which these can arise.",
+            "<style=\"H3\">Examples</style>",
+            "Single-player games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Solitaire\">Solitaire</link></style> naturally has <style=\"CurrentLink\">Actor Detachment</style>, and this goes for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzles\">Puzzles</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ostomachion\">Ostomachion</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tangram\">Tangram</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Jigsaw%20Puzzles\">Jigsaw Puzzles</link></style> as well. Similarly <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> do also in many cases support <style=\"CurrentLink\">Actor Detachment</style>. The early <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Invaders\">Space Invaders</link></style> do this by being single-player games where players compete against previous players for positions on high score lists. Other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, do this by letting players compete against or cooperate with each other over the internet.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are three main issues games can deal with to support <style=\"CurrentLink\">Actor Detachment</style>. The first is to avoid making skills, knowledge, or other aspects from outside the game affect the game. The second is to make people feel invited to play the game, or at least not that the game rejects them because of who they are. The third, which is related to the second issue but depends on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>, is to avoid players feeling frozen out by other players. A simplistic way to create <style=\"CurrentLink\">Actor Detachment</style> is through having <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> or providing <style=\"Link\"><link=\"ai-players\">AI Players</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style> work the same way but can include some more social aspects. ",
+            "While specific gameplay challenges in any games can be problematic regarding the first issue of <style=\"CurrentLink\">Actor Detachment</style>, those based on <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style> or <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style> more or less guarantee this problem. Somewhat paradoxical, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> can support <style=\"CurrentLink\">Actor Detachment</style>. This since gameplay stressed some type of skill or knowledge, and this removes focus from other aspects of the players. This mastery can be shown through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, but any type of social statuses that derives from players' relations to a game can help with instantiating the pattern. ",
+            "The second issue of <style=\"CurrentLink\">Actor Detachment</style> typically has more to do which choice of theme, story, and presentation of game worlds that with gameplay. Even so, have the pattern such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Constructive%20Gameplay\">Constructive Gameplay</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Group%20Belonging\">Group Belonging</link></style>, and <style=\"Link\"><link=\"togetherness\">Togetherness</link></style> make players focus on including other players rather than excluding them. ",
+            "The easiest way to make players not know about each other is to have <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style>. Other forms of <style=\"Link\"><link=\"player-anonymity\">Player Anonymity</link></style> can work, i.e. use of <style=\"Link\"><link=\"anonymous-actions\">Anonymous Actions</link></style> and <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>, but this makes the presence of the pattern a player choice. <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> work against the pattern since choosing to play with one's friends is likely to let some opinions about those players affect the gameplay (either positively or negatively). Likewise, the use of any form of <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> can make a player voluntarily or involuntarily let other players know more about him- or herself.  ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Avatar%20Personalization\">Avatar Personalization</link></style> can help with <style=\"CurrentLink\">Actor Detachment</style> by letting players have a large variety of possible appearances in a game. Besides letting them play whomever they wish, by making many possible types of <style=\"Link\"><link=\"avatars\">Avatars</link></style> playable the game is more inclusive. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Games with <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> more easily support <style=\"CurrentLink\">Actor Detachment</style> since the identities of players are more easily hidden but this advantage can easily be removed by the use of <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> such as <style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style> since players may then share <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Communication%20Abilities\">Limited Communication Abilities</link></style> can balance the need for exchanging information about gameplay while at the same time limiting the information players get about each other while playing. In contrast, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style> may make <style=\"CurrentLink\">Actor Detachment</style> more difficult since players cannot avoid knowing more about each other.",
+            "<style=\"H2\">Consequences</style>",
+            "By minimizing the effects between players not directly related to gameplay expertise, <style=\"CurrentLink\">Actor Detachment</style> increases the <style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style> of a game. It can however have negative effects on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> since players may be somewhat less interested in communicating with people they know less about. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> during gameplay, especially when players have <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>, also make it more difficult to have <style=\"CurrentLink\">Actor Detachment</style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"social-adaptability\">Social Adaptability</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"anonymous-actions\">Anonymous Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Avatar%20Personalization\">Avatar Personalization</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Constructive%20Gameplay\">Constructive Gameplay</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style>, <style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Group%20Belonging\">Group Belonging</link></style>, <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>, <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Communication%20Abilities\">Limited Communication Abilities</link></style>, <style=\"Link\"><link=\"player-anonymity\">Player Anonymity</link></style>, <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>, <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>, <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "social-adaptability"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "ai-players",
+            "anonymous-actions",
+            "avatar-personalization",
+            "constructive-gameplay",
+            "cooperation",
+            "enforced-player-anonymity",
+            "functional-roles",
+            "game-based-social-statuses",
+            "gameplay-mastery",
+            "group-belonging",
+            "massively-single-player-online-games",
+            "mediated-gameplay",
+            "limited-communication-abilities",
+            "player-anonymity",
+            "possibility-anonymity",
+            "single-player-games",
+            "togetherness"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "chat-channels",
+            "communication-channels",
+            "extra-game-information",
+            "friend-lists",
+            "player-physical-prowess",
+            "real-life-activities-affect-game-state",
+            "real-world-knowledge-advantages",
+            "social-interaction",
+            "social-roles",
+            "unmediated-social-interaction"
+        ]
+    }
+}

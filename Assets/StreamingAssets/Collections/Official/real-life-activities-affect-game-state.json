@@ -1,0 +1,69 @@
+{
+    "name" : "Real Life Activities Affect Game State",
+    "categories" : [
+        "Pervasive Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where real world activities done for other purposes than playing the game provide input to the game state.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where real world activities done for other purposes than playing the game provide input to the game state.</style>",
+            "Activities performed in game are typically activities done specifically to affect the games. However, some games do take the activities done for other purposes and use them as input for changing the game state and those that do so have the pattern <style=\"CurrentLink\">Real Life Activities Affect Game State</style>.",
+            "<style=\"H3\">Examples</style>",
+            "The energy usage in a household is the primary input to the game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Power%20Explorer\">Power Explorer</link></style>, indirectly causing the players' everyday behavior affect the game through how much electrical energy their activities use.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zombies,%20Run!\">Zombies, Run!</link></style> takes the physical exercise players do when jogging as input, letting players be able to gather resources to be used in the zombie apocalypse the game takes place in.",
+            "While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conspiracy%20for%20Good\">Conspiracy for Good</link></style> makes charity work and donations part of its gameplay, it is a weak example of <style=\"CurrentLink\">Real Life Activities Affect Game State</style> since it only does so at specific points in the game and it is design to make people be more charitable rather than make use of the charity work players already do.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rock%20Band%20series\">Rock Band series</link></style> and Wii games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Wii%20Sports\">Wii Sports</link></style> are not examples of <style=\"CurrentLink\">Real Life Activities Affect Game State</style> even if they may cause players to become excited and exhausted. This since the activities performed are caricatures of certain real world activities rather than examples of the actual real world activities.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Implementing <style=\"CurrentLink\">Real Life Activities Affect Game State</style> consists of deciding which real world activities to use and how to measure or translate the activities to game state changes. While <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Umpires\">Umpires</link></style> can let the input to the game state be qualitative and can change the mapping on the fly, technology-based systems can let games do their real world activities with a greater sense of privacy. <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style> and other similar patterns do not directly make <style=\"CurrentLink\">Real Life Activities Affect Game State</style> part of the gameplay of a game, but patterns related to it such as <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>  and <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style> can when they are consequences of real world activities.",
+            "<style=\"CurrentLink\">Real Life Activities Affect Game State</style> can typically be created through <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style> together with <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Using <style=\"CurrentLink\">Real Life Activities Affect Game State</style> typically require the use of some sensing technology or <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> to observe the activities since requiring players to do this disrupts the activities (and fake input can be given).",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Real Life Activities Affect Game State</style> is a form of <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>, and one which makes <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive</link></style> and <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style> possible. Since <style=\"CurrentLink\">Real Life Activities Affect Game State</style> rewards those good at certain real world activities, knowledge of how to do those activities is beneficial for gameplay. This also leads to games having this pattern to be likely to have the pattern <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>. However, doing the activities with another purpose added may make players consider the activities in new ways, so the pattern can also give rise to <style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>. ",
+            "<style=\"CurrentLink\">Real Life Activities Affect Game State</style> is difficult to combine with <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style> since one pattern deals with making real world activities into gameplay actions while the other makes mimicking real world activities into gameplay actions.",
+            "Further, since this pattern makes explicit use of what the player does, it works against <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style> in the sense of players' characteristics outside a game should not affect how he or she is perceived in the game.",
+            "Rather obviously but rarely a practical problem, games using <style=\"CurrentLink\">Real Life Activities Affect Game State</style> put additional requirements on designing <style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>, <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"robotic-players\">Robotic Players</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Umpires\">Umpires</link></style>",
+            "<style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style> together with <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>, <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "changes-perception-real-world-phenomena-gameplay",
+            "extra-game-input",
+            "pervasive-gameplay",
+            "real-world-knowledge-advantages",
+            "ubiquitous-gameplay"
+        ],
+        "modulates" : [
+            "robotic-players"
+        ],
+        "instantiated_by" : [
+            "game-masters",
+            "physical-navigation",
+            "player-physical-prowess",
+            "umpires",
+            "extra-game-input"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "actor-detachment",
+            "mimetic-interfaces"
+        ]
+    }
+}

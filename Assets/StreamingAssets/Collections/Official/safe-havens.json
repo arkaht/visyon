@@ -1,0 +1,101 @@
+{
+    "name" : "Safe Havens",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Locations in game worlds where game elements are safe from harmful game events.",
+        "markups" : [
+            "<style=\"Definition\">Locations in game worlds where game elements are safe from harmful game events.</style>",
+            "Many games put players' game elements are risk. To allow players rest these risks, games can be design so that some parts of the game environment provide protection from the threats that create these. This makes them into <style=\"CurrentLink\">Safe Havens</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Pieces on <i>castle squares</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pachisi\">Pachisi</link></style> are safe for capture are thereby provide <style=\"CurrentLink\">Safe Havens</style>. In addition, a player's <i>home column</i> is effectively a <style=\"CurrentLink\">Safe Haven</style> also since no other pieces can enter it (the same applies for the simpler <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ludo\">Ludo</link></style>).",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style> have <style=\"CurrentLink\">Safe Havens</style> between the levels where players are safe from threats and have time to consider what to do next, and which part of the game world travel to next.",
+            "Many first-person shooters have <style=\"CurrentLink\">Safe Havens</style>. Each teams home base in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style> cannot be entered by the other side and thereby allow players respite after having being killed and respawned - eliminating the risk of being killed immediately after having been being brought back into the game. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> provides <i>safe rooms</i> that join levels together (and sometimes intersects individual levels as well) and provide players the chance to resupply on weapons, ammunition, and medical equipment.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> does not provide any <style=\"CurrentLink\">Safe Havens</style> to begin with, but players can quite easily construct their own through manipulating the game environment.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are two requirements for a place to be a <style=\"CurrentLink\">Safe Haven</style>: first, there should be no <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, such as <style=\"Link\"><link=\"traps\">Traps</link></style>, that can negatively affect players. Second, no hostile <style=\"Link\"><link=\"agents\">Agents</link></style> or players should be able to affect the area. This can be done by having <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>, or, in cases where <style=\"Link\"><link=\"units\">Units</link></style> or <style=\"Link\"><link=\"avatars\">Avatars</link></style> can perform hostile actions, limiting access by requiring a form of <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style> to enter them (or <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> to make access possible). The latter can be achieved through the use of <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style> where passage is not allowed to <style=\"Link\"><link=\"enemies\">Enemies</link></style>. <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style> can become <style=\"CurrentLink\">Safe Havens</style> for the reason of <style=\"Link\"><link=\"enemies\">Enemies</link></style> not being able to reach players there, but <style=\"CurrentLink\">Safe Havens</style> can also be modified to be <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style>. ",
+            "Of course, <style=\"CurrentLink\">Safe Havens</style> may be the result of players' actions in games with <style=\"Link\"><link=\"construction\">Construction</link></style> using <style=\"Link\"><link=\"diegetically-tangible-game-items\">Diegetically Tangible Game Items</link></style>, as for example possible in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>. Some <style=\"CurrentLink\">Safe Havens</style> make it impossible for players to have negative consequences of their own actions. These forms of <style=\"CurrentLink\">Safe Havens</style> support <style=\"Link\"><link=\"experimenting\">Experimenting</link></style>. <style=\"CurrentLink\">Safe Havens</style> do not have to be permanent, they may for example stop granting sanctuary after a certain <style=\"Link\"><link=\"time-limits\">Time Limit</link></style> has run out or after players have perform certain actions. In games that use <style=\"Link\"><link=\"save-points\">Save Points</link></style>, these tend to be <style=\"CurrentLink\">Safe Havens</style> although not all <style=\"CurrentLink\">Safe Havens</style> need to be so and for this reason <style=\"Link\"><link=\"save-points\">Save Points</link></style> can be seen as a way of modifying <style=\"CurrentLink\">Safe Havens</style>. ",
+            "One way to hinder hostile activities within <style=\"CurrentLink\">Safe Havens</style> is to allow hostile <style=\"Link\"><link=\"agents\">Agents</link></style> or players into them but make hostile actions impossible through locally enforcing <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, i.e. having the losses as a form <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>. Sometimes these kinds of <style=\"CurrentLink\">Safe Havens</style> are safe only for the lower ranking players. For example, the home cities in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dark%20Age%20of%20Camelot\">Dark Age of Camelot</link></style> are safe only for low level characters. As an alternative, <style=\"CurrentLink\">Safe Havens</style> can be constructed by providing <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"units\">Units</link></style> with <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style> to <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> that others do not have. When created in this way, it is often linked to <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, for example for a short period of time after <style=\"Link\"><link=\"spawning\">Spawning</link></style>. This approach is typically used in multiplayer games with no teams.",
+            "Finally, a weaker form of <style=\"CurrentLink\">Safe Havens</style> can be constructed from threatening those attacking others with stiff <style=\"Link\"><link=\"penalties\">Penalties</link></style>, e.g. city guards or police intervening if players disturb the peace. While this may not stop players from being attacked, it makes it less likely since attackers need to consider the associated <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risks and Rewards</link></style>.",
+            "While <style=\"Link\"><link=\"combat\">Combat</link></style> is not possible in <style=\"CurrentLink\">Safe Havens</style>, the pattern modulate rather than is in conflict with <style=\"Link\"><link=\"combat\">Combat</link></style> since the havens are defined in contrast to the rest of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. <style=\"CurrentLink\">Safe Havens</style> are often combined with <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style> to ensure that the <style=\"Link\"><link=\"spawning\">Spawning</link></style> of <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> cannot immediately result in attacks by other players or <style=\"Link\"><link=\"enemies\">Enemies</link></style>. In games with <style=\"Link\"><link=\"teams\">Teams</link></style>, this allows the <style=\"Link\"><link=\"teams\">Teams</link></style> to at least have a minimal area they always control. Placing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> inside such <style=\"CurrentLink\">Safe Havens</style> can further enhance the <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> of them.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "For <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> to be maintained, <style=\"CurrentLink\">Safe Havens</style> can need diegetic explanations, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> does this by only making players able to open the doors to <i>safe rooms</i> (an example of a <style=\"Link\"><link=\"privileged-abilities\">Privileged Ability</link></style>).",
+            "<style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> can be useful to ensure that players are aware of where the <style=\"CurrentLink\">Safe Havens</style> are in games.",
+            "<style=\"H2\">Consequences</style>",
+            "Since <style=\"CurrentLink\">Safe Havens</style> can hinder players or other <style=\"Link\"><link=\"agents\">Agents</link></style> from attacking each other on <style=\"Link\"><link=\"game-boards\">Game Boards</link></style> or in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style>, they provide <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style> and modify how <style=\"Link\"><link=\"capture\">Capture</link></style> and <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> actions function in games. Enforcing neutral areas where players cannot attack each others, <style=\"CurrentLink\">Safe Havens</style> increase the likelihood for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> and <style=\"Link\"><link=\"trading\">Trading</link></style> to occur. Quite often, the way <style=\"CurrentLink\">Safe Havens</style> are created make them into <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> for some <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> in the games that contain them. For games with <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"CurrentLink\">Safe Havens</style> can make it possible to avoid disturbing specific other location-based activities while allowing the gameplay to take place in other locations.",
+            "<style=\"CurrentLink\">Safe Havens</style> naturally create <style=\"Link\"><link=\"check-points\">Check Points</link></style> for <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals, and thereby create <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> which can promote <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> and <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>. It can also lessen <style=\"Link\"><link=\"tension\">Tension</link></style>, or modulate gameplay so that it shifts between stressful periods and calmer periods. ",
+            "For games where players have meaningful actions to perform within the <style=\"CurrentLink\">Safe Havens</style>, this can encourage both <style=\"Link\"><link=\"camping\">Camping</link></style> and <style=\"Link\"><link=\"pottering\">Pottering</link></style>. However, when other actions are possible outside the <style=\"CurrentLink\">Safe Havens</style>, players need to make <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> assessments when to leave them. <style=\"CurrentLink\">Safe Havens</style> can however also work against players <style=\"Link\"><link=\"camping\">Camping</link></style> to attack other players in an area.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"experimenting\">Experimenting</link></style>, <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"pottering\">Pottering</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"diegetically-tangible-game-items\">Diegetically Tangible Game Items</link></style>, <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> together with <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>",
+            "<style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> together with <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>",
+            "<style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> together with <style=\"Link\"><link=\"privileged-movement\">Privileged Movement</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style>, <style=\"Link\"><link=\"save-points\">Save Points</link></style>, <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "balancing-effects",
+            "camping",
+            "check-points",
+            "experimenting",
+            "location-fixed-abilities",
+            "negotiation",
+            "pottering",
+            "risk-reward",
+            "stimulated-planning",
+            "strategic-locations",
+            "trading"
+        ],
+        "modulates" : [
+            "avatars",
+            "capture",
+            "combat",
+            "eliminate",
+            "game-boards",
+            "game-worlds",
+            "levels",
+            "pervasive-gameplay",
+            "resource-generators",
+            "spawn-points",
+            "traverse",
+            "units"
+        ],
+        "instantiated_by" : [
+            "conditional-passageways",
+            "construction",
+            "diegetically-tangible-game-items",
+            "hiding-places",
+            "penalties",
+            "privileged-abilities",
+            "private-game-spaces",
+            "ability-losses",
+            "environmental-effects",
+            "inaccessible-areas"
+        ],
+        "modulated_by" : [
+            "diegetically-outstanding-features",
+            "hiding-places",
+            "save-points",
+            "spawn-points",
+            "time-limits"
+        ],
+        "conflicts" : [
+            "camping",
+            "traps",
+            "thematic-consistency",
+            "tension"
+        ]
+    }
+}

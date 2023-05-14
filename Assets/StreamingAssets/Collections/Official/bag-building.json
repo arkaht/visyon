@@ -1,0 +1,55 @@
+{
+    "name" : "Bag Building",
+    "categories" : [
+        "Mechanical Patterns",
+        "Interface Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay consisting of putting tokens into a bag and later removing them from said bag.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay consisting of putting tokens into a bag and later removing them from said bag.</style>",
+            "Many games use randomness to create uncertainty in games. One way of doing this is through putting different types of tokens into a bag and later drawing them. Games with <style=\"CurrentLink\">Bag Building</style> make it into a gameplay aspect of choosing which tokens to place in a bag and when to draw tokens from that bag.",
+            "Note: ''BoardGameGeek calls this 'Pool Building'.''",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hyperborea\">Hyperborea</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Yggdrasil\">Yggdrasil</link></style> are examples of <style=\"CurrentLink\">Bag Building</style> games, the former one where every player has their own bag and the latter one where four bags are jointly manipulated by all players. Others are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Orleans\">Orleans</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Altiplano\">Altiplano</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Bag Building</style> can be seen as an alternative to <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>. The main design options regarding <style=\"CurrentLink\">Bag Building</style> is what type of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> can be placed in a bag, when players get put <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> in a bag, and when players draw <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> from the bag. Another important design choice is whether bags are individually owned by players or if they are <style=\"Link\"><link=\"shared-resources\">Shared Resources</link></style>.",
+            "Games with <style=\"CurrentLink\">Bag Building</style> can allow players the possibility of manipulating the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> within bags through <style=\"Link\"><link=\"bag-management\">Bag Management</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Bag Building</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Bag Building</style> is a way to make use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> as <style=\"Link\"><link=\"investments\">Investments</link></style>. It creates <style=\"Link\"><link=\"randomness\">Randomness</link></style> since the idea of using bags is to make it uncertain which <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> are drawn when some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style> should be drawn.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"bag-management\">Bag Management</link></style>, <style=\"Link\"><link=\"shared-resources\">Shared Resources</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "investments",
+            "randomness"
+        ],
+        "modulates" : [
+            "tokens"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "bag-management",
+            "shared-resources"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

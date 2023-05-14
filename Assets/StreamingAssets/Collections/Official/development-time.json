@@ -1,0 +1,76 @@
+{
+    "name" : "Development Time",
+    "categories" : [
+        "Patterns",
+        "Action Patterns"
+    ],
+    "texts" : {
+        "definition" : "Fixed amounts of game time needed for an event to have its main effect.",
+        "markups" : [
+            "<style=\"Definition\">Fixed amounts of game time needed for an event to have its main effect.</style>",
+            "Some actions performed in games do not have immediate effects. Instead, they start processes that after some given time, its <style=\"CurrentLink\">Development Time</style>, has it effect.",
+            "<style=\"H3\">Examples</style>",
+            "The construction of buildings or units in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> always takes at least one turn but most often more depending on what is built and how developed the city where the construction takes place.",
+            "The plants grown in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> take variable amount of time to mature depending on which type it is.",
+            "Calling air strikes in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> can be done quickly but it then takes some time for the actual attack to occur.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The prime choice for <style=\"CurrentLink\">Development Time</style> is what event or event caused by an action should be affected. Most actions are eligible to have <style=\"CurrentLink\">Development Time</style> but the pattern is most often used with actions related to <style=\"Link\"><link=\"construction\">Construction</link></style>, e.g. <style=\"Link\"><link=\"crafting\">Crafting</link></style>.",
+            "<style=\"CurrentLink\">Development Time</style> is related to both <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> and <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> but are not the same. If the <style=\"CurrentLink\">Development Time</style> blocks players from making other actions (as for example in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style>) this makes the actions into <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, but if players cannot make use of the actions anyway (e.g. by them being <style=\"Link\"><link=\"installations\">Installations</link></style> spread out in the <style=\"Link\"><link=\"game-worlds\">Game World</link></style>) this becomes a non-issue. <style=\"CurrentLink\">Development Time</style> does not by itself create <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> but when the actions modified by the pattern are also <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style> this creates <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> for those that wish to stop them from being completed.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> are often used in conjunction with <style=\"CurrentLink\">Development Time</style> so that players can plan future actions, and feel <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Development Time</style> is basically a way to create <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style> with known parameters, and as such they provide <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> and promote <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> since players need to consider the effect of the actions will affect a future game state rather than the current one. It may also led to <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> if players cannot initiate the same action again before it is finished, and <style=\"Link\"><link=\"downtime\">Downtime</link></style> if no other actions are available either. When players are kept informed of the statuses of <style=\"CurrentLink\">Development Time</style>, for example through <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, this leads to <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>. This can also let players engage in <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> in the form of <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> to be able to do <style=\"Link\"><link=\"combos\">Combos</link></style> between different events based on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style> them well.",
+            "In games with either <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay or <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, the use of <style=\"CurrentLink\">Development Time</style> can give rise to <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>.",
+            "When combine with <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>, they require <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> considerations to start and present <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> to those that wish to make the actions fail.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> or <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style></style>",
+            "<style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style></style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"crafting\">Crafting</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "delayed-effects",
+            "downtime",
+            "extended-actions",
+            "memorizing",
+            "predictable-consequences",
+            "stimulated-planning",
+            "tactical-planning",
+            "timing",
+            "encouraged-return-visits",
+            "risk-reward",
+            "time-limits",
+            "anticipation",
+            "combos"
+        ],
+        "modulates" : [
+            "construction",
+            "crafting"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "progress-indicators"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

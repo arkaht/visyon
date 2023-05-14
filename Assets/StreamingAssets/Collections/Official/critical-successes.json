@@ -1,0 +1,55 @@
+{
+    "name" : "Critical Successes",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Actions that succeed due to random luck, and have special effects that would otherwise would not occur.",
+        "markups" : [
+            "<style=\"Definition\">Actions that succeed due to random luck, and have special effects that would otherwise would not occur.</style>",
+            "Succeeding with actions players perform in some games depend on randomness and the skill of the diegetic agent that performs the actions. When games designate some outcome as being successful but having additional beneficial effects that would not occur with \"ordinary\" successes, these games have <style=\"CurrentLink\">Critical Success</style> rules.",
+            "<style=\"H3\">Examples</style>",
+            "Most versions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> lets players that roll 20 have automatic successes. This typically results in giving maximum damage in attacks but since it may also allow successes when otherwise they would be impossible, 20's provide different types of results that other rolls. Other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Game</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mutant\">Mutant</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rolemaster\">Rolemaster</link></style>, also have <style=\"CurrentLink\">Critical Successes</style> but the chances for these are based on how skillful the diegetic person perform the action is or have random table to determine the effect on these successes.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Critical Successes</style> are designed as parts of games by choosing which actions can have them, what the effects are, and what determines the chances of getting such a success. <style=\"Link\"><link=\"combat\">Combat</link></style> actions is a typically example of actions that can cause <style=\"CurrentLink\">Critical Successes</style> through the more specific pattern <style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style>. <style=\"Link\"><link=\"skills\">Skills</link></style> are typically modified by having <style=\"CurrentLink\">Critical Successes</style> as one possible outcome of using them (i.e. using them is an action which can cause a <style=\"CurrentLink\">Critical Successes</style>), but since <style=\"Link\"><link=\"skills\">Skill</link></style> levels in turn typically affect the chance of the <style=\"CurrentLink\">Critical Successes</style> the relation often goes both ways. While <style=\"Link\"><link=\"skills\">Skills</link></style> can affect the chance of getting <style=\"CurrentLink\">Critical Successes</style>, the use of <style=\"Link\"><link=\"randomness\">Randomness</link></style> is need to make them chance-based. Having the right <style=\"Link\"><link=\"tools\">Tools</link></style> may directly or indirectly (by increasing <style=\"Link\"><link=\"skills\">Skill</link></style> levels) after the chances of <style=\"CurrentLink\">Critical Successes</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Critical Successes</style> are one form of <style=\"Link\"><link=\"critical-results\">Critical Results</link></style>, the other being its opposite namely <style=\"Link\"><link=\"critical-failures\">Critical Failures</link></style>. They can be <style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style> and make <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> less likely in games. Further, they work against <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> by typically introducing more <style=\"Link\"><link=\"randomness\">Randomness</link></style> to the process of determining the outcome of actions.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"critical-results\">Critical Results</link></style>, <style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"skills\">Skills</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"critical-failures\">Critical Failures</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "critical-results",
+            "exceptional-events"
+        ],
+        "modulates" : [
+            "skills"
+        ],
+        "instantiated_by" : [
+            "critical-hits",
+            "randomness"
+        ],
+        "modulated_by" : [
+            "skills",
+            "tools"
+        ],
+        "conflicts" : [
+            "critical-failures",
+            "predictable-consequences",
+            "performance-uncertainty"
+        ]
+    }
+}

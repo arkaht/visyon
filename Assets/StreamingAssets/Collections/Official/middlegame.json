@@ -1,0 +1,58 @@
+{
+    "name" : "Middlegame",
+    "categories" : [
+        "Gameplay Arc Patterns",
+        "Aesthetic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The phase or phases that are not the first or last in a game instance.",
+        "markups" : [
+            "<style=\"Definition\">The phase or phases that are not the first or last in a game instance.</style>",
+            "Gameplay phases are found in some games due to them having discernible different periods of gameplay when the goals and actions in focus vary. The <style=\"CurrentLink\">Middlegame</style> of such games is simply the phases which are not the first nor the last.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> are classical <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> with <style=\"CurrentLink\">Middlegame</style> phases. Expanding and improving the cities in one's civilization can be viewed as the <style=\"CurrentLink\">Middlegame</style> of the  <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style>. ",
+            "In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Starcraft%20series\">Starcraft series</link></style> the <style=\"CurrentLink\">Middlegame</style> is typically called \"Mid-Game\".",
+            "<style=\"H2\">Using the pattern</style>",
+            "As its name suggests, a <style=\"CurrentLink\">Middlegame</style> is intended to come after a <style=\"Link\"><link=\"startgame\">Startgame</link></style> and quite often before an <style=\"Link\"><link=\"endgame\">Endgame</link></style>. Typical patterns signifying a <style=\"CurrentLink\">Middlegame</style> include <style=\"Link\"><link=\"entrenching-gameplay\">Entrenching Gameplay</link></style> and <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> so putting these into importance is a way to create a <style=\"CurrentLink\">Middlegame</style>. Examples of phases which exhibit these are <style=\"Link\"><link=\"expansion\">Expansion</link></style> and <style=\"Link\"><link=\"exploitation\">Exploitation</link></style> respectively. For games where <style=\"Link\"><link=\"exploitation\">Exploitation</link></style> is the last phase, <style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style> is likely to become important.",
+            "Some patterns may be more interesting to consider for a <style=\"CurrentLink\">Middlegame</style> phase than for other phases. <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> make most sense to apply here since they are mostly irrelevant before and may make player efforts pointless later one. For similar reasons, and due to the typical complexity of <style=\"CurrentLink\">Middlegame</style> phases, it may also be appropriate to highlight the skills that are the intended indications of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> here as well.",
+            "<style=\"H2\">Consequences</style>",
+            "Often involving <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, the <style=\"CurrentLink\">Middlegame</style> phase is likely to have <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> that sometimes can turn into <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>. Like most other phases, it allows the development - and promotes the use of - <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"entrenching-gameplay\">Entrenching Gameplay</link></style>, <style=\"Link\"><link=\"expansion\">Expansion</link></style>, <style=\"Link\"><link=\"exploitation\">Exploitation</link></style>, <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "analysis-paralysis",
+            "stimulated-planning",
+            "strategic-knowledge"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "entrenching-gameplay",
+            "expansion",
+            "exploitation",
+            "complex-gameplay"
+        ],
+        "modulated_by" : [
+            "balancing-effects",
+            "construction-scoring-phase-shift",
+            "gameplay-mastery"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

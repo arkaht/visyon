@@ -1,0 +1,67 @@
+{
+    "name" : "Hiding Places",
+    "categories" : [
+        "Level Design Patterns",
+        "Game Element Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Places in games that allow people or things to be hidden.",
+        "markups" : [
+            "<style=\"Definition\">Places in games that allow people or things to be hidden.</style>",
+            "Many games have activities which depend on players or things not being easy to find. One way to support this is through <style=\"CurrentLink\">Hiding Places</style> which function either through having rules defining things as hidden within them or through working by being areas which make it more difficult for others to notice things in the <style=\"CurrentLink\">Hiding Places</style> compared to other places in the game world.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hide-and-Seek\">Hide-and-Seek</link></style> is a typically example of a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Children's%20Games\">Children's Game</link></style> that makes use of <style=\"CurrentLink\">Hiding Places</style>.",
+            "Vegetation in games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Far%20Cry%20series\">Far Cry series</link></style>, or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> make it possible to hide from other players. While the vegetation may help against AI controlled enemies also, it typically doesn't do this in the same way as against players, i.e. not based on how much visually the players' avatars blend into the environment.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/This%20War%20of%20Mine\">This War of Mine</link></style> provides players with <style=\"CurrentLink\">Hiding Places</style> in the various buildings and ruins that they can send their characters to.",
+            "The first-person <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thief%20series\">Thief series</link></style> provide many areas that are <style=\"CurrentLink\">Hiding Places</style> due to being dark, obscured, or both. In order to let players gain a sense of how well their avatars are hidden the game provides feedback to this through the 'Light Gem' - a magic item item - shown in the graphical interface.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"Link\"><link=\"secret-areas\">Secret Areas</link></style> are one way to create <style=\"CurrentLink\">Hiding Places</style> if the <style=\"Link\"><link=\"secret-areas\">Secret Areas</link></style> are unknown to some other players, <style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, etc. <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> can also work if they hinder observation (e.g. through blocking line of sight in games with <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> or by causing <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>). Given that <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style> should be difficult to detect they are also good <style=\"CurrentLink\">Hiding Places</style>. ",
+            "While the main purpose of providing <style=\"CurrentLink\">Hiding Places</style> in games are typically to support <style=\"Link\"><link=\"conceal\">Conceal</link></style> and <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals, the pattern can also be used for other related purposes. The presence of <style=\"CurrentLink\">Hiding Places</style> make <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> and <style=\"Link\"><link=\"scouting\">Scouting</link></style> goals more difficult and existing <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style> can be made into explicit <style=\"CurrentLink\">Hiding Places</style>. The number, frequency, and placement of <style=\"CurrentLink\">Hiding Places</style> typically also affect all these things, so <style=\"CurrentLink\">Hiding Places</style> not only allows <style=\"Link\"><link=\"stealth\">Stealth</link></style> to be possible but also modifies how easy or difficult it is to do.",
+            "In computer-based games <style=\"CurrentLink\">Hiding Places</style> can be instantiated as being binary in the sense that they provide a game state parameter than simply defines <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Items\">Items</link></style>, etc. to be hidden or not rather than depend on the perception of others. However, if these games do make <style=\"CurrentLink\">Hiding Places</style> dependent of perceptive abilities of others an issue may arise that players are not sure to which degree they have a good hiding place or risk being detected. This happens when there is not a <style=\"Link\"><link=\"player-character-awareness-consistency\">Player/Character Awareness Consistency</link></style> regarding the quality of the <style=\"CurrentLink\">Hiding Places</style> so designing a game to support or not support <style=\"Link\"><link=\"player-character-awareness-consistency\">Player/Character Awareness Consistency</link></style> affects how the <style=\"CurrentLink\">Hiding Places</style> work. The use of the 'Light Gem' in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thief%20series\">Thief series</link></style> is an example to augment players awareness to more closely match it to that of their <style=\"Link\"><link=\"characters\">Characters</link></style> (<style=\"Link\"><link=\"avatars\">Avatars</link></style> in this specific case).",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Hiding Places</style> can be either diegetic or systemic, i.e. they are good hiding places because it is difficult for players or <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> to observe them or because the rules state that one is hidden when in them (and cannot be attacked, etc.). The first one makes finding (and detecting) <style=\"CurrentLink\">Hiding Places</style> into a player/<style=\"Link\"><link=\"agents\">Agent</link></style> skill while the latter avoid this. The later can however cause issues with <style=\"Link\"><link=\"player-character-awareness-consistency\">Player/Character Awareness Consistency</link></style>. It is possible to combine the two approaches (if one must find <style=\"CurrentLink\">Hiding Places</style> both as a player and as an <style=\"Link\"><link=\"avatars\">Avatar</link></style> for example) but this still leaves the issue with <style=\"Link\"><link=\"player-character-awareness-consistency\">Player/Character Awareness Consistency</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Hiding Places</style> allow players to attempt <style=\"Link\"><link=\"conceal\">Conceal</link></style> and <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals by providing places where one can avoid detection. This implies that others (players, <style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, etc.) do not know where the players' <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"characters\">Characters</link></style> are so <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> follows naturally from having <style=\"CurrentLink\">Hiding Places</style> in a game also.",
+            "Given that others are likely to have difficulties attacking or otherwise causing problems for those in <style=\"CurrentLink\">Hiding Places</style>, the pattern is also likely to create <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"conceal\">Conceal</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"player-character-awareness-consistency\">Player/Character Awareness Consistency</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"scouting\">Scouting</link></style>, <style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"secret-areas\">Secret Areas</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"player-character-awareness-consistency\">Player/Character Awareness Consistency</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "conceal",
+            "imperfect-information",
+            "player-character-awareness-consistency",
+            "safe-havens",
+            "stealth"
+        ],
+        "modulates" : [
+            "reconnaissance",
+            "safe-havens",
+            "scouting",
+            "stealth"
+        ],
+        "instantiated_by" : [
+            "obstacles",
+            "secret-areas",
+            "sniper-locations"
+        ],
+        "modulated_by" : [
+            "player-character-awareness-consistency"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

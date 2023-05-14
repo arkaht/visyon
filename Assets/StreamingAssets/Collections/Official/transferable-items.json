@@ -1,0 +1,76 @@
+{
+    "name" : "Transferable Items",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game items that are possible to transfer between avatars or characters.",
+        "markups" : [
+            "<style=\"Definition\">Game items that are possible to transfer between avatars or characters.</style>",
+            "Players may wish to swap game items with other players or characters in game worlds. This is possible if they are <style=\"CurrentLink\">Transferable Items</style>, i.e. there are actions that make it possible to change who possesses specific game items.",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> allows players to hand over health pills, pipe bombs, and other secondary items to each other to ensure that the group as a whole is most adequately equipped.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> lets players trade many items with non-players characters or, through an auction house, each other. However, not all game items can be traded this way since the more powerful ones are often \"soulbound\" to those that pickup, use, or equip them. Such game items can only be traded with non-player characters but doing this removes them from the game state.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> allows players to move game items freely between themselves and their companions, both to make the group as efficient as possible in combat and to make use of strong companions as beasts of burden. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20II\">Dragon Age II</link></style> also lets all items be <style=\"CurrentLink\">Transferable Items</style> between the player's character and his or her companions but only allows transferrals of items that the receiver can use (this since the action of transferring is also the action of equipping in the game).",
+            "The pick-ups players can retrieve from the courses in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart:%20Double%20Dash!\">Mario Kart: Double Dash!</link></style> can be handed over from the passenger to the driver and vice versa.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Implementing <style=\"CurrentLink\">Transferable Items</style> include picking which <style=\"Link\"><link=\"game-items\">Game Items</link></style> should be transferable, what actions makes this possible, and to whom one can transfer them. Since most solutions to this makes the transfer non-diegetically, the pattern can be applied to <style=\"Link\"><link=\"resources\">Resources</link></style> as well as <style=\"Link\"><link=\"game-items\">Game Items</link></style> and all mentions of the latter below also imply the former.",
+            "For efficiency reasons, the system for <style=\"CurrentLink\">Transferable Items</style> is typically applied to all <style=\"Link\"><link=\"game-items\">Game Items</link></style> first and then limitations, if any, are imposed.  Examples of limitations include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Enforced%20Ownership\">Enforced Ownership</link></style> and only letting those that have the <style=\"Link\"><link=\"privileged-abilities\">Privileged Ability</link></style> to use or equip the <style=\"Link\"><link=\"game-items\">Game Items</link></style> to also be given them.  The use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Enforced%20Ownership\">Enforced Ownership</link></style> may at first seem to be fully incompatible with <style=\"CurrentLink\">Transferable Items</style>. This is however not the case since the enforcement may only hinder transferrals to certain other <style=\"Link\"><link=\"characters\">Characters</link></style> - <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> for example lets \"soulbound\" <style=\"Link\"><link=\"game-items\">Game Items</link></style> be sold to <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> or <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style>. This still makes it impossible for other players to access the <style=\"Link\"><link=\"game-items\">Game Items</link></style> since they cannot be sold, and the design solution is effectively a case of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Element%20Removal\">Game Element Removal</link></style> to create a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Faucet/Sink\">Faucet/Sink</link></style> system. Using a shared <style=\"Link\"><link=\"inventories\">Inventory</link></style> and thereby implying that only equipped <style=\"Link\"><link=\"game-items\">Game Items</link></style> are actually in a <style=\"Link\"><link=\"characters\">Character's</link></style> possession, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20II\">Dragon Age II</link></style> shows an example of how <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> limit how <style=\"Link\"><link=\"game-items\">Game Items</link></style> can be transferred.  Here <style=\"Link\"><link=\"game-items\">Game Items</link></style> not usable by a <style=\"Link\"><link=\"characters\">Character</link></style> due to him or her being the wrong class or not being \"Hawke\" simply cannot be dragged to that <style=\"Link\"><link=\"player-characters\">Player Character</link></style> or <style=\"Link\"><link=\"companions\">Companion</link></style>.",
+            "Enabling <style=\"CurrentLink\">Transferable Items</style> is most easily done through letting <style=\"Link\"><link=\"agents\">Agents</link></style> drop <style=\"Link\"><link=\"game-items\">Game Items</link></style>, possibly as <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>. Other solutions are implementing support for <style=\"Link\"><link=\"trading\">Trading</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stealing\">Stealing</link></style> as possible game actions. Nearly all cases require <style=\"Link\"><link=\"inventories\">Inventories</link></style>, and an easy way to implement willing transfer of items (e.g. between a <style=\"Link\"><link=\"player-characters\">Player Character</link></style> and his or her <style=\"Link\"><link=\"companions\">Companions</link></style>) is to provide two <style=\"Link\"><link=\"inventories\">Inventories</link></style> next to each other and allowing <style=\"Link\"><link=\"game-items\">Game Items</link></style> to be dragged between them.",
+            "Whom one can transfer <style=\"Link\"><link=\"game-items\">Game Items</link></style> with naturally depend on what actions provides the possibility. <style=\"Link\"><link=\"trading\">Trading</link></style> may be possible with all <style=\"Link\"><link=\"characters\">Characters</link></style> but <style=\"Link\"><link=\"enemies\">Enemies</link></style>, while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stealing\">Stealing</link></style> may be possible from all but create different types of instantiations of the pattern <style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>. ",
+            "Complete control of transferrals may be limited to that between <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>, or that between <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> and <style=\"Link\"><link=\"companions\">Companions</link></style>. As mentioned above, some <style=\"CurrentLink\">Transferable Items</style> may only be possible to sell to <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> or <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style> as a consequence of uses of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Enforced%20Ownership\">Enforced Ownership</link></style>. <style=\"Link\"><link=\"avatars\">Avatars</link></style> may replace <style=\"Link\"><link=\"characters\">Characters</link></style> in some of the cases, but for all but the most trivial cases of <style=\"CurrentLink\">Transferable Items</style> it is required that the participants have the abstract structures of <style=\"Link\"><link=\"inventories\">Inventories</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Making <style=\"Link\"><link=\"game-items\">Game Items</link></style> transferable through <style=\"Link\"><link=\"trading\">Trading</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stealing\">Stealing</link></style> typically requires <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Transferable Items</style> gives players a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> of which <style=\"Link\"><link=\"game-items\">Game Items</link></style> to have. It also modulates <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> by enabling <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style> of it, and by doing so opens up for <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals.",
+            "<style=\"Link\"><link=\"teams\">Teams</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> or those with <style=\"Link\"><link=\"companions\">Companions</link></style>, enable <style=\"CurrentLink\">Transferable Items</style> to support <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"teams\">Teams</link></style> or <style=\"Link\"><link=\"companions\">Companions</link></style></style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coordination\">Coordination</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"companions\">Companions</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Enforced%20Ownership\">Enforced Ownership</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "gain-ownership",
+            "ownership",
+            "transfer-control",
+            "cooperation",
+            "coordination"
+        ],
+        "modulates" : [
+            "avatars",
+            "characters",
+            "companions",
+            "enemies",
+            "game-items",
+            "non-player-characters",
+            "player-characters",
+            "resources",
+            "self-service-kiosks"
+        ],
+        "instantiated_by" : [
+            "inventories",
+            "secondary-interface-screens"
+        ],
+        "modulated_by" : [
+            "privileged-abilities"
+        ],
+        "conflicts" : [
+            "enforced-ownership"
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name" : "Drafting Spreads",
+    "categories" : [
+        "Patterns",
+        "Card Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "Open displays of drafting choices.",
+        "markups" : [
+            "<style=\"Definition\">Open displays of drafting choices.</style>",
+            "Games where players can incrementally draft game elements sometimes present several of these at once to provide alternatives and insights of what other players may later choose. Such presentations are called <style=\"CurrentLink\">Drafting Spreads</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Players in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ticket%20to%20Ride\">Ticket to Ride</link></style> take new cards in order to be able to build railways, but instead of drawing random cards from a drawing stack, they can also pick one or two from an open display of five cards. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Species\">Dominant Species</link></style> has a spread for new possible playing areas, but this spread does not replenish until the turn is finished. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style> has a spread of three monsters that players can choose to fight in the dungeon, but fighting monster deeper down the dungeon is done with \"darkness\" penalties. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Small%20World\">Small World</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Showmanager\">Showmanager</link></style> (AKA <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Atlantic%20Star\">Atlantic Star</link></style>) also have <style=\"CurrentLink\">Drafting Spreads</style> but here taking \"later\" cards in these games costs money.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Drafting Spreads</style> is a way of supporting <style=\"Link\"><link=\"drafting\">Drafting</link></style> from <style=\"Link\"><link=\"decks\">Decks</link></style>, and relevant options for the pattern is where the elements should be taken from, how many elements should be displayed, and how the spreads should be replenished. They can be used in games that have either <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style>. ",
+            "While all relevant elements present in a game may initially be part of a <style=\"CurrentLink\">Drafting Spread</style>, it is most common to build them from a part of <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> or through using <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style> as the <style=\"CurrentLink\">Drafting Spreads</style> - basic <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rummy\">Rummy</link></style> uses this in a limited sense (only the last played <style=\"Link\"><link=\"cards\">Card</link></style> can be taken) but a common variant is to use the entire <style=\"Link\"><link=\"discard-piles\">Discard Pile</link></style> as a <style=\"CurrentLink\">Drafting Spread</style>. The number of elements displayed is mainly a way of regulating how much <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> players should have, but the more elements displayed also increase the amount of <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> in a game. How <style=\"CurrentLink\">Drafting Spreads</style> are replenished often depend on how they are initially formed. Those created from <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> can simply take replacements from these and those created from <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style> typically refill themselves by players' other actions.",
+            "<style=\"CurrentLink\">Drafting Spreads</style> can cause <style=\"Link\"><link=\"first-player-advantages\">First Player Advantages</link></style> since these are more likely to have good choices than later players are likely to have (no other players have already had the chance to take the best elements). This can be regulated through having an additional cost for accessing elements further <i>down</i> in the spreads as a <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Showmanager\">Showmanager</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Small%20World\">Small World</link></style> has this through requiring <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style> to be spent (and in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Small%20World\">Small World</link></style> this <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style> is placed on the skipped races and can be collected in later drafts) while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style>  imposes \"darkness penalties\" for attacking <style=\"Link\"><link=\"enemies\">Enemies</link></style> deeper down in the dungeon. While these types of <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> are really only needed in the beginning of games, most games that introduce them have them throughout gameplay as a way of requiring players to make <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Drafting Spreads</style> is a way of supporting <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> in <style=\"Link\"><link=\"drafting\">Drafting</link></style>, possibly by using <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style> or by modifying <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>. Since players have a choice of selecting from several often random options, <style=\"CurrentLink\">Drafting Spreads</style> modulates <style=\"Link\"><link=\"randomness\">Randomness</link></style>. The number of elements in the spreads affects not only the degree of <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> present but also the degree of <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> regarding these choices.",
+            "They may however also cause <style=\"Link\"><link=\"first-player-advantages\">First Player Advantages</link></style>. When rules requiring \"newer\" elements or those \"deeper\" in the spreads to have additional costs, the pattern also supports <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"first-player-advantages\">First Player Advantages</link></style>., <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"deck-building\">Deck Building</link></style>, <style=\"Link\"><link=\"decks\">Decks</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "first-player-advantages",
+            "freedom-choice",
+            "predictable-consequences",
+            "trade-offs"
+        ],
+        "modulates" : [
+            "deck-building",
+            "decks",
+            "drafting",
+            "drawing-stacks",
+            "pre-customized-decks",
+            "randomness"
+        ],
+        "instantiated_by" : [
+            "discard-piles"
+        ],
+        "modulated_by" : [
+            "balancing-effects"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

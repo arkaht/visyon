@@ -1,0 +1,67 @@
+{
+    "name" : "Enforced Player Anonymity",
+    "categories" : [
+        "Gameplay Adaptability Patterns",
+        "Patterns",
+        "Information Patterns",
+        "Player Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games where the players identities are kept secret from each other by the system.",
+        "markups" : [
+            "<style=\"Definition\">Games where the players identities are kept secret from each other by the system.</style>",
+            "Some games are constructed so they do not work or may have unwanted consequences if players can identify each other. To avoid this they can be designed to have <style=\"CurrentLink\">Enforced Player Anonymity</style> so that interaction beyond that available through gameplay actions is either impossible or only possible after some screening process.",
+            "<style=\"H3\">Examples</style>",
+            "Having the players make up a circle of <i>assassination</i> contracts, the game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin\">Assassin</link></style> only lets players know the identity of their target while the rest of the players are unknown until they become targets or one reveal himself or herself to their target by making an <i>assassination</i>.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ESP%20Game\">ESP Game</link></style> uses players' input to tag picture with descriptive words. In order for players not to be able to <i>game</i> the system by communicating through other channels and simply coordinating their input, the game matches players so they are unlikely to be in the same larger geographical areas - or through letting players to together with replays of other players' actions.",
+            "Aiming at a young audience, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disney's%20Toontown%20Online\">Disney's Toontown Online</link></style> has restrictions on what names can be chosen and what words can be used in the in-game chat system.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Enforcing anonymity primarily makes sense in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> but perceivably it could also apply to <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style>. For <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, the design of <style=\"CurrentLink\">Enforced Player Anonymity</style> is mainly about restricting information flow between players through the use <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>. This means avoiding <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>, restricting how <style=\"Link\"><link=\"handles\">Handles</link></style> and other game elements that can identify players, and if <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> such as <style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style> are to be allowed at all they need to be restricted in some way, for example through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Canned%20Text%20Responses\">Canned Text Responses</link></style>. ",
+            "When <style=\"CurrentLink\">Enforced Player Anonymity</style> is used to avoid unwanted <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> in the form of players revealing to much about themselves to strangers, as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disney's%20Toontown%20Online\">Disney's Toontown Online</link></style>, this may be wavered for players that can identify to the system that they know each other. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disney's%20Toontown%20Online\">Disney's Toontown Online</link></style> does this through allowing players to become <i>True Friends</i> through exchanging six-digit secret code that have to be passed outside the game system - such information is in practice <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Given that <style=\"CurrentLink\">Enforced Player Anonymity</style> is about keeping information about players from other players, the pattern is intrinsically about interfaces and all comments about using the pattern is about this.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Enforced Player Anonymity</style> quite naturally creates <style=\"Link\"><link=\"player-anonymity\">Player Anonymity</link></style> but at the same time makes it difficult for players to judge other players based on other things than how the play. This supports <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style> and can make it difficult for <style=\"Link\"><link=\"social-roles\">Social Roles</link></style> to emerge during gameplay.",
+            "Per its definition, <style=\"CurrentLink\">Enforced Player Anonymity</style> works against the choice aspects of <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>. <style=\"CurrentLink\">Enforced Player Anonymity</style> adds <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> to <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style> and <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>. It also makes it much less likely that <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> can occur.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>, <style=\"Link\"><link=\"player-anonymity\">Player Anonymity</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>, <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>, <style=\"Link\"><link=\"possibility-anonymity\">Possibility of Anonymity</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unmediated%20Social%20Interaction\">Unmediated Social Interaction</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "actor-detachment",
+            "player-anonymity",
+            "uncertainty-information"
+        ],
+        "modulates" : [
+            "collaborative-actions"
+        ],
+        "instantiated_by" : [
+            "mediated-gameplay"
+        ],
+        "modulated_by" : [
+            "trans-game-information"
+        ],
+        "conflicts" : [
+            "chat-channels",
+            "communication-channels",
+            "extra-game-consequences",
+            "friend-lists",
+            "handles",
+            "possibility-anonymity",
+            "social-roles",
+            "unmediated-social-interaction"
+        ]
+    }
+}

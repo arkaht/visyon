@@ -1,0 +1,65 @@
+{
+    "name" : "Friendly Fire",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "Attacks from members in the same team that cause damage.",
+        "markups" : [
+            "<style=\"Definition\">Attacks from members in the same team that cause damage.</style>",
+            "<style=\"CurrentLink\">Friendly Fire</style> existing in games where attacks can affect enemies and friends alike. This typically makes players have to be more careful with how the act in combat environments.",
+            "<style=\"H3\">Examples</style>",
+            "Most examples of <style=\"CurrentLink\">Friendly Fire</style> do unsurprisingly come from combat-oriented games, mainly <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> has <style=\"CurrentLink\">Friendly Fire</style> except on the easy difficulty mode, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/America's%20Army\">America's Army</link></style> has it as a consequence of wanting to be realistic and harshly punished players who do it, and it is available as server-side options for the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style>. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> has <style=\"CurrentLink\">Friendly Fire</style> in different varieties for each game, sometimes having it deactivated as default, sometimes letting it have less effect that enemy fire. It exists both in the early isometric versions and in the later 3D version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, but here it is not other players but companions that can be the targets or perpetrators of the <style=\"CurrentLink\">Friendly Fire</style>.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style> have <style=\"CurrentLink\">Friendly Fire</style> in the same way as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> - it exists on all difficult levels except the easiest.",
+            "The web site <i>Giant Bomb</i> has an extensive list of games with <style=\"CurrentLink\">Friendly Fire</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Making <style=\"CurrentLink\">Friendly Fire</style> possible in games basically consists of letting <style=\"Link\"><link=\"combat\">Combat</link></style> rules and <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style> affect other members in players' own <style=\"Link\"><link=\"teams\">Teams</link></style>. This makes the presence of <style=\"Link\"><link=\"teams\">Teams</link></style> in combination with  <style=\"Link\"><link=\"player-killing\">Player Killing</link></style> or <style=\"Link\"><link=\"companions\">Companions</link></style> that can be killed a requirement for having the pattern.",
+            "The risk of achieving <style=\"CurrentLink\">Friendly Fire</style> can be modulated by giving players some extra information about how is how, for example by changing or augmenting the appearance of <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> depending on whom one is aiming at.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Friendly Fire</style> modifies the way players can engage in <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> activities as part of <style=\"Link\"><link=\"combat\">Combat</link></style> while playing <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> with <style=\"Link\"><link=\"teams\">Teams</link></style>. The risk of hitting team members, either other players or <style=\"Link\"><link=\"companions\">Companions</link></style>, make <style=\"CurrentLink\">Friendly Fire</style> give more <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> while at the same time supporting <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> - at least in games which try to simulate real world weapons. When part of <style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style>, selecting <style=\"CurrentLink\">Friendly Fire</style> in <style=\"Link\"><link=\"teams\">Team-based</link></style> games is one way of setting <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, or as an alternative <style=\"CurrentLink\">Friendly Fire</style> may not be present on easy <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>.",
+            "<style=\"CurrentLink\">Friendly Fire</style> can easily spark of <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style> in <style=\"Link\"><link=\"teams\">Teams</link></style> and create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Scapegoats\">Scapegoats</link></style> for <style=\"Link\"><link=\"teams\">Teams</link></style> failures, but also make it difficult to maintain the rivalry for a longer time since violence can end the conflict quickly. When <style=\"CurrentLink\">Friendly Fire</style> does occur but fails to create these effects, in can instead create <style=\"Link\"><link=\"spectacular-failure-enjoyment\">Spectacular Failure Enjoyment</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Scapegoats\">Scapegoats</link></style>, <style=\"Link\"><link=\"spectacular-failure-enjoyment\">Spectacular Failure Enjoyment</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style></style>",
+            "<style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"companions\">Companions</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"player-killing\">Player Killing</link></style> together with <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style>, <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "challenging-gameplay",
+            "internal-rivalry",
+            "scapegoats",
+            "spectacular-failure-enjoyment",
+            "thematic-consistency",
+            "difficulty-levels"
+        ],
+        "modulates" : [
+            "aim-shoot",
+            "combat",
+            "companions",
+            "teams"
+        ],
+        "instantiated_by" : [
+            "player-killing"
+        ],
+        "modulated_by" : [
+            "crosshairs",
+            "death-consequences"
+        ],
+        "conflicts" : [
+            "internal-rivalry"
+        ]
+    }
+}

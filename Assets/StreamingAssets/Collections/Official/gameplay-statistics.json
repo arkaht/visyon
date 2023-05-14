@@ -1,0 +1,66 @@
+{
+    "name" : "Gameplay Statistics",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns",
+        "Meta Patterns"
+    ],
+    "texts" : {
+        "definition" : "Records of game state values or events that can be accessed during or after gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Records of game state values or events that can be accessed during or after gameplay.</style>",
+            "The gameplay contained in games are not enjoyable unless players care about what happens when one games. This interest easily transfers into players wanting to be able to have accounts of the gameplay after or between game sessions. Games can support this through having various <style=\"CurrentLink\">Gameplay Statistics</style> recorded and stored.",
+            "<style=\"H3\">Examples</style>",
+            "Tabletop roleplaying games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Call%20of%20Cthulhu\">Call of Cthulhu</link></style>, which typically have campaigns that span several play sessions, store information about the players' characters on paper sheets. These form a type of <style=\"CurrentLink\">Gameplay Statistics</style>, since changes over time can leave physical marks from in-game events such as raises to skills, attributes, and levels or from extra-game events such as when coffee was spilled.",
+            "The high score lists recorded in pinball games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pinball%20Dreams\">Pinball Dreams</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Trek:%20The%20Next%20Generation\">Star Trek: The Next Generation</link></style>, and arcade games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Invaders\">Space Invaders</link></style>, are all examples of how <style=\"CurrentLink\">Gameplay Statistics</style> can be recorded and presented to people during and between games.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20II\">Assassin's Creed II</link></style> of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style> keeps track of how much money the player has both stolen and spent on certain expenses to be able to award various achievements. From <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%202\">Battlefield 2</link></style>, gameplay on official servers of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> has kept track of player statistics, including ranks. These statistics are used to allow players to compare themselves to others and to determine when they receive <i>ribbons</i>, <i>badges</i>, and <i>medals</i>. Advancements in ranks allow players to unlock weapons that can replace the original outfits of the various playable classes.",
+            "<style=\"H2\">Using the pattern</style>",
+            "An obvious choice that needs to be done when using <style=\"CurrentLink\">Gameplay Statistics</style> is what information or events to record. Players' <style=\"Link\"><link=\"scores\">Scores</link></style> to provide <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style> is a well-known example present already in the first arcade version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Invaders\">Space Invaders</link></style>. <style=\"Link\"><link=\"speedruns\">Speedruns</link></style> is another, which is the keeping track of how long time it takes to complete levels or races in a game, and can be found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Need%20for%20Speed%20series\">Need for Speed series</link></style> and well as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal\">Portal</link></style>. While this information regards the final outcome of some piece of gameplay, significant developments such as <style=\"Link\"><link=\"character-development\">Character Development</link></style> and <style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style> can motivate updates in <style=\"CurrentLink\">Gameplay Statistics</style> during gameplay. Having become popular when the advent of online connectivity, <style=\"Link\"><link=\"achievements\">Achievements</link></style> can be used to translate almost any type of statistic or event into something recorded outside the game instance and available regardless of game sessions. <style=\"Link\"><link=\"replays\">Replays</link></style> go a step further, letting players themselves choose what gameplay is worth saving for posterity and thereby giving them <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>. ",
+            "In many cases the information in <style=\"CurrentLink\">Gameplay Statistics</style> are contained in <style=\"Link\"><link=\"characters\">Characters</link></style> or <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>. However, a special case concerns the use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Sheets\">Character Sheets</link></style>. When these are available outside gameplay itself, as is the case for the physical paper sheets of tabletop <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Call%20of%20Cthulhu\">Call of Cthulhu</link></style>, they automatically provide <style=\"CurrentLink\">Gameplay Statistics</style>. Also, since players typical help update their own <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Sheets\">Character Sheets</link></style> they do in this case have to deal with <style=\"Link\"><link=\"excise\">Excise</link></style> to provide <style=\"CurrentLink\">Gameplay Statistics</style>.",
+            "<style=\"CurrentLink\">Gameplay Statistics</style> about players can be made public through <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>. However, for having players and <style=\"Link\"><link=\"spectators\">Spectators</link></style> trust the correctness of <style=\"CurrentLink\">Gameplay Statistics</style> it is typically required that there is a trusted third party handling the information contained in the statistics, especially when the information from several game instances are aggregated. This makes <style=\"CurrentLink\">Gameplay Statistics</style> need <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> if they are supposed to be reliable. For accessibility and fairness issues, using <style=\"Link\"><link=\"game-servers\">Game Servers</link></style> to keep track of <style=\"CurrentLink\">Gameplay Statistics</style> is often a practical solution. For games with <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>, storing <style=\"CurrentLink\">Gameplay Statistics</style> that are relevant between game instances often make even better sense since it allows players to transfer between <style=\"Link\"><link=\"game-servers\">Game Servers</link></style> as well as features such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Gameplay Statistics</style> available during gameplay from within <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> typically interferes with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style> since it draws attentions towards non-diegetic elements.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "To not disturb gameplay, <style=\"CurrentLink\">Gameplay Statistics</style> are typically only available through <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style> except for when noteworthy updates are made, for example beating <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style> or when <style=\"Link\"><link=\"character-development\">Character Development</link></style> has occurred. In addition, they may of course be available in systems outside the actual game such as <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Gameplay Statistics</style> provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> to players that gives them a form of <style=\"Link\"><link=\"memorabilia\">Memorabilia</link></style>. By providing these artifacts from gameplay, they also open up to a form of <style=\"Link\"><link=\"spectators\">Spectators</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>, <style=\"Link\"><link=\"memorabilia\">Memorabilia</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"achievements\">Achievements</link></style>, <style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style>, <style=\"Link\"><link=\"character-development\">Character Development</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style>, <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>, <style=\"Link\"><link=\"replays\">Replays</link></style>, <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "excise"
+        ],
+        "modulates" : [
+            "abstract-player-constructs",
+            "characters",
+            "game-lobbies"
+        ],
+        "instantiated_by" : [
+            "achievements",
+            "game-servers",
+            "high-score-lists",
+            "meta-servers",
+            "replays"
+        ],
+        "modulated_by" : [
+            "public-player-statistics",
+            "secondary-interface-screens"
+        ],
+        "conflicts" : [
+            "narrative-engrossment"
+        ]
+    }
+}

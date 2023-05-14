@@ -1,0 +1,85 @@
+{
+    "name" : "Location-Fixed Abilities",
+    "categories" : [
+        "Patterns",
+        "Action Patterns"
+    ],
+    "texts" : {
+        "definition" : "Abilities only available at certain locations in game worlds.",
+        "markups" : [
+            "<style=\"Definition\">Abilities only available at certain locations in game worlds.</style>",
+            "Game worlds can be important to gameplay in many ways, e.g. how the offer different ways of moving or what game items they contain. Another important aspect they can provide for gameplay is <style=\"CurrentLink\">Location-Fixed Abilities</style>, making certain abilities more powerful or simply possible at specific areas within them. This can make otherwise uninteresting parts of game worlds vital for gameplay and lead to races and conflicts about who can use the abilities provided there.",
+            "<style=\"H3\">Examples</style>",
+            "The snakes and the ladders in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Snakes%20and%20Ladders\">Snakes and Ladders</link></style> are early examples of <style=\"CurrentLink\">Location-Fixed Abilities</style> that players automatically trigger when they reach them. The last row in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> provides <style=\"CurrentLink\">Location-Fixed Abilities</style> for pawns since reach it allows the pawn to be transformed into any other type of chess piece. Every space in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> except those that one owns oneself triggers gameplay effects or activities.",
+            "Chargers that give players extra speed boosts exists in both the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/F-Zero%20series\">F-Zero series</link></style>. Pit stops in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Formula%20D\">Formula D</link></style> show that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> dealing with racing also can have <style=\"CurrentLink\">Location-Fixed Abilities</style>. The cannons placed at various places in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%2064\">Super Mario 64</link></style> allow players to shoot themselves to other places of the game world.",
+            "Several <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> include stationary weapons. The <i>40mm Bofors Anti-Aircraft Gun</i> and <i>FIM-92 Stinger</i> are examples from the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> that provide <style=\"CurrentLink\">Location-Fixed Abilities</style> while the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> has mounted mini-guns and heavy machine guns that the players can find.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> often have <style=\"CurrentLink\">Location-Fixed Abilities</style> in the form of immobile non-player characters. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fable%20series\">Fable series</link></style> are examples of this, and to a lesser extent this is also true for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> since the NPCs providing services there do move about somewhat. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda%20series\">The Legend of Zelda series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style> are examples of other computer-based games also having stationary NPCs providing services to the players.",
+            "The monoliths in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sid%20Meier's%20Alpha%20Centauri\">Sid Meier's Alpha Centauri</link></style> provide <style=\"CurrentLink\">Location-Fixed Abilities</style>. ",
+            "Both the gyms and Pokémons themselves in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pok%C3%A9mon%20Go\">Pokémon Go</link></style> provide <style=\"CurrentLink\">Location-Fixed Abilities</style>, although Pokémons vary somewhat in position and aren't always available.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Location-Fixed Abilities</style> can be created through either creating <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or placing immobile <style=\"Link\"><link=\"game-items\">Game Items</link></style> which affect <style=\"Link\"><link=\"abilities\">Abilities</link></style> within them. <style=\"Link\"><link=\"chargers\">Chargers</link></style> and <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style> are common examples of <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>  while <style=\"Link\"><link=\"game-items\">Game Items</link></style> that can be used for this purpose include <style=\"Link\"><link=\"bases\">Bases</link></style>, <style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, and <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style>. <style=\"Link\"><link=\"tiles\">Tiles</link></style> can either represent <style=\"CurrentLink\">Location-Fixed Abilities</style> in themselves or be modulated by other elements that provide these <style=\"Link\"><link=\"abilities\">Abilities</link></style>.",
+            "One design option regarding <style=\"CurrentLink\">Location-Fixed Abilities</style> is who controls the <style=\"Link\"><link=\"abilities\">Abilities</link></style> and this also determines who will be seen as having the <style=\"Link\"><link=\"abilities\">Abilities</link></style>. Those that activate automatically when players enter their spaces or \"activation zones\" will probably be viewed as belonging to that area and only require <style=\"Link\"><link=\"area-control\">Area Control</link></style> to activate, while <style=\"Link\"><link=\"abilities\">Abilities</link></style> that need to be activated by player actions will probably be viewed as their <style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style>. The <style=\"Link\"><link=\"abilities\">Abilities</link></style> are more likely to be seen as permanent <style=\"Link\"><link=\"abilities\">Abilities</link></style> if players are required to gain control over <style=\"Link\"><link=\"territories\">Territories</link></style> to gain access to the <style=\"Link\"><link=\"abilities\">Abilities</link></style>. Although not part of the pattern proper, how <style=\"Link\"><link=\"movement\">Movement</link></style> is design in a game heavily affects <style=\"CurrentLink\">Location-Fixed Abilities</style>; entering or missing a space with a <style=\"CurrentLink\">Location-Fixed Ability</style> is a question of <style=\"Link\"><link=\"luck\">Luck</link></style> rather than player skill when <style=\"Link\"><link=\"movement\">Movement</link></style> is based on <style=\"Link\"><link=\"randomness\">Randomness</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Snakes%20and%20Ladders\">Snakes and Ladders</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> are examples of games with this design.",
+            "Although <style=\"CurrentLink\">Location-Fixed Abilities</style> typically include providing <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> to players which have their <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> within the locations or have control over the areas, another use of the pattern is to consider having <style=\"Link\"><link=\"abilities\">Abilities</link></style> available everywhere but the locations and thereby creating a type of <style=\"Link\"><link=\"ability-losses\">Ability Loss</link></style>. The primary use of this is create <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style> (in this case one could optionally see \"being safe\" as an <style=\"CurrentLink\">Location-Fixed Ability</style> instead).",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Unless their use or appearance naturally draws attention to them, it may be advisable to consider making <style=\"CurrentLink\">Location-Fixed Abilities</style> have <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>. This since being aware of them can be important given their potential affect on gameplay.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "See above.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Location-Fixed Abilities</style> modify the <style=\"Link\"><link=\"abilities\">Abilities</link></style> of <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> by providing <style=\"Link\"><link=\"new-abilities\">New</link></style> or <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> at specific locations in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. They can be <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> if the <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> are vital for gameplay or if the improvements can be used to gain significant advantages, and are <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> if they are limited in numbers.",
+            "Players can get an increase <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> when they can control if they should go to <style=\"CurrentLink\">Location-Fixed Abilities</style> or not, and also choose if they want to use the <style=\"Link\"><link=\"abilities\">Abilities</link></style> or not. Those that activate automatically in contrast provide <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style></style>",
+            "<style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"movement\">Movement</link></style> and <style=\"Link\"><link=\"randomness\">Randomness</link></style></style>",
+            "<style=\"Link\"><link=\"luck\">Luck</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"abilities\">Abilities</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"bases\">Bases</link></style>, <style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"chargers\">Chargers</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"territories\">Territories</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "privileged-abilities",
+            "strategic-locations",
+            "temporary-abilities",
+            "ultra-powerful-events",
+            "safe-havens",
+            "luck"
+        ],
+        "modulates" : [
+            "avatars",
+            "abilities",
+            "improved-abilities",
+            "new-abilities",
+            "tiles",
+            "units"
+        ],
+        "instantiated_by" : [
+            "bases",
+            "controllers",
+            "chargers",
+            "installations",
+            "environmental-effects",
+            "safe-havens",
+            "self-service-kiosks"
+        ],
+        "modulated_by" : [
+            "area-control",
+            "diegetically-outstanding-features",
+            "movement",
+            "territories"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

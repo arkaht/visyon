@@ -1,0 +1,74 @@
+{
+    "name" : "Symmetric Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Symmetry Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Goals that from a systemic perspective are symmetric to each other.",
+        "markups" : [
+            "<style=\"Definition\">Goals that from a systemic perspective are symmetric to each other.</style>",
+            "Goals in games are defined by what players or other agents need to accomplish for the goals to be completed. The goals that are symmetric to each other in terms of these needs, as well as the rewards completing them provides, are <style=\"CurrentLink\">Symmetric Goals</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "An archetypical <style=\"CurrentLink\">Symmetric Goal</style> is that of a simple race. The goal each player has is symmetric to the others since each player needs to get to the end of the race (be it a spatial race or otherwise) before other players do. Another typical example of <style=\"CurrentLink\">Symmetric Goals</style> can be found in the Japanese version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> where each player has the goal to surround the highest number of empty spaces (other versions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> also have <style=\"CurrentLink\">Symmetric Goals</style>). While this can be described as an abstract race since the number of spaces are limited, the <style=\"CurrentLink\">Symmetric Goals</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> of trying to checkmate each other's kings show an example of <style=\"CurrentLink\">Symmetric Goals</style> which are not a race.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Symmetric Goals</style> are often used to modify <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competitions</link></style>. One reason for this is to provide <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> (this assumes that all players have the same <style=\"CurrentLink\">Symmetric Goals</style>). ",
+            "Some game structures naturally provide <style=\"CurrentLink\">Symmetric Goals</style>. <style=\"Link\"><link=\"races\">Races</link></style> (most clearly in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>) create symmetry since all participants strive to be first, as for example in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style>. Similarly, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style> provides several players with having an exclusive position and hindering other players from taking that position from them. As <style=\"Link\"><link=\"overcome\">Overcome</link></style> goals provides targets with a goal to avoid being <style=\"Link\"><link=\"overcome\">Overcome</link></style>, games with this pattern create <style=\"CurrentLink\">Symmetric Goals</style> as long as the opponent has some actions which can be used offensively to avoid being <style=\"Link\"><link=\"overcome\">Overcome</link></style>, i.e. the avoidance goal can be fulfilled by overcoming the one with the <style=\"Link\"><link=\"overcome\">Overcome</link></style> goal. While it may be easy to simply consider all <style=\"CurrentLink\">Symmetric Goals</style> as being based upon some form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflict</link></style>, players sharing <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style> have <style=\"CurrentLink\">Symmetric Goals</style> also since these goals are the same goals. <style=\"CurrentLink\">Symmetric Goals</style> are often also <style=\"Link\"><link=\"interferable-goals\">Interferable Goals</link></style>, and this can be how they become symmetric as the <style=\"Link\"><link=\"overcome\">Overcome</link></style> goal shows an example of.",
+            "<style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> goals can affect <style=\"CurrentLink\">Symmetric Goals</style> when the competence gained is related to what actions players need to perform to succeed with the <style=\"CurrentLink\">Symmetric Goals</style>. This tends to create ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>, e.g. if players have <style=\"CurrentLink\">Symmetric Goals</style> of winning a <style=\"Link\"><link=\"races\">Race</link></style> and they can improve their speed all players need to strive for this simply even if this can average out and mean that the gain speed doesn't improve the chances of winning. However, if the <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> are <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style> also (for example if there is only one <style=\"Link\"><link=\"power-ups\">Power-Up</link></style> to increase speed in the previous example) this combination creates a <style=\"Link\"><link=\"races\">Race</link></style> on a higher level of abstraction. ",
+            "By definition, <style=\"CurrentLink\">Symmetric Goals</style> are incompatible with <style=\"Link\"><link=\"asymmetric-goals\">Asymmetric Goals</link></style>. It is typically also problematic or pointless to combine with <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style>. The former since players may easily become suspicious that other players have the same type of goal from the other players' behavior (unless the intention is to have an initial gameplay based around <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>). The latter if players cannot detect each other's goals.",
+            "<style=\"H2\">Consequences</style>",
+            "While <style=\"CurrentLink\">Symmetric Goals</style> typically are used to support <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> in a game, they also tend to support <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> since players can readily understand other players' goals since they are similar. However, the presence of <style=\"CurrentLink\">Symmetric Goals</style> can work against <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> in a game. This since replaying the game as another role which has <style=\"CurrentLink\">Symmetric Goals</style> with a previous role means that the replay is less varied than if the goals were <style=\"Link\"><link=\"asymmetric-goals\">Asymmetric Goals</link></style>.",
+            "<style=\"CurrentLink\">Symmetric Goals</style> based upon, or affected by, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals tend to create <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> goals since removing the competition is likely to make it easier to complete the goal even if eliminating the other players doesn't mean completing the goal automatically.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"eliminate\">Eliminate</link></style></style>",
+            "<style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Queen%20Dilemmas\">Red Queen Dilemmas</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> and <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style></style>",
+            "<style=\"Link\"><link=\"races\">Races</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> together with <style=\"Link\"><link=\"races\">Races</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style>, <style=\"Link\"><link=\"interferable-goals\">Interferable Goals</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"asymmetric-goals\">Asymmetric Goals</link></style>, <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "player-balance",
+            "stimulated-planning",
+            "last-man-standing",
+            "red-queen-dilemmas",
+            "races"
+        ],
+        "modulates" : [
+            "conflicts",
+            "competition"
+        ],
+        "instantiated_by" : [
+            "king-hill",
+            "mutual-goals",
+            "overcome",
+            "multiplayer-games"
+        ],
+        "modulated_by" : [
+            "gain-competence",
+            "interferable-goals"
+        ],
+        "conflicts" : [
+            "asymmetric-goals",
+            "unknown-goals",
+            "varied-gameplay"
+        ]
+    }
+}

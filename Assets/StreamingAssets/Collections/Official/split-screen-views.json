@@ -1,0 +1,68 @@
+{
+    "name" : "Split-Screen Views",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns",
+        "Information Patterns"
+    ],
+    "texts" : {
+        "definition" : "Divisions of a screen space which are used to display continuously updated views of game environments.",
+        "markups" : [
+            "<style=\"Definition\">Divisions of a screen space which are used to display continuously updated views of game environments.</style>",
+            "Film-making introduce the concept of dividing the area available on screens to show several different views simultaneously by dividing the screen into several different areas. This idea of <style=\"CurrentLink\">Split-Screen Views</style> have been used to give each player in a multiplayer game his or her own part, and thereby making real-time games possible on one screen where players can move around independently of each other. Although this use is more static that they use in film-making, some games that have changing numbers of players introduce views in a way similar to their use in movies and some games have made use of the cinematic techniques in single-player games.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Call%20of%20Duty%20series\">Call of Duty</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> are examples of games allowing <style=\"CurrentLink\">Split-Screen Views</style>, at least on console versions of the games. Other examples - which are not <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> - include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guitar%20Hero%20series\">Guitar Hero</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%20series\">Super Monkey Ball series</link></style>. Later installments in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lego%20Star%20Wars%20series\">Lego Star Wars series</link></style>, which supports players joining and dropping out of the game without stopping game sessions, introduces split-screens dynamically as they are needed.",
+            "Rear view mirrors in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style> such the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gran%20Turismo%20series\">Gran Turismo series</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Need%20for%20Speed%20series\">Need for Speed series</link></style> can be seen as <style=\"CurrentLink\">Split-Screen Views</style> for individual players. The computer-version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk%20(video%20game)\">Space Hulk</link></style> uses <style=\"CurrentLink\">Split-Screen Views</style> to show the views of each member in a squad while the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Deus%20Ex%20series\">Deus Ex series</link></style> contained probes that provided additional views. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/OpenTTD\">OpenTTD</link></style> allows players  to create separate windows, each which can overview a different part of the game world.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/XIII\">XIII</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Heavy%20Rain\">Heavy Rain</link></style>  are single-player games that make use of various forms of <style=\"CurrentLink\">Split-Screen Views</style> for narration purposes. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Arcadia\">Arcadia</link></style> is a single-player game that uses a <style=\"CurrentLink\">Split-Screen View</style> to make players play four mini-games simultaneously.",
+            "The Giant Bomb web site has a page for the concept of split-screen multiplayer which includes several more examples, and another one for <i>dynamic split-screen</i>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Split-Screen Views</style> requires <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style> to provide a screen to split, but other than that the concerns for designing <style=\"CurrentLink\">Split-Screen Views</style> consist mainly of how to use screen space. For two views this is a basically a question of split the screen horizontally or vertically. Four views are easily achieved by splitting both ways. This is typically also done for three views, but then the \"spare\" view is often used to provide some form of <style=\"Link\"><link=\"game-state-overviews\">Game State Overview</link></style>. More views that four are rarely used (see the Wikipedia page for split screen for examples. Games with <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> game require designers either to sacrifice some screen real estate when not all players are present or to introduce dynamically additional views as players join.",
+            "The above has assumed that the <style=\"CurrentLink\">Split-Screen Views</style> have been to support <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> to be <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. This is because other types of <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> can make use of <style=\"Link\"><link=\"hotseating\">Hotseating</link></style> and <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>] rarely seem to need to show multiple perspectives at once. This is however something that is used in movies and the game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/XIII\">XIII</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Heavy%20Rain\">Heavy Rain</link></style> shows how can be used in a <style=\"Link\"><link=\"single-player-games\">Single-Player Game</link></style> to insert additional perspective into players' displays (a form of <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>). These are cases when <style=\"Link\"><link=\"picture-picture-views\">Picture-in-Picture Views</link></style> are used to create <style=\"CurrentLink\">Split-Screen Views</style>. One special but weak case of this is <style=\"Link\"><link=\"mini\">Mini-maps</link></style>. A stronger case is the use of mirrors in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style> as is showing squad members views in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk%20(video%20game)\">Space Hulk</link></style> and the views provided by probes in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Deus%20Ex%20series\">Deus Ex series</link></style>. All these can both be considered <style=\"CurrentLink\">Split-Screen Views</style> since they do show alternative views of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and these views are updated continuously, and like the cinematic uses provide <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Although <style=\"CurrentLink\">Split-Screen Views</style> does not per se break <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, it does make it difficult to maintain <style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style> in the revealing of information in games.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Dealing with how to present information to several players on one screen, <style=\"CurrentLink\">Split-Screen Views</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Information%20Patterns\">Information</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "An alternative to this pattern when one full screen is not available per player is to make use of <style=\"Link\"><link=\"auxiliary-game-screens\">Auxiliary Game Screens</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Split-Screen Views</style> allow for computer-based <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style> to be <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> where players can be in different parts of a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> and look in different directions, even if they are only using one screen. When <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> support several screens, the pattern provides players with an alternative where they can have better overview of each other's actions. That player can see what the others are doing even if their <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> are not co-present in a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> make <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> easier in both cases. However, this pattern can make it difficult to have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style> in a games since all players co-located and viewing the same <style=\"CurrentLink\">Split-Screen View</style> can see what the others sees.",
+            "Since the design issues that <style=\"CurrentLink\">Split-Screen Views</style> and <style=\"Link\"><link=\"hotseating\">Hotseating</link></style> try to solve overlap each other, there is little reason to use both and they can be seen as incompatible. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"mini\">Mini-maps</link></style>, <style=\"Link\"><link=\"picture-picture-views\">Picture-in-Picture Views</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, <style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style>, <style=\"Link\"><link=\"hotseating\">Hotseating</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-state-overviews",
+            "multiplayer-games"
+        ],
+        "modulates" : [
+            "cooperation",
+            "multiplayer-games",
+            "real-time-games"
+        ],
+        "instantiated_by" : [
+            "mediated-gameplay",
+            "mini",
+            "picture-picture-views"
+        ],
+        "modulated_by" : [
+            "drop-in-drop-out"
+        ],
+        "conflicts" : [
+            "asymmetric-information",
+            "detective-structures",
+            "hotseating"
+        ]
+    }
+}

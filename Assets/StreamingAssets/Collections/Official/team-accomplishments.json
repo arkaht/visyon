@@ -1,0 +1,54 @@
+{
+    "name" : "Team Accomplishments",
+    "categories" : [
+        "Patterns",
+        "Aesthetic Patterns"
+    ],
+    "texts" : {
+        "definition" : "The fulfilment experienced when being part of and accomplishing something as a group",
+        "markups" : [
+            "<style=\"Definition\">The fulfilment experienced when being part of and accomplishing something as a group</style>",
+            "Winning a game or reach specific goals in games are often experienced by players as accomplishments. <style=\"CurrentLink\">Team Accomplishments</style> are the special cases of this when players feel that they together with other players have succeeded in something that all players experience as an accomplishment. Since working together can require skills, this can in itself become an accomplishment so <style=\"CurrentLink\">Team Accomplishments</style> can also be simply managing to work together towards a game goal without actually succeeding, or even just identifying how one could work together.",
+            "<style=\"H3\">Examples</style>",
+            "Examples of <style=\"CurrentLink\">Team Accomplishments</style> typically come from cooperative games, such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Yggdrasil\">Yggdrasil</link></style>. Winning a game instance of any of these games is a clear example of <style=\"CurrentLink\">Team Accomplishments</style> but many sub goals such as handling a crisis in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> or completing a level or campaign in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> also qualify.",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Call%20of%20Cthulhu\">Call of Cthulhu</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> put players in positions where they need to work together to succeed with tasks or even just survive. Handling these, and especially making use of the different skill sets the players' characters have, are examples of <style=\"CurrentLink\">Team Accomplishments</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Team Accomplishments</style> require that several players together can act so they reach an accomplishment that they feel they share. This makes the use of <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> a necessity for <style=\"CurrentLink\">Team Accomplishments</style>, and the players are often grouped together in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style>, <style=\"Link\"><link=\"parties\">Parties</link></style>, or <style=\"Link\"><link=\"teams\">Teams</link></style> to have <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style>. However, they can also just be given <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style> explicitly or implicitly (in the latter case for example by having a common threat through <style=\"Link\"><link=\"pve\">PvE</link></style> gameplay). While the common accomplishment can often be expressed as a goal within the game it can also be the successful execution of <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>, and more specifically <style=\"Link\"><link=\"team-combos\">Team Combos</link></style>, even if these do not lead to the fulfillment of explicit game goals. Likewise, <style=\"Link\"><link=\"team-strategy-identification\">Team Strategy Identification</link></style> can be <style=\"CurrentLink\">Team Accomplishments</style> even if the strategy does not work or is even put into action, and a complete failure can be seen as a <style=\"CurrentLink\">Team Accomplishment</style> if the failure lead to <style=\"Link\"><link=\"mutual-fubar-enjoyment\">Mutual FUBAR Enjoyment</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Reaching <style=\"CurrentLink\">Team Accomplishments</style> can give <style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style> to all those involved.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"social-rewards\">Social Rewards</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>, <style=\"Link\"><link=\"mutual-fubar-enjoyment\">Mutual FUBAR Enjoyment</link></style>, <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style>, <style=\"Link\"><link=\"team-combos\">Team Combos</link></style>, <style=\"Link\"><link=\"team-strategy-identification\">Team Strategy Identification</link></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style>, <style=\"Link\"><link=\"parties\">Parties</link></style>, <style=\"Link\"><link=\"pve\">PvE</link></style>, or <style=\"Link\"><link=\"teams\">Teams</link></style> together with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "social-rewards"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "collaborative-actions",
+            "mutual-fubar-enjoyment",
+            "mutual-goals",
+            "team-combos",
+            "team-strategy-identification",
+            "guilds"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

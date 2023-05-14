@@ -1,0 +1,67 @@
+{
+    "name" : "Game Termination Penalties",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The penalty of having one's game session terminated while the game instance continues.",
+        "markups" : [
+            "<style=\"Definition\">The penalty of having one's game session terminated while the game instance continues.</style>",
+            "Some games don't let all players continue playing until the game instance is ended, but instead cancel their personal game sessions earlier. These cancellations are <style=\"CurrentLink\">Game Termination Penalties</style> when done as penalties for failing some action or due to being the target of certain actions.",
+            "Note: <i>this pattern is based on the concept \"Game termination punishment\" by Juul.</i> ",
+            "<style=\"H3\">Examples</style>",
+            "Players who can't afford to pay the rent they owe in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Monopoly\">Monopoly</link></style> are not allowed to play anymore. The same goes for players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Coup\">Coup</link></style> that lose their last role card.",
+            "Losing all one's lives or running out of time in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Missile%20Command\">Missile Command</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sega%20Rally\">Sega Rally</link></style> cannot continue to play. However, some (including <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sega%20Rally\">Sega Rally</link></style> but also <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gauntlet\">Gauntlet</link></style>) let players insert more coins to continue playing.",
+            "Having one's character die in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style> makes it impossible for players to continue playing. At least until they have created a new character and the game master has found a way to introduce that character.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The consequence of <style=\"CurrentLink\">Game Termination Penalties</style> are pretty obvious but designing them have options regarding what causes them and details on how they can be avoided or secondary effects they can have. They are typically caused by <style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style> or <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style> when one only has one <style=\"Link\"><link=\"lives\">Life</link></style> left; in games without <style=\"Link\"><link=\"lives\">Lives</link></style> this may instead be the effect of <style=\"Link\"><link=\"energy-penalties\">Energy Penalties</link></style> reducing <style=\"Link\"><link=\"health\">Health</link></style> or some other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style> beyond a specified threshold. The possibility of <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> is important to consider when using <style=\"CurrentLink\">Game Termination Penalties</style>. This since if it is easy to rejoin the game, e.g. through putting in a new coin in a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gauntlet\">Gauntlet</link></style> arcade machine, the <style=\"CurrentLink\">Game Termination Penalties</style> stops being one and instead being a temporary <style=\"Link\"><link=\"penalties\">Penalty</link></style>. The <style=\"Link\"><link=\"penalties\">Penalty</link></style> experienced still qualifies as a <style=\"CurrentLink\">Game Termination Penalty</style> if some time has to pass and/or players need to perform certain actions, e.g. creating new <style=\"Link\"><link=\"characters\">Characters</link></style> in a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style>. Likewise, the number of times players have <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style> or <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style> can influence <style=\"CurrentLink\">Game Termination Penalties</style> in the same way. ",
+            "Since <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style> is a <style=\"Link\"><link=\"rewards\">Reward</link></style> rather than a <style=\"Link\"><link=\"penalties\">Penalty</link></style>, this pattern is difficult to combine with <style=\"CurrentLink\">Game Termination Penalties</style>. Likewise, <style=\"Link\"><link=\"fake-game-overs\">Fake Game Overs</link></style> can seem to be <style=\"CurrentLink\">Game Termination Penalties</style> but aren't. However, they can be used in <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> or those who have a <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Some games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style>, open up for players to perform \"dying actions\" when experiencing <style=\"CurrentLink\">Game Termination Penalties</style>. While this may work against <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> it can support narration well and save narration structures from collapsing.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Game Termination Penalties</style> are <style=\"Link\"><link=\"penalties\">Penalties</link></style> that result in <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> and <style=\"Link\"><link=\"game-over\">Game Over</link></style> for the players affected. That one can suffer <style=\"CurrentLink\">Game Termination Penalties</style> naturally causes <style=\"Link\"><link=\"tension\">Tension</link></style>, and more so when it is more likely to happen.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"death-consequences\">Death Consequences</link></style>, <style=\"Link\"><link=\"energy-penalties\">Energy Penalties</link></style>, <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"fake-game-overs\">Fake Game Overs</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>, <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-over",
+            "penalties",
+            "player-elimination",
+            "tension"
+        ],
+        "modulates" : [
+            "winner-gameplay-ends",
+            "unwinnable-games"
+        ],
+        "instantiated_by" : [
+            "death-consequences",
+            "energy-penalties",
+            "life-penalties"
+        ],
+        "modulated_by" : [
+            "extra-chances",
+            "fudged-results",
+            "late-arriving-players"
+        ],
+        "conflicts" : [
+            "extra-chances",
+            "fake-game-overs",
+            "fudged-results",
+            "late-arriving-players",
+            "winning-ending-gameplay"
+        ]
+    }
+}

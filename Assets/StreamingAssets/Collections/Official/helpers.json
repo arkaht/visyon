@@ -1,0 +1,82 @@
+{
+    "name" : "Helpers",
+    "categories" : [
+        "Patterns",
+        "Diegetic Patterns"
+    ],
+    "texts" : {
+        "definition" : "Non-player characters that help players.",
+        "markups" : [
+            "<style=\"Definition\">Non-player characters that help players.</style>",
+            "In many moments during gameplay, players may either need or want help, either in the form of information or actions. <style=\"CurrentLink\">Helpers</style> are people in game worlds controlled by the game that provide such help. Some provide just one type of help in one specific place while others follow players exploration of gameplay to provide continuous help.",
+            "<style=\"H3\">Examples</style>",
+            "Rumor spreading non-player characters in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20series\">Ultima</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> sometimes directly and sometimes indirectly giving the player advice on how to progress in the game. Each of the games in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda%20series\">The Legend of Zelda series</link></style> contains several helpers, ranging from helpful grandmothers to talking boats.",
+            "Solving quests or mysteries in games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fahrenheit\">Fahrenheit</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Heavy%20Rain\">Heavy Rain</link></style>, requires talking to non-player characters. This also occurs in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, and here sometimes the <style=\"CurrentLink\">Helpers</style> take active part in the gameplay to limited periods. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> also provide companions that help players throughout large parts of the game regardless of what specific quests are being undertaken.",
+            "Choosing the <i>Mysterious Stranger</i> perk in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> gives players a certain chance to be helped very temporarily in combat when things look grim. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> add a similar perk, <i>Miss Fortune</i>, that provides a <style=\"CurrentLink\">Helper</style> that deals fatigue damage rather than real damage.",
+            "Players that have go off the race courses and fallen into the oceans present in some maps in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> are towed by helpful non-player characters so they can resume the races.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Helpers</style> consist of deciding on what type of <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> the <style=\"CurrentLink\">Helpers</style> should be and what type of help should be provided. They two areas are however related since the available actions and planning of different types of <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> can allow some types of help but be unable to allow other types of help. ",
+            "Giving <style=\"Link\"><link=\"clues\">Clues</link></style>, helping with <style=\"Link\"><link=\"quests\">Quests</link></style> in some fashion, and engaging in <style=\"Link\"><link=\"dialogues\">Dialogues</link></style> requires little agency and can be done by <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> as limited as <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style> represented as diegetic people. When <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style> is wanted, <style=\"Link\"><link=\"gossip\">Gossip</link></style> may be an appropriate way of providing <style=\"Link\"><link=\"clues\">Clues</link></style> since it is also inherently diegetic. <style=\"CurrentLink\">Helpers</style> can be used to create <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style> for players as the information they provide is rarely <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style> about the game state. In games with <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tutorial%20Neighbors\">Tutorial Neighbors</link></style> can offer the same types of helps as <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style> but can provide an additional way of supporting <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> through giving players an example of how gameplay can develop. Both these types of <style=\"CurrentLink\">Helpers</style> can also allow players to engage in <style=\"Link\"><link=\"trading\">Trading</link></style> or have access to <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> such as <style=\"Link\"><link=\"crafting\">Crafting</link></style> or healing <style=\"Link\"><link=\"damage\">Damage</link></style>. ",
+            "<style=\"Link\"><link=\"companions\">Companions</link></style> are the most versatile types of <style=\"CurrentLink\">Helpers</style> and may be as helpful as <style=\"Link\"><link=\"ai-players\">AI Players</link></style>, including being members of <style=\"Link\"><link=\"parties\">Parties</link></style>. <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> are in contrast very restricted but can also be used to create <style=\"CurrentLink\">Helpers</style>, typically then as part of <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>. <style=\"Link\"><link=\"helplessness\">Helplessness</link></style> is not so often alleviated by <style=\"CurrentLink\">Helpers</style> but the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> shows how this is done through <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> shows how <style=\"Link\"><link=\"companions\">Companions</link></style> can be skilled in doing this.",
+            "<style=\"CurrentLink\">Helpers</style> can be modified by <style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>. That is, they can be designed so that they will not help players that have behaved in a certain way, or may require players to perform certain actions to begin helping them. This may also be represented as <style=\"Link\"><link=\"quests\">Quests</link></style> which differ from the ones <style=\"CurrentLink\">Helpers</style> provide aid with through the fact that they are done to gain access to the <style=\"CurrentLink\">Helpers</style>. Gaining <style=\"CurrentLink\">Helpers</style> aid may also be as simple as meeting requirements regarding players' <style=\"Link\"><link=\"abilities\">Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>, or other characteristics. Gaining <style=\"Link\"><link=\"companions\">Companions</link></style> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Baldur's%20Gate%20series\">Baldur's Gate series</link></style> provide examples of this.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Helpers</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Diegetic%20Patterns\">Diegetic Pattern</link></style> in that it gives players help in a diegetic form.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Helpers</style> can be used both to drive <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> forward and to provide additional details to them.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Helpers</style> are <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> that help players in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, or <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> by providing players with <style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style> or services such as <style=\"Link\"><link=\"trading\">Trading</link></style> or performing <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> (e.g. healing <style=\"Link\"><link=\"damage\">Damage</link></style>). Quite naturally, <style=\"CurrentLink\">Helpers</style> are not compatible with <style=\"Link\"><link=\"enemies\">Enemies</link></style> but the presence of the pattern <style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style> can turn <style=\"CurrentLink\">Helpers</style> into <style=\"Link\"><link=\"enemies\">Enemies</link></style> if players do despicable actions  according to the <style=\"CurrentLink\">Helpers</style>.",
+            "The information provided by <style=\"CurrentLink\">Helpers</style> is likely to be in the form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style> since providing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style> through them breaks <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>. Like <style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"CurrentLink\">Helpers</style> can support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> by offering additional help when needed.",
+            "<style=\"CurrentLink\">Helpers</style> that do not automatically provide help or have retracted their help until some amends have been done give rise to <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> or <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"helplessness\">Helplessness</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"companions\">Companions</link></style>, <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tutorial%20Neighbors\">Tutorial Neighbors</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>, <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>, <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "clues",
+            "gain-competence",
+            "gain-information",
+            "indirect-information",
+            "predetermined-story-structures",
+            "privileged-abilities",
+            "red-herrings",
+            "smooth-learning-curves",
+            "trading",
+            "quests"
+        ],
+        "modulates" : [
+            "game-boards",
+            "game-worlds",
+            "helplessness",
+            "levels",
+            "predetermined-story-structures",
+            "quests"
+        ],
+        "instantiated_by" : [
+            "companions",
+            "cutscenes",
+            "non-player-characters",
+            "self-service-kiosks",
+            "tutorial-neighbors"
+        ],
+        "modulated_by" : [
+            "actions-have-diegetically-social-consequences",
+            "character-levels",
+            "dialogues"
+        ],
+        "conflicts" : [
+            "enemies"
+        ]
+    }
+}

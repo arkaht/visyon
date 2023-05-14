@@ -1,0 +1,57 @@
+{
+    "name" : "Goal-Driven Personal Development",
+    "categories" : [
+        "Patterns",
+        "Goal Patterns",
+        "Agent Patterns"
+    ],
+    "texts" : {
+        "definition" : "The ability of agents to update their goals after the closure of existing goals.",
+        "markups" : [
+            "<style=\"Definition\">The ability of agents to update their goals after the closure of existing goals.</style>",
+            "Players have goals in games. However, diegetic character can have goals regarding the game world or may actually need them to be believable as characters. When these characters can develop over time through choosing new goals as they reach closure points regarding their old goals, they can be said to have <style=\"CurrentLink\">Goal-Driven Personal Development</style>.",
+            "Note: <i><style=\"CurrentLink\">Goal-Driven Personal Development</style> looks at goals defined through making a game state fulfill certain criteria and therefore excludes many other types of goals agents playing games can have, e.g. social or experiential ones.</i>",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Witcher%20series\">Witcher series</link></style> provide quests for players to choose from. The outcome of many of these not only affect which rewards players get but also which future quests they can take, and through how they reflect on the characters' experiences and changes in worldviews can display a personal development of them. While non-computerized <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> or the various games using the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Storytelling%20System\">Storytelling System</link></style> also allows for this type of <style=\"CurrentLink\">Goal-Driven Personal Development</style>, the goals in these games are much more fluidly define in both when they are finished and what types of rewards they provide.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Goal-Driven Personal Development</style> is created by providing <style=\"Link\"><link=\"agents\">Agents</link></style> with goals whose success, failure, and progress can be measured through the game state of a game and that build upon each other in some form. For <style=\"Link\"><link=\"agents\">Agents</link></style> controlled by humans, this is typically done through letting them select <style=\"Link\"><link=\"quests\">Quests</link></style> and making sure that some of these build upon the previous ones to create chains which makes the development over time noticeable. For <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style> can be used also but typically these need to be more granular in detail and have much more encoding of benefits and requirements available &ndash; this to a level which would make them very unlike the <style=\"Link\"><link=\"quests\">Quests</link></style> presented to human players.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "One part of making <style=\"Link\"><link=\"agents\">Agents</link></style> believable is that they have intentionality, i.e. have goals and take actions to make these goals be fulfilled. <style=\"CurrentLink\">Goal-Driven Personal Development</style> not only relies on that <style=\"Link\"><link=\"agents\">Agents</link></style> have goals but update the goals based on how the previous goals succeeded or not, and through this can help create <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> by making these <style=\"Link\"><link=\"agents\">Agents</link></style> believable regarding this issue.",
+            "<style=\"H2\">Consequences</style>",
+            "The possibility of <style=\"CurrentLink\">Goal-Driven Personal Development</style> in a game allows <style=\"Link\"><link=\"agents\">Agents</link></style> to have their <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style> that develop over time. When applied to non-human agents, i.e. <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"CurrentLink\">Goal-Driven Personal Development</style> allows these to have <style=\"Link\"><link=\"open-destiny\">Open Destinies</link></style> and can provide <style=\"Link\"><link=\"replayability\">Replayability</link></style> in making it interesting for players to perceive the differences in outcomes for them in various game instances.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style></style>",
+            "<style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"quests\">Quests</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "own-agenda",
+            "thematic-consistency",
+            "open-destiny"
+        ],
+        "modulates" : [
+            "agents",
+            "algorithmic-agents"
+        ],
+        "instantiated_by" : [
+            "quests"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

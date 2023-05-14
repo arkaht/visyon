@@ -1,0 +1,54 @@
+{
+    "name" : "Explicit Random Seeds",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns",
+        "Mechanical Patterns",
+        "Randomness Patterns"
+    ],
+    "texts" : {
+        "definition" : "The possibility in a game to manually provide a number for generating (pseudo-)random number instead of the game selecting one.",
+        "markups" : [
+            "<style=\"Definition\">The possibility in a game to manually provide a number for generating (pseudo-)random number instead of the game selecting one.</style>",
+            "Games often make use of randomness, e.g. through dice or shuffled decks of cards. Computer games make use of algorithms that create sequences of numbers that apparent as random for all practical purposes. These algorithms need an initial number, a seed, to function and games typically provide these automatically; using the current time is a easy solution that provides different numbers each time the game is played. However, some games &mdash; especially those that generate new worlds each time they are played &mdash; allow players to enter these numbers as <style=\"CurrentLink\">Explicit Random Seeds</style> - this makes it possible for players to begin with the same starting position in several different game instances.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Dwarf Fortress</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> allow players to enter <style=\"CurrentLink\">Explicit Random Seeds</style> for world generation instead of the game selecting one for them in an unpredictable manner.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Explicit Random Seeds</style> are used to modify <style=\"Link\"><link=\"randomness\">Randomness</link></style> by allowing players to provide a seed that generates the <style=\"Link\"><link=\"randomness\">Randomness</link></style> in a game rather that it being provided by some automatic means (typically based on what time it is). The pattern is easy to implement rulewise, the challenges being related to interface design rather than gameplay design (<style=\"CurrentLink\">Explicit Random Seeds</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>). ",
+            "<style=\"CurrentLink\">Explicit Random Seeds</style> typically are used to allow players means of controlling how <style=\"Link\"><link=\"procedurally-generated-game-worlds\">Procedurally Generated Game Worlds</link></style> are created, but they can be used more locally affect the <style=\"Link\"><link=\"randomness\">Randomness</link></style> of setups of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The ability to provide <style=\"CurrentLink\">Explicit Random Seeds</style> to a game gives players a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> regarding how to use <style=\"Link\"><link=\"randomness\">Randomness</link></style>. It also affects <style=\"Link\"><link=\"luck\">Luck</link></style> since players who find a lucky starting position in a game supporting <style=\"CurrentLink\">Explicit Random Seeds</style> can choose to reuse that lucky start multiple times if they wish.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"luck\">Luck</link></style>, <style=\"Link\"><link=\"procedurally-generated-game-worlds\">Procedurally Generated Game Worlds</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice"
+        ],
+        "modulates" : [
+            "game-worlds",
+            "levels",
+            "luck",
+            "procedurally-generated-game-worlds",
+            "randomness"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "name" : "Guard",
+    "categories" : [
+        "Goal Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The goal to hinder other players or game elements from accessing particular gameplay areas or particular game elements.",
+        "markups" : [
+            "<style=\"Definition\">The goal to hinder other players or game elements from accessing particular gameplay areas or particular game elements.</style>",
+            "<style=\"CurrentLink\">Guard</style> goals are simply the goals of keeping others from getting access to something. This may be entering gameplay areas or getting possession of game elements. It may also be keeping diegetic people incarcerated, which includes hindering others from freeing them.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stratego\">Stratego</link></style> are games that are lost if one fails the mission to guard a specific game element: the king in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and the flag in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stratego\">Stratego</link></style>.",
+            "The goalkeeper in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> must <style=\"CurrentLink\">Guard</style> their team's goal so that the ball does not enter it.",
+            "<style=\"CurrentLink\">Guard</style> goals often appear in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style>. As one example, the terrorist team on some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> levels needs to <style=\"CurrentLink\">Guard</style> hostages until match times run out. Another example is how teams in <i>capture the flag</i> matches (found for example in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style>) need to guard their own flag, as is how teams need to guard the control points in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Creating <style=\"CurrentLink\">Guard</style> goals consist of two components: choosing the objectives to be guarded and the means by which the objective can be guarded. The latter of these also implies that ways for the goals to fail are designed if they not already exist; in most cases this requires the creation of <style=\"Link\"><link=\"enemies\">Enemies</link></style>. Examples of objectives to protect include <style=\"Link\"><link=\"non-player-characters\">NPCs</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style>, and any areas that players need to have <style=\"Link\"><link=\"area-control\">Area Control</link></style> over. The use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style> as objectives allow for <style=\"Link\"><link=\"survive\">Survive</link></style> goals of these <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style> to make the <style=\"CurrentLink\">Guard</style> goal more difficult. The presence of <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> can in itself require players to set up <style=\"CurrentLink\">Guard</style> goals. Giving many players and <style=\"Link\"><link=\"agents\">Agents</link></style> the same <style=\"CurrentLink\">Guard</style> goal but only allowing one player or <style=\"Link\"><link=\"agents\">Agent</link></style> to be fulfilling it at a time is a way to create <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style> goals.",
+            "The means of guarding can be divided into two main categories: passive and active. Passive actions include changing the environment, e. g., through placing <style=\"Link\"><link=\"traps\">Traps</link></style> or <style=\"Link\"><link=\"alarms\">Alarms</link></style>, or making certain activities impossible for the other player, e. g., by occupying a space and thereby hindering the other player from entering that space, but do not affect the actual game value associated with game elements under the other player's control. Active guarding actions are those that directly change value of game elements, e.g. engaging in <style=\"Link\"><link=\"combat\">Combat</link></style> with intruders. Of course, passive actions can have second-order consequences that affect game elements, e.g. setting off <style=\"Link\"><link=\"alarms\">Alarms</link></style> may call guards that then enter into <style=\"Link\"><link=\"combat\">Combat</link></style> with perceived <style=\"Link\"><link=\"enemies\">Enemies</link></style>. The ease of <style=\"CurrentLink\">Guard</style> goals can easily be modified by terrain features such as <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, and <style=\"Link\"><link=\"galleries\">Galleries</link></style>, and more generally how well-suited areas are for <style=\"Link\"><link=\"camping\">Camping</link></style>.",
+            "If the goals opposing the <style=\"CurrentLink\">Guard</style> goals are <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style> to the opponents, e.g. if the opponents can choose to <style=\"Link\"><link=\"capture\">Capture</link></style> an area or simply bypass it, the <style=\"CurrentLink\">Guard</style> goal may never be fulfilled. However, not actively trying to ensure that the <style=\"CurrentLink\">Guard</style> goals are fulfill compared to pursuing other goals are <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between the perceived <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> of the different tactics. Games where those with <style=\"CurrentLink\">Guard</style> goals only should guard some places or only guard places during some times need to have <style=\"Link\"><link=\"context-dependent-reactions\">Context Dependent Reactions</link></style> if they can meet other <style=\"Link\"><link=\"agents\">Agents</link></style> in other situations.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Guard</style> goals require observation of specific areas, game elements, or players in games and through this they provide <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>. This can lead to <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> goals if the area to <style=\"CurrentLink\">Guard</style> is too large to have any complete overview at in one glance. They are typically <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> related to <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"rescue\">Rescue</link></style>, or <style=\"Link\"><link=\"stealth\">Stealth</link></style> and therefore create <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style> that lead to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>. Further, they are <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style> as they are only completed after there are no chances of the guarded game elements being stolen or gameplay areas entered. Failure to <style=\"CurrentLink\">Guard</style> objectives due to <style=\"Link\"><link=\"combat\">Combat</link></style> or <style=\"Link\"><link=\"stealth\">Stealth</link></style> activities of others can transform the <style=\"CurrentLink\">Guard</style> goals into <style=\"Link\"><link=\"rescue\">Rescue</link></style> goals.",
+            "If players are free to position game elements used in the task of guarding, the positioning of them promotes <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> and allows players to make use of <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> about <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>. When <style=\"CurrentLink\">Guard</style> goals are combined with <style=\"Link\"><link=\"deliver\">Deliver</link></style> goals of game elements with some agency (e.g., <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style>), they become <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guide%20and%20Protect\">Guide and Protect</link></style> goals.",
+            "<style=\"CurrentLink\">Guard</style> goals often make those that have them feel they have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> over what is guarded, even though it may not be the case in either a game system or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alternative%20Realities\">Alternative Reality</link></style> of a game.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"combat\">Combat</link></style> or <style=\"Link\"><link=\"stealth\">Stealth</link></style></style>",
+            "<style=\"Link\"><link=\"rescue\">Rescue</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"deliver\">Deliver</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guide%20and%20Protect\">Guide and Protect</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"rescue\">Rescue</link></style>, or <style=\"Link\"><link=\"stealth\">Stealth</link></style></style>",
+            "<style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"alarms\">Alarms</link></style>, <style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"context-dependent-reactions\">Context Dependent Reactions</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"galleries\">Galleries</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"survive\">Survive</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "attention-demanding-gameplay",
+            "conflicts",
+            "continuous-goals",
+            "king-hill",
+            "ownership",
+            "preventing-goals",
+            "reconnaissance",
+            "stimulated-planning",
+            "trade-offs",
+            "rescue",
+            "guide-protect",
+            "excluding-goals"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "area-control",
+            "capture",
+            "enemies",
+            "fog-war",
+            "non-player-characters",
+            "strategic-locations",
+            "strongholds"
+        ],
+        "modulated_by" : [
+            "alarms",
+            "camping",
+            "choke-points",
+            "context-dependent-reactions",
+            "flanking-routes",
+            "galleries",
+            "strategic-knowledge",
+            "survive",
+            "traps"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

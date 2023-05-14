@@ -1,0 +1,53 @@
+{
+    "name" : "Flip-Flop Events",
+    "categories" : [
+        "Dynamic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The taking of two turns in a row by a player by having the last turn in one round and the first turn in the next round.",
+        "markups" : [
+            "<style=\"Definition\">The taking of two turns in a row by a player by having the last turn in one round and the first turn in the next round.</style>",
+            "Turn taking is common in board games and some games have rules that allow the turn order to change during gameplay. When this can result in players being last in one round and first in the next, they have two turns in a row which can be highly advantageous in some games. Such events are known as <style=\"CurrentLink\">Flip-Flop Events</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Flip-Flop Events</style> are primarily the concern of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Agricola\">Agricola</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Caylus\">Caylus</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/El%20Grande\">El Grande</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lords%20of%20Waterdeep\">Lords of Waterdeep</link></style> allows players to perform direct actions that make them first players in a round so those in the last place can create <style=\"CurrentLink\">Flip-Flop Events</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Species\">Dominant Species</link></style> is a weak example because players can only change their position in the turn order one step per round, so <style=\"CurrentLink\">Flip-Flop Events</style> are only possible in two-player game instances. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uno\">Uno</link></style> is also a weak example in that it is possible to play cards in two-player instances which makes the other player lose a turn. However, in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rise%20and%20Decline%20of%20the%20Third%20Reich\">Rise and Decline of the Third Reich</link></style> it is an important skill to be able to engineer <style=\"CurrentLink\">Flip-Flop Events</style> regardless if it is a two-player or six-player game.",
+            "The turn order in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/History%20of%20the%20World\">History of the World</link></style> is decided by choosing cards which also decides which country one will play. By choosing the right card, a player that is last in one turn can become first in the next one and use this to take advantage that no other player can have attacked the forces from the first round when scoring in the second round. Players of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Game</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Vampire:%20The%20Masquerade\">Vampire: The Masquerade</link></style> can delay actions in a combat round for their characters to be able to act last. The player with the highest initiative can use this to perform <style=\"CurrentLink\">Flip-Flop Events</style>. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Egizia\">Egizia</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Golf\">Golf</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ursuppe\">Ursuppe</link></style> base turn order on the inverse order of the players' score, which means that players that move from first to last position in points moves from last to first position in turn order. Since this requires making a move that minimizes the amount of point gathered it is not necessarily good. Further, the possibility of doing so depends heavily on what the other players do and may not be possible at all except in rare circumstances. To add to this, in the case of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Golf\">Golf</link></style> there is little gameplay advantage in creating <style=\"CurrentLink\">Flip-Flop Events</style> since it gives no direct gameplay advantage...",
+            "<style=\"H2\">Using the pattern</style>",
+            "Providing the possibility of <style=\"CurrentLink\">Flip-Flop Events</style> is mainly a question of using <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style>. One common design solution that allows this is tying the use of a <style=\"Link\"><link=\"score-tracks\">Score Track</link></style> to the turn order &mdash; as for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Egizia\">Egizia</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ursuppe\">Ursuppe</link></style> does  &mdash; but the possibility of performing <style=\"CurrentLink\">Flip-Flop Events</style> with this system depends heavily on how other players behave. Similarly, even if many instantiations of <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style> can allow <style=\"CurrentLink\">Flip-Flop Events</style>, sometimes unintentionally, the pattern only becomes strongly present in a game when players can take actions to cause these events. Actions, often through <style=\"Link\"><link=\"token-placement\">Token Placement</link></style>, that let players claim the position of first player the next round make the pattern have more presence. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Agricola\">Agricola</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lords%20of%20Waterdeep\">Lords of Waterdeep</link></style> are examples of this. As a contrast, <style=\"Link\"><link=\"extra-turns\">Extra Turns</link></style> create <style=\"CurrentLink\">Flip-Flop Events</style> of sorts, but since it is extra turns introduced rather than rearranging of existing turns in a sequence, it can be said to be a weak example of the pattern.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Flip-Flop Events</style> affect <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> by making a specific form of <style=\"Link\"><link=\"combos\">Combos</link></style> possible. Since this can be tricky to set up, being able to create <style=\"CurrentLink\">Flip-Flop Events</style> can be a sign of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> in games where it is possible. However, they can cause problems with <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> if they can occur randomly or by <style=\"Link\"><link=\"luck\">Luck</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"extra-turns\">Extra Turns</link></style>, <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "combos",
+            "gameplay-mastery"
+        ],
+        "modulates" : [
+            "turn-taking"
+        ],
+        "instantiated_by" : [
+            "extra-turns",
+            "varying-turn-orders"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "player-balance"
+        ]
+    }
+}

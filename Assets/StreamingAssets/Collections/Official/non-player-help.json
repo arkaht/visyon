@@ -1,0 +1,70 @@
+{
+    "name" : "Non-Player Help",
+    "categories" : [
+        "Patterns",
+        "Pervasive Patterns"
+    ],
+    "texts" : {
+        "definition" : "The designed possibility for people not playing the game to help players.",
+        "markups" : [
+            "<style=\"Definition\">The designed possibility for people not playing the game to help players.</style>",
+            "Some games allow people not playing the game to provide information or perform actions that can support players pursuits in them. When this is intentional planned for by the game design, this <style=\"CurrentLink\">Non-Player Help</style> can provide unexpected support and open up for social interaction beyond that contained in the gameplay itself.",
+            "<style=\"H3\">Examples</style>",
+            "Contestants in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Who%20Wants%20to%20Be%20a%20Millionaire?\">Who Wants to Be a Millionaire?</link></style> have several <i>lifelines</i> to help them during the game, one such was <i>Phone-A-Friend</i> which allows a non-player to suggest an answer (it has been removed in some cases due to the possibility of people using search engines to find answers). Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia%20Wars\">Mafia Wars</link></style> can broadcast requests for help to players and non-player alike, and by thus support a form of <style=\"CurrentLink\">Non-Player Help</style> in that new people can start playing the game with the initial goal of aiding the inviting player.",
+            "People meeting those participating in a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Scavenger%20Hunt\">Scavenger Hunt</link></style> game can help by giving items to them. Related, Alternate Reality games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Prosopopeia\">Prosopopeia</link></style> can put players in situations where they interact with other people without being sure if they are performing roles in the games or are simply random people caught up in the gameplay. Although difficult to know in advance, the interaction they provide can be interesting experience, red herrings, or <style=\"CurrentLink\">Non-Player Help</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The primary need for <style=\"CurrentLink\">Non-Player Help</style> to be possible is that other people are aware than they can help. This can be done by <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>. Beyond that, implementing support for <style=\"CurrentLink\">Non-Player Help</style> consists to a large degree on controlling access to the game in general. This since making it possible for non-players to modify the game state to easily can skew <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, make it impossible for players' to feel a <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> for their own actions, and hinder them to have an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>. For these reasons, <style=\"CurrentLink\">Non-Player Help</style> often needs to restricted to providing people with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> which are also <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Privileged%20Actions\">Privileged</link></style> (although also not as powerful as the players' actions). To avoid them to be used to often, their usefulness can be limited further by having <style=\"Link\"><link=\"cooldown\">Cooldown</link></style> periods. Another case may be that the help that can have an inherent <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>, as for example the answers provided from using the <i>Phone-A-Friend</i> lifelines in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Who%20Wants%20to%20Be%20a%20Millionaire?\">Who Wants to Be a Millionaire?</link></style>, since this makes the <style=\"CurrentLink\">Non-Player Help</style> have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> qualities.",
+            "<style=\"CurrentLink\">Non-Player Help</style> provides a way to affect players' <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>, and where the action can be its own <style=\"Link\"><link=\"rewards\">Reward</link></style> requiring no further gameplay. This is one way players intentionally can affect each other in <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>.",
+            "<style=\"Link\"><link=\"game-masters\">Game Masters</link></style> and other types of <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> that are people can be considered a form of <style=\"CurrentLink\">Non-Player Help</style>, typically to judge rule disagreements, lessen <style=\"Link\"><link=\"excise\">Excise</link></style>, present <style=\"Link\"><link=\"storytelling\">Storytelling</link></style> eloquently, or support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Never%20Ending%20Stories\">Never Ending Stories</link></style>. <style=\"Link\"><link=\"invites\">Invites</link></style> support a type of one-time <style=\"CurrentLink\">Non-Player Help</style> in that they can make people start playing a game as <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> for the reason of helping the people already playing. <style=\"Link\"><link=\"spectators\">Spectators</link></style> is maybe the most common form of <style=\"CurrentLink\">Non-Player Help</style> but the help is only indirectly related to game states. This since the <style=\"Link\"><link=\"spectators\">Spectators</link></style> can provide moral support to motivate players to feel an increased sense of <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> for their actions (although it should be noted that they can also cause <style=\"Link\"><link=\"tension\">Tension</link></style>). <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> that allow players to signal things to <style=\"Link\"><link=\"spectators\">Spectators</link></style> can increase the likelihood or quality of the <style=\"CurrentLink\">Non-Player Help</style> <style=\"Link\"><link=\"spectators\">Spectators</link></style> can provide.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Unless a game design has a solution for explaining the appearances of events of non-players, and quite possibly also the non-player themselves, in the <style=\"Link\"><link=\"game-worlds\">Game World</link></style> this is likely to break its <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. Games with <style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style> solve this by their inherent merger with other activities but other games may have to have <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> adding context representing the <style=\"CurrentLink\">Non-Player Help</style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Given that the non-players typically are not willing to spend much time understanding how to perform their help, they typically need dedicated and simplified ones that allow the to do their <style=\"CurrentLink\">Non-Player Help</style> without accessing the whole game interface or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20World\">Game World</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Non-Player Help</style> is a form of <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style> as well as a type of <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>. By helping players with various actions, they may counter the need of players to engage in <style=\"Link\"><link=\"excise\">Excise</link></style> or <style=\"Link\"><link=\"grinding\">Grinding</link></style>. When the <style=\"CurrentLink\">Non-Player Help</style> either come unsuspectingly or at an unsuspected time they may be pleasant <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>. <style=\"CurrentLink\">Non-Player Help</style> also create <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> between people, independent of if it is just a particular game event or a long more open-ended encounter.",
+            "Since requesting <style=\"CurrentLink\">Non-Player Help</style> reveals aspects of how well (or bad) one has played, the use of the pattern gives a form of <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>, <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Never%20Ending%20Stories\">Never Ending Stories</link></style>, <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>",
+            "<style=\"H3\">with <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style></style>",
+            "<style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"alternate-reality-gameplay\">Alternate Reality Gameplay</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"invites\">Invites</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>",
+            "<style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> in games that support <style=\"Link\"><link=\"spectators\">Spectators</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"cooldown\">Cooldown</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Privileged%20Actions\">Privileged Actions</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "altruistic-actions",
+            "extra-game-input",
+            "never-ending-stories",
+            "public-player-statistics",
+            "social-interaction",
+            "uncertainty-information"
+        ],
+        "modulates" : [
+            "massively-single-player-online-games"
+        ],
+        "instantiated_by" : [
+            "alternate-reality-gameplay",
+            "dedicated-game-facilitators",
+            "extra-game-actions"
+        ],
+        "modulated_by" : [
+            "cooldown",
+            "limited-set-actions",
+            "privileged-actions"
+        ],
+        "conflicts" : [
+            "exaggerated-perception-influence"
+        ]
+    }
+}

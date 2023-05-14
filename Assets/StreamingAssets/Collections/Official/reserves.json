@@ -1,0 +1,56 @@
+{
+    "name" : "Reserves",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Members of teams that are not active in the gameplay due to a limit on how many can be active at once.",
+        "markups" : [
+            "<style=\"Definition\">Members of teams that are not active in the gameplay due to a limit on how many can be active at once.</style>",
+            "Many games pitch teams against each other and typically have a limit on how many participants each team should have. However, such games may allow more members in team than may be active at once, either to handle uneven teams or due to the gameplay being exhaustive or worse to team members. Permitting this in games introduces <style=\"CurrentLink\">Reserves</style> for each team. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/American%20Football\">American Football</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Basketball\">Basketball</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> all make use of <style=\"CurrentLink\">Reserves</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style> shows the use of <style=\"CurrentLink\">Reserves</style> in a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Game</link></style> that depicts a fictional game in a fantasy world. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20Tag%20Tournament\">Tekken Tag Tournament</link></style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Game</link></style> example that shows how <style=\"CurrentLink\">Reserves</style> can be used in games with teams as small as those consisting of two members.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Reserves</style> are used in games with <style=\"Link\"><link=\"teams\">Teams</link></style> to make it possible to vary the <style=\"Link\"><link=\"agents\">Agents</link></style> or <style=\"Link\"><link=\"characters\">Characters</link></style> that are active in the <style=\"Link\"><link=\"teams\">Teams</link></style>. There are typically to two reasons why this might be considered. One is that the <style=\"Link\"><link=\"agents\">Agents</link></style> or <style=\"Link\"><link=\"characters\">Characters</link></style> have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Abilities\">Asymmetric Abilities</link></style> and one wants to be able to configure so the ones playing have the best skills for any particular situation. The other is that the game requires ",
+            "<style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> or <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style> and the team members do need to rest due to the tempo of the game. A secondary cause in the case of games that require <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style> is to smoothen out <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> due to the exhaustion of team members. ",
+            "In games where <style=\"Link\"><link=\"characters\">Characters</link></style> are <style=\"CurrentLink\">Reserves</style> in <style=\"Link\"><link=\"teams\">Teams</link></style>, it is typically players that choose which <style=\"Link\"><link=\"characters\">Characters</link></style> should be in these <style=\"CurrentLink\">Reserves</style>. Players may be able to select themselves to be in the <style=\"CurrentLink\">Reserves</style> when they constitute the <style=\"Link\"><link=\"teams\">Teams</link></style> but an alternative is to let <style=\"Link\"><link=\"coaches\">Coaches</link></style> do this.",
+            "<style=\"H2\">Consequences</style>",
+            "Being in the <style=\"CurrentLink\">Reserves</style> cause downtime for players. It also allows them to engage in <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> but even in games where the <style=\"Link\"><link=\"teams\">Teams</link></style> are made up of <style=\"Link\"><link=\"characters\">Characters</link></style> can <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> be a result of <style=\"CurrentLink\">Reserves</style>. This since the players choosing which <style=\"Link\"><link=\"characters\">Characters</link></style> to use do <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> regarding this.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> in games with <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>,  and <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style> in games with <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Abilities\">Asymmetric Abilities</link></style>, <style=\"Link\"><link=\"coaches\">Coaches</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "downtime",
+            "tactical-planning"
+        ],
+        "modulates" : [
+            "teams",
+            "performance-uncertainty",
+            "agents"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "asymmetric-abilities",
+            "coaches"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

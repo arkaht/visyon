@@ -1,0 +1,79 @@
+{
+    "name" : "God Views",
+    "categories" : [
+        "Patterns",
+        "Diegetic Patterns",
+        "Information Patterns",
+        "Interface Patterns",
+        "Platform Patterns"
+    ],
+    "texts" : {
+        "definition" : "Presentations of game worlds free of specific relations to entities within these game worlds.",
+        "markups" : [
+            "<style=\"Definition\">Presentations of game worlds free of specific relations to entities within these game worlds.</style>",
+            "Many games that intrinsically tie gameplay to specific game elements also tie the presentation of their game worlds to these game elements. In contrast, games that do not focus on specific game elements - or let players switch between several specific game elements - can instead use <style=\"CurrentLink\">God Views</style> to give players an unrestricted view of the worlds that can be changed interdependently of what is contained within them.  ",
+            "<style=\"H3\">Examples</style>",
+            "By their definition, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Perfect%20Information%20Games\">Perfect Information Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hex\">Hex</link></style> have <style=\"CurrentLink\">God Views</style> although over rather limited game worlds. The various types of strategy games, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Starcraft%20series\">Starcraft series</link></style> all also make use of <style=\"CurrentLink\">God Views</style> but often hide the presences of faraway units with a fog of war. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Populous\">Populous</link></style>, as an example of a god game, unsurprisingly provides players with a <style=\"CurrentLink\">God View</style>.",
+            "Early <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Arcade%20Games\">Arcade Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Centipede\">Centipede</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> provided players with entire levels at a time where all areas were visible simultaneously. This is still common in computer-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzle%20Games\">Puzzle Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Peggle\">Peggle</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style>; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cogs\">Cogs</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Continuity\">Continuity</link></style> do at time not show the entire levels to players but have <style=\"CurrentLink\">God Views</style> since players can freely navigate to any part of a puzzle.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/SimCity%20series\">SimCity series</link></style> allows players to move around the city without having to consider the locations of any individual game element such as cars or pedestrians. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style> does likewise but players can let their viewpoint be looked on particular Sims in third-person views so they do not have to move their viewpoints to watch the Sims as they move about in the game environment.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The two main components of providing <style=\"CurrentLink\">God Views</style> in games is <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> that can create presentations of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and <style=\"Link\"><link=\"cameras\">Cameras</link></style> that allow players to change their view point of those <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. When <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> are the <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> the <style=\"Link\"><link=\"cameras\">Cameras</link></style> are implicitly present, and when <style=\"CurrentLink\">God Views</style> are part of <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> the <style=\"Link\"><link=\"cameras\">Cameras</link></style> may also be absent since the \"camera\" movement can be completely predetermined. <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> and <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style> are not directly compatible with <style=\"CurrentLink\">God Views</style>. However, in games where players switch between different <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style> can replace <style=\"CurrentLink\">God Views</style> when <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> have been selected to make it easier to perceive which <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> is used as gameplay unfolds. <style=\"Link\"><link=\"vision-modes\">Vision Modes</link></style> are not as commonly used for <style=\"CurrentLink\">God Views</style> as other types of views but can serve a purpose in avoiding information overload in complex games with <style=\"CurrentLink\">God Views</style> (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style>) by separating all the information available into several different views. <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style> can more easily be used with <style=\"CurrentLink\">God Views</style> than other views without breaking <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "Having a <style=\"CurrentLink\">God View</style> in a game does not necessarily infer that one is omniscience (i.e. have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>); <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> is quite often used to make it possible for players to experience <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> even if they have <style=\"CurrentLink\">God Views</style>. Other ways to achieve this is to provide opponents with secret <style=\"Link\"><link=\"hands\">Hands</link></style> (as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Memoir%20'44\">Memoir '44</link></style>) does but this is not actually modifying the presentation of the <style=\"Link\"><link=\"game-worlds\">Game World</link></style>.",
+            "<style=\"CurrentLink\">God Views</style> can be used to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style> that provides <style=\"Link\"><link=\"spectators\">Spectators</link></style> with more information about the gameplay than players have.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">God Views</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Diegetic%20Patterns\">Diegetic Pattern</link></style>. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">God Views</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. As their names suggest, <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> are natural choices for <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> in games with <style=\"CurrentLink\">God Views</style>. They can make some goals, e.g. <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> trivial, unless modulated by <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> or other ways of hiding information.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">God Views</style> provide <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> over <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and allow these overviews to be easily and quickly moved, making them ideal for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style> but hindering <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>. These types of views also make <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> actions difficult and  can make <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> trivial. They do not easily work with <style=\"Link\"><link=\"avatars\">Avatars</link></style> as the link between player attention and the <style=\"Link\"><link=\"avatars\">Avatars</link></style> is weak, but it is possible in games with <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style> to use <style=\"CurrentLink\">God Views</style> without this issue to do general navigation and support the movement between <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> that are to be controlled.",
+            "<style=\"CurrentLink\">God Views</style> can influence the <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> players have both by allowing them to vary their view on the gameplay and by making it easier to spot the actual possible actions they have.",
+            "Games with <style=\"CurrentLink\">God Views</style> and <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> cannot easily enforce that players only can perceive what the <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> do, and therefore make it difficult to have <style=\"Link\"><link=\"player-character-awareness-consistency\">Player/Character Awareness Consistency</link></style>. An exception would be omniscience <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> but these would strain the concept of <style=\"Link\"><link=\"characters\">Characters</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style></style>",
+            "<style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cameras\">Cameras</link></style>, <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style>, <style=\"Link\"><link=\"point-interest-indicators\">Point of Interest Indicators</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, <style=\"Link\"><link=\"player-character-awareness-consistency\">Player/Character Awareness Consistency</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-state-overviews",
+            "public-information"
+        ],
+        "modulates" : [
+            "attention-swapping",
+            "freedom-choice",
+            "game-worlds",
+            "focus-loci"
+        ],
+        "instantiated_by" : [
+            "cameras",
+            "cutscenes",
+            "dedicated-game-facilitators"
+        ],
+        "modulated_by" : [
+            "fog-war",
+            "god-fingers",
+            "point-interest-indicators",
+            "third-person-views"
+        ],
+        "conflicts" : [
+            "aim-shoot",
+            "avatars",
+            "game-world-navigation",
+            "player-character-awareness-consistency",
+            "reconnaissance",
+            "spatial-engrossment"
+        ]
+    }
+}

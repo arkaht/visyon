@@ -1,0 +1,65 @@
+{
+    "name" : "Open-Ended Die Rolls",
+    "categories" : [
+        "Mechanical Patterns",
+        "Dice Patterns",
+        "Patterns",
+        "Randomness Patterns"
+    ],
+    "texts" : {
+        "definition" : "Die rolls where some results indicate making more die rolls to achieve the final result.",
+        "markups" : [
+            "<style=\"Definition\">Die rolls where some results indicate making more die rolls to achieve the final result.</style>",
+            "Dice are used in many games to create randomness. The range provided by the dice does however give a fixed interval of which results can be achieved before the roll is made. This can be avoided by letting certain results, e.g. a 6 on a 6-sided die, signify that additional dice should be rolled to create the random value. This makes the upper bound (since added dice are typically used to increase the result) of the die roll open-ended.",
+            "<style=\"H3\">Examples</style>",
+            "The D6 System by West End Games has one <i>wild</i> die for damage rolls and checks against skills or attributes. When a 6 is rolled on the <i>wild</i> die, another <i>wild</i> die is rolled to generate the result, and this can potentially continue forever.",
+            "The first edition of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> used <style=\"CurrentLink\">Open-Ended Die Rolls</style> for damage but required an additional success with a character's weapon skill to unlock the <i>open-endedness</i> if a 6 was rolled. This made it more probably for skilled fighters to do exceptional damage than unskilled ones.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The two main design choices regarding <style=\"CurrentLink\">Open-Ended Die Rolls</style> is what results trigger additional dice rolls and which rolls and dice the mechanic affects. The most common solution is that the highest result, i.e. a 6 on a D6 and a 20 on a D20, activates new rolls but adding more result increase the frequency with which the pattern manifests itself and the minimum can be used to create fumbles or critical failures. For cases where many dice are rolled initially, limiting the open-ended mechanic to one die is a way to not make the pattern occur too often (e.g. allowing additional die on any 6 on a 3D6 roll gives a 42% chance that at least one more die will need to be rolled). <style=\"CurrentLink\">Open-Ended Die Rolls</style> are most typically used for rolls against <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style> or <style=\"Link\"><link=\"skills\">Skills</link></style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>, and can be limited to <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> to make them exceptional compared to other <style=\"Link\"><link=\"characters\">Characters</link></style>.",
+            "A specific issue with <style=\"CurrentLink\">Open-Ended Die Rolls</style> is that simple additions of extra dice have the effect that some values may not be possible to generate. For example, an <style=\"CurrentLink\">Open-Ended Die Roll</style> with a single D6 that triggers on a 6 can produce values between 1 and 5, 7 and 11, etc. but not 6, 12, 18, etc. This can be mitigated by modifying the result of each extra die with a -1 but this does make calculations more cumbersome to do mentally.",
+            "A weaker form of <style=\"CurrentLink\">Open-Ended Die Rolls</style> can be created by putting constraints on how many times dices can be added; this provides an upper bound but still achieves the effect of having some results be rarer and more exceptional.",
+            "An alternative to <style=\"CurrentLink\">Open-Ended Die Rolls</style> is <style=\"Link\"><link=\"critical-results\">Critical Results</link></style> although the two can be combined, e.g. through having a certain number of successful die activating <style=\"Link\"><link=\"critical-results\">Critical Results</link></style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Open-Ended Die Rolls</style> allow for luck or misfortune to manifest itself in the game world through gameplay mechanics. This can however also be done through <style=\"Link\"><link=\"critical-results\">Critical Results</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "The adding of <style=\"CurrentLink\">Open-Ended Die Rolls</style> can tax players' mathematical abilities, especially if fixes have been inserted to give result intervals without holes.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Open-Ended Die Rolls</style> can produce <style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style> and by this can let players hope for <style=\"Link\"><link=\"luck\">Luck</link></style>; mirroring this, the pattern makes <style=\"Link\"><link=\"dice\">Dice</link></style> rolls have less <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>. When the work to produce and calculate the final value becomes non-trivial, the pattern can produce <style=\"Link\"><link=\"excise\">Excise</link></style>.",
+            "When applied to <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> and not to other <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"CurrentLink\">Open-Ended Die Rolls</style> can be seen as a <style=\"Link\"><link=\"privileged-abilities\">Privileged Ability</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"luck\">Luck</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>, <style=\"Link\"><link=\"dice\">Dice</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"critical-results\">Critical Results</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "exceptional-events",
+            "excise",
+            "luck",
+            "privileged-abilities"
+        ],
+        "modulates" : [
+            "attributes",
+            "dice",
+            "skills"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "critical-results"
+        ],
+        "conflicts" : [
+            "predictable-consequences"
+        ]
+    }
+}

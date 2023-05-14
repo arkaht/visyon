@@ -1,0 +1,65 @@
+{
+    "name" : "Varying Rule Sets",
+    "categories" : [
+        "Patterns",
+        "Rule Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games where the rules governing gameplay change over time from within a closed set of rules.",
+        "markups" : [
+            "<style=\"Definition\">Games where the rules governing gameplay change over time from within a closed set of rules.</style>",
+            "Some games have rule set that change during gameplay. These <style=\"CurrentLink\">Varying Rule Sets</style> can either be used to slowly increased the complexity of a game or create variety during gameplay.",
+            "<style=\"H3\">Examples</style>",
+            "The card game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fluxx\">Fluxx</link></style> have rules one its cards that changes actions and winning conditions for all players. The cards <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Collectible%20Card%20Games\">Collectible Card Games</link></style> and games like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style> do not have <style=\"CurrentLink\">Varying Rule Sets</style> since these cards (typically) only describe their own effects, and which cards are used are determined before game instances begins.",
+            "The use of <i>Sudden Death</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> can be seen as a use of <style=\"CurrentLink\">Varying Rule Sets</style> in that a different winning condition is introduced when the ordinary time for a game has been passed.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Varying Rule Sets</style> consist not so much on creating the rules that should vary as when rules should become active or stop being used to determine gameplay. <style=\"Link\"><link=\"randomness\">Randomness</link></style> is one approach, used for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fluxx\">Fluxx</link></style>. Another is to limit some rules to only applying in certain parts of a <style=\"Link\"><link=\"game-worlds\">Game World</link></style>, typically be making use of different <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, different <style=\"Link\"><link=\"levels\">Levels</link></style>, or when activated through <style=\"Link\"><link=\"switches\">Switches</link></style>. <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> is yet another method, which can be explained by <style=\"Link\"><link=\"character-development\">Character Development</link></style> and be used to give <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> to mitigate <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>. The <i>Sudden Death</i> rule for various <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> shows how <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> can be seen as a way to provide <style=\"CurrentLink\">Varying Rule Sets</style>.",
+            "<style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style> are one way to create <style=\"CurrentLink\">Varying Rule Sets</style> if the <style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style> are somehow turned on and off since they can be known at the beginning of a game. Games with <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style> also have <style=\"CurrentLink\">Varying Rule Sets</style> since the introduction of novel rules during gameplay guarantees that the rule set will vary during gameplay.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Many <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> consists of bigger and bigger confrontations as the game is played, and <style=\"CurrentLink\">Varying Rule Sets</style> can be used to ensure <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style> depending on <style=\"Link\"><link=\"character-development\">Character Development</link></style> or the unfolding of the game's narration.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Varying Rule Sets</style> can quite naturally give rise to <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>, but dealing with a changing rule set also makes for more <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>. However, with games that are intended to have <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"CurrentLink\">Varying Rule Sets</style> can instead have the effect of providing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> and thereby modulate the complexity.",
+            "As mentioned in relation to narrative aspects, <style=\"CurrentLink\">Varying Rule Sets</style> can make games have <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"character-development\">Character Development</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"optional-rules\">Optional Rules</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"switches\">Switches</link></style>, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "complex-gameplay",
+            "higher-level-closures-gameplay-progresses",
+            "smooth-learning-curves",
+            "varied-gameplay"
+        ],
+        "modulates" : [
+            "complex-gameplay",
+            "predetermined-story-structures"
+        ],
+        "instantiated_by" : [
+            "character-development",
+            "environmental-effects",
+            "evolving-rule-sets",
+            "new-abilities",
+            "levels",
+            "optional-rules",
+            "randomness",
+            "switches",
+            "tiebreakers"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

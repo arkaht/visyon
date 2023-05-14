@@ -1,0 +1,69 @@
+{
+    "name" : "Deterioration",
+    "categories" : [
+        "Game Element Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The degradation of game items due to active use.",
+        "markups" : [
+            "<style=\"Definition\">The degradation of game items due to active use.</style>",
+            "The use of tools and other equipment in the real world quickly or slowly wear them down. Games can include this <style=\"CurrentLink\">Deterioration</style> of items as ways of limiting their usefulness, requiring maintenance or replacements, and making the choice to use or not use the items a bit more interesting each time players have a chance to do so.",
+            "<style=\"H3\">Examples</style>",
+            "Items used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout:%20New%20Vegas\">Fallout: New Vegas</link></style> become less and less efficient and need to be repaired to continue functioning. Besides items used actively by characters this includes armor and apparel. Similarly, using any tool in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> wears it down and so does absorbing damage for armor. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mutant\">Mutant</link></style>, a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Game</link></style> also has rules to simulate how high-tech artifacts can be unreliable in its post-apocalyptic setting.",
+            "Damage to vehicles in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Grand%20Theft%20Auto%20series\">Grand Theft Auto series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> is not <style=\"CurrentLink\">Deterioration</style> per se as it always occurs as the effect of attacks or collisions but given that this is such a common occurrence in these games it can from the drivers perspective be the same.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gran%20Turismo%20series\">Gran Turismo</link></style> racing game series has tires wearing down at different speeds depending on how players drive. This wear and tear may also force players to enter pit stops to change tires during races.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Deterioration</style> into a game mainly concerns what <style=\"Link\"><link=\"game-items\">Game Items</link></style> can be affected, what causes the <style=\"CurrentLink\">Deterioration</style>, and how the <style=\"CurrentLink\">Deterioration</style> is manifests in the game. Although the cause is most often active use by the players' or <style=\"Link\"><link=\"agents\">Agents</link></style> using the <style=\"Link\"><link=\"game-items\">Game Items</link></style>, active use many not necessarily come from these, e.g. <style=\"Link\"><link=\"armor\">Armor</link></style> can suffer <style=\"CurrentLink\">Deterioration</style> due to absorbing attacks. The tire wear found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style> shows that <style=\"CurrentLink\">Deterioration</style> can also be seen as decreases in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style> rather than just decreases in the quality of <style=\"Link\"><link=\"game-items\">Game Items</link></style>.",
+            "While any type of <style=\"Link\"><link=\"equipment\">Equipment</link></style> can suffer from <style=\"CurrentLink\">Deterioration</style>, common targets for it include <style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, and <style=\"Link\"><link=\"weapons\">Weapons</link></style>. In the case of <style=\"Link\"><link=\"armor\">Armor</link></style> the primary reason for <style=\"CurrentLink\">Deterioration</style> is <style=\"Link\"><link=\"damage\">Damage</link></style> but <style=\"Link\"><link=\"damage\">Damage</link></style> can also motivate <style=\"CurrentLink\">Deterioration</style> of <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> due to collisions. In fact, <style=\"Link\"><link=\"damage\">Damage</link></style> can be used to model <style=\"CurrentLink\">Deterioration</style> by simply giving any piece of <style=\"Link\"><link=\"equipment\">Equipment</link></style> some damage each time it is used.",
+            "If <style=\"CurrentLink\">Deterioration</style> should have gradual or immediate effects are the two main options in how it should affect gameplay. The former is mainly done through linking <style=\"CurrentLink\">Deterioration</style> to <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> (this is for example done in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> by lessening the <style=\"Link\"><link=\"damage\">Damage</link></style> which <style=\"Link\"><link=\"weapons\">Weapons</link></style> deal as they degrade) or to <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> (the loss of <style=\"Link\"><link=\"tools\">Tools</link></style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> is an example of this). An option related to <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> is if the <style=\"Link\"><link=\"game-items\">Game Items</link></style> should be destroyed when they no longer provide any <style=\"Link\"><link=\"abilities\">Abilities</link></style> or they should remain but not be useful (the former makes <style=\"CurrentLink\">Deterioration</style> make the <style=\"Link\"><link=\"game-items\">Game Items</link></style> into <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>). ",
+            "Many games that include <style=\"CurrentLink\">Deterioration</style> also include options to counter it. This may be through players' own <style=\"Link\"><link=\"crafting\">Crafting</link></style> ( e.g. merging <style=\"Link\"><link=\"game-items\">Game Items</link></style> together in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style>), consulting the services of <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> (also found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style>), or consulting specific <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style> (e.g. pit stops in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gran%20Turismo%20series\">Gran Turismo series</link></style>). Being able to create new <style=\"Link\"><link=\"game-items\">Game Items</link></style> to replace the old ones is another solution (found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>). ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "When possible, countering <style=\"CurrentLink\">Deterioration</style> is often done in <style=\"Link\"><link=\"inventories\">Inventories</link></style> (possible through <style=\"Link\"><link=\"crafting\">Crafting</link></style>) or through services provides by <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Deterioration</style> is a way of modulating various types of <style=\"Link\"><link=\"equipment\">Equipment</link></style> (or in some cases <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>) so that those using them can suffer <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> or <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> if they are used too much.  It may make <style=\"Link\"><link=\"abilities\">Abilities</link></style> into <style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style> and <style=\"Link\"><link=\"game-items\">Game Items</link></style> into <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>. For these reasons, having <style=\"CurrentLink\">Deterioration</style> can force players to consider the <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between the <style=\"CurrentLink\">Deterioration</style> caused by using the <style=\"Link\"><link=\"equipment\">Equipment</link></style> and the (potential) gains received from doing so. This can also provide <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> since the usefulness of powerful <style=\"Link\"><link=\"equipment\">Equipment</link></style> becomes limited.",
+            "<style=\"CurrentLink\">Deterioration</style> can be seen as a <style=\"Link\"><link=\"vulnerabilities\">Vulnerability</link></style>. When <style=\"CurrentLink\">Deterioration</style> can be countered, holding <style=\"Link\"><link=\"equipment\">Equipment</link></style> at a certain level of usefulness requires <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maintenance\">Maintenance</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maintenance\">Maintenance</link></style>, <style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>, <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"abilities\">Abilities</link></style>, <style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>, <style=\"Link\"><link=\"equipment\">Equipment</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"crafting\">Crafting</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"H3\">Potentially Conflicting With</style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "ability-losses",
+            "balancing-effects",
+            "decreased-abilities",
+            "destructible-objects",
+            "maintenance",
+            "temporary-abilities",
+            "trade-offs",
+            "vulnerabilities"
+        ],
+        "modulates" : [
+            "abilities",
+            "armor",
+            "attributes",
+            "equipment",
+            "tools",
+            "weapons"
+        ],
+        "instantiated_by" : [
+            "damage"
+        ],
+        "modulated_by" : [
+            "crafting",
+            "inventories",
+            "self-service-kiosks"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

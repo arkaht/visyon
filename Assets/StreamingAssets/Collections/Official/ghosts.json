@@ -1,0 +1,67 @@
+{
+    "name" : "Ghosts",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "The use of actions from earlier game sessions in a game session to let players have challenges against other people's earlier attempts, including their own.",
+        "markups" : [
+            "<style=\"Definition\">The use of actions from earlier game sessions in a game session to let players have challenges against other people's earlier attempts, including their own.</style>",
+            "One of the more exciting types of challenges one can have in games is that which human opponents can provide. <style=\"CurrentLink\">Ghosts</style> is a game mechanic that allows players to get such challenges without requiring that other players are taking part in the game instances. Instead, the recordings of players' actions - including the current player - in earlier game sessions can be used as the basis for the actions of an entity in the current game session. These <style=\"CurrentLink\">Ghosts</style> are naturally only feasible in some types of games, more specifically those where players' actions cannot directly interfere with each other. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gran%20Turismo%20series\">Gran Turismo series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> make use of <style=\"CurrentLink\">Ghosts</style> to let players compare their current play session with earlier ones, or to practice against the optimal path.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cursor*10\">Cursor*10</link></style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzle%20Games\">Puzzle Game</link></style> where players have ten time-limited lives, and later lives need to play \"together\" with the actions of the previous ones. In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ESP%20Game\">ESP Game</link></style>, players cooperate with unknown other players in describing images under pressure of time. However, the restricted communication abilities available and the task at hand make it possible for the game to use <style=\"CurrentLink\">Ghosts</style> of other players without them realizing this.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Ghosts</style> are mainly used in <style=\"Link\"><link=\"races\">Races</link></style> or other games where the player has a limited overview of the game world. Here the <style=\"CurrentLink\">Ghosts</style> are immaterial entities which provide variations of the normal gameplay in the form of <style=\"Link\"><link=\"speedruns\">Speedruns</link></style> with diegetically embodied <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>. However, <style=\"CurrentLink\">Ghosts</style> can also be used where players' cannot directly influence others players' performance. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ESP%20Game\">ESP Game</link></style> does this through limiting their possibilities of communicating and having gameplay only consisting of providing descriptive words for images. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cursor*10\">Cursor*10</link></style> does this by having previous \"cursors\" actions be <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>.",
+            "These examples show one design choice available when designing <style=\"CurrentLink\">Ghosts</style>: are the actions of <style=\"CurrentLink\">Ghosts</style> and players unable to affect each other or are the actions of <style=\"CurrentLink\">Ghosts</style> instead <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>.",
+            "Another design choice regarding the pattern is if players should be allowed to select which game sessions are saved and used as <style=\"CurrentLink\">Ghosts</style> or if this is determined by the game mechanically, i.e. by <style=\"Link\"><link=\"scores\">Score</link></style>. Further, the use of <style=\"CurrentLink\">Ghosts</style> can be chosen to only be possible within the same save file or physical console, or be shared to others as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style> typically do the first, as does <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cursor*10\">Cursor*10</link></style> while the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ESP%20Game\">ESP Game</link></style> is an example of the latter).",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Ghosts</style> is likely to break <style=\"Link\"><link=\"diegetic-consistency\">Diegetic</link></style> or <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> since not many game settings have immaterial agents or agents whose actions are impossible to affect.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Ghosts</style> are <style=\"Link\"><link=\"replays\">Replays</link></style> of the actions of players in earlier game sessions. They are often shown as <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> but may be considered <style=\"Link\"><link=\"avatars\">Avatars</link></style> as well. Even if they have no possibility to react to players' actions, they can be seen as a very limited form of <style=\"Link\"><link=\"ai-players\">AI Players</link></style> since it is the game system that reenacts the recorded actions. <style=\"CurrentLink\">Ghosts</style> do modulate <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> by introducing more game elements and series of actions into them.",
+            "Some types of <style=\"CurrentLink\">Ghosts</style> can be seen as a form of <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style> that contains whole game sessions instead of only the <style=\"Link\"><link=\"scores\">Score</link></style>. This typically introduces <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> in games, which in turn often creates <style=\"Link\"><link=\"races\">Races</link></style> and <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>. As such, <style=\"CurrentLink\">Ghosts</style> can be used to make <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> into a form of mixture of <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style> and <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> where whole play sessions are played before comparing results (alternatively, this can be seen as a form of <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>). These types of games naturally have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> although only one player is likely to be competing.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style>, <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"high-score-lists\">High Score Lists</link></style>, <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"replays\">Replays</link></style>, <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "ai-players",
+            "asynchronous-gameplay",
+            "avatars",
+            "competition",
+            "geospatial-game-widgets",
+            "high-score-lists",
+            "massively-single-player-online-games",
+            "multiplayer-games",
+            "races",
+            "replays",
+            "speedruns",
+            "time-limits"
+        ],
+        "modulates" : [
+            "game-worlds"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "ultra-powerful-events"
+        ],
+        "conflicts" : [
+            "diegetic-consistency",
+            "thematic-consistency"
+        ]
+    }
+}

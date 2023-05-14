@@ -1,0 +1,73 @@
+{
+    "name" : "Clickability",
+    "categories" : [
+        "Patterns",
+        "Aesthetic Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "Noticeable feedback loops based on clicking as input which are meant to be enjoyable in themselves.",
+        "markups" : [
+            "<style=\"Definition\">Noticeable feedback loops based on clicking as input which are meant to be enjoyable in themselves.</style>",
+            "Practically all computer or video games are played by clicking on things to one extent or another. This clicking can be enjoyable in itself when it is part of small and strong feedback loops, and even more so when it  can be done so repeatedly to create some form of rhythm in gameplay actions. Game design components that intentionally try to provide this are trying to give parts of the game <style=\"CurrentLink\">Clickability</style>. ",
+            "The concept of <style=\"CurrentLink\">Clickability</style> was first described by Aki Järvinen, and his original definition for <style=\"CurrentLink\">Clickability</style> was \"<i>the routine yet enjoyable behavior of executing a set of game actions, with the mouse, and intuitively responding to the UI feedback, during a single social (Facebook) game session.</i>\"",
+            "<style=\"H3\">Examples</style>",
+            "Social Media games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CityVille\">CityVille</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zombie%20Lane\">Zombie Lane</link></style> have clicking as both the basic way to interact parts of the game environments such as buildings, fields, bandits, and zombies and the way to more quickly collect the rewards given for completing actions.",
+            "Many games with first-person views have switches, controls, and other parts of the environment that can be activated by clicking on them. For example, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Portal%20series\">Portal series</link></style> have pedestals with red buttons that invite players to press them to activate various effects in the game environment. Doors in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> are other examples of game environments that have high <style=\"CurrentLink\">Clickability</style>.",
+            "<style=\"CurrentLink\">Clickability</style> does not always have to depend on clicking on things in an game environment. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Fighting%20Games\">Fighting Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mortal%20Kombat%20series\">Mortal Kombat</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20series\">Tekken series</link></style> can provide high degrees of <style=\"CurrentLink\">Clickability</style> toward pressing the buttons on the physical controls used to play the games.",
+            "Selecting individual units is a basic interface action in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Real-Time%20Strategy%20Games\">Real-Time Strategy Games</link></style>, but the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Starcraft%20series\">Starcraft</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warcraft%20series\">Warcraft series</link></style> provide <style=\"CurrentLink\">Clickability</style> for these actions by having the units give humorous responses when clicked repeatedly.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Clickability</style> exists at some level as soon as there are clickable things in the game environment that have a noticeable effects, and even when there are no gameplay effect inherent in an action <style=\"CurrentLink\">Clickability</style> can be provided through <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> similar to the responses <style=\"Link\"><link=\"units\">Units</link></style> provide in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warcraft%20series\">Warcraft series</link></style>. <style=\"Link\"><link=\"game-items\">Game Items</link></style> that have high levels of <style=\"CurrentLink\">Clickability</style> as soon as players are aware of them include <style=\"Link\"><link=\"switches\">Switches</link></style>, and given that they exist in groups, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, and <style=\"Link\"><link=\"reward-widgets\">Reward Widgets</link></style>.",
+            "<style=\"CurrentLink\">Clickability</style> does not have to depend on having objects in the game environment; <style=\"Link\"><link=\"combos\">Combos</link></style> created by using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style> in <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, as found for example in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mortal%20Kombat%20series\">Mortal Kombat</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tekken%20series\">Tekken series</link></style>, creates <style=\"CurrentLink\">Clickability</style> based on the feedback loops of pressing physical buttons and movements performed by the players' <style=\"Link\"><link=\"avatars\">Avatars</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "See next section.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Unless the <style=\"CurrentLink\">Clickability</style> is intended to be achieved in relation to physical buttons on the game interface, a <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> needs to do the actual clicking in the game environment. Any <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> can work, but <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> are probably the most suitable since these can allow clicking on any part of the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or game interfaces.",
+            "The <style=\"CurrentLink\">Clickability</style> of <style=\"Link\"><link=\"game-items\">Game Items</link></style> or parts of game environments can easily be strengthened by using <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> but this most probably breaks <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Clickability</style> not only motivates players to click on objects while gaming, it can let them discover and try to maintain <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style> and thereby achieve <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sensory-Motoric%20Engrossment\">Sensory-Motoric Engrossment</link></style>. Although not enough to make <style=\"Link\"><link=\"pottering\">Pottering</link></style> a viable activity in games on its own, providing <style=\"CurrentLink\">Clickability</style> can be one way of supporting the activity since it works against gamers feeling that they are <style=\"Link\"><link=\"grinding\">Grinding</link></style>. Having <style=\"CurrentLink\">Clickability</style> on the important parts of game environments can make <i>exploratory actions</i> easy or trivial to achieve, and thereby remove one learning requirement that may otherwise be need to achieve <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>.",
+            "When <style=\"CurrentLink\">Clickability</style> is achieved through encouraging gamers to use their <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> this changes how they relate to these. In contrast, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Button%20Bashing\">Button Bashing</link></style> can emerge as an effect of providing <style=\"CurrentLink\">Clickability</style>  by creating strong feedback loops between presses on physical buttons and events in the game.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Button%20Bashing\">Button Bashing</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sensory-Motoric%20Engrossment\">Sensory-Motoric Engrossment</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style>, <style=\"Link\"><link=\"pottering\">Pottering</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"switches\">Switches</link></style>, <style=\"Link\"><link=\"reward-widgets\">Reward Widgets</link></style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style> created by using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style> in <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"grinding\">Grinding</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "button-bashing",
+            "rhythm-based-actions",
+            "sensory-motoric-engrossment"
+        ],
+        "modulates" : [
+            "focus-loci",
+            "game-items",
+            "gameplay-mastery",
+            "god-fingers",
+            "pottering"
+        ],
+        "instantiated_by" : [
+            "diegetically-outstanding-features",
+            "extra-game-consequences",
+            "pick-ups",
+            "switches",
+            "reward-widgets",
+            "combos"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "grinding"
+        ]
+    }
+}

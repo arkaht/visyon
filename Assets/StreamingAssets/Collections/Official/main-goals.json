@@ -1,0 +1,67 @@
+{
+    "name" : "Main Goals",
+    "categories" : [
+        "Patterns",
+        "Goal Patterns"
+    ],
+    "texts" : {
+        "definition" : "Goals that provide players with information and motivation about what challenges should be attempted in a game.",
+        "markups" : [
+            "<style=\"Definition\">Goals that provide players with information and motivation about what challenges should be attempted in a game.</style>",
+            "To avoid being perceived as toys or game systems, games need to provide goals and challenges to players to motivated them in what actions they perform when playing. Such goals are <style=\"CurrentLink\">Main Goals</style> when they describe overarching activities or game states which lead to winning the games.",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"CurrentLink\">Main Goal</style> of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> is to checkmate the opponent's king while in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> it is to surround the greatest number of empty spaces with one's stones. In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style>, the <style=\"CurrentLink\">Main Goal</style> is connected to the narrative of defeating the plans of Mario's nemesis Bowser. Although typically played as a game without a <style=\"CurrentLink\">Main Goal</style>, defeating the <i>ender dragon</i> in the game mode of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> is seen as <style=\"CurrentLink\">Main Goal</style> as it provides access to the end credits of the game. While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> as the <style=\"CurrentLink\">Main Goal</style> of dealing with a damaged water purifier as completing this leads to ending slideshow, the addition of the <i>Broken Steel</i> DLC allows for gameplay to continue after the end of the main game.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Main Goals</style> are goals that give players motivation and information about what they should do in a game, and often how they may complete it. Due to this fact, <style=\"CurrentLink\">Main Goals</style> are <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style> although smaller or more exact details concerning them may be determined later (via <style=\"Link\"><link=\"randomness\">Randomness</link></style>) or may changed due to being <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dynamic%20Goal%20Characteristic\">Dynamic Goal Characteristic</link></style>. While from a design perspective a goal is typically created as a <style=\"CurrentLink\">Main Goal</style> and then by necessity needs to be predefined, from a structural perspective being a <style=\"CurrentLink\">Main Goal</style> is a characteristic of some <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style>. ",
+            "A game can have one or many <style=\"CurrentLink\">Main Goals</style> and a basic design consideration for a game is if should have zero, one, or many <style=\"CurrentLink\">Main Goals</style> - and if it has many <style=\"CurrentLink\">Main Goals</style> if all or just some (or one) of these need to be completed to complete the game. Games without <style=\"CurrentLink\">Main Goals</style> that allow the completion of a game are in most cases <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>, but these games still typically have <style=\"CurrentLink\">Main Goals</style> to indicate what players should strive for while playing, e.g. to <style=\"Link\"><link=\"survive\">Survive</link></style> for as long as possible. <style=\"CurrentLink\">Main Goals</style> often make use of <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, where the <style=\"CurrentLink\">Main Goals</style> can either be seen as the top goal or the hierarchy as a whole. Individual nodes in such <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> can consist of <style=\"Link\"><link=\"mandatory-goals\">Mandatory Goals</link></style> or <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style> or a mixture of both (to complicate things, <style=\"Link\"><link=\"mandatory-goals\">Mandatory Goals</link></style> may also be defined as completing one or a few goals from a larger pool of goals). In games with <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"CurrentLink\">Main Goals</style> are typically created through having <style=\"Link\"><link=\"main-quests\">Main Quests</link></style> since this strongly links the <style=\"CurrentLink\">Main Goals</style> with the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>.",
+            "While <style=\"CurrentLink\">Main Goals</style> often make use of <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style> and <style=\"Link\"><link=\"tournaments\">Tournaments</link></style> are <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> that make use of <style=\"CurrentLink\">Main Goals</style>. This since each game or game instance in <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style> and <style=\"Link\"><link=\"tournaments\">Tournaments</link></style> have clear <style=\"CurrentLink\">Main Goals</style> so there outcomes can be used in determining the outcome in general for <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style> and <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>. In this sense <style=\"CurrentLink\">Main Goals</style> are functionally more necessary in games which are part of other games than those which are played on their own.",
+            "<style=\"CurrentLink\">Main Goals</style> are typically natural ending points for gameplay since the other players or the game has been \"beat\". This is not always the case, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> allow gameplay to continue after the <style=\"CurrentLink\">Main Goals</style> of these games have been completed. These games have large open <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> which invites gameplay beyond the <style=\"CurrentLink\">Main Goals</style> and it may thereby seem wasteful not allowing players the possibility of continuing playing if they wish (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> for example has many independent <style=\"Link\"><link=\"quests\">Quests</link></style> that may be wished to be explored after the <style=\"CurrentLink\">Main Goal</style> has been achieved). <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> takes this one step further with <style=\"Link\"><link=\"endgame-quests\">Endgame Quests</link></style> which are designed to be played after reaching the maximum <style=\"Link\"><link=\"character-levels\">Character Levels</link></style> with a <style=\"Link\"><link=\"characters\">Character</link></style>; the presence of these can be used to argue that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> does not actually have a <style=\"CurrentLink\">Main Goal</style> or that it has one in name only.",
+            "By definition, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> cannot have <style=\"CurrentLink\">Main Goals</style> that allow the completion of the game. However, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> typically do have <style=\"CurrentLink\">Main Goals</style> that set up what players should strive for and how well players have <i>succeeded</i> when comparing different play instances. A common way of providing this feature for these types of <style=\"CurrentLink\">Main Goals</style> is to connect it to <style=\"Link\"><link=\"scores\">Scores</link></style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> and <style=\"CurrentLink\">Main Goals</style> represent two different approaches to motivating players to want to play a game: experiencing a narrative and being motivated to perform gameplay actions. Because of this, they can be, and often are, designed to support each other with the intension of providing a combined motivation that is stronger that the individual parts and that isn't as affected by players' preferences regarding what motivated them more of the two approaches. One way of combining the two are through <style=\"Link\"><link=\"main-quests\">Main Quests</link></style>. ",
+            "Games with <style=\"CurrentLink\">Main Goals</style> that make use of <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> often present many goals as <style=\"CurrentLink\">Main Goals</style> for narration reasons (e.g., first the rampaging of evil forces needs to be contained, then the source of the evil needs to be identified, and finally the evil needs to be vanquished) and players may only become aware of <style=\"CurrentLink\">Main Goals</style> as the narration progresses to align with the diegetic information <style=\"Link\"><link=\"player-characters\">Player Characters</link></style> gain.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Main Goals</style> are <style=\"Link\"><link=\"mandatory-goals\">Mandatory Goals</link></style> by definition although implicit <i>Win the game</i> or <i>End the game</i> goals may need to be assumed for games allowing many ways of winning or ending the game.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"mandatory-goals\">Mandatory Goals</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>",
+            "<style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> in games with <style=\"Link\"><link=\"polyathlons\">Polyathlons</link></style> or <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"main-quests\">Main Quests</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dynamic%20Goal%20Characteristic\">Dynamic Goal Characteristic</link></style>, <style=\"Link\"><link=\"endgame-quests\">Endgame Quests</link></style>, <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "mandatory-goals"
+        ],
+        "modulates" : [
+            "goal-hierarchies",
+            "narration-structures",
+            "predefined-goals",
+            "unwinnable-games",
+            "goal-hierarchies"
+        ],
+        "instantiated_by" : [
+            "main-quests"
+        ],
+        "modulated_by" : [
+            "dynamic-goal-characteristic",
+            "endgame-quests",
+            "goal-hierarchies",
+            "narration-structures",
+            "scores",
+            "supporting-goals"
+        ],
+        "conflicts" : [
+            "unwinnable-games"
+        ]
+    }
+}

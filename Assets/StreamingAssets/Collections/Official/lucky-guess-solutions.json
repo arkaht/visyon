@@ -1,0 +1,57 @@
+{
+    "name" : "Lucky Guess Solutions",
+    "categories" : [
+        "Dynamic Patterns",
+        "Subjective Patterns",
+        "Patterns",
+        "Randomness Patterns"
+    ],
+    "texts" : {
+        "definition" : "Cases where players can by luck find correct solutions for problems.",
+        "markups" : [
+            "<style=\"Definition\">Cases where players can by luck find correct solutions for problems.</style>",
+            "Players need to perform actions in all but the rarest of games, and in many cases may have many different actions to choose from. <style=\"CurrentLink\">Lucky Guess Solutions</style> can occur in the case of puzzles or other situation where picking one action over others is vital and, most often, have instant good consequences. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style> is more or less built upon the idea of <style=\"CurrentLink\">Lucky Guess Solutions</style>. Similarly, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cluedo\">Cluedo</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mastermind\">Mastermind</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ricochet%20Robots\">Ricochet Robots</link></style> are examples <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> where <style=\"CurrentLink\">Lucky Guess Solutions</style> can give players victories. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bejeweled\">Bejeweled</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minesweeper\">Minesweeper</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sokoban\">Sokoban</link></style> are all computer-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzle%20Games\">Puzzle Games</link></style> that allow for <style=\"CurrentLink\">Lucky Guess Solutions</style>. Similarly, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Adventure%20Games\">Adventure Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Dig\">The Dig</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/King's%20Quest%20series\">King's Quest series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Myst%20series\">Myst series</link></style> allow for <style=\"CurrentLink\">Lucky Guess Solutions</style>. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "While <style=\"CurrentLink\">Lucky Guess Solutions</style> can be created by how <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> or <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style> is designed, the use of <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style> guarantees its presence. <style=\"Link\"><link=\"quizzes\">Quizzes</link></style> is a specific type of challenges that often can allow <style=\"CurrentLink\">Lucky Guess Solutions</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The most obvious effect of having <style=\"CurrentLink\">Lucky Guess Solutions</style> in games is that it provide a possibility for players to have <style=\"Link\"><link=\"luck\">Luck</link></style>. It may also give players a feeling of <style=\"Link\"><link=\"player-agency\">Player Agency</link></style> but this is a volatile design since players not feeling that the guess was an extension of their intentionality will have an opposite reaction.",
+            "Players trying to make use of <style=\"CurrentLink\">Lucky Guess Solutions</style> causes <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> and <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style> in those game instances.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"luck\">Luck</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"player-agency\">Player Agency</link></style>, <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"quizzes\">Quizzes</link></style>, <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"player-agency\">Player Agency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "luck",
+            "performance-uncertainty",
+            "player-agency",
+            "player-unpredictability"
+        ],
+        "modulates" : [
+            "puzzle-solving",
+            "solution-uncertainty"
+        ],
+        "instantiated_by" : [
+            "quizzes",
+            "trial-error-solutions"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "player-agency"
+        ]
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "name" : "Invulnerabilities",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The ability to be immune to attacks or other dangers.",
+        "markups" : [
+            "<style=\"Definition\">The ability to be immune to attacks or other dangers.</style>",
+            "Many events and effects can be dangerous or lethal in games. However, it is quite common that some entities, either those under players' control or those working with or against them, have <style=\"CurrentLink\">Invulnerabilities</style> to some of these and thereby create imbalances in how entities can behave in the game environments. In rare circumstances, some entities may be completely immune to the dangers.",
+            "<style=\"H3\">Examples</style>",
+            "Undead are entities in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> that due to their nature as immune to things living are not. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> they are immune to diseases and poison. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> templates for creating undead generalizes this to the advantage <i>Immunity to Metabolic Hazards</i> and includes ''Doesn't breathe'' as well. Undead in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oblivion\">Oblivion</link></style> cannot be killing by poison or drowning, and ethereal ones cannot be damaged by normal weapons.",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ghost%20Stories\">Ghost Stories</link></style>, the green player never has to roll the curse dice.",
+            "The <i>übercharge</i> ability of medics in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style> can be used to make team mates invulnerable for short periods of times during matches.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Invulnerabilities</style> consists of deciding what type <style=\"Link\"><link=\"damage\">Damage</link></style> is protected from, who or what is protected, and if the immunity provided is a permanent feature or a temporary one; if they are temporary then the causes for the <style=\"CurrentLink\">Invulnerabilities</style> to appear and disappear also need to be decided upon <style=\"CurrentLink\">Invulnerabilities</style> are by necessity <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> since if everyone had the same <style=\"CurrentLink\">Invulnerabilities</style> the dangers protected against would stop having gameplay meaning. A primary distinction when designing <style=\"CurrentLink\">Invulnerabilities</style> is if they should be <i>complete</i> or <i>partial</i> (note that this is a difference between <style=\"CurrentLink\">Invulnerabilities</style> and <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> since the latter is always assumed to relate to specific, i.e. partial, aspects of dangers). Complete <style=\"CurrentLink\">Invulnerabilities</style> can be used to make <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style> impossible.",
+            "Like <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>, <style=\"CurrentLink\">Invulnerabilities</style> can be given to players' <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style> or to their <style=\"Link\"><link=\"enemies\">Enemies</link></style>. They are more common to be given to <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style> than ordinary <style=\"Link\"><link=\"enemies\">Enemies</link></style>, especially complete <style=\"CurrentLink\">Invulnerabilities</style>. Conceivably, they could also be given to <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style> but these are typically naturally invulnerable to everything except what has specifically been designated as being able to destroy them. ",
+            "One reason to using <style=\"CurrentLink\">Invulnerabilities</style> as <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> when players are disadvantaged. One reoccurring case for this is the <style=\"Link\"><link=\"spawning\">Spawning</link></style> of players' <style=\"Link\"><link=\"avatars\">Avatars</link></style> since they are in this case most likely are unprepared, unsure of where they are, and what threats exist there. To temporarily balance situations, players either can simply be given <style=\"CurrentLink\">Invulnerabilities</style> as <style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style> or they can be placed in locations that provide these as <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> (i.e. <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>). ",
+            "Unless inherent in the construction of game entities to create <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"CurrentLink\">Invulnerabilities</style> are often given <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> so they do not upset <style=\"Link\"><link=\"player-balance\">Player</link></style> or <style=\"Link\"><link=\"team-balance\">Team Balance</link></style> for entire game instances. ",
+            "Partial <style=\"CurrentLink\">Invulnerabilities</style> can co-exist with <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> if they deal with different types of dangers, but complete <style=\"CurrentLink\">Invulnerabilities</style> do not work with <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> except when one specific <style=\"Link\"><link=\"vulnerabilities\">Vulnerability</link></style> provides an <style=\"Link\"><link=\"achilles-heels\">Achilles' Heel</link></style> to otherwise invulnerable opponents.",
+            "A typical use of <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style> is to provide <style=\"CurrentLink\">Invulnerabilities</style>, e.g. entering <i>god mode</i> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style> may be given complete <style=\"CurrentLink\">Invulnerabilities</style> to ensure that they can play their assigned parts in <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>. However, this type of <style=\"CurrentLink\">Invulnerabilities</style>, and any other where the <style=\"CurrentLink\">Invulnerabilities</style> are not explained within the context of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alternative%20Realities\">Alternative Reality</link></style> of a game, will break <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Invulnerabilities</style> make <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style> immune to some or all types of <style=\"Link\"><link=\"damage\">Damage</link></style> in games. While this modulates <style=\"Link\"><link=\"damage\">Damage</link></style> (and as a consequences also <style=\"Link\"><link=\"health\">Health</link></style>) it can also work against that pattern when entities are completely protected from all types of <style=\"Link\"><link=\"damage\">Damage</link></style> and this can in turn lead to conflicts with patterns such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leaps%20of%20Faith\">Leaps of Faith</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, and <style=\"Link\"><link=\"tension\">Tension</link></style>. When possessed by <style=\"Link\"><link=\"enemies\">Enemies</link></style>, they are likely to create more <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>. They can also make it more difficult or impossible to engage in <style=\"Link\"><link=\"player-killing\">Player Killing</link></style> or to, more generally, succeed with <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals. Regardless, <style=\"CurrentLink\">Invulnerabilities</style> are likely to change how <style=\"Link\"><link=\"combat\">Combat</link></style> occurs in games if it can occur at all, and can also modulate <style=\"Link\"><link=\"movement\">Movement</link></style> if collisions, falls, or <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> can cause <style=\"Link\"><link=\"damage\">Damage</link></style>.",
+            "Encountering unknown <style=\"CurrentLink\">Invulnerabilities</style> is likely to be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> to players and lead to <style=\"Link\"><link=\"experimenting\">Experimenting</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, and <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> to figure out how to counter these (or exploit these in the rare cases when one is surprised by one's own <style=\"CurrentLink\">Invulnerabilities</style>). If unbalanced <style=\"CurrentLink\">Invulnerabilities</style> are allowed to exist permanently or for long in games, this most likely leads to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Repeated%20Domination\">Repeated Domination</link></style> and upset <style=\"Link\"><link=\"player-balance\">Player</link></style> and <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>. If it is known that <style=\"CurrentLink\">Invulnerabilities</style> exist in games, cautious players may give themselves <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals related to knowing what <style=\"CurrentLink\">Invulnerabilities</style> their <style=\"Link\"><link=\"enemies\">Enemies</link></style> have before confronting them.",
+            "The possibility of having <style=\"CurrentLink\">Invulnerabilities</style> to <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> that block access to gameplay areas create <style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style> in games.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"experimenting\">Experimenting</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Repeated%20Domination\">Repeated Domination</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"enemies\">Enemies</link></style></style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style></style>",
+            "<style=\"Link\"><link=\"conditional-passageways\">Conditional Passageways</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPCs</link></style></style>",
+            "<style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style></style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style></style>",
+            "<style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leaps%20of%20Faith\">Leaps of Faith</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"player-killing\">Player Killing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "experimenting",
+            "privileged-abilities",
+            "puzzle-solving",
+            "repeated-domination",
+            "surprises",
+            "tactical-planning",
+            "challenging-gameplay",
+            "gain-information",
+            "conditional-passageways",
+            "safe-havens",
+            "predetermined-story-structures",
+            "balancing-effects",
+            "achilles-heels"
+        ],
+        "modulates" : [
+            "avatars",
+            "boss-monsters",
+            "characters",
+            "combat",
+            "damage",
+            "destructible-objects",
+            "enemies",
+            "health",
+            "movement",
+            "spawning",
+            "units"
+        ],
+        "instantiated_by" : [
+            "sanctioned-cheating"
+        ],
+        "modulated_by" : [
+            "time-limits"
+        ],
+        "conflicts" : [
+            "damage",
+            "early-elimination",
+            "eliminate",
+            "leaps-faith",
+            "player-balance",
+            "player-killing",
+            "risk-reward",
+            "team-balance",
+            "tension",
+            "thematic-consistency",
+            "vulnerabilities"
+        ]
+    }
+}

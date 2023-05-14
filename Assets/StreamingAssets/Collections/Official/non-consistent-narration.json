@@ -1,0 +1,66 @@
+{
+    "name" : "Non-Consistent Narration",
+    "categories" : [
+        "Patterns",
+        "Narration Patterns",
+        "Negative Patterns"
+    ],
+    "texts" : {
+        "definition" : "Story-telling in a game which is not internally consistent.",
+        "markups" : [
+            "<style=\"Definition\">Story-telling in a game which is not internally consistent.</style>",
+            "Many games do provide narration of events as gameplay progresses. However, in some games - especially massively multiplayer online games - parts of the narration is used several times either to different players or to the same players. This causes the games to have <style=\"CurrentLink\">Non-Consistent Narration</style> in that events that have taken place in the game world are ignore by the games' own narrations.",
+            "Note: <i>Story structures in games can be inconsistent in many other ways that than through having parts reused several times (e.g. <style=\"Link\"><link=\"contextualization\">Contextualization</link></style> can introduce temporal inconsistencies and <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style> introduced features that are inconsistent to the theme). However, this patterns is limited to the re-use type of inconsistency.</i>",
+            "<style=\"H3\">Examples</style>",
+            "The quests in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> often create <style=\"CurrentLink\">Non-Consistent Narration</style> since they are given to any players that meet certain progress requirements, and this may include giving the same quests several times to players. Examples of games where this happens include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Everquest\">Everquest</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "However, <style=\"CurrentLink\">Non-Consistent Narration</style> can be used positively in other types of games. For example, <style=\"CurrentLink\">Non-Consistent Narration</style> can be a way to modify <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, typically by re-using story element such as <style=\"Link\"><link=\"quests\">Quests</link></style>, <style=\"Link\"><link=\"adventures\">Adventures</link></style> or <style=\"Link\"><link=\"campaigns\">Campaigns</link></style>. It may also occur in improvised <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> without being seen as a problem. The conscious use of <style=\"CurrentLink\">Non-Consistent Narration</style> requires choosing what parts of the <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> should be re-used and how to handle that players can notice the inconsistency.",
+            "<style=\"Link\"><link=\"instances\">Instances</link></style> are often used with <style=\"CurrentLink\">Non-Consistent Narration</style> since these can provide secluded parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> which can both isolate the <style=\"CurrentLink\">Non-Consistent Narration</style> so it is only presented to those taking part in a specific <style=\"Link\"><link=\"quests\">Quest</link></style>, <style=\"Link\"><link=\"adventures\">Adventure</link></style> etc., and create gameplay challenges specific for those players. <style=\"Link\"><link=\"phasing\">Phasing</link></style> has similar features as <style=\"Link\"><link=\"instances\">Instances</link></style> but per its definition creates <style=\"CurrentLink\">Non-Consistent Narration</style> although this does not necessarily need to be noticed by players.",
+            "While <style=\"CurrentLink\">Non-Consistent Narration</style> most often occurs in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style>, they can occur in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> when players from different groups join a common group after separately playing the same <style=\"Link\"><link=\"adventures\">Adventures</link></style> or <style=\"Link\"><link=\"campaigns\">Campaigns</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Non-Consistent Narration</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Narration%20Patterns\">Narration Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Repeated use of the same story structures causes <style=\"CurrentLink\">Non-Consistent Narration</style> to limit players from having an <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>. This since their part of a game's narration is reduced (although players may reap many other advantages related to gameplay functionality or social status from being involved in these story structures).",
+            "<style=\"CurrentLink\">Non-Consistent Narration</style> break both <style=\"Link\"><link=\"temporal-consistency\">Temporal</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. As soon as part of the <style=\"CurrentLink\">Non-Consistent Narration</style> is done through <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>, the pattern is very likely to make <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thematically%20Consistent%20Dialogues\">Thematically Consistent Dialogues</link></style> impossible in that those participating in the <style=\"Link\"><link=\"dialogues\">Dialogues</link></style> are ignoring that they have already said these things before.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "N/A",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"adventures\">Adventures</link></style>, <style=\"Link\"><link=\"campaigns\">Campaigns</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"instances\">Instances</link></style>, <style=\"Link\"><link=\"phasing\">Phasing</link></style>",
+            "<style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thematically%20Consistent%20Dialogues\">Thematically Consistent Dialogues</link></style>, <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+        ],
+        "modulates" : [
+            "adventures",
+            "campaigns",
+            "narration-structures",
+            "predetermined-story-structures",
+            "quests"
+        ],
+        "instantiated_by" : [
+            "instances",
+            "phasing",
+            "reflective-communication"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "exaggerated-perception-influence",
+            "narrative-engrossment",
+            "thematically-consistent-dialogues",
+            "temporal-consistency",
+            "thematic-consistency"
+        ]
+    }
+}

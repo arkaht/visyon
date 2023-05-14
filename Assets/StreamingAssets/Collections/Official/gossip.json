@@ -1,0 +1,87 @@
+{
+    "name" : "Gossip",
+    "categories" : [
+        "Character Patterns",
+        "Dialogue Patterns",
+        "Action Patterns",
+        "Diegetic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The exchange of information by word-of-mouth between diegetic characters.",
+        "markups" : [
+            "<style=\"Definition\">The exchange of information by word-of-mouth between diegetic characters.</style>",
+            "Like in the real world, the people presenting in game worlds can engage in the very human activity of sharing <style=\"CurrentLink\">Gossip</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Standing within hearing distance of non-player characters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Oblivion\">Oblivion</link></style> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Elder%20Scrolls%20series\">The Elder Scrolls series</link></style> can let players overhear them talking to each other, and these discussions can reveal interesting areas to explore. Being close, but not too close, to Grace and Trip in the interactive drama <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fa%C3%A7ade\">Façade</link></style> can likewise provide information, but in this case concerning their relational problems.",
+            "Most, but not all, of the <i>Gossip Stones</i> found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda%20series\">The Legend of Zelda series</link></style> provide players with information about the game state or hints on how to complete quests. Many of the characters encountered in the game, e.g. the friends, relatives, and neighbors on <i>Outset Island</i> of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Legend%20of%20Zelda:%20The%20Wind%20Waker\">The Legend of Zelda: The Wind Waker</link></style>, can also provide some more or less useful information.",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/1942%20%E2%80%93%20Noen%20%C3%A5%20stole%20p%C3%A5\">1942 – Noen å stole på</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragonbane\">Dragonbane</link></style>, provide good settings for <style=\"CurrentLink\">Gossip</style> to be spread, both by having uncertain information and by providing ample time to discuss this information.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A requirement for <style=\"CurrentLink\">Gossip</style> is that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> exists in the <style=\"Link\"><link=\"game-worlds\">Game World</link></style>, even if it only does so on a diegetic level. This may be that players, or their <style=\"Link\"><link=\"player-characters\">Characters</link></style>, do not have information about the state of facts or that <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> lack this. Note that <style=\"CurrentLink\">Gossip</style> can be true, false, or contain partial truths - the important thing is that players (or at least their <style=\"Link\"><link=\"player-characters\">Characters</link></style>) do not always have an immediate and fully reliable way of judging the trustworthiness of the statement.",
+            "One aspect of designing <style=\"CurrentLink\">Gossip</style> is deciding if it should occur between <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, between <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>, or between one of each. The first can provide opportunities of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eavesdropping\">Eavesdropping</link></style> (as can the other two when there is at least three or two players respectively). The second lets players engage in both <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> and <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>, and to have some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> in how these are performed. The third can be considered a service, and may be provided by <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> which in fact are <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style>.",
+            "The subjects mentioned in <style=\"CurrentLink\">Gossip</style> also needs consideration. Although <style=\"CurrentLink\">Gossip</style> commonly is about <style=\"Link\"><link=\"characters\">Characters</link></style>, when it is provided by the game this can be used to inform about possible <style=\"Link\"><link=\"quests\">Quests</link></style> and <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>. <style=\"CurrentLink\">Gossip</style> about other players can easily stem from <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> (or about their <style=\"Link\"><link=\"player-characters\">Characters</link></style> if part of <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>), either as ways of trying to share information or on purpose spread mis-information. As such it can be vital to maintain <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dynamic%20Alliances\">Dynamic Alliances</link></style> and believes in <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>, but can also be used to commit <style=\"Link\"><link=\"betrayal\">Betrayal</link></style> of trusts.",
+            "For games building on <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, encouraging <style=\"CurrentLink\">Gossip</style> can be as easy as providing <style=\"Link\"><link=\"downtime\">Downtime</link></style> in addition to the presence of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "While <style=\"CurrentLink\">Gossip</style> can always provide <style=\"Link\"><link=\"information-passing\">Information Passing</link></style>, this may break <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> if not delivered as part of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Context%20Dependent%20Dialogues\">Context Dependent Dialogues</link></style>. Even so, this can, much like other types of <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>, break if <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Canned%20Text%20Responses\">Canned Text Responses</link></style> are used.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Gossip</style> can be used as a way of informing players of how they or other players have acted in the <style=\"Link\"><link=\"game-worlds\">Game World</link></style>. As such, this can make <style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style> both in ways positive and negative for the players.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Gossip</style> is one of the possible effects of <style=\"Link\"><link=\"dialogues\">Dialogues</link></style>, and thereby cause <style=\"Link\"><link=\"information-passing\">Information Passing</link></style> between characters. Since it is based in the diegesis of a game, <style=\"CurrentLink\">Gossip</style> can help support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style>.",
+            "As mentioned above, when used as part of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> <style=\"CurrentLink\">Gossip</style> can be the tool to commit <style=\"Link\"><link=\"betrayal\">Betrayal</link></style> or the glue that holds together <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dynamic%20Alliances\">Dynamic Alliances</link></style> or beliefs in <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>.",
+            "Regardless of if <style=\"CurrentLink\">Gossip</style> is acquired by talking to <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eavesdropping\">Eavesdropping</link></style> on them, this makes them into <style=\"Link\"><link=\"helpers\">Helpers</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>, <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"information-passing\">Information Passing</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eavesdropping\">Eavesdropping</link></style>, <style=\"Link\"><link=\"helpers\">Helpers</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"player-characters\">Player Characters</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dynamic%20Alliances\">Dynamic Alliances</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dialogues\">Dialogues</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>, <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style> together with <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Canned%20Text%20Responses\">Canned Text Responses</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Context%20Dependent%20Dialogues\">Context Dependent Dialogues</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "-",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "actions-have-diegetically-social-consequences",
+            "betrayal",
+            "information-passing",
+            "eavesdropping",
+            "helpers",
+            "creative-control",
+            "narrative-engrossment",
+            "roleplaying",
+            "storytelling"
+        ],
+        "modulates" : [
+            "delayed-reciprocity",
+            "diegetically-outstanding-features",
+            "dynamic-alliances",
+            "characters",
+            "quests"
+        ],
+        "instantiated_by" : [
+            "dialogues",
+            "imperfect-information",
+            "non-player-characters",
+            "negotiation",
+            "player-characters",
+            "self-service-kiosks",
+            "downtime"
+        ],
+        "modulated_by" : [
+            "canned-text-responses",
+            "context-dependent-dialogues"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

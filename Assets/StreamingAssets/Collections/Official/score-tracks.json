@@ -1,0 +1,73 @@
+{
+    "name" : "Score Tracks",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "A track to show players' scores.",
+        "markups" : [
+            "<style=\"Definition\">A track to show players' scores.</style>",
+            "Games with scores need a way for keeping track of these. While simply having a token for each point (and possibly some with higher values) is the most obvious reusable solution for non-computerized games, having <style=\"CurrentLink\">Score Tracks</style> on which each players has one lowers the number of tokens need.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pachisi\">Pachisi</link></style> (and its offspring <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ludo\">Ludo</link></style>) is an early example of a game with <style=\"CurrentLink\">Score Tracks</style>. They are still quite common in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style>, be it casual <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Party%20Games\">Party Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Balderdash\">Balderdash</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pictionary\">Pictionary</link></style>, or more complex games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Amun-Re\">Amun-Re</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carcassonne\">Carcassonne</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominant%20Species\">Dominant Species</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inca%20Empire\">Inca Empire</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Egizia\">Egizia</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ursuppe\">Ursuppe</link></style>. They are not so common in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> since players' scores can there be displayed more compactly in their own individual areas of the interface with is updated by the computer as gameplay progresses.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Score Tracks</style> can be used to reduce the number of <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> that needs to be included in a game, but does not eliminate the need for them in regards to <style=\"Link\"><link=\"scores\">Scores</link></style>. The actual design of them is a rather trivial combination of a <style=\"Link\"><link=\"game-boards\">Game Board</link></style> (or part of one) and some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style>, mainly concerning how many spots should exist, if they should be grouped, and how to handle players reaching the end of them (this is quite often solved by simply letting players begin a new lap). While the amount of <style=\"Link\"><link=\"movement\">Movement</link></style> one should make on <style=\"CurrentLink\">Score Tracks</style> is typically given, i.e. the amount of points on has just achieved, slight variations are possible. This mainly depends on if several pieces are allowed to share the same spot. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ursuppe\">Ursuppe</link></style> for example lets players who reach an already occupied spot <i>skip</i> ahead to the first free spot on the track.",
+            "<style=\"CurrentLink\">Score Tracks</style> can both be modulated by <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> and be used as <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>. The first case is a necessity when games as supposed to only have one winner. The use of <style=\"CurrentLink\">Score Tracks</style> as <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> are probably most common in determining the exact turn order in games with <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Egizia\">Egizia</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ursuppe\">Ursuppe</link></style> - for this reason the former of the two examples keeps track of players' position with the same spot. The use of <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style> somewhat diminished the importance of <style=\"CurrentLink\">Score Tracks</style> since there are now other sources for the final <style=\"Link\"><link=\"scores\">Score</link></style> all players will have.",
+            "<style=\"CurrentLink\">Score Tracks</style> can also be used to determine the order in which turn should be taken each round, providing a game with <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Golf\">Golf</link></style> is probably the most known example of this mechanism even if <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Golf\">Golf</link></style> doesn't use one designated <style=\"CurrentLink\">Score Track</style>. This combination can give rise to <style=\"Link\"><link=\"flip-flop-events\">Flip-Flop Events</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Building on earlier sources, Parlett argues that it \"seems intuitively obvious\" that the use of <style=\"CurrentLink\">Score Tracks</style> led to the development of games with <style=\"Link\"><link=\"races\">Races</link></style>, both on a gameplay and thematic level.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Score Tracks</style> is an interface pattern.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Score Tracks</style> is a way to handle <style=\"Link\"><link=\"scores\">Scores</link></style> in games and can reduce the <style=\"Link\"><link=\"excise\">Excise</link></style> related to this somewhat. Updating the values on the <style=\"CurrentLink\">Score Tracks</style> is a form of <style=\"Link\"><link=\"movement\">Movement</link></style> and this can be seen as a form of <style=\"Link\"><link=\"races\">Race</link></style>. Besides the already mentioned effects that <style=\"CurrentLink\">Score Tracks</style> can have in relation to <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> and <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>, they also provide <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> regarding the <style=\"Link\"><link=\"scores\">Scores</link></style> as they are <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>. This can lead players to form <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Temporary%20Alliances\">Temporary</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style> with the aim to <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>. It can also make people try <style=\"Link\"><link=\"speedending\">Speedending</link></style> game instances if they are in the lead but see that they will be overtaken by others soon.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"speedending\">Speedending</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Temporary%20Alliances\">Temporary Alliances</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style>, <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"varying-turn-orders\">Varying Turn Orders</link></style></style>",
+            "<style=\"Link\"><link=\"flip-flop-events\">Flip-Flop Events</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>, <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tokens\">Tokens</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style>, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "beat-leader",
+            "game-state-indicators",
+            "game-state-overviews",
+            "movement",
+            "races",
+            "speedending",
+            "temporary-alliances",
+            "uncommitted-alliances",
+            "varying-turn-orders",
+            "flip-flop-events"
+        ],
+        "modulates" : [
+            "bookkeeping-tokens",
+            "excise",
+            "game-boards",
+            "scores",
+            "tiebreakers",
+            "turn-taking"
+        ],
+        "instantiated_by" : [
+            "game-boards",
+            "tokens"
+        ],
+        "modulated_by" : [
+            "secret-scoring-mechanisms",
+            "tiebreakers"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

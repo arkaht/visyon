@@ -1,0 +1,59 @@
+{
+    "name" : "Symbiotic Player Relations",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay relations between players that make successes and failure of one player affect another similarly, and vice versa.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay relations between players that make successes and failure of one player affect another similarly, and vice versa.</style>",
+            "In many games the fortunes or misfortunes of one player may affects other players as well. When these ripple effects match the original effects, i.e. good effect for one player becomes a good effect for another player and the same for bad effects, the players are inclined to help each other. The will to help other players can also occur with less direct cause-effect relations, e.g. players may be able to perform actions that only benefits other players but those players also have actions that only can affect other players. When the combinations of goals and actions available make players benefit from cooperating in any of these fashions, the players have <style=\"CurrentLink\">Symbiotic Player Relations</style>.",
+            "Note that <style=\"CurrentLink\">Symbiotic Player Relations</style> does not imply that players always have to collaborate or that this may be the most efficient gameplay strategy or tactic. While symbiosis may be necessary (or obligated), it can also be facultative so that partners in the relationship benefit from it but can exist without it.",
+            "<style=\"H3\">Examples</style>",
+            "Team-based games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Alert\">Space Alert</link></style> have <style=\"CurrentLink\">Symbiotic Player Relations</style> since players chances of winning are directly affected by what happens to all members of their teams. While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Silkworm\">Silkworm</link></style> can be played alone, playing together with another player makes the game overall easier and players can help each other through their specific abilities. For <i>Mario Kart: Double Dash‼</i> in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> the relation is even more explicit since players share the same vehicle in a race. The fortunes of other players affect those who play <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> also, but here some traitors make it impossible to rely on everybody before these have been exposed. The chances of completing levels in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> as survivors are greatly increased if the other survivors play well, but this relation is on a voluntary basis and individuals can save themselves without regards for the fate of the others.",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diplomacy\">Diplomacy</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/So%20Long%20Sucker\">So Long Sucker</link></style>, and iterated <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Prisoner's%20Dilemma\">Prisoner's Dilemma</link></style> games can form <style=\"CurrentLink\">Symbiotic Player Relations</style> but the designs of the games make well-timed defections or betrayals powerful moves.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Simple ways of creating <style=\"CurrentLink\">Symbiotic Player Relations</style> is to give them <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style> or place them within <style=\"Link\"><link=\"teams\">Teams</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Organizations\">Social Organizations</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style> that have these. Presences of common <style=\"Link\"><link=\"enemies\">Enemies</link></style>, e.g. through a <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style> or <style=\"Link\"><link=\"pve\">PvE</link></style> is another option. The relations can also be given on a voluntary basis through providing players with actions that provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Buffs\">Buffs</link></style> for others (and not for themselves). The relations can be complicated through the introduction of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Traitors\">Traitors</link></style> or opportunities for <style=\"Link\"><link=\"betrayal\">Betrayal</link></style> in facultative symbiotic relations.",
+            "<style=\"H2\">Consequences</style>",
+            "Quite expectantly, <style=\"CurrentLink\">Symbiotic Player Relations</style> gives rise to <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>. These <style=\"CurrentLink\">Symbiotic Player Relations</style> do not require that the benefits at once spread to all involved players, this since <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style> can be expected by the players (which in turn can lead to <style=\"Link\"><link=\"guilting\">Guilting</link></style>). If the relation is not obligated, the pattern opens up for <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>. If the relation is mapped in diegetic terms, the relations are a form of <style=\"Link\"><link=\"loyalty\">Loyalty</link></style>.",
+            "Depending on how consciously players motivate their actions, <style=\"CurrentLink\">Symbiotic Player Relations</style> can give rise to <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style>.",
+            "<style=\"CurrentLink\">Symbiotic Player Relations</style> give players reasons to interact more with each other. These interaction are likely to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> between the players, either through the actions themselves or as part of coordinating themselves, offering advice, or <style=\"Link\"><link=\"guilting\">Guilting</link></style> each other. This can lead to <style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style> if <style=\"CurrentLink\">Symbiotic Player Relations</style> create <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> (or at least <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>) between players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style>, <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>, <style=\"Link\"><link=\"guilting\">Guilting</link></style>, <style=\"Link\"><link=\"loyalty\">Loyalty</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style></style>",
+            "<style=\"Link\"><link=\"reflective-communication\">Reflective Communication</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Buffs\">Buffs</link></style>, <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style>, <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style>, <style=\"Link\"><link=\"pve\">PvE</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Organizations\">Social Organizations</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Traitors\">Traitors</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "altruistic-actions",
+            "reflective-communication"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "buffs",
+            "game-system-player",
+            "guilds",
+            "mutual-goals",
+            "pve",
+            "social-organizations"
+        ],
+        "modulated_by" : [
+            "traitors"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

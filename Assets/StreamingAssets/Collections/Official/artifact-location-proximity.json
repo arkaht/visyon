@@ -1,0 +1,60 @@
+{
+    "name" : "Artifact-Location Proximity",
+    "categories" : [
+        "Patterns",
+        "Pervasive Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game rules that depend on technology-sensed proximities between physical artifacts and physical locations.",
+        "markups" : [
+            "<style=\"Definition\">Game rules that depend on technology-sensed proximities between physical artifacts and physical locations.</style>",
+            "Many games have bringing items to specific locations as conditions for gameplay events. While this is in many cases done with both items and locations that are either fictional or virtual, it may also be done with physical ones. The pattern <style=\"CurrentLink\">Artifact-Location Proximity</style> signifies when technology checks whether these types of  condition are met for physical items and locations.",
+            "<style=\"H3\">Examples</style>",
+            "The movement of teams' giant animal totems in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ConQwest\">ConQwest</link></style> is an example of <style=\"CurrentLink\">Artifact-Location Proximity</style>. In the Swedish LARP <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kejsartemplet\">Kejsartemplet</link></style>, the placement of a magic stone in its receptacle removed the power from all wizards; this was implemented through sensing the stone's presence in the receptacle and relaying this electronically to bracelets worn by the wizards.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Making use of <style=\"CurrentLink\">Artifact-Location Proximity</style> in a game consist of modifying physical <style=\"Link\"><link=\"game-items\">Game Items</link></style> (quite often <style=\"Link\"><link=\"tools\">Tools</link></style>) so that they can be sensed by some technology embedded in a specific location. The modification required depends primarily on the sensing technology used, and the technology choice can also determine what actually is meant by proximity and what artifacts can trigger the proximity. For example, RFID tags can let the game design determine exactly which unique artifacts trigger conditions with a short range while a pressure plate would accept all artifacts over a certain weight placed on it.",
+            "<style=\"CurrentLink\">Artifact-Location Proximity</style> can require <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> to trigger either the condition of entering or leaving the proximity of a location. This may be to control player actions (not being able to leave with the artifact immediately or having a chance of returning it shortly after it has been removed). It also provides a  safeguard if the sensing technology used is deemed a bit unreliable.",
+            "<style=\"H2\">Consequences</style>",
+            "As any gameplay mechanic depending on location, <style=\"CurrentLink\">Artifact-Location Proximity</style> can give rise to <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>. Further, since <style=\"CurrentLink\">Artifact-Location Proximity</style> is quite often combined with the <style=\"Link\"><link=\"deliver\">Deliver</link></style> pattern, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style> and <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style> are likely to become part of the gameplay.",
+            "Because <style=\"CurrentLink\">Artifact-Location Proximity</style> implies that players need to visit locations even if the game does not use <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, it gives rise to several patterns related to player movement. These include <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style> and <style=\"Link\"><link=\"traverse\">Traverse</link></style>, but also ones stressing <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> such as <style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, and <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>.",
+            "Like <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style> and <style=\"Link\"><link=\"player-player-proximity\">Player-Player Proximity</link></style>, the use of <style=\"CurrentLink\">Artifact-Location Proximity</style> can help <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> remotely control <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pervasive%20Games\">Pervasive Games</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">LARPs</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>, <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, <style=\"Link\"><link=\"real-world-knowledge-advantages\">Real World Knowledge Advantages</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"deliver\">Deliver</link></style></style>",
+            "<style=\"Link\"><link=\"physical-navigation\">Physical Navigation</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"deliver\">Deliver</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "changes-perception-real-world-phenomena-gameplay",
+            "encouraged-return-visits",
+            "pervasive-gameplay",
+            "physical-navigation",
+            "player-location-proximity"
+        ],
+        "modulates" : [
+            "game-items",
+            "game-masters",
+            "tools"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "deliver",
+            "extended-actions"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "name" : "Team Development",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Changes over time to teams due to changes in the game state or player skills.",
+        "markups" : [
+            "<style=\"Definition\">Changes over time to teams due to changes in the game state or player skills.</style>",
+            "Many games make use of teams. Those that let the teams change over time - for whatever reason - have <style=\"CurrentLink\">Team Development</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "Real world <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Basketball\">Basketball</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ice%20Hockey\">Ice Hockey</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> have <style=\"CurrentLink\">Team Development</style> as team members gain experience from training and playing matches. Of course, recruiting new team members can provide <style=\"CurrentLink\">Team Development</style> as well. E-sports with stable teams, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style> have the same type of <style=\"CurrentLink\">Team Development</style>. Games where individual players control whole teams, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Football%20Manager%20series\">Football Manager series</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hattrick\">Hattrick</link></style>, nearly always provide gameplay choices related to <style=\"CurrentLink\">Team Development</style>. This is also the case for many games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FIFA%20series\">FIFA series</link></style>.",
+            "The improvements (and possibly disadvantages) that individual characters gain over time in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> typically provide <style=\"CurrentLink\">Team Development</style> as players often play as members of parties. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing for <style=\"CurrentLink\">Team Development</style> mainly consists of how <style=\"Link\"><link=\"teams\">Teams</link></style> should be able to improve and what aspects of them can be improved. A primary influence on these choices is what the <style=\"Link\"><link=\"teams\">Teams</link></style> consists of. In the case of <style=\"Link\"><link=\"characters\">Characters</link></style>, any type of <style=\"Link\"><link=\"character-development\">Character Development</link></style> also causes <style=\"CurrentLink\">Team Development</style>. In <style=\"Link\"><link=\"teams\">Teams</link></style> of players, <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style> or the possibility of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> instead provide means for the <style=\"Link\"><link=\"teams\">Teams</link></style> to develop. More specifically modifying <style=\"Link\"><link=\"characteristics\">Characteristics</link></style> or providing <style=\"Link\"><link=\"new-abilities\">New</link></style> or <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> can be used to instantiate <style=\"CurrentLink\">Team Development</style>, either on individual <style=\"Link\"><link=\"characters\">Characters</link></style> in the <style=\"Link\"><link=\"teams\">Teams</link></style> or on <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style> if they are use to describe the <style=\"Link\"><link=\"teams\">Teams</link></style>. In games where <style=\"Link\"><link=\"teams\">Teams</link></style> exist longer than single game instances, training members through <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> is another way to allow <style=\"CurrentLink\">Team Development</style>. In these cases, the introduction of <style=\"Link\"><link=\"coaches\">Coaches</link></style> can be considered to let somebody specialize in this activity as well as tactical and strategical decision making during gameplay.",
+            "<style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style> can be used to let players have influence over <style=\"CurrentLink\">Team Development</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Team Development</style> lets <style=\"Link\"><link=\"teams\">Teams</link></style> evolve over gameplay time and typically requires some type of <style=\"Link\"><link=\"resource-management\">Resource Management</link></style>, and the development is often an <style=\"Link\"><link=\"investments\">Investment</link></style>. This quite clearly leads to <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style> in the cases where these <style=\"Link\"><link=\"teams\">Teams</link></style> are <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>. In games where the team members are players, this may give a feeling of <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>. In both cases, individual members can gain <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Abilities\">Asymmetric Abilities</link></style> and <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>. In games where <style=\"Link\"><link=\"teams\">Teams</link></style> are maintained over game instances, <style=\"CurrentLink\">Team Development</style> provides <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> and improving the <style=\"Link\"><link=\"teams\">Team</link></style> as much as possible becomes a <style=\"Link\"><link=\"meta-games\">Meta Game</link></style>. ",
+            "<style=\"CurrentLink\">Team Development</style> affects both <style=\"Link\"><link=\"pvp\">PvP</link></style> and <style=\"Link\"><link=\"tvt\">TvT</link></style> gameplay regarding <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>. It can be used to both balance the powers of players within a team and balance teams against each other but this can be a fickle solution since <style=\"CurrentLink\">Team Development</style> can easily also emphasis existing imbalances.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Abilities\">Asymmetric Abilities</link></style>, <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>, <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"resource-management\">Resource Management</link></style>, <style=\"Link\"><link=\"togetherness\">Togetherness</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"pvp\">PvP</link></style></style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"tvt\">TvT</link></style></style>",
+            "<style=\"Link\"><link=\"team-balance\">Team Balance</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"pvp\">PvP</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"character-development\">Character Development</link></style>, <style=\"Link\"><link=\"characteristics\">Characteristics</link></style>, <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, or <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> in games with <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"coaches\">Coaches</link></style>, <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"team-balance\">Team Balance</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "abstract-player-construct-development",
+            "asymmetric-abilities",
+            "competence-areas",
+            "extra-game-consequences",
+            "investments",
+            "meta-games",
+            "resource-management",
+            "togetherness",
+            "player-balance",
+            "team-balance"
+        ],
+        "modulates" : [
+            "pvp",
+            "teams",
+            "tvt"
+        ],
+        "instantiated_by" : [
+            "character-development"
+        ],
+        "modulated_by" : [
+            "coaches",
+            "player-planned-development"
+        ],
+        "conflicts" : [
+            "team-balance"
+        ]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "name" : "Emotional Attachment",
+    "categories" : [
+        "Patterns",
+        "Agent Patterns"
+    ],
+    "texts" : {
+        "definition" : "The ability of agents to have noticeable emotional relations inside the game world to the diegetic phenomena in that world.",
+        "markups" : [
+            "<style=\"Definition\">The ability of agents to have noticeable emotional relations inside the game world to the diegetic phenomena in that world.</style>",
+            "One of the typical assumptions about people is that they have emotional reaction to event that affect them or take place in their immediate surroundings. Players tend to apply these assumptions on people, and other types of agents, in games and can be annoyed or disappointed if these are not met. Making agents in games be able to show <style=\"CurrentLink\">Emotional Attachment</style> is a way to counter this by having them react diegetically appropriate.",
+            "Note: <i>The pattern related to players being emotionally attached to the game is named <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>.</i>",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> typically can show some <style=\"CurrentLink\">Emotional Attachment</style> but not do so consistently. For example, non-player characters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Elder%20Scrolls%20series\">The Elder Scrolls series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> get angry and fight back when attacked and sometimes run away when they are frightened, but at the same time they may ignore if players' avatars are jumping on tables and throwing things around.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Emotional Attachment</style> is a way to provide <style=\"Link\"><link=\"agents\">Agents</link></style> with ways of showing that they care about what happens in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. The nature of designing <style=\"CurrentLink\">Emotional Attachment</style> differs greatly based on if the <style=\"Link\"><link=\"agents\">Agents</link></style> considered are humans or <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> such as <style=\"Link\"><link=\"ai-players\">AI Players</link></style>. In the first case the primary task of enabling displays of <style=\"CurrentLink\">Emotional Attachment</style> is an interface question (see the subsection below). While the presentation solutions to this is important for <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> to be able to show <style=\"CurrentLink\">Emotional Attachment</style>, they also need to have algorithms that ensure that <style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>. Specific examples that may need to be supported by such algorithms include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Either%20You%20are%20with%20Me%20or%20against%20Me\">Either You are with Me or against Me</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Others%20Fortune%20affects%20own%20Mood\">Others Fortune affects own Mood</link></style>, and <style=\"Link\"><link=\"sense-self\">Sense of Self</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Making <style=\"Link\"><link=\"agents\">Agents</link></style> follow <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Norms\">Diegetic Social Norms</link></style> and engaging in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Maintenance\">Diegetic Social Maintenance</link></style> are two ways of displaying <style=\"CurrentLink\">Emotional Attachment</style>. Then again, so can breaking them.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "While it is <style=\"Link\"><link=\"agents\">Agents</link></style> that have reactions which show <style=\"CurrentLink\">Emotional Attachment</style>, this may need to be expressed diegetically. This typically means supporting players in being able to engage in <style=\"Link\"><link=\"enactment\">Enactment</link></style> and <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>. For games with <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, equipping <style=\"Link\"><link=\"avatars\">Avatars</link></style> with visual <style=\"Link\"><link=\"emotes\">Emotes</link></style> provides one way of doing this.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "While <style=\"CurrentLink\">Emotional Attachment</style> helps make <style=\"Link\"><link=\"storytelling\">Storytelling</link></style> that does not break <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"CurrentLink\">Emotional Attachment</style> can also be expressed through <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "As stated above, <style=\"CurrentLink\">Emotional Attachment</style> is a way to modulate <style=\"Link\"><link=\"agents\">Agents</link></style> show they can show emotions so <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> can be maintained. This can be used to display emotions related to the goals they have and thereby display that they have their <style=\"Link\"><link=\"own-agenda\">Own Agendas</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Either%20You%20are%20with%20Me%20or%20against%20Me\">Either You are with Me or against Me</link></style>, <style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Maintenance\">Diegetic Social Maintenance</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diegetic%20Social%20Norms\">Diegetic Social Norms</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Others%20Fortune%20affects%20own%20Mood\">Others Fortune affects own Mood</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, <style=\"Link\"><link=\"sense-self\">Sense of Self</link></style>, <style=\"Link\"><link=\"storytelling\">Storytelling</link></style>",
+            "<style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style> together with <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style> together with <style=\"Link\"><link=\"emotes\">Emotes</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "own-agenda",
+            "thematic-consistency"
+        ],
+        "modulates" : [
+            "agents",
+            "ai-players",
+            "storytelling"
+        ],
+        "instantiated_by" : [
+            "either-you-me-me",
+            "enactment",
+            "diegetic-social-maintenance",
+            "diegetic-social-norms",
+            "others-fortune-mood",
+            "roleplaying",
+            "sense-self",
+            "storytelling",
+            "actions-have-diegetically-social-consequences",
+            "avatars"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

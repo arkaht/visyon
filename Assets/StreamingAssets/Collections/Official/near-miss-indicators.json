@@ -1,0 +1,69 @@
+{
+    "name" : "Near Miss Indicators",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "Means of providing players with explicit information about how close they or others were to achieving a goal when they have failed to achieve it.",
+        "markups" : [
+            "<style=\"Definition\">Means of providing players with explicit information about how close they or others were to achieving a goal when they have failed to achieve it.</style>",
+            "Many games do not let players succeed with all their actions. Those that do but provide players with information about how close their, or other players', misses are provide <style=\"CurrentLink\">Near Miss Indicators</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Guesses that are adjacent to ships in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battleships\">Battleships</link></style> but do not hit them require the player to state that these are \"near misses\". ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bowling\">Bowling</link></style> has implicit <style=\"CurrentLink\">Near Miss Indicators</style> in that the number of pins left standing is a direct measure of how near the player was from succeeding. Further, pins are built in such way that they are prone to sway from one side to another without ultimately falling, providing another layer of implicit <style=\"CurrentLink\">Near Miss Indicators</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bowling\">Bowling</link></style>.",
+            "The design of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Roulette\">Roulette</link></style> wheels support <style=\"CurrentLink\">Near Miss Indicators</style> for bets on Red or Black colors since the design makes a loss only one slot away from one or two winning positions. Similarly, slot machines usually have the symbols arranged in such way that near misses, such as getting two cherries when three is required, are more frequent than random distribution would predict. <style=\"CurrentLink\">Near Miss Indicators</style> can be found in many other games of luck, e.g. scratch pads.",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First Person Shooters</link></style>, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>, provide <style=\"CurrentLink\">Near Miss Indicators</style> to those being shot at.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Near Miss Indicators</style> can simply be created by making <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> that indicate not hits but close misses. They can be part of <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style> and can of course have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>. For games with <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style>, triggered <style=\"CurrentLink\">Near Miss Indicators</style> for players that have been targets of fail attacks can be reason to lower those players accuracy. For games that allow saving and loading of game states, <style=\"CurrentLink\">Near Miss Indicators</style> can encourage <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>.",
+            "<style=\"CurrentLink\">Near Miss Indicators</style> and <style=\"Link\"><link=\"auto-aim\">Auto-Aim</link></style> rarely work together since <style=\"Link\"><link=\"auto-aim\">Auto-Aim</link></style> mechanics tend to make near misses not happen.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Near Miss Indicators</style> are probably most clearly understood as non-diegetic presentations but can in some games be integrated into the diegetic to maintain <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, e.g. through sound or technical alarms to players when shots have nearly their <style=\"Link\"><link=\"avatars\">Avatars</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Near Miss Indicators</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Near Miss Indicators</style> are <style=\"Link\"><link=\"outcome-indicators\">Outcome Indicators</link></style> and can have many effects on gameplay. First off, they can increase <style=\"Link\"><link=\"tension\">Tension</link></style> since they can make players aware of how close to succeeding they were, and this can give both <style=\"Link\"><link=\"clues\">Clues</link></style> and let them have a <style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style> for their next attempt. Successful later attempt with low chances of success can let them feel <style=\"Link\"><link=\"luck\">Luck</link></style> with knowing how close they were can promote <style=\"Link\"><link=\"replayability\">Replayability</link></style> and modify players <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> when about to do their new attempt. Having <style=\"CurrentLink\">Near Miss Indicators</style> can also help update <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, that is help promote <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> as part of gameplay. When <style=\"CurrentLink\">Near Miss Indicators</style> ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"determinable-chance-succeed\">Determinable Chance to Succeed</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"luck\">Luck</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"outcome-indicators\">Outcome Indicators</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>, <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"auto-aim\">Auto-Aim</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "clues",
+            "determinable-chance-succeed",
+            "game-state-overviews",
+            "luck",
+            "replayability",
+            "tension"
+        ],
+        "modulates" : [
+            "anticipation",
+            "outcome-indicators",
+            "save-load-cycles",
+            "stimulated-planning",
+            "tactical-planning",
+            "variable-accuracy"
+        ],
+        "instantiated_by" : [
+            "progress-indicators"
+        ],
+        "modulated_by" : [
+            "imperfect-information"
+        ],
+        "conflicts" : [
+            "auto-aim"
+        ]
+    }
+}

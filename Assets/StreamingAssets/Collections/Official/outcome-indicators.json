@@ -1,0 +1,60 @@
+{
+    "name" : "Outcome Indicators",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "Means of providing players with information about an outcome of an action in addition to the diegetic effect of the action.",
+        "markups" : [
+            "<style=\"Definition\">Means of providing players with information about an outcome of an action in addition to the diegetic effect of the action.</style>",
+            "Outcome of actions in some games may not be easily detectable. This may be because the effect is not easily noticeable, takes some time to manifest itself, or because the action takes place beyond a player's spheres of awareness. In these cases, games may provide explicit indicators, <style=\"CurrentLink\">Outcome Indicators</style> of what has happened and how the game state has been affected.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style>, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/F-Zero%20series\">F-Zero series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Need%20for%20Speed%20series\">Need for Speed series</link></style>, typically inform all players when one player has completed the race since the other players may not be close enough to notice this otherwise.",
+            "Combat in many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> have explicit and exact <style=\"CurrentLink\">Outcome Indicators</style> of the results of an attack as the numerical value of the hit points delivered is displayed after a successful attack.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Fighting%20Games\">Fighting Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soul%20Calibur%20series\">Soul Calibur series</link></style> shows blood after successful attacks and sparks after successful blocks. These are not effects of the action since they do not represent the game state, which is done by the avatars positions, stances, and health bars, but rather indicators that the player has succeeded in an action.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Outcome Indicators</style> mainly consist of what game state changes needs to be indicated and how; when is typically simply directly after they occur but for how long afterwards can be important as well. <style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style> are a specific type of <style=\"CurrentLink\">Outcome Indicators</style> for the outcome of near misses.",
+            "The information shown by <style=\"CurrentLink\">Outcome Indicators</style> can be modified to be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, but can also be vague to promote a certain level of <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>. <style=\"CurrentLink\">Outcome Indicators</style> however works against <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style> since it does provide information about an outcome.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Outcome Indicators</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Outcome Indicators</style> are <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> that help players have <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> and can be part of <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>. They can make clear <style=\"Link\"><link=\"rewards\">Rewards</link></style> for players as well as make information about outcomes into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"near-miss-indicators\">Near Miss Indicators</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style>, <style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"uncertainty-information\">Uncertainty of Information</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-state-indicators",
+            "predictable-consequences"
+        ],
+        "modulates" : [
+            "game-state-overviews",
+            "public-information",
+            "rewards"
+        ],
+        "instantiated_by" : [
+            "near-miss-indicators"
+        ],
+        "modulated_by" : [
+            "direct-information",
+            "uncertainty-information",
+            "perfect-information"
+        ],
+        "conflicts" : [
+            "uncertainty-information"
+        ]
+    }
+}

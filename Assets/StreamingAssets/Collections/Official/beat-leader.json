@@ -1,0 +1,80 @@
+{
+    "name" : "Beat the Leader",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Balancing Patterns"
+    ],
+    "texts" : {
+        "definition" : "Joint gameplay efforts by several players against a player they perceive as leading the particular game instance.",
+        "markups" : [
+            "<style=\"Definition\">Joint gameplay efforts by several players against a player they perceive as leading the particular game instance.</style>",
+            "Many games pit players against each other. When several players are pit against each other like this and they can perceive who seems to be most likely to win taking all players possibilities individually, it is common that those not in the lead try to gang up on the perceived leader. This leads to <style=\"CurrentLink\">Beat the Leader</style> pacts that downplay their hostile to each other to divert more effort towards the perceived leader, but this can naturally change rapidly as players change perception of who is the leader.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> with more than two players and where players have quite much control over their actions give rise to <style=\"CurrentLink\">Beat the Leader</style> activities quite often. Examples of such games are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Concordia\">Concordia</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lords%20of%20Waterdeep\">Lords of Waterdeep</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style>, but many more could be listed. The \"beating\" done in these case is not often, or even seldom, direct attacks against the perceived leaders but may rather take the form of boycotts, voting pacts, and pooling resources or efforts in various races. Exception to this can be game instances of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diplomacy\">Diplomacy</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advanced%20Civilization\">Advanced Civilization</link></style> (including the computer-based variants <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style>).",
+            "Deathmatch version of games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom series</link></style> often exhibit <style=\"CurrentLink\">Beat the Leader</style> situations since all players can see each other's scores. However, this is a weak example since whenever players come within shooting distance of each other in these games they tend to engage in combat, so the main effect might be in trying to get close to the perceived leader.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Beat the Leader</style> can occur both in games with <style=\"Link\"><link=\"pvp\">PvP</link></style> and with <style=\"Link\"><link=\"tvt\">TvT</link></style> since a leader can be either an individual player or a <style=\"Link\"><link=\"teams\">Team</link></style>. The actual design of <style=\"CurrentLink\">Beat the Leader</style> consists of providing two characteristics to a game design: making it possible for players to perceive a leader and giving them means to work together against that perceived leader.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, and <style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style> are all ways to give players possibilities of perceived who is leading (even if this may be an erroneous perception). In contrast, the use of <style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style>, <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style>, and <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style> makes it more difficult or impossible to judge who the leader is. ",
+            "Players of <style=\"Link\"><link=\"pvp\">PvP</link></style> or <style=\"Link\"><link=\"tvt\">TvT</link></style> games may already have actions available that can be used to directly <style=\"CurrentLink\">Beat the Leader</style>, e.g. <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> but indirect means can also be considered; Games that have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Results\">Player-Decided Results</link></style> are for example likely to be used for <style=\"CurrentLink\">Beat the Leader</style> if this is possible for players to perceive a possible leader. <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voting\">Voting</link></style> and other examples of actions where players can easily come together to <style=\"CurrentLink\">Beat the Leader</style> if they can agree that a leader exists. In general, any design with a <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> component exhibits the necessary conditions for players to identify a leader and work against that perceived leader.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "While <style=\"CurrentLink\">Beat the Leader</style> is not an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style> per se, it does rely on how players can make judgments about who is leading a game instance.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Beat the Leader</style> is a <style=\"Link\"><link=\"mutual-goals\">Mutual Goal</link></style> against a perceived leader and a player-controlled <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loop</link></style>. The possibility of trying to <style=\"CurrentLink\">Beat the Leader</style> is a form of <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> - should one as a player work against the leader for the benefit of all other players or should one ignore that possibility to better one's own position and hope that others instead <style=\"CurrentLink\">Beat the Leader</style>? As such, <style=\"CurrentLink\">Beat the Leader</style> can make players enter <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Temporary%20Alliances\">Temporary</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style> against perceived leaders, and this can is some cases take the form of <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>. Players engage in <style=\"CurrentLink\">Beat the Leader</style> activities to perform a <style=\"Link\"><link=\"balancing-effects\">Balancing Effect</link></style> that pushes players towards <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> and <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> if they are possible, but this is not necessarily correct if they have misjudged how is the leader (or if some players have successfully intentionally point out somebody as a leader which isn't one). ",
+            "The use of <style=\"CurrentLink\">Beat the Leader</style> creates <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Excluding%20Groups\">Excluding Groups</link></style> in that the leader is excluded from the other players. The possibility of performing <style=\"CurrentLink\">Beat the Leader</style> activities can lead to several activities among players. The first of these is simply <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> about who the leader is and what actions should be done to best bring down that leader. However, this can also make players engage in <style=\"Link\"><link=\"bluffing\">Bluffing</link></style> to not appear to be a leader or to try and pin other players as leaders when they are not (in effect trying to make them into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Scapegoat\">Scapegoat</link></style>).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Excluding%20Groups\">Excluding Groups</link></style>, <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style>, <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Scapegoat\">Scapegoat</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Temporary%20Alliances\">Temporary Alliances</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"pvp\">PvP</link></style>, <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>, <style=\"Link\"><link=\"tvt\">TvT</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, <style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Results\">Player-Decided Results</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, <style=\"Link\"><link=\"score-tracks\">Score Tracks</link></style>, <style=\"Link\"><link=\"trading\">Trading</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Voting\">Voting</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style>, <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style>, <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "balancing-effects",
+            "betrayal",
+            "bluffing",
+            "excluding-groups",
+            "mutual-goals",
+            "negative-feedback-loops",
+            "negotiation",
+            "player-balance",
+            "scapegoat",
+            "social-dilemmas",
+            "temporary-alliances",
+            "uncommitted-alliances"
+        ],
+        "modulates" : [
+            "pvp",
+            "tied-results",
+            "tvt"
+        ],
+        "instantiated_by" : [
+            "aim-shoot",
+            "last-man-standing",
+            "interruptible-actions",
+            "perfect-information",
+            "player-decided-distributions",
+            "player-decided-results",
+            "predictable-winner",
+            "score-tracks",
+            "trading",
+            "voting"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "end-state-scoring",
+            "secret-goals",
+            "secret-scoring-mechanisms"
+        ]
+    }
+}

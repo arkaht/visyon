@@ -1,0 +1,83 @@
+{
+    "name" : "Time Limited Game Instances",
+    "categories" : [
+        "Patterns",
+        "Gameplay Arc Patterns",
+        "Aesthetic Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games that by their design limit the time of any given game instance.",
+        "markups" : [
+            "<style=\"Definition\">Games that by their design limit the time of any given game instance.</style>",
+            "Playing a game is a commitment to participate in an activity. For those games played with other people or controlled by machines this may be a commitment on when to play and how much time will be spent on the game. To make it easier for players to make these commitments it can be good know in advance how long the game instance will be. Games can support this through being designed to have <style=\"CurrentLink\">Time Limited Game Instances</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Tournaments in board games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> often have fixed amount of time each individual game can take in order to be able to guarantee an end time for the whole event.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Alert\">Space Alert</link></style> is a weak example of a board game having <style=\"CurrentLink\">Time Limited Game Instances</style>. This since the first phase of the game has a strictly limited duration through the use of an audio track to dictate gameplay. The time needed to complete the second, evaluation, phase can differ but this is pretty much up to the players and they cannot affect the outcome by varying this. Stronger examples are found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Atmosfear%20series\">Atmosfear series</link></style> which uses VHS cassettes and DVDs to time the gameplay.",
+            "<i>Deathmatch</i> modes in first-person shooters such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> typically let the game facilitators to choose a time limit or frag (kill) limit to determine the winner. Those using the former of these are examples of <style=\"CurrentLink\">Time Limited Game Instances</style>.",
+            "The experimental game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/4%20Minutes%20and%2033%20Seconds%20of%20Uniqueness\">4 Minutes and 33 Seconds of Uniqueness</link></style> is won and finished by being the sole player running the game for 4 minutes and 33 seconds.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The basic requirement for <style=\"CurrentLink\">Time Limited Game Instances</style> is quite easy to achieve, one must simply decide upon a <style=\"Link\"><link=\"time-limits\">Time Limit</link></style> for a game instance. If one wishes to provide players with <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, a simple modification is to allow the players to set the <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> before gameplay starts. Another alternative is to make use of <style=\"Link\"><link=\"speedruns\">Speedruns</link></style> which encompass the whole game instance.",
+            "An indirect way of creating <style=\"CurrentLink\">Time Limited Game Instances</style> can be achieved through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predictable%20Gameplay%20Time\">Predictable Gameplay Time</link></style>. This since <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predictable%20Gameplay%20Time\">Predictable Gameplay Time</link></style> makes it possible to approximate or know the number of turns or actions in a game instance, and this combined with an estimate of how long time each of these takes can provide an upper bound for the time needed to play the game.",
+            "Games with <style=\"CurrentLink\">Time Limited Game Instances</style> typically make use of <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style> if they have winners at all. However, while <style=\"CurrentLink\">Time Limited Game Instances</style> can put a maximum time a game may be played, this might be modified through <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style> since this may result in the games being ended before that time has been reached. Such solutions can provide options for <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> or the game system winning (indirectly creating a <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style>) if no player has won when gameplay ends.",
+            "<style=\"Link\"><link=\"meta-games\">Meta Games</link></style> such as <style=\"Link\"><link=\"tournaments\">Tournaments</link></style> quite often use <style=\"CurrentLink\">Time Limited Game Instances</style> for the inner games to easy synchronization between different parts of the game. Games built this way can quite easily support <style=\"Link\"><link=\"negotiable-game-instance-duration\">Negotiable Game Instance Duration</link></style> on the meta level by simply letting players decide if they wish to play another round or not. This assumes that the games are <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>; if the <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> are being run by <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> the effect is instead to provide <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay . Examples of games having these properties include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style>. When an exact <style=\"Link\"><link=\"time-limits\">Time Limit</link></style> for the <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> are wanted this can of course easily be achieved through fixing the number of games played.",
+            "The ability for players to perform <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style> can destroy the presence of <style=\"CurrentLink\">Time Limited Game Instances</style> since it requires them to not make use of the saving and loading functionality (and thereby quite likely improve their results). <style=\"Link\"><link=\"game-time-manipulation\">Game Time Manipulation</link></style> can also provide similar ways of letting players have more time at their disposal, but in this case it is directly a consequence of the gameplay design. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "While actually a <style=\"Link\"><link=\"time-limits\">Time Limit</link></style> in disguise, having <style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style> can give games <style=\"CurrentLink\">Time Limited Game Instances</style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Greed%20Corp\">Greed Corp</link></style>) if the shrinking continues until the whole <style=\"Link\"><link=\"game-worlds\">Game World</link></style> is destroyed or removed.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "It is quite likely that players need or want to know for how long more they can or need to play, and for this reason the time played is likely to be a candidate for being a <style=\"Link\"><link=\"game-state-indicators\">Game State Indicator</link></style> in games with <style=\"CurrentLink\">Time Limited Game Instances</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Time Limited Game Instances</style> guarantee that games using it while result in a <style=\"Link\"><link=\"game-over\">Game Over</link></style> for the players. Quite naturally, <style=\"CurrentLink\">Time Limited Game Instances</style> based upon measuring time flow can lead to <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style>. Games with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Never%20Ending%20Stories\">Never Ending Stories</link></style> or those that are <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> due to not having an end are not compatible with those having <style=\"CurrentLink\">Time Limited Game Instances</style>. They limit how long time players have to acquire their <style=\"Link\"><link=\"scores\">Scores</link></style> and this puts a <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style> on this activity where there might not have been before and shift the competences needed to acquire as high <style=\"Link\"><link=\"scores\">Score</link></style> as possible.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"time-pressure\">Time Pressure</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> and <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style></style>",
+            "<style=\"Link\"><link=\"negotiable-game-instance-duration\">Negotiable Game Instance Duration</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> and <style=\"Link\"><link=\"meta-games\">Meta Games</link></style></style>",
+            "<style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style></style>",
+            "<style=\"Link\"><link=\"game-system-player\">Game System Player</link></style>, <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Predictable%20Gameplay%20Time\">Predictable Gameplay Time</link></style>, <style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style>, <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"game-time-manipulation\">Game Time Manipulation</link></style>, <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>, <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Never%20Ending%20Stories\">Never Ending Stories</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-over",
+            "time-pressure",
+            "negotiable-game-instance-duration",
+            "drop-in-drop-out",
+            "game-system-player",
+            "tied-results"
+        ],
+        "modulates" : [
+            "meta-games",
+            "scores",
+            "tournaments"
+        ],
+        "instantiated_by" : [
+            "predictable-gameplay-time",
+            "shrinking-game-worlds",
+            "speedruns",
+            "time-limits"
+        ],
+        "modulated_by" : [
+            "freedom-choice",
+            "game-state-indicators",
+            "game-time-manipulation",
+            "winner-gameplay-ends",
+            "winning-ending-gameplay"
+        ],
+        "conflicts" : [
+            "never-ending-stories",
+            "save-load-cycles",
+            "unwinnable-games"
+        ]
+    }
+}

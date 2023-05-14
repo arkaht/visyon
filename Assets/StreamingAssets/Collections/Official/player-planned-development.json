@@ -1,0 +1,102 @@
+{
+    "name" : "Player-Planned Development",
+    "categories" : [
+        "Character Patterns",
+        "Player Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The possibility for players to plan how game state values and entities should be able to develop.",
+        "markups" : [
+            "<style=\"Definition\">The possibility for players to plan how game state values and entities should be able to develop.</style>",
+            "The game elements that are under players control in many games develop over time. Some games let players influence this development through explicit choices and planning besides the direct short-term consequences of their gameplay actions. These games have <style=\"CurrentLink\">Player-Planned Development</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Part of creating one's characters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fiasco\">Fiasco</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> typically consist of giving them long-term goals, even if they may primarily be long-term in the diegesis. This also applies for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style>, especially for those that span several events, e.g <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/College%20of%20Wizardry\">College of Wizardry</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Krigshj%C3%A4rta\">Krigshjärta</link></style>, and campaigns using the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mind's%20Eye%20Theatre\">Mind's Eye Theatre</link></style>.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Strategy%20Games\">Strategy Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Master%20of%20Orion\">Master of Orion</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> encourage players to put together long-term plans for how their civilizations should develop. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Multiplayer%20Online%20Battle%20Arena%20Games\">Multiplayer Online Battle Arena Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients%20series\">Defense of the Ancients series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style> show how planned development can be important even in games where each game instance last for less than an hour typically. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Player-Planned Development</style> is typically introduced in games to let players have control over some game elements, e.g. <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>, <style=\"Link\"><link=\"player-created-game-elements\">Player Created Game Elements</link></style>, or <style=\"Link\"><link=\"teams\">Teams</link></style>. ",
+            "More concretely, <style=\"CurrentLink\">Player-Planned Development</style> requires players to be given control over the development of some part of the game state overtime. This makes <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> an important supporting pattern for <style=\"CurrentLink\">Player-Planned Development</style> to be possible. The development can in its simplest form relate just to <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> goals or how players can get <style=\"Link\"><link=\"improved-abilities\">Improved</link></style> or <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>. However, richer planning can be allowed by supporting <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style> or <style=\"Link\"><link=\"character-development\">Character Development</link></style> (which naturally require the presence of <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style> or <style=\"Link\"><link=\"characters\">Characters</link></style> also). A less common alternative is to allow players to plan the development of <style=\"Link\"><link=\"factions\">Factions</link></style>. The actual development typically takes place as effects of <style=\"Link\"><link=\"rewards\">Rewards</link></style> or <style=\"Link\"><link=\"unlocking\">Unlocking</link></style> or <style=\"Link\"><link=\"abilities\">Abilities</link></style>. The actual gameplay actions resulting of these depend on the type of game and the type of development, but <style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style> are a class of actions that can signify <style=\"CurrentLink\">Player-Planned Development</style>. As omnipotent controllers of games, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can make all these options possible in games but can also be the ones that cause gameplay events that directly cause <style=\"CurrentLink\">Player-Planned Development</style>. ",
+            "A number of patterns can modify how <style=\"CurrentLink\">Player-Planned Development</style> can occur given it is possible. <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> typically lets the scale for <style=\"CurrentLink\">Player-Planned Development</style> be larger than otherwise and can more clearly make work regarding this into <style=\"Link\"><link=\"investments\">Investments</link></style>. <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style> removes the freedom from players to choose what goals to plan for but not necessarily their ability to plan for it. <style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style> can require players to change their plans as the game context changes and <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style> make it a challenge simply to figure out what the goals are so one can start the planning. Linking particular developments to goals that are <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style> in relation to each other forces players to choose between these. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "The use of <style=\"CurrentLink\">Player-Planned Development</style> often requires that players can access information about what development is possible. This may be provided both from within <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> and through <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "Allowing <style=\"CurrentLink\">Player-Planned Development</style> is a way for letting players modify <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>. However, the presence of <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> can also hinder the freedom players have regarding this, so the patterns can work against each other also.",
+            "<style=\"H2\">Consequences</style>",
+            "Letting players have <style=\"CurrentLink\">Player-Planned Development</style> have several consequences on game designs. It lets players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, aim for specific <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>, choose their own <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style>, and can strengthen their <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Identification\">Identification</link></style> with the game elements they can develop. Working toward these are <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style> with can provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> and motivate <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, potentially in the form of pure <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>. While <style=\"CurrentLink\">Player-Planned Development</style> can cause players to have <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> they have, i.e. they may be under an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illusion%20of%20Influence\">Illusion of Influence</link></style>, it can support the perception that they game elements under their control have an <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>. ",
+            "<style=\"CurrentLink\">Player-Planned Development</style> can cause players to view other parts of the game design differently. <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> can become goals to achieve, especially if one aims at particular <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style> but can also steer the development towards these so the patterns affect each other. It may motivate players to adjust their <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> so it diegetically fits the planned development. Further, <style=\"CurrentLink\">Player-Planned Development</style>] modifies how <style=\"Link\"><link=\"team-development\">Team Development</link></style> functions when they pattern affects members of <style=\"Link\"><link=\"teams\">Teams</link></style>.",
+            "Having <style=\"CurrentLink\">Player-Planned Development</style> may cause <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style> in order to achieve the planned development, but the presence of <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style> unrelated to such planning works against it. It can also cause <style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style> since gameplay options provide may set different parts of the planned development against each other or may work against what is best from a short-term perspective or one related to winning a game.",
+            "In games where the game instances go on for long period of times, e.g. in games with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, the work players to both in planning and actual gameplay actions performed towards having <style=\"CurrentLink\">Player-Planned Development</style> can be seen as <style=\"Link\"><link=\"investments\">Investments</link></style> and provide players with a clear measure of <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> for them. However, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> is not the only way for <style=\"CurrentLink\">Player-Planned Development</style> to support <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>, it can equally validly be provided through having <style=\"Link\"><link=\"characters\">Characters</link></style> for which players can plan their development.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>, <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Identification\">Identification</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illusion%20of%20Influence\">Illusion of Influence</link></style>, <style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style>, <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>, <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"characters\">Characters</link></style></style>",
+            "<style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style></style>",
+            "<style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"player-characters\">Player Characters</link></style>, <style=\"Link\"><link=\"player-created-game-elements\">Player Created Game Elements</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, <style=\"Link\"><link=\"team-development\">Team Development</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"character-defining-actions\">Character Defining Actions</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"unlocking\">Unlocking</link></style>",
+            "<style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style> together with <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style> and <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>",
+            "<style=\"Link\"><link=\"characters\">Characters</link></style> together with <style=\"Link\"><link=\"character-development\">Character Development</link></style> and <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> together with <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, or <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style>, <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"enforced-agent-behavior\">Enforced Agent Behavior</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "competence-areas",
+            "continuous-goals",
+            "creative-control",
+            "enforced-agent-behavior",
+            "exaggerated-perception-influence",
+            "extra-game-actions",
+            "identification",
+            "illusion-influence",
+            "internal-conflicts",
+            "open-destiny",
+            "player-defined-goals",
+            "stimulated-planning",
+            "value-effort",
+            "investments",
+            "value-effort"
+        ],
+        "modulates" : [
+            "narration-structures",
+            "player-characters",
+            "player-created-game-elements",
+            "privileged-abilities",
+            "roleplaying",
+            "team-development"
+        ],
+        "instantiated_by" : [
+            "character-defining-actions",
+            "factions",
+            "game-masters",
+            "rewards",
+            "unlocking",
+            "abstract-player-constructs",
+            "characters",
+            "freedom-choice"
+        ],
+        "modulated_by" : [
+            "dynamic-goal-characteristics",
+            "incompatible-goals",
+            "persistent-game-worlds",
+            "predefined-goals",
+            "privileged-abilities",
+            "secondary-interface-screens",
+            "unknown-goals"
+        ],
+        "conflicts" : [
+            "enforced-agent-behavior",
+            "narration-structures"
+        ]
+    }
+}

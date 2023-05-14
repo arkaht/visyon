@@ -1,0 +1,97 @@
+{
+    "name" : "Massively Multiplayer Online Games",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games which support hundreds or thousands of players to inhabit the same game world and interact with each others.",
+        "markups" : [
+            "<style=\"Definition\">Games which support hundreds or thousands of players to inhabit the same game world and interact with each others.</style>",
+            "While many games have several players, some games have <i>very</i> many players. This games, which for practical reasons need to be computer mediated to let many players share play sessions, are known as <style=\"CurrentLink\">Massively Multiplayer Online Games</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Depending on how one defines <i>massively</i>, text-based multiuser adventures such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style> are among the first <style=\"CurrentLink\">Massively Multiplayer Online Games</style>. These were however not explicitly designed and deployed to support concurrent players numbering in the thousands, examples of games that do this include  <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Entropia%20Universe\">Entropia Universe</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style>. While all these are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> to a larger or smaller degree, other game genres are possible. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20War%20II%20Online\">World War II Online</link></style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">FPS-based</link></style> example and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hattrick\">Hattrick</link></style> is one simulating <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> Management.",
+            "See the category <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> for all examples on the wiki.",
+            "<style=\"H2\">Using the pattern</style>",
+            "For practical reasons, <style=\"CurrentLink\">Massively Multiplayer Online Games</style> need to have some features. First, they have several players so designing them includes considering the various options connected to <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. Of these, supporting <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> and <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> are necessary since one cannot demand that all players should have their play sessions completely synchronized. Further, they need computer programs as <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> to handle the large game states and to mediate the gameplay and the <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> between players. This may be augmented with <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> to handle problematic <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> between players and to collect information to develop <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>.",
+            "Most often, <style=\"CurrentLink\">Massively Multiplayer Online Games</style> are designed to have players spend many play sessions interacting with them. This may be due to the intended <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emergent%20Gameplay\">Emergent Gameplay</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> only can occur when enough players are active simultaneously or they have spent enough time in the game. <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style> in general can be used for this purpose but more specific ways include having <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, having <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>, making players be <style=\"Link\"><link=\"always-vulnerable\">Always Vulnerable</link></style>, or leveraging <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Time%20Investments\">Player Time Investments</link></style>. The encouraging of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Organizations\">Social Organizations</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style> is another way to have <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style> and may over time be the most efficient; the use of <style=\"Link\"><link=\"invites\">Invites</link></style> make players use their own social networks outside the game to populate these.",
+            "Some patterns are not required in <style=\"CurrentLink\">Massively Multiplayer Online Games</style> but are still quite common in them. <style=\"CurrentLink\">Massively Multiplayer Online Games</style> often have <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> but do not need to - <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hattrick\">Hattrick</link></style> suffices with players, <style=\"Link\"><link=\"teams\">Teams</link></style>, and leagues. <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style> may be difficult to avoid since players can discuss possible deals both within and outside the games, but <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Entropia%20Universe\">Entropia Universe</link></style> shows how this can also be accepted and encourage in the design. <style=\"Link\"><link=\"instances\">Instances</link></style> are a way to handle many players in the same area of a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> but also a way to encourage <style=\"Link\"><link=\"teams\">Teams</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style> or the creation of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dynamic%20Alliances\">Dynamic Alliances</link></style> through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pickup%20Groups\">Pickup Groups</link></style>. Regarding the action common in <style=\"CurrentLink\">Massively Multiplayer Online Games</style>, historically <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> has been very common but these have in turn often have <style=\"Link\"><link=\"combat\">Combat</link></style> as a central part. <style=\"Link\"><link=\"construction\">Construction</link></style> was also present in the early cases using the pattern since they were to a large degree <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Constructed%20Worlds\">Player Constructed Worlds</link></style> and <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>; while this is not the case in the prime (commercial) examples of the pattern the creation of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style> can also be seen as a form of <style=\"Link\"><link=\"construction\">Construction</link></style> that players do.",
+            "Many <style=\"CurrentLink\">Massively Multiplayer Online Games</style> build gameplay focused upon raising <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>. Those that do typically also need to consider what gameplay should be meaningful after the maximum level is achieved, one common option is <style=\"Link\"><link=\"pvp\">PvP</link></style>. This gameplay defines the <style=\"Link\"><link=\"endgame\">Endgame</link></style> of those games.",
+            "Due to many of the factors mentioned above, <style=\"CurrentLink\">Massively Multiplayer Online Games</style> almost always need <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>.",
+            "Some <style=\"Link\"><link=\"live-action-roleplaying\">Live Action Roleplaying</link></style> games do approach the same numbers of players as <style=\"CurrentLink\">Massively Multiplayer Online Games</style> but differ in many other ways and the two patterns have relatively little in common. Although similarly named, <style=\"CurrentLink\">Massively Multiplayer Online Games</style> mainly share functionality outside the actual gameplay with <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Massively Multiplayer Online Games</style> often have problems maintaining <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, either due to using <style=\"Link\"><link=\"instances\">Instances</link></style> or to the practical problem of continuously generating enough context to support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Never%20Ending%20Stories\">Never Ending Stories</link></style> for large <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Putting many players into the same game make it more or less impossible for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emergent%20Gameplay\">Emergent Gameplay</link></style> not to occur. Further, since the games nearly always need updates to handle bugs, <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>, or issues with <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> due to the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emergent%20Gameplay\">Emergent Gameplay</link></style>, they also have <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> possible in <style=\"CurrentLink\">Massively Multiplayer Online Games</style> and the use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Time%20Investments\">Player Time Investments</link></style> often make <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style> present in these games. Due to the many activity possibly, it is also quite likely that <style=\"Link\"><link=\"social-roles\">Social Roles</link></style> emerges (but these may be more specifically supported by other patterns). The different inherent <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> these can have can positively feedback on each other making the <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> greater in <style=\"CurrentLink\">Massively Multiplayer Online Games</style> than other game types where only one of these are present.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emergent%20Gameplay\">Emergent Gameplay</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"character-levels\">Character Levels</link></style></style>",
+            "<style=\"Link\"><link=\"endgame\">Endgame</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> and <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"instances\">Instances</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dynamic%20Alliances\">Dynamic Alliances</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pickup%20Groups\">Pickup Groups</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style></style>",
+            "<style=\"Link\"><link=\"trading\">Trading</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"always-vulnerable\">Always Vulnerable</link></style>, <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style>, <style=\"Link\"><link=\"instances\">Instances</link></style>, <style=\"Link\"><link=\"invites\">Invites</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Constructed%20Worlds\">Player Constructed Worlds</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player%20Time%20Investments\">Player Time Investments</link></style>, <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>, <style=\"Link\"><link=\"pvp\">PvP</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Organizations\">Social Organizations</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "emergent-gameplay",
+            "evolving-rule-sets",
+            "game-based-social-statuses",
+            "purchasable-game-advantages",
+            "social-interaction",
+            "social-roles",
+            "value-effort",
+            "endgame",
+            "drop-in-drop-out",
+            "late-arriving-players",
+            "dynamic-alliances",
+            "trading"
+        ],
+        "modulates" : [
+            "multiplayer-games"
+        ],
+        "instantiated_by" : [
+            "dedicated-game-facilitators"
+        ],
+        "modulated_by" : [
+            "always-vulnerable",
+            "character-levels",
+            "combat",
+            "communication-channels",
+            "construction",
+            "encouraged-return-visits",
+            "events-timed-real-world",
+            "evolving-rule-sets",
+            "game-masters",
+            "guilds",
+            "instances",
+            "invites",
+            "persistent-game-worlds",
+            "player-constructed-worlds",
+            "player-time-investments",
+            "purchasable-game-advantages",
+            "pvp",
+            "roleplaying",
+            "self-facilitated-games",
+            "social-organizations",
+            "teams"
+        ],
+        "conflicts" : [
+            "thematic-consistency"
+        ]
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "name" : "Discard Piles",
+    "categories" : [
+        "Patterns",
+        "Card Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "Areas or stacks where cards or tiles are placed after they have been used.",
+        "markups" : [
+            "<style=\"Definition\">Areas or stacks where cards or tiles are placed after they have been used.</style>",
+            "Games that use cards, chips, or tiles often distinguish between those that have yet to come in play, those that are in play, and those that have been used. <style=\"CurrentLink\">Discard Piles</style> are used to keep track of used cards etc. While this may be for pure practical or aesthetic reasons, other uses are to let that these represent future drawing stacks or resource areas for those with abilities to take game elements from the <style=\"CurrentLink\">Discard Piles</style>.",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rummy\">Rummy</link></style> family of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style> actively uses the <style=\"CurrentLink\">Discard Pile</style> as a resource from which players may draw cards. These <style=\"CurrentLink\">Discard Piles</style>  are replenished continually as player must end their turns by discarding a card (except when emptying their hands in some versions). The goal of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uno\">Uno</link></style> is to get all ones cards into the <style=\"CurrentLink\">Discard Pile</style>. Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style> place the cards they have used as payment for actions in <style=\"CurrentLink\">Discard Piles</style>. When the drawing stack is empty, these <style=\"CurrentLink\">Discard Piles</style> are shuffled and used as new drawing stacks - meaning that discards cards can return to gameplay. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style> work the same way but here players have their own individual <style=\"CurrentLink\">Discard Piles</style>.",
+            "Cards in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/7%20Wonders\">7 Wonders</link></style> are only discarded at the end of each era with the exception of cards discarded for money. The card are then permanently out of gameplay, except that the player controlling <i>Helicarnassus</i> which can pick a limited number of cards from the <style=\"CurrentLink\">Discard Pile</style> during a game instance (the leader <i>Solomon</i> provides this special ability once as well).",
+            "Although players may not perceive it, cards taken in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/No%20Thanks!\">No Thanks!</link></style> are in effect placed in <style=\"CurrentLink\">Discard Piles</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Discard Piles</style> can occur spontaneously in games where <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> are <i>played</i> in some way; in some <style=\"Link\"><link=\"cards\">Card</link></style> games, including all <style=\"Link\"><link=\"collectible-card-games\">Collectible Card Games</link></style>, the <style=\"CurrentLink\">Discard Piles</style> are temporary storage areas to ensure that all a player's <style=\"Link\"><link=\"cards\">Cards</link></style> are used before any are reused. This makes <style=\"CurrentLink\">Discard Piles</style> parts of how <style=\"Link\"><link=\"decks\">Decks</link></style> are used and the use of the pattern can be seen as a way to modulate the use of <style=\"Link\"><link=\"decks\">Decks</link></style>. When given explicit rules, there are two main design choices related to designing <style=\"CurrentLink\">Discard Piles</style>: should they be open or closed, and should players be able to retrieve the <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> in some way.",
+            "<style=\"CurrentLink\">Discard Piles</style> can be either closed or opened. Closed <style=\"CurrentLink\">Discard Piles</style> hide the important information of the game elements in them and do not let the players go through the piles; they provide advantages to players that can do <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> well although this may not be allowed according to rules (the most famous example being the cards played in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blackjack\">Blackjack</link></style>). Open <style=\"CurrentLink\">Discard Piles</style>, by contrast, either place the game elements so that they can all be seen or allow the players to go through the pile. These open piles support <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> but may also cause <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style> since they allow players a more complete view of the game state.",
+            "Retrieving <style=\"Link\"><link=\"cards\">Cards</link></style> from <style=\"CurrentLink\">Discard Piles</style> is an action all players can do in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rummy\">Rummy</link></style> family of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style> but <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/7%20Wonders\">7 Wonders</link></style> only allows this as a <style=\"Link\"><link=\"privileged-abilities\">Privileged Ability</link></style>. Games that allow this type of action effectively let <style=\"CurrentLink\">Discard Piles</style> affect what <style=\"Link\"><link=\"hands\">Hands</link></style> players have. Some games with <style=\"CurrentLink\">Discard Piles</style> have a separate pile for <style=\"Link\"><link=\"cards\">Cards</link></style> that for some reason should be removed from normal gameplay and only under rare circumstances can be return. <i>Graveyard</i> is the name for this area in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style>. In contrast to actions that remove <style=\"Link\"><link=\"cards\">Cards</link></style> from <style=\"CurrentLink\">Discard Piles</style>, <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> actions typically introduce game elements to them which normally makes new <style=\"Link\"><link=\"cards\">Cards</link></style> start with a <style=\"Link\"><link=\"cooldown\">Cooldown</link></style> period.",
+            "Games with <style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style> may use a <style=\"CurrentLink\">Discard Pile</style> for each trick so that players may enact <style=\"Link\"><link=\"replays\">Replays</link></style> after gameplay has finished.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Discard Piles</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The most basic function of <style=\"CurrentLink\">Discard Piles</style> is purely logistic: they define places where to place used game elements - most commonly <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style>. However, like <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> the size of <style=\"CurrentLink\">Discard Piles</style> may function as a <style=\"Link\"><link=\"game-state-indicators\">Game State Indicator</link></style> since they allow players to judge how far the gameplay in a game has progress if game instances are limited by how many times <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> are used. As mentioned above, open <style=\"CurrentLink\">Discard Piles</style> can increase the risk of <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style> in games since it augmented the possibilities of <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>. This can to a lesser extend be possible with closed <style=\"CurrentLink\">Discard Piles</style> since the size of the <style=\"CurrentLink\">Discard Piles</style> can provide some information as just mentioned. It should however be mentioned that this is more likely to be easily detected by looking at <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> if these also exist.",
+            "<style=\"CurrentLink\">Discard Piles</style> make easy candidates for refilling <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, and when <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> are recycled in this fashion the games that do this have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style>. A related use of <style=\"CurrentLink\">Discard Piles</style> is to make them into <style=\"Link\"><link=\"drafting-spreads\">Drafting Spreads</link></style> since this is a way for players to refill their <style=\"Link\"><link=\"hands\">Hands</link></style>; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rummy\">Rummy</link></style> is an example of a game doing this but only has the last played <style=\"Link\"><link=\"cards\">Card</link></style> as the <style=\"Link\"><link=\"drafting-spreads\">Drafting Spread</link></style> but a common variant is to use the whole <style=\"CurrentLink\">Discard Pile</style> and the <style=\"Link\"><link=\"drafting-spreads\">Drafting Spread</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"drafting-spreads\">Drafting Spreads</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"deck-building\">Deck Building</link></style></style>",
+            "<style=\"Link\"><link=\"cooldown\">Cooldown</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style></style>",
+            "<style=\"Link\"><link=\"replays\">Replays</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"collectible-card-games\">Collectible Card Games</link></style>, <style=\"Link\"><link=\"decks\">Decks</link></style>, <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"hands\">Hands</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"deck-building\">Deck Building</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "drafting-spreads",
+            "game-state-indicators",
+            "cooldown",
+            "closed-economies",
+            "replays"
+        ],
+        "modulates" : [
+            "analysis-paralysis",
+            "cards",
+            "collectible-card-games",
+            "decks",
+            "drawing-stacks",
+            "hands",
+            "memorizing",
+            "stimulated-planning",
+            "tiles"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "deck-building",
+            "privileged-abilities",
+            "trick-taking"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

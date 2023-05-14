@@ -1,0 +1,50 @@
+{
+    "name" : "Hybrid Gameplay Spaces",
+    "categories" : [
+        "Patterns",
+        "Pervasive Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay spaces that consist of a combination of both a real world space and a virtual or symbolic one.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay spaces that consist of a combination of both a real world space and a virtual or symbolic one.</style>",
+            "The gameplay space of most games tends to be defined either in real world terms or symbolically. Those games that make this distinction difficult through having part of their gameplay spaces most easily understood in relation to the real world while having the other parts primarily understandable as abstract ones have <style=\"CurrentLink\">Hybrid Gameplay Spaces</style>.",
+            "<style=\"H3\">Examples</style>",
+            "The game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Can%20You%20See%20Me%20Now?\">Can You See Me Now?</link></style> has some location-tracked players move around in a city while other players hunt them by moving avatars on a map of that city. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncle%20Roy%20All%20Around%20You\">Uncle Roy All Around You</link></style> similarly makes players moving in a city and in a virtual environment share a game, but here they collaborate. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pacman%20must%20die\">Pacman must die</link></style> can also be seen as a game with <style=\"CurrentLink\">Hybrid Gameplay Spaces</style> since players need to organize their game devices to utilize the gameplay area which is split over the devices.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The use of <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style> is a prerequisite for <style=\"CurrentLink\">Hybrid Gameplay Spaces</style>. Besides this, some connection to an abstract gameplay space is needed. This can be done purely conceptually, through the use of location sensors that can link physical places to virtual ones, or through overlaying the physical space with a virtual one (i.e. Augmented Reality).",
+            "While <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style> allow for many proximity-based mechanics, <style=\"CurrentLink\">Hybrid Gameplay Spaces</style> allows for the very specific <style=\"Link\"><link=\"player-avatar-proximity\">Player-Avatar Proximity</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The use of <style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style> required for <style=\"CurrentLink\">Hybrid Gameplay Spaces</style> make games with this pattern open to having <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style> whether intentionally or not. It likewise opens up for the possibility of having <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> although if this is practically possible depends on the specific gameplay actions contained in the game.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"real-world-gameplay-spaces\">Real World Gameplay Spaces</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"player-avatar-proximity\">Player-Avatar Proximity</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "extra-game-input",
+            "pervasive-gameplay"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "real-world-gameplay-spaces"
+        ],
+        "modulated_by" : [
+            "player-avatar-proximity"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

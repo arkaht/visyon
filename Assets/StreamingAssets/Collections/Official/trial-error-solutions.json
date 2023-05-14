@@ -1,0 +1,57 @@
+{
+    "name" : "Trial and Error Solutions",
+    "categories" : [
+        "Dynamic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay solutions that can be found by going through all possible solutions.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay solutions that can be found by going through all possible solutions.</style>",
+            "Some challenges in games consists of finding a specific solution. When players are presented with an explicit collection of solutions to test, this allows them to engage in trial by error examination of them and makes the games have <style=\"CurrentLink\">Trial and Error Solutions</style> to problems.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Puzzles\">Puzzles</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Jigsaw%20Puzzles\">Jigsaw Puzzles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Peg%20Solitaire\">Peg Solitaire</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tangram\">Tangram</link></style> let players experiment with partial or whole solutions until the right one is found. The combat system in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Secret%20of%20Monkey%20Island%20series\">The Secret of Monkey Island series</link></style> makes use of insults where players need to know the proper responses. They can be learn by trying various ones presented as options (and by being on the receiving end of them).",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Who%20Wants%20to%20Be%20a%20Millionaire?\">Who Wants to Be a Millionaire?</link></style> doesn't provide <style=\"CurrentLink\">Trial and Error Solutions</style> even if it is a multiple choice quiz games since players only have one chance. The same applies to multiple choice questions in some versions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trivial%20Pursuit\">Trivial Pursuit</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Designing <style=\"CurrentLink\">Trial and Error Solutions</style> consists of creating problems, puzzles, or challenges which have several potential solutions and letting players be aware of all these so they can be tested. A typical case of this is <style=\"Link\"><link=\"quizzes\">Quizzes</link></style> using multiple choice questions. ",
+            "The use of <style=\"CurrentLink\">Trial and Error Solutions</style> can make <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> easier as well as limiting <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style> while still providing it.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Trial and Error Solutions</style> can often give rise to <style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style>. They may also create <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> and <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style> if players are not systematical when testing the solutions. When they instead are, the pattern works against <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> and <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>. The work against <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style> not only by most times only have one solution that can be re-used but also that using trial-by-error methodology may simply be the best way to find the solution also.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"quizzes\">Quizzes</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "lucky-guess-solutions",
+            "performance-uncertainty",
+            "player-unpredictability"
+        ],
+        "modulates" : [
+            "puzzle-solving",
+            "solution-uncertainty"
+        ],
+        "instantiated_by" : [
+            "quizzes"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "further-player-improvement-potential",
+            "performance-uncertainty",
+            "player-unpredictability"
+        ]
+    }
+}

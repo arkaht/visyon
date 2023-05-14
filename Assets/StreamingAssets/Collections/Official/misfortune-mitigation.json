@@ -1,0 +1,61 @@
+{
+    "name" : "Misfortune Mitigation",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Randomness Patterns"
+    ],
+    "texts" : {
+        "definition" : "The possibility for players to take actions that lower the risk of misfortune for them.",
+        "markups" : [
+            "<style=\"Definition\">The possibility for players to take actions that lower the risk of misfortune for them.</style>",
+            "Many games put players in situations where results affecting them are depending on randomness. Such games provide <style=\"CurrentLink\">Misfortune Mitigation</style> if they allow players to do actions that specifically counter these results or let them minimize the risk through how they perform the actions or in which order they perform them.",
+            "<style=\"H3\">Examples</style>",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style> players can choose which order to perform the actions of their team members. This supports <style=\"CurrentLink\">Misfortune Mitigation</style> since several types of results cause turns to end and skilful players can perform all safe actions first and then take actions according to their potential risks. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> let player characters start with a number of <i>Fate Points</i>. These can be used let players survive situations - often caused by unlucky rolls - which would otherwise kill them. Some versions of the game also provide <i>Fortune Points</i> which players can used to reroll dice rolls, providing another lay of <style=\"CurrentLink\">Misfortune Mitigation</style>.",
+            "Weaker examples of the pattern can be found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Yahtzee\">Yahtzee</link></style> and most <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style>-based games. This since players can either have additional chances to produce favorable results or can know which odds they have of future actions being in their favor. However, these are weak examples since they depend of players perceiving initial results as \"unlucky\" and the <style=\"CurrentLink\">Misfortune Mitigation</style> may mostly be about not risking worse results in the future.",
+            "<style=\"H2\">Using the pattern</style>",
+            "There are three main ways of letting players perform <style=\"CurrentLink\">Misfortune Mitigation</style> in a game. One is through providing <style=\"Link\"><link=\"fixed-distributions\">Fixed Distributions</link></style> since then players can have better knowledge of the risks of performing actions as the results occur during gameplay. A second way is through providing them with ways of having <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, i.e. providing players with the chance of getting a better result when misfortune strikes. A third way, only possible when players need to perform many different actions that all have potential for misfortune, is to let players have a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> in which order to perform the actions. Common to all these ways are that they typically do not guarantee avoiding the bad results. While <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style> is a form of <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, other forms of this pattern (for example <i>Fate Points</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">WFRP</link></style>) can guarantee avoidance.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Misfortune Mitigation</style> rather naturally affects <style=\"Link\"><link=\"randomness\">Randomness</link></style> in a game, and also affects <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> when the mitigation can be done before the misfortune occurs. More indirectly it can cause experiences of <style=\"Link\"><link=\"luck\">Luck</link></style> through letting players feel lucky that they could avoid the misfortune. However, it can also cause experiences of <style=\"Link\"><link=\"luck\">Luck</link></style> to disappear if one player's <style=\"Link\"><link=\"luck\">Luck</link></style> is another player's misfortune. ",
+            "The possibility of <style=\"CurrentLink\">Misfortune Mitigation</style> lets players have more <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>. Being able to do <style=\"CurrentLink\">Misfortune Mitigation</style> skillfully can be part of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> for a game (as it is arguably for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, ",
+            "<style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"luck\">Luck</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"fixed-distributions\">Fixed Distributions</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"luck\">Luck</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "gameplay-mastery",
+            "predictable-consequences"
+        ],
+        "modulates" : [
+            "luck",
+            "randomness",
+            "risk-reward"
+        ],
+        "instantiated_by" : [
+            "extra-chances",
+            "fixed-distributions",
+            "freedom-choice",
+            "fudged-results"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "luck"
+        ]
+    }
+}

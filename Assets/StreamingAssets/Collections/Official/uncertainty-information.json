@@ -1,0 +1,95 @@
+{
+    "name" : "Uncertainty of Information",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns"
+    ],
+    "texts" : {
+        "definition" : "The case when a player cannot be certain on the reliability of information he or she has.",
+        "markups" : [
+            "<style=\"Definition\">The case when a player cannot be certain on the reliability of information he or she has.</style>",
+            "Games provide different types of challenges to players. One of these can be that players do not have full certainty of what they know about the game state. Games that make use of this to challenge players make use of <style=\"CurrentLink\">Uncertainty of Information</style> to do so.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battleship\">Battleship</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stratego\">Stratego</link></style> both depend on a player not knowing the exact positions of the other players' piece. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diplomacy\">Diplomacy</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/So%20Long%20Sucker\">So Long Sucker</link></style> both depend on players not knowing how well they can trust other players since they most likely have hidden plans, in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style> it is not knowing what cards the other players have which provides <style=\"CurrentLink\">Uncertainty of Information</style> regarding their bets. ",
+            "<style=\"CurrentLink\">Uncertainty of Information</style> springs from not knowing where the other players are positioning their units in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients%20series\">Defense of the Ancients series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Command%20and%20Conquer%20series\">Command and Conquer series</link></style>. This also occurs in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style> and Sid Meier's <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> but here players also need to explore and colonize the world.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Uncertainty of Information</style> is typically added to games to provide <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style> or <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style>. It can also be used to make <style=\"Link\"><link=\"interferable-goals\">Interferable Goals</link></style> more likely to be interfered with or make players worry more about this happening. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style>, and <style=\"Link\"><link=\"randomness\">Randomness</link></style> are the generic methods to achieve <style=\"CurrentLink\">Uncertainty of Information</style> but many more specific ways exists. ",
+            "Since <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style> implies that not all players have all information, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style> guarantees that players will have <style=\"CurrentLink\">Uncertainty of Information</style> regarding some things. Related to this, <style=\"Link\"><link=\"information-passing\">Information Passing</link></style> can create uncertainty in itself (see for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chinese%20whispers\">Chinese whispers</link></style>) and players may engage in <style=\"Link\"><link=\"bluffing\">Bluffing</link></style> while communicating. In addition, the <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style> in themselves can provide errors and uncertainty to the communication. Players and <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style> can also create <style=\"CurrentLink\">Uncertainty of Information</style> through <style=\"Link\"><link=\"ambiguous-responses\">Ambiguous Responses</link></style>. ",
+            "<style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style> provides <style=\"CurrentLink\">Uncertainty of Information</style> regarding which player did what. What actions <style=\"Link\"><link=\"enemies\">Enemies</link></style> will do can also have a level of uncertainty when these are decided at least partly by <style=\"Link\"><link=\"randomness\">Randomness</link></style>. <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> applies <style=\"CurrentLink\">Uncertainty of Information</style> to what people know about of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. ",
+            "While <style=\"Link\"><link=\"randomness\">Randomness</link></style> in general can introduce <style=\"CurrentLink\">Uncertainty of Information</style>, <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> is a specific case which both can have a guaranteed distribution over time and use <style=\"Link\"><link=\"stack-seeding\">Stack Seeding</link></style> for more precise uncertainty. <style=\"Link\"><link=\"feigned-die-rolls\">Feigned Die Rolls</link></style> is an option for <style=\"Link\"><link=\"dice\">Dice</link></style> where players cannot be certain that the results are based on <style=\"Link\"><link=\"randomness\">Randomness</link></style>. ",
+            "While <style=\"Link\"><link=\"outcome-indicators\">Outcome Indicators</link></style> can work against <style=\"CurrentLink\">Uncertainty of Information</style>, they themselves can be modified to have <style=\"CurrentLink\">Uncertainty of Information</style>. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style> is a way of providing <style=\"CurrentLink\">Uncertainty of Information</style> in games since players know not more about the game state or <style=\"Link\"><link=\"game-worlds\">World</link></style> than what their <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> provides.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Ability\">Limited Planning Ability</link></style> and <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style> are two typically consequences of players having <style=\"CurrentLink\">Uncertainty of Information</style> since it adds uncertainty to things like <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style> and lessens <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>. This in turn can provide <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals, encourage <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> or <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, and generally increase <style=\"Link\"><link=\"tension\">Tension</link></style>. Another effect of this is that it makes <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style> situation unlikely to be noticed. Uncertainty of the position of <style=\"Link\"><link=\"enemies\">Enemies</link></style> provides players with the goal of <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>. ",
+            "<style=\"CurrentLink\">Uncertainty of Information</style> can provide the requirements for <style=\"Link\"><link=\"anonymous-actions\">Anonymous Actions</link></style> and <style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style>. It can partly through this also support <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style> and patterns related to this such as <style=\"Link\"><link=\"betrayal\">Betrayal</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Secret%20Alliances\">Secret Alliances</link></style>. ",
+            "Several patterns work against <style=\"CurrentLink\">Uncertainty of Information</style> simply because they provide information to players. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> are the patterns which most strongly does this, but other that do this to a lesser degree include <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"goal-indicators\">Goal Indicators</link></style>, <style=\"Link\"><link=\"outcome-indicators\">Outcome Indicators</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, and <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"anonymous-actions\">Anonymous Actions</link></style>, <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Ability\">Limited Planning Ability</link></style>, <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Secret%20Alliances\">Secret Alliances</link></style>, <style=\"Link\"><link=\"secret-resources\">Secret Resources</link></style>, <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"enemies\">Enemies</link></style></style>",
+            "<style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style>, <style=\"Link\"><link=\"outcome-indicators\">Outcome Indicators</link></style>, <style=\"Link\"><link=\"interferable-goals\">Interferable Goals</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ambiguous-responses\">Ambiguous Responses</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asymmetric%20Information\">Asymmetric Information</link></style>, <style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"communication-channels\">Communication Channels</link></style>, <style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style>, <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"enforced-player-anonymity\">Enforced Player Anonymity</link></style>, <style=\"Link\"><link=\"feigned-die-rolls\">Feigned Die Rolls</link></style>, <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Information\">Indirect Information</link></style>, <style=\"Link\"><link=\"information-passing\">Information Passing</link></style>, <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style> together with <style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Direct%20Information\">Direct Information</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"goal-indicators\">Goal Indicators</link></style>, <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style>, <style=\"Link\"><link=\"outcome-indicators\">Outcome Indicators</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, <style=\"Link\"><link=\"public-player-statistics\">Public Player Statistics</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anonymous-actions",
+            "betrayal",
+            "gain-information",
+            "game-world-exploration",
+            "limited-planning-ability",
+            "player-unpredictability",
+            "secret-alliances",
+            "secret-resources",
+            "solution-uncertainty",
+            "tension",
+            "reconnaissance"
+        ],
+        "modulates" : [
+            "delayed-effects",
+            "outcome-indicators",
+            "interferable-goals",
+            "predictable-consequences",
+            "stimulated-planning"
+        ],
+        "instantiated_by" : [
+            "ambiguous-responses",
+            "asymmetric-information",
+            "bluffing",
+            "communication-channels",
+            "detective-structures",
+            "drawing-stacks",
+            "enforced-player-anonymity",
+            "feigned-die-rolls",
+            "fog-war",
+            "imperfect-information",
+            "indirect-information",
+            "information-passing",
+            "non-player-help",
+            "randomness",
+            "enemies"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "direct-information",
+            "game-state-indicators",
+            "goal-indicators",
+            "kingmaker",
+            "outcome-indicators",
+            "perfect-information",
+            "predictable-consequences",
+            "progress-indicators",
+            "public-player-statistics"
+        ]
+    }
+}

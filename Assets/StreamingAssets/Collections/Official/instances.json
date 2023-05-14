@@ -1,0 +1,82 @@
+{
+    "name" : "Instances",
+    "categories" : [
+        "Patterns",
+        "Platform Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "Subparts of game worlds created specifically for groups of players as these parts are needed.",
+        "markups" : [
+            "<style=\"Definition\">Subparts of game worlds created specifically for groups of players as these parts are needed.</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> that support multiplayer games can have problems with too many players in the same place. This can both cause technical issues with too much communication needed between a server and many clients and cause gameplay balance issues. <style=\"CurrentLink\">Instances</style> is one way of solving this issue by creating isolated gameplay areas where a limited number of players may be. This can also ensure that players are guaranteed to interact with each other, something that may not occur if the game world is too large in comparison with the number of players.",
+            "Wikipedia has an entry for <i>Dungeon Instances</i> which discusses the same topic.",
+            "Note: <i>The use of <style=\"CurrentLink\">Instances</style> here is different from the concept of </i>game instances<i> in the component framework.</i>",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Everquest%20series\">Everquest series</link></style> make use of <style=\"CurrentLink\">Instances</style> to allow small groups of players to enter specific areas in attempt to complete quests.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Instances</style> are primarily used in <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style> with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> as a way of using <style=\"Link\"><link=\"game-servers\">Game Servers</link></style> more efficiently. The design of them have two main components: their content and their accessibility. For the first component, most of the aspects of <style=\"Link\"><link=\"levels\">Levels</link></style> apply with the differences that it is even more common to include <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>. The second component consists of deciding how many players are needed for <style=\"CurrentLink\">Instances</style> to be created which is typically handled through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Excluding%20Groups\">Excluding Groups</link></style>, and deciding if <style=\"CurrentLink\">Instances</style> are only available at certain times or with certain frequencies. <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> can be used to let players find each other and sign up for entering <style=\"CurrentLink\">Instances</style>.",
+            "The use of <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style> offers many of the consequences of <style=\"CurrentLink\">Instances</style> and may be an alternative design solution in games where player interaction is to be limited. <style=\"Link\"><link=\"phasing\">Phasing</link></style> can be used to create <style=\"CurrentLink\">Instances</style> but also to creates \"partial\" <style=\"CurrentLink\">Instances</style> in that some game elements are shared with other players but others are not.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "See consequences below.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Instances</style> are often used to house <style=\"Link\"><link=\"quests\">Quests</link></style> so that only a limited number of players are part of it. Besides allowing <style=\"Link\"><link=\"quests\">Quests</link></style> to be balanced against a certain number of players, it allows the game design to focus on these players as central to a set of self-contained <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Instances</style> are <style=\"Link\"><link=\"levels\">Levels</link></style> and <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> that players have the <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to try and enter. If players are allowed to enter them several times, they can provide <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>.",
+            "That they may require a certain number of players and players may wish to play together with others they know (or that belong to their own <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guild</link></style>), make <style=\"CurrentLink\">Instances</style> create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Appointments\">Appointments</link></style> for groups of players. This can also occur when the <style=\"CurrentLink\">Instances</style> are only available at certain times. The typical need to work together in <style=\"CurrentLink\">Instances</style> is in fact one of the driving forces behind creating <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style> so that players can plan, train, and enter <style=\"CurrentLink\">Instances</style> as <style=\"Link\"><link=\"teams\">Teams</link></style>.",
+            "That <style=\"CurrentLink\">Instances</style> are created, thrown away, and recreated make their influence have limited effect on the overall gameplay state, specifically it difficult to use them to support <style=\"Link\"><link=\"persistent-game-world-changes\">Persistent Game World Changes</link></style>. Further, that <style=\"CurrentLink\">Instances</style> can be accessed several times or by several different player groups and makes <style=\"CurrentLink\">Instances</style> clash with <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style> and create <style=\"Link\"><link=\"non-consistent-narration\">Non-Consistent Narration</link></style>. They typically also clash with <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> in that the mechanical aspects of <style=\"Link\"><link=\"enemies\">Enemies</link></style> and <style=\"Link\"><link=\"rewards\">Rewards</link></style> can become apparent when they are recreated multiple times. ",
+            "<style=\"Link\"><link=\"camping\">Camping</link></style> may occur whenever players cannot enter <style=\"CurrentLink\">Instances</style> at any time since they may gather close to their entrance. In <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style> where <style=\"CurrentLink\">Instances</style> need certain number of players, players may not know all the people they are playing with. This makes <style=\"CurrentLink\">Instances</style> create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pickup%20Groups\">Pickup Groups</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dynamic%20Alliances\">Dynamic Alliances</link></style>. These consequences, and the concentration of players during the actual gameplay provided in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/instances\">instances</link></style>, increases the likelihood of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> between players.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Appointments\">Appointments</link></style>, <style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"non-consistent-narration\">Non-Consistent Narration</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dynamic%20Alliances\">Dynamic Alliances</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pickup%20Groups\">Pickup Groups</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"phasing\">Phasing</link></style>, <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Excluding%20Groups\">Excluding Groups</link></style>, <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"persistent-game-world-changes\">Persistent Game World Changes</link></style>, <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "appointments",
+            "camping",
+            "extra-chances",
+            "guilds",
+            "inaccessible-areas",
+            "levels",
+            "non-consistent-narration",
+            "social-interaction",
+            "dynamic-alliances",
+            "pickup-groups"
+        ],
+        "modulates" : [
+            "game-servers",
+            "massively-multiplayer-online-games",
+            "persistent-game-worlds",
+            "quests"
+        ],
+        "instantiated_by" : [
+            "phasing",
+            "private-game-spaces"
+        ],
+        "modulated_by" : [
+            "boss-monsters",
+            "excluding-groups",
+            "game-lobbies",
+            "predetermined-story-structures",
+            "teams"
+        ],
+        "conflicts" : [
+            "persistent-game-world-changes",
+            "temporal-consistency",
+            "thematic-consistency"
+        ]
+    }
+}

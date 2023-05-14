@@ -1,0 +1,67 @@
+{
+    "name" : "Critical Hits",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Randomness Patterns"
+    ],
+    "texts" : {
+        "definition" : "Attacks that do significantly more damage than others, or have other special effects.",
+        "markups" : [
+            "<style=\"Definition\">Attacks that do significantly more damage than others, or have other special effects.</style>",
+            "Many games have combat as part of gameplay, and of those that do most make use of randomness to simulate the chaos and unpredictability of combat situations. However, many combat systems can even so become quite predictable and repetitious. This can be avoided by the use of <style=\"CurrentLink\">Critical Hits</style>: introducing a small chance that an ordinary hit instead becomes a critical one with added damage or other negative consequences for the target. ",
+            "Wikipedia and TV Tropes both have entries for <i>Critical hit</i>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rolemaster\">Rolemaster</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/RuneQuest\">RuneQuest</link></style> all have rules for <style=\"CurrentLink\">Critical Hits</style> in combat. Likewise, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> have <style=\"CurrentLink\">Critical Hits</style> and this has also been adopted by <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20Island\">Dead Island</link></style>.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "The <style=\"CurrentLink\">Critical Hits</style> present in early versions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> are actually not <style=\"CurrentLink\">Critical Hits</style> since they affect any combatant that have had all their wounds depleted.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Critical Hits</style> are created by introducing or modifying the use of <style=\"Link\"><link=\"randomness\">Randomness</link></style> in <style=\"Link\"><link=\"combat\">Combat</link></style>. Even if they are based on <style=\"Link\"><link=\"randomness\">Randomness</link></style>, the actual chance of getting critical hits are often based upon <style=\"Link\"><link=\"skills\">Skills</link></style>  level (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/H%C3%A2rnmaster\">Hârnmaster</link></style> are examples of this). Modifications to the chance can also depend on which <style=\"Link\"><link=\"weapons\">Weapons</link></style> are used, and which <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> have been installed on them. Although the simplest way of instantiating <style=\"CurrentLink\">Critical Hits</style> is to increase <style=\"Link\"><link=\"damage\">Damage</link></style> dealt with an attack, they can become more noteworthy by providing <style=\"Link\"><link=\"penalties\">Penalties</link></style> that cannot otherwise occur (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20Island\">Dead Island</link></style>). Such <style=\"Link\"><link=\"penalties\">Penalties</link></style> can relate to effects <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disruption%20of%20Focused%20Attention\">Disruption of Focused Attention</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style>, <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>, and <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> besides any loss of <style=\"Link\"><link=\"health\">Health</link></style>. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Critical Hits</style> are a subcategory of <style=\"Link\"><link=\"critical-successes\">Critical Successes</link></style> and thereby a type of <style=\"Link\"><link=\"critical-results\">Critical Results</link></style>; depending on how unlikely they are to occur they can cause <style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style>. They introduce or increases the chances of players being able to feel <style=\"Link\"><link=\"luck\">Luck</link></style> while being in <style=\"Link\"><link=\"combat\">Combat</link></style> (at least as long as they are the one getting <style=\"CurrentLink\">Critical Hits</style> and not being hit by them). These hits can provide additional - and maybe unique - <style=\"Link\"><link=\"penalties\">Penalties</link></style> to a <style=\"Link\"><link=\"combat\">Combat</link></style> system but can also work against that system having <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>. Since the introduce more aspects of <style=\"Link\"><link=\"randomness\">Randomness</link></style> to <style=\"Link\"><link=\"combat\">Combat</link></style>, they work against the <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> that gameplay based on more player skill promotes.",
+            "<style=\"CurrentLink\">Critical Hits</style> are the opposite to <style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style>, but have a connection since what is a <style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style> to one combatant can be perceived as a luck break for the other side.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"critical-results\">Critical Results</link></style>, <style=\"Link\"><link=\"critical-successes\">Critical Successes</link></style>, <style=\"Link\"><link=\"exceptional-events\">Exceptional Events</link></style>, <style=\"Link\"><link=\"luck\">Luck</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"randomness\">Randomness</link></style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style> and <style=\"Link\"><link=\"health\">Health</link></style> and either <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Disruption%20of%20Focused%20Attention\">Disruption of Focused Attention</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style>, <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>, or <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "critical-results",
+            "critical-successes",
+            "exceptional-events",
+            "luck",
+            "penalties"
+        ],
+        "modulates" : [
+            "combat",
+            "damage"
+        ],
+        "instantiated_by" : [
+            "randomness",
+            "damage"
+        ],
+        "modulated_by" : [
+            "skills",
+            "tools",
+            "upgrades",
+            "weapons"
+        ],
+        "conflicts" : [
+            "critical-misses",
+            "predictable-consequences",
+            "performance-uncertainty"
+        ]
+    }
+}

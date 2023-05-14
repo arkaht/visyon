@@ -1,0 +1,54 @@
+{
+    "name" : "Contextualization",
+    "categories" : [
+        "Narration Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Scenes that interrupt and contextualize an ongoing scene by presenting information relevant to the current situation.",
+        "markups" : [
+            "<style=\"Definition\">Scenes that interrupt and contextualize an ongoing scene by presenting information relevant to the current situation.</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> typically try to avoid have information given to players about the events without these being enacted. <style=\"CurrentLink\">Contextualization</style> is a technique that allows players to enact flashbacks or <i>flashforwards</i> that interrupt the current scene to present additional information about it.",
+            "<style=\"H3\">Examples</style>",
+            "The <i>Black Box</i> technique in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> is an archetypal example of <style=\"CurrentLink\">Contextualization</style>. The <i>Make a Speech</i> technique used in the LARP Joakim shows a public example of contextualization; when players initiate a speech to the absent former classmate Joakim the rule stipulate that the characters hear this speech but the players tell the other players a memory about how they mistreated him. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "The prime design question regarding the use of <style=\"CurrentLink\">Contextualization</style> is when the <style=\"Link\"><link=\"scenes\">Scenes</link></style> the contextualization should be initialized. Other questions relate to if players can initiate the <style=\"CurrentLink\">Contextualizations</style> or if only <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> or events begin them, if they should be flashbacks or \"flashforwards\", and if they should make use of other <style=\"Link\"><link=\"characters\">Characters</link></style>.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Contextualization</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Narration%20Patterns\">Narration Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Contextualization</style> is a <style=\"Link\"><link=\"meta-techniques\">Meta-Technique</link></style> using whole <style=\"Link\"><link=\"scenes\">Scenes</link></style> as its format, thereby both creating <style=\"Link\"><link=\"scenes\">Scenes</link></style> and modifying existing ones. It can easily break <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style> by having the <style=\"Link\"><link=\"scenes\">Scenes</link></style> take place in the past or future of what is \"currently\" happening in a game instance. ",
+            "The use of the pattern modifies players' possibility of <style=\"Link\"><link=\"enactment\">Enactment</link></style> in that they can portray <style=\"Link\"><link=\"characters\">Characters</link></style> at other times or even other <style=\"Link\"><link=\"characters\">Characters</link></style> that are relevant to the narration.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"meta-techniques\">Meta-Techniques</link></style>, <style=\"Link\"><link=\"scenes\">Scenes</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"Link\"><link=\"scenes\">Scenes</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "meta-techniques",
+            "scenes"
+        ],
+        "modulates" : [
+            "characters",
+            "enactment",
+            "scenes"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "temporal-consistency"
+        ]
+    }
+}

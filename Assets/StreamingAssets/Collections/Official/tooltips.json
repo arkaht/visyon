@@ -1,0 +1,66 @@
+{
+    "name" : "Tooltips",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns",
+        "Information Patterns"
+    ],
+    "texts" : {
+        "definition" : "Additional information presented when players have focused on a game element.",
+        "markups" : [
+            "<style=\"Definition\">Additional information presented when players have focused on a game element.</style>",
+            "Providing players with the right amount of information can be problematic in games, since giving either too much or too little can work against an optimal gameplay experience. Computer-based games have an opportunity regarding this that other game forms do not have; they can ",
+            "This pattern is a still a stub.",
+            "<i>Note:</i> this pattern exists in many design pattern collections for interaction design. However, being related quite specifically to information it can affect gameplay more directly than other interaction design patterns.",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> provide <style=\"CurrentLink\">Tooltips</style> regarding the resource generator of terrain when players let mouse pointers hover over them.",
+            "Most of the game elements in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts%20of%20Iron%20series\">Hearts of Iron series</link></style> show some <style=\"CurrentLink\">Tooltips</style> when focused upon.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> makes use of <style=\"CurrentLink\">Tooltips</style> as well, but allows players to choose from having <i>beginner</i> <style=\"CurrentLink\">Tooltips</style> or ordinary ones.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Tooltips</style> are a way of providing information to players in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> by adding text overlays on things they focus upon, so they imply a use of <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>. Besides deciding what game elements should have <style=\"CurrentLink\">Tooltips</style> and what information should be provided, the main design choice in implementing the pattern is how long time one has to focus before the <style=\"CurrentLink\">Tooltips</style> are shown. What players are focused upon is usually a simple case of checking what their <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> or <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> are pointing at.",
+            "While <style=\"CurrentLink\">Tooltips</style> in games typically provide information about the gameplay, they may also provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style> regarding the game interface or other ways of playing the game.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Tooltips</style> is both an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Information%20Patterns\">Information</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. However, the appropriate time before showing <style=\"CurrentLink\">Tooltips</style> can vary depending on the type of gameplay and a distinction can be made between presenting only <style=\"CurrentLink\">Tooltips</style> for game elements or for interface components such as menus and buttons.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Tooltips</style> provide <style=\"Link\"><link=\"clues\">Clues</link></style> to players and can help players handle <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>. They modify how <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> or <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> work by making them tools for getting more explicit information from games, even if this comes at the cost of introducing ephemeral <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style> and thereby potentially breaking <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>. By doing so they can let players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>, as well as letting game designers have concrete ways to share their <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> to them. This <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> can in turn encourage players to engage in <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>, <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style></style>",
+            "<style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style>, <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "clues",
+            "extra-game-information",
+            "non-diegetic-features",
+            "smooth-learning-curves",
+            "strategic-planning"
+        ],
+        "modulates" : [
+            "complex-gameplay",
+            "crosshairs",
+            "god-fingers",
+            "strategic-knowledge"
+        ],
+        "instantiated_by" : [
+            "mediated-gameplay"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "diegetic-consistency"
+        ]
+    }
+}

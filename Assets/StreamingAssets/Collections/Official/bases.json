@@ -1,0 +1,70 @@
+{
+    "name" : "Bases",
+    "categories" : [
+        "Mechanical Patterns",
+        "Diegetic Patterns",
+        "Level Design Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Immovable game elements that provide players with actions or resources.",
+        "markups" : [
+            "<style=\"Definition\">Immovable game elements that provide players with actions or resources.</style>",
+            "Some actions are resources in games are localized to occur at specific points in game worlds. <style=\"CurrentLink\">Bases</style> are game elements that provide these and often can be modified, constructed, or destroyed as part of gameplay. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Bases</style> exist in all <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> in the form of cities. Provinces in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style> can be seen as <style=\"CurrentLink\">Bases</style> as well, but this is a weaker example since these are entire regions of the game world.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Bases</style> are used in games to provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> and <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, quite often some which have to do with <style=\"Link\"><link=\"area-control\">Area Control</link></style> and <style=\"Link\"><link=\"combat\">Combat</link></style>. Another use which builds upon these basic uses are to let players affect <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style> and <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> (in the case of <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> their <style=\"Link\"><link=\"construction\">Construction</link></style> may create new <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>). <style=\"Link\"><link=\"territories\">Territories</link></style> can be used instead of <style=\"CurrentLink\">Bases</style> in many cases, see for example how empty provinces can be colonized and owned ones can be improved in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style>, or a combination of both can be used. ",
+            "The design choices related to <style=\"CurrentLink\">Bases</style> concern what <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style> they should provide and if <style=\"Link\"><link=\"construction\">Construction</link></style> of them is possible, and in that case what is required to do so. <style=\"CurrentLink\">Bases</style> typically have <style=\"Link\"><link=\"characteristics\">Characteristics</link></style> related to their abilities. In this case they are, or are part of <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style> and can have <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Bases</style> are complex <style=\"Link\"><link=\"installations\">Installations</link></style> with <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. They are often also <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> or <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style> or built where these exist, and in general create <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> unless these already existed where they were built. Creating one gives <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> while existing ones provide <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals to players that don't own it. The building of <style=\"CurrentLink\">Bases</style> can signify <style=\"Link\"><link=\"expansion\">Expansion</link></style> phases while putting them to best use can signify <style=\"Link\"><link=\"exploitation\">Exploitation</link></style> phases.",
+            "The existence of <style=\"CurrentLink\">Bases</style>, or ability to build such, are likely to affect any <style=\"Link\"><link=\"laning\">Laning</link></style> phase present in a game.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"expansion\">Expansion</link></style>, <style=\"Link\"><link=\"exploitation\">Exploitation</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style>, <style=\"Link\"><link=\"laning\">Laning</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"abstract-player-construct-development\">Abstract Player Construct Development</link></style>, <style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"characteristics\">Characteristics</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "expansion",
+            "exploitation",
+            "installations",
+            "location-fixed-abilities",
+            "ownership",
+            "gain-ownership",
+            "resource-generators",
+            "resource-locations",
+            "strategic-locations"
+        ],
+        "modulates" : [
+            "choke-points",
+            "game-worlds",
+            "strategic-locations",
+            "strongholds",
+            "laning"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "abstract-player-constructs",
+            "abstract-player-construct-development",
+            "area-control",
+            "characteristics",
+            "combat",
+            "construction"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

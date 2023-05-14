@@ -1,0 +1,57 @@
+{
+    "name" : "Memory of Important Events",
+    "categories" : [
+        "Patterns",
+        "Agent Patterns"
+    ],
+    "texts" : {
+        "definition" : "The ability of agents in games to show that they can recollect important events that took place during gameplay.",
+        "markups" : [
+            "<style=\"Definition\">The ability of agents in games to show that they can recollect important events that took place during gameplay.</style>",
+            "The people and other entities depicted as conscious beings in games need to have certain abilities to be perceived as social believable. One of these is being able to show that they can recall and emotionally respond to events that took place during gameplay. Those that can do this can be said to have a <style=\"CurrentLink\">Memory of Important Events</style>.",
+            "<style=\"H3\">Examples</style>",
+            "The leaders in the later editions of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> remembers how players react to offers and demands, e.g. fighting the same enemy and not accepting a request to stop trading with another nation’s enemies. Although not characters per se, countries in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%20series\">Europa Universalis series</link></style> modify their relation to each other based upon many different types of events, e.g. honoring calls to war by allied, liberating occupied provinces, incorporating vassals, and breaking royal marriages. Due to the long time scale of the games the modifiers decrease over time with different rates depending on how transient they are, but some (like creating a new countries as part of a peace treaty) can last up to a century.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/UFO%20series\">UFO Afterlight</link></style> shows a weak example of <style=\"CurrentLink\">Memory of Important Events</style> in that the game keeps track of which characters took part in a few important events such as opening a teleportation portal. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Memory of Important Events</style> is a pattern applied to <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> that are to act as <style=\"Link\"><link=\"agents\">Agents</link></style>. It can easily be provided by <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> but <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> do need algorithms related to noticing which events are important, remembering them, and being able to recollect and react to them at appropriate times. This means that while this pattern modulates <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> it is also implemented through the pattern <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>.",
+            "While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cut%20Scenes\">Cut Scenes</link></style> may make <style=\"Link\"><link=\"agents\">Agents</link></style> act out the remembering of events, either the remembering needs to be very general or the events remembers also need to be provided through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cut%20Scenes\">Cut Scenes</link></style>. In addition, players are rather likely to see the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cut%20Scenes\">Cut Scenes</link></style> as something told by the game rather than the <style=\"Link\"><link=\"agents\">Agents</link></style> recollecting events.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Memory of Important Events</style> can through supporting <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style> and <style=\"Link\"><link=\"sense-self\">Sense of Self</link></style> help games have <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Memory of Important Events</style> can create the appearance of both <style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style> and <style=\"Link\"><link=\"sense-self\">Sense of Self</link></style> for <style=\"Link\"><link=\"agents\">Agents</link></style>. It can also modulate <style=\"Link\"><link=\"awareness-surroundings\">Awareness of Surroundings</link></style> in that the <style=\"Link\"><link=\"agents\">Agents</link></style> can show knowledge of what has happened in the environment.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"own-agenda\">Own Agenda</link></style>, <style=\"Link\"><link=\"sense-self\">Sense of Self</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style>, <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"awareness-surroundings\">Awareness of Surroundings</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "own-agenda",
+            "sense-self"
+        ],
+        "modulates" : [
+            "agents",
+            "algorithmic-agents",
+            "awareness-surroundings",
+            "non-player-characters"
+        ],
+        "instantiated_by" : [
+            "algorithmic-agents",
+            "game-masters"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

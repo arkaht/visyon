@@ -1,0 +1,92 @@
+{
+    "name" : "Destructible Objects",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game Items that can be destroyed.",
+        "markups" : [
+            "<style=\"Definition\">Game Items that can be destroyed.</style>",
+            "Destroying things are a common activity in games, especially in computer games. This may because they pose a threat, that block access to a reward, or simply because they are there but in all cases there needs to exist <style=\"CurrentLink\">Destructible Objects</style> in the games for the activity to be possible. Not all destruction of object in games need to be due to intentional action, \"natural\" effects such as erosion, wear and tear, weathering, and explosive reactions can all cause destruction as well.",
+            "''Note: this pattern doesn't discuss the \"destruction\" of game elements that are <style=\"Link\"><link=\"agents\">Agents</link></style>, e.g. <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>, and <style=\"Link\"><link=\"characters\">Characters</link></style>. See those specific patterns for details about this.''",
+            "<style=\"H3\">Examples</style>",
+            "Through wear and tear, equipment in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style> slowly deteriorate to the point where they are functionally destroyed.",
+            "It is a genre feature to include explosive barrels in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> like the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bioshock%20series\">Bioshock</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crysis%20series\">Crysis</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo</link></style> series, as well as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo series</link></style> also have exploding barrels. See the Giant Bomb site for an article with a list of 180+ games with exploding barrels. The ruined nuclear-powered cars found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%203\">Fallout 3</link></style> can be set on fire which results in them exploding in a mushroom cloud soon afterwards.",
+            "The vehicles and installations that players can make use of in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> can be targeted and destroyed by other players, only to later respawn to ensure that there is a constant availability of both vehicles and installations in the game. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crysis\">Crysis</link></style> also contain destructible vehicles and allows for the destruction of forests and some types of buildings, while the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Red%20Faction%20series\">Red Faction series</link></style> goes further in this by having all buildings (and in earlier version all terrain) destructible as well; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> allow destruction of their game worlds in an even more fundamental level. The buildings in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Greed%20Corp\">Greed Corp</link></style> cannot be destroyed by using \"harvesters\" erode the tiles that gameplay occurs on, making the game world smaller as gameplay progresses. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Destructible Objects</style> are with few exceptions <style=\"Link\"><link=\"game-items\">Game Items</link></style> that can by some means be destroyed, e.g. by receiving <style=\"Link\"><link=\"damage\">Damage</link></style>. Any type of <style=\"Link\"><link=\"game-items\">Game Items</link></style> may be the source, although <style=\"Link\"><link=\"weapons\">Weapons</link></style> and <style=\"Link\"><link=\"armor\">Armor</link></style> are common (through <style=\"Link\"><link=\"deterioration\">Deterioration</link></style> as for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> or the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>) as is <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> and <style=\"Link\"><link=\"installations\">Installations</link></style> in games which these occur in (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>). <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> are another option - letting these be <style=\"CurrentLink\">Destructible Objects</style> lets players choose between going around them or using some effort to destroy them. The destructions may be instantaneous or <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style>, and they may cause <style=\"Link\"><link=\"damage\">Damage</link></style> to those close by as well as creating <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> when they are destroyed. A general option when considering having <style=\"CurrentLink\">Destructible Objects</style> is if they should later reappear through <style=\"Link\"><link=\"spawning\">Spawning</link></style>.",
+            "Deciding on the allowed causes for destruction is part of creating <style=\"CurrentLink\">Destructible Objects</style>. Action tied to <style=\"Link\"><link=\"combat\">Combat</link></style>, e.g. <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, are obvious possibilities but the <style=\"Link\"><link=\"deterioration\">Deterioration</link></style> from wear and tear opens up for adding <style=\"Link\"><link=\"resource-management\">Resource Management</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maintenance\">Maintenance</link></style> as part of game designs. Conceivably, <style=\"Link\"><link=\"penalties\">Penalties</link></style> can also be the causes. <style=\"Link\"><link=\"health\">Health</link></style> can be applied to the <style=\"CurrentLink\">Destructible Objects</style> to allow them to survive several attacks or to allow varying amount of <style=\"Link\"><link=\"damage\">Damage</link></style> to be given by attacks. <style=\"CurrentLink\">Destructible Objects</style> ''can' be designed to have <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>, but this typically only makes sense if common rules for how all game objects of one type can be destroyed, otherwise it makes more sense to see <style=\"CurrentLink\">Destructible Objects</style> as game objects with specific <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>.",
+            "Mirroring the previous decision is deciding why players should be motivated to destroy the <style=\"CurrentLink\">Destructible Objects</style>. Making them into <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals is a trivial solution, but making <style=\"Link\"><link=\"loot\">Loot</link></style> appear when destruction occurs (as for example is done in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style>) invite players to choose to have the goal. For <style=\"CurrentLink\">Destructible Objects</style> that are <style=\"Link\"><link=\"traps\">Traps</link></style>, destroying them may be a way of eliminating the threat they represent but this also allows <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> to use them against <style=\"Link\"><link=\"enemies\">Enemies</link></style> (which is a common use in for example the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Doom%20series\">Doom</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Half-Life%20series\">Half-Life series</link></style>). If the <style=\"CurrentLink\">Destructible Objects</style> create <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> when destroyed this can result in <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> emerging during gameplay.",
+            "The pattern of <style=\"Link\"><link=\"parallel-lives\">Parallel Lives</link></style> is created by connecting one player's <style=\"Link\"><link=\"lives\">Lives</link></style> to a set of <style=\"CurrentLink\">Destructible Objects</style> that all are at risk simultaneously.",
+            "A special case of <style=\"CurrentLink\">Destructible Objects</style> are possible in games created from <style=\"Link\"><link=\"tiles\">Tiles</link></style>. In these the <style=\"Link\"><link=\"tiles\">Tiles</link></style> can be <style=\"CurrentLink\">Destructible Objects</style>, see for example <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Forbidden%20Island\">Forbidden Island</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Greed%20Corp\">Greed Corp</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hey!%20That's%20My%20Fish!\">Hey! That's My Fish!</link></style>, and this can lead to <style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "That game elements are <style=\"CurrentLink\">Destructible Objects</style> is one way to have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Element%20Removal\">Game Element Removal</link></style> while maintaining <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>. However, the remains from the <style=\"Link\"><link=\"game-items\">Game Items</link></style> are typically dispense of in a not-to-realistic animation fading these away - this does however not disturb <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style> since these are <style=\"Link\"><link=\"props\">Props</link></style> which players learn to not notice.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Destructible Objects</style> change how players have to relate to <style=\"Link\"><link=\"game-items\">Game Items</link></style> and through this how they have to relate to <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. The latter may be more obvious for <style=\"Link\"><link=\"game-items\">Game Items</link></style> that can be destroyed in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> rather that when in players' <style=\"Link\"><link=\"inventories\">Inventories</link></style> but the destruction of worn or wielded items are due to interaction with, or effects of, the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. When the actual destruction takes place sometime after the action that triggered the destruction, i.e. being a <style=\"Link\"><link=\"delayed-effects\">Delayed Effect</link></style>, this gives players <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>.",
+            "When <style=\"CurrentLink\">Destructible Objects</style> cause <style=\"Link\"><link=\"damage\">Damage</link></style> this makes them possible to use to create <style=\"Link\"><link=\"traps\">Traps</link></style>; this can also be the effect if they are destroyed simply by coming in contact with them if this causes avalanches, falls, or floods.",
+            "The destruction of <style=\"CurrentLink\">Destructible Objects</style> leads to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Element%20Removal\">Game Element Removal</link></style>, with the possible appearance of <style=\"Link\"><link=\"loot\">Loot</link></style>. This makes <style=\"CurrentLink\">Destructible Objects</style> natural targets for <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals. When the objects do not reappear due to <style=\"Link\"><link=\"spawning\">Spawning</link></style>, this make the destruction of them into <style=\"Link\"><link=\"persistent-game-world-changes\">Persistent Game World Changes</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"parallel-lives\">Parallel Lives</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"persistent-game-world-changes\">Persistent Game World Changes</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"obstacles\">Obstacles</link></style></style>",
+            "<style=\"Link\"><link=\"choke-points\">Choke Points</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"tiles\">Tiles</link></style></style>",
+            "<style=\"Link\"><link=\"shrinking-game-worlds\">Shrinking Game Worlds</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"traps\">Traps</link></style></style>",
+            "<style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"deterioration\">Deterioration</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Element%20Removal\">Game Element Removal</link></style>, <style=\"Link\"><link=\"loot\">Loot</link></style>, <style=\"Link\"><link=\"props\">Props</link></style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "parallel-lives",
+            "eliminate",
+            "persistent-game-world-changes",
+            "thematic-consistency",
+            "traps",
+            "anticipation",
+            "choke-points",
+            "shrinking-game-worlds",
+            "tactical-planning"
+        ],
+        "modulates" : [
+            "armor",
+            "game-items",
+            "game-worlds",
+            "obstacles",
+            "tiles",
+            "traps",
+            "weapons"
+        ],
+        "instantiated_by" : [
+            "aim-shoot",
+            "combat",
+            "deterioration",
+            "penalties",
+            "vulnerabilities"
+        ],
+        "modulated_by" : [
+            "damage",
+            "delayed-effects",
+            "health",
+            "invulnerabilities",
+            "lives",
+            "obstacles",
+            "spawning"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

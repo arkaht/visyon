@@ -1,0 +1,62 @@
+{
+    "name" : "Legacy Games",
+    "categories" : [
+        "Patterns",
+        "Gameplay Arc Patterns",
+        "Mechanical Patterns",
+        "Meta Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games where some consequences from game instances have permanent effects on future game instances.",
+        "markups" : [
+            "<style=\"Definition\">Games where some consequences from game instances have permanent effects on future game instances.</style>",
+            "Part of what makes a game recognizable as a game is that is the same each time it is played. Game components may experience wear and tear and players may learn how to play a game better, but these things are typically not considered part of that game. Some games, <style=\"CurrentLink\">Legacy Games</style>, however do have explicit rules on how the game should be permanently changed due to gameplay events so that the game will be different the next time it is played. They are still recognizable as the same game due to having a core set of rules which aren't changed. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk%20Legacy\">Risk Legacy</link></style> is the game that popularized the concept of <style=\"CurrentLink\">Legacy Games</style>, and one of the designers of that game, Rob Daviau, has also create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Seafall\">Seafall</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic%20Legacy%20series\">Pandemic Legacy series</link></style> together with others using the same pattern. Another popular example of a <style=\"CurrentLink\">Legacy Game</style> is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gloomhaven\">Gloomhaven</link></style>.",
+            "While <style=\"CurrentLink\">Legacy Games</style> typically are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style>, they can be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> also. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Execution\">Execution</link></style> is probably one of the most minimalistic computer-based <style=\"CurrentLink\">Legacy Games</style> possible. In this game there is only one action one can do to change the game state and performing this action will make a permanent change to what one can do in future game instances.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> change over time as they are played, these are changes between play instances rather than between game instances. New expansions, campaigns, or adventures can typically also be added over time, but these are not due to consequences of the rules in the games.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main requirement of <style=\"CurrentLink\">Legacy Games</style> is that permanent changes are made to the game during game instances so that the game instances that follow will be different. This means that some use of <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> is a fundamental building block for <style=\"CurrentLink\">Legacy Games</style>. While any change to rules or game components can be used, the use of <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style> is quite common with the specific features that the insertion is permanent and that the inserted game elements aren't considered part of the game before the insertion is done. More specifically, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gloomhaven\">Gloomhaven</link></style> uses both <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> and <style=\"Link\"><link=\"card-building\">Card Building</link></style> as player can exchange which <style=\"Link\"><link=\"cards\">Cards</link></style> they use and modify the <style=\"Link\"><link=\"cards\">Cards</link></style> by enchanting them. ",
+            "While <style=\"CurrentLink\">Legacy Games</style> do need to change over time, they also need to have a core set of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Immutable%20Rules\">Immutable Rules</link></style>. If they do not, it can become impossible to consider a <style=\"CurrentLink\">Legacy Game</style> to be  the same game from the first game instance to the last one. While players may not need to know exactly all <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Immutable%20Rules\">Immutable Rules</link></style>, they do need to know enough to not feel changes occurring change the premise they perceived the game to have. ",
+            "<style=\"H3\">Interface Aspects</style>",
+            "One of the specific features of <style=\"CurrentLink\">Legacy Games</style> is that permanent changes are made to game copies between game instances.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Legacy Games</style> are by their nature <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>. Given that game instances change in content, <style=\"CurrentLink\">Legacy Games</style> support exploration, either in the form of <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> or in the form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/System%20Exploration\">System Exploration</link></style>. As soon as the changes concern rules, <style=\"CurrentLink\">Legacy Games</style> have <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/System%20Exploration\">System Exploration</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"card-building\">Card Building</link></style>, <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>, <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Immutable%20Rules\">Immutable Rules</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "evolving-rule-sets",
+            "game-world-exploration",
+            "meta-games",
+            "system-exploration"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "card-building",
+            "deck-building",
+            "extra-game-consequences",
+            "game-element-insertion",
+            "immutable-rules"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

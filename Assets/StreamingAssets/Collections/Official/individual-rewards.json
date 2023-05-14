@@ -1,0 +1,63 @@
+{
+    "name" : "Individual Rewards",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Rewards in a game which are only given to one player.",
+        "markups" : [
+            "<style=\"Definition\">Rewards in a game which are only given to one player.</style>",
+            "Games are typically set up so that there are rewards for certain actions or the completion of specific challenges. When these rewards are only given to one player - regardless if several players contributed - the rewards are <style=\"CurrentLink\">Individual Rewards</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "In single-player games the rewards are naturally <style=\"CurrentLink\">Individual Rewards</style>. For example, in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tetris\">Tetris</link></style> it is the player who performs the actions and fills in the rows who gets the reward.",
+            "Many multiplayer games that pitch players against each other have <style=\"CurrentLink\">Individual Rewards</style>. For example, in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diplomacy\">Diplomacy</link></style> the player that performs a successful attack conquers the area even though there might be several other players supporting this action with their own armies. Likewise, rewards associated with killing an enemy in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style> or death-match games of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style> are given to the player that dealt the final damage even if other players may have caused more total damage. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "Like other types of <style=\"Link\"><link=\"rewards\">Rewards</link></style>, designing <style=\"CurrentLink\">Individual Rewards</style> requires deciding on what specifically makes up the <style=\"Link\"><link=\"rewards\">Rewards</link></style> and when they should be given. Quite naturally, all <style=\"Link\"><link=\"rewards\">Rewards</link></style> in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> are <style=\"CurrentLink\">Individual Rewards</style> but they can be used for various reasons in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. First, they can increase <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> by giving clear indications between the difference of winning or losing specific gameplay activities. They can also decrease motivation or make more complex <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, and <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style>. ",
+            "For apparent reasons, the same <style=\"Link\"><link=\"rewards\">Rewards</link></style> cannot both be <style=\"CurrentLink\">Individual Rewards</style> and <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style>. However, <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style> can make <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style> into individual ones if players can renounce their right to parts of the <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Rather obviously, <style=\"CurrentLink\">Individual Rewards</style> is a type of <style=\"Link\"><link=\"rewards\">Reward</link></style>. <style=\"CurrentLink\">Individual Rewards</style> can cause <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> if a player can see that others, or a collective, could have greater benefit of the <style=\"Link\"><link=\"rewards\">Rewards</link></style> than the player could have. One such example is games in which there exists <style=\"Link\"><link=\"teams\">Teams</link></style> but team members are in <style=\"Link\"><link=\"races\">Races</link></style> with each other over <style=\"CurrentLink\">Individual Rewards</style>, this not only causes <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> but also <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>.",
+            "When combined with <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style> of <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>, <style=\"CurrentLink\">Individual Rewards</style> give rise to <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style> and <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style></style>",
+            "<style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"races\">Races</link></style> and <style=\"Link\"><link=\"teams\">Teams</link></style></style>",
+            "<style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "rewards",
+            "social-dilemmas",
+            "delayed-reciprocity",
+            "internal-rivalry"
+        ],
+        "modulates" : [
+            "collaborative-actions",
+            "competition",
+            "conflicts",
+            "cooperation",
+            "mutual-goals",
+            "single-player-games"
+        ],
+        "instantiated_by" : [
+            "altruistic-actions"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "shared-rewards"
+        ]
+    }
+}

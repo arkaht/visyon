@@ -1,0 +1,87 @@
+{
+    "name" : "Excluding Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Groups of goals with the characteristic that completing one makes completing the other impossible.",
+        "markups" : [
+            "<style=\"Definition\">Groups of goals with the characteristic that completing one makes completing the other impossible.</style>",
+            "Some goals in games exist in relations to each other so that the conditions required in the game state to fulfill one makes the completion of the others impossible. These makes the goals into <style=\"CurrentLink\">Excluding Goals</style>. These <style=\"CurrentLink\">Excluding Goals</style> can both be between different players and be internal to individual players. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/F-Zero%20series\">F-Zero series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gran%20Turismo%20series\">Gran Turismo series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Need%20for%20Speed%20series\">Need for Speed series</link></style> have <style=\"CurrentLink\">Excluding Goals</style> since the first player to finish a race makes the other players' goals invalid.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Wars:%20Knights%20of%20the%20Old%20Republic\">Star Wars: Knights of the Old Republic</link></style> is a single player adventure game, where finishing certain goals exclude other possible goals as the player character moves towards being good or evil.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Excluding Goals</style> can easily be created by taking one goal and constructing <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> around it. For example, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> together with <style=\"Link\"><link=\"stealth\">Stealth</link></style> or <style=\"Link\"><link=\"guard\">Guard</link></style> used together with <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"rescue\">Rescue</link></style>, or <style=\"Link\"><link=\"stealth\">Stealth</link></style> are explicit ways of creating <style=\"CurrentLink\">Excluding Goals</style>. However, <style=\"CurrentLink\">Excluding Goals</style> do not have to be of a preventing nature, as <style=\"Link\"><link=\"races\">Races</link></style> and <style=\"Link\"><link=\"overcome\">Overcome</link></style> goals are examples of goals being excluding but not necessarily preventing. However, in these cases <style=\"CurrentLink\">Excluding Goals</style> have to use <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> to ensure that only one player can have a certain position in the outcome of the game. Further, this requires that there must exist rules to determine the order in which the <style=\"CurrentLink\">Excluding Goals</style> exclude each other, typically the order in which they were completed but in some cases judged on how well the goals were completed. Making <style=\"CurrentLink\">Excluding Goals</style> of several <style=\"Link\"><link=\"committed-goals\">Committed Goals</link></style> forces players into considering the <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> between accepting the different goals.",
+            "<style=\"Link\"><link=\"role-selection\">Role Selection</link></style> is another way to create <style=\"CurrentLink\">Excluding Goals</style> in that the roles one can choose can have incompatible goals inherent in what is required by those roles.",
+            "<style=\"CurrentLink\">Excluding Goals</style> can be used to modify <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>. This assumes, of course, that the hierarchy is not linear. Goal hierarchies arranged in a tree-like structure are the most suitable for <style=\"CurrentLink\">Excluding Goals</style> as the exclusion can be easily implemented by just cutting of branches from the goal tree. Using the pattern in this manner implies the use of <style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style> for the goal information available to the players and also the use of a <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style> to allow the players to choose what goals they are pursuing.",
+            "<style=\"Link\"><link=\"evade\">Evade</link></style> goals can be design so they are affected indirectly by <style=\"CurrentLink\">Excluding Goals</style>. This is done by setting up <style=\"CurrentLink\">Excluding Goals</style> to those that cause the need of the <style=\"Link\"><link=\"evade\">Evade</link></style> goals, e.g. defeating <style=\"Link\"><link=\"enemies\">Enemies</link></style> that have <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals directed towards oneself. In these cases, fulfilling one's own part of the <style=\"CurrentLink\">Excluding Goals</style> group makes the other goals invalid and at the same time remove the need to <style=\"Link\"><link=\"evade\">Evade</link></style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "An important design decision regarding <style=\"CurrentLink\">Excluding Goals</style> is if players should clearly be presented with information about which goals exclude which other goals. While showing this may let players plan how they will strive for goals more easily, it may be difficult to combine with some narration elements (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> for example) and figuring out which goals are compatible with each other can be an aspect of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Excluding Goals</style> is a one way of creating <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>; the other goals simply fail when one is completed and this implicitly also creates a <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>. Because of this incompatibility, <style=\"CurrentLink\">Excluding Goals</style> make <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> impossible and raises the level of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> between the players and <style=\"Link\"><link=\"tension\">Tension</link></style> in general. <style=\"CurrentLink\">Excluding Goals</style> between players create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> between them and can become <style=\"Link\"><link=\"races\">Races</link></style>, e.g. when only one players can achieve a <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> goal. This <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> is because the success of one player becomes closely linked to the failure of the other players since <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style> don't exist. This also creates higher <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> situations compared to goals where players have do not have to compete against each other. <style=\"CurrentLink\">Excluding Goals</style> can also create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style> if the goals have sufficiently strong impact on the game.",
+            "The use of <style=\"CurrentLink\">Excluding Goals</style> within a <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style> only allows players to fulfill a subset of the possible goals when playing the game. This combination of patterns can promote <style=\"Link\"><link=\"replayability\">Replayability</link></style>, especially in games with detailed <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, as it leads to the possibility for players to traverse the narration in different ways, each leading to a different experience.",
+            "The use of <style=\"CurrentLink\">Excluding Goals</style> forms a natural starting point for defining <style=\"Link\"><link=\"closure-points\">Closure Points</link></style> as certain characteristics of the possible future game states are known when one of the Excluding Goals is completed. If the game state values needed by the excluded goals are not needed for the other goals in the game, the Closure Points may remove game elements no longer needed and make unnecessary action unavailable.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>, <style=\"Link\"><link=\"closure-points\">Closure Points</link></style>, <style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style>, <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"committed-goals\">Committed Goals</link></style></style>",
+            "<style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style></style>",
+            "<style=\"Link\"><link=\"races\">Races</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style></style>",
+            "<style=\"Link\"><link=\"replayability\">Replayability</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"overcome\">Overcome</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"role-selection\">Role Selection</link></style>, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>",
+            "<style=\"Link\"><link=\"guard\">Guard</link></style> together with <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"rescue\">Rescue</link></style>, or <style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> together with <style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"tied-results\">Tied Results</link></style>, <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "conflicts",
+            "competition",
+            "closure-points",
+            "dynamic-goal-characteristics",
+            "incompatible-goals",
+            "perceivable-margins",
+            "risk-reward",
+            "selectable-set-goals",
+            "tension",
+            "trade-offs",
+            "races",
+            "replayability"
+        ],
+        "modulates" : [
+            "evade",
+            "gameplay-mastery",
+            "goal-hierarchies"
+        ],
+        "instantiated_by" : [
+            "overcome",
+            "preventing-goals",
+            "races",
+            "role-selection",
+            "tiebreakers",
+            "guard",
+            "reconnaissance"
+        ],
+        "modulated_by" : [
+            "selectable-set-goals"
+        ],
+        "conflicts" : [
+            "tied-results",
+            "shared-rewards"
+        ]
+    }
+}

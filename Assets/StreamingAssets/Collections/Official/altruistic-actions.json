@@ -1,0 +1,63 @@
+{
+    "name" : "Altruistic Actions",
+    "categories" : [
+        "Patterns",
+        "Subjective Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game actions that are beneficial to somebody but not directly to the players who performed them.",
+        "markups" : [
+            "<style=\"Definition\">Game actions that are beneficial to somebody but not directly to the players who performed them.</style>",
+            "Given that players try to reach various types of goals while gaming, most of their actions during gameplay are directed towards reaching these goals. However, in multiplayer games other players may be trying to reach their goals and this provides an opportunity for <style=\"CurrentLink\">Altruistic Actions</style> that don't help the players themselves, but simply the other players. The reason for these actions may not be completely without a degree of self-interest - they may be for social reasons or the hope of help in return - but as long as they don't automatically provide a benefit they may best be, or ought to best be, considered altruistic. As an alternative, the <style=\"CurrentLink\">Altruistic Actions</style> may be game actions that provide some type of help to people not playing the game or the game may accept the input from non-players to help players.",
+            "<style=\"H3\">Examples</style>",
+            "Sending gifts to other players in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia%20Wars\">Mafia Wars</link></style> do not automatically provide a benefit for the giver and as such are examples of <style=\"CurrentLink\">Altruistic Actions</style>. That players may expect gifts in return is another matter.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conspiracy%20for%20Good\">Conspiracy for Good</link></style> made players collect books for charities as part of its gameplay.",
+            "<style=\"H2\">Using the pattern</style>",
+            "What is an <style=\"CurrentLink\">Altruistic Action</style> is subjective, since there may both be vague or unthought-of benefits to the action and that players performing such actions may feel good about doing it. Due to this, the primary design concern for <style=\"CurrentLink\">Altruistic Actions</style> is to make them not obviously have self-serving benefits. Most actions can be designed to be <style=\"CurrentLink\">Altruistic Actions</style> by how the <style=\"Link\"><link=\"rewards\">Rewards</link></style> associated with them function. <style=\"Link\"><link=\"free-gift-inventories\">Free Gift Inventories</link></style> is however a way specifically to encourage <style=\"CurrentLink\">Altruistic Actions</style> and <style=\"Link\"><link=\"no-ops\">No-Ops</link></style> can be <style=\"CurrentLink\">Altruistic Actions</style> if they are done instead of those giving <style=\"Link\"><link=\"penalties\">Penalties</link></style> to others. Another way of creating <style=\"CurrentLink\">Altruistic Actions</style> is to make actions in a game have <style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style> that are altruistic. Taking an opposite approach, <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style> allow people who are not participating in a game to perform <style=\"CurrentLink\">Altruistic Actions</style> aimed at those playing.",
+            "<style=\"CurrentLink\">Altruistic Actions</style> can be used in games with <style=\"Link\"><link=\"symbiotic-player-relations\">Symbiotic Player Relations</link></style> or <style=\"Link\"><link=\"teams\">Teams</link></style> but this depends on how <style=\"Link\"><link=\"rewards\">Rewards</link></style> and <style=\"Link\"><link=\"penalties\">Penalties</link></style> are constructed. Games with <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style> and <style=\"Link\"><link=\"shared-penalties\">Penalties</link></style> make helping other team members intrinsically tied to the players' own fortunes and are therefore difficult to combine with <style=\"CurrentLink\">Altruistic Actions</style>. This can be mitigated through the use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Gameplay%20Time\">Limited Gameplay Time</link></style> and/or <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style>. <style=\"CurrentLink\">Altruistic Actions</style> typically mean more when they are done instead of egoistic actions. Discouraging them for this reason, or at least associating them with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, can be done by requiring players to use some resource (making the actions a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Investment\">Investment</link></style>) or by having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inherent%20Mistrust\">Inherent Mistrust</link></style> in the game. <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> is a typical solution for setting <style=\"CurrentLink\">Altruistic Actions</style> against other actions.",
+            "Given their non-offensive nature, <style=\"CurrentLink\">Altruistic Actions</style> are well suited as the actions available to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style> on <style=\"Link\"><link=\"visits\">Visits</link></style> to other players' <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>, including <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Given that <style=\"CurrentLink\">Altruistic Actions</style> do not directly help the player performing them, they can easily instantiate <style=\"Link\"><link=\"individual-rewards\">Individual Rewards</link></style> by simply just affecting one other player. They are also a way to invite other players into <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style> based on the assumption of <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>, which in practice creates <style=\"Link\"><link=\"asynchronous-collaborative-actions\">Asynchronous Collaborative Actions</link></style> for games with <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style>. In this sense the actions may not be fully altruistic but at least is only indirectly done for personal gain. When doing the <style=\"CurrentLink\">Altruistic Actions</style> requires some form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Investment\">Investment</link></style> they are a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> action due to the risk of not being return, something that is likely to be felt as <style=\"Link\"><link=\"betrayal\">Betrayal</link></style>.",
+            "For the people at the receiving end, <style=\"CurrentLink\">Altruistic Actions</style> may lead to <style=\"Link\"><link=\"guilting\">Guilting</link></style>. For games with <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay or <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, both the giver and givee of <style=\"CurrentLink\">Altruistic Actions</style> can feel the pressure of <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"betrayal\">Betrayal</link></style>, <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, <style=\"Link\"><link=\"delayed-reciprocity\">Delayed Reciprocity</link></style>, <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"guilting\">Guilting</link></style>, <style=\"Link\"><link=\"individual-rewards\">Individual Rewards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Uncommitted%20Alliances\">Uncommitted Alliances</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style></style>",
+            "<style=\"Link\"><link=\"asynchronous-collaborative-actions\">Asynchronous Collaborative Actions</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> or <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style></style>",
+            "<style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>, <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>, <style=\"Link\"><link=\"teams\">Teams</link></style>, <style=\"Link\"><link=\"visits\">Visits</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"extra-game-consequences\">Extra-Game Consequences</link></style>, <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>, <style=\"Link\"><link=\"no-ops\">No-Ops</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"symbiotic-player-relations\">Symbiotic Player Relations</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inherent%20Mistrust\">Inherent Mistrust</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Investment\">Investment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style>, <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "betrayal",
+            "asynchronous-collaborative-actions",
+            "encouraged-return-visits"
+        ],
+        "modulates" : [
+            "massively-single-player-online-games",
+            "teams",
+            "visits"
+        ],
+        "instantiated_by" : [
+            "extra-game-consequences"
+        ],
+        "modulated_by" : [
+            "inherent-mistrust",
+            "neighbors"
+        ],
+        "conflicts" : [
+            "shared-penalties"
+        ]
+    }
+}

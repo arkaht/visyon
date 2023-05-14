@@ -1,0 +1,75 @@
+{
+    "name" : "King of the Hill",
+    "categories" : [
+        "Patterns",
+        "Goal Patterns"
+    ],
+    "texts" : {
+        "definition" : "Reaching and keeping a sought for game state that other players are trying to reach and keep.",
+        "markups" : [
+            "<style=\"Definition\">Reaching and keeping a sought for game state that other players are trying to reach and keep.</style>",
+            "<style=\"CurrentLink\">King of the Hill</style> goals pitch several players (or game-controlled agents) against each other by giving all of them the same goal which only one at a time can start satisfying. Typically, the goal is completed by controlling an area for a certain amount of time by denying that area to others.",
+            "<style=\"H3\">Examples</style>",
+            "Some game variants of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield 1942</link></style> have positions on the maps that when held for a certain period of time depletes \"ticks\" from the other team.",
+            "The board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Junta\">Junta</link></style> lets the president control how foreign aid money is distributed to the players. This position, although dangerous, is often sought for by all players since the ownership of money is the prerequisite for winning the game.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">King of the Hill</style> goals are defined by several agents or players all having the same goal but only one can start satisfying their goal at any time and others can \"take over\" so they instead satisfy their goal. Actually, completing the goal typically requires one agent or player to do so for a certain amount of time or turns, which means that these goals typically are modulated by <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>; using <style=\"Link\"><link=\"scores\">Scores</link></style> that increase while one is satisfying the goal is a variant of <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> which allows the goal to be completed in several different parts. ",
+            "While <style=\"CurrentLink\">King of the Hill</style> goals are typically envisioned as many players competing against each other, it can also be created by having <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> that are <style=\"Link\"><link=\"enemies\">Enemies</link></style> through having the same <style=\"CurrentLink\">King of the Hill</style> goal as a single player. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tower%20Defense%20Games\">Tower Defense Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Plants%20vs.%20Zombies\">Plants vs. Zombies</link></style> can be interpreted as having a special kind of <style=\"CurrentLink\">King of the Hill</style> goal where gameplay continues until the player loses control of the \"hill\".",
+            "This means that defining a <style=\"CurrentLink\">King of the Hill</style> goal consist of creating a goal which is an <style=\"Link\"><link=\"interferable-goals\">Interferable</link></style>, <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goal</link></style>. and <style=\"Link\"><link=\"continuous-goals\">Continuous Goal</link></style>. The <style=\"Link\"><link=\"guard\">Guard</link></style> goal is the basis for the archetypical goal of <style=\"CurrentLink\">King of the Hill</style> but other options of goals to start with is <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"alignment\">Alignment</link></style>, <style=\"Link\"><link=\"enclosure\">Enclosure</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">King of the Hill</style> goals are <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style> that promote <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>. The change of who is satisfying the requirements of a <style=\"CurrentLink\">King of the Hill</style> goal is a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversal</link></style>. The interferable nature of <style=\"CurrentLink\">King of the Hill</style> goals make those that have them also have <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> to others' <style=\"CurrentLink\">King of the Hill</style> goals. <style=\"CurrentLink\">King of the Hill</style> naturally have <style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style> since the player targeted by other players can change.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Temporary%20Alliances\">Temporary Alliances</link></style> often form among those that do not satisfy <style=\"CurrentLink\">King of the Hill</style> goals since they have a common enemy in whoever does satisfy it. This provides a form of <style=\"Link\"><link=\"balancing-effects\">Balancing Effect</link></style>. This, and the fact that <style=\"CurrentLink\">King of the Hill</style> goals promote <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> make the pattern as a whole support <style=\"Link\"><link=\"tension\">Tension</link></style> in games.",
+            "Some type of advantage is typically given that those that satisfy the <style=\"CurrentLink\">King of the Hill</style> requirement since they become target of those that do not, and the latter group tends to be bigger. Examples of advantages includes having the places which needs to be control be <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> by being <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style> or <style=\"Link\"><link=\"galleries\">Galleries</link></style> or by having <style=\"Link\"><link=\"installations\">Installations</link></style>. Another example is giving continuous <style=\"Link\"><link=\"damage\">Damage</link></style> to that those not satisfying their <style=\"CurrentLink\">King of the Hill</style> goal. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>, <style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style>, <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>, <style=\"Link\"><link=\"interferable-goals\">Interferable Goals</link></style>, <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Temporary%20Alliances\">Temporary Alliances</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversal</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"alignment\">Alignment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"enclosure\">Enclosure</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>",
+            "<style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> together with <style=\"Link\"><link=\"enemies\">Enemies</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"galleries\">Galleries</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "balancing-effects",
+            "conflicts",
+            "continuous-goals",
+            "competition",
+            "dynamic-goal-characteristics",
+            "incompatible-goals",
+            "interferable-goals",
+            "symmetric-goals",
+            "temporary-alliances",
+            "tension",
+            "role-reversal"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "alignment",
+            "connection",
+            "gain-ownership",
+            "enclosure",
+            "guard",
+            "non-player-characters"
+        ],
+        "modulated_by" : [
+            "damage",
+            "galleries",
+            "installations",
+            "scores",
+            "sniper-locations",
+            "strategic-locations",
+            "time-limits"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

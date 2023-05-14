@@ -1,0 +1,78 @@
+{
+    "name" : "Own Agenda",
+    "categories" : [
+        "Diegetic Patterns",
+        "Patterns",
+        "Agent Patterns"
+    ],
+    "texts" : {
+        "definition" : "The ability of algorithmic agents to seem to strive towards personal goals.",
+        "markups" : [
+            "<style=\"Definition\">The ability of algorithmic agents to seem to strive towards personal goals.</style>",
+            "Games often contain agents that can manipulate the game state but are not humans. However, these can be designed to express or display emotions to the goals they are working towards. By thus showing that they have their <style=\"CurrentLink\">Own Agenda</style>, they can provide an emotional layer to the gameplay that might otherwise be missing.",
+            "Note: <i>This pattern specifically discusses how agents can use their agency to show that they are care about the goals of their character. For this reason, the pattern does not have relations to narration patterns. It does not discuss how human players can do this, for this see <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>.</i>",
+            "<style=\"H3\">Examples</style>",
+            "The bots used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">FPS Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike\">Counter-Strike</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> can work towards completing the goals of the games the same way players can. While this can be seen that they do have their <style=\"CurrentLink\">Own Agenda</style>, the characterization of people in those games in weak so this is a weak example. The first tutorial bot in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20III%20Arena\">Quake III Arena</link></style> randomly taunts the player when spoken to, providing emotional displays related to the bot's goals. The AI bots in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style> can do taunts to players they kill or ones that target them in the setup phase, but can also join in partner or group taunts.",
+            "The two main characters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fa%C3%A7ade\">Façade</link></style>, Trip and Grace, are algorithmic agents which by their large repertoire of actions and utterances can express their <style=\"CurrentLink\">Own Agendas</style> in the interactive drama players can have with them.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Own Agenda</style> is a pattern to modify how <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> play their <style=\"Link\"><link=\"characters\">Characters</link></style>, i.e. <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, but is also implemented through the rules of these <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>. Specifically, it relates to how they more clearly can express that they have and work towards the goals of the <style=\"Link\"><link=\"characters\">Characters</link></style>. Since <style=\"Link\"><link=\"companions\">Companions</link></style> are <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> that players are more likely to interact with in depth, in may be relevant in a design process to prioritize that these can express their <style=\"CurrentLink\">Own Agenda</style> before other <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> can do so.",
+            "The most basic part of supporting <style=\"CurrentLink\">Own Agenda</style> is to let the <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> have actions which allow them to try and complete the goals. However, they need to express <style=\"Link\"><link=\"emotional-attachment\">Emotional Attachment</link></style> regarding the anticipation, success, and failure of these goals. <style=\"Link\"><link=\"memory-important-events\">Memory of Important Events</link></style> and <style=\"Link\"><link=\"goal-driven-personal-development\">Goal-Driven Personal Development</link></style> can relate more precisely to various closures of goals, while several others patterns can bring emotional expressivity to the <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> as they are working towards the goals: <style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>, <style=\"Link\"><link=\"awareness-surroundings\">Awareness of Surroundings</link></style>, <style=\"Link\"><link=\"context-dependent-reactions\">Context Dependent Reactions</link></style>, <style=\"Link\"><link=\"contextualized-conversational-responses\">Contextualized Conversational Responses</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Others%20Fortune%20affects%20own%20Mood\">Others Fortune affects own Mood</link></style> and <style=\"Link\"><link=\"sense-self\">Sense of Self</link></style>. <style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style> is another, more narrative, way to provide <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> with this expressivity, but this may fail in games designed for <style=\"Link\"><link=\"replayability\">Replayability</link></style> since these sequences may then be seen several times and become noticeable patterns.",
+            "For games with <style=\"Link\"><link=\"replayability\">Replayability</link></style>, the impression of <style=\"CurrentLink\">Own Agenda</style> can be strengthen in later game instances if the <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> are shown to have <style=\"Link\"><link=\"open-destiny\">Open Destinies</link></style>. <style=\"Link\"><link=\"ambiguous-responses\">Ambiguous Responses</link></style> and <style=\"Link\"><link=\"unpredictable-behavior\">Unpredictable Behavior</link></style> can work for both the first game instance the <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> are interacted with and later ones since players may read in various thoughts and emotions into what the <style=\"Link\"><link=\"agents\">Agents</link></style> do; the program <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/ELIZA\">ELIZA</link></style> is an early example of this. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Own Agenda</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Diegetic%20Patterns\">Diegetic Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The expression of <style=\"CurrentLink\">Own Agenda</style> by <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> can provide <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> in that <style=\"Link\"><link=\"characters\">Characters</link></style> have emotional expressions related to their goals and actions. It can arguably also make them engage in <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> but it may be difficult for players to notice the different between <style=\"Link\"><link=\"characters\">Characters</link></style> doing things in a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> and <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> enacting what these <style=\"Link\"><link=\"characters\">Characters</link></style> are doing in that <style=\"Link\"><link=\"game-worlds\">Game World</link></style>. However, since the <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> can also be trying to reach player goals, the use of this pattern is a way to instantiate <style=\"Link\"><link=\"ai-players\">AI Players</link></style>.",
+            "Since <style=\"CurrentLink\">Own Agenda</style> adds emotional expressiveness to a game, it can provide a platform for players to have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style></style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"companions\">Companions</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"actions-have-diegetically-social-consequences\">Actions Have Diegetically Social Consequences</link></style>, <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>, <style=\"Link\"><link=\"ambiguous-responses\">Ambiguous Responses</link></style>, <style=\"Link\"><link=\"awareness-surroundings\">Awareness of Surroundings</link></style>, <style=\"Link\"><link=\"context-dependent-reactions\">Context Dependent Reactions</link></style>, <style=\"Link\"><link=\"contextualized-conversational-responses\">Contextualized Conversational Responses</link></style>, <style=\"Link\"><link=\"emotional-attachment\">Emotional Attachment</link></style>, <style=\"Link\"><link=\"goal-driven-personal-development\">Goal-Driven Personal Development</link></style>, <style=\"Link\"><link=\"memory-important-events\">Memory of Important Events</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Others%20Fortune%20affects%20own%20Mood\">Others Fortune affects own Mood</link></style>, <style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style>, <style=\"Link\"><link=\"sense-self\">Sense of Self</link></style>, <style=\"Link\"><link=\"unpredictable-behavior\">Unpredictable Behavior</link></style>",
+            "<style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style> in games with <style=\"Link\"><link=\"replayability\">Replayability</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style> in games that are also intended to have <style=\"Link\"><link=\"replayability\">Replayability</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "emotional-engrossment",
+            "thematic-consistency",
+            "roleplaying",
+            "ai-players"
+        ],
+        "modulates" : [
+            "algorithmic-agents",
+            "companions",
+            "non-player-characters"
+        ],
+        "instantiated_by" : [
+            "actions-have-diegetically-social-consequences",
+            "algorithmic-agents",
+            "ambiguous-responses",
+            "awareness-surroundings",
+            "context-dependent-reactions",
+            "contextualized-conversational-responses",
+            "emotional-attachment",
+            "goal-driven-personal-development",
+            "memory-important-events",
+            "others-fortune-mood",
+            "scripted-information-sequences",
+            "sense-self",
+            "unpredictable-behavior",
+            "open-destiny"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "scripted-information-sequences"
+        ]
+    }
+}

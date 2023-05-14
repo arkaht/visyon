@@ -1,0 +1,82 @@
+{
+    "name" : "Rhythm-Based Actions",
+    "categories" : [
+        "Patterns",
+        "Action Patterns"
+    ],
+    "texts" : {
+        "definition" : "An activity requiring players to time their actions in relation to a rhythm.",
+        "markups" : [
+            "<style=\"Definition\">An activity requiring players to time their actions in relation to a rhythm.</style>",
+            "Real-time games require players to act due to events that occur in the game. When these required actions occur in rhythm, they force players to perform <style=\"CurrentLink\">Rhythm-Based Actions</style>, where the timing and stability over time can be just as important as performing the right action.",
+            "<style=\"H3\">Examples</style>",
+            "Early sports games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Olympic%20Decathlon\">Olympic Decathlon</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Summer%20Games\">Summer Games</link></style> primarily stimulated <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style> by requiring players to perform long sequences of <style=\"CurrentLink\">Rhythm-Based Actions</style>, and the outcome was judged upon how well the players kept the rhythm.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/PaRappa%20the%20Rapper\">PaRappa the Rapper</link></style> require players to hit various buttons in certain combinations while following certain rhythms, and eases gameplay by having music or songs that have the same rhythm the players must follow. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Konga\">Donkey Konga</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rock%20Band%20series\">Rock Band series</link></style> does the same but provide specialized instrument-like game controls; the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dance%20Dance%20Revolution%20series\">Dance Dance Revolution series</link></style> similarly provides a dance mat to make players dance to play.",
+            "The fantasy game series <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon's%20Lair%20series\">Dragon's Lair</link></style>, the thriller <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Heavy%20Rain\">Heavy Rain</link></style>, and the 2013 version in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style> require players to press certain sequences of buttons correctly to successfully complete some action events in the games.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Rhythm-Based Actions</style> is a way to require players to perform individual actions in <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, e.g. avoiding <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style> such as <style=\"Link\"><link=\"moveable-tiles\">Moveable Tiles</link></style> or avoiding <style=\"Link\"><link=\"enemies\">Enemies</link></style> with <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> goals. The actions themselves typically are simple ones, such as button presses, and the design of the pattern mainly consist of deciding with combinations and what <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style> is required. Since they are self-contained the difficulty of these actions can be set with quite high level of precision, and this makes <style=\"CurrentLink\">Rhythm-Based Actions</style> good candidates for <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style> and through this <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, especially since they are quite unproblematic to run user tests on.",
+            "Two main sub-varieties of <style=\"CurrentLink\">Rhythm-Based Actions</style> exist. <style=\"Link\"><link=\"quick-time-events\">Quick Time Events</link></style> are a form of <style=\"CurrentLink\">Rhythm-Based Actions</style> used to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mini%20Games\">Mini Games</link></style> in other games (found for example in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Heavy%20Rain\">Heavy Rain</link></style>), either to provide <style=\"Link\"><link=\"tension\">Tension</link></style> or to provide <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>. The other consists of equipping players with <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style> so that their actions while gaming are similar to play an instrument or dancing.",
+            "The reasons for performing <style=\"CurrentLink\">Rhythm-Based Actions</style> can simply be to <style=\"Link\"><link=\"survive\">Survive</link></style>, which may have a direct diegetic explanation (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon's%20Lair%20series\">Dragon's Lair</link></style>) or not (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dance%20Dance%20Revolution%20series\">Dance Dance Revolution series</link></style>). In other cases they are to achieve <style=\"Link\"><link=\"combos\">Combos</link></style> - and when these <style=\"Link\"><link=\"combos\">Combos</link></style> are the only way to beat <style=\"Link\"><link=\"enemies\">Enemies</link></style> this adds the reason of achieving <style=\"Link\"><link=\"overcome\">Overcome</link></style> goals for performing the <style=\"CurrentLink\">Rhythm-Based Actions</style>. ",
+            "Having <style=\"Link\"><link=\"clickability\">Clickability</link></style> in a game is a way of letting players have the option to engage in their own <style=\"CurrentLink\">Rhythm-Based Actions</style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "While <style=\"CurrentLink\">Rhythm-Based Actions</style> can be explained as copies of other activities through <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style> in some games (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rock%20Band%20series\">Rock Band series</link></style>), in others they are mapped to <style=\"Link\"><link=\"movement\">Movement</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon's%20Lair%20series\">Dragon's Lair</link></style>). Failing the later, especially when the <style=\"CurrentLink\">Rhythm-Based Actions</style> are linked to <style=\"Link\"><link=\"survive\">Survive</link></style> goals, can diegetically be represented as triggering deadly  <style=\"Link\"><link=\"traps\">Traps</link></style>. However, some <style=\"Link\"><link=\"traps\">Traps</link></style> are constructed as repeating events that instead require <style=\"CurrentLink\">Rhythm-Based Actions</style> to navigate. This means that both patterns can modulate each other.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Unless used to avoid actual <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> or <style=\"Link\"><link=\"enemies\">Enemies</link></style> in a <style=\"Link\"><link=\"game-worlds\">Game World</link></style>, players need some way of knowing what <style=\"CurrentLink\">Rhythm-Based Actions</style> they need to do in the immediate future. This is most often done through <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> which at the same time provide <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Rhythm-Based Actions</style> are <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style> performed with the intentions of achieving temporal <style=\"Link\"><link=\"configuration\">Configuration</link></style> goals in <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>. As such they can create <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> and are also examples of <style=\"Link\"><link=\"combos\">Combos</link></style> which may be important to gain <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> of a game. The motivation for the <style=\"CurrentLink\">Rhythm-Based Actions</style> often comes from games where <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>, and the players are either supposed to follow the rhythm of an <style=\"Link\"><link=\"agents\">Agent</link></style> giving mentorship or to avoid dangers in the world - typically <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> or <style=\"Link\"><link=\"traps\">Traps</link></style>.",
+            "<style=\"CurrentLink\">Rhythm-Based Actions</style> provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style> and <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style> since players need to be aware of what they should do next. This, and that they create <style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style>, either in tempo or in type of action, make it possible for players performing <style=\"CurrentLink\">Rhythm-Based Actions</style> to have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sensory-Motoric%20Engrossment\">Sensory-Motoric Engrossment</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"configuration\">Configuration</link></style>, <style=\"Link\"><link=\"extended-actions\">Extended Actions</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"hovering-closures\">Hovering Closures</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mini%20Games\">Mini Games</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"repetitive-gameplay\">Repetitive Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sensory-Motoric%20Engrossment\">Sensory-Motoric Engrossment</link></style>, <style=\"Link\"><link=\"survive\">Survive</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"clickability\">Clickability</link></style>, <style=\"Link\"><link=\"quick-time-events\">Quick Time Events</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style> together with <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>",
+            "<style=\"Link\"><link=\"moveable-tiles\">Moveable Tiles</link></style> together with <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"mimetic-interfaces\">Mimetic Interfaces</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"H3\">Potentially Conflicting With</style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "combos",
+            "complex-gameplay",
+            "configuration",
+            "extended-actions",
+            "gameplay-mastery",
+            "hovering-closures",
+            "mini-games",
+            "movement",
+            "overcome",
+            "performance-uncertainty",
+            "repetitive-gameplay",
+            "sensory-motoric-engrossment",
+            "survive"
+        ],
+        "modulates" : [
+            "real-time-games",
+            "traps"
+        ],
+        "instantiated_by" : [
+            "clickability",
+            "quick-time-events",
+            "the-show-must-go-on",
+            "timing",
+            "enemies",
+            "moveable-tiles"
+        ],
+        "modulated_by" : [
+            "challenging-gameplay",
+            "obstacles",
+            "progress-indicators",
+            "traps",
+            "mimetic-interfaces"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

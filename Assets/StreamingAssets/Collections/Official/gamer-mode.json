@@ -1,0 +1,55 @@
+{
+    "name" : "Gamer Mode",
+    "categories" : [
+        "Patterns",
+        "Aesthetic Patterns"
+    ],
+    "texts" : {
+        "definition" : "The one-sentence \"definition\" that should be in italics.",
+        "markups" : [
+            "<style=\"Definition\">The one-sentence \"definition\" that should be in italics.</style>",
+            "This pattern is a still a stub.",
+            "Note:''the concept <style=\"CurrentLink\">Gamer Mode</style> was first identified by Anders Frank in 2012 and discussed in more detail in his PhD thesis.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"H4\">Anti-Examples</style>",
+            "optional",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "N/A",
+            "<style=\"H4\">with ...</style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Narrative%20Engrossment\">Narrative Engrossment</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "narrative-engrossment",
+            "value-effort",
+            "narrative-engrossment",
+            "value-effort"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

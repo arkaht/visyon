@@ -1,0 +1,54 @@
+{
+    "name" : "Energy Penalties",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Penalties that numerically reduce game state values important for players to be able to perform actions.",
+        "markups" : [
+            "<style=\"Definition\">Penalties that numerically reduce game state values important for players to be able to perform actions.</style>",
+            "Penalties in games can take many forms. <style=\"CurrentLink\">Energy Penalties</style> are those that do not automatically remove players from games or force them to repeat actions again but rather those that reduce numerical values and threaten to cause more serious penalties when these values hit certain thresholds.",
+            "Note: <i>while <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style> fit the definition of <style=\"CurrentLink\">Energy Penalties</style>, the latter pattern is on a finer level of granularity than <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style>.</i>",
+            "<style=\"H3\">Examples</style>",
+            "The most common <style=\"CurrentLink\">Energy Penalties</style> are those reducing health or hit points. These can be found in games as varying as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style>), <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">FPS Games</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Call%20of%20Duty%20series\">Call of Duty series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Duke%20Nukem%203D\">Duke Nukem 3D</link></style>), <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Fighting%20Games\">Fighting Games</link></style> (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20or%20Alive%20series\">Dead or Alive series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mortal%20Kombat%20series\">Mortal Kombat series</link></style>), <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">MMOGs</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/City%20of%20Heroes\">City of Heroes</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dark%20Age%20of%20Camelot\">Dark Age of Camelot</link></style>), and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Multiplayer%20Online%20Battle%20Arena%20Games\">MOBAs</link></style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/League%20of%20Legends\">League of Legends</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/StarCraft%20series\">StarCraft series</link></style>). ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Energy Penalties</style> are those <style=\"Link\"><link=\"penalties\">Penalties</link></style> that affect some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style> or <style=\"Link\"><link=\"resources\">Resources</link></style> that players have. They are typically diegetically motivated by being affected by <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> actions or <style=\"Link\"><link=\"traps\">Traps</link></style> but can be given for any type of reason. In practice, designing <style=\"CurrentLink\">Energy Penalties</style> consist of using <style=\"Link\"><link=\"damage\">Damage</link></style> on <style=\"Link\"><link=\"resources\">Resources</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style>, most typically <style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Energy\">Energy</link></style>, or <style=\"Link\"><link=\"health\">Health</link></style>. An alternative is to apply <style=\"Link\"><link=\"cooldown\">Cooldown</link></style> effects on abilities.",
+            "<style=\"H2\">Consequences</style>",
+            "In games with <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"CurrentLink\">Energy Penalties</style> can lead to <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style> if the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attributes\">Attributes</link></style> affected by them relate to the <style=\"Link\"><link=\"lives\">Lives</link></style>. In games without <style=\"Link\"><link=\"lives\">Lives</link></style>, they can instead directly lead to <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style> and by extension <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>.",
+            "Like other types of <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"CurrentLink\">Energy Penalties</style> can give <style=\"Link\"><link=\"tension\">Tension</link></style> but typically less so than for example <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style> or <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>, <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"lives\">Lives</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cooldown\">Cooldown</link></style>",
+            "<style=\"Link\"><link=\"damage\">Damage</link></style> together with <style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Energy\">Energy</link></style>, <style=\"Link\"><link=\"health\">Health</link></style> or <style=\"Link\"><link=\"resources\">Resources</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-termination-penalties",
+            "life-penalties",
+            "penalties",
+            "tension"
+        ],
+        "modulates" : [
+            "lives"
+        ],
+        "instantiated_by" : [
+            "cooldown",
+            "damage"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

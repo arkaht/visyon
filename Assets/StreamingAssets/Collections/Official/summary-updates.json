@@ -1,0 +1,65 @@
+{
+    "name" : "Summary Updates",
+    "categories" : [
+        "Narration Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Descriptions of events that have taken place in the game before or after actual gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Descriptions of events that have taken place in the game before or after actual gameplay.</style>",
+            "For players to know what to do in games and know what to expect story wise, they need to understand the setting and the motives the various agents in the game has. <style=\"CurrentLink\">Summary Updates</style> simply provides this to players by telling them what they need to know before gameplay begins. Likewise, the long-term consequences of actions and events may not be clear to players and <style=\"CurrentLink\">Summary Updates</style> can in this case describe what happens after gameplay ends. For games that move between different scenes or levels, <style=\"CurrentLink\">Summary Updates</style> can provide both of these explanations at once.",
+            "<style=\"H3\">Examples</style>",
+            "Adventures for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> often include <style=\"CurrentLink\">Summary Updates</style> before gameplay begins and between scenes. For example, the adventure <i>Me and My Shadow, Mark IV</i> for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Paranoia\">Paranoia</link></style> start with the following <style=\"CurrentLink\">Summary Update</style>: ",
+            "<pre width=\"80%\" style=\"white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; ",
+            "word-wrap: break-word;\">\"Another day begins in Alpha Complex with the familiar buzz of fluorescent light. You wake, and reflect on the multitudinous gift of The Computer: your spacious three-meter cell, last night's extra ratio of Cold Fun.",
+            "Out in the hall, you hear the quiet patter of the lowly INFRARED drones, mindlessly yet faithfully serving The Computer.</pre>",
+            " ",
+            "The adventure <i>Something rotten in Kislev</i> for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style> contains two <style=\"CurrentLink\">Summary Updates</style> for game masters to use to explain the events that took place after <i>Power Behind the Throne</i> and before the beginning of the new adventure; the second <style=\"CurrentLink\">Summary Update</style> contains the main information players need while the first acts as a <style=\"CurrentLink\">Summary Update</style> to the second <style=\"CurrentLink\">Summary Update</style> if the players ended the previous adventure in jail.",
+            "<style=\"CurrentLink\">Summary Updates</style> are also common in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style>, especially those with rich details worlds. Examples of games that use <style=\"CurrentLink\">Summary Updates</style> both before and after gameplay include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style> does not include <style=\"CurrentLink\">Summary Updates</style> before gameplay begins; instead players begin by simultaneously developing their characters, learning the interface, and being introduced to the setting as they play.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Summary Updates</style> are typically created in conjunction with <style=\"Link\"><link=\"scenes\">Scenes</link></style> or <style=\"Link\"><link=\"adventures\">Adventures</link></style> in games that have <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>. By doing this, they typically also affect <style=\"Link\"><link=\"campaigns\">Campaigns</link></style> but specific <style=\"CurrentLink\">Summary Updates</style> can also be used to introduce and wrap up <style=\"Link\"><link=\"campaigns\">Campaigns</link></style> as a whole. In games with <style=\"Link\"><link=\"melodramatic-structures\">Melodramatic Structures</link></style>, they can help in explaining new contexts for players. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Summary Updates</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Narration%20Patterns\">Narration Pattern</link></style>. One typical use of the pattern is to introduce <style=\"Link\"><link=\"alien-space-bats\">Alien Space Bats</link></style>, i.e. fantastical or supernatural agents, to a setting.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Summary Updates</style> are a type of <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>. <style=\"Link\"><link=\"downtime\">Downtime</link></style> is created by <style=\"CurrentLink\">Summary Updates</style> when these are need to be given to individual players of <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style></style>",
+            "<style=\"Link\"><link=\"downtime\">Downtime</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"adventures\">Adventures</link></style>, <style=\"Link\"><link=\"campaigns\">Campaigns</link></style>, <style=\"Link\"><link=\"melodramatic-structures\">Melodramatic Structures</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"scenes\">Scenes</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"alien-space-bats\">Alien Space Bats</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "cutscenes",
+            "downtime"
+        ],
+        "modulates" : [
+            "adventures",
+            "campaigns",
+            "melodramatic-structures",
+            "predetermined-story-structures",
+            "scenes"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "alien-space-bats"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

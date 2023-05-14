@@ -1,0 +1,63 @@
+{
+    "name" : "Procedurally Generated Game Worlds",
+    "categories" : [
+        "Patterns",
+        "Level Design Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game worlds created through algorithms.",
+        "markups" : [
+            "<style=\"Definition\">Game worlds created through algorithms.</style>",
+            "Creating game worlds can be challenging, especially if they are to be very large, very detailed, or many different versions of them should exist. The challenge for these worlds is both in being creative and varied but also in having the resources to spend on actually building them. <style=\"CurrentLink\">Procedurally Generated Game Worlds</style> is one way of trying to overcome these problems; by having algorithms that can generate the game worlds and their content the actual process of doing so can be handed over to computer systems. While this may save time and can allow the construction to occur just-in-time before gameplay begins, it puts challenges to game design that wish to have stories or have balanced resources for all players.",
+            "<style=\"H3\">Examples</style>",
+            "The space-based computer games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elite%20series\">Elite series</link></style> created several galaxies that players could explore using procedural generation. Several <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>, including <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Traveller\">Traveller</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/GURPS\">GURPS</link></style> through the <i>GURPS Space</i> supplement, similarly have rules for generating solar systems and planets but since these algorithms need to be calculated by people these game worlds tend to be smaller.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Slaves to Armok II: Dwarf Fortress</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unexplored\">Unexplored</link></style> all create their game worlds or levels through algorithms based upon random seeds. The computer-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> created randomized worlds for players although some scenarios have predefined ones and some versions allow players to input manually the random seed. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Just%20Cause%20series\">Just Cause series</link></style> used procedural generation to create the basis for the large gameplay areas provided in these games, and then manually added specific features to provide the background for the main story structure.",
+            "Some games uses weaker form of <style=\"CurrentLink\">Procedurally Generated Game Worlds</style> in that the procedure is either not that complex or does not provide that much variation. For example, the resource tiles used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style> are typically randomized. In another example, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> uses a small amount of procedural generation to create variations in game levels, mainly by blocking some routes and opening some other.",
+            "The site GiantBomb has a page for games that use procedural generation for any purpose, not only creating game worlds.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The reason for using <style=\"CurrentLink\">Procedurally Generated Game Worlds</style> is typically to provide <style=\"Link\"><link=\"replayability\">Replayability</link></style> or to save production costs of large <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, but doing so can have the downside that it can be difficult to provide <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> with the same qualities as handcrafted combinations of stories and worlds.",
+            "Designing for games to have <style=\"CurrentLink\">Procedurally Generated Game Worlds</style> requires creating algorithms that given some input can create <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. These algorithms typically require the specification of several abstract concepts that may or may not be perceivable to players (e.g. the biomes in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> and the concept of solar systems, planets and moons in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elite%20series\">Elite series</link></style>) but at some level need to generate concrete elements, typically <style=\"Link\"><link=\"tiles\">Tiles</link></style>. In games where their <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> consist of smaller units, for example <style=\"Link\"><link=\"levels\">Levels</link></style>, the pattern can be created through using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Procedurally%20Generated%20Game%20Areas\">Procedurally Generated Game Areas</link></style> for each smaller part (which also allows the parts to be developed using the current game state as input, for example to create <style=\"Link\"><link=\"ever-increasing-difficulty\">Ever Increasing Difficulty</link></style>).",
+            "<style=\"Link\"><link=\"randomness\">Randomness</link></style> is nearly always an input to these algorithms, but in some cases (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style>), players have the option of giving an <style=\"Link\"><link=\"explicit-random-seeds\">Explicit Random Seed</link></style> and thereby are able to recreate <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> if their initial random seed is known.",
+            "<style=\"H2\">Consequences</style>",
+            "Since <style=\"CurrentLink\">Procedurally Generated Game Worlds</style> can be larger than manually created <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, they to a larger extent support a <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> that gives players a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> of what to explore (this is for example the case in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elite%20series\">Elite series</link></style>). Further, since worlds in general are assumed to be large, the larger size that <style=\"CurrentLink\">Procedurally Generated Game Worlds</style> support help games maintain <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> even if this really may be an <style=\"Link\"><link=\"illusion-open-space\">Illusion of Open Space</link></style> due to interesting gameplay being rare and mainly existing in some manually created places. Generally, <style=\"CurrentLink\">Procedurally Generated Game Worlds</style> can support <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> either by provide large worlds with different types of gameplay or different worlds with different gameplay.",
+            "Given that <style=\"CurrentLink\">Procedurally Generated Game Worlds</style> in practice always use <style=\"Link\"><link=\"randomness\">Randomness</link></style>, they can provide <style=\"Link\"><link=\"replayability\">Replayability</link></style> through giving players new <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> to explore each new game instance. However, the use of <style=\"Link\"><link=\"randomness\">Randomness</link></style> can cause problems with <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> which may be avoided by having <style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> encoded into the algorithms (the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> has this as an option when generating random worlds) but this does reduce the <style=\"Link\"><link=\"randomness\">Randomness</link></style> and thereby the <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> possible.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"illusion-open-space\">Illusion of Open Space</link></style>, <style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Procedurally%20Generated%20Game%20Areas\">Procedurally Generated Game Areas</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"explicit-random-seeds\">Explicit Random Seeds</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "game-world-exploration",
+            "game-worlds",
+            "illusion-open-space",
+            "replayability",
+            "thematic-consistency",
+            "varied-gameplay"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "procedurally-generated-game-areas",
+            "randomness",
+            "tiles"
+        ],
+        "modulated_by" : [
+            "explicit-random-seeds"
+        ],
+        "conflicts" : [
+            "player-balance",
+            "predetermined-story-structures"
+        ]
+    }
+}

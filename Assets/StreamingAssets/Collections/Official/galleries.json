@@ -1,0 +1,64 @@
+{
+    "name" : "Galleries",
+    "categories" : [
+        "Level Design Patterns",
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Raised areas that provide advantages through overlooking narrow passages.",
+        "markups" : [
+            "<style=\"Definition\">Raised areas that provide advantages through overlooking narrow passages.</style>",
+            "Being on high ground which is not immediately accessible to enemies is an advantage possible in games where combat is possible. <style=\"CurrentLink\">Galleries</style> are places that provide this advantage but in addition require the combatants in the lower area to move along the elevated area for some distance, further adding to the advantage.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Galleries</style> are most prominently used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style>. For example, the map <i>Mashtuur City</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%202\">Battlefield 2</link></style> provides a <style=\"CurrentLink\">Gallery</style> by having letting players move on a beach between the sea and some high cliffs while <i>Dustbowl</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style> has low <style=\"CurrentLink\">Galleries</style> in the last third of the map. <i>The Proving Grounds</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20III%20Arena\">Quake III Arena</link></style> is another example of a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooter</link></style> map with a <style=\"CurrentLink\">Gallery</style>. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Galleries</style> are primarily created by using height differences while designing <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style> and <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> but other combinations of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style> and cover can work as well. Specifically, the heights (and the rest of the gameplay area) need to funnel movement along them so that those on the heights can attack those below for an extended period of time with the advantage of being on higher ground.",
+            "If <style=\"CurrentLink\">Galleries</style> are deemed to disrupt <style=\"Link\"><link=\"player-balance\">Player</link></style> or <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style> can be used to provide additional ways for those having to move through the lower area.",
+            "<style=\"CurrentLink\">Galleries</style> is an option to provide advantages to places that are part of <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style> goals. ",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Galleries</style> modulate how <style=\"Link\"><link=\"combat\">Combat</link></style> and <style=\"Link\"><link=\"movement\">Movement</link></style> can do done in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and <style=\"Link\"><link=\"levels\">Levels</link></style>. They do this by making <style=\"Link\"><link=\"guard\">Guard</link></style> goals easier for those in the elevated areas through making the areas overlooked into potential <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> (the raised areas can also often function as a form of <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>). This has the effect of modulating the difficulty of <style=\"Link\"><link=\"enemies\">Enemies</link></style> and increasing the likelihood of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Repeated%20Domination\">Repeated Domination</link></style>.",
+            "The advantages of <style=\"CurrentLink\">Galleries</style> make them into <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> and likely places for <style=\"Link\"><link=\"camping\">Camping</link></style>. When not to enclosed, <style=\"CurrentLink\">Galleries</style> typically offer <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style> from the raised parts to the passages they are overlooking.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/One-Way%20Travel\">One-Way Travel</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Repeated%20Domination\">Repeated Domination</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "camping",
+            "choke-points",
+            "one-way-travel",
+            "repeated-domination",
+            "sniper-locations",
+            "strategic-locations"
+        ],
+        "modulates" : [
+            "combat",
+            "enemies",
+            "game-boards",
+            "game-worlds",
+            "guard",
+            "king-hill",
+            "levels",
+            "movement"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "flanking-routes"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

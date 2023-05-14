@@ -1,0 +1,66 @@
+{
+    "name" : "Fixed Distributions",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Randomness Patterns"
+    ],
+    "texts" : {
+        "definition" : "That a random distribution is guaranteed to have produced a given distribution at certain specific points in the sequence of randomness produced.",
+        "markups" : [
+            "<style=\"Definition\">That a random distribution is guaranteed to have produced a given distribution at certain specific points in the sequence of randomness produced.</style>",
+            "Many games use randomness to produce uncertainty and variation between game instances but this may sometimes cause too much variation or make the outcome depend purely on luck. To counter this but still preserve some level of randomness games can make use of <style=\"CurrentLink\">Fixed Distributions</style> of the random values that come into play. <style=\"CurrentLink\">Fixed Distributions</style> ensure that after a cycle consisting of a certain number of random values these values will match to a certain distribution, but at any given point (except maybe the last in the cycle) players will not be able to know what the next value is.",
+            "<style=\"H3\">Examples</style>",
+            "The standard deck of cards provides <style=\"CurrentLink\">Fixed Distributions</style> that allow players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style> to calculate the odds for actions in the games. Games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Magic:%20The%20Gathering\">Magic: The Gathering</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style>, where players build their decks before or during game instances go a step further and let them create the distributions as well. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style> starts with a equal chance of all cities having disease outbreak but manipulate this after each epidemic so that all the already affected cities are guaranteed to be drawn again before new cities can be affected.",
+            "Tiles with various properties are used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carcassonne\">Carcassonne</link></style> as a way to build the game world. Making good choices in the game requires a consideration of what tiles still remain and this in turn requires that one knows their distribution.",
+            "The basic version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style> uses dice to determine where resources are produced. However, for those that feel this makes the game to luck-based the <i>Event Cards</i> expansion (also part of the ",
+            "<i>Traders & Barbarians</i> expansion) provide a deck of card that can be instead to guarantee nearly <style=\"CurrentLink\">Fixed Distributions</style>. The distributions are not completely fixed by having a <i>New Year card</i> among the bottom five cards which forces a reshuffle when drawn - this to avoid making the game too predictable.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> lets players choose which characters to play but puts restrictions on how these can be chosen. Through this a balance between political leaders, military leaders, and pilots are created although support characters may occur in any numbers. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> is probably the most common way of creating <style=\"CurrentLink\">Fixed Distributions</style>, and if these are created how players make use of <style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style> it makes the players in charge of those distributions. A less common way is putting restrictions on <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>, e.g. the forced spread of character types in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style>.",
+            "<style=\"CurrentLink\">Fixed Distributions</style> can be affected if players have access to those which results that have already been produced or not. Games promote <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> if players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> regarding this.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Fixed Distributions</style> are a way to modulate how random <style=\"Link\"><link=\"randomness\">Randomness</link></style> is in a game. Since they allow players to use information about what a random process has produced earlier to better predict future outcomes of that process, <style=\"CurrentLink\">Fixed Distributions</style> supports <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> and allow them to feel <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>. This can change how they calculate <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> situations and <style=\"Link\"><link=\"misfortune-mitigation\">Misfortune Mitigation</link></style>, but success in this activities reduce the possibility of feeling <style=\"Link\"><link=\"luck\">Luck</link></style>. For games where the distributions are not <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Public%20Information\">Public Information</link></style>, knowing them represents <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"misfortune-mitigation\">Misfortune Mitigation</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style></style>",
+            "<style=\"Link\"><link=\"memorizing\">Memorizing</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player-Decided%20Distributions\">Player-Decided Distributions</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>",
+            "<style=\"Link\"><link=\"heterogeneous-game-element-ownership\">Heterogeneous Game Element Ownership</link></style> if <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> are present",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"luck\">Luck</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "misfortune-mitigation",
+            "predictable-consequences",
+            "strategic-knowledge",
+            "memorizing"
+        ],
+        "modulates" : [
+            "randomness",
+            "risk-reward"
+        ],
+        "instantiated_by" : [
+            "drawing-stacks",
+            "player-decided-distributions"
+        ],
+        "modulated_by" : [
+            "imperfect-information",
+            "heterogeneous-game-element-ownership"
+        ],
+        "conflicts" : [
+            "luck"
+        ]
+    }
+}

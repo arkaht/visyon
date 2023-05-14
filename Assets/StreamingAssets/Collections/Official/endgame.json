@@ -1,0 +1,77 @@
+{
+    "name" : "Endgame",
+    "categories" : [
+        "Gameplay Arc Patterns",
+        "Aesthetic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The reoccurring final phase that occurs for each game instance of a game.",
+        "markups" : [
+            "<style=\"Definition\">The reoccurring final phase that occurs for each game instance of a game.</style>",
+            "The <style=\"CurrentLink\">Endgame</style> is the last phase of a game instance. For games to have this they must of course have gameplay phases and it needs to be the same that typically is last, i.e. other ways game instances end must be seen as uncommon or weird. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> are well-known classical <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> with distinct <style=\"CurrentLink\">Endgame</style> phases. In X4 games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Master%20of%20Orion\">Master of Orion</link></style> the last gameplay phase typically consists of players trying to eliminate each other. This can happen in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> as well, but players may also opt for more peaceful ways to win. In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Starcraft%20series\">Starcraft series</link></style> the <style=\"CurrentLink\">Endgame</style> is typically called \"Late-Game\".",
+            "Several <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dark%20Age%20of%20Camelot\">Dark Age of Camelot</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, have a distinct phase shift to an <style=\"CurrentLink\">Endgame</style> after players' have reached the maximum level with their characters. In this phase, players typically can compete against each other for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>, work on collecting better equipment (<style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>, etc.), and completing specific <style=\"CurrentLink\">Endgame</style> quests. The last of these are specifically the result of <style=\"Link\"><link=\"unlocking\">Unlocking</link></style> new gameplay content when the <style=\"CurrentLink\">Endgame</style> phase is reached, but this can be applied to any gameplay content to provide novelty to those that reach the phase.",
+            "<style=\"H2\">Using the pattern</style>",
+            "As the name implies, the <style=\"CurrentLink\">Endgame</style> comes after previous phases in a game design, typically a <style=\"Link\"><link=\"startgame\">Startgame</link></style> and a <style=\"Link\"><link=\"middlegame\">Middlegame</link></style>. Since <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> don't have ends, these two patterns are typically not compatible but the gameplay provided after reaching the maximum <style=\"Link\"><link=\"character-levels\">Character Levels</link></style> in <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dark%20Age%20of%20Camelot\">Dark Age of Camelot</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, provide an exception. One specific types of gameplay provided only in this phase for these games is <style=\"Link\"><link=\"endgame-quests\">Endgame Quests</link></style>. ",
+            "The archetypical <style=\"CurrentLink\">Endgame</style> phase is <style=\"Link\"><link=\"extermination\">Extermination</link></style> characterized by the use of a <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> pattern, but <style=\"Link\"><link=\"exploitation\">Exploitation</link></style> phases can also serve as the last phases in games. Both of these may exhibit <style=\"Link\"><link=\"entrenching-gameplay\">Entrenching Gameplay</link></style> and an accompanying loss of <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>, in many cases due to <style=\"Link\"><link=\"complete-resource-depletion\">Complete Resource Depletion</link></style>.",
+            "Several design patterns affect <style=\"CurrentLink\">Endgame</style> phases significantly. First, a focus upon winning the game makes patterns such as <style=\"Link\"><link=\"speedending\">Speedending</link></style>, <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>, and <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style> important. <style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style> is also relevant if these types of phases exist. <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style> is even more important, and if it is present opens up for the possibility of <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style> and <style=\"Link\"><link=\"surrendering\">Surrendering</link></style> actions. This, and any presence of <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, further makes <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style> and <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style> patterns worth to consider in <style=\"CurrentLink\">Endgame</style> phases.",
+            "<style=\"H2\">Consequences</style>",
+            "That an <style=\"CurrentLink\">Endgame</style> begins is a rather high-level closure in a game instance. Likewise, that it ends and that some player may win are also high-level closures. For this reason, the presence of <style=\"CurrentLink\">Endgame</style> phases in a game guarantee that <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style> exists to a certain level in the game. ",
+            "Since the <style=\"CurrentLink\">Endgame</style> puts all the players' efforts so far into focus, players are likely to engage in <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> to maximize their possibilities in this phases. This can increase the likelihood of <style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style> but also <style=\"Link\"><link=\"surrendering\">Surrendering</link></style> if players can perceive that they cannot win. However, it also typically provides a <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> for the players since all their previous actions influence on the gameplay tend be made clear in the <style=\"CurrentLink\">Endgame</style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"Link\"><link=\"surrendering\">Surrendering</link></style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"analysis-paralysis\">Analysis Paralysis</link></style>, <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game-Based%20Social%20Statuses\">Game-Based Social Statuses</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"complete-resource-depletion\">Complete Resource Depletion</link></style>, <style=\"Link\"><link=\"entrenching-gameplay\">Entrenching Gameplay</link></style>, <style=\"Link\"><link=\"exploitation\">Exploitation</link></style>, <style=\"Link\"><link=\"extermination\">Extermination</link></style>, <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>",
+            "<style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games </link></style> together with <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style>, <style=\"Link\"><link=\"early-leaving-players\">Early Leaving Players</link></style>, <style=\"Link\"><link=\"endgame-quests\">Endgame Quests</link></style>, <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, <style=\"Link\"><link=\"speedending\">Speedending</link></style>, <style=\"Link\"><link=\"unlocking\">Unlocking</link></style>, <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>, <style=\"Link\"><link=\"winning-ending-gameplay\">Winning by Ending Gameplay</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "analysis-paralysis",
+            "higher-level-closures-gameplay-progresses",
+            "stimulated-planning",
+            "surrendering",
+            "value-effort"
+        ],
+        "modulates" : [
+            "game-based-social-statuses"
+        ],
+        "instantiated_by" : [
+            "complete-resource-depletion",
+            "entrenching-gameplay",
+            "exploitation",
+            "extermination",
+            "last-man-standing",
+            "massively-multiplayer-online-games"
+        ],
+        "modulated_by" : [
+            "construction-scoring-phase-shift",
+            "early-leaving-players",
+            "endgame-quests",
+            "kingmaker",
+            "player-elimination",
+            "possibility-graceful-surrender",
+            "predictable-winner",
+            "speedending",
+            "unlocking",
+            "winner-gameplay-ends",
+            "winning-ending-gameplay"
+        ],
+        "conflicts" : [
+            "player-unpredictability",
+            "unwinnable-games"
+        ]
+    }
+}

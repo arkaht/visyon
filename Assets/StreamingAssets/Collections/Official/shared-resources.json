@@ -1,0 +1,73 @@
+{
+    "name" : "Shared Resources",
+    "categories" : [
+        "Resource Patterns",
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "Resources which several players have access to during a game instance, either continuously or at varying times.",
+        "markups" : [
+            "<style=\"Definition\">Resources which several players have access to during a game instance, either continuously or at varying times.</style>",
+            "Resources are a common component of game designs, and used by players to perform various actions. Resources that are available to several different players &ndash; either with or without the players consent to this &ndash; are <style=\"CurrentLink\">Shared Resources</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "In the board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Alert\">Space Alert</link></style>, the energy used to power shields and lasers come from a common source, making it a <style=\"CurrentLink\">Shared Resource</style>. In team-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">FPS Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> the players in each team need to shared ammunition and health kits (in the former game) and vehicles (in the later game).",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Shared Resources</style> are introduced to make players have to deal with the complexity of having <style=\"Link\"><link=\"resources\">Resources</link></style> that other players also can manipulate. This rather obviously changes perceptions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> of said resources, but can also heavily influence the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Organizations\">Social Organizations</link></style> present in a game. They can also affect or create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alliances\">Alliances</link></style> and <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style> when players can agree on trying to use the <style=\"CurrentLink\">Shared Resources</style> in a controlled way together. Examples of <style=\"CurrentLink\">Shared Resources</style> includes <style=\"Link\"><link=\"lives\">Lives</link></style> or <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style> which whole <style=\"Link\"><link=\"teams\">Teams</link></style> shares, as are the elements placed in common bags as part of <style=\"Link\"><link=\"bag-building\">Bag Building</link></style>. <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style> can also be used to modulate <style=\"CurrentLink\">Shared Resources</style> by simply given such goals to the players that have the <style=\"CurrentLink\">Shared Resources</style>.",
+            "<style=\"Link\"><link=\"penalties\">Penalties</link></style> and <style=\"Link\"><link=\"rewards\">Rewards</link></style> can be modified by <style=\"CurrentLink\">Shared Resources</style> by having their effects apply on these. Perhaps more naturally they can be the target of both <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style> and <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Shared Resources</style> can lead to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> in the form of <style=\"Link\"><link=\"resource-competition\">Resource Competition</link></style>, and thereby <style=\"Link\"><link=\"tension\">Tension</link></style>. It can also lead to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> focused upon those <style=\"CurrentLink\">Shared Resources</style>, and when this occurs may spread to players taking on different <style=\"Link\"><link=\"social-roles\">Social Roles</link></style> related to the <style=\"Link\"><link=\"resources\">Resources</link></style> or putting them in situations of <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>. Such <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style> are even more common in games where players not only have <style=\"CurrentLink\">Shared Resources</style> but also need to engage in <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>, and this may further increase <style=\"Link\"><link=\"tension\">Tension</link></style> since players may have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inherent%20Mistrust\">Inherent Mistrust</link></style> of each other.",
+            "That others can use <style=\"CurrentLink\">Shared Resources</style> can effectively make <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> exist on how long players have access to these <style=\"Link\"><link=\"resources\">Resources</link></style>. The presence of <style=\"CurrentLink\">Shared Resources</style> also make the players with access to them have <style=\"Link\"><link=\"symmetric-resource-distribution\">Symmetric Resource Distribution</link></style> regarding those <style=\"Link\"><link=\"resources\">Resources</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"resource-competition\">Resource Competition</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>, <style=\"Link\"><link=\"symmetric-resource-distribution\">Symmetric Resource Distribution</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"cooperation\">Cooperation</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Inherent%20Mistrust\">Inherent Mistrust</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Alliances\">Alliances</link></style>, <style=\"Link\"><link=\"bag-building\">Bag Building</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"shared-penalties\">Shared Penalties</link></style>, <style=\"Link\"><link=\"shared-rewards\">Shared Rewards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Organizations\">Social Organizations</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style> together with <style=\"Link\"><link=\"teams\">Teams</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "competition",
+            "negotiation",
+            "resource-competition",
+            "social-dilemmas",
+            "social-interaction",
+            "social-roles",
+            "symmetric-resource-distribution",
+            "tension",
+            "time-limits",
+            "inherent-mistrust"
+        ],
+        "modulates" : [
+            "alliances",
+            "bag-building",
+            "lives",
+            "ownership",
+            "penalties",
+            "resources",
+            "rewards",
+            "shared-penalties",
+            "shared-rewards",
+            "social-interaction",
+            "social-organizations"
+        ],
+        "instantiated_by" : [
+            "extra-chances"
+        ],
+        "modulated_by" : [
+            "mutual-goals"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

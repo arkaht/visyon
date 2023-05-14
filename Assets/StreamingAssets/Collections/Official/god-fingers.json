@@ -1,0 +1,74 @@
+{
+    "name" : "God Fingers",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns"
+    ],
+    "texts" : {
+        "definition" : "Graphical user interface components in computer games that display players' current point of interaction.",
+        "markups" : [
+            "<style=\"Definition\">Graphical user interface components in computer games that display players' current point of interaction.</style>",
+            "A <style=\"CurrentLink\">God Finger</style> is a game element that allows the player to affect the game world, but which cannot be affected by events in the game world itself. It is quite often a mouse pointer similar - or the same - as found in graphical computer operating systems.",
+            "<style=\"H3\">Examples</style>",
+            "<i>Point-and-Click</i> adventure games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Police%20Quest%20series\">Police Quest</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Leisure%20Suit%20Larry%20series\">Leisure Suit Larry</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Myst%20series\">Myst series</link></style> (as well as later installments of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/King's%20Quest%20series\">King's Quest series</link></style>) use <style=\"CurrentLink\">God Fingers</style> both to indicate where players' characters should move and how they wish to use items in their inventories.",
+            "While it is unclear in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style> what the pointers used to select Sims or game items represent, the cursors in god games of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Black%20&%20White%20series\">Black & White series</link></style> are literally <style=\"CurrentLink\">God Fingers</style>.",
+            "Many real-time strategy games, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Command%20and%20Conquer%20series\">Command and Conquer</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Starcraft%20series\">Starcraft</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warcraft%20series\">Warcraft series</link></style>, make use of <style=\"CurrentLink\">God Fingers</style> in the form of a cursor that is used to select individual units or groups.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cursor*10\">Cursor*10</link></style> shows an unusual usage of <style=\"CurrentLink\">God Fingers</style>: players control one cursor for a limited period of time trying to complete levels, and then has to work together with the recording of this cursor for continuing to complete new levels. This goes on until the tenth cursor is used, during which the player has to share the game space with the nine previous cursors.",
+            "<style=\"H2\">Using the pattern</style>",
+            "While the design of <style=\"CurrentLink\">God Fingers</style> themselves are pretty straight forward - they are pointers that players should be able to use to indicate where they wish to interact with <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> or <style=\"Link\"><link=\"levels\">Levels</link></style> - what interactions they provide offers some options. Moveable <style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style> are special cases of <style=\"CurrentLink\">God Fingers</style>.",
+            "The simplest use of <style=\"CurrentLink\">God Fingers</style> is to manipulate <style=\"Link\"><link=\"game-items\">Game Items</link></style> directly or indicate what <style=\"Link\"><link=\"game-items\">Game Items</link></style> <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> should manipulate. A slightly more complex alternative is to let players select <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> they wish to use. This can be followed by either using the <style=\"CurrentLink\">God Fingers</style> again to indicate where these should move or what they should attack, or using menus to select actions; for games allowing many types of interaction (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style>) this may be changed to first selecting an <style=\"Link\"><link=\"avatars\">Avatar</link></style>, then the item or other <style=\"Link\"><link=\"avatars\">Avatar</link></style> to interact with and finally selecting what type of action should be done. However, <style=\"CurrentLink\">God Fingers</style> can also act as <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> for actions that are independent of <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> or to specify the effect areas of ranged actions, for example, by selecting an area by stating its boundaries. ",
+            "Given the freedom of focusing or trying to interact with any part of a <style=\"Link\"><link=\"game-worlds\">Game World</link></style>, <style=\"CurrentLink\">God Fingers</style> are the most suitable <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> to make use of <style=\"Link\"><link=\"clickability\">Clickability</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">God Fingers</style> are typically outside the <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> of games but exceptions are possible, e.g. by placing the player in the role of a god as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Black%20&%20White%20series\">Black & White series</link></style> does.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">God Fingers</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>. They are not compatible with <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> but are quite natural ways of modulating <style=\"Link\"><link=\"god-views\">God Views</link></style> - especially since they can allow panning and scrolling so that new parts of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> can be viewed. They can be weakly combined with <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style> through locking players' views onto <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> when these have been selected (the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Sims%20series\">Sims series</link></style> supports this for example). <style=\"Link\"><link=\"fog-war\">Fog of War</link></style> can modulate <style=\"CurrentLink\">God Fingers</style> by letting players navigate <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> using the <style=\"CurrentLink\">God Fingers</style> but without revealing information that the players' <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> could observe.",
+            "<style=\"Link\"><link=\"tooltips\">Tooltips</link></style> can modify <style=\"CurrentLink\">God Fingers</style> by providing gameplay <style=\"Link\"><link=\"clues\">Clues</link></style> or explanations of game interface components if players hover the <style=\"CurrentLink\">God Fingers</style> over relevant part of the game interface.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">God Fingers</style> are <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> that function as <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> for players, allowing them to navigate <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> more or less independently of where their <style=\"Link\"><link=\"avatars\">Avatars</link></style> and <style=\"Link\"><link=\"units\">Units</link></style> are. They can also be used to select these or what actions these should do, making players omnipresent in the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. By doing so, they make it easier to handle <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style> in games but may also limit the use of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> and the feeling of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style> as <style=\"CurrentLink\">God Fingers</style> since players can have. They are <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style>.",
+            "Although possible to offset by <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, <style=\"CurrentLink\">God Fingers</style> may be problematic to combine with <style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Open%20Worlds\">Open Worlds</link></style> since players can view places and events unrelated to any specific <style=\"Link\"><link=\"characters\">Character</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>, <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"god-views\">God Views</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"crosshairs\">Crosshairs</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"clickability\">Clickability</link></style>, <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>, <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>",
+            "<style=\"Link\"><link=\"detective-structures\">Detective Structures</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Open%20Worlds\">Open Worlds</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "focus-loci",
+            "geospatial-game-widgets",
+            "non-diegetic-features"
+        ],
+        "modulates" : [
+            "attention-demanding-gameplay",
+            "avatars",
+            "god-views",
+            "units"
+        ],
+        "instantiated_by" : [
+            "crosshairs"
+        ],
+        "modulated_by" : [
+            "clickability",
+            "fog-war",
+            "third-person-views",
+            "tooltips"
+        ],
+        "conflicts" : [
+            "diegetic-consistency",
+            "first-person-views",
+            "spatial-engrossment",
+            "surprises",
+            "detective-structures"
+        ]
+    }
+}

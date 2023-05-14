@@ -1,0 +1,64 @@
+{
+    "name" : "Save Scumming",
+    "categories" : [
+        "Negative Patterns",
+        "Subjective Patterns",
+        "Dynamic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Overuse of saving and loading possibilities in games that replay taking on gameplay challenges.",
+        "markups" : [
+            "<style=\"Definition\">Overuse of saving and loading possibilities in games that replay taking on gameplay challenges.</style>",
+            "Creating and loading save files is common in many computer games since it allows players to make extended pauses in games as well as try solutions to challenges many times or try different solutions to the same challenge. However, players may use save files extensively to overcome challenges by getting information they were not intended to have, to have lucky breaks, or in other ways overcome challenges in ways not intended in the design. This is called <style=\"CurrentLink\">Save Scumming</style> since it is typically seen as a bad form of playing a game, and close to or indifferent from cheating.",
+            "TVTropes has an entry for <i>Save Scumming</i>. Gamasutra also has an article about <i>The Save Scumming Problem</i>.",
+            "<style=\"H3\">Examples</style>",
+            "All <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> that allow re-use of save files can have problems with [[Save Scumming]. However, they tend to be more common with games that include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mini%20Games\">Mini Games</link></style> in their design, which is the case for some installments in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Elder%20Scrolls%20series\">Elder Scrolls series</link></style>. ",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roguelikes\">Roguelikes</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rogue\">Rogue</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Nethack\">Nethack</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Slaves%20to%20Armok%20II:%20Dwarf%20Fortress\">Slaves to Armok II: Dwarf Fortress</link></style>, make <style=\"CurrentLink\">Save Scumming</style> difficult by only supporting one save files and removing it when it has been loaded into a game. While allowing players to engage in <style=\"CurrentLink\">Save Scumming</style>, the expansion <i>Throne of Bhaal</i> to the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Baldur's%20Gate%20series\">Baldur's Gate series</link></style> mocks <style=\"CurrentLink\">Save Scumming</style> through having a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NPCs\">NPC</link></style> group use it against players.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Save Scumming</style> requires players to have the possibility to extensively make use of loading <style=\"Link\"><link=\"save-files\">Save Files</link></style> and to a lesser degree being able to create <style=\"Link\"><link=\"save-files\">Save Files</link></style>, so the pattern builds upon the ability of players to manipulate <style=\"Link\"><link=\"save-files\">Save Files</link></style> and do <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>. It is especially likely in games with these feature combined with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mini%20Games\">Mini Games</link></style> as exemplified above, since the design then encourages players to save just before engaging in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mini%20Games\">Mini Games</link></style> with little too lose from reloading game states if one failed with the particular <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mini%20Games\">Mine Game</link></style>.",
+            "As a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Negative%20Patterns\">Negative Pattern</link></style>, <style=\"CurrentLink\">Save Scumming</style> may be something that is more often designed again than for. One of the most common ways, shown by the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roguelikes\">Roguelikes</link></style> above, is to have only allow each player on <style=\"Link\"><link=\"save-files\">Save File</link></style> (i.e. putting a <style=\"Link\"><link=\"resource-caps\">Resource Cap</link></style> on the number of <style=\"Link\"><link=\"save-files\">Save Files</link></style>).",
+            "While the purpose of <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> can be ruined by players performing <style=\"CurrentLink\">Save Scumming</style>, creating <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> on the right premises can instead focus players on trying to overcome the challenges poses by a game through gameplay. Therefore, modifying how <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> are created can be used as a way to mitigate <style=\"CurrentLink\">Save Scumming</style> if it has been detected in a game. The <i>Throne of Bhaal</i> example given above also shows how narration can be used to expose players to negative views on <style=\"CurrentLink\">Save Scumming</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The main reason <style=\"CurrentLink\">Save Scumming</style> is perceived as a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Negative%20Patterns\">Negative Pattern</link></style> is that it makes the design of <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> void or invalid. Further, it gives rise to players engaging in <style=\"Link\"><link=\"excise\">Excise</link></style> built upon <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> that amounts to <style=\"Link\"><link=\"grinding\">Grinding</link></style>. None of these things are probably wanted by players, so <style=\"CurrentLink\">Save Scumming</style> is typically seen as a design problem (or a player behavior problem).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"save-files\">Save Files</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mini%20Games\">Mini Games</link></style> in games with <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>, <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>",
+            "<style=\"Link\"><link=\"save-files\">Save Files</link></style> when used together with <style=\"Link\"><link=\"resource-caps\">Resource Caps</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "excise",
+            "extra-game-actions",
+            "grinding"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "save-files",
+            "save-load-cycles",
+            "mini-games"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "difficulty-levels",
+            "permadeath",
+            "surprises",
+            "save-files"
+        ]
+    }
+}

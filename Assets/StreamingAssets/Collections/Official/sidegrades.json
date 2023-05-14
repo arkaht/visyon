@@ -1,0 +1,60 @@
+{
+    "name" : "Sidegrades",
+    "categories" : [
+        "Game Element Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Modification to game items to provide uses that are more specialized.",
+        "markups" : [
+            "<style=\"Definition\">Modification to game items to provide uses that are more specialized.</style>",
+            "Some games allow players to upgrade their equipment in various ways. While this most often improves players' chances to perform actions or the effect of those actions, <style=\"CurrentLink\">Sidegrades</style> instead provide specific improvements that are not generally positive but only so in specific circumstances.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Sidegrades</style> have primarily been created in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%202\">Team Fortress 2</link></style> game. Here, gaining various achievements lets players replace various weapons they have for variants with some advantages and some disadvantages compared to the basic weapons. Examples of such alternative weapons include the <i>Huntsman</i>, the <i>Kritzkrieg</i>, the <i>Flare gun</i>, and the <i>Sandwich</i>. It should be noted however that it is not easy to perfectly balance advantages to disadvantages, and for this reason debates among players do not find consensus if specific equipment are <style=\"CurrentLink\">Sidegrades</style> or not.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%202\">Battlefield 2</link></style> allows players to unlock new weapons when they advance in ranks. These weapons, e.g. the DAO-12 shotgun, provide some advantages but also some disadvantages (e.g. slow reloads for the DAO-12) which makes them into <style=\"CurrentLink\">Sidegrades</style> rather than upgrades.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Sidegrades</style> are typically created in ways similar to <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>, but with <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> added so that the <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> inherent in <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> are balanced by the <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>. One example of a potential <style=\"CurrentLink\">Sidegrade</style> is scopes, which may provide more accuracy when shooting at long ranges but make it more difficult to use weapons in close-quarters battles. Given the difficulty of finding a right balance, <style=\"CurrentLink\">Sidegrades</style> are often volatile design solutions that can turn into <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> or \"downgrades\" if players realize that optimal strategies exist. ",
+            "Like <style=\"Link\"><link=\"upgrades\">Upgrades</link></style>, installing <style=\"CurrentLink\">Sidegrades</style> can either be something anybody can do anywhere of something which is regulated by <style=\"Link\"><link=\"crafting\">Crafting</link></style>. However, since they are not intended to affect <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"CurrentLink\">Sidegrades</style> can be made accessible through <style=\"Link\"><link=\"unlocking\">Unlocking</link></style>, e.g. through gaining <style=\"Link\"><link=\"achievements\">Achievements</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Sidegrades</style> are variants to <style=\"Link\"><link=\"upgrades\">Upgrades</link></style> that do not automatically created <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> but instead give players a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>. This is since they at the same time give other <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> but can allow players <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> in exploiting opportunities to position themselves in useful <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>. Regardless of players' levels of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"CurrentLink\">Sidegrades</style> can allow them to have <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> if they wish.",
+            "<style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style> and <style=\"CurrentLink\">Sidegrades</style> are conflicting on a definition level since the former assumes objective gameplay advantages while the latter only potentially offers advantages to those players that can make good use of the increased possibilities for specific contexts.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style></style>",
+            "<style=\"Link\"><link=\"upgrades\">Upgrades</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"crafting\">Crafting</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"unlocking\">Unlocking</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"achievements\">Achievements</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "competence-areas",
+            "freedom-choice",
+            "gameplay-mastery",
+            "varied-gameplay",
+            "upgrades"
+        ],
+        "modulates" : [
+            "crafting"
+        ],
+        "instantiated_by" : [
+            "unlocking",
+            "weapons"
+        ],
+        "modulated_by" : [
+            "achievements"
+        ],
+        "conflicts" : [
+            "increasing-rewards"
+        ]
+    }
+}

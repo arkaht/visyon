@@ -1,0 +1,80 @@
+{
+    "name" : "Maneuvering",
+    "categories" : [
+        "Action Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Controlling the movement of game elements in real-time games.",
+        "markups" : [
+            "<style=\"Definition\">Controlling the movement of game elements in real-time games.</style>",
+            "Moving game elements in games are common, but doing so in real-time games require different skills than in turn-based ones. This type of movement, <style=\"CurrentLink\">Maneuvering</style>, requires players to pay constant attention to what happens in the game and react to these with the appropriate timing.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Need%20for%20Speed%20series\">Need for Speed series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gran%20Turismo%20series\">Gran Turismo series</link></style> requires players to maneuver cars as quickly as possible around courses. The racing games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/F-Zero%20series\">F-Zero</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Wipeout%20series\">Wipeout series</link></style> also requires player to maneuver vehicles to avoid obstacles and other vehicles but does this at even high speeds and on tracks making full use of three dimensions.",
+            "Much of the skill in playing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Halo%20series\">Halo series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> consists in being able to maneuver <style=\"Link\"><link=\"avatars\">Avatars</link></style>, and vehicles they have entered, so one has good opportunities to attack enemies while still avoiding their attacks. ",
+            "In the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20series\">Super Mario series</link></style>, and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style> players need to navigate the game environment by timing running, jumping, and other movement actions to a high degree.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Maneuvering</style> is basically <style=\"Link\"><link=\"movement\">Movement</link></style> in <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, and can be necessary either due to wanting to reach certain locations (e.g. winning <style=\"Link\"><link=\"races\">Races</link></style>) or due to wishing to avoid other game elements that move. The specifics of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> generally affect this but some patterns are more likely to have strong effects on <style=\"CurrentLink\">Maneuvering</style>, with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style> being the most important since it means that players may not be able to ignore performing the <style=\"CurrentLink\">Maneuvering</style>. Of the two cases, <style=\"Link\"><link=\"evade\">Evade</link></style> can be used in the first case to make players with to avoid <style=\"Link\"><link=\"penalties\">Penalties</link></style> due to from collisions while <style=\"Link\"><link=\"chargers\">Chargers</link></style> and <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style> can be used to create <style=\"Link\"><link=\"collecting\">Collecting</link></style> goals. In the second case, <style=\"Link\"><link=\"movement\">Movement</link></style> of <style=\"Link\"><link=\"enemies\">Enemies</link></style>, or shots from them, can make <style=\"CurrentLink\">Maneuvering</style> more important due to the presence of <style=\"Link\"><link=\"evade\">Evade</link></style> goals; the same applies to <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>, e.g., raising bridges or rock falls, that can be perceived and avoided. The importance of <style=\"CurrentLink\">Maneuvering</style> can also be affected due to goals to <style=\"Link\"><link=\"capture\">Capture</link></style> or <style=\"Link\"><link=\"herd\">Herd</link></style> something, or when the <style=\"CurrentLink\">Maneuvering</style> is part of attempting actions concerning <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>. <style=\"Link\"><link=\"vehicles\">Vehicles</link></style> offer ways to change the way <style=\"CurrentLink\">Maneuvering</style> is done temporary or over time as gameplay progresses and this can be emphasized by the presence of dedicated <style=\"Link\"><link=\"vehicle-sections\">Vehicle Sections</link></style>.",
+            "<style=\"CurrentLink\">Maneuvering</style> requires that players have some level of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style> in the game and this typically requires either <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style> or <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>. <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> can quite easily be achieved for <style=\"CurrentLink\">Maneuvering</style> through the specifics of these views, the speed of game elements (see <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/F-Zero%20GX\">F-Zero GX</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Wipeout%20series\">Wipeout series</link></style> for examples of this), and the number the number of <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, and other game elements (including other players) that players need to take into consideration. The first raises the requirements on skills in <style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style> while the second requires <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Maneuvering</style> is a <style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Action</link></style> that often requires <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style>, especially when players are given <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"evade\">Evade</link></style>, or <style=\"Link\"><link=\"herd\">Herd</link></style> goals. This makes for <style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style> which can give <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style> since players must think of the positions of their <style=\"Link\"><link=\"focus-loci\">Focus Loci</link></style> in relation to <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. Like other forms of <style=\"Link\"><link=\"movement\">Movement</link></style>, it is quite likely to provide players with a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>. ",
+            "The <style=\"CurrentLink\">Maneuvering</style> of <style=\"Link\"><link=\"enemies\">Enemies</link></style> are likely to make <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> actions more difficult.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"attention-demanding-gameplay\">Attention Demanding Gameplay</link></style>, <style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Timing\">Timing</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"chargers\">Chargers</link></style> or <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style></style>",
+            "<style=\"Link\"><link=\"collecting\">Collecting</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"movement\">Movement</link></style> together with <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"chargers\">Chargers</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"first-person-views\">First-Person Views</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"herd\">Herd</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/The%20Show%20Must%20Go%20On\">The Show Must Go On</link></style>, <style=\"Link\"><link=\"third-person-views\">Third-Person Views</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>, <style=\"Link\"><link=\"ultra-powerful-events\">Ultra-Powerful Events</link></style>, <style=\"Link\"><link=\"vehicle-sections\">Vehicle Sections</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "attention-demanding-gameplay",
+            "dexterity-based-actions",
+            "freedom-choice",
+            "races",
+            "spatial-engrossment",
+            "timing",
+            "collecting"
+        ],
+        "modulates" : [
+            "aim-shoot"
+        ],
+        "instantiated_by" : [
+            "movement"
+        ],
+        "modulated_by" : [
+            "aim-shoot",
+            "capture",
+            "challenging-gameplay",
+            "chargers",
+            "damage",
+            "enemies",
+            "environmental-effects",
+            "evade",
+            "first-person-views",
+            "game-worlds",
+            "herd",
+            "obstacles",
+            "pick-ups",
+            "the-show-must-go-on",
+            "third-person-views",
+            "traps",
+            "turn-based-games",
+            "ultra-powerful-events",
+            "vehicle-sections",
+            "vehicles"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

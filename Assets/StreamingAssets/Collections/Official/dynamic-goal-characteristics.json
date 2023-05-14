@@ -1,0 +1,70 @@
+{
+    "name" : "Dynamic Goal Characteristics",
+    "categories" : [
+        "Goal Patterns",
+        "Dynamic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Goals that have characteristics which change during gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Goals that have characteristics which change during gameplay.</style>",
+            "Players need to know the requirements of goals in games to be able to strive towards fulfilling them. However, this does not mean that the requirements can change. Goals with changing requirements are called <style=\"CurrentLink\">Dynamic Goal Characteristics</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Many children's games, such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tag\">Tag</link></style> and <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, can be described as using <style=\"CurrentLink\">Dynamic Goal Characteristics</style> regarding the overall winning condition for the games. ",
+            "The card game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fluxx\">Fluxx</link></style> has the current winning goal represented by a played card. Although the game can be said to have the static goal of fulfilling the goal card criteria, the specific winning goal changes as soon as a player plays a new goal card.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Squash\">Squash</link></style> has a conditionally dynamic goal definition. The first goal is to get nine points, but if the player does not have a two-point lead, the goal becomes dynamic regarding the amount of points required for winning the game. While this could also be described as the goal \"have nine points or more points and have two points more than the other player\" this is also dynamic since it depends on how many points the other player has.",
+            "In the first part of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neverwinter%20Nights%20series\">Neverwinter Nights series</link></style>, part of the overall goal at the start is to perform a complicated ritual with several non-player characters. When the ritual is finally performed, it turns out that one of the characters doing the ritual is a traitor, and then another goal is revealed to the player: defeat the traitor.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Dynamic Goal Characteristics</style> can modify any type of goal, including <style=\"Link\"><link=\"main-goals\">Main Goals</link></style>. The main design choice <style=\"CurrentLink\">Dynamic Goal Characteristics</style> is, of course, what characteristics of the goal are going to be dynamic. The number of game elements in a goal is a common solution, e.g. <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, or <style=\"Link\"><link=\"units\">Units</link></style>. However, <style=\"CurrentLink\">Dynamic Goal Characteristics</style> can also modify <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> by adding or removing goals from the hierarchy. Another major design choice is if the <style=\"CurrentLink\">Dynamic Goal Characteristics</style> should be linear in the sense that the goals either don't change more than once or that they become more specific each time or if they can vary back and forth between many different specifications (see e.g., <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>).",
+            "A secondary main design choice is how and when the characteristics should be changed. This might be as explicit effects of <style=\"Link\"><link=\"facilitating-rewards\">Facilitating Rewards</link></style> or <style=\"Link\"><link=\"penalties\">Penalties</link></style> (<style=\"Link\"><link=\"setback-penalties\">Setback Penalties</link></style> by their definition instantiates <style=\"CurrentLink\">Dynamic Goal Characteristics</style> but other <style=\"Link\"><link=\"penalties\">Penalties</link></style> can modify the pattern), but some pattern combinations make <style=\"CurrentLink\">Dynamic Goal Characteristics</style> occur dynamically in games. For example, providing <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> of game elements related to <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> or <style=\"Link\"><link=\"collections\">Collections</link></style> goals will change depending on how often the generators manage to produce the <style=\"Link\"><link=\"resources\">Resources</link></style>. As another example, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversal</link></style> allows two (or more) goals that are related to appear as versions of a more abstract goal with <style=\"CurrentLink\">Dynamic Goal Characteristics</style>. It should be noted that the changes of goal characteristics can however not be to great, since this may make players feel that their actions are meaningless (and that the game is actually switching between several different goals).",
+            "Some goals by their nature have <style=\"CurrentLink\">Dynamic Goal Characteristics</style>. For example, <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style> which are not enforced by a rule system let players change their specific of their goals whenever they want. As another example, <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style> can be seen as goals with <style=\"CurrentLink\">Dynamic Goal Characteristics</style> that they can only be completed at specific period of time. <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style> which affect <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> by removing other goals also create <style=\"CurrentLink\">Dynamic Goal Characteristics</style> in the parent goal.",
+            "An important consideration for game design using <style=\"CurrentLink\">Dynamic Goal Characteristics</style> is if players should be aware that a goal has <style=\"CurrentLink\">Dynamic Goal Characteristics</style> or not, and if they do if they should know how it should vary. Goals that are vague can unproblematically have <style=\"CurrentLink\">Dynamic Goal Characteristics</style> if changes to these goals can be seen as progress in either having completed an implicit sub goal or now having a clearer picture of what the goal actually is. <style=\"Link\"><link=\"main-goals\">Main Goals</link></style> in games with <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> typically fit this requirement, especially when the <style=\"Link\"><link=\"main-goals\">Main Goals</link></style> tie into some kind of diegetic mystery or secret. However, <style=\"CurrentLink\">Dynamic Goal Characteristics</style> can be problematic if they require players to begin adopting completely different gameplay skills, tactics, or strategies. <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style> is an example where players are aware of the goal having <style=\"CurrentLink\">Dynamic Goal Characteristics</style> and this not causing issues since the players know that the variants simply resolves around which players will be targeted by the other players.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Dynamic Goal Characteristics</style> in a game makes it have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> unless there is a deterministic algorithm modifying the characteristics and this is known by players <i>and</i> the players can deduce more future game states than is needed to complete the goal. Goals with <style=\"CurrentLink\">Dynamic Goal Characteristics</style> are <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style> to players that do not know the current characteristics (and thereby gives them <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals). In contrast, if the characteristics are known, the pattern typically provides <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style> since players can know how close they are to meeting the goal.",
+            "Changes in goals due to <style=\"CurrentLink\">Dynamic Goal Characteristics</style> may cause players to replan their <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style> if they are possible in a game.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perceivable%20Margins\">Perceivable Margins</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, <style=\"Link\"><link=\"unknown-goals\">Unknown Goals</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"main-goals\">Main Goals</link></style>, <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style>, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Role%20Reversal\">Role Reversal</link></style>, <style=\"Link\"><link=\"setback-penalties\">Setback Penalties</link></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> together with <style=\"Link\"><link=\"collections\">Collections</link></style> or <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"facilitating-rewards\">Facilitating Rewards</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "imperfect-information",
+            "perceivable-margins",
+            "resource-generators",
+            "unknown-goals"
+        ],
+        "modulates" : [
+            "excluding-goals",
+            "goal-hierarchies",
+            "main-goals",
+            "player-planned-development"
+        ],
+        "instantiated_by" : [
+            "ephemeral-goals",
+            "king-hill",
+            "player-defined-goals",
+            "role-reversal",
+            "setback-penalties",
+            "resource-generators"
+        ],
+        "modulated_by" : [
+            "penalties",
+            "facilitating-rewards"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

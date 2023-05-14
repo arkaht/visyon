@@ -1,0 +1,101 @@
+{
+    "name" : "Memorizing",
+    "categories" : [
+        "Patterns",
+        "Action Patterns",
+        "Dynamic Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where players gain benefit by remembering facts about the game or game state.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where players gain benefit by remembering facts about the game or game state.</style>",
+            "While many games require players to make as good choices as possible to increase their chances of winning, not all require that players need to remember the rules and specifics of game states to be able to make these choices. Those games that do have <style=\"CurrentLink\">Memorizing</style> as a gameplay mechanic and this may concern both facts and information that remain constant between game instance and being able to keep track of the details of an ongoing game instance.+",
+            "<style=\"H3\">Examples</style>",
+            "Many card games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contract%20Bridge\">Contract Bridge</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blackjack\">Blackjack</link></style>, give players benefits for <style=\"CurrentLink\">Memorizing</style> played cards, as this allows them to predict what cards they will be dealt or what possible card hands other players can have. Although not forbidden by the rules of the games, casinos have rules that forbid card counting and ban players who are identified <style=\"CurrentLink\">Memorizing</style> the cards.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blindfold%20Chess\">Blindfold Chess</link></style> is a variant of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> made more difficult by being played without the players being able to see the physical game elements; making it necessary for the players to remember the complete game state to be able to do good moves.",
+            "The games in the <i>Simon</i> toy by Mattel show patterns to players by playing sounds and showing lights. The players' goals are to repeat the patterns, which makes <style=\"CurrentLink\">Memorizing</style> the primary game skill.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The use of <style=\"CurrentLink\">Memorizing</style> is not totally dependent on either <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> but rather on if players' gameplay is affected by a lack of knowledge, which can be how to use information presence in the game. The lack of knowledge can be either regarding the game state or regarding the rules of the game and can create additional challenges to the rewards from Gain Information goals, if access to the gained information is not provided continuously by the game.",
+            "<style=\"CurrentLink\">Memorizing</style> can either be applicable for all game sessions of a game or be specific for individual game sessions. The first type includes the learning of <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, such as the distributions of effects determined by <style=\"Link\"><link=\"randomness\">Randomness</link></style>, and is present in all games, but may be explicitly encouraged by game design where players receive <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>. Another is learning the answers to <style=\"Link\"><link=\"quizzes\">Quizzes</link></style>. Explicitly supporting <style=\"CurrentLink\">Memorizing</style> in individual game instance requires some variation in the initial game state (e.g. through <style=\"Link\"><link=\"randomness\">Randomness</link></style>) and then having some way of giving players access to information that they have to remember since it will not always be available. One way of doing this is through having <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> that becomes <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> for a while, i.e. by using <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> and then reverts to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> as presented by the game system - the game of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Memory\">Memory</link></style> is an archetypical example of this. Another way is through the use of <style=\"Link\"><link=\"decks\">Decks</link></style> or <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, e.g. in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blackjack\">Blackjack</link></style>, since here remembering which <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> have been drawn helps one figure out which are most likely appear next - this can be made more difficult through using closed <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style>. More generally, any part of a game system with <style=\"Link\"><link=\"fixed-distributions\">Fixed Distributions</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> can create a need for, or advantage in, <style=\"CurrentLink\">Memorizing</style> what results have occur. <style=\"CurrentLink\">Memorizing</style> can also occur in <style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style> games but here players have to memorize which players have played what <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> to draw conclusions about their <style=\"Link\"><link=\"hands\">Hands</link></style> and thereby their possible future actions. <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> goals do often suggest <style=\"CurrentLink\">Memorizing</style> activities since they consist of noticing the difference between a normal or previous condition and the current one.",
+            "Whether they change between game sessions, the locations of <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style>, and <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style> are typical aspects of games worth <style=\"CurrentLink\">Memorizing</style>, and may be made into explicit goals of <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>. <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> were one does not have access to all information or needed pieces at once is another way to create a need for <style=\"CurrentLink\">Memorizing</style> in games. If a game does not provide <style=\"Link\"><link=\"progress-indicators\">Progress Indicators</link></style> for when <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style> will take place or when a <style=\"Link\"><link=\"development-time\">Development Time</link></style> is nearing completion, <style=\"CurrentLink\">Memorizing</style> these facts may be necessary to be able to game well. Changing game states or <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> so new memorization is required for each game session can be achieved through <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style> as long as players do not have complete overview of the whole gameplay area, e.g. through use of <style=\"Link\"><link=\"fog-war\">Fog of War</link></style>.",
+            "Memorization of the rules is not usually a designed feature of games but nevertheless affects gameplay. Smooth execution of <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style> requires that players spend time <style=\"CurrentLink\">Memorizing</style> the rules, but may be eased by providing <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> and handouts. Players are motivated to do this since failure to remember rules give them a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Foresight\">Limited Foresight</link></style> compared to other players, and failure to follow rules may cause rule arguments, which can usually not be corrected if the game state has change too much. In contrast, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blindfold%20Chess\">Blindfold Chess</link></style> shows how one can increase the <style=\"Link\"><link=\"difficulty-levels\">Difficulty Level</link></style> of a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> game by requiring players to keep the entire game state in their heads, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ricochet%20Robots\">Ricochet Robots</link></style> makes <style=\"Link\"><link=\"action-programming\">Action Programming</link></style> more demanding by requiring players to keep the sequence of actions and there effects on the game state in their minds while coming up with a plan. ",
+            "The presence of <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> makes <style=\"CurrentLink\">Memorizing</style> all parts of the rules optional players but may still be interesting for reasons of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empowerment\">Empowerment</link></style> and <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>. The <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> that computer can be for games allow players to start playing the games without any knowledge of rules and make the learning of them a combination of <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> and <style=\"CurrentLink\">Memorizing</style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "The need for <style=\"CurrentLink\">Memorizing</style> can be lessened or made completely unnecessary for game instant specific issues through the use of <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> and <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "As being a skill, <style=\"CurrentLink\">Memorizing</style> brings <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> to a game. When done during gameplay, <style=\"CurrentLink\">Memorizing</style> can give players <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cognitive%20Engrossment\">Cognitive Engrossment</link></style> in games and when possible to do generally is one skill that can determine if players have <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> or not. Since having memorized rules and facts can affect the efficiency of players gameplay, doing this correctly can also affect what level of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empowerment\">Empowerment</link></style> they have. When this information can be used to directly solve specific goals, for example those related to <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, the possibility of <style=\"CurrentLink\">Memorizing</style> in a game lessens its <style=\"Link\"><link=\"replayability\">Replayability</link></style>. When instead it helps predict the likelihood of future events, e.g. through <style=\"CurrentLink\">Memorizing</style> what <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> have been drawn from <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> and thereby letting on predict better the probabilities for future draws, <style=\"CurrentLink\">Memorizing</style> supports <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>.",
+            "<style=\"CurrentLink\">Memorizing</style> quite easily give rise to <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style> in games, since as soon as it can increase the effectiveness of something also affected by the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Powers\">Powers</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, or <style=\"Link\"><link=\"combos\">Combos</link></style> of <style=\"Link\"><link=\"characters\">Characters</link></style>, players are likely to make use of this possibility regardless of if it is supported by the game design or not. As part of striving toward <style=\"CurrentLink\">Memorizing</style> players may have <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals if not all information that is to be memorized are known. As mentioned above, <style=\"CurrentLink\">Memorizing</style> can be used to increase <style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style> by requiring players to remember game state or the sequences of actions to be performed in games with <style=\"Link\"><link=\"action-programming\">Action Programming</link></style>.",
+            "For <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>, <style=\"CurrentLink\">Memorizing</style> the rules is needed by at least one of the players for gameplay to not halt to consult rules (most likely creating <style=\"Link\"><link=\"downtime\">Downtime</link></style> for some of the players).",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cognitive%20Engrossment\">Cognitive Engrossment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Empowerment\">Empowerment</link></style>, <style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style></style>",
+            "<style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style></style>",
+            "<style=\"Link\"><link=\"difficulty-levels\">Difficulty Levels</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"self-facilitated-games\">Self-Facilitated Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"decks\">Decks</link></style>, <style=\"Link\"><link=\"delayed-effects\">Delayed Effects</link></style>, <style=\"Link\"><link=\"development-time\">Development Time</link></style>, <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"invisible-walls\">Invisible Walls</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>, <style=\"Link\"><link=\"quizzes\">Quizzes</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style>",
+            "<style=\"Link\"><link=\"fixed-distributions\">Fixed Distributions</link></style> together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>",
+            "<style=\"Link\"><link=\"fog-war\">Fog of War</link></style> together with <style=\"Link\"><link=\"reconfigurable-game-worlds\">Reconfigurable Game Worlds</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"discard-piles\">Discard Piles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>, <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>",
+            "<style=\"Link\"><link=\"replayability\">Replayability</link></style> when <style=\"CurrentLink\">Memorizing</style> can be applied to <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "cognitive-engrossment",
+            "empowerment",
+            "gain-information",
+            "gameplay-mastery",
+            "performance-uncertainty",
+            "player-character-skill-composites",
+            "stimulated-planning",
+            "difficulty-levels"
+        ],
+        "modulates" : [
+            "action-programming",
+            "self-facilitated-games"
+        ],
+        "instantiated_by" : [
+            "cards",
+            "decks",
+            "delayed-effects",
+            "development-time",
+            "drawing-stacks",
+            "game-world-exploration",
+            "invisible-walls",
+            "puzzle-solving",
+            "quizzes",
+            "randomness",
+            "reconnaissance",
+            "strategic-knowledge",
+            "strategic-locations",
+            "tiles",
+            "traps",
+            "trick-taking",
+            "fixed-distributions",
+            "fog-war"
+        ],
+        "modulated_by" : [
+            "bookkeeping-tokens",
+            "dedicated-game-facilitators",
+            "discard-piles",
+            "extra-game-information",
+            "game-masters",
+            "game-state-indicators",
+            "game-state-overviews"
+        ],
+        "conflicts" : [
+            "game-state-indicators",
+            "game-state-overviews",
+            "replayability"
+        ]
+    }
+}

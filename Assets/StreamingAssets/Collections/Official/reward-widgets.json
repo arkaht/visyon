@@ -1,0 +1,60 @@
+{
+    "name" : "Reward Widgets",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Rewards that are placed within game environments without being diegetically present.",
+        "markups" : [
+            "<style=\"Definition\">Rewards that are placed within game environments without being diegetically present.</style>",
+            "While some games give rewards to players by automatically change their game state values and other instead provide new game items in the environment, <style=\"CurrentLink\">Reward Widgets</style> are a hybrid of these two possibilities. These <style=\"CurrentLink\">Reward Widgets</style> are placed in the game environment but are not diegetically there.",
+            "<i>Note: Although a literal reading on the pattern name could imply that pop-up screens regarding rewards would be examples of instances of the pattern, the pattern here is limited to those widgets that are located within the game environment but without being part of it.</i>",
+            "<style=\"H3\">Examples</style>",
+            "Several Social Media Games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CityVille\">CityVille</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Little%20Cave%20Hero\">Little Cave Hero</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zombie%20Lane\">Zombie Lane</link></style> have <style=\"CurrentLink\">Reward Widgets</style> for each type of reward that appears when players have successfully completed an action.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Reward Widgets</style> are created by making <style=\"Link\"><link=\"rewards\">Rewards</link></style> appear as clickable <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>. Using them in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> is unproblematic since there is only one eligible player to retrieve them but if they are to be used in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> additional design choices need to be made on who received them: the one that made them appear, the one that is closest when the <style=\"Link\"><link=\"time-limits\">Time Limit</link></style> ran out, or some other rule.",
+            "They often have <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> after which they are automatically retrieved, but can be designed to provide extra <style=\"Link\"><link=\"rewards\">Rewards</link></style> for being manually picked up if additional <style=\"Link\"><link=\"clickability\">Clickability</link></style> is wanted. Additional <style=\"Link\"><link=\"clickability\">Clickability</link></style> can be given by making the collecting of them part of <style=\"Link\"><link=\"repeat-combos\">Repeat Combos</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Being <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"CurrentLink\">Reward Widgets</style> break <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> in a game.",
+            "<style=\"H2\">Consequences</style>",
+            "This pattern is mainly used in games which wishes to increase their <style=\"Link\"><link=\"clickability\">Clickability</link></style>. While they are created by combining <style=\"Link\"><link=\"rewards\">Rewards</link></style> with <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, they do introduce these <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style> into the games and also modulate how <style=\"Link\"><link=\"rewards\">Rewards</link></style> function (and can themselves be modulated by extra <style=\"Link\"><link=\"rewards\">Rewards</link></style> being given if player manually pick them up instead of letting the game system automatically do so after a while). It does open up for the possibility of <style=\"Link\"><link=\"ninja-looting\">Ninja Looting</link></style>. ",
+            "Having to click on <style=\"CurrentLink\">Reward Widgets</style> can create <style=\"Link\"><link=\"grinding\">Grinding</link></style> but this become optional when the <style=\"CurrentLink\">Reward Widgets</style> are automatically retried after a certain <style=\"Link\"><link=\"time-limits\">Time Limit</link></style>.",
+            "As mentioned above, <style=\"CurrentLink\">Reward Widgets</style> break <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"clickability\">Clickability</link></style>, <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>, <style=\"Link\"><link=\"ninja-looting\">Ninja Looting</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"rewards\">Rewards</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"rewards\">Rewards</link></style> together with <style=\"Link\"><link=\"geospatial-game-widgets\">Geospatial Game Widgets</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"repeat-combos\">Repeat Combos</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "clickability",
+            "geospatial-game-widgets",
+            "grinding",
+            "ninja-looting"
+        ],
+        "modulates" : [
+            "rewards"
+        ],
+        "instantiated_by" : [
+            "rewards"
+        ],
+        "modulated_by" : [
+            "repeat-combos",
+            "rewards",
+            "time-limits"
+        ],
+        "conflicts" : [
+            "diegetic-consistency"
+        ]
+    }
+}

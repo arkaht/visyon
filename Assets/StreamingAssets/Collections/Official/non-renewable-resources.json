@@ -1,0 +1,86 @@
+{
+    "name" : "Non-Renewable Resources",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Resources that do not increase in number during gameplay.",
+        "markups" : [
+            "<style=\"Definition\">Resources that do not increase in number during gameplay.</style>",
+            "Resources are used in most games in one way or another, often being created, transformed, and consumed as part of player actions or game events. <style=\"CurrentLink\">Non-Renewable Resources</style> are a subcategory of resources characterized by not being created or being replenished during gameplay. This means that they might either be static in number or be reduced in number as gameplay continues, possibly to the point where they are completely removed from gameplay. ",
+            "<style=\"H3\">Examples</style>",
+            "The pieces used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> are <style=\"CurrentLink\">Non-Renewable Resources</style> as are the space marines in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style>. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Alert\">Space Alert</link></style> the energy units are non-renewable. Characters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> have abilities which can only be used once, and thereby function as <style=\"CurrentLink\">Non-Renewable Resources</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Freedom:%20The%20Underground%20Railroad\">Freedom: The Underground Railroad</link></style> work the same way but with less detailed characters. Similarly, players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shadow%20Hunters\">Shadow Hunters</link></style> have a special ability the can use but only if they also reveal their identity when doing so; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlestar%20Galactica:%20The%20Board%20Game\">Battlestar Galactica: The Board Game</link></style> also provides this type of special ability to cylon players. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Betrayal%20at%20House%20on%20the%20Hill\">Betrayal at House on the Hill</link></style> allow players to get one-time boosts from certain locations (gym, chapel, etc.).",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> has a limited number of cards players can buy during gameplay, and use the depletion of three types of cards or just the depletion of the \"province\" cards to determine when gameplay ends. Some of the drawing stacks in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Legendary%20Encounters:%20An%20Alien%20Deck%20Building%20Game\">Legendary Encounters: An Alien Deck Building Game</link></style> are also used as end conditions, but in this case they are reshuffled once before ending gameplay. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Boss%20Monster:%20The%20Dungeon%20Building%20Card%20Game\">Boss Monster: The Dungeon Building Card Game</link></style> the boss cards have one time action that can be used when a player research the 5 room limit. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Samurai%20Spirit\">Samurai Spirit</link></style> functions somewhat similarly, letting players upgrade their characters to beast forms after gaining experience but at the same time make them more vulnerable to being killed.  Dog allies in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Arkham%20Horror\">Arkham Horror</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20of%20Winter\">Dead of Winter</link></style> allow players one-time actions to restore sanity or die instead of the player's character respectively. Fulfilling the requirements of an ethical dilemma in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Euphoria:%20Build%20a%20Better%20Dystopia\">Euphoria: Build a Better Dystopia</link></style> let players choose between two one-time actions. The support cards in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Star%20Trek:%20Catan\">Star Trek: Catan</link></style> shows examples of allowing an action a maximum of two times.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Non-Renewable Resources</style> is typically designed as part of guaranteeing that <style=\"Link\"><link=\"complete-resource-depletion\">Complete Resource Depletion</link></style> will occur during gameplay. While this may not always be the case, e.g. by players hoard the <style=\"Link\"><link=\"resources\">Resources</link></style> but not using them, the end result is typically the same: that the <style=\"Link\"><link=\"resources\">Resources</link></style> aren't used to perform certain actions and therefor those actions don't occur. In the case of <style=\"Link\"><link=\"resources\">Resources</link></style> that are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Energy\">Energy</link></style>, such designs lead to <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>. <style=\"CurrentLink\">Non-Renewable Resources</style> can also be used ensure <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style>. ",
+            "<style=\"CurrentLink\">Non-Renewable Resources</style> can be designed in two ways. One is that the <style=\"Link\"><link=\"resources\">Resources</link></style> are globally non-renewable while the other is that they are non-renewable on a per player basis. The main difference between these is that the <style=\"Link\"><link=\"resources\">Resources</link></style> cannot support <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style> or change <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> in the latter case but can in the former. ",
+            "<style=\"Link\"><link=\"cards\">Cards</link></style> are quite often examples of <style=\"CurrentLink\">Non-Renewable Resources</style> by being given to players and then being removed from active gameplay after being played. A variant of this is having <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style> that are only used once (or more rarely a few times as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Legendary%20Encounters:%20An%20Alien%20Deck%20Building%20Game\">Legendary Encounters: An Alien Deck Building Game</link></style> provides an example of). This creates <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Gameplay%20Time\">Limited Gameplay Time</link></style> when used in this way to give players <style=\"Link\"><link=\"hands\">Hands</link></style> of <style=\"Link\"><link=\"cards\">Cards</link></style>, and <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style> as the number of <style=\"Link\"><link=\"cards\">Cards</link></style> become more limited. This also shows a way in which <style=\"CurrentLink\">Non-Renewable Resources</style> affects <style=\"Link\"><link=\"randomness\">Randomness</link></style>. Other examples of <style=\"Link\"><link=\"resources\">Resources</link></style> that can be made non-renewable include <style=\"Link\"><link=\"companions\">Companions</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, and <style=\"Link\"><link=\"units\">Units</link></style>. ",
+            "<style=\"Link\"><link=\"resources\">Resources</link></style> cannot quite naturally be both <style=\"CurrentLink\">Non-Renewable Resources</style> and <style=\"Link\"><link=\"renewable-resources\">Renewable</link></style> or <style=\"Link\"><link=\"regenerating-resources\">Regenerating</link></style> ones. It can be problematic to use globally <style=\"CurrentLink\">Non-Renewable Resources</style> in <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> because this more or less requires that gameplay can function well forever without the <style=\"Link\"><link=\"resources\">Resources</link></style> affected after they have been depleted.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"Link\"><link=\"complete-resource-depletion\">Complete Resource Depletion</link></style> can be guaranteed in games with <style=\"CurrentLink\">Non-Renewable Resources</style> and <style=\"Link\"><link=\"consumers\">Consumers</link></style> that consume these resources, and this may create <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> as a follow-up effect. <style=\"Link\"><link=\"experimenting\">Experimenting</link></style> that requires the use of <style=\"CurrentLink\">Non-Renewable Resources</style> encourages players to engage in <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> to avoid squandering those <style=\"Link\"><link=\"resources\">Resources</link></style>. In games with <style=\"Link\"><link=\"capture\">Capture</link></style> actions related to the <style=\"CurrentLink\">Non-Renewable Resources</style>, these <style=\"Link\"><link=\"resources\">Resources</link></style> will become fewer and fewer over time. This makes it likely that the latter actions more important and thereby create <style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style> in such games. Any kind of consumption, <style=\"Link\"><link=\"capture\">Capture</link></style>, or removable of <style=\"CurrentLink\">Non-Renewable Resources</style> from the game state are by definition <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style> since the <style=\"Link\"><link=\"resources\">Resources</link></style> cannot be re-created. <style=\"Link\"><link=\"action-caps\">Action Caps</link></style> result from have <style=\"CurrentLink\">Non-Renewable Resources</style> that are necessary for performing actions (for example if <style=\"Link\"><link=\"bidding\">Bidding</link></style> has specialized <style=\"Link\"><link=\"resources\">Resources</link></style> for the <style=\"Link\"><link=\"bidding\">Bidding</link></style>).",
+            "The presence of <style=\"CurrentLink\">Non-Renewable Resources</style> can reduce the efficiency of using <style=\"Link\"><link=\"mules\">Mules</link></style> since repetitive collection is less likely to be possible. They can also limit possibilities for affecting <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> since differences in available <style=\"CurrentLink\">Non-Renewable Resources</style> cannot so easily be adjusted by simply adding more <style=\"Link\"><link=\"resources\">Resources</link></style> of those types.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"action-caps\">Action Caps</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Closed%20Economies\">Closed Economies</link></style>, <style=\"Link\"><link=\"irreversible-events\">Irreversible Events</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"capture\">Capture</link></style></style>",
+            "<style=\"Link\"><link=\"higher-level-closures-gameplay-progresses\">Higher-Level Closures as Gameplay Progresses</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"consumers\">Consumers</link></style></style>",
+            "<style=\"Link\"><link=\"complete-resource-depletion\">Complete Resource Depletion</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Energy\">Energy</link></style></style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"experimenting\">Experimenting</link></style></style>",
+            "<style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"hands\">Hands</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Gameplay%20Time\">Limited Gameplay Time</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"companions\">Companions</link></style>, <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>, <style=\"Link\"><link=\"fudged-results\">Fudged Results</link></style>, <style=\"Link\"><link=\"lives\">Lives</link></style>, <style=\"Link\"><link=\"mules\">Mules</link></style>, <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"Link\"><link=\"regenerating-resources\">Regenerating Resources</link></style>, <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "action-caps",
+            "closed-economies",
+            "irreversible-events",
+            "higher-level-closures-gameplay-progresses",
+            "complete-resource-depletion",
+            "ability-losses",
+            "stimulated-planning",
+            "limited-gameplay-time",
+            "predictable-consequences"
+        ],
+        "modulates" : [
+            "capture",
+            "cards",
+            "companions",
+            "drawing-stacks",
+            "fudged-results",
+            "lives",
+            "mules",
+            "player-balance",
+            "privileged-abilities",
+            "randomness",
+            "resources",
+            "units"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "ownership",
+            "transfer-control"
+        ],
+        "conflicts" : [
+            "persistent-game-worlds",
+            "regenerating-resources",
+            "renewable-resources"
+        ]
+    }
+}

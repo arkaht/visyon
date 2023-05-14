@@ -1,0 +1,63 @@
+{
+    "name" : "Player Aids",
+    "categories" : [
+        "Narration Patterns",
+        "Interface Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Physical material that is handed out to players during gameplay to provide more information about the game world or the current situation.",
+        "markups" : [
+            "<style=\"Definition\">Physical material that is handed out to players during gameplay to provide more information about the game world or the current situation.</style>",
+            "<style=\"CurrentLink\">Player Aids</style> are physical props, most often pieces of paper containing scribblings, diaries, letters, drawings, or maps, that player can acquire during gameplay which lets them experience the game world through items that could exist in the same form in the game world itself.",
+            "<style=\"H3\">Examples</style>",
+            "While some earlier modules for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> had images that were intended to be shown to players, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Call%20of%20Cthulhu\">Call of Cthulhu</link></style> was the first <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Game</link></style> that had sheets with <style=\"CurrentLink\">Player Aids</style> in the form of textual information that players were to be given when they reached specific points in adventures.",
+            "The map and booklet that went along with later editions of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20series\">Zork I</link></style> are examples of <style=\"CurrentLink\">Player Aids</style>. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Player Aids</style> are <style=\"Link\"><link=\"props\">Props</link></style> designed to given to players as part of conveying <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>. For games with <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, this may be when specific events take place but in other games (like <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20I\">Zork I</link></style> and other Infocom games) it may simply be available from before gameplay begins. The actual design of <style=\"CurrentLink\">Player Aids</style> consist mainly of deciding what information they should contain, when they should be presented to players, what material they should be made from, and the actual graphical (or other type of) design to be done.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maps\">Maps</link></style> is an example of possible <style=\"CurrentLink\">Player Aids</style>.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Player Aids</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style>.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Player Aids</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Narration%20Patterns\">Narration Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "While <style=\"CurrentLink\">Player Aids</style> typically are <style=\"Link\"><link=\"props\">Props</link></style> and through this do not explicitly provide gameplay, they can be <style=\"Link\"><link=\"clues\">Clues</link></style> containing information relevant to <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style> and inspire <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>. Regardless of this, they can help players have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style> due to their visual or tactile design. ",
+            "<style=\"CurrentLink\">Player Aids</style> are <style=\"Link\"><link=\"feelies\">Feelies</link></style> when made to maintain <style=\"Link\"><link=\"diegetic-consistency\">Diegetic</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style></style>",
+            "<style=\"Link\"><link=\"feelies\">Feelies</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"puzzle-solving\">Puzzle Solving</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maps\">Maps</link></style>, <style=\"Link\"><link=\"props\">Props</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "clues",
+            "emotional-engrossment",
+            "feelies"
+        ],
+        "modulates" : [
+            "roleplaying",
+            "predetermined-story-structures",
+            "puzzle-solving"
+        ],
+        "instantiated_by" : [
+            "maps",
+            "props"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

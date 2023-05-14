@@ -1,0 +1,69 @@
+{
+    "name" : "Game Time Manipulation",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "Actions that let players affect how game time progresses in a game.",
+        "markups" : [
+            "<style=\"Definition\">Actions that let players affect how game time progresses in a game.</style>",
+            "The rules of games typically have cause and effect structures that mean that a game instances can be described as a sequence of gameplay events that in sequence affect the initial game state. However, some games allow <style=\"CurrentLink\">Game Time Manipulation</style> as actions in which players can affect the speed in which these rules apply, reserve the flow of events, or abruptly jump to earlier points of gameplay time. ",
+            "<style=\"H3\">Examples</style>",
+            "The platform puzzle game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Braid\">Braid</link></style> allows players to rewind game time (although not all game element adhere to this) to be able to solve the various levels. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Max%20Payne%20series\">Max Payne series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Prince%20of%20Persia\">Prince of Persia: The Sands of Time</link></style> allows players to slow time through activating \"bullet time\"; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dishonored\">Dishonored</link></style> does the same but also latter in the game lets players freeze time completely as well. ",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20series\">Zork II</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Day%20of%20the%20Tentacle\">Day of the Tentacle</link></style> include time travel but since this \"only\" moves players to other places and time in the game it does not actually affect the sequence of gameplay events.",
+            "<style=\"H2\">Using the pattern</style>",
+            "For <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"CurrentLink\">Game Time Manipulation</style> is typically only used in <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> since when it is applied to <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> it typically removes the <style=\"Link\"><link=\"player-agency\">Player Agency</link></style> of other players. <style=\"Link\"><link=\"extra-turns\">Extra Turns</link></style> can be considered a way to cause <style=\"CurrentLink\">Game Time Manipulation</style> in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> which also can cause problems with <style=\"Link\"><link=\"player-agency\">Player Agency</link></style> (and <style=\"Link\"><link=\"player-balance\">Player Balance</link></style>). Being more limited, some versions of <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style> can be viewed as providing possibilities in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style> to go back very briefly in game time to try actions again. As interpreters of game rules and presenters of game events, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> can do this on larger scales if they believe players should be allowed to change their mind regarding what action they choose to do (typically reasons for this can be not having the same view of the gameplay situation as the <style=\"Link\"><link=\"game-masters\">Game Master</link></style>). ",
+            "The main design choices regarding <style=\"CurrentLink\">Game Time Manipulation</style> is how game time should be able to be manipulated. This basically consist of choosing from if game time should be able to be stopped, quickened, slowed, and/or reserved. It may either be a permanent ability or one given them as <style=\"Link\"><link=\"rewards\">Rewards</link></style> or, more rarely, <style=\"Link\"><link=\"penalties\">Penalties</link></style>; the ability to manipulate game time can also be the effect of <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style>. Regardless, it is typically a <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> since it is only provided to one player and no other <style=\"Link\"><link=\"agents\">Agents</link></style>. ",
+            "<style=\"CurrentLink\">Game Time Manipulation</style> can often be performed by players through non-game actions. Being able to do <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style> is a weak form of <style=\"CurrentLink\">Game Time Manipulation</style> but can give players more time to consider what to do next in a game. <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style> allow players to test actions and if the consequences of these are seen as unwanted go back to earlier point in the sequence of gameplay events to begin gameplay from there.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Game Time Manipulation</style> can give players <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> in being able to enable <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style> and change what happens in a game instance. It can be difficult to combine with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> since possible effects to being surprised can be nullified by players going back in time to before the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> took place.",
+            "The possibility of <style=\"CurrentLink\">Game Time Manipulation</style> in games can affect the actual time available in both <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style> and challenges with <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Reversibility\">Reversibility</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style></style>",
+            "<style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"power-ups\">Power-Ups</link></style>, <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"Link\"><link=\"time-limited-game-instances\">Time Limited Game Instances</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"extra-turns\">Extra Turns</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"game-pauses\">Game Pauses</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>",
+            "<style=\"Link\"><link=\"player-agency\">Player Agency</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "freedom-choice",
+            "privileged-abilities",
+            "reversibility",
+            "penalties",
+            "rewards"
+        ],
+        "modulates" : [
+            "power-ups",
+            "real-time-games",
+            "time-limited-game-instances",
+            "time-limits"
+        ],
+        "instantiated_by" : [
+            "extra-chances",
+            "extra-turns",
+            "game-masters",
+            "game-pauses",
+            "save-load-cycles"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "surprises",
+            "player-agency"
+        ]
+    }
+}

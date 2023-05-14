@@ -1,0 +1,82 @@
+{
+    "name" : "Incompatible Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Two or more goals that cannot be fulfilled simultaneously due to having end conditions that are mutually exclusive.",
+        "markups" : [
+            "<style=\"Definition\">Two or more goals that cannot be fulfilled simultaneously due to having end conditions that are mutually exclusive.</style>",
+            "Games typically provide players with goal to work towards as well as providing challenges that make succeeding with the goals more difficult. One way of making goals more challenging is to provide goal that are incompatible with each other, either because one player cannot complete all at the same time or because it sets up other players of the game to work against the completion of the goal. Such sets of goals that cannot be completed at the same time are <style=\"CurrentLink\">Incompatible Goals</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tag\">Tag</link></style>, where the goal of the chaser to catch the other players, the chaser's goal of tagging cannot be fulfilled at the same time as other players' goals of not being caught.",
+            "All <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Racing%20Games\">Racing Games</link></style>, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/F-Zero%20series\">F-Zero series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Formula%20D\">Formula D</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mario%20Kart%20series\">Mario Kart series</link></style> and even <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Snakes%20and%20Ladders\">Snakes and Ladders</link></style> have <style=\"CurrentLink\">Incompatible Goals</style> in that all players have the goal of being first but only one can be first. The exception is games that allow for tied results.",
+            "Many <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooter Games</link></style> pitch players or teams against each other by giving them goals regarding at least killing each other. Some of them also provide goals for one team to move to a certain place and the other team to prevent this. Others give goals to teams to steal the other teams' flags while the owners of those flags should protect them. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style> together with various mods developed for them provide several examples of these types of <style=\"CurrentLink\">Incompatible Goals</style>. ",
+            "In the board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Time%20Agent\">Time Agent</link></style>, six different species try to manipulate the past so that events promoting their species occur and events bad for them disappear out of history. Most of these events have at least one species wanting them to exist and at least one species that wants to erase them.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Two forms of <style=\"CurrentLink\">Incompatible Goals</style> exists; those that cannot at all be completed at the same time and those that cannot be completed by one player at the same time. The latter can be used to force players to have to choose which goals to aim for or what order the goals should be completed in. This can modify how players have to deal with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>, <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>, <style=\"Link\"><link=\"sidequests\">Sidequests</link></style> but can also affect their <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> in games where players engage in this. <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style> goals are examples of goals that several players or agents have but only one at a time can start to complete.",
+            "The latter can also be used to ensure that one players cannot block other players from all goals as well as actually encouraging players to perform <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style> of completing these simultaneously. The main reason for this is if completion the <style=\"CurrentLink\">Incompatible Goals</style> simultaneously is in fact another goal, e.g. having to press two different buttons at different locations to trigger an effect.",
+            "There are some patterns that can be used to easily create <style=\"CurrentLink\">Incompatible Goals</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style> goals can be incompatible to each other if they need to cross each other while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contact\">Contact</link></style> goals can be incompatible to each other if they need to touch the same game element and enough space for all to do so doesn't exist. <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style> provides <style=\"CurrentLink\">Incompatible Goals</style> when it makes players have to choose between aiming and moving. ",
+            "<style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> are <style=\"CurrentLink\">Incompatible Goals</style> with the goals they target. <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style> by their definition are also <style=\"CurrentLink\">Incompatible Goals</style> but not the other way around. This since the completion of one goal in a set of <style=\"CurrentLink\">Incompatible Goals</style> does not have to make the others impossible to complete later, just that both goals cannot be fulfilled at the same time.  <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style> add rules to ensure that goals that would otherwise be compatible are not compatible.",
+            "Rather naturally, <style=\"CurrentLink\">Incompatible Goals</style> are incompatible with <style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style> in that a group of goals cannot be of both types at the same time. They are also incompatible with <style=\"Link\"><link=\"tied-results\">Tied Results</link></style> since these by definition allows several specific goals to be completed together.",
+            "<style=\"H4\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Incompatible Goals</style> can be used to add tensions and conflicts to <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, thereby create symmetry between a game's gameplay goals and its narration.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Incompatible Goals</style> between players or <style=\"Link\"><link=\"agents\">Agents</link></style> are likely to lead to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> or  <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>. In the case where the goals can lead to actual <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> they create <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> goals. They can also create <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style> if the players or <style=\"Link\"><link=\"agents\">Agents</link></style> are in the same <style=\"Link\"><link=\"teams\">Team</link></style> or other group with common goals, which may also cause <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>. In contrast, <style=\"CurrentLink\">Incompatible Goals</style> leads to <style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style> if a player or <style=\"Link\"><link=\"agents\">Agent</link></style> has goals which are incompatible with each other. <style=\"CurrentLink\">Incompatible Goals</style> which are <i>not</i> incompatible if performed by different players or <style=\"Link\"><link=\"agents\">Agents</link></style> can make these perform <style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style> to complete all the goals. ",
+            "When the different goals are created by completing various types of <style=\"Link\"><link=\"configuration\">Configuration</link></style>, <style=\"CurrentLink\">Incompatible Goals</style> create a <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>.",
+            "<style=\"CurrentLink\">Incompatible Goals</style> typically lead to <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> between game instances since completing one in a game instance is quite likely to provide different gameplay than completing another in another game instance. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"collaborative-actions\">Collaborative Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style>, <style=\"Link\"><link=\"internal-rivalry\">Internal Rivalry</link></style>, <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, <style=\"Link\"><link=\"social-dilemmas\">Social Dilemmas</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"configuration\">Configuration</link></style></style>",
+            "<style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Attention%20Swapping\">Attention Swapping</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, <style=\"Link\"><link=\"sidequests\">Sidequests</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Contact\">Contact</link></style>, <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>, <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"mutual-goals\">Mutual Goals</link></style>, <style=\"Link\"><link=\"tied-results\">Tied Results</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "collaborative-actions",
+            "competition",
+            "conflicts",
+            "internal-conflicts",
+            "internal-rivalry",
+            "last-man-standing",
+            "social-dilemmas",
+            "varied-gameplay",
+            "selectable-set-goals"
+        ],
+        "modulates" : [
+            "attention-swapping",
+            "narration-structures",
+            "player-planned-development",
+            "roleplaying",
+            "sidequests"
+        ],
+        "instantiated_by" : [
+            "connection",
+            "contact",
+            "excluding-goals",
+            "king-hill",
+            "open-destiny",
+            "preventing-goals",
+            "tiebreakers",
+            "variable-accuracy"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "mutual-goals",
+            "tied-results"
+        ]
+    }
+}

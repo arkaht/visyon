@@ -1,0 +1,40 @@
+{
+    "name" : "Initiative",
+    "categories" : [
+        "Patterns",
+        "Agent Patterns"
+    ],
+    "texts" : {
+        "definition" : "The ability of agents to take actions not directly perceived as the consequence of game events.",
+        "markups" : [
+            "<style=\"Definition\">The ability of agents to take actions not directly perceived as the consequence of game events.</style>",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"H3\">Potentially Conflicting With</style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+        ],
+        "modulates" : [
+            "algorithmic-agents"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "name" : "Role Selection",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Selecting what gameplay abilities one will have by choosing from a limit number of roles.",
+        "markups" : [
+            "<style=\"Definition\">Selecting what gameplay abilities one will have by choosing from a limit number of roles.</style>",
+            "Some games do provide players with a common pool of possible actions from which each player can only choose one action per turn. This makes players do <style=\"CurrentLink\">Role Selection</style> every turn and create competition between players if only one player can choose a specific action. Others let players choose at the beginning of the game or change roles to best fit the current gameplay situation.",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style> but make use of <style=\"CurrentLink\">Role Selection</style> for which actions are performed during a round. All players are allowed to perform the actions but the one who chooses a role gets a benefit (a rebate or a specific action the others do not get) - <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style> lets all players choose roles from a personal set of cards so many players can get the same bonuses. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Citadels\">Citadels</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/San%20Juan\">San Juan</link></style> uses the same structure as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> but in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style>. All the games put small bonuses on role not selected to increase the likelihood that they are chosen in later rounds.",
+            "Most <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style> have classes that players choose for their characters. Examples of this are many: <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Everquest%20series\">Everquest series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mutant:%20%C3%85r%20Noll\">Mutant: År Noll</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Storytelling%20System\">Storytelling System</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Warhammer%20Fantasy%20Roleplay\">Warhammer Fantasy Roleplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, etc.",
+            "In class-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Online%20Games\">Online Games</link></style> such the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Enemy%20Territory:%20Quake%20Wars\">Enemy Territory: Quake Wars</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style> allow players to choose from several different classes and the success of a team heavily depends on it having the right combination of classes.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Role Selection</style> can occur in two main ways in games, either as consequences of the existing game structure or as explicit choices created specifically for the reason of offering different roles. The first depends on which <style=\"Link\"><link=\"functional-roles\">Functional</link></style> or <style=\"Link\"><link=\"social-roles\">Social Roles</link></style> exist in the game and the design of <style=\"CurrentLink\">Role Selection</style> in this form is mainly done through designing the gameplay features that affect these patterns (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Classes\">Character Classes</link></style> is perhaps the most influential pattern related to this).",
+            "The second way to allow <style=\"CurrentLink\">Role Selection</style> is to create a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> that players can choose from each turn in a <style=\"Link\"><link=\"turn-based-games\">Turn-Based Game</link></style>; see <style=\"Link\"><link=\"token-placement\">Token Placement</link></style> for game systems where players can choose more than one action per turn. Besides this, several options exist.",
+            "One option is whether players pick roles from a common pool (see e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style>), thereby only allowing one player to choose any specific role, or let every player have their own pool to pick from (see e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style>). While <style=\"CurrentLink\">Role Selection</style> may only let the player that chose the role to perform the action, another option is to have the structure from <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> where all players get to perform the actions the roles indicate but give choosing players get <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Increased%20Abilities\">Increased Abilities</link></style> or <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>. For encouraging the use of all role, <style=\"Link\"><link=\"no-use-bonus\">No-Use Bonus</link></style> can be applied after the <style=\"CurrentLink\">Role Selection</style> is finished for a round so that the roles not chosen are more attractive the next round.",
+            "How <style=\"CurrentLink\">Role Selection</style> is placed within rounds in one design choice that need to be considered when implementing the pattern. Either all <style=\"CurrentLink\">Role Selection</style> is done in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planning%20Phases\">Planning Phases</link></style> which are then followed by <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Execution%20Phases\">Execution Phases</link></style>, this is the case for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Race%20for%20the%20Galaxy\">Race for the Galaxy</link></style>, or one role is selected by a player and the actions it provides is done directly afterwards, which is the case for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Puerto%20Rico\">Puerto Rico</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/San%20Juan\">San Juan</link></style>. For the latter, a <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> order is needed. For the former, <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> is optional as long as players have their own pool of roles but here the roles selected can determine the <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> sequence of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Execution%20Phases\">Execution Phases</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Role Selection</style> is a specific form of <style=\"Link\"><link=\"drafting\">Drafting</link></style> that gives <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> to players to choose actions from a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style> in <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>. The selection may constitute separate <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planning%20Phases\">Planning Phases</link></style> and then form a weak version of <style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, or be integrated in the general gameplay. While <style=\"CurrentLink\">Role Selection</style> is often done in a <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> order, <style=\"CurrentLink\">Role Selection</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planning%20Phases\">Planning Phases</link></style> can determine the <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style> order in later <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Execution%20Phases\">Execution Phases</link></style>. When players can create or take goals related to the roles the select, the use of <style=\"CurrentLink\">Role Selection</style> open up for players experiencing <style=\"Link\"><link=\"role-fulfillment\">Role Fulfillment</link></style>.",
+            "When only one player can choose a role this may create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> between players since wanting to have a role become <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style> and <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style> may still occur even if all players can do the actions if there are additional <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> and only one player can choose a role.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competition\">Competition</link></style>, <style=\"Link\"><link=\"drafting\">Drafting</link></style>, <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planning%20Phases\">Planning Phases</link></style>, <style=\"Link\"><link=\"role-fulfillment\">Role Fulfillment</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>, <style=\"Link\"><link=\"turn-based-games\">Turn-Based Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Character%20Classes\">Character Classes</link></style>, <style=\"Link\"><link=\"functional-roles\">Functional Roles</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Increased%20Abilities\">Increased Abilities</link></style>, <style=\"Link\"><link=\"no-use-bonus\">No-Use Bonus</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"turn-taking\">Turn Taking</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "action-programming",
+            "competition",
+            "drafting",
+            "excluding-goals",
+            "freedom-choice",
+            "planning-phases",
+            "role-fulfillment"
+        ],
+        "modulates" : [
+            "turn-taking",
+            "turn-based-games"
+        ],
+        "instantiated_by" : [
+            "character-classes",
+            "functional-roles",
+            "limited-set-actions",
+            "social-roles"
+        ],
+        "modulated_by" : [
+            "increased-abilities",
+            "no-use-bonus",
+            "privileged-abilities",
+            "turn-taking"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "name" : "Save Points",
+    "categories" : [
+        "Mechanical Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Specific points in game worlds, or between levels, where players can save the game state.",
+        "markups" : [
+            "<style=\"Definition\">Specific points in game worlds, or between levels, where players can save the game state.</style>",
+            "Many computer games allow players to save the game state to be able to continue gameplay from that point at a late point in time. <style=\"CurrentLink\">Save Points</style> are location in game worlds or possibilities between levels where players are allowed to perform such saving of game states (in contrast to being able to do it at any time or any place).",
+            "TV Tropes has an entry for <style=\"CurrentLink\">Save Points</style>. GiantBomb has an entry for \"Save Point\"(but calls automatic <style=\"CurrentLink\">Save Points</style> for \"Checkpoints\".",
+            "<style=\"H3\">Examples</style>",
+            "Examples of games using <style=\"CurrentLink\">Save Points</style> include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Assassin's%20Creed%20series\">Assassin's Creed</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style>. In the first installment of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20Rising%20series\">Dead Rising series</link></style>, <style=\"CurrentLink\">Save Points</style> exist only in restrooms.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A large part of designing <style=\"CurrentLink\">Save Points</style> is to choose when they exist. This may be as physical locations &ndash; in which case they either modulate or create <style=\"Link\"><link=\"check-points\">Check Points</link></style> &ndash; in <style=\"Link\"><link=\"levels\">Levels</link></style>, or they can exist between <style=\"Link\"><link=\"levels\">Levels</link></style>. When they do exist as physical locations they tend to exist in <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style> since this prevents players from creating <style=\"Link\"><link=\"unwinnable-game-states\">Unwinnable Game States</link></style> of the form where they will automatically die directly after loading the game state saved by a <style=\"CurrentLink\">Save Point</style>. Regardless of where they exist, players must move to get to them (by getting to a point in a <style=\"Link\"><link=\"game-worlds\">Game World</link></style> or by finishing a <style=\"Link\"><link=\"levels\">Level</link></style>. By doing so, they do modulate <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals and can create new <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals since the <style=\"CurrentLink\">Save Points</style> function as <style=\"Link\"><link=\"closure-points\">Closure Points</link></style>. ",
+            "Another aspect of creating <style=\"CurrentLink\">Save Points</style> is deciding if players can choose to save when encountering them or if this is done automatically.",
+            "<style=\"CurrentLink\">Save Points</style> need to make use of <style=\"Link\"><link=\"save-files\">Save Files</link></style> in some sense. A general question for <style=\"CurrentLink\">Save Points</style> used in a game is it they simply save that a player has reached that point, only a part of the overall game state, or the complete game state. In the first case, the <style=\"Link\"><link=\"save-files\">Save Files</link></style> may simply only be <style=\"Link\"><link=\"password-save-files\">Password Save Files</link></style> but in both latter cases they need to be more fully-fledged <style=\"Link\"><link=\"save-files\">Save Files</link></style>, storing part or whole of the game state. Like in any game with <style=\"Link\"><link=\"save-files\">Save Files</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style> are possible in games with <style=\"CurrentLink\">Save Points</style> but when using <style=\"CurrentLink\">Save Points</style>,  designers have control over where the starting points are of these and can discourage <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style> by making the distance between <style=\"CurrentLink\">Save Points</style> long and thereby raising the cost threshold for retrying something.",
+            "While being able to go back to previous game states work against the idea of <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>, <style=\"CurrentLink\">Save Points</style> can be combined with <style=\"Link\"><link=\"permadeath\">Permadeath</link></style> to require players to restart from the last <style=\"CurrentLink\">Save Points</style> whenever their <style=\"Link\"><link=\"characters\">Characters</link></style> or <style=\"Link\"><link=\"avatars\">Avatars</link></style> die.",
+            "<style=\"CurrentLink\">Save Points</style> changes or makes <style=\"Link\"><link=\"scores\">Scores</link></style> represent something different since players can go back to earlier game states and try to maximize <style=\"Link\"><link=\"scores\">Scores</link></style> in a way not possible in games without <style=\"CurrentLink\">Save Points</style> (or <style=\"Link\"><link=\"save-files\">Save Files</link></style>). They are also difficult to combine with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> that do not have <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> since what constitutes a good <style=\"CurrentLink\">Save Point</style> can be difficult to judge. ",
+            "<style=\"H3\">Narration Aspects</style>",
+            "From a narrational point of view, <style=\"CurrentLink\">Save Points</style> sets up a problem of maintaining <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style> regarding what happens in the unfolding story of a game compared to what a players knows and does if using <style=\"CurrentLink\">Save Points</style> to go back and redo parts of the game.",
+            "<style=\"H2\">Consequences</style>",
+            "Reaching <style=\"CurrentLink\">Save Points</style> can count as reaching (<style=\"Link\"><link=\"traverse\">Traverse</link></style>) closures, so the use of them can be seen as already creating <style=\"Link\"><link=\"closure-points\">Closure Points</link></style>. Since the purpose of <style=\"CurrentLink\">Save Points</style> is to provide players with points from which they can restart later if need be, they also allow players to have <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>.",
+            "When <style=\"CurrentLink\">Save Points</style> are linked to <style=\"Link\"><link=\"check-points\">Check Points</link></style>, the <style=\"CurrentLink\">Save Points</style> typically modify how <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style> function, simply by guaranteeing saving the progress in specific parts of the hierarchies.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"closure-points\">Closure Points</link></style>, <style=\"Link\"><link=\"extra-chances\">Extra Chances</link></style>, <style=\"Link\"><link=\"password-save-files\">Password Save Files</link></style>, <style=\"Link\"><link=\"save-files\">Save Files</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>, <style=\"Link\"><link=\"unwinnable-game-states\">Unwinnable Game States</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"permadeath\">Permadeath</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"temporal-consistency\">Temporal Consistency</link></style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> that do not have <style=\"Link\"><link=\"cooperation\">Cooperation</link></style> between all players"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "check-points",
+            "closure-points",
+            "extra-chances",
+            "password-save-files",
+            "save-files",
+            "traverse",
+            "unwinnable-game-states"
+        ],
+        "modulates" : [
+            "check-points",
+            "goal-hierarchies",
+            "levels",
+            "permadeath",
+            "safe-havens",
+            "save-load-cycles",
+            "traverse"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "scores",
+            "temporal-consistency",
+            "multiplayer-games"
+        ]
+    }
+}

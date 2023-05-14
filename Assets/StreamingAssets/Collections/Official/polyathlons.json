@@ -1,0 +1,62 @@
+{
+    "name" : "Polyathlons",
+    "categories" : [
+        "Patterns",
+        "Goal Patterns",
+        "Meta Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "Polyathlons are games or tournaments consisting of several different challenges where each challenge requires a different skill set.",
+        "markups" : [
+            "<style=\"Definition\">Polyathlons are games or tournaments consisting of several different challenges where each challenge requires a different skill set.</style>",
+            "One way to vary gameplay in both individual games and tournaments is to make them consist of several different events with different gameplay in each, and doing so typically blurs the distinction between a game and a tournament. <style=\"CurrentLink\">Polyathlons</style> is a generalized name for these gameplay structures although specific cases are often known by how many events they contain, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Decathlon\">Decathlon</link></style> being competitions consisting of ten different events.",
+            "As the events in <style=\"CurrentLink\">Polyathlons</style> have different skill requirements, playing these requires competence in more skill areas than other forms of tournaments as well as making it more likely that players have different specialties. The latter allows more players to have experiences of winnings, as they can have partial victories within the tournament by winning individual games.",
+            "<style=\"H3\">Examples</style>",
+            "Several <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sport</link></style> competitions are structured as <style=\"CurrentLink\">Polyathlons</style> consisting of several different types of individual sports. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Decathlon\">Decathlon</link></style> is the oldest established such competition but another example is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Triathlons\">Triathlons</link></style> consisting of swimming, biking, and running components (with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ironman%20Triathlons\">Ironman Triathlons</link></style> as an extreme version). <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Biathlons\">Biathlons</link></style> typically mean combinations of cross-country skiing and rifle shooting but <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess%20Boxing\">Chess Boxing</link></style> is also a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Biathlons\">Biathlon</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Olympic%20Decathlon\">Olympic Decathlon</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Summer%20Games\">Summer Games</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Winter%20Games\">Winter Games</link></style> are examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">computer-based</link></style> versions of the sport <style=\"CurrentLink\">Polyathlons</style>.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/WarioWare%20series\">WarioWare series</link></style> consists of many minigames, which are played sequentially to progress in the main game, and can be considered <style=\"CurrentLink\">Polyathlons</style> since they each require different gameplay.",
+            "With the exception of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess%20Boxing\">Chess Boxing</link></style>, Hybrid Sports are not <style=\"CurrentLink\">Polyathlons</style> since they combine the rules of two or more sports at the same time instead of making the gameplay switch between the sports.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Polyathlons</style> are games consisting of several different games or events. This means that designing <style=\"CurrentLink\">Polyathlons</style> consist of creating <style=\"Link\"><link=\"tournaments\">Tournaments</link></style> of different types of games (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Decathlon\">Decathlon</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess%20Boxing\">Chess Boxing</link></style>) or having <style=\"Link\"><link=\"minigames\">Minigames</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quick%20Games\">Quick Games</link></style> in ordinary games (these can also be used in <style=\"Link\"><link=\"tournaments\">Tournaments</link></style> since they are games in themselves). ",
+            "The games in a <style=\"CurrentLink\">Polyathlon</style> either can be chosen to require skill within one single category of expertise, or be chosen to spread the requirements between categories, e.g. spreading events between requiring <style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>. Each however typically needs to have a clear <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Main%20Goal\">Main Goals</link></style> since otherwise it is difficult to include it when concluding the final outcome of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Polyathon\">Polyathons</link></style>.",
+            "The exact games used in <style=\"CurrentLink\">Polyathlons</style> do not need to be set in advance. Instead, players can be given a choice of which games or events should be included in a form of <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "The primary use of <style=\"CurrentLink\">Polyathlons</style> is to provide <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> for players and force them to either prioritize some <style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style> or be a generalist. If players can affect which games are to be played through having a <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>, <style=\"CurrentLink\">Polyathlons</style> lets players use <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style> knowledge about other players' skills at playing specific games, especially if choosing one game means excluding another.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"competence-areas\">Competence Areas</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Extra-Game%20Information\">Extra-Game Information</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"minigames\">Minigames</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quick%20Games\">Quick Games</link></style>, <style=\"Link\"><link=\"tournaments\">Tournaments</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"main-goals\">Main Goals</link></style>, <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "competence-areas",
+            "varied-gameplay",
+            "extra-game-information"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "minigames",
+            "quick-games",
+            "tournaments"
+        ],
+        "modulated_by" : [
+            "main-goals",
+            "selectable-set-goals"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

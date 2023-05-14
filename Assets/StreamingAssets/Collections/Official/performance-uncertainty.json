@@ -1,0 +1,99 @@
+{
+    "name" : "Performance Uncertainty",
+    "categories" : [
+        "Dynamic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay where the uncertainty of outcome of actions is due to how well players perform these actions.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay where the uncertainty of outcome of actions is due to how well players perform these actions.</style>",
+            "Games can let many things affect the outcome of gameplay actions and make these uncertain to players. <style=\"CurrentLink\">Performance Uncertainty</style> is one such thing, and happens when it is how well or bad players themselves perform the actions that influence the outcome. This can of course be one or several causes to the uncertainty, but the more one has of one type the more certain one can be of the source of the uncertainty. ",
+            "Note: <i>player performance that depends on finding a solution of actions that guarantee success is covered under <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style>.</i>",
+            "<style=\"H3\">Examples</style>",
+            "All <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Sports\">Sports</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Figure%20Skating\">Figure Skating</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Marathons\">Marathons</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style>, depend on how well the participants perform. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> are early examples of games that pitch players against each other and winning depends on their mental abilities. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> allowed more control over which type of performance players have to do, and when they had to do it. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">first-person shooters</link></style>, e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crysis%20series\">Crysis series</link></style> put emphasis on skillful movement and shooting but this can arguably be found already in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Asteroids\">Asteroids</link></style>. Other, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/PaRappa%20the%20Rapper\">PaRappa the Rapper</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Donkey%20Konga\">Donkey Konga</link></style>, put more focus on requiring that players can keep steady rhythms; the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rock%20Band%20series\">Rock Band series</link></style> does this also in requiring players to handle replicas of musical instruments while the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dance%20Dance%20Revolution%20series\">Dance Dance Revolution series</link></style> make players dance or perform dance-like movement.",
+            "Roleplaying or enacting characters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">LARPs</link></style> also depend on player performances, but here what is at stake is not winning but rather providing enjoyment for all players by giving good and interesting portrayals of characters.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Performance Uncertainty</style> can be added to games in many ways which most often can be described as some form of <style=\"Link\"><link=\"enactment\">Enactment</link></style>. Two main categories are those related to physical activities and mental activities, although the latter can border over to activities covered in <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style>. <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> relates to designing <style=\"CurrentLink\">Performance Uncertainty</style> regarding physical activities with <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, and <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style> as more specific patterns. In games with <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, the use of <style=\"Link\"><link=\"reserves\">Reserves</link></style> can be used to let players or <style=\"Link\"><link=\"coaches\">Coaches</link></style> affect the aspects of <style=\"CurrentLink\">Performance Uncertainty</style> related to exhaustion. ",
+            "<style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, and <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style> are examples of mental activities where it is clear that failure or success may rely on the quality of players' gameplay performance rather than correctly applying the often algorithmic procedures that can handle <style=\"Link\"><link=\"solution-uncertainty\">Solution Uncertainty</link></style> (but applying algorithmic procedures can require some skill and this causes a blurred line between the patterns). While <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style> that allow <style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style> can provide <style=\"CurrentLink\">Performance Uncertainty</style>, those where potential solutions can mechanically be tested instead works against the pattern. <style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, and <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style> are examples of what can be called a third category, activities that rely on social performance.",
+            "<style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player/System%20Action%20Composites\">Player/System Action Composites</link></style> let a game system and a player's action together result in gameplay performances and this can be used to both increase and decrease the uncertainty that a player will succeed with an action. In contrast, the use of <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style> clearly  separates the performance from the realization if the actions where successful or not (<style=\"Link\"><link=\"action-programming\">Action Programming</link></style> does this as well). The use of <style=\"Link\"><link=\"randomness\">Randomness</link></style> for determining the outcome of actions works against <style=\"CurrentLink\">Performance Uncertainty</style> because it lessens the influence of players' performances. This can be compounded by use of <style=\"Link\"><link=\"critical-results\">Critical Results</link></style> (including the more specific forms <style=\"Link\"><link=\"critical-failures\">Critical Failures</link></style>, <style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style>, <style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style>, and <style=\"Link\"><link=\"critical-successes\">Critical Successes</link></style>) since these even stronger emphasizes the factor of having good or bad luck. ",
+            "<style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> and <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> are two patterns that can cause <style=\"CurrentLink\">Performance Uncertainty</style> by changing players' perceptions of how easy or hard it is to do what a game requires from one. In games where players can acquire <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> or <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, this can be used to help them more correctly gauge their actual chances of succeeding, so these two patterns can modulate players' perceptions of <style=\"CurrentLink\">Performance Uncertainty</style>. Although it does not directly cause <style=\"CurrentLink\">Performance Uncertainty</style>, any game that creates <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style> has <style=\"CurrentLink\">Performance Uncertainty</style> since players will have to be in chaotic situations trying to handle difficult challenges under weird or stressful circumstances to have the experience.",
+            "<style=\"Link\"><link=\"spectators\">Spectators</link></style> can both give players moral support that they can perform and cause them to feel pressure to perform, so <style=\"Link\"><link=\"spectators\">Spectators</link></style> can affect <style=\"CurrentLink\">Performance Uncertainty</style> in both positive and negative directions. <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style> and the recording of <style=\"Link\"><link=\"replays\">Replays</link></style> can do the same, but these patterns are often used in games precisely because there is <style=\"CurrentLink\">Performance Uncertainty</style> and this is why it can be interesting to document the gameplay activities. ",
+            "As <style=\"Link\"><link=\"ai-players\">AI Players</link></style> replace players, the use of these naturally affects <style=\"CurrentLink\">Performance Uncertainty</style> - typically through these <style=\"Link\"><link=\"ai-players\">AI Players</link></style> having different strengths and weaknesses in how they can play games compared to human players. A special cases is if <style=\"Link\"><link=\"ai-players\">AI Players</link></style> have <style=\"Link\"><link=\"unpredictable-behavior\">Unpredictable Behavior</link></style>, in this case <style=\"CurrentLink\">Performance Uncertainty</style> is created rather than something that can be modified by the pattern (this is true for a <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style> as well).",
+            "<style=\"H2\">Consequences</style>",
+            "The main consequence of having <style=\"CurrentLink\">Performance Uncertainty</style> in a game is that it increases the <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style> and <style=\"Link\"><link=\"tension\">Tension</link></style> in that game. It thereby is likely to cause <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Foresight\">Limited Foresight</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Ability\">Limited Planning Ability</link></style>, as well making it more difficult to have a <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style> in a game that one can win. Since the patterns also requires some form of performance, it opens up for <style=\"Link\"><link=\"context-dependent-reactions\">Context Dependent Reactions</link></style> in that the performance can be affected by the local game state, other players, or <style=\"Link\"><link=\"spectators\">Spectators</link></style>.",
+            "<style=\"CurrentLink\">Performance Uncertainty</style> often implies that players can improve their performances. This makes the presence of the pattern likely to signify that <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style> also exists in a game. This become particularly likely in games with <style=\"Link\"><link=\"pvp\">PvP</link></style> because in these situations the performance of a player depends on the performance of other players and if these are better they guarantee that there is an at least hypothetical higher performance level a player can reach.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"context-dependent-reactions\">Context Dependent Reactions</link></style>, <style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Foresight\">Limited Foresight</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Ability\">Limited Planning Ability</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"pvp\">PvP</link></style></style>",
+            "<style=\"Link\"><link=\"further-player-improvement-potential\">Further Player Improvement Potential</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"bluffing\">Bluffing</link></style>, <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style>, <style=\"Link\"><link=\"enactment\">Enactment</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"fubar-enjoyment\">FUBAR Enjoyment</link></style>, <style=\"Link\"><link=\"lucky-guess-solutions\">Lucky Guess Solutions</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>, <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>, <style=\"Link\"><link=\"roleplaying\">Roleplaying</link></style>, <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style>, <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>",
+            "<style=\"Link\"><link=\"unpredictable-behavior\">Unpredictable Behavior</link></style> together with <style=\"Link\"><link=\"ai-players\">AI Players</link></style> or <style=\"Link\"><link=\"game-system-player\">Game System Player</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"no-direct-player-influence\">No Direct Player Influence</link></style>, <style=\"Link\"><link=\"player-character-skill-composites\">Player/Character Skill Composites</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Player/System%20Action%20Composites\">Player/System Action Composites</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"replays\">Replays</link></style>",
+            "<style=\"Link\"><link=\"reserves\">Reserves</link></style> in games with <style=\"Link\"><link=\"player-physical-prowess\">Player Physical Prowess</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"critical-hits\">Critical Hits</link></style>, <style=\"Link\"><link=\"critical-misses\">Critical Misses</link></style>, <style=\"Link\"><link=\"critical-failures\">Critical Failures</link></style>, <style=\"Link\"><link=\"critical-results\">Critical Results</link></style>, <style=\"Link\"><link=\"critical-successes\">Critical Successes</link></style>, <style=\"Link\"><link=\"predictable-winner\">Predictable Winner</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"trial-error-solutions\">Trial and Error Solutions</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "context-dependent-reactions",
+            "further-player-improvement-potential",
+            "limited-foresight",
+            "limited-planning-ability",
+            "tension",
+            "uncertainty-outcome",
+            "further-player-improvement-potential"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "aim-shoot",
+            "action-programming",
+            "bluffing",
+            "challenging-gameplay",
+            "enactment",
+            "exaggerated-perception-influence",
+            "fubar-enjoyment",
+            "lucky-guess-solutions",
+            "memorizing",
+            "negotiation",
+            "player-physical-prowess",
+            "physical-enactment",
+            "rhythm-based-actions",
+            "roleplaying",
+            "trial-error-solutions",
+            "tactical-planning",
+            "unpredictable-behavior"
+        ],
+        "modulated_by" : [
+            "ai-players",
+            "extra-game-broadcasting",
+            "gameplay-mastery",
+            "no-direct-player-influence",
+            "player-character-skill-composites",
+            "player-system-action-composites",
+            "spectators",
+            "strategic-knowledge",
+            "replays",
+            "reserves"
+        ],
+        "conflicts" : [
+            "critical-hits",
+            "critical-misses",
+            "critical-failures",
+            "critical-results",
+            "critical-successes",
+            "predictable-winner",
+            "randomness",
+            "trial-error-solutions"
+        ]
+    }
+}

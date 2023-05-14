@@ -1,0 +1,71 @@
+{
+    "name" : "Gameplay Engines",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns"
+    ],
+    "texts" : {
+        "definition" : "Player constructed systems that provide benefits for the player that constructed it.",
+        "markups" : [
+            "<style=\"Definition\">Player constructed systems that provide benefits for the player that constructed it.</style>",
+            "The actions players take in games are typically directly or indirectly aimed at making the players come closer to their goals. Some games allow players to take actions over time that help them build a structure of game elements that together work in supporting players reach their goals. Such structures are called <style=\"CurrentLink\">Gameplay Engines</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "Some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Games</link></style> are built upon the basis that players construct decks. Examples include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Blood%20Bowl:%20Team%20Manager%20-%20The%20Card%20Game\">Blood Bowl: Team Manager</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Legendary:%20A%20Marvel%20Deck%20Building%20Game\">Legendary: A Marvel Deck Building Game</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Thunderstone\">Thunderstone</link></style>. The success in any of these games depend on making the cards in one's deck work together as a <style=\"CurrentLink\">Gameplay Engine</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Supporting the presence of <style=\"CurrentLink\">Gameplay Engines</style> consist of letting players use <style=\"Link\"><link=\"construction\">Construction</link></style> to make more efficient or self-sustaining <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>. This is typically done through letting the game system be able to generate <style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emergent%20Gameplay\">Emergent Gameplay</link></style>, or <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style> through the constructions the players can create in the <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>. <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> is a specific pattern that allows players to try and construct <style=\"CurrentLink\">Gameplay Engines</style> during gameplay if all the prerequisites necessary for them exist by collecting <style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style> does the same but before gameplay begins. One specific example of this is <style=\"Link\"><link=\"cycle-deck-engines\">Cycle Deck Engines</link></style>.",
+            "The presence of <style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style> in games which allow <style=\"CurrentLink\">Gameplay Engines</style> can make the engines useless at a certain point where in becomes more important to focus on generating victory points. The easiest way to make <style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style> possible in games with <style=\"CurrentLink\">Gameplay Engines</style> rather obviously to add <style=\"Link\"><link=\"scores\">Scores</link></style> to the design.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Gameplay Engines</style> can be seen as a form of <style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, or as goal requirement for which effects there should have. Building them are a form of <style=\"Link\"><link=\"investments\">Investments</link></style> and <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style> for winning a game, typically those that have <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style> or rely on successful <style=\"Link\"><link=\"expansion\">Expansion</link></style> phases. Even more so, having efficient <style=\"CurrentLink\">Gameplay Engines</style> can be the defining characteristic of ",
+            "<style=\"Link\"><link=\"exploitation\">Exploitation</link></style> phases making the pattern potential very important in two different gameplay phases.  ",
+            "Since typically games that provide <style=\"CurrentLink\">Gameplay Engines</style> provide many different types of them, choosing one to try and build is a <style=\"Link\"><link=\"player-defined-goals\">Player Defined Goals</link></style> as well as being <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Constructive%20Gameplay\">Constructive Gameplay</link></style>. Building efficient <style=\"CurrentLink\">Gameplay Engines</style> typically require both <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> and <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style> but just maintaining or observing well-functioning <style=\"CurrentLink\">Gameplay Engines</style> can give rise to <style=\"Link\"><link=\"lull-periods\">Lull Periods</link></style>.",
+            "<style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style> often occur in games which have <style=\"Link\"><link=\"scores\">Scores</link></style> and allow the construction of <style=\"CurrentLink\">Gameplay Engines</style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"abstract-player-constructs\">Abstract Player Constructs</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Constructive%20Gameplay\">Constructive Gameplay</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"exploitation\">Exploitation</link></style>, <style=\"Link\"><link=\"lull-periods\">Lull Periods</link></style>, <style=\"Link\"><link=\"player-defined-goals\">Player Defined Goals</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>, <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"scores\">Scores</link></style></style>",
+            "<style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"expansion\">Expansion</link></style>, <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"cycle-deck-engines\">Cycle Deck Engines</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emergent%20Gameplay\">Emergent Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pre-Customized%20Decks\">Pre-Customized Decks</link></style>, <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"construction-scoring-phase-shift\">Construction/Scoring Phase Shift</link></style>, <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "abstract-player-constructs",
+            "constructive-gameplay",
+            "investments",
+            "exploitation",
+            "lull-periods",
+            "player-defined-goals",
+            "strategic-knowledge",
+            "strategic-planning",
+            "supporting-goals",
+            "construction-scoring-phase-shift"
+        ],
+        "modulates" : [
+            "expansion",
+            "winner-gameplay-ends"
+        ],
+        "instantiated_by" : [
+            "combos",
+            "construction",
+            "cycle-deck-engines",
+            "emergent-gameplay",
+            "pre-customized-decks",
+            "positive-feedback-loops"
+        ],
+        "modulated_by" : [
+            "construction-scoring-phase-shift",
+            "deck-building"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

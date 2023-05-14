@@ -1,0 +1,80 @@
+{
+    "name" : "Resource Caps",
+    "categories" : [
+        "Resource Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Limits on numbers of resources allowed to be used or stored.",
+        "markups" : [
+            "<style=\"Definition\">Limits on numbers of resources allowed to be used or stored.</style>",
+            "Players very often handle different types of resources in games and acquiring more is usually beneficial. There may however be limits on how much of a resource can be collected, either for balancing purposes or for practical issues of having to provide enough physical tokens (or not to have to handle large amounts of them), and these limits are <style=\"CurrentLink\">Resource Caps</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Each land area in the board game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Advanced%20Civilization\">Advanced Civilization</link></style> has a <style=\"CurrentLink\">Resource Cap</style> on how many units can be sustained there, and this makes players wish to expand their territory to avoid having them be removed due to starvation. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Origins:%20How%20We%20Became%20Human\">Origins: How We Became Human</link></style> has a similar functionality but here all units a players has are in use always - either as producers, consumers, or population on the game board, or a 'locking' tokens regarding innovation, population actions, or brain functions. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Age%20of%20Empires%20series\">Age of Empires series</link></style> has population caps for each player, although this varies from game to game (50 in the first game, 200 in the second and third, and 300 for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Age%20of%20Mythology\">Age of Mythology</link></style>) and some civilizations get raised caps (e.g. the Goths in the second game being allowed to have 210 units); in addition, some units counts double or not at all in the third game and in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Age%20of%20Mythology\">Age of Mythology</link></style>.",
+            "The number of actions possible to use in another way to provided <style=\"CurrentLink\">Resource Caps</style>. Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pandemic\">Pandemic</link></style> can take 4 actions per turn, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Cartagena\">Cartagena</link></style> allows between one and three moves per turn, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Origins:%20How%20We%20Became%20Human\">Origins: How We Became Human</link></style> allow a number of 'innovation' and 'population' actions depending on how many freed slots exist on their respective tracks. This is also used in the computer-based <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout series</link></style>, in the first two installments through action points and in later ones through the 'V.A.T.S'.",
+            "Players of games in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Boulder%20Dash%20series\">Boulder Dash series</link></style> can earn extra lives by playing well but the number of lives possible to have at any point is limited to 9.",
+            "The player controlling the marines in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style> not only have a limited number of marines to complete the mission being played, but also has limited time to complete each turn.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Resource Caps</style> are typically introduced to games to limit the amount of <style=\"Link\"><link=\"resources\">Resources</link></style> players can collect, or avoid too much <style=\"Link\"><link=\"resources\">Resources</link></style> to be created through <style=\"Link\"><link=\"regenerating-resources\">Regenerating Resources</link></style> or other mechanics for having <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>. <style=\"CurrentLink\">Resource Caps</style> need to be linked to specific <style=\"Link\"><link=\"resources\">Resources</link></style>, and choosing which to apply the caps on and what the caps should be are the primary choices need to be made when using the pattern. Any numerical <style=\"Link\"><link=\"resources\">Resource</link></style> can be used, e.g. <style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, but so can the number of <style=\"Link\"><link=\"units\">Units</link></style> a player may have or, through <style=\"Link\"><link=\"action-caps\">Action Caps</link></style>, the number of actions that can be done by (e.g. <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>). Limits on the number of <style=\"Link\"><link=\"save-files\">Save Files</link></style> available is another option which may be overlooked due to typically not being a diegetic feature in a game. If the <style=\"CurrentLink\">Resource Caps</style> are to be given some physical expression in the game, <style=\"Link\"><link=\"containers\">Containers</link></style> or <style=\"Link\"><link=\"inventories\">Inventories</link></style> can be used. The pattern can also be instantiated through <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>; this since it makes time into a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resource</link></style> restricted by cap. Both the board game and the computer-based version of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Space%20Hulk\">Space Hulk</link></style> may use of this; the first edition of the board game provides rules for modifying this depending on the number of officers and sergeants in play.",
+            "<style=\"CurrentLink\">Resource Caps</style> can also be applied on how <style=\"Link\"><link=\"investments\">Investments</link></style> can be done: this can cause <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Discontinuous%20Progression\">Discontinuous Progression</link></style> but also just be used to require <style=\"Link\"><link=\"investments\">Investments</link></style> providing <style=\"Link\"><link=\"arithmetic-progression\">Arithmetic Progression</link></style> to be spread out over time.",
+            "Changing the actual numerical limit of a <style=\"CurrentLink\">Resource Cap</style> is a suitable candidate for <style=\"Link\"><link=\"rewards\">Rewards</link></style> or <style=\"Link\"><link=\"penalties\">Penalties</link></style> - for games with <style=\"Link\"><link=\"characters\">Characters</link></style> this may be due to <style=\"Link\"><link=\"character-development\">Character Development</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"CurrentLink\">Resource Caps</style> can diegetically be motivated as <style=\"Link\"><link=\"inventories\">Inventories</link></style> or <style=\"Link\"><link=\"containers\">Containers</link></style>, and acquiring more of the latter can easily explain increases in the caps.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Resource Caps</style> make the type of <style=\"Link\"><link=\"resources\">Resources</link></style> they affect into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style> logically even if functionality this may not be the case if they can be replenished as they are used. <style=\"CurrentLink\">Resource Caps</style> make the effect of <style=\"Link\"><link=\"regenerating-resources\">Regenerating Resources</link></style> and <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style> not happen; to avoid this players' may engage in <style=\"Link\"><link=\"resource-management\">Resource Management</link></style> in the form of making sure that <style=\"Link\"><link=\"resources\">Resources</link></style> are used so that are below the cap limit, and this provides one form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Encouraged%20Constant%20Player%20Activity\">Encouraged Constant Player Activity</link></style>.",
+            "Since they can break growths of <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"CurrentLink\">Resource Caps</style> can break <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style> and thereby be used as a form of <style=\"Link\"><link=\"balancing-effects\">Balancing Effect</link></style>. Related, they can limit <style=\"Link\"><link=\"resource-competition\">Resource Competition</link></style> since each player or agent in a game maybe have a more limited use of competing with others over the resources.",
+            "Somewhat as a side effect, when the <style=\"Link\"><link=\"resources\">Resources</link></style> affected by the caps are handled by <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style>, <style=\"CurrentLink\">Resource Caps</style> limit the need for <style=\"Link\"><link=\"excise\">Excise</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Discontinuous%20Progression\">Discontinuous Progression</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Resources\">Limited Resources</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Encouraged%20Constant%20Player%20Activity\">Encouraged Constant Player Activity</link></style>, <style=\"Link\"><link=\"resource-management\">Resource Management</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"ammunition\">Ammunition</link></style>, <style=\"Link\"><link=\"arithmetic-progression\">Arithmetic Progression</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"regenerating-resources\">Regenerating Resources</link></style>, <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"save-files\">Save Files</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"action-caps\">Action Caps</link></style>, <style=\"Link\"><link=\"budgeted-action-points\">Budgeted Action Points</link></style>, <style=\"Link\"><link=\"containers\">Containers</link></style>, <style=\"Link\"><link=\"inventories\">Inventories</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"character-development\">Character Development</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>, <style=\"Link\"><link=\"resource-competition\">Resource Competition</link></style>",
+            "<style=\"Link\"><link=\"excise\">Excise</link></style> when <style=\"Link\"><link=\"bookkeeping-tokens\">Bookkeeping Tokens</link></style> are used"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "balancing-effects",
+            "discontinuous-progression",
+            "limited-resources",
+            "penalties",
+            "rewards",
+            "encouraged-constant-player-activity"
+        ],
+        "modulates" : [
+            "ammunition",
+            "arithmetic-progression",
+            "investments",
+            "regenerating-resources",
+            "renewable-resources",
+            "resources",
+            "save-files",
+            "units"
+        ],
+        "instantiated_by" : [
+            "action-caps",
+            "budgeted-action-points",
+            "containers",
+            "inventories",
+            "time-limits"
+        ],
+        "modulated_by" : [
+            "character-development"
+        ],
+        "conflicts" : [
+            "positive-feedback-loops",
+            "resource-competition",
+            "excise"
+        ]
+    }
+}

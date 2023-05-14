@@ -1,0 +1,71 @@
+{
+    "name" : "Sets",
+    "categories" : [
+        "Patterns",
+        "Game Element Patterns"
+    ],
+    "texts" : {
+        "definition" : "Groups of game elements that together provide more benefits than they do individually.",
+        "markups" : [
+            "<style=\"Definition\">Groups of game elements that together provide more benefits than they do individually.</style>",
+            "To encourage players to collect certain combinations of game elements, games can have rules that define some combinations as <style=\"CurrentLink\">Sets</style> that either let players win games when they have collected them, determine the winner based on enumerated list of <style=\"CurrentLink\">Sets</style> when gameplay ends, or give bonuses when all used together.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mahjong\">Mahjong</link></style> is played until a winning hand is achieved by a player, and this hand consists of a combination of the various categories of <style=\"CurrentLink\">Sets</style> possible (<i>Pongs</i>, <i>Kongs</i>, <i>Chows</i> and <i>Eyes</i>). The score received for the winning hand depends on the combination of <style=\"CurrentLink\">Sets</style> and since one receives extra points for certain combinations this can be viewed as a type of <style=\"CurrentLink\">Sets</style> also. The much simpler <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Game</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go%20Fish\">Go Fish</link></style> uses <style=\"CurrentLink\">Sets</style> similarly to end game instances.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> and its derivatives (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guts\">Guts</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Texas%20Hold'em\">Texas Hold'em</link></style>) make use of different types of <style=\"CurrentLink\">Sets</style> which have an internal ranking against each other and which is used to determine winners when necessary. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/No%20Thanks!\">No Thanks!</link></style> is another <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Card%20Games\">Card Game</link></style> that uses <style=\"CurrentLink\">Sets</style> differently; any series of cards (including only two cards) lets players only count the lowest card when scoring (the goal is to received as few points as possible).",
+            "<style=\"CurrentLink\">Sets</style> are typically found in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer-based%20Roleplaying%20Games\">Computer-based Roleplaying Games</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diablo%20series\">Diablo series</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon%20Age%20series\">Dragon Age series</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Torchlight\">Torchlight</link></style>. Here they exist as groups of game items, typically armor or pairs of weapons, that when all equipped provide ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Sets</style> exist in two main ways in games: either as ways of defining end conditions or defining scores or ranking when the end conditions has been met,  or as game elements that can provide <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> when used together.",
+            "The first use of <style=\"CurrentLink\">Sets</style> is typically done through defining groups of <style=\"Link\"><link=\"cards\">Cards</link></style> or <style=\"Link\"><link=\"tiles\">Tiles</link></style> that have some common characteristic to be <style=\"CurrentLink\">Sets</style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mahjong\">Mahjong</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go%20Fish\">Go Fish</link></style> uses this to end the game when a player has a <style=\"Link\"><link=\"hands\">Hand</link></style> consisting only of sets (the hands may consists of <style=\"Link\"><link=\"tiles\">Tiles</link></style>, and may partial or wholly be public to the other players). When <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Poker\">Poker</link></style> rounds ends with a somebody having matched the last bet; here the various <style=\"CurrentLink\">Sets</style> possible (e.g. one pairs, two pairs, three of a kind, straight, flush, etc.) determine the winner. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/No%20Thanks!\">No Thanks!</link></style> ends when all <style=\"Link\"><link=\"cards\">Cards</link></style> have been taken some the players and here <style=\"CurrentLink\">Sets</style> lets players avoid getting points for all <style=\"Link\"><link=\"cards\">Cards</link></style> they have that form consecutive series except for the lowest one in the series. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Yahtzee\">Yahtzee</link></style> shows that use of several <style=\"Link\"><link=\"dice\">Dice</link></style> can be the basis for collecting <style=\"CurrentLink\">Sets</style> as well. Games that make use of <style=\"CurrentLink\">Sets</style> for rankings or scoring typically also make use of <style=\"Link\"><link=\"tiebreakers\">Tiebreakers</link></style>.",
+            "<style=\"CurrentLink\">Sets</style> that provide <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> typically consists of <style=\"Link\"><link=\"game-items\">Game Items</link></style>, and can be seen as <style=\"Link\"><link=\"combos\">Combos</link></style> of the actions of having picked them up or equipped them. What constitutes these <style=\"CurrentLink\">Sets</style> can be any type of <style=\"Link\"><link=\"game-items\">Game Items</link></style> that can be used, e.g. <style=\"Link\"><link=\"tools\">Tools</link></style> or <style=\"Link\"><link=\"weapons\">Weapons</link></style>, but the perhaps most common use is different pieces of <style=\"Link\"><link=\"armor\">Armor</link></style> or clothing. Games designed to provide these types of <style=\"CurrentLink\">Sets</style> may wish to consider the randomness with which different parts of the <style=\"CurrentLink\">Sets</style> are made available through for example <style=\"Link\"><link=\"loot\">Loot</link></style> and <style=\"Link\"><link=\"trading\">Trading</link></style>.",
+            "Regardless of if the <style=\"CurrentLink\">Sets</style> are used for scoring or providing bonus effects, game designers have the option of making the relations between different types of <style=\"CurrentLink\">Sets</style> follow <style=\"Link\"><link=\"arithmetic-progression\">Arithmetic</link></style>, <style=\"Link\"><link=\"geometric-progression\">Geometric</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Discontinuous%20Progression\">Discontinuous Progression</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "It is difficult for <style=\"CurrentLink\">Sets</style> to be perceived as such if they do not diegetically match, that is <style=\"CurrentLink\">Sets</style> need to have <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> with each other even if other parts of the game break this.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Sets</style> are a way of modulating <style=\"Link\"><link=\"game-items\">Game Items</link></style> by making certain combinations of these have additional effects to those they have individually. Quite naturally, this creates <style=\"Link\"><link=\"collections\">Collections</link></style> goals of several <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals, and as players near completion of these <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/sets\">sets</link></style> can give rise to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>.",
+            "As mentioned above, using <style=\"CurrentLink\">Sets</style> of several different <style=\"Link\"><link=\"game-items\">Game Items</link></style> together to gain additional bonuses are examples of <style=\"Link\"><link=\"combos\">Combos</link></style>. These types of <style=\"CurrentLink\">Sets</style> are also typically <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Anticipation\">Anticipation</link></style>, <style=\"Link\"><link=\"collections\">Collections</link></style>, <style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"game-items\">Game Items</link></style></style>",
+            "<style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"hands\">Hands</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"dice\">Dice</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"arithmetic-progression\">Arithmetic Progression</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Discontinuous%20Progression\">Discontinuous Progression</link></style>, <style=\"Link\"><link=\"geometric-progression\">Geometric Progression</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"H3\">Potentially Conflicting With</style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "anticipation",
+            "collections",
+            "combos",
+            "gain-ownership",
+            "improved-abilities",
+            "optional-goals"
+        ],
+        "modulates" : [
+            "game-items",
+            "hands"
+        ],
+        "instantiated_by" : [
+            "armor",
+            "cards",
+            "dice",
+            "thematic-consistency",
+            "tiles",
+            "tools",
+            "weapons"
+        ],
+        "modulated_by" : [
+            "arithmetic-progression",
+            "discontinuous-progression",
+            "geometric-progression"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

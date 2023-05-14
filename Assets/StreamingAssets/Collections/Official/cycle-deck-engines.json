@@ -1,0 +1,49 @@
+{
+    "name" : "Cycle Deck Engines",
+    "categories" : [
+        "Patterns",
+        "Dynamic Patterns",
+        "Card Patterns"
+    ],
+    "texts" : {
+        "definition" : "A game engine built around being able to go through as much of a deck as possible.",
+        "markups" : [
+            "<style=\"Definition\">A game engine built around being able to go through as much of a deck as possible.</style>",
+            "Some games allow players to draw cards from drawing stacks to perform other gameplay actions. When such cards allow new cards to be drawn and used players may be able to go through all or most of their drawing stacks. Having cards which provides this kind of effect is called having a <style=\"CurrentLink\">Cycle Deck Engine</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Combinations of \"Smithy\" and \"Village\" cards in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dominion\">Dominion</link></style> allows for <style=\"CurrentLink\">Cycle Deck Engines</style> which both provides new cards and new actions to players, potentially letting them empty their decks each turn. Similarly, collecting cards with the spider-man-theme in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Legendary:%20A%20Marvel%20Deck%20Building%20Game\">Legendary: A Marvel Deck Building Game</link></style> allows players to cycle through their deck to gain maximum benefit of all the cards they have. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Cycle Deck Engines</style> are an example of how <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style> can occur in game that allow <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>. They basically work by letting players have <style=\"Link\"><link=\"cards\">Cards</link></style> which allows them to draw more <style=\"Link\"><link=\"cards\">Cards</link></style> which cumulatively provide a greater advantage the more <style=\"Link\"><link=\"cards\">Cards</link></style> that have been drawn. <style=\"CurrentLink\">Cycle Deck Engines</style> are made possible by letting players do <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> where they collect <style=\"Link\"><link=\"cards\">Cards</link></style> which allows them to draw continuously new <style=\"Link\"><link=\"cards\">Cards</link></style> from <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "Rather obvious, a <style=\"CurrentLink\">Cycle Deck Engines</style> is an example of a <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engine</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"combos\">Combos</link></style>, <style=\"Link\"><link=\"gameplay-engines\">Gameplay Engines</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"cards\">Cards</link></style>, <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>, and <style=\"Link\"><link=\"drawing-stacks\">Drawing Stacks</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "combos",
+            "gameplay-engines"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "cards"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

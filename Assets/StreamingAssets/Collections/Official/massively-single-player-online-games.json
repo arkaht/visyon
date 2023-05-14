@@ -1,0 +1,73 @@
+{
+    "name" : "Massively Single-Player Online Games",
+    "categories" : [
+        "Patterns",
+        "Player Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games that make use of other players' game instances to provide input to the game state.",
+        "markups" : [
+            "<style=\"Definition\">Games that make use of other players' game instances to provide input to the game state.</style>",
+            "Many games, ranging from <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Solitaire\">Solitaire</link></style> to computer games where one players against the computer, are single-player games. These can however have some aspects of multiplayer games by letting the actions of other players in other games somehow influence the gameplay. These games are called <style=\"CurrentLink\">Massively Single-Player Online Games</style> due to the fact that they have become feasible mainly through automation computers offers and the connectivity the internet provides. They let designers provide players with a middle option between the socially loaded gameplay of multiplayer games and the isolated gameplay of single-player games - single-player games can of course provide or encourage social interaction outside gameplay and play sessions (c.f. Stenros 2009).",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Crobots\">Crobots</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style> are less obvious examples of <style=\"CurrentLink\">Massively Single-Player Online Games</style> that precede online gaming. The code and messages created by players of the games are stored locally on the computers they are played on and can only affect the game instances that follow on that computer, or on computer that have been installed with all the files from those game installations.",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spore\">Spore</link></style> can create their own species, vehicles and buildings as part of following a species development from single cell life-form to interstellar society. The other life-forms encountered during the gameplay are a mix of those created by the game developers and those created by other players are downloaded from online sources.",
+            "When played online, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Demon's%20Soul\">Demon's Soul</link></style> uses the actions of players' in one game session to provide hint to others in the form of ghostly replays, blood stains where they have died, or messages scribbled on the floor. People can also choose to play against each other, and in this mode players can visit other players' games to try and kill the host to get a reward in their own game instance.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/4%20Minutes%20and%2033%20Seconds%20of%20Uniqueness\">4 Minutes and 33 Seconds of Uniqueness</link></style> uses the fact that others are playing the game also as input to game instances. This by making players lose if any other player begins to play during their own game instance. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Icy%20Tower\">Icy Tower</link></style> can be seen as a weak example of <style=\"CurrentLink\">Massively Single-Player Online Games</style>. In it the avatars of other players are placed in the game world to show the highest platform they reached.",
+            "Given that players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zombie%20Lane\">Zombie Lane</link></style> can visit other players areas in these games but they are very limited in what they can do there, and the actions performed there might not functionally be the same for those visited, these games can be seen as interconnecting many different players individual game instances.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Being online games, <style=\"CurrentLink\">Massively Single-Player Online Games</style> need to make use of <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, but unlike other online games it is not necessarily so that they need <style=\"Link\"><link=\"meta-servers\">Meta Servers</link></style>. Looking at gameplay, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style> is a simple way of creating <style=\"CurrentLink\">Massively Single-Player Online Games</style> through the <style=\"Link\"><link=\"meta-games\">Meta Game</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competitions\">Competitions</link></style> of having the highest <style=\"Link\"><link=\"scores\">Scores</link></style> they support. The use of <style=\"Link\"><link=\"speedruns\">Speedruns</link></style> and <style=\"Link\"><link=\"ghosts\">Ghosts</link></style> are more specific ways of doing this that lets other players' performances be visible within <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> (see <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Demon's%20Soul\">Demon's Soul</link></style> for examples of this use of <style=\"Link\"><link=\"ghosts\">Ghosts</link></style>). <style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style> with <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style> and little interaction between players is another way of providing <style=\"CurrentLink\">Massively Single-Player Online Games</style> since each player can treat their game space as a game of their own. <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> can be used in <style=\"CurrentLink\">Massively Single-Player Online Games</style> to more or less require help for other players to progress (e.g. requiring the help of a certain amount of friends to unlock <style=\"Link\"><link=\"levels\">Levels</link></style>) and this promotes players to send out <style=\"Link\"><link=\"invites\">Invites</link></style>.",
+            "The effect players can have on each other can be seen as a form of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>, but to do this players need to have several play sessions in the same game instances and for this reason <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style> are common in <style=\"CurrentLink\">Massively Single-Player Online Games</style>. <style=\"Link\"><link=\"visits\">Visits</link></style> is one way to add more <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> which doesn't need players to be playing at the same time but does require that the games have <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> (as is the case if they are supposed to be <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>). The concept of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style> can be included to let players control by themselves which other players can do <style=\"Link\"><link=\"visits\">Visits</link></style>. <style=\"Link\"><link=\"free-gift-inventories\">Free Gift Inventories</link></style> have similar possibilities as <style=\"Link\"><link=\"visits\">Visits</link></style> and can be regulated by <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style> as well, but do not require <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>. Both are ways to allow <style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style> in these types of games, and these might be examples of <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style> if anybody can perform the actions regardless of if they are playing the games themselves or not. If instead the games require people to be players to perform the actions, <style=\"Link\"><link=\"invites\">Invites</link></style> allow players to try and recruit new people to help them. However, if having <style=\"Link\"><link=\"challenging-gameplay\">Challenging Gameplay</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> is wanted, <style=\"Link\"><link=\"visits\">Visits</link></style> can be used to provide <style=\"Link\"><link=\"enemies\">Enemies</link></style> (as for example done in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Demon's%20Soul\">Demon's Soul</link></style>).",
+            "It is relatively trivial to include the pattern of <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style> in <style=\"CurrentLink\">Massively Single-Player Online Games</style> given the little and still existent interaction between players. Further, since players are not directly competing with each others there is no problem with <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> if <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style> is added.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Massively Single-Player Online Games</style> are a way of modifying <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style> through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>, and they always instantiate <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> since part of its defining characteristics is that one game instance affects another and thereby create a level of interaction about the game itself. Since they do make use of <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, they provide <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>.",
+            "Although not <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> per se, <style=\"CurrentLink\">Massively Single-Player Online Games</style> offers some aspects of them which can allow <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> without risking to destroy <style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>. They do this without requiring players to know or interact much about each other, making it possible for players to have <style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style> to other players. Similarly, they mainly share extra-game functionality with <style=\"Link\"><link=\"massively-multiplayer-online-games\">Massively Multiplayer Online Games</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"actor-detachment\">Actor Detachment</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"mediated-gameplay\">Mediated Gameplay</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"casual-gameplay\">Casual Gameplay</link></style>, <style=\"Link\"><link=\"single-player-games\">Single-Player Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, <style=\"Link\"><link=\"ghosts\">Ghosts</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style>, <style=\"Link\"><link=\"speedruns\">Speedruns</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>",
+            "<style=\"Link\"><link=\"asynchronous-gameplay\">Asynchronous Gameplay</link></style> together with <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"altruistic-actions\">Altruistic Actions</link></style>, <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"free-gift-inventories\">Free Gift Inventories</link></style>, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"invites\">Invites</link></style>, <style=\"Link\"><link=\"late-arriving-players\">Late Arriving Players</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Neighbors\">Neighbors</link></style>, <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>, <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style>, <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>, <style=\"Link\"><link=\"tick-based-games\">Tick-Based Games</link></style>, <style=\"Link\"><link=\"visits\">Visits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "actor-detachment",
+            "meta-games",
+            "mediated-gameplay",
+            "social-interaction"
+        ],
+        "modulates" : [
+            "casual-gameplay"
+        ],
+        "instantiated_by" : [
+            "game-servers",
+            "ghosts",
+            "asynchronous-gameplay"
+        ],
+        "modulated_by" : [
+            "altruistic-actions",
+            "encouraged-return-visits",
+            "free-gift-inventories",
+            "friend-lists",
+            "invites",
+            "late-arriving-players",
+            "neighbors",
+            "non-player-help",
+            "persistent-game-worlds",
+            "purchasable-game-advantages",
+            "tick-based-games",
+            "visits"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

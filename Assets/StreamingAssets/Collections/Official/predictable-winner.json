@@ -1,0 +1,85 @@
+{
+    "name" : "Predictable Winner",
+    "categories" : [
+        "Subjective Patterns",
+        "Negative Patterns",
+        "Dynamic Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Games where the players can perceive who is very likely to win given the current gameplay circumstances.",
+        "markups" : [
+            "<style=\"Definition\">Games where the players can perceive who is very likely to win given the current gameplay circumstances.</style>",
+            "Games typically rely on keeping gamers interested by letting them have a chance of winning, even if this chance may be very small. This is however countered for those that can perceive that one player is very likely to win - even if this may be themselves - and worsens the more of a public consensus that is achieved regarding who is the <style=\"CurrentLink\">Predictable Winner</style>.",
+            "This pattern is <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Subjective%20Patterns\">subjective</link></style> since be able to understand if there is a player with strong likelihood to win may depend on cognitive abilities and gameplay skill. Another reason is that the predictability can depend on players' strategies, it may well be that there may be a <style=\"CurrentLink\">Predictable Winner</style> if all players continue having the strategies they currently have but that this changes as soon as a few or even one player changes the way they play.",
+            "<style=\"H3\">Examples</style>",
+            "The game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/First%20to%2012\">First to 12</link></style> is rarely played since the second player will win if he or she knows the optimal strategy. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tic-Tac-Toe\">Tic-Tac-Toe</link></style> can also be said to have the pattern since if both players are playing optimally, nobody will win (so the <style=\"CurrentLink\">Predictable Winner</style> is nobody).",
+            "<style=\"H2\">Using the pattern</style>",
+            "The concept of a <style=\"CurrentLink\">Predictable Winner</style> requires several competing players, which is to say that the pattern requires <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competitions\">Competitions</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, and can be seen as modulating these. The presence of <style=\"Link\"><link=\"scores\">Scores</link></style> are likely to make people start looking for <style=\"CurrentLink\">Predictable Winners</style>, since the <style=\"Link\"><link=\"scores\">Scores</link></style> provide a (potentially misleading) overview of the players' relative positions. That said, games are rarely designed to have a <style=\"CurrentLink\">Predictable Winner</style> but it may occur because of <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, that individual players can take continuous advantage of <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>, that some players can have <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style> while other do not, or through the possibility of <style=\"Link\"><link=\"kingmaker\">Kingmakers</link></style>. For this reason, design choices regarding <style=\"CurrentLink\">Predictable Winner</style> usually concerns avoiding it or handling it when it occurs. ",
+            "Introducing an <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style> is the main way of working against games having a <style=\"CurrentLink\">Predictable Winner</style>. A way of achieving this through making players' goals uncertain is to use <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style> or <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style>. The two main patterns that cause uncertainty in relation to winning against others are <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style> and <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>. ",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style> and <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style> can directly affect the actual chance that a game state will occur in which a winner is given, while <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style> can be used to make it more difficult to judge to relative positions of players if the information is directly related to the winning conditions. <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style> can do the same by giving misinformation regarding players' actual chances of succeeding with goals and actions in the game. <style=\"Link\"><link=\"randomness\">Randomness</link></style> can achieve both, but players with knowledge about statistics may be able to use this to be able to make reliable predictions anyway if enough random events are involved in the gameplay. When it is not also predictable whom will receive <style=\"Link\"><link=\"rewards\">Rewards</link></style> and these <style=\"Link\"><link=\"rewards\">Rewards</link></style> affect the winning condition, the use of <style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style> can make winners less predictable.",
+            "Situations where players see a <style=\"CurrentLink\">Predictable Winner</style> can be handled in different ways. <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style> gameplay can allow losing players to avoid having to continue while still providing gameplay for those believed to win and those not convinced of the inevitability of the outcome, while <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style> can let players end prematurely either gameplay or specific gameplay parts without disrupting other players gameplay catastrophically.",
+            "In games where an advantage for a player depends on the strategies of other players (including simply not working against the leader), the <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style> pattern is likely to emerge from players changing strategies but this can be encourages by game designs by providing specific <style=\"Link\"><link=\"rewards\">Rewards</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "As stated above, players are likely to adopt <style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style> tactics if at all possible when <style=\"CurrentLink\">Predictable Winner</style> situations occurs. Less likely but potentially more problematic is that players in positions they consider hopeless turn to <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style> solutions or <style=\"Link\"><link=\"surrendering\">Surrendering</link></style> without a <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style>. Both these reactions can be seen as ways of dealing with that one cannot feel a <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style> regarding the gameplay. The <style=\"CurrentLink\">Predictable Winner</style> will himself or herself instead try to engage in <style=\"Link\"><link=\"speedending\">Speedending</link></style> if possible.",
+            "There are several patterns that make the presence of a <style=\"CurrentLink\">Predictable Winner</style> less likely due to being incompatible with them. These include <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style>, and <style=\"Link\"><link=\"randomness\">Randomness</link></style>, which were mentioned above since they can be put into designs to avoid <style=\"CurrentLink\">Predictable Winner</style>. <style=\"Link\"><link=\"tension\">Tension</link></style> is another pattern difficult to combine with <style=\"CurrentLink\">Predictable Winner</style> (although conceivably there can be <style=\"Link\"><link=\"tension\">Tension</link></style> regarding who will be second in a game, etc.) but the addition of <style=\"Link\"><link=\"tension\">Tension</link></style> to a game does not have any typically causality towards making <style=\"CurrentLink\">Predictable Winner</style> less likely to emerge. The reserve is however true, the presence of <style=\"CurrentLink\">Predictable Winner</style> is likely to remove any <style=\"Link\"><link=\"tension\">Tension</link></style> that exists regarding the winning position. ",
+            "<style=\"CurrentLink\">Predictable Winner</style> make the use of <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style> impossible and can make an <style=\"Link\"><link=\"endgame\">Endgame</link></style> uninteresting. In contrast, <style=\"CurrentLink\">Predictable Winner</style> and <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> are incompatible in the typical case when the both patterns refer to the same concept of winning. This may not necessarily be the case, players can compete against each other in <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tetris\">Tetris</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Pinball%20Games\">Pinball Games</link></style> to see to gets the highest score. Truly <style=\"CurrentLink\">Predictable Winner</style> situations gives all other players <style=\"Link\"><link=\"unwinnable-game-states\">Unwinnable Game States</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>, <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style>, <style=\"Link\"><link=\"speedending\">Speedending</link></style>, <style=\"Link\"><link=\"surrendering\">Surrendering</link></style>, <style=\"Link\"><link=\"unwinnable-game-states\">Unwinnable Game States</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"endgame\">Endgame</link></style>",
+            "<style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Competitions\">Competitions</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"positive-feedback-loops\">Positive Feedback Loops</link></style>, <style=\"Link\"><link=\"predictable-consequences\">Predictable Consequences</link></style>, <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"beat-leader\">Beat the Leader</link></style>, <style=\"Link\"><link=\"drop-in-drop-out\">Drop-In/Drop-Out</link></style>, <style=\"Link\"><link=\"possibility-graceful-surrender\">Possibility of Graceful Surrender</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"balancing-effects\">Balancing Effects</link></style>, <style=\"Link\"><link=\"exaggerated-perception-influence\">Exaggerated Perception of Influence</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"increasing-rewards\">Increasing Rewards</link></style>, <style=\"Link\"><link=\"negative-feedback-loops\">Negative Feedback Loops</link></style>, <style=\"Link\"><link=\"performance-uncertainty\">Performance Uncertainty</link></style>, <style=\"Link\"><link=\"player-unpredictability\">Player Unpredictability</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"secret-goals\">Secret Goals</link></style>, <style=\"Link\"><link=\"secret-scoring-mechanisms\">Secret Scoring Mechanisms</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>, <style=\"Link\"><link=\"uncertainty-outcome\">Uncertainty of Outcome</link></style>, <style=\"Link\"><link=\"unwinnable-games\">Unwinnable Games</link></style>, <style=\"Link\"><link=\"value-effort\">Value of Effort</link></style>, <style=\"Link\"><link=\"winner-gameplay-ends\">Winner determined after Gameplay Ends</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "beat-leader",
+            "kingmaker",
+            "speedending",
+            "surrendering",
+            "unwinnable-game-states"
+        ],
+        "modulates" : [
+            "endgame",
+            "multiplayer-games"
+        ],
+        "instantiated_by" : [
+            "gameplay-mastery",
+            "positive-feedback-loops",
+            "predictable-consequences",
+            "kingmaker",
+            "scores"
+        ],
+        "modulated_by" : [
+            "beat-leader",
+            "drop-in-drop-out",
+            "possibility-graceful-surrender"
+        ],
+        "conflicts" : [
+            "balancing-effects",
+            "exaggerated-perception-influence",
+            "imperfect-information",
+            "increasing-rewards",
+            "negative-feedback-loops",
+            "performance-uncertainty",
+            "player-unpredictability",
+            "randomness",
+            "secret-goals",
+            "secret-scoring-mechanisms",
+            "tension",
+            "uncertainty-outcome",
+            "unwinnable-games",
+            "value-effort",
+            "winner-gameplay-ends"
+        ]
+    }
+}

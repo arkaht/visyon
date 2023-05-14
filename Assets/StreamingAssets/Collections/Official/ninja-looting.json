@@ -1,0 +1,58 @@
+{
+    "name" : "Ninja Looting",
+    "categories" : [
+        "Patterns",
+        "Negative Patterns"
+    ],
+    "texts" : {
+        "definition" : "The act of taking loot that one has no proper claim to.",
+        "markups" : [
+            "<style=\"Definition\">The act of taking loot that one has no proper claim to.</style>",
+            "Looting is the activity in games of picking up resources dropped by defeated enemies. <style=\"CurrentLink\">Ninja Looting</style> is taking loot which one is not entitled to, typically because one did not defeat the enemies.",
+            "Wikipedia discusses <style=\"CurrentLink\">Ninja Looting</style> as part of its entry for \"Looting\".",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Ninja Looting</style> occurs in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Roleplaying%20Games\">Roleplaying Games</link></style>. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Paranoia\">Paranoia</link></style> this is under the acceptance of game masters. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Roleplaying Games</link></style>, game masters cannot be present at all times loot is divided so either rules or players need to stop this if it is to be stopped. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> have implemented some rules but <style=\"CurrentLink\">Ninja Looting</style> can occur even so. <style=\"CurrentLink\">Ninja Looting</style> wrecks in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> is possible but may be dangerous, either due to the ships that shot down the wreck may be nearby or due to corporations that have claims on them can fire on you. ",
+            "<style=\"H4\">Anti-Examples</style>",
+            "As a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Roleplaying Game</link></style> that empowers players to create their own societies within the game, it is not too surprising that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style> have no rules hindering <style=\"CurrentLink\">Ninja Looting</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The primary requirement for <style=\"CurrentLink\">Ninja Looting</style> to be possible in a game is quite naturally that <style=\"Link\"><link=\"loot\">Loot</link></style> exists. The second is that other <style=\"Link\"><link=\"agents\">Agents</link></style> than that ones that \"deserve\" them can take them. In games without explicit representation of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, as for example some <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style>, this is easily provided through the interpretation of <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> and such. In games that do provide detailed representations of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> that <style=\"Link\"><link=\"agents\">Agents</link></style> maneuver in, <style=\"CurrentLink\">Ninja Looting</style> requires that the <style=\"Link\"><link=\"loot\">Loot</link></style> existing in the form of diegetic <style=\"Link\"><link=\"game-items\">Game Items</link></style> or as <style=\"Link\"><link=\"reward-widgets\">Reward Widgets</link></style>. ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Loot%20Rights\">Loot Rights</link></style> can be implemented to avoid <style=\"CurrentLink\">Ninja Looting</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> can easily occur due to <style=\"CurrentLink\">Ninja Looting</style>. In games where players can take <style=\"Link\"><link=\"loot\">Loot</link></style> that belong to members of their own <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style> or <style=\"Link\"><link=\"teams\">Teams</link></style>, this becomes <style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style>. ",
+            "Taking on the role of a \"Ninja Looter\", or being accuse of being one, is a <style=\"Link\"><link=\"social-roles\">Social Role</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"social-roles\">Social Roles</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Guilds\">Guilds</link></style> or <style=\"Link\"><link=\"teams\">Teams</link></style></style>",
+            "<style=\"Link\"><link=\"internal-conflicts\">Internal Conflicts</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"loot\">Loot</link></style>, <style=\"Link\"><link=\"reward-widgets\">Reward Widgets</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Loot%20Rights\">Loot Rights</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "conflicts",
+            "social-roles",
+            "internal-conflicts"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "loot",
+            "reward-widgets"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "loot-rights"
+        ]
+    }
+}

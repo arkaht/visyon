@@ -1,0 +1,74 @@
+{
+    "name" : "Unknown Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "Goals initially, or currently, unknown to the players that have them.",
+        "markups" : [
+            "<style=\"Definition\">Goals initially, or currently, unknown to the players that have them.</style>",
+            "Games provide goals to players to give them motivations to attempt various activities within the games. However, players may not be given all goals at once in order to facilitate suspense and interesting narratives. The goals that exist in games but are not known to players are <style=\"CurrentLink\">Unknown Goals</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "Most adventure games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maniac%20Mansion\">Maniac Mansion</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/King's%20Quest%20series\">King's Quest series</link></style>, start by providing the players with an overarching goal which motivates the players to complete the game. However, the different subgoals that must be completed before the main goal is completed are usually unknown, as knowing these would ruin many of the surprises in the narrative. A related example can be found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Mario%20Bros%20series\">Super Mario Bros series</link></style> where players may know that they need to collect Star Coins but where they are.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style> are often made into <style=\"CurrentLink\">Unknown Goals</style> to support <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> without revealing those structures to early. This makes such goals also typically be subgoals in <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>. However, <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style> are in most cases also <style=\"CurrentLink\">Unknown Goals</style>, either because players don't know the details about them (e.g. when they will become available) or because players don't know they exist when gameplay begins. <style=\"CurrentLink\">Unknown Goals</style> can be part of <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>, which leads to players to have to reconsider their choices of goals as the <style=\"CurrentLink\">Unknown Goals</style> become revealed. Combining <style=\"CurrentLink\">Unknown Goals</style> with <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style> is often difficult since players may infer other players' goals from the similarity in actions displayed between players trying to reach them.",
+            "The primary requirement for having <style=\"CurrentLink\">Unknown Goals</style> is to provide players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>. This can often be done by <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, and may be necessary to support the goals if they are not <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style>. An easy way to create <style=\"CurrentLink\">Unknown Goals</style> is to have <style=\"Link\"><link=\"levels\">Levels</link></style> in games since the goals of a <style=\"Link\"><link=\"levels\">Level</link></style> typically only are revealed when the <style=\"Link\"><link=\"levels\">Levels</link></style> are entered. <style=\"Link\"><link=\"conceal\">Conceal</link></style> goals provide <style=\"CurrentLink\">Unknown Goals</style> of finding the concealer to those that the concealer is trying to hide from. <style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style> can make a goal into an <style=\"CurrentLink\">Unknown Goal</style> if the specifics of the characteristics aren't known. ",
+            "Games can provide hints that <style=\"CurrentLink\">Unknown Goals</style> exist either through <style=\"Link\"><link=\"clues\">Clues</link></style> during gameplay or through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Level%20Summaries\">Level Summaries</link></style> after a specific part of gameplay has finished. One version of the former is to let players know the <style=\"Link\"><link=\"rewards\">Rewards</link></style> for completing a goal but not let them know all details regarding how to solve it",
+            "<style=\"H3\">Narration Aspects</style>",
+            "Besides supporting <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> in a game, the use of <style=\"CurrentLink\">Unknown Goals</style> is primarily to support <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> and make the players actions relate to the narration.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Unknown Goals</style> can give players <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> when they are discovered or revealed. If players know of their existence but not their details, they can make players take on <style=\"Link\"><link=\"gain-information\">Gain Information</link></style> goals. The knowledge about them are part of a game's <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style> if they are <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style> that don't change between game instances, but such cases can also lower a game's ",
+            "<style=\"Link\"><link=\"replayability\">Replayability</link></style>. Phrased differently, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> about such goals work against that they are <style=\"CurrentLink\">Unknown Goals</style>. ",
+            "The presence of <style=\"CurrentLink\">Unknown Goals</style> can force players to have to replan in games that allow <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"gain-information\">Gain Information</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style></style>",
+            "<style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"player-planned-development\">Player-Planned Development</link></style>, <style=\"Link\"><link=\"predefined-goals\">Predefined Goals</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"selectable-set-goals\">Selectable Set of Goals</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"conceal\">Conceal</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style>, <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Imperfect%20Information\">Imperfect Information</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Level%20Summaries\">Level Summaries</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"replayability\">Replayability</link></style>, <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "gain-information",
+            "surprises",
+            "strategic-knowledge"
+        ],
+        "modulates" : [
+            "goal-hierarchies",
+            "player-planned-development",
+            "predefined-goals",
+            "predetermined-story-structures",
+            "rewards",
+            "selectable-set-goals"
+        ],
+        "instantiated_by" : [
+            "conceal",
+            "dedicated-game-facilitators",
+            "dynamic-goal-characteristics",
+            "ephemeral-goals",
+            "imperfect-information",
+            "levels"
+        ],
+        "modulated_by" : [
+            "clues",
+            "level-summaries"
+        ],
+        "conflicts" : [
+            "replayability",
+            "symmetric-goals",
+            "trans-game-information"
+        ]
+    }
+}

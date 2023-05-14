@@ -1,0 +1,63 @@
+{
+    "name" : "Feelies",
+    "categories" : [
+        "Patterns",
+        "Aesthetic Patterns",
+        "Diegetic Patterns",
+        "Narration Patterns"
+    ],
+    "texts" : {
+        "definition" : "Physical props that are shipped with the games to strengthen the game experience.",
+        "markups" : [
+            "<style=\"Definition\">Physical props that are shipped with the games to strengthen the game experience.</style>",
+            "Games are typically designed to provide a certain type of experience regarding the game world or gameplay. One way this can be supported outside the game is through various props, <style=\"CurrentLink\">Feelies</style>, shipped with the games.",
+            "Wikipedia has a page describing [https://en.wikipedia.org/wiki/Feelie feelies] and GiantBomb has a [http://www.giantbomb.com/feelie/3015-6440/ list] of games with <style=\"CurrentLink\">Feelies</style>.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Feelies</style> were most common in Infocom games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planetfall\">Planetfall</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20series\">Zork series</link></style>. However, they are also packaged with some ''collector's'' editions of games, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dead%20Rising%202\">Dead Rising 2</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%204%20Pip-Boy%20Edition\">Fallout 4 Pip-Boy Edition</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Feelies</style> are a type of <style=\"Link\"><link=\"props\">Props</link></style> so the main design challenges associated with them are similar to those of <style=\"Link\"><link=\"props\">Props</link></style> in general except for the physical design of them. Since <style=\"CurrentLink\">Feelies</style> are extra elements provided specifically to provide additional experiences the diegetic and narration aspects of them, for example supporting <style=\"Link\"><link=\"diegetic-consistency\">Diegetic</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, become even more important to them than to other game elements. One particular choice they offer is to give players <style=\"Link\"><link=\"clues\">Clues</link></style> or to provide <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style> for them.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maps\">Maps</link></style> can be used specifically to provide <style=\"CurrentLink\">Feelies</style>. Another option is to create <style=\"Link\"><link=\"player-aids\">Player Aids</link></style> that have <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> as well as <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> for its medium (not all <style=\"CurrentLink\">Feelies</style> are <style=\"Link\"><link=\"player-aids\">Player Aids</link></style> since not all of them provide narrative or gameplay information).",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Feelies</style> are basically a type of <style=\"Link\"><link=\"props\">Props</link></style> that exist outside the main medium of a game in order to give <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>. By doing so they show the simplest way of creating <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transmedia%20Games\">Transmedia Games</link></style> and their special status of being physical make them <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>. They are typically design to support both <style=\"Link\"><link=\"diegetic-consistency\">Diegetic</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>.",
+            "While many times <style=\"CurrentLink\">Feelies</style> simply provide extra experiential value to a game, they sometimes also can help gameplay. One example of this is the map of the Underground Empire shipped together with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Zork%20I\">Zork I</link></style> which gives some hints to players.",
+            "Feelies can arguably be said to provide <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style> when they depict events that have taken place in the game world, e.g. the diary provided with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Planetfall\">Planetfall</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"clues\">Clues</link></style>, <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Emotional%20Engrossment\">Emotional Engrossment</link></style>, <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>, <style=\"Link\"><link=\"red-herrings\">Red Herrings</link></style>, <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transmedia%20Games\">Transmedia Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Maps\">Maps</link></style>, <style=\"Link\"><link=\"props\">Props</link></style>",
+            "<style=\"Link\"><link=\"player-aids\">Player Aids</link></style> together with <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> and <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "clues",
+            "diegetic-consistency",
+            "diegetically-outstanding-features",
+            "emotional-engrossment",
+            "extra-game-broadcasting",
+            "red-herrings",
+            "thematic-consistency",
+            "transmedia-games"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "maps",
+            "props",
+            "player-aids"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

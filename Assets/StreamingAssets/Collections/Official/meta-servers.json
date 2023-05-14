@@ -1,0 +1,65 @@
+{
+    "name" : "Meta Servers",
+    "categories" : [
+        "Patterns",
+        "Platform Patterns"
+    ],
+    "texts" : {
+        "definition" : "Meta Servers are the servers that distribute players and information between game servers of a specific game as well as stores global information about the players.",
+        "markups" : [
+            "<style=\"Definition\">Meta Servers are the servers that distribute players and information between game servers of a specific game as well as stores global information about the players.</style>",
+            "Online games are typically constructed around the concept of a game servers which people log onto to play. For games with more people that want to play than the individual game instances can support, <style=\"CurrentLink\">Meta Servers</style> can function as a service to lead players to free servers as well as provide community functionality such as being able to find on which game servers one's friends are playing.",
+            "<style=\"H3\">Examples</style>",
+            "Most <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Online%20Games\">Online Games</link></style> using <style=\"Link\"><link=\"game-servers\">Game Servers</link></style> also make use of <style=\"CurrentLink\">Meta Servers</style> so that players have some place to connect to when they wish to play. Examples of this can be found in many genres: the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake series</link></style> for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style>; <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style> for <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style>; ",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Social%20Media%20Games\">Social Media Games</link></style> with limited interaction between players, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Candy%20Crush%20Saga\">Candy Crush Saga</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style>, many have <style=\"CurrentLink\">Meta Servers</style> but this is hidden from players since they never need to log onto specific <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>.",
+            "<style=\"H4\">Anti-Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">MUDs</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/BatMUD\">BatMUD</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style> are examples of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Online%20Games\">Online Games</link></style> that due to how they are created and maintained by players only reside on single <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> is a rare example of a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> that by having only one <style=\"Link\"><link=\"game-servers\">Game Server</link></style> can ensure that all action players take can have a persistent effect on the game and that all narratives that emerge from playing the game relates to the same game instance. ",
+            "<style=\"H2\">Using the pattern</style>",
+            "The prime reason for using <style=\"CurrentLink\">Meta Servers</style> is to augment <style=\"Link\"><link=\"game-servers\">Game Servers</link></style> and help players connect to the <style=\"Link\"><link=\"game-servers\">Game Servers</link></style> suiting their needs or desires. <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style> are common solution for fulfilling the second reason, although games with <style=\"Link\"><link=\"private-game-spaces\">Private Game Spaces</link></style> do not need them (this in practice typically means <style=\"Link\"><link=\"massively-single-player-online-games\">Massively Single-Player Online Games</link></style>). ",
+            "Given that <style=\"CurrentLink\">Meta Servers</style> fulfill these reasons, there are various types of functionality that they can offer players. <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style> lets players find each other, e.g. locating with <style=\"Link\"><link=\"game-servers\">Game Server</link></style> a friend is currently playing on so one can join him or her there. <style=\"Link\"><link=\"player-kicking\">Player Kicking</link></style> allows players or game facilitators to regulate how can play based upon their behavior (although this might be more commonly used per <style=\"Link\"><link=\"game-servers\">Game Server</link></style>). <style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style> let players communicate outside the game, which for example can lead to more consensus in relation to the two previous forms of functionality. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style> lets players compare themselves with all other players of the game as well as store <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style> between game instances.",
+            "Regardless of the specific functionality the <style=\"CurrentLink\">Meta Servers</style> are to provide, they typically do so by collecting <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> such as <style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style> from the <style=\"Link\"><link=\"game-servers\">Game Servers</link></style>. If these are to be used to explicitly create <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> is a design option when creating <style=\"CurrentLink\">Meta Servers</style> but in many cases this is more or less unavoidable, e.g. when storing and presenting <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style>.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"H2\">Consequences</style>",
+            "The possibility of <style=\"CurrentLink\">Meta Servers</style> to store <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style> make them support <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> built upon the statistics, <style=\"Link\"><link=\"scores\">Scores</link></style>, etc. that the players gain or loss in the individual games.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Global%20High%20Score%20Lists\">Global High Score Lists</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"game-servers\">Game Servers</link></style></style>",
+            "<style=\"Link\"><link=\"meta-games\">Meta Games</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-servers\">Game Servers</link></style>, <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"gameplay-statistics\">Gameplay Statistics</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Trans-Game%20Information\">Trans-Game Information</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"chat-channels\">Chat Channels</link></style>, <style=\"Link\"><link=\"friend-lists\">Friend Lists</link></style>, <style=\"Link\"><link=\"game-lobbies\">Game Lobbies</link></style>, <style=\"Link\"><link=\"player-kicking\">Player Kicking</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "global-high-score-lists",
+            "meta-games"
+        ],
+        "modulates" : [
+            "game-servers",
+            "multiplayer-games"
+        ],
+        "instantiated_by" : [
+            "gameplay-statistics",
+            "trans-game-information"
+        ],
+        "modulated_by" : [
+            "chat-channels",
+            "friend-lists",
+            "game-lobbies",
+            "player-kicking"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

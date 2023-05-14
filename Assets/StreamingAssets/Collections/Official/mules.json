@@ -1,0 +1,64 @@
+{
+    "name" : "Mules",
+    "categories" : [
+        "Patterns",
+        "Agent Patterns"
+    ],
+    "texts" : {
+        "definition" : "Code algorithms that can take over the role of players from repetitious tasks.",
+        "markups" : [
+            "<style=\"Definition\">Code algorithms that can take over the role of players from repetitious tasks.</style>",
+            "Some games, especially online games, require players to perform smaller or larger sequences of actions repetitiously. One way to let players avoid this is through letting them relinquish control to a program, a <style=\"CurrentLink\">Mule</style>, for parts of the gameplay. While this may let them escape boring sequences of gameplay, if they are allowed to also create these <style=\"CurrentLink\">Mules</style> they are provided with a possibility of being inventive and creative.",
+            "<style=\"H3\">Examples</style>",
+            "The first possibilities to creates <style=\"CurrentLink\">Mules</style> appeared in Multiuser Dungeons. While <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/DragonMud\">DragonMud</link></style> provided a limited way to add more content, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Kingdoms\">Kingdoms</link></style> made a programming language similar to C available to trusted players. The commercial massively multiplayer game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style> provided similar but more restricted functionality through macros. This was followed in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style>, which provides players with a set of functions that can be used for writing scripts. These scripts can vary from being practical macros that reduce the amount of excise but can also be more complex scripts capable of interacting with the environment..",
+            "Although not created by the players themselves, the bots that can take over their role in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> can be seen as a form of <style=\"CurrentLink\">Mules</style>. This since they can let players take pauses during less important sections of them game.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Mules</style> need to be able to control <style=\"Link\"><link=\"avatars\">Avatars</link></style> and often make use of the information stored in <style=\"Link\"><link=\"characters\">Characters</link></style> (<style=\"CurrentLink\">Mules</style> are typically not applied to <style=\"Link\"><link=\"units\">Units</link></style> - probably due to the complexity of handling groups of agents). The main difference of designing <style=\"CurrentLink\">Mules</style> and <style=\"Link\"><link=\"ai-players\">AI Players</link></style> is that <style=\"CurrentLink\">Mules</style> only need to be able to fill in for players for limited amount of time and limited sets of activities. Since this makes it easier to design them, it is also easier to help players create them. Ranging from <style=\"Link\"><link=\"action-programming\">Action Programming</link></style> to access to a full programming language, this can provide the players with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> and a form of <style=\"Link\"><link=\"meta-games\">Meta Game</link></style> to design them as well as possible.",
+            "The most common use of <style=\"CurrentLink\">Mules</style> is to perform some form of <style=\"Link\"><link=\"grinding\">Grinding</link></style> concerning <style=\"Link\"><link=\"character-development\">Character Development</link></style> or the gathering of a <style=\"Link\"><link=\"resources\">Resource</link></style>. To modulate the efficiency of using the <style=\"CurrentLink\">Mules</style>, the resource generated may have <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diminishing%20Returns\">Diminishing Returns</link></style>, require <style=\"Link\"><link=\"skills\">Skills</link></style>, or require the presence of <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style> or <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style> with a lower replenishment rate than the rate of consumption set for the <style=\"CurrentLink\">Mules</style>. Since <style=\"CurrentLink\">Mules</style> represent the players, they have to stand in for the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Social%20Interaction\">Social Interaction</link></style> expected on them, letting them control <style=\"Link\"><link=\"emotes\">Emotes</link></style> is one way of doing this.",
+            "The use of <style=\"CurrentLink\">Mules</style> can become a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> tradeoff if there is a chance of having critical failures of the actions being performed, typically leading to the loss of <style=\"Link\"><link=\"equipment\">Equipment</link></style>, attacks by <style=\"Link\"><link=\"enemies\">Enemies</link></style>, and maybe <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>. These challenges may be simple to deal with if players can monitor the <style=\"CurrentLink\">Mules</style> as <style=\"Link\"><link=\"spectators\">Spectators</link></style>, but when the <style=\"CurrentLink\">Mules</style> are set to do actions without supervision this may leave the <style=\"CurrentLink\">Mules</style> incapable of responding appropriately to these failure situations.",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Depending on what activities the <style=\"CurrentLink\">Mules</style> should be able to handle, this can put various difficulties in achieving <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, where <style=\"Link\"><link=\"dialogues\">Dialogues</link></style> can be an example of a difficult area. When players can create the <style=\"CurrentLink\">Mules</style>, this of course puts the responsibility of maintaining <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style> into their hands.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "If players should be able to create or modify <style=\"CurrentLink\">Mules</style> they need <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Mules</style> are a limited form of <style=\"Link\"><link=\"ai-players\">AI Players</link></style> that work as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Proxy%20Players\">Proxy Players</link></style> to provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Automated%20Responses\">Automated Responses</link></style> or make players escape <style=\"Link\"><link=\"excise\">Excise</link></style>, most often concerning improving <style=\"Link\"><link=\"characters\">Characters</link></style>. As such, they are also examples of <style=\"Link\"><link=\"player-augmentations\">Player Augmentation</link></style> through <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> and <style=\"Link\"><link=\"agents\">Agents</link></style>. The use of <style=\"CurrentLink\">Mules</style> is arguably a form of <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style>, either sanctioned by the players or by the game designers.",
+            "When players can create the <style=\"CurrentLink\">Mules</style> themselves, the pattern also provides <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style> and a form of <style=\"Link\"><link=\"meta-games\">Meta Game</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Automated%20Responses\">Automated Responses</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"player-augmentations\">Player Augmentations</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Proxy%20Players\">Proxy Players</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"character-development\">Character Development</link></style>, <style=\"Link\"><link=\"emotes\">Emotes</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"action-programming\">Action Programming</link></style>, <style=\"Link\"><link=\"ai-players\">AI Players</link></style>, <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diminishing%20Returns\">Diminishing Returns</link></style>, <style=\"Link\"><link=\"non-renewable-resources\">Non-Renewable Resources</link></style>, <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>, <style=\"Link\"><link=\"secondary-interface-screens\">Secondary Interface Screens</link></style>, <style=\"Link\"><link=\"skills\">Skills</link></style>, <style=\"Link\"><link=\"spectators\">Spectators</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, <style=\"Link\"><link=\"excise\">Excise</link></style>, <style=\"Link\"><link=\"grinding\">Grinding</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "automated-responses",
+            "creative-control",
+            "player-augmentations",
+            "proxy-players",
+            "sanctioned-cheating"
+        ],
+        "modulates" : [
+            "avatars",
+            "character-development",
+            "emotes"
+        ],
+        "instantiated_by" : [
+            "action-programming"
+        ],
+        "modulated_by" : [
+            "diminishing-returns"
+        ],
+        "conflicts" : [
+            "thematic-consistency"
+        ]
+    }
+}

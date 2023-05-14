@@ -816,6 +816,16 @@ namespace SimpleJSON
 			}
 		}
 
+		public static JSONArray FromStringArray( string[] array )
+		{
+			JSONArray node = new();
+
+			foreach ( string str in array )
+				node.Add( str );
+
+			return node;
+		}
+
 		public string[] ToStringArray()
 		{
 			List<string> result = new();

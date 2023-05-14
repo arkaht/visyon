@@ -1,0 +1,94 @@
+{
+    "name" : "Preventing Goals",
+    "categories" : [
+        "Goal Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Goals where the objective is to prevent a completion of another goal.",
+        "markups" : [
+            "<style=\"Definition\">Goals where the objective is to prevent a completion of another goal.</style>",
+            "Games typically provide players with goals for winning or making their actions feel meaningful. To do so, these goals need to be challenging and one of the easiest ways of making goals challenging is to provide somebody that is actively working against that goal being completed. Players or other agents with the goals to hinder others from completing their goals have <style=\"CurrentLink\">Preventing Goals</style>. ",
+            "<style=\"H3\">Examples</style>",
+            "The goal in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Backgammon\">Backgammon</link></style> is to move each individual piece to the inner table and one can prevent the other player from achieving this in two ways: by hitting the opponent's piece when moving one's own pieces or by blocking the piece by placing two or more pieces on area of the game board. The first case directly affects the opponent's piece as it interferes with the game state (the position of the piece) defining the opponent's goal. The second case indirectly prevents the goal as it does not affect the piece but may block future moves of the piece.",
+            "The goal of the goalkeeper (and other players) in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> is to prevent the opposing team's players from score goals. Similar <style=\"CurrentLink\">Preventing Goals</style> exist in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style> and Capture-the-flag variants of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style>. Protecting and attacking enemy bases in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients\">Defense of the Ancients</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/StarCraft%20series\">StarCraft series</link></style> are also similar.",
+            "The team-based variants of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Return%20to%20Castle%20Wolfenstein:%20Enemy%20Territory\">Return to Castle Wolfenstein: Enemy Territory</link></style> build gameplay around one team trying to progress through a level and the other side trying to stop them.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Preventing Goals</style> are typically introduced into games to provide challenges, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, or <style=\"Link\"><link=\"enemies\">Enemies</link></style> in a game. It can also be introduced to hinder <style=\"Link\"><link=\"cooperation\">Cooperation</link></style>",
+            "or make it impossible. ",
+            "The main point with designing <style=\"CurrentLink\">Preventing Goals</style> is identifying a target goal that is to be prevented and selecting those that should prevent it. The target goal needs to be an <style=\"Link\"><link=\"interferable-goals\">Interferable Goal</link></style>, and examples of such goals include <style=\"Link\"><link=\"alignment\">Alignment</link></style>, <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, and <style=\"Link\"><link=\"rescue\">Rescue</link></style>. <style=\"Link\"><link=\"construction\">Construction</link></style> or <style=\"Link\"><link=\"herd\">Herd</link></style> can also be used if they are <style=\"Link\"><link=\"agents\">Agents</link></style> with different <style=\"Link\"><link=\"construction\">Construction</link></style> goals regarding the same <style=\"Link\"><link=\"construction\">Construction</link></style> space or if the entities to be herded are <style=\"Link\"><link=\"agents\">Agents</link></style>. <style=\"Link\"><link=\"survive\">Survive</link></style> can also function as a <style=\"CurrentLink\">Preventing Goal</style> as long as a player or <style=\"Link\"><link=\"agents\">Agent</link></style> has the appropriate <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goal.",
+            "The basis for <style=\"CurrentLink\">Preventing Goals</style> can also be created from identifying forces opposed to groups a player or <style=\"Link\"><link=\"agents\">Agent</link></style> should have <style=\"Link\"><link=\"loyalty\">Loyalty</link></style> to. However, it should be pointed out that <style=\"CurrentLink\">Preventing Goals</style> can be <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style>, that is, players can easily make up their own <style=\"CurrentLink\">Preventing Goals</style> in any game that has other <style=\"Link\"><link=\"agents\">Agents</link></style> with <style=\"Link\"><link=\"interferable-goals\">Interferable Goals</link></style> in it. One example when this can occur is when players receive or take on <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> since other players can then take on clear short term <style=\"CurrentLink\">Preventing Goals</style>. ",
+            "Completing <style=\"CurrentLink\">Preventing Goals</style> can be made easier by giving those trying to prevent the target goal with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style> or <style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>. <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> can both make them easier or harder by either requiring that the target goal must just be hindered from being completed within a certain time or by requiring that it must permanently be stopped within a certain time.",
+            "<style=\"CurrentLink\">Preventing Goals</style> are likely to change how players perceive <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> regardless if it is the <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style> that have the target goals or have the <style=\"CurrentLink\">Preventing Goals</style>. The most likely effect is that they will be seen as <style=\"Link\"><link=\"enemies\">Enemies</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "As goals that work against other goals, <style=\"CurrentLink\">Preventing Goals</style> give rise to several other patterns. First, the target goal and the <style=\"CurrentLink\">Preventing Goal</style> are <style=\"Link\"><link=\"asymmetric-goals\">Asymmetric</link></style> and <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style> which are <style=\"Link\"><link=\"incompatible-goals\">Incompatible</link></style>. Second, <style=\"CurrentLink\">Preventing Goals</style> are <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style> until the target goal no longer can be fulfilled. The presences of some <style=\"Link\"><link=\"agents\">Agent</link></style> actively working against one's goals is also likely to lead to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Ability\">Limited Planning Ability</link></style>. ",
+            "The presence of <style=\"CurrentLink\">Preventing Goals</style> in a game is likely to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> and make other <style=\"Link\"><link=\"agents\">Agents</link></style> seen as <style=\"Link\"><link=\"enemies\">Enemies</link></style>. Perceiving <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> may be even more likely for ",
+            "games with <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> since they typically cannot have social interactions outside gameplay actions (although this may be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Conflicts\">Indirect Conflicts</link></style> in cases regarding difference in how to use <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style>). In games where these have diegetic representation in the form of <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> can easily lead to actual <style=\"Link\"><link=\"combat\">Combat</link></style> if this is possible. ",
+            "While <style=\"CurrentLink\">Preventing Goals</style> make their target goals more difficult to complete in general, some types of target goals are affected differently. <style=\"Link\"><link=\"conceal\">Conceal</link></style> may be pointless as goals without <style=\"CurrentLink\">Preventing Goals</style> since they cannot be failed. <style=\"Link\"><link=\"survive\">Survive</link></style> can be a balance between active forces trying to <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> one and passive forces (e.g. starvation) which means the design of <style=\"CurrentLink\">Preventing Goals</style> related to this need to consider the balance between these forces. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> may become more difficult when <style=\"CurrentLink\">Preventing Goals</style> exist related to it but as long as some parties don't only have <style=\"CurrentLink\">Preventing Goals</style> the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style> can still be successful to all involved. ",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"asymmetric-goals\">Asymmetric Goals</link></style>, <style=\"Link\"><link=\"conceal\">Conceal</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"continuous-goals\">Continuous Goals</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"excluding-goals\">Excluding Goals</link></style>, <style=\"Link\"><link=\"incompatible-goals\">Incompatible Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Planning%20Ability\">Limited Planning Ability</link></style>, <style=\"Link\"><link=\"loyalty\">Loyalty</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"algorithmic-agents\">Algorithmic Agents</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Creative%20Control\">Creative Control</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Indirect%20Conflicts\">Indirect Conflicts</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Negotiation\">Negotiation</link></style>, <style=\"Link\"><link=\"non-player-characters\">Non-Player Characters</link></style>, <style=\"Link\"><link=\"survive\">Survive</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"alignment\">Alignment</link></style>, <style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>, <style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"interferable-goals\">Interferable Goals</link></style>, <style=\"Link\"><link=\"player-defined-goals\">Player-Defined Goals</link></style>, <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style>, <style=\"Link\"><link=\"rescue\">Rescue</link></style>, <style=\"Link\"><link=\"survive\">Survive</link></style>",
+            "<style=\"Link\"><link=\"agents\">Agents</link></style> together with <style=\"Link\"><link=\"construction\">Construction</link></style> or <style=\"Link\"><link=\"herd\">Herd</link></style>",
+            "<style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style> together with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"game-state-overviews\">Game State Overviews</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Perfect%20Information\">Perfect Information</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"cooperation\">Cooperation</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "asymmetric-goals",
+            "conceal",
+            "conflicts",
+            "continuous-goals",
+            "enemies",
+            "excluding-goals",
+            "incompatible-goals",
+            "limited-planning-ability",
+            "loyalty",
+            "conflicts",
+            "indirect-conflicts",
+            "conflicts"
+        ],
+        "modulates" : [
+            "negotiation",
+            "non-player-characters",
+            "survive"
+        ],
+        "instantiated_by" : [
+            "alignment",
+            "capture",
+            "eliminate",
+            "evade",
+            "guard",
+            "interferable-goals",
+            "player-defined-goals",
+            "reconnaissance",
+            "rescue",
+            "survive",
+            "agents",
+            "ephemeral-goals"
+        ],
+        "modulated_by" : [
+            "game-state-overviews",
+            "perfect-information",
+            "time-limits"
+        ],
+        "conflicts" : [
+            "cooperation"
+        ]
+    }
+}

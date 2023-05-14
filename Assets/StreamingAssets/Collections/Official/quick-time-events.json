@@ -1,0 +1,70 @@
+{
+    "name" : "Quick Time Events",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "Sequences of interface actions given by games that players need to perform at once.",
+        "markups" : [
+            "<style=\"Definition\">Sequences of interface actions given by games that players need to perform at once.</style>",
+            "Games need to give players challenges and one of the simplest forms to achieve this is for them to give players simple instructions that have to be performed immediately. <style=\"CurrentLink\">Quick Time Events</style> are formalized versions of this in computer-based games where they provide a sequence of instructions, often accompanied by animations of diegetic events. Failing to perform these quite often lead to the death of players' characters but can also just result in more unfavorable outcomes. ",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon's%20Lair%20series\">Dragon's Lair series</link></style> was an early example of games that used <style=\"CurrentLink\">Quick Time Events</style> to let players avoid having their characters dying while trying to free a princess kidnapped by a dragon. While in this game all the actual gameplay was in form of <style=\"CurrentLink\">Quick Time Events</style>, later games such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Shenmue%20series\">Shenmue series</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fahrenheit\">Fahrenheit</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Heavy%20Rain\">Heavy Rain</link></style> uses <style=\"CurrentLink\">Quick Time Events</style> interjected with other types of gameplay. ",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/WarioWare%20series\">WarioWare series</link></style> can be said to consist of a large collection of mini games that are actually <style=\"CurrentLink\">Quick Time Events</style>. Likewise, the main interaction provided by the toy <i>Simon</i> can be said to be <style=\"CurrentLink\">Quick Time Events</style>.",
+            "Wikipedia has an entry about <style=\"CurrentLink\">Quick Time Events</style> including several examples",
+            "<style=\"H2\">Using the pattern</style>",
+            "The gameplay aspects of design <style=\"CurrentLink\">Quick Time Events</style> are rather straight forward: what sequences of actions players need perform and when the events should occur. While some games (e.g. the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dragon's%20Lair%20series\">Dragon's Lair series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/WarioWare%20series\">WarioWare series</link></style>) consist only of <style=\"CurrentLink\">Quick Time Events</style>, others use them to handle situations that are not covered by the main gameplay actions (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fahrenheit\">Fahrenheit</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resident%20Evil%204\">Resident Evil 4</link></style>). Obviously, they require that the games are <style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>. Succeeding with <style=\"CurrentLink\">Quick Time Events</style> does not often provide <style=\"Link\"><link=\"rewards\">Rewards</link></style> to players; it is more common that <style=\"Link\"><link=\"penalties\">Penalties</link></style> are handed out for failing to follow the instructions and these <style=\"Link\"><link=\"penalties\">Penalties</link></style> are often harsh, e.g. the death of player's <style=\"Link\"><link=\"avatars\">Avatars</link></style>.",
+            "Although not that common, <style=\"CurrentLink\">Quick Time Events</style> can let players choose from several actions to perform to let them have a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>. ",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "As a form of <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"CurrentLink\">Quick Time Events</style> can provide specific presentations of <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> but - as the <i>Simon</i> toy shows - this is not always the case since some <style=\"CurrentLink\">Quick Time Events</style> are abstract.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Quick Time Events</style> can, like <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, be used to convey parts of <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Quick Time Events</style> are a way of introducing <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style> (which may devolve into <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Button%20Bashing\">Button Bashing</link></style>) into games in the form of <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style> or <style=\"Link\"><link=\"minigames\">Minigames</link></style>. They give players explicit <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style> and the arrival of these can be <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style> that give <style=\"Link\"><link=\"tension\">Tension</link></style>. They provide one option for game designers to let players have chances to avoid <style=\"Link\"><link=\"traps\">Traps</link></style> (besides using <style=\"Link\"><link=\"movement\">Movement</link></style> to avoid triggering them or moving out of their effect).",
+            "In games where <style=\"CurrentLink\">Quick Time Events</style> are context-specific events with specifically produced animations, they can make players feel that the game designers are trying to engage in <style=\"Link\"><link=\"player-killing\">Player Killing</link></style> since the events have very consciously been designed to try and kill them in that given situation. ",
+            "<style=\"CurrentLink\">Quick Time Events</style> can work against <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style> since they give players instructions of what to do through <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style>. This can also work against them fully appreciating the production work put into any animations that are part of the <style=\"CurrentLink\">Quick Time Events</style>. ",
+            "<style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style> is an alternative to <style=\"CurrentLink\">Quick Time Events</style>; the difference between them is that <style=\"Link\"><link=\"scripted-information-sequences\">Scripted Information Sequences</link></style> take place without players being able to affect them but also leaves them free to do other actions.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Button%20Bashing\">Button Bashing</link></style>, <style=\"Link\"><link=\"cutscenes\">Cutscenes</link></style>, <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Limited%20Set%20of%20Actions\">Limited Set of Actions</link></style>, <style=\"Link\"><link=\"minigames\">Minigames</link></style>, <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style>, <style=\"Link\"><link=\"player-killing\">Player Killing</link></style>, <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style>, <style=\"Link\"><link=\"rhythm-based-actions\">Rhythm-Based Actions</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Surprises\">Surprises</link></style>, <style=\"Link\"><link=\"tension\">Tension</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"real-time-games\">Real-Time Games</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"penalties\">Penalties</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spatial%20Engrossment\">Spatial Engrossment</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "button-bashing",
+            "cutscenes",
+            "ephemeral-goals",
+            "limited-set-actions",
+            "minigames",
+            "non-diegetic-features",
+            "player-killing",
+            "predetermined-story-structures",
+            "rhythm-based-actions",
+            "surprises",
+            "tension"
+        ],
+        "modulates" : [
+            "real-time-games",
+            "traps"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "penalties"
+        ],
+        "conflicts" : [
+            "spatial-engrossment"
+        ]
+    }
+}

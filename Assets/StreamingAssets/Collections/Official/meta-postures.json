@@ -1,0 +1,55 @@
+{
+    "name" : "Meta-Postures",
+    "categories" : [
+        "Information Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Postures and gestures that convey gameplay information that can be performed while roleplaying.",
+        "markups" : [
+            "<style=\"Definition\">Postures and gestures that convey gameplay information that can be performed while roleplaying.</style>",
+            "Players of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style> may need to communicate with each other about issues related to the game state. <style=\"CurrentLink\">Meta-Postures</style> is a way of being able to do this while continuing to roleplay by letting certain postures or gestures have pre-agreed meanings.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Meta-Postures</style> are used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Live%20Action%20Roleplaying%20Games\">Live Action Roleplaying Games</link></style>. One example of such a posture is that of holding your arms crossed over your chest which in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mind's%20Eye%20Theatre\">Mind's Eye Theatre</link></style> rules show that the vampire you are playing is obfuscated. Another example can be found in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Avatar%20System\">Avatar System</link></style> where players make a hand symbol to indicate that a discussion is taking place outside the game.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The design of <style=\"CurrentLink\">Meta-Postures</style> consist of selecting which information should be possible to exchange through <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style> and selecting gestures or postures. The latter requires consideration regarding how easy they are to learn, how distinct they are from each other, how well they fit in with <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> players are likely to be doing, and how noticeable they are (which is a balance between being easy to detect and breaking <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>).",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Being a pattern of how players can signal each other through postures and gestures, <style=\"CurrentLink\">Meta-Postures</style> is a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Information%20Patterns\">Information Pattern</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Meta-Postures</style> is one subgroup to <style=\"Link\"><link=\"meta-techniques\">Meta-Techniques</link></style>. Another, <style=\"Link\"><link=\"substitute-actions\">Substitute Actions</link></style>, work against <style=\"CurrentLink\">Meta-Postures</style> regarding how to solve the same design problems. The pattern limits <style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style> somewhat since players may not have a full range of postures and gestures available while presenting a <style=\"CurrentLink\">Meta-Posture</style>.",
+            "While <style=\"CurrentLink\">Meta-Postures</style> can support <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> by making some <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style> more discrete, it may also increase the amount of <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style> which can counteract its purpose.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"meta-techniques\">Meta-Techniques</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"physical-enactment\">Physical Enactment</link></style>, <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>, <style=\"Link\"><link=\"non-diegetic-communication\">Non-Diegetic Communication</link></style>, <style=\"Link\"><link=\"substitute-actions\">Substitute Actions</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "diegetic-consistency",
+            "meta-techniques"
+        ],
+        "modulates" : [
+            "physical-enactment",
+            "non-diegetic-communication"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "diegetic-consistency",
+            "non-diegetic-communication",
+            "substitute-actions"
+        ]
+    }
+}

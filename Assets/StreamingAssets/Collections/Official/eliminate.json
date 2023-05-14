@@ -1,0 +1,110 @@
+{
+    "name" : "Eliminate",
+    "categories" : [
+        "Mechanical Patterns",
+        "Goal Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "The goal of removing game elements from gameplay.",
+        "markups" : [
+            "<style=\"Definition\">The goal of removing game elements from gameplay.</style>",
+            "One of the most common goals in games is to remove game elements from play. Players that have these goals have <style=\"CurrentLink\">Eliminate</style> goals. ",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Stratego\">Stratego</link></style> are <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Games</link></style> which are won by succeeding with <style=\"CurrentLink\">Eliminate</style> goals, or in the case of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> making it unavoidable. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Backgammon\">Backgammon</link></style> in contrast is a weak example since even if a single opponent's piece is removed from play when taken, the piece can be brought back to the game later. The single-player puzzle game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Peg%20Solitaire\">Peg Solitaire</link></style> consists of eliminating all game elements from the game board save one.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Counter-Strike%20series\">Counter-Strike series</link></style> differs from many other first-person shooters in that players who are killed are eliminated for the remainder of the match.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Common reasons to introduce <style=\"CurrentLink\">Eliminate</style> goals in games include making <style=\"Link\"><link=\"agents\">Agents</link></style> into <style=\"Link\"><link=\"enemies\">Enemies</link></style> and causing <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> struggles over <style=\"Link\"><link=\"territories\">Territories</link></style>. <style=\"CurrentLink\">Eliminate</style> goals can also be given to players to provide them with <style=\"Link\"><link=\"quests\">Quests</link></style>. Giving <style=\"CurrentLink\">Eliminate</style> goals directed towards each member in a <style=\"Link\"><link=\"teams\">Team</link></style> creates <style=\"Link\"><link=\"team-elimination\">Team Elimination</link></style> goals and this can be further encouraged through <style=\"Link\"><link=\"collections\">Collection</link></style> goals.",
+            "<style=\"CurrentLink\">Eliminate</style> goals requires a target or targets to destroy as well as means to do so. While simply <style=\"Link\"><link=\"units\">Units</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>, or players' <style=\"Link\"><link=\"avatars\">Avatars</link></style> might be designated as the targets, the use of <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> or <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> together with <style=\"Link\"><link=\"enemies\">Enemies</link></style> can make fulfilling the goal a necessity rather than a voluntary choice (for <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"obstacles\">Obstacles</link></style> can work instead of <style=\"Link\"><link=\"enemies\">Enemies</link></style> since their mere presence can hinder players). By their definition <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style> invite players to <style=\"CurrentLink\">Eliminate</style> them since it is possible to do so. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> can also become targets to <style=\"CurrentLink\">Eliminate</style> if the <style=\"Link\"><link=\"resources\">Resources</link></style> they create are unwanted, especially if they are <style=\"Link\"><link=\"enemies\">Enemies</link></style>; if a goal in the game is to <style=\"CurrentLink\">Eliminate</style> the <style=\"Link\"><link=\"resources\">Resources</link></style> then the presence of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> makes that goal have <style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style> (regarding the number <style=\"Link\"><link=\"resources\">Resources</link></style> that need to be eliminated). Struggle over <style=\"Link\"><link=\"tools\">Tools</link></style> in <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style> can make other players into targets as well. That <style=\"Link\"><link=\"enemies\">Enemies</link></style> provide <style=\"Link\"><link=\"loot\">Loot</link></style> or carry <style=\"Link\"><link=\"macguffins\">MacGuffins</link></style> can make players more intent towards fulfilling <style=\"CurrentLink\">Eliminate</style> goals as well as being the reason why the <style=\"Link\"><link=\"enemies\">Enemies</link></style> are seen as <style=\"Link\"><link=\"enemies\">Enemies</link></style>. Given <style=\"Link\"><link=\"units\">Units</link></style> goals to <style=\"CurrentLink\">Eliminate</style> game elements important to players of course also makes them into <style=\"Link\"><link=\"enemies\">Enemies</link></style> and targets of <style=\"CurrentLink\">Eliminate</style> goals. ",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> is a common solution to provide players with actions to succeed with <style=\"CurrentLink\">Eliminate</style> goals. <style=\"Link\"><link=\"traps\">Traps</link></style> are less common but can encourage <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style> is another option, as is <style=\"Link\"><link=\"consumers\">Consumers</link></style> but none of these in themselves enable the possibility of performing the necessary actions. <style=\"Link\"><link=\"bidding\">Bidding</link></style> allows for a type of <style=\"CurrentLink\">Eliminate</style> goals that consist of making all others involved give up rather than eliminating them. ",
+            "Many patterns can affect how <style=\"CurrentLink\">Eliminate</style> goals can be solved. First, <style=\"Link\"><link=\"evade\">Evade</link></style> and <style=\"Link\"><link=\"survive\">Survive</link></style> goals of the targets make the goals more difficult. Such <style=\"Link\"><link=\"survive\">Survive</link></style> goals are instantiated from <style=\"CurrentLink\">Eliminate</style> goals when the targets of <style=\"CurrentLink\">Eliminate</style> goals are players or <style=\"Link\"><link=\"agents\">Agents</link></style> (and are then also <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>); otherwise <style=\"Link\"><link=\"survive\">Survive</link></style> goals are a way to modulate <style=\"CurrentLink\">Eliminate</style> goals.",
+            "<style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style> can make the goal impossible to solve but <style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style> can make this an erroneous perception of players rather than a true fact. The use of <style=\"Link\"><link=\"damage\">Damage</link></style> system can make <style=\"CurrentLink\">Eliminate</style> goals require several different successful actions to succeed against opponents, and <style=\"Link\"><link=\"factions\">Factions</link></style> can make <style=\"CurrentLink\">Eliminate</style> goals require the elimination of several opponents for the goal to be completed. <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style> makes it only possible to kill the target of <style=\"CurrentLink\">Eliminate</style> goals in certain places.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Eliminate</style> goals give rise to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style> and typically <style=\"Link\"><link=\"combat\">Combat</link></style> and goals related to <style=\"Link\"><link=\"overcome\">Overcome</link></style> opponents. It leads to attempts of <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Element%20Removal\">Game Element Removal</link></style> and/or <style=\"Link\"><link=\"capture\">Capture</link></style>, and potentially <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> and <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style>. Being the target of <style=\"CurrentLink\">Eliminate</style> goals also affects how players control their <style=\"Link\"><link=\"avatars\">Avatars</link></style>.",
+            "Player targets of <style=\"CurrentLink\">Eliminate</style> goals run the risk of getting <style=\"Link\"><link=\"penalties\">Penalties</link></style> if the goal are completed, and for this reason <style=\"CurrentLink\">Eliminate</style> tends to generate <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style> for those targets.",
+            "If <style=\"CurrentLink\">Eliminate</style> goals are at focus for discernible period of gameplay time, they can define <style=\"Link\"><link=\"extermination\">Extermination</link></style> phases while if players are given <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style> to <style=\"CurrentLink\">Eliminate</style> each other <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style> situations occur.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"capture\">Capture</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Conflicts\">Conflicts</link></style>, <style=\"Link\"><link=\"early-elimination\">Early Elimination</link></style>, <style=\"Link\"><link=\"extermination\">Extermination</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Game%20Element%20Removal\">Game Element Removal</link></style>, <style=\"Link\"><link=\"overcome\">Overcome</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style>, <style=\"Link\"><link=\"preventing-goals\">Preventing Goals</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"agents\">Agents</link></style></style>",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style></style>",
+            "<style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"symmetric-goals\">Symmetric Goals</link></style></style>",
+            "<style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"teams\">Teams</link></style></style>",
+            "<style=\"Link\"><link=\"team-elimination\">Team Elimination</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"territories\">Territories</link></style></style>",
+            "<style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"collections\">Collections</link></style></style>",
+            "<style=\"Link\"><link=\"team-elimination\">Team Elimination</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"boss-monsters\">Boss Monsters</link></style>, <style=\"Link\"><link=\"destructible-objects\">Destructible Objects</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"traps\">Traps</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"Link\"><link=\"choke-points\">Choke Points</link></style> together with <style=\"Link\"><link=\"enemies\">Enemies</link></style> or <style=\"Link\"><link=\"obstacles\">Obstacles</link></style>",
+            "<style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style> together with <style=\"Link\"><link=\"enemies\">Enemies</link></style>",
+            "<style=\"Link\"><link=\"tools\">Tools</link></style> together with <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"achilles-heels\">Achilles' Heels</link></style>, <style=\"Link\"><link=\"bidding\">Bidding</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Connection\">Connection</link></style>, <style=\"Link\"><link=\"consumers\">Consumers</link></style>, <style=\"Link\"><link=\"damage\">Damage</link></style>, <style=\"Link\"><link=\"evade\">Evade</link></style>, <style=\"Link\"><link=\"factions\">Factions</link></style>, <style=\"Link\"><link=\"loot\">Loot</link></style>, <style=\"Link\"><link=\"macguffins\">MacGuffins</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"survive\">Survive</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"invulnerabilities\">Invulnerabilities</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "capture",
+            "combat",
+            "conflicts",
+            "early-elimination",
+            "extermination",
+            "game-element-removal",
+            "overcome",
+            "penalties",
+            "player-elimination",
+            "preventing-goals",
+            "quests",
+            "enemies",
+            "dynamic-goal-characteristics",
+            "last-man-standing",
+            "team-elimination",
+            "gain-ownership"
+        ],
+        "modulates" : [
+            "avatars",
+            "resource-generators",
+            "units",
+            "team-elimination"
+        ],
+        "instantiated_by" : [
+            "aim-shoot",
+            "avatars",
+            "boss-monsters",
+            "destructible-objects",
+            "enemies",
+            "traps",
+            "units",
+            "choke-points",
+            "inaccessible-areas",
+            "tools"
+        ],
+        "modulated_by" : [
+            "achilles-heels",
+            "bidding",
+            "connection",
+            "consumers",
+            "damage",
+            "evade",
+            "factions",
+            "loot",
+            "macguffins",
+            "safe-havens",
+            "survive"
+        ],
+        "conflicts" : [
+            "invulnerabilities"
+        ]
+    }
+}

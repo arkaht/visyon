@@ -1,0 +1,61 @@
+{
+    "name" : "Card Building",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Card Patterns"
+    ],
+    "texts" : {
+        "definition" : "Actions that modify the gameplay effects and mechanics of individual cards.",
+        "markups" : [
+            "<style=\"Definition\">Actions that modify the gameplay effects and mechanics of individual cards.</style>",
+            "Many games make use of cards. However, some let players upgrade or modify these games during play. Such games have <style=\"CurrentLink\">Card Building</style>.",
+            "<style=\"H3\">Examples</style>",
+            "The card game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mystic%20Vale\">Mystic Vale</link></style> provides each player with starting deck of cards. The cards have transparent sleeves and the game is built around players upgrading these cards buy acquiring upgrades which are most transparent sheets that can be put inside a card's sleeve to upgrade the card. ",
+            "In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Gloomhaven\">Gloomhaven</link></style>, players that have unlocked the possibility of enchanting ability cards can spend money to do so. Mechanically, this is handled by players placing stickers on cards that represent the abilities. Interestingly, one player enchanting a card may do this for another since players in different groups that have the same class shared abilities cards.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main design choices regarding <style=\"CurrentLink\">Card Building</style> is how modifications of <style=\"Link\"><link=\"cards\">Cards</link></style> can provide <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> or <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>. An alternative to <style=\"CurrentLink\">Card Building</style> is providing actions that affect the effects of <style=\"Link\"><link=\"cards\">Cards</link></style> without modifying the <style=\"Link\"><link=\"cards\">Cards</link></style> themselves; the game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Innovation\">Innovation</link></style> does this through letting <style=\"Link\"><link=\"cards\">Cards</link></style> partially covered by others affect the covering <style=\"Link\"><link=\"cards\">Cards</link></style> through <i>splaying</i>. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illuminati\">Illuminati</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Illuminati:%20New%20World%20Order\">Illuminati: New World Order</link></style> instead use the position of <style=\"Link\"><link=\"cards\">Cards</link></style> to show how organization controls each other, and those controlling or being controlled can affect each other with specific effects.",
+            "Theoretically it is possible to have games with <style=\"CurrentLink\">Card Building</style> that support that building as <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> in the way some games allow <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>. However, no examples of game design doing this are currently known.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Permanent changes to <style=\"Link\"><link=\"cards\">Cards</link></style> as effects of <style=\"CurrentLink\">Card Building</style> make games with this pattern be <style=\"Link\"><link=\"legacy-games\">Legacy Games</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "As long as <style=\"Link\"><link=\"cards\">Cards</link></style> are used to make <style=\"Link\"><link=\"decks\">Decks</link></style> in a game, the use of <style=\"CurrentLink\">Card Building</style> in practice means that that game also have <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>. The effects of <style=\"CurrentLink\">Card Building</style> are similar to those of <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>. That is, it supports players with a <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style> regarding <style=\"Link\"><link=\"construction\">Construction</link></style> of the <style=\"Link\"><link=\"cards\">Cards</link></style> and creates <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> goals. The <style=\"CurrentLink\">Card Building</style> is also like in <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> a form of <style=\"Link\"><link=\"investments\">Investment</link></style> with an associated <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>. Deciding on how to conduct <style=\"CurrentLink\">Card Building</style> also spawns <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style> and  <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>. Like <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>, the pattern can provide both <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style> and <style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, and handling this can be a form of <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>. ",
+            "When card modifications are permanent, <style=\"CurrentLink\">Card Building</style> creates both <style=\"Link\"><link=\"legacy-games\">Legacy Games</link></style> and <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>. <style=\"CurrentLink\">Card Building</style> does not as easily as <style=\"Link\"><link=\"deck-building\">Deck Building</link></style> lend itself to making <style=\"Link\"><link=\"meta-games\">Meta Games</link></style> without also being a <style=\"Link\"><link=\"legacy-games\">Legacy Games</link></style> since <style=\"Link\"><link=\"decks\">Decks</link></style> are easily to do non-permanent changes to between game instances.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"complex-gameplay\">Complex Gameplay</link></style>, <style=\"Link\"><link=\"construction\">Construction</link></style>, <style=\"Link\"><link=\"deck-building\">Deck Building</link></style>, <style=\"Link\"><link=\"freedom-choice\">Freedom of Choice</link></style>, <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style>, <style=\"Link\"><link=\"gameplay-mastery\">Gameplay Mastery</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"investments\">Investments</link></style>, <style=\"Link\"><link=\"legacy-games\">Legacy Games</link></style>, <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"stimulated-planning\">Stimulated Planning</link></style>, <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>, <style=\"Link\"><link=\"varied-gameplay\">Varied Gameplay</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "complex-gameplay",
+            "deck-building",
+            "freedom-choice",
+            "gain-competence",
+            "improved-abilities",
+            "investments",
+            "legacy-games",
+            "meta-games",
+            "new-abilities",
+            "risk-reward"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

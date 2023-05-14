@@ -1,0 +1,52 @@
+{
+    "name" : "Revoke Rules",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "Rules regarding how to handle situations where players have not followed the rules of trick taking.",
+        "markups" : [
+            "<style=\"Definition\">Rules regarding how to handle situations where players have not followed the rules of trick taking.</style>",
+            "Many trick-based card games have rules regarding with cards players can play during one trick. However, it is often impossible to judge if players have intentionally or unintentionally broken these rules until later. <style=\"CurrentLink\">Revoke Rules</style> regulate how to handle these situations. ",
+            "Wikipedia has a page regarding [https://en.wikipedia.org/wiki/Revoke Revoke].",
+            "<style=\"H3\">Examples</style>",
+            "The <style=\"CurrentLink\">Revoke Rules</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bridge\">Bridge</link></style> typically cause one or two tricks to be scored against the offending players but sometimes harsher if the other side is more severely disadvantage than this penalty. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Hearts\">Hearts</link></style> penalizes a revoking player 26 points and giving all other players no points for that round.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Revoke Rules</style> are introduced in <style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style> to handle rule breaking regarding how players can play <style=\"Link\"><link=\"cards\">Cards</link></style> in a trick. These are typically introduced to not break the game if failures to follow the rules have been detected, especially since the failures can be unintentional and since intentional once are difficult to prove as such. ",
+            "Exactly what effects <style=\"CurrentLink\">Revoke Rules</style> should have depend on how winning or succeeding in a game is measured but very often it is a <style=\"Link\"><link=\"penalties\">Penalty</link></style> to the offending player(s) <style=\"Link\"><link=\"scores\">Score(s)</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Revoke Rules</style> is a form of <style=\"Link\"><link=\"penalties\">Penalty</link></style> applied to players. Since it allows play to continue after a rules violation has occurred, it can be seen as a form of <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style> but rarely a meaningful one to perform since the penalties tend to be very harsh and the cheating is very often possible to detect among experienced players (since the game states typically can be reconstructed and checked). An exception is in <style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style> situations where making <style=\"CurrentLink\">Revoke Rules</style> apply may be the only way to not make another player a guaranteed winner.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"sanctioned-cheating\">Sanctioned Cheating</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"kingmaker\">Kingmaker</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"trick-taking\">Trick Taking</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "penalties",
+            "sanctioned-cheating"
+        ],
+        "modulates" : [
+            "kingmaker",
+            "scores",
+            "trick-taking"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+        ]
+    }
+}

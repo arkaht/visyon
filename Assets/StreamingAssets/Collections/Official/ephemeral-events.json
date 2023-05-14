@@ -1,0 +1,55 @@
+{
+    "name" : "Ephemeral Events",
+    "categories" : [
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Game events that only exist for a limit period of time within the game's way of measuring time.",
+        "markups" : [
+            "<style=\"Definition\">Game events that only exist for a limit period of time within the game's way of measuring time.</style>",
+            "While some parts of game states or game worlds may stay the same throughout game instances, others change to have events that are either planned or occur due to chance. When these events only last for a short period of time (in the game's way of measuring the progress of time), these are <style=\"CurrentLink\">Ephemeral Events</style> that may offer specific actions, challenges, and rewards.",
+            "<style=\"H3\">Examples</style>",
+            "Checking in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> and announcing <i>Atari</i> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> are both examples of events that only occur for a short period of time, although an <i>Atari</i> may persist as long as both players leave it.",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia%20Wars\">Mafia Wars</link></style> make in-game events related to various holidays in the real world, and these events only exist in conjunction to when those holidays occur. These reoccur as the holidays do but other types of events can add variety, e.g. the challenge mission in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia%20Wars\">Mafia Wars</link></style> that was linked to the world championship in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Soccer\">Soccer</link></style> 2010. Persistent game worlds such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> often do similar things with events such as ''New Year's Eve<i>, </i>Oktoberfest<i>, and the </i>Day of the Dead''.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Ephemeral Events</style> can easily be created through somehow limiting how long an event can take place. <style=\"Link\"><link=\"time-limits\">Time Limits</link></style> may be the most obvious choice and can set hard limits which can be broadcast through <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> if <style=\"Link\"><link=\"tension\">Tension</link></style> wanted. <style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style> can help remind players of the upcoming events even if they are not playing.",
+            "<style=\"Link\"><link=\"interruptible-actions\">Interruptible Actions</link></style>, and more generally <style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style>, can be used to make <style=\"CurrentLink\">Ephemeral Events</style> where it is not known exactly how long the event will be. In contrast, the start of the events may simply be the consequence of player actions. However, they can be designed to only start as results of specific game states and can then be tied to <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style> or simply <style=\"Link\"><link=\"randomness\">Randomness</link></style>. <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> or <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> due to the effects of <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style> are another example of how <style=\"CurrentLink\">Ephemeral Events</style> can begin due to other specific game events. A special case is <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>, which can make use of times and dates as <style=\"Link\"><link=\"extra-game-input\">Extra-Game Input</link></style> to start events.",
+            "Another type of <style=\"CurrentLink\">Ephemeral Events</style> concern the rules of the games - <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Varying%20Rule%20Set\">Varying Rule Set</link></style> can provide changes in the rules that are only used to a limited period of time and so can <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style> if the added rules are then removed.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style> can be used to announce <style=\"CurrentLink\">Ephemeral Events</style> if players are intended to notice them and there is a risk they may miss them.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Ephemeral Events</style> in games with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style> often lead to <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style> since players may otherwise not be able to experience them.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "N/A",
+            "<style=\"H4\">with <style=\"Link\"><link=\"persistent-game-worlds\">Persistent Game Worlds</link></style></style>",
+            "<style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"ephemeral-goals\">Ephemeral Goals</link></style>, <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"randomness\">Randomness</link></style>, <style=\"Link\"><link=\"rewards\">Rewards</link></style>, <style=\"Link\"><link=\"time-limits\">Time Limits</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Varying%20Rule%20Set\">Varying Rule Set</link></style>, <style=\"Link\"><link=\"vulnerabilities\">Vulnerabilities</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"extra-game-broadcasting\">Extra-Game Broadcasting</link></style>, <style=\"Link\"><link=\"game-state-indicators\">Game State Indicators</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "encouraged-return-visits"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "ephemeral-goals"
+        ],
+        "modulated_by" : [
+            "extra-game-broadcasting",
+            "game-state-indicators"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

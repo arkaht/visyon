@@ -1,0 +1,110 @@
+{
+    "name" : "Strategic Locations",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns",
+        "Level Design Patterns"
+    ],
+    "texts" : {
+        "definition" : "Areas in game worlds that are advantageous to control or have access to.",
+        "markups" : [
+            "<style=\"Definition\">Areas in game worlds that are advantageous to control or have access to.</style>",
+            "<style=\"CurrentLink\">Strategic Locations</style> are place in game environment that are important to control, have access to, or being aware of their status. They focus gameplay to certain parts and allow players to make long-term plans based on their specific characteristics.",
+            "<style=\"H3\">Examples</style>",
+            "The player who controls the center of the game board in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style>, especially with officers, has a significant strategic advantage. Similarly, controlling corners in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Go\">Go</link></style> are strategically important in the beginning of game instances. In other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Strategy%20Games\">Strategy Games</link></style>, controlling locations that produce valuable resources make them <style=\"CurrentLink\">Strategic Locations</style>. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Diplomacy\">Diplomacy</link></style> only a few locations provide players with armies and are therefore vital for winning the game, while controlling cities in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> are of long-term strategic value. Besides the resources produced and the population of locations, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Europa%20Universalis%203\">Europa Universalis 3</link></style> makes some locations more strategically important by providing benefits to players controlling them, e.g. trade income bonuses for controlling the Bosporus or increased amount of yearly missionaries and prestige for controlling Jerusalem as a Christian or Muslim state.  ",
+            "Not only the location of weapons, power-ups, vehicles, etc. are <style=\"CurrentLink\">Strategic Locations</style> in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style>, but also where players spawn, good sniping positions, and where choke points exist. For the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Enemy%20Territory:%20Quake%20Wars\">Enemy Territory: Quake Wars</link></style> gameplay typically revolve around controlling certain goal areas which also are <style=\"CurrentLink\">Strategic Locations</style>.",
+            "While all positions for villages and cities in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Settlers%20of%20Catan\">Settlers of Catan</link></style> can produce resources, some are better due to what resources are produced and the likelihood for them to be produced.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Strategic Locations</style> may be created either explicit by the presence of game elements or implicit deriving from the relationship between the location and other locations in the game. Game elements that can create explicit <style=\"CurrentLink\">Strategic Locations</style> include <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, and also <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style> such as those provided by <style=\"Link\"><link=\"chargers\">Chargers</link></style>, <style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"secret-areas\">Secret Areas</link></style>, and <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style>. <style=\"Link\"><link=\"bases\">Bases</link></style> often make sense to built near <style=\"CurrentLink\">Strategic Locations</style> but can also make places into <style=\"CurrentLink\">Strategic Locations</style> by their presence; thus, they can both create and modify <style=\"CurrentLink\">Strategic Locations</style>. ",
+            "Somewhat more abstract but still explicit ways of creating <style=\"CurrentLink\">Strategic Locations</style> include <style=\"Link\"><link=\"check-points\">Check Points</link></style> or providing beneficial <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> when they are controlled or owned. To ensure players' awareness of <style=\"CurrentLink\">Strategic Locations</style>, they can be set to stand out through <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>. Implicit <style=\"CurrentLink\">Strategic Locations</style> may be intentionally created by the arrangement of explicit <style=\"CurrentLink\">Strategic Locations</style> nearby, or they may be emergent features due to <style=\"Link\"><link=\"randomness\">Randomness</link></style> of <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>. How players can move between different parts of <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style> can also make some places into <style=\"CurrentLink\">Strategic Locations</style>, for example by being <style=\"Link\"><link=\"arenas\">Arenas</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"galleries\">Galleries</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style>.",
+            "<style=\"CurrentLink\">Strategic Locations</style> quite naturally need to have positions in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, or <style=\"Link\"><link=\"levels\">Levels</link></style>, but for games using <style=\"Link\"><link=\"tiles\">Tiles</link></style> the individual <style=\"Link\"><link=\"tiles\">Tiles</link></style> can be considered <style=\"CurrentLink\">Strategic Locations</style> depending on what they contain. Games using player constructed boards from <style=\"Link\"><link=\"tiles\">Tiles</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Carcassonne\">Carcassonne</link></style>, allow the players to modify the value of explicit <style=\"CurrentLink\">Strategic Locations</style> by placing them in positions where their relationship to other <style=\"Link\"><link=\"tiles\">Tiles</link></style> increase or decrease their usability. Similarly, <style=\"Link\"><link=\"tiles\">Tiles</link></style> with no inherent value can be made <style=\"CurrentLink\">Strategic Locations</style> by connecting them to other <style=\"Link\"><link=\"tiles\">Tiles</link></style> in certain ways.",
+            "<style=\"CurrentLink\">Strategic Locations</style> can be used as the targets for explicit <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> goals.",
+            "Real world locations can be <style=\"CurrentLink\">Strategic Locations</style> in games which make use <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> or otherwise use players' positions as game input (e.g. through <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style> or <style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style>).",
+            "<style=\"H3\">Interface Aspects</style>",
+            "For games using <style=\"Link\"><link=\"mini\">Mini-maps</link></style>, <style=\"CurrentLink\">Strategic Locations</style> can be shown on these to help players locate the locations even when they cannot be directly observed through the main game interface.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Strategic Locations</style> gives players the possibility of <style=\"Link\"><link=\"memorizing\">Memorizing</link></style> valuable locations in <style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and <style=\"Link\"><link=\"levels\">Levels</link></style> as <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, e.g. to help <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style> or make the best routes in <style=\"Link\"><link=\"races\">Races</link></style>. This is especially true for <style=\"CurrentLink\">Strategic Locations</style> that depend mainly on the topology of the surrounding <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> for their values, rather than on the explicit presence of valuable game elements. An example of how topology dictates that value of a location is the value of the central area of the board in Chess. For those with the <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"CurrentLink\">Strategic Locations</style> supports <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style> although this may need to incorporate <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> decisions. Given that <style=\"CurrentLink\">Strategic Locations</style> provide benefits in some way, they can negatively can affect <style=\"Link\"><link=\"player-balance\">Player Balance</link></style> unless countered by providing all players with these through <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>. They also provide natural points for <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style> goals since players satisfying those goals may need advantages compared to those that don't satisfy their own <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style> goals.",
+            "If players know that <style=\"CurrentLink\">Strategic Locations</style> exist but do not know where they are, this leads to <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style> goals, and these can be used explicitly to create <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style> by introducing new gameplay elements through these locations. Known <style=\"CurrentLink\">Strategic Locations</style> leads to players having <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals to reach the locations, which may become <style=\"Link\"><link=\"races\">Races</link></style> if several <style=\"Link\"><link=\"agents\">Agents</link></style> are competing to reach them.  <style=\"Link\"><link=\"camping\">Camping</link></style> and <style=\"Link\"><link=\"guard\">Guard</link></style> goals can occur when <style=\"CurrentLink\">Strategic Locations</style> have been reached as a way to deny other access. If the locations can be owned in games, i.e. they support <style=\"Link\"><link=\"territories\">Territories</link></style>, <style=\"CurrentLink\">Strategic Locations</style> also give rise to <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style> goals achievable through <style=\"Link\"><link=\"area-control\">Area Control</link></style> or other actions that provide <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> of parts of the Game World.",
+            "Knowing <style=\"CurrentLink\">Strategic Locations</style> can also influence <style=\"Link\"><link=\"spawning\">Spawning</link></style>, if players have control over which <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style> to use.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"camping\">Camping</link></style>, <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"guard\">Guard</link></style>, <style=\"Link\"><link=\"memorizing\">Memorizing</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"strategic-knowledge\">Strategic Knowledge</link></style>, <style=\"Link\"><link=\"strategic-planning\">Strategic Planning</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"game-world-exploration\">Game World Exploration</link></style></style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Smooth%20Learning%20Curves\">Smooth Learning Curves</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-boards\">Game Boards</link></style>, <style=\"Link\"><link=\"game-world-navigation\">Game World Navigation</link></style>, <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, <style=\"Link\"><link=\"king-hill\">King of the Hill</link></style>, <style=\"Link\"><link=\"levels\">Levels</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>, <style=\"Link\"><link=\"territories\">Territories</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"arenas\">Arenas</link></style>, <style=\"Link\"><link=\"artifact-location-proximity\">Artifact-Location Proximity</link></style>, <style=\"Link\"><link=\"bases\">Bases</link></style>, <style=\"Link\"><link=\"chargers\">Chargers</link></style>, <style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"controllers\">Controllers</link></style>, <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"galleries\">Galleries</link></style>, <style=\"Link\"><link=\"game-items\">Game Items</link></style>, <style=\"Link\"><link=\"inaccessible-areas\">Inaccessible Areas</link></style>, <style=\"Link\"><link=\"installations\">Installations</link></style>, <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style>, <style=\"Link\"><link=\"player-location-proximity\">Player-Location Proximity</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, <style=\"Link\"><link=\"safe-havens\">Safe Havens</link></style>, <style=\"Link\"><link=\"secret-areas\">Secret Areas</link></style>, <style=\"Link\"><link=\"self-service-kiosks\">Self-Service Kiosks</link></style>, <style=\"Link\"><link=\"sniper-locations\">Sniper Locations</link></style>, <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Strongholds\">Strongholds</link></style>, <style=\"Link\"><link=\"tiles\">Tiles</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>",
+            "<style=\"Link\"><link=\"randomness\">Randomness</link></style> together with <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"bases\">Bases</link></style>, <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>, <style=\"Link\"><link=\"mini\">Mini-maps</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style> unless the <style=\"CurrentLink\">Strategic Locations</style> are placed using <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Symmetry\">Symmetry</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "camping",
+            "game-world-exploration",
+            "gain-ownership",
+            "guard",
+            "memorizing",
+            "risk-reward",
+            "strategic-knowledge",
+            "strategic-planning",
+            "traverse",
+            "smooth-learning-curves"
+        ],
+        "modulates" : [
+            "game-boards",
+            "game-world-navigation",
+            "game-worlds",
+            "king-hill",
+            "levels",
+            "races",
+            "spawning",
+            "territories"
+        ],
+        "instantiated_by" : [
+            "arenas",
+            "artifact-location-proximity",
+            "bases",
+            "chargers",
+            "check-points",
+            "choke-points",
+            "controllers",
+            "environmental-effects",
+            "flanking-routes",
+            "galleries",
+            "game-items",
+            "inaccessible-areas",
+            "installations",
+            "location-fixed-abilities",
+            "power-ups",
+            "player-location-proximity",
+            "races",
+            "resource-locations",
+            "resource-generators",
+            "safe-havens",
+            "secret-areas",
+            "self-service-kiosks",
+            "sniper-locations",
+            "spawn-points",
+            "strongholds",
+            "tiles",
+            "tools",
+            "vehicles",
+            "randomness"
+        ],
+        "modulated_by" : [
+            "bases",
+            "diegetically-outstanding-features",
+            "mini"
+        ],
+        "conflicts" : [
+            "player-balance"
+        ]
+    }
+}

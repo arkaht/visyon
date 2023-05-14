@@ -1,0 +1,66 @@
+{
+    "name" : "Crosshairs",
+    "categories" : [
+        "Patterns",
+        "Interface Patterns",
+        "Platform Patterns"
+    ],
+    "texts" : {
+        "definition" : "Visual aims to help players aim.",
+        "markups" : [
+            "<style=\"Definition\">Visual aims to help players aim.</style>",
+            "Many games require players to aim at what they want to interact with in the game worlds. While some games lock the point players can aim at to the middle of the screen, it can be difficult to judge exactly where this is. <style=\"CurrentLink\">Crosshairs</style> can be overlaid on the game world presentation to make this more easy, and in other games where players can move their aim point freely it is more or less required that players are provided with <style=\"CurrentLink\">Crosshairs</style> to be able to know what they are pointing at. ",
+            "<style=\"H3\">Examples</style>",
+            "Given its definition, <style=\"CurrentLink\">Crosshairs</style> are used in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style>. They practically exist in all <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style>, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Borderlands\">Borderlands</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Far%20Cry%20series\">Far Cry</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Left%204%20Dead%20series\">Left 4 Dead</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style>. Other games that make use of <style=\"CurrentLink\">Crosshairs</style> - because they also contain shooting as part of the gameplay - include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mirror's%20Edge\">Mirror's Edge</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Fallout%20series\">Fallout</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mass%20Effect%20series\">Mass Effect</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Tomb%20Raider%20series\">Tomb Raider series</link></style>. ",
+            "While most with <style=\"CurrentLink\">Crosshairs</style> have them fixed in the middle of the display, exception such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Missile%20Command\">Missile Command</link></style> and ports of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Operation%20Wolf%20series\">Operation Wolf series</link></style> exist.",
+            "The site GiantBomb has a list of games using <style=\"CurrentLink\">Crosshairs</style>, and has another one under the name <i>Iron Sights</i> for sights that have to be activated (both these are assumed to be part of this pattern). Actually, it also has a list for games that does <i>not</i> have crosshairs, something which is done to increase difficulty or to make people make use of the in-game scopes.",
+            "<style=\"H2\">Using the pattern</style>",
+            "While the actual design of <style=\"CurrentLink\">Crosshairs</style> is more a question of graphical design than gameplay design, there are a couple of gameplay-related options for them. The first is if their location should be fixed (as in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style>) or moveable (as in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Missile%20Command\">Missile Command</link></style>). They can be modified by <style=\"Link\"><link=\"auto-aim\">Auto-Aim</link></style> functionality, either directly through making the system more them through the use of <i>reticule magnetism</i> or indirectly (in <style=\"Link\"><link=\"combat\">Combat</link></style> contexts) by letting bullets aimed near <style=\"Link\"><link=\"enemies\">Enemies</link></style> hit anyway. <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style> can either require players to activate scopes (e.g. through <i>Iron Sights</i>) or make players that aim for a longer time have higher chances of hitting where they aim, and games using this pattern often indicate the current accuracy through the <style=\"CurrentLink\">Crosshairs</style>. ",
+            "<style=\"CurrentLink\">Crosshairs</style> can also be modified to provide more information about what is aimed at. Showing <style=\"Link\"><link=\"handles\">Handles</link></style> and <style=\"Link\"><link=\"health\">Health</link></style> are typical examples of this but this can also be used to show <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>. <style=\"CurrentLink\">Crosshairs</style> also make natural starting points for creating context-dependent <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pie%20Menus\">Pie Menus</link></style> since they already allow players to indicate their point of interest.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "<style=\"CurrentLink\">Crosshairs</style> is an <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Interface%20Patterns\">Interface Pattern</link></style> and many of the options surrounding <style=\"CurrentLink\">Crosshairs</style> are related to interface issues. For example, the actual design of <style=\"CurrentLink\">Crosshairs</style> is often changed to reflect which <style=\"Link\"><link=\"weapons\">Weapon</link></style> is being used as well as the status of <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style> systems. The <style=\"CurrentLink\">Crosshairs</style> can also be used to provide additional information about what is being aimed at, most commonly <style=\"Link\"><link=\"health\">Health</link></style> or <style=\"Link\"><link=\"handles\">Handles</link></style>, the latter to avoid <style=\"Link\"><link=\"friendly-fire\">Friendly Fire</link></style> (another, more extreme, solution is to remove <style=\"CurrentLink\">Crosshairs</style> when aimed at friends). Later installments in the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> show how <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pie%20Menus\">Pie Menus</link></style> can be used to allow optional actions based upon what is in the <style=\"CurrentLink\">Crosshairs</style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Crosshairs</style> are visual aids for players to interact with <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, and are most often used to support <style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style> - especially <style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style> actions in <style=\"Link\"><link=\"combat\">Combat</link></style>. They are a form of <style=\"Link\"><link=\"god-fingers\">God Fingers</link></style> for triggering specific actions directly rather than selecting game elements to interact with, but this is mainly relevant when the <style=\"CurrentLink\">Crosshairs</style> are moveable. ",
+            "As visual aids, <style=\"CurrentLink\">Crosshairs</style> may be part of <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style> or create these, and may introduce <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style> in games.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"god-fingers\">God Fingers</link></style>, <style=\"Link\"><link=\"hud-interfaces\">HUD Interfaces</link></style>, <style=\"Link\"><link=\"non-diegetic-features\">Non-Diegetic Features</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"aim-shoot\">Aim & Shoot</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"dexterity-based-actions\">Dexterity-Based Actions</link></style>, <style=\"Link\"><link=\"friendly-fire\">Friendly Fire</link></style>, <style=\"Link\"><link=\"weapons\">Weapons</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"auto-aim\">Auto-Aim</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>, <style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pie%20Menus\">Pie Menus</link></style>, <style=\"Link\"><link=\"tooltips\">Tooltips</link></style>, <style=\"Link\"><link=\"variable-accuracy\">Variable Accuracy</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "god-fingers",
+            "hud-interfaces",
+            "non-diegetic-features"
+        ],
+        "modulates" : [
+            "aim-shoot",
+            "combat",
+            "dexterity-based-actions",
+            "friendly-fire",
+            "weapons"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "auto-aim",
+            "handles",
+            "health",
+            "pie-menus",
+            "tooltips",
+            "variable-accuracy"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

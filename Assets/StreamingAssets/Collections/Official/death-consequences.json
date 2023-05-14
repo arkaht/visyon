@@ -1,0 +1,86 @@
+{
+    "name" : "Death Consequences",
+    "categories" : [
+        "Patterns",
+        "Event Patterns"
+    ],
+    "texts" : {
+        "definition" : "Gameplay consequences of avatars or characters dying.",
+        "markups" : [
+            "<style=\"Definition\">Gameplay consequences of avatars or characters dying.</style>",
+            "Games often provide dangerous environments for the avatars, characters, and units that players control. This may cause them to be eliminated from gameplay and thereby make players suffer losses in the possible actions they can do, and can even result in them losing the entire games. However, games can also provide other explicit <style=\"CurrentLink\">Death Consequences</style>, e.g. losing points. These <style=\"CurrentLink\">Death Consequences</style> can also replace the elimination as main effect of dying, e.g. making avatars respawn at a different location and with any equipment either lost or remaining at the point of death.",
+            "<style=\"H3\">Examples</style>",
+            "Deaths of characters in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> generally require players to create new characters. However, several games have ways of countering this, e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> have resurrection spells, but these require expensive materials and reduce attributes or levels.",
+            "Early <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Computer%20Games\">Computer Games</link></style> had no real <style=\"CurrentLink\">Death Consequences</style> but instead had a limited number of lives available (<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Rogue\">Rogue</link></style> are exceptions). This has however generally been replaced with either in various ways allowing players unlimited amount of tries to complete games or having specific <style=\"CurrentLink\">Death Consequences</style>. For example, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Quake%20series\">Quake</link></style>, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Unreal%20Tournament%20series\">Unreal Tournament series</link></style> let killed avatars respawn soon after being killed but without previously gained weapons and armor. The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> does the same but also reduces the number of tickets from the team that suffered a death. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Minecraft\">Minecraft</link></style> respawns players' avatar at the same location every time but gives them a chance to recover lost equipment if they can get back to the location of the death within certain time limits. Players whose characters die in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> can usually also recover their loss gear but in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Eve%20Online\">Eve Online</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style> other players can steal it; it cannot be stolen in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> but instead a penalty to the durability of all gear is applied.",
+            "The indie game <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Deaths\">Deaths</link></style> saves the location of the ten latest deaths of all play sessions in the world. Corpses are placed at these locations and are needed to overcome some of the problems in the game - this shows an example were <style=\"CurrentLink\">Death Consequence</style> can be positive.",
+            "<style=\"H2\">Using the pattern</style>",
+            "<style=\"CurrentLink\">Death Consequences</style> for those that die are typically instantiated typically done through <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, enforced <style=\"Link\"><link=\"downtime\">Downtime</link></style>, or reduced <style=\"Link\"><link=\"scores\">Scores</link></style>. <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> and <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> can be given easy diegetic explanations in games using <style=\"Link\"><link=\"equipment\">Equipment</link></style> such as <style=\"Link\"><link=\"armor\">Armor</link></style>, <style=\"Link\"><link=\"tools\">Tools</link></style>, and <style=\"Link\"><link=\"weapons\">Weapons</link></style> by making players lose these when their <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"characters\">Characters</link></style> die. Reducing <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Experience%20Points\">Experience Points</link></style>, and/or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style> for players is also common, but may be more difficult to explain diegetically. In games with <style=\"Link\"><link=\"lives\">Lives</link></style>, it is quite natural for obvious reasons that <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style> are part of <style=\"CurrentLink\">Death Consequences</style>. ",
+            "A specific design issue exists when <style=\"CurrentLink\">Death Consequences</style> are linked to <style=\"Link\"><link=\"avatars\">Avatars</link></style>. This is that <style=\"Link\"><link=\"spawning\">Spawning</link></style> of the <style=\"Link\"><link=\"avatars\">Avatars</link></style> needs to be done to reintroduce them into the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>, but how this is done can affect both <style=\"Link\"><link=\"player-balance\">Player</link></style> and <style=\"Link\"><link=\"team-balance\">Team Balance</link></style> as well as affect the severity of <style=\"Link\"><link=\"equipment\">Equipment</link></style> lost but placed in the <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style>. ",
+            "In contrast, <style=\"CurrentLink\">Death Consequences</style> for those killing somebody or something may be increased <style=\"Link\"><link=\"scores\">Scores</link></style> (players' <style=\"Link\"><link=\"scores\">Scores</link></style> may simply be the number of deaths they have caused), <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Experience%20Points\">Experience Points</link></style>, or <style=\"Link\"><link=\"loot\">Loot</link></style>. The possibility for <style=\"Link\"><link=\"loot\">Loot</link></style> is of course tied into what happens to the <style=\"Link\"><link=\"equipment\">Equipment</link></style> of those that die. This is assuming that the killings should result in <style=\"Link\"><link=\"rewards\">Rewards</link></style>, something that may not be the case if the cause of death was <style=\"Link\"><link=\"friendly-fire\">Friendly Fire</link></style>. <style=\"Link\"><link=\"scores\">Scores</link></style> can also modulate <style=\"CurrentLink\">Death Consequences</style> in that they can first be presented (or added up) after a player has died, which can be a version of <style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style>.",
+            "<style=\"CurrentLink\">Death Consequences</style> are difficult to enforce in games that allow players to engage in <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>. For <style=\"Link\"><link=\"multiplayer-games\">Multiplayer Games</link></style>, the point of death is a natural point for switching places in games with <style=\"Link\"><link=\"hotseating\">Hotseating</link></style>; this adds the additional <style=\"Link\"><link=\"penalties\">Penalty</link></style> of <style=\"Link\"><link=\"downtime\">Downtime</link></style> to that player.",
+            "<style=\"Link\"><link=\"permadeath\">Permadeath</link></style> are <style=\"CurrentLink\">Death Consequences</style> that directly lead to <style=\"Link\"><link=\"player-elimination\">Player Elimination</link></style> and <style=\"Link\"><link=\"game-over\">Game Over</link></style> through <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>. For this reason, this subtype of <style=\"CurrentLink\">Death Consequences</style> is not compatible with <style=\"Link\"><link=\"lives\">Lives</link></style> even if the main pattern is.",
+            "<style=\"H3\">Narrative Aspects</style>",
+            "<style=\"CurrentLink\">Death Consequences</style> do not inherently need to conflict with <style=\"Link\"><link=\"thematic-consistency\">Thematic Consistency</link></style>, it only does so if the dead come back to life, e.g. through <style=\"Link\"><link=\"spawning\">Spawning</link></style>, without an appropriate diegetic explanation such as a resurrection spell.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Death Consequences</style> are typically ways of packaging <style=\"Link\"><link=\"penalties\">Penalties</link></style> related to <style=\"Link\"><link=\"player-killing\">Player Killing</link></style> or the loss of <style=\"Link\"><link=\"lives\">Lives</link></style> of <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"characters\">Characters</link></style>. While they may cause <style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style> or <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style> generally, they can as a special case create <style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style> when <style=\"Link\"><link=\"equipment\">Equipment</link></style> providing <style=\"Link\"><link=\"new-abilities\">New Abilities</link></style> are lost when deaths occur. They may of course also provide various forms of <style=\"Link\"><link=\"rewards\">Rewards</link></style> to those that cause the deaths, but this may be reversed if they are caused by <style=\"Link\"><link=\"friendly-fire\">Friendly Fire</link></style>.",
+            "<style=\"CurrentLink\">Death Consequences</style> that can be applied on important <style=\"Link\"><link=\"characters\">Characters</link></style> in <style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> threaten to destroy these structures.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Experience%20Points\">Experience Points</link></style>, <style=\"Link\"><link=\"game-over\">Game Over</link></style>, <style=\"Link\"><link=\"game-termination-penalties\">Game Termination Penalties</link></style>, <style=\"Link\"><link=\"loot\">Loot</link></style>, <style=\"Link\"><link=\"penalties\">Penalties</link></style>, <style=\"Link\"><link=\"spawning\">Spawning</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"equipment\">Equipment</link></style></style>",
+            "<style=\"Link\"><link=\"temporary-abilities\">Temporary Abilities</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"character-levels\">Character Levels</link></style>, <style=\"Link\"><link=\"characters\">Characters</link></style>, <style=\"Link\"><link=\"equipment\">Equipment</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Experience%20Points\">Experience Points</link></style>, <style=\"Link\"><link=\"friendly-fire\">Friendly Fire</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Money\">Money</link></style>, <style=\"Link\"><link=\"player-killing\">Player Killing</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"permadeath\">Permadeath</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"ability-losses\">Ability Losses</link></style>, <style=\"Link\"><link=\"decreased-abilities\">Decreased Abilities</link></style>, <style=\"Link\"><link=\"downtime\">Downtime</link></style>, <style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style>, <style=\"Link\"><link=\"hotseating\">Hotseating</link></style>, <style=\"Link\"><link=\"life-penalties\">Life Penalties</link></style>, <style=\"Link\"><link=\"scores\">Scores</link></style>, <style=\"Link\"><link=\"spawn-points\">Spawn Points</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"Link\"><link=\"end-state-scoring\">End State Scoring</link></style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"player-balance\">Player Balance</link></style>, <style=\"Link\"><link=\"save-load-cycles\">Save-Load Cycles</link></style>, <style=\"Link\"><link=\"team-balance\">Team Balance</link></style>",
+            "<style=\"Link\"><link=\"predetermined-story-structures\">Predetermined Story Structures</link></style> when used together with <style=\"Link\"><link=\"characters\">Characters</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "experience-points",
+            "game-over",
+            "game-termination-penalties",
+            "loot",
+            "penalties",
+            "spawning",
+            "temporary-abilities"
+        ],
+        "modulates" : [
+            "avatars",
+            "character-levels",
+            "characters",
+            "equipment",
+            "experience-points",
+            "friendly-fire",
+            "money",
+            "player-killing",
+            "scores"
+        ],
+        "instantiated_by" : [
+            "permadeath"
+        ],
+        "modulated_by" : [
+            "ability-losses",
+            "decreased-abilities",
+            "downtime",
+            "end-state-scoring",
+            "hotseating",
+            "life-penalties",
+            "scores",
+            "spawn-points"
+        ],
+        "conflicts" : [
+            "player-balance",
+            "save-load-cycles",
+            "team-balance",
+            "predetermined-story-structures"
+        ]
+    }
+}

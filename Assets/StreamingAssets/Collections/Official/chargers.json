@@ -1,0 +1,73 @@
+{
+    "name" : "Chargers",
+    "categories" : [
+        "Patterns",
+        "Level Design Patterns"
+    ],
+    "texts" : {
+        "definition" : "Chargers are locations in game worlds that affect the players' resources when they are in the location.",
+        "markups" : [
+            "<style=\"Definition\">Chargers are locations in game worlds that affect the players' resources when they are in the location.</style>",
+            "Some games with game worlds have places that provide benefits to players as long as they are in them. When these benefits consist of recharging resources or adding speed these game world areas are <style=\"CurrentLink\">Chargers</style>.",
+            "<style=\"H3\">Examples</style>",
+            "Speed boosters in race games of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Super%20Monkey%20Ball%20series\">Super Monkey Ball series</link></style> give, as their names imply, more speed to the player driving on top of the charger.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> have two categories of chargers: medicine cabinets and ammunition caches that replenish the health and ammunition of the players' avatars, and repair facilities that fix damages to vehicles.",
+            "The <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Board%20Games\">Board Game</link></style> <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/RoboRally\">RoboRally</link></style> contains repair areas, which remove damage from the player's robot if it spends time there.",
+            "<style=\"H2\">Using the pattern</style>",
+            "Creating <style=\"CurrentLink\">Chargers</style> require that one decided both what effects they should have and where in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> they should be placed. The two main options regarding effects for <style=\"CurrentLink\">Chargers</style> are to provide either <style=\"Link\"><link=\"resources\">Resources</link></style> or <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>. Examples of <style=\"Link\"><link=\"resources\">Resources</link></style> that can be given by <style=\"CurrentLink\">Chargers</style> are <style=\"Link\"><link=\"ammunition\">Ammunition</link></style> and <style=\"Link\"><link=\"health\">Health</link></style> while a common <style=\"Link\"><link=\"improved-abilities\">Improved Ability</link></style> in <style=\"Link\"><link=\"races\">Racing</link></style> is a temporary boost in speed. For <style=\"CurrentLink\">Chargers</style> that replenish <style=\"Link\"><link=\"resources\">Resources</link></style> the question of how fast they refill players supplies also need to be considered.",
+            "<style=\"CurrentLink\">Chargers</style> and <style=\"Link\"><link=\"power-ups\">Power-Ups</link></style> have quite similar effects on gameplay and one might consider replacing one with the other, or make use of both in games.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "Given their importance to gameplay, it may be relevant to make <style=\"CurrentLink\">Chargers</style> have <style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style> so that players are unlikely to miss noticing them.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Chargers</style> main function is to provide <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style> in <style=\"Link\"><link=\"races\">Races</link></style>. While <style=\"CurrentLink\">Chargers</style> in many cases affect <style=\"Link\"><link=\"resources\">Resources</link></style> that players have when they activate, they can also be treated as <style=\"Link\"><link=\"resources\">Resources</link></style> in themselves. <style=\"CurrentLink\">Chargers</style> provide means for players to get <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> as well as being sources for <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>. In the latter case, they function as both <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> but do typically not produce any <style=\"Link\"><link=\"resources\">Resources</link></style> unless players are in the immediate vicinity. They are <style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style> in <style=\"Link\"><link=\"game-worlds\">Game Worlds</link></style> that provide <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style> and usually define natural <style=\"Link\"><link=\"traverse\">Traverse</link></style> goals to <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style> and <style=\"Link\"><link=\"collecting\">Collecting</link></style> goals through <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>. All these characteristics of <style=\"CurrentLink\">Chargers</style> help make the areas that contain them into <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>.",
+            "If <style=\"CurrentLink\">Chargers</style> provides bonuses beyond the normal limits of the game, i.e., letting players move faster than otherwise possible, the <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style> they provide can also be seen as <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>. For <style=\"CurrentLink\">Chargers</style> that give a certain effect per time unit spent in its effect area (typically a replenishing of a <style=\"Link\"><link=\"resources\">Resource</link></style>), staying on them require <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style> for players between this and other actions, and may also require a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style> judgments if hostile actions are possible against them.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"environmental-effects\">Environmental Effects</link></style>, <style=\"Link\"><link=\"gain-competence\">Gain Competence</link></style>, <style=\"Link\"><link=\"improved-abilities\">Improved Abilities</link></style>, <style=\"Link\"><link=\"location-fixed-abilities\">Location-Fixed Abilities</link></style>, <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>, <style=\"Link\"><link=\"strategic-locations\">Strategic Locations</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style>, <style=\"Link\"><link=\"resource-locations\">Resource Locations</link></style>, <style=\"Link\"><link=\"renewable-resources\">Renewable Resources</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Risk/Reward\">Risk/Reward</link></style>, <style=\"Link\"><link=\"supporting-goals\">Supporting Goals</link></style>, <style=\"Link\"><link=\"trade-offs\">Trade-Offs</link></style>, <style=\"Link\"><link=\"traverse\">Traverse</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style></style>",
+            "<style=\"Link\"><link=\"collecting\">Collecting</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"health\">Health</link></style>, <style=\"Link\"><link=\"maneuvering\">Maneuvering</link></style>, <style=\"Link\"><link=\"races\">Races</link></style>, <style=\"Link\"><link=\"resources\">Resources</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"diegetically-outstanding-features\">Diegetically Outstanding Features</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "environmental-effects",
+            "gain-competence",
+            "improved-abilities",
+            "location-fixed-abilities",
+            "privileged-abilities",
+            "strategic-locations",
+            "resources",
+            "resource-generators",
+            "resource-locations",
+            "renewable-resources",
+            "risk-reward",
+            "supporting-goals",
+            "trade-offs",
+            "traverse",
+            "collecting"
+        ],
+        "modulates" : [
+            "health",
+            "maneuvering",
+            "races",
+            "resources"
+        ],
+        "instantiated_by" : [
+        ],
+        "modulated_by" : [
+            "diegetically-outstanding-features"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

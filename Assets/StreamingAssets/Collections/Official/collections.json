@@ -1,0 +1,79 @@
+{
+    "name" : "Collections",
+    "categories" : [
+        "Patterns",
+        "Goal Patterns"
+    ],
+    "texts" : {
+        "definition" : "The goal of achieving a set of several other goals.",
+        "markups" : [
+            "<style=\"Definition\">The goal of achieving a set of several other goals.</style>",
+            "Games offer goals for players to try and reach, and many games provide many goals. One way of organizing these goals is to make additional goals which consist of reaching specific other goals, i.e., <style=\"CurrentLink\">Collections</style> of other goals. This creates a hierarchy of goals that can be used to provide a gameplay structure and allow planning of how players experience a game.",
+            "<style=\"H3\">Examples</style>",
+            "<style=\"CurrentLink\">Collections</style> exist in many if not most games. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Lotto\">Lotto</link></style>, a <style=\"CurrentLink\">Collection</style> is completed by getting matching numbers during a draw. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Pac-Man\">Pac-Man</link></style> has to gobble up all the pills to finish a level. While eating each pill is a very low-level goal, the goal for each level is the <style=\"CurrentLink\">Collection</style> of all pills. Players try to survive exploring <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Drakborgen\">Drakborgen</link></style> and get the most valuable <style=\"CurrentLink\">Collection</style> of treasures. ",
+            "In contrast, participants in a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Decathlon\">Decathlon</link></style> try to win as many events as possible where each event can be seen as a game or competition. Similarly, the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/WarioWare%20series\">WarioWare series</link></style> focuses on small and quick games that must be completed in sequence as part of a <style=\"CurrentLink\">Collection</style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "A basic requirement of integrating <style=\"CurrentLink\">Collections</style> into a game design is choosing what things are to be gathered through <style=\"Link\"><link=\"collecting\">Collecting</link></style>. Most <style=\"Link\"><link=\"game-items\">Game Items</link></style> can work for gathering diegetic <style=\"CurrentLink\">Collections</style>, and the <style=\"Link\"><link=\"collecting\">Collecting</link></style> or <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style> needed can be enabled for example through <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style>, or through making the <style=\"Link\"><link=\"game-items\">Game Items</link></style> in question into <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>. <style=\"CurrentLink\">Collections</style> are however defined independently of how these are acquired <style=\"Link\"><link=\"game-items\">Game Items</link></style> &mdash; <style=\"Link\"><link=\"deliver\">Deliver</link></style> examines the goal of moving a <style=\"Link\"><link=\"game-items\">Game Item</link></style> to a particular point and the goals can be combined. Deciding which things need to be collected can be seen as defining a <style=\"Link\"><link=\"sets\">Set</link></style> of <style=\"Link\"><link=\"game-items\">Game Items</link></style>, but such <style=\"Link\"><link=\"sets\">Sets</link></style> can provide other benefits than only completing a <style=\"CurrentLink\">Collection</style> goal. <style=\"CurrentLink\">Collections</style> of <style=\"Link\"><link=\"resources\">Resources</link></style> can be used to define <style=\"Link\"><link=\"scores\">Scores</link></style>.",
+            "While <style=\"Link\"><link=\"collecting\">Collecting</link></style> each thing for the <style=\"CurrentLink\">Collection</style> can be seen as a <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Goal%20Patterns\">Goal</link></style> in itself, other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Goal%20Patterns\">Goals</link></style> (including other <style=\"CurrentLink\">Collections</style>) can be used explicitly to form <style=\"CurrentLink\">Collection</style> goals. Goals of eliminating <style=\"Link\"><link=\"enemies\">Enemies</link></style> (including <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>) is one possible example of using other <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Goal%20Patterns\">Goals</link></style> (specifically <style=\"Link\"><link=\"eliminate\">Eliminate</link></style>) to make a <style=\"CurrentLink\">Collection</style> goal. <style=\"CurrentLink\">Collections</style> can also consist of <style=\"Link\"><link=\"check-points\">Check Points</link></style> as a way of tracking progress, this use adds most benefit in <style=\"Link\"><link=\"races\">Races</link></style> which do not have a forced linear progression. <style=\"Link\"><link=\"achievements\">Achievements</link></style> open up for meta game <style=\"CurrentLink\">Collections</style> and achieving a set of endings in games with <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style> is another meta game example.",
+            "<style=\"H3\">Narration Aspects</style>",
+            "<style=\"CurrentLink\">Collections</style> can support <style=\"Link\"><link=\"quests\">Quests</link></style> or <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> if it makes sense to progress the intended story due to several <style=\"Link\"><link=\"game-items\">Game Items</link></style> being brought together. Examples of this include parts that can be used to build or repair <style=\"Link\"><link=\"tools\">Tools</link></style>, <style=\"Link\"><link=\"vehicles\">Vehicles</link></style>, or <style=\"Link\"><link=\"installations\">Installations</link></style>. Another case when <style=\"CurrentLink\">Collections</style> supports <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style> is when several different diegetic goals need to be solved to achieve something, e.g., resolving a conflict by convincing all involved participants to make peace.",
+            "<style=\"H2\">Consequences</style>",
+            "By its definition of consisting of other goals, <style=\"CurrentLink\">Collections</style> create <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>. When requiring <style=\"Link\"><link=\"game-items\">Game Items</link></style>, it naturally leads to <style=\"Link\"><link=\"collecting\">Collecting</link></style> activities and possibly <style=\"Link\"><link=\"configuration\">Configuration</link></style> goals as well. Many <style=\"CurrentLink\">Collections</style> also help create or structure <style=\"Link\"><link=\"quests\">Quests</link></style> and <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>. <style=\"CurrentLink\">Collections</style> of <style=\"Link\"><link=\"achievements\">Achievements</link></style> create <style=\"Link\"><link=\"meta-games\">Meta Games</link></style>, but <style=\"CurrentLink\">Collections</style> can themselves create <style=\"Link\"><link=\"grind-achievements\">Grind Achievements</link></style> when combined with <style=\"Link\"><link=\"goal-achievements\">Goal Achievements</link></style>, <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, or <style=\"Link\"><link=\"testing-achievements\">Testing Achievements</link></style>. ",
+            "More specifically <style=\"CurrentLink\">Collections</style> of <style=\"Link\"><link=\"eliminate\">Eliminate</link></style> goals create <style=\"Link\"><link=\"team-elimination\">Team Elimination</link></style> goals, and <style=\"CurrentLink\">Collections</style> related to <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style> can create <style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"collecting\">Collecting</link></style>, <style=\"Link\"><link=\"configuration\">Configuration</link></style>, <style=\"Link\"><link=\"check-points\">Check Points</link></style>, <style=\"Link\"><link=\"goal-hierarchies\">Goal Hierarchies</link></style>, <style=\"Link\"><link=\"narration-structures\">Narration Structures</link></style>, <style=\"Link\"><link=\"quests\">Quests</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"achievements\">Achievements</link></style></style>",
+            "<style=\"Link\"><link=\"meta-games\">Meta Games</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"eliminate\">Eliminate</link></style></style>",
+            "<style=\"Link\"><link=\"team-elimination\">Team Elimination</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"goal-achievements\">Goal Achievements</link></style>, <style=\"Link\"><link=\"optional-goals\">Optional Goals</link></style>, or <style=\"Link\"><link=\"testing-achievements\">Testing Achievements</link></style></style>",
+            "<style=\"Link\"><link=\"grind-achievements\">Grind Achievements</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Resource%20Generators\">Resource Generators</link></style></style>",
+            "<style=\"Link\"><link=\"dynamic-goal-characteristics\">Dynamic Goal Characteristics</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"resources\">Resources</link></style></style>",
+            "<style=\"Link\"><link=\"scores\">Scores</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"game-items\">Game Items</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"achievements\">Achievements</link></style>, <style=\"Link\"><link=\"enemies\">Enemies</link></style>, <style=\"Link\"><link=\"gain-ownership\">Gain Ownership</link></style>, <style=\"Link\"><link=\"last-man-standing\">Last Man Standing</link></style>, <style=\"Link\"><link=\"open-destiny\">Open Destiny</link></style>, <style=\"Link\"><link=\"pick-ups\">Pick-Ups</link></style>, <style=\"Link\"><link=\"sets\">Sets</link></style>, <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Transfer%20of%20Control\">Transfer of Control</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ownership\">Ownership</link></style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "collecting",
+            "configuration",
+            "check-points",
+            "goal-hierarchies",
+            "narration-structures",
+            "quests",
+            "meta-games",
+            "team-elimination",
+            "grind-achievements",
+            "dynamic-goal-characteristics",
+            "scores"
+        ],
+        "modulates" : [
+            "game-items"
+        ],
+        "instantiated_by" : [
+            "achievements",
+            "enemies",
+            "gain-ownership",
+            "last-man-standing",
+            "open-destiny",
+            "pick-ups",
+            "sets",
+            "transfer-control"
+        ],
+        "modulated_by" : [
+            "ownership"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

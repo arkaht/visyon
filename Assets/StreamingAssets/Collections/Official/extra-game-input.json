@@ -1,0 +1,75 @@
+{
+    "name" : "Extra-Game Input",
+    "categories" : [
+        "Patterns",
+        "Pervasive Patterns"
+    ],
+    "texts" : {
+        "definition" : "Affects on game states whose sources are neither internal nor directly from players.",
+        "markups" : [
+            "<style=\"Definition\">Affects on game states whose sources are neither internal nor directly from players.</style>",
+            "Game systems consist of states and rules for how these states can change. The changes are usually initiated through the actions of players or as follow-up effects from earlier changes, but depending on the physical instantiation of a game other forces may be able to affect the game state. Typically this <style=\"CurrentLink\">Extra-Game Input</style> is not supposed to happen and game facilitators, players, or the system itself should strive to prevent this and remove these unwanted changes if possible (e.g. a king knocked over in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Chess\">Chess</link></style> by the wind should be place upright). However, games can be designed to let some types of <style=\"CurrentLink\">Extra-Game Input</style> be permitted as allowed ways to change the system. This is typically to introduce randomness and surprises, or to make it possible to provide new content during game instances.",
+            "<style=\"H3\">Examples</style>",
+            "While a large part of the tasks of game facilitators and game masters typically relies in upholding and running the games, the introduction of new rules or new gameplay content by them can be seen as a form of <style=\"CurrentLink\">Extra-Game Input</style> when done during gameplay and not clearly as independent expansions. Examples of this include additions to games and game worlds made in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Tabletop%20Roleplaying%20Games\">Tabletop Roleplaying Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Dungeons%20&%20Dragons\">Dungeons & Dragons</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Darkness\">World of Darkness</link></style>, patches or interventions in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Massively%20Multiplayer%20Online%20Games\">Massively Multiplayer Online Games</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20of%20Warcraft\">World of Warcraft</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Ultima%20Online\">Ultima Online</link></style>, and updates in social media games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia%20Wars\">Mafia Wars</link></style>. If these are treated as <style=\"CurrentLink\">Extra-Game Input</style> is however subjective; to those that expect these changes and do not suffer unexpected setbacks due to these it can be seen as part of the game while for others it can be seen as surprises or violations of what was considered to be the game.",
+            "Games using sensors do not always qualify as having <style=\"CurrentLink\">Extra-Game Input</style>. For example, those that use various types of location sensors (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Geocaching\">Geocaching</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/SCVNGR\">SCVNGR</link></style>) use these to make the real world part of the gameplay area. Examples of games where the sensors are used more to create input rather than ground the game include the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Boktai%20series\">Boktai series</link></style>, in which players must place the game cartridge in direct sunlight while playing to recharge their solar guns. The use of Bluetooth devices in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Insectopia\">Insectopia</link></style> to generate insects also qualify since the availability of many of these are unpredictable.",
+            "Games where different game instances can be influenced by other game instances, from the same game or other games, are also a way of providing <style=\"CurrentLink\">Extra-Game Input</style>. Examples of such games include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Spore\">Spore</link></style>, where races and artifacts created by players are used to create content in other players' games, and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/NetHack\">NetHack</link></style>, where messages written by a player in one game instance can be found by players in another game instance. In <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/4%20Minutes%20and%2033%20Seconds%20of%20Uniqueness\">4 Minutes and 33 Seconds of Uniqueness</link></style> the only influence players have over the gameplay is when they begin, all other input to the game comes as <style=\"CurrentLink\">Extra-Game Input</style> when other players start playing the game. The ability to help other players in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/CityVille\">CityVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> are borderline cases of <style=\"CurrentLink\">Extra-Game Input</style> since they must have acknowledged each other as neighbors; the ability of non-players to help by clicking links in Facebook is a stronger example.",
+            "<style=\"H2\">Using the pattern</style>",
+            "In relation to other types of input to a game system, the primary concern for <style=\"CurrentLink\">Extra-Game Input</style> is of course its source and if the input should be processed before affecting the game system. Several types of input sources exist. <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style> and some types of <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style> provide ways in which players can provide <style=\"CurrentLink\">Extra-Game Input</style> in strongly regulated ways. <style=\"Link\"><link=\"coupled-games\">Coupled Games</link></style> lets other games provide <style=\"CurrentLink\">Extra-Game Input</style> to games. <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style> lets those not playing a game be able to make gameplay actions and goals easier for players. <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style> and <style=\"Link\"><link=\"game-masters\">Game Masters</link></style> are maybe a somewhat surprising option for <style=\"CurrentLink\">Extra-Game Input</style> since their tasks mainly consist of ensuring that game systems are maintained and updated. However, when they provide <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style> or new gameplay content they are working outside these tasks and changing either the game state in ways not defined by rules or changing the rules themselves.",
+            "<style=\"CurrentLink\">Extra-Game Input</style> is quite natural to consider for games with <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive</link></style> or <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style> since these already assume many potential source for such input will be available. If fact, some types of input may be impossible to avoid, especially in <style=\"Link\"><link=\"hybrid-gameplay-spaces\">Hybrid Gameplay Spaces</link></style>, and not considering these while designing is likely to ruin any chance of reaching intended gameplay. <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style> makes activities that players would do anyway into gameplay events (although the frequency and timing of when the activities are done may change due to being part of the game).",
+            "<style=\"H3\">Diegetic Aspects</style>",
+            "Direct use of <style=\"CurrentLink\">Extra-Game Input</style> into games as content can easily threaten to compromise <style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style> of a game unless the diegesis is very similar to the context in which the input is received.",
+            "<style=\"H3\">Interface Aspects</style>",
+            "A few types of <style=\"CurrentLink\">Extra-Game Input</style> do not directly affect gameplay but are instead used to create <style=\"Link\"><link=\"handles\">Handles</link></style>. The primary case for this is how social media games such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/FarmVille\">FarmVille</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Mafia%20Wars\">Mafia Wars</link></style> make use of profile images as part of creating player <style=\"Link\"><link=\"handles\">Handles</link></style>.",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Extra-Game Input</style> that uses time and dates are input can make games have <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>, which in turn can modify the likelihood of eliciting <style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>. If players can themselves affect the <style=\"CurrentLink\">Extra-Game Input</style>, they may be encouraged to do <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style> which does this as well as may cause <style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style> since the games draw attention to certain real world phenomena. ",
+            "Games that allow <style=\"CurrentLink\">Extra-Game Input</style> through having <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style> make <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"changes-perception-real-world-phenomena-gameplay\">Changes in Perception of Real World Phenomena due to Gameplay</link></style>, <style=\"Link\"><link=\"extra-game-actions\">Extra-Game Actions</link></style>, <style=\"Link\"><link=\"events-timed-real-world\">Events Timed to the Real World</link></style>, <style=\"Link\"><link=\"handles\">Handles</link></style>",
+            "<style=\"H4\">with <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style></style>",
+            "<style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"encouraged-return-visits\">Encouraged Return Visits</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"coupled-games\">Coupled Games</link></style>, <style=\"Link\"><link=\"dedicated-game-facilitators\">Dedicated Game Facilitators</link></style>, <style=\"Link\"><link=\"evolving-rule-sets\">Evolving Rule Sets</link></style>, <style=\"Link\"><link=\"game-element-insertion\">Game Element Insertion</link></style>, <style=\"Link\"><link=\"game-masters\">Game Masters</link></style>, <style=\"Link\"><link=\"hybrid-gameplay-spaces\">Hybrid Gameplay Spaces</link></style>, <style=\"Link\"><link=\"non-player-help\">Non-Player Help</link></style>, <style=\"Link\"><link=\"pervasive-gameplay\">Pervasive Gameplay</link></style>, <style=\"Link\"><link=\"purchasable-game-advantages\">Purchasable Game Advantages</link></style>, <style=\"Link\"><link=\"real-life-activities-affect-game-state\">Real Life Activities Affect Game State</link></style>, <style=\"Link\"><link=\"ubiquitous-gameplay\">Ubiquitous Gameplay</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "N/A",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "<style=\"Link\"><link=\"diegetic-consistency\">Diegetic Consistency</link></style>"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "changes-perception-real-world-phenomena-gameplay",
+            "extra-game-actions",
+            "events-timed-real-world",
+            "handles",
+            "real-life-activities-affect-game-state"
+        ],
+        "modulates" : [
+            "encouraged-return-visits",
+            "pervasive-gameplay",
+            "ubiquitous-gameplay"
+        ],
+        "instantiated_by" : [
+            "coupled-games",
+            "dedicated-game-facilitators",
+            "evolving-rule-sets",
+            "game-element-insertion",
+            "game-masters",
+            "hybrid-gameplay-spaces",
+            "non-player-help",
+            "pervasive-gameplay",
+            "purchasable-game-advantages",
+            "real-life-activities-affect-game-state",
+            "ubiquitous-gameplay"
+        ],
+        "modulated_by" : [
+        ],
+        "conflicts" : [
+            "diegetic-consistency"
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "name" : "Zone of Control",
+    "categories" : [
+        "Patterns",
+        "Mechanical Patterns"
+    ],
+    "texts" : {
+        "definition" : "The ability of game elements to affect the functionality of those adjacent to them.",
+        "markups" : [
+            "<style=\"Definition\">The ability of game elements to affect the functionality of those adjacent to them.</style>",
+            "Regardless of it a game is real-time based or turn-based, it is often impossible for rules to accurately reflect how combatants can react to each others' actions. Having combatants extend a <style=\"CurrentLink\">Zone of Control</style> - the ability to affect other combatants abilities if they are next to each other - is one way to abstractly handling the one should be able to notice and hinder enemies from acting right next to oneself.",
+            "<style=\"H3\">Examples</style>",
+            "Being a military concept, it is not too surprising that <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Wargames\">Wargames</link></style> such as <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Axis%20&%20Allies:%20Battle%20of%20the%20Bulge\">Axis & Allies: Battle of the Bulge</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/World%20War%203\">World War 3</link></style> are the primary users of <style=\"CurrentLink\">Zone of Control</style>. Other games that adopted the use of <style=\"CurrentLink\">Zone of Control</style> include several installments of the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20(video%20game)%20series\">Civilization series</link></style> and <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style>, the later which uses <style=\"CurrentLink\">Zone of Control</style> to make throwing and catching the ball more difficult if opponents are nearby. It also lets players try to tackle those that try to run pass opponents.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The two main design choices for creating <style=\"CurrentLink\">Zone of Control</style> in a game are what generates them and what their effects are. <style=\"CurrentLink\">Zone of Controls</style> typically spread out from <style=\"Link\"><link=\"units\">Units</link></style>, and more rarely from <style=\"Link\"><link=\"avatars\">Avatars</link></style>, but letting <style=\"Link\"><link=\"territories\">Territories</link></style> create them can let them exist independently from these or spread out from <style=\"Link\"><link=\"installations\">Installations</link></style> and other stationary game elements. ",
+            "The effects of a <style=\"CurrentLink\">Zone of Control</style> are most often linked to either <style=\"Link\"><link=\"combat\">Combat</link></style> or <style=\"Link\"><link=\"movement\">Movement</link></style>. For <style=\"Link\"><link=\"combat\">Combat</link></style>, this is typically providing advantages to friendly <style=\"Link\"><link=\"units\">Units</link></style> or disadvantages to hostile ones. A <style=\"CurrentLink\">Zone of Control</style> typically affects <style=\"Link\"><link=\"movement\">Movement</link></style> by imposing <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>, e.g. forcing <style=\"Link\"><link=\"units\">Units</link></style> to stop if they enter a <style=\"CurrentLink\">Zone of Control</style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Civilization%20V\">Civilization V</link></style>), requiring higher <style=\"Link\"><link=\"movement\">Movement</link></style> costs, or allowing attacks if one passes through multiple <style=\"CurrentLink\">Zones of Control</style> (e.g. <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Bloodbowl\">Bloodbowl</link></style>). Some effects can be seen as a related to both <style=\"Link\"><link=\"combat\">Combat</link></style> and <style=\"Link\"><link=\"movement\">Movement</link></style>, e.g. not being allowed to retreat into enemy <style=\"CurrentLink\">Zones of Control</style> and being eliminated if this means retreat is impossible.",
+            "Being able to ignore the <style=\"CurrentLink\">Zone of Control</style> of some types of <style=\"Link\"><link=\"units\">Units</link></style> can be a <style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style> to other types of <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H2\">Consequences</style>",
+            "<style=\"CurrentLink\">Zone of Control</style> is most commonly a way to let <style=\"Link\"><link=\"avatars\">Avatars</link></style> or <style=\"Link\"><link=\"units\">Units</link></style> extended agency beyond the exact physical location they have in a <style=\"Link\"><link=\"game-worlds\">Game World</link></style>. In this, they can be seen as a way to modify <style=\"Link\"><link=\"area-control\">Area Control</link></style>, and can be instrumental in creating phases in game instances where <style=\"Link\"><link=\"expansion\">Expansion</link></style> is the focus of gameplay.",
+            "As they often affect <style=\"Link\"><link=\"combat\">Combat</link></style> or <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"CurrentLink\">Zones of Control</style> create a need for both <style=\"Link\"><link=\"strategic-planning\">Strategic</link></style> and <style=\"Link\"><link=\"tactical-planning\">Tactical Planning</link></style>; the former for determining which areas are generally good to extend these from and the latter for how to handle or place them in any current situation during gameplay. The use of <style=\"CurrentLink\">Zone of Control</style> in any game is likely to significant raise the importance of any <style=\"Link\"><link=\"choke-points\">Choke Points</link></style> present.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"expansion\">Expansion</link></style>, <style=\"Link\"><link=\"movement-limitations\">Movement Limitations</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "<style=\"Link\"><link=\"area-control\">Area Control</link></style>, <style=\"Link\"><link=\"avatars\">Avatars</link></style>, <style=\"Link\"><link=\"choke-points\">Choke Points</link></style>, <style=\"Link\"><link=\"combat\">Combat</link></style>, <style=\"Link\"><link=\"movement\">Movement</link></style>, <style=\"Link\"><link=\"units\">Units</link></style>",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"territories\">Territories</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"privileged-abilities\">Privileged Abilities</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "N/A",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "expansion",
+            "movement-limitations"
+        ],
+        "modulates" : [
+            "area-control",
+            "avatars",
+            "choke-points",
+            "combat",
+            "movement",
+            "units"
+        ],
+        "instantiated_by" : [
+            "territories"
+        ],
+        "modulated_by" : [
+            "privileged-abilities"
+        ],
+        "conflicts" : [
+        ]
+    }
+}

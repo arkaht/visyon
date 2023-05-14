@@ -1,0 +1,52 @@
+{
+    "name" : "Scouting",
+    "categories" : [
+        "Action Patterns",
+        "Patterns"
+    ],
+    "texts" : {
+        "definition" : "Moving in a game world to gain information about threats while trying to not be observed.",
+        "markups" : [
+            "<style=\"Definition\">Moving in a game world to gain information about threats while trying to not be observed.</style>",
+            "Many games do not present the whole game world to players at once. Instead they need to explore it and sometimes move through already explored areas to see if problematic changes have occurred, for example the appearances of enemies. Players have <style=\"CurrentLink\">Scouting</style> goals when a game makes them perform such actions and they should at the same time should avoid being detected. ",
+            "<style=\"H3\">Examples</style>",
+            "Games where <style=\"CurrentLink\">Scouting</style> can be relevant or necessary include <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:FPS%20Games\">First-Person Shooters</link></style> such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Battlefield%20series\">Battlefield series</link></style> and the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Team%20Fortress%20series\">Team Fortress series</link></style>. They are also highly relevant in <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Category:Multiplayer%20Online%20Battle%20Arena%20Games\">MOBA games</link></style> with lanes such as the <style=\"Link\"><link=\"http://virt10.itu.chalmers.se/index.php/Defense%20of%20the%20Ancients%20series\">Defense of the Ancients series</link></style>.",
+            "<style=\"H2\">Using the pattern</style>",
+            "The main requirements for <style=\"CurrentLink\">Scouting</style> to be possible in a game is that players have combined <style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> and <style=\"Link\"><link=\"stealth\">Stealth</link></style> goals. The <style=\"Link\"><link=\"game-worlds\">Game World</link></style> must also support this type of activity, for example through providing <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style>. While patterns such as <style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style> may not be needed (if other ways of being undetected exists) these patterns can modify the difficulty of <style=\"CurrentLink\">Scouting</style>. Games with <style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style> and <style=\"Link\"><link=\"laning\">Laning</link></style> not only support but encourage the activity since players can be aware of specific areas and places that need to be scouted. ",
+            "<style=\"Link\"><link=\"enemies\">Enemies</link></style> or <style=\"Link\"><link=\"traps\">Traps</link></style> are not required for players to engage in <style=\"CurrentLink\">Scouting</style>, but players can feel their actions have been meaningless if they are not present.",
+            "<style=\"H2\">Consequences</style>",
+            "The ability to perform successful <style=\"CurrentLink\">Scouting</style> allows players to succeed with <style=\"Link\"><link=\"evade\">Evade</link></style> goals as well as launch <style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style> (as long as attacks are possible at all). Failure in <style=\"CurrentLink\">Scouting</style> can be due to not noticing things but can also be due to being detected. The latter can lead to <style=\"Link\"><link=\"evade\">Evade</link></style> goals.",
+            "<style=\"H2\">Relations</style>",
+            "<style=\"H3\">Can Instantiate</style>",
+            "<style=\"Link\"><link=\"surprise-attacks\">Surprise Attacks</link></style>",
+            "<style=\"H3\">Can Modulate</style>",
+            "N/A",
+            "<style=\"H3\">Can Be Instantiated By</style>",
+            "<style=\"Link\"><link=\"flanking-routes\">Flanking Routes</link></style>, <style=\"Link\"><link=\"laning\">Laning</link></style>",
+            "<style=\"Link\"><link=\"reconnaissance\">Reconnaissance</link></style> and <style=\"Link\"><link=\"stealth\">Stealth</link></style>",
+            "<style=\"H3\">Can Be Modulated By</style>",
+            "<style=\"Link\"><link=\"hiding-places\">Hiding Places</link></style>",
+            "<style=\"H3\">Possible Closure Effects</style>",
+            "<style=\"Link\"><link=\"evade\">Evade</link></style>",
+            "<style=\"H3\">Potentially Conflicting With</style>",
+            "N/A"
+        ]
+    },
+    "relations" : {
+        "instantiates" : [
+            "surprise-attacks"
+        ],
+        "modulates" : [
+        ],
+        "instantiated_by" : [
+            "flanking-routes",
+            "laning",
+            "reconnaissance"
+        ],
+        "modulated_by" : [
+            "hiding-places"
+        ],
+        "conflicts" : [
+        ]
+    }
+}
