@@ -157,7 +157,7 @@ public class UIPatternPin : MonoBehaviour,
 
 		//  add related patterns
 		string category_name = GetRelationName();
-		searcher.SetActivePatterns( GetPossibleRelations().ToList(), category_name );
+		searcher.SetActivePatterns( GetPossibleRelations(), category_name );
 
 		//  listen to events
 		searcher.OnSpawnPattern.AddListener( pattern => Connect( pattern ) );

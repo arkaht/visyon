@@ -250,7 +250,7 @@ public class Blueprinter : MonoBehaviour,
 		//  spawn searcher
 		if ( shouldSpawnSearcher )
 		{
-			ShowSearcherAtMousePosition().SetActivePatterns( PatternRegistery.AllKeys.ToList() );
+			ShowSearcherAtMousePosition().SetActivePatterns( PatternRegistery.AllKeys );
 			shouldSpawnSearcher = false;
 		}
 

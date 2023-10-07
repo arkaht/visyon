@@ -27,7 +27,7 @@ public record PatternData( string ID, string Name, string[] Categories, PatternT
 
 	public override string ToString()
 	{
-		return $"{GetType().Name}[Name={Name}; Texts={Texts}; Relations={Relations}]";
+		return $"{GetType().Name}[Name={Name}; #Categories={Categories.Length}; Texts={Texts}; Relations={Relations}]";
 	}
 }
 

@@ -168,6 +168,7 @@ public class UIPattern : MonoBehaviour,
 	void Start()
 	{
 		Blueprinter.Instance.AddSerializable( this );
+		PatternRegistery.OnReload.AddListener( () => SetPattern( ID ) );
 	}
 
 	void OnDestroy()

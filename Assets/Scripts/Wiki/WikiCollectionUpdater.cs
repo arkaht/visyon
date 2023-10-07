@@ -39,6 +39,8 @@ namespace Visyon.Wiki
 		internal const string REG_ITALIC = @"''([^']*)''";
 		internal const string REG_PATTERN_CATEGORY = @"^([^|]*Patterns)\|?";
 
+		public static string GetFilePathTo( string id ) => $"{DirectoryPath}{id}.json";
+
 		public static async void ScheduleUpdateAll() => await ScheduleUpdate( "Wiki Collection Update", () => patternsPages.ToArray() );
 		public static async Task ScheduleUpdate( string title, Func<string[]> get_patterns )
 		{
@@ -366,7 +368,7 @@ namespace Visyon.Wiki
 
 			//  write to file
 			Directory.CreateDirectory( DirectoryPath );
-			await File.WriteAllTextAsync( DirectoryPath + pattern_id + ".json", data_pattern.Serialize().ToString( 4 ) );
+			await File.WriteAllTextAsync( GetFilePathTo( pattern_id ), data_pattern.Serialize().ToString( 4 ) );
 		}
 
 		public static string ReplaceReferences( string input, string current_pattern_id = "" )

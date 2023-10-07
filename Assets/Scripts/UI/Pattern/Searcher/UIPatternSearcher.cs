@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class UIPatternSearcher : MonoBehaviour
 {
 	public bool IsCategorizing { get; private set; } = false;
-	public List<string> ActivePatterns { get; private set; } = new();
+	public ICollection<string> ActivePatterns { get; private set; }
 
 	public UnityEvent<UIPattern> OnSpawnPattern;
 	public UnityEvent OnRemove;
@@ -44,11 +44,17 @@ public class UIPatternSearcher : MonoBehaviour
 		Populate();
 	}
 
-	public void SetActivePatterns( List<string> ids, string global_category = ALL_PATTERNS_CATEGORY )
+	public void SetActivePatterns( ICollection<string> ids, string global_category = ALL_PATTERNS_CATEGORY )
 	{
 		ActivePatterns = ids;
 		globalCategory = global_category;
 
+		Clear();
+		Populate();
+	}
+
+	public void Reload() 
+	{
 		Clear();
 		Populate();
 	}
@@ -186,8 +192,7 @@ public class UIPatternSearcher : MonoBehaviour
 		isRemoveCalled = false;
 
 		//  bind to event
-		//PatternRegistery.OnReload.AddListener( Reload );
-		//Reload();
+		PatternRegistery.OnReload.AddListener( Reload );
 	}
 
 	void OnDisable()
@@ -199,6 +204,6 @@ public class UIPatternSearcher : MonoBehaviour
 		}
 
 		//  unbind to event
-		//PatternRegistery.OnReload.RemoveListener( Reload );
+		PatternRegistery.OnReload.RemoveListener( Reload );
 	}
 }
